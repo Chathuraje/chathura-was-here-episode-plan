@@ -5,7 +5,7 @@
 `Notes/Ideas/<Chapter>/<Concept ...>/sources/`.
 
 The output is one new file per concept, named after the book
-(e.g. `Abhidhammattha Pradeepika.md`), sitting beside the existing `data.md`.
+(e.g. `Abhidhammattha Pradeepika.md`), sitting beside the existing `Abhidharma Margaya.md`.
 
 ---
 
@@ -13,7 +13,7 @@ The output is one new file per concept, named after the book
 
 - **Never modify the source book `.md`.** Verify its byte count and hash before
   and after; they must be identical.
-- **Never modify any existing `data.md`.** Those come from a different source
+- **Never modify any existing `Abhidharma Margaya.md`.** Those come from a different source
   book and are the reference for what each concept means.
 - Add only new files. Do not rename or move existing folders.
 - Ignore any images inside `sources/` — they are unrelated to this task.
@@ -98,20 +98,20 @@ Chapter and section names repeat throughout these books, so **never match on
 title alone.**
 
 Before assigning a passage to a concept, read that concept's existing
-`data.md` and check what it actually covers:
+`Abhidharma Margaya.md` and check what it actually covers:
 
 ```bash
-grep -E '^#{1,3} ' "Notes/Ideas/Chapter N/Concept M - .../sources/data.md"
+grep -E '^#{1,3} ' "Notes/Ideas/Chapter N/Concept M - .../sources/Abhidharma Margaya.md"
 ```
 
 This test repeatedly changed the answer during Book 1:
 
-- Concepts 46 and 47 looked interchangeable by title. `data.md` showed
+- Concepts 46 and 47 looked interchangeable by title. `Abhidharma Margaya.md` showed
   Concept 46 is the vibhūta/avibhūta vīthis with diagrams and Concept 47 is the
   occasions — the opposite of the first assignment.
-- Concept 43's `data.md` contains a section headed **නියාම ධර්ම**, which is what
+- Concept 43's `Abhidharma Margaya.md` contains a section headed **නියාම ධර්ම**, which is what
   established that අර්පණා නියමය belongs there with the other niyama rules.
-- Concept 48's `data.md` states that most Abhidhamma books place maraṇāsanna and
+- Concept 48's `Abhidharma Margaya.md` states that most Abhidhamma books place maraṇāsanna and
   appanā vīthi in chapter four — which explained a whole structural mismatch
   between the two source books.
 
@@ -119,7 +119,7 @@ Useful cross-check for whether a topic has any home at all:
 
 ```bash
 for t in TOPIC1 TOPIC2; do
-  echo -n "$t -> "; grep -rl "$t" "Notes/Ideas" --include=data.md | tr '\n' ' '; echo
+  echo -n "$t -> "; grep -rl "$t" "Notes/Ideas" --include='Abhidharma Margaya.md' | tr '\n' ' '; echo
 done
 ```
 
@@ -209,7 +209,7 @@ its routing reason, so the whole set of judgment calls can be reviewed at once.
 Re-reading your own routing table proves nothing. Read the files back from disk
 and check:
 
-1. **Originals untouched.** Book `.md` byte count and hash unchanged; `data.md`
+1. **Originals untouched.** Book `.md` byte count and hash unchanged; `Abhidharma Margaya.md`
    count unchanged.
 2. **Coverage.** Every non-blank commentary line appears in some concept file or
    the collection document. Report the count of unplaced lines; it should be 0,
