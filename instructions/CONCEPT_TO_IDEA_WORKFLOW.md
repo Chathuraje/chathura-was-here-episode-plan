@@ -10,7 +10,7 @@ Reviewed snapshot: `ef70024ac8e40ee19b8e4e5f9a3eed890bd3f873` on 17 September 20
 
 The complete repository tree contains 102 concept folders across nine chapters, with 212 files inside their sources folders. It also contains four Pradeepika book Markdown files, four source maps, and extraction/splitting guidance. Review for this workflow covered the full inventory and selected source content, especially Concepts 1, 5 and 6, with additional readings from Concepts 20 and 92. This is not a completed extraction or doctrinal audit of all 102 concepts.
 
-Actual input structure: `notes/concepts/Chapter N/Concept N - <Sinhala title>/sources/`. Discover every source file in a folder; do not assume exactly two. Some later concepts contain an additional Book 4 file. The older splitting guide refers to `Notes/Ideas/`; use the actual current paths above.
+Actual input structure: `content/02-concepts/Chapter N/Concept N - <Sinhala title>/sources/`. Discover every source file in a folder; do not assume exactly two. Some later concepts contain an additional Book 4 file. The older splitting guide refers to `Notes/Ideas/`; use the actual current paths above.
 
 The sampled Pradeepika files identify themselves as verbatim Sinhala commentary extracts, not summaries. They carry source metadata and page markers. Treat that as declared provenance, not independent verification against the printed books. Preserve PDF-page and printed-page labels separately. Margaya samples have different metadata coverage; never invent missing page numbers.
 
@@ -46,10 +46,10 @@ These are proposed additions, not existing files or changes already made:
 | Path | Purpose |
 |---|---|
 | `instructions/concept-to-idea.md` | Copy the agent instruction section below here. |
-| `notes/idea-bank/concept-register.md` | Source coverage and processing status for each concept. |
-| `notes/idea-bank/source-notes/C006.md` | Meaning, distinctions and evidence for one concept. |
-| `notes/idea-bank/ideas/C006-I01.md` | One accepted or held idea card. |
-| `notes/idea-bank/index.md` | IDs, titles, primary concept, tags, status and links. |
+| `content/03-idea-bank/concept-register.md` | Source coverage and processing status for each concept. |
+| `content/03-idea-bank/source-notes/C006.md` | Meaning, distinctions and evidence for one concept. |
+| `content/03-idea-bank/ideas/C006-I01.md` | One accepted or held idea card. |
+| `content/03-idea-bank/index.md` | IDs, titles, primary concept, tags, status and links. |
 
 Keep existing source files unchanged. Keep IDs stable: if a card is merged, retain its ID as an alias pointing to the surviving card. Record the generating instruction version and source snapshot. When sources change, mark affected cards for review rather than silently treating old interpretations as current.
 
@@ -139,7 +139,7 @@ Stop after the idea bank update. A future research agent must find and verify re
 
 ## Reusable run request
 
-Read `instructions/concept-to-idea.md`. Process the complete sources for Concepts [IDs] at repository snapshot [commit]. Compare with [existing idea index, or “none supplied”]. Produce up to three distinct clean ideas per concept, permitting zero. Save source notes, reviewed cards and index updates under `notes/idea-bank/`. Report reading coverage and unresolved questions. Stop before story selection or screenplay development.
+Read `instructions/concept-to-idea.md`. Process the complete sources for Concepts [IDs] at repository snapshot [commit]. Compare with [existing idea index, or “none supplied”]. Produce up to three distinct clean ideas per concept, permitting zero. Save source notes, reviewed cards and index updates under `content/03-idea-bank/`. Report reading coverage and unresolved questions. Stop before story selection or screenplay development.
 
 ## Worked example — Concept 6
 
@@ -157,7 +157,7 @@ Read `instructions/concept-to-idea.md`. Process the complete sources for Concept
 
 **Limits and alternatives:** This is a limited human application of a doctrinal distinction, not a complete translation of the eightfold classification. Necessity, social pressure or lack of alternatives may explain an outwardly similar action. The idea must not be used to infer another person’s motive from behaviour alone.
 
-**Source trace:** Snapshot `ef70024ac8e40ee19b8e4e5f9a3eed890bd3f873`; `notes/concepts/Chapter 1/Concept 6 - ලෝභමූල සිත් අට උපදනා සැටි/sources/Abhidhammattha Pradeepika.md`, heading `තුන්වැනි ලෝභමූල සිත`, PDF 48 / printed 37, supports acknowledging consequences while desire persists. The same folder’s `Abhidharma Margaya.md`, numbered descriptions (1)–(4), supports the distinction between action with and without a justificatory view and prompting. Its sample provides no page locator. Neither source establishes the proposed contemporary settings.
+**Source trace:** Snapshot `ef70024ac8e40ee19b8e4e5f9a3eed890bd3f873`; `content/02-concepts/Chapter 1/Concept 6 - ලෝභමූල සිත් අට උපදනා සැටි/sources/Abhidhammattha Pradeepika.md`, heading `තුන්වැනි ලෝභමූල සිත`, PDF 48 / printed 37, supports acknowledging consequences while desire persists. The same folder’s `Abhidharma Margaya.md`, numbered descriptions (1)–(4), supports the distinction between action with and without a justificatory view and prompting. Its sample provides no page locator. Neither source establishes the proposed contemporary settings.
 
 **Tags:** desire; decisions; consequences; self-understanding.
 

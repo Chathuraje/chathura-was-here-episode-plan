@@ -92,11 +92,11 @@ Instruction version: `concept-to-idea v1 (2026-09-17)`. Source snapshot: `ef7002
 
 | Path | Contents |
 |---|---|
-| `notes/idea-bank/index.md` | Every idea: ID, title, primary concept, tags, status, link. |
-| `notes/idea-bank/concept-register.md` | One row per concept: sources, read coverage, source note, idea IDs, status. |
-| `notes/idea-bank/source-notes/` | One source understanding note per concept. |
-| `notes/idea-bank/ideas/` | One file per idea card. |
-| `notes/idea-bank/batch-reports/` | Coverage report, held questions and merge records for each batch. |
+| `content/03-idea-bank/index.md` | Every idea: ID, title, primary concept, tags, status, link. |
+| `content/03-idea-bank/concept-register.md` | One row per concept: sources, read coverage, source note, idea IDs, status. |
+| `content/03-idea-bank/source-notes/` | One source understanding note per concept. |
+| `content/03-idea-bank/ideas/` | One file per idea card. |
+| `content/03-idea-bank/batch-reports/` | Coverage report, held questions and merge records for each batch. |
 
 ### Naming
 
@@ -144,7 +144,7 @@ Hypothetical research direction: ...
 concept_id: C006
 concept_title_si: ලෝභමූල සිත් අට උපදනා සැටි
 concept_title_en: How the eight greed-rooted mind-states arise
-folder: notes/concepts/Chapter 1/Concept 6 - ලෝභමූල සිත් අට උපදනා සැටි
+folder: content/02-concepts/Chapter 1/Concept 6 - ලෝභමූල සිත් අට උපදනා සැටි
 sources_read: [Abhidhammattha Pradeepika.md, Abhidharma Margaya.md]
 read_coverage: complete          # complete | partial (list the unread ranges)
 status: ready                    # ready | held | no suitable idea | partial
