@@ -2,7 +2,7 @@
   "name": "chathura-was-here-explorer",
   "version": "0.1.0",
   "private": true,
-  "description": "Interactive explorer for the Chathura Was Here research pipeline: sources, concepts, ideas, territories, shortlist and story leads.",
+  "description": "Interactive explorer for the idea-based Chathura Was Here episode plan.",
   "scripts": {
     "setup": "node scripts/local-cache.mjs --install",
     "predev": "node scripts/local-cache.mjs",
