@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0060",
+  "record_type": "idea",
+  "title": "Still Learning",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "In a mask-carving workshop on the south-west coast, apprentices at every stage work beside a carver who has done it for decades, and who still calls themselves a learner.",
+  "human_question": "If even the master is still learning, where does being lost end?",
+  "premise": {
+    "story": "The rhythm of a working carving workshop over a real commission: the youngest apprentice's mistakes, a middle apprentice given a harder face to carve, and the master deciding who is ready for what.",
+    "place": "A family workshop on the coast: wood shavings, paint pots, rows of half-finished faces staring from the shelves.",
+    "experience": "The viewer watches skill being passed on in small corrections, and feels how long it takes to see what an expert sees."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C049",
+      "role": "primary",
+      "why": "The sources call everyone short of the very end a 'learner', still in training [C049-P:L55; C049-M:L11]. The workshop makes the structure visible. The source's stages are spiritual, not craft skill, and the film must not equate them."
+    },
+    {
+      "concept_id": "C086",
+      "role": "supporting",
+      "why": "A good guide does not give everyone the same instruction; they look closely at the person, or ask [C086-P4:L278]. The master's handing out of tasks is an everyday version of that."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Hands at every level of skill on the same kind of work",
+    "An apprentice's mistake, and how the master corrects it",
+    "Harder tasks slowly handed over",
+    "Faces emerging from wood, then paint",
+    "Finished masks leaving the workshop"
+  ],
+  "what_must_be_real": "The workshop, the apprentices and the commission must be real. Nothing is taught for the camera's benefit.",
+  "possible_arc": {
+    "opening": "Rows of blank wooden faces.",
+    "turn": "An apprentice is given something beyond them.",
+    "ending_open": "The commission leaves. What the master says about their own learning ends the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working mask-carving workshop that trains apprentices",
+      "A real commission in progress during filming",
+      "Consent from the master and each apprentice"
+    ],
+    "suggestions": [
+      {
+        "name": "Ambalangoda",
+        "region": "Galle district, Southern Province",
+        "why": "The best-known centre of traditional mask carving in Sri Lanka, with family workshops.",
+        "season_notes": "",
+        "access_notes": "Some workshops are tourist-facing; a working, teaching one is needed",
+        "verify": "Confirm a workshop that still trains apprentices.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Implying craft mastery equals spiritual attainment",
+    "Ranking the apprentices",
+    "Craft showcase with no stake"
+  ],
+  "drop_if": [
+    "No workshop is training apprentices during the filming window"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0062",
+      "relation": "pairs with",
+      "note": "A master reading apprentices here; a meditation teacher reading a newcomer there."
+    },
+    {
+      "idea_id": "IDEA-0061",
+      "relation": "alternative to",
+      "note": "Both are craft films about looking closely; choose one to avoid two workshop films in the group."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

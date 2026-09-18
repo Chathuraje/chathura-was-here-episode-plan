@@ -27,6 +27,23 @@ export default async function Home() {
         <div><strong>{extracts}</strong><span>concept extracts</span></div>
       </section>
 
+      <section className="pipeline" aria-label="Development pipeline">
+        {[
+          { label: "Concept digests", value: `${dev.digests.size}/${data.concepts.size}`, href: "/arc" },
+          { label: "Candidate ideas", value: String(dev.ideas.length), href: "/ideas" },
+          { label: "Films in slate", value: `${dev.episodes.length}/98`, href: "/chronology" },
+          { label: "Locations chosen", value: `${dev.episodes.filter((episode) => episode.location.selected_location_id).length}/${dev.episodes.length || 98}`, href: "/chronology" },
+          { label: "Release plan", value: "after locations", href: "/release" },
+          { label: "Screenplays", value: "after locations", href: "/chronology" },
+        ].map((step, index) => (
+          <Link key={step.label} href={step.href} className="pipeline-step">
+            <span>{String(index + 2).padStart(2, "0")}</span>
+            <strong>{step.value}</strong>
+            <small>{step.label}</small>
+          </Link>
+        ))}
+      </section>
+
       <div className="feature-grid">
         <Link className="feature-card" href="/sources">
           <span className="feature-index">01</span>

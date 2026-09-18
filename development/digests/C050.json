@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C050",
+  "record_type": "concept_digest",
+  "concept_id": "C050",
+  "group_id": "GRP-08",
+  "title_si": "භූමිවල සිත් ලැබෙන සැටි",
+  "title_en": "Which minds arise in which planes of existence",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C050-P",
+      "path": "content/02-concepts/Chapter 4/Concept 50 - භූමිවල සිත් ලැබෙන සැටි/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-80",
+      "complete": true,
+      "markers": "Book 1, ch. 4 (වීථි සංග්‍රහ විභාගය), pdf 407–410 / printed 397–400; extract starts mid-page on pdf 407; ends with the භූමි පුද්ගල භේදය table on pdf 410"
+    },
+    {
+      "ref": "C050-M",
+      "path": "content/02-concepts/Chapter 4/Concept 50 - භූමිවල සිත් ලැබෙන සැටි/sources/Abhidharma Margaya.md",
+      "lines": "1-21",
+      "complete": true,
+      "markers": "Section headed '13. භූමිවල සිත් ලැබෙන සැටි'; no page markers in extract; closes the fourth (vīthi) chapter"
+    }
+  ],
+  "summary_en": "This concept sorts the 80 kinds of consciousness that occur in mental processes (vīthi-citta) by the plane of existence in which a being is born. Both sources agree on the totals: all 80 are possible in the sense-sphere planes, 64 in the fine-material (rūpa) planes, 42 in the immaterial (arūpa) planes and none at all among the non-percipient beings [C050-P:L29; C050-P:L41; C050-P:L45; C050-P:L53; C050-M:L11–L15]. What is missing in each plane is missing because the sense doors that would carry it are absent, or because the plane was reached through meditative detachment that shuts out certain states such as aversion [C050-P:L39; C050-M:L17]. Pradeepika adds a table of how many kinds of mind each type of person can have in each plane, ranging from 54 down to 18 [C050-P:L61–L80].",
+  "sinhala_explanation": [
+    {
+      "heading": "භූමි භේදය: උපදින තැන අනුව සිත් බෙදීම",
+      "text": "සත්ත්වයන් උපදින භූමි අනුව සිත් බෙදා දැක්වීම භූමි භේදය නම් වේ. භූමි තුනකි: කාම භූමි, රූප භූමි, අරූප භූමි [C050-P:L25–L27]. දිව්‍ය ලෝක සය, මනුෂ්‍ය ලෝකය සහ සතර අපාය යන එකොළොස කාම භූමි ය. එහි උපදින සත්ත්වයන්ට වීථි සිත් අසූවම ඒ ඒ පුද්ගලයාට සුදුසු පරිදි ලැබේ [C050-P:L29; C050-M:L3]. කාම භූමියේ භූමි එකොළොසක්, ප්‍රතිසන්ධි සිත් දහයක්, රූප විසිඅටක් සහ ද්වාර සයක් පරිපූර්ණ ආයතන ඇති සත්ත්වයන්ට ලැබේ [C050-P:L31]. මාර්ගයට අනුව කාම භූමියේ සියලු වීථි සිත් ලැබෙන්නේ එහි ද්වාර සයත්, සියලු වර්ගවල පුද්ගලයනුත් ඇති බැවිනි [C050-M:L17].\n\nප්‍රදීපිකාව විශේෂයෙන් සඳහන් කරන්නේ, සිත් අසූවම ලැබෙන්නේ අඞ්ග විකලත්වයක් නැති සත්ත්වයන්ට බවය. උපතින්ම යම් ද්වාරයක් නැති කල්හි, එම ද්වාරය නිසා උපදින වීථි සිත් ඇති නොවේ [C050-P:L31]. එමෙන්ම කාම භූමියේ අහේතුක, ද්විහේතුක, ත්‍රිහේතුක පෘථග්ජන, ධ්‍යානලාභී, මාර්ග ඵලස්ථ ආදී පුද්ගලයන්ට ලැබෙන්නේ පුද්ගල භේදයේ දැක්වූ පරිදි තම තමන්ට අයත් සිත් පමණි [C050-P:L31]. භූමිනිශ්‍රිත විනිපාතික අසුරයන්, වෘක්ෂ දේවතාවන් සහ පර්වත, ගංගා, සමුද්‍ර ඇසුරු කරගෙන වසන දෙවියන් චාතුම්මහාරාජික භූමියටම ඇතුළත් වන බවද එහි කියැවේ [C050-P:L31]."
+    },
+    {
+      "heading": "රූපාවචර භූමියේ නොලැබෙන සිත් දහසය",
+      "text": "රූපාවචර භූමියේ ද්වේෂ මූල සිත් දෙක ද, තදාරම්මණ සිත් ද පහළ නොවේ. තදාරම්මණ සිත් එකොළොසින් සන්තීරණ සිත් තුන පමණක් සන්තීරණ කෘත්‍යය කරමින් උපදී; මහා විපාක සිත් කිසිසේත් නොලැබේ [C050-P:L33–L37]. ඝාණ, ජිව්හා, කාය යන ද්වාර තුන එහි නැති බැවින් ඝාණ, ජිව්හා, කාය විඤ්ඤාණ සිත් සය ද නූපදී. ප්‍රදීපිකාව දෙන හේතුව නම්, බ්‍රහ්ම ලෝකයේ උපත සිදුවන්නේ කාම විරාග භාවනා බලයෙන් බැවින්, කාම ගුණ විඳීමට පමණක් උපකාර වන මේ ප්‍රසාද තුන එහි නොලැබීමය [C050-P:L39]. එබැවින් රූපී බ්‍රහ්මයන්ට ද්වේෂ මූල සිත් දෙක, මහා විපාක අට සහ ඝාණ-ජිව්හා-කාය විඤ්ඤාණ සය යන සිත් දහසය නොලැබේ; ඉතිරි වීථි සිත් හැටහතර ලැබේ [C050-P:L41; C050-M:L5].\n\nමාර්ගය ද්වේෂය නොලැබීමට තවත් හේතුවක් දෙයි: ද්වේෂය නීවරණයක් වන බැවින් ධ්‍යානයට බාධකය. ලෝභය ද ධ්‍යානයට බාධක වුවත් සෑම ලෝභයක්ම නීවරණයක් නොවන බැවින් ලෝභ මූල සිත් රූප අරූප භූමිවල ලැබේ. නීවරණ නොවන ද්වේෂයක් නැති බැවින් ද්වේෂ මූල සිත් එහි කිසිසේත් නොලැබේ [C050-M:L17]. තදාලම්බනය කාම සත්ත්වයන්ට පමණක් ලැබෙන සිත් කොටසක් බැවින් රූප අරූප භූමිවල අතිමහන්තාරම්මණ සහ විභූතාරම්මණ වීථිවල ද තදාලම්බන නොලැබේ [C050-M:L19]. රූපී බ්‍රහ්මයන් අතර පෘථග්ජනයන් සහ ආර්යයන් යන දෙපිරිසම සිටින බැවින් එක් එක් පුද්ගලයාට ලැබෙන සිත් පුද්ගල භේදය අනුව දත යුතුය [C050-P:L43]."
+    },
+    {
+      "heading": "අරූපාවචර භූමියේ ලැබෙන සිත් සතළිස් දෙක",
+      "text": "අරූප භූමියේ ප්‍රතිසන්ධිය ලැබෙන්නේ රූපයක් නැතිව සතර නාමස්කන්ධයෙන් පමණක් බැවින් අරූපී බ්‍රහ්මයන්ට පඤ්චද්වාර නැත. එබැවින් ද්විපඤ්ච විඤ්ඤාණ දහය, පඤ්චද්වාරාවජ්ජනය, සම්පටිච්ඡන දෙක, සන්තීරණ තුන සහ මහා විපාක අට යන සිත් විසිහතර නොලැබේ [C050-P:L45]. කාම විරාග භාවනා බලයෙන් ලත් ධ්‍යාන ඇති බැවින් ද්වේෂ මූල සිත් දෙක, හසිතුප්පාද සිත සහ රූපාවචර කුසල ක්‍රියා සිත් දහය යන සිත් දහතුන ද නොලැබේ [C050-P:L45]. තවද සෝවාන් මාර්ගය ලබාගත යුත්තේ පරතෝඝෝස ප්‍රත්‍යයෙන්, එනම් ධර්මය ඇසීමෙන් බැවින්, ප්‍රසාද වස්තු කිසිවක් නැති අරූප තලයේ සෝතාපත්ති මාර්ග සිත ද නොලැබේ. මෙසේ නොලැබෙන සිත් තිස් අටකි; ඉතිරි සිත් සතළිස් දෙක ලැබේ [C050-P:L45].\n\nමාර්ගය එම සතළිස් දෙක ධනාත්මකව ගණන් කරයි: ලෝභ මූල අට, මෝහ මූල දෙක, මනෝද්වාරාවජ්ජනය, මහා කුසල් අට, මහා ක්‍රියා අට, අරූපාවචර කුසල ක්‍රියා අට සහ ප්‍රථම මාර්ගය හැර ලෝකෝත්තර සිත් සත [C050-M:L7]. අරූප තලයේ ද පෘථග්ජනයන් සහ ආර්යයන් වසති [C050-P:L49]. එසේම අරූප භූමි අතරෙහි ද වෙනසක් ඇත: විඤ්ඤාණඤ්චායතන බ්‍රහ්මයන්ට ආකාසානඤ්චායතන කුසල ක්‍රියා සිත් නොලැබේ; ආකිඤ්චඤ්ඤායතන බ්‍රහ්මයන්ට පහළ අරූප දෙකේ කුසල ක්‍රියා සිත් නොලැබේ; නේවසඤ්ඤානාසඤ්ඤායතන බ්‍රහ්මයන්ට පහළ අරූප තුනේ කුසල ක්‍රියා සිත් නොලැබේ [C050-P:L51]."
+    },
+    {
+      "heading": "අසංඥ තලය: සිතක් නැති භවය",
+      "text": "අසංඥ තලයේ උපදින සත්ත්වයන්ට සිත් ඉපදීමට හේතු වන ද්වාර සයම නැති බැවින් එහි චිත්ත ප්‍රවෘත්තිය සම්පූර්ණයෙන්ම නැත [C050-P:L53]. මාර්ගය මෙය කෙටියෙන් කියයි: අසංඥ භූමියේ එක් සිතකුදු නොලැබේ [C050-M:L9]. ප්‍රදීපිකාවට අනුව මේ පුද්ගලයන් අසංඥ භවයෙන් චුතව කාම භවයේ උපදින කල්හි, අසංඥ තලයේ ඉපදීමට හේතු වූ වායෝකසිණ පඤ්චම ධ්‍යානය උපදවා ගත් භවයේ රැස් කළ යම් කාමාවචර කුසල කර්මයක් අපරාපරියවේදනීය වශයෙන් විපාක දීමට ඉදිරිපත් වේ. එම කර්මානුභාවයෙන් පෙන්වන කර්ම, කර්ම නිමිති, ගති නිමිති යන නිමිතිවලින් එකක් අරමුණු කොට ඔවුහු කාමාවචර භූමියේ ප්‍රතිසන්ධිය ගනිති [C050-P:L55]."
+    },
+    {
+      "heading": "භූමි පුද්ගල භේදය සහ සාරාංශ ගණන",
+      "text": "මාර්ගයේ කෙටි ගණන: කාම භූමියේ 80, රූප භූමියේ 64, අරූප භූමියේ 42 [C050-M:L11–L15]. ප්‍රදීපිකාව භූමිය සහ පුද්ගලයා එකට ගෙන එක් එක් පුද්ගලයාට ලැබෙන වීථි සිත් ගණන වගුවකින් දක්වයි [C050-P:L61–L80]. උදාහරණ කිහිපයක්: දුගති අහේතුක පුද්ගලයාට 37; සුගති අහේතුක සහ ද්විහේතුක පුද්ගලයාට 41; ධ්‍යාන නොලැබූ ත්‍රිහේතුක කාම පුද්ගලයාට 45; ධ්‍යාන ලැබූ ත්‍රිහේතුක කාම පුද්ගලයාට 54 [C050-P:L65–L68]. පෘථග්ජන රූපී පුද්ගලයාට 43; පෘථග්ජන අරූපී පුද්ගලයාට 27 [C050-P:L69–L70]. ආර්ය පුද්ගලයන් අතර ශුෂ්ක විදර්ශක සහ සමථයානික වශයෙන් වෙනසක් දැක්වේ: සමථයානික සෝවාන් සකෘදාගාමීන්ට 50, ශුෂ්ක විදර්ශක රහතන් වහන්සේට 35, සමථයානික රහතන් වහන්සේට 44 [C050-P:L71–L76]. අරූප භූමියේ අශෛක්ෂ පුද්ගලයාට ලැබෙන්නේ 18 ක් පමණි; එය වගුවේ අඩුම ගණනයි [C050-P:L80]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "භූමි භේදය",
+      "pali": "bhūmi-bheda",
+      "en": "classification of consciousness by plane of existence",
+      "note": "[C050-P:L25]"
+    },
+    {
+      "term_si": "කාම භූමි",
+      "pali": "kāma-bhūmi",
+      "en": "sense-sphere planes (eleven)",
+      "note": "six deva worlds, the human world and four states of loss [C050-P:L29]"
+    },
+    {
+      "term_si": "රූප භූමි / රූපාවචර භූමිය",
+      "pali": "rūpa-bhūmi",
+      "en": "fine-material planes (Brahma worlds with form)",
+      "note": "64 process cittas [C050-P:L41]"
+    },
+    {
+      "term_si": "අරූප භූමි",
+      "pali": "arūpa-bhūmi",
+      "en": "immaterial planes (four)",
+      "note": "42 process cittas [C050-P:L45]"
+    },
+    {
+      "term_si": "වීථි සිත්",
+      "pali": "vīthi-citta",
+      "en": "consciousness occurring within a cognitive process",
+      "note": "80 in total"
+    },
+    {
+      "term_si": "ෂට්ද්වාර / පඤ්චද්වාර",
+      "pali": "cha-dvāra / pañca-dvāra",
+      "en": "the six doors / five sense doors through which experience arises"
+    },
+    {
+      "term_si": "පරිපූර්ණායතන",
+      "pali": "paripuṇṇāyatana",
+      "en": "having all sense faculties complete",
+      "note": "[C050-P:L31]"
+    },
+    {
+      "term_si": "තදාරම්මණ / තදාලම්බන",
+      "pali": "tadārammaṇa",
+      "en": "registration (after-taste) consciousness at the end of a process",
+      "note": "only for sense-sphere beings [C050-M:L19]"
+    },
+    {
+      "term_si": "නීවරණ",
+      "pali": "nīvaraṇa",
+      "en": "hindrance (to meditative absorption)",
+      "note": "Margaya's reason why aversion is absent in higher planes [C050-M:L17]"
+    },
+    {
+      "term_si": "කාම විරාග භාවනා",
+      "pali": "kāma-virāga bhāvanā",
+      "en": "meditation through detachment from sense pleasures",
+      "note": "Pradeepika's reason why smell, taste and touch doors are absent [C050-P:L39]"
+    },
+    {
+      "term_si": "පරතෝඝෝසය",
+      "pali": "paratoghosa",
+      "en": "hearing from another (the teaching)",
+      "note": "needed for the first path, hence absent in immaterial planes [C050-P:L45]"
+    },
+    {
+      "term_si": "අසංඥ සත්ත්ව",
+      "pali": "asaññasatta",
+      "en": "non-percipient beings",
+      "note": "no consciousness at all [C050-P:L53]"
+    },
+    {
+      "term_si": "සතර නාමස්කන්ධ",
+      "pali": "cattāro nāmakkhandhā",
+      "en": "the four mental aggregates (without matter)",
+      "note": "[C050-P:L45]"
+    },
+    {
+      "term_si": "ශුෂ්ක විදර්ශක / සමථයානික",
+      "pali": "sukkha-vipassaka / samatha-yānika",
+      "en": "one who attains insight without absorption / one who has absorption as vehicle",
+      "note": "[C050-P:L71–L76]"
+    },
+    {
+      "term_si": "චාතුම්මහාරාජික",
+      "pali": "cātummahārājika",
+      "en": "the lowest heaven of the four great kings",
+      "note": "includes tree, mountain, river and sea deities [C050-P:L31]"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Where you are shapes what can happen to you",
+      "text": "The teaching says that the place a life begins decides which kinds of experience are even possible in it. A world entered through letting go of sensual pleasure has no smell, taste or bodily touch, because those senses exist mainly to enjoy pleasure. A world with no body at all has no seeing or hearing. The point is not that such lives are poorer or richer. It is that every existence comes with a fixed range, and nobody carries the whole range with them from one life to the next."
+    },
+    {
+      "heading": "Fewer possibilities can mean more freedom",
+      "text": "Pradeepika's table has a surprise in it. The ordinary person with the widest range has 54 kinds of mind available. The fully freed person in the formless realm has only 18, the fewest in the table. What falls away is greed, aversion, confusion and much else. In this view freedom is not collecting more experiences. It is the quiet closing of certain doors that used to bring trouble."
+    },
+    {
+      "heading": "Continuity without carrying everything across",
+      "text": "For a group about endings, this concept makes a sober point. When a life ends and another begins elsewhere, the new life does not inherit the old one's full set of possibilities. Some capacities disappear completely, as in the extreme case of the beings with no mind at all. Yet something done long before can still come to fruit later. What continues is a thread of causes, not a person carrying their belongings from room to room."
+    }
+  ],
+  "does_not_transfer": [
+    "A modern slogan such as 'higher beings feel more' reverses the source: the most freed person in the table has the fewest kinds of mind available [C050-P:L80].",
+    "Pradeepika's remark that people born without a sense faculty lack the minds that depend on that door is a technical point about how experience works. It must not be turned into a ranking of human worth or used to describe any disabled person.",
+    "The planes are taught as real places of birth, not as moods or states of mind. Reading them as psychological metaphors is an editorial choice and should be flagged as one.",
+    "The source does not say anyone can choose which range of experience they will have next; the plane follows from conditions such as meditative attainment and kamma."
+  ],
+  "story_seeds": [
+    {
+      "seed": "An eye camp where elderly villagers have cataracts removed and see clearly again after years of blur.",
+      "what_camera_could_observe": "The queue at dawn, the bandages coming off the next day, a woman looking at her grandchild's face or reading a calendar, relatives' reactions.",
+      "why_it_fits": "The source says the experiences that depend on a sense door arise only when that door is present [C050-P:L31]. This is the human, everyday edge of that idea: when a door reopens, a whole class of experience returns.",
+      "setting_type": "A rural hospital or temple hall hosting a free eye-surgery camp",
+      "risk": "Medical privacy and consent; turning surgery into a miracle story; implying that a lack of sight is a lesser life."
+    },
+    {
+      "seed": "A forest meditation hermitage where monks keep long silence, eat simple food once or twice a day and deliberately narrow what reaches the senses.",
+      "what_camera_could_observe": "Alms rounds, the single meal eaten in silence, hours of stillness, the absence of music or flavour-seeking, a teacher's short evening talk.",
+      "why_it_fits": "Pradeepika says the fine-material worlds are entered through meditation that turns away from sensual pleasure, which is why smell, taste and touch are missing there [C050-P:L39]. The hermitage shows the human practice the doctrine grows out of.",
+      "setting_type": "A forest hermitage in the dry zone or in wet-zone hills",
+      "risk": "Romanticising austerity; implying the monks are 'becoming Brahmas'; disturbing a practice space for the sake of a shot."
+    },
+    {
+      "seed": "A worker returning after many years abroad, rediscovering the tastes, smells and sounds of home.",
+      "what_camera_could_observe": "The first home-cooked meal, a market visit, rain on a tin roof, the worker naming what they had forgotten existed.",
+      "why_it_fits": "Editorial analogy only: what one's surroundings make possible shapes what one experiences. It gives an ordinary human feel for the idea that each place has its own range [C050-M:L17].",
+      "setting_type": "A village home and local market in the wet or dry zone",
+      "risk": "Stretching planes of existence into geography; the analogy must stay clearly editorial and not claim the source says this."
+    },
+    {
+      "seed": "A large roadside tree shrine where passers-by leave flowers, lamps and small offerings to the deity believed to live in it.",
+      "what_camera_could_observe": "Drivers stopping to light a lamp, a caretaker cleaning the shrine, flags tied to branches, offerings through the day and night.",
+      "why_it_fits": "Pradeepika places tree deities and beings dwelling by mountains, rivers and the sea within the lowest heaven of the sense-sphere [C050-P:L31]. The source's map of existence is present in everyday roadside practice.",
+      "setting_type": "A roadside tree shrine on a busy highway or at a village junction",
+      "risk": "Exoticising folk practice; the film must not assert that such beings do or do not exist, and must not mock or endorse belief."
+    },
+    {
+      "seed": "An elderly lay meditator in white who has spent decades giving up comforts, followed through an ordinary day.",
+      "what_camera_could_observe": "Early rising, sweeping, chanting, a simple meal, long quiet periods, conversations with visitors who ask why she lives this way.",
+      "why_it_fits": "The source's table shows that the most freed person has the fewest kinds of mind available [C050-P:L80]. A life with deliberately fewer kinds of experience gives that surprising idea a human face.",
+      "setting_type": "A meditation centre or a small village temple residence",
+      "risk": "Presenting the person as spiritually accomplished (no one can film attainment); pressure on the subject to perform piety."
+    }
+  ],
+  "cross_source_notes": [
+    "Both sources give the same totals: 80 in the sense-sphere, 64 in the fine-material, 42 in the immaterial planes, none among non-percipient beings [C050-P:L29; C050-P:L41; C050-P:L45; C050-P:L53; C050-M:L11–L15; C050-M:L9].",
+    "Their reasons differ. Pradeepika explains the absence of smell, taste and body doors by the detachment from sense pleasure through which Brahma rebirth occurs [C050-P:L39], and the absence of the first path in the immaterial planes by the need to hear the teaching [C050-P:L45]. Margaya explains the absence of aversion by its always being a hindrance, and notes that greed is not always a hindrance and so does occur [C050-M:L17].",
+    "Margaya lists the immaterial-plane 42 positively [C050-M:L7]; Pradeepika reaches the same number by subtracting 24 + 13 + 1 = 38 from 80 [C050-P:L45].",
+    "Only Pradeepika gives the gradation within the immaterial planes [C050-P:L51], the account of how non-percipient beings are later reborn in the sense-sphere [C050-P:L55], the inclusion of tree and mountain deities in Cātummahārājika [C050-P:L31] and the person-by-plane table [C050-P:L61–L80].",
+    "Only Margaya explicitly says registration consciousness is absent even in very vivid processes in the higher planes [C050-M:L19]; Pradeepika says only that three investigating consciousnesses remain in the fine-material plane, performing investigating and not registration [C050-P:L33–L37]."
+  ],
+  "uncertainties": [
+    "Pradeepika L33 reads 'පටිසජවනයන් වූ දෙස මූල සිත් දෙකත්'. 'පටිසජවනයන්' looks like an OCR or print corruption (possibly of a word for aversion-javanas); the meaning is clear from context but the word itself is not.",
+    "Pradeepika L45 gives the reason for excluding the smiling consciousness (hasituppāda) in the immaterial planes as its arising 'in five-door processes'. The smiling consciousness is usually also described in mind-door processes, so this rationale needs an expert check.",
+    "The person-by-plane table [C050-P:L61–L80] is found only in Pradeepika and was not arithmetically verified line by line; the figures are recorded as printed.",
+    "The job file listed Pradeepika as 81 lines and Margaya as 22; the physical files have 80 and 21 lines ending in a newline, so the full content was read.",
+    "Pradeepika L55 attributes non-percipient rebirth to a fifth-jhāna on the air kasiṇa; this detail is only in Pradeepika and is not discussed by Margaya."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

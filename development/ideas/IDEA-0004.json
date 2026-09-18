@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0004",
+  "record_type": "idea",
+  "title": "The Well",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-01",
+  "logline": "A well-digger spends weeks making something that is only empty space, and a village names the hole, and depends on it.",
+  "human_question": "What are we making when what we make is an emptiness?",
+  "premise": {
+    "story": "The digging of one well, from choosing the spot to the first water, following the digger and the family that needs it.",
+    "place": "A dry-zone village where water depends on wells.",
+    "experience": "Descending into earth, heat and echo, then the sound of water."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C084",
+      "role": "primary",
+      "why": "Space-concept (ākāsa-paññatti): wells and caves are named by what is not there."
+    },
+    {
+      "concept_id": "C002",
+      "role": "supporting",
+      "why": "Earth, water and heat as real qualities, where 'the well' is a name for an absence among them."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The water-finder or digger choosing the spot",
+    "Buckets of earth rising, depth increasing",
+    "Light from above getting smaller",
+    "The first seep of water",
+    "The family drawing water"
+  ],
+  "what_must_be_real": "An actual well being dug for an actual need. Safety practices are shown as they are, and no danger is staged.",
+  "possible_arc": {
+    "opening": "Flat dry ground, nothing there yet.",
+    "turn": "The hole deepens and the village starts calling it 'the well'.",
+    "ending_open": "Water, or no water. Reality decides."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A well dug during the filming window",
+      "Safe camera access around and possibly into the shaft",
+      "A family for whom the well matters"
+    ],
+    "suggestions": [
+      {
+        "name": "Jaffna peninsula",
+        "region": "Northern Province",
+        "why": "Limestone country where household and farm wells are central to life.",
+        "season_notes": "Dry season for digging",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "A dry-zone village near Anuradhapura",
+        "region": "North Central Province",
+        "why": "Wells and tanks are life-critical; strong light and landscape.",
+        "season_notes": "Dry season",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Worker safety",
+    "Poverty framing"
+  ],
+  "drop_if": [
+    "No real dig in the filming window",
+    "Access would require staging"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0008",
+      "relation": "pairs with",
+      "note": "Both find names grounded in nature: space here, time and direction there."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

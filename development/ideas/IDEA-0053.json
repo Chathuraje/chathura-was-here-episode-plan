@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0053",
+  "record_type": "idea",
+  "title": "The Drowned Town",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "In a dry year the water behind a dam drops, and the streets of a town that was flooded decades ago come back into the air. People who grew up there walk out across the cracked mud, looking for a house that is no longer where they remember it.",
+  "human_question": "When the map we carry no longer matches the ground, how do we find our way?",
+  "premise": {
+    "story": "Former residents of a town submerged by a reservoir return while the drawdown lasts. They try to find their old houses, schools and temple among the foundations, and often disagree about which ruin was which.",
+    "place": "The exposed bed of a hill-country reservoir during drought: cracked mud, stumps, steps leading nowhere, the waterline high on the hills around.",
+    "experience": "The viewer walks a lost place with the only people who can read it, and feels the disorientation of memory meeting ground that has moved on."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C074",
+      "role": "primary",
+      "why": "The source's latent tendencies lie hidden and 'rise up when a suitable object is found'; it also names going over past misfortunes as a source of worry and restlessness. The town under the water is an image of what lies low until conditions change, not an illustration of anyone's mind."
+    },
+    {
+      "concept_id": "C008",
+      "role": "supporting",
+      "why": "The general sense of doubt as a mind that cannot settle on what is in front of it [C008-P:L34]: people standing on foundations, unable to agree where they are. The source's harmful doubt is narrower, so this is an image, not an equivalence."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The waterline stain high on the surrounding hills, and the town floor far below it",
+    "Former residents stepping onto the mud, pointing, pacing out a street, arguing gently about which foundation was whose",
+    "Objects surfacing: steps, a well, tiles, a doorway, the remains of a place of worship",
+    "Old photographs held up against the present view, if families have them",
+    "The first rain and the water beginning to come back"
+  ],
+  "what_must_be_real": "The drought, the drawdown and the returning residents must all be real. No one is brought to the site for the camera, and no memory is scripted.",
+  "possible_arc": {
+    "opening": "Wide, silent mud and a line of steps walking into nothing.",
+    "turn": "Someone finds the thing they were looking for, or realises they cannot find it.",
+    "ending_open": "The water returns and the town goes under again. What the residents actually say or do as it disappears leads the ending."
+  },
+  "position_hint": "opening candidate: a place that has literally lost its way, and a possible Object 4 acquisition moment only if something real happens there (for example a gift or a found thing offered by a resident); nothing may be staged",
+  "location": {
+    "requirements": [
+      "A reservoir whose drawdown genuinely exposes the remains of a submerged settlement during the filming window",
+      "Former residents or their families willing to return and speak",
+      "Safe access onto the exposed bed and permission from the relevant authorities"
+    ],
+    "suggestions": [
+      {
+        "name": "Victoria Reservoir (old Teldeniya area)",
+        "region": "Kandy district, Central Province",
+        "why": "A large Mahaweli reservoir whose construction submerged settlements; remains of the old town have been reported to reappear in severe droughts.",
+        "season_notes": "Only in drought years, when water levels fall far enough; unpredictable",
+        "access_notes": "Reservoir and security restrictions likely",
+        "verify": "Confirm which settlements were submerged, whether remains have actually re-emerged, and who manages access.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Kotmale Reservoir area",
+        "region": "Nuwara Eliya district, Central Province",
+        "why": "Another Mahaweli reservoir built over inhabited valleys; low water has reportedly exposed older structures.",
+        "season_notes": "Drought years only",
+        "access_notes": "",
+        "verify": "Unverified; confirm what is actually exposed at low water and whether former residents live nearby.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Grief and displacement filmed as spectacle; the resettlement history may be painful and politically sensitive",
+    "Unsafe footing on reservoir mud",
+    "Depends entirely on weather; may not happen in any given year"
+  ],
+  "drop_if": [
+    "No drawdown exposes the remains during the development window",
+    "Former residents do not wish to return with a camera"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0054",
+      "relation": "alternative to",
+      "note": "Two ways to open the group: a place that has lost its bearings, or a traveller who has."
+    },
+    {
+      "idea_id": "IDEA-0063",
+      "relation": "mirrors",
+      "note": "Opens in a place that cannot be seen clearly because it is covered; the closing candidate ends in fog that is moved through by slowing down."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction.",
+    "Whether any submerged settlement has re-emerged recently, and when it might again, is unconfirmed."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

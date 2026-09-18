@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C058",
+  "record_type": "concept_digest",
+  "concept_id": "C058",
+  "group_id": "GRP-08",
+  "title_si": "අකුශල කර්මය",
+  "title_en": "Unwholesome action: the ten courses of harm",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C058-P",
+      "path": "content/02-concepts/Chapter 5/Concept 58 - අකුශල කර්මය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-428",
+      "complete": true,
+      "markers": "Book 1, ch. 5 (වීථීමුක්ත සංග්‍රහ විභාගය), pdf 485–508 / printed 475–498. Extract begins mid-page at pdf 485 (L21); L427 is a bare pdf 508 marker with no text after it. Sinhala commentary only, Pali root text omitted."
+    },
+    {
+      "ref": "C058-M",
+      "path": "content/02-concepts/Chapter 5/Concept 58 - අකුශල කර්මය/sources/Abhidharma Margaya.md",
+      "lines": "1-34",
+      "complete": true,
+      "markers": "Lesson headed '8. අකුශල කර්මය'; no page markers. L15–25 cover sense-sphere and exalted wholesome action, which is beyond this concept's title."
+    }
+  ],
+  "summary_en": "Both sources teach that unwholesome action falls into ten 'courses of action' (kammapatha), grouped by the door through which they mostly happen. Three are bodily: killing, stealing and sexual misconduct. Four are verbal: lying, divisive speech, harsh speech and idle chatter. Three are mental: covetousness, ill will and wrong view. Each is rooted in greed, hatred or both, and delusion underlies all of them. The Pradeepika defines each course, lists the factors (aṅga) that must all be present for a 'complete' course, which can give rebirth, as against an incomplete act, which gives only results during life. It explains what makes an act heavier or lighter, notes that verbal acts done in writing or by gesture happen through the body door, and describes the results each course brings. It also sets out the sixty-two wrong views and singles out three 'fixed' wrong views as the full course of action. The Margaya gives a compact version, defining the three kamma-doors as bodily and verbal intimation and the mind itself. It adds that eleven of the twelve unwholesome minds (all but the restless one) can give rebirth in the four lower realms, and that all twelve produce the seven rootless unwholesome results during life.",
+  "sinhala_explanation": [
+    {
+      "heading": "අකුසල කර්ම පථ දහය සහ කර්ම ද්වාර තුන",
+      "text": "ප්‍රාණඝාතය, අදත්තාදානය, කාමමිථ්‍යාචාරය, මෘෂාවාදය, පෛශූන්‍යවචනය, ඵරුෂවචනය, සම්ඵප්‍රලාපය, අභිධ්‍යාව, ව්‍යාපාදය, මිථ්‍යාදෘෂ්ටිය යනුවෙන් අකුශල කර්ම පථ දහයක් ඇත; චිත්ත වශයෙන් අකුශල කර්ම දොළොසකි [C058-M:L3]. විපාක දෙන ස්ථාන අනුව සතර වැදෑරුම් කර්ම අතුරෙන් අකුසල කර්ම ද්වාර වශයෙන් කාය, වචී, මනෝ කර්ම ලෙස තුන් වැදෑරුම් වේ [C058-P:L25–L29]. අභිධර්ම මාර්ගය වෙන්කර දක්වන්නේ චක්ෂුර්විඥානාදිය උපදින විඥාන ද්වාරවලින් වෙනස් කර්ම ද්වාර තුනක් ඇති බවයි: කාය කර්ම ද්වාරය කායවිඤ්ඤත්ති රූපයයි, වචී කර්ම ද්වාරය වචීවිඤ්ඤත්ති රූපයයි, මනෝ කර්ම ද්වාරය සිතම ය [C058-M:L5]. පළමු තුන බොහෝ සෙයින් කායද්වාරයෙන්, මැද සතර වාග්ද්වාරයෙන්, අවසාන තුන මනෝද්වාරයෙන් ඇතිවන බැවින් ඒ නම් ලැබේ [C058-M:L7–L11]. ප්‍රදීපිකාව අවධාරණය කරන්නේ මෙය 'බොහෝ සෙයින්' යන අර්ථයෙන් බවයි: කාය කර්ම ඇතැම් විට වාග්ද්වාරයෙන් ද (උදා: අණ කොට අනුන් ලවා මැරවීම, සොරකම් කරවීම), වචී කර්ම ඇතැම් විට කායද්වාරයෙන් ද (පත්‍රයක ලියා දීම, අත් සංඥාවෙන් හැඟවීම) සිදු විය හැකිය [C058-P:L41], [C058-P:L68], [C058-P:L88], [C058-P:L147]. මනෝ කර්ම තුන කාය, වාග් ද්වාරවල ද හට ගත හැකි නමුත් එවිට දුර්වල වන අතර මනෝද්වාරයේම හටගත් ලෝභ ද්වේෂ බලවත් යයි ප්‍රදීපිකාව කියයි [C058-P:L220]. සෑම කර්මයක්ම ඒ ඒ ක්‍රියාව කරන කල උපදනා ජවන් සිත්හි යෙදුණු චේතනාවයි [C058-P:L45], [C058-P:L78], [C058-P:L155]."
+    },
+    {
+      "heading": "කර්මය සහ කර්මපථය: අංග සම්පූර්ණ වීම සහ බරපතලකම",
+      "text": "ප්‍රදීපිකාව කර්මය හා කර්මපථය වෙන් කරයි: අර්ථසාධක නොවන ජවන් කර්ම ලෙසද, අර්ථසාධක ජවන් කර්මපථ ලෙසද සැලකේ; කර්මපථ බවට පැමිණි කර්ම ප්‍රතිසන්ධි විපාක දී ඉන්පසු ප්‍රවෘත්ති විපාක ද දෙයි; කර්මපථ නොවූ කර්ම ප්‍රවෘත්ති විපාක පමණක් දෙයි [C058-P:L45–L47]. කර්මපථයක් වීමට නියමිත අංග සියල්ල සම්පූර්ණ විය යුතුය; එකක් අඩු වුව ද එය ප්‍රවෘත්ති විපාක පමණක් දෙන කර්මයකි [C058-P:L49]. ප්‍රාණඝාතයට අංග පහයි: සතෙකු වීම, සතෙකු බව දැනීම, මැරීමේ සිත, ප්‍රයෝග යෙදීම, මරණය සිදුවීම [C058-P:L53–L57]; ප්‍රයෝග සයකි: තම අතින් (සාහත්ථික), අණ කොට (ආණත්තික), ගල් පොලු විදීම් ආදියෙන් (නිස්සග්ගිය), උගුල් වළවල් ආදියෙන් (ථාවර), සෘද්ධියෙන්, මන්ත්‍ර ගුරුකම් ආදියෙන් [C058-P:L59–L66]. අදින්නාදානයට අංග පහයි [C058-P:L80–L86]; කාමමිථ්‍යාචාරයට හතරයි [C058-P:L98–L103]; මුසාවාදයට හතරයි (බොරුවක් වීම, රවටන සිත, උත්සාහය, අනුන් එය දැනගැනීම) [C058-P:L157–L162]; පිසුණාවාචාවට හතරයි [C058-P:L176–L181]; ඵරුසාවාචාවට තුනයි [C058-P:L191–L197]; සම්ඵප්පලාපයට දෙකයි [C058-P:L203–L206]; අභිද්ධ්‍යාව, ව්‍යාපාදය, මිථ්‍යාදෘෂ්ටිය යන එකකටම දෙක බැගින් [C058-P:L224–L227], [C058-P:L239–L242], [C058-P:L248–L251]. බරපතලකම වෙනස් වන්නේ ඉලක්කයාගේ ගුණය අනුවය: ආර්‍ය පුද්ගලයන්, සිල්වතුන්, දෙමාපියන් මැරීම ඉතා මහත් විපාක ඇත; විශාල ශරීර ඇති සතුන් මැරීමේදී ප්‍රයෝගය හා කාලය දිගු නිසා මරණ චේතනා වැඩි වී කර්මය බලවත් වේ [C058-P:L74]. මුසාවාදය එයින් වූ හානිය හා රවටනු ලැබූ අයගේ ගුණය අනුව, ඵරුසාවාචාව වචනයේ තදබව හා ඉලක්කයාගේ ගුණය අනුව, මහාසාවද්‍ය හෝ අල්පසාවද්‍ය වේ [C058-P:L164], [C058-P:L199]. මනසේ ව්‍යාපාදයේදී කෝප වීම මාත්‍රයක් පමණක් නම් එය ප්‍රවෘත්ති විපාක පමණක් දෙයි [C058-P:L239]; සම්ඵප්පලාපය කර්මපථ වන්නේ අසන්නන් එය සත්‍යයක් ලෙස පිළිගත් විටය [C058-P:L208]."
+    },
+    {
+      "heading": "කාය කර්ම තුන",
+      "text": "ප්‍රාණ යනු සම්මුතියෙන් සත්ත්වයා, පරමාර්ථයෙන් ජීවිතේන්ද්‍රියයි; ස්වාභාවික මරණය වළකා ප්‍රයෝගයෙන් මරණය සිදු කිරීම පාණාතිපාතයයි [C058-P:L45]. කොතරම් සතුටින් සිනාසෙමින් කළ ද, ජීවිතය බාධාවක් ලෙස නැති කරන මොහොතේ පටිඝ සිතක්ම උපදින බැවින් එය ද්වේෂමූල සිත් දෙකෙන් පමණක් සිදු වේ; මරණාසන්නයේ එය අරමුණු වුවහොත් ඒකාන්තයෙන්ම සතර අපායේ ප්‍රතිසන්ධිය දෙයි යයි ප්‍රදීපිකාව කියයි [C058-P:L70]. නුදුන් දෙය ගැනීම අදින්නාදානයයි; ලෝභයෙන් නම් ලෝභමූල සිතින්ද, ක්‍රෝධයෙන් හෝ පළිගැනීමට නම් ද්වේෂමූල සිතින්ද සිදු වේ; එහි විපාක ලෙස මෙලොව නින්දා, වධ, මතු අපාය, මිනිසත් බවක් ලදහොත් අසරණ දුගී බව කියවේ [C058-P:L78], [C058-P:L88], [C058-P:L92]. කාමමිථ්‍යාචාරය යනු ස්ත්‍රී පුරුෂයන්ගේ වැරදි හැසිරීමයි; එය ලෝභමූල සිතින්ම සිදු වේ [C058-P:L96], [C058-P:L143]. ප්‍රදීපිකාව පුරුෂ දෘෂ්ටිකෝණයෙන් 'පර ස්ත්‍රීන්' විසි දෙනෙකු ලැයිස්තු ගත කරයි: මව, පියා, සහෝදර සහෝදරියන්, නෑයන්, ගෝත්‍රය, ධාර්මිකයන් විසින් රක්නා ලද අය; විවාහයට පොරොන්දු වූ හෝ දඩ නියම කළ අය; ධනයෙන්, කැමැත්තෙන්, භෝගයෙන්, වස්ත්‍රයෙන්, දිය කළයේ චාරිත්‍රයෙන් භාර්‍යා වූ අය; දාසියන්, කම්කරුවන්, යුද්ධයෙන් ගෙනා අය සහ මොහොතකට භාර්‍යා කරගත් අය [C058-P:L105–L131]. පළමු අට දෙනාට ස්පර්ශය පිළිබඳ ස්වාමියෙකු නැති බැවින් ඔවුන්ට පරපුරුෂ සේවනයෙන් කර්මපථය සිදු නොවන බව කියවේ [C058-P:L133]. සුරාමේරය පානය ද කාමමිථ්‍යාචාරයට ඇතුළත් යයි කියයි [C058-P:L137]. එහි විපාක ලෙස මෙලොව නින්දා, මතු අපාය, මිනිසත් බවක් ලදහොත් නපුංසක හෝ විරූපී බව, බොහෝ ජාතිවල ස්ත්‍රීන් ලෙස ඉපදීම, විවාහයේ අවිශ්වාසය හා වෙන්වීම කියවේ [C058-P:L139–L141]."
+    },
+    {
+      "heading": "වචී කර්ම සතර",
+      "text": "මුසාවාදය යනු දුටු දේ නුදුටුවා යැයි, ඇසූ දේ නොඇසුවා යැයි, දත් දේ නොදනිමි යැයි ආදී ලෙස අසත්‍ය බව දැනම අනුන් රවටන අදහසින් කීමයි [C058-P:L151–L155]. ලාභ ආශාවෙන් නම් ලෝභමූල සිතින්ද, පළිගැනීමෙන් හෝ තරහින් නම් ද්වේෂමූල සිතින්ද සිදු වේ; විපාක ලෙස මතු අපාය සහ මිනිසත් බවේදී නොයෙක් අභූත චෝදනා ලැබීම කියවේ [C058-P:L168–L170]. පිසුණාවාචා යනු සමගියෙන්, ප්‍රියව සිටින අයගේ සමගිය බිඳීමේ අදහසින් කේලාම් කීමයි; අංග හතරෙන් අන්තිම එක එම බස් අදහා ඔවුන් බිඳීමයි [C058-P:L176–L181]. ඵරුසාවාචා යනු සිත රිදවන තද වචන අනුන් පෙළීමේ අදහසින් කීමයි; එය පටිඝ සිතින්ම සිදු වේ [C058-P:L191], [C058-P:L199]. සම්ඵප්පලාපය යනු නිරර්ථක හිස් කතාවයි; අසන්නන් එය සත්‍ය ලෙස ගත් විට පමණක් කර්මපථය සම්පූර්ණ වී ප්‍රතිසන්ධි විපාක දීමේ ශක්තිය ලබයි, නැතිනම් ප්‍රවෘත්ති විපාක පමණි [C058-P:L203–L208]. වචී කර්ම සතරම පත්‍රයක ලිවීමෙන් හෝ සලකුණකින් කළ කල්හි කායද්වාරයෙහි පැවති වචී කර්ම වේ [C058-P:L147], [C058-P:L166], [C058-P:L183], [C058-P:L199], [C058-P:L210]."
+    },
+    {
+      "heading": "මනෝ කර්ම තුන සහ මිථ්‍යාදෘෂ්ටි දෙසැට",
+      "text": "අභිද්ධ්‍යාව යනු දැඩි ලෝභයයි: අන්සතු වස්තුවකට ඇතිවන ආශ්වාදය අභිද්ධ්‍යා කර්මය වන අතර එය තමාට ගැනීමට ඇතිවන බලවත් ආශාව කර්මපථයයි; එය ලෝභමූල සිතින්ම වේ; විපාක ලෙස මෙලොව සිත් තැවිලි හා මතු ප්‍රේත ආදී ආත්මවල ඉපදීම කියවේ [C058-P:L224–L231]. ව්‍යාපාදය යනු අනිෂ්ට ලෙස වැටහුණු සත්ත්වයෙකු නැසේවා යැයි පැතීමයි; එය පටිඝ සම්ප්‍රයුක්ත සිතින්ම සිදු වී අපායට පමුණුවයි [C058-P:L235–L244]. මිථ්‍යාදෘෂ්ටිය යනු වරදවා ගත් ලබ්ධියයි [C058-P:L248]. බුද්ධ දේශනාවේ මිථ්‍යාදෘෂ්ටි දෙසැටක් ඇතැයි ප්‍රදීපිකාව කියා ඒවා කෙටියෙන් දක්වයි: ශාස්වත වාද සතර [C058-P:L255–L267], ඒකච්ච ශාස්වත වාද සතර [C058-P:L269–L285], අන්තානන්තික වාද සතර [C058-P:L287–L295], අමරාවික්ෂේප වාද සතර (අමරා මසා මෙන් අල්ලා ගත නොහැකි ලෙස පිළිතුරු මඟ හැරීම) [C058-P:L299–L309], අධිච්චසමුප්පන්න වාද දෙක [C058-P:L311–L315], සංඥී වාද සොළොස [C058-P:L319–L341], අසංඥී වාද අට [C058-P:L343–L352], නේවසංඥීනාසංඥී වාද අට [C058-P:L354–L363], උච්ඡේද වාද සත [C058-P:L367–L383] සහ දිට්ඨධම්ම නිබ්බාණ වාද පහ [C058-P:L385–L397]. ඊට අමතරව මිථ්‍යාදෘෂ්ටිය නියත, අනියත ලෙස දෙවැදෑරුම්ය; නියත මිථ්‍යාදෘෂ්ටිය පමණක් කර්මපථ වේ; එය අහේතුක දෘෂ්ටිය, නාස්තික දෘෂ්ටිය, අකිරිය දෘෂ්ටිය යන තුනයි; සක්කාය දෘෂ්ටි ආදී ඉතිරි දෘෂ්ටි 'මිථ්‍යාදෘෂ්ටි කර්ම' පමණක් වේ [C058-P:L399–L409]. නියත මිථ්‍යාදෘෂ්ටිකයා මරණින් මතු ඒකාන්තයෙන් නිරයට යයි [C058-P:L411]. පස්කම් සැපයේ දොසක් නැතැයි ගැනීම, දිට්ඨ, සුත, මුත, විඤ්ඤාත මංගල්‍ය විශ්වාස, කර්ම විපාකයෙන් තොරව නැකැත්, මුහුර්ත, ග්‍රහ දශා නිසා සුබ ඵල ලැබේ යැයි ගැනීම, බලි බිලි, ග්‍රහ හෝම, ග්‍රහ ශාන්ති ආදියෙන් යහපත ලැබේ යැයි ඇදහීම මිථ්‍යාදෘෂ්ටියට ඇතුළත් යයි ප්‍රදීපිකාව කියයි [C058-P:L413–L417]. මිථ්‍යාදෘෂ්ටිය දිට්ඨිගත සම්ප්‍රයුක්ත ලෝභමූල සිත් සතරෙහි ලැබේ [C058-P:L419]."
+    },
+    {
+      "heading": "මූල සහ විපාක",
+      "text": "මූලාශ්‍ර දෙකම එකඟ වේ: පාණාතිපාතය, ඵරුසාවාචාව, ව්‍යාපාදය ද්වේෂමූලයෙන්ද, කාමමිථ්‍යාචාරය, අභිද්ධ්‍යාව, මිථ්‍යාදෘෂ්ටිය ලෝභමූලයෙන්ද, ඉතිරි සතර (අදින්නාදාන, මුසාවාද, පිසුණාවාචා, සම්ඵප්පලාප) ලෝභ හෝ ද්වේෂ යන මූල දෙකෙන්ම සිදු වේ [C058-M:L13], [C058-P:L421–L425]. මාර්ගය කියන්නේ මෝහය සියලු අකුසලයට මුල් වන බැවින් වෙනම නොකියූ බවයි [C058-M:L13]; ප්‍රදීපිකාව ඒ වෙනුවට ආඝාත වස්තු නවය නිසා කළ විට ද්වේෂමූල සිතින්ද, ආදීනව නොදැන මෝහය නිසා කළ විට 'මෝහ සමුට්ඨාන' ද්වේෂමූල හෝ 'මෝහ පච්චය' ලෝභමූල සිතින්ද සිදුවන බව විකල්ප වශයෙන් දක්වයි [C058-P:L421–L425]. විපාක ගැන මාර්ගය කියන්නේ අකුසල් සිත් දොළොසෙන් උද්ධච්ච සහගත සිත හැර එකොළොසෙන් සතර අපායේ ප්‍රතිසන්ධිය ඇති වන බවත්, ප්‍රවෘත්ති කාලයේ අකුසල් සිත් දොළොසින්ම කාම, රූප ලෝක දෙකේ අහේතුක අකුශල විපාක සිත් සත ඇති වන බවත්ය [C058-M:L29]. අනිෂ්ට රූප, ශබ්ද, ගන්ධ, රස, ස්පර්ශ හමු වන විට ඇතිවන චක්ඛුවිඤ්ඤාණාදිය හා සම්පටිච්ඡන, සන්තීරණ, තදාරම්මණ අකුසල විපාක වේ; බුදුවරුන්ට වුව ද අනිෂ්ට රූප දැකීමේදී ඇතිවන්නේ අකුසල විපාක සිත්ය [C058-M:L31]. උද්ධච්ච සහගත චේතනාව දුබල බැවින් අපාය ප්‍රතිසන්ධියක් ඇති කිරීමට ශක්තියක් නැත [C058-M:L33]. ප්‍රදීපිකාව ද ප්‍රාණඝාතය අපායේ ප්‍රතිසන්ධිය ගෙන දෙන්නේ අකුසල විපාක උපේක්ඛා සහගත සන්තීරණ සිතින් බවත්, ඉන්පසු අහේතුක අකුසල විපාක සිත් සතම ලැබෙන බවත් කියයි [C058-P:L70]."
+    }
+  ],
+  "key_terms": [
+    { "term_si": "අකුසල කර්ම පථ", "pali": "akusala-kammapatha", "en": "unwholesome course of action; a complete act strong enough to give rebirth" },
+    { "term_si": "කර්ම ද්වාරය", "pali": "kamma-dvāra", "en": "door of action: body, speech, mind", "note": "Margaya distinguishes it from the six doors of consciousness." },
+    { "term_si": "කායවිඤ්ඤත්තිය / වචීවිඤ්ඤත්තිය", "pali": "kāya-viññatti / vacī-viññatti", "en": "bodily / verbal intimation, the material expression through which an intention is communicated" },
+    { "term_si": "අංග", "pali": "aṅga", "en": "constituent factor; conditions that must all be present for a complete course of action" },
+    { "term_si": "ප්‍රයෝගය", "pali": "payoga", "en": "means or method of carrying out an act (six for killing)" },
+    { "term_si": "පාණාතිපාතය", "pali": "pāṇātipāta", "en": "killing a living being" },
+    { "term_si": "අදින්නාදානය", "pali": "adinnādāna", "en": "taking what is not given" },
+    { "term_si": "කාමමිථ්‍යාචාරය", "pali": "kāmesu-micchācāra", "en": "sexual misconduct" },
+    { "term_si": "මුසාවාදය / පිසුණාවාචා / ඵරුසාවාචා / සම්ඵප්පලාපය", "pali": "musāvāda / pisuṇā vācā / pharusā vācā / samphappalāpa", "en": "lying / divisive speech / harsh speech / idle or frivolous chatter" },
+    { "term_si": "අභිද්ධ්‍යාව", "pali": "abhijjhā", "en": "covetousness: wanting another's property to be one's own" },
+    { "term_si": "ව්‍යාපාදය", "pali": "byāpāda", "en": "ill will: wishing a being's destruction" },
+    { "term_si": "නියත මිථ්‍යාදෘෂ්ටිය", "pali": "niyata-micchādiṭṭhi", "en": "fixed wrong view (no cause, no result, no efficacy of action)", "note": "Only this counts as the full course of action for wrong view in the Pradeepika." },
+    { "term_si": "මහාසාවද්‍ය / අල්පසාවද්‍ය", "pali": "mahāsāvajja / appasāvajja", "en": "heavily / lightly blameworthy" },
+    { "term_si": "ලෝභමූල / ද්වේෂමූල / මෝහ", "pali": "lobha-mūla / dosa-mūla / moha", "en": "rooted in greed / rooted in aversion / delusion" },
+    { "term_si": "අමරාවික්ෂේප වාදය", "pali": "amarāvikkhepa-vāda", "en": "eel-wriggling: evasive non-commitment, likened to an uncatchable fish" }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Harm has a shape: body, words and the mind itself",
+      "text": "The source maps the ways a person can do harm: three with the body, four with words and three that happen entirely inside. What stands out is how seriously it takes words and thoughts. Setting people against each other, saying things meant to wound, filling the air with falsehood that others believe, wanting what belongs to someone else, wishing someone gone. All of these count as acts, not just moods. It also says the channel does not matter much: a lie written on paper or signed with a hand is still the lie."
+    },
+    {
+      "heading": "A finished act and a half-finished one are not the same",
+      "text": "The source does not treat every bad impulse as equal. It asks whether all the pieces were there: did the person know, intend, act and see it through? A flash of anger that goes nowhere is lighter than a settled wish to destroy. The weight also depends on who was hurt and what it cost them. Harming a parent or a person of great goodness weighs more. Killing a large animal, where the intention to kill has to be sustained over a long struggle, weighs more than a quick act. This is a careful, graded way of judging harm, closer to how a thoughtful community weighs wrongs than to a simple list of sins."
+    },
+    {
+      "heading": "The deepest harm is believing nothing matters",
+      "text": "The source ends with mistaken views, and it names as most serious the belief that nothing has causes, that actions have no consequences, and that nothing one does makes any difference. The reasoning is easy to follow: whoever truly believes their acts leave no trace has lost the main reason to take care. In a series about endings, this links to what people say at a death: that a life's choices mattered, and that what someone did carries forward."
+    }
+  ],
+  "does_not_transfer": [
+    "The sexual misconduct section is written from a male point of view. It classes women by who 'guards' or 'owns' them, lists enslaved women, bought women and war captives as kinds of wife, and describes rebirth as a woman or as sexually indeterminate as a punishment [C058-P:L105–L141]. This is historical commentarial framing. It must not be presented as a modern ethical teaching or used to judge anyone's gender, sexuality or relationships.",
+    "The Pradeepika lists belief in auspicious times, planetary periods, graha shanti and bali rituals as wrong view [C058-P:L413–L417]. A film must not use this to mock, correct or expose living Sri Lankan household and village practices, or set Buddhism against the people who hold them.",
+    "'Idle chatter' does not mean small talk is wrong. In the source the full course requires listeners to take nonsense as true [C058-P:L208].",
+    "The claim that killing is always done with aversion 'even while smiling' [C058-P:L70] is a doctrinal claim about mind-moments. It is not a psychological verdict on fishers, farmers, butchers or others whose livelihood involves killing, and should not be turned into one.",
+    "Statements that a given act 'certainly' leads to hell or to rebirth as a hungry ghost are the source's doctrinal claims. They are not predictions to attach to any real person, living or dead, especially in a group about grief.",
+    "Counting thoughts as acts is not a 'thought-crime' teaching. The source says a mere flash of anger gives only minor results and distinguishes it from a settled wish for harm [C058-P:L239]."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A village mediation session where neighbours and relatives try to settle a quarrel that began with words: something said at a funeral, a rumour that split two families.",
+      "what_camera_could_observe": "People arriving, each side telling its version, mediators asking who said what to whom, moments of harsh speech and of repair, an agreement or a failure to agree.",
+      "why_it_fits": "Divisive speech and harsh speech are two of the ten courses of harm in the source, and the source defines divisive speech by its intent to break a bond [C058-P:L176–L181]. A mediation shows how words do damage and how people try to undo it.",
+      "setting_type": "Community mediation board or temple-hall meeting in a rural area",
+      "risk": "Mediation is private and often legally sensitive. Filming could inflame the dispute or shame participants. It needs full consent from every party and possibly anonymisation, and must not be used for drama."
+    },
+    {
+      "seed": "Street-side typists and letter-writers who draft affidavits, petitions and statements for people who cannot write them themselves.",
+      "what_camera_could_observe": "Queues at the typing tables, a client dictating, the typist asking questions and choosing wording, a finished document signed, and the typist's own view of the truth or falsehood they are asked to set down.",
+      "why_it_fits": "The source says a lie or a divisive word written on paper is still a verbal act, done through the body door [C058-P:L147], [C058-P:L166]. The typist sits right where words turn into consequences.",
+      "setting_type": "Pavement typing stalls outside courts or administrative offices in a provincial town",
+      "risk": "Exposing clients' legal matters or implying the typists help people lie. Clients should not be identifiable without consent, and the film must not accuse anyone."
+    },
+    {
+      "seed": "After a parent's death, siblings and a land surveyor walk the boundaries of the family land, where old wants and claims come to the surface.",
+      "what_camera_could_observe": "Measuring with chains or instruments, old deeds laid out, siblings pointing to trees and fences they remember, quiet or open disagreement, a meal together or apart afterwards.",
+      "why_it_fits": "Covetousness in the source is wanting what belongs to another to become one's own [C058-P:L224–L229], and this group is about what a life leaves behind. An inheritance survey is where that wanting is visible.",
+      "setting_type": "Family paddy or garden land in a village, during estate settlement",
+      "risk": "Turning a family's private conflict into entertainment, or casting one sibling as the greedy one. The family must want the film made, and no one should be framed as the villain."
+    },
+    {
+      "seed": "A lost-property counter at a bus depot or railway station, where people hand in things they could have kept and others come to reclaim them.",
+      "what_camera_could_observe": "A bag or phone handed over, the clerk logging it, shelves of unclaimed items, an owner arriving, the moment of return, the clerk's stories of what does and does not come back.",
+      "why_it_fits": "The source defines stealing through the knowledge that something belongs to another and the decision to take it [C058-P:L78–L86]. The counter shows the other side of that decision, made again and again by strangers.",
+      "setting_type": "Busy provincial bus depot or railway station",
+      "risk": "Moralising about honest versus dishonest people, or filming identifiable members of the public without consent. The focus should stay on the counter and those who agree to appear."
+    },
+    {
+      "seed": "A person who has deliberately left a livelihood that involved killing, for example a former butcher or trapper, working at their new trade.",
+      "what_camera_could_observe": "The new daily work, tools of the old trade still in the house, conversations with family about the change, neighbours' reactions, and what the change cost them in income.",
+      "why_it_fits": "Killing is the first course of harm in the source, which weighs it by sustained intent [C058-P:L70–L74]. Someone who chose to stop, for their own reasons and in their own words, can speak to this without the film preaching.",
+      "setting_type": "Village or small-town household",
+      "risk": "Implicitly condemning everyone who still does such work, especially fishing and farming communities for whom it is survival. The person's own reasons must lead, and the film should not suggest others ought to follow."
+    }
+  ],
+  "cross_source_notes": [
+    "Both list the same ten courses and the same three-door grouping [C058-M:L3–L11], [C058-P:L25–L29]. The Margaya uses Sanskritised names (ප්‍රාණඝාතය, මෘෂාවාදය, පෛශූන්‍යවචනය), while the Pradeepika mostly uses Pali forms (පාණාතිපාත, මුසාවාද, පිසුණාවාචා).",
+    "The Margaya defines the kamma-doors explicitly as bodily intimation, verbal intimation and the mind itself, and separates them from the six doors of consciousness [C058-M:L5]. The Pradeepika only names intimation briefly [C058-P:L27–L28], [C058-P:L41].",
+    "They agree on which roots produce which courses [C058-M:L13], [C058-P:L421–L425]. The Margaya leaves delusion out because it underlies every unwholesome act. The Pradeepika instead adds alternative 'delusion-originated' or 'delusion-conditioned' versions of the greed-rooted and aversion-rooted minds.",
+    "Only the Pradeepika gives the factors for each course, the six means of killing, what makes each act heavier or lighter, the results of each course, the twenty categories of women, and the sixty-two wrong views with the three fixed views and the auspiciousness beliefs.",
+    "Only the Margaya gives the per-mind results: eleven unwholesome minds (all but the restless one) give rebirth in the four lower realms, all twelve give the seven rootless unwholesome results during life (even for Buddhas), and the restless mind is too weak to give rebirth [C058-M:L29–L33]. The Pradeepika's account of killing giving rebirth through the unwholesome-resultant investigating mind [C058-P:L70] is consistent with this, seen from the result side.",
+    "The Margaya extract also covers sense-sphere wholesome action (three doors, three and ten bases of merit, eight minds, twenty sense-sphere actions) and exalted wholesome action [C058-M:L15–L25]. This belongs to the wholesome side and probably overlaps the next concept (C059). It is noted here but not digested in the Sinhala explanation.",
+    "The Pradeepika says mental courses arising at the body or speech door are weak, and those at the mind door are strong [C058-P:L220]. The Margaya says only that they occur 'mostly' at the mind door [C058-M:L11]."
+  ],
+  "uncertainties": [
+    "The Pradeepika includes drinking alcohol under sexual misconduct 'because it is misconduct regarding the sense-pleasure of touch (ස්පර්ශකාම ගුණය)' [C058-P:L137]. The classification and especially 'touch' (rather than taste) need expert check; the digest does not correct it.",
+    "The sentence saying the first eight 'guarded' women have no owner 'regarding touch', so the course 'does not arise for them' in going with another man [C058-P:L133], is hard to parse. It is unclear whether it means the woman commits no full course or something else. Expert check needed.",
+    "The definition of 'සාරක්ඛා' reads 'ගැබ්ව සිටියදී හෝ මෝ මාගේ යයි රක්නා ලද' [C058-P:L118], which appears garbled (probably a betrothal-from-the-womb formula). Not reconstructed.",
+    "The Pradeepika's definitions of the three fixed wrong views [C058-P:L403–L407] assign 'no rebirth after death' to the non-efficacy view (අකිරිය) and 'no result of action' to nihilism (නාස්තික). This may differ from the standard canonical allocation. Expert check needed.",
+    "The claim that a fixed wrong-viewer, at world destruction, is reborn in a hell 'outside the ten-million-hundred-thousand world systems' [C058-P:L411] is a compressed cosmological statement whose exact reading is unclear.",
+    "The sixty-two views follow the familiar Brahmajāla pattern (18 about the past + 44 about the future), and the numbering (1)–(62) is complete and consistent. However, the extract does not name the sutta, only 'the Buddha's teaching' [C058-P:L253].",
+    "The Pradeepika says a killing recalled at the moment of death 'certainly' (ඒකාන්තයෙන්ම) gives rebirth in a lower realm [C058-P:L70]. This is a strong claim and may need qualification by other conditions (e.g. weightier kamma). Expert check needed.",
+    "Likely OCR slips, left as found: 'පටිසය' probably for පටිඝය [C058-P:L301], [C058-P:L303]; 'කරන් නේවීකාම්' for කරන්නේ වී නම් [C058-P:L421]; 'දෙෂ' for ද්වේෂ [C058-P:L425]; 'ආණන්තික' vs 'ආණත්තික' [C058-P:L62], [C058-P:L88]; 'පරුෂවචනය' vs 'ඵරුෂවචනය' within the Margaya [C058-M:L3], [C058-M:L9].",
+    "The Pradeepika extract starts mid-page at pdf 485 [C058-P:L21], sharing that page with the end of C057. The final marker (pdf 508) at L427 has no text after it. The Pali root text is omitted by the extractor.",
+    "The Margaya's lesson number '8' [C058-M:L1] is the book's own numbering, not the concept number."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C049",
+  "record_type": "concept_digest",
+  "concept_id": "C049",
+  "group_id": "GRP-04",
+  "title_si": "පුද්ගල භේදය",
+  "title_en": "Kinds of persons by the roots present at birth",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C049-P",
+      "path": "content/02-concepts/Chapter 4/Concept 49 - පුද්ගල භේදය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-131",
+      "complete": true,
+      "markers": "Book 1, ch. 4 (වීථි සංග්‍රහ විභාගය), pdf 399–407 / printed 389–397; extract starts mid-page on pdf 399; pdf 405–406 are landscape tables transcribed upright with a transcriber's note at L117"
+    },
+    {
+      "ref": "C049-M",
+      "path": "content/02-concepts/Chapter 4/Concept 49 - පුද්ගල භේදය/sources/Abhidharma Margaya.md",
+      "lines": "1-67",
+      "complete": true,
+      "markers": "Section headed '12. පුද්ගල භේදය'; no page markers in extract"
+    }
+  ],
+  "summary_en": "Persons are distinguished by the rebirth-linking consciousness they were born with. It may have none of the wholesome roots (rootless persons, born in a bad destination or a weak good one), two roots (non-greed and non-hatred, but no understanding), or all three [C049-P:L27–L49; C049-M:L5–L7]. Three-rooted persons are either ordinary people or one of the eight noble persons (path and fruit of the four stages). The noble persons are 'learners' until the final fruit, which is 'beyond learning' [C049-P:L51–L55; C049-M:L3; C049-M:L9–L11]. The root set at birth limits what can happen in that life. Rootless and two-rooted persons cannot reach meditative absorption or the paths in this existence, though they can still do good [C049-P:L45; C049-P:L67; C049-P:L73]. The sources then count exactly which of the 80 process-minds each person can have, showing doubt disappearing at stream-entry, hatred at non-return, and restlessness only at arahantship [C049-P:L85; C049-P:L97; C049-P:L101; C049-M:L23–L64].",
+  "sinhala_explanation": [
+    {
+      "heading": "පුද්ගලයන් බෙදෙන්නේ ප්‍රතිසන්ධි සිතෙනි",
+      "text": "පුද්ගල විභාගය යනු පුද්ගලයන් කවරහුද, ඒ ඒ පුද්ගලයන්ට ලැබෙන සිත් කවරහුද යන්න විස්තර කිරීමයි [C049-P:L25]. ප්‍රදීපිකාව ප්‍රතිසන්ධිය ලැබූ ආකාරය අනුව පුද්ගලයන් ත්‍රිවිධ කරයි: අහේතුක ප්‍රතිසන්ධිය ලැබූ අහේතුක පුද්ගලයෝ, ද්විහේතුක ප්‍රතිසන්ධිය ලැබූ ද්විහේතුක පුද්ගලයෝ, ත්‍රිහේතුක ප්‍රතිසන්ධිය ලැබූ ත්‍රිහේතුක පුද්ගලයෝ [C049-P:L27–L33]. මාර්ගය පුද්ගලයන් පෘථග්ජන හා ආර්ය යනුවෙන් දෙකොටසකට බෙදා, පෘථග්ජනයන් සතර දෙනෙකු හා ආර්යයන් අට දෙනෙකු වශයෙන් සියල්ල දොළොස් දෙනෙකු ලෙස ගණන් කරයි [C049-M:L3]. පෘථග්ජනයෝ සතර දෙනා නම් දුර්ගති අහේතුක, සුගති අහේතුක, ද්විහේතුක සහ ත්‍රිහේතුක පුද්ගලයෝය [C049-M:L5]. මේ භේදය ඇතිවන්නේ ප්‍රතිසන්ධි චිත්තයෙනි: අකුසල විපාක උපේක්ෂා සහගත සන්තීරණ සිතින් ප්‍රතිසන්ධිය ලැබුවෝ දුර්ගති අහේතුකයෝය; කුසල විපාක උපේක්ෂා සහගත සන්තීරණයෙන් ලැබුවෝ සුගති අහේතුකයෝය; ඤාණවිප්පයුත්ත මහා විපාක සිත් සතරෙන් ලැබුවෝ ද්විහේතුකයෝය; ඥාන සම්ප්‍රයුක්ත මහා විපාක සතර හා මහග්ගත විපාක නවය යන සිත් දහතුනෙන් ලැබුවෝ ත්‍රිහේතුකයෝය. අසංඥ පුද්ගලයාද අහේතුක පුද්ගලයෙකි [C049-M:L7]."
+    },
+    {
+      "heading": "අහේතුක පුද්ගලයෝ",
+      "text": "දුගති අහේතුක පුද්ගලයෝ නම් උද්ධච්ච සම්ප්‍රයුක්ත සිත හැර ඉතිරි අකුසල් සිත් එකොළොසෙන් එකකින් කළ අකුසල කර්මපථයක ප්‍රතිසන්ධි විපාක වශයෙන්, නිරය, තිරිසන් යෝනිය, ප්‍රේත යෝනිය, අසුර නිකාය යන සතර අපායෙහි අහේතුක අකුසල විපාක උපෙක්ඛා සහගත සන්තීරණ සිතින් උපන් අයයි [C049-P:L35; C049-P:L41]. සුගති අහේතුක පුද්ගලයෝ නම් ඉතා දුර්වල ඤාණවිප්‍රයුක්ත කුසල් සිතකින් කළ හීන කුසල කර්මයක ප්‍රතිසන්ධි විපාක වශයෙන් අහේතුක කුසල විපාක සන්තීරණ සිතින් දෙව් මිනිස් සුගතියෙහි 'ලාමක' ප්‍රතිසන්ධියක් ලැබූ අයයි [C049-P:L37; C049-P:L43]. ප්‍රදීපිකාව මෙයට උදාහරණ ලෙස උපතින්ම අන්ධ, බිහිරි ආදී අඞ්ග විකලත්වය ඇති, ඥානයෙන් හීන, සිඟාකෑම ආදියෙන් දුකසේ දිවි ගෙවන මිනිසුන් දක්වන අතර, භූමිනිශ්‍රිත විනිපාතික අසුරයන්ද මෙම ගණයට ඇතුළත් කොට ඔවුන් චාතුම්මහාරාජිකයට අයත් බව කියයි [C049-P:L43]."
+    },
+    {
+      "heading": "ද්විහේතුක සහ ත්‍රිහේතුක පුද්ගලයෝ",
+      "text": "ද්විහේතුක පුද්ගලයෝ නම් අලෝභ, අද්වේෂ යන හේතු දෙක පමණක් යෙදුණු ඤාණවිප්‍රයුක්ත කාමාවචර කුසල් සිතකින් කළ උත්කෘෂ්ට පුණ්‍ය කර්මයක ප්‍රතිසන්ධි විපාක වශයෙන්, ඤාණවිප්‍රයුක්ත මහා විපාක සිතකින් සුගතියෙහි උපන් අයයි. ප්‍රතිසන්ධියට හේතු වූ කර්මයේ හීන, මධ්‍යම, උත්කෘෂ්ට භේදය අනුව විපාකද වෙනස් වේ. ඔවුන්ට තම උත්සාහයෙන්ම සැප සම්පත් සාදාගැනීමට සිදුවේ. ඥානයෙන් තොරව, එනම් ජන්ම ප්‍රඥාව නැතිව උපන් බැවින් එම ආත්මභාවයේදී ධ්‍යාන, මාර්ග ඵල වැනි උත්තරි මනුෂ්‍ය ධර්මවලට පැමිණිය නොහැකිය [C049-P:L45]. ත්‍රිහේතුක පුද්ගලයෝ අලෝභ, අද්වේෂ, අමෝහ යන හේතු තුනම ඇති ප්‍රතිසන්ධි විපාක සිතකින් උපන් අයයි. ත්‍රිහේතුක ප්‍රතිසන්ධිය දෙන විපාක සිත් දහතුනකි: කාමාවචර ඤාණසම්ප්‍රයුක්ත මහා විපාක 4 (මිනිස් ලොව හා දිව්‍ය ලොව), රූපාවචර විපාක 5 (රූප බ්‍රහ්ම ලොව), අරූපාවචර විපාක 4 (අරූප බ්‍රහ්ම ලොව) [C049-P:L49]. ත්‍රිහේතුකයෝ දෙකොටසකි: මාර්ග ඵල අවබෝධ නොකළ ත්‍රිහේතුක පෘථග්ජනයා සහ මාර්ග ඵල අවබෝධ කළ ආර්ය පුද්ගලයා [C049-P:L51]. දුගති අහේතුක, සුගති අහේතුක සහ ද්විහේතුක පුද්ගලයන්ට අර්පණා ජවන් නොලැබෙන බැවින් මේ භවයේදී ධ්‍යාන, මාර්ග ඵල කිසිසේත් ලැබිය නොහැකි බව ප්‍රදීපිකාව නැවත අවධාරණය කරයි [C049-P:L73]; මාර්ගයද ද්විහේතුකයන්ට හා අහේතුකයන්ට ක්‍රියා ජවන හා අර්පණා ජවන නොලැබෙන බව කියයි [C049-M:L15]."
+    },
+    {
+      "heading": "ආර්ය පුද්ගලයෝ අට දෙනා: ශෛක්ෂ හා අශෛක්ෂ",
+      "text": "ආර්ය පුද්ගලයෝ අට දෙනෙකි: සෝවාන් මාර්ගස්ථ, සෝවාන් ඵලස්ථ, සකෘදාගාමී මාර්ගස්ථ, සකෘදාගාමී ඵලස්ථ, අනාගාමී මාර්ගස්ථ, අනාගාමී ඵලස්ථ, අර්හත් මාර්ගස්ථ, අර්හත් ඵලස්ථ [C049-P:L53; C049-M:L9]. අර්හත් ඵලස්ථ පුද්ගලයා අශෛක්ෂ පුද්ගලයා (තවදුරටත් හික්මිය යුතු දෙයක් නැති තැනැත්තා) වන අතර ඉතිරි සත් දෙනා ශෛක්ෂ පුද්ගලයෝ (තවමත් හික්මෙන අය) වෙති [C049-P:L55; C049-M:L11]. ප්‍රදීපිකාව ආර්ය පුද්ගලයන් ශුෂ්ක විදර්ශක සහ සමථයානික යනුවෙන්ද දෙකොටසකට බෙදන අතර එහි විස්තර මීට පෙර දක්වා ඇති බව කියයි [C049-P:L55]."
+    },
+    {
+      "heading": "ඒ ඒ පුද්ගලයාට ලැබෙන වීථි සිත්: සැකය, ද්වේෂය, නොසන්සුන්කම ඉවත්වන පිළිවෙළ",
+      "text": "මහග්ගත විපාක සිත් නවය ද්වාරවිමුක්ත බැවින් ප්‍රතිසන්ධි, භවඞ්ග, චුති කෘත්‍ය හැර අන් කෘත්‍යයක් නොකරයි; එබැවින් වීථි සිත් ලෙස ගණන් ගන්නේ සිත් 89න් ඒ නවය හැර ඉතිරි 80 පමණි [C049-P:L59–L63; C049-M:L21]. මාර්ගයට අනුව මෙහි දැක්වෙන්නේ එක් එක් පුද්ගලයාට ලැබිය හැකි උපරිම සිත් ගණනයි [C049-M:L21]. දුගති අහේතුකයාට 37: අකුසල් 12, හසිතුප්පාදය හැර අහේතුක 17, මහා කුසල් 8 [C049-P:L67; C049-M:L38]. සුගති අහේතුකයාට හා ද්විහේතුකයාට 41: ඒවාට ඤාණවිප්‍රයුක්ත මහා විපාක 4 එකතු වේ [C049-P:L71; C049-M:L42]. ත්‍රිහේතුක පෘථග්ජනයාට 54: අකුසල් 12, අහේතුක 17, මහා කුසල් 8, මහා විපාක 8, මහග්ගත කුසල් 9 [C049-P:L77–L81; C049-M:L46]. සෝවාන් ඵලස්ථයාට 50: සෝවාන් මාර්ග ක්ෂණයේදී සමුච්ඡේද වශයෙන් නැසූ දිට්ඨිගත සම්ප්‍රයුක්ත අකුසල් 4 සහ විචිකිච්ඡා සම්ප්‍රයුක්ත සිත නැවත නූපදී; නමුත් උද්ධච්ච සම්ප්‍රයුක්ත සිත ඉතිරිව ඇත [C049-P:L85; C049-M:L52]. සකෘදාගාමී ඵලස්ථයාට ද 50 [C049-P:L89; C049-M:L56]. අනාගාමී ඵලස්ථයාට 48: අනාගාමී මාර්ග ක්ෂණයේදී ද්වේෂමූල සිත් දෙක ප්‍රහීණ කළ බැවිනි; දිට්ඨිවිප්‍රයුක්ත 4 සහ උද්ධච්ච සිත තවම ලැබේ [C049-P:L93–L97; C049-M:L60]. රහතන් වහන්සේට සියලු කෙලෙස් නැසූ බැවින් අකුසල් 12, මහා කුසල් 8, මහග්ගත කුසල් 9 හා අර්හත් ඵලය හැර ලෝකෝත්තර 7 නොලැබේ; ලැබෙන්නේ අහේතුක 18, මහා විපාක හා ක්‍රියා 16, මහග්ගත ක්‍රියා 9, අර්හත් ඵලය යන 44 යි [C049-P:L101; C049-M:L64]. මාර්ගස්ථයන්ට ලැබෙන්නේ ඒ ඒ මාර්ග සිත පමණි [C049-M:L27–L33; C049-M:L48]. ධ්‍යාන නොලැබූ සාමාන්‍ය සත්ත්වයන් සඳහා ගණන් කිරීමේදී මහග්ගත සිත් හැර ගත යුතු බව මාර්ගය එක් කරයි [C049-M:L66]. ප්‍රදීපිකාව මේ සියල්ල වගු දෙකකින්ද සාරාංශ කරයි [C049-P:L110–L126]."
+    }
+  ],
+  "key_terms": [
+    { "term_si": "පුද්ගල භේදය", "pali": "puggala-bheda", "en": "classification of persons" },
+    { "term_si": "ප්‍රතිසන්ධිය", "pali": "paṭisandhi", "en": "rebirth-linking; the first moment of a new life", "note": "The basis of the classification [C049-M:L7]" },
+    { "term_si": "දුගති / දුර්ගති අහේතුක", "pali": "duggati-ahetuka", "en": "rootless person born in a woeful state" },
+    { "term_si": "සුගති අහේතුක", "pali": "sugati-ahetuka", "en": "rootless person born in a good destination, with a weak (ලාමක) birth" },
+    { "term_si": "ද්විහේතුක පුද්ගලයා", "pali": "dvihetuka puggala", "en": "two-rooted person (non-greed, non-hatred, without innate understanding)" },
+    { "term_si": "ත්‍රිහේතුක පුද්ගලයා", "pali": "tihetuka puggala", "en": "three-rooted person" },
+    { "term_si": "පෘථග්ජනයා", "pali": "puthujjana", "en": "ordinary person, not yet on the noble path" },
+    { "term_si": "ආර්ය පුද්ගලයා", "pali": "ariya puggala", "en": "noble person (eight: path and fruit of four stages)" },
+    { "term_si": "ශෛක්ෂ / අශෛක්ෂ", "pali": "sekha / asekha", "en": "learner, one still in training / one beyond training" },
+    { "term_si": "වීථි සිත්", "pali": "vīthi citta", "en": "process-minds; minds that occur within cognitive processes (80)" },
+    { "term_si": "ද්වාරවිමුක්ත", "pali": "dvāra-vimutta", "en": "door-free; minds not arising through a sense door" },
+    { "term_si": "අර්පණා ජවන්", "pali": "appanā javana", "en": "absorption impulsions (jhāna and path/fruit minds)", "note": "Not available to rootless or two-rooted persons [C049-P:L73]" },
+    { "term_si": "සමුච්ඡේද ප්‍රහාණය", "pali": "samuccheda-pahāna", "en": "abandoning by cutting off completely" },
+    { "term_si": "ශුෂ්ක විදර්ශක / සමථයානික", "pali": "sukkha-vipassaka / samatha-yānika", "en": "dry-insight practitioner / one whose vehicle is calm" }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Different starting weather",
+      "text": "The teaching says each life begins with a particular quality of mind. That first moment may carry the capacities of letting go, goodwill and understanding, or only some of them, or none. This starting point does not decide whether someone can be good. Even the least favoured person in the scheme can have the great wholesome states. What it limits is depth: whether, in this lifetime, the mind can settle into deep stillness or see through its confusion completely. For a film about being lost, the honest reading is that people do not start from the same place. Some fog is not a personal failing."
+    },
+    {
+      "heading": "Confusion comes apart in an order",
+      "text": "The most striking part is the bookkeeping at the end. As a person moves along the path, specific states stop happening, in a fixed order. Fixed opinions and deep doubt go first. Hatred goes later. The small, flat restlessness of the mind is the very last to leave. The dramatic problems end before the quiet ones do. Being unsettled and scattered outlasts being certain of wrong things."
+    },
+    {
+      "heading": "Learners and the one who has finished learning",
+      "text": "The sources call everyone on the path, short of the very end, a 'learner'. They are still in training. Only the last stage is 'one who no longer needs training'. It is a humble picture: almost everyone who has made real progress is still described as someone learning."
+    }
+  ],
+  "does_not_transfer": [
+    "Pradeepika gives people blind or deaf from birth, people of weak intellect, and people living by begging as examples of the 'rootless in a good destination' [C049-P:L43]. This must never be used to describe real disabled or poor people in a film. The classification concerns a rebirth-mind that no one can observe. Presenting disability or poverty as a sign of spiritual deficiency would be harmful and would go well beyond what the source lets anyone verify.",
+    "It is not a doctrine of fixed potential that excuses not trying. The numbers are maximums [C049-M:L21], every class of ordinary person can still do good [C049-P:L67; C049-P:L71], and the limit on deep attainment applies to 'this existence' only [C049-P:L73].",
+    "'Two-rooted' or 'three-rooted' are not IQ, talent, education or social class. Pradeepika's remark that two-rooted people must build their prosperity through their own effort [C049-P:L45] is not a statement about economic merit.",
+    "The stages of the noble path are not badges or levels to display. They are defined by which states no longer arise, not by visible achievements."
+  ],
+  "story_seeds": [
+    {
+      "seed": "Parents taking a newborn's birth time to an astrologer to have a horoscope read.",
+      "what_camera_could_observe": "The astrologer's charts and calculations, the parents' questions about what kind of person the child will be, and their faces as the reading unfolds.",
+      "why_it_fits": "It shows a widespread human wish to know a person's starting conditions at birth. The source's idea of a birth-mind that sets what is possible in a life [C049-P:L27; C049-M:L7] is a different claim from astrology. The film can hold the two side by side without equating them.",
+      "setting_type": "Home or small practice of a village or town astrologer",
+      "risk": "Suggesting the doctrine and astrology are the same thing, or mocking a family's practice. The astrologer's predictions must not be presented as fact."
+    },
+    {
+      "seed": "Two grown siblings raised in the same house who took very different paths.",
+      "what_camera_could_observe": "Each sibling in their own daily life, a shared visit to the family home, and how each describes the other and their childhood.",
+      "why_it_fits": "The same upbringing with different outcomes raises the question the teaching answers in its own terms: people start from different inner conditions [C049-P:L27–L33].",
+      "setting_type": "Family home in a village or town, plus each sibling's present place",
+      "risk": "Ranking the siblings, implying one is 'better born', or exposing family tensions for drama. It needs both siblings' full consent and no judgement in the edit."
+    },
+    {
+      "seed": "A traditional workshop where apprentices at different stages work beside a master who has finished learning the craft.",
+      "what_camera_could_observe": "The master's economy of movement, apprentices' mistakes and corrections, and the gradual handing over of harder tasks.",
+      "why_it_fits": "The 'learner' and 'beyond learning' distinction [C049-P:L55; C049-M:L11] literally means 'one still training' and 'one no longer needing training'. The workshop makes that structure visible. The source's stages are spiritual, not craft skill, and the film must say so.",
+      "setting_type": "Traditional craft workshop (woodcarving, brass, drum-making or similar)",
+      "risk": "Implying craft mastery equals spiritual attainment. Treating the master as a 'finished' person."
+    },
+    {
+      "seed": "An adult literacy or evening class where people who missed schooling learn alongside each other.",
+      "what_camera_could_observe": "Adults of different ages working on the same lesson at different speeds, their persistence, and what each says brought them there.",
+      "why_it_fits": "It honestly shows people starting from different places and still moving forward. The teaching's limits concern deep meditative attainment, not ordinary learning or goodness [C049-P:L73]. The film should use the class to show effort within given conditions, not to illustrate root types.",
+      "setting_type": "Community hall or temple classroom used for adult education",
+      "risk": "High risk of implying that slower learners are 'rootless'. The doctrine must never be mapped onto any individual in the class."
+    }
+  ],
+  "cross_source_notes": [
+    "Structure differs. Pradeepika first divides persons three ways by rebirth root, then splits the three-rooted into ordinary and noble [C049-P:L27–L51]. Margaya divides all persons into 4 ordinary and 8 noble, 12 in total [C049-M:L3–L5].",
+    "Only Margaya includes the non-percipient being as a rootless person [C049-M:L7]. Only Pradeepika gives the examples of the rootless in a good destination (congenital disability, poverty, earth-bound asuras) [C049-P:L43] and the note that two-rooted people must build prosperity through their own effort [C049-P:L45].",
+    "Pradeepika explains why a bad-destination birth cannot come from the restlessness mind: it comes from the other 11 unwholesome minds [C049-P:L41]. This agrees with C008-M:L20.",
+    "Both give the same counts of process-minds: 37, 41, 41, 54, 50, 50, 48, 44 [C049-P:L110–L126; C049-M:L23–L34]. Margaya also lists path-moment persons as having one mind each [C049-M:L27–L33; C049-M:L48]. Pradeepika's tables list only the fruit-stage persons.",
+    "Only Pradeepika mentions the dry-insight and calm-vehicle division of noble persons [C049-P:L55]. Only Margaya says the counts are maximums and that for beings without jhāna the exalted minds should be left out [C049-M:L21; C049-M:L66].",
+    "Pradeepika gives a combined count for learners, 56 [C049-P:L103]. Margaya gives none."
+  ],
+  "uncertainties": [
+    "C049-P:L103 says the ordinary person can have 'සුපනස' process-minds but prints the numeral '(45)'. The word and the prose and table elsewhere [C049-P:L81; C049-P:L114] give 54. The numeral looks like a misprint or transposition. Not corrected in the text.",
+    "C049-P:L103 first says learners get 'පනසකි' (fifty), then totals 'සපනස් (56)' (50 + 4 path minds + 2 fruit minds). The wording is inconsistent within one sentence.",
+    "Row 2 of the printed table omits 'unwholesome 12' but still totals 41. The transcriber's note records this [C049-P:L117]. The prose [C049-P:L71] and Margaya [C049-M:L42] give the full 41.",
+    "Pradeepika says the details of the dry-insight and calm-vehicle division were 'given earlier' [C049-P:L55]. Those details are not in this extract.",
+    "Pradeepika's identification of people with congenital disabilities and beggars as 'rootless in a good destination' [C049-P:L43] is a doctrinal claim that is ethically sensitive. The extract does not say whether every such person is rootless or only some. Needs expert checking. It must not be used in any film.",
+    "Pradeepika's two-rooted section says the limit is reaching jhāna and paths 'in that existence' [C049-P:L45]. It does not discuss what the person can develop towards future lives. Do not extrapolate."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

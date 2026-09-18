@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0063",
+  "record_type": "idea",
+  "title": "Slow Through the Mist",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "High in the hills the fog comes down so thick that a train driver and a signalman can see only a few metres ahead. The only way through is to slow down and look.",
+  "human_question": "When you cannot see where you are going, what does it take to keep moving safely?",
+  "premise": {
+    "story": "The railway workers of the highest stretch of the hill-country line on a fog-bound day: the signalman at a mountain station, the driver easing the train through cloud, the passengers pressed to the windows. Their work is to move through what cannot be seen without losing the way.",
+    "place": "A mountain railway station and the line around it: cloud forest, tunnels, a platform emerging from and vanishing into mist.",
+    "experience": "The fog of the whole group made literal and cinematic, then slowly thinned by patient, careful attention to one thing at a time."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C008",
+      "role": "primary",
+      "why": "Delusion is the quality that darkens the mind so it cannot know a thing as it is [C008-M:L3]. The fog is an image of that darkening only; the film is about the workers' real practice of moving slowly and attentively."
+    },
+    {
+      "concept_id": "C074",
+      "role": "supporting",
+      "why": "The hindrances are described as a lid over the mind, and the helps listed include going out into the open air and recollecting light; the film can let that sit underneath the signal lamps and slow, careful work."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Fog rolling across the platform and swallowing the rails",
+    "The signalman's routines: tokens, bells, lamps, phones",
+    "The driver's view: a few metres of track, a horn, a speed kept low",
+    "Passengers watching nothing but white",
+    "The moment the cloud thins and the valley appears, if it does"
+  ],
+  "what_must_be_real": "The fog, the workers' procedures and the train's real journey. Nothing is slowed or repeated for the camera, and all filming follows railway safety rules.",
+  "possible_arc": {
+    "opening": "White. A bell rings somewhere in it.",
+    "turn": "The train arrives out of the fog at walking pace.",
+    "ending_open": "It leaves into the mist. Whether the cloud lifts or not, and whatever the workers really say about fog days, closes the group."
+  },
+  "position_hint": "closing candidate: the group's closing line made literal (the only way out of the fog is to stop and look closely), handing off to a group about slowing down and looking at a single moment",
+  "location": {
+    "requirements": [
+      "A high railway station with frequent fog and staff willing to be filmed",
+      "Permission from the railway authorities, including cab access if possible",
+      "Several fog days within the filming window"
+    ],
+    "suggestions": [
+      {
+        "name": "Pattipola railway station",
+        "region": "Nuwara Eliya district, Central Province",
+        "why": "The highest station on the hill-country main line, often in cloud.",
+        "season_notes": "Misty monsoon months",
+        "access_notes": "Cab and signal-box access needs formal permission",
+        "verify": "Confirm current staffing, signalling practice and filming permissions.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Ohiya railway station",
+        "region": "Central highlands, near Horton Plains",
+        "why": "A neighbouring mountain station on the same stretch, with tunnels and cloud forest.",
+        "season_notes": "Misty monsoon months",
+        "access_notes": "",
+        "verify": "Confirm permissions and conditions.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Scenic railway footage becoming a travel film",
+    "Safety around moving trains and in poor visibility",
+    "The fog metaphor becoming too neat"
+  ],
+  "drop_if": [
+    "Railway permission for close filming cannot be obtained"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0053",
+      "relation": "mirrors",
+      "note": "The group opens with a place covered by water and closes with a place covered by cloud."
+    },
+    {
+      "idea_id": "IDEA-0055",
+      "relation": "leads into",
+      "note": "The market's scattered rush resolves into work that can only be done slowly."
+    },
+    {
+      "idea_id": "IDEA-0062",
+      "relation": "alternative to",
+      "note": "Two closing candidates for the same hand-off."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

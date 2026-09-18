@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0062",
+  "record_type": "idea",
+  "title": "Where the Mind Goes",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "Newcomers arrive at a forest meditation centre and try to sit still. On the first evening a teacher asks each of them one question: where does your mind go?",
+  "human_question": "Why do we each lose our way differently, and what brings each of us back?",
+  "premise": {
+    "story": "A few newcomers over their first days at a meditation centre that admits lay people: fidgeting, walking, sleeping, and their own words about how the mind keeps running off. The film includes the teacher's conversation with a newcomer only if both agree.",
+    "place": "A forest centre in the hills: a simple meditation hall, walking paths, mist, the sound of a bell.",
+    "experience": "The viewer's own restlessness is slowly quietened by the place's rhythm, then asked the same question."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C086",
+      "role": "primary",
+      "why": "Pradeepika describes a teacher who cannot read minds asking the student which states are frequent and which subject feels easy, then giving a fitting practice [C086-P4:L278]; the whole point of the many subjects is to fit the person [C086-M:L5]."
+    },
+    {
+      "concept_id": "C008",
+      "role": "supporting",
+      "why": "Restlessness as the loss of the power to stay with one object, which scatters the rest of the mind [C008-P:L62–L64]. A retreat is where people meet this directly and describe it in their own words."
+    },
+    {
+      "concept_id": "C049",
+      "role": "supporting",
+      "why": "Everyone here is a learner, and the sources say people start from different places; some fog is not a personal failing [C049-P:L27–L33]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Arrivals: bags, sandals left at the door, the first silence",
+    "Newcomers shifting, getting up, walking the grounds",
+    "The teacher's question and the newcomer's answer, if consented",
+    "Small changes over several days",
+    "Each newcomer's own words at the end of a day"
+  ],
+  "what_must_be_real": "The centre, the newcomers and every word they say. No one performs meditation for the camera, and the teacher's advice is not presented as a diagnosis.",
+  "possible_arc": {
+    "opening": "Arrival, noise in the head, a bell.",
+    "turn": "The first evening's question: where does your mind go?",
+    "ending_open": "A few days later. Whatever the newcomers actually say about their minds ends the film."
+  },
+  "position_hint": "closing candidate: the group's arc turns here from being lost to stopping and looking closely, and hands off naturally to a group about a single moment of attention",
+  "location": {
+    "requirements": [
+      "A meditation centre that receives lay newcomers and allows filming",
+      "Newcomers willing to be followed for several days",
+      "Filming that follows the centre's rules and does not disturb others"
+    ],
+    "suggestions": [
+      {
+        "name": "Nilambe Buddhist Meditation Centre",
+        "region": "Kandy district, Central Province",
+        "why": "A long-established hill-country centre known for receiving lay meditators.",
+        "season_notes": "Cooler, misty months suit the tone",
+        "access_notes": "Filming permission is essential",
+        "verify": "Confirm filming policy, schedules and current teachers.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Kanduboda meditation centre (Siyane)",
+        "region": "Gampaha district, Western Province",
+        "why": "A well-known centre that has long received lay and foreign meditators.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm filming policy and whether newcomer interviews are permitted.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Disrupting a retreat; the centre's rules come first",
+    "Turning a person's inner struggle into spectacle or a lesson",
+    "Temperament presented as a personality test"
+  ],
+  "drop_if": [
+    "The centre does not allow filming of newcomers or of a teacher's conversation"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0059",
+      "relation": "pairs with",
+      "note": "Leanings seen in a family's shared work, then met one by one by a teacher."
+    },
+    {
+      "idea_id": "IDEA-0063",
+      "relation": "alternative to",
+      "note": "Two closing candidates: an inner stopping, or an outer one in fog."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

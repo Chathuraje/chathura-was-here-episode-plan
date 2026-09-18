@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0008",
+  "record_type": "idea",
+  "title": "When Morning Begins",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-01",
+  "logline": "In one small town, 'morning' begins at a different hour for the baker, the fisher, the drummer and the farmer.",
+  "human_question": "Morning, east, today: are these things in the world, or agreements we make with the sun and moon?",
+  "premise": {
+    "story": "One night-to-dawn cycle through people whose work defines when 'morning' starts.",
+    "place": "A town where several dawn trades meet.",
+    "experience": "The night slowly turning: sounds, lights and people waking in sequence."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C084",
+      "role": "primary",
+      "why": "Time- and direction-concepts arise from the movement of sun and moon."
+    },
+    {
+      "concept_id": "C001",
+      "role": "supporting",
+      "why": "A conventional frame everyone relies on and no one can point to."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Ovens lit before dawn",
+    "Boats returning",
+    "Temple drums or bells",
+    "The first light; shadows turning"
+  ],
+  "what_must_be_real": "Real schedules, real routines.",
+  "possible_arc": {
+    "opening": "Midnight: someone's day is already starting.",
+    "turn": "Each trade names the hour differently.",
+    "ending_open": "Sunrise, which is nobody's 'morning' in particular."
+  },
+  "position_hint": "middle or closing",
+  "location": {
+    "requirements": [
+      "Several dawn trades within reach of each other",
+      "Night filming permissions"
+    ],
+    "suggestions": [
+      {
+        "name": "Kandy, around the dawn drumming at the Temple of the Tooth",
+        "region": "Central Province",
+        "why": "Drums mark the hour for a whole city.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Filming permissions at the temple are strict.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "A southern fishing harbour (e.g. Mirissa or Beruwala)",
+        "region": "Southern / Western Provinces",
+        "why": "Boats return at dawn; markets start in the dark.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "A montage with no single human thread"
+  ],
+  "drop_if": [
+    "No person to carry the night"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0004",
+      "relation": "pairs with",
+      "note": "Names grounded in nature."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

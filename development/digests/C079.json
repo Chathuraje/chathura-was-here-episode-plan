@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C079",
+  "record_type": "concept_digest",
+  "concept_id": "C079",
+  "group_id": "GRP-09",
+  "title_si": "පටිච්ච සමුත්පාද පාළිය",
+  "title_en": "The Pāli formula of dependent origination",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C079-P",
+      "path": "content/02-concepts/Chapter 8/Concept 79 - පටිච්ච සමුත්පාද පාළිය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-36",
+      "complete": true,
+      "markers": "Book 3, ch. 8, pdf 27 / printed 16"
+    },
+    {
+      "ref": "C079-M",
+      "path": "content/02-concepts/Chapter 8/Concept 79 - පටිච්ච සමුත්පාද පාළිය/sources/Abhidharma Margaya.md",
+      "lines": "1-15",
+      "complete": true,
+      "markers": "Section 2 of the conditions part; no page or edition metadata"
+    },
+    {
+      "ref": "C078-P",
+      "path": "content/02-concepts/Chapter 8/Concept 78 - ප්‍ර‍ත්‍යය කාණ්ඩය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-37",
+      "complete": false,
+      "markers": "Cross-reference only: cited from the C078 extract because C079's own extracts are very short."
+    },
+    {
+      "ref": "C078-M",
+      "path": "content/02-concepts/Chapter 8/Concept 78 - ප්‍ර‍ත්‍යය කාණ්ඩය/sources/Abhidharma Margaya.md",
+      "lines": "1-13",
+      "complete": false,
+      "markers": "Cross-reference only: cited from the C078 extract because C079's own extracts are very short."
+    },
+    {
+      "ref": "C081-M",
+      "path": "content/02-concepts/Chapter 8/Concept 81 - පටිච්චසමුප්පාදය ගැන දත යුතු කරුණු/sources/Abhidharma Margaya.md",
+      "lines": "1-63",
+      "complete": false,
+      "markers": "Cross-reference only: cited from the C081 extract because C079's own extracts are very short."
+    }
+  ],
+  "summary_en": "This section is the Pāli text of dependent origination in its forward (arising) order, printed in both books: eleven clauses of the form 'with X as condition, Y', linking twelve factors from ignorance to ageing and death, with sorrow, lamentation, pain, grief and despair arising at the end, and the closing line 'thus arises this whole mass of suffering'. Margaya numbers the clauses 1–11; Pradeepika prints them unnumbered and labels the passage 'the Pāli of the dependent-origination teaching'. Neither extract translates or explains the clauses. Margaya's preceding section tells the student to memorise this text before studying its explanation.",
+  "sinhala_explanation": [
+    {
+      "heading": "පාළි පෙළ සහ එහි තැන",
+      "text": "මෙම කොටස පටිච්ච සමුප්පාද දේශනා පාළියයි; පොත් දෙකම එය එකම පිළිවෙළින් දක්වයි [C079-P:L23–L36; C079-M:L3–L15]. Pradeepika එය අංක නොමැතිව පේළි එකොළොසකින් දක්වා ‘මෙය පටිච්ච සමුප්පාද දෙශනා පාළිය යි’ යනුවෙන් අවසන් කරයි [C079-P:L23–L36]. Margaya එම වාක්‍ය 1 සිට 11 දක්වා අංක කොට දක්වයි [C079-M:L3–L13]. Margaya පෙර කොටසේදී, ප්‍රතීත්‍ය සමුත්පාද ක්‍රමය උගන්නා තැනැත්තා පළමුවම මේ පාළිය පාඩම් කරගත යුතු බව කියයි [C078-M:L13]. එබැවින් මෙහි ඇත්තේ පැහැදිලි කිරීමක් නොව, කටපාඩම් කළ යුතු මූල පෙළයි."
+    },
+    {
+      "heading": "‘X පච්චයා Y’ යන වාක්‍ය රටාව",
+      "text": "සෑම වාක්‍යයක්ම එකම රටාවකින් යුක්තය: ‘අවිජ්ජා පච්චයා සඞ්ඛාරා’, ‘සඞ්ඛාර පච්චයා විඤ්ඤාණං’ ආදී වශයෙන් පෙර වාක්‍යයේ ඵලය ඊළඟ වාක්‍යයේ ප්‍රත්‍යය බවට පත්වේ [C079-P:L23–L33; C079-M:L3–L13]. Margaya මෙම රටාව සිංහලෙන් ඉදිරිපත් කරන්නේ ‘අවිද්‍යාව ඇති කල්හි අවිද්‍යාව නිසා සංස්කාර හට ගන්නේය, සංස්කාර ඇති කල්හි ඒවා නිසා විඤ්ඤාණය හට ගන්නේය’ යනාදී වශයෙනි; ඒ ඒ ධර්මයන් ඇති නිසා තවත් ධර්මයන් හටගැනීමෙන් සංසාරය නොසිඳී පවතී [C078-M:L11]. Pradeepika අනුව මේ මධ්‍යම දේශනාවේදී සෑම පියවරකම නොයෙක් හේතූන් අතුරෙන් ප්‍රධාන එක් හේතුවක්ද, නොයෙක් ඵලයන් අතුරෙන් ප්‍රධාන එක් ඵලයක්ද පමණක් ගෙන දක්වා ඇත [C078-P:L35]."
+    },
+    {
+      "heading": "අඞ්ග දොළොස සහ වාක්‍ය එකොළොස",
+      "text": "පාළියේ වාක්‍ය එකොළොසකින් අඞ්ග දොළොසක් එකිනෙකට සම්බන්ධ කෙරේ: අවිජ්ජා, සඞ්ඛාර, විඤ්ඤාණ, නාමරූප, සළායතන, ඵස්ස, වෙදනා, තණ්හා, උපාදාන, භව, ජාති, ජරාමරණ [C079-M:L3–L13]. Margaya මේවා සිංහලෙන් අවිද්‍යාව, සංස්කාරය, විඥානය, නාමරූපය, ෂඩායතනය, ස්පර්ශය, වේදනාව, තෘෂ්ණාව, උපාදානය, භවය, ජාතිය, ජරාමරණය ලෙස නම් කරයි [C081-M:L15]. අවසාන වාක්‍යයේ ජරාමරණය සමඟ සෝක, පරිදේව, දුක්ඛ, දෝමනස්ස, උපායාස යන පසද හටගන්නා බව කියැවේ [C079-P:L33; C079-M:L13]; එහෙත් ශෝකාදි පස සැමට ඇති නොවන බැවින් ඒවා වෙනම අඞ්ග ලෙස නොගැනේ [C081-M:L15]."
+    },
+    {
+      "heading": "නිගමන වාක්‍යය: ‘එවමෙතස්ස කෙවලස්ස දුක්ඛක්ඛන්ධස්ස සමුදයො හොති’",
+      "text": "පාළිය අවසන් වන්නේ ‘එවමෙතස්ස කෙවලස්ස දුක්ඛක්ඛන්ධස්ස සමුදයො හොති’ යන වාක්‍යයෙනි [C079-P:L34; C079-M:L15]. මෙහි ‘දුක්ඛක්ඛන්ධ’ යන්න Pradeepika වෙනත් තැනක පඤ්චූපාදානස්කන්ධ නම් වූ දුක්ඛස්කන්ධය, එනම් දුක්ඛාර්ය සත්‍යය ලෙස හඳුන්වයි [C078-P:L33]. ඒ අනුව පාළිය මුළු දාමයම ‘දුක් රැසක හටගැනීම’ ලෙස සාරාංශ කරයි. මෙම extract දෙකෙහිම ඇත්තේ හටගැනීමේ (අනුලෝම) පිළිවෙළ පමණි; පාළියේ වචනාර්ථය සහ විවරණය මෙහි නැත [C079-P:L12]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "පච්චයා",
+      "pali": "paccayā",
+      "en": "with ... as condition; because of",
+      "note": "Rendered in Sinhala by Margaya as 'ඇති කල්හි ... නිසා' [C078-M:L11]"
+    },
+    {
+      "term_si": "අවිද්‍යාව",
+      "pali": "avijjā",
+      "en": "ignorance; not seeing things as they are"
+    },
+    {
+      "term_si": "සංස්කාර",
+      "pali": "saṅkhāra",
+      "en": "formations; intentional activity"
+    },
+    {
+      "term_si": "විඥානය",
+      "pali": "viññāṇa",
+      "en": "consciousness"
+    },
+    {
+      "term_si": "නාමරූපය",
+      "pali": "nāmarūpa",
+      "en": "mind and body (literally 'name and form')"
+    },
+    {
+      "term_si": "ෂඩායතනය",
+      "pali": "saḷāyatana",
+      "en": "the six sense bases"
+    },
+    {
+      "term_si": "ස්පර්ශය",
+      "pali": "phassa",
+      "en": "contact between sense, object and awareness"
+    },
+    {
+      "term_si": "වේදනාව",
+      "pali": "vedanā",
+      "en": "feeling: pleasant, painful or neutral"
+    },
+    {
+      "term_si": "තෘෂ්ණාව",
+      "pali": "taṇhā",
+      "en": "craving"
+    },
+    {
+      "term_si": "උපාදානය",
+      "pali": "upādāna",
+      "en": "clinging; tight grasping"
+    },
+    {
+      "term_si": "භවය",
+      "pali": "bhava",
+      "en": "becoming; existence"
+    },
+    {
+      "term_si": "ජාතිය",
+      "pali": "jāti",
+      "en": "birth"
+    },
+    {
+      "term_si": "ජරාමරණය",
+      "pali": "jarāmaraṇa",
+      "en": "ageing and death"
+    },
+    {
+      "term_si": "සෝක පරිදේව දුක්ඛ දෝමනස්ස උපායාස",
+      "pali": "soka-parideva-dukkha-domanass-upāyāsa",
+      "en": "sorrow, lamentation, pain, grief and despair",
+      "note": "Not counted as separate factors [C081-M:L15]"
+    },
+    {
+      "term_si": "දුක්ඛක්ඛන්ධය",
+      "pali": "dukkhakkhandha",
+      "en": "the whole mass of suffering"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "A sentence built like a relay",
+      "text": "The formula is a single pattern repeated eleven times: because of this, that. Each line takes what the last line produced and hands it on. The structure carries the point: nothing in the list appears from nowhere, and nothing in it produces itself. It starts with not seeing clearly and ends with grief, and in between are the ordinary workings of being alive: sensing, meeting the world, feeling, wanting, holding on."
+    },
+    {
+      "heading": "Learned by heart before it is understood",
+      "text": "The source's first instruction about this text is to memorise it. It is meant to be carried in the mouth and ear, as sound, before its meaning is taught. That order, repeat first and understand later, is how many things are handed down in families and crafts: a rhythm, a prayer, a way of doing a job whose reasons come years afterwards."
+    },
+    {
+      "heading": "It ends in a heap, not a single blow",
+      "text": "The closing line does not name one tragedy. It calls the whole thing a 'mass' of suffering: an accumulation that builds up link by link. That is a sober, unsentimental way to look at a life's difficulties: not as one cause and one wound, but as something assembled."
+    }
+  ],
+  "does_not_transfer": [
+    "'Desire is the root of all suffering': the formula puts ignorance at the head and craving in the middle, with many links on either side; reducing it to a slogan about desire drops most of it.",
+    "A simple domino chain with one cause per step: Pradeepika says each step names only the principal cause among many [C078-P:L35].",
+    "A story of how the world began: starting with ignorance does not make ignorance a first cause (see C081) [C081-M:L63].",
+    "English word-for-word glosses ('name and form', 'becoming') mean little without the explanation, which is not in these extracts; on screen the formula should not be paraphrased as if it were self-explanatory."
+  ],
+  "story_seeds": [
+    {
+      "seed": "Young students memorising a long Pāli passage by repetition",
+      "what_camera_could_observe": "Chanting in a group, stumbles and prompts, a teacher correcting one syllable, the day a student recites the whole passage without a break",
+      "why_it_fits": "The source itself asks that this text be memorised before it is explained; the film would be about carrying words before understanding them",
+      "setting_type": "a monastic school or a weekend temple school",
+      "risk": "Filming minors needs guardians' and institution's consent; the film must not mock rote learning or turn into a doctrine lesson"
+    },
+    {
+      "seed": "A catch passing from hand to hand, from boat to plate",
+      "what_camera_could_observe": "Nets hauled at dawn, fish sorted on the sand, the auction, a bicycle vendor's round, a kitchen, a meal",
+      "why_it_fits": "Each stage exists only because of the one before, the grammar of 'because of X, Y'",
+      "setting_type": "a beach landing site and the inland market it supplies",
+      "risk": "Forcing an eleven-step match onto the fish's journey; the film should stand as a livelihood story"
+    },
+    {
+      "seed": "An elder who has chanted the same verses every evening for decades and is now losing words",
+      "what_camera_could_observe": "The evening chant at a household shrine, a pause where a word is lost, a grandchild quietly supplying it",
+      "why_it_fits": "A text carried by sound over a lifetime, recited by someone who is living the formula's last links: ageing",
+      "setting_type": "a village household with a family shrine",
+      "risk": "Exploiting frailty; the elder's own consent and dignity come first, and failing memory must not be played for pathos"
+    },
+    {
+      "seed": "A carver cutting a long text letter by letter into stone or wood",
+      "what_camera_could_observe": "Marking out, chiselling one letter after another, checking the order against a master copy, a slip that forces a restart",
+      "why_it_fits": "The formula's fixed order matters: every link has to come in its place, and one missing piece breaks the whole",
+      "setting_type": "a workshop that makes inscribed plaques or boards for temples and memorials",
+      "risk": "Becoming a pure craft showcase; needs the carver's own stake in the work"
+    }
+  ],
+  "cross_source_notes": [
+    "The two texts are the same formula: eleven clauses, twelve factors, the same closing line [C079-P:L23–L34; C079-M:L3–L15].",
+    "Margaya numbers the clauses 1–11 [C079-M:L3–L13]; Pradeepika does not number them and adds the label 'මෙය පටිච්ච සමුප්පාද දෙශනා පාළිය යි' [C079-P:L36].",
+    "Spelling differs: Pradeepika writes 'වෙදනා', 'භවො', 'දෙමනස්සුපායාසා', 'එවමෙතස්ස'; Margaya writes 'වේදනා', 'භවෝ', 'දෝමනස්සුපායාසා', 'එවමේතස්ස'. Pradeepika splits 'නාම රූපං' in one clause [C079-P:L25] and joins it in the next [C079-P:L26].",
+    "Margaya's preceding section frames this as a text to be learned by heart [C078-M:L13]; Pradeepika gives no study instruction."
+  ],
+  "uncertainties": [
+    "The extract compiler's note calls the passage 'අඞ්ග එකොළොසේ පාළි පෙළ' (eleven-limbed) [C079-P:L12], while Pradeepika elsewhere speaks of twelve factors [C078-P:L35] and Margaya lists twelve [C081-M:L15]. This is best read as eleven clauses joining twelve factors; the wording should not be quoted as 'eleven factors'.",
+    "'දෙමනස්සුපායාසා' in Pradeepika [C079-P:L33] is probably an OCR or print variant of 'දොමනස්සුපායාසා'.",
+    "Neither extract gives a Sinhala translation of the clauses. The Sinhala names used in this digest come from Margaya's list of factors [C081-M:L15] and the Sinhala rendering of 'paccayā' in [C078-M:L11]; the English glosses in key_terms are editorial. The meaning of each term is in Concept 80, which was not read for this digest.",
+    "Only the arising (anuloma) formula is given; the reverse (cessation) formula is not in either extract and has not been added."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C078",
+  "record_type": "concept_digest",
+  "concept_id": "C078",
+  "group_id": "GRP-09",
+  "title_si": "ප්‍ර‍ත්‍යය කාණ්ඩය",
+  "title_en": "The section on conditions: how things arise from supports",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C078-P",
+      "path": "content/02-concepts/Chapter 8/Concept 78 - ප්‍ර‍ත්‍යය කාණ්ඩය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-37",
+      "complete": true,
+      "markers": "Book 3, ch. 8 (ප්‍රත්‍යය සඞ්ග්‍රහ විභාගය); two non-contiguous cuts: pdf 26 / printed 15 (L21–L27) and pdf 149 / printed 138 (L29–L37)"
+    },
+    {
+      "ref": "C078-M",
+      "path": "content/02-concepts/Chapter 8/Concept 78 - ප්‍ර‍ත්‍යය කාණ්ඩය/sources/Abhidharma Margaya.md",
+      "lines": "1-13",
+      "complete": true,
+      "markers": "Section 1 of the conditions part (ප්‍රත්‍යය කාණ්ඩය); no page or edition metadata"
+    }
+  ],
+  "summary_en": "The section opens the study of conditions by asking whether mind, mental factors and matter arise by themselves or are made by some powerful being, and answers that they arise from many causes. Anything that arises from conditions is called conditioned (saṅkhata, saṅkhāra); only nibbāna is unconditioned. Both books say the Buddha taught cause and effect at three scales: briefly as the Four Noble Truths, at middle length as dependent origination (twelve factors, naming one principal cause and one principal effect at each step), and in full detail as the Paṭṭhāna's twenty-four conditions. Margaya adds that dependent origination only says that one thing arises because of another, while the Paṭṭhāna says through which specific powers and in which ways it does so, and that both are needed for complete understanding.",
+  "sinhala_explanation": [
+    {
+      "heading": "මූලික ප්‍රශ්නය: ඉබේ හටගන්නේද, කිසිවකු මවන්නේද?",
+      "text": "Margaya මේ කාණ්ඩය ආරම්භ කරන්නේ ප්‍රශ්නයකිනි: පෙර පරිච්ඡේද සතෙහි විස්තර කළ සිත් එකුන් අනූව, චෛතසික දෙපනස, රූප විසි අට යන පරමාර්ථ ධර්ම ඉබේම ඇතිවන ඒවාද, නැතහොත් යම් බලවතකු විසින් මවනු ලබන ඒවාද, ඒවා ඇතිවන්නේ කෙසේද යන්න සෙවිය යුතු බව එහි කියැවේ [C078-M:L3]. පිළිතුර නම් චිත්ත, චෛතසික, රූප යන පරමාර්ථයෝ නොයෙක් හේතූන්ගෙන් හටගන්නා බවයි [C078-M:L5]. එනම් මෙහි දැක්වෙන්නේ ඉබේ හටගැනීමත්, මැවීමත් යන දෙකම නොව, හේතූන් නිසා හටගැනීමයි."
+    },
+    {
+      "heading": "ප්‍රත්‍යය සහ ප්‍රත්‍යයොත්පන්න; සංඛත සහ අසංඛත",
+      "text": "ඒ ඒ ධර්මයන් හටගැනීමට හා පැවැත්මට උපකාර වන ධර්මයෝ ප්‍රත්‍යය ධර්ම නම් වෙති; ඒ ප්‍රත්‍යයන්ගෙන් හටගත් ධර්මයෝ ප්‍රත්‍යයොත්පන්න ධර්ම නම් වෙති [C078-P:L27]. සංඛත ධර්ම, සංස්කාර ධර්ම යන නම්වලින් හැඳින්වෙන්නේද මේ ප්‍රත්‍යයොත්පන්න ධර්මයෝමය; ඒවා නම් චිත්ත, චෛතසික, රූප ධර්මයෝය [C078-P:L27; C078-M:L5]. ප්‍රත්‍යයකින් හට නොගන්නා නිර්වාණය අසඞ්ඛත ධර්මය (අසඞ්ඛත ධාතුව) නම් වේ [C078-P:L27; C078-M:L5]. සංස්කාර ධර්මයන් ඇති කරවන හේතූන්ට ‘ප්‍රත්‍යය’ යන නාමය කියනු ලැබේ [C078-M:L7]. එක් ධර්මයක් අන්‍ය ධර්මයකට ප්‍රත්‍යය වීම නොයෙක් ආකාරයෙන් සිදුවන අතර, ඒ ආකාර සුවිස්සකි; ඒ සුවිසි ප්‍රත්‍යයන් පිළිබඳ විභාගය පට්ඨාන දේශනාව නමින් හැඳින්වේ [C078-P:L27]."
+    },
+    {
+      "heading": "හේතුඵල ධර්මය දේශනා කළ ක්‍රම තුන",
+      "text": "සංස්කාරයන්ගේ උත්පත්ති හේතූන් බුදුරජාණන් වහන්සේ ක්‍රම තුනකින් දේශනා කළ සේක: ආර්ය සත්‍ය ක්‍රමය (ඉතා කෙටි), ප්‍රතීත්‍ය සමුත්පාද ක්‍රමය (මධ්‍යම), ප්‍රස්ථාන ක්‍රමය (විස්තර) [C078-M:L7]. Pradeepika මේ එකිනෙක විස්තර කරයි. සංක්ෂේප ක්‍රමයේදී පඤ්චූපාදානස්කන්ධ නම් වූ දුක්ඛස්කන්ධයට, එනම් දුක්ඛාර්ය සත්‍යයට, හේතුව ලෙස කාම, භව, විභව යන ත්‍රිවිධ තෘෂ්ණාව නම් වූ සමුදය සත්‍යයද, ඒ තෘෂ්ණාව පහ කිරීමෙන් පැමිණිය යුතු නිර්වාණය නම් වූ නිරෝධ සත්‍යයද, එය සාක්ෂාත් කිරීමට අඞ්ග අටකින් යුත් මාර්ගය නම් වූ මාර්ග සත්‍යයද වදාළ සේක [C078-P:L33]. මධ්‍යම ප්‍රමාණයෙන් “අවිජ්ජාපච්චයා සඞ්ඛාරා” ආදී වශයෙන් අඞ්ග දොළොසකින් යුත් පටිච්චසමුප්පාදය වදාළ සේක; එහිදී නොයෙක් හේතූන් අතුරෙන් ප්‍රධාන එක් හේතුවක්ද, නොයෙක් ඵලයන් අතුරෙන් ප්‍රධාන එක් ඵලයක්ද ගෙන දක්වන ලදී [C078-P:L35]. විස්තර වශයෙන් “හෙතු පච්චයො, ආරම්මණ පච්චයො” ආදී සුවිසි ප්‍රත්‍යයන් දක්වමින් ධර්මයන්ගේ ඇතිවීමටත් පැවතීමටත් උපකාර වන විශේෂ ප්‍රත්‍යයන් පට්ඨාන නය වශයෙන් වදාළ සේක [C078-P:L37]."
+    },
+    {
+      "heading": "පටිච්චසමුප්පාදය සහ පට්ඨානය අතර වෙනස",
+      "text": "ආර්ය සත්‍ය විභාගය සත්වන පරිච්ඡේදයෙහි කියවුණු බැවින් මේ කාණ්ඩයේ විස්තර කරන්නේ ප්‍රතීත්‍ය සමුත්පාද ක්‍රමය හා ප්‍රස්ථාන ක්‍රමය පමණක් බව Margaya කියයි [C078-M:L9]. අවිද්‍යාව ඇති කල්හි අවිද්‍යාව නිසා සංස්කාර හටගැනීම, සංස්කාර ඇති කල්හි විඤ්ඤාණය හටගැනීම ආදී වශයෙන් සංසාරය නොසිඳී පවත්නා සැටි උගන්වන හේතුඵල ක්‍රමය ප්‍රතීත්‍ය සමුත්පාද ක්‍රමයයි; එය අභිධර්ම පිටකයේ විභඞ්ග ප්‍රකරණයෙහි දේශිතය [C078-M:L11]. ප්‍රස්ථාන ක්‍රමය ප්‍රස්ථාන මහා ප්‍රකරණයෙහි දේශිතය [C078-M:L13]. ප්‍රතීත්‍ය සමුත්පාද දේශනාව අවිද්‍යාදිය නිසා සංස්කාරාදිය ඇතිවන බව පමණක් උගන්වයි; අවිද්‍යාවේ කවර ශක්තීන්ගෙන්, කවර ආකාරයෙන් එය සංස්කාරයන්ට ප්‍රත්‍යය වේද යන්න එහි නැත. ප්‍රස්ථානය පරමාර්ථ වූද පරමාර්ථ නොවූද සියලු ධර්මවල ප්‍රත්‍යය ශක්තීන් හා හේතු, ආරම්මණ ආදී ශක්තිවලින් ධර්ම එකිනෙකට ප්‍රත්‍යය වන ආකාරය උගන්වයි [C078-M:L13]."
+    },
+    {
+      "heading": "ඉගෙනීමේ පිළිවෙළ",
+      "text": "බුද්ධ ධර්මය පිළිබඳ අඞ්ග සම්පූර්ණ දැනුමක් ඇතිවන්නේ මේ ක්‍රම දෙකම උගෙනීමෙනි [C078-M:L13]. ඒ දෙකින් කෙටි ක්‍රමය ප්‍රතීත්‍ය සමුත්පාද ක්‍රමය බැවින් එය පළමුව විස්තර කෙරේ; එය උගන්නා තැනැත්තා පළමුවම ප්‍රතීත්‍ය සමුත්පාද දේශනා පාළිය පාඩම් කරගත යුතු බව Margaya උපදෙස් දෙයි [C078-M:L13]. Pradeepika මේ කොටසේ ප්‍රත්‍යය ධර්ම ඇති කල්හි ප්‍රත්‍යයොත්පන්න ධර්ම ඇතිවන ආකාර මාත්‍රය දැක්වීම පටිච්චසමුප්පාද දේශනාවේ අරමුණ ලෙස හඳුන්වයි; එනම් ඵලය උපදවන හේතුව (පටිච්චසමුප්පාදය) හා හේතුවෙන් හටගත් ඵලය (පටිච්චසමුප්පන්නය) දැක්වීමයි [C078-P:L27]."
+    }
+  ],
+  "key_terms": [
+    { "term_si": "ප්‍රත්‍යය", "pali": "paccaya", "en": "condition; a supporting cause that helps something arise and persist", "note": "Defined as what helps arising and continuance [C078-P:L27]" },
+    { "term_si": "ප්‍රත්‍යයොත්පන්න", "pali": "paccayuppanna", "en": "what has arisen from conditions" },
+    { "term_si": "සංඛත / සංස්කාර ධර්ම", "pali": "saṅkhata / saṅkhāra", "en": "conditioned things: all mind, mental factors and matter" },
+    { "term_si": "අසඞ්ඛත ධාතුව", "pali": "asaṅkhata dhātu", "en": "the unconditioned element (nibbāna)", "note": "The one exception named in both books" },
+    { "term_si": "හේතුඵල ධර්මය", "pali": "hetu-phala", "en": "the teaching of cause and result" },
+    { "term_si": "ආර්ය සත්‍ය ක්‍රමය", "pali": "ariyasacca", "en": "the Four Noble Truths as the brief method" },
+    { "term_si": "පටිච්චසමුප්පාදය / ප්‍රතීත්‍ය සමුත්පාදය", "pali": "paṭiccasamuppāda", "en": "dependent origination, the middle-length method (twelve factors)" },
+    { "term_si": "පට්ඨාන / ප්‍රස්ථාන ක්‍රමය", "pali": "paṭṭhāna", "en": "the detailed method: twenty-four kinds of conditional relation" },
+    { "term_si": "ප්‍රත්‍යය ශක්ති", "pali": "paccaya-satti", "en": "the specific power by which one thing supports another", "note": "Margaya's term [C078-M:L13]" },
+    { "term_si": "ත්‍රිවිධ තෘෂ්ණාව", "pali": "kāma-, bhava-, vibhava-taṇhā", "en": "three kinds of craving: for sense pleasure, for existence, for non-existence" },
+    { "term_si": "දුක්ඛස්කන්ධය", "pali": "dukkhakkhandha", "en": "the mass of suffering, identified with the five aggregates of clinging", "note": "[C078-P:L33]" },
+    { "term_si": "විභඞ්ග ප්‍රකරණය", "pali": "Vibhaṅga", "en": "the Abhidhamma book where Margaya locates the dependent-origination teaching" }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Nothing arrives on its own, and nobody hands it over",
+      "text": "The section begins with a plain question: do the things that make up a person and a world appear by themselves, or does someone make them? The answer it gives is neither. They come about because other things support them. And whatever comes about through support is the kind of thing that can change and come apart. The text keeps one exception, the unconditioned, so it is not saying that everything without exception is dependent."
+    },
+    {
+      "heading": "The same picture at three distances",
+      "text": "The same account of cause and effect is given at three lengths: one sentence (suffering has a cause, and the cause can end), a twelve-step chain, and a detailed catalogue of twenty-four different ways one thing can hold up another. They are not three rival explanations. They are three distances from the same scene, like a village seen from a hilltop, from the road, and from inside one kitchen. The middle version is honest about simplifying: at each step it names only the main cause among many."
+    },
+    {
+      "heading": "Knowing that it happened versus knowing how",
+      "text": "Margaya draws a line most of us know from life. It is one thing to say 'my father's illness changed my life.' It is another to be able to say in exactly which ways: by what it took away, by what it demanded every day, by what it made possible. The chain says that; the detailed method says how. The source insists a full understanding needs both."
+    }
+  ],
+  "does_not_transfer": [
+    "'Everything is connected' as a mystical slogan: the source is not describing a cosmic web or oneness. It lists specific kinds of support, and it keeps the unconditioned as an exception.",
+    "'Everything happens for a reason': the source explicitly rules out a maker, and a condition is not a purpose or a plan.",
+    "'Nothing is real because everything depends on something': these sections never say conditioned things do not exist; they say they arise from supports.",
+    "'Karma is just cause and effect': this section is about conditions in general (mind, matter, their supports), not only moral action and its results."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A small-town repairer working out why a water pump or radio has stopped",
+      "what_camera_could_observe": "The customer's one-line account ('it just stopped'), the casing opened, parts tested one by one, a worn part found that depended on another, the machine running again or not",
+      "why_it_fits": "A working machine is not one thing; it runs only while many supports hold. The explanation can be given short or long, like the brief and detailed methods",
+      "setting_type": "a roadside electrical repair shop in a market town",
+      "risk": "Turning the repair into a visual metaphor; the film must care about the repairer and the customers, not the diagram"
+    },
+    {
+      "seed": "A paddy season that can only start once the village tank releases water",
+      "what_camera_could_observe": "The farmers' meeting deciding dates, the sluice opened, water reaching the last field, seed paddy soaked, borrowed machines and shared labour arriving",
+      "why_it_fits": "One harvest rests on many supports at once (water, seed, agreement, labour, weather); no single cause produces it and nobody simply makes it",
+      "setting_type": "a tank-fed paddy village in the dry zone",
+      "risk": "Romanticising hardship, or implying a failed season is someone's fault"
+    },
+    {
+      "seed": "A cook who cannot give a recipe for a dish she has made for decades",
+      "what_camera_could_observe": "Cooking by feel, adjusting for the day's coconut, the firewood, the heat, tasting and correcting; a younger relative trying to write it down and failing",
+      "why_it_fits": "The short answer ('my mother's recipe') and the long answer (every condition that day) are both true, like the brief and detailed methods",
+      "setting_type": "a home kitchen or a small wayside rice-and-curry kitchen",
+      "risk": "Becoming a food-porn sequence without a human stake"
+    },
+    {
+      "seed": "A brick-kiln firing that depends on clay, fuel and weather meeting at the right time",
+      "what_camera_could_observe": "Moulding, drying, stacking, days of firing, the burner watching the colour of the flame, a rain threat, the kiln opened",
+      "why_it_fits": "Bricks neither fire themselves nor are simply 'made' by one person; many supports have to be present together and in time",
+      "setting_type": "a small rural brick kiln on low land near paddy fields",
+      "risk": "Portraying workers as poverty imagery; child labour or unsafe work must not be filmed as picturesque"
+    }
+  ],
+  "cross_source_notes": [
+    "Both books give the same three methods at three scales: Four Noble Truths (brief), dependent origination (middle), Paṭṭhāna (detailed) [C078-P:L33–L37; C078-M:L7].",
+    "Both define the conditioned as mind, mental factors and matter, and nibbāna as the unconditioned [C078-P:L27; C078-M:L5]. Pradeepika names this asaṅkhata dhamma; Margaya calls it asaṅkhata dhātu.",
+    "Margaya frames the section with the question of self-arising versus a creator [C078-M:L3]; Pradeepika's extract has no such framing.",
+    "Pradeepika explains what each method contains (three cravings and the eightfold path; one principal cause and effect per step; twenty-four conditions known by the Buddha's omniscience) [C078-P:L33–L37]. Margaya instead explains the difference between the middle and detailed methods: 'that' versus 'by which powers and how' [C078-M:L13].",
+    "Margaya locates dependent origination in the Vibhaṅga and the Paṭṭhāna in the great Paṭṭhāna book, and says the Paṭṭhāna covers the powers of both ultimate and non-ultimate phenomena [C078-M:L11–L13]; Pradeepika gives no text locations here.",
+    "Margaya gives study advice (learn dependent origination first, memorise the Pāli) [C078-M:L13]; Pradeepika does not."
+  ],
+  "uncertainties": [
+    "The Pradeepika extract joins two separate places in the book (pdf 26 and pdf 149). The heading 'පට්ඨාන නය' at L31 stands over a passage describing all three methods, so the heading may belong to a different structural level in the original.",
+    "OCR spellings in Pradeepika: 'දුක්ඛාය්‍යීසත්‍යයා', 'සමුදයාය්‍යීසත්‍යය' (for ආර්ය සත්‍ය forms), 'සංසකාර', 'විඥනා', 'ඵලය උපදවත හේතුව' at L27–L35. The meaning is clear; the spelling here was normalised in the Sinhala explanation.",
+    "Margaya's statement that the Paṭṭhāna covers non-ultimate phenomena (paññatti) as conditions [C078-M:L13] should be read with C083, where concepts are conditions but not conditioned; this digest does not settle the point.",
+    "Margaya's placement of the dependent-origination teaching in the Vibhaṅga [C078-M:L11] is reported as given; whether the author also intends the sutta sources is not stated and needs an expert check before being quoted on screen.",
+    "The Margaya extract ends with 'ඒ මෙසේ ය:-' [C078-M:L13], which leads into the Pāli text in C079."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

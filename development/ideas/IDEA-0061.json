@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0061",
+  "record_type": "idea",
+  "title": "The Weeping Pot",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "A potter lifts newly fired pots from the kiln, taps each one and listens, then fills it with water and waits. A hidden crack shows only as a slow dark bead on the base.",
+  "human_question": "How do you find a flaw that cannot be seen until something is poured in?",
+  "premise": {
+    "story": "A potter's family through one firing, from shaping to the kiln to testing to market. Their livelihood depends on finding the cracked pots before a buyer does.",
+    "place": "A pottery village on a main road: clay pits, a wood-fired kiln, rows of pots drying in the sun, a roadside stall.",
+    "experience": "Heat and smoke give way to a very quiet, very close act of attention: an ear to a pot, eyes on a wet patch spreading."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C074",
+      "role": "primary",
+      "why": "The Pradeepika's image for the taints is water oozing from a cracked pot through unguarded 'doors' (P L79; M L22). The flaw is invisible until the pot is filled and tested."
+    },
+    {
+      "concept_id": "C033",
+      "role": "supporting",
+      "why": "Non-delusion is understanding within a moment of mind [C033-M:L3], not information; the potter's close listening is the ordinary human face of seeing a thing as it is."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Clay shaped by hand and wheel",
+    "The kiln firing through the night",
+    "Each pot tapped and listened to; the difference between a clear and a dull note",
+    "Water poured in, a slow bead of seepage, a pot set aside",
+    "The good pots on the stall; the rejected ones"
+  ],
+  "what_must_be_real": "The potter's real work, testing practice and market. The testing method must be the potter's own; nothing is invented for the image.",
+  "possible_arc": {
+    "opening": "Smoke from the kiln at dawn.",
+    "turn": "The testing: silence, tapping, listening, waiting.",
+    "ending_open": "The pots go to market. Whatever the potter does with the cracked ones, and says about them, ends the film."
+  },
+  "position_hint": "closing candidate: the group's answer in miniature, stopping and attending closely to find what cannot be seen, and a natural hand-off to a group about looking at a single moment",
+  "location": {
+    "requirements": [
+      "A working pottery with a kiln and a regular market",
+      "A potter whose own practice includes testing for cracks",
+      "A firing within the filming window"
+    ],
+    "suggestions": [
+      {
+        "name": "Molagoda",
+        "region": "Kegalle district, Sabaragamuwa Province",
+        "why": "A well-known pottery village on the Colombo–Kandy road, with roadside pottery stalls.",
+        "season_notes": "Dry weather for drying and firing",
+        "access_notes": "",
+        "verify": "Confirm that wood firing and testing by water or sound are actually practised there.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning the craftsperson into a walking metaphor",
+    "Inventing claims about the tradition",
+    "Picturesque framing of economic hardship"
+  ],
+  "drop_if": [
+    "Potters do not test in a way the camera can observe"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0060",
+      "relation": "alternative to",
+      "note": "Both are craft films about looking closely; choose one."
+    },
+    {
+      "idea_id": "IDEA-0063",
+      "relation": "alternative to",
+      "note": "Two closing candidates for the same hand-off: close attention in a workshop, or slow movement through fog."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

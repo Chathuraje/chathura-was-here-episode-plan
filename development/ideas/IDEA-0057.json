@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0057",
+  "record_type": "idea",
+  "title": "The Tether",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "In the paddy lands of the north, a herder moves buffalo from stake to stake. Each animal grazes a perfect circle and cannot leave it. Some wander free trailing their ropes, and come back at dusk anyway.",
+  "human_question": "What keeps us going round the same circle, even when the rope is long?",
+  "premise": {
+    "story": "One herder's day and season: moving stakes, untying and retying, bringing the herd home, and the herder's own account of the animals, the land and their livelihood.",
+    "place": "Harvested paddy fields and tank bunds in the dry north, flat to the horizon, with worn circles in the stubble around each stake.",
+    "experience": "Slow, hot, repetitive rhythm; the viewer begins to see circles everywhere without being told to."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C074",
+      "role": "primary",
+      "why": "The fetters are explained with this image: a cow on a long rope tied to a post can move but never leaves its circle, and cows let loose with their ropes still attached roam further but are not free (P L544, L621–L623; M L90)."
+    },
+    {
+      "concept_id": "C033",
+      "role": "supporting",
+      "why": "The roots hold the mind firmly on its object as a tree's roots hold it standing [C033-M:L5–L7]: what keeps a thing in place, not what started it."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Animals tethered at dawn and the grazed circles around each stake",
+    "The herder pulling stakes, walking, hammering them in again",
+    "An animal wandering off with its rope still trailing",
+    "Water at the tank, egrets, heat haze",
+    "Dusk: bringing the herd home and tying them again"
+  ],
+  "what_must_be_real": "The herder's real work, animals and livelihood. The rope and circle are never set up or lingered on as a sermon.",
+  "possible_arc": {
+    "opening": "Dawn, a stake, a circle of bare ground.",
+    "turn": "An animal wanders loose, still trailing its rope.",
+    "ending_open": "Dusk and the retying. Whatever the herder says about their animals and their own days closes the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A herder with tethered buffalo or cattle on open paddy or tank land",
+      "A season when the grazing circles are visible",
+      "The herder's consent to be followed over several days"
+    ],
+    "suggestions": [
+      {
+        "name": "Paddy and tank lands of the Vanni",
+        "region": "Kilinochchi and Mullaitivu districts, Northern Province",
+        "why": "Broad dry-zone paddy country where cattle and buffalo graze on fields and tank bunds.",
+        "season_notes": "After harvest, when fields are open to grazing",
+        "access_notes": "",
+        "verify": "Region-level suggestion; confirm tethered grazing is practised and find a herder.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Heavy-handed symbolism if the rope shot is cut too neatly",
+    "Reducing the herder to a metaphor",
+    "Post-war sensitivities in the north must be respected"
+  ],
+  "drop_if": [
+    "No herder in the region tethers animals in this way"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0056",
+      "relation": "pairs with",
+      "note": "Being tied, in two kinds of rural work."
+    },
+    {
+      "idea_id": "IDEA-0058",
+      "relation": "mirrors",
+      "note": "What holds by tethering here; what holds by rooting in the mangroves."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0002",
+  "record_type": "idea",
+  "title": "Thread",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-01",
+  "logline": "A handloom weaver turns thread into cloth, and cloth into a named thing someone will wear.",
+  "human_question": "At what moment does a pile of thread become 'a cloth', and where does 'the cloth' go when it is taken apart?",
+  "premise": {
+    "story": "One piece of cloth from spool to buyer, following the weaver's work, skill and livelihood.",
+    "place": "A weaving household or workshop where the loom sets the rhythm of the day.",
+    "experience": "The hypnotic loom and the slow appearance of a whole that was never anything but thread."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C084",
+      "role": "primary",
+      "why": "The Margaya's own example: cloth divided into threads disappears, so cloth is a concept, thread the more basic reality."
+    },
+    {
+      "concept_id": "C077",
+      "role": "supporting",
+      "why": "A whole analysed into its parts, the same move later applied to a 'person'."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Spools, warp and weft, shuttle rhythm",
+    "The weaver's hands and feet",
+    "The cloth measured, cut, named and sold",
+    "Old cloth unpicked or reused"
+  ],
+  "what_must_be_real": "The weaver's real work, orders and economics. Nothing is staged for the metaphor.",
+  "possible_arc": {
+    "opening": "Loose thread and silence before the loom starts.",
+    "turn": "A pattern emerges and gets a name.",
+    "ending_open": "The cloth leaves with a buyer, or is unpicked. Reality decides."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An active handloom with a willing weaver",
+      "A complete piece made within the filming window",
+      "Good natural sound of the loom"
+    ],
+    "suggestions": [
+      {
+        "name": "Thalagune handloom village",
+        "region": "Uda Dumbara, Kandy district",
+        "why": "Known for traditional handloom weaving.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm weaving is still active and who to approach.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Henawala (Dumbara mat weaving)",
+        "region": "near Kandy",
+        "why": "Traditional Dumbara weaving; mats rather than cloth, so the premise would adapt.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm the craft is practised now.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Craft showcase with no stake",
+    "Economic hardship filmed as picturesque"
+  ],
+  "drop_if": [
+    "No weaver with a real commission or stake during the filming window"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0005",
+      "relation": "pairs with",
+      "note": "Both ask where a whole goes when its parts change."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Markdown from "@/components/Markdown";
 import { getData, readDoc } from "@/lib/content";
+import DigestView from "@/components/DigestView";
 import { getDevelopment } from "@/lib/development";
 import { docHref } from "@/lib/routes";
 
@@ -12,6 +13,7 @@ export default async function ConceptPage({ params }: { params: Promise<{ id: st
   if (!concept) notFound();
   const group = dev.conceptGroup.get(concept.id);
   const role = group?.concepts.find((entry) => entry.id === concept.id)?.role;
+  const digest = dev.digests.get(concept.id);
 
   const documents = (await Promise.all(concept.sources.map((source) => readDoc(source.path))))
     .filter((doc): doc is NonNullable<typeof doc> => Boolean(doc));
@@ -29,6 +31,7 @@ export default async function ConceptPage({ params }: { params: Promise<{ id: st
 
       <div className="concept-layout">
         <article className="source-stack">
+          {digest && <DigestView digest={digest} />}
           {documents.map((doc, index) => (
             <section className="source-document" key={doc.path}>
               <div className="source-document-head">

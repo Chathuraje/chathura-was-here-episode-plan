@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C032",
+  "record_type": "concept_digest",
+  "concept_id": "C032",
+  "group_id": "GRP-02",
+  "title_si": "වේදනා සංග්‍ර‍හය",
+  "title_en": "The compendium of feeling",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C032-P",
+      "path": "content/02-concepts/Chapter 3/Concept 32 - වේදනා සංග්‍ර‍හය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-158",
+      "complete": true,
+      "markers": "Book 1, ch. 3 (ප්‍රකීර්ණක සංග්‍රහ විභාගය), pdf 239–245 / printed 229–235; extract starts mid-page on pdf 239, substantive text from pdf 240"
+    },
+    {
+      "ref": "C032-M",
+      "path": "content/02-concepts/Chapter 3/Concept 32 - වේදනා සංග්‍ර‍හය/sources/Abhidharma Margaya.md",
+      "lines": "1-13",
+      "complete": true,
+      "markers": "Section headed '1. වේදනා සංග්‍රහය'; no page markers in extract"
+    }
+  ],
+  "summary_en": "Feeling (vedanā) is the mental factor that 'tastes' the flavour of an object, and since every mind takes an object, feeling is present in every mind. By the way it is experienced it is threefold (pleasant, painful, neutral), and there is no fourth way; classified as a faculty, it is fivefold: bodily pleasure, mental joy, bodily pain, mental displeasure and equanimity. Both sources then sort all 121 types of mind by feeling: bodily pleasure and bodily pain each occur in only one mind (touch consciousness); mental displeasure occurs only in the two aversion-rooted minds; 62 minds carry joy (including the four joyful greed-rooted minds); and 55 carry neutral feeling. The Pradeepika further places feeling within the five aggregates and teaches that all conditioned feeling counts as suffering in three senses (intrinsic pain, the pain of conditioned rise and fall, and the pain of change), with further pairs of concealed and open, and indirect and direct, suffering.",
+  "sinhala_explanation": [
+    {
+      "heading": "ප්‍රකීර්ණක සංග්‍රහය සහ තෙපනස් ධර්ම",
+      "text": "තෙපනස් ධර්මයන් වේදනා, හේතු, කෘත්‍ය, ද්වාර, ආරම්මණ, වත්ථු යන සය ආකාරයෙන් බෙදා දැක්වීම ප්‍රකීර්ණක සංග්‍රහය නම් වේ [C032-P:L29]. සිත් 89 හෝ 121 ලෙස ප්‍රභේද ඇතත් අරමුණු දැනීම සියලු සිත්වල එකම පොදු ලක්ෂණය බැවින් සිත එක් ධර්මයක් ලෙස ද, වෙන් වෙන් ලක්ෂණ ඇති චෛතසික දෙපනස දෙපනසක් ලෙස ද ගෙන තෙපනස් (නාම) ධර්ම වේ [C032-P:L31–L35]."
+    },
+    {
+      "heading": "වේදනාව යනු කුමක්ද",
+      "text": "වේදනාව යනු අරමුණේ රසය විඳීමට කියන නමකි [C032-P:L41] [C032-M:L5]. හැම සිතක්ම අරමුණක් ගෙනම උපදින බැවින් ඒ අරමුණේ රසය විඳීමේ ශක්තිය වූ වේදනාව හැම සිතකම ඇත; අරමුණු නොයෙක් ආකාර බැවින් වේදනාව ද ඒ අනුව වෙනස් වේ [C032-P:L43]. මාර්ගයට අනුව මෙහි වේදනාව යනු චෛතසික දෙපනසින් එකක් වූ වේදනා චෛතසිකයයි; අරමුණු රසය මිහිරක් ලෙස, අමිහිරක් ලෙස, මධ්‍යස්ථ ලෙස විඳිනු ලැබේ; මේ තුන හැර රස විඳීමේ වෙනත් ආකාරයක් නැත [C032-M:L5]."
+    },
+    {
+      "heading": "අනුභවන භේදය: වේදනා තුන",
+      "text": "අරමුණු රසය අනුභව කරන ආකාරය අනුව වේදනාව සුඛ, දුක්ඛ, උපේක්ෂා ලෙස තුන් වැදෑරුම් වේ [C032-P:L52] [C032-M:L3]. ඉෂ්ට, ප්‍රියමනාප අරමුණක් හමු වූ විට සතුට හා සැප ගෙන දෙන ස්වභාවය සුඛ වේදනාවයි; එය ඇති සිත් 63 කි: සොමනස්ස ලෝභමූල සිත් 4, සුඛ සහගත කාය විඤ්ඤාණය 1, සොමනස්ස සන්තීරණය හා හසිතුප්පාදය 2, සොමනස්ස කාම සොභන සිත් 12, ප්‍රථම සිට චතුර්ථ දක්වා ධ්‍යාන සිත් 44 [C032-P:L54–L63]. අනිෂ්ට, අප්‍රිය අරමුණක් හමු වූ විට නොසතුට හා දුක ගෙන දෙන ස්වභාවය දුක්ඛ වේදනාවයි; එය ඇති සිත් 3 කි: දෝමනස්ස ද්වේෂමූල සිත් 2 සහ දුක්ඛ සහගත කාය විඤ්ඤාණය 1 [C032-P:L67–L73]. සැපත් නොවූ දුකත් නොවූ මැදහත් විඳීම උපේක්ෂා වේදනාවයි; එය ඇති සිත් 55 කි: උපේක්ෂා සහගත අකුසල් 6, අහේතුක 14, කාම සොභන 12, පඤ්චම ධ්‍යාන 23 [C032-P:L75–L83]. මාර්ගය එම පඤ්චම ධ්‍යාන 23 රූපාවචර 3, අරූපාවචර 12, ලෝකෝත්තර 8 ලෙස බෙදා දක්වයි [C032-M:L13]."
+    },
+    {
+      "heading": "ඉන්ද්‍රිය භේදය: කායික හා මානසික වේදනා",
+      "text": "වේදනාව ඉන්ද්‍රිය (ඊශ්වර) භාවය කරන බැවින් ඉන්ද්‍රිය ධර්මයක් ද වේ [C032-P:L87]. ඉන්ද්‍රිය භේදයෙන් එය සුඛින්ද්‍රිය, සෝමනස්සින්ද්‍රිය, දුක්ඛින්ද්‍රිය, දෝමනස්සින්ද්‍රිය, උපේක්ඛින්ද්‍රිය ලෙස පස් වැදෑරුම් වේ [C032-P:L89–L91] [C032-M:L3]. මෙසේ දේශනා කළේ කායික සැපය හා මානසික සැපය ද, කායික දුක හා මානසික දුක ද වෙන් කොට දැක්වීමටය [C032-P:L95–L97] [C032-M:L5]. ඒ අනුව සුඛ වේදනාව ඇත්තේ සුඛ සහගත කාය විඤ්ඤාණය (අහේතුක කුසල විපාක කාය විඤ්ඤාණය) එකෙහි පමණි; ඉතිරි සිත් 62 සෝමනස්ස වේදනා සහිතය [C032-P:L99–L101] [C032-M:L7] [C032-M:L9]. දුක්ඛ වේදනාව ඇත්තේ දුක්ඛ සහගත කාය විඤ්ඤාණය (අහේතුක අකුසල විපාක කාය විඤ්ඤාණය) එකෙහි පමණි; දෝමනස්ස වේදනාව ඇත්තේ ද්වේෂමූල සිත් දෙකෙහි පමණි [C032-P:L103–L105] [C032-M:L7] [C032-M:L11]. උපේක්ෂා වේදනා සිත් 55 ම වේ [C032-P:L107]. සෝමනස්ස සහගත සිත් 62 අතර ලෝභමූල සෝමනස්ස සහගත සිත් සතර ද ඇතුළත් බව මාර්ගය ද පෙන්වා දෙයි [C032-M:L9]."
+    },
+    {
+      "heading": "සියලු වේදනා දුකක් වශයෙන් (ප්‍රදීපිකාව)",
+      "text": "සිත් 121 හි යෙදෙන සියලු වේදනා පඤ්චස්කන්ධය අතුරෙන් වේදනා ස්කන්ධයට ඇතුළත් වේ [C032-P:L109]. ත්‍රෛභූමික වූ සියලු වේදනා ප්‍රත්‍යයෙන් හටගන්නා බැවින් සියලු වේදනා දුක්ඛ වේදනා ලෙස වදාරා ඇත; එම දුක දුක්ඛ දුක්ඛ, සංඛාර දුක්ඛ, විපරිණාම දුක්ඛ ලෙස තුන් වැදෑරුම්ය [C032-P:L111]. ජාති, ජරා, ව්‍යාධි, මරණ, ශෝක, පරිදේව, දුක්ඛ, දෝමනස්ස, උපායාස ආදී සසර දුක් හා සතර අපා දුක ස්වභාවයෙන්ද නාමයෙන්ද දුක්ම බැවින් දුක්ඛ දුක්ඛ නම් වේ [C032-P:L111]. සුඛ, උපේක්ෂා යැයි සම්මත සියලු වේදනා ප්‍රත්‍යයෙන් හටගන්නා බැවින්ද, උදය-වැය දෙකෙන් පීඩිත බැවින්ද සංඛාර දුක්ඛ නම් වේ [C032-P:L115]. දීර්ඝ කල් විඳි නේවසඤ්ඤානාසඤ්ඤායතන සැපය ද, කාය වස්තුක ආදී සුඛ වේදනා ද ස්වභාවයෙන් දුක් නොවුණත් පෙරළීමෙන් දුක ඉපදීමට හේතු වන බැවින් විපරිණාම දුක්ඛ නම් වේ [C032-P:L117]. තවද අත්, පා, හිස, දත්, කන් ආදියේ වේදනා හා රාග ද්වේෂාදියෙන් වන සිත් තැවිලි අසා නොදැනගත හැකි, හේතුව අප්‍රකට බැවින් පටිච්ඡන්න දුක්ඛ ද; බාහිරින් එන පීඩා, වධ, බන්ධන නොඅසාම දත හැකි බැවින් අපටිච්ඡන්න දුක්ඛ ද; දුක්ඛ දුක්ඛයට අයත් නොවන ජාති ආදී දුකට වස්තු වන දේ පරියාය දුක්ඛ ද; දුක්ඛ දුක්ඛයම නිප්පරියාය දුක්ඛ ද වේ [C032-P:L119–L123]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "වේදනාව",
+      "pali": "vedanā",
+      "en": "feeling: the tasting of an object's flavour",
+      "note": "Present in every mind [C032-P:L43]."
+    },
+    {
+      "term_si": "ආරම්මණ රසය / අරමුණු රසය",
+      "pali": "ārammaṇa-rasa",
+      "en": "the 'taste' or flavour of an object",
+      "note": ""
+    },
+    {
+      "term_si": "සුඛ වේදනාව",
+      "pali": "sukha vedanā",
+      "en": "pleasant feeling (bodily pleasure, in the faculty scheme)",
+      "note": "Written 'සුබ' in the Pradeepika extract (OCR)."
+    },
+    {
+      "term_si": "දුක්ඛ වේදනාව",
+      "pali": "dukkha vedanā",
+      "en": "painful feeling (bodily pain, in the faculty scheme)",
+      "note": ""
+    },
+    {
+      "term_si": "උපේක්ෂා වේදනාව",
+      "pali": "upekkhā vedanā",
+      "en": "neutral feeling",
+      "note": ""
+    },
+    {
+      "term_si": "සෝමනස්ස",
+      "pali": "somanassa",
+      "en": "mental joy",
+      "note": "62 minds [C032-M:L9]."
+    },
+    {
+      "term_si": "දෝමනස්ස",
+      "pali": "domanassa",
+      "en": "mental displeasure, grief",
+      "note": "Only the two aversion-rooted minds [C032-M:L11]."
+    },
+    {
+      "term_si": "අනුභවන භේදය",
+      "pali": "(anubhavana-bheda)",
+      "en": "classification by how the feeling is experienced",
+      "note": "Threefold."
+    },
+    {
+      "term_si": "ඉන්ද්‍රිය භේදය / ඉන්ද්‍රිය දේශනාව",
+      "pali": "indriya",
+      "en": "classification as a faculty (a governing power)",
+      "note": "Fivefold."
+    },
+    {
+      "term_si": "කාය විඤ්ඤාණය",
+      "pali": "kāyaviññāṇa",
+      "en": "body (touch) consciousness",
+      "note": "The only seat of bodily pleasure and bodily pain."
+    },
+    {
+      "term_si": "ප්‍රකීර්ණක සංග්‍රහය",
+      "pali": "pakiṇṇaka saṅgaha",
+      "en": "miscellaneous compendium",
+      "note": "Sixfold analysis of the 53 mental states [C032-P:L29]."
+    },
+    {
+      "term_si": "වේදනා ස්කන්ධය",
+      "pali": "vedanākkhandha",
+      "en": "the aggregate of feeling",
+      "note": ""
+    },
+    {
+      "term_si": "දුක්ඛ දුක්ඛ",
+      "pali": "dukkha-dukkha",
+      "en": "suffering as outright pain",
+      "note": ""
+    },
+    {
+      "term_si": "සංඛාර දුක්ඛ",
+      "pali": "saṅkhāra-dukkha",
+      "en": "suffering of conditioned existence (rise and fall)",
+      "note": ""
+    },
+    {
+      "term_si": "විපරිණාම දුක්ඛ",
+      "pali": "vipariṇāma-dukkha",
+      "en": "suffering of change",
+      "note": ""
+    },
+    {
+      "term_si": "පටිච්ඡන්න / අපටිච්ඡන්න දුක්ඛ",
+      "pali": "paṭicchanna / apaṭicchanna dukkha",
+      "en": "concealed / open suffering",
+      "note": ""
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Every moment has a taste",
+      "text": "The sources say that nothing is ever experienced flavourless. Every sight, sound, thought or touch arrives with a tone: pleasant, unpleasant, or neither. There is no fourth option. This tone is not a verdict we reach afterwards. It comes with the experience itself."
+    },
+    {
+      "heading": "Pleasure is mostly made in the mind",
+      "text": "The count is striking. Plain bodily pleasure and bodily pain each have a single seat, touch. Nearly all the pleasure counted is mental gladness, found in more than sixty kinds of moment, while mental distress appears only in moments of aversion. Much of what we call enjoying something is gladness the mind produces around a sensation, not the sensation itself."
+    },
+    {
+      "heading": "Where wanting finds its footing",
+      "text": "The joyful moments of wanting sit squarely among the pleasant-feeling moments, and elsewhere the same sources say that wanting never comes with displeasure. Pleasant and neutral feeling are the ground wanting stands on. But pleasant feeling is also counted in generous, kind and deeply concentrated moments, so pleasure is where wanting often takes hold, not something bad in itself."
+    },
+    {
+      "heading": "The hidden cost of pleasant things",
+      "text": "The Pradeepika adds a sober reading: even pleasant feeling carries a cost, because it depends on conditions, rises and falls, and hurts when it turns. It also separates pains that are hidden (a toothache, a mind burning with desire or anger, which no one knows about unless they ask) from open ones (violence and confinement that everyone can see). Much suffering is invisible unless someone asks."
+    }
+  ],
+  "does_not_transfer": [
+    "'Chase good vibes.' The source counts even pleasant feeling as a form of suffering, in the sense that it is conditioned and changes, so it is not a goal in itself.",
+    "'Neutral means numb.' In the source, neutral feeling appears in greed-rooted minds but also in the most refined meditative and liberating minds.",
+    "'Pleasure is where wanting begins, so pleasure is the enemy.' The extracts show that greed can arise with neutral feeling too, and that pleasant feeling runs through many wholesome minds. The group's line is an editorial compression, not a sentence in the source.",
+    "'Life is suffering' as pessimism. The threefold 'suffering' here is a technical analysis of conditioned experience, not a mood or a claim that nothing is enjoyable."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A family making traditional New Year sweets, and the children waiting to taste them.",
+      "what_camera_could_observe": "Oil, batter and patterns; the maker's flat, practised rhythm after hundreds of pieces; children's faces at the first bite; an elder tasting and judging.",
+      "why_it_fits": "The same sweet brings delight to one person and a neutral routine to another, which is feeling following the object and the person [C032-P:L43]. The four joyful greed-rooted minds are counted among the pleasant-feeling minds [C032-P:L58].",
+      "setting_type": "A village or suburban home kitchen before the New Year",
+      "risk": "Nostalgic tourism imagery. It needs the family's own story (who taught whom, what has changed)."
+    },
+    {
+      "seed": "A tea plucker's working day from dawn to the evening weigh-in.",
+      "what_camera_could_observe": "Wet slopes, leeches, the weight of the basket, sun and rain; then the tea break with jokes and laughter; the evening weighing and the tally.",
+      "why_it_fits": "Bodily pain and mental gladness are counted separately [C032-P:L95–L97] [C032-M:L5]. A body can hurt while the mind laughs.",
+      "setting_type": "A hill-country tea estate",
+      "risk": "Romanticising hard, poorly paid labour, or using hardship to illustrate doctrine. The workers' own concerns, including pay and conditions, must be allowed to lead."
+    },
+    {
+      "seed": "A traditional bone-setter treating patients in a village clinic.",
+      "what_camera_could_observe": "Patients arriving in pain; the setter's hands; the sharp moment of setting; herbal pastes; relief on a face days later; the patients' own stories of the injury.",
+      "why_it_fits": "Bodily pain has a single seat, touch [C032-P:L103]. It also shows open pain that anyone can see, alongside the private worry a patient carries, which can only be known by asking [C032-P:L119–L121].",
+      "setting_type": "A traditional healer's clinic in a rural area",
+      "risk": "Filming pain without clear consent, and making claims about medical efficacy. Get consent, and make no health claims."
+    },
+    {
+      "seed": "A coastal or temple town on the morning after its biggest festival.",
+      "what_camera_could_observe": "Stalls dismantled, lanterns taken down, sweepers, vendors counting takings, a lone pilgrim lingering, the quiet after crowds.",
+      "why_it_fits": "Pleasant feeling becomes a source of pain when it changes, which is the source's 'suffering of change' [C032-P:L117].",
+      "setting_type": "A festival town the day after the season ends",
+      "risk": "A melancholy mood-piece with no human stake. It needs one or two people whose year depends on the festival."
+    },
+    {
+      "seed": "A village pharmacist or dispensary attendant who hears people's private complaints all day.",
+      "what_camera_could_observe": "Customers describing headaches, sleeplessness, chest burning; the attendant's questions; people who say little and buy painkillers; small kindnesses.",
+      "why_it_fits": "The Pradeepika's 'concealed suffering': pains of the head and teeth, and inner burning, which cannot be known without asking [C032-P:L119].",
+      "setting_type": "A small-town pharmacy or rural dispensary",
+      "risk": "Medical privacy. Customers must not be identifiable without consent, and it would be safer to centre the attendant and their reflections."
+    }
+  ],
+  "cross_source_notes": [
+    "Both sources give the threefold and fivefold schemes. The Margaya calls the fivefold one 'another method' based on the 'teaching of faculties' (ඉන්ද්‍රිය දේශනාව) [C032-M:L3] [C032-M:L5]; the Pradeepika calls it 'ඉන්ද්‍රිය භේදය' and explains that feeling is a faculty because it exercises governance (ඊශ්වර භාවය) [C032-P:L87].",
+    "Only the Margaya says outright that there is no fourth way of tasting an object [C032-M:L5].",
+    "The counts agree. The Pradeepika gives 63 pleasant (1 bodily + 62 joyful), 3 painful and 55 neutral [C032-P:L54–L83] [C032-P:L127–L158]; the Margaya gives 62 joyful (jhāna minds as 11 × 4), 2 displeased, 1 bodily pleasure, 1 bodily pain and 55 neutral, with the fifth-jhāna 23 split into 3 fine-material + 12 immaterial + 8 supramundane [C032-M:L7–L13]. The totals are 121 in both.",
+    "The Margaya identifies the two touch-consciousness minds more precisely, as rootless wholesome-resultant and unwholesome-resultant [C032-M:L7]. The Pradeepika simply says 'body consciousness accompanied by pleasure/pain' [C032-P:L99] [C032-P:L103].",
+    "Some material appears only in the Pradeepika: the framing of the compendium as a sixfold analysis of 53 mental states [C032-P:L29–L35], the aggregate of feeling [C032-P:L109], and the whole teaching on kinds of suffering [C032-P:L111–L123]."
+  ],
+  "uncertainties": [
+    "The Pradeepika extract consistently renders ඛ as බ (සුබ, දුක්බ, උපෙක්බා) and drops long vowels and aspirates (හෙදය for භේදය, ලොහ, දෙස). These are OCR artefacts, and the explanation uses standard spellings.",
+    "C032-P:L117 reads 'අසුභාර දහසක් මහා කල්ප', probably an OCR error for 'අසූහාර දහසක්' (84,000). It was not corrected.",
+    "The Pradeepika's definition of neutral feeling [C032-P:L75] ('අති ඉෂ්ට නොවූ, ඉෂ්ට මධ්‍යස්ථ වූ, මැදහත් තරමින් ප්‍රිය වූ...') reads as if the object is moderately pleasing. That differs from C006-P:L74, which calls the neutral object neither pleasing nor displeasing. The wording may be garbled, and it needs an expert check.",
+    "The composition of the six neutral unwholesome minds [C032-P:L79] [C032-M:L13] is not broken down in these extracts.",
+    "The group gloss 'pleasant feeling is where wanting begins' is not stated as such in either extract. The extracts only place the joyful greed-rooted minds among the pleasant-feeling minds. The causal link (feeling conditioning craving) belongs to teaching that lies outside these extracts, so it should be treated as editorial.",
+    "The claim that all conditioned feeling is 'suffering' [C032-P:L111] and the three kinds of suffering are standard commentarial teaching, but the Margaya extract does not include them. They rest on the Pradeepika alone.",
+    "The job file gave the lengths as 159 and 14 lines, but the files have 158 and 13 physical lines (a trailing newline). Every line was read."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

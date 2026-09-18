@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C004",
+  "record_type": "concept_digest",
+  "concept_id": "C004",
+  "group_id": "GRP-02",
+  "title_si": "කාමාවචර සිත් සිවුපනස",
+  "title_en": "The fifty-four sense-sphere minds",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C004-P",
+      "path": "content/02-concepts/Chapter 1/Concept 4 - කාමාවචර සිත් සිවුපනස/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-77",
+      "complete": true,
+      "markers": "Book 1, ch. 1 (චිත්ත සංග්‍රහ විභාගය), pdf 41–45 / printed 30–34; extract starts mid-page on pdf 41"
+    },
+    {
+      "ref": "C004-M",
+      "path": "content/02-concepts/Chapter 1/Concept 4 - කාමාවචර සිත් සිවුපනස/sources/Abhidharma Margaya.md",
+      "lines": "1-30",
+      "complete": true,
+      "markers": "Section headed '5. කාමාවචර සිත් සිවුපනස'; no page markers in extract"
+    }
+  ],
+  "summary_en": "Both sources count the minds that belong to the sense-sphere world as fifty-four: twelve unwholesome, eighteen rootless and twenty-four 'beautiful' sense-sphere minds; the Pradeepika also groups the first thirty as 'not beautiful' and splits the rootless and beautiful sets into resultant, wholesome and functional kinds. Both then divide the twelve unwholesome minds by their roots into eight greed-rooted, two aversion-rooted and two delusion-rooted minds; the Pradeepika stresses that delusion lies beneath every unwholesome mind, while the Margaya defines greed as the attaching that takes things and people to be good, beautiful or sweet, says it never comes with displeasure, and builds the eight greed-rooted minds from three distinctions (joy or indifference, with or without wrong view, unprompted or prompted). The Pradeepika adds the ten unwholesome courses of action, a stretch of the author's own moral commentary on contemporary society, and the reason greed is listed first: the first active mental process after conception is a greed-rooted clinging to the new existence.",
+  "sinhala_explanation": [
+    {
+      "heading": "කාමාවචර සිත් සහ ඒවායේ බෙදීම",
+      "text": "ප්‍රදීපිකාවට අනුව එකොළොස් කාම භූමියෙහි (කාමලෝකයෙහි) බහුලව පවතින, කාමලෝකයටම අයත්, කාමයන් පිළිබඳ වූ සිත් කාමාවචර සිත් නම් වේ [C004-P:L25]. ඒ සිත් සියල්ල 54 කි: එයින් 30 ක් අසොභන සිත් ද 24 ක් සොභන සිත් ද වේ [C004-P:L27]. අසොභන 30 න් 12 ක් අකුසල් සිත් වන අතර ඉතිරි 18 අහේතුක සිත් වේ [C004-P:L27]. අහේතුක 18 අකුසල විපාක 7 ක්, කුසල විපාක 8 ක් සහ ක්‍රියා සිත් 3 ක් ලෙස බෙදේ [C004-P:L31]. සොභන 24 මහා කුසල් 8, මහා විපාක 8, මහා ක්‍රියා 8 ලෙස බෙදේ [C004-P:L33]. මාර්ගය ද එම ගණනම 'අකුසල් සිත් 12, අහේතුක සිත් 18, කාමාවචර සෝභන සිත් 24' ලෙස කෙටියෙන් දක්වයි; එහි 'අසොභන 30' යන මැදි කාණ්ඩය මෙම කොටසේ නම් කර නැත [C004-M:L3]."
+    },
+    {
+      "heading": "අකුසල් සිත් දොළොස සහ අකුසල මූල තුන",
+      "text": "මාර්ගයට අනුව යමකුගේ සන්තානයෙහි ඇති වුවහොත් අනාගතයේ ඔහුට අනිෂ්ට විපාක ඇති කරන සිත් අකුසල් සිත් නම් වේ [C004-M:L7]. ලෝභය, ද්වේෂය, මෝහය යන අකුසල මූල තුන චෛතසික තුනකි; අකුසල් සිත ඒවා හා එක්වීම අනුව ලෝභ මූල, ද්වේෂ මූල, මෝහ මූල යනුවෙන් තුනට බෙදේ [C004-M:L9]. ප්‍රදීපිකාව මෝහය අකුසලයට ප්‍රධාන හේතුව ලෙස පෙරට තබයි: මෝහය අරමුණේ ස්වභාවය වසන අන්ධකාරයක් වැනිය; මෝහයෙන් මුළා වූ සිතට සත්‍ය අසත්‍ය, වරද නිවරද නොවැටහේ; එබැවින් සෑම අකුසල් සිතකම මෝහ මූලය ඇත [C004-P:L39]. එවැනි සිතකට ඉෂ්ට හෝ මධ්‍යස්ථ රූප ශබ්දාදී අරමුණක් හමු වූ විට ඇලීම, ආශා කිරීම ලෝභයයි; එය ප්‍රකට වූ සිත් ලෝභමූල සිත් වේ [C004-P:L41]. අනිෂ්ට, අප්‍රිය අරමුණක් නිසා ඇතිවන කිපීම දෝෂයයි; එය ප්‍රකට සිත් දෝෂමූල සිත් වේ [C004-P:L43]. මෝහය බලවත් වී අරමුණ නිශ්චය කර ගත නොහැකි වූ විට ඇලීමට හෝ කිපීමට අවකාශ නැත; අවිනිශ්චිත හෝ නොසන්සුන් ගතිය ප්‍රකට වන ඒ සිත් මෝහමූල සිත් වේ [C004-P:L45]. මෙසේ ලෝභමූල 8, දෝෂමූල 2, මෝහමූල 2 වශයෙන් අකුසල් සිත් 12 කි [C004-P:L29] [C004-P:L47]."
+    },
+    {
+      "heading": "ලෝභය යනු කුමක්ද, එය විඳින ආකාරය",
+      "text": "මාර්ගයට අනුව 'මේ දේ හොඳය, ලස්සනය, මිහිරිය' කියා දේවලට හා පුද්ගලයන්ට ඇලුම් කරන ස්වභාවය ලෝභයයි; ආශාව, ඕනෑකම, රාගය, ගිජුකම, ආදරය, ප්‍රේමය ආදී නම්වලින් කියැවෙන්නේ ද ලෝභයමය [C004-M:L13]. සිතට දැනෙන දෙය අරමුණ (ආරම්මණය) නම්; එක් සිතක් තවත් සිතකට දැනෙන බැවින් සිත ද අරමුණකි [C004-M:L15]. සෑම අරමුණකම හොඳ බව, නරක බව, මධ්‍යම බව යන ගුණ තුනෙන් එකක් ඇත; ඒවා 'අරමුණු රසය' නම් වේ. ඒ රසය විඳින ස්වභාවය මිහිර විඳීම නම් සෝමනස්ස වේදනාව ද, මධ්‍යම බව විඳීම නම් උපේක්ෂා වේදනාව ද, නරක බව විඳීම නම් දෝමනස්ස වේදනාව ද වේ [C004-M:L15]. ලෝභ සහගත සිත කිසි කලෙක දෝමනස්ස වේදනාවෙන් යුක්ත නොවේ; එය අරමුණේ හොඳ බව හෝ මධ්‍යම බව විඳීමත් සමගම උපදී [C004-M:L15]. සතුට යනු සෝමනස්ස වේදනාවට කියන තවත් නමකි [C004-M:L17]. ප්‍රදීපිකාව ද ලෝභය ඉෂ්ට හෝ මධ්‍යස්ථ අරමුණක ඇතිවන බව කියයි [C004-P:L41]."
+    },
+    {
+      "heading": "ලෝභමූල සිත් අට ගොඩනැගෙන ආකාරය (මාර්ගය)",
+      "text": "ලෝභමූල සිත පළමුව වේදනාව අනුව සෝමනස්ස සහගත, උපේක්ෂා සහගත ලෙස දෙකට බෙදේ [C004-M:L17]. ඊළඟට 'පින් පව් නැත, ඒවායේ විපාක නැත, පරලොවක් නැත, කුමක් කළත් වරද නැත' යනාදී මිථ්‍යාදෘෂ්ටියෙන් යුක්ත වීම හෝ නොවීම අනුව දෘෂ්ටිගත සම්ප්‍රයුක්ත, දෘෂ්ටිගත විප්‍රයුක්ත ලෙස බෙදී සිත් සතරක් වේ [C004-M:L19]. අවසානයේ, මෙහෙයීමක් හෝ උත්සාහවත් කරවීමක් නැතිව ස්වභාවයෙන්ම ඇතිවන සිත අසංඛාරික ලෙසත්, අනුන්ගේ මෙහෙයීමකින් හෝ තමා විසින් හෝ අනුන් විසින් හෝ උත්සාහවත් කරවීමකින් ඇතිවන සිත සසංඛාරික ලෙසත් බෙදීමෙන් ලෝභමූල සිත් අටක් වේ [C004-M:L21]. ඒ අට මාර්ගයේ ලැයිස්තුගත කර ඇත [C004-M:L23–L30]."
+    },
+    {
+      "heading": "දස අකුසල්, කර්මපථ සහ කතුවරයාගේ සමාජ විවරණය (ප්‍රදීපිකාව)",
+      "text": "දස අකුසල් ආදී සෑම අකුසල කර්මයක්ම මේ අකුසල් සිත් 12 න් සිදු වේ: ප්‍රාණඝාතය, අදත්තාදානය, කාම මිථ්‍යාචාරය, මුසාවාදය, පිසුණාවාචා, ඵරුසාවාචා, සම්ඵප්පලාප, අභිධ්‍යාව (අන්සතු වස්තුවට දැඩි ආශාව), ව්‍යාපාදය සහ මිථ්‍යාදෘෂ්ටිය [C004-P:L51]. අඞ්ග සම්පූර්ණ වූ අකුසල කර්ම කර්මපථ බවට පැමිණ ප්‍රතිසන්ධි විපාක හා ප්‍රවෘත්ති විපාක ද දෙයි; අඞ්ග සම්පූර්ණ නොවූ ඒවා ප්‍රවෘත්ති විපාක පමණක් දෙයි [C004-P:L53]. අඥානකම, මුළාව, අවිද්‍යාව යයි කියන්නේ මෝහයටය; මුළා නොවූ තැනැත්තාට අකුසල් සිත් පහළ නොවේ [C004-P:L55]. ඉන්පසු කතුවරයා තම සමකාලීන සමාජය ගැන විවරණයක් කරයි: උගත්, සම්මානිත අය පවා සතුන් මරා හෝ මරවා මස් අනුභව කිරීම, බිත්තර ආහාරයට ගැනීම, ක්‍රීඩාවක් ලෙස මසුන් ඇල්ලීම, සූදුව, මත්පැන් පානය, උගුල් ඇටවීම, දඩයම සහ පරමාණු ආයුධ නිපදවීම වැනි දේ කරන බව ඔහු කියයි [C004-P:L57–L59]; ධර්මය අනුව ඔවුන් මරණින් මතු අපායට යන බව ඔහු ප්‍රකාශ කරයි [C004-P:L63]. දේව නිර්මාණය, සදාකාලික ස්වර්ගය වැනි දෘෂ්ටි ඔහු මිථ්‍යාදෘෂ්ටි ලෙස නම් කරයි [C004-P:L65]. කර්මය නොඅදහන, මෙලොව සැපයටම වෙහෙසෙන අය වරදක් බව නොදැනම අකුසල් කරති; අරමුණේ තත්ත්වය නොවැටහීම මෝහයයි [C004-P:L67]. ධර්මය උගත් බෞද්ධයන් ද දැන දැනම පව් කරති, ඒවායේ විපාක ද ඇත; පාපයෙන් වැළකීමට සසරේ කුසල් කළ පුරුද්ද අවශ්‍ය බව ඔහු කියයි [C004-P:L69]."
+    },
+    {
+      "heading": "ලෝභමූල සිත් මුලින්ම දැක්වීමට හේතුව (ප්‍රදීපිකාව)",
+      "text": "අකුසල් සිත් දොළොස විස්තර කරන්නේ ලෝභමූල අට, දෝෂමූල දෙක, මෝහමූල දෙක යන පිළිවෙළිනි [C004-P:L71]. ලෝභය මුලින්ම දැක්වීමට හේතුව එය සෑම සත්ත්වයකුගේම ප්‍රතිසන්ධි සිතට පසු පළමු චිත්ත වීථියේදීම ඇතිවන ධර්මයක් වීමයි: පළමුව ප්‍රතිසන්ධි විපාක සිත ද, ඉන්පසු භවාඞ්ග සිත් 15 ක් හෝ 16 ක් පමණ ද, ඉන්පසු මනෝද්වාරාවජ්ජන සිත ද ඇති වී, අනතුරුව තමා උපන් භවයට ඇල්ම කිරීමක් වශයෙන් ලෝභමූල සිත් අටෙන් එකක් ජවන් සිත් ලෙස හත් වරක් ඉපිද නිරුද්ධ වේ; ඉන්පසු නැවත භවාඞ්ග පරම්පරාව ඇති වේ [C004-P:L73]. ලෝභමූල සිත්වල ලෝභ, මෝහ යන හේතු දෙකක් ඇත; එයට පසුව දෝෂමූල සිත් දෙක ද, එක් හේතුවක් (මෝහය) පමණක් ඇති මෝහමූල සිත් දෙක අවසානයේ ද දක්වා ඇත [C004-P:L77]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "කාමාවචර සිත්",
+      "pali": "kāmāvacara citta",
+      "en": "sense-sphere minds",
+      "note": "Minds that mostly occur in, and belong to, the world of sense experience; 54 in total [C004-P:L25–L27]."
+    },
+    {
+      "term_si": "අසොභන / සොභන සිත්",
+      "pali": "asobhana / sobhana citta",
+      "en": "'not beautiful' / 'beautiful' minds",
+      "note": "Pradeepika: 30 not beautiful (12 unwholesome + 18 rootless), 24 beautiful [C004-P:L27]."
+    },
+    {
+      "term_si": "අකුසල් සිත",
+      "pali": "akusala citta",
+      "en": "unwholesome mind",
+      "note": "Margaya defines it by its future undesirable result [C004-M:L7]."
+    },
+    {
+      "term_si": "අහේතුක සිත",
+      "pali": "ahetuka citta",
+      "en": "rootless mind",
+      "note": "18: 7 unwholesome-resultant, 8 wholesome-resultant, 3 functional [C004-P:L31]."
+    },
+    {
+      "term_si": "අකුසල මූල",
+      "pali": "akusala mūla",
+      "en": "unwholesome root",
+      "note": "Greed, aversion, delusion; Margaya: these are three mental factors [C004-M:L9]."
+    },
+    {
+      "term_si": "ලෝභය",
+      "pali": "lobha",
+      "en": "greed, attachment, wanting",
+      "note": "Margaya includes āśā, rāga, ādaraya and prēmaya (affection, love) under this name [C004-M:L13]."
+    },
+    {
+      "term_si": "දෝෂය / ද්වේෂය",
+      "pali": "dosa",
+      "en": "aversion, anger",
+      "note": ""
+    },
+    {
+      "term_si": "මෝහය",
+      "pali": "moha",
+      "en": "delusion, not-seeing",
+      "note": "Pradeepika: present in every unwholesome mind [C004-P:L39]."
+    },
+    {
+      "term_si": "අරමුණ / ආරම්මණය",
+      "pali": "ārammaṇa",
+      "en": "object of the mind",
+      "note": "Margaya: whatever the mind knows, including another mind [C004-M:L15]."
+    },
+    {
+      "term_si": "සෝමනස්ස / උපේක්ෂා / දෝමනස්ස වේදනාව",
+      "pali": "somanassa / upekkhā / domanassa vedanā",
+      "en": "joyful / neutral / displeased feeling",
+      "note": "Greed never comes with displeased feeling [C004-M:L15]."
+    },
+    {
+      "term_si": "දෘෂ්ටිගත සම්ප්‍රයුක්ත / විප්‍රයුක්ත",
+      "pali": "diṭṭhigata sampayutta / vippayutta",
+      "en": "joined with / not joined with wrong view",
+      "note": ""
+    },
+    {
+      "term_si": "අසංඛාරික / සසංඛාරික",
+      "pali": "asaṅkhārika / sasaṅkhārika",
+      "en": "unprompted / prompted",
+      "note": "Prompting may come from others or from oneself [C004-M:L21]."
+    },
+    {
+      "term_si": "කර්මපථ",
+      "pali": "kammapatha",
+      "en": "complete course of action",
+      "note": "An act with all its factors complete [C004-P:L53]."
+    },
+    {
+      "term_si": "ජවන් සිත",
+      "pali": "javana citta",
+      "en": "impulsion (the active phase of a mental process)",
+      "note": ""
+    },
+    {
+      "term_si": "භවාඞ්ග සිත",
+      "pali": "bhavaṅga citta",
+      "en": "life-continuum mind",
+      "note": ""
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "A map of the ordinary day",
+      "text": "Most of what we are, for most of the day, is a mind living among things seen, heard, smelled, tasted and touched. The sources take that everyday mind and count its possible kinds of moment. What stands out is that the everyday world is not only the home of wanting: the same count includes the moments of simply receiving what arrives, and the good-hearted moments too. Wanting is a large part of ordinary life, not the whole of it."
+    },
+    {
+      "heading": "Wanting comes first, even before we choose",
+      "text": "One source gives a striking picture of why wanting is discussed first: in its account, the first active moment of any new life is already a holding-on to that life. Whatever one makes of that as biology, the human point is plain. Wanting is not a decision we arrive at later. It is the reflex of being alive and not wanting to let go of it."
+    },
+    {
+      "heading": "Wanting never feels bad at the moment it wants",
+      "text": "The Margaya says that the reaching of desire always arrives either with pleasure or with a flat, middling feeling, never with displeasure. That matches ordinary experience: the scroll, the second helping, the habitual purchase often feel like nothing much at all. Wanting can be joyless and still be wanting. It is also why joy on its own proves nothing about whether an act is good."
+    },
+    {
+      "heading": "Harm grows in the dark",
+      "text": "The Pradeepika insists that every harmful moment rests on a clouding of sight, a failure to see what is true. It also says, pointedly, that education does not remove this: clever, respected people do harm without seeing it, and people who know better do it anyway. The point is not that bad people are stupid. It is that not-seeing is common, and knowing about something is not the same as seeing it."
+    }
+  ],
+  "does_not_transfer": [
+    "'Desire is bad, so love is bad.' The Margaya does list affection and love among the names of greed, but that is a technical point about the element of clinging. It is not a verdict that caring for family is wicked, and a film must not present it as one.",
+    "'Follow your joy.' In the source, joy comes along with greed-rooted minds as readily as with good ones, so pleasure is no evidence that something is good.",
+    "'Ignorance means lack of education.' The source's not-seeing is explicitly something that highly educated people have.",
+    "The Pradeepika's commentary on meat, eggs, fishing, gambling, drink, weapons and other faiths' views (creator god, eternal heaven) is the author's own moral argument. Turning it into a judgment on people or communities shown on screen would be preaching and could wound. It is not the core teaching of the sense-sphere count.",
+    "'The sense world is a trap.' Twenty-four of the fifty-four sense-sphere minds are counted as 'beautiful', so the sources do not treat sense life as simply bad."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A family choosing clothes in a textile shop in the weeks before a wedding.",
+      "what_camera_could_observe": "Fabric unfolded and held against a face; the moment someone's eyes light up; a relative talking a hesitant bride into a colour; the shop assistant folding the hundredth sari with a flat expression; the bill being counted.",
+      "why_it_fits": "It is the sense-sphere mind at work: things seen as beautiful and reached for [C004-M:L13], with delight in one face and indifference in another [C004-M:L17], and reaching that is sometimes spontaneous and sometimes urged on by others [C004-M:L21].",
+      "setting_type": "A busy textile shop in a provincial town",
+      "risk": "Mocking consumer desire, or making the family a lesson about greed. The film must stay with the family's own story of the wedding, and the doctrine should never be narrated over them."
+    },
+    {
+      "seed": "A family heirloom being valued by a second-hand dealer when a household has to sell.",
+      "what_camera_could_observe": "Brass lamps, jewellery or furniture being handled; family members touching an object before letting it go; the dealer's practised, neutral appraisal; the negotiation; what they keep back.",
+      "why_it_fits": "The same object is held with attachment by one person and indifference by another. The source's greed is exactly the attaching to things as good or beautiful [C004-M:L13], and it can come with feeling or with none [C004-M:L15].",
+      "setting_type": "An antique or second-hand dealer's shop, or a family home during a sale",
+      "risk": "The family may be selling out of hardship. Consent, dignity, and not framing their grief or need as 'greed' are essential."
+    },
+    {
+      "seed": "An evening roadside food stall, with regulars and first-timers.",
+      "what_camera_could_observe": "Sizzle and smoke; the regular who orders without looking up; a newcomer being urged by a friend to try something; the first bite; the vendor's rhythm.",
+      "why_it_fits": "Sight, smell, sound and taste together make up the everyday sense-sphere world [C004-P:L25]. Wanting shows up with joy or with habit [C004-M:L17], and spontaneously or with a push [C004-M:L21].",
+      "setting_type": "An urban roadside short-eats or hopper stall at dusk",
+      "risk": "Turning ordinary appetite into a moral specimen. The stall owner's livelihood and craft should carry the film."
+    },
+    {
+      "seed": "A household on the day a newborn is brought home.",
+      "what_camera_could_observe": "The baby's grasping hand closing around a finger; relatives crowding in; who gets to hold the child; the family's delight and small rivalries.",
+      "why_it_fits": "It echoes, gently, the Pradeepika's claim that the first active moment of a life is a holding-on to that life [C004-P:L73], and the Margaya's naming of affection among the forms of attachment [C004-M:L13]. The camera cannot show a mind. It can only show attachment being lived.",
+      "setting_type": "A family home in a village or suburb",
+      "risk": "Projecting doctrine onto an infant, and privacy. This needs the family's full consent, and must never imply that their love is a fault."
+    },
+    {
+      "seed": "A lottery ticket seller's daily round.",
+      "what_camera_could_observe": "The seller's calls and patter; regulars' small rituals (a favourite number, a lucky day); the flat habit of the daily purchase; the draw on a small television; the rare moment of a win.",
+      "why_it_fits": "It shows reaching for a hoped-for good, sometimes with excitement and often with flat routine [C004-M:L17], and often prompted by the seller [C004-M:L21]. Gambling appears in the Pradeepika's commentary [C004-P:L57], but the film should not moralise.",
+      "setting_type": "A town junction or bus stand where ticket sellers work",
+      "risk": "It could easily sneer at poor buyers or at the seller. The seller's own life and hopes should lead."
+    }
+  ],
+  "cross_source_notes": [
+    "The totals agree: 12 unwholesome + 18 rootless + 24 beautiful = 54 [C004-P:L27] [C004-M:L3]. Only the Pradeepika names the 30/24 'not beautiful'/'beautiful' split and breaks the rootless and beautiful groups into resultant, wholesome and functional sets [C004-P:L31–L33].",
+    "They define 'unwholesome' differently. The Margaya defines it by its future undesirable result [C004-M:L7]; the Pradeepika defines it by root, with delusion present in every unwholesome mind [C004-P:L39].",
+    "On greed, the Pradeepika calls it attaching to a pleasing or neutral object [C004-P:L41]. The Margaya calls it attaching to things and persons as good, beautiful or sweet, lists its many names (including affection and love), and states outright that it never comes with displeased feeling [C004-M:L13–L15]. The two agree in substance.",
+    "In this concept only the Margaya builds the eight greed-rooted minds step by step [C004-M:L17–L30]. The Pradeepika's list of the eight is in the next extract (C005).",
+    "Material found only in the Pradeepika: the ten unwholesome actions and the complete course of action [C004-P:L51–L53], the author's social commentary [C004-P:L55–L69], and the reason for the order of the twelve [C004-P:L71–L77]. Material found only in the Margaya: the definition of the object and of the 'taste' of an object [C004-M:L15].",
+    "The spelling registers differ. The Pradeepika uses Pali-form terms (සොමනස්ස, දිට්ඨිගත, සසංඛාරික); the Margaya uses Sanskritised Sinhala forms (සෝමනස්ස, දෘෂ්ටිගත සම්ප්‍රයුක්ත, අසංස්කාරික)."
+  ],
+  "uncertainties": [
+    "The Pradeepika mentions the 'eleven sense realms' without listing them in this extract [C004-P:L25].",
+    "C004-P:L77 appears incomplete. It says the aversion-rooted minds have 'the delusion root' but does not mention the aversion root itself, whereas the parallel sentence gives greed-rooted minds both greed and delusion. This is left as found and needs an expert check.",
+    "The number of life-continuum moments after conception is given only approximately, as '15 or 16' [C004-P:L73]. The whole account of the first mental process after conception is a traditional doctrinal claim that needs an expert check before any film uses it.",
+    "C004-M:L13 contains the word 'කැතකම' among the names of greed. Its meaning here is unclear and it may be an OCR or typing error. It was not guessed at.",
+    "The Margaya classes 'ආදරය' and 'ප්‍රේමය' (affection, love) as greed [C004-M:L13]. How the tradition separates this from loving-kindness is not covered in the extract and needs an expert check before any film touches on it.",
+    "C004-P:L55–L69 is the author's own contemporary moral commentary (meat, eggs, fishing, gambling, alcohol, nuclear weapons, other religions' views, destinies in hell). The extract does not give the date of the commentary. It needs editorial care and should not be treated as the core taxonomy.",
+    "There are minor OCR slips in the Pradeepika ('ශබ්දදී', 'මුවහ', 'මොහය', 'ලොහමූල'); they do not change the meaning. The job file gave the lengths as 78 and 31 lines, but the extract files have 77 and 30 physical lines (a trailing newline). Every line was read."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

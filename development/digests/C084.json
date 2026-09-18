@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C084",
+  "record_type": "concept_digest",
+  "concept_id": "C084",
+  "group_id": "GRP-01",
+  "title_si": "ප්‍ර‍ඥප්තිය",
+  "title_en": "Concepts and names (paññatti)",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "supersedes_draft": "docs/planning/pilot-01/c084-concepts-and-names.md",
+  "sources_read": [
+    {
+      "ref": "C084-P",
+      "path": "content/02-concepts/Chapter 8/Concept 84 - ප්‍ර‍ඥප්තිය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-73",
+      "complete": true,
+      "markers": "Book 3, ch. 8, pdf 554–555 / printed 543–544"
+    },
+    {
+      "ref": "C084-M",
+      "path": "content/02-concepts/Chapter 8/Concept 84 - ප්‍ර‍ඥප්තිය/sources/Abhidharma Margaya.md",
+      "lines": "1-37",
+      "complete": true,
+      "markers": "Lesson 11; no page or edition metadata"
+    }
+  ],
+  "summary_en": "Paññatti is convention: what is designated or made known, as distinct from the ultimate realities of mind and matter. The sources separate meaning-concepts (the wholes, shapes, beings, directions, times, spaces and signs the mind takes up) from name-concepts (the names that convey them). Test: divide a thing, and if what first seemed present disappears, like cloth dissolved into threads, it is a concept, not an ultimate reality. The sound of a word is ultimately real; the name it conveys is not. Names relate to what they designate in six ways, depending on whether the name and its basis are ultimately existent or not.",
+  "sinhala_explanation": [
+    {
+      "heading": "ප්‍රඥප්තිය යනු කුමක්ද",
+      "text": "Pradeepika අනුව නාම-රූප දෙකින් අන්‍ය වූ සම්මුතිය ප්‍රඥප්ති නම් වේ; පණවනු ලබන හෙයින්ද පණවන හෙයින්ද එය ප්‍රඥප්ති යයි කියනු ලැබේ [C084-P:L25]. Margaya පවසන්නේ මහජනයාට ලොව ඇති දේවල් ලෙස පෙනෙන්නේ බොහෝ විට ප්‍රඥප්තීන් බවත්, ප්‍රඥප්තිය හඳුනා ගැනීම පරමාර්ථය පිරිසිදුව වෙන් කොට හඳුනා ගැනීමට උපකාර වන බවත්ය [C084-M:L5]. මෙය දෛනික ලෝකය “බොරු” යයි කියන ප්‍රකාශයක් නොවේ; සම්මුතිය හා පරමාර්ථ විග්‍රහය වෙන් කොට දැකීමයි."
+    },
+    {
+      "heading": "බෙදා බැලීමේ පරීක්ෂාව — නූල් සහ වස්ත්‍රය",
+      "text": "යමක් සත්‍ය වශයෙන් ඇත්දැයි දැනගැනීමට එය බෙදා බැලිය යුතුය. බෙදා බලන කල මුලින් ඇති සේ පෙනුණු දෙය නැති වේ නම් එය සත්‍ය වශයෙන් ඇතියක් නොවේ. වස්ත්‍රය බෙදූ විට ලැබෙන්නේ නූල් සමූහයකි; නූල් හැර වස්ත්‍රයක් නැත. මෙසේ බෙදා බලන කල නැති වන සියල්ල ප්‍රඥප්තීහු ය [C084-M:L7]."
+    },
+    {
+      "heading": "අර්ථ ප්‍රඥප්ති — සමූහ, සණ්ඨාන, සත්ත්ව, දිශා, කාල, ආකාශ, නිමිත්ත",
+      "text": "අර්ථ ප්‍රඥප්තිය යනු වචනය ඇසූ විට (හෝ ඇසින් දුටු විට) සිතට නැඟෙන, පරමාර්ථ වශයෙන් නැති දෙයයි [C084-M:L9]. Pradeepika අර්ථ ප්‍රඥප්ති ලෙස සමූහ (පෘථිවි, පර්වත, ගංගා, සාගර), සණ්ඨාන (රථ ආදිය), සත්ත්ව (පුරුෂ, පුද්ගල, දිව්‍ය, මනුෂ්‍ය), දිසා, කාල (උදය, සවස, රාත්‍රි), ආකාශ (ළිං, ගුහා ආදිය) සහ නිමිත්ත (මූලාශ්‍රයේ මුද්‍රිත පරිදි “පථකම්, උද්ගත නිමිති”) යන හතක් දක්වයි [C084-P:L27–L41]. Margaya සංස්ථාන, සමූහ, සත්ත්ව, දිශා, කාල දක්වමින්, සංස්ථාන ප්‍රඥප්ති මහාභූතයන් පිහිටි සටහන් අනුව, සමූහ ප්‍රඥප්ති ද්‍රව්‍ය එකතු වී සම්බන්ධ වීම අනුව, සත්ත්ව ප්‍රඥප්ති පඤ්චස්කන්ධය නිමිත්ත කොට, දිශා සහ කාල ප්‍රඥප්ති සඳු-හිරු භ්‍රමණය නිමිත්ත කොට හැඟෙන බව පහදයි [C084-M:L11–L19]."
+    },
+    {
+      "heading": "නාම ප්‍රඥප්ති — ශබ්දය සහ නාමය",
+      "text": "නාම ප්‍රඥප්ති යනු පරමාර්ථ ධර්මයන්ට හෝ අර්ථ ප්‍රඥප්තීන්ට පණවන නාමයයි [C084-P:L47]. Margaya විශේෂයෙන් අවධාරණය කරන්නේ ශබ්දයේත් නාමයේත් වෙනසයි: ශබ්දය පරමාර්ථ ධර්මයකි, නාමය ප්‍රඥප්තියකි. “මේ-ස-ය” යන ශබ්ද තුන පිළිවෙළින් ඇසුණු කල අසන්නාගේ සිතට “මේසය” යන නාම ප්‍රඥප්තිය හැඟේ; ඒ නාමය නිසා මේසය නමැති අර්ථ ප්‍රඥප්තිය සිතට නැඟේ [C084-M:L21]."
+    },
+    {
+      "heading": "නාම ප්‍රඥප්තියේ සයාකාරය",
+      "text": "මූලාශ්‍ර දෙකම නාම ප්‍රඥප්තිය සයාකාරයෙන් බෙදයි [C084-P:L49–L71; C084-M:L23–L35]: (1) විද්‍යමාන — පරමාර්ථයෙන් ඇති රූප, වේදනා, චිත්ත, ඵස්ස ආදියට දෙන නම; (2) අවිද්‍යමාන — පරමාර්ථයෙන් නැති භූමි, පර්වත, මේසය, මිනිසා ආදියට දෙන නම; (3) විද්‍යමානයෙන් අවිද්‍යමාන — ඇති දෙයක් (නුවණ, ශ්‍රද්ධාව, සුදු වර්ණය, අභිඥා) නිමිත්ත කොට නැති දෙයක් (පුද්ගලයා) අඟවන නම: “නුවණැත්තා”, “සැදැහැවතා”, “ෂඩභිඥ”; (4) අවිද්‍යමානයෙන් විද්‍යමාන — “ස්ත්‍රී ශබ්දය”, “වීණා හඬ”; (5) විද්‍යමානයෙන් විද්‍යමාන — “චක්ඛුවිඤ්ඤාණ”, මෙහි ප්‍රසාදයද විඤ්ඤාණයද ඇත; (6) අවිද්‍යමානයෙන් අවිද්‍යමාන — “රාජපුත්‍ර”, “ගැහැනු ළමයා”. මෙහි විද්‍යමාන/අවිද්‍යමාන යන පද පරමාර්ථ විග්‍රහයට අයත්ය; සාමාන්‍ය භාෂාවේ ඇත්ත/බොරු ලෙස සරල කිරීම වැරදිය."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "ප්‍රඥප්තිය",
+      "pali": "paññatti",
+      "en": "concept; conventional designation",
+      "note": "both what is made known and what makes it known [C084-P:L25]"
+    },
+    {
+      "term_si": "සම්මුතිය",
+      "pali": "sammuti",
+      "en": "convention, shared agreement"
+    },
+    {
+      "term_si": "පරමාර්ථය",
+      "pali": "paramattha",
+      "en": "ultimate reality, what remains under analysis"
+    },
+    {
+      "term_si": "අර්ථ ප්‍රඥප්තිය",
+      "pali": "attha-paññatti",
+      "en": "meaning-concept: the thing the mind takes up (a table, a mountain, east, morning)"
+    },
+    {
+      "term_si": "නාම ප්‍රඥප්තිය",
+      "pali": "nāma-paññatti",
+      "en": "name-concept: the name that conveys it"
+    },
+    {
+      "term_si": "සමූහ ප්‍රඥප්තිය",
+      "pali": "samūha-paññatti",
+      "en": "collective concept: a whole made of parts"
+    },
+    {
+      "term_si": "සණ්ඨාන/සංස්ථාන ප්‍රඥප්තිය",
+      "pali": "saṇṭhāna-paññatti",
+      "en": "concept of shape or configuration"
+    },
+    {
+      "term_si": "සත්ත්ව ප්‍රඥප්තිය",
+      "pali": "satta-paññatti",
+      "en": "concept of a being or person, based on the five aggregates"
+    },
+    {
+      "term_si": "දිසා / කාල ප්‍රඥප්තිය",
+      "pali": "disā / kāla-paññatti",
+      "en": "direction and time, based on the movement of sun and moon"
+    },
+    {
+      "term_si": "ආකාශ ප්‍රඥප්තිය",
+      "pali": "ākāsa-paññatti",
+      "en": "concept of space: a well, a cave, named by emptiness"
+    },
+    {
+      "term_si": "නිමිත්ත ප්‍රඥප්තිය",
+      "pali": "nimitta-paññatti",
+      "en": "meditation sign or image"
+    },
+    {
+      "term_si": "විද්‍යමාන / අවිද්‍යමාන",
+      "pali": "vijjamāna / avijjamāna",
+      "en": "ultimately existent / not ultimately existent",
+      "note": "technical terms, not 'true/false'"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Cloth and thread",
+      "text": "Pull a piece of cloth apart and you are left with thread. The cloth was real enough to wear, sell and wash, but there was never anything in it except thread held together in a pattern. Many of the most important things in life are like this: a village, a family, a boat, a morning. They are real in the way we live with them, and they dissolve when you look closely at what they are made of."
+    },
+    {
+      "heading": "Names organise a shared world",
+      "text": "People act through names: directions, times, roles, places, shapes. A name tells people where to go, whom to ask, what something is for. The sound of a word is a physical event; the name it carries lives in the shared understanding of the people who hear it. A film can watch that understanding at work."
+    },
+    {
+      "heading": "A real quality, a borrowed name",
+      "text": "We call someone 'wise', 'generous' or 'the ferryman'. The wisdom or generosity may be really there, moment by moment, but the name hangs it on a 'someone' who is itself a convenient label. This is not cynicism; it is a quieter way of looking at the people we think we already know."
+    }
+  ],
+  "does_not_transfer": [
+    "'Language constructs reality' or 'nothing is real' overreach: the sources keep the ultimate realities (sound, colour, feeling, mind) fully real, and treat conventional wholes as useful and valid in their own domain.",
+    "The existent/non-existent pairs are technical Abhidhamma categories; turning them into 'true/false' or 'fake' distorts them.",
+    "A film must not tell a participant that the name they use is wrong."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A handloom weaver: thread becoming cloth, and cloth becoming a named garment",
+      "what_camera_could_observe": "Spools, warp and weft, the slow emergence of fabric, the moment a buyer calls it by a name, and the cloth later cut and reused as something else",
+      "why_it_fits": "The Margaya's own example (cloth and thread); a whole appears from parts and disappears when divided",
+      "setting_type": "a handloom workshop or weaving village",
+      "risk": "Becoming a craft showcase; the story needs a real stake for the weaver"
+    },
+    {
+      "seed": "A place with two names: the name elders use and the name on the signboard",
+      "what_camera_could_observe": "Signboards, bus conductors calling stops, elders giving directions, maps, how each name is used and by whom",
+      "why_it_fits": "Collective and name concepts guiding shared action",
+      "setting_type": "a village or junction town that has been renamed",
+      "risk": "Politics of renaming; must not take sides or mock any community's usage"
+    },
+    {
+      "seed": "A well-digger: making something that is only empty space",
+      "what_camera_could_observe": "Digging, depth, water arriving, a 'well' coming into being as a named absence",
+      "why_it_fits": "Space-concept (ākāsa-paññatti): wells and caves named by what is not there",
+      "setting_type": "a dry-zone village",
+      "risk": "Safety and access; must not stage danger"
+    },
+    {
+      "seed": "Telling time and direction by sun, moon and tide",
+      "what_camera_could_observe": "Fishers or farmers reading the sky, when 'morning' begins for them, how 'east' is known without a compass",
+      "why_it_fits": "Direction and time concepts are grounded in the movement of sun and moon",
+      "setting_type": "a coastal fishing community or a farming village",
+      "risk": "Romanticising 'traditional knowledge'; let people speak for their own practice"
+    },
+    {
+      "seed": "A person known only by a role or title",
+      "what_camera_could_observe": "How neighbours address them, what the role requires, who they are outside the role",
+      "why_it_fits": "A real quality or function carried by a conventional 'person' (existent-based non-existent designation)",
+      "setting_type": "a village or small town",
+      "risk": "Reducing a person to an illustration; the person's own view must lead"
+    }
+  ],
+  "cross_source_notes": [
+    "Pradeepika lists meaning-concepts under a heading of 'eight' but prints only seven (collective, shape, being, direction, time, space, sign) [C084-P:L27–L43]; Margaya lists shape, collective, being, direction, time 'and others' [C084-M:L11], without space and sign in that section.",
+    "Margaya uniquely adds the cloth/thread division test [C084-M:L7] and the sound-versus-name distinction [C084-M:L21].",
+    "Both give the same sixfold scheme of name-concepts with slightly different examples."
+  ],
+  "uncertainties": [
+    "The eighth item under Pradeepika's 'අට ප්‍රඥප්ති' heading is missing from the printed page; it needs checking against an independent edition. Nothing is filled in.",
+    "The Margaya extract has no page or edition metadata.",
+    "C084-P:L41 prints 'පථකම්, උද්ගත නිමිති'. The standard terms for the meditation signs are parikamma- and uggaha-nimitta (පරිකම්, උද්ගහ), so both words are probably print or OCR errors. They are quoted as printed; check against the edition."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C018",
+  "record_type": "concept_digest",
+  "concept_id": "C018",
+  "group_id": "GRP-01",
+  "title_si": "සිත් එක සිය විසි එක",
+  "title_en": "The 121 types of consciousness: the whole map",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C018-P",
+      "path": "content/02-concepts/Chapter 1/Concept 18 - සිත් එක සිය විසි එක/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-56",
+      "complete": true,
+      "markers": "Book 1, ch. 1 (චිත්ත සංග්‍රහ විභාගය), pdf 117–118 / printed 106–107; extract starts mid-page on pdf 117; pdf 118 is a sideways full-page chart transcribed as a list and table"
+    },
+    {
+      "ref": "C018-M",
+      "path": "content/02-concepts/Chapter 1/Concept 18 - සිත් එක සිය විසි එක/sources/Abhidharma Margaya.md",
+      "lines": "1-127",
+      "complete": true,
+      "markers": "Section headed '19. සිත් එක සිය විසි එක'; no page markers in extract; ends chapter 1"
+    }
+  ],
+  "summary_en": "This concept closes the first chapter by putting every type of consciousness in one view. Pradeepika gives the totals: 81 mundane types plus 8 supramundane types make 89; if the supramundane are counted by the five levels of meditative absorption (jhāna), they become 40 and the total is 121; of these 121, 67 are jhāna consciousnesses [C018-P:L23–L27]. Margaya lists every type by name, sphere by sphere: 54 sense-sphere, 15 fine-material, 12 immaterial and 40 supramundane, totalling 121, and tells the student to learn the list by heart because further study depends on it [C018-M:L3; C018-M:L125].",
+  "sinhala_explanation": [
+    {
+      "heading": "සිත්වල සම්පූර්ණ සිතියම එක බැල්මෙන්: 89 සහ 121 ලැබෙන සැටි",
+      "text": "ප්‍රදීපිකාවට අනුව ලෞකික සිත් අසූඑකට (81) සාමාන්‍ය ලෝකෝත්තර සිත් අට (8) එකතු කළ විට සිත් සියල්ල අසූනවයකි (89) [C018-P:L23]. ලෞකික සිත් අසූඑකට ලෝකෝත්තර ධ්‍යාන සිත් සතළිස (40) එකතු කළ විට සිත් එකසිය විසිඑකකි (121) [C018-P:L25]. මාර්ගය 121 ලබාගන්නේ භූමි වශයෙනි: කාමාවචර සිත් 54, රූපාවචර 15, අරූපාවචර 12, ලෝකෝත්තර 40 [C018-M:L125]. මූලාශ්‍ර දෙකෙහි දැක්වෙන කොටස් එකට තැබූ විට ගණනය මෙසේය:\n• කාමාවචර 54 = අකුසල් 12 [C018-M:L28] + අහේතුක 18 [C018-M:L59] + කාමාවචර ශෝභන 24 [C018-M:L78; C018-P:L38]. (54 යන එකතුව [C018-M:L125] හි ඇත; 12+18+24 ලෙස එකට ලියා නැත.)\n• රූපාවචර 15 = කුසල් 5 + විපාක 5 + ක්‍රියා 5 [C018-M:L94; C018-P:L40]\n• අරූපාවචර 12 = කුසල් 4 + විපාක 4 + ක්‍රියා 4 [C018-M:L105; C018-P:L41]\n• ලෝකෝත්තර: සාමාන්‍ය ක්‍රමයට 8 (මග්ග 4, ඵල 4) [C018-P:L23; C018-P:L42]; ධ්‍යාන භේදයෙන් 40 (මාර්ග 20 + ඵල 20) [C018-P:L25; C018-M:L119–L123]\n• එකතුව: 81 + 8 = 89 [C018-P:L23]; 81 + 40 = 121 [C018-P:L25]; 54 + 15 + 12 + 40 = 121 [C018-M:L125].\n(54 + 15 + 12 = 81 සහ 54 + 15 + 12 + 8 = 89 යන එක පෙළ එකතුව කිසිදු මූලාශ්‍රයක එලෙසම මුද්‍රණය වී නැත; එය ඉහත අංක එකට තැබීමෙන් ලැබේ.) මාර්ගය මෙම සිත් 121 අමතක නොවන ලෙස හොඳින් ප්‍රගුණ කරගත යුතු බවත්, එය අමතක නම් ඉදිරියට ඉගෙනීම කළ නොහැකි බවත් කියයි [C018-M:L3]."
+    },
+    {
+      "heading": "කාමාවචර සිත් 54: අකුසල්, අහේතුක, ශෝභන",
+      "text": "මාර්ගය එක් එක් සිත නමින් ලැයිස්තු කරයි. අකුසල් සිත් 12: ලෝභමූල 8 සෝමනස්ස/උපෙක්ඛා, දිට්ඨිගත සම්පයුත්ත/විප්පයුත්ත, අසඞ්ඛාරික/සසඞ්ඛාරික යන ලක්ෂණ තුනේ සංයෝජනයෙන් සෑදේ [C018-M:L7–L16]; දෝසමූල 2 දෝමනස්ස සහගත පටිඝ සම්පයුත්ත අසඞ්ඛාරික හා සසඞ්ඛාරික වේ [C018-M:L18–L21]; මෝහමූල 2 විචිකිච්ඡා සම්පයුත්ත හා උද්ධච්ච සම්පයුත්ත වේ [C018-M:L23–L28]. අහේතුක සිත් 18: අකුසල විපාක 7 (පස් විඤ්ඤාණය, සම්පටිච්ඡනය, සන්තීරණය; කාය විඤ්ඤාණය දුක්ඛ සහගත) [C018-M:L32–L40], අහේතුක කුසල විපාක 8 (කාය විඤ්ඤාණය සුඛ සහගත, සන්තීරණ දෙකක්: සෝමනස්ස සහ උපෙක්ඛා) [C018-M:L42–L51], අහේතුක ක්‍රියා 3 (පඤ්චද්වාරාවජ්ජනය, මනෝද්වාරාවජ්ජනය, හසිතුප්පාදය) [C018-M:L53–L59]. කාමාවචර ශෝභන 24: සෝමනස්ස/උපෙක්ඛා, ඤාණ සම්පයුත්ත/විප්පයුත්ත, අසඞ්ඛාරික/සසඞ්ඛාරික සංයෝජනයෙන් කාමාවචර කුසල් 8 [C018-M:L63–L72], ඒ ආකාරයෙන්ම සහේතුක කාමාවචර විපාක 8 සහ කාමාවචර ක්‍රියා 8 [C018-M:L74–L78]. ප්‍රදීපිකා සටහනද 'කාම සොභන 24 — කුසල් 8, විපාක 8, ක්‍රියා 8' ලෙස මෙයම දක්වයි [C018-P:L38]."
+    },
+    {
+      "heading": "මහග්ගත සිත් 27: රූපාවචර 15 සහ අරූපාවචර 12",
+      "text": "රූපාවචර කුසල් සිත් පස ධ්‍යාන අංග අනුව බෙදේ: විතක්ක-විචාර-පීති-සුඛ-ඒකග්ගතා සහිත පඨම ධ්‍යානය, විචාර-පීති-සුඛ-ඒකග්ගතා සහිත දුතිය, පීති-සුඛ-ඒකග්ගතා සහිත තතිය, සුඛ-ඒකග්ගතා සහිත චතුත්ථ, උපෙක්ඛා-ඒකග්ගතා සහිත පඤ්චම ධ්‍යානය [C018-M:L82–L88]. ඒ ආකාරයෙන්ම රූපාවචර විපාක 5 හා ක්‍රියා 5 ඇති බැවින් රූපාවචර සිත් 15 කි [C018-M:L90–L94]. අරූපාවචර කුසල් සිත් සතර: ආකාසානඤ්චායතන, විඤ්ඤාණඤ්චායතන, ආකිඤ්චඤ්ඤායතන, නේවසඤ්ඤානාසඤ්ඤායතන [C018-M:L98–L103]; විපාක 4 හා ක්‍රියා 4 සමඟ අරූපාවචර සිත් 12 කි [C018-M:L105]. ප්‍රදීපිකා සටහන මේ දෙක එකට 'මහග්ගත 27' ලෙස දක්වයි [C018-P:L39–L41]."
+    },
+    {
+      "heading": "ලෝකෝත්තර සිත්: 8 ද 40 ද?",
+      "text": "ප්‍රදීපිකා සටහනේ ලෝකෝත්තර සිත් 'මග්ග 4, ඵල 4' ලෙස 8 කි [C018-P:L42]. එහෙත් එක් එක් මාර්ග සිත ධ්‍යාන පහෙන් එකක් හා යෙදී ඇතිවන ලෙස ගණන් කළ විට ගණන 40 ක් වේ [C018-P:L25; C018-P:L55]. මාර්ගය මෙය නමින්ම පෙන්වයි: පඨම ධ්‍යානයේ සිට පඤ්චම ධ්‍යානය දක්වා සෝතාපත්ති මග්ග චිත්ත 5 [C018-M:L109–L115]; ඒ ආකාරයෙන් සකෘදාගාමි, අනාගාමි, අර්හත් මාර්ග සිත් 5 බැගින්, එනම් ලෝකෝත්තර කුසල් සිත් 20 [C018-M:L117–L119]; ශ්‍රෝතාපත්ති, සකෘදාගාමි, අනාගාමි, අර්හත් ඵල සිත් 5 බැගින්, එනම් ලෝකෝත්තර විපාක සිත් 20 [C018-M:L121]; එකතුව ලෝකෝත්තර සිත් 40 [C018-M:L123]. 89 හා 121 අතර වෙනස (32) පැන නගින්නේ මෙම ලෝකෝත්තර සිත් ගණන් කරන ක්‍රමයෙන් පමණි [C018-P:L23–L25]."
+    },
+    {
+      "heading": "ධ්‍යාන සිත් 67 සහ සොමනස්ස/උපෙක්ඛා බෙදීම (ප්‍රදීපිකාව)",
+      "text": "සිත් 121 අතරින් ධ්‍යාන සිත් 67 කි: ලෝකෝත්තර ධ්‍යාන සිත් 40, රූපාවචර ධ්‍යාන සිත් 15, අරූපාවචර ධ්‍යාන සිත් 12 [C018-P:L27]. ධ්‍යාන අනුව: ප්‍රථම 11, දුතිය 11, තතිය 11, චතුත්ථ 11, පඤ්චම 23 [C018-P:L27]. ඉන්ද්‍රිය භේදයෙන් පඤ්චම ධ්‍යාන සිත් 23 ම උපෙක්ඛා සහගත ය; ඉතිරි (ධ්‍යාන) සිත් 44 සොමනස්ස සහගත ය [C018-P:L27]. පළමු පරිච්ඡේදය මෙහිදී අවසන් වේ [C018-P:L29; C018-M:L127]."
+    },
+    {
+      "heading": "ප්‍රදීපිකාවේ ශෝභන සිත් සටහන (59 / 91)",
+      "text": "ප්‍රදීපිකාවේ පරිච්ඡේදය අවසානයේ පිටුව හරහා මුද්‍රිත සටහනක් ඇත [C018-P:L33]. පළමු කොටස 'සොභන සිත් 59' = ලෞකික 51 (කාම සොභන 24 + මහග්ගත 27) + ලෝකෝත්තර 8 ලෙස දක්වයි [C018-P:L35–L42]. දෙවන වගුව 'සොභන සිත් 91' ලෙස, ලෝකෝත්තර 40 ලෙස ගණන් කර, එක් එක් කාණ්ඩය සොමනස්ස/උපෙක්ඛා, ඤාණසම්පයුත්ත/විප්පයුත්ත, අසංඛාරික/සසංඛාරික අනුව බෙදයි [C018-P:L44–L55]. එහි එකතු: සිත් 91; සොමනස්ස සහගත 56, උපෙක්ඛා සහගත 35; ඤාණසම්පයුත්ත 79, ඤාණවිප්පයුත්ත 12; අසංඛාරික 12, සසංඛාරික 79 [C018-P:L56]. මෙම සටහනේ මහග්ගත හා ලෝකෝත්තර සිත් සියල්ල ඤාණසම්පයුත්ත හා සසංඛාරික තීරුවල ගණන් කර ඇත [C018-P:L49–L55]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "කාමාවචර",
+      "pali": "kāmāvacara",
+      "en": "sense-sphere (types of consciousness belonging to ordinary sense experience)",
+      "note": "54 [C018-M:L125]"
+    },
+    {
+      "term_si": "රූපාවචර",
+      "pali": "rūpāvacara",
+      "en": "fine-material sphere (form-based meditative absorption)",
+      "note": "15"
+    },
+    {
+      "term_si": "අරූපාවචර",
+      "pali": "arūpāvacara",
+      "en": "immaterial sphere (formless absorption)",
+      "note": "12"
+    },
+    {
+      "term_si": "ලෝකෝත්තර",
+      "pali": "lokuttara",
+      "en": "supramundane; beyond the world",
+      "note": "8 or 40"
+    },
+    {
+      "term_si": "ලෞකික",
+      "pali": "lokiya",
+      "en": "mundane",
+      "note": "81 [C018-P:L23]"
+    },
+    {
+      "term_si": "මහග්ගත",
+      "pali": "mahaggata",
+      "en": "sublime or 'grown great' (fine-material + immaterial together)",
+      "note": "27 [C018-P:L39]"
+    },
+    {
+      "term_si": "කුසල / අකුසල",
+      "pali": "kusala / akusala",
+      "en": "wholesome / unwholesome"
+    },
+    {
+      "term_si": "විපාක",
+      "pali": "vipāka",
+      "en": "resultant consciousness"
+    },
+    {
+      "term_si": "ක්‍රියා",
+      "pali": "kiriya",
+      "en": "functional consciousness (neither producing nor resulting)"
+    },
+    {
+      "term_si": "අහේතුක",
+      "pali": "ahetuka",
+      "en": "rootless types of consciousness",
+      "note": "18 [C018-M:L59]"
+    },
+    {
+      "term_si": "ශෝභන / සොභන",
+      "pali": "sobhana",
+      "en": "beautiful types of consciousness",
+      "note": "Spelled 'සොභන' in C018-P, 'ශෝභන' in C018-M"
+    },
+    {
+      "term_si": "සෝමනස්ස / උපෙක්ඛා / දෝමනස්ස",
+      "pali": "somanassa / upekkhā / domanassa",
+      "en": "accompanied by joy / by equanimity (neutral feeling) / by displeasure"
+    },
+    {
+      "term_si": "ඤාණ සම්පයුත්ත / විප්පයුත්ත",
+      "pali": "ñāṇa-sampayutta / vippayutta",
+      "en": "associated with / dissociated from knowledge"
+    },
+    {
+      "term_si": "අසඞ්ඛාරික / සසඞ්ඛාරික",
+      "pali": "asaṅkhārika / sasaṅkhārika",
+      "en": "unprompted / prompted"
+    },
+    {
+      "term_si": "ධ්‍යානය",
+      "pali": "jhāna",
+      "en": "meditative absorption",
+      "note": "Five-level scheme used for both rūpāvacara and lokuttara [C018-M:L82–L86; C018-M:L109–L113]"
+    },
+    {
+      "term_si": "මග්ග / ඵල",
+      "pali": "magga / phala",
+      "en": "path / fruition consciousness",
+      "note": "M counts magga as lokuttara kusala and phala as lokuttara vipāka [C018-M:L119–L121]"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "A map of every kind of moment",
+      "text": "Before the series walks through the mind piece by piece, the sources lay out the whole thing at once, the way you might look at a full map before a long journey. Every kind of passing moment of awareness a being can have is sorted into four regions. First, ordinary life among sights, sounds and desires. Then two regions of deep, settled attention. Last, a region that belongs to the end of the path. The ordinary region is by far the largest, and it holds both the moments that pull us into trouble and the moments of kindness and clear understanding."
+    },
+    {
+      "heading": "Many from a few",
+      "text": "The list looks enormous, but it is built from a small number of simple questions asked of each moment. Is it glad or neutral? Is it clear-sighted or confused? Did it arise on its own, or was it nudged into being? Answering two or three of these yes-or-no questions in every combination gives the groups of eight that appear again and again. The map is less a catalogue of 121 separate things than a grid of a few basic distinctions."
+    },
+    {
+      "heading": "The same heap, counted two ways",
+      "text": "The two totals, 89 and 121, are not a disagreement. They are the same set counted at two levels of detail. In the simpler count the moments at the end of the path are counted as eight. Count them again by how deep the settled attention is when they happen, and each one splits into five, which gives forty. Nothing new has been added. You have only looked more closely."
+    },
+    {
+      "heading": "Learn the map by heart",
+      "text": "One source is blunt: memorise this, or you cannot go further. It is a teacher's instruction, and it says something about the tradition. Knowledge is passed on by repetition, by lists chanted until they live in the body. For the series, the map is something to return to, not something to explain in one film. Each later group opens one region of it."
+    }
+  ],
+  "does_not_transfer": [
+    "'Which of the 121 types are you?' The types are momentary kinds of consciousness, not personality types, temperaments or lasting moods. A person passes through many kinds within moments.",
+    "A ladder of better and worse people. The map sorts moments, not individuals, and the higher regions are not simply 'happier': Pradeepika's table shows many of them accompanied by equanimity rather than joy [C018-P:L27; C018-P:L56].",
+    "'Unwholesome' (akusala) as 'bad person' or sin. The list classifies kinds of mind-moment; moral judgement of people is not what it does.",
+    "The supramundane types as peak experiences or states anyone can switch on with a technique. The sources tie them to the four stages of the path [C018-M:L109–L123]; they are not moments of wellbeing.",
+    "The numbers as the point. 89 versus 121 is a matter of counting method [C018-P:L23–L25]; a film that dwells on arithmetic becomes a lecture."
+  ],
+  "story_seeds": [
+    {
+      "seed": "Young novice monks or Sunday-school children learning a long list by heart through chanting and repetition.",
+      "what_camera_could_observe": "Rhythmic recitation, stumbles and corrections, a teacher's patience, the moment a child gets through the whole list without faltering, hand-copied notes.",
+      "why_it_fits": "Margaya itself insists that this list be memorised so that it is never forgotten, because further learning depends on it [C018-M:L3]. The seed shows how a whole map is carried in memory before it is understood.",
+      "setting_type": "A monastic school (pirivena) or a village Sunday dhamma school",
+      "risk": "Filming minors requires full consent from guardians and institution; avoid mocking rote learning or making the children props for 'ancient wisdom'."
+    },
+    {
+      "seed": "A handloom weaver whose patterns are built from a few basic moves repeated in every combination.",
+      "what_camera_could_observe": "The loom's grid, the weaver counting threads aloud, a small set of motifs recombined into many different cloths, a pattern book or memory of patterns.",
+      "why_it_fits": "The lists are generated by crossing a few binary features, for example joy or equanimity, with or without view, prompted or unprompted, which yields eight [C018-M:L7–L14; C018-M:L63–L70].",
+      "setting_type": "A handloom workshop in a weaving village",
+      "risk": "A craft becomes a diagram. The weaver's own knowledge and livelihood must carry the film; the parallel stays implicit."
+    },
+    {
+      "seed": "Graders sorting a single harvest or lot, where the same pile is counted differently depending on how finely it is sorted.",
+      "what_camera_could_observe": "Trays and sieves, hands separating grades, a coarse count becoming a finer one, workers debating which category something belongs to.",
+      "why_it_fits": "89 and 121 are the same set counted at two levels of detail: the supramundane as 8, or as 40 when counted by jhāna [C018-P:L23–L25; C018-P:L42; C018-M:L119–L123].",
+      "setting_type": "A tea factory sorting floor, a spice-processing shed, or a gem-cutting and sorting workshop",
+      "risk": "Industrial settings can hide hard labour behind pretty sorting shots; avoid implying any grade of mind is 'higher value' like a commodity grade."
+    },
+    {
+      "seed": "An elderly teacher who has kept, recopied and repaired hand-drawn teaching charts for decades.",
+      "what_camera_could_observe": "Yellowed charts unrolled, a fresh copy being ruled and lettered, fading ink, the teacher's hands tracing the columns, a student asking a question.",
+      "why_it_fits": "Pradeepika closes the chapter with a full-page chart printed sideways that gathers the types into one view [C018-P:L33–L56]. The seed is about a person's lifelong care for such maps.",
+      "setting_type": "A teacher's home or the library room of a rural temple",
+      "risk": "Could slide into a doctrine lecture read off the chart. Keep the camera on the person and the craft of copying, not the content."
+    },
+    {
+      "seed": "A traveller at the start of a long journey pausing at a high point where the whole route is visible before descending into it.",
+      "what_camera_could_observe": "Dawn light moving over layered land, the traveller studying the view or a paper map, then the first steps down into terrain that disappears from sight.",
+      "why_it_fits": "In Group 1 this concept names the whole map; the series then unfolds it region by region. The source's closing summary sets out all four spheres together [C018-M:L125].",
+      "setting_type": "A hill-country ridge or a rock outcrop overlooking plains",
+      "risk": "Pure metaphor with little to observe; it only works as a transition inside a film about a real journey, not as a film on its own."
+    }
+  ],
+  "cross_source_notes": [
+    "Method differs: Pradeepika (in this extract) states the totals compactly (81 + 8 = 89; 81 + 40 = 121; 67 jhāna types) and gives a chart of the beautiful types [C018-P:L23–L56]. Margaya lists every type by name, sphere by sphere, and sums to 121 as 54 + 15 + 12 + 40 [C018-M:L5–L125].",
+    "Margaya never mentions the total 89 or the eightfold count of supramundane consciousness in this extract; it only gives the 40-fold count [C018-M:L107–L125]. The 8 / 89 figures come only from Pradeepika [C018-P:L23; C018-P:L42].",
+    "Pradeepika reaches 121 from 81 mundane + 40 [C018-P:L25]; Margaya reaches 121 from four spheres [C018-M:L125]. The figure 81 does not appear in Margaya, and the figure 54 does not appear in the Pradeepika extract.",
+    "Supramundane labels: Pradeepika writes 'මග්ග 4, ඵල 4' [C018-P:L42]; Margaya classes the 20 path types as supramundane wholesome (kusala) and the 20 fruition types as supramundane resultant (vipāka) [C018-M:L119–L121].",
+    "Both use the same five-level jhāna scheme (vitakka, vicāra, pīti, sukha, ekaggatā, dropping one factor at each level, with upekkhā in the fifth) for fine-material and supramundane types [C018-M:L82–L86; C018-M:L109–L113]; Pradeepika's counts of 11/11/11/11/23 per jhāna [C018-P:L27] are consistent with that scheme.",
+    "Pradeepika's chart extends 'sobhana' to include the supramundane (59 or 91) [C018-P:L35; C018-P:L44], while Margaya's heading 'කාමාවචර ශෝභන' covers only the 24 sense-sphere beautiful types [C018-M:L61–L78].",
+    "Orthography differs: Pradeepika 'සොභන', 'ලොකොත්තර', 'අසංඛාරික'; Margaya 'ශෝභන', 'ලෝකෝත්තර', 'අසඞ්ඛාරික'. Same terms.",
+    "Both mark the end of chapter one here [C018-P:L29; C018-M:L127]."
+  ],
+  "uncertainties": [
+    "The simple sum 54 + 15 + 12 + 8 = 89 is not printed in either extract. Pradeepika gives 81 + 8 [C018-P:L23]; Margaya never gives 89. The derivation of 81 lies before the start of the Pradeepika extract, which begins mid-page [C018-P:L21]. Any on-screen table must mark this sum as assembled from the two sources.",
+    "Margaya states the sense-sphere total 54 [C018-M:L125] and the sub-totals 12, 18 and 24 [C018-M:L28; C018-M:L59; C018-M:L78], but does not write 12 + 18 + 24 = 54 as a single statement in this extract.",
+    "Pradeepika's chart places every fine-material, immaterial and supramundane type in the 'sasaṅkhārika' (prompted) column and none in 'asaṅkhārika' [C018-P:L49–L55], giving 12 / 79 [C018-P:L56]. Whether prompted/unprompted applies to these types at all is a point on which interpretations differ; the chart may also have been affected by transcription from a sideways page [C018-P:L33]. Needs expert check against the printed chart.",
+    "The chart gives two headline figures, 'සොභන සිත් 59' [C018-P:L35] and 'සොභන සිත් 91' [C018-P:L44], without saying in words that they correspond to the 89-count and 121-count. The reading used here (8 vs 40 supramundane) follows the arithmetic of the chart itself.",
+    "C018-P:L27 'ඉතිරි සිත් 44 සොමනස්ස සහගත ය' is read as the remaining 44 of the 67 jhāna types, not of all 121. The per-jhāna breakdowns (e.g. first jhāna 11 = 3 fine-material + 8 supramundane) are our arithmetic and are not stated in the source.",
+    "Margaya section number is '19' [C018-M:L1], while this is Concept 18 in the project; numbering mismatch between the book and the concept list.",
+    "Likely typing/OCR slips in Margaya: 'ඒකගත්තා' for 'ඒකග්ගතා' [C018-M:L117]; 'නේවසඤ්ඤා නාසඤ්ඤායතන' split into two words [C018-M:L101]; a stray full stop at [C018-M:L100]. The heading at [C018-M:L40] omits 'අහේතුක' where [C018-M:L51] includes it. No effect on the count."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

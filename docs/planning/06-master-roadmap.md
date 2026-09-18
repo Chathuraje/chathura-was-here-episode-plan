@@ -228,4 +228,7 @@ Recorded in `development/decisions/2026-09-18.json`.
 - **Step 0: done.** Added `.gitattributes` (LF everywhere) and normalised the 70 CRLF extracts (content verified byte-identical apart from line endings). Also set `core.precomposeunicode` for this repo, so macOS stops reporting the Sinhala folders as untracked duplicates.
 - **Step 1: drafted.** Ten group records, ten object placeholders, and the Ep 1/Ep 100 framing records are in `development/`. They are visible at **/arc** and validated by `npm run check`.
 - **Dashboard D1 + part of D2: done.** `/arc` timeline and group pages, and a group link on every concept page.
-- **Next:** Chathura reviews the arc on the dashboard. Then **Step 2 + 3 for Group 1** (*The Names of Things*): concept digests for C001, C002, C003, C018, C077, C084, then candidate ideas (about 11 for 8 films, including P01-B).
+- **Arc reviewed and committed by Chathura** (2026-09-18).
+- **Step 2 + 3 for Group 1: drafted.** Six concept digests (`development/digests/C001, C002, C003, C018, C077, C084`), each read in full from both sources, with cited Sinhala explanation, plain-English interpretation, story seeds and flagged uncertainties. Twelve candidate ideas for eight films (`development/ideas/IDEA-0001…0012`; IDEA-0003 is the pilot P01-B).
+- **Dashboard D2 + D3 + first part of D7: done.** Digests show on each concept page. `/ideas` board and idea pages have **Copy complete brief**, plus `/api/ideas/[id]` (JSON) and `?format=md` for agents. Briefs carry the rules, group context, idea, location status, digests, and verbatim cited source lines.
+- **Next:** Chathura reviews Group 1 (digests + ideas) and chooses keep/merge/hold/drop. Then Group 2, *Wanting*.

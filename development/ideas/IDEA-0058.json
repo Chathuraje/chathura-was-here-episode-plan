@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0058",
+  "record_type": "idea",
+  "title": "Among the Roots",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "Strangers get lost in the mangrove channels, where every turning looks the same. A lagoon fisher who grew up there reads the roots like streets, and spends the low tides planting new ones.",
+  "human_question": "What holds us in place, and can we choose what grows there?",
+  "premise": {
+    "story": "A lagoon fisher or boatman who knows the mangrove maze, and the community replanting that they take part in. Their stake is the fish, crabs and shrimp that depend on the roots, and the shore the roots protect.",
+    "place": "A coastal lagoon edge: narrow channels under a roof of leaves, prop roots arching out of the mud, tides flowing in and out.",
+    "experience": "The viewer is disoriented in the channels at first, then slowly learns to see the differences a local sees."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C033",
+      "role": "primary",
+      "why": "Both sources say a root is what keeps a thing standing, not what made it grow [C033-P:L27; C033-M:L5]. Roots anchoring against the pull of the tide mirror the roots holding the mind on its object, for good or ill; Pradeepika adds that the good roots are the stronger [C033-P:L83]."
+    },
+    {
+      "concept_id": "C008",
+      "role": "supporting",
+      "why": "Being lost in channels that all look alike is the everyday face of not being able to take in what is in front of you."
+    }
+  ],
+  "what_camera_could_observe": [
+    "A boat nosing through channels that all look the same",
+    "The fisher's small landmarks: a bent root, a gap in the canopy",
+    "Mature prop roots holding against a running tide",
+    "Seedlings pushed into mud at low tide, and later checked to see which took hold",
+    "Crabs, fish traps, birds among the roots"
+  ],
+  "what_must_be_real": "The fisher's knowledge and the replanting must be real and already happening. The film does not organise a planting for the camera.",
+  "possible_arc": {
+    "opening": "A boat in a green maze; no way to tell one channel from another.",
+    "turn": "Through the fisher's eyes the maze becomes a map.",
+    "ending_open": "Low tide and the seedlings. Whether they have taken root, and what the fisher says about it, closes the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A mangrove lagoon with navigable channels",
+      "A local fisher or boat operator who knows them well and is willing to be followed",
+      "An active community mangrove replanting effort"
+    ],
+    "suggestions": [
+      {
+        "name": "Muthurajawela wetland",
+        "region": "Gampaha district, Western Province (near Negombo)",
+        "why": "A large coastal marsh with mangrove channels on the edge of the Colombo region.",
+        "season_notes": "",
+        "access_notes": "Some boat trips operate; local access to fishers needs research",
+        "verify": "Confirm current replanting work and a willing local guide or fisher.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Puttalam lagoon",
+        "region": "Puttalam district, North Western Province",
+        "why": "A large west-coast lagoon fringed with mangroves and fishing communities.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm where community mangrove replanting is currently active.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Environmental messaging taking over the film",
+    "Forcing doctrine onto conservation work",
+    "Tourist-boat framing"
+  ],
+  "drop_if": [
+    "No replanting is active and no local person with a real stake can be found"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0057",
+      "relation": "mirrors",
+      "note": "Two ways of being held: a tether and a root."
+    },
+    {
+      "idea_id": "IDEA-0054",
+      "relation": "pairs with",
+      "note": "Lost on roads and lost in channels, and the local knowledge that finds the way."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

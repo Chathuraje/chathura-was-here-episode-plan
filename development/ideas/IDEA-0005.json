@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0005",
+  "record_type": "idea",
+  "title": "The Same Boat",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-01",
+  "logline": "A fisherman's boat has been repaired so many times that no original plank is left, but everyone still calls it by the same name.",
+  "human_question": "If every part has changed, what is it that stays 'the same'?",
+  "premise": {
+    "story": "A boat's repair season told through the fisherman, the carpenter and the boat's history.",
+    "place": "A fishing beach or lagoon where boats are hauled up and mended.",
+    "experience": "Salt, wood, tar and the sea: an old vessel made new again."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C001",
+      "role": "primary",
+      "why": "The conventional 'same boat' against its ever-changing parts."
+    },
+    {
+      "concept_id": "C077",
+      "role": "supporting",
+      "why": "Analysing a whole into constituents, the method the series later turns on the self."
+    },
+    {
+      "concept_id": "C084",
+      "role": "supporting",
+      "why": "A collective concept that survives total replacement of its parts."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Old planks removed, new ones shaped",
+    "The boat's name painted or repainted",
+    "The first launch after repair",
+    "The fisherman's memories of the boat"
+  ],
+  "what_must_be_real": "The boat's actual repair history, as told by its owners.",
+  "possible_arc": {
+    "opening": "The boat hauled out, tired.",
+    "turn": "Plank by plank, the old boat disappears.",
+    "ending_open": "The 'same' boat goes back to sea."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A boat undergoing substantial repair",
+      "Owner and carpenter willing",
+      "Access to the launch"
+    ],
+    "suggestions": [
+      {
+        "name": "Negombo lagoon (oruwa outrigger canoes)",
+        "region": "Western Province",
+        "why": "Traditional outrigger boats still built and repaired.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "East-coast fishing beaches (e.g. near Arugam Bay)",
+        "region": "Eastern Province",
+        "why": "Beach-hauled boats and a strong fishing community.",
+        "season_notes": "East-coast fishing season, roughly Apr–Oct",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Too neat a philosophy puzzle (the Ship of Theseus); the owner's life must carry it"
+  ],
+  "drop_if": [
+    "No substantial repair in the filming window"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0002",
+      "relation": "pairs with",
+      "note": "Parts and wholes."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0003",
+  "record_type": "idea",
+  "title": "The Name in Use",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [
+    "IDEA-P01-B"
+  ],
+  "group_id": "GRP-01",
+  "logline": "People use different names for the same shared place or thing, and the names change what they do.",
+  "human_question": "What changes in people's actions and relationships when the same part of their shared world carries different names?",
+  "premise": {
+    "story": "A practical need (finding the way, teaching, coordinating work) moves through a place that carries more than one name.",
+    "place": "A lived-in setting where more than one naming practice is genuinely used.",
+    "experience": "Listening closely to names spoken in context and watching the actions they prompt."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C084",
+      "role": "primary",
+      "why": "Conventional wholes, names, spoken sound and assigned meaning, in real use."
+    }
+  ],
+  "what_camera_could_observe": [
+    "A word spoken, written, pointed to, corrected or translated",
+    "People giving and following directions",
+    "The place or object seen from several distances"
+  ],
+  "what_must_be_real": "The terms actually used, by whom, in which situation. Checked with the people concerned.",
+  "possible_arc": {
+    "opening": "A name heard before its thing is seen.",
+    "turn": "A second name for the same thing, and a different action follows.",
+    "ending_open": "Whatever the research finds, including 'the names cause no difficulty'."
+  },
+  "position_hint": "flexible; recommend merging into IDEA-0001 (One Mountain, Many Names), its most concrete form",
+  "location": {
+    "requirements": [
+      "More than one naming practice genuinely in use",
+      "Ethical access to speakers",
+      "Clear speech recording conditions"
+    ],
+    "suggestions": [],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Declaring one community's term correct",
+    "Exposing a dispute"
+  ],
+  "drop_if": [
+    "Only interchangeable synonyms with no human consequence"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0001",
+      "relation": "abstract form of",
+      "note": "The pilot's premise, made concrete by the mountain."
+    }
+  ],
+  "source_doc": "docs/planning/pilot-01/idea-p01-b-the-name-in-use.md",
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getData } from "@/lib/content";
+import IdeaList from "@/components/IdeaList";
 import { getDevelopment } from "@/lib/development";
 
 export default async function GroupPage({ params }: { params: Promise<{ id: string }> }) {
@@ -12,6 +13,8 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
   const object = dev.objects.get(group.object_id);
   const previous = dev.groups[index - 1];
   const next = dev.groups[index + 1];
+  const ideas = dev.ideas.filter((idea) => idea.group_id === group.id);
+  const digested = group.concepts.filter((concept) => dev.digests.has(concept.id)).length;
 
   return (
     <>
@@ -44,22 +47,29 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
 
           <section className="source-document">
             <div className="source-document-head">
-              <div><span>Concept cluster</span><h2>{group.concepts.length} concepts</h2></div>
+              <div><span>Concept cluster</span><h2>{group.concepts.length} concepts · {digested} digested</h2></div>
             </div>
             <div className="table-wrap">
               <table>
-                <thead><tr><th>ID</th><th>Concept</th><th>Role in this group (draft gloss)</th></tr></thead>
+                <thead><tr><th>ID</th><th>Concept</th><th>Role in this group (draft gloss)</th><th>Digest</th></tr></thead>
                 <tbody>
                   {group.concepts.map((concept) => (
                     <tr key={concept.id}>
                       <td><Link className="id-link" href={`/concepts/${concept.id}`}>{concept.id}</Link></td>
                       <td>{data.concepts.get(concept.id)?.title ?? "Missing concept"}</td>
                       <td>{concept.role}</td>
+                      <td>{dev.digests.has(concept.id) ? <Link href={`/concepts/${concept.id}`}>{dev.digests.get(concept.id)?.status}</Link> : "pending"}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
+          </section>
+          <section className="source-document">
+            <div className="source-document-head">
+              <div><span>Candidate ideas</span><h2>{ideas.length} ideas for {group.draft_film_count} films</h2></div>
+            </div>
+            {ideas.length ? <IdeaList ideas={ideas} /> : <p className="muted-note">Ideas are drafted after this group's concept digests.</p>}
           </section>
         </article>
 

@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C003",
+  "record_type": "concept_digest",
+  "concept_id": "C003",
+  "group_id": "GRP-01",
+  "title_si": "සිත බෙදෙන සැටි",
+  "title_en": "How the Mind Is Divided",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C003-P",
+      "path": "content/02-concepts/Chapter 1/Concept 3 - සිත බෙදෙන සැටි/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-153",
+      "complete": true,
+      "markers": "Book 1, ch. 1 (චිත්ත සංග්‍රහ විභාගය), pdf 30–41 / printed 19–30; extract begins mid-page at pdf 30; Sinhala commentary only, Pāli root text excluded"
+    },
+    {
+      "ref": "C003-M",
+      "path": "content/02-concepts/Chapter 1/Concept 3 - සිත බෙදෙන සැටි/sources/Abhidharma Margaya.md",
+      "lines": "1-29",
+      "complete": true,
+      "markers": "Section heading '4. සිත බෙදෙන සැටි'; no page markers in extract"
+    }
+  ],
+  "summary_en": "The source defines mind (citta) as the capacity that knows an object: it exists only in living beings, arises only in dependence on an object, takes one object (and one aspect of it) at a time, and runs as a beginningless stream of extremely brief moments that feels like a single continuous mind. Though mind is 'one' in its nature, it is divided for teaching purposes into 89 (or, in the expanded method, 121) types. The first division is by plane (bhūmi) into sense-sphere, fine-material, immaterial and supramundane minds, named for where each mostly arises (the supramundane 'plane' is not a place but the path-and-fruit attainment); the second is by kind (jāti) into wholesome, unwholesome, resultant and functional. The Pradeepika adds six further two- or five-way divisions (by feeling, association, prompting, mundane/supramundane, roots, and beautiful/unbeautiful).",
+  "sinhala_explanation": [
+    {
+      "heading": "සිත යනු කුමක් ද: අරමුණ දැනගැනීම",
+      "text": "ප්‍රදීපිකාව චිත්ත සංග්‍රහ විභාගය ආරම්භ කරන්නේ, සිත යනු අරමුණු දැනීමේ ශක්තිය බව මීට පෙර ප්‍රකාශ කළ බව සිහිපත් කරමිනි [C003-P:L25]. සිත ඇත්තේ සත්ත්වයන් කෙරෙහි පමණි: මනුෂ්‍යයා යනු සිතක් සහිත ශරීරයක් ඇති පුද්ගලයා ය; සිත පහ වූ ශරීරය 'මළ සිරුර' යයි කියනු ලැබේ; ගස්, ගල්, පර්වත, ගංගා ආදියට සිත් නැති බැවින් ඒවා අචෛතනික වස්තු ලෙස ගැනේ [C003-P:L25]. එක් සත්ත්වයෙකු තුළ ඇත්තේ එක් සිතක් නොව සිත් පරම්පරාවකි. ඒ සිත් ඉතා වේගයෙන්, අතරක් නැතිව ඉපිද නැති වන බැවින් අපට එක ම සිතක් මෙන් වැටහේ [C003-P:L25]. එක් වරකට හටගන්නේ එක් සිතක් පමණි; එක් සිතක් ගන්නේ එක් අරමුණක් පමණි; එම අරමුණෙහි ද එකවර ගන්නේ එක් ස්වභාවයක් පමණි [C003-P:L25].\n\nසිතක් හටගැනීමට අරමුණක් අනිවාර්යයෙන් හමු විය යුතු ය: දුබලයෙකුට නැගිටීමට හැරමිටියක් අවශ්‍ය වන්නාක් මෙනි [C003-P:L33]. රූප, ශබ්ද, ගන්ධ, රස, පොට්ඨබ්බ, ධම්ම යන සය සිතට විෂය වන බැවින් හා සිතින් සිතනු ලබන බැවින් 'අරමුණු' නම් වේ; ලෞකික, ලෝකෝත්තර, පරමාර්ථ, පඤ්ඤත්ති යන හැම දෙයක් ම මීට ඇතුළත් ය [C003-P:L33]. අරමුණු රාශියක් හමු වුව ද එක් සිතකට වෙනත් අරමුණක් ගත නොහැකි බැවින්, පළමු සිත නැති වූ පසු එම අරමුණ ම හෝ වෙනත් අරමුණක් ගෙන ඊළඟ සිත උපදී; මෙසේ චිත්ත සන්තතිය පවතී [C003-P:L33].\n\nඅභිධර්ම මාර්ගය මෙය ඉදිරිපත් කරන්නේ වෙනත් කෝණයකිනි: චිත්තය, චෛතසිකය, රූපය, නිර්වාණය යන පරමාර්ථ ධර්ම සතරින් පළමුව උගත යුත්තේ සිත ය [C003-M:L3–L5]. සිත 'සාමාන්‍යයෙන් එකකි'; එහෙත් එය එකක් ලෙස ගෙන අභිධර්මය ඉගැන්විය නොහැකි බැවින්, සිතේ සැටි ඉගැන්වීම පිණිස එක් ක්‍රමයකින් 89 කට ද, තවත් ක්‍රමයකින් 121 කට ද බෙදා ඇත; මේ බෙදීම සිදු වන්නේ භූමි, ජාති ආදිය අනුව ය [C003-M:L5]."
+    },
+    {
+      "heading": "ආරම්භයක් නොපෙනෙන සිත් පරම්පරාව: භවයෙන් භවයට",
+      "text": "සිතක් හටගැනීමට පළමුව පැවත එන සිත් පරම්පරාවක් තිබිය යුතු ය. අඹ ගෙඩි හටගන්නේ අඹ ගස් පරම්පරාවක පමණක් වන්නාක් මෙන්, සිත් හටගන්නේ සිත් පරම්පරාවක පමණි. එම පරම්පරාවේ මුල් අඹ ගස සොයා යන්නා වෙහෙසට පත් වනවා මිස එය සොයා නොගන්නාක් මෙන්, පළමු සිත සොයන්නා ද වෙහෙසට පත් වන්නේ මුලක් නැති බැවිනි [C003-P:L31]. පළමු භවය හෝ පළමු සිත පෙන්වීමට උත්සාහ කරන්නා, ඊට හේතු පෙන්විය නොහැකි වූ විට දෙවියෙකුගේ හෝ බ්‍රහ්මයෙකුගේ මැවීමක් යයි මිථ්‍යාදෘෂ්ටියකට වැටෙන බව ද ග්‍රන්ථකරු පවසයි [C003-P:L31].\n\nභවයක් නිම වී තවත් භවයකට යන විට ද මේ සිත් පරම්පරාව අතරක් නැතිව පවතී [C003-P:L33–L37]. භවයක අවසාන සිත 'චුති සිත' ද, ඉන් පසු අතරක් නැතිව ඊළඟ භවයේ පළමුව උපදින සිත 'ප්‍රතිසන්ධි සිත' ද, ඒ අතර භවය පවත්වාගෙන යන අඞ්ගය ලෙස පවතින සිත් 'භවාඞ්ග සිත්' ද නම් වේ; මේ තුනේ කෘත්‍යය වෙනස් වුව ද අරමුණ එකක් ම ය [C003-P:L39]. එම අරමුණ පෙර භවයේ මරණාසන්න චිත්ත වීථියේ ජවන් සිත් ගත් කර්ම, කර්ම නිමිති, ගති නිමිති යන තුනෙන් එකකි; එනම් මේ භවයේ දී ගත් අරමුණක් නොවේ [C003-P:L41–L45]. එය කුමක් දැයි දැනගත හැක්කේ අභිඥාලාභියෙකුට බව ද කියැවේ [C003-P:L45].\n\nචක්ඛු, සොත, ඝාණ, ජිව්හා, කාය, මන යන ද්වාර සය පිහිටි පසු, ඒ දොරටුවලින් එන අළුත් අරමුණු ගෙන අළුත් සිත් හටගනී: භවාඞ්ගයේ අරමුණ සෙලවී ඉවත් වී, අළුත් අරමුණ ගත් සිත් පෙළක් (චිත්ත වීථියක්) ඇති වී, එය අවසන් වූ පසු නැවත භවාඞ්ග පරම්පරාව පවතී [C003-P:L47]. මේ පරම්පරාව අර්හත් ඵලයට පැමිණ පිරිනිවන් පාන තුරු නොසිඳී පවතී; නිරෝධ සමාපත්තියේ දී හා අසංඥ භූමියේ ඉපිද සිටින කල තාවකාලිකව පමණක් සිත් හටගැනීම නතර වේ [C003-P:L47]."
+    },
+    {
+      "heading": "සිතේ ආයුෂ, සිත් උපදින තැන සහ සිතේ බලය",
+      "text": "අප එකවර බලන, අසන, සිතන, කතා කරන බවක් දැනුණ ද, එක් සිතක් එකවර ගන්නේ එක් අරමුණක් පමණි; ඉතා කෙටි කාලයක දී සිත් රාශියක් වෙන් වෙන්ව අරමුණු ගෙන ඉපිද නැති වන නිසා එකවර සිදු වන්නාක් මෙන් දැනේ [C003-P:L49–L53]. ඇඟිලි සැණක් ගසන කාලයේ දී ලක්ෂ කෝටි ගණනින් සිත් ඇති වී නැති වන බව ග්‍රන්ථය කියයි [C003-P:L53]. සෑම සිතකට ම උප්පාද, ඨිති, භංග යන අවස්ථා තුනක් ඇත; එක් අවස්ථාවක් 'කුඩා චිත්තක්ෂණයක්' ය. රූප පරමාර්ථයක ආයුෂ සිත් 17 ක (කුඩා චිත්තක්ෂණ 51 ක) කාලයක් බැවින් රූපය සිතට වඩා ඖදාරික ය [C003-P:L55].\n\nසිත් උපදින තැන් හෙවත් වස්තු සයකි: චක්ඛු, සොත, ඝාණ, ජිව්හා, කාය, හදය වස්තු [C003-P:L57]. රූප දකින, ශබ්ද අසන, ගඳ දැනෙන, රස දැනෙන, ස්පර්ශය දැනෙන කුසල විපාක හා අකුසල විපාක සිත් දෙක බැගින් අදාළ ප්‍රසාද වස්තුවෙහි උපදී; අනිකුත් සියලු සිත් හදය වස්තු රූපය ඇසුරු කොට උපදී; අරමුණු ඇතුළු කරන බැවින් මේවා 'ද්වාර' නමින් ද හැඳින්වේ [C003-P:L57]. සිත පවතින්නේ මොළයේ ය යන නූතන මතයට එරෙහිව, ග්‍රන්ථකරු තර්ක කරන්නේ ප්‍රතිසන්ධිය සමඟ උපදින වස්තු දසකයට අයත් හදය වත්ථු රූප සන්තතිය ඇසුරු කොට සිත පවතින බවත්, මොළය අවශ්‍ය වන්නේ සිත පවත්වා ගැනීමට නොව ශරීරය හා ප්‍රසාද වස්තු පවත්වා ගැනීමට බවත් ය [C003-P:L59–L69]. (මෙය ග්‍රන්ථකරුගේ අර්ථකථනය හා ඔහු උපුටා දක්වන කලල වර්ධන කාල නිර්ණයන් සහිත තර්කයකි; 'uncertainties' බලන්න.)\n\nසිතේ බලය මැනිය නොහැකි ය: අතීත, අනාගත, වර්තමාන, කාල නියමයක් නැති සියලු අරමුණු සිතින් ගත හැකි ය; සමාධි, ප්‍රඥා වැඩීමෙන් පෙර භව හා අනුන්ගේ සිත් දැනගැනීමේ හා සෘද්ධි පෑමේ ශක්තිය ලැබිය හැකි ය; සත්ත්වයා දුකට, සැපට, අපායට, දිව්‍ය බ්‍රහ්ම ලෝකවලට යවන්නේත්, නිර්වාණයට පමුණුවන්නේත් සිත ම ය [C003-P:L71]."
+    },
+    {
+      "heading": "භූමි වශයෙන් සිත් සතර: කාමාවචර, රූපාවචර, අරූපාවචර, ලෝකෝත්තර",
+      "text": "සිතේ ප්‍රභේද අතරින් පළමු බෙදීම භූමි වශයෙන් සතරකි: කාමාවචර, රූපාවචර, අරූපාවචර, ලෝකෝත්තර [C003-P:L77] [C003-M:L9]. ප්‍රදීපිකාවට අනුව 'භූමි' යනු සත්ත්වයන් වසන ස්ථානයන්ට මෙන් ම සත්ත්වයන්ගේ යම් යම් අවස්ථාවන්ට ද කියන නාමයකි; පහළ භූමි තුන වාසස්ථාන වන අතර ලෝකෝත්තර භූමිය නම් කෙලෙස් නැසීමෙන්, දුක් නිරුද්ධ කිරීමෙන්, භවය සිඳීමෙන් පුද්ගලයෙකු පැමිණෙන එක්තරා අවස්ථාවකි [C003-P:L89]. මාර්ගය ද මෙය පැහැදිලිව කියයි: 'ලෝකෝත්තර භූමි' යයි ස්ථානයක් නැත; මේ චිත්ත විභාගයේ දී ලෝකෝත්තර ධර්මයන්ට ම ලෝකෝත්තර භූමිය යයි කියනු ලැබේ [C003-M:L17].\n\nකාමාවචර: අපාය සතර, මිනිස් ලොව, දිව්‍ය ලෝක සය යන කාම භූමි එකොළොසෙහි බොහෝ සෙයින් උපදින සිත [C003-M:L11] [C003-P:L89]. අපාය සතර 'කාම දුගතිය' ද, මිනිස් හා දිව්‍ය ලෝක 'කාම සුගතිය' ද වන අතර එහි දුක සැප මිශ්‍රව පවතී; මේ සිත් අරමුණු කරන්නේ රූප, ශබ්ද, ගන්ධ, රස, පොට්ඨබ්බ ආදි කාම අරමුණු ය [C003-P:L89].\n\nරූපාවචර සහ අරූපාවචර: කාමයන්හි ආදීනව දැක ඉන් මිදීමට කැමති අය භාවනා වඩා කාමයෙන් වෙන් වූ ධ්‍යාන සිත් උපදවා ගනිති; ඒ ධ්‍යානයෙන් නොපිරිහී මියයන්නෝ රූප ලෝකවල හෝ අරූප තලවල උපදිති [C003-P:L91–L95]. රූපාවචර බ්‍රහ්ම ලෝක 16 න් අසංඥසත්ත තලයේ නාම කායයක් නැති බැවින්, ඉතිරි 15 හි බ්‍රහ්මයන්ට වැඩි වශයෙන් ඇති වන සිත රූපාවචර ය [C003-P:L95]; මාර්ගය 'පසළොස් වැදෑරුම් රූප භූමිය' ගැන කියයි [C003-M:L13]. රූප කායයක් නැති, නාම කාය පමණක් ඇති අරූප තල සතරෙහි වැඩි වශයෙන් ඇති වන සිත අරූපාවචර ය [C003-P:L97] [C003-M:L15]. කාම භූමි 11, රූප ලෝක 16, අරූප ලෝක 4 යන තල 31 එක් සක්වළක් වන අතර එවැනි සක්වළ අනන්ත ය [C003-P:L97].\n\nලෝකෝත්තර: තණ්හා දිට්ඨි වශයෙන් තදින් අල්ලාගත් පඤ්චුපාදානස්කන්ධ ලෝකයෙන් ද, කාම-රූප-අරූප යන තුන් ලෝකයෙන් ද එතර කොට, නිර්වාණ ධාතුවට පමුණුවා, පෘථග්ජන ගෝත්‍රයෙන් ආර්ය භාවයට පමුණුවන මාර්ග සිත් හා ඵල සිත් [C003-P:L99]. මාර්ගයට අනුව එහි තේරුම 'ලෝකය ඉක්මවන්නා වූ ද, ලෝකය ඉක්ම සිටියා වූ ද සිත' යන්න ය [C003-M:L27].\n\nනම් තැබීම 'බොහෝ සෙයින්' යන පදනම මත ය: ඇතැම් කාමාවචර සිත් රූප, අරූප භූමිවල ද, ඇතැම් රූපාවචර, අරූපාවචර සිත් කාම භූමියේ ද ඇති වේ, නමුත් ඒවා මුල් නාමයෙන් ම හැඳින්වේ; ලෝකෝත්තර සිත් භූමි තුනෙහි ම ඇති වුව ද ඒවාට අයත් නොවන බැවින් 'ලෝකෝත්තර' නාමය ම ලැබේ [C003-M:L19–L27]. ප්‍රදීපිකාව ද, කාම සුගතියේ අයට ධ්‍යාන සිත් උපදවා ගත හැකි වන්නාක් මෙන් රූප අරූප ලෝකවල බ්‍රහ්මයන්ට කාම අරමුණු හමු වූ විට කාමාවචර සිත් පහළ වන බව කියයි [C003-P:L97]."
+    },
+    {
+      "heading": "ජාති වශයෙන් සිත් සතර: කුසල්, අකුසල්, විපාක, ක්‍රියා",
+      "text": "දෙවන බෙදීම ජාති වශයෙන් සතරකි: කුසල්, අකුසල්, විපාක, ක්‍රියා [C003-P:L78] [C003-P:L101]. (මාර්ග උපුටාගැන්මේ මේ බෙදීම විස්තර නොවේ; එය කාමාවචරාදි සිත් 'තවත් ක්‍රමවලින්' බෙදෙන බව පමණක් කියයි [C003-M:L29].)\n\nකුසල්: නරක, අයහපත්, පාප ගති නසන අර්ථයෙන් කුසල් නම් වේ; කුසල් සිත් හෙවත් කුසල කර්ම යහපත් සැප විපාක උපදවයි [C003-P:L101]. අකුසල්: කුසලයට ප්‍රතිවිරුද්ධ වූ, නොයෙක් දුක් විපාක උපදවන සිත් [C003-P:L103]. කුසල් හා අකුසල් සිත් දෙක ම 'කර්ම සිත්' යයි ව්‍යවහාර වේ [C003-P:L105].\n\nවිපාක: ඒ කර්මයන්ගේ ඵලය ලෙස ඇති වන සිත් ය. අඹ පැලයක් සිටුවන්නා බලාපොරොත්තු වන්නේ ගස වැඩී පැසුණු (පාක වූ) ගෙඩි ලැබීම වන්නාක් මෙන්, කර්ම ශක්තිය පැසුණු කල ඊට අනුකූලව සැප හෝ දුක ගෙන දෙන විපාක සිත් හටගනී: කුසලයෙන් ඉෂ්ට වූ සැප විපාක ද, අකුසලයෙන් අනිෂ්ට වූ දුක් විපාක ද ලැබේ [C003-P:L105–L109].\n\nක්‍රියා: කුසල් ද, අකුසල් ද, විපාක ද නොවන සිත් ය; ඒවාට විපාක ශක්තියක් නැත, 'ක්‍රියා මාත්‍රයක්' පමණි [C003-P:L111]. වැඩි වශයෙන් ක්‍රියා සිත් පහළ වන්නේ රහතන් වහන්සේලාට ය: කෙලෙස් නැසූ බැවින් අකුසල් සිත් ද, මතු භවයක් නැති බැවින් කුසල් සිත් ද ඔවුනට හටනොගනී; පෘථග්ජන අපට ඇති වන්නේ ක්‍රියා සිත් 2 ක් පමණි [C003-P:L111]."
+    },
+    {
+      "heading": "අනෙකුත් බෙදීම් සහ සිත් ගණන (89 / 121)",
+      "text": "ප්‍රදීපිකාව භූමි හා ජාතියට අමතරව තවත් බෙදීම් සයක් දක්වයි [C003-P:L79–L87]:\n\n(අ) වේදනා වශයෙන් පසක්: සෑම සිතකට ම අරමුණේ රසය විඳීමේ ශක්තියක් ඇත; එය වේදනාව යි [C003-P:L113]. කායික සැප සහිත සුඛ සහගත, කායික දුක සහිත දුක්ඛ සහගත, ඉෂ්ට අරමුණ සතුටින් විඳින සොමනස්ස සහගත, අනිෂ්ට අරමුණ නොකැමැත්තෙන් විඳින දෙමනස්ස (දොමනස්ස) සහගත, මධ්‍යස්ථ අරමුණ කැමැත්තෙනුත් අකැමැත්තෙනුත් තොරව විඳින උපෙක්ඛා සහගත සිත් [C003-P:L115–L123]. සුඛ සහගත සිත කුසල විපාකයෙන් ද, දුක්ඛ සහගත සිත අකුසල විපාකයෙන් ද ලැබේ; සොමනස්ස හා උපෙක්ඛා කුසල අකුසල දෙකෙහි ම ද, දෙමනස්ස අකුසල් සිත්හි පමණක් ද ලැබේ [C003-P:L125].\n\n(ආ) සම්ප්‍රයුක්ත / විප්‍රයුක්ත: දිට්ඨිය, ඤාණය, පටිඝය (පෙළෙහි 'පටිසය'), විචිකිච්ඡාව, උද්ධච්චය ආදි විශේෂ ධර්මයක් සමඟ යෙදුණු සිත සම්ප්‍රයුක්ත ය; නොයෙදුණු සිත විප්‍රයුක්ත ය [C003-P:L129–L133].\n\n(ඇ) අසංඛාරික / සසංඛාරික: කිසිදු මෙහෙයීමක් නැතිව ස්වභාවයෙන් ම තියුණුව හටගන්නා සිත අසංඛාරික ය; තමාගේ හෝ අනුන්ගේ මෙහෙයීමෙන්, අනුබලයෙන් හටගන්නා සිත සසංඛාරික ය. සිත හා කය සැපවත්ව, දක්ෂතාවයක් හා පුරුද්දක් ඇති විට අසංඛාරික ද, ක්ලාන්තව බර වූ විට සසංඛාරික ද පහළ වේ [C003-P:L135–L139].\n\n(ඈ) ලෞකික / ලෝකෝත්තර: හේතූන්ගෙන් හටගන්නා, භව දුකට පමුණුවන කාමාවචර, රූපාවචර, අරූපාවචර සියලු සිත් ලෞකික ය; ඒ ලෝකවලින් එතර වූ නිර්වාණය අරමුණු කරන මාර්ග ඵල සිත් ලෝකෝත්තර ය [C003-P:L141–L143].\n\n(ඉ) අහේතුක / සහේතුක: සිත අරමුණෙහි ස්ථිරව පිහිටුවීමට උපකාර වන ලෝභ, දෝෂ (ද්වේෂ), මෝහ යන අකුසල හේතු තුන හා අලෝභ, අදෝෂ, අමෝහ යන කුසල හේතු තුන 'හේතු' හෙවත් ගසක මුල වැනි බැවින් 'මූල' නම් වේ; මේ හේතු එකක් හෝ වැඩි ගණනක් යෙදුණු සිත සහේතුක ද, නොයෙදුණු සිත අහේතුක ද වේ [C003-P:L145–L151].\n\n(ඊ) සොභන / අසෝභන: කුසල පක්ෂයට අයත් සොභන චෛතසික සමඟ යෙදුණු සිත සොභන ද, ඒවා නැති සිත අසෝභන ද වේ [C003-P:L153].\n\nසිත් ගණන: සංක්ෂේපයෙන් සිත් 89 ක් ද, විස්තර වශයෙන් 121 ක් ද වේ [C003-P:L75]. මාර්ගය භූමි වශයෙන් ගණන දක්වයි: කාමාවචර 54, රූපාවචර 15, අරූපාවචර 12, ලෝකෝත්තර කෙටි ක්‍රමයෙන් 8 / විස්තර ක්‍රමයෙන් 40; එකතුව 89 හෝ 121 [C003-M:L29]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "සිත / චිත්තය",
+      "pali": "citta",
+      "en": "mind; the knowing of an object",
+      "note": "Defined as 'අරමුණු දැනීමේ ශක්තිය' by back-reference to an earlier passage [C003-P:L25]."
+    },
+    {
+      "term_si": "අරමුණ",
+      "pali": "ārammaṇa",
+      "en": "object (that which the mind knows)",
+      "note": "Six kinds; a mind cannot arise without one; one mind, one object [C003-P:L33]."
+    },
+    {
+      "term_si": "චිත්ත සන්තතිය / සිත් පරම්පරාව",
+      "pali": "citta-santati",
+      "en": "mind-continuum, stream of minds",
+      "note": "Beginningless; appears as one mind because of speed and gaplessness [C003-P:L25, L31]."
+    },
+    {
+      "term_si": "භවාඞ්ග සිත",
+      "pali": "bhavaṅga",
+      "en": "life-continuum mind",
+      "note": "Shares the rebirth-linking mind's object [C003-P:L39]."
+    },
+    {
+      "term_si": "චිත්තක්ෂණය",
+      "pali": "cittakkhaṇa",
+      "en": "mind-moment (arising, standing, dissolving)",
+      "note": "[C003-P:L55]"
+    },
+    {
+      "term_si": "භූමි",
+      "pali": "bhūmi",
+      "en": "plane; both abodes of beings and states attained",
+      "note": "[C003-P:L89]"
+    },
+    {
+      "term_si": "කාමාවචර",
+      "pali": "kāmāvacara",
+      "en": "sense-sphere (mostly arising in the eleven sense planes)",
+      "note": "[C003-M:L11, L21]"
+    },
+    {
+      "term_si": "රූපාවචර",
+      "pali": "rūpāvacara",
+      "en": "fine-material sphere",
+      "note": "[C003-M:L13, L23]"
+    },
+    {
+      "term_si": "අරූපාවචර",
+      "pali": "arūpāvacara",
+      "en": "immaterial sphere",
+      "note": "[C003-M:L15, L25]"
+    },
+    {
+      "term_si": "ලෝකෝත්තර",
+      "pali": "lokuttara",
+      "en": "supramundane; surpassing the world (path and fruit minds)",
+      "note": "Not a place [C003-M:L17]."
+    },
+    {
+      "term_si": "ජාති",
+      "pali": "jāti",
+      "en": "kind / class of mind",
+      "note": "[C003-P:L78]"
+    },
+    {
+      "term_si": "කුසල් / අකුසල්",
+      "pali": "kusala / akusala",
+      "en": "wholesome / unwholesome",
+      "note": "Together called 'කර්ම සිත්' [C003-P:L105]."
+    },
+    {
+      "term_si": "විපාක",
+      "pali": "vipāka",
+      "en": "resultant (ripened fruit of action)",
+      "note": "Mango-ripening simile [C003-P:L105–L109]."
+    },
+    {
+      "term_si": "ක්‍රියා",
+      "pali": "kiriyā",
+      "en": "functional; mere doing that bears no fruit",
+      "note": "[C003-P:L111]"
+    },
+    {
+      "term_si": "හේතු / මූල",
+      "pali": "hetu / mūla",
+      "en": "root",
+      "note": "Three unwholesome, three wholesome [C003-P:L145–L149]."
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Mind as an act of knowing, not a container",
+      "text": "The text does not start with the mind as a thing we own or a room where thoughts live. It starts with an act: knowing something. There is no knowing that is not knowing of something, the way a weak person cannot stand up without a stick. And it only ever knows one thing, from one side, at a time. What feels like a single, steady 'me' seeing, hearing and talking all at once is described as a rapid relay of separate moments, so quick and so seamless that it passes for one unbroken thing. The source is also blunt about where this knowing is found: in living beings, and not in trees, rocks or rivers. What leaves when a body becomes a corpse is exactly this."
+    },
+    {
+      "heading": "Sorting by home ground and by what a moment does",
+      "text": "The first sorting asks where a kind of knowing is mostly at home: in the world of ordinary sensory pleasures and pains, in two deepening states reached through sustained stillness, or in something that is not a place at all but a way out of the whole cycle. The word 'mostly' matters. The labels are like calling a fish a river fish even when it is found in the lagoon. The second sorting asks what a moment of knowing does: some moments are like seeds that will later bear sweet or bitter fruit, some moments are that fruit arriving, and some are simply action that leaves no seed behind. The text says the last kind belongs mostly to people who have completely let go."
+    },
+    {
+      "heading": "The first sight of the map",
+      "text": "What brings on wonder here is not a list of 89 or 121 items. It is the shift in scale. Something we take for granted as one familiar inner voice turns out, on this account, to be a landscape with regions, borders and many kinds of inhabitant, and it can be charted. One source is honest that the chart is a teaching device: mind is 'one' in its nature, and it is divided up only so that it can be taught. For the series this is the moment a traveller first unfolds the map. The map is not the land, but without it you cannot see how much land there is."
+    }
+  ],
+  "does_not_transfer": [
+    "\"Multitasking is a myth\": the one-object-at-a-time teaching describes extremely brief moments of knowing, not a productivity tip about doing one task at a time.",
+    "\"Your mind creates your reality\" or manifestation language: the passage on the mind's immeasurable power [C003-P:L71] sits inside a framework of meditation, rebirth and liberation. It is not a promise that positive thinking gets results.",
+    "\"Listen to your heart, not your head\": the author's argument that the mind rests on a physical base at the heart rather than in the brain [C003-P:L59–L69] is a technical position in commentary, not a romantic slogan. It should also not be presented on screen as settled science.",
+    "\"Karma is what goes around comes around\" or good deeds for good luck: 'wholesome' is defined by what it destroys (harmful tendencies) and 'resultant' by a ripening that follows its own laws. It is not a scheme of social reward and punishment, and it should never be used to explain why misfortune happens to specific people.",
+    "\"Higher states of consciousness\" or \"levels of vibration\": the three lower planes are presented as actual abodes of beings, and the 'beyond' category is a specific attainment. It is not a mood or peak experience.",
+    "\"Be present\": the source says the minds that carry a life through take an object carried over from the previous life's dying moments [C003-P:L41–L45], which does not fit a modern present-moment slogan."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A keeper at a rural railway level crossing or signal cabin whose whole shift is a stream of single things demanding attention: a bell, a lever, a distant horn, a passing cyclist.",
+      "what_camera_could_observe": "Close observation over a full shift: the keeper's eyes and hands switching from one cue to the next, long idle stretches broken by sudden sequences, the gate going down and up, the rhythm of a day built from separate moments.",
+      "why_it_fits": "It makes visible the teaching that attention takes one object at a time and that a seemingly continuous day is a rapid succession, without anyone needing to say so.",
+      "setting_type": "A level crossing or small signal cabin on a rural railway line",
+      "risk": "Reducing a working person to a metaphor for 'attention'. The film has to be about the keeper's life and labour first, and it must not dramatise safety lapses."
+    },
+    {
+      "seed": "A bobbin-lace maker whose hands move dozens of bobbins so fast that the pattern seems to appear all at once.",
+      "what_camera_could_observe": "Slow-motion and real-time footage of individual crossings of thread, the pinned pattern card, the growth of the lace over hours or days, and the maker's own words about how the work feels.",
+      "why_it_fits": "Many separate, discrete movements read as one flowing act, which is the source's point about the mind-stream appearing as one. The craft is worth filming in its own right.",
+      "setting_type": "A home workshop in a southern coastal lace-making community",
+      "risk": "Romanticising low-paid craft labour, or using slow motion purely as a 'mindfulness' aesthetic."
+    },
+    {
+      "seed": "A tea factory where one harvest of green leaf is sorted, again and again, by different criteria into many grades.",
+      "what_camera_could_observe": "Leaf arriving, withering, rolling, sieving into grades, tasters sorting by liquor and aroma, labelled sacks, and workers who can tell grades apart at a glance.",
+      "why_it_fits": "The same material is classified by several independent systems (size, quality, destination), just as one mind is divided by plane, kind, feeling and so on. Sorting is also a way of seeing more closely. This is the 'first sight of the map'.",
+      "setting_type": "A hill-country tea factory",
+      "risk": "Forcing the analogy, and glossing over labour conditions and plantation history for the sake of a neat image."
+    },
+    {
+      "seed": "A family whose old mango or jak tree grew from the seed of a tree that grew from another seed, and nobody can say which tree came first.",
+      "what_camera_could_observe": "The tree through a season, fruit, seedlings in pots, relatives remembering who planted what, and the point where memory runs out.",
+      "why_it_fits": "It is the source's own image [C003-P:L31]: a lineage whose first member cannot be found. It suggests a stream with no findable beginning.",
+      "setting_type": "A village home garden",
+      "risk": "Being too literal a staging of the textbook simile. Family members must not be used as props to deliver the idea."
+    },
+    {
+      "seed": "A paddy farming household across one full season, from sowing to harvest, where what is reaped reflects choices made months earlier.",
+      "what_camera_could_observe": "Seed selection, sowing, water management, the long wait, ripening grain turning gold, harvest and threshing, and the family's own talk about what they did differently this year.",
+      "why_it_fits": "It reflects the source's image of action ripening into fruit over time (the mango simile for resultant minds [C003-P:L105–L109]), and it can be observed without any explanation.",
+      "setting_type": "A dry-zone or wet-zone paddy village",
+      "risk": "Serious risk of implying moral causation: a failed crop from drought or pests must never be framed as the farmer's 'bad deeds'. Keep the parallel loose or leave it unspoken."
+    }
+  ],
+  "cross_source_notes": [
+    "Scope differs: the Margaya extract covers only the division by plane (with counts). The Pradeepika covers the definition of mind, its stream, lifespan, base and power, and eight classifications, including the division by kind (wholesome/unwholesome/resultant/functional), which the Margaya extract does not explain [C003-M:L29; C003-P:L77–L87].",
+    "On whether mind is 'one': the Margaya says mind is 'සාමාන්‍යයෙන් එකකි' (one in its general nature) and is divided only for teaching [C003-M:L5]. The Pradeepika stresses that a being has not one mind but a stream of many that only seems to be one [C003-P:L25]. These are different senses of 'one' and do not contradict each other, but they should not be merged.",
+    "Both name the planes by where the minds 'mostly' arise (Margaya 'බොහෝ සෙයින්' [C003-M:L11–L19]; Pradeepika 'වැඩි වශයෙන්' [C003-P:L89, L95, L97]). The Margaya states the cross-plane cases explicitly [C003-M:L19]. The Pradeepika gives the example of brahmas having sense-sphere minds [C003-P:L97].",
+    "Fine-material count: the Margaya speaks of a 'fifteenfold' fine-material plane [C003-M:L13]. The Pradeepika gives 16 fine-material brahma worlds, notes that the non-percipient realm has no mind, and bases the sphere on the remaining 15 [C003-P:L95]. The two are compatible but state different totals.",
+    "Supramundane 'plane': the Margaya says there is no such place and that the supramundane phenomena themselves are called the plane [C003-M:L17]. The Pradeepika widens 'bhūmi' to mean both places and states, and calls the supramundane a state attained [C003-P:L89]. The Margaya glosses lokuttara as 'surpassing / having surpassed the world' [C003-M:L27]. The Pradeepika defines it as path and fruit minds that cross beyond the five clinging aggregates and the three worlds and take nibbāna as object [C003-P:L99, L143].",
+    "Only the Margaya says supramundane minds arise in all three planes [C003-M:L19]. Only the Margaya gives the per-plane counts 54/15/12/8 (40) [C003-M:L29]. The Pradeepika extract gives only the totals 89/121 [C003-P:L75]. Only the Pradeepika states that the 31 planes make one world-system [C003-P:L97]."
+  ],
+  "uncertainties": [
+    "The core definition in the Pradeepika is a back-reference ('මෙයට ප්‍රථම ප්‍රකාශ කෙළෙමු', 'as we stated earlier') [C003-P:L25]. The earlier statement is not in this extract (probably in the Concept 2 extract). The extract also begins mid-page at pdf 30 [C003-P:L21]. Cross-check the fuller definition before scripting.",
+    "Numbering mismatch: the Margaya extract is headed '4. සිත බෙදෙන සැටි' [C003-M:L1] but is filed as Concept 3.",
+    "Likely OCR/typo: 'පටිසය' [C003-P:L133] probably stands for 'පටිඝය' (paṭigha). Also 'කාමාවචචරාදි' [C003-M:L29]. Neither is corrected in the source. The digest notes the likely reading only in parentheses.",
+    "Spelling variants: 'දෙමනස්ස' for domanassa [C003-P:L79, L121, L125] and 'දෝෂ/අදෝෂ' for dosa/adosa [C003-P:L145, L149]. These may be the author's orthography or OCR errors.",
+    "The Pradeepika says ordinary people (puthujjana) have only 2 functional minds [C003-P:L111] but does not say which two. Not filled in.",
+    "The feeling distribution [C003-P:L125] places joy and equanimity in wholesome and unwholesome minds and says nothing about resultant or functional minds. It is unclear whether the list is meant to be complete. Expert check needed before any statement beyond what is written.",
+    "The heart-base versus brain argument [C003-P:L59–L69] includes the author's embryological figures (30 kinds of matter at conception, about 11 weeks for sense bases, about 14 weeks for brain function) and claims about anencephalic infants. These are the author's interpretive claims, not verified facts, and need expert (doctrinal and medical) review before any use.",
+    "Quantitative claims ('lakhs of crores' of minds in a finger-snap [C003-P:L53]; matter lasting 17 mind-moments / 51 sub-moments [C003-P:L55]) are reported as source teaching only.",
+    "The frontmatter note says the extract covers classification by 'භූමි, ජාති, වේදනා, සම්ප්‍රයෝග, සංඛාර' [C003-P:L12], but the body lists eight classifications [C003-P:L77–L87]. This is a minor descriptive mismatch.",
+    "The Pradeepika extract is Sinhala commentary only; the Pāli root verses of the Abhidhammattha Saṅgaha are excluded [C003-P:L6]. The Margaya extract has no page markers."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

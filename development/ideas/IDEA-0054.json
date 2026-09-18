@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0054",
+  "record_type": "idea",
+  "title": "Which Way",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "On the back roads of the dry zone, with no signs and no signal, Chathura keeps stopping to ask the way. Every person points somewhere different, and every answer comes with a small piece of a life.",
+  "human_question": "When everyone points a different way, how do you decide which road to take?",
+  "premise": {
+    "story": "A real journey across unsigned rural roads to a destination Chathura genuinely does not know how to reach. The film is made of the people he asks: a shopkeeper, a farmer on a tractor, children on bicycles, a bus conductor. Each gives directions from where they stand.",
+    "place": "Dry-zone back roads: red earth, tank bunds, junctions with a single boutique, scrub jungle, the heat of midday.",
+    "experience": "The low, looping feeling of being lost, carried by the warmth and variety of strangers who stop to help."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C008",
+      "role": "primary",
+      "why": "The plain inability to settle on what is in front of you, and the flat, stalled feeling that comes with it [C008-P:L30; C008-P:L34]. The film shows an unsettled decision, not anyone's spiritual doubt."
+    },
+    {
+      "concept_id": "C074",
+      "role": "supporting",
+      "why": "Among the helps the source lists against doubt is simply asking a lot of questions; it also says ordinary uncertainty about something not yet known may not be a fault at all. The film honours the asking."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Junctions with no signs; the car or motorbike slowing, stopping, turning back",
+    "Hands pointing in different directions; directions given by landmarks ('past the big tamarind tree')",
+    "The short conversations that open up while directions are given",
+    "A phone showing no signal",
+    "The moment a road is finally chosen, and where it actually leads"
+  ],
+  "what_must_be_real": "The journey and being lost must be genuine. The people asked are met by chance and appear only with their consent. No one is made to look foolish.",
+  "possible_arc": {
+    "opening": "A junction, three roads, dust, and no idea.",
+    "turn": "The answers start to contradict each other, and the strangers become more interesting than the destination.",
+    "ending_open": "Chathura arrives somewhere, or does not. Wherever the road really ends is the ending."
+  },
+  "position_hint": "opening candidate: the most literal first film for a group called Lost; an Object 4 acquisition could happen only if a stranger on the road genuinely gives or trades something",
+  "location": {
+    "requirements": [
+      "A real destination reached by poorly signed rural roads",
+      "Low mobile coverage along the route",
+      "Freedom to stop and film brief encounters with consent"
+    ],
+    "suggestions": [
+      {
+        "name": "Back roads of Monaragala district",
+        "region": "Uva Province, dry zone",
+        "why": "A large, thinly populated dry-zone district with many minor roads between villages and tanks.",
+        "season_notes": "Dry season for dust and heat; inter-monsoon rains change road conditions",
+        "access_notes": "",
+        "verify": "Choose a real destination first; confirm route conditions and coverage.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Sliding into a staged metaphor or a travel vlog",
+    "Chathura becoming the subject rather than the people he meets",
+    "Consent from people filmed in passing"
+  ],
+  "drop_if": [
+    "The route turns out to be easy to follow",
+    "It can only work if set up, rather than genuinely lived"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0053",
+      "relation": "alternative to",
+      "note": "The other opening candidate: a place lost rather than a traveller lost."
+    },
+    {
+      "idea_id": "IDEA-0056",
+      "relation": "pairs with",
+      "note": "Both watch a decision that will not settle, one on land and one at the water's edge."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

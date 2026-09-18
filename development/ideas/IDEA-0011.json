@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0011",
+  "record_type": "idea",
+  "title": "The First Letter",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-01",
+  "logline": "A family waits for the astrologer to tell them the first letter of their newborn's name: a person, named before they can know it.",
+  "human_question": "Where does a name come from, and what exactly does it attach to?",
+  "premise": {
+    "story": "The days around naming a newborn: the horoscope, the first letter, the choosing, the first time the name is called.",
+    "place": "A family home and the astrologer's room.",
+    "experience": "Quiet domestic time around a very small new person."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C084",
+      "role": "primary",
+      "why": "Being-concept (satta-paññatti) and name-concept: a name given to the five aggregates of a new life."
+    },
+    {
+      "concept_id": "C077",
+      "role": "supporting",
+      "why": "What a 'person' is when analysed: form, feeling, perception, formations, consciousness."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The astrologer's charts",
+    "Family discussion of names",
+    "The name spoken to the baby",
+    "Relatives repeating it"
+  ],
+  "what_must_be_real": "The family's actual customs and choices.",
+  "possible_arc": {
+    "opening": "A baby without a name.",
+    "turn": "A letter, then a name.",
+    "ending_open": "The first time someone calls the child by it."
+  },
+  "position_hint": "middle or opening",
+  "location": {
+    "requirements": [
+      "A family with a newborn willing to share this",
+      "Respect for customs and privacy"
+    ],
+    "suggestions": [],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Privacy of a newborn",
+    "Treating astrology as spectacle or mockery"
+  ],
+  "drop_if": [
+    "Consent is not wholehearted"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0009",
+      "relation": "mirrors",
+      "note": "Naming at the start of a life; unnaming at the end of a house."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C011",
+  "record_type": "concept_digest",
+  "concept_id": "C011",
+  "group_id": "GRP-06",
+  "title_si": "කාමාවචර කුසල් සිත් අට",
+  "title_en": "The eight wholesome sense-sphere minds: everyday goodness",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C011-P",
+      "path": "content/02-concepts/Chapter 1/Concept 11 - කාමාවචර කුසල් සිත් අට/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-111",
+      "complete": true,
+      "markers": "Book 1, ch. 1 (චිත්ත සංග්‍රහ විභාගය), pdf 69–74 / printed 58–63; extract starts mid-page on pdf 69"
+    },
+    {
+      "ref": "C011-M",
+      "path": "content/02-concepts/Chapter 1/Concept 11 - කාමාවචර කුසල් සිත් අට/sources/Abhidharma Margaya.md",
+      "lines": "1-40",
+      "complete": true,
+      "markers": "Section headed '12. කාමාවචර කුසල් සිත් අට'; no page markers in extract"
+    }
+  ],
+  "summary_en": "Both sources teach that the wholesome mind of ordinary life, the mind that arises when people give, keep precepts, meditate, honour others, help, listen to or teach the doctrine, comes in eight kinds [C011-P:L51; C011-M:L3; C011-M:L18]. The eight are produced by three yes-or-no features: accompanied by joy or by neutral equanimity; associated with knowledge (understanding of action and its results) or not; arising spontaneously or after being prompted by oneself or another [C011-M:L3; C011-P:L31–L49]. Pradeepika explains the conditions that make a good deed joyful or wise, and warns that worldly learning is not the knowledge meant [C011-P:L57–L85]. Margaya explains why this goodness is called 'great' (because it is common to many, not because it is higher), counts it as eighty through the ten meritorious deeds, and holds that the strength of intention and, above all, knowledge determine how strong a wholesome act is [C011-M:L16; C011-M:L22–L28].",
+  "sinhala_explanation": [
+    {
+      "heading": "කාමසොභන සිත් සහ 'කුසල්' යන නාමය",
+      "text": "කාමාවචර සිත් පනස්හතරෙන් අශොභන සිත් තිහ හැර ඉතිරි සිත් විසිහතර ශ්‍රද්ධා, සති ආදී ශොභන චෛතසික යෙදෙන බැවින් සොභන සිත් නම් වේ; ඒ සියල්ල සහේතුක ය [C011-P:L25]. අලෝභ, අදෝස, අමෝහ යන හේතු තුනම යෙදෙන සිත් ත්‍රිහේතුක ද, අලෝභ අදෝස දෙක පමණක් යෙදෙන සිත් ද්විහේතුක ද වේ; කුසල හේතු අකුසල හේතුවලට වඩා බලවත් බැවින් තදඞ්ගප්‍රහාණ වශයෙන් තාවකාලිකව අකුසල හේතු මැඩීමට මේ සිත්වලට ශක්තිය ඇත [C011-P:L25]. මේ විසිහතරෙන් අටක් මහා කුසල්, අටක් මහා විපාක, අටක් මහා ක්‍රියා සිත් ය [C011-P:L27]. ප්‍රදීපිකාවට අනුව අකුසල් හෙවත් පාප ගති නසන බැවින් 'කුසල්' නම් වේ; මේ සිත් පාප ධර්ම මැඩ යහපත් මගට පමුණුවන අතර, මනුෂ්‍ය දිව්‍ය ආදී කාම සුගතිවල ප්‍රතිසන්ධිය හා සැප සම්පත් විපාක වශයෙන් දීමේ ශක්තිය ඇත [C011-P:L51]. මාර්ගයට අනුව කුසල් සිත් යනු යමෙකුගේ සන්තානයේ ඇති වූ විට අනාගතයේ ඉෂ්ට විපාක ඇති කරන සිත් ය; දන් දීම, සිල් රැකීම ආදී ලෙස සාමාන්‍ය ජනයාට ඇති වන කුසලය කාමාවචර කුසලය යි [C011-M:L3]. එය 'මහා කුසල' යයි කියන්නේ රූපාවචර, අරූපාවචර, ලෝකෝත්තර කුසල් මෙන් උසස් නිසා නොව, ලෝකයේ සෑම තැනම බොහෝ දෙනාට ඇති වන නිසා ය; ඒ ඉහළ කුසල් ඇති වන්නේ ඉතා ටික දෙනෙකුට කලාතුරකින් පමණි [C011-M:L16]."
+    },
+    {
+      "heading": "සිත් අට සෑදෙන ආකාරය: වේදනා, ඥාණ, සංස්කාර",
+      "text": "මාර්ගය මෙම අට ලැබෙන ක්‍රමය පියවරෙන් පියවර පෙන්වයි: එකක් වූ කුසල් සිත වේදනා භේදයෙන් සෝමනස්ස සහගත, උපේක්ෂා සහගත යයි දෙකක් වේ; නුවණින් යුක්ත හෝ තොර වීම අනුව ඥාන සම්ප්‍රයුක්ත, ඥාන විප්‍රයුක්ත යයි දෙකට බෙදී සතරක් වේ; ඒ සතර සංස්කාර භේදයෙන් (අසංස්කාරික/සසංස්කාරික) දෙකට දෙකට බෙදී අටක් වේ [C011-M:L3]. මූලාශ්‍ර දෙකම එකම පිළිවෙළින් අට ලැයිස්තු කරයි: සෝමනස්ස සහගත ඥාන සම්ප්‍රයුක්ත අසංස්කාරික, සසංස්කාරික; සෝමනස්ස සහගත ඥාන විප්‍රයුක්ත අසංස්කාරික, සසංස්කාරික; උපේක්ෂා සහගත ඥාන සම්ප්‍රයුක්ත අසංස්කාරික, සසංස්කාරික; උපේක්ෂා සහගත ඥාන විප්‍රයුක්ත අසංස්කාරික, සසංස්කාරික [C011-P:L31–L49; C011-M:L5–L14]. ප්‍රදීපිකාව එක් එක් නමට සිංහල අර්ථයක් ද දෙයි, උදා: 'සැප වේදනා සහිත ඥාණය සමග යෙදුන මෙහෙයීමක් නැති කුසල් සිත' [C011-P:L31–L32]."
+    },
+    {
+      "heading": "සොමනස්ස සහ උපෙක්ඛා: සතුට ඇති වීමට හේතු",
+      "text": "පින්කම් කිරීමේදී ඉෂ්ට අරමුණු හමු වුවහොත් කුසල් සිත සොමනස්ස සහගත වේ; ඉෂ්ට මධ්‍යස්ථ අරමුණු නම් උපෙක්ඛා සහගත වේ [C011-P:L53]. දානයක් සොමනස්ස සහගත උසස් කුසලයක් වීමට ප්‍රදීපිකාව දක්වන හේතු: සුදුසු දන් වස්තුවක්, ගුණවත් ප්‍රතිග්‍රාහකයෙක්, සුදුසු කාලය, සුදුසු ස්ථානය, කල්‍යාණ මිත්‍රයන්ගේ උපකාරය, පිරිසිදු සම්‍යග්දෘෂ්ටිය, ප්‍රතිග්‍රාහකයාගේ ගුණ හා දානයේ අනුසස් දැනීම, සොමනස්ස සහගත මහා කුසල විපාක සිතකින් ප්‍රතිසන්ධිය ලබා සිටීම ආදිය [C011-P:L53]. සාරාංශයක් ලෙස සතුට සහිත වීමට හේතු සයකි: සොමනස්ස සිතකින් ප්‍රතිසන්ධිය, ශ්‍රද්ධාව බහුල වීම, පිරිසිදු සම්‍යග්දෘෂ්ටිය, කුසලයේ ඵල දැනීම, ඉෂ්ට අරමුණු ලැබීම, රෝගපීඩාදියෙන් වැළකීම; මින් යමක් අඩු වුවහොත් සිත උපෙක්ඛා සහගත වේ [C011-P:L57–L66]. මාර්ගය මෙය කෙටියෙන් කියයි: ශ්‍රද්ධාව බලවත් වීම, කැමති පරිදි දන් වස්තු හා ප්‍රිය ප්‍රතිග්‍රාහකයන් ලැබීම ආදියෙන් සිත සෝමනස්සයෙන් යුක්ත වේ; ඒවා නොලත් විට උපේක්ෂාවෙන් යුක්ත වේ [C011-M:L3]."
+    },
+    {
+      "heading": "ඥාණ සම්ප්‍රයුක්ත සහ ඥාණ විප්‍රයුක්ත: කුසල් සිතේ නුවණ කුමක්ද?",
+      "text": "අමෝහ නම් වූ පඤ්ඤින්ද්‍රිය චෛතසිකය යෙදුණු කුසල් සිත ඥාණ සම්ප්‍රයුක්ත ද, එය නොයෙදුණු සිත ඥාණ විප්‍රයුක්ත ද වේ [C011-P:L68]. මෙහි ඥාණය යනු කර්ම හා කර්ම විපාක විශ්වාස කිරීම, හේතුඵල ධර්ම විශ්වාස කිරීම, ධර්මාර්ථ හොඳින් දැනීම, පාපයෙන් වළකින උපාය දැනීම ය [C011-P:L70]. ලෞකික ශාස්ත්‍ර දත් උගතා ලෝකයා 'ඥාණවන්තයා' යයි සලකයි; එහෙත් එවැනි දැනුම සතුන් මැරීම, අවි ආයුධ හා විෂ ද්‍රව්‍ය තැනීම වැනි විපත් සලසන කටයුතු සඳහා ද යෙදිය හැකිය; කුසල් සිතේ නුවණ එය නොවේ; ධර්මයට අනුව ඥාණවන්තයා කුසල් අකුසල් දැන අකුසලින් වෙන් වීමට, තමාටත් අනුන්ටත් යහපත කිරීමට, නුවණින් පමණක් නොව ගුණයෙන් ද උසස් වීමට උත්සාහ කරයි [C011-P:L70]. කොතරම් ආදරයෙන් අනුන්ට සංග්‍රහ කළත්, කම්ඵල නොඅදහන්නාට ලැබෙන්නේ ද්විහේතුක ඥාණ විප්‍රයුක්ත කුසල් සිත් පමණි [C011-P:L74]. ඥාණ සම්ප්‍රයුක්ත කුසල් සිතකට උපකාර වන කරුණු සතර: ත්‍රිහේතුක මහා විපාක සිතකින් ප්‍රතිසන්ධිය, ශ්‍රද්ධා ආදී ධර්ම මෝරීම, අකුසලයෙන් ඈත් වීම, නුවණ වැඩෙන කටයුතු කිරීම; පෙර ජාතිවල ධර්මය ඉගෙනීම, ඉගැන්වීම, නිරවද්‍ය ශිල්ප ඉගෙනීම වැනි කුසල්, පින්කමට පෙරත් පසුවත් සිත පිරිසිදුව තබා ගැනීම ද අවශ්‍ය කොට දැක්වේ [C011-P:L74–L83]. කර්මඵල නුවණින් මෙනෙහි නොකර පුරුද්දෙන් දන් දීම, සිල් සමාදන් වීම, මල් පිදීම ආදිය කරන විට ද, කුඩා දරුවන් මවුපියන් අනුව විහාරයට ගොස් ගාථා කියා වැඳීම, දන් පිළිගැන්වීම ආදිය කරන විට ද ඇති වන්නේ ඥාණ විප්‍රයුක්ත සිත් ය [C011-P:L85]."
+    },
+    {
+      "heading": "අසංඛාරික සහ සසංඛාරික; සිත් අට උපදින සැටි",
+      "text": "මෙහෙයීමක්, අනුබලයක්, උනන්දු කරවීමක් නැතිව කුසල් කරන විට අසංඛාරික සිත් ද, එවැන්නක් ඇති විට සසංඛාරික සිත් ද ඇති වේ [C011-P:L89]. අලෝභ චේතනාව පෙරදැරි කොට කරුණාවෙන් දන් වස්තුව පිළිගන්නාගේ අතට දෙන විට, ආනිශංස ලැබේවායි ස්ථිර අදහසක් ඇත්නම්, ඒ සිත අසංඛාරික ය; අනුන් සතුටු කරවීමේ අදහසින් හෝ අනුන්ගේ නියෝගයකින් දෙන විට සසංඛාරික සිත් උපදී [C011-P:L89]. ප්‍රදීපිකාවේ සාරාංශය: ඉතා සතුටින්, ශ්‍රද්ධාව පෙරදැරි කොට, ආනිශංස දැන, මෙහෙයීමක් නැතිව පින්කම් කරන විට පළමු සිත; එයම මෙහෙයීමකින් දෙවන සිත; කර්මඵල සිහි නොකොට පුරුද්දක් ලෙස කරන විට තුන්වන හා සතරවන සිත්; සතුටට බාධා ඇතත් නුවණින් යුක්තව කරන විට පස්වන හා සයවන සිත්; සතුටක් හා නුවණක් නැතිව කරන විට සත්වන හා අටවන සිත් උපදී [C011-P:L93–L109]. මාර්ගය සෝමනස්ස සහගත සිත් සතරේ උත්පත්තිය එකින් එක දක්වා, උපේක්ෂා සහගත සිත් සතර 'සොම්නසක් නැතිව මධ්‍යස්ථතාවෙන් යුක්තව' එලෙසම ඇති වන බව කෙටියෙන් කියයි [C011-M:L30–L40]."
+    },
+    {
+      "heading": "චේතනාව, පුණ්‍යක්‍රියා දහය, සහ කුසලයේ ශක්තිය",
+      "text": "මාර්ගයට අනුව කාමාවචර කුසල් සිත් අට ඇති වන්නේ දාන, සීල, භාවනා, අපචායන, වෙය්‍යාවච්ච, පත්තිදාන, පත්තානුමෝදනා, ධම්මසවන, ධම්මදේසනා, දිට්ඨිජ්ජුකම්ම යන දශ පුණ්‍යක්‍රියා කිරීමේදී ය [C011-M:L18]. සිත ඒ ඒ අතට හරවන්නේ චේතනා චෛතසිකයයි [C011-M:L20]. සිත් අටෙන් එක එකක් පුණ්‍යක්‍රියා දහය අනුව දහය බැගින් බෙදුණු විට කාමාවචර කුසල් සිත් අසූවක් (80) වේ [C011-M:L22]. තියුණු, මහත් චේතනාවක් සහිත කුසලය බලවත් හා මහා විපාක ඇත්තකි; දුබල චේතනාවක් සහිත කුසලය අල්ප විපාක ඇත්තකි [C011-M:L24]. එකම සිතින් එකම යාචකයාට එක් දිනක ශතයක් හා තවත් දිනක රුපියලක් දෙන කෙනාගේ සිත එකම වුවත්, රුපියල දෙන චේතනාව මහත් බැවින් එදා කුසලය බලවත් ය යන උදාහරණය මාර්ගය දෙයි [C011-M:L26]. කුසලයක් උසස් වීමට ප්‍රධාන කරුණ ඥාන සම්ප්‍රයුක්ත වීම ය; ඥාන විප්‍රයුක්ත කුසලයක් කිසිම කරුණකින් ඥාන සම්ප්‍රයුක්ත කුසලයට වඩා උසස් නොවේ; සෝමනස්ස/උපේක්ෂා, අසංස්කාරික/සසංස්කාරික භාවයන් අප්‍රධාන කරුණු වුවද, සාමාන්‍යයෙන් සෝමනස්ස සහගත හා අසඞ්ඛාරික කුසලය උසස් යයි කියනු ලැබේ [C011-M:L28]. ප්‍රදීපිකාව තවත් අවවාදයක් එක් කරයි: දානයක් අදහස් කළ මොහොතේ සිට අවසන් වන තෙක්, හෝ අටසිල් සමාදන් වූ දා සිට පසුදා උදෑසන තෙක්, මේ කුසල් සිත් පමණක් පවතින්නේ නැත; පින්කම ගැන සිහියෙන් සිටින මොහොතේ චිත්තවීථියේ ජවන් වශයෙන් මේ අටෙන් එකක් හත් වරක් ඉපිද නිරුද්ධ වේ; ඊර්ෂ්‍යා, මාන ආදී අදහස් මතු වුවහොත් පින්කම දුර්වල වන බැවින් හැකිතාක් සිහියෙන් කුසල් කළ යුතුය [C011-P:L111]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "කුසල / මහා කුසල",
+      "pali": "kusala / mahākusala",
+      "en": "wholesome; 'great' wholesome",
+      "note": "M: 'great' because common to many, not because higher [C011-M:L16]"
+    },
+    {
+      "term_si": "කාමාවචර",
+      "pali": "kāmāvacara",
+      "en": "sense-sphere (belonging to ordinary sensory life)"
+    },
+    {
+      "term_si": "කාමසොභන සිත්",
+      "pali": "kāmasobhana citta",
+      "en": "beautiful sense-sphere minds (24: 8 wholesome, 8 resultant, 8 functional)",
+      "note": "[C011-P:L25–L27]"
+    },
+    {
+      "term_si": "සොමනස්ස සහගත / උපෙක්ඛා සහගත",
+      "pali": "somanassa-sahagata / upekkhā-sahagata",
+      "en": "accompanied by joy / by neutral, even feeling"
+    },
+    {
+      "term_si": "ඥාණ සම්ප්‍රයුක්ත / විප්‍රයුක්ත",
+      "pali": "ñāṇa-sampayutta / vippayutta",
+      "en": "associated with / dissociated from knowledge",
+      "note": "Knowledge here = amoha, the wisdom faculty [C011-P:L68]"
+    },
+    {
+      "term_si": "අසංඛාරික / සසංඛාරික",
+      "pali": "asaṅkhārika / sasaṅkhārika",
+      "en": "unprompted / prompted (by oneself or another)"
+    },
+    {
+      "term_si": "අලෝභ, අදෝස, අමෝහ",
+      "pali": "alobha, adosa, amoha",
+      "en": "non-greed, non-hatred, non-delusion: the wholesome roots"
+    },
+    {
+      "term_si": "ත්‍රිහේතුක / ද්විහේතුක",
+      "pali": "tihetuka / dvihetuka",
+      "en": "three-rooted / two-rooted"
+    },
+    {
+      "term_si": "තදඞ්ගප්‍රහාණය",
+      "pali": "tadaṅgappahāna",
+      "en": "temporary abandoning (of unwholesome roots) by their opposite",
+      "note": "[C011-P:L25]"
+    },
+    {
+      "term_si": "චේතනාව",
+      "pali": "cetanā",
+      "en": "intention, volition; what turns the mind in a direction",
+      "note": "[C011-M:L20]"
+    },
+    {
+      "term_si": "දශ පුණ්‍යක්‍රියා",
+      "pali": "dasa puññakiriyavatthu",
+      "en": "the ten meritorious deeds (giving, virtue, meditation, reverence, service, sharing merit, rejoicing in others' merit, listening to and teaching the doctrine, straightening one's views)",
+      "note": "[C011-M:L18]"
+    },
+    {
+      "term_si": "ප්‍රතිසන්ධිය",
+      "pali": "paṭisandhi",
+      "en": "rebirth-linking (first moment of a new life)"
+    },
+    {
+      "term_si": "ජවන",
+      "pali": "javana",
+      "en": "impulsion; the 'active' phase of a mind-process, said to run seven times",
+      "note": "[C011-P:L111]"
+    },
+    {
+      "term_si": "කල්‍යාණ මිත්‍ර",
+      "pali": "kalyāṇamitta",
+      "en": "good friend, spiritual friend",
+      "note": "Listed among supports for joyful giving [C011-P:L53]"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Ordinary goodness is the 'great' kind",
+      "text": "The goodness described here is the kind most people do: cooking for a guest, keeping a promise, helping a neighbour, listening, giving something away. One source makes a striking point about its name. It is called 'great' not because it is the highest kind of good but because it is everywhere, in ordinary people, in every place. The rarer, deeper states come to very few. The tradition starts its account of goodness in the kitchen and the doorway, not on the mountaintop."
+    },
+    {
+      "heading": "The same kind act, done in different inner ways",
+      "text": "Two people can give the same plate of food and be in quite different inner places. One gives gladly; another gives on a tired day when the gift isn't what they hoped, or the person receiving isn't easy to like. One gives understanding what it means; another gives out of habit, the way a child copies a parent at the temple. One gives because they want to; another because someone asked or told them to. The sources count every one of these as genuinely good. They do not say prompted or joyless kindness is fake. But they do grade them: understanding matters most, and a gladly and freely given act is usually counted stronger."
+    },
+    {
+      "heading": "Cleverness is not the same as understanding",
+      "text": "Pradeepika draws a sharp line. Educated, skilled people can use their knowledge to make weapons or poisons. The understanding that belongs to a good mind is a different thing. It sees that actions have consequences, knows how to avoid causing harm, and wants to grow in character as well as in knowledge. It is moral clarity, not intelligence or education."
+    },
+    {
+      "heading": "Goodness comes in moments, not whole days",
+      "text": "A day spent keeping vows or preparing an offering is not one continuous good mood. The good moments come and go. Envy, pride or unrelated thoughts can come in between, and they weaken what is being done. The sources ask for attentiveness: stay present to what you are doing while you do it. How strongly you intend it also matters. The same person giving to the same person puts more into a larger gift on one day than a token gift on another."
+    }
+  ],
+  "does_not_transfer": [
+    "'Knowledge' as education or intelligence. Pradeepika explicitly rejects this: worldly learning can serve harm, and the knowledge meant is understanding of action and its results and of how to avoid wrongdoing [C011-P:L70].",
+    "'Real kindness is always joyful.' Kindness accompanied by neutral feeling is still fully wholesome; joy depends on conditions such as faith, health and suitable circumstances [C011-P:L57–L66; C011-M:L3].",
+    "'If someone had to ask you, it doesn't count.' Prompted wholesome minds are still wholesome; they are only generally ranked below unprompted ones, and this is a secondary factor [C011-M:L28].",
+    "'The bigger the donation, the better the person.' Margaya's coin-and-note example compares the strength of intention of the same giver, with the same mind, to the same recipient on two days [C011-M:L26]. It is not a comparison between rich and poor givers.",
+    "'Good vibes' or wellbeing language that drops consequences. Both sources define wholesome mind partly by its future results, including happy rebirth [C011-P:L51; C011-M:L3]. A film should not quietly remove this, but it should not reduce kindness to a transaction either.",
+    "'A good day at the temple = a day of good mind.' Pradeepika says explicitly that wholesome minds arise only in moments of mindful attention, interleaved with other minds [C011-P:L111]."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A household preparing an almsgiving from before dawn, where every member takes a different part.",
+      "what_camera_could_observe": "The kitchen at four in the morning, divided tasks, an elder's quiet focus, a child carrying a dish because an adult asked, fatigue and laughter, the moment the food is finally offered.",
+      "why_it_fits": "The same act of giving holds joyful and neutral moments, spontaneous and prompted ones, understood and habitual ones. Pradeepika itself uses children following parents as its example of habitual goodness [C011-P:L85; C011-P:L89].",
+      "setting_type": "A village home and the nearby temple on an almsgiving day",
+      "risk": "Turning a family's religious act into a demonstration. The family must lead; nothing should be restaged, and children need guardian consent."
+    },
+    {
+      "seed": "Volunteers running a roadside free-food or drinks stall through a festival night.",
+      "what_camera_could_observe": "Early excitement, strangers served one after another, a friend recruited to help, the long hours after midnight when people keep serving without the first glow.",
+      "why_it_fits": "Joy that fades into steady, even-tempered goodness; some helpers came on their own and some because they were asked. The sources count both as wholesome [C011-P:L101–L109; C011-M:L28].",
+      "setting_type": "A town roadside during a full-moon festival",
+      "risk": "A heavily filmed cliché; avoid mocking anyone's motives or implying that those who came because they were asked are less sincere."
+    },
+    {
+      "seed": "A teacher who runs free weekend classes and keeps teaching on days when very few students turn up.",
+      "what_camera_could_observe": "Rain, an almost empty classroom, the teacher arriving tired and teaching the three who came with full care, packing up alone.",
+      "why_it_fits": "Pradeepika describes good action done with understanding even when joy is blocked [C011-P:L101]. It lists missing conditions, such as not getting the circumstances one hoped for, as the reason the mind is neutral rather than joyful [C011-P:L57–L66].",
+      "setting_type": "A rural school classroom or community hall at the weekend",
+      "risk": "Could become a 'noble sufferer' portrait; show the teacher's ordinary humour and reasons, not only hardship. Students are minors."
+    },
+    {
+      "seed": "A shopkeeper who gives something daily to the same regular visitor, and whose giving varies from day to day.",
+      "what_camera_could_observe": "The daily exchange at the counter, small differences in what is given, the conversation between the two over weeks, the shopkeeper's own account of why.",
+      "why_it_fits": "Margaya's own example is one giver, one recipient and the same kind of mind on different days, where the strength of intention differs [C011-M:L26].",
+      "setting_type": "A small village shop or roadside tea stall",
+      "risk": "High: the recipient's dignity. They must be a full, consenting participant with their own voice, never a symbol of need."
+    },
+    {
+      "seed": "Lay devotees observing a full-moon precept day at a temple, from early morning to the next dawn.",
+      "what_camera_could_observe": "White clothes, the long hours, moments of chanting and moments of chatting, dozing, drifting and returning attention, the release at the end.",
+      "why_it_fits": "Pradeepika warns that such a day is not one unbroken wholesome mind. Good moments arise in attention and are interrupted by other thoughts [C011-P:L111].",
+      "setting_type": "A village temple on a full-moon day",
+      "risk": "Mocking lapses of attention or intruding on devotion; needs the temple's permission and a light, respectful touch."
+    }
+  ],
+  "cross_source_notes": [
+    "Both list the same eight in the same order [C011-P:L31–L49; C011-M:L5–L14]. Pradeepika uses Pali-style names (සොමනස්ස, ඤාණ සම්පයුත්ත, අසංඛාරික) with Sinhala glosses; Margaya uses Sanskritised Sinhala forms (සෝමනස්ස, ඥාන සම්ප්‍රයුක්ත, අසංස්කාරික).",
+    "Definition of 'kusala' differs in emphasis. Pradeepika stresses destroying and suppressing unwholesome states and leading to happy rebirth [C011-P:L51]. Margaya defines kusala by its power to produce desirable future results [C011-M:L3].",
+    "Only Margaya explains why the sense-sphere wholesome is called 'mahā' (it is common to many) [C011-M:L16]. Pradeepika uses the term 'මහා කුසල්' without explanation [C011-P:L27].",
+    "Margaya lists the ten meritorious deeds and derives 80 wholesome minds (8 × 10) [C011-M:L18–L22]. Pradeepika gives an open list with 'ආදී' ('etc.') and no count of 80 [C011-P:L51].",
+    "Pradeepika gives detailed conditions: six for joy and four for knowledge [C011-P:L57–L83]. Margaya gives only brief conditions for joy [C011-M:L3].",
+    "Only Margaya explicitly ranks the features: knowledge is primary; joy and spontaneity are secondary [C011-M:L28]. It also discusses the strength of intention [C011-M:L24–L26]. Pradeepika speaks instead of an 'excellent' (උත්කෘෂ්ට) knowledge-associated wholesome mind arising when conditions are complete [C011-P:L74].",
+    "Only Pradeepika uses the terms ත්‍රිහේතුක/ද්විහේතුක here [C011-P:L25; C011-P:L74]. Only Pradeepika warns about the moment-to-moment nature of good minds during a ritual [C011-P:L111].",
+    "Margaya compresses the four equanimous minds into one sentence [C011-M:L40]. Pradeepika describes each [C011-P:L101–L109]."
+  ],
+  "uncertainties": [
+    "The job brief lists the files as 112 and 41 lines. Physically they have 111 and 40 lines, each ending in a newline, so no content is missing. Citations use the physical numbering.",
+    "C011-P:L74 'ප්‍රඥදසකයට පැමිණ' is presumably 'ප්‍රඥා දසකය', the 'decade of wisdom' in a traditional ten-decade scheme of a lifespan. The extract does not explain it, and the spelling may be an OCR slip. Needs expert check.",
+    "C011-P:L111 says one of the eight arises as javana 'seven times'. This depends on the teaching on mind-processes (vīthi), which is not in this extract.",
+    "C011-P:L85 gives children's habitual worship as an example of mind without knowledge. It is the author's illustration, not a general claim about children's capacity. Do not overstate it.",
+    "C011-M:L3 describes the split by knowledge only for the joyful mind ('සෝමනස්ස සහගත සිත ද ... දෙකට බෙදේ'), then gives the total of eight. That the same split applies to the equanimous mind is implied, not stated.",
+    "Margaya's coin example (ශතය / රුපියල) is a modern illustration by the author [C011-M:L26], not a canonical example.",
+    "Orthographic or OCR slips in C011-P: 'ධර්මාර්ත්ථ' [L70], 'ලෝභ දෙෂ' [L51], 'මෙරීම' for 'මේරීම/මෝරීම' [L79]. No effect on meaning.",
+    "Margaya's section number is '12' [C011-M:L1], while this is Concept 11 in the project. This is the same one-step offset seen in other Chapter 1 concepts."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

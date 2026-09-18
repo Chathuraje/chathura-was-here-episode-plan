@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0010",
+  "record_type": "idea",
+  "title": "The Lantern",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-01",
+  "logline": "A neighbourhood spends weeks building a great Vesak lantern of bamboo and paper, lights it for a few nights, then takes it apart.",
+  "human_question": "Why do we pour so much into something we know will be taken apart, and what is it while it lasts?",
+  "premise": {
+    "story": "A community lantern (thorana or kuduwa) from bamboo frame to dismantling.",
+    "place": "A neighbourhood around Vesak.",
+    "experience": "Bamboo, glue, paper, light, crowds, and then the bare frame."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C077",
+      "role": "primary",
+      "why": "Aggregates and the truths: a named whole assembled, seen, and dissolved. The reason for seeing clearly is suffering and its end."
+    },
+    {
+      "concept_id": "C084",
+      "role": "supporting",
+      "why": "A collective and shape concept that exists only while its parts are arranged."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Bamboo cut and tied",
+    "Paper and colour",
+    "The first lighting",
+    "The crowd's wonder",
+    "Dismantling the next week"
+  ],
+  "what_must_be_real": "The actual builders, budget, disagreements and timeline.",
+  "possible_arc": {
+    "opening": "A pile of bamboo.",
+    "turn": "Lit, named, admired.",
+    "ending_open": "Taken apart. What the builders feel then leads directly into wanting (Group 2)."
+  },
+  "position_hint": "closing candidate: hands off from wonder to wanting",
+  "location": {
+    "requirements": [
+      "A lantern or thorana build during Vesak",
+      "Access across build, lighting and dismantling"
+    ],
+    "suggestions": [
+      {
+        "name": "A Colombo neighbourhood known for Vesak thoranas",
+        "region": "Western Province",
+        "why": "Large community builds and crowds.",
+        "season_notes": "Vesak (May)",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "A small-town Vesak lantern competition",
+        "region": "Any province",
+        "why": "More intimate community build.",
+        "season_notes": "Vesak (May)",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Festival spectacle without a person to follow"
+  ],
+  "drop_if": [
+    "Only spectacle footage; no builders who will share the process"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0002",
+      "relation": "pairs with",
+      "note": "A whole assembled from parts and dissolved again."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

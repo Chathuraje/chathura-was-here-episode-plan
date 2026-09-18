@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0009",
+  "record_type": "idea",
+  "title": "Clearing the House",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-01",
+  "logline": "A family empties an old ancestral house. Every object is 'grandmother's chair' or 'father's desk' until, one by one, they become wood, cloth and memory.",
+  "human_question": "When the story is taken away from an object, what is left, and where does the story go?",
+  "premise": {
+    "story": "The last weeks of a family home, following the people deciding what to keep, give away or leave.",
+    "place": "An old house about to change hands.",
+    "experience": "Dust, afternoon light, objects handled for the last time."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C002",
+      "role": "primary",
+      "why": "Matter on one side, mind (memory, feeling) on the other: what is really there in an object."
+    },
+    {
+      "concept_id": "C084",
+      "role": "supporting",
+      "why": "Being-concepts and collective concepts attached to things."
+    },
+    {
+      "concept_id": "C001",
+      "role": "supporting",
+      "why": "Conventional value and what analysis finds."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Hands on objects",
+    "Family members disagreeing about what something is",
+    "Empty rooms",
+    "The last door closing"
+  ],
+  "what_must_be_real": "A real family's decisions, feelings and timeline.",
+  "possible_arc": {
+    "opening": "A full house.",
+    "turn": "Things lose their names as they are sorted.",
+    "ending_open": "An empty house that is still, for the family, 'the house'."
+  },
+  "position_hint": "opening candidate: an ordinary object passing to Chathura here would be a natural Object 1 acquisition, only if it really happens",
+  "location": {
+    "requirements": [
+      "A family clearing a house during the filming window",
+      "Deep trust and consent"
+    ],
+    "suggestions": [
+      {
+        "name": "An old walauwa or family house in the southern or Sabaragamuwa hill country",
+        "region": "Southern / Sabaragamuwa Provinces",
+        "why": "Architecture full of layered family history.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Depends entirely on finding a family.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Grief and privacy",
+    "Inheritance disputes"
+  ],
+  "drop_if": [
+    "The family's privacy cannot be protected"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0011",
+      "relation": "mirrors",
+      "note": "Clearing a house at the end of a lineage; naming a child at the start of one."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

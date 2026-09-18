@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C048",
+  "record_type": "concept_digest",
+  "concept_id": "C048",
+  "group_id": "GRP-05",
+  "title_si": "මනෝද්වාර වීථි ඇති වීමේ හේතු",
+  "title_en": "What sets off mind-door processes",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C048-P",
+      "path": "content/02-concepts/Chapter 4/Concept 48 - මනෝද්වාර වීථි ඇති වීමේ හේතු/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-34",
+      "complete": true,
+      "markers": "Book 1, ch. 4 (වීථි සංග්‍රහ විභාගය), pdf 341 / printed 331; starts mid-page on pdf 341; single sub-section 'නිද්‍රාව හා ස්වප්න'"
+    },
+    {
+      "ref": "C048-M",
+      "path": "content/02-concepts/Chapter 4/Concept 48 - මනෝද්වාර වීථි ඇති වීමේ හේතු/sources/Abhidharma Margaya.md",
+      "lines": "1-32",
+      "complete": true,
+      "markers": "Section headed '11. මනෝද්වාර වීථි ඇති වීමේ හේතු'; sub-headings 'අනුබන්ධක මනෝද්වාර වීථි' and 'විශේෂ කරුණක්'; no page markers in extract"
+    }
+  ],
+  "summary_en": "The Margaya notes that five-door processes plainly arise from sense contact, but the causes of mind-door processes are less obvious. It lists some of them: sense contact itself and things connected with it, hearing what others say, reading, being asked questions, thinking, disturbance of the bodily elements, hunger and thirst, bodily pains, meeting enemies or friends, and even spirits [C048-M:L3–L19]. Like the long fading hum after one strike of a bell, a single sense contact can set off hundreds or thousands of mind-door processes [C048-M:L7–L9]. A sense process alone does not give the knowledge 'I saw such-and-such'. That requires follow-on (anubandhaka) mind-door processes: one taking the past object, one its name, one its meaning. The Margaya records this as one teacher's view [C048-M:L23–L27]. The Pradeepika extract covers sleep and dreams. One falls asleep and wakes through a mind-door process, never a five-door one. Dreams are mind-door processes seen in light 'monkey sleep' by ordinary people and learners, not by arahants, and their impulsions are so weak that they bring only minor results within a life [C048-P:L25–L33].",
+  "sinhala_explanation": [
+    {
+      "heading": "මනෝද්වාර වීථි ඇති වීමේ හේතු රැසක් (මාර්ගය)",
+      "text": "චක්ෂුරාදි ද්වාරවල රූපාදි අරමුණු ගැටීමෙන් පඤ්චද්වාර වීථි ඇති වන බව ප්‍රකට ය; මනෝද්වාර වීථි ඇති වීමේ හේතු අප්‍රකට බැවින් ඒවා දක්වනු ලැබේ [C048-M:L3]. හේතු බොහෝය; ඉන් කොටසක් මෙසේය: පඤ්චද්වාරයේ අරමුණු ගැටීම, පඤ්චද්වාරයෙන් ගත් අරමුණු හා සම්බන්ධ බව, අනුන් කියන දේ ඇසීම, ඇසූ දේ හා සම්බන්ධ බව, අනුන් ප්‍රශ්න ඇසීම, කල්පනා කිරීම, ශාරීරික ධාතු කෝපය, සාගින්න හා පිපාසය, නොයෙක් ශාරීරික වේදනා, සතුරන් මුණ ගැසීම, මිතුරන් මුණ ගැසීම [C048-M:L5]. අසවලා මෙබඳු දෙයක් කළා ය, අසවල් තැන මෙබඳු දෙයක් වුණා ය යනාදි අනුන් කියන දේ ඇසීමෙන්ද, පොතපත කියැවීමෙන්ද අපමණ මනෝද්වාර වීථි ඇති වේ; ඒවා හා සම්බන්ධ තවත් කරුණු සිතට යොමු වීමෙන්ද බොහෝ වීථි ඇති වේ [C048-M:L11–L13]. ප්‍රශ්නයක් ඇසූ විට ඒ හා සම්බන්ධ කරුණු සිතට එයි [C048-M:L15]. 'කල්පනා කිරීම' යනු නොදත් කරුණු වෙත සිත යොමු කිරීමයි [C048-M:L17]. ධාතු කෝපාදිය නිසාද, සමහර විට භූතයන් මිනිසුන්ගේ සිත්වලට අරමුණු දීම නිසාද බොහෝ මනෝද්වාර වීථි ඇති වන බව මාර්ගය කියයි [C048-M:L19]."
+    },
+    {
+      "heading": "ඝණ්ටා නාදය: එක් ගැටීමකින් වීථි දහස් ගණනක්",
+      "text": "ඝණ්ටාවකට වරක් ගැසූ විට මහ හඬක් නැගී, නැවත ගැසීමක් නැතිව ක්‍රමයෙන් සිහින් වෙමින් නාද පරම්පරාවක් පවතී. එමෙන් චක්ෂු ප්‍රසාදයේ වරක් රූපයක් ගැටී චක්ඛුද්වාර වීථියක් නිරුද්ධ වූ පසුද, ඒ රූපය මනෝද්වාරයට එළඹ සිටීමෙන් සමහර විට සිය ගණන්, දහස් ගණන් මනෝද්වාර වීථි ඇති වේ; ශබ්දාදි අරමුණුවලද එසේමය [C048-M:L7]. එක් අරමුණක් ගත් විට ඊට සමාන හා සම්බන්ධ බොහෝ අරමුණුද මනෝද්වාරයට යොමු වී බොහෝ මනෝද්වාර වීථි ඇති වේ [C048-M:L9]."
+    },
+    {
+      "heading": "අනුබන්ධක මනෝද්වාර වීථි: 'මම දුටුවෙමි' යන දැනීම එන්නේ කවදාද",
+      "text": "රූපයක් ඇසේ ගැටී චක්ඛුද්වාර වීථියක් ඇති වූ පමණින් 'මම අසවල් දෙය දුටුවෙමි' යන දැනීම ඇති නොවේ; චක්ඛුද්වාර වීථියට දැනෙන්නේ ප්‍රසාදයේ ගැටුණු පැහැය පමණි; අනෙක් ද්වාරවලද එසේමය. ඒ දැනුම සඳහා පසුව මනෝද්වාර වීථි ගණනක් ඇති විය යුතුය. පඤ්චද්වාර වීථියෙන් ගත් අරමුණ සම්බන්ධයෙන් ඉන්පසු ඇති වන මනෝද්වාර වීථි 'අනුබන්ධක මනෝද්වාර වීථි' නම් වේ; ඒවා ක්ෂණ සතළොසක් නැති විභූත හෝ අවිභූත වීථිම ය. ඒවා ඇති වන ක්‍රමය පොත් කීපයක කීප ආකාරයකින් කියා ඇත [C048-M:L23]. එක් ක්‍රමයක් මෙසේය: චක්ඛුද්වාර වීථියට පසු අතීත රූපය ගන්නා මනෝද්වාර වීථියක්, ඉන්පසු ඒ රූපයට කියන නම අරමුණු කරන වීථියක්, ඉන්පසු ඒ නමින් හඳුන්වන දෙය හෙවත් වචනයේ අර්ථය ගන්නා වීථියක් ඇති වේ; 'මම අසවල් දෙය දුටිමි' යන දැනීම එන්නේ තුන්වන මනෝද්වාර වීථියෙන් පසුවය [C048-M:L25]. ශබ්දයකදී අතීත ශබ්දය ගන්නා වීථියක් හා නාමය මතු කරගන්නා වීථියක් ඇති වේ; ඝාණ, ජිව්හා, කාය ද්වාරවලටද මෙසේ වීථි තුන බැගින් ඇති වේ; මෙය එක්තරා ආචාර්ය මතයක් බව මාර්ගය කියයි [C048-M:L27]. මරණාසන්න වීථි පස්වන පරිච්ඡේදයේද, අර්පණා වීථි කර්මස්ථාන සමඟද උගන්වන බව මාර්ගය සටහන් කරයි [C048-M:L31]."
+    },
+    {
+      "heading": "නින්ද හා සිහින (ප්‍රදීපිකාව)",
+      "text": "චිත්ත චෛතසිකයන්ගේ ගිලන් බව, අලස බව, මැලි බව නිසා හෝ ගමනාදි ඉරියව් හා රෝග නිසා ඇති වන ශරීර පීඩාව සංසිඳවීමට විවේකය පිණිස නිද්‍රාව ඇති වේ. නිදන්නාට මනෝද්වාර වීථියක් ඉපිද ඉන්පසු භවඞ්ග පාතය වී නින්දට වැටේ; කිසි විටෙක පඤ්චද්වාර වීථියකින් නින්දට නොයයි; පිබිදෙන්නේද මනෝද්වාර වීථියකින්මය [C048-P:L25]. සිහින දකින්නේද මනෝද්වාර වීථියකින්මය. වරින් වර නිදමින් පිබිදෙමින් ගත වන අවස්ථාව 'කපිමිද්ධ' හෙවත් 'වඳුරු නින්ද' නම් වේ; ඒ කාලයේ අශෛක්ෂයන් (රහතුන්) හැර ශෛක්ෂ, පෘථග්ජන පුද්ගලයන් පමණක් සිහින දකිති. සිහිනයේදී කුසලාකුසල ජවන් ඇති විය හැකිය; කාමාවචර මනෝද්වාර වීථි තදාරම්මණ සහිතව හෝ රහිතව හට ගනී. ඇතැම් විට ජවන හා තදාරම්මණ නොමැති දුර්වල සිහිනවලදී මනෝද්වාරාවජ්ජනය දෙතුන් වරක් ඉපිද භවඞ්ග පාතය වේ [C048-P:L27–L31]. සිහිනයේ කුසලාකුසල ජවන් ඉතා දුර්වල බැවින් ප්‍රවෘත්ති විපාක පමණක් දෙයි [C048-P:L33]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "අනුබන්ධක මනෝද්වාර වීථි",
+      "pali": "anubandhaka manodvāra-vīthi",
+      "en": "follow-on mind-door processes after a five-door process"
+    },
+    {
+      "term_si": "ධාතු කෝපය",
+      "pali": "dhātu-kopa",
+      "en": "disturbance of the bodily elements (traditional physiology)"
+    },
+    {
+      "term_si": "කල්පනා කිරීම",
+      "pali": "(vitakka / cintā)",
+      "en": "thinking; directing the mind toward what is not yet known",
+      "note": "The Margaya gives only the Sinhala term; the Pali equivalent is editorial."
+    },
+    {
+      "term_si": "භූත",
+      "pali": "bhūta",
+      "en": "spirits, said sometimes to give objects to people's minds"
+    },
+    {
+      "term_si": "නාමය / අර්ථය",
+      "pali": "nāma-paññatti / attha-paññatti",
+      "en": "the name, and the thing the name means"
+    },
+    {
+      "term_si": "නිද්‍රාව",
+      "pali": "niddā",
+      "en": "sleep"
+    },
+    {
+      "term_si": "ස්වප්නය",
+      "pali": "supina",
+      "en": "dream"
+    },
+    {
+      "term_si": "කපිමිද්ධ / වඳුරු නින්ද",
+      "pali": "kapi-middha",
+      "en": "'monkey sleep'; light, broken sleep in which dreams occur"
+    },
+    {
+      "term_si": "භවඞ්ග පාතය",
+      "pali": "bhavaṅga-pāta",
+      "en": "falling back into the life-continuum"
+    },
+    {
+      "term_si": "ශෛක්ෂ / අශෛක්ෂ",
+      "pali": "sekha / asekha",
+      "en": "learner on the path / one beyond training (arahant)"
+    },
+    {
+      "term_si": "පෘථග්ජන",
+      "pali": "puthujjana",
+      "en": "ordinary person"
+    },
+    {
+      "term_si": "ප්‍රවෘත්ති විපාක",
+      "pali": "pavatti-vipāka",
+      "en": "results arising during life (not rebirth-results)"
+    },
+    {
+      "term_si": "මනෝද්වාරාවජ්ජනය",
+      "pali": "manodvārāvajjana",
+      "en": "mind-door adverting; in weak dreams it repeats two or three times without impulsion"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "One glance, a long echo",
+      "text": "The bell image does most of the work. Something is seen once, and afterwards the mind keeps sounding it: replaying it, connecting it to other things, drifting to related memories. One contact can feed hundreds of later moments of thought. What occupies us is often not what is in front of us but the long echo of something that already happened."
+    },
+    {
+      "heading": "Other people and our own bodies set our minds going",
+      "text": "The list of causes is strikingly ordinary: what someone told us, what we read, a question put to us, hunger, an ache, running into a friend or an enemy. The inner life is seldom self-starting. It is prompted, from outside by people and words and from inside by the body's state."
+    },
+    {
+      "heading": "Knowing what you saw takes a few more beats",
+      "text": "Seeing is not yet knowing that you saw. The eye catches colour. Only after the mind has replayed it, put a name to it and grasped what the name refers to does a person have the sense 'I saw my brother at the market'. The source is candid that teachers described this sequence differently."
+    },
+    {
+      "heading": "Sleep begins and ends in the mind",
+      "text": "The Pradeepika treats falling asleep, waking and dreaming as events of the mind, not of the senses. Dreams are the mind's own traffic in half-sleep. They can carry real likes and dislikes, but the source says they are too weak to weigh much."
+    }
+  ],
+  "does_not_transfer": [
+    "'Dreams are messages or predictions' has no support in this extract. The Pradeepika only says dreams are weak mind-door processes that bring minor results [C048-P:L33].",
+    "The Margaya's mention of spirits giving objects to the mind [C048-M:L19] is a traditional belief stated in passing. A film should neither present it as fact nor mock it.",
+    "'Dhātu kōpa' is traditional humoral physiology. It should not be translated into modern claims about hormones or brain chemistry.",
+    "'Overthinking is bad' adds a judgement the source does not make. The list of causes is descriptive.",
+    "The sleep and waking claims are doctrinal. They are not findings of sleep science and should not be presented alongside such findings as if they agreed."
+  ],
+  "story_seeds": [
+    {
+      "seed": "The keeper of a hilltop temple bell and the valley that hears it",
+      "what_camera_could_observe": "The dawn strike, the hum fading over paddy fields, people below pausing or not pausing, the keeper's own routine and thoughts afterward.",
+      "why_it_fits": "The Margaya's own image of one strike and a long fading sound becomes the real rhythm of a place and a person.",
+      "setting_type": "a hill or rock temple above farming villages",
+      "risk": "Becoming a pretty illustration without a human story; the bell-keeper as mere symbol."
+    },
+    {
+      "seed": "Voice messages from relatives working abroad are played aloud to a household",
+      "what_camera_could_observe": "A phone passed around, faces changing as they listen, the conversation that follows, one person staying quiet and thoughtful afterward.",
+      "why_it_fits": "Hearing what others say is the first cause the Margaya lists after sense contact. One message sets off a long chain of thought and feeling in each listener.",
+      "setting_type": "a rural household with members in overseas employment",
+      "risk": "Family privacy; exploiting the emotions of separation."
+    },
+    {
+      "seed": "A teacher in a small rural school asks a question and waits",
+      "what_camera_could_observe": "The silence after the question, children's eyes moving, hands going up at different times, an answer that surprises the teacher.",
+      "why_it_fits": "Being asked a question is a named cause. It shows a mind turning toward what it does not yet know.",
+      "setting_type": "a small rural school classroom",
+      "risk": "Filming children needs guardian and school consent, and must avoid putting any child on the spot."
+    },
+    {
+      "seed": "Bakery or fish-market workers who sleep in short snatches between night shifts",
+      "what_camera_could_observe": "Dozing on sacks, waking at a call, recounting half-remembered dreams over tea at dawn.",
+      "why_it_fits": "The Pradeepika's 'monkey sleep' is light, broken sleep with dreams, which is these workers' ordinary rhythm.",
+      "setting_type": "a town bakery or a harbour fish market working through the night",
+      "risk": "Intruding on people's rest; aestheticising exhausting labour."
+    },
+    {
+      "seed": "A household where dreams are told and discussed at breakfast",
+      "what_camera_could_observe": "An elder recounting a dream, others interpreting or teasing, how the dream colours the day's conversation.",
+      "why_it_fits": "It is a real, observable practice around dreams as mind-door events. The film need not take a position on meaning.",
+      "setting_type": "a multi-generation family home",
+      "risk": "Turning belief into spectacle, or implying the film endorses or rejects dream interpretation."
+    }
+  ],
+  "cross_source_notes": [
+    "The two extracts cover different material under this concept title. The Margaya gives causes and follow-on processes [C048-M:L3–L27]. The Pradeepika passage is about sleep and dreams [C048-P:L23–L33]. Neither addresses the other's topic, and they should not be merged into a single 'causes' list.",
+    "The number and content of follow-on processes differ between the books. The Margaya describes three (past object, name, meaning), recorded as one teacher's view, and notes that several books describe the sequence differently [C048-M:L23–L27]. The Pradeepika, in concept C046, gives four (past object, colour, concept, and a decisive process on the meaning) [C046-P:L117–L149].",
+    "The Margaya says follow-on processes are the non-seventeen-moment clear or unclear kind [C048-M:L23]. The Pradeepika in C046 describes the follow-on processes as taking the object 'as past' [C046-P:L131]. These are compatible.",
+    "The Margaya postpones death-proximate and absorption processes to chapter 5 and to meditation subjects [C048-M:L31]. The Pradeepika places its absorption rules in chapter 4 (see C043-P:L93 onward)."
+  ],
+  "uncertainties": [
+    "For sound, the Margaya names only two follow-on processes (past sound, name) and then says smell, taste and touch have 'three each' [C048-M:L27]. The third process for sound is not stated. It also does not name which teacher holds this view.",
+    "The claim that spirits (bhūta) give objects to people's minds [C048-M:L19] is given without a canonical or commentarial source. It needs careful handling and expert context.",
+    "The Pradeepika says only ordinary people and learners dream, not arahants [C048-P:L27]. This rests on commentarial tradition not cited in the extract, and an expert should check it.",
+    "The Pradeepika's sleep causes 'sickness, laziness, sluggishness of mind and mental factors' [C048-P:L25] probably correspond to the Pali pair thīna-middha, but the extract does not name them. That identification is editorial.",
+    "The chart for a weak dream [C048-P:L30] shows two adverting moments ('ම ම'), while the text says adverting arises 'two or three times' [C048-P:L27]. The chart shows only one case.",
+    "The Margaya's list of causes is explicitly partial ('a portion of the causes') [C048-M:L5]."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

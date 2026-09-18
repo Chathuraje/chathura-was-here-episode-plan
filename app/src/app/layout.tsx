@@ -14,6 +14,9 @@ const navigation = [
   { href: "/sources", label: "Sources", number: "01" },
   { href: "/concepts", label: "Concepts", number: "02" },
   { href: "/arc", label: "Story arc", number: "03" },
+  { href: "/ideas", label: "Ideas", number: "04" },
+  { href: "/chronology", label: "Chronology", number: "05" },
+  { href: "/release", label: "Release", number: "06" },
   { href: "/search", label: "Search" },
   { href: "/docs", label: "File library" },
 ];

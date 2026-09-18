@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0006",
+  "record_type": "idea",
+  "title": "The Taster",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-01",
+  "logline": "A tea taster tells a whole estate's story through sight, smell, taste and touch, then gives it a grade: a name built entirely from the senses.",
+  "human_question": "How much of what we 'know' about a thing is just what came in through our senses, gathered under a name?",
+  "premise": {
+    "story": "A day of tasting and grading, and the decisions and livelihoods that depend on it.",
+    "place": "A hill-country tea factory and its tasting room.",
+    "experience": "Mist, leaf, the loud slurp of tasting, an attention so sharp it becomes almost visible."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C077",
+      "role": "primary",
+      "why": "The sense bases and elements: seeing, smelling, tasting, touching as the doors through which a 'thing' is known."
+    },
+    {
+      "concept_id": "C084",
+      "role": "supporting",
+      "why": "Grades and names assembled from sense qualities."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Leaf in hand, withering, rolling",
+    "Rows of cups; the taster's ritual",
+    "Grades written, called, disputed",
+    "The estate at dawn"
+  ],
+  "what_must_be_real": "The actual tasting practice and its consequences for workers and sales.",
+  "possible_arc": {
+    "opening": "Leaf on the bush.",
+    "turn": "At the table, the leaf becomes a set of sensations, then a name.",
+    "ending_open": "The grade and what follows from it."
+  },
+  "position_hint": "middle; also foreshadows Group 5 (Slowing Down)",
+  "location": {
+    "requirements": [
+      "A working factory with a tasting practice",
+      "Permission from management and consent from workers"
+    ],
+    "suggestions": [
+      {
+        "name": "Tea country near Hunnasgiriya / the Knuckles foothills",
+        "region": "Kandy–Matale districts",
+        "why": "Continuity: the same hill road Chathura travels in Ep 1 and Ep 100.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Identify an active factory with tasting on site.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Uva highlands (Haputale / Bandarawela)",
+        "region": "Badulla district",
+        "why": "Classic tea landscape and factories.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Estate labour conditions: must be honest, not decorative"
+  ],
+  "drop_if": [
+    "Tasting happens only in a city office with no link to the estate"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0007",
+      "relation": "pairs with",
+      "note": "Both show a map of experience learned through practice."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

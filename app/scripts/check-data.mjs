@@ -79,6 +79,56 @@ if (fs.existsSync(development)) {
   check("Framing films EP-001 and EP-100 are present", framingIds === "EP-001,EP-100", framingIds);
   check("Framing films are excluded from screenplay generation", framing.every((episode) => episode.generated_by_screenplay_system === false));
 
+  const digests = readJson("digests");
+  const groupOf = new Map(groups.flatMap((group) => group.concepts.map((concept) => [concept.id, group.id])));
+  check("Digest files are named after their concept", digests.every((digest) => digest.name === `${digest.concept_id}.json` && digest.id === `DIG-${digest.concept_id}`));
+  check("Digests belong to the concept's group", digests.every((digest) => groupOf.get(digest.concept_id) === digest.group_id), digests.filter((digest) => groupOf.get(digest.concept_id) !== digest.group_id).map((digest) => digest.id).join(", "));
+  const citation = /\b(C\d{3}-[A-Z0-9]+):L\d+/g;
+  const badRefs = digests.flatMap((digest) => {
+    const refs = new Set(digest.sources_read.map((source) => source.ref));
+    const text = digest.sinhala_explanation.map((section) => section.text).join(" ");
+    return [...text.matchAll(citation)].map((match) => match[1]).filter((ref) => !refs.has(ref)).map((ref) => `${digest.id}:${ref}`);
+  });
+  check("Digest citations point to sources that were read", badRefs.length === 0, [...new Set(badRefs)].join(", "));
+
+  const ideas = readJson("ideas");
+  const ideaIds = new Set(ideas.map((idea) => idea.id));
+  check("Idea IDs match file names", ideas.every((idea) => /^IDEA-\d{4}$/.test(idea.id) && idea.name === `${idea.id}.json`));
+  check("Ideas point to existing groups and concepts", ideas.every((idea) => groups.some((group) => group.id === idea.group_id) && idea.concept_links.every((link) => conceptIds.has(link.concept_id))));
+  check("Idea connections resolve", ideas.every((idea) => idea.connections.every((connection) => ideaIds.has(connection.idea_id))));
+  check("Location suggestions are never selections", ideas.every((idea) => idea.location.suggestions.every((suggestion) => suggestion.status === "ai_suggestion") && (idea.location.selected_location_id === null || idea.location.selected_location_decision_id)));
+
+  const episodes = readJson("episodes").sort((a, b) => a.chronology.global_position - b.chronology.global_position);
+  if (episodes.length) {
+    const places = new Set(readJson("locations").map((place) => place.id));
+    const decisions = readJson("decisions");
+    const chathuraDecisions = new Set(decisions.filter((decision) => decision.reviewer_role === "chathura").map((decision) => decision.id));
+    check("Episode IDs match file names", episodes.every((episode) => /^EPD-\d{4}$/.test(episode.id) && episode.name === `${episode.id}.json`));
+    check("Episode global positions run 1..n without gaps", episodes.every((episode, index) => episode.chronology.global_position === index + 1));
+    check("Episodes reference existing ideas", episodes.every((episode) => episode.idea_ids.length && episode.idea_ids.every((id) => ideaIds.has(id))));
+    const usedIdeas = episodes.flatMap((episode) => episode.idea_ids);
+    check("Each idea is used by at most one episode", new Set(usedIdeas).size === usedIdeas.length);
+    check("Episodes stay inside their group's block", groups.every((group) => {
+      const positions = episodes.filter((episode) => episode.chronology.group_id === group.id).map((episode) => episode.chronology.global_position);
+      return positions.length === 0 || Math.max(...positions) - Math.min(...positions) + 1 === positions.length;
+    }));
+    check("Each group's first film acquires its object, and no other film does", groups.every((group) => {
+      const own = episodes.filter((episode) => episode.chronology.group_id === group.id);
+      return own.length === 0 || (own[0].object.acquires === group.object_id && own.slice(1).every((episode) => !episode.object.acquires));
+    }));
+    check("Objects only appear after they are acquired", episodes.every((episode) => episode.object.appears.every((objectId) => {
+      const source = episodes.find((other) => other.object.acquires === objectId);
+      return source && source.chronology.global_position <= episode.chronology.global_position;
+    })));
+    check("Selected episode locations come from Chathura's decisions", episodes.every((episode) => !episode.location.selected_location_id
+      || (places.has(episode.location.selected_location_id) && chathuraDecisions.has(episode.location.selected_location_decision_id))));
+    const last = episodes.at(-1);
+    check("The last chronological film is pinned as Episode 99", last.release.public_number === 99);
+    if (groups.length === 10 && episodes.length === 98) {
+      check("Finalised slate: group sizes match their film counts", groups.every((group) => episodes.filter((episode) => episode.chronology.group_id === group.id).length === group.draft_film_count));
+    }
+  }
+
   const allRecords = fs.readdirSync(development, { withFileTypes: true }).filter((entry) => entry.isDirectory()).flatMap((entry) => readJson(entry.name));
   const unauthorisedLocations = allRecords.filter((record) => record.selected_location_id && !record.selected_location_decision_id);
   check("Selected locations carry a Chathura decision", unauthorisedLocations.length === 0, unauthorisedLocations.map((record) => record.id).join(", "));

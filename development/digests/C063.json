@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C063",
+  "record_type": "concept_digest",
+  "concept_id": "C063",
+  "group_id": "GRP-07",
+  "title_si": "රූප විසි අට",
+  "title_en": "The twenty-eight kinds of matter",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C063-P",
+      "path": "content/02-concepts/Chapter 6/Concept 63 - රූප විසි අට/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-69",
+      "complete": true,
+      "markers": "Book 2, ch. 6 (රූප සංග්‍රහ විභාගය), pdf 28–31 / printed 18–20; extract starts mid-page on pdf 28. File ends at L69 (the 70th line is the trailing newline)."
+    },
+    {
+      "ref": "C063-M",
+      "path": "content/02-concepts/Chapter 6/Concept 63 - රූප විසි අට/sources/Abhidharma Margaya.md",
+      "lines": "1-13",
+      "complete": true,
+      "markers": "Lesson headed '1. රූප විසි අට'; no page markers in extract"
+    }
+  ],
+  "summary_en": "Both sources teach that matter (rūpa) comes in twenty-eight kinds: four great elements and twenty-four kinds of 'derived' matter that exist in dependence on those four. The Pradeepika first says what matter is. Everything that can be seen, heard, smelled, tasted or touched, from mountains and oceans to drum-sounds and flavours, is a changing pattern of forces that arises from conditions and is altered by opposing conditions such as cold and heat. Matter never arises without a cause: its four sources are past action (kamma), mind, temperature and nutriment. Each unit of matter has a moment of arising, a period of standing and a moment of breaking up, lasting seventeen mind-moments. A thing looks stable only because its sustaining condition stays the same, and it changes (as when fire turns it to ash) when that condition changes. The Pradeepika then sorts the twenty-eight into eleven classes. The Margaya sorts the same twenty-eight into eighteen 'concrete' kinds and ten 'non-concrete' kinds. Both explain why the tangible object is not counted separately: it is simply three of the great elements.",
+  "sinhala_explanation": [
+    {
+      "heading": "රූපය යනු කුමක්ද?",
+      "text": "ප්‍රදීපිකාව රූප විභාගය ආරම්භ කරන්නේ චිත්ත, චෛතසික, රූප, නිර්වාණ යන සතර පරමාර්ථයන් අතුරෙන් චිත්ත-චෛතසික පෙර විස්තර කළ බවත්, මෙතැන් සිට රූප පරමාර්ථය විස්තර කරන බවත් කියමිනි [C063-P:L18]. ඇසට පෙනෙන මහ පොළොව, කඳු, ගල්, ගස්, මුහුද, ගංගා, සඳ, හිරු, තරු; කනට ඇසෙන අහස ගිගුරුම, බෙර, වීණා, මිනිස් හඬ; නාසයට දැනෙන සුවඳ-දුගඳ; දිවට දැනෙන මිහිරි-තිත්ත රස; කයට දැනෙන සැප-දුක් පහස ආදී යම් පමණ වස්තු සමූහයක් ඇත්නම්, ඒ සියල්ලම නොයෙක් ප්‍රත්‍යයන් නිසා හටගත් ශක්ති සමූහයක විකාර ස්වභාවයකි. ශීත-උෂ්ණ වැනි විරුද්ධ ප්‍රත්‍යයන් නිසා වෙනස් බවට පත්වන මේ ශක්ති විශේෂය හෙවත් ධර්ම සමූහය 'රූප' නම් වේ [C063-P:L20]. ද්‍රව්‍යයන්ගේ සියුම්ම පරමාණු රූප ඇස, කන, නාසය ආදියෙන් දැනගත නොහැකි ය; ඒවා නුවණින්ම අවබෝධ කළ යුතු ඉතා සියුම් ශක්ති විශේෂයෝ ය [C063-P:L20–L24]."
+    },
+    {
+      "heading": "රූපයේ හේතු, ආයුෂය හා වෙනස්වීම",
+      "text": "රූප ධර්ම ප්‍රත්‍යයක් නැතිව තනිවම පහළ නොවේ; කර්ම, චිත්ත, ඍතු, ආහාර යන සතර ප්‍රත්‍යයෙන් හටගනී. හටගත් රූප සදහටම නොබිඳී පවතින්නේ ද නැත: රූපයට උප්පාද, ඨිති, භඞ්ග යන අවස්ථා තුනක් ඇත [C063-P:L26]. රූපයේ පරමායුෂය චිත්තක්ෂණ සතළොසකි, එනම් කුඩා චිත්තක්ෂණ එක් පනසකි. පළමු කුඩා ක්ෂණය උප්පාදය ද, පනස් එක්වන ක්ෂණය භඞ්ගය ද, අතර ක්ෂණ සතළිස් නවය ඨිතිය ද වේ [C063-P:L26]. යම් ප්‍රත්‍යයක් එලෙසම පවතින තාක් කල් පළමු රූපයට සමාන රූප පරම්පරාවක් (සන්තතියක්) එයින් පහළ වේ; ප්‍රත්‍යය වෙනස් වුවහොත් රූපයද වෙනස් වේ. බොහෝ විට මේ වෙනස්වීම සිදුවන්නේ ශීත-උෂ්ණ වැනි විරුද්ධ ප්‍රත්‍යයන් නිසා ය. ඍතු ගුණය සමව පවතින කල වස්තුවක් එක ආකාරයෙන් පවතින සේ පෙනෙන්නේ එහි ප්‍රත්‍යය නොවෙනස්ව සමාන රූප පරම්පරාවක් උපදවන නිසා ය. තේජෝ ධාතුව අධික ගින්නක් ළං වූ විට වස්තුව දැවී අළු බවට පත්වන්නේ ඍතු හේතුවෙන් පළමු රූප පරම්පරාව වෙනස් කොට අන් ආකාරයක රූප පහළ කළ බැවිනි [C063-P:L26]."
+    },
+    {
+      "heading": "මහා භූත රූප සතර හා උපාදාය රූප විසි හතර",
+      "text": "රූප සියල්ල විසි අටකි. ඉන් සතරක් මහා භූත රූපයෝ ය; ඉතිරි විසි හතර මේ සතර මහා භූතයන් නිසා පවතින උපාදාය රූපයෝ ය [C063-P:L30]. මාර්ගයද එයම කියයි: රූපයන් අතුරෙන් ප්‍රධාන වන්නේ භූත රූප සතර ය; ඉතිරි විසි හතර භූත රූප නිසා ඇතිවන බැවින් උපාදාය රූප නම් වේ. එබැවින් රූප සමූහය 'භූත රූප සතර, උපාදාය රූප විසි හතර' ලෙස දෙකට ද බෙදේ [C063-M:L13]."
+    },
+    {
+      "heading": "ප්‍රදීපිකාවේ එකොළොස් ආකාර සංග්‍රහය",
+      "text": "ප්‍රදීපිකාව අටවිසි රූපය එකොළොස් ආකාරයකින් සංග්‍රහ කරයි [C063-P:L32]: (1) මහා භූත රූප 4: පඨවි, ආපෝ, තේජෝ, වායෝ ධාතු [C063-P:L36–L39]; (2) ප්‍රසාද රූප 5: චක්ෂු, සෝත, ඝාණ, ජිව්හා, කාය ප්‍රසාද [C063-P:L40–L44]; (3) ගෝචර රූප 4: රූප (වර්ණය), ශබ්ද, ගන්ධ, රස [C063-P:L45–L48]; (4) භාව රූප 2: ස්ත්‍රීභාව, පුරුෂභාව [C063-P:L50–L51]; (5) හදය වස්තු රූපය 1 [C063-P:L52]; (6) ජීවිතේන්ද්‍රිය 1 [C063-P:L53]; (7) කබලීකාරාහාරය (ආහාර රූපය) 1 [C063-P:L54]; (8) ආකාශ ධාතුව (පරිච්ඡේද රූපය) 1 [C063-P:L55]; (9) විඤ්ඤත්ති රූප 2: කාය විඤ්ඤත්ති, වචී විඤ්ඤත්ති [C063-P:L61–L62]; (10) විකාර රූප 3: ලහුතා, මුදුතා, කම්මඤ්ඤතා [C063-P:L63–L65]; (11) ලක්ෂණ රූප 4: උපචය, සන්තති, ජරතා, අනිච්චතා [C063-P:L66–L69]. ගෝචර රූප යටතේ පොට්ඨබ්බය (ස්පර්ශය) සඳහන් වුවද එයට අංකයක් නොදේ, මන්ද එය පඨවි, තේජෝ, වායෝ යන ධාතු තුන වන අතර ඒවා මහා භූත රූපවලට ඇතුළත් බැවින් නැවත ගණන් නොගැනේ [C063-P:L49]."
+    },
+    {
+      "heading": "මාර්ගයේ බෙදීම: නිෂ්පන්න රූප අටළොස හා අනිෂ්පන්න රූප දසය",
+      "text": "මාර්ගය එම රූප විසි අටම දෙකොටසකට බෙදයි. භූත රූප සතර, ප්‍රසාද රූප පස, ගෝචර රූප පස (රූප, ශබ්ද, ගන්ධ, රස, ස්ප්‍රෂ්ටව්‍ය), භාව රූප දෙක, හෘදය රූපය, ජීවිත රූපය, ආහාර රූපය යන මේවා නිෂ්පන්න රූප අටළොස ය [C063-M:L3]. ආකාශ ධාතුව, කාය විඤ්ඤත්ති-වචී විඤ්ඤත්ති-ලහුතා-මුදුතා-කම්මඤ්ඤතා යන විකාර රූප පස, උපචය-සන්තති-ජරතා-අනිච්චතා යන ලක්ෂණ රූප සතර යන මේවා අනිෂ්පන්න රූප දසය ය [C063-M:L5]. එකතුව රූප විසි අටකි [C063-M:L7]; මාර්ගය මේ විසි අට කට පාඩම් කරගන්නා ලෙස උපදෙස් දෙයි [C063-M:L9]. ස්ප්‍රෂ්ටව්‍යය කියා වෙනම රූපයක් නැත; ගෝචර රූප යටතේ ඒ නමින් කියැවෙන්නේ පඨවි, තේජෝ, වායෝ යන භූත රූප තුනයි. එබැවින් නිෂ්පන්න රූප ගණන් කිරීමේදී එය අත්හැරිය යුතු ය; නැතහොත් ගණන දහනවයක් වනු ඇත [C063-M:L11]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "රූපය",
+      "pali": "rūpa",
+      "en": "matter; that which is altered by opposing conditions such as cold and heat",
+      "note": "P describes it as a group of conditioned forces, not a substance [C063-P:L20]"
+    },
+    {
+      "term_si": "මහා භූත රූප",
+      "pali": "mahābhūta rūpa",
+      "en": "the four great elements (earth, water, fire, air)",
+      "note": "Primary; the other 24 depend on them [C063-P:L30; C063-M:L13]"
+    },
+    {
+      "term_si": "උපාදාය රූප",
+      "pali": "upādā rūpa",
+      "en": "derived matter, existing in dependence on the great elements",
+      "note": "P prints 'උපාදය' [C063-P:L30]"
+    },
+    {
+      "term_si": "ප්‍රසාද රූප",
+      "pali": "pasāda rūpa",
+      "en": "the five sensitive kinds of matter in eye, ear, nose, tongue and body"
+    },
+    {
+      "term_si": "ගෝචර රූප",
+      "pali": "gocara rūpa",
+      "en": "sense objects: visible form, sound, smell, taste (and touch)",
+      "note": "P counts 4, M counts 5 but drops touch from the 18 [C063-P:L45–L49; C063-M:L11]"
+    },
+    {
+      "term_si": "පොට්ඨබ්බ / ස්ප්‍රෂ්ටව්‍ය",
+      "pali": "phoṭṭhabba",
+      "en": "the tangible",
+      "note": "Not a separate item: it is earth, fire and air [C063-P:L49; C063-M:L11]"
+    },
+    {
+      "term_si": "භාව රූප",
+      "pali": "bhāva rūpa",
+      "en": "sex-determining matter (femininity, masculinity)"
+    },
+    {
+      "term_si": "හදය වස්තු රූපය",
+      "pali": "hadaya vatthu",
+      "en": "heart-base; the physical support of mind in this system"
+    },
+    {
+      "term_si": "ජීවිතේන්ද්‍රිය",
+      "pali": "jīvitindriya",
+      "en": "life-faculty of matter"
+    },
+    {
+      "term_si": "කබලීකාරාහාරය",
+      "pali": "kabaḷīkārāhāra",
+      "en": "edible food; nutritive essence as a kind of matter"
+    },
+    {
+      "term_si": "ආකාශ ධාතුව / පරිච්ඡේද රූපය",
+      "pali": "ākāsa dhātu / pariccheda rūpa",
+      "en": "space element; the delimiting gap between material groups"
+    },
+    {
+      "term_si": "නිෂ්පන්න රූප",
+      "pali": "nipphanna rūpa",
+      "en": "concrete matter (18 kinds)",
+      "note": "Division given in M only [C063-M:L3]"
+    },
+    {
+      "term_si": "අනිෂ්පන්න රූප",
+      "pali": "anipphanna rūpa",
+      "en": "non-concrete matter (10 kinds)",
+      "note": "[C063-M:L5]"
+    },
+    {
+      "term_si": "උප්පාද, ඨිති, භඞ්ග",
+      "pali": "uppāda, ṭhiti, bhaṅga",
+      "en": "arising, standing, breaking up: the three phases of each unit of matter",
+      "note": "Over 51 sub-moments [C063-P:L26]"
+    },
+    {
+      "term_si": "සන්තතිය / රූප පරම්පරාව",
+      "pali": "santati",
+      "en": "a continuous series of similar material units",
+      "note": "Lasts as long as its condition is unchanged [C063-P:L26]"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Steadiness is kept up, not owned",
+      "text": "The source's first move is to take away the idea that things simply are what they are. A hill, a river, a voice, a smell: each is described as a pattern that keeps getting made again as long as whatever makes it stays the same. Something looks unchanged from one day to the next because the same conditions go on producing the same kind of thing, not because it holds on to itself. Bring a fire close, and the same conditions that kept it steady now turn it to ash. For a series about vulnerability, this is the quiet starting point: a body that looks the same each morning is being kept up, moment by moment, by things it does not control."
+    },
+    {
+      "heading": "The same inventory for a mountain and a body",
+      "text": "The list of twenty-eight kinds covers the world and the body together. Hardness, cohesion, heat, motion, colour, smell and taste are the same whether they belong to rock or to flesh. A few items are found only in living bodies: the sense organs, the life-faculty, sex and the physical base of the mind. Nowhere in the list is there an item called 'owner'. Asking 'whose is this body?' against this inventory brings a sobering answer. There are qualities and processes, carefully counted, but nothing in the count is the one who owns them."
+    },
+    {
+      "heading": "Counting as a way of looking",
+      "text": "The Margaya tells the student to learn the twenty-eight by heart. Naming parts one by one is a practice of attention. When a solid-seeming whole is taken apart into its qualities, it stops looking like one thing. Many crafts do this too: a cook, a builder or a healer learns to see a whole as a set of qualities that can be told apart. The list is less a piece of information than a discipline for slowing down the eye."
+    }
+  ],
+  "does_not_transfer": [
+    "'Everything is energy' or 'everything is vibration': the source's 'forces' (ශක්ති) are momentary, conditioned phenomena inside a specific analytical scheme. They are not a cosmic energy or a spiritual substance, and not a claim of modern physics.",
+    "The seventeen-mind-moment lifespan of matter is a doctrinal measure, not a laboratory measurement. It should not be presented as a scientific fact about atoms.",
+    "'We are just matter': the scheme is not materialist. It sits alongside consciousness and mental factors, and it counts sense organs and a life-faculty that the sources elsewhere tie to past action.",
+    "'We are one with nature': the shared inventory of body and world is used to show that there is no owner in either. It does not suggest a mystical oneness.",
+    "The two kinds of sex-matter (ස්ත්‍රීභාව / පුරුෂභාව) belong to a classical binary scheme. They should not be quoted as an authority in modern debates about sex or gender."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A hill-country tea factory through one day's batch, from green leaf to black tea",
+      "what_camera_could_observe": "Leaves wilting on withering troughs, rolling machines, the colour turning, the smell changing through firing, a taster slurping and spitting at the end",
+      "why_it_fits": "Every sense-object in the list (colour, smell, taste, texture) changes together under heat. This is the source's own point that matter changes when its conditions (above all heat) change [C063-P:L26].",
+      "setting_type": "tea factory in the central hills",
+      "risk": "It could turn into a pretty process film with doctrine read over the top. Labour conditions on estates must not be glossed over for the sake of a metaphor."
+    },
+    {
+      "seed": "Young novices in a monastic school memorising long lists by chanting",
+      "what_camera_could_observe": "Rhythmic recitation, a teacher correcting a skipped item, a novice counting on his fingers, the lists repeated during chores",
+      "why_it_fits": "The Margaya itself tells the learner to learn the twenty-eight by heart [C063-M:L9]. Counting and naming is how this material is lived with.",
+      "setting_type": "village temple school (pirivena)",
+      "risk": "This is the one place where doctrine appears on screen directly, so it could become a lecture. Minors need guardian consent and should not be framed as quaint."
+    },
+    {
+      "seed": "A brick-maker judging when a kiln load is done",
+      "what_camera_could_observe": "Wet clay being moulded, stacking, days of firing, the maker tapping bricks and reading their colour and sound, a load that cracked",
+      "why_it_fits": "Fire changes hardness, colour and sound together. The maker reads the change through several senses at once, which is the source's point about matter being altered by heat [C063-P:L26].",
+      "setting_type": "small brick kiln in the dry zone",
+      "risk": "The maker's skill could be reduced to a symbol. Debt and exhaustion should not be aestheticised."
+    },
+    {
+      "seed": "A coastal family measuring how far the shoreline has moved toward their house",
+      "what_camera_could_observe": "Old marks, fallen coconut trees, the family's own photos compared with today, a seasonal storm, repairs",
+      "why_it_fits": "A landscape looks stable only while the conditions that produce it stay the same, and it shifts when they shift [C063-P:L26].",
+      "setting_type": "eroding stretch of the southern or western coast",
+      "risk": "Real loss and displacement could be turned into a metaphor. The family's own practical concerns must lead."
+    }
+  ],
+  "cross_source_notes": [
+    "Both sources agree on the total (28) and on the split into 4 great elements and 24 derived kinds [C063-P:L30; C063-M:L13].",
+    "Different ways of sorting: the Pradeepika uses an eleven-class scheme [C063-P:L32–L69]. The Margaya uses eighteen concrete kinds and ten non-concrete kinds [C063-M:L3–L7]. The members are the same, but the Margaya counts 'vikāra' as five (it includes the two intimations), while the Pradeepika lists intimation (2) and vikāra (3) as separate classes.",
+    "Sense objects: the Pradeepika numbers four and notes that the tangible is not counted again [C063-P:L45–L49]. The Margaya lists five, then says the tangible must be dropped to reach eighteen [C063-M:L3; C063-M:L11]. They reach the same result by different routes.",
+    "Only the Pradeepika gives the definition of matter, its four conditions and the 17-mind-moment (51 sub-moment) lifespan in this extract [C063-P:L20–L26]. The Margaya extract is a bare list with the counting rule.",
+    "Only the Margaya names the concrete/non-concrete division here, although the Pradeepika extract's scope note says that division is covered [C063-P:L9]."
+  ],
+  "uncertainties": [
+    "The Pradeepika scope note (L9) says the extract includes the concrete/non-concrete division, but no such passage appears in L14–L69. It may have been left out of the cut or appear later in the book. Not filled in.",
+    "Probable OCR error: 'පඤ්චිත' at C063-P:L20 most likely stands for 'පර්වත' (mountains). It has not been corrected in the explanation.",
+    "C063-P:L26 says matter arises 'only' from the four conditions (kamma, mind, temperature, nutriment). The characteristic kinds (lakkhaṇa rūpa), however, are said in C069 to arise from no condition. The general statement here needs reading with that exception in mind.",
+    "The middle phase of matter is called 'ṭhiti' (standing) here [C063-P:L26], while the same author's C066 extract calls the corresponding 49 sub-moments 'jaratā' (decay). This is a terminology shift that needs an expert check before the two are equated on screen.",
+    "The heart-base (හදය වස්තු) as the physical support of mind is a doctrinal position. It is not a claim of anatomy and needs expert framing if it is ever mentioned."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

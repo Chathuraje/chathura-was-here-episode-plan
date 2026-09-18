@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0056",
+  "record_type": "idea",
+  "title": "Mixed Signs",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-04",
+  "logline": "At first light on the east coast, a fishing crew stands between a calm-looking sea and a forecast that says otherwise. The boat is half-ready. The conversation goes round again.",
+  "human_question": "How do you decide when the signs will not agree?",
+  "premise": {
+    "story": "A fishing crew's decision, on a morning when the season is turning, whether to put out to sea. Their knowledge of sky and water, their debts and the lost income of staying ashore all weigh in. The film stays with them either way: at sea, or ashore untangling nets from the last rough night.",
+    "place": "An east-coast landing beach at the edge of the monsoon: boats pulled up on sand, grey light over the water, nets in heaps.",
+    "experience": "The viewer stands on the beach inside the not-knowing, and learns why hesitation here is often wisdom."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C008",
+      "role": "primary",
+      "why": "Pradeepika's general description of doubt is a mind that cannot reach a decision about its object [C008-P:L34]. The crew's morning shows what an unsettled decision looks like. The source's harmful doubt is narrower, and the film must not call a sensible weather decision deluded."
+    },
+    {
+      "concept_id": "C074",
+      "role": "supporting",
+      "why": "If the crew stays ashore, the knotted nets from a rough night are the source's knots (gantha), which tie present to future and take patient work to undo."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Crews reading the sky, the swell and the wind",
+    "Phones and radios giving forecasts that contradict each other",
+    "A boat half-prepared and then left, or finally pushed out",
+    "Nets hauled up in a tangled heap and worked loose knot by knot",
+    "The sea later in the day, showing who was right, if anyone"
+  ],
+  "what_must_be_real": "The crew, their decision and the weather must be real. No decision is prompted or delayed for the camera, and no one goes to sea because of the film.",
+  "possible_arc": {
+    "opening": "Grey dawn, a boat half-ready, people looking at the sky.",
+    "turn": "The signs contradict each other and the decision keeps not being made.",
+    "ending_open": "The crew goes, or does not. The ending follows what really happened and what they say about it."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A fishing community that goes out daily and faces seasonal weather decisions",
+      "A crew willing to be filmed on an undecided morning, whatever they choose",
+      "Safety rules: the camera never pushes anyone to sea"
+    ],
+    "suggestions": [
+      {
+        "name": "Fishing beaches of Batticaloa district",
+        "region": "Eastern Province",
+        "why": "East-coast fishing communities face the north-east monsoon, which makes the sea rough for part of the year.",
+        "season_notes": "Transition into or out of the north-east monsoon (roughly Oct–Nov or Feb–Mar)",
+        "access_notes": "",
+        "verify": "Confirm season timing, a specific landing site and community consent.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Presenting hesitation as a flaw when it is often wisdom",
+    "Danger to crew and film team at sea",
+    "Net-mending as documentary cliché without a real person at its centre"
+  ],
+  "drop_if": [
+    "The weather simply decides for everyone, leaving no open decision"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0054",
+      "relation": "pairs with",
+      "note": "Two unsettled decisions: which road, and whether to go out at all."
+    },
+    {
+      "idea_id": "IDEA-0057",
+      "relation": "pairs with",
+      "note": "Knots in nets and ropes on stakes: two images of being tied that belong to people's real work."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

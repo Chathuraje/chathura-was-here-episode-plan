@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C066",
+  "record_type": "concept_digest",
+  "concept_id": "C066",
+  "group_id": "GRP-07",
+  "title_si": "අනිෂ්පන්න රූප දශය",
+  "title_en": "The ten non-concrete kinds of matter: space, expression, pliancy, growth, decay and impermanence",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C066-P",
+      "path": "content/02-concepts/Chapter 6/Concept 66 - අනිෂ්පන්න රූප දශය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-149",
+      "complete": true,
+      "markers": "Book 2, ch. 6 (රූප සංග්‍රහ විභාගය), pdf 64–75 / printed 53–64; extract starts mid-page on pdf 64. Includes the section on the lifespan of matter (L139–L149)."
+    },
+    {
+      "ref": "C066-M",
+      "path": "content/02-concepts/Chapter 6/Concept 66 - අනිෂ්පන්න රූප දශය/sources/Abhidharma Margaya.md",
+      "lines": "1-29",
+      "complete": true,
+      "markers": "Lesson headed '4. අනිෂ්පන්න රූප දශය'; no page markers"
+    }
+  ],
+  "summary_en": "Ten of the twenty-eight kinds of matter are not produced directly by the four conditions. They are aspects or modes of the concrete kinds, and the Margaya calls them 'non-concrete' for this reason. The first is the space element. This is the boundary-gap that keeps material groups apart so that they do not merge, and it is distinguished from open space. Next come the two kinds of 'intimation': a particular mode of mind-produced matter through which a bodily movement or a spoken sound conveys what someone means. Then come three qualities of the body: lightness, softness and workability, which appear when weather, mind and food are suitable and disappear when they are not. Last are the four characteristics of matter: initial growth, continuity, decay and impermanence. The Pradeepika explains each in detail, with worked examples of walking and speaking, a note that a gramophone can reproduce a voice but not the intimation, and an account of embryonic growth. It ends by giving the lifespans: most matter lasts seventeen mind-moments, intimation lasts one, and decay occupies 49 of the 51 sub-moments.",
+  "sinhala_explanation": [
+    {
+      "heading": "ආකාශ ධාතුව (පරිච්ඡේද රූපය)",
+      "text": "රූප තනි තනිව නොව කලාප වශයෙන් හටගන්නා අතර, කලාප එකිනෙකට වෙන්ව පවතී; එබැවින් කලාප දෙකක් අතර කිසිවක් නැති හිස් ස්වභාවයක් තිබිය යුතුය, නැතහොත් ඒවා වෙන් නොවේ [C066-P:L18–L22]. රූප කලාප වෙන්කොට පෙන්වන, රූපයන්ගේ පිරිසිඳීම මාත්‍රය වන මෙය 'ආකාශය' ද, සත්ත්වයෙක් නොවන බැවින් 'ධාතු' ද, කලාප පරිච්ඡේද කරන බැවින් 'පරිච්ඡේද රූප' ද නම් වේ [C066-P:L22]. එය පඨවි ආදිය මෙන් ඒකාන්ත ලක්ෂණ ඇති පරමාණු ධර්මයක් නොවුවද, වෙන් කරන කලාප උපදින විට පහළවී ඒවා නිරුද්ධ වන විට අභාවයට යන බැවින් වෙනම රූපයක් ලෙස සැලකේ [C066-P:L22]. එහි ලක්ෂණය රූප පරිච්ඡේදය, කෘත්‍යය රූපයන්ගේ කෙළවර පෙන්වීම, පච්චුපට්ඨානය සීමාව, පදට්ඨානය පිරිසිඳිය යුතු රූප ය [C066-P:L26]. මාර්ගයද කියන්නේ අටවිසි රූපයට ගැනෙන්නේ ඝන වස්තුවල කලාප එකිනෙකින් වෙන් කරන පරිච්ඡේද ආකාශය බවත්, එය වෙනම ඉපදීමක් ඇති නියම පරමාර්ථයක් නොවුවද කලාපවල අමිශ්‍ර පැවැත්මට අවශ්‍ය බැවින් රූපයක් ලෙස ගණන් ගන්නා බවත් ය [C066-M:L5]. 'අජටාකාශය' ගැන මූලාශ්‍ර දෙක වෙනස් ය: ප්‍රදීපිකාවට අනුව අපට පෙනෙන අහස වායු කලාපවලින් පිරී ඇති බැවින් එය හිස් නොවේ; අජටාකාශය යයි කිව යුත්තේ වායු, ආලෝකය, ශීතෝෂ්ණය කිසිවක් නැති පෙදෙසට ය [C066-P:L32]. මාර්ගයට අනුව අජටාකාශය සියලු වස්තූන්ගේ හා පුද්ගලයන්ගේ පැවැත්මට ස්ථානය වන ලෝක කුහරය යි [C066-M:L5]."
+    },
+    {
+      "heading": "විඤ්ඤත්ති රූප දෙක: කය හා වචනය හරහා අදහස හැඟවීම",
+      "text": "සත්ත්වයෝ තම අදහස් අනුන්ට හඟවනු කැමති විට ශරීරාවයව සැලීමෙන් හෝ මුවින් නිකුත් කරන ශබ්දයෙන් හඟවති; අනුන්ද එයින් අදහස දැනගනිති. එයට හේතු වන්නේ විඤ්ඤත්ති රූපය යි: කාය විඤ්ඤත්ති සහ වචී විඤ්ඤත්ති [C066-P:L36]. කාය විඤ්ඤත්තිය නම් යාම, ඒම, අත්පා දිගහැරීම-හැකිළීම ආදී ක්‍රියා පවත්වන, සිත නිසා හටගත් වායෝ ධාතුව හා එක්ව උපදින ආකාර විශේෂයයි; ශරීරාවයවයන්ගේ සැලීම විඤ්ඤත්තිය නොව, එය කරවන චිත්තජ වායෝ ධාතු අධික භූතයන්ගේ විකාරයම විඤ්ඤත්තිය යි [C066-P:L40–L44]. ඇවිදීමේ නිදසුනෙන් ප්‍රදීපිකාව මෙය පෙන්වයි: ඇවිදීම ගැන සිතූ පමණින් ඇවිදීමක් නොවේ; අවයව රෝගයකින්, අනතුරකින් හෝ මොළය හා සම්බන්ධය නැතිවීමෙන් දුබල නොවී ඇත්නම්, එම සිත්වල ශක්තියෙන් චිත්තජ වායෝ ධාතු අධික කලාප අවයවවල උපදවනු ලැබ ඒවා චලනය වේ; නැවතීමට අදහස් කළ විට එම සන්තතිය නැවතී සිටීමට හෝ හිඳීමට උපකාර වන අවයවවල වායෝ ධාතුව උපදී [C066-P:L46–L50]. මාර්ගය උපමාවක් දෙයි: අඳුරු කාමරයක ගිනිකූරක් ගැසූ විට කාමරය පුරා ආලෝකය පැතිරෙන්නාක් මෙන්, ක්‍රියා කිරීමේ උත්සාහය ඇති සිත උපදින විට අවශ්‍ය අවයව පුරා වායුවක් ඇතිවේ; විඤ්ඤත්තිය එම වායු වේගය අවශ්‍ය අතට මෙහෙයවන බලවිශේෂය යි [C066-M:L11]. වචී විඤ්ඤත්තිය නම් කතා කිරීමට කැමති විට සිතේ ශක්තියෙන් සුද්ධාෂ්ටක කලාප සමගම භූත ගැටීමෙන් ශබ්දයද උපදවා අදහස හඟවන විකාර ස්වභාවය යි [C066-P:L54]; මාර්ගයට අනුව එය අවශ්‍ය අකුරු, වචන සෑදෙන පරිදි ශබ්දය මෙහෙයවන බලවිශේෂය යි [C066-M:L15]. ප්‍රදීපිකාව කියන්නේ එම ශබ්දයට සමාන ශබ්ද රේඩියෝ, ග්‍රාමෆෝන් වැනි යන්ත්‍රවලින් ඍතුජ කලාප ලෙස නැවත නැවත නිකුත් කළ හැකි නමුත් ඒවායේ වචී විඤ්ඤත්තිය නැති බවයි [C066-P:L54]. අසන්නාට අදහස තේරෙන්නේ ඒ ශබ්ද පෙර අසා පුරුදු නම් පමණි [C066-P:L62]."
+    },
+    {
+      "heading": "ලහුතා, මුදුතා, කම්මඤ්ඤතා: සැහැල්ලු බව, මෘදු බව, ක්‍රියාවට යෝග්‍ය බව",
+      "text": "ප්‍රදීපිකාවට අනුව විකාර රූප තුනකි; විඤ්ඤත්ති දෙකද එකතු කළ විට පසකි [C066-P:L68–L76]; මාර්ගය විඤ්ඤත්ති දෙක හා ලහුතාදි තුන එක්ව 'විකාර රූප පස' ලෙස ගෙන, ඒවා වරින් වර කයෙහි ඇතිවන ආකාර විශේෂ බව කියයි [C066-M:L21]. ලහුතාව නම් නොබර බව, සැහැල්ලු බවයි [C066-P:L82]. නොමනා හැසිරීම, වෙහෙස, සිත් තැවීම, නිදි මදිකම, විෂ වීම, ශීත-උෂ්ණ පීඩාව, ආහාර නොගැනීම හෝ අපථ්‍ය හෝ අධික ආහාර නිසා ශරීරය බර වේ; සුදුසු ආහාර, ඖෂධ ආදියෙන් (සප්පාය සේවනයෙන්) ලහුතා රූප සහිත කලාප පහළවී සැහැල්ලු බව, අනලස බව දැනේ [C066-P:L84]. මුදුතාව නම් මොළොක් බව; අසප්පාය හේතුවලින් ශරීරය තද-රළු වූ විට සුදුසු පිළියමෙන් එය 'මදින ලද සමක්' මෙන් මෘදු වේ [C066-P:L88–L94]. කම්මඤ්ඤතාව නම් වැඩට යෙදවිය හැකි බව; එය 'මනාකොට සකස් කළ රන්' මෙන් ශරීරය කටයුත්තට අනුකූල කරයි [C066-P:L98–L100]. මේ තුන කර්මජ කලාපවල නොව චිත්තජ, ඍතුජ, ආහාරජ කලාපවල පමණක්, සහ තුනම එකවර එකම කලාපයක පහළ වේ; පවතින තත්ත්වය අනුව එකක් අනෙක් දෙකට වඩා ප්‍රකට වේ [C066-P:L102–L106]. මාර්ගයද ඒවා 'අන්‍ය රූපයන්ගේ ගුණ තුනක්' ලෙස හඳුන්වා, කාල ගුණය, සිත, ආහාර, රෝග නරක් වූ විට බර ගතියක්, නැවීමේදී වේදනා දෙන තද ගතියක්, අවශ්‍ය පරිදි ක්‍රියා කළ නොහැකි ගතියක් ඇතිවන බවත්, ඒවා හොඳ වූ විට ලහුතාදිය ඇතිවන බවත් කියයි [C066-M:L19]."
+    },
+    {
+      "heading": "ලක්ෂණ රූප සතර: උපචය, සන්තති, ජරතා, අනිච්චතා",
+      "text": "ලක්ෂණ රූප නම් රූපයන්ගේ අවස්ථා හඳුනාගැනීමට උපකාර වන ලක්ෂණයෝ ය [C066-P:L110–L117]; සියලු රූප කලාපයන්ට ඉපදීම, දිරීම, බිඳීම යන අවස්ථා තුනක් ඇත [C066-P:L119]. ගර්භයේ පිළිසිඳ ගන්නා සත්ත්වයන්ට පටිසන්ධි ක්ෂණයේම කාය දසක, භාව දසක, වස්තු දසක යන කලාප තුන පහළ වී, පසුව චක්ඛු, සෝත, ඝාණ, ජිව්හා දසක පහළවීමෙන් රූප සම්පූර්ණ වේ; මිනිසුන්ට මෙය පටිසන්ධියෙන් එකොළොස්වන සතිය අවසානය (77 වන දිනය) වන විට සම්පූර්ණ වන බව ප්‍රදීපිකාව කියයි [C066-P:L121–L125]. එම පළමු උත්පාදයත්, වැඩීම සම්පූර්ණ වන තෙක් උත්පාදයත් 'උපචය' ය [C066-P:L127]. රූප සම්පූර්ණ වූ පසු නිරුද්ධ වන කලාප වෙනුවට සන්තතිය නොබිඳ අලුත් කලාප නිරන්තරයෙන් පහළ වීම 'සන්තති' ය [C066-P:L129]; මේ දෙක 'ජාති රූප' ලෙසද හැඳින්වේ [C066-P:L131]. සෑම රූපයක්ම උත්පාදයෙන් පසු ක්‍රමයෙන් දිරයි; නොදිරන රූපයක් නැත; මෙය 'ජරතා' ය [C066-P:L137]. කුඩා කල වැඩීම ප්‍රකට බැවින් දිරීම නොපෙනේ; ශරීරය වැඩී අවසන් වූ පසු දිරීම ප්‍රකට වේ. හිසකෙස් පැසීම, දත් වැටීම, රැලි වැටීම දිරීමම නොව දිරීම ඇති වූ බව පළකරන ලකුණු පමණි [C066-P:L137]. පනස් එක්වන කුඩා ක්ෂණයේ සිදුවන බිඳීම 'අනිච්චතා' ය [C066-P:L137]. මාර්ගය මෙය කෙටියෙන් කියයි: උපචය හා සන්තති දෙකම උත්පාදය ය; රූප සම්පූර්ණ වීමට පෙර උත්පාදය උපචය, පසු බිඳෙන රූප වෙනුවට නැවත නැවත උපදින රූපයන්ගේ උත්පාදය සන්තති, දිරීම ජරතා, බිඳීම අනිච්චතා; මේවා අන්‍ය රූපයන්ගේ ලක්ෂණ බැවින් ලක්ෂණ රූප නම් වේ [C066-M:L25]."
+    },
+    {
+      "heading": "'අනිෂ්පන්න' යන්න සහ රූපයේ ආයුෂය",
+      "text": "මාර්ගයට අනුව පරිච්ඡේද රූපය, විකාර රූප පස, ලක්ෂණ රූප සතර යන දසය කර්මාදි ප්‍රත්‍යයන්ගෙන් කෙළින්ම හට නොගන්නා බැවින් අනිෂ්පන්න රූප නම් වේ [C066-M:L27]. ආයුෂය පිළිබඳව: විඤ්ඤත්ති දෙක හා ලක්ෂණ සතර හැර ඉතිරි රූප දෙවිස්සේ ආයුෂය චිත්තක්ෂණ සතළොසක් (කුඩා ක්ෂණ එක් පනසක්) [C066-P:L141; C066-M:L29]; විඤ්ඤත්ති රූපවල ආයුෂය එක් චිත්තක්ෂණයක් (කුඩා ක්ෂණ තුනක්) [C066-P:L145; C066-M:L29]; උපචය, සන්තති, අනිච්චතා එක් කුඩා ක්ෂණයක් [C066-P:L147; C066-M:L29]; ජරතාව කුඩා ක්ෂණ එකුන් පනසක් (49) [C066-P:L149; C066-M:L29]. වචී විඤ්ඤත්තිය එය උපදවන සිත සමගම නිරුද්ධ වන නමුත්, සමගම උපන් ශබ්දය ඇතුළු අනෙක් චිත්තජ රූප චිත්තක්ෂණ සතළොසක් පවතී [C066-P:L56–L60]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "අනිෂ්පන්න රූප",
+      "pali": "anipphanna rūpa",
+      "en": "non-concrete matter; not directly produced by the four conditions",
+      "note": "Term and definition from M [C066-M:L27]"
+    },
+    {
+      "term_si": "ආකාශ ධාතුව / පරිච්ඡේද රූපය",
+      "pali": "ākāsa dhātu / pariccheda rūpa",
+      "en": "space element; the delimiting gap between material groups",
+      "note": "[C066-P:L22; C066-M:L5]"
+    },
+    {
+      "term_si": "අජටාකාශය",
+      "pali": "ajaṭākāsa",
+      "en": "unentangled / open space",
+      "note": "Defined differently by P and M [C066-P:L32; C066-M:L5]"
+    },
+    {
+      "term_si": "විඤ්ඤත්ති",
+      "pali": "viññatti",
+      "en": "intimation; the mode of matter through which a meaning is communicated"
+    },
+    {
+      "term_si": "කාය විඤ්ඤත්තිය",
+      "pali": "kāya viññatti",
+      "en": "bodily intimation",
+      "note": "Not the movement itself but the mode of mind-born air element causing it [C066-P:L44]"
+    },
+    {
+      "term_si": "වචී විඤ්ඤත්තිය",
+      "pali": "vacī viññatti",
+      "en": "vocal intimation",
+      "note": "Absent in recorded sound [C066-P:L54]"
+    },
+    {
+      "term_si": "විකාර රූප",
+      "pali": "vikāra rūpa",
+      "en": "mutable/modal matter",
+      "note": "P: three (or five with intimations) [C066-P:L68–L76]; M: five [C066-M:L21]"
+    },
+    {
+      "term_si": "ලහුතා",
+      "pali": "lahutā",
+      "en": "lightness, buoyancy of the body"
+    },
+    {
+      "term_si": "මුදුතා",
+      "pali": "mudutā",
+      "en": "softness, pliancy"
+    },
+    {
+      "term_si": "කම්මඤ්ඤතා",
+      "pali": "kammaññatā",
+      "en": "workability, fitness for action"
+    },
+    {
+      "term_si": "සප්පාය / අසප්පාය",
+      "pali": "sappāya / asappāya",
+      "en": "suitable / unsuitable (food, climate, conduct)",
+      "note": "[C066-P:L84]"
+    },
+    {
+      "term_si": "ලක්ෂණ රූප",
+      "pali": "lakkhaṇa rūpa",
+      "en": "the characteristics of matter (growth, continuity, decay, impermanence)"
+    },
+    {
+      "term_si": "උපචය / සන්තති",
+      "pali": "upacaya / santati",
+      "en": "initial growth / continuity (both forms of arising)",
+      "note": "Together called ජාති රූප [C066-P:L131]"
+    },
+    {
+      "term_si": "ජරතා",
+      "pali": "jaratā",
+      "en": "decay, ageing of matter",
+      "note": "Grey hair is only its sign [C066-P:L137]"
+    },
+    {
+      "term_si": "අනිච්චතා",
+      "pali": "aniccatā",
+      "en": "impermanence; the breaking up of matter"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "What separates, what signals, what eases",
+      "text": "This part of the list collects things you cannot hold in your hand, yet the body could not do without them. There is the gap that keeps one thing from blurring into another. There is the 'meaning' carried by a wave of the hand or a spoken word. There are the everyday qualities that make a body feel easy, supple and ready rather than heavy and stiff. And there are the stages that everything physical passes through. None of these is a separate thing. Each is a way that other things are arranged, carried or changing."
+    },
+    {
+      "heading": "A recording has the voice but not the person meaning it",
+      "text": "The Pradeepika notices that a machine can reproduce the sound of someone's voice exactly, and yet what made the sound a message is missing: a living person's intention shaping breath and throat at that moment. Anyone who has listened to a recording of someone who has died knows this gap. The words are the same, but no one is saying them now. The source gives a precise name to that absence."
+    },
+    {
+      "heading": "Ease is on loan from conditions",
+      "text": "Lightness, softness and readiness are not presented as fixed traits. They appear when sleep, food, weather and mood are right, and they vanish with overwork, poor food, worry or illness. The body we rely on to 'just work' is described as a run of good conditions, and that run can end. This is vulnerability in its most ordinary, daily form."
+    },
+    {
+      "heading": "Grey hair is only the messenger",
+      "text": "The most striking line may be that grey hair, lost teeth and wrinkles are not decay itself. They are only signs that decay has already been happening. By the source's own arithmetic, decay fills almost the whole short life of every bit of matter. In childhood it is simply hidden behind growth. Ageing does not begin at some point in middle age. It was there from the start, and only became visible later."
+    }
+  ],
+  "does_not_transfer": [
+    "'Space is just empty nothing': the space counted here is not the sky or a void. It is the boundary between material groups, which the source counts as a kind of matter even while admitting it is not a true independent reality.",
+    "'Body language' self-help: intimation here is a technical account of how mind-produced matter carries meaning. It is not a guide to reading or controlling other people's gestures.",
+    "'Positive thinking keeps you young': the sources say a good mind is one of several conditions (with weather and food) for lightness and pliancy. They do not promise that attitude cures illness or halts decay.",
+    "The 77-day timeline for completing the sense-organs in the womb [C066-P:L125] is a traditional doctrinal figure. It is not embryology and must not be used in any reproductive-health or abortion argument.",
+    "The Pradeepika's references to the brain and to radios and gramophones are the modern author's own illustrations, not claims of the classical text."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A family listening together to an old cassette recording of a relative who has died",
+      "what_camera_could_observe": "Finding the tape and a player that still works, the first seconds of the voice, faces in the room, someone speaking back to the recording",
+      "why_it_fits": "The Pradeepika says a machine can reproduce a voice but not the intimation, that is, a living person meaning it now [C066-P:L54].",
+      "setting_type": "family home, anywhere in Sri Lanka",
+      "risk": "Grief must not be staged or prolonged for the camera. The family should decide whether and when this is filmed."
+    },
+    {
+      "seed": "A school for deaf children where sign language is taught and used in play",
+      "what_camera_could_observe": "Children signing in class and at play, a new pupil's first signs, teachers and parents learning to sign",
+      "why_it_fits": "Bodily intimation is meaning carried by movement, and it is understood only by those who share the convention, just as speech is understood only by those who have heard it before [C066-P:L36; C066-P:L62].",
+      "setting_type": "residential or day school for the deaf",
+      "risk": "Disability must not be used as a metaphor for doctrine. The children's own world must lead, with consent from guardians and the community."
+    },
+    {
+      "seed": "Plantation workers' early-morning routine before the day's plucking or tapping",
+      "what_camera_could_observe": "Stiff first movements, tea and food, the body loosening as the sun rises, the difference on a cold rainy morning or after a bad night",
+      "why_it_fits": "Lightness, softness and workability come and go with weather, food, mind and rest [C066-P:L84–L100; C066-M:L19].",
+      "setting_type": "tea or rubber estate line houses",
+      "risk": "Exhaustion and hard working conditions could be aestheticised as 'the body's rhythms'. The workers' own account must frame it."
+    },
+    {
+      "seed": "A village barber over a season, with customers from boys to old men",
+      "what_camera_could_observe": "First haircuts, young men's styles, older men asking for dye, grey hair falling on the floor, conversations about age",
+      "why_it_fits": "Grey hair is not decay itself, only the sign of it. Decay is hidden in youth by growth and becomes visible after growth ends [C066-P:L137].",
+      "setting_type": "small-town barber shop",
+      "risk": "It could slide into a gentle 'everyone ages' montage. Customers' vanity or anxieties should not be mocked."
+    },
+    {
+      "seed": "Someone relearning to walk in a rehabilitation ward after a stroke or accident",
+      "what_camera_could_observe": "Physiotherapy sessions, the gap between intending a step and the leg responding, small gains over weeks",
+      "why_it_fits": "The Pradeepika's own walking example: wanting to walk does not make walking happen unless the body can carry the mind's impulse, and injury or loss of the brain connection breaks that link [C066-P:L46].",
+      "setting_type": "hospital rehabilitation unit",
+      "risk": "High. Medical privacy and consent are essential, and the person must never be made into a doctrinal illustration."
+    }
+  ],
+  "cross_source_notes": [
+    "On the definition of 'ajaṭākāsa' the sources differ. The Pradeepika says visible sky is not empty (it is full of air-groups) and reserves the term for a region with no air, light or temperature [C066-P:L32]. The Margaya calls it the world-cavity that is the place of all things and persons [C066-M:L5]. They agree that only the delimiting space between groups is counted among the 28 [C066-P:L22; C066-M:L5].",
+    "Counting the modal kinds: the Pradeepika gives three vikāra rūpa, or five if the two intimations are included [C066-P:L68–L76]. The Margaya treats all five as vikāra rūpa [C066-M:L21].",
+    "Intimation: the Pradeepika explains it through a long walking example and a gramophone example [C066-P:L46–L54]. The Margaya uses the simile of a match lighting a dark room and describes intimation as the 'steering' force that directs the mind-born air or sound [C066-M:L11–L15].",
+    "Only the Margaya gives the word 'anipphanna' and its reason (not produced directly by kamma and the other conditions) [C066-M:L27]. The Pradeepika extract does not use the term.",
+    "Only the Pradeepika gives the embryological sequence of decads [C066-P:L121–L127], the point about grey hair [C066-P:L137] and the fourfold definition of space [C066-P:L26]. Both give the same lifespan figures [C066-P:L141–L149; C066-M:L29]."
+  ],
+  "uncertainties": [
+    "C066-P:L119 names the three stages as arising, decay (ජරාව) and breaking. The same author's C063 extract calls the middle phase ṭhiti (standing). Both place 49 sub-moments in the middle, but the terminology differs. Expert check needed.",
+    "C066-P:L137 calls the first sub-moment of any matter 'upacaya rūpa', but L127–L129 limit upacaya to the growth phase before completion, with santati after that. The lifespan list (L147) gives upacaya, santati and aniccatā one sub-moment each. How the two framings fit together needs an expert.",
+    "C066-P:L64 (a summary sentence on vocal intimation involving mind-born earth element and kamma-born matter at the places of articulation) has difficult syntax and may be garbled. It is not paraphrased beyond its gist.",
+    "C066-M:L11 'සොලව්නනට' is a typo for 'සොලවන්නට'. The meaning is clear.",
+    "C066-P:L22 and C066-M:L5 both say that space is not a true independent reality, yet it is still counted as a kind of matter. This tension is the sources' own and is left as it stands.",
+    "The 77th-day figure [C066-P:L125] and the claim that beings born 'spontaneously' or from moisture have complete faculties at conception [C066-P:L127] are doctrinal and need expert framing if used."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

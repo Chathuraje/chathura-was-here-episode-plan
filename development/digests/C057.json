@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C057",
+  "record_type": "concept_digest",
+  "concept_id": "C057",
+  "group_id": "GRP-08",
+  "title_si": "පාකකාල කර්ම චතුෂ්කය",
+  "title_en": "Four kinds of action by time of ripening",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C057-P",
+      "path": "content/02-concepts/Chapter 5/Concept 57 - පාකකාල කර්ම චතුෂ්කය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-122",
+      "complete": true,
+      "markers": "Book 1, ch. 5 (වීථීමුක්ත සංග්‍රහ විභාගය), pdf 477–485 / printed 467–475. Extract begins mid-page at pdf 477 (L21) and ends mid-page at pdf 485; Sinhala commentary only, Pali root text omitted."
+    },
+    {
+      "ref": "C057-M",
+      "path": "content/02-concepts/Chapter 5/Concept 57 - පාකකාල කර්ම චතුෂ්කය/sources/Abhidharma Margaya.md",
+      "lines": "1-37",
+      "complete": true,
+      "markers": "Lesson headed '7. පාකකාල කර්ම චතුෂ්කය'; no page markers. L32–36 also introduce the next grouping (by place of ripening) and the total of sixteen kinds of action."
+    }
+  ],
+  "summary_en": "Both sources sort intentional action into four kinds by when its result ripens: in this same life (diṭṭhadhammavedanīya), in the very next life (upapajjavedanīya), from the third life onward until final nibbāna whenever an opening comes (aparāpariyavedanīya), and never (ahosi, 'lapsed'). They tie the four to the seven impulsion (javana) moments of a single act of mind: the first, weakest moment can only ripen in this life; the seventh can only ripen in the next; the five strong middle moments stay available across the whole of saṃsāra; whatever misses its window becomes lapsed. The Pradeepika illustrates each kind with canonical stories (Kākavaliya, Ciñcā, Devadatta, Aṅgulimāla) and adds that the long-term kind usually needs support from a present-life action to ripen, explained through similes of fire and wood. The Margaya gives a compact version, explaining the strength curve of the seven impulsion moments and noting that ordinary acts may ripen in this life without the doer noticing.",
+  "sinhala_explanation": [
+    {
+      "heading": "විපාක දෙන කාලය අනුව කර්ම සතර සහ ජවන් සිත් සතේ බලය",
+      "text": "විපාක දීමේ කාලය අනුව කර්ම සතරක් ඇත: දෘෂ්ටධර්මවේද්‍ය (දිට්ඨධම්ම වේදනීය), උපපද්‍යවේද්‍ය (උපපජ්ජ වේදනීය), අපරාපර්‍ය්‍යවේද්‍ය (අපරාපරිය වේදනීය) සහ අහෝසි කර්මය [C057-M:L1–L8]. මේ සතර තේරුම් ගැනීමට ජවන් සිත්වල ස්වභාවය දැනගත යුතු බව අභිධර්ම මාර්ගය කියයි. කුසල් හෝ අකුසල් ක්‍රියාවක් සිදු කරන චිත්ත වීථියක ජවන් සිත සත් වරක් උපදී. පළමු ජවනය තමාගේ ජාතියේ සිතක ආශ්‍රය නොලැබ පළමුවෙන් උපදින බැවින් සියල්ලටම දුබලය; දෙවන, තුන්වන, සතරවන ජවන ක්‍රමයෙන් බලවත් වේ; ඉන් පසු නැවත බලය අඩු වේ; සත්වන ජවනය දුබල වුව ද ආශ්‍රය ලැබූ බැවින් පළමුවැන්නට වඩා බලවත්ය; මැද ජවන් පස සියල්ලටම වඩා බලවත්ය [C057-M:L8]. ප්‍රදීපිකාව ද එම කරුණ ම කියයි: පළමු ජවනය අන්‍ය ජවනයන්ගෙන් ආසේවන ප්‍රත්‍යය නොලැබූ හෙයින් ප්‍රතිසන්ධි විපාක දීමට ශක්තියක් නැත [C057-P:L25]; සත්වන ජවනයට පෙර ජවන් සයෙන් රුකුල් ලැබේ [C057-P:L85]; අපරාපරිය කර්ම වන්නේ පළමු සහ සත්වන ජවන අතර පවත්නා ජවන් පසේ චේතනාවයි [C057-P:L93]. සෑම කර්මයක් ම එම ජවන් සිත්හි යෙදුණු චේතනා චෛතසිකය ලෙස හඳුන්වා ඇත [C057-P:L25], [C057-P:L85], [C057-P:L93]."
+    },
+    {
+      "heading": "දිට්ඨධම්ම වේදනීය කර්මය: මේ ජීවිතයේම විපාක දෙන කර්මය",
+      "text": "මේ ආත්මභාවයේදීම, කර්මය කළ ස්කන්ධයන්ටම විපාක දෙන කර්මය දිට්ඨධම්ම වේදනීය කර්මයයි; එය ජවන් සතෙන් පළමු ජවනයේ චේතනාවයි. මේ ජීවිතයේදී විපාක නොදුනහොත් එය අහෝසි කර්මයක් වේ [C057-P:L25], [C057-M:L12]. ප්‍රදීපිකාව එය කුසල, අකුසල වශයෙන් දෙවැදෑරුම් කොට, දානමය කුසලයක් මෙලොවම මහත් විපාක දීමට අංග සතරක් කියයි: ධ්‍යාන අභිඥා සම්පූර්ණ බුදු, පසේබුදු හෝ මහරහත් කෙනෙකු ලැබීම; ධාර්මිකව ලත් දන් වස්තුවක්; පිළිගන්නා තැනැත්තා එදින නිරෝධ සමාපත්තියෙන් නැගී සිටීම; දායකයා පූර්ව, මුඤ්චන, අපර චේතනා තුනෙන් පිරිසිදුව ශ්‍රද්ධා, වීර්‍ය, ප්‍රඥාවෙන් යුක්ත වීම [C057-P:L27–L37]. එවැනි කර්මයක් එදවස්හි ම අප්‍රමාණ සම්පත් දිය හැකි නමුත් ප්‍රතිසන්ධි විපාක නොදෙයි [C057-P:L39]. අභිධර්ම මාර්ගය මෙය වස්තු, ක්ෂේත්‍ර, අධ්‍යාශය, ගුණාතිරේක යන සම්පත්ති සතර ලෙස දක්වයි [C057-M:L14]. දඩයක්කරුවෙකුගේ වෙඩි පහර මුවාට වැදුණොත් මුවා වැටේ, වැරදුණොත් මුවා පැන යයි; ඒ ලෙසම මේ කර්මය අවකාශ ලදහොත් මේ ජීවිතයේ විපාක දෙයි, නැතහොත් වෙනත් ආත්මයක දිය නොහැකිය [C057-P:L41]. කුසල පැත්තට කාකවලිය දුගියා සහ ඔහුගේ බිරිඳ මහාකාශ්‍යප තෙරුන්ට ඇඹුල් කැඳ පූජා කොට සත්වන දින සිටු තනතුරු ලැබූ කතාව [C057-P:L43–L51] සහ පූර්ණික දුගියාගේ කතාව [C057-P:L53] දක්වේ; මාර්ගය පූර්ණක සිටු, ඒකසාටක බ්‍රාහ්මණ, සුමන මාලාකාර යන නම් දක්වයි [C057-M:L14]. අකුසල පැත්තට ප්‍රදීපිකාව චිංචාමානවිකා, සුප්‍රබුද්ධ ශාක්‍ය, දේවදත්ත, කෝකාලික, ගෝඝාතක නන්ද, නන්ද යක්ෂයා සහ නන්ද මානවක යන අයගේ කතා දක්වයි [C057-P:L55–L77]; මාර්ගය බුදු, පසේබුදු, රහතුන්ට මෙන්ම මාපියන්ට හා උපකාරී මිතුරන්ට අපරාධ කළ අය ගැන කියා කලාබු රජ, මහා ප්‍රතාප රජ, මිත්තවින්දක යන නම් දක්වයි [C057-M:L16]. සාමාන්‍ය කුසලාකුසලවල පළමු ජවන චේතනා ද සමහර විට මේ ජීවිතයේ විපාක දෙන නමුත් කර්මය කළ තැනැත්තාට එය නොදැනේ යයි මාර්ගය එකතු කරයි [C057-M:L18]."
+    },
+    {
+      "heading": "උපපජ්ජ වේදනීය කර්මය: ඊළඟ ජීවිතයේ විපාක දෙන කර්මය",
+      "text": "ඊළඟ අත්බැවේ (දෙවන ජාතියේ) ප්‍රතිසන්ධි විපාක දෙන කර්මය උපපජ්ජ වේදනීය කර්මයයි; එය අර්ථසාධක ජවන් වීථියේ සත්වන ජවනයේ චේතනාවයි, ජනක කර්මයට සමානය, දෙවන ජාතියේ ප්‍රතිසන්ධි සහ ප්‍රවෘත්ති විපාක දෙකම උපදවයි [C057-P:L81–L85]. මාර්ගය කියන්නේ එය වැටී යන ජවන්වල අන්තිම සිත බැවින් දුබල නමුත් සයවන ජවනයෙන් ආසේවනය ලැබූ බැවින් පළමුවැන්නට වඩා මඳක් බලවත් බවත්, දෙවන ජාතියෙන් ඔබ්බට විපාක දීමට එයට නොහැකි බවත්ය [C057-M:L22]. ප්‍රදීපිකාවට අනුව එක් සත්ත්වයෙකුට කුසල උපපජ්ජ වේදනීය කර්ම අනන්තව ඇති නමුත් වඩාත් බලවත් එකක් ප්‍රතිසන්ධිය දුන් කල ඉතිරි ඒවා අහෝසි වේ; නියමිත කාලය ඉක්මුණු ධාන්‍ය බීජ පැළ නොවන්නාක් මෙනි. රූපාවචර, අරූපාවචර ධ්‍යාන කුසල ඇත්නම් ඒවා අන් සියල්ලට පෙර බඹලොව ප්‍රතිසන්ධිය දෙයි [C057-P:L87]. අකුසල පැත්තෙන් පඤ්චානන්තරිය කර්ම හා නියත මිථ්‍යාදෘෂ්ටිය බලවත් බැවින් අන් අකුසල උපපජ්ජ කර්ම වළක්වා ප්‍රතිසන්ධිය දෙයි; ඉතිරි ඒවා අහෝසි වේ [C057-P:L89]."
+    },
+    {
+      "heading": "අපරාපරිය වේදනීය කර්මය: තුන්වන ජාතියේ සිට නිවන දක්වා",
+      "text": "තුන්වන ආත්මභාවයේ පටන් අනුපාදිශේෂ නිර්වාණ ධාතුවෙන් පිරිනිවන් පෑම දක්වා අවකාශ ලත් විටෙක විපාක දෙන කර්මය අපරාපරිය වේදනීය කර්මයයි; එය මැද ජවන් පසේ චේතනාවයි [C057-P:L93], [C057-M:L26]. මාර්ගයට අනුව ඒවා බලවත් බැවින් ඉක්මනින් විපාක නොදී අවකාශ ලැබෙන ලැබෙන පරිදි විපාක දෙයි; කල්ප දහස් ගණනක් ගිය ද පුද්ගලයා සසර සැරිසරන තාක් ඒවා නැති නොවේ; එක් චේතනාවක් ප්‍රතිසන්ධිය දෙන්නේ එක් වරක් පමණි, ප්‍රවෘත්ති විපාක නොයෙක් වර දෙයි [C057-M:L26]. ප්‍රදීපිකාව ද එයම කියා, දහසක් මිනිසුන් නැගි නැවක් මුහුදු මැද විනාශ වූ කල ඒ එක් එක් අයගේ අපරාපරිය කර්මයක් ඉදිරිපත් වී මරණය සිදු කරන බව උදාහරණයට ගනී [C057-P:L95–L99]. ප්‍රදීපිකාවේ විශේෂ කරුණක් නම් අපරාපරිය කර්මයට තනිවම විපාක දිය නොහැකි බවත්, බොහෝ විට දිට්ඨධම්ම වේදනීය කර්මයක රුකුල ලැබීමෙන්ම විපාක දෙන බවත්ය [C057-P:L101]. මේ සඳහා උපමා හතරක් ඇත: දැඩි ගිනි අඟුරු මැද අමු දර දැවෙන්නාක් මෙන් දුර්වල දිට්ඨධම්ම කර්මයකින් බලවත් අපරාපරිය කර්මයට රුකුල් ලැබේ; දුර්වල ගින්නකට වියළි දර දැමූ කල දැඩි ගිනි නගින්නාක් මෙන් බලවත් දිට්ඨධම්ම කර්මයකින් දුර්වල අපරාපරිය කර්මයක් මහත් විපාක දෙයි; දුර්වල ගින්නට වැසි වැටුණු කල නිවෙන්නාක් මෙන් බලවත් දිට්ඨධම්ම අකුසලයකින් පෙළුණු දුර්වල අපරාපරිය කුසලයක් විපාක නොදෙයි; බියසුලු කෙනෙකුට තනිවම සොහොනට යා නොහැකි නමුත් යහළුවෙකු ලදහොත් යා හැකි සේ, අපරාපරිය කර්මයට දිට්ඨධම්ම කර්මය නම් යහළුවාගේ උපකාරය අවශ්‍යය [C057-P:L103–L113]."
+    },
+    {
+      "heading": "අහෝසි කර්මය: කිසි දිනෙක විපාක නොදෙන කර්මය",
+      "text": "විපාක නොදුන්, මතු ද විපාක නොදෙන කර්මය අහෝසි කර්මයයි; එය ද කුසල, අකුසල වශයෙන් දෙවැදෑරුම්ය [C057-P:L117]. මාර්ගය එය පැහැදිලිව දක්වයි: වර්තමාන ජාතියේ අවස්ථාව නොලැබූ පළමු ජවන චේතනා, දෙවන ජාතියේ අවස්ථාව නොලැබූ සත්වන ජවන චේතනා, සහ විපාක දීමට තැනක් නොලබන මැද ජවන චේතනා අහෝසි වේ [C057-M:L30]. ප්‍රදීපිකාව එයට දේවදත්ත තෙරුන් උදාහරණයට ගනී: ඔහු පැවිදිව සිල් රැක පඤ්චාභිඥා, අෂ්ට සමාපත්ති උපදවා ගත් නමුත් පසුව සංඝභේදය කොට අවීචියේ උපන් බැවින් ඔහු රැස් කළ කුසලයන්ගේ දිට්ඨධම්ම හා උපපජ්ජ වේදනීය කර්ම අහෝසි විය [C057-P:L119]. අංගුලිමාල තෙරුන් බොහෝ මිනිසුන් මරා පසුව පැවිදිව රහත් වූ බැවින් ඒ අකුසලයන්ගේ උපපජ්ජ හා අපරාපරිය කර්ම අහෝසි විය; එහෙත් ගම් නගරවල බලු කපුටන්ට දමා ගසන ගල් මුගුරු තෙරුන්ගේ හිසේ වැදී, ලෙයින් සිවුර තෙමී වෙහෙරට ආපසු වැඩීම මිනිස් ඝාතන අකුසලයේ දිට්ඨධම්ම වේදනීය විපාකය ලෙස දත යුතුය [C057-P:L121]."
+    },
+    {
+      "heading": "කර්ම සොළොසට මෙය ගැළපෙන තැන",
+      "text": "අභිධර්ම මාර්ගය මේ චතුෂ්කයට පසු විපාක දෙන ස්ථානය අනුව කර්ම සතරක් (අකුශල, කාමාවචර කුශල, රූපාවචර කුශල, අරූපාවචර කුශල) දක්වා [C057-M:L32–L34], කෘත්‍ය, පාකදාන පර්‍යාය, පාකකාල, පාකස්ථාන යන චතුෂ්ක සතරින් අභිධර්ම ක්‍රමයෙන් කර්ම සොළොසක් ඇති බව කියයි [C057-M:L36]. එබැවින් පාකකාල චතුෂ්කය කර්මය වර්ග කරන ක්‍රම සතරෙන් එකක් පමණි; එය කර්මය කරන්නේ කුමක් ද, කුමන කර්මය පළමුව විපාක දෙයි ද යන චතුෂ්කවලට සමාන්තරව කියවිය යුතුය."
+    }
+  ],
+  "key_terms": [
+    { "term_si": "පාකකාල කර්ම චතුෂ්කය", "pali": "pākakāla-kamma-catukka", "en": "fourfold division of action by time of ripening" },
+    { "term_si": "දිට්ඨධම්ම වේදනීය කර්මය / දෘෂ්ටධර්මවේද්‍ය කර්මය", "pali": "diṭṭhadhammavedanīya-kamma", "en": "action to be experienced in this very life", "note": "Pradeepika uses the Pali form, Margaya the Sanskritised form." },
+    { "term_si": "උපපජ්ජ වේදනීය කර්මය / උපපද්‍යවේද්‍ය කර්මය", "pali": "upapajjavedanīya-kamma", "en": "action to be experienced in the next life" },
+    { "term_si": "අපරාපරිය වේදනීය කර්මය / අපරාපර්‍ය්‍යවේද්‍ය කර්මය", "pali": "aparāpariyavedanīya-kamma", "en": "action to be experienced from the third life on, whenever there is an opening" },
+    { "term_si": "අහෝසි කර්මය", "pali": "ahosi-kamma", "en": "lapsed or defunct action; action that never ripens" },
+    { "term_si": "ජවන චිත්තය", "pali": "javana-citta", "en": "impulsion moment; the seven active mind-moments in which an act is done" },
+    { "term_si": "චේතනා චෛතසිකය", "pali": "cetanā", "en": "intention, the mental factor that is the action itself" },
+    { "term_si": "ආසේවන ප්‍රත්‍යය", "pali": "āsevana-paccaya", "en": "repetition condition; strength one moment gains from a preceding similar moment" },
+    { "term_si": "ප්‍රතිසන්ධි විපාකය", "pali": "paṭisandhi-vipāka", "en": "result that takes the form of rebirth-linking" },
+    { "term_si": "ප්‍රවෘත්ති විපාකය", "pali": "pavatti-vipāka", "en": "results experienced during the course of a life" },
+    { "term_si": "අවකාශය", "pali": "okāsa", "en": "opening or opportunity for a result to ripen" },
+    { "term_si": "පූර්ව, මුඤ්චන, අපර චේතනා", "pali": "pubba-, muñca-, apara-cetanā", "en": "intention before, during and after an act of giving" },
+    { "term_si": "පඤ්චානන්තරිය කර්ම", "pali": "pañcānantariya-kamma", "en": "the five acts with immediate result in the next life (e.g. killing a parent)" },
+    { "term_si": "නිරෝධ සමාපත්තිය", "pali": "nirodha-samāpatti", "en": "attainment of cessation", "note": "One of the Pradeepika's four conditions for giving to ripen in this life." }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "Not everything comes due at the same time",
+      "text": "The source says that what we do with intention does not all bear fruit on one schedule. Some of it shows up almost at once. Some waits for the next chapter. Some sits unspent for a very long time until circumstances open a door. Some never arrives at all. In plain terms, a life is not a ledger that balances at the end of each day. When someone dies, much of what they set in motion is still unfinished. For a series about endings, this gives a way to look at a life that neither pretends everything was settled nor treats everything as lost."
+    },
+    {
+      "heading": "Something waiting needs a present occasion",
+      "text": "The Pradeepika's fire images carry a practical idea. Something laid down long ago usually cannot act alone. It needs something happening now to catch on, like dry wood needing a flame, or a frightened person needing a companion to walk past a burial ground at night. A present event can also smother an old potential, like rain on a weak fire. People recognise this in ordinary life: an old habit or an old kindness surfaces only when today's circumstances give it a way in."
+    },
+    {
+      "heading": "Some things simply lapse",
+      "text": "The fourth kind is the most unusual. Some things we do never produce anything at all, because their moment passed or something stronger took their place. The source compares them to seed grain kept past its season, which will not sprout. This is not forgiveness and not erasure by apology. It is expiry. The Aṅgulimāla story in the source is careful here: the heaviest long-term consequences lapsed, but in this life he was still struck by stones thrown at dogs and crows. Something expired, and something was still paid."
+    }
+  ],
+  "does_not_transfer": [
+    "It is not 'instant karma' or 'what goes around comes around'. Both sources reserve visible this-life results mainly for exceptionally strong acts, and the Margaya says ordinary acts may ripen without the doer noticing [C057-M:L12], [C057-M:L18].",
+    "The shipwreck example (each of a thousand drowned people meeting death through their own past action) must not be turned into a claim that victims of disasters, drownings or accidents deserved them. A film must not suggest this about any real person or community.",
+    "Lapsed action is not 'forgiveness', 'a clean slate' or 'wiped out by repentance'. In the source it lapses because its time passed or something stronger displaced it, and the Aṅgulimāla example keeps a this-life consequence.",
+    "The giving stories (a poor couple becoming wealthy within seven days) must not become a prosperity message, as in 'give to monks and get rich'. The source sets four exceptional conditions for such results.",
+    "The miraculous episodes (the earth opening, flames from hell) are traditional narratives quoted by the author, not historical or documentary evidence.",
+    "The seven-moment strength curve is a technical account of a single mind-process. It is not a modern psychological claim about 'first impressions' or 'peak effort' and should not be presented as one."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A small village shop's handwritten credit book, where some debts are paid next week, some after the harvest, some years later, and some are quietly written off when the debtor dies or leaves.",
+      "what_camera_could_observe": "The shopkeeper turning worn pages, customers settling or adding to accounts at the counter, a line struck through, a conversation about an old account that will never be paid.",
+      "why_it_fits": "It is an everyday image of obligations falling due at different times, including some that simply lapse. It is an analogy only: the source is about one person's own intentions, not money owed between people.",
+      "setting_type": "Small grocery shop (kade) in a rural village or estate town",
+      "risk": "Exposing named debtors or a family's money troubles. It could also read as a cute metaphor laid over someone's livelihood. Accounts must stay anonymous and the shopkeeper must stay in control of what is shown."
+    },
+    {
+      "seed": "A farming family testing old seed paddy before the season, finding that some of the stored grain has passed its time and will not sprout.",
+      "what_camera_could_observe": "Seed soaked in a cloth or tray, days of waiting, counting what sprouted, the decision about what to sow and what to discard, the talk about which year's seed it was.",
+      "why_it_fits": "The Pradeepika itself uses seed grain that has passed its proper time as the image for action that lapses [C057-P:L87]. The film can show the ordinary fact that timing decides whether something stored will ever grow.",
+      "setting_type": "Paddy-farming household in the dry zone or wet zone",
+      "risk": "Turning a practical farming decision into a sermon. The farming knowledge should lead, and the family's stakes (a failed crop) must not be dramatised."
+    },
+    {
+      "seed": "A village kiln firing (pottery, brick or lime), where the outcome depends on how strong the fire is, how dry the load is, and whether rain comes.",
+      "what_camera_could_observe": "Loading the kiln, feeding wood of different dryness, watching the sky, a sudden shower, the anxious wait, opening the kiln to see what survived.",
+      "why_it_fits": "The source's four fire-and-wood similes say a stored potential ripens or is smothered depending on present conditions [C057-P:L103–L107]. A firing shows that relationship without any doctrine.",
+      "setting_type": "Traditional potters' or brick-makers' village; home-scale kiln",
+      "risk": "Over-aestheticising poor working conditions or staging a rain event. Only a real firing should be filmed, with whatever weather it actually gets."
+    },
+    {
+      "seed": "A dawn alms round in a village where a household of little means gives what it has, day after day, with no visible return.",
+      "what_camera_could_observe": "Preparing a small amount of rice before dawn, waiting at the gate, the monks passing, the household eating what remains, the routine repeated on different days.",
+      "why_it_fits": "The source's this-life examples are poor couples offering simple food [C057-P:L43–L53]. Filmed honestly, the practice shows giving whose outcome is uncertain, which is the concept's real subject, and does not promise a reward.",
+      "setting_type": "Village near a small forest hermitage or village temple",
+      "risk": "Implying the family will or should be rewarded, or displaying their poverty as spectacle. Consent from both the household and the monks is essential."
+    },
+    {
+      "seed": "After an elder's death, a family goes through the belongings: promises written in letters, loans recorded, a half-built house, a tree planted that has not yet fruited.",
+      "what_camera_could_observe": "Sorting papers and objects, relatives reading old notes aloud, deciding what to finish and what to let go, walking to the unfinished structure or young tree.",
+      "why_it_fits": "It fits the group question about what a life leaves behind and when its effects show up. The link is editorial: the source speaks of one continuing stream of results, not of legacy passing to relatives, and the film should not blur that.",
+      "setting_type": "Family home in a village or small town during the weeks after a funeral",
+      "risk": "Intruding on fresh grief and private family matters. The family should invite this, and filming should happen only at a time they choose, not in the first days of mourning."
+    }
+  ],
+  "cross_source_notes": [
+    "Both sources agree on the four categories, their time windows, and their link to the first, seventh and middle five impulsion moments [C057-P:L25], [C057-P:L85], [C057-P:L93]; [C057-M:L8–L30].",
+    "The Margaya explains the rising and falling strength of the seven impulsion moments in detail [C057-M:L8]. The Pradeepika only mentions that the first moment lacks the repetition condition and that the seventh is supported by the preceding six [C057-P:L25], [C057-P:L85].",
+    "They differ on the kind of result from the first moment. The Margaya says it can only produce rootless (ahetuka) results in this life [C057-M:L12]. The Pradeepika says fully qualified giving can give 'rooted wholesome result' (සහේතුක කුසල විපාක) to the same aggregates [C057-P:L39]. Kept side by side, not reconciled.",
+    "For giving that ripens in this life, the Pradeepika lists four concrete conditions (arahant recipient, righteously obtained gift, recipient just out of the attainment of cessation, donor pure in three intentions) [C057-P:L31–L37]. The Margaya names four 'accomplishments': object, field, disposition and exceptional virtue [C057-M:L14]. The two lists broadly correspond, but matching them one to one is an editorial inference.",
+    "Their example figures differ. Only Pūrṇika/Pūrṇaka appears in both [C057-P:L53], [C057-M:L14]. The Pradeepika tells Kākavaliya, Ciñcā, Suppabuddha, Devadatta, Kokālika and three Nandas at length. The Margaya just names Ekasāṭaka, Sumana the garland-maker, Kalābu, Mahāpratāpa and Mittavindaka.",
+    "Only the Pradeepika says long-term action cannot ripen on its own strength and needs support from present-life action, with the four fire-and-companion similes [C057-P:L101–L113]. The Margaya says only that it ripens 'as openings arise' [C057-M:L26].",
+    "Only the Pradeepika explains how many next-life actions compete, with the strongest giving rebirth and the rest lapsing, and how jhāna, the five heinous acts and fixed wrong view take precedence [C057-P:L87–L89]. Only the Margaya notes that ordinary acts may ripen unnoticed [C057-M:L18] and places this fourfold within the total of sixteen [C057-M:L32–L36]."
+  ],
+  "uncertainties": [
+    "Doctrinal conflict for expert check: the Pradeepika's 'සහේතුක කුසල විපාක මාත්‍රයක්' [C057-P:L39] against the Margaya's 'අහේතුක විපාක ඇති කිරීමට පමණෙකි' [C057-M:L12] for results of the first impulsion moment. This could be an OCR slip (සහේතුක/අහේතුක) or a real difference in reading.",
+    "The Pradeepika says 'there is no long-term action path that gives results during life without giving rebirth-linking' [C057-P:L99]. This is a strong claim and the wording (කර්මපථයක්) needs expert confirmation.",
+    "The Pradeepika says long-term action 'cannot ripen by its own strength' and ripens 'mostly' with present-life support [C057-P:L101]. 'Cannot' and 'mostly' sit together in the text, so it is unclear whether support is always or usually required.",
+    "Likely OCR or typesetting problems: 'ප්‍රත්‍ය' for ප්‍රත්‍යය [C057-P:L25]; 'ඕතොමෝ' [C057-P:L57] and 'ඕ හට' (probably ඔහු හට) [C057-P:L69]; 'දමාගසන් නාවූ' split word [C057-P:L121]; 'කුස්ල' for කුසල [C057-M:L14]; 'අවසාශ' for අවකාශ [C057-P:L41]. Left as found.",
+    "The Pradeepika extract begins mid-page at pdf 477 [C057-P:L21] and ends mid-page at pdf 485. The Pali root text is omitted by the extractor, so the Sinhala headings could not be checked against the Pali.",
+    "The Margaya's lesson number '7' [C057-M:L1] is the book's own lesson numbering and does not match the concept number (57). No content issue.",
+    "The narratives (earth opening, hell-fire, deities intervening) are the source's traditional stories. The digest reports them as the source's illustrations, not as fact."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

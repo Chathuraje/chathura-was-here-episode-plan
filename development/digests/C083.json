@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C083",
+  "record_type": "concept_digest",
+  "concept_id": "C083",
+  "group_id": "GRP-09",
+  "title_si": "ප්‍ර‍ත්‍ය වන ආකාරය කොටින් දැක්වීම",
+  "title_en": "How conditions work, in summary",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C083-P",
+      "path": "content/02-concepts/Chapter 8/Concept 83 - ප්‍ර‍ත්‍ය වන ආකාරය කොටින් දැක්වීම/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-417",
+      "complete": true,
+      "markers": "Book 3, ch. 8, pdf 548–554 / printed 537–543"
+    },
+    {
+      "ref": "C083-M",
+      "path": "content/02-concepts/Chapter 8/Concept 83 - ප්‍ර‍ත්‍ය වන ආකාරය කොටින් දැක්වීම/sources/Abhidharma Margaya.md",
+      "lines": "1-35",
+      "complete": true,
+      "markers": "Section 6, Lesson 10; no page or edition metadata"
+    }
+  ],
+  "summary_en": "Both books sum up the twenty-four conditions in six relations: mind supports mind in six ways; mind supports mind-and-matter in five; mind supports matter in one (later mind supports the body that arose earlier); matter supports mind in one (the sense bases and objects that arose earlier support seeing, hearing and thinking); concepts, mind and matter support mind in two (as object and as decisive support); and mind-and-matter support mind-and-matter in nine. Pradeepika also goes link by link through dependent origination, naming the conditions at each step: for example, ignorance supports wholesome formations only as object and decisive support but unwholesome formations in seventeen ways, while feeling supports craving, and birth supports ageing and death, by decisive support alone. Margaya adds that every phenomenon is a condition for something, and that everything except nibbāna and concepts is also conditioned.",
+  "sinhala_explanation": [
+    {
+      "heading": "ප්‍රත්‍යය වීමේ සයාකාරය: සාරාංශය",
+      "text": "Margaya සුවිසි ප්‍රත්‍යය කොටින් දක්වන්නේ මෙසේය: නාමය නාමයට ආකාර සයකින්, නාමය නාම-රූප දෙකට ආකාර පසකින්, නාමය රූපයට එක් ආකාරයකින්, රූපය නාමයට එක් ආකාරයකින්, ප්‍රඥප්ති-නාම-රූප නාමයට ආකාර දෙකකින්, නාම-රූප දෙක නාම-රූප දෙකට ආකාර නවයකින් ප්‍රත්‍යය වේ; මෙසේ ප්‍රත්‍යය වීම සයාකාර වේ [C083-M:L5]. Pradeepika අවසානයේ මෙම සාරාංශයම ලැයිස්තු ලෙස දක්වයි [C083-P:L369–L417]. මෙහි ‘නාම’ යනු එකුන් අනූ චිත්තය, චෛතසික දෙපනස හා නිර්වාණයයි; ඒවාට රූ සටහන් නැති බැවින් නම්වලින්ම දැනගත යුතු හෙයින් ‘නාම’ යයි කියනු ලැබේ. ‘රූප’ යනු රූපස්කන්ධයේ රූප විසි අටයි [C083-M:L35]."
+    },
+    {
+      "heading": "නාමය නාමයට සහ නාමය නාම-රූපයට",
+      "text": "ළඟින්ම නිරුද්ධ වන චිත්ත චෛතසිකයෝ ළඟින්ම උපදින චිත්ත චෛතසිකයන්ට අනන්තර, සමනන්තර, නාස්ති (නත්ථි), විගත යන ශක්තීන්ගෙන් ප්‍රත්‍යය වෙති; වීථියක පළමු පළමු ජවනයෝ පසු පසු ජවනයන්ට ආසේවන ශක්තියෙන් ප්‍රත්‍යය වෙති; එක්ව උපදින චිත්ත චෛතසිකයෝ ඔවුනොවුන්ට සම්ප්‍රයුක්ත ශක්තියෙන් ප්‍රත්‍යය වෙති. මේ නාමය නාමයට වන ආකාර සයයි [C083-M:L9; C083-P:L369–L381]. හේතු, ධ්‍යානාඞ්ග, මාර්ගාඞ්ග සහජාත නාම-රූපයන්ට හේතු, ධ්‍යාන, මාර්ග ශක්තීන්ගෙන් ප්‍රත්‍යය වේ; සහජාත චේතනාව සහජාත නාම-රූපයන්ටද, නානාක්ෂණික චේතනාව කර්මයෙන් උපදින නාම-රූපයන්ටද කර්ම ශක්තියෙන් ප්‍රත්‍යය වේ; විපාක චිත්ත චෛතසිකයෝ ඔවුනොවුන්ට හා සහජාත රූපයන්ට විපාක ශක්තියෙන් ප්‍රත්‍යය වෙති. මේ නාමය නාම-රූප දෙකට වන ආකාර පසයි [C083-M:L13; C083-P:L383–L387]."
+    },
+    {
+      "heading": "පෙර ඇතිවූ දෙය සහ පසුව ඇතිවන දෙය: පුරේජාත සහ පච්ඡාජාත",
+      "text": "පසුව උපදින චිත්ත චෛතසිකයෝ කලින් ඇතිවූ මේ රූප කයට පශ්චාජ්ජාත ශක්තියෙන් ප්‍රත්‍යය වෙති; මෙය නාමය රූපයට ප්‍රත්‍යය වන එකම ආකාරයයි [C083-M:L17; C083-P:L389]. ප්‍රවෘත්ති කාලයේදී චක්ෂු ආදී වස්තු රූප සය විඥාන ධාතු සතටද, රූප ආදී අරමුණු පස පඤ්චද්වාර වීථි සිත්වලටද පුරේජාත ශක්තියෙන් ප්‍රත්‍යය වේ; මෙය රූපය නාමයට ප්‍රත්‍යය වන එකම ආකාරයයි [C083-M:L21; C083-P:L393]."
+    },
+    {
+      "heading": "අරමුණ, බලවත් පිහිට සහ නව ආකාරය; ප්‍රත්‍යය නොවන ධර්මයක් නැත",
+      "text": "ප්‍රඥප්ති, නාම, රූප යන තුනම නාමයට ආරම්මණ ශක්තියෙන්ද උපනිශ්‍රය ශක්තියෙන්ද ප්‍රත්‍යය වේ [C083-M:L25; C083-P:L395–L397]. අධිපති, සහජාත, අන්‍යොන්‍ය, නිශ්‍රය, ආහාර, ඉන්ද්‍රිය, විප්‍රයුක්ත, අස්ති, අවිගත යන ශක්ති නවයෙන් නාම-රූප දෙක නාම-රූප දෙකට සුදුසු පරිදි ප්‍රත්‍යය වේ [C083-M:L29; C083-P:L399–L417]. අතීත, අනාගත, වර්තමාන හෝ කාලයට අයත් නොවූ, ආධ්‍යාත්මික හෝ බාහිර වූ, ප්‍රඥප්ති-නාම-රූප යන ත්‍රිප්‍රකාර සකල ධර්ම සමූහයම සුදුසු පරිදි සුවිසි ප්‍රත්‍යයට අයත් වේ; කිසියම් ප්‍රත්‍යයක් නොවන ධර්මයක් නැත. එහෙත් නිර්වාණයත් ප්‍රඥප්තියත් හැර ඉතිරි ධර්මයෝ පමණක් ප්‍රත්‍යයොත්පන්නද වෙති [C083-M:L31]."
+    },
+    {
+      "heading": "අවිද්‍යාවේ සිට නාමරූප දක්වා: එක් එක් පියවරේ ප්‍රත්‍යය",
+      "text": "Pradeepika පටිච්චසමුප්පාද අඞ්ග එකිනෙකට ප්‍රත්‍යය වන ආකාර කොටින් දක්වයි [C083-P:L25]. අවිද්‍යාව පුණ්‍යාභිසංස්කාරයන්ට ආරම්මණ හා උපනිශ්‍රය යන දෙයාකාරයෙන් පමණක් ප්‍රත්‍යය වේ [C083-P:L27–L31]; අපුණ්‍යාභිසංස්කාරයන්ට ආරම්මණ, ආරම්මණාධිපති, අනන්තර, ආසේවන, හේතු, සහජාත, සම්ප්‍රයුක්ත ආදී ආකාර දාහතකින් ප්‍රත්‍යය වේ [C083-P:L33–L67]; අනෙඤ්ජාභිසංස්කාරයට උපනිශ්‍රය ශක්තියෙන් පමණක් උපකාර වේ [C083-P:L71–L73]. සංස්කාරයෝ විඥානයට උපනිශ්‍රය හා කර්ම යන දෙයාකාරයෙන් ප්‍රත්‍යය වෙති [C083-P:L75–L79]. විඥානය නාමයන්ට සහජාත, අඤ්ඤමඤ්ඤ, නිශ්‍රය, සම්ප්‍රයුක්ත, විපාක, ආහාර, ඉන්ද්‍රිය, අත්ථි, අවිගත යන නවාකාරයෙන් ප්‍රත්‍යය වේ [C083-P:L81–L99]; ප්‍රතිසන්ධික්ෂණයේ වස්තු රූපයට නවාකාරයෙන්ද, සෙසු රූපයන්ට අඤ්ඤමඤ්ඤ හැර අටාකාරයෙන්ද ප්‍රත්‍යය වේ [C083-P:L101–L123]; අභිසංස්කාර විඥානය අසංඥසත්ත්ව රූපයන්ට හෝ කර්මජ රූපයන්ට උපනිශ්‍රය ශක්තියෙන් උපකාර වේ [C083-P:L125]. නාමරූපය ෂඩායතනයට වන ප්‍රත්‍යය භවය හා අවස්ථාව අනුව වෙනස් වේ: අරූප භවයේ විපාක නාමය මනායතනයට සත් ආකාරයෙන්, පඤ්චවොකාර භවයේ ප්‍රතිසන්ධික්ෂණයේදී සත් ආකාරයෙන්, චක්ඛායතනාදි පසට සයාකාරයෙන්, වස්තු රූපය මනායතනයට සයාකාරයෙන්, සතර මහාභූත චක්ඛායතනාදියට සතරාකාරයෙන්, රූප ජීවිතෙන්ද්‍රිය ප්‍රසාද පසට තුන් ආකාරයෙන්, ආහාර රූපය තුන් ආකාරයෙන් ප්‍රත්‍යය වේ [C083-P:L129–L249]."
+    },
+    {
+      "heading": "ස්පර්ශයේ සිට ජරාමරණය දක්වා",
+      "text": "චක්ඛායතනාදි පස චක්ඛුසම්ඵස්සාදි ස්පර්ශයට නිස්සය, පුරේජාත, ඉන්ද්‍රිය, විප්පයුත්ත, අත්ථි, අවිගත යන සයාකාරයෙන් ප්‍රත්‍යය වේ [C083-P:L251–L263]; විපාක මනායතනය මනොසම්ඵස්සයට නවාකාරයෙන් ප්‍රත්‍යය වේ [C083-P:L265–L285]. ස්පර්ශය වේදනාවට සහජාතාදි අටාකාරයෙන් ප්‍රත්‍යය වේ [C083-P:L287–L305]. වේදනාව තෘෂ්ණාවට උපකාර වන්නේ උපනිශ්‍රය ප්‍රත්‍යය ශක්තියෙන් පමණි [C083-P:L307]. තෘෂ්ණාව කාමූපාදානයට උපනිශ්‍රය ශක්තියෙන්ද, දිට්ඨි, සීලබ්බත, අත්තවාද යන උපාදාන තුනට හේතු ප්‍රත්‍යය ඇතුළු සත් ආකාරයකින්ද ප්‍රත්‍යය වේ [C083-P:L309–L325]. සතර උපාදානයෝ රූපාරූප භවයන්ට, කාම භවයේ කුසලාකුසල කර්මයට හා උපපත්ති භවයට උපනිශ්‍රය ශක්තියෙන් ප්‍රත්‍යය වෙති; තමා හා සම්ප්‍රයුක්ත අකුසල කර්ම භවයට සත් ආකාරයෙන්ද, ඊළඟට (අනන්තරව) එන කර්ම භවයට සයාකාරයෙන්ද ප්‍රත්‍යය වෙති [C083-P:L327–L361]. කර්ම භවය ජාතියට කර්ම හා උපනිශ්‍රය යන දෙයාකාරයෙන්ද, ජාතිය ජරාමරණාදියට උපනිශ්‍රය ශක්තියෙන් පමණක්ද ප්‍රත්‍යය වේ [C083-P:L363–L367]."
+    }
+  ],
+  "key_terms": [
+    { "term_si": "නාම / රූප", "pali": "nāma / rūpa", "en": "mind (including nibbāna in Margaya's definition) / matter", "note": "[C083-M:L35]" },
+    { "term_si": "අනන්තර, සමනන්තර", "pali": "anantara, samanantara", "en": "proximity and contiguity: the moment just gone supports the moment just arising" },
+    { "term_si": "නත්ථි, විගත", "pali": "natthi, vigata", "en": "absence and disappearance: supporting by ceasing and making room" },
+    { "term_si": "ආසේවන", "pali": "āsevana", "en": "repetition: earlier moments of the same kind strengthen later ones" },
+    { "term_si": "සම්ප්‍රයුක්ත / විප්‍රයුක්ත", "pali": "sampayutta / vippayutta", "en": "association (mind with mind) / dissociation (support between mind and matter)" },
+    { "term_si": "සහජාත, අඤ්ඤමඤ්ඤ", "pali": "sahajāta, aññamañña", "en": "co-arising and mutual support" },
+    { "term_si": "නිශ්‍රය", "pali": "nissaya", "en": "support as a base or foundation" },
+    { "term_si": "පුරේජාත", "pali": "purejāta", "en": "pre-nascence: something already there supports what arises after it" },
+    { "term_si": "පච්ඡාජාත / පශ්චාජ්ජාත", "pali": "pacchājāta", "en": "post-nascence: what arises later supports what was already there" },
+    { "term_si": "ආරම්මණ", "pali": "ārammaṇa", "en": "object condition: supporting by being what the mind takes up" },
+    { "term_si": "උපනිශ්‍රය", "pali": "upanissaya", "en": "decisive or strong support; a background reliance" },
+    { "term_si": "කර්ම, විපාක", "pali": "kamma, vipāka", "en": "intention as a condition (at the same time or at a distance in time); result as a condition" },
+    { "term_si": "ආහාර, ඉන්ද්‍රිය", "pali": "āhāra, indriya", "en": "nutriment and faculty (controlling) conditions" },
+    { "term_si": "අස්ති / අවිගත", "pali": "atthi / avigata", "en": "presence and non-disappearance: supporting by being present" },
+    { "term_si": "අධිපති; හේතු, ධ්‍යාන, මාර්ග", "pali": "adhipati; hetu, jhāna, magga", "en": "predominance; root, absorption-factor and path-factor conditions" }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "There are many ways of holding something up",
+      "text": "The word 'cause' usually suggests one kind of push. This section gives a whole vocabulary of support. Some things support each other by arising together and leaning on each other. Some support by having been there first, as sight needs an eye and a visible thing already present. Some support from later on, as what the mind does now keeps up a body that was already there. Some support by getting out of the way: one moment has to end for the next to take its place. And some support by repetition: each time something is done, the next time comes more easily."
+    },
+    {
+      "heading": "Where the chain only leans",
+      "text": "Going link by link, the source shows that the joints are not all equally tight. Not-knowing is bound up with harmful action in seventeen ways, but supports good action only at a distance, as something it takes up or relies on. Feeling supports craving in one way only, as a strong background support. Birth supports ageing and death in the same single way. Editorially, this suggests that the step from a feeling to a wanting is a place where the chain leans rather than locks. That reading is ours, not the source's, and needs care."
+    },
+    {
+      "heading": "Even names and ideas move us",
+      "text": "Among the things that can support the mind, the source includes concepts: names, ideas, things that exist only by convention. They cannot be conditioned in the way mind and matter are, but they can still be what the mind takes up and leans on. A name on a list, a place-name on a bus, a word on a letter can set off something real in a person."
+    },
+    {
+      "heading": "Nothing that supports nothing",
+      "text": "Margaya ends with a sweeping line: there is no phenomenon, past, present or future, inside or outside a person, that is not a support for something. Everything except two (the unconditioned and mere concepts) is also supported by something. Nothing stands outside the web of support, yet support runs in specific, nameable ways, not as a vague sense that 'it's all connected'."
+    }
+  ],
+  "does_not_transfer": [
+    "'Mind over matter' or 'matter over mind': the source gives traffic both ways, each in a precise and limited way (one mode each), with most support running within and between both together.",
+    "'Positive thinking heals the body': the later-arising mind supporting the earlier body (pacchājāta) is a technical relation, not a promise about willpower or health.",
+    "'You can always choose not to crave': that feeling supports craving only by decisive support is not a self-help claim; the source makes no statement about choice here.",
+    "'Everything is mutually interdependent': mutuality (aññamañña) is only one of the twenty-four; many relations in this section run one way only.",
+    "'Concepts are unreal so they don't matter': the source makes concepts real conditions for the mind even though they are not conditioned themselves."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A drumming student repeating the same phrase with a teacher until it holds",
+      "what_camera_could_observe": "Weeks of practice sessions in the same corner, the same rhythm played badly, then less badly, the teacher's hands correcting, the first time it runs clean",
+      "why_it_fits": "Repetition as a kind of support: earlier moments of the same kind strengthen later ones",
+      "setting_type": "a traditional drumming teacher's home yard",
+      "risk": "Turning practice into a doctrine metaphor; hereditary-caste sensitivities around drumming traditions must be handled with the family's guidance"
+    },
+    {
+      "seed": "Neighbours raising the roof frame of a house, where the rafters stand only once they lean on each other",
+      "what_camera_could_observe": "Timbers laid out, argument about angles, the moment the frame is lifted and locks, people stepping back to see if it holds",
+      "why_it_fits": "Co-arising and mutual support: things that come up together and hold each other up, none standing alone",
+      "setting_type": "a rural house being built with neighbours' shared labour",
+      "risk": "Staging the moment for the camera; presenting rural poverty as aesthetic"
+    },
+    {
+      "seed": "A shift handover at dawn, where one worker must leave the post for the next to take it",
+      "what_camera_could_observe": "The night worker's last round, keys and logbook handed over, a short exchange, one walking away as the other settles in",
+      "why_it_fits": "Support by ending and making room: the moment just gone supports the moment just arising by vacating the place",
+      "setting_type": "an estate factory gate, harbour or hospital entrance",
+      "risk": "Too thin on its own; needs a real human stake (a long friendship, a last shift before retirement)"
+    },
+    {
+      "seed": "Families finding, or not finding, a name on a results notice",
+      "what_camera_could_observe": "A crowd at a notice board, fingers running down a list, faces changing at one printed name",
+      "why_it_fits": "A name is a concept, not a thing in itself, yet it becomes the object and strong support of powerful states of mind",
+      "setting_type": "a school or institute notice board on results day",
+      "risk": "Filming minors' disappointment without consent; must be observational and consented, never a hunt for tears"
+    },
+    {
+      "seed": "An elderly person whose daily routine of tending a garden keeps them moving",
+      "what_camera_could_observe": "Early mornings, watering, slow work with the hands, visits from neighbours, the days they cannot go out",
+      "why_it_fits": "Later-arising mind supports the body already there; the body itself arose earlier and ages on its own terms",
+      "setting_type": "a village home garden",
+      "risk": "Sentimentalising, or implying willpower defeats ageing, which the source does not say"
+    }
+  ],
+  "cross_source_notes": [
+    "The six-relation summary is the same in both books, with the same counts (6, 5, 1, 1, 2, 9) and the same named conditions [C083-M:L5–L29; C083-P:L369–L417].",
+    "Margaya explains each relation in prose, with brief examples of how it works (e.g. earlier javanas to later by repetition) [C083-M:L9–L21]; Pradeepika gives the summary only as bare lists [C083-P:L369–L417].",
+    "Pradeepika's main body (L25–L367) applies the conditions to each link of dependent origination; Margaya's extract has no such link-by-link account.",
+    "Margaya alone states that every phenomenon is a condition and that all except nibbāna and concepts are also conditioned [C083-M:L31], and defines nāma and rūpa for this context, counting nibbāna under nāma [C083-M:L35].",
+    "Margaya names the absence condition 'නාස්ති' [C083-M:L9]; Pradeepika uses the Pāli form 'නත්ථි' [C083-P:L375]."
+  ],
+  "uncertainties": [
+    "Pradeepika lists 'සම්ප්‍රයුක්ත' among the nine ways consciousness supports the heart-base at rebirth [C083-P:L109], and says other matter gets the same set minus mutuality [C083-P:L123]. Association (sampayutta) normally holds only between mental states; the expected item is probably 'විප්‍රයුක්ත'. Likely a print or OCR error; needs expert check. Not corrected in the text above.",
+    "The six ways all clingings support the next kamma-becoming [C083-P:L349–L361] include 'අත්ථි' where the anantara/natthi/vigata/āsevana pattern suggests 'නත්ථි'. Possible OCR error; needs checking against an independent edition.",
+    "Pradeepika's line 'නාමරූප – ප්‍රඥප්ති නාමයට' [C083-P:L395] seems garbled; Margaya's version, 'concept, mind and matter support mind' [C083-M:L25], matches the rest of the summary. The digest follows Margaya's wording for the meaning.",
+    "Pradeepika does not name what nutriment-matter supports [C083-P:L247–L249]; the target is missing from the extract.",
+    "Pradeepika marks the three other clingings as '2.' [C083-P:L311] but has no '1.' for craving to sensual clinging [C083-P:L309]; numbering is incomplete. Minor slips: '(2. කර්ම' [C083-P:L79], 'සහාජාත' [C083-P:L151].",
+    "Nāmarūpa to mind-base in eight ways lists both association and dissociation [C083-P:L181–L197], presumably applying to the mental and the material part respectively; the source does not say so.",
+    "Neither extract defines the twenty-four conditions one by one (Margaya gives brief functional examples only). Definitions are presumably in Concept 82 (Paṭṭhāna method), which was not read for this digest. The English glosses in key_terms are editorial.",
+    "The editorial reading that the feeling-to-craving step 'leans rather than locks' goes beyond the text, which only states the single condition [C083-P:L307]; it needs doctrinal review before any on-screen use."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}
