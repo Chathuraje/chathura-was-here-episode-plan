@@ -144,6 +144,16 @@ Therefore:
 
 The continuity requirements in `05-episode-001-100-continuity.md` are consequently separated into “repository evidence” and “requirements supplied in the current brief.” No missing dialogue, action, or scene has been invented.
 
+### Dated follow-up — 2026-09-18
+
+The statements above preserve what was available **inside the repository at the time of the original audit**. The three relevant documents are still not present in the repository, but their external Google Docs references have since been identified and were successfully retrieved through the authorized Google Drive connection on 2026-09-18:
+
+- [Channel Details](https://docs.google.com/document/d/1unE3metwZwMDAjgNPPtCJ97_BDV5SeHL-oF0itFijHU) — retrieved; planning snapshot: `docs/planning/references/channel-details-2026-09-18.md`
+- [The Beginning](https://docs.google.com/document/d/10fWaF9Vl_4_IzohQfDQLiXu2Y0nI2GVVFPHAy3B2KHs) — retrieved; planning snapshot: `docs/planning/references/the-beginning-2026-09-18.md`
+- [The Way Back](https://docs.google.com/document/d/1IjQCv2l4ECAc_MLG18a71a-flpB3gEFsdpvNxCpxVmY) — retrieved; planning snapshot: `docs/planning/references/the-way-back-2026-09-18.md`
+
+These are now identified external references, not repository files. Their contents establish intended creative and screenplay relationships, but they do not supply footage IDs, timecodes, edit-decision data, or independent verification that planned events were captured or occurred. The Episode 99 crowd relationship remains provisional under the current instruction.
+
 ## Gaps and tensions
 
 1. The full original `Abhidharma Margaya` book is not present in `content/01-sources/`, although all 102 concepts contain extracts named `Abhidharma Margaya.md`. That source family has weaker repository-level provenance than the four Pradeepika volumes.
@@ -153,6 +163,8 @@ The continuity requirements in `05-episode-001-100-continuity.md` are consequent
 5. The current validator and app intentionally recognize only two content layers. A future episode system must extend loaders/validation deliberately; it is not already supported.
 6. The brief supersedes older rules in some areas, but the older channel documents that would show their exact wording are absent. The 99-public-plus-hidden-100 model, season-linked objects, and eight-episode Season 1 rule are recorded as supplied unresolved alternatives, not repository-verified facts.
 7. Physical object identities, acquisition details, object images, selected locations, participant dialogue, verified events, research evidence, and exact edit boundaries remain unknown.
+
+The dated follow-up above resolves “no reference identified” for the channel document and the two framing screenplays, but does not change their absence from the repository. It also confirms that the older distribution and season/object language exists in an external historical reference; current instructions still take precedence.
 
 ## Audit limits
 

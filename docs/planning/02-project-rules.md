@@ -64,7 +64,10 @@ Arithmetic invariant:
 - Once acquired, the object remains owned unless a real event changes that state.
 - Objects from earlier groups may recur in later groups.
 - Keep each object’s physical identity, images, and acquisition details unresolved for now.
+- In the intended Episode 1 chronology, all ten objects have already been acquired. Record that as **planned ownership state**, not as verified acquisition evidence.
+- Keep planned ownership, verified acquisition, later possession changes, and shot-by-shot visibility as separate facts.
 - An object being outside the camera frame is not evidence that it has not yet been acquired.
+- Do not require every object to be visible in Episode 1 or in any individual shot.
 - Object rules attach to chronological groups, not seasons.
 
 ## Locations
@@ -84,12 +87,16 @@ Arithmetic invariant:
 **Confirmed current instruction**
 
 - Preserve the scene-level structure: **Episode 100 Part A → Episode 1 → Episode 100 Part B**.
-- Episode 100 Part A continues the crowd scene, shows the room and ten objects, and fills the missing journey toward Hunnasgiriya/Meemure.
-- Episode 1 contains the monastery experience and ends with Chathura disappearing into the forest.
+- Episode 1 opens with crowded-location footage, cuts away, later contains the monastery experience, and ends with Chathura disappearing into the forest.
+- Episode 100 opens with the same crowded-location footage but continues beyond Episode 1’s cut.
+- Episode 100 Part A continues through the room, packing the ten objects, departure, and travel toward Hunnasgiriya/Meemure.
+- Part A reaches the exact planned road-footage point where Episode 1 originally resumed.
+- Episode 100 revisits selected Episode 1 footage and reaches the forest disappearance.
 - Episode 100 Part B continues beyond that forest ending.
 - The same footage may gain different meaning after the audience’s accumulated experience.
 - Support both episode-level and scene-level chronology because Episode 100 surrounds Episode 1 in story chronology.
 - Preserve shared-footage references and exact edit boundaries wherever source material establishes them.
+- Treat these as intended creative relationships. Actual footage IDs, timecodes, technical edit boundaries, and verified events remain unknown until supplied.
 - Do not invent missing boundaries, dialogue, events, or participant behavior.
 
 **Provisional assumption**
@@ -109,17 +116,20 @@ Arithmetic invariant:
 - Every eventual screenplay must include scene purpose, required footage, sound, narration, estimated timing, research gaps, and continuity notes.
 - Keep a pre-filming production screenplay distinct from any post-filming revision grounded in captured footage.
 
-## Unresolved decisions
+## Unresolved decisions and when they matter
 
-The following require explicit review; they are not silently resolved by this foundation:
+These decisions are not silently resolved, but they are not all prerequisites for a small unnumbered concept-to-idea pilot:
 
-1. **Distribution model:** use the current 100-film opening/finale model for planning, while retaining the older “99 public episodes plus hidden/discovered Episode 100” model as an unresolved alternative.
-2. **Season 1 length:** decide later whether the older fixed eight-episode rule survives, is replaced, or becomes one release-series option. It does not constrain chronological group sizes.
-3. **Objects and seasons:** the current group-linked rule takes precedence; decide whether older season-linked language should be retired or retained only as historical context.
-4. **Episode 99 crowd ending:** retain provisionally until screenplay or footage evidence confirms, changes, or removes it.
-5. **Location disclosure:** decide per episode whether the name appears early, later, or never.
-6. **Physical objects:** identify, photograph, and document acquisition only when reality supplies those facts.
-7. **Release architecture:** define seasons and public release series only after the chronological development structure is viable.
-8. **Reference materials:** supply or identify the channel documents and Episode 1/100 screenplays before exact continuity and shared-edit decisions are approved.
-9. **Source provenance:** decide whether and how to add repository-level provenance for the 102 `Abhidharma Margaya` extracts and whether ignored PDFs need an archival policy.
+| Decision | Later work affected | Blocks the small pilot? |
+|---|---|---|
+| Older 99-public-plus-hidden-100 distribution model | Public release architecture, Episode 100 discovery/publishing strategy, audience-facing numbering | No |
+| Older fixed eight-episode Season 1 rule | Season and release-series packaging after chronological development | No |
+| Older season-linked object language | Historical documentation and later release/season presentation; current development uses group-linked objects | No |
+| Episode 99 crowd ending | Final framing continuity, footage matching, and edit design | No; retain provisionally |
+| Per-episode location disclosure | Treatment, title/coordinate reveal, and screenplay for the affected episode | No for an unlocated idea; Chathura decides before dependent work advances |
+| Physical object identity and acquisition evidence | Object continuity, production, and final edit | No for concept interpretation or unnumbered ideas |
+| Release architecture | Public numbering, seasons, series, and publication plan | No |
+| `Abhidharma Margaya` repository-level provenance | Strength of source audit and any claim requiring that provenance | Not automatically; assess against the selected pilot concepts |
+| Ignored-PDF archival policy | Long-term reproducibility, backup, and independent transcription verification | No |
 
+The three external references are now identified and retrieved; see `docs/planning/references/`. They support planning but remain outside the repository, and they do not replace footage/evidence verification.

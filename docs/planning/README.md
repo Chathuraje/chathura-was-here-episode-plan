@@ -10,6 +10,12 @@ This directory contains the Step 1 audit and proposals for extending the current
 4. [Data-model proposal](04-data-model-proposal.md) — proposed file-backed records, relationships, chronology, reviews, and exports.
 5. [Episode 001/100 continuity](05-episode-001-100-continuity.md) — framing structure with repository evidence separated from brief-supplied requirements.
 
+Retrieved external-reference snapshots:
+
+- [Channel Details — 2026-09-18](references/channel-details-2026-09-18.md)
+- [The Beginning — 2026-09-18](references/the-beginning-2026-09-18.md)
+- [The Way Back — 2026-09-18](references/the-way-back-2026-09-18.md)
+
 ## Proposed small Step 2 pilot — not performed
 
 After this foundation is approved, use two or three **Chathura-selected** concepts, including one possible meaningful pairing, to test only the early pipeline:
@@ -27,11 +33,8 @@ Stop at idea review. Do not assign release numbers, build all ten groups, or wri
 
 - Approve or revise the consolidated rules and proposed record model.
 - Choose the pilot concepts; do not assume all concepts need conversion.
-- Supply or identify the channel documents and Episode 1/100 screenplays if they exist.
-- Decide whether to address `Abhidharma Margaya` repository-level provenance before interpretation work.
-- Decide whether ignored source PDFs need a durable archival policy.
-- Confirm how the older 99-public/hidden-100 model, season-linked objects, and eight-episode Season 1 rule should be retained or retired.
-- Confirm the provisional Episode 99 crowd ending when supporting material is available.
+- Assess whether the selected concepts need additional `Abhidharma Margaya` provenance before their interpretations are approved.
+
+The older distribution model affects later publication/discovery strategy; season-length rules affect later release packaging; the PDF archival policy affects long-term reproducibility; and Episode 99’s provisional crowd ending affects later framing/edit work. None blocks the small unnumbered concept-to-idea pilot. The external channel and framing references have been identified and retrieved, though they remain outside the repository.
 
 Location selection remains exclusively Chathura’s at every stage.
-

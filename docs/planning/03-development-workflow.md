@@ -39,9 +39,12 @@ If evidence contradicts an approved documentary possibility, evidence wins. The 
 
 ## Count and structure controls
 
-- The active development slate targets exactly 98 films across ten chronological groups.
-- Group sizes are validated by sum only: each group must contain at least one film, and no ten-film maximum is imposed.
+- **Draft/pilot validation:** partial records, fewer than ten groups, fewer than 98 episode records, and unassigned chronological/release/filming positions are allowed. Validate schema, stable-ID uniqueness, references, provenance, review authority, and the consistency of any assignment that does exist.
+- **Finalized-slate validation:** require exactly ten chronological groups containing exactly 98 unique development episodes, plus the two framing films, Episodes 1 and 100.
+- Group sizes are validated by sum only in finalized-slate mode: each group must contain at least one film, and no ten-film maximum is imposed.
+- Never create placeholder episodes or empty shell records merely to satisfy finalized-slate counts.
 - Framing Episodes 1 and 100 are held separately and bring the public-film target to 100.
 - Internal IDs survive movement between groups or changes in chronology, release order, season, or filming schedule.
 - Permanent release numbers are assigned only at an approved release-planning gate.
 
+The older distribution model, season-length questions, and PDF archival policy do not block Stages 2–4 for a small unnumbered pilot. They become gates only when work reaches their dependent release, season, continuity, or archival decisions. Selected-location authority remains exclusively Chathura’s in both validation modes.

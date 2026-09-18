@@ -26,6 +26,8 @@ development/
   objects/*.json
   connections/*.json
   shared-scenes/*.json
+  scene-appearances/*.json
+  chronology-relations/*.json
   release-series/*.json
   screenplay-versions/*.json
   review-decisions/*.json
@@ -67,6 +69,8 @@ Suggested ID namespaces:
 - objects: `OBJ-01`–`OBJ-10`
 - connections: `CONN-0001`
 - shared scenes: `SHR-0001`
+- scene appearances: `APP-0001`
+- chronology relations: `CHR-0001`
 - release series/seasons: `SER-0001`
 - screenplay versions: `SPV-0001`
 - evidence: `EVD-0001`
@@ -106,7 +110,7 @@ The four truth classes should remain in separate fields or linked records:
 
 ### Chronological groups
 
-Exactly ten group records use stable IDs `GRP-01`–`GRP-10`. Each contains its arc, connection logic, ordered `episode_ids`, and assigned `object_id`. A computed validator checks that development episodes appear once in group membership and that the ten group sizes total 98. No per-group maximum is encoded.
+Finalized-slate mode requires exactly ten group records using stable IDs `GRP-01`–`GRP-10`. Each contains its arc, connection logic, ordered `episode_ids`, and assigned `object_id`. Draft/pilot mode may contain a partial set with unassigned episodes. A finalized-slate validator checks that every development episode appears once in group membership and that the ten group sizes total 98. No per-group maximum is encoded.
 
 ### Episodes
 
@@ -143,7 +147,7 @@ Create `OBJ-01`–`OBJ-10`, each assigned to exactly one chronological group. Ke
 - `verified_acquisition` only after a real event/evidence supports it;
 - `appearance`, `transfer`, `loss`, or other real change with evidence and chronology.
 
-Ownership at any scene is derived from verified events, not from whether the object is visible in frame. Earlier objects may appear in later groups.
+Store `planned_ownership_state` separately from `verified_ownership_state`. The current intended chronology says all ten objects are already acquired by Episode 1, while the verified acquisition records remain unknown until evidence is supplied. Verified ownership is derived from verified events; planned ownership is derived from approved continuity requirements. Neither state is derived from whether an object is visible in frame. Shot visibility is a separate scene-appearance fact, and no shot is required to display every owned object. Earlier objects may appear in later groups.
 
 ### Connections
 
@@ -151,7 +155,11 @@ Connection records make relationships explicit: concept↔concept, idea↔concep
 
 ### Shared scenes
 
-A shared-scene record identifies one footage/scene unit and every use of it. Fields include participant episode IDs, source footage reference, transcript/evidence links, exact source in/out boundaries when known, edit in/out boundaries per use, chronology key, intended meaning per use, and unknown-boundary flags. Unknown boundaries stay null; they are never estimated into “facts.”
+A shared-scene record represents stable scene/event identity only: what the intended event is, its stable ID, planning status, verified-event status, and evidence/footage references when they exist. It must not derive its identity or sort order from an episode number or label such as `100A.crowd`.
+
+A separate chronology-relation record places stable scenes/events relative to one another using relationships such as `before`, `after`, `same_event_as`, or a verified timestamp when available. Planned chronology and evidence-backed chronology are separate fields. Episode-derived labels may be human aliases, but they never determine chronological sorting.
+
+A separate scene-appearance record represents each use of the shared scene in an episode. It links one stable `shared_scene_id` to one `container_episode_id` and carries that appearance’s planned or actual edit boundaries, intended meaning, narration/sound treatment, and evidence status. One shared scene may have any number of appearances across episodes. Unknown footage IDs, timecodes, and edit boundaries stay null; planned relationships are never promoted into verified facts.
 
 ### Release series and seasons
 
@@ -165,13 +173,41 @@ A post-filming version links to the production version it revises and includes a
 
 ## Episode-level and scene-level chronology
 
-Episode chronology orders ordinary development films within groups. Scene chronology uses sortable keys independent of the containing episode, for example:
+Episode chronology orders ordinary development films within groups. Scene chronology is a graph of stable scene/event identities and explicit before/after relationships independent of every containing episode. For example:
 
 ```text
-100A.crowd → 100A.room → 100A.journey → 001.monastery → 001.forest → 100B.after-forest
+SHR-0001 (crowded-location event)
+  before SHR-0002 (room / packing)
+  before SHR-0003 (departure / road journey)
+  before SHR-0004 (monastery experience)
+  before SHR-0005 (forest disappearance)
+  before SHR-0006 (beyond-forest continuation)
+
+APP-0001: SHR-0001 appears in EP-001 with its own cut boundary and meaning
+APP-0002: SHR-0001 appears in EP-100 with a different continuation and meaning
+APP-0003: SHR-0001 is planned to appear in Episode 99; provisional
 ```
 
-Each scene stores both `container_episode_id` and `story_chronology_key`. This allows Episode 100 to contain material on both sides of Episode 1 while public episode numbers remain 1 and 100. Shared footage is referenced by shared-scene ID rather than duplicated.
+This allows Episode 100 to contain material on both sides of Episode 1 while public episode numbers remain 1 and 100. Shared footage is referenced by stable shared-scene ID rather than duplicated, and each episode appearance retains its own boundaries and interpretation.
+
+## Validation modes
+
+### Draft/pilot
+
+Allow partial records, nullable assignments, a partial group set, and unassigned chronological, release, or filming positions. Validate:
+
+- schema shape and unique IDs among records that exist;
+- every populated reference resolves;
+- source and interpretation provenance is present;
+- planned claims remain distinct from verified evidence;
+- any existing group, object, location, chronology, or release assignment is internally consistent;
+- only a Chathura review decision can populate `selected_location_id`.
+
+Do not create placeholder episodes, groups, locations, objects, or assignments to make draft data look complete.
+
+### Finalized slate
+
+Require exactly ten chronological groups containing exactly 98 unique development episodes, with each development episode assigned once, plus the two framing-film records `EP-001` and `EP-100`. Enforce the approved object/group invariants and all required continuity links. Group sizes must total 98, but there is no ten-film maximum. Release and filming structures remain independently validated rather than being inferred from chronology.
 
 ## Review decisions and provenance
 
@@ -199,4 +235,3 @@ The same resolver should produce a machine-readable JSON export with record IDs 
 ## Future compatibility work (not performed)
 
 Later implementation would require schema validation, ID allocation, development-data loaders, route/UI work, updated validation scripts, dependency tracking, and export tests. The current app has none of these capabilities. This proposal does not authorize or perform those changes.
-
