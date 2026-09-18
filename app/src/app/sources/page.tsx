@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getData } from "@/lib/content";
+import { contentRel, getData } from "@/lib/content";
 import { docHref } from "@/lib/routes";
 
 export default async function SourcesPage() {
@@ -30,7 +30,7 @@ export default async function SourcesPage() {
           </section>
         ))}
       </div>
-      <p className="small muted">See also the <Link href={docHref("content/PATH-MAP.md")}>path map</Link> for how the folders were reorganised.</p>
+      <p className="small muted">See also the <Link href={docHref(contentRel("PATH-MAP.md"))}>path map</Link> for how the folders were reorganised.</p>
     </>
   );
 }

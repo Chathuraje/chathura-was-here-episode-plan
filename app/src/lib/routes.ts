@@ -12,20 +12,24 @@ export function docHref(repoPath: string): string {
   return "/docs/" + repoPath.split("/").map(encodeURIComponent).join("/");
 }
 
-/** Map a repo-relative file path to the best page in the app. */
+/**
+ * Map a repo-relative file path to the best page in the app.
+ * Matching is by the numbered folder names, so the content root can be named anything.
+ */
 export function routeForRepoPath(p: string): string {
-  const idea = p.match(/^content\/03-idea-bank\/ideas\/(C\d{3}-I\d{2})\b/);
+  const clean = p.replace(/\/$/, "");
+  const idea = clean.match(/\/03-idea-bank\/ideas\/(C\d{3}-I\d{2})\b/);
   if (idea) return `/ideas/${idea[1]}`;
-  const lead = p.match(/^content\/05-story-leads\/(SL-SQ\d{2}-\d{3})\b/);
+  const lead = clean.match(/\/05-story-leads\/(SL-SQ\d{2}-\d{3})\b/);
   if (lead) return `/leads/${lead[1]}`;
-  const special: Record<string, string> = {
-    "content/04-story-discovery/research-shortlist.md": "/shortlist",
-    "content/04-story-discovery/philosophy-map.md": "/territories",
-    "content/04-story-discovery/overlap-map.md": "/groups",
-    "content/04-story-discovery/documentary-potential-matrix.md": "/ideas?view=scores",
-    "content/05-story-leads": "/leads",
-  };
-  return special[p.replace(/\/$/, "")] ?? docHref(p);
+  const special: [RegExp, string][] = [
+    [/\/04-story-discovery\/research-shortlist\.md$/, "/shortlist"],
+    [/\/04-story-discovery\/philosophy-map\.md$/, "/territories"],
+    [/\/04-story-discovery\/overlap-map\.md$/, "/groups"],
+    [/\/04-story-discovery\/documentary-potential-matrix\.md$/, "/ideas?view=scores"],
+    [/\/05-story-leads$/, "/leads"],
+  ];
+  return special.find(([re]) => re.test(clean))?.[1] ?? docHref(clean);
 }
 
 export const TYPE_COLORS: Record<string, string> = {

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getData } from "@/lib/content";
+import { docHref } from "@/lib/routes";
 import { listLeads } from "@/lib/leads";
 import { Chip, TierBadge } from "@/components/ui";
 
@@ -67,6 +68,23 @@ export default async function Home() {
           <p className="small muted" style={{ marginBottom: 0 }}>Hypothetical research directions are not verified stories. Every new lead starts as <em>unverified</em>.</p>
         </section>
       </div>
+
+      {d.extras.length ? (
+        <>
+          <h2>Later stages in this repository</h2>
+          <div className="grid grid-2">
+            {d.extras.map((e) => (
+              <Link key={e.path} href={docHref(e.readme ?? e.path)} className="card card-link">
+                <div className="kicker">{e.name}</div>
+                <strong>{e.title}</strong>
+                <div className="muted small" style={{ marginTop: 6 }}>
+                  This explorer does not model this stage. Open it in the library.
+                </div>
+              </Link>
+            ))}
+          </div>
+        </>
+      ) : null}
 
       <h2>Research shortlist by territory</h2>
       <div className="grid grid-2">

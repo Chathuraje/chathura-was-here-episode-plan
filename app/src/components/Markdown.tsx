@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { knownIds } from "@/lib/content";
+import { CONTENT_NAME, knownIds } from "@/lib/content";
 import { docHref, hrefForId, routeForRepoPath } from "@/lib/routes";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -90,7 +90,7 @@ export default async function Markdown({ text, docPath }: { text: string; docPat
           code: ({ children, className }) => {
             const text = String(children);
             // Repo paths in inline code become links when they point at a Markdown file or folder we can open.
-            if (!className && /^(content|instructions)\/[^`]+$/.test(text) && !text.includes("*") && !text.includes("<")) {
+            if (!className && new RegExp(`^(${CONTENT_NAME}|content|instructions)/[^\`]+$`).test(text) && !text.includes("*") && !text.includes("<")) {
               return (
                 <Link href={docHref(text.replace(/\/$/, ""))} className="code-link">
                   <code>{children}</code>

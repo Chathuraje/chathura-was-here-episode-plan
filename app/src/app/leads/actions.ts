@@ -3,11 +3,9 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { getData } from "@/lib/content";
-import { LEAD_ID_RE, READINESS, RESEARCH_STATUSES, getLead, writeLead, writesEnabled, type Lead } from "@/lib/leads";
+import { LEAD_ID_RE, READINESS, RESEARCH_STATUSES, getLead, today, writeLead, writesEnabled, type Lead } from "@/lib/leads";
 
 export type SaveState = { error?: string };
-
-const today = () => new Date().toISOString().slice(0, 10);
 
 function setLine(content: string, label: string, value: string) {
   const re = new RegExp(`(\\*\\*${label.replace(/[()]/g, "\\$&")}:\\*\\*)[^\\n]*`);

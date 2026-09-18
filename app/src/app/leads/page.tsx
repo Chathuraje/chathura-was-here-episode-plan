@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { getData } from "@/lib/content";
+import { DIRS, contentRel, getData } from "@/lib/content";
 import { RESEARCH_STATUSES, listLeads } from "@/lib/leads";
 import { StatusBadge } from "@/components/ui";
 
 export default async function LeadsPage() {
   const d = await getData();
   const leads = await listLeads();
+  const leadsDir = `${contentRel(DIRS.leads)}/`;
   return (
     <>
       <div className="kicker">05 · Story leads</div>
@@ -22,7 +23,7 @@ export default async function LeadsPage() {
       {leads.length === 0 ? (
         <div className="card">
           <p style={{ marginTop: 0 }}>No story leads yet. Research begins by picking a question on the <Link href="/shortlist">shortlist</Link>.</p>
-          <p className="small muted" style={{ marginBottom: 0 }}>Leads are saved as Markdown in <code>content/05-story-leads/</code>, using the story-lead template.</p>
+          <p className="small muted" style={{ marginBottom: 0 }}>Leads are saved as Markdown in <code>{leadsDir}</code>, using the story-lead template.</p>
         </div>
       ) : (
         <div className="table-wrap">

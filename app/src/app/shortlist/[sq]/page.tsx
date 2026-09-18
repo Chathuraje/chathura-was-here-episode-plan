@@ -27,7 +27,7 @@ export default async function ShortlistItemPage({ params }: { params: Promise<{ 
           <GraphLink id={s.id} />
         </div>
         <section className="card">
-          <Markdown text={s.body} docPath="content/04-story-discovery/research-shortlist.md" />
+          <Markdown text={s.body} docPath={s.file} />
         </section>
       </article>
       <aside className="aside">

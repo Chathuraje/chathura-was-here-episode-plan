@@ -18,7 +18,7 @@ export default async function TerritoryPage({ params }: { params: Promise<{ id: 
         <h1>{t.name}</h1>
         <div className="row" style={{ marginBottom: 12 }}><GraphLink id={t.id} /></div>
         <section className="card">
-          <Markdown text={t.body} docPath="content/04-story-discovery/philosophy-map.md" />
+          <Markdown text={t.body} docPath={t.file} />
         </section>
       </article>
       <aside className="aside">

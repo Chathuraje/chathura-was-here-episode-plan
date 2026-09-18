@@ -7,13 +7,14 @@ import { TierBadge } from "@/components/ui";
 export default async function ShortlistPage() {
   const d = await getData();
   const leads = await listLeads();
+  const shortlistDoc = [...d.shortlist.values()][0]?.file ?? "";
   return (
     <>
       <div className="kicker">04 · Story discovery</div>
       <h1>Research shortlist</h1>
       <p className="lede">
         {d.shortlist.size} open human questions for the first story-discovery cycle. Research one question at a time.{" "}
-        <Link href={docHref("content/04-story-discovery/research-shortlist.md")}>Selection method and reserve list</Link>.
+        <Link href={docHref(shortlistDoc)}>Selection method and reserve list</Link>.
       </p>
       <div className="grid grid-2">
         {[...d.shortlist.values()].map((s) => {

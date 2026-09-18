@@ -4,13 +4,14 @@ import { docHref } from "@/lib/routes";
 
 export default async function GroupsPage() {
   const d = await getData();
+  const overlapMap = [...d.groups.values()][0]?.file ?? "";
   return (
     <>
       <div className="kicker">04 · Story discovery</div>
       <h1>Overlap groups</h1>
       <p className="lede">
         Similar-looking cards and how research treats them: which card to start from, which travel with it, and which must stay separate.{" "}
-        <Link href={docHref("content/04-story-discovery/overlap-map.md")}>Open the full overlap map</Link>.
+        <Link href={docHref(overlapMap)}>Open the full overlap map</Link>.
       </p>
       <div className="table-wrap">
         <table>

@@ -1,1 +1,8 @@
 *.pdf
+
+# Node / Next (app)
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store

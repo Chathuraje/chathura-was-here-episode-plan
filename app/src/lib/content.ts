@@ -8,6 +8,8 @@ import matter from "gray-matter";
 
 export const CONTENT_DIR = path.resolve(process.env.CONTENT_DIR ?? path.join(process.cwd(), "..", "content"));
 export const REPO_DIR = path.dirname(CONTENT_DIR);
+/** Folder name of the content root, normally "content". Used to build repo-relative paths. */
+export const CONTENT_NAME = path.basename(CONTENT_DIR);
 
 export const DIRS = {
   sources: "01-sources",
@@ -20,6 +22,11 @@ export const DIRS = {
 /** Repo-relative POSIX path, e.g. "content/03-idea-bank/index.md". */
 export function repoRel(abs: string): string {
   return path.relative(REPO_DIR, abs).split(path.sep).join("/");
+}
+
+/** Repo-relative path inside the content folder. */
+export function contentRel(...segments: string[]): string {
+  return repoRel(path.join(CONTENT_DIR, ...segments));
 }
 
 const nfc = (s: string) => s.normalize("NFC");
@@ -101,6 +108,7 @@ export const CRITERIA = [
 export type Territory = {
   id: string;
   name: string;
+  file: string;
   definition: string;
   tension: string;
   body: string;
@@ -112,6 +120,7 @@ export type Territory = {
 export type Group = {
   id: string;
   theme: string;
+  file: string;
   lead?: string;
   supporting: string[];
   related: string[];
@@ -122,6 +131,7 @@ export type Group = {
 export type ShortlistItem = {
   id: string; // SQ05
   heading: string;
+  file: string;
   lead: string;
   supporting: string[];
   related: string[];
@@ -132,6 +142,8 @@ export type ShortlistItem = {
 
 export type Doc = { path: string; title: string };
 
+export type ExtraFolder = { name: string; path: string; title: string; readme?: string };
+
 export type Data = {
   concepts: Map<string, Concept>;
   ideas: Map<string, Idea>;
@@ -139,6 +151,8 @@ export type Data = {
   groups: Map<string, Group>;
   shortlist: Map<string, ShortlistItem>;
   docs: { discovery: Doc[]; ideaBank: Doc[]; sources: Doc[]; instructions: Doc[]; batchReports: Doc[] };
+  /** Folders inside content/ that this app does not model, such as later pipeline stages. */
+  extras: ExtraFolder[];
   loadedAt: string;
 };
 
@@ -239,7 +253,7 @@ async function loadConcepts(): Promise<Map<string, Concept>> {
     c.coverage = row[4];
     c.status = row[7] ?? "";
     const note = row[5]?.match(/\((source-notes\/[^)]+)\)/)?.[1];
-    if (note) c.sourceNotePath = `content/${DIRS.ideaBank}/${decodeURIComponent(note)}`;
+    if (note) c.sourceNotePath = contentRel(DIRS.ideaBank, decodeURIComponent(note));
   }
   return new Map([...concepts.entries()].sort((a, b) => a[1].num - b[1].num));
 }
@@ -289,6 +303,7 @@ async function loadTerritories(ideas: Map<string, Idea>): Promise<Map<string, Te
     territories.set(m[1], {
       id: m[1],
       name: m[2],
+      file: contentRel(DIRS.discovery, "philosophy-map.md"),
       definition: field("Definition"),
       tension: field("Central tension"),
       body,
@@ -322,6 +337,7 @@ async function loadGroups(ideas: Map<string, Idea>): Promise<Map<string, Group>>
     groups.set(row[0], {
       id: row[0],
       theme: row[1],
+      file: contentRel(DIRS.discovery, "overlap-map.md"),
       lead: idsOutsideParens(row[2])[0],
       supporting: idsOutsideParens(row[3]),
       related: idsOutsideParens(row[4]),
@@ -374,6 +390,7 @@ async function loadShortlist(ideas: Map<string, Idea>, territories: Map<string, 
     const item: ShortlistItem = {
       id: m[1],
       heading: m[2],
+      file: contentRel(DIRS.discovery, "research-shortlist.md"),
       lead,
       supporting: idsOutsideParens(line("Supporting")),
       related: idsOutsideParens(line("Related")),
@@ -417,12 +434,28 @@ async function loadAll(): Promise<Data> {
   }
 
   const [discovery, ideaBank, sources, instructions, batchReports] = await Promise.all([
-    mdDocs(`content/${DIRS.discovery}`),
-    mdDocs(`content/${DIRS.ideaBank}`),
-    mdDocs(`content/${DIRS.sources}`),
+    mdDocs(contentRel(DIRS.discovery)),
+    mdDocs(contentRel(DIRS.ideaBank)),
+    mdDocs(contentRel(DIRS.sources)),
     mdDocs("instructions"),
-    mdDocs(`content/${DIRS.ideaBank}/batch-reports`),
+    mdDocs(contentRel(DIRS.ideaBank, "batch-reports")),
   ]);
+
+  const known = new Set<string>(Object.values(DIRS));
+  const extras: ExtraFolder[] = [];
+  for (const name of await listDir(CONTENT_DIR)) {
+    if (known.has(name) || name.endsWith(".md")) continue;
+    const abs = path.join(CONTENT_DIR, name);
+    if (!(await fs.stat(abs)).isDirectory()) continue;
+    const readmeAbs = path.join(abs, "README.md");
+    const readme = (await fs.stat(readmeAbs).then(() => true).catch(() => false)) ? repoRel(readmeAbs) : undefined;
+    extras.push({
+      name,
+      path: repoRel(abs),
+      title: readme ? titleOf(await read(readmeAbs), name) : name,
+      readme,
+    });
+  }
 
   return {
     concepts,
@@ -431,6 +464,7 @@ async function loadAll(): Promise<Data> {
     groups,
     shortlist,
     docs: { discovery, ideaBank, sources, instructions, batchReports },
+    extras,
     loadedAt: new Date().toISOString(),
   };
 }
@@ -439,11 +473,17 @@ async function loadAll(): Promise<Data> {
 /* Cache                                                               */
 /* ------------------------------------------------------------------ */
 
-const g = globalThis as unknown as { __cwhData?: Promise<Data> };
+const g = globalThis as unknown as { __cwhData?: { version: number; data: Promise<Data> } };
+
+/** Changes whenever this module is re-evaluated, so a hot reload in dev never serves stale parsing. */
+const MODULE_VERSION = Date.now();
 
 export function getData(): Promise<Data> {
-  if (!g.__cwhData) g.__cwhData = loadAll().catch((e) => { g.__cwhData = undefined; throw e; });
-  return g.__cwhData;
+  if (!g.__cwhData || g.__cwhData.version !== MODULE_VERSION) {
+    const data = loadAll().catch((e) => { g.__cwhData = undefined; throw e; });
+    g.__cwhData = { version: MODULE_VERSION, data };
+  }
+  return g.__cwhData.data;
 }
 
 export function clearDataCache() {
@@ -454,7 +494,9 @@ export function clearDataCache() {
 /* Generic document access (for the docs viewer)                       */
 /* ------------------------------------------------------------------ */
 
-/** Resolve a repo-relative path safely. Only Markdown inside content/ or instructions/ is allowed. */
+export type DirEntry = { name: string; isDir: boolean };
+
+/** Resolve a repo-relative path safely. Only Markdown inside the content folder or instructions/ is allowed. */
 export function safeRepoPath(rel: string): string | null {
   const abs = path.resolve(REPO_DIR, rel);
   const allowed = [CONTENT_DIR, path.join(REPO_DIR, "instructions")];
@@ -462,22 +504,44 @@ export function safeRepoPath(rel: string): string | null {
   return abs;
 }
 
-export async function readDoc(rel: string): Promise<{ path: string; text: string; isDir: boolean; entries: string[] } | null> {
-  const abs = safeRepoPath(rel);
-  if (!abs) return null;
-  try {
-    const stat = await fs.stat(abs);
-    if (stat.isDirectory()) return { path: repoRel(abs), text: "", isDir: true, entries: await listDir(abs) };
-    if (!abs.endsWith(".md")) return null;
-    return { path: repoRel(abs), text: await read(abs), isDir: false, entries: [] };
-  } catch {
-    // Network shares may present a different Unicode normalisation of the same name.
-    const dir = path.dirname(abs);
-    const want = nfc(path.basename(abs));
-    const match = (await listDir(dir)).find((f) => nfc(f) === want);
-    if (match && match !== path.basename(abs)) return readDoc(repoRel(path.join(dir, match)));
-    return null;
+/**
+ * Walk a path segment by segment, tolerating Unicode normalisation differences.
+ * Sinhala folder names on the SMB share can be stored decomposed while a link uses
+ * the composed form (or the other way round), so an exact match may fail.
+ */
+async function resolveOnDisk(abs: string): Promise<string | null> {
+  if (await fs.stat(abs).then(() => true).catch(() => false)) return abs;
+  const rel = path.relative(REPO_DIR, abs);
+  let current = REPO_DIR;
+  for (const segment of rel.split(path.sep)) {
+    const direct = path.join(current, segment);
+    if (await fs.stat(direct).then(() => true).catch(() => false)) {
+      current = direct;
+      continue;
+    }
+    const want = nfc(segment);
+    const match = (await listDir(current)).find((name) => nfc(name) === want);
+    if (!match) return null;
+    current = path.join(current, match);
   }
+  return current;
+}
+
+export async function readDoc(rel: string): Promise<{ path: string; text: string; isDir: boolean; entries: DirEntry[] } | null> {
+  const requested = safeRepoPath(rel);
+  if (!requested) return null;
+  const abs = await resolveOnDisk(requested);
+  if (!abs || !safeRepoPath(path.relative(REPO_DIR, abs))) return null;
+  const stat = await fs.stat(abs);
+  if (stat.isDirectory()) {
+    const names = await listDir(abs);
+    const entries = await Promise.all(
+      names.map(async (name) => ({ name, isDir: (await fs.stat(path.join(abs, name)).catch(() => null))?.isDirectory() ?? false })),
+    );
+    return { path: repoRel(abs), text: "", isDir: true, entries };
+  }
+  if (!abs.endsWith(".md")) return null;
+  return { path: repoRel(abs), text: await read(abs), isDir: false, entries: [] };
 }
 
 export async function readRaw(rel: string) {

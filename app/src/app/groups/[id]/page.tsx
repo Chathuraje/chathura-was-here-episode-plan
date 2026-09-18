@@ -20,7 +20,7 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
           <GraphLink id={g.id} />
         </div>
         <section className="card">
-          <Markdown text={g.body || "_No detail recorded._"} docPath="content/04-story-discovery/overlap-map.md" />
+          <Markdown text={g.body || "_No detail recorded._"} docPath={g.file} />
         </section>
         <h2>Cards side by side</h2>
         <div className="grid grid-2">

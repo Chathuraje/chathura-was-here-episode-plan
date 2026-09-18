@@ -30,7 +30,11 @@ export type Lead = {
 
 export const writesEnabled = () => process.env.EXPLORER_READ_ONLY !== "1";
 
-const today = () => new Date().toISOString().slice(0, 10);
+/** Local calendar date (not UTC), so a lead opened late at night carries the right day. */
+export const today = () => {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+};
 
 function splitSections(body: string): LeadSection[] {
   const out: LeadSection[] = [];

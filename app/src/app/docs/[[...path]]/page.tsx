@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { readDoc } from "@/lib/content";
+import { CONTENT_NAME, readDoc } from "@/lib/content";
 import { docHref, routeForRepoPath } from "@/lib/routes";
 import Markdown from "@/components/Markdown";
 
 const ROOTS = [
-  { path: "content", label: "content — research pipeline" },
+  { path: CONTENT_NAME, label: `${CONTENT_NAME} — research pipeline` },
   { path: "instructions", label: "instructions — agent instructions" },
 ];
 
@@ -46,15 +46,13 @@ export default async function DocPage({ params, searchParams }: { params: Promis
         {breadcrumb}
         <h1>{crumbs[crumbs.length - 1]}</h1>
         <ul className="tree">
-          {doc.entries.map((e) => {
-            const p = `${doc.path}/${e}`;
-            const isMd = e.endsWith(".md");
-            const isDir = !e.includes(".");
-            if (!isMd && !isDir) return <li key={e} className="muted">📄 {e}</li>;
+          {doc.entries.map(({ name, isDir }) => {
+            const p = `${doc.path}/${name}`;
+            if (!isDir && !name.endsWith(".md")) return <li key={name} className="muted">📄 {name}</li>;
             const special = routeForRepoPath(p);
             return (
-              <li key={e}>
-                {isDir ? "📁" : "📄"} <Link href={docHref(p)}>{e}</Link>
+              <li key={name}>
+                {isDir ? "📁" : "📄"} <Link href={docHref(p)}>{name}</Link>
                 {special !== docHref(p) ? <> · <Link className="small" href={special}>open in explorer</Link></> : null}
               </li>
             );
