@@ -18,6 +18,10 @@ npm run dev
 
 Open <http://localhost:3000>. The home page links directly to the source library and concept catalogue.
 
+## Episode-development planning
+
+The reviewable Step 1 audit, consolidated rules, workflow, proposed data model, and Episode 1/100 continuity foundation are indexed in [`docs/planning/README.md`](docs/planning/README.md). These are planning documents only; the app does not yet implement the proposed episode-development features.
+
 ## Validate the content
 
 From `app/`, run:
