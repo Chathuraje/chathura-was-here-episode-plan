@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T06
 
 **Open question (as carried from the shortlist):**
-> SQ10
+> How do we decide to trust an account of something we have never experienced?
 
 **Series-architecture story ID:** `ST-041`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-The Grade 5 scholarship examination is a national selection test taken by children around the age of ten. Recent research reports an independent association between early examination exposure and anxiety, with examination-exposed children showing longer tuition hours, reduced non-academic activity, and a dose-response relationship between tuition duration and anxiety. The examination has been the subject of a long public argument, including a presidential announcement of a decision to abolish it and sustained argument from others that it should be reformed rather than removed because it is one
+The Grade 5 scholarship examination is a national selection test taken by children around the age of ten. Recent research reports an independent association between early examination exposure and anxiety, with examination-exposed children showing longer tuition hours, reduced non-academic activity, and a dose-response relationship between tuition duration and anxiety.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

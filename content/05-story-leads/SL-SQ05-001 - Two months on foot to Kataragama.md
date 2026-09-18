@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T04
 
 **Open question (as carried from the shortlist):**
-> SQ05
+> When people part with something they have been strongly attached to, or keep it, what happens to the attachment itself?
 
 **Series-architecture story ID:** `ST-021`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 

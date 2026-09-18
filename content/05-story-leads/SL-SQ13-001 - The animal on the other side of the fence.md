@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T08
 
 **Open question (as carried from the shortlist):**
-> SQ13
+> In a long dispute, what turns passing resentment into something carried for years, and what, if anything, loosens it?
 
 **Series-architecture story ID:** `ST-051`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 

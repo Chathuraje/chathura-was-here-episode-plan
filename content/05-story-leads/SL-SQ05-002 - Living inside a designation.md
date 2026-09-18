@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T04
 
 **Open question (as carried from the shortlist):**
-> SQ05
+> When people part with something they have been strongly attached to, or keep it, what happens to the attachment itself?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T09
 
 **Open question (as carried from the shortlist):**
-> SQ15
+> What keeps someone from doing harm when no one they respect will ever find out?
 
 **Series-architecture story ID:** `ST-057`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-On 9 July 2025 the Supreme Court issued a judgment and guidelines directed at ending ragging in state universities, following an incident at the University of Sri Jayewardenepura in which a first-year student sustained severe injuries. The judgment is reported as stating that ragging corrupts the core intent of free education and as citing suicide, psychological trauma and academic dropout among victims. The Ministry of Higher Education and the University Grants Commission were required to report back to the court within six months on enforcement, budget allocation and bylaw drafting. Peer-rev
+On 9 July 2025 the Supreme Court issued a judgment and guidelines directed at ending ragging in state universities, following an incident at the University of Sri Jayewardenepura in which a first-year student sustained severe injuries. The judgment is reported as stating that ragging corrupts the core intent of free education and as citing suicide, psychological trauma and academic dropout among victims. The Ministry of Higher Education and the University Grants Commission were required to report back to the court within six months on enforcement, budget allocation and bylaw drafting.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T10
 
 **Open question (as carried from the shortlist):**
-> SQ17
+> If helping no longer feels good, what tells us it still matters?
 
 **Series-architecture story ID:** `ST-062`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-In April 2017 a garbage mound at Meethotamulla collapsed, killing 32 people, destroying more than 140 homes and displacing hundreds. The Karadiyana site occupies about 25 acres of wetland adjacent to the Weras Ganga, which flows into Bolgoda Lake, and in early 2019 the National Building Research Organisation reported a risk of collapse if dumping continued at the then rate. Published analysis records that an informal waste economy emerged around uncontrolled dumping, that waste pickers experience stigma and marginalisation, and that the informal recycling sector has been sidelined as processin
+In April 2017 a garbage mound at Meethotamulla collapsed, killing 32 people, destroying more than 140 homes and displacing hundreds. The Karadiyana site occupies about 25 acres of wetland adjacent to the Weras Ganga, which flows into Bolgoda Lake, and in early 2019 the National Building Research Organisation reported a risk of collapse if dumping continued at the then rate.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

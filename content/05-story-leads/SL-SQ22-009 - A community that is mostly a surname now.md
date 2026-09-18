@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T12
 
 **Open question (as carried from the shortlist):**
-> SQ22
+> When we long for a place, which part of the memory are we actually longing for?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

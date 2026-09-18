@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T01
 
 **Open question (as carried from the shortlist):**
-> SQ02
+> What do we only notice once we have stopped looking for something else?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

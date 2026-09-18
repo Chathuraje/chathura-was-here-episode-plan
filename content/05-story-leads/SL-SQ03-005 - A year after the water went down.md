@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T02
 
 **Open question (as carried from the shortlist):**
-> SQ03
+> How much of a disagreement is about the thing, and how much is about which side of it each person stands on?
 
 **Series-architecture story ID:** `ST-016`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Cyclone Ditwah made landfall on the east coast on 28 November 2025, causing flooding and landslides across all 25 districts. Reported figures by mid-December 2025 were 643 deaths and 183 missing, with more than 107,000 homes damaged or destroyed. UN assessments put around 1.8 million people, about 8 per cent of the population, as affected, with more than a million still needing humanitarian assistance a month later, and UNDP analysis described about one fifth of the country as inundated. The World Bank estimated direct physical damage at USD 4.1 billion on 22 December 2025. More than 1,300 sch
+Cyclone Ditwah made landfall on the east coast on 28 November 2025, causing flooding and landslides across all 25 districts. Reported figures by mid-December 2025 were 643 deaths and 183 missing, with more than 107,000 homes damaged or destroyed. UN assessments put around 1.8 million people, about 8 per cent of the population, as affected, with more than a million still needing humanitarian assistance a month later, and UNDP analysis described about one fifth of the country as inundated. The World Bank estimated direct physical damage at USD 4.1 billion on 22 December 2025.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

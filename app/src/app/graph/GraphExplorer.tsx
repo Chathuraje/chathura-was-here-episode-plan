@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { GLink, GNode, NodeType } from "@/lib/graph";
+import type { CxInfo, GLink, GNode, NodeType } from "@/lib/graph";
 import { hrefForId } from "@/lib/routes";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -17,23 +17,35 @@ const TYPES: { type: NodeType; label: string; color: string }[] = [
   { type: "group", label: "Overlap groups", color: "#7c5fbb" },
   { type: "shortlist", label: "Research questions", color: "#239a66" },
   { type: "lead", label: "Story leads", color: "#d68a14" },
+  { type: "story", label: "Episode candidates", color: "#0f8f9a" },
+  { type: "segment", label: "Framing segments", color: "#9c4480" },
 ];
+const FAMILIES = [
+  { key: "philosophical", label: "Philosophical", color: "#6b4fa8" },
+  { key: "chronological", label: "Chronological", color: "#b0452f" },
+  { key: "continuity", label: "Object / footage continuity", color: "#1f8a5b" },
+];
+const FAMILY_COLOR = Object.fromEntries(FAMILIES.map((f) => [f.key, f.color]));
 const COLOR = Object.fromEntries(TYPES.map((t) => [t.type, t.color])) as Record<NodeType, string>;
 
 const PRESETS: { key: string; label: string; types: NodeType[]; accepted: boolean }[] = [
   { key: "research", label: "Research map", types: ["territory", "idea", "shortlist", "lead"], accepted: true },
   { key: "sources", label: "Sources → ideas", types: ["concept", "idea"], accepted: false },
   { key: "overlaps", label: "Overlaps", types: ["idea", "group"], accepted: true },
-  { key: "all", label: "Everything", types: ["concept", "idea", "territory", "group", "shortlist", "lead"], accepted: false },
+  { key: "series", label: "Series", types: ["idea", "lead", "story", "segment"], accepted: true },
+  { key: "all", label: "Everything", types: ["concept", "idea", "territory", "group", "shortlist", "lead", "story", "segment"], accepted: false },
 ];
 
-export default function GraphExplorer({ nodes, links, initialFocus }: { nodes: GNode[]; links: GLink[]; initialFocus?: string }) {
+export default function GraphExplorer({ nodes, links, initialFocus, initialPreset }: { nodes: GNode[]; links: GLink[]; initialFocus?: string; initialPreset?: string }) {
   const router = useRouter();
   const fgRef = useRef<any>(null);
   const boxRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ w: 800, h: 600 });
-  const [types, setTypes] = useState<NodeType[]>(PRESETS[0].types);
-  const [acceptedOnly, setAcceptedOnly] = useState(true);
+  const startPreset = PRESETS.find((p) => p.key === initialPreset) ?? PRESETS[0];
+  const [types, setTypes] = useState<NodeType[]>(startPreset.types);
+  const [acceptedOnly, setAcceptedOnly] = useState(startPreset.accepted);
+  const [families, setFamilies] = useState<string[]>(FAMILIES.map((f) => f.key));
+  const [edge, setEdge] = useState<(CxInfo & { from: string; to: string }) | undefined>(undefined);
   const [focus, setFocus] = useState<string | undefined>(initialFocus);
   const [depth, setDepth] = useState(initialFocus ? 1 : 0);
   const [query, setQuery] = useState("");
@@ -88,9 +100,9 @@ export default function GraphExplorer({ nodes, links, initialFocus }: { nodes: G
     }
     return {
       nodes: nodes.filter((n) => keep.has(n.id)).map((n) => ({ ...n })),
-      links: links.filter((l) => keep.has(l.source) && keep.has(l.target)).map((l) => ({ ...l })),
+      links: links.filter((l) => keep.has(l.source) && keep.has(l.target) && (!l.cx || families.includes(l.cx.family))).map((l) => ({ ...l })),
     };
-  }, [nodes, links, types, acceptedOnly, focus, depth, byId, adjacency]);
+  }, [nodes, links, types, acceptedOnly, focus, depth, byId, adjacency, families]);
 
   const selected = focus ? byId.get(focus) : undefined;
   const neighbours = useMemo(() => {
@@ -142,14 +154,23 @@ export default function GraphExplorer({ nodes, links, initialFocus }: { nodes: G
           linkColor={(l: any) => {
             const s = typeof l.source === "object" ? l.source.id : l.source;
             const t = typeof l.target === "object" ? l.target.id : l.target;
+            if (l.cx) return FAMILY_COLOR[l.cx.family] ?? faint;
             return focus && (s === focus || t === focus) ? (dark ? "rgba(236,232,224,0.7)" : "rgba(31,29,26,0.55)") : faint;
           }}
           linkWidth={(l: any) => {
             const s = typeof l.source === "object" ? l.source.id : l.source;
             const t = typeof l.target === "object" ? l.target.id : l.target;
+            if (l.cx) return edge?.id === l.cx.id ? 4 : 2;
             return focus && (s === focus || t === focus) ? 1.6 : 0.6;
           }}
-          linkLineDash={(l: any) => (/supporting|secondary|related|merged/.test(l.kind) ? [2, 2] : null)}
+          onLinkClick={(l: any) => {
+            if (!l.cx) return;
+            const s = typeof l.source === "object" ? l.source.id : l.source;
+            const t = typeof l.target === "object" ? l.target.id : l.target;
+            setEdge({ ...l.cx, from: s, to: t });
+          }}
+          linkLabel={(l: any) => (l.cx ? `${l.cx.id} · ${l.cx.type} · ${l.cx.status}` : l.kind)}
+          linkLineDash={(l: any) => (l.cx ? (l.cx.status === "proposal" ? [4, 2] : null) : /supporting|secondary|related|merged/.test(l.kind) ? [2, 2] : null)}
           nodeCanvasObject={(node: any, ctx: CanvasRenderingContext2D, scale: number) => {
             const dim = focus && !highlight.has(node.id);
             const r = node.size;
@@ -157,6 +178,8 @@ export default function GraphExplorer({ nodes, links, initialFocus }: { nodes: G
             ctx.beginPath();
             if (node.type === "territory" || node.type === "shortlist") {
               ctx.rect(node.x - r, node.y - r, r * 2, r * 2);
+            } else if (node.type === "segment") {
+              ctx.moveTo(node.x, node.y - r * 1.2); ctx.lineTo(node.x + r * 1.1, node.y + r * 0.8); ctx.lineTo(node.x - r * 1.1, node.y + r * 0.8); ctx.closePath();
             } else if (node.type === "group") {
               ctx.moveTo(node.x, node.y - r * 1.2); ctx.lineTo(node.x + r * 1.2, node.y); ctx.lineTo(node.x, node.y + r * 1.2); ctx.lineTo(node.x - r * 1.2, node.y); ctx.closePath();
             } else {
@@ -214,8 +237,36 @@ export default function GraphExplorer({ nodes, links, initialFocus }: { nodes: G
           <label className="small" style={{ display: "flex", gap: 6, marginTop: 8 }}>
             <input type="checkbox" checked={acceptedOnly} onChange={(e) => setAcceptedOnly(e.target.checked)} /> Accepted ideas only (hide held and merged)
           </label>
-          <p className="small muted" style={{ marginBottom: 0 }}>{data.nodes.length} nodes · {data.links.length} connections. Dashed lines are supporting, secondary, related or merged links.</p>
+          {types.includes("story") || types.includes("segment") ? (
+            <>
+              <div className="kicker" style={{ marginTop: 10 }}>Series connections</div>
+              <div className="legend">
+                {FAMILIES.map((f) => (
+                  <label key={f.key}>
+                    <input type="checkbox" checked={families.includes(f.key)} onChange={(e) => setFamilies((cur) => (e.target.checked ? [...cur, f.key] : cur.filter((x) => x !== f.key)))} />
+                    <span className="dot" style={{ background: f.color }} /> {f.label}
+                  </label>
+                ))}
+              </div>
+            </>
+          ) : null}
+          <p className="small muted" style={{ marginBottom: 0 }}>{data.nodes.length} nodes · {data.links.length} links. Grey dashed lines are supporting, secondary, related or merged links. Coloured lines are recorded series connections (dashed = proposal); click one to read its basis. Nodes that sit close together are not thereby connected.</p>
         </section>
+
+        {edge ? (
+          <section className="card">
+            <div className="kicker">Series connection</div>
+            <h3 style={{ margin: "0 0 4px" }}>{edge.id} · {edge.type}</h3>
+            <div className="small muted">{edge.from} → {edge.to} · {edge.family} · evidence: {edge.status}</div>
+            <p className="small">{edge.explanation}</p>
+            <p className="small"><strong>Basis:</strong> {edge.basis}</p>
+            <p className="small"><strong>Still required:</strong> {edge.required || "Not recorded"}</p>
+            <div className="row">
+              <Link className="btn btn-primary" href={`/series/connections?cx=${edge.id}`}>Open connection</Link>
+              <button className="small" onClick={() => setEdge(undefined)}>Close</button>
+            </div>
+          </section>
+        ) : null}
 
         {selected ? (
           <section className="card">

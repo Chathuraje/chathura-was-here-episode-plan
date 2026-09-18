@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T07
 
 **Open question (as carried from the shortlist):**
-> SQ11
+> When we keep doing a good thing learned in childhood, what do we understand about it now that we did not then?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Write story-lead cards into content/05-story-leads/ in the existing template format.
+"""Seed missing story-lead cards into content/05-story-leads/ from the desk-research archive (data/leads.json).
+
+SAFE BY DEFAULT: the lead card is the authoritative research record (the app's lead editor writes it), so this
+script NEVER overwrites an existing card or the research log. It only creates a card for an archived lead that has
+no card on disk. Run it with --dry-run to see what it would create.
 No episode, season, coordinate, object or chronology data is written into a lead card."""
 import json, os, re
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); D=os.path.join(H,"data")
-REPO=os.path.dirname(os.path.dirname(H)); OUT=os.path.join(REPO,"content","05-story-leads")
+REPO=os.path.dirname(os.path.dirname(H)); OUT=os.path.join(os.path.dirname(H),"05-story-leads")  # sibling of this folder, whatever the content root is called
 S=json.load(open(os.path.join(D,"stories.json")))
 LEADS=json.load(open(os.path.join(D,"leads.json")))
 sid={k:v["story_id"] for k,v in S["stories"].items()}
@@ -151,10 +155,15 @@ def card(l):
       "change this.\n")
     return fm+"\n".join(B)
 
+import sys
+DRY="--dry-run" in sys.argv
 os.makedirs(OUT,exist_ok=True)
+existing={f.split(" ")[0] for f in os.listdir(OUT) if re.match(r"^SL-SQ\d{2}-\d{3}",f)}
 n=0
 for l in LEADS:
-    open(os.path.join(OUT,fname(l["lead_id"],l["title"])),"w",encoding="utf-8").write(card(l))
+    if l["lead_id"] in existing: continue          # never overwrite a card: it may hold edits and new research
+    print(("would create " if DRY else "creating ")+fname(l["lead_id"],l["title"]))
+    if not DRY: open(os.path.join(OUT,fname(l["lead_id"],l["title"])),"x",encoding="utf-8").write(card(l))
     n+=1
 log=["# Research log — series-architecture desk research, 2026-09-18","",
  "Instruction version: `series-architecture v1 (2026-09-18)`. Repository commit inspected: `43559b5`.","",
@@ -184,5 +193,6 @@ log=["# Research log — series-architecture desk research, 2026-09-18","",
  "No lead in this folder is `verified`. Online research cannot establish that a situation is still current, that "
  "anyone is willing to take part, that filming access exists, or that production is feasible. Those are four separate "
  "questions and none of them has been touched.",""]
-open(os.path.join(OUT,"research-log-series-architecture-2026-09-18.md"),"w",encoding="utf-8").write("\n".join(log)+"\n")
-print("lead cards written:",n)
+logp=os.path.join(OUT,"research-log-series-architecture-2026-09-18.md")
+if not DRY and not os.path.exists(logp): open(logp,"x",encoding="utf-8").write("\n".join(log)+"\n")
+print("lead cards %s: %d (existing cards are never overwritten)"%("that would be created" if DRY else "created",n))

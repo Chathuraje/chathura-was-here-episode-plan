@@ -4,6 +4,8 @@ import { getData, readDoc } from "@/lib/content";
 import { docHref } from "@/lib/routes";
 import Markdown from "@/components/Markdown";
 import { Box, Chips, GraphLink, StatusBadge } from "@/components/ui";
+import { getSeries, storiesForConcept } from "@/lib/series";
+import { StoryLinks } from "@/components/series-ui";
 
 export default async function ConceptPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -14,6 +16,7 @@ export default async function ConceptPage({ params }: { params: Promise<{ id: st
   const noteBody = note?.text.replace(/^---[\s\S]*?\n---\n/, "") ?? "";
   const prev = d.concepts.get(`C${String(c.num - 1).padStart(3, "0")}`);
   const next = d.concepts.get(`C${String(c.num + 1).padStart(3, "0")}`);
+  const episodes = storiesForConcept(await getSeries(), d, c.id);
 
   return (
     <div className="split">
@@ -55,6 +58,10 @@ export default async function ConceptPage({ params }: { params: Promise<{ id: st
         </Box>
         <Box title="Supports other ideas">
           <Chips d={d} ids={c.supportsIdeaIds} />
+        </Box>
+        <Box title={`Episode candidates drawing on this concept (${episodes.length})`}>
+          <StoryLinks stories={episodes} empty="None. No placed candidate uses an idea from this concept." />
+          <p className="small muted" style={{ marginBottom: 0 }}>Through the ideas above, as primary or supporting idea.</p>
         </Box>
         <div className="row">
           {prev ? <Link className="btn" href={`/concepts/${prev.id}`}>← {prev.id}</Link> : null}

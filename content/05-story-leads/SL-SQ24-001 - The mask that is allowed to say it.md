@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T14
 
 **Open question (as carried from the shortlist):**
-> SQ24
+> How do we tell the difference between waiting for the right moment and avoiding a hard truth?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

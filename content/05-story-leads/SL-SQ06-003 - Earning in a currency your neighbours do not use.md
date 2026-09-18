@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T04
 
 **Open question (as carried from the shortlist):**
-> SQ06
+> How much of what we long for is shaped by the discomfort we once had to bear?
 
 **Series-architecture story ID:** `ST-024`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Reported figures describe nearly 150,000 freelancers in Sri Lanka as of 2022 and over 100,000 Sri Lankans freelancing globally in 2026, with earnings ranging from about USD 100 to 300 a month for entry-level administrative work up to much higher figures for a small proportion. Reporting notes that an experienced freelancer earning USD 1,500 a month takes home more than many salaried local roles. From 1 April 2025 service exporters became liable to income tax of up to 15 per cent, reversing a largely tax-free position, and reporting records that Sri Lankan gig workers lack the foreign-currency 
+Reported figures describe nearly 150,000 freelancers in Sri Lanka as of 2022 and over 100,000 Sri Lankans freelancing globally in 2026, with earnings ranging from about USD 100 to 300 a month for entry-level administrative work up to much higher figures for a small proportion. Reporting notes that an experienced freelancer earning USD 1,500 a month takes home more than many salaried local roles.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

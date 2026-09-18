@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T14
 
 **Open question (as carried from the shortlist):**
-> SQ23
+> When a shared resource comes to be stored, divided or fenced, does it change how people treat it and each other, and if so, when?
 
 **Series-architecture story ID:** `ST-095`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-A survey is reported to have identified 68,812 families across 1,499 underserved settlements lacking adequate water, electricity and sanitation, with a programme planning 50,000 units to relocate them. Published research records that relocation began by demolishing settlements on the most valuable land, that families were offered a standard two-bedroom unit in any available complex regardless of their previous situation or requests, and that the programme's relocation practice did not fully comply with national involuntary resettlement guidelines. The stated objective included freeing land for
+A survey is reported to have identified 68,812 families across 1,499 underserved settlements lacking adequate water, electricity and sanitation, with a programme planning 50,000 units to relocate them. Published research records that relocation began by demolishing settlements on the most valuable land, that families were offered a standard two-bedroom unit in any available complex regardless of their previous situation or requests, and that the programme's relocation practice did not fully comply with national involuntary resettlement guidelines.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

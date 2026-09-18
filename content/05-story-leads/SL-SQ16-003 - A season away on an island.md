@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T10
 
 **Open question (as carried from the shortlist):**
-> SQ16
+> In caring for the people we love, how can we tell what we give for them from what we hold on to for ourselves?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T09
 
 **Open question (as carried from the shortlist):**
-> SQ15
+> What keeps someone from doing harm when no one they respect will ever find out?
 
 **Series-architecture story ID:** `ST-055`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T01
 
 **Open question (as carried from the shortlist):**
-> SQ01
+> What in a familiar place have we never actually seen?
 
 **Series-architecture story ID:** `ST-004`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Bundala's lagoons became Sri Lanka's first Ramsar site in 1990 and the park is described as an internationally important wintering ground for migratory water birds; Kumana was designated a Ramsar wetland on 29 October 2010. The National Bird Ringing Programme was launched at Bundala in 2005 by the Department of Wildlife Conservation with the Field Ornithology Group of Sri Lanka; published accounts describe ringing twice in a migratory season, in December and February, with around 150 birds of various species ringed at a session. The migratory period runs roughly September to March, and the Fie
+Bundala's lagoons became Sri Lanka's first Ramsar site in 1990 and the park is described as an internationally important wintering ground for migratory water birds; Kumana was designated a Ramsar wetland on 29 October 2010. The National Bird Ringing Programme was launched at Bundala in 2005 by the Department of Wildlife Conservation with the Field Ornithology Group of Sri Lanka; published accounts describe ringing twice in a migratory season, in December and February, with around 150 birds of various species ringed at a session.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

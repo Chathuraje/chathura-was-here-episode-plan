@@ -1,8 +1,8 @@
 # Research Explorer
 
-An interactive tool for the *Chathura Was Here* research pipeline. It reads the Markdown in [`../content`](../content) and connects it: sources → concepts → idea cards → territories and overlap groups → research questions → story leads.
+An editorial workspace for the *Chathura Was Here* research pipeline. It reads [`../content`](../content) live and connects it: sources → concepts → idea cards → territories and overlap groups → research questions → story leads → **the 98 episode candidates (Episodes 2–99)**.
 
-Nothing is duplicated into a database. The Markdown files stay the single source of truth, and the app re-reads them on demand.
+Nothing is duplicated into a database. Each entity has one authoritative file (see the table in [`../content/06-series-architecture/README.md`](../content/06-series-architecture/README.md)), and the app re-reads them on demand.
 
 ## Running it
 
@@ -14,7 +14,9 @@ npm install
 npm run dev          # http://localhost:3000
 ```
 
-`npm run build && npm start` also works. Pages are rendered on each request, because the app reads the Markdown files live.
+`npm run build && npm start` also works. `next start` listens on every network interface by default; add `-H 127.0.0.1` (for example `npx next start -H 127.0.0.1`) to keep the explorer, and its spoiler pages, on this machine only.
+
+`npm run check` runs the data checks (Node 22.18 or newer, and `python3` on the path): every lead card is re-saved in memory through the editor's own code and must keep its mappings; the app's derived values must match `EPISODE-MATRIX.csv`; and a save followed by `tools/rebuild.py` is run on a temporary copy of the content. Pages are rendered on each request, because the app reads the Markdown files live.
 
 If `node_modules` already exists from another machine, delete it first — the Next.js compiler binary is platform-specific:
 
@@ -44,6 +46,7 @@ const nextConfig: NextConfig = {
 |---|---|---|
 | `CONTENT_DIR` | `../content` | Where the research Markdown lives. |
 | `EXPLORER_READ_ONLY` | unset | Set to `1` to disable saving story leads. |
+| `EXPLORER_SPOILERS` | unset (shown) | Set to `hide` to withhold the hidden chronology, Episode 100, continuity and chronology fields, spoiler-weight connections, and every document under `content/06-series-architecture/` (including direct `/docs/...` requests, which return 404). Enforced on the server. It does **not** make files in the public GitHub repository private. |
 
 ## What each page does
 
@@ -58,24 +61,33 @@ const nextConfig: NextConfig = {
 | `/territories`, `/territories/T13` | The 14 human territories, their ideas by tier and their research questions. |
 | `/groups`, `/groups/G24` | Overlap groups: lead card, supporting cards, cards kept separate, side-by-side comparison. |
 | `/shortlist`, `/shortlist/SQ05` | The 24 research questions and their full briefs. |
-| `/leads`, `/leads/new`, `/leads/SL-SQ05-001` | Story leads: list, editor and view. |
+| `/leads`, `/leads/new`, `/leads/SL-SQ05-001` | Story leads: list, editor and view. Each lead shows its linked story and episode. |
+| `/episodes` | **The 98 episode candidates** in release order, with search, filters (season, research status, territory, idea ID, location, continuity, unresolved issue) and sorting (release order, season, research readiness). Episode 1 and Episode 100 appear separately as framing references. |
+| `/episodes/ST-007`, `/episodes/12`, `/episodes/SEG-E001` | One candidate's story page (verified / reported / interpretation / proposal / still-to-check blocks), or a framing segment. A number redirects to the story at that episode. |
+| `/attention` | Needs attention: every actionable gap generated from the records, by type and by candidate, plus open series decisions. |
+| `/series` | Release order: ten seasons and their proposed sequence. |
+| `/series/chronology` | Hidden chronology: the fixed framing sequence, source-reported links, proposed phases and unresolved calendar conflicts. Spoiler-sensitive. |
+| `/series/connections?cx=CX-005` | Every connection with its basis, evidence status and what is still required; filter by philosophical, chronological or object/footage continuity. |
 | `/docs/...` | Any Markdown file in `content/` or `instructions/`, rendered or with line numbers (useful for checking a source trace such as “lines 64–66”). |
 
-IDs written anywhere in the Markdown (`C006-I01`, `SQ05`, `T03`, `G12`, `SL-SQ05-001`) become links automatically, and relative links between files resolve to the matching page.
+IDs written anywhere in the Markdown (`C006-I01`, `SQ05`, `T03`, `G12`, `SL-SQ05-001`, `ST-007`, `SEG-E001`, `CX-005`) become links automatically, and relative links between files resolve to the matching page.
 
 ## The lead editor
 
-`/leads/new` builds a story-lead file from [`story-lead-template.md`](../content/04-story-discovery/story-lead-template.md), so the template stays the single definition of the format. Saving writes Markdown to `content/05-story-leads/`.
+`/leads/new` builds a story-lead file from [`story-lead-template.md`](../content/04-story-discovery/story-lead-template.md). Saving writes Markdown to `content/05-story-leads/`. The lead card is the authoritative research record; the series tools read it and never overwrite it.
 
-Rules enforced when saving:
+Rules enforced when saving (`src/lib/lead-format.ts`, `applyLeadEdit`):
 
 - The lead ID must match `SL-SQ<nn>-<nnn>` and belong to the chosen question.
-- Lead idea, supporting ideas, territory and the open question are filled from the shortlist, so a lead cannot drift from its brief.
-- Unknown idea IDs are rejected.
-- Screenplay readiness stays `not ready` until the research status is `verified`.
+- **An existing lead keeps its own primary idea, supporting ideas and territory.** They are editable fields pre-filled from the card. The research question's defaults are used only when creating a new lead and a field is left blank. (Before this fix, saving any lead replaced its researched idea and territory with the question's defaults; 85 of the 112 cards would have been changed.)
+- Unknown idea IDs and territories are rejected.
+- Front-matter keys the editor does not manage are kept exactly as they were.
+- **Evidence and access review** fields (`subject_identified`, `consent_status`, `filming_access`, `claim_review`) are set explicitly and never inferred from the text. A lead can be `verified` only when the claim is supported, a subject identified, consent documented and access confirmed; screenplay readiness stays `not ready` until then.
 - Status changes are appended to the status history, with the date.
 
-The editor never edits idea cards, concepts or story-discovery files. Those are written by hand or by the research agents.
+**Planning data is read-only in the app.** Episode placement, premises, seasons, chronology, anchors and connections live in `content/06-series-architecture/data/`; edit those files and run `python3 tools/rebuild.py`. The app says so on every page that shows them.
+
+The editor never edits idea cards, concepts or story-discovery files.
 
 ## How the data is parsed
 
@@ -87,7 +99,8 @@ The editor never edits idea cards, concepts or story-discovery files. Those are 
 - **Overlap groups** from the summary table and detail sections of `overlap-map.md`.
 - **Scores and tiers** from the table rows of `documentary-potential-matrix.md`.
 - **Research questions** from the `## SQxx` sections of `research-shortlist.md`.
-- **Leads** from `content/05-story-leads/`.
+- **Leads** from `content/05-story-leads/` (`src/lib/lead-format.ts`, which also extracts place, sources and their review status, access and next action).
+- **Episode candidates** from `content/06-series-architecture/data/stories.json` and `connections.json`, joined to the lead cards (`src/lib/series.ts`, rules in `src/lib/series-rules.ts`, mirrored by `tools/series.py`).
 
 Everything is cached in memory for the life of the server process. After editing Markdown outside the app, press **↻ Reload files** in the sidebar.
 

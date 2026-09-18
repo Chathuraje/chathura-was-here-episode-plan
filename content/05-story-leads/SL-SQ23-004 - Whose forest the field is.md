@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T09
 
 **Open question (as carried from the shortlist):**
-> SQ23
+> When a shared resource comes to be stored, divided or fenced, does it change how people treat it and each other, and if so, when?
 
 **Series-architecture story ID:** `ST-091`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Academic work on chena in Monaragala records the major problems reported by farmers as wildlife and cattle damage (83 per cent), legal action by the forest department (67 per cent), drought (65 per cent), pests and disease (54 per cent) and marketing (43 per cent), and records that around 74 per cent of respondents were willing to continue chena because they have no alternative livelihood. Satellite-based work on the Maligavila division records a marked increase in agricultural drought indicators between 2015 and 2023. Chena is described as covering about 18 per cent of the cultivated land are
+Academic work on chena in Monaragala records the major problems reported by farmers as wildlife and cattle damage (83 per cent), legal action by the forest department (67 per cent), drought (65 per cent), pests and disease (54 per cent) and marketing (43 per cent), and records that around 74 per cent of respondents were willing to continue chena because they have no alternative livelihood. Satellite-based work on the Maligavila division records a marked increase in agricultural drought indicators between 2015 and 2023.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

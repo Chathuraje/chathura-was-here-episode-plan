@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T03
 
 **Open question (as carried from the shortlist):**
-> SQ04
+> What keeps us holding on to the very thing that will not let us settle?
 
 **Series-architecture story ID:** `ST-020`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-The National Dangerous Drugs Control Board runs treatment and rehabilitation centres with counselling and residential facilities, concentrated in the Colombo, Kandy, Galle and Gampaha districts, alongside designated and private centres. Peer-reviewed work on residential treatment in Sri Lanka found all participants to be poly-drug users, with cannabis most common followed by heroin, methamphetamine and cocaine. Reporting in 2025 and 2026 records new centres planned, including one for people under 21 in Kandy with construction scheduled from January 2026, and records criticism that some existin
+The National Dangerous Drugs Control Board runs treatment and rehabilitation centres with counselling and residential facilities, concentrated in the Colombo, Kandy, Galle and Gampaha districts, alongside designated and private centres. Peer-reviewed work on residential treatment in Sri Lanka found all participants to be poly-drug users, with cannabis most common followed by heroin, methamphetamine and cocaine.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

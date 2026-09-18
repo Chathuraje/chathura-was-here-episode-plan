@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T05
 
 **Open question (as carried from the shortlist):**
-> SQ08
+> How do we tell when something needs more effort from us and when it needs us to stop interfering?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

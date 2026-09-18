@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T10
 
 **Open question (as carried from the shortlist):**
-> SQ17
+> If helping no longer feels good, what tells us it still matters?
 
 **Series-architecture story ID:** `ST-063`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-A national strategic plan for eliminating dog-mediated human rabies through a One Health approach was developed with the WHO for 2022 to 2026. Peer-reviewed work evaluates a zoned catch-neuter-vaccinate-release programme in Anuradhapura running from 2021 to 2025, combining capture of free-roaming dogs along set routes with voluntary presentation of owned dogs and a peripheral buffer-zone strategy. Reported human rabies deaths fell from 288 in 1975 to 23 in 2017. Reporting in 2025 records that 1.8 million dogs would have needed vaccinating in 2024 for herd immunity and that a 2025 budget alloca
+A national strategic plan for eliminating dog-mediated human rabies through a One Health approach was developed with the WHO for 2022 to 2026. Peer-reviewed work evaluates a zoned catch-neuter-vaccinate-release programme in Anuradhapura running from 2021 to 2025, combining capture of free-roaming dogs along set routes with voluntary presentation of owned dogs and a peripheral buffer-zone strategy. Reported human rabies deaths fell from 288 in 1975 to 23 in 2017.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

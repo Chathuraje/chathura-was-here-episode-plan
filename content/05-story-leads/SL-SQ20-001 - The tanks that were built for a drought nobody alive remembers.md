@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T13
 
 **Open question (as carried from the shortlist):**
-> SQ20
+> What keeps a lesson learned through loss alive once the people who saw the loss are gone?
 
 **Series-architecture story ID:** `ST-073`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-The FAO recognises Sri Lanka's cascaded tank village system as a Globally Important Agricultural Heritage System. Published accounts describe more than 14,000 small ancient village tanks supporting around 246,000 hectares of paddy, about 39 per cent of the irrigable area, with many others rendered dysfunctional by poor maintenance and under pressure from climate, land use and agricultural intensification. Around 200 tanks have been rehabilitated through FAO projects, and in 2016 over 3,000 forest plants were replanted in the upstream and downstream reservations of the Palugaswewa cascade with 
+The FAO recognises Sri Lanka's cascaded tank village system as a Globally Important Agricultural Heritage System. Published accounts describe more than 14,000 small ancient village tanks supporting around 246,000 hectares of paddy, about 39 per cent of the irrigable area, with many others rendered dysfunctional by poor maintenance and under pressure from climate, land use and agricultural intensification.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

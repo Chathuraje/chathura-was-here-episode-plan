@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T14
 
 **Open question (as carried from the shortlist):**
-> SQ23
+> When a shared resource comes to be stored, divided or fenced, does it change how people treat it and each other, and if so, when?
 
 **Series-architecture story ID:** `ST-094`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Sri Lanka is described as retaining around 10,000 village tanks of this type, many still irrigating paddy. Historically a vel vidane, a water master, administered the tank, received a share of each farmer's harvest and was responsible for coordinating maintenance and opening the sluice. Farmer Organisations in their current form came into operation in the 1980s, combining a committee with a water master role, with representative farmers meeting regularly to decide water allocation. Published work records that changes in accountability and custom contributed to canal decay, diminishing supplies
+Sri Lanka is described as retaining around 10,000 village tanks of this type, many still irrigating paddy. Historically a vel vidane, a water master, administered the tank, received a share of each farmer's harvest and was responsible for coordinating maintenance and opening the sluice. Farmer Organisations in their current form came into operation in the 1980s, combining a committee with a water master role, with representative farmers meeting regularly to decide water allocation.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

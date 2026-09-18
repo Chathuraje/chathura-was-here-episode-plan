@@ -64,7 +64,7 @@ Documented in `04-story-discovery/README.md`. This layer, `06-series-architectur
 | Research questions | 24 | **24** (SQ01–SQ24) | yes |
 | Overlap groups | — | 38 (G01–G38) | — |
 | Source notes | — | 102 | — |
-| Existing story leads | — | **0** (`05-story-leads/` holds only its README) | — |
+| Existing story leads | — | **0** at the time of this audit (`05-story-leads/` then held only its README). **112 lead cards exist now**, written later the same day; see `PROGRESS.md`. | — |
 
 Readiness tiers over the 148 accepted cards: **Tier A 29, Tier B 78, Tier C 40, Do not advance 1** (`C093-I02`). This reproduces the summary table in `documentary-potential-matrix.md` exactly.
 
@@ -190,7 +190,14 @@ The user refers to "ten accumulated objects" in `SEG-E100A` and to "ten season p
 
 Hidden chronology, reveal planning and continuity payoffs are spoiler-sensitive by nature. A "spoiler-sensitive" label in a file header is an editorial marker; **it confers no confidentiality on a public repository.** Anything committed and pushed is world-readable and may be indexed and cached even if later deleted.
 
-**Status: unresolved. This is the owner's decision.** Nothing has been pushed. See `VALIDATION-REPORT.md` for the options and for the app-side default that keeps spoiler views off any public-facing surface.
+**Status: unresolved. This is the owner's decision.**
+
+**Correction (2026-09-18, later the same day).** An earlier version of this file said nothing had been pushed. That is no longer true: `origin/main` is at commit `b7f561c` ("new update"), pushed 2026-09-18 05:12 UTC, and it contains this whole folder, including `HIDDEN-CHRONOLOGY.md`, `EPISODE-001-TO-100-CONNECTION.md`, `CONTINUITY-ANCHORS.md` and `data/`. The GitHub API still reported `"visibility": "public"` when this was checked. The spoiler material is therefore already world-readable and may already be cached or indexed.
+
+What the explorer app can and cannot do about it:
+
+- The app can keep spoilers off its **own** pages. Run it with `EXPLORER_SPOILERS=hide` and the server refuses the chronology, connection and framing-segment views, drops spoiler fields from episode pages, and returns 404 for spoiler documents requested directly under `/docs/...`. Hiding a navigation link alone would not be enough, which is why this is enforced on the server.
+- The app **cannot** make a file in a public GitHub repository private. Only the repository owner can change the repository's visibility, move the spoiler material to a private repository, or rewrite history; none of those has been done, and none should be done without the owner's decision.
 
 ---
 

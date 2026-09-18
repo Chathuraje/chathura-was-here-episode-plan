@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T14
 
 **Open question (as carried from the shortlist):**
-> SQ23
+> When a shared resource comes to be stored, divided or fenced, does it change how people treat it and each other, and if so, when?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

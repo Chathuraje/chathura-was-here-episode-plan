@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T03
 
 **Open question (as carried from the shortlist):**
-> SQ04
+> What keeps us holding on to the very thing that will not let us settle?
 
 **Series-architecture story ID:** `ST-019`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-The Ministerial Consultative Committee on Justice recorded 1,131,818 pending cases across the courts at its meeting of 27 February 2025. Reporting describes criminal prosecutions typically taking around seventeen years and civil litigation running for decades. Prison figures reported alongside this describe a system designed for around 10,000 inmates holding over 40,000, with roughly two-thirds awaiting trial, and around 8,500 inmates held because of delays in Government Analyst reports. A reform package has been proposed, including more appellate judges, new High Courts, provincial appellate 
+The Ministerial Consultative Committee on Justice recorded 1,131,818 pending cases across the courts at its meeting of 27 February 2025. Reporting describes criminal prosecutions typically taking around seventeen years and civil litigation running for decades. Prison figures reported alongside this describe a system designed for around 10,000 inmates holding over 40,000, with roughly two-thirds awaiting trial, and around 8,500 inmates held because of delays in Government Analyst reports.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T05
 
 **Open question (as carried from the shortlist):**
-> SQ07
+> What happens to our effort when we learn what someone else went without for us?
 
 **Series-architecture story ID:** `ST-028`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Figures attributed to the Health Minister at the 78th World Health Assembly record 4,642 health workers leaving between 2022 and 2025, including 726 specialist doctors, 1,116 medical officers and 2,800 nurses. Reporting records destinations shifting from the Middle East to the UK, Canada and Australia, an annual flow of doctors leaving for compulsory overseas training and not returning, and university medical departments at risk from the loss of senior staff. Analysis records that skilled workers accounted for 76.5 per cent of departures for foreign employment in the first nine months of 2025,
+Figures attributed to the Health Minister at the 78th World Health Assembly record 4,642 health workers leaving between 2022 and 2025, including 726 specialist doctors, 1,116 medical officers and 2,800 nurses. Reporting records destinations shifting from the Middle East to the UK, Canada and Australia, an annual flow of doctors leaving for compulsory overseas training and not returning, and university medical departments at risk from the loss of senior staff.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

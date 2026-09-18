@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T14
 
 **Open question (as carried from the shortlist):**
-> SQ23
+> When a shared resource comes to be stored, divided or fenced, does it change how people treat it and each other, and if so, when?
 
 **Series-architecture story ID:** `ST-090`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-The Thambapavani wind farm on Mannar Island, operated by the Ceylon Electricity Board, was built along fishing routes in 2020. A second phase involving Adani Green Energy has been proposed with 52 turbines of 5.2 MW each in an area between a marine national park and a Ramsar wetland. Reporting records fishermen saying they were not told the project would change their livelihoods, concerns in an environmental impact assessment that turbine noise could drive nearshore fish away, residents reporting flash floods, land demand and turbine noise, and protests that blocked the Mannar Bridge to stop t
+The Thambapavani wind farm on Mannar Island, operated by the Ceylon Electricity Board, was built along fishing routes in 2020. A second phase involving Adani Green Energy has been proposed with 52 turbines of 5.2 MW each in an area between a marine national park and a Ramsar wetland.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T06
 
 **Open question (as carried from the shortlist):**
-> SQ10
+> How do we decide to trust an account of something we have never experienced?
 
 **Series-architecture story ID:** `ST-044`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Reporting records 1,471 schools with fewer than 50 students, mostly rural and remote primary schools teaching grades 1 to 5, and allegations that around 100 such schools are at risk of permanent closure, alongside a Ministry of Education statement that no decision to close any school had been made. Budget 2025 allocated 500 million rupees to review the school system and prepare a national relocation plan, against a stated policy of a primary school within a 3 km radius of a child's home or a parent's workplace. Reporting also describes schools with only 10 to 20 pupils in difficult rural areas
+Reporting records 1,471 schools with fewer than 50 students, mostly rural and remote primary schools teaching grades 1 to 5, and allegations that around 100 such schools are at risk of permanent closure, alongside a Ministry of Education statement that no decision to close any school had been made. Budget 2025 allocated 500 million rupees to review the school system and prepare a national relocation plan, against a stated policy of a primary school within a 3 km radius of a child's home or a parent's workplace.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

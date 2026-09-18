@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T01
 
 **Open question (as carried from the shortlist):**
-> SQ01
+> What in a familiar place have we never actually seen?
 
 **Series-architecture story ID:** `ST-003`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-The waterway, known locally as the Dutch canal, runs about 14.5 km in the Negombo section of a longer system reaching Puttalam and Colombo. Dutch works extended an older canal as far as Negombo, recorded by 1706; the British-built Hamilton canal from the Kelani river to Negombo was completed in 1802, named after a revenue agent, and was built partly to drain the Muthurajawela wetland. Flat-bottomed padda boats were the traditional cargo craft. A restoration effort was launched in 2012 by the Sri Lanka Land Reclamation and Development Corporation with Japanese funding, and stretches now carry s
+The waterway, known locally as the Dutch canal, runs about 14.5 km in the Negombo section of a longer system reaching Puttalam and Colombo. Dutch works extended an older canal as far as Negombo, recorded by 1706; the British-built Hamilton canal from the Kelani river to Negombo was completed in 1802, named after a revenue agent, and was built partly to drain the Muthurajawela wetland. Flat-bottomed padda boats were the traditional cargo craft.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

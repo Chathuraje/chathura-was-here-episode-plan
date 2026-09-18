@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T13
 
 **Open question (as carried from the shortlist):**
-> SQ22
+> When we long for a place, which part of the memory are we actually longing for?
 
 **Series-architecture story ID:** `ST-086`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Under the accelerated Mahaweli programme from 1977, the Victoria, Kotmale, Randenigala and Rantembe dams were built within a compressed period. Published accounts record approximately 8,000 families evicted from the Victoria reservoir area and about 3,200 from Kotmale, with accounts of inadequate compensation or land, and name the villages submerged at Kotmale, including Thispane, Morape, Pusulpitiya, Mawela, Maswela, Kadadora and others. Buddhist temples were submerged, and the Mahaweli Maha Seya was built as a memorial to the flooded shrines. Peer-reviewed work has studied long-term percepti
+Under the accelerated Mahaweli programme from 1977, the Victoria, Kotmale, Randenigala and Rantembe dams were built within a compressed period. Published accounts record approximately 8,000 families evicted from the Victoria reservoir area and about 3,200 from Kotmale, with accounts of inadequate compensation or land, and name the villages submerged at Kotmale, including Thispane, Morape, Pusulpitiya, Mawela, Maswela, Kadadora and others. Buddhist temples were submerged, and the Mahaweli Maha Seya was built as a memorial to the flooded shrines.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

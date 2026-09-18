@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T01
 
 **Open question (as carried from the shortlist):**
-> SQ01
+> What in a familiar place have we never actually seen?
 
 **Series-architecture story ID:** `ST-006`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Sigiriya is managed by the Central Cultural Fund. Published accounts describe the frescoes as the site's most fragile element, subject to conservation interventions since the early twentieth century, with current concerns including microbiological growth on the plaster and mechanical vibration from visitor footfall on the metal staircase. Access to the painting cavity is limited to a small viewing platform at a time and photography of the frescoes is prohibited and enforced by wardens. Documentation work includes 3D scanning and photogrammetry. Commentary argues that the site's other features,
+Sigiriya is managed by the Central Cultural Fund. Published accounts describe the frescoes as the site's most fragile element, subject to conservation interventions since the early twentieth century, with current concerns including microbiological growth on the plaster and mechanical vibration from visitor footfall on the metal staircase. Access to the painting cavity is limited to a small viewing platform at a time and photography of the frescoes is prohibited and enforced by wardens. Documentation work includes 3D scanning and photogrammetry.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

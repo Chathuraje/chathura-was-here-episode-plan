@@ -2,10 +2,12 @@ import Link from "next/link";
 import { DIRS, contentRel, getData } from "@/lib/content";
 import { RESEARCH_STATUSES, listLeads } from "@/lib/leads";
 import { StatusBadge } from "@/components/ui";
+import { getSeries } from "@/lib/series";
 
 export default async function LeadsPage() {
   const d = await getData();
   const leads = await listLeads();
+  const series = await getSeries();
   const leadsDir = `${contentRel(DIRS.leads)}/`;
   return (
     <>
@@ -28,7 +30,7 @@ export default async function LeadsPage() {
       ) : (
         <div className="table-wrap">
           <table>
-            <thead><tr><th>Lead</th><th>Description</th><th>Question</th><th>Lead idea</th><th>Status</th><th>Screenplay</th><th>Updated</th></tr></thead>
+            <thead><tr><th>Lead</th><th>Description</th><th>Question</th><th>Lead idea</th><th>Episode</th><th>Status</th><th>Screenplay</th><th>Updated</th></tr></thead>
             <tbody>
               {leads.map((l) => (
                 <tr key={l.id}>
@@ -36,6 +38,7 @@ export default async function LeadsPage() {
                   <td><Link href={`/leads/${l.id}`}>{l.description}</Link></td>
                   <td><Link className="id-link" href={`/shortlist/${l.shortlistQuestion}`}>{l.shortlistQuestion}</Link> <span className="small muted">{d.shortlist.get(l.shortlistQuestion)?.heading}</span></td>
                   <td><Link className="id-link" href={`/ideas/${l.leadIdeaId}`}>{l.leadIdeaId}</Link></td>
+                  <td className="small nowrap">{series.byLead.get(l.id) ? <Link href={`/episodes/${series.byLead.get(l.id)!.id}`}>E{series.byLead.get(l.id)!.episode} · {series.byLead.get(l.id)!.id}</Link> : <span className="muted">{series.rejected[l.id] ? "rejected at selection" : "not placed"}</span>}</td>
                   <td><StatusBadge status={l.researchStatus} /></td>
                   <td className="small">{l.screenplayReadiness}</td>
                   <td className="small muted">{l.lastUpdated}</td>

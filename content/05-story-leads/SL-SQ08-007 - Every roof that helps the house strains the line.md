@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T05
 
 **Open question (as carried from the shortlist):**
-> SQ08
+> How do we tell when something needs more effort from us and when it needs us to stop interfering?
 
 **Series-architecture story ID:** `ST-033`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Reporting records rooftop solar reaching about 9.5 per cent of national grid supply in 2025, against a state programme target of 1,000 MW by 2025 and 1,500 MW by 2030 and a Ceylon Electricity Board aim of 70 per cent renewable generation by 2030. The same reporting records the CEB restricting new rooftop connections in high-demand areas because the low-tension network trips from over-voltage, with the effect that the households best placed to invest are the ones being blocked. New solar tariffs approved by cabinet on 16 June 2025 are reported as reducing rates by 20 to 40 per cent against the 
+Reporting records rooftop solar reaching about 9.5 per cent of national grid supply in 2025, against a state programme target of 1,000 MW by 2025 and 1,500 MW by 2030 and a Ceylon Electricity Board aim of 70 per cent renewable generation by 2030. The same reporting records the CEB restricting new rooftop connections in high-demand areas because the low-tension network trips from over-voltage, with the effect that the households best placed to invest are the ones being blocked.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

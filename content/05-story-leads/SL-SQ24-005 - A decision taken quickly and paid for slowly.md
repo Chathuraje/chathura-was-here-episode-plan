@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T14
 
 **Open question (as carried from the shortlist):**
-> SQ24
+> How do we tell the difference between waiting for the right moment and avoiding a hard truth?
 
 **Series-architecture story ID:** `ST-098`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-In April 2021 the government banned synthetic agrochemicals including chemical fertilisers, and lifted the ban in November 2021. A 2023 survey is reported as finding an average paddy yield loss of 53 per cent, with 62 per cent of farmers reporting more than 50 per cent loss, and a 32 per cent post-ban decline in rice yields against the previous nine years while the cultivated area was unchanged. Published analysis records that domestic biomass could not supply the organic fertiliser required. Reporting four years on describes output still below the pre-ban level, fertiliser costing about three
+In April 2021 the government banned synthetic agrochemicals including chemical fertilisers, and lifted the ban in November 2021. A 2023 survey is reported as finding an average paddy yield loss of 53 per cent, with 62 per cent of farmers reporting more than 50 per cent loss, and a 32 per cent post-ban decline in rice yields against the previous nine years while the cultivated area was unchanged. Published analysis records that domestic biomass could not supply the organic fertiliser required.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

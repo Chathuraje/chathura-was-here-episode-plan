@@ -6,7 +6,7 @@ import { docHref, hrefForId, routeForRepoPath } from "@/lib/routes";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-const ID_RE = /\b(SL-SQ\d{2}-\d{3}|C\d{3}-I\d{2}|SQ\d{2}|C\d{3}|T\d{2}|G\d{2})\b/g;
+const ID_RE = /\b(SL-SQ\d{2}-\d{3}|ST-\d{3}|SEG-E(?:001|100A|100B)|CX-\d{3}|C\d{3}-I\d{2}|SQ\d{2}|C\d{3}|T\d{2}|G\d{2})\b/g;
 
 /** Remark plugin: turn known IDs in plain text into links, and page-marker comments into visible markers. */
 function remarkConnections(known: Set<string>) {

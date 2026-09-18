@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T13
 
 **Open question (as carried from the shortlist):**
-> SQ21
+> When the parts are still here but the arrangement is gone, what exactly have we lost?
 
 **Series-architecture story ID:** `ST-079`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Published reporting records severe coastal erosion affecting beaches, infrastructure and livelihoods, with over 30 acres of land loss reported in the Kalutara area and maximum erosion rates of about 4.7 to 5.3 metres a year at named high-risk sites. Reporting records households along named coastal belts left unsafe after houses and property were lost to the sea, and families relocating in Trincomalee. Sea sand dredging is argued in reporting and by environmental groups to be accelerating the loss, alongside climate-driven causes; peer-reviewed work assesses physical and social vulnerability al
+Published reporting records severe coastal erosion affecting beaches, infrastructure and livelihoods, with over 30 acres of land loss reported in the Kalutara area and maximum erosion rates of about 4.7 to 5.3 metres a year at named high-risk sites. Reporting records households along named coastal belts left unsafe after houses and property were lost to the sea, and families relocating in Trincomalee.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

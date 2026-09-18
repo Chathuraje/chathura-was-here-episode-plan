@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T04
 
 **Open question (as carried from the shortlist):**
-> SQ06
+> How much of what we long for is shaped by the discomfort we once had to bear?
 
 **Series-architecture story ID:** `ST-025`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Reporting records nearly 390,000 visitors to Block I in the first half of 2025 generating more than USD 5 million, and describes Block I as having one of the world's highest leopard densities. Drivers are reported to receive tips of USD 50 to 100 when a leopard is seen, while many drivers and trackers are paid very little and depend on those tips, which is reported to push them to chase and crowd sightings. Improved mobile reception and social media are reported to produce leopard jams. Leopards in Block I are described as habituated to vehicles. As of early 2024 only 552 registered jeeps are 
+Reporting records nearly 390,000 visitors to Block I in the first half of 2025 generating more than USD 5 million, and describes Block I as having one of the world's highest leopard densities. Drivers are reported to receive tips of USD 50 to 100 when a leopard is seen, while many drivers and trackers are paid very little and depend on those tips, which is reported to push them to chase and crowd sightings. Improved mobile reception and social media are reported to produce leopard jams. Leopards in Block I are described as habituated to vehicles.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

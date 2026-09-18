@@ -3,9 +3,12 @@ import type { Data, Idea } from "@/lib/content";
 import { CRITERIA } from "@/lib/content";
 import { hrefForId } from "@/lib/routes";
 
-type Kind = "concept" | "idea" | "territory" | "group" | "shortlist" | "lead";
+type Kind = "concept" | "idea" | "territory" | "group" | "shortlist" | "lead" | "story" | "segment" | "connection";
 
 export function kindOf(id: string): Kind {
+  if (id.startsWith("ST-")) return "story";
+  if (id.startsWith("SEG-")) return "segment";
+  if (id.startsWith("CX-")) return "connection";
   if (id.startsWith("SL-")) return "lead";
   if (/^C\d{3}-I\d{2}$/.test(id)) return "idea";
   if (/^C\d{3}$/.test(id)) return "concept";
@@ -21,6 +24,7 @@ export function labelFor(d: Data, id: string): string {
     case "territory": return d.territories.get(id)?.name ?? "";
     case "group": return d.groups.get(id)?.theme ?? "";
     case "shortlist": return d.shortlist.get(id)?.heading ?? "";
+    case "segment": return id === "SEG-E001" ? "Episode 1" : id === "SEG-E100A" ? "Episode 100, Part A" : "Episode 100, Part B";
     default: return "";
   }
 }
@@ -97,4 +101,24 @@ export function GraphLink({ id }: { id: string }) {
       View connections in graph
     </Link>
   );
+}
+
+/** A labelled block that says what kind of statement it holds. */
+export function Claim({ kind, title, children }: { kind: "verified" | "reported" | "interpretation" | "proposal" | "missing"; title: string; children: React.ReactNode }) {
+  const label = { verified: "Verified", reported: "Reported in sources · not verified", interpretation: "Interpretation", proposal: "Proposed production choice", missing: "Still to check" }[kind];
+  return (
+    <section className={`claim claim-${kind}`}>
+      <div className="claim-head">
+        <h3>{title}</h3>
+        <span className="claim-kind">{label}</span>
+      </div>
+      <div className="claim-body">{children}</div>
+    </section>
+  );
+}
+
+export const NOT_ESTABLISHED = "Not yet established";
+
+export function Val({ v }: { v?: string | null }) {
+  return v && v.trim() && !/^not established$/i.test(v.trim()) ? <>{v}</> : <span className="muted">{NOT_ESTABLISHED}</span>;
 }

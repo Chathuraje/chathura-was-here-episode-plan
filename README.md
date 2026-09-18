@@ -12,8 +12,8 @@ content/
   02-concepts/           102 concept folders (Chapter 1–9), each with verbatim source extracts
   03-idea-bank/          172 idea cards, index, concept register, source notes, batch reports
   04-story-discovery/    Territories, overlap map, potential matrix, research shortlist, templates
-  05-story-leads/        Real story leads found by research (empty until research begins)
-  06-series-architecture/ Provisional release order, chronology and connection matrix
+  05-story-leads/        112 story-lead cards from desk research (authoritative research records)
+  06-series-architecture/ 98 provisional episode candidates (Episodes 2–99): release order, chronology, connections
   PATH-MAP.md            Old notes/… paths → new content/… paths
 instructions/        Agent instructions for each stage
 app/                 Next.js research explorer (interactive tool)
@@ -28,11 +28,13 @@ Each stage only adds a layer. Nothing earlier is rewritten.
 | 03 Idea bank | Human ideas with mechanisms, open questions, limits and full source traces. | No verified story. |
 | 04 Story discovery | Territories, overlaps, documentary-potential scores, 24 research questions. | No person, place or event. |
 | 05 Story leads | Real possibilities, with facts, accounts and claims kept apart. | Nothing is a story until it is verified and selected. |
-| 06 Series architecture | A provisional arrangement of candidates into a release order. | Not a commissioning decision. See its own README and canon file. |
+| 06 Series architecture | 98 provisional candidates arranged into ten seasons, a proposed hidden chronology and connections. | Not a commissioning decision, not verified, not production-ready. See its own README and canon file. |
 
 ## Where to start
 
-- **The tool:** on the machine holding this repository, run `cd app`, `npm install`, `npm run dev`, then open http://localhost:3000. See [app/README.md](app/README.md).
+- **The tool:** on the machine holding this repository, run `cd app`, `npm install`, `npm run dev`, then open http://localhost:3000 and go to **Episodes**. See [app/README.md](app/README.md).
+- **The 98 episode candidates and what each still needs:** the app's `/episodes` and `/attention`, or [content/06-series-architecture/NEEDS-ATTENTION.md](content/06-series-architecture/NEEDS-ATTENTION.md).
+- **Where each thing is recorded, and how to regenerate:** [content/06-series-architecture/README.md](content/06-series-architecture/README.md) (`python3 tools/rebuild.py`).
 - **The research questions:** [content/04-story-discovery/research-shortlist.md](content/04-story-discovery/research-shortlist.md).
 - **How ideas were made:** [instructions/concept-to-idea.md](instructions/concept-to-idea.md) and [instructions/CONCEPT_TO_IDEA_WORKFLOW.md](instructions/CONCEPT_TO_IDEA_WORKFLOW.md).
 - **How stories are researched next:** [content/04-story-discovery/research-agent-instruction.md](content/04-story-discovery/research-agent-instruction.md).
@@ -52,4 +54,5 @@ Each stage only adds a layer. Nothing earlier is rewritten.
 
 - The source extracts are stored with Windows line endings, and the same Sinhala folder names can appear in two Unicode forms over SMB. Both are cosmetic; see the processing report.
 - PDFs in `content/01-sources/` are ignored by git (`.gitignore`).
+- **This repository is public, and the spoiler-sensitive series files have already been pushed to it.** The app's `EXPLORER_SPOILERS=hide` setting protects only the app's pages. See CONFLICT-04 in `content/06-series-architecture/SERIES-CANON.md`.
 - Idea cards cite source snapshot `ef70024`, when these folders were still under `notes/`. [content/PATH-MAP.md](content/PATH-MAP.md) maps the old paths to the new ones.

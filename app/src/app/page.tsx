@@ -3,6 +3,8 @@ import { getData } from "@/lib/content";
 import { docHref } from "@/lib/routes";
 import { listLeads } from "@/lib/leads";
 import { Chip, TierBadge } from "@/components/ui";
+import { getSeries, seriesCounts } from "@/lib/series";
+import { Counts } from "@/components/series-ui";
 
 export default async function Home() {
   const d = await getData();
@@ -11,13 +13,16 @@ export default async function Home() {
   const accepted = ideas.filter((i) => i.status === "accepted for research");
   const tiers = ["Tier A", "Tier B", "Tier C", "Do not advance"].map((t) => [t, accepted.filter((i) => i.score?.tier === t).length] as const);
   const noIdea = [...d.concepts.values()].filter((c) => c.status === "no suitable idea").length;
+  const series = await getSeries();
+  const counts = seriesCounts(series);
 
   const stages = [
     { num: "01", title: "Sources", href: "/sources", stat: d.docs.sources.length, note: "book extracts, source maps and guides", color: "muted" },
     { num: "02", title: "Concepts", href: "/concepts", stat: d.concepts.size, note: `${noIdea} with no suitable idea`, color: "concept" },
     { num: "03", title: "Idea bank", href: "/ideas", stat: accepted.length, note: `accepted · ${ideas.filter((i) => i.status === "held").length} held · ${ideas.filter((i) => i.status === "merged").length} merged`, color: "idea" },
     { num: "04", title: "Story discovery", href: "/shortlist", stat: d.shortlist.size, note: `shortlisted questions · ${d.territories.size} territories · ${d.groups.size} groups`, color: "shortlist" },
-    { num: "05", title: "Story leads", href: "/leads", stat: leads.length, note: `${leads.filter((l) => l.researchStatus === "verified").length} verified`, color: "lead" },
+    { num: "05", title: "Story leads", href: "/leads", stat: leads.length, note: `${leads.filter((l) => l.researchStatus === "verified").length} verified · ${leads.filter((l) => l.researchStatus === "in research").length} in research`, color: "lead" },
+    { num: "06", title: "Episode candidates", href: "/episodes", stat: counts.cataloged, note: `provisional, Episodes 2–99 · ${counts.productionReady} production-ready`, color: "story" },
   ];
 
   return (
@@ -42,6 +47,13 @@ export default async function Home() {
         ))}
       </div>
 
+      <h2 style={{ marginTop: 0 }}>Episode candidates, counted separately</h2>
+      <Counts c={counts} />
+      <p className="small" style={{ marginTop: -6 }}>
+        <Link href="/episodes">Review the {counts.cataloged} candidates</Link> · <Link href="/attention">What needs attention</Link> · <Link href="/series">Release order</Link>
+        {series.spoilersHidden ? null : <> · <Link href="/series/chronology">Hidden chronology</Link></>} · <Link href="/series/connections">Connections</Link>
+      </p>
+
       <div className="grid grid-2">
         <section className="card">
           <div className="kicker">Documentary potential of accepted ideas</div>
@@ -64,6 +76,7 @@ export default async function Home() {
             <li>Read its brief and its lead and supporting ideas.</li>
             <li>Check the <Link href="/territories">territory</Link> cautions and the <Link href="/groups">overlap group</Link>.</li>
             <li>Open a <Link href="/leads/new">new story lead</Link> for each real possibility found.</li>
+            <li>Review how leads became <Link href="/episodes">episode candidates</Link>, and what each still needs.</li>
           </ol>
           <p className="small muted" style={{ marginBottom: 0 }}>Hypothetical research directions are not verified stories. Every new lead starts as <em>unverified</em>.</p>
         </section>

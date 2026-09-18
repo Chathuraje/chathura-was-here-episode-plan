@@ -5,6 +5,8 @@ import { listLeads } from "@/lib/leads";
 import { docHref } from "@/lib/routes";
 import Markdown from "@/components/Markdown";
 import { Box, Chip, Chips, GraphLink, ScoreBars, StatusBadge, TierBadge } from "@/components/ui";
+import { getSeries, storiesForIdea } from "@/lib/series";
+import { StoryLinks } from "@/components/series-ui";
 
 export default async function IdeaPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -14,6 +16,9 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
   const concept = d.concepts.get(idea.primaryConcept);
   const territory = idea.territory ? d.territories.get(idea.territory) : undefined;
   const leads = (await listLeads()).filter((l) => l.leadIdeaId === id || l.supportingIdeaIds.includes(id));
+  const series = await getSeries();
+  const eps = storiesForIdea(series, id);
+  const diff = series.ideaDifferentiation[id];
   const relatedBack = [...d.ideas.values()].filter((i) => i.related.includes(id) && !idea.related.includes(i.id)).map((i) => i.id);
   // Body without the duplicated H1 and status line.
   const body = idea.body.replace(/^#\s.+\n+/, "");
@@ -91,6 +96,14 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
               <Chips d={d} ids={idea.aliases} />
             </div>
           ) : null}
+        </Box>
+
+        <Box title={`Episodes using this idea (${eps.primary.length + eps.supporting.length})`}>
+          <div className="small muted">As primary idea</div>
+          <StoryLinks stories={eps.primary} empty="None" />
+          <div className="small muted" style={{ marginTop: 8 }}>As supporting idea</div>
+          <StoryLinks stories={eps.supporting} empty="None" />
+          {diff ? <p className="small" style={{ marginBottom: 0 }}><strong>How the uses differ:</strong> {diff}</p> : null}
         </Box>
 
         <Box title={`Story leads (${leads.length})`} action={idea.shortlist ? <Link className="small" href={`/leads/new?sq=${idea.shortlist}`}>+ New lead</Link> : undefined}>

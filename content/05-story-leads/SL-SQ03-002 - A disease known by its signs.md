@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T02
 
 **Open question (as carried from the shortlist):**
-> SQ03
+> How much of a disagreement is about the thing, and how much is about which side of it each person stands on?
 
 **Series-architecture story ID:** `ST-013`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 

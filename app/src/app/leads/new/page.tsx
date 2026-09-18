@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { templateLead, writesEnabled } from "@/lib/leads";
 import LeadForm from "../LeadForm";
-import { shortlistOptions } from "../options";
+import { pickOptions, shortlistOptions } from "../options";
 
 export default async function NewLeadPage({ searchParams }: { searchParams: Promise<{ sq?: string }> }) {
   const { sq = "" } = await searchParams;
@@ -19,6 +19,7 @@ export default async function NewLeadPage({ searchParams }: { searchParams: Prom
       </p>
       <LeadForm
         options={options}
+        {...await pickOptions()}
         writable={writesEnabled()}
         initial={{
           id: chosen?.nextId ?? "",
@@ -26,7 +27,10 @@ export default async function NewLeadPage({ searchParams }: { searchParams: Prom
           dateOpened: template.dateOpened,
           researcher: "",
           shortlistQuestion: chosen?.id ?? "",
+          leadIdeaId: chosen?.lead ?? "",
           supportingIdeaIds: chosen?.supporting ?? [],
+          territory: chosen?.territory ?? "",
+          review: template.review,
           researchStatus: "unverified",
           screenplayReadiness: "not ready",
           sections: template.sections,

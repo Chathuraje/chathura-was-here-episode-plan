@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T10
 
 **Open question (as carried from the shortlist):**
-> SQ16
+> In caring for the people we love, how can we tell what we give for them from what we hold on to for ourselves?
 
 **Series-architecture story ID:** `ST-059`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 

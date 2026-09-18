@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T02
 
 **Open question (as carried from the shortlist):**
-> SQ03
+> How much of a disagreement is about the thing, and how much is about which side of it each person stands on?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

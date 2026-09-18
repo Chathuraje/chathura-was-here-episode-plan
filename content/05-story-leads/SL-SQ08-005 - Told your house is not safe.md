@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T05
 
 **Open question (as carried from the shortlist):**
-> SQ08
+> How do we tell when something needs more effort from us and when it needs us to stop interfering?
 
 **Series-architecture story ID:** `ST-032`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-The National Building Research Organisation is reported as having identified 12,126 families living in high landslide-risk areas and recommended their resettlement, and as having identified 14,184 landslide-prone locations across fourteen districts, with Badulla the highest-risk district at 2,959 rural homes and estate buildings classified high risk. A home-owner-driven resettlement programme has been run through the disaster management ministry, under which about 4,700 families are reported to have been resettled. The organisation reports difficulty finding safe land for relocation as land be
+The National Building Research Organisation is reported as having identified 12,126 families living in high landslide-risk areas and recommended their resettlement, and as having identified 14,184 landslide-prone locations across fourteen districts, with Badulla the highest-risk district at 2,959 rural homes and estate buildings classified high risk. A home-owner-driven resettlement programme has been run through the disaster management ministry, under which about 4,700 families are reported to have been resettled.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T09
 
 **Open question (as carried from the shortlist):**
-> SQ14
+> What lets someone turn away money they need when earning it would mean deceiving or ruining someone else?
 
 **Series-architecture story ID:** `ST-054`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Sri Lanka lies on one of the world's busiest shipping routes, with reported figures of up to 50,000 ships a year and 20 to 30 transiting near Mirissa daily. Reported whale deaths include five blue whales and two sperm whales washed ashore with propeller injuries in 2011 and three further blue whale deaths in 2012, and a 2017 study is reported as finding that half of recorded whale deaths in Sri Lankan waters resulted from ship strikes. Published analysis holds that moving the shipping lane about 15 nautical miles further south would reduce collision risk by up to 95 per cent, and industry bodi
+Sri Lanka lies on one of the world's busiest shipping routes, with reported figures of up to 50,000 ships a year and 20 to 30 transiting near Mirissa daily. Reported whale deaths include five blue whales and two sperm whales washed ashore with propeller injuries in 2011 and three further blue whale deaths in 2012, and a 2017 study is reported as finding that half of recorded whale deaths in Sri Lankan waters resulted from ship strikes.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

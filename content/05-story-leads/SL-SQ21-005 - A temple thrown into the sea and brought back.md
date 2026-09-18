@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T13
 
 **Open question (as carried from the shortlist):**
-> SQ21
+> When the parts are still here but the arrangement is gone, what exactly have we lost?
 
 **Series-architecture story ID:** not assigned. This lead was not placed in the episode portfolio.
 

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T02
 
 **Open question (as carried from the shortlist):**
-> SQ03
+> How much of a disagreement is about the thing, and how much is about which side of it each person stands on?
 
 **Series-architecture story ID:** `ST-015`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Published reporting and research record Batticaloa as having the highest proportion of women-headed households in the country at about 32.3 per cent, with a reported 25,732 women-headed families in the district living below the poverty line. Research records that most such households can only take low-paid informal or daily work, and identifies land ownership rules, lack of formal employment skills and underpayment as constraints, alongside a documented restoration of more conservative gender expectations within the community. Livelihood and self-employment programmes are recorded, including t
+Published reporting and research record Batticaloa as having the highest proportion of women-headed households in the country at about 32.3 per cent, with a reported 25,732 women-headed families in the district living below the poverty line. Research records that most such households can only take low-paid informal or daily work, and identifies land ownership rules, lack of formal employment skills and underpayment as constraints, alongside a documented restoration of more conservative gender expectations within the community.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

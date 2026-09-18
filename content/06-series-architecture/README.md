@@ -39,65 +39,101 @@ It sits after story discovery and research, and before any screenplay work:
 | [HIDDEN-CHRONOLOGY.md](HIDDEN-CHRONOLOGY.md) | The event order behind the release order. **Spoiler-sensitive.** |
 | [EPISODE-001-TO-100-CONNECTION.md](EPISODE-001-TO-100-CONNECTION.md) | The `E100A → E1 → E100B` sequence and every payoff that depends on it. **Spoiler-sensitive.** |
 | [VALIDATION-REPORT.md](VALIDATION-REPORT.md) | Check every count, every ID reference and every consistency rule. Read before trusting any number here. |
+| [NEEDS-ATTENTION.md](NEEDS-ATTENTION.md) | Every actionable gap, per candidate, generated from the records. |
 
-### Working files
+### Where each thing is recorded (one authoritative source per entity)
 
-| Path | Purpose |
-|---|---|
-| `data/leads.json` | **Source of truth for research.** Every lead with its sources, access dates, ethics notes and merge decisions. |
-| `data/stories.json` | **Source of truth for architecture.** Selection, story IDs, seasons, release order, chronology phases, anchors and the three framing segments. |
-| `data/connections.json` | Every justified connection. |
-| `data/batch-notes.json` | One line per research batch, used by the progress generator. |
-| `tools/b01.py` … `tools/b13_14.py` | The research batches, kept so that every lead can be traced to the batch that opened it. |
-| `tools/architect.py` | Selection, story IDs, seasons, release order and chronology. Rebuilds `data/stories.json`. |
-| `tools/connections.py` | Rebuilds `data/connections.json`. |
-| `tools/build.py` | Regenerates every `.md` table and every `.csv` from `data/`. |
-| `tools/write_leads.py` | Writes the lead cards into `../05-story-leads/` in the existing template. |
-| `tools/validate.py` | Runs the checks and rewrites `VALIDATION-REPORT.md`. Exits non-zero on failure. |
-| `tools/progress.py` | Rewrites the generated block in `PROGRESS.md`. |
+| Entity | Authoritative source | Edited with | Read-only views |
+|---|---|---|---|
+| Concepts | `02-concepts/` folders and `03-idea-bank/concept-register.md` | by hand | app `/concepts` |
+| Ideas | `03-idea-bank/ideas/*.md` | by hand | app `/ideas` |
+| Territories, overlap groups, research questions | `04-story-discovery/*.md` | by hand | app |
+| **Leads**: idea mapping, territory, research status, sources and their review, subject, place, access, next action | **the lead card** `05-story-leads/SL-*.md` | the app's lead editor, or by hand | everything else |
+| **Stories / episodes**: story ID, working title, premise, candidate status, release order (`seasons[].eps`), chronology phase, anchors, calendar conflicts, framing segments | **`data/stories.json`** | by hand (the app shows it read-only) | app `/episodes`, `/series`, generated `.md`/`.csv` |
+| **Connections** (stable `CX-` IDs, evidence status) | **`data/connections.json`** | by hand (the app shows it read-only) | app `/series/connections`, `/graph` |
+| Desk-research archive (what the 2026-09-18 batches found, merges, batch provenance) | `data/leads.json` | **frozen**; not edited | progress history only |
+| Batch themes | `data/batch-notes.json` | by hand | `PROGRESS.md` |
 
-Rebuild order after editing `data/`: `architect.py` → `connections.py` → `build.py` → `write_leads.py` → `validate.py` → `progress.py`.
+Episode numbers, season positions and anchor flags are **derived** from `seasons[].eps` and `anchors`; they are not stored
+twice. No research field is copied into `stories.json`, so an edit to a lead card cannot be overwritten by a planning file.
 
-The generated files are committed so the repository stays readable without running anything. **Edit `data/`, then run `tools/build.py`** — editing a generated table by hand will be overwritten, and the validation check that readable reports agree with the CSV data exists precisely to catch that.
+#### Review fields on a lead card
+
+Four optional front-matter keys record progress that online research cannot establish. When a key is absent, the
+conservative default applies. **Nothing is inferred from prose**, and filling in a section never changes them.
+
+| Key | Values | Default |
+|---|---|---|
+| `subject_identified` | `no`, `yes` | `no` |
+| `consent_status` | `none`, `partial`, `documented` | `none` |
+| `filming_access` | `none`, `requested`, `confirmed` | `none` |
+| `claim_review` | `not reviewed`, `partly supported`, `supported`, `contradicted` | `not reviewed` |
+
+A source counts as **opened and checked** only when its section 18 note says `page opened and read` (or `opened and
+checked`). The readiness ladder shown everywhere is: source found through search → source opened and checked → claim
+supported → subject identified → consent confirmed → filming access confirmed → ready for production. A step is
+reached only when every earlier step is also met. A lead can be saved as `verified` only when the claim is supported,
+the subject identified, consent documented and access confirmed.
+
+### Commands
+
+| Command | What it does | Writes |
+|---|---|---|
+| `python3 tools/rebuild.py` | **The one regeneration command.** Builds every generated file, refreshes the generated block of `PROGRESS.md`, runs the checks. | generated files only |
+| `python3 tools/rebuild.py --check` | Changes nothing; fails if a generated file is out of date or a check fails. | nothing |
+| `python3 tools/validate.py` | The checks alone; rewrites `VALIDATION-REPORT.md`. | that report |
+| `cd app && npm run check` | App-side checks: saving all 112 cards changes no mapping, app and Python agree on every matrix row, and a save followed by `rebuild.py` survives (run on a temporary copy). | nothing in `content/` |
+| `python3 tools/write_leads.py [--dry-run]` | Seeds a card only for an archived lead that has **no** card. Never overwrites. | new cards only |
+
+**Seed scripts (do not run).** `tools/b01.py` … `tools/b13_14.py`, `tools/architect.py` and `tools/connections.py`
+created the first data on 2026-09-18. They now exit immediately (`tools/_seedguard.py`) because re-running them would
+replace researched and edited data with the values hard-coded inside them. They are kept for provenance.
+`tools/migrations/m001_single_authority.py` records the one-time move to the model above (and refuses to run twice).
+
+**Generated files** (never edit by hand; `rebuild.py --check` catches it): `EPISODE-MATRIX.md/.csv`,
+`STORY-CONNECTIONS.csv`, `IDEA-COVERAGE.csv`, `SEASON-ARC-MAP.md`, `CONTINUITY-ANCHORS.md`, `HIDDEN-CHRONOLOGY.md`,
+`EPISODE-001-TO-100-CONNECTION.md`, `STORY-CANDIDATE-CATALOG.md`, `NEEDS-ATTENTION.md`, `VALIDATION-REPORT.md` and the
+marked block of `PROGRESS.md`. `README.md` and `SERIES-CANON.md` are written by hand.
+
+### Typical edits
+
+- **Move an episode or change a season:** reorder lead IDs in `seasons[].eps` in `data/stories.json` and update that
+  season's declared `episodes`; run `rebuild.py`. Story IDs do not change.
+- **Record that a source was opened:** in the lead card's section 18, change the note to end `— page opened and read`,
+  then record the claim review in the lead editor.
+- **Mark a subject identified, consent or access:** use the lead editor's *Evidence and access review* fields.
+- **Change a connection's evidence status:** edit `status` in `data/connections.json` (`proposal`, `source-reported`,
+  `source-checked`). Nothing is labelled an established fact until its sources have been opened and checked.
 
 ## ID conventions used here
 
 | Pattern | Entity |
 |---|---|
-| `ST-001` … | Story candidate. Assigned in discovery order and **never** derived from an episode number. |
+| `ST-001` … | Story candidate. Assigned in lead-ID order and **never** derived from an episode number. |
 | `SEG-E001`, `SEG-E100A`, `SEG-E100B` | The three fixed framing segments. |
-| `CX-001` … | One connection between two story or segment IDs. |
+| `CX-001` … | One connection. Stored in `data/connections.json`, so deleting one never renumbers the rest. |
+| `CC-01` … | One recorded calendar conflict. |
 | `S01` … `S10` | Release-order seasons. |
+| `P1` … `P7` | Proposed chronology phases (P7 claims no position). |
 | `SP-01` … `SP-10` | Season piece slots. No object is assigned to any of them. |
 | `SL-SQ05-001` | Story lead, in the existing convention, under `../05-story-leads/`. |
 
-Episode numbers are an **attribute** of a story, not its identity. Re-planning a season changes episode numbers and leaves every source link intact.
-
 ## Relationship to the story-lead layer
 
-`05-story-leads/` holds research. `06-series-architecture/` holds arrangement. They join on the story ID.
+`05-story-leads/` holds research; this folder holds arrangement. They join on the story ID. Every catalogued story
+has a `lead_id`; every lead card names its `story_id` in section 1 of the body. **No lead card carries an episode
+number, season, coordinate, object or chronology position** (CONFLICT-01).
 
-- Every catalogued story has a `lead_id`; every lead card names its `story_id` in the body, **not** in front matter.
-- **No lead card carries an episode number, season, coordinate, object or chronology position.** The research layer's own instruction forbids it, and that boundary is kept. See CONFLICT-01 in the canon.
-- Lead front matter uses only the fields and enum values the existing template and the app's parser define.
+## The explorer app
 
-## How this connects to the explorer app
+The app (`../../app`) reads this folder live: `/episodes` (the 98 candidates), `/episodes/ST-007` (a story page),
+`/episodes/SEG-E001` (framing segments), `/attention`, `/series` (release order), `/series/chronology`,
+`/series/connections` and `/graph`. Planning data is **read-only** in the app; lead cards are edited there.
 
-Read before changing anything in `app/`. **No existing parser has been modified by this layer and no app redesign has been undertaken.** The app was being edited in parallel while this layer was built; what follows describes `app/src/lib/content.ts`, `leads.ts` and `routes.ts` **as they stand on 2026-09-18**, and it should be re-checked after any further app work.
-
-| App behaviour | Effect of this layer |
-|---|---|
-| `DIRS` in `content.ts` names `01-sources` … `05-story-leads`. `06-series-architecture` is not in it. | The typed loaders ignore this folder. No concept, idea, territory, group or shortlist parsing is affected. |
-| `loadAll()` now scans the content root for folders **not** in `DIRS` and returns them as `extras`, taking each one's title from its `README.md`. | **This folder is discovered automatically.** Its `README.md` title is what the app shows. That is why this file starts with a title and a warning rather than a table. |
-| `mdDocs()` indexes Markdown in a fixed list of folders, which does not include this one. | These documents do not appear in the app's document *lists*. They are still reachable, see the next row. |
-| `readDoc()` / `safeRepoPath()` allow any `.md` under the content root or `instructions/`. | Every `.md` here is reachable at `/docs/content/06-series-architecture/<file>` — **including the spoiler-sensitive ones**. |
-| `readDoc()` returns `null` for non-`.md` files. | The four `.csv` files are **not** served by the app. They are data for a future consumer, not app content. |
-| `listLeads()` reads `05-story-leads/`, requires `lead_id` matching `SL-SQ\d{2}-\d{3}` and a matching filename. | All 112 lead cards satisfy both and appear normally. This was checked against the live regexes, not assumed. |
-| `parseLead()` ignores unknown front-matter keys, but `serializeLead()` writes a fixed key list. | A lead edited in the app would **silently drop** any extra key. This is why `story_id`, `candidate_status` and every episode field are kept **out** of lead front matter and appear only in section 1 of the body. |
-| `knownIds()` auto-links `C…`, `T…`, `G…`, `SQ…` and `SL-…` inside Markdown. | `ST-…`, `SEG-…`, `CX-…` and `SP-…` are **not** auto-linked and render as plain text. Adding them would need changes to `knownIds()` and `routes.ts`, which have not been made. |
-| `routeForRepoPath()` now matches by numbered folder name rather than by a fixed `content/` prefix. | Nothing here depends on the content root being called `content`, so this layer survives that refactor. |
-
-**Spoiler exposure inside the app.** The docs viewer already serves every `.md` under the content root, so `HIDDEN-CHRONOLOGY.md`, `EPISODE-001-TO-100-CONNECTION.md`, `CONTINUITY-ANCHORS.md` and the reveal columns of the matrix are readable by anyone who can reach a running explorer. If the explorer is ever exposed beyond the research team, those paths need excluding in `safeRepoPath()` or serving behind a flag. **A spoiler-sensitive heading is a label for humans; it enforces nothing.** No such exclusion has been added, because changing the parser was outside this commission.
+**Spoilers.** With `EXPLORER_SPOILERS=hide` the server withholds the chronology page, Episode 100, chronology and
+continuity fields, spoiler-weight connections, and every document in this folder requested under `/docs/...` (they
+return 404). This protects the app's own pages only. **This folder has already been pushed to a public GitHub
+repository**, and nothing in the app can make those files private. See CONFLICT-04 in `SERIES-CANON.md`.
 
 ## Rules that do not change
 

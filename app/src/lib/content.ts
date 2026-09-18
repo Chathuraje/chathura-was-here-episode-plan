@@ -17,6 +17,7 @@ export const DIRS = {
   ideaBank: "03-idea-bank",
   discovery: "04-story-discovery",
   leads: "05-story-leads",
+  series: "06-series-architecture",
 } as const;
 
 /** Repo-relative POSIX path, e.g. "content/03-idea-bank/index.md". */
@@ -488,6 +489,7 @@ export function getData(): Promise<Data> {
 
 export function clearDataCache() {
   g.__cwhData = undefined;
+  (globalThis as unknown as { __cwhSeries?: unknown }).__cwhSeries = undefined;
 }
 
 /* ------------------------------------------------------------------ */
@@ -496,11 +498,23 @@ export function clearDataCache() {
 
 export type DirEntry = { name: string; isDir: boolean };
 
+/**
+ * True when a path is spoiler material that must not be served while EXPLORER_SPOILERS=hide.
+ * The whole series-architecture folder is withheld: its README, canon, progress notes and generated files all
+ * describe the hidden chronology or the Episode 100 structure. Checked on the server for every document request.
+ */
+export function isSpoilerPath(abs: string): boolean {
+  if ((process.env.EXPLORER_SPOILERS ?? "").toLowerCase() !== "hide") return false;
+  const seriesDir = path.join(CONTENT_DIR, DIRS.series);
+  return abs === seriesDir || abs.startsWith(seriesDir + path.sep);
+}
+
 /** Resolve a repo-relative path safely. Only Markdown inside the content folder or instructions/ is allowed. */
 export function safeRepoPath(rel: string): string | null {
   const abs = path.resolve(REPO_DIR, rel);
   const allowed = [CONTENT_DIR, path.join(REPO_DIR, "instructions")];
   if (!allowed.some((a) => abs === a || abs.startsWith(a + path.sep))) return null;
+  if (isSpoilerPath(abs)) return null;
   return abs;
 }
 
@@ -534,7 +548,7 @@ export async function readDoc(rel: string): Promise<{ path: string; text: string
   if (!abs || !safeRepoPath(path.relative(REPO_DIR, abs))) return null;
   const stat = await fs.stat(abs);
   if (stat.isDirectory()) {
-    const names = await listDir(abs);
+    const names = (await listDir(abs)).filter((name) => !isSpoilerPath(path.join(abs, name)));
     const entries = await Promise.all(
       names.map(async (name) => ({ name, isDir: (await fs.stat(path.join(abs, name)).catch(() => null))?.isDirectory() ?? false })),
     );
@@ -552,7 +566,9 @@ export async function readRaw(rel: string) {
 export async function knownIds(): Promise<string[]> {
   const d = await getData();
   const { listLeads } = await import("./leads");
+  const { getSeries } = await import("./series");
   const leads = await listLeads();
+  const series = await getSeries().catch(() => null);
   return [
     ...d.ideas.keys(),
     ...d.concepts.keys(),
@@ -560,5 +576,6 @@ export async function knownIds(): Promise<string[]> {
     ...d.groups.keys(),
     ...d.shortlist.keys(),
     ...leads.map((l) => l.id),
+    ...(series ? [...series.byId.keys(), ...series.segments.map((s) => s.id), ...series.connections.map((c) => c.id)] : []),
   ];
 }

@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T11
 
 **Open question (as carried from the shortlist):**
-> SQ18
+> When we replay someone's voice, what do we receive, and what do we supply ourselves?
 
 **Series-architecture story ID:** `ST-067`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 

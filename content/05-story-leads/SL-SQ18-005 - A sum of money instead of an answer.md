@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T11
 
 **Open question (as carried from the shortlist):**
-> SQ18
+> When we replay someone's voice, what do we receive, and what do we supply ourselves?
 
 **Series-architecture story ID:** `ST-069`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-The 2019 Easter Sunday bombings killed 279 people, with 117 killed at St Sebastian's Church in Negombo, the deadliest single site. Seven years on, reporting records survivors still carrying physical and emotional injuries and successive governments failing to deliver a prosecution. The Catholic Church has continued to call for a special prosecutor, including in October 2025, describing the investigation as long-stalled and politically sensitive. A court ordered the former president to pay 100 million rupees and former police and intelligence officials sums between 10 and 75 million rupees to v
+The 2019 Easter Sunday bombings killed 279 people, with 117 killed at St Sebastian's Church in Negombo, the deadliest single site. Seven years on, reporting records survivors still carrying physical and emotional injuries and successive governments failing to deliver a prosecution. The Catholic Church has continued to call for a special prosecutor, including in October 2025, describing the investigation as long-stalled and politically sensitive.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

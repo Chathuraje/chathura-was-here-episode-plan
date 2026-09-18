@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _seedguard  # noqa: E402,F401  -- one-time seed; refuses to run. See _seedguard.py.
 """Build data/stories.json: selection, story IDs, release order, seasons, chronology."""
 import json, os
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); D=os.path.join(H,"data")

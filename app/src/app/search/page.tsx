@@ -4,6 +4,7 @@ import { getData } from "@/lib/content";
 import { listLeads } from "@/lib/leads";
 import { hrefForId } from "@/lib/routes";
 import { Chip, TierBadge } from "@/components/ui";
+import { getSeries } from "@/lib/series";
 
 type Hit = { id: string; label: string; snippet: string; score: number; extra?: string };
 
@@ -19,10 +20,12 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const needle = q.trim().toLowerCase();
   const d = await getData();
   const leads = await listLeads();
+  const series = await getSeries();
 
   // Exact ID jumps straight to the page.
   const upper = q.trim().toUpperCase();
-  const exists = d.ideas.has(upper) || d.concepts.has(upper) || d.shortlist.has(upper) || d.territories.has(upper) || d.groups.has(upper) || leads.some((l) => l.id === upper);
+  const exists = d.ideas.has(upper) || d.concepts.has(upper) || d.shortlist.has(upper) || d.territories.has(upper) || d.groups.has(upper) || leads.some((l) => l.id === upper)
+    || series.byId.has(upper) || series.segments.some((x) => x.id === upper) || series.connections.some((x) => x.id === upper);
   if (upper && exists) redirect(hrefForId(upper));
 
   const sections: { title: string; hits: Hit[] }[] = [];
@@ -30,6 +33,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
     const score = (fields: [string, number][]) => fields.reduce((s, [f, w]) => s + (f.toLowerCase().includes(needle) ? w : 0), 0);
     const mk = (title: string, hits: Hit[]) => sections.push({ title, hits: hits.filter((h) => h.score > 0).sort((a, b) => b.score - a.score).slice(0, 60) });
 
+    mk("Episode candidates", series.stories.map((s) => ({ id: s.id, label: `E${s.episode} ${s.title}`, score: score([[s.title, 5], [s.premise, 4], [s.fields?.place ?? "", 3], [s.fields?.subject ?? "", 2]]), snippet: snippet(s.premise, needle) || snippet(s.fields?.place ?? "", needle) })));
     mk("Research questions", [...d.shortlist.values()].map((s) => ({ id: s.id, label: s.heading, score: score([[s.heading, 5], [s.question, 4], [s.body, 1]]), snippet: snippet(s.question, needle) || snippet(s.body, needle) })));
     mk("Ideas", [...d.ideas.values()].map((i) => ({ id: i.id, label: i.title, score: score([[i.title, 5], [i.openQuestion, 4], [i.tags.join(" "), 3], [i.body, 1]]) + (i.status === "accepted for research" ? 0.5 : 0), snippet: snippet(i.openQuestion, needle) || snippet(i.body, needle), extra: i.score?.tier })));
     mk("Territories", [...d.territories.values()].map((t) => ({ id: t.id, label: t.name, score: score([[t.name, 5], [t.definition, 3], [t.body, 1]]), snippet: snippet(t.definition, needle) || snippet(t.body, needle) })));

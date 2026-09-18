@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T11
 
 **Open question (as carried from the shortlist):**
-> SQ18
+> When we replay someone's voice, what do we receive, and what do we supply ourselves?
 
 **Series-architecture story ID:** `ST-066`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Shantha Sevana, established in 1996, is described as the first palliative care unit in Sri Lanka, adjacent to the National Cancer Institute at Maharagama, offering free care to terminally ill cancer patients, with separate male and female wards of sixteen beds each and two private rooms. Published accounts give the most common reasons for admission as pain management, families being unable to care for a patient at home, and financial burden. A palliative care clinic has also been established within the National Cancer Institute, and national palliative-care consult services are listed by the h
+Shantha Sevana, established in 1996, is described as the first palliative care unit in Sri Lanka, adjacent to the National Cancer Institute at Maharagama, offering free care to terminally ill cancer patients, with separate male and female wards of sixteen beds each and two private rooms. Published accounts give the most common reasons for admission as pain management, families being unable to care for a patient at home, and financial burden.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

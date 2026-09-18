@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T02
 
 **Open question (as carried from the shortlist):**
-> SQ03
+> How much of a disagreement is about the thing, and how much is about which side of it each person stands on?
 
 **Series-architecture story ID:** `ST-017`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Peer-reviewed research records over 40,000 hospital admissions for snakebite annually in Sri Lanka, with most patients first presenting to small rural primary hospitals. Research records that most patients reach a first hospital within an hour of being bitten but that a further two hours typically pass before the first dose of antivenom, and identifies the absence of geographically specific antivenom, with envenoming by the hump-nosed pit viper lacking an effective antivenom. Other studies examine why patients seek or forgo allopathic treatment after a bite, and a cluster randomised trial has 
+Peer-reviewed research records over 40,000 hospital admissions for snakebite annually in Sri Lanka, with most patients first presenting to small rural primary hospitals. Research records that most patients reach a first hospital within an hour of being bitten but that a further two hours typically pass before the first dose of antivenom, and identifies the absence of geographically specific antivenom, with envenoming by the hump-nosed pit viper lacking an effective antivenom.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 

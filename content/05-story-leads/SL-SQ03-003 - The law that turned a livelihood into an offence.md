@@ -21,7 +21,7 @@ last_updated: 2026-09-18
 **Human territory:** T02
 
 **Open question (as carried from the shortlist):**
-> SQ03
+> How much of a disagreement is about the thing, and how much is about which side of it each person stands on?
 
 **Series-architecture story ID:** `ST-014`. That layer lives in `content/06-series-architecture/` and is keyed to this lead by that ID. **No episode number, season, coordinate, object or chronology position is recorded in this card**, because the research-agent instruction for this stage forbids it.
 
@@ -45,7 +45,7 @@ No individual has been identified and nobody has been contacted. The description
 
 ## 4. Why the story exists independently
 
-Dambana is described as the most accessible Wanniya-laeto settlement, home to around 350 families. Reporting records that over the past sixty years forested areas the community lived in were converted into sanctuaries, reservoirs and national parks, restricting hunting, honey gathering and chena cultivation. The Maduru Oya National Park was declared on 9 November 1983. A 2011 agreement is reported to have given access to a major national park while still forbidding hunting and cultivation there. The community's chief is quoted describing that change as turning hunters and gatherers into poache
+Dambana is described as the most accessible Wanniya-laeto settlement, home to around 350 families. Reporting records that over the past sixty years forested areas the community lived in were converted into sanctuaries, reservoirs and national parks, restricting hunting, honey gathering and chena cultivation. The Maduru Oya National Park was declared on 9 November 1983. A 2011 agreement is reported to have given access to a major national park while still forbidding hunting and cultivation there.
 
 If every reference to the idea bank, to the series structure and to the philosophy were removed, what would remain is the situation in section 5 and the activity in section 9. That is the test this lead has to pass, and it is the reason the lead was opened.
 
