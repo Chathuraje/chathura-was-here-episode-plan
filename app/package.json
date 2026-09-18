@@ -1,8 +1,8 @@
 {
-  "name": "chathura-was-here-explorer",
+  "name": "chathura-was-here-sources",
   "version": "0.1.0",
   "private": true,
-  "description": "Interactive explorer for the idea-based Chathura Was Here episode plan.",
+  "description": "Source and concept library for Chathura Was Here.",
   "scripts": {
     "setup": "node scripts/local-cache.mjs --install",
     "predev": "node scripts/local-cache.mjs",
@@ -14,11 +14,9 @@
     "check": "node scripts/check-data.mjs"
   },
   "dependencies": {
-    "gray-matter": "^4.0.3",
     "next": "16.3.5",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "react-force-graph-2d": "^1.29.1",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1"
   },

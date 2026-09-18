@@ -1,0 +1,53 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import "./globals.css";
+import { reloadData } from "./actions";
+
+export const dynamic = "force-dynamic";
+export const metadata: Metadata = {
+  title: "Sources and Concepts - Chathura Was Here",
+  description: "Browse the source library and extracted concepts.",
+};
+
+const navigation = [
+  { href: "/", label: "Overview" },
+  { href: "/sources", label: "Sources", number: "01" },
+  { href: "/concepts", label: "Concepts", number: "02" },
+  { href: "/search", label: "Search" },
+  { href: "/docs", label: "File library" },
+];
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>
+        <div className="shell">
+          <aside className="sidebar">
+            <Link href="/" className="brand">Chathura Was Here</Link>
+            <div className="brand-sub">Sources and concepts</div>
+            <nav className="nav" aria-label="Main navigation">
+              {navigation.map((item) => (
+                <Link key={item.href} href={item.href}>
+                  <span>{item.number ?? ""}</span>{item.label}
+                </Link>
+              ))}
+            </nav>
+            <form action={reloadData} className="reload-form">
+              <button type="submit" className="button subtle">Reload files</button>
+            </form>
+          </aside>
+          <main className="main">
+            <div className="topbar">
+              <form className="global-search" action="/search">
+                <label className="sr-only" htmlFor="global-search">Search sources and concepts</label>
+                <input id="global-search" name="q" type="search" placeholder="Search sources and concepts" />
+                <button type="submit" className="button">Search</button>
+              </form>
+            </div>
+            {children}
+          </main>
+        </div>
+      </body>
+    </html>
+  );
+}
