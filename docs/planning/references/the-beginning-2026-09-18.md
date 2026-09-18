@@ -6,6 +6,8 @@ Google document ID: `10fWaF9Vl_4_IzohQfDQLiXu2Y0nI2GVVFPHAy3B2KHs`
 Retrieved: 2026-09-18 through the authorized Google Drive connection  
 Revision read: `ANLCKQl9DA5EKi0J2Ul_YnnqbipxDsZ43-z6TIw0zbTVlWBJvdRaFg44wmyMnj0DhKRjn7emzLHmR-7WZdKAFA8Nj2ECKwN8gCR7ubG6MtE`
 
+Additional reference: full working screenplay text supplied directly by Chathura on 2026-09-19. Only the planning details below and the structured `EP-001` guide were retained; the full screenplay text was not copied into the repository.
+
 ## Snapshot scope
 
 This repository file is a faithful planning-relevant summary, not a complete screenplay export. It records framing, object, road, monastery, and forest details needed by the Step 1 continuity model. The full original screenplay remains external and is not present in the repository.
@@ -19,6 +21,18 @@ This repository file is a faithful planning-relevant summary, not a complete scr
 - The route reaches the Meemure approach/paddy fields and then the monastery road.
 - The planned monastery material includes the monk encounter, aerial road image, ordinary monastery activity, sermon, offering, observation, evening/night, and a second morning.
 - Chathura then walks up the forest path, becomes hidden by trees, and disappears. The empty forest remains before the cut to black.
+
+## Working format and editorial treatment
+
+- Genre: cinematic documentary.
+- Working duration: 7–9 minutes, targeting approximately 8 minutes.
+- Estimated Chathura narration: approximately 2:15–2:50, depending on delivery and pauses.
+- Narrative function: show the destination before the audience understands the journey, moving from urban pressure toward attention and stillness without offering a final answer.
+- Chathura is not introduced as a conventional host. He remains visually secondary: seen from behind, at a distance, in reflection, or as a small figure within the landscape.
+- Natural and real location sound leads the edit: city noise, the motorcycle, wind, birds, sermon, chanting, meditation-room ambience, insects, and water. Music is not required for the planned key passages.
+- Monastery life is observed through ordinary details, repetition, work, giving, listening, and stillness. It must not be framed as exotic spectacle.
+- Episode information appears over the continuing journey in this order: `Season 1 — Episode 1`, coordinates `7° 25′ 11.70″ N, 80° 50′ 09.76″ E`, then `The Beginning`. The location name is not displayed in this reveal.
+- The runtime guide is subordinate to reality: stronger authentic sermon, chanting, meditation, or human moments should take priority over planned timings.
 
 ## Continuity use
 

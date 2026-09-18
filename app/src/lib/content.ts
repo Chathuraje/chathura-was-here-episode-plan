@@ -19,7 +19,8 @@ export type Concept = {
   folder: string;
   sources: SourceFile[];
 };
-export type Doc = { path: string; title: string };
+export type DocKind = "primary-source" | "source-map" | "guide";
+export type Doc = { path: string; title: string; kind: DocKind };
 export type Data = {
   concepts: Map<string, Concept>;
   docs: { sources: Doc[] };
@@ -94,7 +95,12 @@ async function markdownDocs(dirRel: string): Promise<Doc[]> {
   for (const name of await listDir(abs)) {
     if (!name.endsWith(".md")) continue;
     const full = path.join(abs, name);
-    docs.push({ path: repoRel(full), title: titleOf(await read(full), name.replace(/\.md$/, "")) });
+    const kind: DocKind = name.endsWith("Source Map.md")
+      ? "source-map"
+      : name.endsWith("Guide.md") || name.startsWith("Splitting a Book")
+        ? "guide"
+        : "primary-source";
+    docs.push({ path: repoRel(full), title: titleOf(await read(full), name.replace(/\.md$/, "")), kind });
   }
   return docs;
 }

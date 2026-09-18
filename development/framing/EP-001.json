@@ -4,11 +4,11 @@
   "record_type": "episode",
   "title": "The Beginning",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "record_role": "continuity_reference",
   "generated_by_screenplay_system": false,
   "release": {
@@ -21,11 +21,71 @@
   "reference_snapshot": "docs/planning/references/the-beginning-2026-09-18.md",
   "external_screenplay": "https://docs.google.com/document/d/10fWaF9Vl_4_IzohQfDQLiXu2Y0nI2GVVFPHAy3B2KHs",
   "sequence": [
-    "Crowded location (shared with EP-100 opening and the Episode 99 ending)",
-    "Cut to black → road toward Meemure",
-    "Meemure approach and monastery road",
-    "Monastery: monk encounter, sermon, offering, night, second morning",
-    "Forest path: Chathura disappears between the trees; empty forest"
+    "A dense, unnamed public-space opening observes movement before Chathura's quiet narration begins",
+    "A hard cut to black and natural sound leads into the motorcycle journey toward Meemure",
+    "The approach through paddy fields reveals episode number, coordinates, and title without stopping the story",
+    "Chathura and a monk pass on the monastery road before the place is revealed through small details",
+    "A real sermon and the monastery's ordinary work shift the film from movement toward attention",
+    "Food offering, paddy-field observation, and afternoon repetition let meaning emerge without textbook explanation",
+    "Sunset, chanting, meditation, and the night landscape slow the audience into stillness",
+    "On the second morning Chathura enters the forest, disappears between the trees, and leaves the empty frame behind"
   ],
+  "screenplay_guide": {
+    "scope": "A planning summary extracted from the user-provided screenplay. It intentionally excludes full scenes, narration, and dialogue.",
+    "genre": "Cinematic documentary",
+    "runtime": {
+      "range": "7–9 minutes",
+      "editorial_target": "approximately 8 minutes",
+      "narration_target": "approximately 2:15–2:50"
+    },
+    "narrative_function": "Show the audience a destination before they understand the journey that leads to it. Contrast constant movement with sustained attention, then let the monastery's ordinary rhythms deepen the question without resolving it.",
+    "primary_locations": [
+      "Unnamed busy public space",
+      "Mountain road toward Meemure",
+      "Meemure approach and paddy fields",
+      "Monastery road and monastery grounds",
+      "Forest path above the monastery"
+    ],
+    "participants": [
+      "Chathura",
+      "Monks",
+      "Lay visitors",
+      "Local people involved in the food offering"
+    ],
+    "visual_approach": [
+      "Keep Chathura visually secondary: mostly from behind, at a distance, in reflection, or as a small figure in the landscape.",
+      "Observe the monastery through ordinary details and repeated actions rather than a grand or exotic reveal.",
+      "Let shots become longer and calmer as the episode moves away from the city.",
+      "End on the empty forest after Chathura has disappeared rather than cutting away immediately."
+    ],
+    "sound_approach": [
+      "Begin with layered city sound and no music, then use the cut to black as a sound transition into wind and birds.",
+      "Prioritize motorcycle, landscape, sermon, chanting, insects, water, footsteps, and room tone over cinematic score.",
+      "Allow sermon, meditation, and natural-sound passages to remain uninterrupted long enough for the audience to listen."
+    ],
+    "information_reveal": {
+      "method": "Reveal information naturally over moving footage rather than using a conventional title card.",
+      "order": [
+        "Season 1 — Episode 1",
+        "7° 25′ 11.70″ N, 80° 50′ 09.76″ E",
+        "The Beginning"
+      ],
+      "location_name_policy": "Do not display the location name in the episode reveal."
+    },
+    "editorial_priorities": [
+      "The experience itself is the plot; do not force a conventional host-led explanation.",
+      "Treat monastery life as an ordinary lived rhythm, not as exotic spectacle.",
+      "Show giving, receiving, discipline, repetition, and attention through observed action instead of textbook narration.",
+      "If real sermon, chanting, meditation, or human moments are stronger than the plan, those real moments take priority over the runtime guide."
+    ],
+    "continuity_hooks": [
+      "The crowded opening is shared with the ending of Episode 99 and the opening of Episode 100.",
+      "Episode 100 Part A continues beyond Episode 1's crowd-to-black cut and later reaches the exact road point where Episode 1 resumes.",
+      "The bag and notebook may contain subtle ordinary-looking objects, but their visibility does not establish ownership.",
+      "Episode 100 revisits selected road and monastery images with changed meaning.",
+      "Episode 100 Part B continues beyond Episode 1's forest disappearance."
+    ],
+    "evidence_boundary": "This is intended creative material, not proof of captured footage, participant speech, permissions, or final edit boundaries. Those require later production evidence."
+  },
   "objects": "All ten objects are already owned (planned). Visibility in Episode 1 shots is not required."
 }

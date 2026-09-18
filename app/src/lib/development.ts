@@ -55,6 +55,20 @@ export type FramingEpisode = Envelope & {
   reference_snapshot: string;
   external_screenplay: string;
   sequence: string[];
+  screenplay_guide?: {
+    scope: string;
+    genre: string;
+    runtime: { range: string; editorial_target: string; narration_target: string };
+    narrative_function: string;
+    primary_locations: string[];
+    participants: string[];
+    visual_approach: string[];
+    sound_approach: string[];
+    information_reveal: { method: string; order: string[]; location_name_policy: string };
+    editorial_priorities: string[];
+    continuity_hooks: string[];
+    evidence_boundary: string;
+  };
   objects: string;
 };
 

@@ -4,11 +4,11 @@
   "record_type": "episode",
   "title": "The Way Back",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "record_role": "continuity_reference",
   "generated_by_screenplay_system": false,
   "release": {
@@ -21,11 +21,75 @@
   "reference_snapshot": "docs/planning/references/the-way-back-2026-09-18.md",
   "external_screenplay": "https://docs.google.com/document/d/1IjQCv2l4ECAc_MLG18a71a-flpB3gEFsdpvNxCpxVmY",
   "sequence": [
-    "Same crowded location as Episode 1, continuing past Episode 1's cut",
-    "Part A: room → all ten objects together in one frame → packing → departure → Hunnasgiriya → road toward Meemure",
-    "Reaches the exact road point where Episode 1 resumed",
-    "Compressed revisit of Episode 1 material up to the forest disappearance",
-    "Part B: continues beyond the forest"
+    "Return to Episode 1's exact crowded opening, reach its original cut point, and continue by following Chathura away",
+    "Enter Chathura's room, show all ten journey objects together in one frame, use only selected memory flashes, and pack the bag",
+    "Leave the city with Chathura fully visible as traffic and buildings gradually give way to road, wind, and landscape",
+    "Pass Hunnasgiriya and match the Episode 1 road composition closely enough for the audience to recognize the hidden chronology",
+    "Revisit Episode 1 as a brief memory sequence and reach the original forest disappearance",
+    "Continue beyond Episode 1: footsteps persist and Chathura emerges on the other side of the forest",
+    "Meet a real teacher and allow meditation and authentic conversation to determine the human center of the finale",
+    "Reconstruct selected chronology and recurring human patterns from Episodes 2–99 using archival images and the objects as quiet markers",
+    "Return to Episode 1's monastery, aerial road image, and empty forest with changed meaning before the final question and credits"
   ],
+  "screenplay_guide": {
+    "scope": "A planning summary extracted from the user-provided screenplay. It intentionally excludes full scenes, narration, and placeholder dialogue.",
+    "genre": "Cinematic documentary / mystery reconstruction",
+    "runtime": {
+      "range": "8–10 minutes",
+      "editorial_target": "approximately 9:15",
+      "narration_target": "approximately 2:00–2:40"
+    },
+    "narrative_function": "Complete the missing material before and after Episode 1, let the audience recognize the hidden chronology without reducing the finale to a puzzle explanation, and return to the opening images with a changed understanding of what they meant.",
+    "primary_locations": [
+      "The same busy public space used in Episodes 99 and 1",
+      "Chathura's room",
+      "City departure and the road toward Meemure",
+      "Hunnasgiriya and the matched Episode 1 road position",
+      "Episode 1 monastery and forest locations",
+      "The other side of the forest and the teacher's location"
+    ],
+    "participants": [
+      "Chathura",
+      "A real monk or teacher",
+      "People appearing in selected archival material from Episodes 2–99"
+    ],
+    "visual_approach": [
+      "Begin with the exact recognizable Episode 1 crowd image and continue beyond its original cut before offering narration.",
+      "Show all ten objects together in one room frame, but use only a few short archival inserts rather than cataloguing every object.",
+      "Unlike Episode 1, allow Chathura's face and mirror reflection to be clear and direct.",
+      "Match the Episode 1 road composition, sound, movement, and position as closely as the real footage permits.",
+      "Compress the Episode 1 revisit to roughly 40–55 seconds so it feels like memory rather than replay.",
+      "Build the larger reconstruction from fragmented release-order images toward readable chronology and shared human patterns.",
+      "End by returning to the extended aerial road image and the same empty forest, now understood differently."
+    ],
+    "sound_approach": [
+      "Let recognition of the crowd and the road match occur before narration explains anything.",
+      "Use the room door to collapse the city sound into stillness, then simplify the soundtrack as the journey leaves the city.",
+      "Give meditation and teacher interaction physical presence through breath, wind, insects, posture, and silence.",
+      "Let natural sound take over before the final question and hold a short silence before the credits."
+    ],
+    "information_reveal": {
+      "method": "The opening reveals its meaning through recognition and continuation. The supplied screenplay does not specify a separate title-card treatment for Episode 100.",
+      "order": [],
+      "location_name_policy": "No new public location-name reveal is specified; preserve the established disclosure policy unless Chathura decides otherwise."
+    },
+    "editorial_priorities": [
+      "Episode 100 must remain a film, not an explanation of the series architecture.",
+      "Use visual evidence, objects, extended footage, sound, and selective narration to reconstruct chronology.",
+      "Do not name or explain every Buddhist concept; retain only authentic teacher material that connects directly to lived experiences already shown.",
+      "Use the ten objects as quiet chronological markers, never as labelled puzzle pieces or a complete map.",
+      "Keep the reconstruction concentrated at approximately 2:00–2:30; remove repeated examples or explanatory narration before extending runtime.",
+      "The audience has already lived through Episodes 2–99, so the finale only needs enough material to make the connections visible."
+    ],
+    "continuity_hooks": [
+      "Episode 99 ends on the crowded event that opens Episodes 1 and 100.",
+      "Episode 100 continues past Episode 1's crowd-to-black cut into the room, packing, departure, and road journey.",
+      "All ten objects must appear together in one frame before Chathura packs them; this is a specific creative requirement.",
+      "Part A reaches the exact planned road point where Episode 1 resumes and then revisits its material through the forest ending.",
+      "Part B begins when footsteps continue beyond the empty forest and Chathura emerges on the other side.",
+      "Selected Episode 1 shots, including the aerial road image, continue beyond their original edit to reveal additional meaning."
+    ],
+    "evidence_boundary": "Teacher dialogue in the screenplay is placeholder material and must be replaced by authentic interaction. Exact crowd, road, and forest matches remain creative requirements until supported by footage IDs, timecodes, edit records, participant consent, and production evidence."
+  },
   "objects": "Room reveal shows all ten objects together in one frame before packing (planned creative requirement)."
 }

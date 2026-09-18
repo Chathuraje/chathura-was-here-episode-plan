@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getData } from "@/lib/content";
+import { getDevelopment } from "@/lib/development";
 import { docHref } from "@/lib/routes";
 
 type Hit = { key: string; label: string; detail: string; href: string; score: number };
@@ -8,7 +9,7 @@ type Hit = { key: string; label: string; detail: string; href: string; score: nu
 export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const query = ((await searchParams).q ?? "").trim();
   const needle = query.toLocaleLowerCase();
-  const data = await getData();
+  const [data, dev] = await Promise.all([getData(), getDevelopment()]);
   const upper = query.toUpperCase();
   if (data.concepts.has(upper)) redirect(`/concepts/${upper}`);
 
@@ -17,13 +18,16 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   ), 0);
 
   const conceptHits: Hit[] = needle.length >= 2 ? [...data.concepts.values()]
-    .map((concept) => ({
-      key: concept.id,
-      label: `${concept.id} - ${concept.title}`,
-      detail: `Chapter ${concept.chapter} / ${concept.sources.length} source extracts`,
-      href: `/concepts/${concept.id}`,
-      score: score(concept.id, concept.title, `chapter ${concept.chapter}`),
-    }))
+    .map((concept) => {
+      const englishTitle = dev.digests.get(concept.id)?.title_en;
+      return {
+        key: concept.id,
+        label: `${concept.id} - ${concept.title}`,
+        detail: [englishTitle, `Chapter ${concept.chapter} / ${concept.sources.length} source extracts`].filter(Boolean).join(" · "),
+        href: `/concepts/${concept.id}`,
+        score: score(concept.id, concept.title, englishTitle ?? "", `chapter ${concept.chapter}`),
+      };
+    })
     .filter((hit) => hit.score)
     .sort((a, b) => b.score - a.score) : [];
 
@@ -44,10 +48,10 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
       <header className="page-header">
         <div className="eyebrow">Library search</div>
         <h1>{query ? `Results for “${query}”` : "Search"}</h1>
-        <p>Search concept identifiers, concept titles, chapters, and source documents.</p>
+        <p>Search concept identifiers, Sinhala or English titles, chapters, and library documents.</p>
       </header>
       <form action="/search" className="page-search">
-        <input name="q" defaultValue={query} autoFocus type="search" placeholder="Try C006, a concept title, or a source name" />
+        <input name="q" defaultValue={query} autoFocus type="search" placeholder="Try C006, a Sinhala or English title, or a source name" />
         <button className="button primary" type="submit">Search</button>
       </form>
       {needle.length >= 2 ? <p className="result-count">{total} {total === 1 ? "result" : "results"}</p> : null}
