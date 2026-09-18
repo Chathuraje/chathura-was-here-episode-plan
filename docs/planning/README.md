@@ -1,6 +1,6 @@
 # Episode-development planning foundation
 
-This directory contains the Step 1 audit and proposals for extending the current source/concept browser into a complete episode-development system. It does not contain an episode slate, converted concepts, new screenplays, or implemented dashboard features.
+This directory contains the Step 1 audit and proposals for extending the current source/concept browser into a complete episode-development system, plus one small draft concept-to-idea pilot. It does not contain an episode slate, approved concept conversions, new screenplays, or implemented dashboard features.
 
 ## Documents
 
@@ -10,30 +10,33 @@ This directory contains the Step 1 audit and proposals for extending the current
 4. [Data-model proposal](04-data-model-proposal.md) — proposed file-backed records, relationships, chronology, reviews, and exports.
 5. [Episode 001/100 continuity](05-episode-001-100-continuity.md) — framing structure with repository evidence separated from brief-supplied requirements.
 
-Retrieved external-reference snapshots:
+Retrieved external-reference planning summaries:
 
 - [Channel Details — 2026-09-18](references/channel-details-2026-09-18.md)
 - [The Beginning — 2026-09-18](references/the-beginning-2026-09-18.md)
 - [The Way Back — 2026-09-18](references/the-way-back-2026-09-18.md)
 
-## Proposed small Step 2 pilot — not performed
+These repository files are dated, planning-relevant summaries of external Google Docs. They are not complete document or screenplay exports; the full originals remain external and are not present in the repository.
 
-After this foundation is approved, use two or three **Chathura-selected** concepts, including one possible meaningful pairing, to test only the early pipeline:
+## Small Step 2 pilot — draft completed for review
 
-1. create explicit concept/source records without changing existing extracts;
-2. draft and review the Sinhala source explanation for each;
-3. draft and review the separate simple-English human interpretation;
-4. create one or two unnumbered candidate idea records with evidence classes and unknowns kept separate;
-5. exercise location requirements and suggestions while leaving `selected_location_id` empty unless Chathura selects one;
-6. generate one “complete brief” preview and validate its provenance manifest.
+The [Pilot 01 review package](pilot-01/README.md) uses the three Chathura-selected concepts C020, C032, and C084 to test only the early pipeline. It contains:
 
-Stop at idea review. Do not assign release numbers, build all ten groups, or write a screenplay in the pilot.
+1. explicit concept/source dossiers without changes to existing extracts;
+2. a draft Sinhala source explanation for each;
+3. a separate draft simple-English human interpretation for each;
+4. exactly two unnumbered candidate ideas with evidence classes and unknowns kept separate;
+5. location requirements only, with `selected_location_id` left `null`;
+6. one complete-brief preview in equivalent Markdown and JSON forms with a validated provenance manifest.
 
-## Decisions needed before Step 2
+The package stops at idea review. It does not assign release numbers, build chronological groups, select locations, or write a screenplay.
 
-- Approve or revise the consolidated rules and proposed record model.
-- Choose the pilot concepts; do not assume all concepts need conversion.
-- Assess whether the selected concepts need additional `Abhidharma Margaya` provenance before their interpretations are approved.
+## Decisions needed before further development
+
+- Approve or revise the three draft Sinhala explanations and their English editorial interpretations.
+- Decide whether either candidate idea merits reality research and refinement.
+- Assess whether the selected concepts need additional `Abhidharma Margaya` provenance before their interpretations can be approved.
+- Resolve or independently check C084’s “eight” heading with only seven supplied categories before doctrinal publication.
 
 The older distribution model affects later publication/discovery strategy; season-length rules affect later release packaging; the PDF archival policy affects long-term reproducibility; and Episode 99’s provisional crowd ending affects later framing/edit work. None blocks the small unnumbered concept-to-idea pilot. The external channel and framing references have been identified and retrieved, though they remain outside the repository.
 

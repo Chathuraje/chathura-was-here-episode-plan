@@ -147,7 +147,7 @@ Create `OBJ-01`–`OBJ-10`, each assigned to exactly one chronological group. Ke
 - `verified_acquisition` only after a real event/evidence supports it;
 - `appearance`, `transfer`, `loss`, or other real change with evidence and chronology.
 
-Store `planned_ownership_state` separately from `verified_ownership_state`. The current intended chronology says all ten objects are already acquired by Episode 1, while the verified acquisition records remain unknown until evidence is supplied. Verified ownership is derived from verified events; planned ownership is derived from approved continuity requirements. Neither state is derived from whether an object is visible in frame. Shot visibility is a separate scene-appearance fact, and no shot is required to display every owned object. Earlier objects may appear in later groups.
+Store `planned_ownership_state` separately from `verified_ownership_state`. The current intended chronology says all ten objects are already acquired by Episode 1, while the verified acquisition records remain unknown until evidence is supplied. Verified ownership is derived from verified events; planned ownership is derived from approved continuity requirements. Neither state is derived from whether an object is visible in frame. Shot visibility is a separate scene-appearance fact. Ordinary shots need not display every owned object, but the Episode 100 room reveal has an explicit planned-visibility requirement: all ten objects together in one frame before packing. Model that exception as creative intent on the relevant scene appearance, not as verified footage or acquisition evidence. Earlier objects may appear in later groups.
 
 ### Connections
 

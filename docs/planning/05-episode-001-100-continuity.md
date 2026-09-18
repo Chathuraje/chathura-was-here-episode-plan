@@ -26,7 +26,7 @@ The current intended relationships are:
 
 1. **Episode 1 opens in the crowded location.** It uses the crowded-location footage and cuts away to the road toward Meemure.
 2. **Episode 100 opens with that same crowded footage.** It reaches Episode 1’s planned cut point but continues beyond it instead of cutting away.
-3. **Episode 100 Part A fills the first missing span.** It continues through Chathura’s room, the ten objects, packing them, departure, and travel toward Hunnasgiriya/Meemure.
+3. **Episode 100 Part A fills the first missing span.** It continues through Chathura’s room, reveals all ten objects together in one frame before packing them, then covers departure and travel toward Hunnasgiriya/Meemure.
 4. **Part A rejoins Episode 1.** It reaches the exact planned road-footage point where Episode 1 originally resumed.
 5. **Episode 100 revisits selected Episode 1 material.** The revisit moves through selected road, monastery, and related images until it reaches Chathura’s forest disappearance.
 6. **Episode 100 Part B fills the second missing span.** It continues beyond the forest ending.
@@ -37,7 +37,7 @@ The framing shorthand remains:
 ```text
 Episode 100 Part A
   same crowd, extended beyond Episode 1 cut
-  → room → ten objects / packing → departure
+  → room → all ten objects together in one frame → packing → departure
   → Hunnasgiriya / road toward Meemure
   → exact planned road point where Episode 1 resumed
       ↓
@@ -77,9 +77,9 @@ Keep four questions separate:
 | Planned ownership | All ten objects are already acquired in the intended Episode 1 chronology |
 | Verified acquisition | Unknown until real acquisition events and evidence are supplied |
 | Possession changes | None verified; record transfers, loss, disposal, or other changes separately if reality supplies them |
-| Shot visibility | Independent of ownership; an object outside the frame remains owned, and no Episode 1 or Episode 100 shot is required to show all ten |
+| Shot visibility | Independent of ownership; an object outside the frame remains owned. Ordinary Episode 1 and Episode 100 shots need not show every object. The specific Episode 100 room reveal is the planned exception: all ten objects together in one frame before packing |
 
-The intended Episode 100 room/packing sequence may establish the collection through selected coverage, but it must not turn visibility into the ownership test. Physical identity, images, acquisition date/place, supporting evidence, exact packing coverage, and later possession changes remain unresolved.
+The Episode 100 room reveal must establish the collection with all ten objects together in one frame before packing. That one-frame composition is planned creative intent; no footage, timecode, or captured event currently verifies it. It does not turn visibility into the ownership test for other shots. Physical identity, images, acquisition date/place, supporting evidence, exact packing coverage, and later possession changes remain unresolved.
 
 ## Planned boundaries versus technical boundaries
 
@@ -95,7 +95,7 @@ They do not provide usable footage IDs or technical edit timecodes. The words �
 
 - identify the crowded-location source footage and create separate Episode 1, Episode 99, and Episode 100 appearance records;
 - verify the Episode 1 crowd cut and Episode 100 continuation with source and sequence timecodes;
-- identify room, packing, departure, and journey footage without assuming every object is visible;
+- identify room, packing, departure, and journey footage; specifically verify whether the planned room-reveal frame contains all ten objects together before packing, while making no such visibility assumption for ordinary shots;
 - verify the road match where Part A rejoins Episode 1;
 - identify every selected Episode 1 shot reused or revisited in Episode 100;
 - verify the forest disappearance and beyond-forest handoff;
@@ -110,6 +110,6 @@ They do not provide usable footage IDs or technical edit timecodes. The words �
 - Never fabricate crowd behavior, monastery events, participant dialogue, the route actually taken, object acquisition, or what occurs beyond the forest.
 - Retain Episode 99’s crowd ending as provisional until newer material or evidence supersedes it.
 - Keep planned ownership separate from verified acquisition and possession history.
-- Keep ownership separate from shot visibility.
+- Keep ownership separate from shot visibility, while retaining the explicit planned Episode 100 room-reveal exception.
 - Preserve production screenplay versions separately from post-filming revisions grounded in captured footage.
 - Reconcile this document against footage logs, transcripts, and edit decisions when they become available.

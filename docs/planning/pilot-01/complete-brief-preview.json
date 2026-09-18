@@ -1,0 +1,236 @@
+{
+  "brief_type": "complete_brief_preview",
+  "status": "draft_awaiting_review",
+  "generated_for_model_trial": "2026-09-18",
+  "repository_revision": "9a30d6b",
+  "allowed_next_task": "idea_refinement_only",
+  "screenplay_generation_allowed": false,
+  "project_rules": [
+    "Develop an outward-looking cinematic documentary idea grounded in real people, places, activities, memories, and experiences.",
+    "Let observable action, natural sound, and an independent human story carry the film; keep philosophy underneath rather than making a lecture.",
+    "Never invent participants, quotations, events, access, evidence, or outcomes.",
+    "Do not force people to illustrate doctrine and do not infer private mental states from images alone.",
+    "Chathura alone selects locations."
+  ],
+  "task_boundaries": {
+    "authorized": [
+      "Refine IDEA-P01-A as an unnumbered candidate idea.",
+      "Sharpen its premise, human question, observable action, independent stakes, ethical limits, and research questions.",
+      "Label every proposed real-world lead as unverified."
+    ],
+    "forbidden": [
+      "Select or suggest a named location.",
+      "Allocate an episode or release number.",
+      "Assign a chronological group or object.",
+      "Create scenes or dialogue.",
+      "Generate a screenplay.",
+      "Implement software.",
+      "Claim approval or verified facts without evidence."
+    ]
+  },
+  "record_state": {
+    "idea_id": "IDEA-P01-A",
+    "working_title": "The Work Between Moments",
+    "approval_status": "draft_awaiting_review",
+    "selected_location_id": null,
+    "chronology_position": null,
+    "release_position": null,
+    "episode_assignment": null,
+    "group_assignment": null,
+    "object_assignment": null
+  },
+  "idea": {
+    "premise": "Follow one person or a small working group through a real, bounded task that demands repeated noticing, recognition, adjustment, and care. The task—not a philosophical lesson—supplies the story: something must be made, repaired, prepared, moved, or completed, and reality decides whether it succeeds. Close observation attends to contact with materials and people, moments that feel easy, painful, or ordinary, the features workers recognize, and the choices that redirect the work. The film never claims to see inside a mind; actions, natural sound, and participants’ own words carry what can be known.",
+    "central_human_question": "When real work changes from moment to moment, how does a person recognize what is happening, live with how it feels, and decide what to do next?",
+    "concept_connections": [
+      {
+        "concept_id": "C020",
+        "role": "primary",
+        "title": "සර්ව චිත්ත සාධාරණ චෛතසික සත",
+        "reason": "The seven co-present functions can sharpen editorial attention to contact, feeling tone, recognition, intention, holding to an aspect, momentary maintenance, and directing the mind.",
+        "guardrail": "Do not turn the functions into a seven-step plot or diagnose them on camera."
+      },
+      {
+        "concept_id": "C032",
+        "role": "supporting",
+        "title": "වේදනා සංග්‍ර‍හය",
+        "reason": "Its pleasant, painful, and neutral distinction, plus its separation of bodily and mental forms, can make questions about experience more precise.",
+        "guardrail": "Do not equate වේදනා with every emotion or attribute a feeling without the participant’s account."
+      }
+    ],
+    "deliberately_not_connected": [
+      {
+        "concept_id": "C084",
+        "reason": "Do not add it merely because it is part of the pilot."
+      }
+    ],
+    "unverified_people_or_situations": [
+      "A person or small team performing a skilled task with a visible beginning, constraints, corrections, and finish.",
+      "A task where touch, sound, timing, repetition, fatigue, uncertainty, and learned recognition arise naturally rather than through staging.",
+      "A participant willing to describe concrete moments without being asked to endorse the source framework."
+    ],
+    "verification_note": "No person, access arrangement, task, or event has been found or confirmed.",
+    "observable_material": [
+      "Hands, tools, materials, faces, pauses, repeated attempts, checks, corrections, and cooperation.",
+      "Changing conditions if they occur.",
+      "The full natural-sound texture of work.",
+      "Participant explanations tied to concrete actions: what they noticed, recognized, expected, or changed."
+    ],
+    "observation_guardrail": "Facial expression alone is not evidence of a feeling or intention.",
+    "movement_and_stakes": "A real requirement, limited material or time, an error, changing conditions, or responsibility to another person could move the story only if research verifies it. Stakes must come from what completion or failure means to the participant, not from manufactured urgency.",
+    "possible_viewer_movement": "The viewer may begin by seeing only a finished product or routine action and come to notice the many adjustments involved. Do not pre-write mastery, personal transformation, success, or failure; the observed outcome remains unknown.",
+    "location_requirements": [
+      "An active, ethically filmable working environment.",
+      "A bounded task with observable development.",
+      "Useful visual and natural-sound variation.",
+      "Safe camera access, informed consent, and minimal disruption."
+    ],
+    "location_note": "No named location is proposed, selected_location_id is null, and selection remains Chathura’s alone.",
+    "why_it_may_deserve_a_film": "The independent story is consequential work and the relationships and judgment it requires. The film must remain worthwhile if no source terminology is spoken. C020 and C032 are editorial lenses, not the subject’s assigned beliefs.",
+    "link_to_other_idea": "IDEA-P01-B asks how shared names organize action, while this idea watches a person adjust within a changing task. A possible contrast is immediate experience versus meaning already attached to a situation; keep the films independent.",
+    "revise_or_abandon_if": [
+      "There is no independent human stake beyond illustrating concepts.",
+      "Access requires staging action or disrupting livelihoods.",
+      "Inner experience can only be inferred from images, or participants do not want it discussed.",
+      "The activity has no real development, relationship, or consequence.",
+      "The combined framework distorts how participants understand their work."
+    ]
+  },
+  "faithful_sinhala_context": {
+    "status": "draft_not_approved",
+    "C020": {
+      "scope": "සර්ව චිත්ත සාධාරණ යනු සෑම සිතක් සමඟම යෙදෙන බවයි. මෙහි දැක්වෙන්නේ එකින් එක පසුව සිදුවන පියවර හතක් නොව, එකම චිත්ත අවස්ථාව සමඟ තම තමන්ගේ කාර්යය කරන චෛතසික හතකි.",
+      "scope_refs": ["C020-P:L25-L29", "C020-M:L3-L5"],
+      "factors": [
+        {"name": "ඵස්ස", "explanation": "ශාරීරික ගැටීම පමණක් නොව, සිත හා අරමුණ සම්බන්ධ කරන කාර්යය.", "refs": ["C020-P:L31-L41", "C020-M:L7-L9"]},
+        {"name": "වේදනා", "explanation": "අරමුණ සැප, දුක් හෝ මධ්‍යස්ථ ලෙස විඳීම; සියලු චිත්තවේග නොවේ.", "refs": ["C020-P:L45-L53", "C020-M:L11-L13"]},
+        {"name": "සඤ්ඤා", "explanation": "අරමුණේ ලක්ෂණ ගෙන එය හඳුනාගැනීමට සලකුණක් සපයන කාර්යය.", "refs": ["C020-P:L55-L65", "C020-M:L15-L17"]},
+        {"name": "චේතනා", "explanation": "සිත හා සම්බන්ධ කාර්යයන් යොදවන උත්සාහවත් සංවිධාන කාර්යය; මූලාශ්‍රයේ කර්ම අර්ථය සාමාන්‍ය තීරණයකට අඩු කළ නොහැක.", "refs": ["C020-P:L67-L79", "C020-M:L19-L23"]},
+        {"name": "ඒකග්ගතා", "explanation": "එක් අරමුණක එක් ආකාරයක පිහිටීම; එය නිතරම උසස් සමාධියක් නොවේ.", "refs": ["C020-P:L81-L89", "C020-M:L25-L29"]},
+        {"name": "නාමජීවිතින්ද්‍රිය", "explanation": "සමඟ උපන් නාමධර්ම ඔවුන්ගේ පැවැත්ම තුළ රැකීම. Pradeepika අනුව එය සිත සමඟම නිරුද්ධ වන අතර සදාකාලික ආත්මයක් නොවේ; Margaya චිත්ත පරම්පරාවේ පැවැත්ම අවධාරණය කරයි.", "refs": ["C020-P:L91-L101", "C020-M:L31-L33"]},
+        {"name": "මනසිකාර", "explanation": "සිත අරමුණට යොමු කිරීම; තනිවම යහපත් හෝ අයහපත් තෝරන බලයක් නොවේ.", "refs": ["C020-P:L103-L111", "C020-M:L35-L37"]}
+      ]
+    },
+    "C032": {
+      "scope": "මෙහි වේදනා යනු සියලු හැඟීම් එකතුව නොව, අරමුණේ රසය විඳින චෛතසික කාර්යයයි.",
+      "scope_refs": ["C032-P:L39-L45", "C032-M:L3-L5"],
+      "threefold": "අනුභවන භේදයෙන් සැප, දුක් සහ උපෙක්ඛා යන තුනකි. උපෙක්ඛා මෙහි සැපත් දුක්ත් නොවන මධ්‍යස්ථ විඳීමයි.",
+      "threefold_refs": ["C032-P:L47-L83", "C032-M:L3-L5"],
+      "fivefold": "ඉන්ද්‍රිය භේදයෙන් ශාරීරික සැප, මානසික සතුට, ශාරීරික දුක්, මානසික අසතුට සහ උපෙක්ඛා යන පහකි. මෙය තුනට විරුද්ධ වර්ගීකරණයක් නොව, සැප හා දුක් ශරීර/මනස ලෙස වෙන් කිරීමකි.",
+      "fivefold_refs": ["C032-P:L85-L109", "C032-M:L5-L13"],
+      "broader_dukkha_note": "Pradeepika හි පුළුල් දුක්ඛ විග්‍රහය වෙනස්වීම හා ප්‍රත්‍යයතාව අදාළ දාර්ශනික භාවිතයක් වන අතර සියල්ල ශාරීරිකව වේදනාකාරී යන අදහස නොවේ.",
+      "broader_dukkha_refs": ["C032-P:L111-L123"]
+    }
+  },
+  "english_human_interpretations": {
+    "status": "draft_editorial_application_not_scientific_validation",
+    "C020": "Meeting a situation involves more than attention. Something makes contact with experience; it has a pleasant, painful, or neutral tone; features are recognized; activity is organized; the mind holds to some aspect; the moment is sustained; and the mind is directed. The source presents these together, not as a universal seven-stage sequence. Using them to choose interview questions or notice edits is an editorial application; a camera cannot prove seven hidden mental factors. The source meanings of intention/karma and mental life faculty do not transfer fully into ordinary English without context.",
+    "C032": "An experience can feel pleasant, painful, or neither, with the source also distinguishing bodily from mental forms. This is not a list of every emotion. A film may ask what feels easy, painful, unwelcome, or ordinary and how that may influence a response, but it must not claim a universal chain or scientific validation. The participant’s account and observable context are evidence; an edit or expression is not enough. The source’s broader dukkha account cannot be reduced to everything feels bad."
+  },
+  "selected_source_excerpts": {
+    "selection_note": "These are short relevant selections, not complete sources.",
+    "items": [
+      {
+        "ref": "C020-P:L27",
+        "exact_source_line": "සබ්බචිත්ත සාධාරණ චෛතසිකයෝ නම්:— (1) එස්සය, (2) වෙදනාය, (3) සංඥය, (4) චෙතනාය, (5) එකග්ගතාය, (6) ජීවිතෙන්ද්‍රියය, (7) මනසිකාරය යන සතය.",
+        "reason": "Complete seven-factor enumeration in the Pradeepika extract."
+      },
+      {
+        "ref": "C020-M:L3",
+        "exact_source_line": "**ඵස්ස ය, වේදනාව ය, සඤ්ඤාව ය, චේතනාව ය, ඒකග්ගතාව ය, ජීවිතින්ද්‍රිය ය, මනසිකාරය යයි** සර්ව චිත්ත සාධාරණ චෛතසික සතෙකි.",
+        "reason": "Parallel enumeration in the Margaya extract."
+      },
+      {
+        "ref": "C032-P:L41",
+        "exact_source_line": "**වේදනා** යනු ආරම්මණ රසය විඳීමට කියන නමෙකි. වේදනා හෙදයෙන් චිත්ත චෛතසිකයන් බෙද දක්වීම **වේදනා සංග්‍රහය** වේ.",
+        "reason": "Defines the scope of feeling in the Pradeepika extract."
+      },
+      {
+        "ref": "C032-M:L3",
+        "exact_source_line": "“සුඛ වේදනාවය, දුඃඛ වේදනාවය, උපේක්ෂා වේදනාවය” යි වේදනා තුනෙකි. “සුඛ වේදනාවය, දුඃඛ වේදනාවය, සෝමනස්ස වේදනාවය, දෝමනස්ස වේදනාවය, උපේක්ෂා වේදනාවය” යි තවත් ක්‍ර‍මයකින් වේදනා පසෙකි.",
+        "reason": "Preserves the threefold and fivefold structures in the Margaya extract."
+      }
+    ]
+  },
+  "evidence_and_interpretation_boundaries": {
+    "source_supported": "The cited extracts support the seven-factor list and the threefold/fivefold feeling distinctions.",
+    "editorial_interpretation": "Use those distinctions to notice moments in work or form interview questions.",
+    "unverified_documentary_possibility": "A skilled person or team, a bounded task, corrections, constraints, and meaningful stakes.",
+    "verified_real_world_evidence": [],
+    "approval": "None; all explanations, interpretations, and idea choices await Chathura’s review.",
+    "guardrail": "Do not promote an editorial inference into a source claim or an unverified possibility into a fact."
+  },
+  "constraints": [
+    "No staging.",
+    "No invented subject, access, quote, feeling, event, or outcome.",
+    "Use natural sound and observable action.",
+    "Require informed consent and minimal work disruption.",
+    "No named location.",
+    "No screenplay generation."
+  ],
+  "unknowns": [
+    "participant",
+    "task",
+    "location",
+    "access",
+    "consent",
+    "safety",
+    "practical stake",
+    "visual development",
+    "real outcome",
+    "whether participants’ descriptions support the editorial frame"
+  ],
+  "research_questions": [
+    "What real task has a beginning, development, and consequence?",
+    "Who performs it, who is affected, and how do they describe its importance?",
+    "What access, consent, privacy, safety, and disruption limits apply?",
+    "Which moments and corrections recur naturally and can be observed?",
+    "How do participants describe comfort, pain, neutrality, recognition, and choice without prompted answers?",
+    "What footage, field notes, interviews, and contextual records support each proposed claim?"
+  ],
+  "source_version_manifest": [
+    {
+      "id": "C020-P",
+      "path": "content/02-concepts/Chapter 2/Concept 20 - සර්ව චිත්ත සාධාරණ චෛතසික සත/sources/Abhidhammattha Pradeepika.md",
+      "sha256": "c10c37dbed9e8ca6898bfdc1965d1eb6295590216c266c3ade99d3cc235be355",
+      "coverage": "Full file read; PDF 136–144 / printed 125–133."
+    },
+    {
+      "id": "C020-M",
+      "path": "content/02-concepts/Chapter 2/Concept 20 - සර්ව චිත්ත සාධාරණ චෛතසික සත/sources/Abhidharma Margaya.md",
+      "sha256": "7cd5264249f492232320a2b3de198a9705f5c2f6ebb9abac6a1529f26667239f",
+      "coverage": "Full file read; no supplied publication or page data."
+    },
+    {
+      "id": "C032-P",
+      "path": "content/02-concepts/Chapter 3/Concept 32 - වේදනා සංග්‍ර‍හය/sources/Abhidhammattha Pradeepika.md",
+      "sha256": "b1aed9e59659d9e985429afe6a4d8d1e94156956b8227d169397ed4d5f2cd7d5",
+      "coverage": "Full file read; PDF 239–245 / printed 229–235."
+    },
+    {
+      "id": "C032-M",
+      "path": "content/02-concepts/Chapter 3/Concept 32 - වේදනා සංග්‍ර‍හය/sources/Abhidharma Margaya.md",
+      "sha256": "5aa319c41349c1841057589a0f6294f15c1283b2b4b511179c07621429489e62",
+      "coverage": "Full file read; no supplied publication or page data."
+    },
+    {
+      "id": "MAP-1",
+      "path": "content/01-sources/Pradeepika Book 1 Source Map.md",
+      "sha256": "cc317115ff26faa65f8992b81769c980c3b5a84320ba25732f264789d532a398",
+      "coverage": "C020 line 42; C032 line 59."
+    },
+    {
+      "id": "BOOK-1",
+      "path": "content/01-sources/Abhidhammattha Pradeepika Book 1.md",
+      "sha256": "8f9a0087681c3a6041e5bd565bddcc1ed37cc83f5af5eb9e40b0ab804cd84f1b",
+      "coverage": "C020 lines 2225–2313; C032 lines 3866–3990."
+    }
+  ],
+  "source_uncertainties": [
+    "The Margaya extracts provide no author, edition, publication, original pagination, or extraction metadata; cite them only as the fixed repository extracts in this manifest.",
+    "C020-P stresses that mental life faculty arises and ceases with each mind-state, while C020-M’s shorter account stresses continuity. Do not turn the latter into a claim of a permanent self or silently declare the emphases identical.",
+    "C032-P contains apparent spelling or transcription forms including සුබ, දුක්බ, and උපෙක්බා; check an independent edition before using those forms in a public quotation.",
+    "These are doctrinal source descriptions, not scientific validation of the editorial interpretation."
+  ],
+  "instruction_to_next_ai": "Refine IDEA-P01-A only. Test whether the premise, human question, observable action, independent stakes, ethical limits, and research plan can become sharper without inventing a subject or event. Preserve the C020 and C032 distinctions and label every proposed real-world lead as unverified. Return revised idea options and research questions for Chathura’s review. Do not choose a location, assign an episode, group, object, or release position, claim approval, write scenes, create dialogue, or generate a screenplay."
+}

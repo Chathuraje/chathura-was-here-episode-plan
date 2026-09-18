@@ -8,7 +8,7 @@ Revision read: `ANLCKQl9DA5EKi0J2Ul_YnnqbipxDsZ43-z6TIw0zbTVlWBJvdRaFg44wmyMnj0D
 
 ## Snapshot scope
 
-This is a faithful planning-relevant snapshot, not a full screenplay export. It records framing, object, road, monastery, and forest details needed by the Step 1 continuity model. The screenplay is external and is not present in the repository.
+This repository file is a faithful planning-relevant summary, not a complete screenplay export. It records framing, object, road, monastery, and forest details needed by the Step 1 continuity model. The full original screenplay remains external and is not present in the repository.
 
 ## Planned sequence observed
 
@@ -28,9 +28,8 @@ This is a faithful planning-relevant snapshot, not a full screenplay export. It 
 - Selected road/monastery images may be revisited in Episode 100 with changed meaning.
 - The forest disappearance supplies the planned Episode 1 ending that Episode 100 Part B continues beyond.
 
-The latest requirement says all ten objects are already acquired in intended Episode 1 chronology. Store that as planned ownership. Do not infer ownership from the screenplay’s visible bag details, and do not require all ten objects to appear in a shot.
+The latest requirement says all ten objects are already acquired in intended Episode 1 chronology. Store that as planned ownership. Do not infer ownership from the screenplay’s visible bag details, and do not require all ten objects to appear in ordinary Episode 1 shots. The separate Episode 100 room-reveal requirement to show all ten together in one frame before packing does not change Episode 1 visibility or ownership evidence.
 
 ## Evidence boundary
 
 This screenplay records intended creative material. It does not provide footage IDs, source or edit timecodes, an edit-decision list, or independent proof that the described events were captured. Any authentic participant speech or real-world action must be grounded later in footage, transcripts, and field evidence.
-

@@ -8,7 +8,7 @@ Revision read: `ANLCKQkQqyGJhFhIxhJToGDocP75fWmj-_C5mVKi0k0yR4Je7tuJbQilRiby3kh7
 
 ## Snapshot scope
 
-This is a faithful planning-relevant snapshot, not a full screenplay export. It preserves the framing and evidence-sensitive details needed by the Step 1 continuity model. The screenplay is external and is not present in the repository.
+This repository file is a faithful planning-relevant summary, not a complete screenplay export. It preserves the framing and evidence-sensitive details needed by the Step 1 continuity model. The full original screenplay remains external and is not present in the repository.
 
 ## Planned sequence observed
 
@@ -24,7 +24,7 @@ This is a faithful planning-relevant snapshot, not a full screenplay export. It 
 
 ## Current-rule clarification
 
-The screenplay’s desk staging describes all ten objects together in one frame. The later controlling requirement is broader and more practical: all ten are planned as already acquired in Episode 1 chronology, but ownership is not proven by visibility and no individual shot is required to show every object. Treat the screenplay line as a planned staging option, not as the ownership model or an evidence claim.
+The screenplay’s desk staging describes all ten objects together in one frame before packing. The current controlling requirement retains that composition as a specific planned creative requirement, not merely an option. The ordinary rule still applies elsewhere: all ten are planned as already acquired in Episode 1 chronology, but ownership is not proven by visibility and ordinary shots need not show every object. The required room-reveal frame is not verified footage, an acquisition record, or evidence that the event was captured.
 
 ## Placeholder and evidence boundary
 

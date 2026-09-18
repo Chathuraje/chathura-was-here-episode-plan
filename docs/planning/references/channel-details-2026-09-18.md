@@ -8,7 +8,7 @@ Revision read: `ANLCKQlgtYF4TF2jJwRFxzE-fC6gg6ZyVO3K69CX9uq9T8NmZtrjVw46JYsd6GfB
 
 ## Snapshot scope
 
-This is a faithful planning-relevant snapshot, not a full export or a replacement for the source document. It records the parts that affect the Step 1 rules, framing continuity, and later decisions. The document is external and is not present in the repository.
+This repository file is a faithful planning-relevant summary, not a complete export or a replacement for the source document. It records the parts that affect the Step 1 rules, framing continuity, and later decisions. The full original document remains external and is not present in the repository.
 
 ## Project and editorial guidance observed
 
@@ -45,4 +45,3 @@ The historical distribution, season-length, and PDF/archive questions do not blo
 ## Evidence boundary
 
 This reference documents creative intent. It does not provide actual footage IDs, timecodes, edit-decision records, or independent verification of events. It must not be used to convert planned dialogue, actions, acquisitions, or continuity into verified facts.
-

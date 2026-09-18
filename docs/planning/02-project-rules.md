@@ -67,7 +67,7 @@ Arithmetic invariant:
 - In the intended Episode 1 chronology, all ten objects have already been acquired. Record that as **planned ownership state**, not as verified acquisition evidence.
 - Keep planned ownership, verified acquisition, later possession changes, and shot-by-shot visibility as separate facts.
 - An object being outside the camera frame is not evidence that it has not yet been acquired.
-- Do not require every object to be visible in Episode 1 or in any individual shot.
+- Ordinary ownership and continuity checks do not require every object to be visible in Episode 1 or in every shot. **Specific Episode 100 exception:** the room reveal is planned to show all ten objects together in one frame before packing. This is intended creative staging, not verified footage or proof of acquisition.
 - Object rules attach to chronological groups, not seasons.
 
 ## Locations
@@ -89,7 +89,7 @@ Arithmetic invariant:
 - Preserve the scene-level structure: **Episode 100 Part A → Episode 1 → Episode 100 Part B**.
 - Episode 1 opens with crowded-location footage, cuts away, later contains the monastery experience, and ends with Chathura disappearing into the forest.
 - Episode 100 opens with the same crowded-location footage but continues beyond Episode 1’s cut.
-- Episode 100 Part A continues through the room, packing the ten objects, departure, and travel toward Hunnasgiriya/Meemure.
+- Episode 100 Part A continues through the room, a planned reveal of all ten objects together in one frame before packing, departure, and travel toward Hunnasgiriya/Meemure.
 - Part A reaches the exact planned road-footage point where Episode 1 originally resumed.
 - Episode 100 revisits selected Episode 1 footage and reaches the forest disappearance.
 - Episode 100 Part B continues beyond that forest ending.
