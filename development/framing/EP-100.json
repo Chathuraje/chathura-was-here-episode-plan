@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "EP-100",
+  "record_type": "episode",
+  "title": "The Way Back",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "record_role": "continuity_reference",
+  "generated_by_screenplay_system": false,
+  "release": {
+    "public_number": 100,
+    "status": "fixed"
+  },
+  "chronology": {
+    "position": "surrounds EP-001: Part A before it, Part B after it"
+  },
+  "reference_snapshot": "docs/planning/references/the-way-back-2026-09-18.md",
+  "external_screenplay": "https://docs.google.com/document/d/1IjQCv2l4ECAc_MLG18a71a-flpB3gEFsdpvNxCpxVmY",
+  "sequence": [
+    "Same crowded location as Episode 1, continuing past Episode 1's cut",
+    "Part A: room → all ten objects together in one frame → packing → departure → Hunnasgiriya → road toward Meemure",
+    "Reaches the exact road point where Episode 1 resumed",
+    "Compressed revisit of Episode 1 material up to the forest disappearance",
+    "Part B: continues beyond the forest"
+  ],
+  "objects": "Room reveal shows all ten objects together in one frame before packing (planned creative requirement)."
+}

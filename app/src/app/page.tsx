@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { getData } from "@/lib/content";
+import { getDevelopment } from "@/lib/development";
 
 export default async function Home() {
-  const data = await getData();
+  const [data, dev] = await Promise.all([getData(), getDevelopment()]);
   const chapters = new Set([...data.concepts.values()].map((concept) => concept.chapter)).size;
   const extracts = [...data.concepts.values()].reduce((total, concept) => total + concept.sources.length, 0);
 
@@ -11,9 +12,10 @@ export default async function Home() {
       <header className="hero">
         <div className="eyebrow">Knowledge library</div>
         <h1>Sources and concepts</h1>
-        <p>Read the original source material and browse the concepts extracted from it. These are the only two content layers in this workspace.</p>
+        <p>Read the original source material, browse the concepts extracted from it, and review how they become a 100-film story arc.</p>
         <div className="actions">
           <Link className="button primary" href="/concepts">Browse concepts</Link>
+          <Link className="button" href="/arc">Review story arc</Link>
           <Link className="button" href="/sources">Open sources</Link>
         </div>
       </header>
@@ -34,6 +36,11 @@ export default async function Home() {
         <Link className="feature-card" href="/concepts">
           <span className="feature-index">02</span>
           <div><h2>Concepts</h2><p>All extracted concepts, grouped by chapter with their supporting text.</p></div>
+          <span className="feature-arrow" aria-hidden="true">→</span>
+        </Link>
+        <Link className="feature-card" href="/arc">
+          <span className="feature-index">03</span>
+          <div><h2>Story arc</h2><p>{dev.groups.length} chronological groups, {dev.draftFilmTotal} draft films, {dev.conceptGroup.size} concepts placed. Draft for review.</p></div>
           <span className="feature-arrow" aria-hidden="true">→</span>
         </Link>
       </div>

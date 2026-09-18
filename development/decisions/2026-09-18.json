@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "DECISIONS-2026-09-18",
+  "record_type": "decision_log",
+  "title": "Chathura decisions, 2026-09-18",
+  "status": "approved",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "reviewer_role": "chathura",
+  "decisions": [
+    {
+      "id": "REV-0001",
+      "topic": "category_arc",
+      "decision": "Order the ten chronological groups as an emotional life-story arc whose depth reveals the book's philosophy."
+    },
+    {
+      "id": "REV-0002",
+      "topic": "episode_99",
+      "decision": "The chronologically last development film (end of GRP-10) is released as Episode 99 and ends on the crowd shared with Episodes 1 and 100."
+    },
+    {
+      "id": "REV-0003",
+      "topic": "narration_language",
+      "decision": "Screenplay narration is written in English for now; Sinhala translation comes later."
+    },
+    {
+      "id": "REV-0004",
+      "topic": "pilot_01",
+      "decision": "Delegated to Claude: Pilot 01 dossiers and ideas stay as draft candidates and are reviewed inside their category batch (IDEA-P01-B → GRP-01, IDEA-P01-A → GRP-05)."
+    },
+    {
+      "id": "REV-0005",
+      "topic": "review_cadence",
+      "decision": "Delegated to Claude: review one full category at a time (concept digests + ideas together), starting with GRP-01."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "GRP-01",
+  "record_type": "chronological_group",
+  "title": "The Names of Things",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "chronological_position": 1,
+  "emotional_stage": "Wonder",
+  "tone": "bright, curious, open",
+  "human_question": "What is actually here, underneath the names we give it?",
+  "journey": "Chathura looks at ordinary Sri Lankan life with fresh eyes: places, people, titles, and things, each carrying a name and a story told about it.",
+  "surface": "The beauty and strangeness of the everyday. Moments where a name and the thing it names quietly come apart.",
+  "depth": "The two truths: conventional (names, concepts) and ultimate (what is actually there). The four ultimate realities (mind, mental factors, matter, Nibbāna) and the full map of 121 types of mind. This group lays out the map the whole series unfolds; three ultimates are explored in Groups 2–9, and the fourth (Nibbāna) is reached only in Group 10.",
+  "arc": {
+    "opening": "The named world: a place, a person known by a role, a thing everyone recognises. Object 1 is acquired here.",
+    "middle": "Encounters where the label and the reality separate: a renamed village, a thing 'the same' though every part is replaced, a person larger than their title.",
+    "closing": "The first hint that experience itself is made of moments of mind, and the first thing found beneath the names is the pull of wanting."
+  },
+  "hands_off": "Once you look beneath the names, the first thing you meet is wanting.",
+  "draft_film_count": 8,
+  "concepts": [
+    {
+      "id": "C001",
+      "role": "Abhidhamma itself and the split between conventional truth (names) and ultimate truth (what is actually there), the lens for the whole series.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C002",
+      "role": "The four ultimate realities: mind, mental factors, matter, Nibbāna. Three are met across the series; the fourth is reached only in Group 10.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C003",
+      "role": "How mind is classified by plane and kind: the first sight of the map.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C018",
+      "role": "The full 121 types of consciousness: the whole map in one view, unfolded group by group.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C077",
+      "role": "The compendium of all things (aggregates, sense bases, elements, noble truths): what a 'person' is made of when the name is removed.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C084",
+      "role": "Concepts and names (paññatti): how names point to things, and names for things that do not ultimately exist.",
+      "role_status": "draft gloss; verify in Step 2"
+    }
+  ],
+  "object_id": "OBJ-01",
+  "candidate_idea_refs": [
+    "docs/planning/pilot-01/idea-p01-b-the-name-in-use.md"
+  ],
+  "episode_ids": [],
+  "unknowns": [
+    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
+    "Concept roles are English working glosses, not approved interpretations."
+  ],
+  "provenance": {
+    "derived_from": [
+      "content/02-concepts/",
+      "docs/planning/06-master-roadmap.md"
+    ],
+    "note": "Category map v1, emotional life-story arc chosen by Chathura on 2026-09-18."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "GRP-02",
+  "record_type": "chronological_group",
+  "title": "Wanting",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "chronological_position": 2,
+  "emotional_stage": "Desire",
+  "tone": "rising, warm, restless",
+  "human_question": "Why do we reach for what we reach for, and what does the reaching feel like?",
+  "journey": "Chathura moves among people chasing something: markets, festivals, ambition, love, collecting, the next thing.",
+  "surface": "The pleasure and pull of wanting, the excitement of the chase, and the moment just after getting.",
+  "depth": "The sense-sphere mind that lives among sights, sounds, tastes and touches, and the eight greed-rooted minds (with or without wrong view, with joy or indifference, spontaneous or prompted). Pleasant feeling is where wanting begins. Desire-to-act (chanda) is distinguished from greed: the same energy can serve good.",
+  "arc": {
+    "opening": "Something is wanted badly. Object 2 is acquired here.",
+    "middle": "Different faces of wanting: joyful, habitual, justified by a belief, pushed by others; the feeling that invites it.",
+    "closing": "Wanting meets a wall: what is wanted is refused, lost, or taken."
+  },
+  "hands_off": "Wanting that is blocked turns into anger.",
+  "draft_film_count": 10,
+  "concepts": [
+    {
+      "id": "C004",
+      "role": "The 54 sense-sphere minds: the everyday mind that lives among sights, sounds, tastes and touches.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C005",
+      "role": "The occasions on which greed-rooted minds arise.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C006",
+      "role": "How the eight greed-rooted minds arise: with or without wrong view, with joy or indifference, spontaneous or prompted.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C021",
+      "role": "The six occasional factors, including desire-to-act (chanda), rapture and effort. Desire-to-act is not greed; it can serve good as easily as harm.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C032",
+      "role": "Feeling (vedanā): pleasant, painful, neutral; bodily and mental. Pleasant feeling is where wanting begins.",
+      "role_status": "draft gloss; verify in Step 2"
+    }
+  ],
+  "object_id": "OBJ-02",
+  "candidate_idea_refs": [],
+  "episode_ids": [],
+  "unknowns": [
+    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
+    "Concept roles are English working glosses, not approved interpretations."
+  ],
+  "provenance": {
+    "derived_from": [
+      "content/02-concepts/",
+      "docs/planning/06-master-roadmap.md"
+    ],
+    "note": "Category map v1, emotional life-story arc chosen by Chathura on 2026-09-18."
+  }
+}

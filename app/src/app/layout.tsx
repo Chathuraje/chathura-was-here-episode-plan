@@ -5,14 +5,15 @@ import { reloadData } from "./actions";
 
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
-  title: "Sources and Concepts - Chathura Was Here",
-  description: "Browse the source library and extracted concepts.",
+  title: "Chathura Was Here - Episode development",
+  description: "Browse the source library, concepts, and the episode story arc.",
 };
 
 const navigation = [
   { href: "/", label: "Overview" },
   { href: "/sources", label: "Sources", number: "01" },
   { href: "/concepts", label: "Concepts", number: "02" },
+  { href: "/arc", label: "Story arc", number: "03" },
   { href: "/search", label: "Search" },
   { href: "/docs", label: "File library" },
 ];
@@ -24,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="shell">
           <aside className="sidebar">
             <Link href="/" className="brand">Chathura Was Here</Link>
-            <div className="brand-sub">Sources and concepts</div>
+            <div className="brand-sub">Episode development</div>
             <nav className="nav" aria-label="Main navigation">
               {navigation.map((item) => (
                 <Link key={item.href} href={item.href}>

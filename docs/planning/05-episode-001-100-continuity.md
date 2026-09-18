@@ -30,7 +30,7 @@ The current intended relationships are:
 4. **Part A rejoins Episode 1.** It reaches the exact planned road-footage point where Episode 1 originally resumed.
 5. **Episode 100 revisits selected Episode 1 material.** The revisit moves through selected road, monastery, and related images until it reaches Chathura’s forest disappearance.
 6. **Episode 100 Part B fills the second missing span.** It continues beyond the forest ending.
-7. **Episode 99 also uses the crowded footage at its ending.** This relationship remains provisional until newer material or evidence confirms, changes, or removes it.
+7. **Episode 99 also uses the crowded footage at its ending.** Confirmed by Chathura on 2026-09-18: Episode 99 is the chronologically last development film (end of GRP-10). Footage and timecodes remain unverified.
 
 The framing shorthand remains:
 

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "GRP-04",
+  "record_type": "chronological_group",
+  "title": "Lost",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "chronological_position": 4,
+  "emotional_stage": "Confusion",
+  "tone": "low, drifting, uncertain",
+  "human_question": "What is it that stops us seeing clearly?",
+  "journey": "Chathura meets people at crossroads: doubt, habit, compulsion, superstition, and the question of who they are.",
+  "surface": "The quiet weight of not knowing, of drifting, and of being stuck in patterns.",
+  "depth": "The two delusion-rooted minds (doubt and restlessness). The six roots, with delusion lying beneath every unwholesome state. Temperaments and person-types explain why people lose their way differently. The compendium of defilements (taints, floods, bonds, clingings, hindrances, latent tendencies, fetters) is the vocabulary of being stuck.",
+  "arc": {
+    "opening": "A person or place that has lost its way. Object 4 is acquired here.",
+    "middle": "Doubt, restlessness, habit and temperament: the different shapes of being stuck.",
+    "closing": "The only way out of the fog is to stop and look closely."
+  },
+  "hands_off": "The turn: slow down and look at a single moment.",
+  "draft_film_count": 8,
+  "concepts": [
+    {
+      "id": "C008",
+      "role": "The two delusion-rooted minds: doubt and restlessness.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C033",
+      "role": "The six roots: greed, hatred, delusion and their opposites. Delusion lies beneath every unwholesome state.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C049",
+      "role": "Types of persons distinguished by the roots present at birth: why some find clarity harder than others.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C074",
+      "role": "The compendium of defilements (taints, floods, bonds, clingings, hindrances, latent tendencies, fetters): the vocabulary of being stuck.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C086",
+      "role": "The six temperaments (greedy, hateful, deluded, faithful, intelligent, speculative): why people lose their way differently.",
+      "role_status": "draft gloss; verify in Step 2"
+    }
+  ],
+  "object_id": "OBJ-04",
+  "candidate_idea_refs": [],
+  "episode_ids": [],
+  "unknowns": [
+    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
+    "Concept roles are English working glosses, not approved interpretations."
+  ],
+  "provenance": {
+    "derived_from": [
+      "content/02-concepts/",
+      "docs/planning/06-master-roadmap.md"
+    ],
+    "note": "Category map v1, emotional life-story arc chosen by Chathura on 2026-09-18."
+  }
+}

@@ -99,9 +99,9 @@ Arithmetic invariant:
 - Treat these as intended creative relationships. Actual footage IDs, timecodes, technical edit boundaries, and verified events remain unknown until supplied.
 - Do not invent missing boundaries, dialogue, events, or participant behavior.
 
-**Provisional assumption**
+**Confirmed current instruction (Chathura, 2026-09-18)**
 
-- Preserve Episode 99’s shared crowd ending as provisional continuity until newer evidence supersedes it.
+- The chronologically last development film (the final film of GRP-10) is released as Episode 99 and ends on the crowded-location footage shared with Episodes 1 and 100.
 
 ## Editorial form
 
@@ -115,6 +115,8 @@ Arithmetic invariant:
 - End with “A Film by Chathura,” followed by the project logo.
 - Every eventual screenplay must include scene purpose, required footage, sound, narration, estimated timing, research gaps, and continuity notes.
 - Keep a pre-filming production screenplay distinct from any post-filming revision grounded in captured footage.
+- Screenplay narration is written in English for now; Sinhala translation is a later step (Chathura, 2026-09-18).
+- The ten chronological groups follow an emotional life-story arc whose depth reveals the book's philosophy (Chathura, 2026-09-18). See `06-master-roadmap.md` §4.
 
 ## Unresolved decisions and when they matter
 
@@ -125,7 +127,7 @@ These decisions are not silently resolved, but they are not all prerequisites fo
 | Older 99-public-plus-hidden-100 distribution model | Public release architecture, Episode 100 discovery/publishing strategy, audience-facing numbering | No |
 | Older fixed eight-episode Season 1 rule | Season and release-series packaging after chronological development | No |
 | Older season-linked object language | Historical documentation and later release/season presentation; current development uses group-linked objects | No |
-| Episode 99 crowd ending | Final framing continuity, footage matching, and edit design | No; retain provisionally |
+| Episode 99 crowd ending | Final framing continuity, footage matching, and edit design | Resolved 2026-09-18: last chronological film = Episode 99, ends on the crowd |
 | Per-episode location disclosure | Treatment, title/coordinate reveal, and screenplay for the affected episode | No for an unlocated idea; Chathura decides before dependent work advances |
 | Physical object identity and acquisition evidence | Object continuity, production, and final edit | No for concept interpretation or unnumbered ideas |
 | Release architecture | Public numbering, seasons, series, and publication plan | No |

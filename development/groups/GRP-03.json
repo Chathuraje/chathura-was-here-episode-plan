@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "GRP-03",
+  "record_type": "chronological_group",
+  "title": "Anger and Fear",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "chronological_position": 3,
+  "emotional_stage": "Resistance",
+  "tone": "hot, tense, heavy",
+  "human_question": "What happens in us when life refuses what we want?",
+  "journey": "Chathura meets conflict, loss, rivalry, envy and fear: places marked by disputes, disasters, and people living with regret.",
+  "surface": "Frustration, envy, fear and remorse, seen through real consequences in real lives, never staged.",
+  "depth": "The two hate-rooted minds always arise with displeasure, so anger is its own suffering, felt first by the one who is angry. The fourteen unwholesome factors (envy, stinginess, remorse, conceit, wrong view and others) and how they combine in each unwholesome mind.",
+  "arc": {
+    "opening": "Something pushes back. Object 3 is acquired here.",
+    "middle": "Anger, envy, stinginess, worry: each seen as a cost carried by the person who holds it.",
+    "closing": "After the heat, a fog: not knowing which way to go."
+  },
+  "hands_off": "When the heat fades, what remains is confusion.",
+  "draft_film_count": 9,
+  "concepts": [
+    {
+      "id": "C007",
+      "role": "The two hate-rooted minds, always with displeasure, spontaneous or prompted. Anger is its own suffering.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C022",
+      "role": "The fourteen unwholesome factors, among them envy, stinginess, remorse, conceit and wrong view.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C026",
+      "role": "How the unwholesome factors combine in each unwholesome mind.",
+      "role_status": "draft gloss; verify in Step 2"
+    },
+    {
+      "id": "C028",
+      "role": "The mental-factor make-up of each of the twelve unwholesome minds.",
+      "role_status": "draft gloss; verify in Step 2"
+    }
+  ],
+  "object_id": "OBJ-03",
+  "candidate_idea_refs": [],
+  "episode_ids": [],
+  "unknowns": [
+    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
+    "Concept roles are English working glosses, not approved interpretations."
+  ],
+  "provenance": {
+    "derived_from": [
+      "content/02-concepts/",
+      "docs/planning/06-master-roadmap.md"
+    ],
+    "note": "Category map v1, emotional life-story arc chosen by Chathura on 2026-09-18."
+  }
+}
