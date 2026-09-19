@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0074",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Night Shift",
+  "logline": "On steep, misted hill roads, an ambulance crew races between a district hospital and villages that are sometimes twenty minutes away and sometimes two hours, and every call is a small argument with time.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0146"
+  ],
+  "concept_ids": [
+    "C060"
+  ],
+  "chronology": {
+    "group_id": "GRP-08",
+    "position_in_group": 8,
+    "global_position": 74
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-08"
+    ],
+    "note": "Object 8 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0073",
+    "thread": "From what a death leaves behind to how fragile a life is before it ends: an ambulance crew on misted hill roads, arguing with time on every call."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0075",
+    "thread": "When speed has done what it can, someone still comes: a village monk walking to house after house where someone is close to death."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A rural or hill-district ambulance service willing to permit filming under strict patient-privacy conditions",
+      "A crew willing to be followed for at least one full shift"
+    ],
+    "suggestions": [
+      {
+        "name": "The Badulla or Nuwara Eliya district hill roads",
+        "region": "Uva Province or Central Province",
+        "why": "Winding hill roads and dispersed villages of the kind this story needs; no specific service identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No ambulance service or crew confirmed; health authority permission would be required.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0146"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

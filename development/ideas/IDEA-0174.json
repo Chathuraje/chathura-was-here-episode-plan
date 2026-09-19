@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0174",
+  "record_type": "idea",
+  "title": "The Last Instalment",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "A family counts out the final payment on gold pawned years ago during a hard season, and walks home carrying back something they had almost stopped expecting to see again.",
+  "human_question": "Why does being freed from a debt feel different from gaining something new?",
+  "premise": {
+    "story": "Over one day, a family makes the last payment on jewellery pawned years earlier during an illness or a bad harvest, receives the item back, and the household adjusts to the debt being gone.",
+    "place": "A small-town pawn counter and the family's home.",
+    "experience": "The unglamorous mechanics of debt and repayment, and the quiet, unmarked moment when a long-carried weight is simply not there any more."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C073",
+      "role": "primary",
+      "why": "The Margaya grounds its whole argument about release in exactly this: people pawn belongings and sell land to be free of illness or debt, because release is valued above pleasure, and no one would pay that much for something worth nothing [C073-M:L7]."
+    },
+    {
+      "concept_id": "C098",
+      "role": "supporting",
+      "why": "The source distinguishes change that is only temporary relief from change that does not come back; the film can hold that question open about a single family's debt without claiming any larger attainment."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The counter, the ledger, the final sum counted out in cash",
+    "The wrapped item handed back, unwrapped at home",
+    "What the family does or does not do differently that evening",
+    "Ordinary conversation about the years the debt was carried"
+  ],
+  "what_must_be_real": "A real, willing family's real financial history. Nothing about the hardship or the repayment is staged or re-created for the camera.",
+  "possible_arc": {
+    "opening": "An ordinary transaction at a pawn counter.",
+    "turn": "The last note is counted; the item changes hands.",
+    "ending_open": "The family's own account of what, if anything, feels different now leads the ending."
+  },
+  "position_hint": "opening candidate: the returned item, or a token connected to the closed debt, could plausibly become Object 10 if the family is willing to part with or duplicate something; a direct, human image of 'something set down.'",
+  "location": {
+    "requirements": [
+      "A family willing to be filmed at a real pawn transaction and at home",
+      "Full consent around financial privacy",
+      "A pawn business willing to allow filming at the counter"
+    ],
+    "suggestions": [
+      {
+        "name": "A market town in the central or hill-country districts",
+        "region": "Central Province (e.g. Matale, Kegalle or Gampola area)",
+        "why": "Small-town pawn counters are common in these market towns.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific business or family is identified; this is a region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Financial shame and privacy",
+    "Turning a family's hardship into a tidy moral",
+    "Implying repayment equals spiritual release"
+  ],
+  "drop_if": [
+    "No family will consent to show a real repayment on camera, or would be exposed to embarrassment by it"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0181",
+      "relation": "pairs with",
+      "note": "Both ask whether a change is temporary relief or something that does not come back, one through money, one through habit."
+    },
+    {
+      "idea_id": "IDEA-0173",
+      "relation": "alternative to",
+      "note": "A different, non-craft way Object 10 could be acquired at the group's opening."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

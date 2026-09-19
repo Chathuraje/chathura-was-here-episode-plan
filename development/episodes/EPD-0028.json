@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0028",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Which Way",
+  "logline": "On the back roads of the dry zone, with no signs and no signal, Chathura keeps stopping to ask the way. Every person points somewhere different, and every answer comes with a small piece of a life.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0054"
+  ],
+  "concept_ids": [
+    "C008",
+    "C074"
+  ],
+  "chronology": {
+    "group_id": "GRP-04",
+    "position_in_group": 1,
+    "global_position": 28
+  },
+  "object": {
+    "acquires": "OBJ-04",
+    "appears": [],
+    "note": "Object 4 (identity not chosen) could enter only if a stranger on the road genuinely gives or trades something. Never staged."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0027",
+    "thread": "The question of which way to go leaves a family's evenings and becomes a real road: on unsigned dry-zone tracks, Chathura keeps stopping to ask the way."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0029",
+    "thread": "Every answer on the road came from where the person stood; next, people whose own map no longer matches the ground walk out across a drained reservoir looking for where home was."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A real destination reached by poorly signed rural roads",
+      "Low mobile coverage along the route",
+      "Freedom to stop and film brief encounters with consent"
+    ],
+    "suggestions": [
+      {
+        "name": "Back roads of Monaragala district",
+        "region": "Uva Province, dry zone",
+        "why": "A large, thinly populated dry-zone district with many minor roads between villages and tanks.",
+        "season_notes": "Dry season for dust and heat; inter-monsoon rains change road conditions",
+        "access_notes": "",
+        "verify": "Choose a real destination first; confirm route conditions and coverage.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0054"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C090",
+  "record_type": "concept_digest",
+  "concept_id": "C090",
+  "group_id": "GRP-10",
+  "title_si": "සෘද්ධි දශය",
+  "title_en": "The ten kinds of supernormal power",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C090-P4",
+      "path": "content/02-concepts/Chapter 9/Concept 90 - සෘද්ධි දශය/sources/Abhidhammattha Pradeepika Book 4.md",
+      "lines": "1-461",
+      "complete": true,
+      "markers": "Book 4, ch. 9 (කම්මට්ඨාන සංග්‍රහ විභාගය), pdf 364–400 / printed 345–381; Sinhala commentary only, Pali root omitted; pdf 372–400 (L125–L461) deliberately overlaps Concept 89"
+    },
+    {
+      "ref": "C090-P",
+      "path": "content/02-concepts/Chapter 9/Concept 90 - සෘද්ධි දශය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-52",
+      "complete": true,
+      "markers": "Book 1, ch. 4 (වීථි සංග්‍රහ විභාගය), pdf 367–369 / printed 357–359; section 'ඉද්ධි විධි අභිඥ' only; does not list the ten kinds"
+    },
+    {
+      "ref": "C090-M",
+      "path": "content/02-concepts/Chapter 9/Concept 90 - සෘද්ධි දශය/sources/Abhidharma Margaya.md",
+      "lines": "1-21",
+      "complete": true,
+      "markers": "Section '6. සෘද්ධි දශය'; no frontmatter, page or edition metadata"
+    }
+  ],
+  "summary_en": "Both main sources teach that 'iddhi' (success, accomplishment, power) comes in ten kinds, listed in the same order: resolve, transformation, the mind-made body, the pervasion of knowledge, the pervasion of concentration, the noble power, power born of past action, the power of the meritorious, power made by lore or spells, and success conditioned by right application. Only the first three are produced by the direct-knowledge (abhiññā) that follows mastery of the fourth (Pradeepika Book 4) or fifth (Pradeepika Book 1) meditative absorption, and Pradeepika Book 4 sets out their foundations (four planes, four bases of power, eight steps, sixteen roots) and a long catalogue of feats with story examples. The other seven arise from a coming realisation, from absorption, from an arahant's mastery of his own perception, from past action, from merit, from lore, and from right effort in any task, which Book 4 says includes crafts, medicine, study and even ploughing and sowing.",
+  "sinhala_explanation": [
+    {
+      "heading": "සෘද්ධිය යනු කුමක් ද — සෘද්ධි දශය",
+      "text": "අභිධර්මාර්ථ ප්‍රදීපිකාවට අනුව 'ඉද්ධි' හෙවත් සෘද්ධිය යන නමට අරුත් කිහිපයක් ඇත: කැමති අර්ථය නිපදවීම, කැමති අර්ථය ලැබීම, උපාය සම්පත්තිය, උපාය සම්පත්තියෙන් අපේක්ෂිත ඵලය ලබාදීම, සහ අර්හත් මාර්ග ඵල ලැබීම [C090-P4:L24]. එබැවින් මෙහි 'සෘද්ධිය' යනු හුදු ආශ්චර්යයක් පමණක් නොව, අභිමතාර්ථය සිද්ධවීම නම් වූ පුළුල් අර්ථයකි.\n\nමේ සෘද්ධිය දසවැදෑරුම් වේ: (1) අධිට්ඨාන ඉද්ධිය, (2) විකුබ්බන ඉද්ධිය, (3) මනොමය ඉද්ධිය, (4) ඤාණ විප්ඵාර ඉද්ධිය, (5) සමාධි විප්ඵාර ඉද්ධිය, (6) ආර්ය ඉද්ධිය, (7) කම්මවිපාකජ ඉද්ධිය, (8) පුඤ්ඤවතො ඉද්ධිය, (9) විජ්ජාමය ඉද්ධිය, (10) සම්මාපයොගපච්චය ඉද්ධිය [C090-P4:L26–L37]. අභිධර්ම මාර්ගය ද එම දහය එම පිළිවෙළින්ම දක්වයි; එහි නම් ස්වල්ප වශයෙන් වෙනස් ය — 'පුඤ්ඤිද්ධි', 'සම්මප්පයෝගපච්චයිද්ධි' ආදී වශයෙනි [C090-M:L3].\n\nමේ දහයෙන් අභිඥා බලයෙන් සිදුවන්නේ පළමු සෘද්ධි තුන පමණක් බව අභිධර්ම මාර්ගය පැහැදිලිව කියයි [C090-M:L9]. ප්‍රදීපිකාව ද 'සෘද්ධිවිධ ඥානය' යන්නෙන් මෙහි අදහස් කරන්නේ අධිෂ්ඨාන සෘද්ධිය බවත්, විකුර්වණ සහ මනොමය සෘද්ධි ද ඊට ඇතුළත් කළ යුතු බවත් කියයි [C090-P4:L129]. ඉතිරි සත දෙනා වෙනත් හේතූන්ගෙන් හටගන්නා 'සෘද්ධි' වේ."
+    },
+    {
+      "heading": "අභිඥාවෙන් වන සෘද්ධි තුන: අධිෂ්ඨාන, විකුර්වණ, මනොමය",
+      "text": "අධිෂ්ඨාන සෘද්ධිය: ප්‍රකෘතියෙන් එකලා වූ යෝගාවචරයා 'සියයක්, දහසක්, ලක්ෂයක් වෙමි' යි ආවර්ජනා කොට අභිඥා නුවණින් අධිෂ්ඨාන කිරීමෙන් බොහෝ වෙයි; අධිෂ්ඨාන වශයෙන් උපදවන හෙයින් එය අධිෂ්ඨාන සෘද්ධිය නම් [C090-P4:L41]. අභිධර්ම මාර්ගය මීට එක් කෙනෙක් බොහෝ වීම, පෙනී සිටීම, නොපෙනී සිටීම, බිත්ති පර්වතාදිය නොසැපී පසුකර යාම, ජලයෙහි මෙන් පොළොවෙහි ගැලීම ආදිය ඇතුළත් කරයි [C090-M:L5].\n\nවිකුර්වණ සෘද්ධිය: තමාගේ ප්‍රකෘති වේශය හැර කුමාර, නාග, සුපර්ණ, යක්ෂ, රාක්ෂස ආදී කැමති වේශයක් මවා දැක්වීම; ප්‍රකෘති වර්ණය දුරු කොට විකාර වශයෙන් පවත්නා හෙයින් මේ නම ලැබේ [C090-P4:L43–L47]. පසුව විස්තරයේ දී ගුරුළු, අසුර, ශක්‍ර, බ්‍රහ්ම, සමුද්‍ර, පර්වත, සිංහ, ව්‍යාඝ්‍ර, ඇත්, අස්, සේනා ආදිය ද දක්වා, පඨවි කසිණාදියකින් අභිඥාපාදක චතුර්ථ ධ්‍යානයට සමවැද, නැගී, වේශය ආවර්ජනා කොට, පරිකර්මයෙන් පසු නැවත සමවැද අධිෂ්ඨාන කිරීමෙන් එය සිදුවන බව කියයි [C090-P4:L455]. ප්‍රදීපිකා පළමු කාණ්ඩය ද එම ලැයිස්තුව හා ක්‍රමයම දක්වයි [C090-P:L52]. අභිධර්ම මාර්ගය දෙවියකු, යකකු, රකුසකු, සිංහ ව්‍යාඝ්‍රාදි සතෙකු මෙන් පෙනී සිටීම ලෙස කෙටියෙන් දක්වයි [C090-M:L7].\n\nමනොමය සෘද්ධිය: අභිඥාලාභියා තම ප්‍රකෘති ශරීරය ඇතුළතින් තමා හා සම වූ, අඟපසඟ සම්පූර්ණ වූ අන්‍ය රූපයක් අභිඥා සිතින් ම නිපදවීම [C090-P4:L49] [C090-M:L9]. එහි ක්‍රමය නම් තම කය තුළ 'සිදුරක් වේවා' යි අධිෂ්ඨාන කොට, ඒ සිදුර තුළ අනෙක් කයක් අධිෂ්ඨාන කොට, මුදු තණ ගසින් ගොබයක් මෙන්, කොපුවෙන් කඩුවක් මෙන්, සැව හරින නයකු මෙන් ඒ කය ඇදගැනීමයි [C090-P4:L461]."
+    },
+    {
+      "heading": "අභිඥා සෘද්ධියේ පදනම හා ක්‍රමය",
+      "text": "ප්‍රදීපිකා පළමු කාණ්ඩයට අනුව සෘද්ධිවිධ ඥානය කැමති යෝගාවචරයා පඨවි කසිණයේ සිට ඕදාත කසිණය දක්වා අට කසිණයෙහි ලෞකික සමාපත්ති අට බැගින් උපදවා, කසිණානුලොමයේ සිට ආලම්බණ ව්‍යවස්ථාපනය දක්වා තුදුස් ආකාරයෙන් සිත දමනය කළ යුතු ය [C090-P:L25–L40]. එසේ නොකළ, පෙර භවයන්හි ද භාවනා නොවැඩූ අයට මෙය නොලැබේ; කසිණ පරිකර්මය, ප්‍රතිභාග නිමිත්ත, අර්පණාව, තුදුස් ආකාර දමනය, විකුර්වණය සහ ඛිප්පනිසන්තිභාවය (වහා ධ්‍යානයට සමවැදීම) එකිනෙකට වඩා දුෂ්කර බව එහි කියැවේ [C090-P:L42–L46]. ඉන්පසු ඡන්ද, චිත්ත, විරිය, විමංසා යන සතර සෘද්ධිපාද පෙරටු කොට, ශ්‍රද්ධා, වීර්ය, සති, සමාධි, ප්‍රඥා යන්නෙන් රුකුල් ලැබ, සිත පිරිසිදු, මෘදු, කර්මණ්‍ය කොට පඤ්චම ධ්‍යානයෙහි නිශ්චල කළ යුතු ය [C090-P:L46].\n\nප්‍රදීපිකා සිව්වන කාණ්ඩය පදනම් සතරක් දක්වයි: සෘද්ධියට සුදුසු භූමි සතර, පාද සතර, පද අට, මූල සොළොස [C090-P4:L133–L141]. භූමි සතර නම් ප්‍රථම, ද්විතීය, තෘතීය, චතුර්ථ ධ්‍යාන සතර ය; පළමු තුන සිත දමනය කරන 'සම්භාර භූමි' වන අතර චතුර්ථ ධ්‍යානය 'ප්‍රකෘති භූමි' වේ [C090-P4:L143–L155]. පාද සතර නම් ඡන්ද, විරිය, චිත්ත, වීමංසා යන සමාධි හා ප්‍රධාන සංස්කාර (සතර සම්‍යක් ප්‍රධාන වීර්යය) සමග යෙදුණු සතර සෘද්ධිපාද ය [C090-P4:L157–L173]. පද අට නම් ඡන්දාදී සතර හා ඒ සමග යෙදුණු එකග්ගතා සතර ය; ඡන්දය සමාධිය නොවේ, සමාධිය ඡන්දය නොවේ, එක්ව උපදින කල්හි පමණක් සෘද්ධිය නිපදවීමට සමත් වේ [C090-P4:L175–L179]. මූල සොළොස නම් කුසීතකම, උද්ධච්චය, රාගය, ව්‍යාපාදය, මිථ්‍යාදෘෂ්ටිය, අශ්‍රද්ධාව, ප්‍රමාදය, අවිද්‍යාව ආදියෙන් සිත නොසැලෙන (ආනෙඤ්ජ) ආකාර සොළොස ය [C090-P4:L181–L219].\n\nක්‍රමය: අභිඥාපාදක ධ්‍යානයට සමවැද නැගී, 'සියයක් වෙමි' යි කාමාවචර සිතින් පරිකර්ම කොට, නැවත සමවැද නැගී අධිෂ්ඨාන කරයි; අධිෂ්ඨාන චිත්තය සමගම සියයක් වේ; නොසිදුවුවහොත් නැවත නැවත පරිකර්ම කළ යුතු ය [C090-P4:L221]. ප්‍රදීපිකා පළමු කාණ්ඩය මෙම ක්‍රමයම පඤ්චම ධ්‍යානය පාදක කොට දක්වයි [C090-P:L48]. මෙහි පාදක ධ්‍යානය සිව්වන කාණ්ඩයේ 'චතුර්ථ' ලෙසත් පළමු කාණ්ඩයේ 'පඤ්චම' ලෙසත් දැක්වේ."
+    },
+    {
+      "heading": "අධිෂ්ඨාන සෘද්ධියේ ප්‍රාතිහාර්ය සහ සංයමය",
+      "text": "සිව්වන කාණ්ඩය අධිෂ්ඨාන සෘද්ධියේ ප්‍රාතිහාර්ය පෙළක් කතා සහිතව විස්තර කරයි. චූලපන්ථක තෙරුන් ගාථාවක් සාරමසක් ඉගෙන ගැනීමට නොහැකිව විහාරයෙන් පිටමං කරනු ලැබ හඬමින් සිටියදී, බුදුරජාණන් වහන්සේ පිරිසිදු රෙදි කඩක් දී 'රජොහරණං' යි සජ්ඣායනා කරමින් පිරිමදින්නට දුන් සේක; අතේ ඩහදියෙන් රෙදිය කිලුටු වූ බව දැක 'දොස ඇත්තේ මාගේ අතෙහි ය' යන සංඥාවෙන් විදර්ශනා වඩා රහත් වූ උන්වහන්සේ පසුව තමා වැනි රූප දහසක් මැවූ සේක [C090-P4:L225–L263]. නිර්මිත රූප වර්ණ ආදිය නියම නොකළ විට සෘද්ධිමතාට සමාන වන අතර, අධිෂ්ඨානයෙන් විවිධ වයස්, කෙස්, සිවුරු, ක්‍රියා ඇතිව ද මැවිය හැකි ය [C090-P4:L267–L271].\n\nඅනෙක් ප්‍රාතිහාර්ය: ආවිර්භාවය (සැඟවුණු දේ ප්‍රකට කිරීම) හා තිරොභාවය (ප්‍රකට දේ සැඟවීම) [C090-P4:L285] [C090-P4:L318–L320]; බිත්ති, ප්‍රාකාර, පර්වත හරහා අහසෙහි මෙන් නොපැකිළ යාම (ආකාස කසිණයෙන්) [C090-P4:L341–L347]; පොළොවෙහි ජලයෙහි මෙන් ගිලීම හා මතුවීම (ආපෝ කසිණයෙන්) [C090-P4:L353–L357]; ජලයෙහි පොළොවෙහි මෙන් නොගිලී යාම (පඨවි කසිණයෙන්) [C090-P4:L359–L363]; පර්යඞ්කයෙන් අහසින් යාම [C090-P4:L365]; සඳ හිරු අතින් පිරිමැදීම [C090-P4:L371–L373]; බඹලොව තෙක් කයින් වසඟයෙහි පැවැත්වීම, දුර දේ ළං කිරීම, ළං දේ දුර කිරීම, බොහෝ දේ ස්වල්ප කිරීම, ස්වල්ප දේ බොහෝ කිරීම, අමිහිරි දේ මිහිරි කිරීම [C090-P4:L411–L437]. ලක්දිව උදාහරණ ද මෙහි ඇත: ධම්මදින්න තෙරුන්ගේ ආවිර්භාවය [C090-P4:L314], මිහිඳු මහ තෙරුන් තම පිරිස දෙවන පෑතිස් රජුට නොපෙනෙන සේ අධිෂ්ඨාන කිරීම [C090-P4:L326], දුර්භික්ෂයෙහි චූලසමුද්ද තෙරුන් භික්ෂූන් සත්සියය පිඬු පිණිස මුහුදින් එතර පාළුප් නුවරට ගෙන යාම [C090-P4:L421], මහා අනුල තෙරුන් ගඟ දිය ගිතෙල් කිරීම [C090-P4:L433–L437].\n\nමේ විස්තරය තුළම සංයමය ද පෙනේ. බොහෝ වූ භික්ෂුව අල්පෙච්ඡ බැවින් 'මා හඳුනාගනු ඇතැ' යි එකෙක් වීමට කැමති විය හැකි ය [C090-P4:L283]. අහසින් යන්නා දිවැස් ඇත්තෙකු විය යුත්තේ අනතුරු දැකීමට පමණක් නොව, නාන තොට, ගම්දොර වැනි මහජනයා ගැවසෙන තැන් මග හැර බැසීමට ද ය [C090-P4:L367]. නන්දොපනන්ද නාරජු දමනයට බොහෝ තෙරුන් අවසර ඉල්ලූ නමුත් බුදුරජාණන් වහන්සේ අවසර දුන්නේ ඛිප්පනිසන්තිභාවයෙහි සමත් මුගලන් මහ තෙරුන්ට පමණි [C090-P4:L389] [C090-P4:L397–L399]. ශ්‍රාවකයන්ගේ නිර්මිත රූපයෙහි ප්‍රසාද රූප, භාව රූප නැත [C090-P4:L449]."
+    },
+    {
+      "heading": "ඤාණ විප්ඵාර සහ සමාධි විප්ඵාර සෘද්ධි",
+      "text": "ඤාණ විප්ඵාර සෘද්ධිය: අර්හත් මාර්ග ඥානය ලබන්නට පෙර විදර්ශනා අවස්ථාවෙහි හෝ, අන්තිම භවික පුද්ගලයාගේ ප්‍රතිසන්ධියේ සිට හෝ, මාර්ග ඥානය ලබන මොහොතේ හෝ, හිරු උදාවන කල අවට ආලෝක වන්නාක් මෙන් ඒ ඥානයේ ආනුභාවයෙන් හටගන්නා විශේෂයයි [C090-P4:L51]. උදාහරණ: ළදරු බක්කුල තෙරුන් මසකු විසින් ගිලිනු ලැබ නිරෝගීව සිටීම [C090-P4:L53], මළ මවගේ සිරුර සමග දර සෑයේ දවන විට ළදරු සංකිච්ච තෙරුන් දිවි ගලවා ගැනීම [C090-P4:L57], ළදරු භූතපාල වනසතුන් ගැවසෙන නුවරින් පිට මුළු රැයක් හුදෙකලාව නිරුපද්‍රිතව සිටීම [C090-P4:L59]. අභිධර්ම මාර්ගය මෙය සාමාන්‍ය නීතියක් ලෙස කියයි: යමකුට ඒ ජාතියේදී නියමයෙන්ම අර්හත් මාර්ග ඥානය ලැබෙන්නේ නම් ඔහු එය නොලබා කිසි හේතුවකින් නොමියයි [C090-M:L9].\n\nසමාධි විප්ඵාර සෘද්ධිය: උපචාර අවස්ථාවෙහි හෝ, සමාපත්තිය වසීභාවයට පත් කළ පසු හෝ, සමාධිය ලැබූ ක්ෂණයෙහි හෝ සමාධි තේජසින් හටගන්නා ආනුභාව විශේෂය — නීවරණ විෂ්කම්භනය, ධ්‍යානාඞ්ග ඉක්මවීම, නිරෝධ සමාපත්තියේ සිටින විට උපද්‍රව නොපැමිණීම ආදිය [C090-P4:L61] [C090-M:L11]. උදාහරණ: යක්ෂයකුගේ පහරක් වදින මොහොතේම ධ්‍යානයට සමවැදීමෙන් සැරියුත් මහ තෙරුන්ට පීඩාවක් නොවීම [C090-P4:L63–L67]; ගොපළුන් ඇවිළූ ගින්නෙන් සඤ්ජීව තෙරුන්ගේ සිවුරු කොණක්වත් නොදැවීම [C090-P4:L69]; සොරුන් කණුවක් යැයි සිතා බඩු පොදි තැබූ ඛාණුකොණ්ඩඤ්ඤ තෙරුන්ට පීඩාවක් නොවීම හා ඒ සොරුන් පැවිදි වීම [C090-P4:L71–L75]; මෛත්‍රී සමාධියට සමවැදුණු උත්තරා උපාසිකාවගේ හිසට වත් කළ කකාල තෙල් නොදැවීම [C090-P4:L77]; සාමාවතී දේවියගේ මෛත්‍රිය නිසා උදේනි රජුට හීය විදීමට නොහැකි වීම හා ඇය 'නොකිපියාට නොකිපෙව' යි අවවාද කිරීම [C090-P4:L79–L83]."
+    },
+    {
+      "heading": "ආර්ය, කර්මවිපාකජ, පුණ්‍ය, විද්‍යාමය, සම්‍යක් ප්‍රයෝග සෘද්ධි",
+      "text": "ආර්ය සෘද්ධිය: පිළිකුල් අරමුණෙහි පිළිකුල් නොවන සංඥාවෙන් විසීම; පිළිකුල් අරමුණෙහි මෛත්‍රිය හෝ ධාතු මනසිකාරය යොදයි, ඉෂ්ට අරමුණෙහි අශුභ හෝ අනිත්‍ය වශයෙන් මෙනෙහි කරයි, නැත්නම් ඉෂ්ටානිෂ්ට සියල්ලෙහි සොම්නස් හෝ දොම්නස් නොවී ෂඩඞ්ගොපෙක්ෂාවෙන් මධ්‍යස්ථව සිටියි [C090-P4:L85–L87]. මේ චිත්ත වසීභාවය රහතන් වහන්සේලාට පමණක් ලැබෙන හෙයින් ආර්ය සෘද්ධිය නම් වේ [C090-P4:L87] [C090-M:L13].\n\nකර්මවිපාකජ සෘද්ධිය: පක්ෂීන්ගේ, දෙවියන්ගේ, ඇතැම් ආදිකල්පික මිනිසුන්ගේ, ඇතැම් විනිපාතිකයන්ගේ අහසින් යාම, පිරිසිදු ඇස් ආදිය; මෙය ධ්‍යානයෙන් හෝ විදර්ශනාවෙන් නොව කර්ම විපාකයෙන් ලැබෙන්නකි [C090-P4:L89–L93]. අභිධර්ම මාර්ගය 'භූතයින්' ද ඇතුළත් කොට, සෘද්ධි ඇතිව විසූවෝ ආදිකල්පික මිනිසුන් බව කියයි [C090-M:L15].\n\nපුඤ්ඤවතො (පුණ්‍ය) සෘද්ධිය: සක්විති රජු සිව්රඟ සෙනඟ සහ අස්ගොව්වන්, ගොපල්ලන් ඇතුළු සියලු පිරිස සමග අහසින් යාම; පින මේරූ කල සමෘද්ධ වන ආනුභාවයකි [C090-P4:L95]. ජෝතිය, ජටිල, ඝෝෂිත, මෙණ්ඩක සහ මෙණ්ඩක සිටුගේ පවුලේ 'මහා පිනැති පස්දෙනා' (නොනිමෙන බත, පියල්ල, වී තිඹ, නගුලෙන් සී සෑමේදී සීවැල් තුදුසක්) උදාහරණ වේ [C090-P4:L97–L117] [C090-M:L17].\n\nවිජ්ජාමය සෘද්ධිය: විද්‍යාධරාදීන් ගන්ධාර විද්‍යාදී විද්‍යා ජප කොට මන්ත්‍ර බලයෙන් අහසින් යාම, අහසෙහි සිව්රඟ සෙනඟ දැක්වීම ආදිය [C090-P4:L119]. අභිධර්ම මාර්ගය එය ලෝකයේ ඇති නොයෙක් විද්‍යාවලින් නොයෙක් දේ කළ හැකි බව ලෙස පුළුල්ව දක්වයි [C090-M:L19].\n\nසම්මාපයොගපච්චය සෘද්ධිය: ඒ ඒ කටයුත්තෙහි නිවැරදි ප්‍රයෝගයෙන් කැමති දෙය සමෘද්ධ වීම; නෛෂ්ක්‍රම්‍යයෙන් හෝ ප්‍රථම ධ්‍යානයෙන් කාමච්ඡන්දය ප්‍රහීණ කිරීම ද, රහත් මගින් සියලු කෙලෙස් ප්‍රහීණ කිරීම ද මීට අයත් ය [C090-P4:L121–L123]. ප්‍රදීපිකාව වඩාත් පුළුල් ව ගණිත, ගන්ධර්ව ආදී ශිල්ප, වෛද්‍ය කර්ම, ත්‍රිවේදය, ත්‍රිපිටකය ඉගෙනීම, යටත් පිරිසෙයින් සී සෑම හා වැපිරීම දක්වා වූ කර්මාන්තවලින් හටගන්නා විශේෂය ද සෘද්ධියක් ලෙස ගණන් ගනී [C090-P4:L127]. අභිධර්ම මාර්ගය මෙය ප්‍රතිපත්තිය නම් වූ සම්‍යක් ප්‍රයෝගයෙන් ක්ලේශ ප්‍රහාණය හා උපායෙන් නොයෙක් දේ සිදු කිරීම ලෙස කෙටියෙන් දක්වයි [C090-M:L21]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "සෘද්ධිය / ඉද්ධි",
+      "pali": "iddhi",
+      "en": "success, accomplishment, (supernormal) power",
+      "note": "Defined broadly as the bringing-about or obtaining of what is intended, success of means, and attainment of arahantship [C090-P4:L24]."
+    },
+    {
+      "term_si": "අධිට්ඨාන ඉද්ධිය",
+      "pali": "adhiṭṭhānā iddhi",
+      "en": "power of resolve / determination",
+      "note": "Becoming many, appearing, vanishing, passing through walls etc., produced by a resolving mind after absorption."
+    },
+    {
+      "term_si": "විකුබ්බන (විකුර්වණ) ඉද්ධිය",
+      "pali": "vikubbanā iddhi",
+      "en": "power of transformation",
+      "note": "Abandoning one's normal appearance to show another form. Spelled විකුබ්බන and විකුබ්බණ in P4."
+    },
+    {
+      "term_si": "මනොමය ඉද්ධිය",
+      "pali": "manomayā iddhi",
+      "en": "power of the mind-made body",
+      "note": "Drawing a complete second body out from within one's own, like a reed from its sheath."
+    },
+    {
+      "term_si": "ඤාණ විප්ඵාර ඉද්ධිය",
+      "pali": "ñāṇavipphārā iddhi",
+      "en": "power by pervasion of knowledge",
+      "note": "Protection or effects flowing from a person's destined path-knowledge."
+    },
+    {
+      "term_si": "සමාධි විප්ඵාර ඉද්ධිය",
+      "pali": "samādhivipphārā iddhi",
+      "en": "power by pervasion of concentration",
+      "note": "Effects of absorption, e.g. being unharmed while in an attainment."
+    },
+    {
+      "term_si": "ආර්ය ඉද්ධිය",
+      "pali": "ariyā iddhi",
+      "en": "noble power",
+      "note": "An arahant's mastery of perception: seeing the repulsive as not repulsive, the attractive as repulsive, or remaining evenly balanced towards both."
+    },
+    {
+      "term_si": "කම්මවිපාකජ ඉද්ධිය",
+      "pali": "kammavipākajā iddhi",
+      "en": "power born of the result of past action",
+      "note": "E.g. the flight of birds and deities, which needs no meditation."
+    },
+    {
+      "term_si": "පුඤ්ඤවතො ඉද්ධිය",
+      "pali": "puññavato iddhi",
+      "en": "power of the meritorious",
+      "note": "Called පුඤ්ඤිද්ධි in M."
+    },
+    {
+      "term_si": "විජ්ජාමය ඉද්ධිය",
+      "pali": "vijjāmayā iddhi",
+      "en": "power made by lore / spells",
+      "note": "Flight etc. by mantra; M widens it to 'the many kinds of knowledge in the world'."
+    },
+    {
+      "term_si": "සම්මාපයොගපච්චය ඉද්ධිය",
+      "pali": "sammāpayogapaccayā iddhi",
+      "en": "success conditioned by right application",
+      "note": "Includes crafts, medicine, learning and farming as well as abandoning defilements [C090-P4:L121–L127]."
+    },
+    {
+      "term_si": "සෘද්ධිවිධ ඥානය",
+      "pali": "iddhividha-ñāṇa",
+      "en": "direct knowledge of the kinds of power",
+      "note": "The first direct-knowledge; covers the first three iddhis only."
+    },
+    {
+      "term_si": "සෘද්ධිපාද",
+      "pali": "iddhipāda",
+      "en": "bases of power (desire-to-act, energy, mind, investigation)",
+      "note": "Order differs between P (chanda, citta, viriya, vīmaṃsā) and P4 (chanda, viriya, citta, vīmaṃsā)."
+    },
+    {
+      "term_si": "අභිඥාපාදක ධ්‍යානය",
+      "pali": "abhiññāpādaka-jhāna",
+      "en": "the absorption that serves as basis for direct knowledge",
+      "note": "Called the fourth jhāna in P4, the fifth in P (Book 1)."
+    },
+    {
+      "term_si": "ෂඩඞ්ගොපෙක්ෂාව",
+      "pali": "chaḷaṅgupekkhā",
+      "en": "six-factored equanimity",
+      "note": "The balanced stance at the six sense doors that defines the noble power [C090-P4:L87]."
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "A list that runs from the spectacular to the ordinary",
+      "text": "The list opens with the most dramatic claims a tradition can make: one person becoming a thousand, walking on water, touching the moon. It closes with something anyone can recognise: a skill done well. The source counts the success of a farmer who ploughs and sows properly, a student who learns, a healer who treats and a craftsperson who masters a trade as a real kind of power, in the same list as flight. So the word underneath all ten is not 'magic' but 'accomplishment': what a person meant to bring about actually comes about. What changes from item to item is where the accomplishment comes from: long training of attention, a turning point that is coming in someone's life, deep composure, a mind that has stopped being pushed around by likes and dislikes, what a being is born with, generosity built up over time, specialist knowledge, or correct method patiently applied."
+    },
+    {
+      "heading": "The quietest power is ranked the highest",
+      "text": "Only one of the ten is said to belong to fully freed people alone, and it is not a feat anyone could see. It is the ability to look at something disgusting without recoiling, to look at something alluring without being pulled in, or to meet both with the same steadiness. Next to stories of flying and taming serpents, the tradition puts its highest mark on a person's inner response to ordinary pleasant and unpleasant things. In a group about finding a way through suffering, this is the point: the power that matters is not control over the world but not being thrown about by it."
+    },
+    {
+      "heading": "Composure and goodwill as a kind of protection",
+      "text": "Several stories show people unharmed because they were deeply composed or full of goodwill at the moment of attack: a woman who stays calm and kind as boiling oil is thrown at her, a queen whose steadiness leaves an angry king unable to loose his arrow, and afterwards tells him not to be angry at someone who is not angry. Read as human wisdom rather than physics, they point to something people do see: calm in the face of hostility can change what happens next, and a person who does not answer anger with anger can stop a cycle. The source itself tells these as literal events, and that should be respected rather than explained away."
+    },
+    {
+      "heading": "Power held with restraint",
+      "text": "The long catalogue of feats is full of restraint. A monk who has multiplied himself chooses to become one again out of modesty, so as not to be admired. Someone travelling through the air is told to land away from bathing places and village gates so as not to make a show. Many elders ask permission to confront a hostile serpent king and are refused; only the one who can steady his mind instantly is allowed. The texts care less about what can be done than about who is ready to do it, and why."
+    }
+  ],
+  "does_not_transfer": [
+    "'Manifest your intentions' or 'the power of positive thinking': the power of resolve in the source comes only after mastering the deepest meditative absorptions, the fourteen ways of training the mind and years (even lifetimes) of practice [C090-P:L25–L46]. It is not wishful thinking or a self-help technique.",
+    "'Good people are protected': the stories of people unharmed by fire, oil or blows are tied to specific realisations and absorptions in the source. Turning them into a general promise of safety would imply that people who are harmed lacked goodness or calm, which the source does not say and which would be cruel.",
+    "Prosperity-as-virtue: the 'power of the meritorious' (endless rice, gold rams, a mountain of gold) should not become a justification of wealth or a judgement on the poor. Even in the source the poor man Kākavaliya's gift is what is honoured [C090-P4:L431].",
+    "Endorsing charms or sorcery: the source lists power by spells and lore as one kind of worldly success, alongside birds' flight, not as part of the path. A film should not present it as validating the local trade in charms and spells, nor mock people who use them.",
+    "'Mind over matter' or 'superpowers': the source treats these feats as literal events within its tradition. An editorial reading can draw human meaning from them, but it should not claim that this is what the text 'really' means, nor debunk the tradition.",
+    "'Equanimity = not caring': the noble power is balance reached through goodwill, attention to the elements or reflection on impermanence [C090-P4:L85–L87], not coldness or indifference to other people's suffering."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A traditional craftsperson whose work looks effortless, and an apprentice who cannot yet do what the master does without thinking.",
+      "what_camera_could_observe": "The same movement repeated over days; the apprentice's spoiled pieces; the moment a technique finally 'takes'; the master's hands, tools and small corrections.",
+      "why_it_fits": "The source counts success born of right application in any craft or skill as a genuine power [C090-P4:L121–L127]. The film watches accomplishment grow out of correct, patient method.",
+      "setting_type": "A family workshop in a traditional craft village (brass, lacquer, wood carving, pottery or boat-building).",
+      "risk": "Romanticising poverty or turning the craft into a heritage postcard; forcing a 'mastery = enlightenment' reading onto working people."
+    },
+    {
+      "seed": "One paddy season from ploughing to harvest, following a farming household's judgement calls about water, timing and seed.",
+      "what_camera_could_observe": "Ploughing and sowing, sharing irrigation water, watching the sky, repairing bunds, the harvest (good or bad).",
+      "why_it_fits": "The source names ploughing and sowing explicitly as examples of success through right application [C090-P4:L127], putting ordinary farming in the same list as the most dramatic powers.",
+      "setting_type": "A dry-zone or wet-zone rice-farming village.",
+      "risk": "A bad harvest could be framed as 'wrong effort' and blame the farmer; climate and market forces must not be erased."
+    },
+    {
+      "seed": "A slow learner in a monastic school or village class who keeps failing at memorisation, and a teacher who finds a different way in.",
+      "what_camera_could_observe": "Recitation practice, the student's frustration, the teacher trying an alternative method (hands-on, repetitive, physical), a small breakthrough or none.",
+      "why_it_fits": "Cūḷapanthaka's story [C090-P4:L225–L263]: a monk expelled for failing to learn one verse is given a cloth to rub instead, and understanding comes through something simple and physical.",
+      "setting_type": "A pirivena, a temple Sunday school or a rural primary classroom.",
+      "risk": "Humiliating a child or young monk on camera; consent from guardians and teachers is essential, and the film must not stage the 'breakthrough'."
+    },
+    {
+      "seed": "A community kitchen at a festival or almsgiving that has to stretch limited food and money to feed far more people than planned.",
+      "what_camera_could_observe": "Counting sacks and pots, decisions about portions, volunteers arriving with extra supplies, the queue, the moment it becomes clear whether it will be enough.",
+      "why_it_fits": "Several stories in the source are about a little made to suffice for many (Kākavaliya's sour gruel, Mahā Anula's river water, endless rice) [C090-P4:L111–L115] [C090-P4:L431–L437]. The film shows the human version: generosity and organisation making a little go a long way.",
+      "setting_type": "A village temple or roadside almsgiving stall (dansala) during a full-moon festival.",
+      "risk": "Implying a miracle happened; making donors into advertisements for their own merit."
+    },
+    {
+      "seed": "Someone whose daily work involves what most people find repulsive, and who does it with steadiness and care.",
+      "what_camera_could_observe": "Routine tasks (cleaning, handling the dead, clearing waste), the worker's manner with the public, breaks, what they say about how they got used to it or never did.",
+      "why_it_fits": "The noble power is defined as dwelling without revulsion towards what is repulsive, and evenly towards everything [C090-P4:L85–L87] [C090-M:L13]. The film watches an ordinary human form of that steadiness without claiming the person is enlightened.",
+      "setting_type": "A municipal sanitation depot, a hospital mortuary, a fish-landing site or a funeral parlour in a provincial town.",
+      "risk": "Exploiting low-status or caste-marked labour for a spiritual message; the worker must be a full person with their own voice, not a symbol. Informed consent and dignity come first."
+    },
+    {
+      "seed": "A community preparing for a vow-based ritual feat (fire-walking or a similar devotional ordeal) and how participants themselves explain where the 'power' comes from.",
+      "what_camera_could_observe": "Days of preparation, fasting or abstinence, the vows, family worries, the event itself, and what people say afterwards.",
+      "why_it_fits": "The source separates many sources of 'power' (spells and lore, merit, past action, concentration) and keeps them apart from the path to freedom [C090-P4:L89–L127]. The film listens to how living people sort out the same question.",
+      "setting_type": "A shrine (devalaya) festival in a rural area.",
+      "risk": "Sensationalising or exoticising devotion; pitting Buddhist doctrine against other religious practice; physical danger to participants must not be heightened for the camera."
+    }
+  ],
+  "cross_source_notes": [
+    "The ten kinds agree in name and order in Pradeepika Book 4 [C090-P4:L26–L37] and Abhidharma Margaya [C090-M:L3]; Margaya uses shortened compound names (පුඤ්ඤිද්ධි, සම්මප්පයෝගපච්චයිද්ධි) where Book 4 has පුඤ්ඤවතො ඉද්ධිය and සම්මාපයොගපච්චය ඉද්ධිය.",
+    "Pradeepika Book 1 (C090-P) does not list the ten at all. It explains only the direct-knowledge of power: prerequisites (eight kasiṇas × eight attainments, fourteen modes of taming the mind), the steps of increasing difficulty, and the method of resolve and transformation [C090-P:L25–L52].",
+    "Basis absorption differs: Book 4 names the fourth jhāna as the basis for direct knowledge (fourfold scheme) [C090-P4:L143–L155] [C090-P4:L221], while Book 1 names the fifth jhāna (fivefold scheme) [C090-P:L46–L48]. These are two jhāna-counting schemes, not necessarily a contradiction; kept side by side.",
+    "Order of the four bases of power differs: Book 1 gives chanda, citta, viriya, vīmaṃsā [C090-P:L46]; Book 4 gives chanda, viriya, citta, vīmaṃsā [C090-P4:L159–L165].",
+    "Only Book 4 gives the four planes, four bases, eight steps and sixteen roots [C090-P4:L133–L219]; Book 1's list of supporting faculties (faith, energy, mindfulness, concentration, wisdom) [C090-P:L46] roughly parallels Book 4's roots 11–15 [C090-P4:L207–L215].",
+    "Margaya states explicitly that only the first three kinds come from direct knowledge [C090-M:L9]; Book 4 agrees in effect, saying 'iddhividha-ñāṇa' here means resolve, with transformation and the mind-made body also to be included [C090-P4:L129].",
+    "Knowledge-pervasion: Margaya generalises a rule (one destined for arahantship in this life cannot die before it) [C090-M:L9]; Book 4 gives the definition through the 'last-existence' person and the sunrise simile [C090-P4:L51–L53]. Margaya calls Bhūtapāla 'තෙරුන් වහන්සේ'; Book 4 describes only the child and his night outside the city gate [C090-P4:L59].",
+    "Concentration-pervasion story details differ: Margaya says the yakkha's blow could have felled an elephant and that Sañjīva was a disciple of Kakusandha Buddha, burned by 'people' who piled firewood on him [C090-M:L11]; Book 4 says the blow sounded like thunder and the fire was lit by cowherds, and does not mention Kakusandha [C090-P4:L67–L69]. Book 4 alone gives Khāṇukoṇḍañña, Uttarā and Sāmāvatī [C090-P4:L71–L83].",
+    "Power born of past action: Book 4 lists birds, deities, some first-aeon humans and some vinipātikas [C090-P4:L89]; Margaya lists birds, deities, some humans and 'භූතයින්', adding that the first-aeon humans were those who lived with such power [C090-M:L15].",
+    "Right application: Book 4 is far broader (crafts, medicine, the three Vedas, the Tipiṭaka, ploughing and sowing, plus abandoning defilements by renunciation, first jhāna and the arahant path) [C090-P4:L121–L127]; Margaya is brief (abandoning defilements through practice and achieving various things by skilful means) [C090-M:L21].",
+    "Descriptions of transformation are nearly identical in Book 1 [C090-P:L52] and Book 4 [C090-P4:L455], including the same list of forms and the same absorb–emerge–advert–prepare–resolve sequence."
+  ],
+  "uncertainties": [
+    "Repha-ligature OCR artefacts run through P4: 'ආයි' for ආර්ය (L85, L87; although the transcriber's note at L39 says item 6 was modernised, the body text was not), 'අථිය' (අර්ථය), 'වීයිය' (වීර්යය), 'දිටයි' (දිට්ඨි), 'මාඟිය'/'මාගී' (මාර්ගය), 'ප්‍රාතිහායි' (ප්‍රාතිහාර්ය), 'පය්‍යඞ්ක' (පර්යඞ්ක). Read by sense in this digest; the text was not corrected.",
+    "L59 'අහීත් මාගී' (= අර්හත් මාර්ග) is marked crop-verified in the transcriber note at L275–L279. The same note says pdf 366–368 (roughly P4 L57–L83, the knowledge- and concentration-pervasion examples) was transcribed twice with 6.05% word differences, and the unadjudicated ones are in REVIEW_QUEUE.md. Details of those examples need checking against the scan.",
+    "L85 reads 'ෂඩ්ඩ්‍යොපෙක්ෂාවෙන්' while L87 reads 'ෂඩඞ්ගොපෙක්ෂාව'; the first is probably a misprint or OCR error for the second (chaḷaṅgupekkhā).",
+    "L379–L383: the word at the page break ('පයස්ඞික-') is flagged in the file as not confidently legible; the sense wants පර්යඞ්ක (couch).",
+    "L286–L288: 'බිත්ති' was reconstructed by the transcriber from 'හිතති'; 'මුහින්' is kept as set (මුවහින් expected).",
+    "L429 'විකකිරීම' and L431 'විත දෑය බොහෝ කිරීමේ' are unclear. The context (L433: 'ස්වල්ප වූ දෑය බොහෝ කිරීම') suggests 'making much into little' and 'making little into much', but the printed words are not recognisable. Not filled in.",
+    "L349 'ප්‍රතිඝ්නනය විවෘත කිරීම' is unclear (probably 'opening what obstructs'); needs a scan check.",
+    "L51, the definition of knowledge-pervasion, is one long sentence with several alternative time-windows. The reading given here (before the path during insight, from the rebirth-linking of a last-existence person, or at the moment of the path) needs expert confirmation.",
+    "L69 attributes Sañjīva's protection to 'the power of calm proceeding by successive attainments' although he was in cessation-attainment, then adds a rhetorical line about cessation; the exact doctrinal attribution needs expert check.",
+    "Basis absorption: fourth (P4) vs fifth (P) jhāna. Presumably the fourfold sutta and fivefold Abhidhamma counts, but this should be confirmed by an expert rather than assumed.",
+    "Overlap with Concept 89: P4 L13 states pdf 372–400 (L125–L461, the detailed resolve/transformation/mind-made sections) is deliberately shared with Concept 89. The C089 and C090 digests will duplicate this material and should be reconciled.",
+    "The P4 extract ends at L461 with the mind-made-body similes. The frontmatter range (source lines 5224–5662) suggests this is the end of the cut, but the book's discussion of the mind-made power may continue beyond it.",
+    "M has no page or edition metadata, so its statements cannot be traced to a printed page."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

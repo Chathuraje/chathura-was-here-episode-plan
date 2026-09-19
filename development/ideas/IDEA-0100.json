@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0100",
+  "record_type": "idea",
+  "title": "The Face Taking Shape",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "A sculptor has spent three weeks on the eyes of a Buddha image and still isn't satisfied. He won't say what he's looking for, only that he'll know it when the face stops looking back.",
+  "human_question": "What is someone actually doing when they hold one thing in mind, in detail, for weeks?",
+  "premise": {
+    "story": "The final stage of carving or casting a Buddha image, following the maker's attention to the face specifically.",
+    "place": "A family image-making workshop: tools, half-finished figures, plaster dust or clay.",
+    "experience": "The strange patience of working on a face that isn't looking back yet, and the moment it starts to."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C091",
+      "role": "primary",
+      "why": "One method of recollecting the Buddha is careful, head-to-feet attention to an image until it can be held in the mind [C091-M:L7]."
+    },
+    {
+      "concept_id": "C023",
+      "role": "supporting",
+      "why": "Workability and proficiency describe a craft made usable through long, repeated attention, exactly the labour visible in this workshop [C023-P:L149; C023-P:L153-L157]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Tools, dust and half-finished figures in the workshop",
+    "Long, silent attention to one feature at a time",
+    "Checking proportions against reference or memory",
+    "The moment the eyes, specifically, are finished"
+  ],
+  "what_must_be_real": "The maker's actual working method and his own account of it. The film must not frame him as practising a meditation he may not himself do; his own words must lead.",
+  "possible_arc": {
+    "opening": "An unfinished, faceless figure.",
+    "turn": "The slow, repeated work on the eyes over days.",
+    "ending_open": "The finished face, and whatever the maker actually says about it, or doesn't."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A family or workshop currently completing a Buddha image, willing to allow filming over enough time",
+      "Access to the maker's own account of his process and beliefs, not assumptions imposed on him",
+      "No disruption to a live commission"
+    ],
+    "suggestions": [
+      {
+        "name": "A family Buddha-image workshop",
+        "region": "Kandy or greater Colombo area",
+        "why": "Region-level suggestion; traditional image-making workshops exist in and around these areas.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific workshop or maker has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Implying the craftsman practises this specific meditation without his confirmation",
+    "Commercial pressures on the family's work being edited out to keep a purely pious picture"
+  ],
+  "drop_if": [
+    "No workshop will allow the camera into the actual working process over enough time to show real patience, not a summary"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0105",
+      "relation": "leads into",
+      "note": "Sustained, patient attention to one held-in-mind good thing here leads into sustained, patient care for people in the later, harder film."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

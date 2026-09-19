@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0020",
+  "record_type": "idea",
+  "title": "One Hand Holds",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "In a small moonstone workshop, a cutter grips a rough stone firmly in one hand while the other, for hours, does nothing but polish.",
+  "human_question": "What does patient, unglamorous effort feel like from the inside, when nobody is watching?",
+  "premise": {
+    "story": "A day or more in a small lapidary or goldsmith's workshop, following one piece from a rough stone or blank to a finished, saleable piece, through the cutter's long concentration, checks under a lens, and the moment of handing over finished work.",
+    "place": "A small moonstone-cutting or goldsmith's workshop.",
+    "experience": "Close, still concentration; the small sounds of grinding and polishing; the slow emergence of shine from a dull surface."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C021",
+      "role": "primary",
+      "why": "This is the concept's own image: one hand gripping a piece firmly while the other slowly polishes, an image of sustained application and effort without excitement [C021-P:L41]."
+    },
+    {
+      "concept_id": "C032",
+      "role": "supporting",
+      "why": "The cutter's long, even concentration sits mostly with neutral feeling rather than joy or displeasure, matching the concept's account of skilled, absorbed work as one home of neutral feeling [C032-P:L75-L83]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "A rough stone or blank held firmly",
+    "The other hand's slow, repeated polishing",
+    "Checks under a loupe or lens",
+    "The cutter's stillness over long stretches",
+    "A finished piece compared with where it began"
+  ],
+  "what_must_be_real": "The cutter's actual work and pace. No piece finished faster than it really takes.",
+  "possible_arc": {
+    "opening": "A dull, rough stone under a bare workbench light.",
+    "turn": "The first hint of shine appears after long, unremarkable work.",
+    "ending_open": "The finished piece is set aside, sold, or kept unfinished. Reality decides."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working lapidary or goldsmith's workshop",
+      "A cutter willing to be filmed over the span of one piece's completion",
+      "Quiet space for close, detailed camera work"
+    ],
+    "suggestions": [
+      {
+        "name": "A moonstone-cutting workshop near Meetiyagoda",
+        "region": "Galle District, Southern Province",
+        "why": "Meetiyagoda is Sri Lanka's best-known moonstone-mining and cutting area.",
+        "season_notes": "",
+        "access_notes": "Specific workshop unconfirmed.",
+        "verify": "No workshop or cutter has been contacted; this is a plausible setting, not a confirmed location.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Reducing a craftsperson to a metaphor rather than a livelihood",
+    "Slow pace may need a strong editorial hand to hold interest"
+  ],
+  "drop_if": [
+    "No cutter will allow filming across the full span of one piece"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0015",
+      "relation": "pairs with",
+      "note": "The same stone traded here is cut and set there: one craft in dealing, another in shaping."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

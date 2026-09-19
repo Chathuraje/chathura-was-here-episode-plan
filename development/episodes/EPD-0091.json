@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0091",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Reading the Field",
+  "logline": "Across one growing season, a farmer in a tank-irrigated village makes dozens of small calls, when to flood, when to weed, when to hold water back, none of them written down, all of them adding up to a harvest.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0178"
+  ],
+  "concept_ids": [
+    "C096",
+    "C097"
+  ],
+  "chronology": {
+    "group_id": "GRP-10",
+    "position_in_group": 5,
+    "global_position": 91
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-10"
+    ],
+    "note": "Object 10 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0090",
+    "thread": "Knowing by feel moves from the wheel to a whole season of water and paddy: a farmer's many unwritten calls that add up to a harvest."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0092",
+    "thread": "From knowing without stopping to think to a single act of letting go: a stream with no bridge, a rope tied to a tree, and the moment of standing firm on the far side."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A farming household willing to be followed across a full season",
+      "Access to the field and irrigation system",
+      "Patience for a long shooting schedule tied to the crop calendar"
+    ],
+    "suggestions": [
+      {
+        "name": "A tank-irrigated paddy village",
+        "region": "Anuradhapura or Polonnaruwa district",
+        "why": "Classic dry-zone tank-irrigation farming country.",
+        "season_notes": "Tied to the Yala or Maha growing season",
+        "access_notes": "",
+        "verify": "A specific willing household must be identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0178"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

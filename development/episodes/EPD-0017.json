@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0017",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Last Ticket",
+  "logline": "At a crowded railway station, a man near the front of a long queue watches the board change just before his turn, and the seat he wanted is gone.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0025"
+  ],
+  "concept_ids": [
+    "C005",
+    "C006"
+  ],
+  "chronology": {
+    "group_id": "GRP-02",
+    "position_in_group": 9,
+    "global_position": 17
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-02"
+    ],
+    "note": "Object 2 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0016",
+    "thread": "The daily hope at the lottery kiosk becomes a wait in a station ticket queue, where the board changes just before one traveller's turn."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0018",
+    "thread": "Wanting refused, again: from the full train at the city station to a lagoon-side auction where a regular buyer's catch goes to a higher bid."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A busy railway station with a real ticket queue and genuine demand",
+      "Travellers willing to be filmed and interviewed about being turned away",
+      "Cooperation from station staff for filming in a public transport facility"
+    ],
+    "suggestions": [
+      {
+        "name": "Colombo Fort Railway Station",
+        "region": "Colombo District, Western Province",
+        "why": "Sri Lanka's main railway hub, with heavy demand and long queues for popular routes, especially to the hill country.",
+        "season_notes": "Demand is highest around holidays and long weekends.",
+        "access_notes": "Filming inside a working railway station requires permission from the railway authority.",
+        "verify": "No specific day, queue or traveller has been identified; railway authority permission is unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0025"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

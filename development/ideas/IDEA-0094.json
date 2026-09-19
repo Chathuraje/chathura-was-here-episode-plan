@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0094",
+  "record_type": "idea",
+  "title": "Tea From Both Hands",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "A village shopkeeper has given the same regular customer something small every day for years. Some days it's more, some days it's less, and neither of them has ever said why.",
+  "human_question": "When the same person gives you the same kind of thing every day, what actually changes from one day to the next?",
+  "premise": {
+    "story": "The daily exchange between a shopkeeper and a regular customer over several weeks, tracking the small variations in what is given.",
+    "place": "A small village shop, a counter worn smooth by decades of hands.",
+    "experience": "Watching an ordinary transaction closely enough to see that it is never quite the same twice."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C011",
+      "role": "primary",
+      "why": "The Margaya's own example is one giver and one recipient, the same kind of mind on different days, where the strength of intention differs from a coin to a note [C011-M:L26]."
+    },
+    {
+      "concept_id": "C019",
+      "role": "supporting",
+      "why": "Ordinary capacities like attention and effort take on the colour of the moment they serve, which is why the same daily act never looks quite identical [C019-P:L61-L63]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The counter, and whatever passes for a ledger or memory of who is owed what",
+    "Small, real variations in what is given from one day to the next",
+    "Conversation between the two of them building over weeks",
+    "The shopkeeper's own account of the customer, and the customer's of the shopkeeper"
+  ],
+  "what_must_be_real": "The shopkeeper's and customer's actual relationship and reasons. The recipient must be a full, consenting participant, never a symbol of need.",
+  "possible_arc": {
+    "opening": "An ordinary transaction at the counter, early in the day.",
+    "turn": "A day when noticeably more, or less, is given, and why, if either of them will say.",
+    "ending_open": "What the two of them actually say to each other, or to Chathura, when finally asked directly."
+  },
+  "position_hint": "opening candidate: a real, ordinary act of free giving that could plausibly be where Object 6 changes hands, only if it happens naturally",
+  "location": {
+    "requirements": [
+      "A shopkeeper and a regular customer with a long, real relationship willing to be filmed",
+      "Enough filming time to observe genuine day-to-day variation, not one staged exchange",
+      "The recipient's full, informed consent and comfort with the camera"
+    ],
+    "suggestions": [
+      {
+        "name": "A small shop in a hill-country or Sabaragamuwa village",
+        "region": "Central or Sabaragamuwa Province",
+        "why": "Small village shops with long-standing regular customers are common across this region.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific shop, shopkeeper or customer has been identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Exposing the recipient's need or hardship for the camera",
+    "Turning a private, decades-long relationship into a demonstration",
+    "Implying the size of a gift measures the giver's worth, which the source explicitly does not claim"
+  ],
+  "drop_if": [
+    "The recipient does not want to be filmed, or the relationship turns out to be arranged rather than long-standing"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0093",
+      "relation": "pairs with",
+      "note": "Both are ordinary, repeated acts of free giving to someone who cannot reciprocate, and both are candidates for where Object 6 first changes hands."
+    },
+    {
+      "idea_id": "IDEA-0097",
+      "relation": "mirrors",
+      "note": "Both watch the same kind of giving become easier, or simply different, with repetition over time."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

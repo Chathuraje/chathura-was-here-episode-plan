@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0088",
+  "record_type": "idea",
+  "title": "What's Left When It Runs Out",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "At a roadside food stall on a festival day, volunteers watch the queue grow longer than the food will stretch, and in the space of a few seconds, again and again, someone has to decide how to share what is left.",
+  "human_question": "In the small, repeated moment when there isn't enough to go around, what actually decides what a person does?",
+  "premise": {
+    "story": "Volunteers running a roadside dansala, a free food stall, during a religious festival face a real, recurring problem as supplies run low: how to keep serving fairly as the queue outlasts the food, and what each server actually does in that moment.",
+    "place": "A roadside food stall on a pilgrimage route or festival day, somewhere the flow of people can genuinely outpace supply.",
+    "experience": "The viewer watches ordinary, repeated small decisions, made fast, under real pressure, by people with nothing to gain and something real to give, and is left with the plain, human shape of a moment where someone chooses to be generous, or doesn't, and either way keeps going."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C034",
+      "role": "primary",
+      "why": "The source places all of a response's moral weight in one stage, impulsion, where a wholesome, unwholesome or merely functional response is made [C034-P:L173; C034-M:L41]. The series reads this stage, as its own editorial framing rather than the source's own wording, as the moment where a small, real choice for generosity or its absence is made; the source itself never calls this choice and describes no separate chooser standing behind it."
+    },
+    {
+      "concept_id": "C029",
+      "role": "supporting",
+      "why": "The source's account of the rootless, ethically neutral machinery beneath every response, the seeing, receiving, examining and settling that happen before any response is made, is the layer of ordinary noticing running underneath a volunteer's fast decisions about how to portion food."
+    },
+    {
+      "concept_id": "C025",
+      "role": "supporting",
+      "why": "Effort, decisiveness and a real wish to help, the source's occasional mental factors, are visibly strained and renewed as supplies dwindle and the queue keeps coming."
+    },
+    {
+      "concept_id": "C041",
+      "role": "supporting",
+      "why": "The source's account of a full response completing in a fast, decisive burst gives shape to the almost-instant judgement each volunteer makes as a new person reaches the front of the queue."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Preparation and the queue forming as the festival day begins",
+    "Portions served steadily as supply holds",
+    "The visible moment supply starts to run short: hesitation, smaller portions, quick conferring among volunteers",
+    "Individual servers' small, different responses to the same shortage",
+    "The stall's actual end, whether supply lasts, runs out, or is stretched by some real decision"
+  ],
+  "what_must_be_real": "The event, the shortage and every decision must be real and unstaged; no manufactured scarcity for dramatic effect. Volunteers' own accounts of what they were thinking must come in their own words, never supplied by the film.",
+  "possible_arc": {
+    "opening": "A festival day begins; a roadside stall opens to serve pilgrims and travellers.",
+    "turn": "Supply visibly starts to run short against a queue that keeps growing.",
+    "ending_open": "The day ends however it actually does, food enough, food short, a decision made or avoided, with no promise beforehand of a tidy moral resolution."
+  },
+  "position_hint": "closing candidate: a small, real, repeated moment of generosity under pressure gives the group's abstract gap where choice happens a concrete, human and communal form, and hands off directly to the next group's concerns with what people do for one another.",
+  "location": {
+    "requirements": [
+      "A roadside dansala or free food stall during a real religious festival, with organisers willing to allow filming",
+      "A festival day where demand plausibly outpaces supply, without the film creating or worsening any real shortage",
+      "Consent from volunteers and, where practical and respectful, from those being served"
+    ],
+    "suggestions": [
+      {
+        "name": "A town along the Kataragama pilgrimage route during a festival period",
+        "region": "Southern / Uva Province",
+        "why": "The Kataragama pilgrimage route has a long tradition of roadside dansala hospitality during festival seasons.",
+        "season_notes": "Timing would need to align with an actual festival or poya period with heavy pilgrim traffic.",
+        "access_notes": "Organisers' cooperation would be essential and filming must never slow down or interfere with real service.",
+        "verify": "A specific stall, organisers, and a festival date with genuinely constrained supply are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Filming must never encourage or engineer an actual shortage for dramatic purposes",
+    "Framing any individual volunteer's response as a moral verdict on their character",
+    "Presenting the source's account of impulsion as if it used the word choice or described a self standing behind the response, which it does not"
+  ],
+  "drop_if": [
+    "No festival stall with a genuine, unengineered risk of running short is found",
+    "Organisers or volunteers do not want the moment of shortage filmed",
+    "The event cannot be filmed without slowing or altering real service to real people"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0082",
+      "relation": "leads into",
+      "note": "The instant, unowned reactions of a mountain-road driver lead into this closer, slower and more consequential test of the same kind of gap."
+    },
+    {
+      "idea_id": "IDEA-0080",
+      "relation": "leads into",
+      "note": "A fast public decision under doubt at the fish auction leads into this harder decision made under real scarcity and stakes for others."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

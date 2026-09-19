@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0154",
+  "record_type": "idea",
+  "title": "Second Sight",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "At a visiting eye camp, dressings come off one by one, and each patient's first sight in months depends on a surgeon, a donor, a driver, a nurse and a lens ground somewhere else entirely.",
+  "human_question": "How many other people does it take before one person can simply see again?",
+  "premise": {
+    "story": "A mobile cataract-surgery camp from the first morning's queue to the moment bandages come off, following patients, the visiting surgical team and the local volunteers who make the camp possible.",
+    "place": "A rural hospital or temple hall hosting a visiting eye-surgery team.",
+    "experience": "The camera stays close to hands and eyes: the wait in dim light, the operation itself glimpsed only briefly, and the exact instant someone reads a chart, names a colour or sees a face again."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C075",
+      "role": "primary",
+      "why": "Both sources use the eye as their example of a governing faculty: clarity of sight can be no clearer than the eye allows; the camp shows one faculty restored and what depends on it changing."
+    },
+    {
+      "concept_id": "C083",
+      "role": "supporting",
+      "why": "Pre-nascence: something already there, the eye and its base, supports what arises after it; restoring that base organ is a literal, filmable version of the relation."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Queues on the first morning, led in by relatives",
+    "Reading charts, the pre-operative checks",
+    "The ward after surgery, bandages still on",
+    "Bandages coming off; a patient identifying colours or a relative's face",
+    "First attempts to thread a needle, read a bus number or walk unaided",
+    "The visiting team packing up to move on to the next town"
+  ],
+  "what_must_be_real": "Patients' real consent and real outcomes, including cases where sight is not fully restored; the team's real schedule and constraints.",
+  "possible_arc": {
+    "opening": "A queue in half-light, people led by relatives who see for them.",
+    "turn": "The operations happen, mostly out of frame; the ward waits.",
+    "ending_open": "Whatever patients actually see and say when the bandage comes off."
+  },
+  "position_hint": "closing candidate: restoring a faculty that had failed is a filmable image of a condition undone, echoing the group's hand-off that what arises by conditions can also cease by conditions",
+  "location": {
+    "requirements": [
+      "A visiting eye-surgery camp with willing patients, surgeons and organisers",
+      "Clear, ongoing informed consent from every patient shown",
+      "Access to both the pre-operative wait and the moment of bandage removal"
+    ],
+    "suggestions": [
+      {
+        "name": "A rural district hospital or temple hall hosting a visiting eye camp",
+        "region": "Uva or Monaragala province",
+        "why": "Mobile cataract-surgery camps are a long-running form of rural outreach in Sri Lanka and are held periodically in under-served districts.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific camp, its organisers and dates are unconfirmed and must be found.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Medical privacy and consent",
+    "Turning patients into 'miracle' spectacle or charity advertising",
+    "Filming distress or failed outcomes without full consent"
+  ],
+  "drop_if": [
+    "No camp falls within the filming window",
+    "Patients or the medical team are unwilling to be filmed through the whole process"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0163",
+      "relation": "mirrors",
+      "note": "Both closing candidates show a condition, sight or fire, finally withdrawn or completed, echoing the group's hand-off that what arises by conditions can also cease by conditions."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

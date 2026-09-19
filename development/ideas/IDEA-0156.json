@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0156",
+  "record_type": "idea",
+  "title": "What Stopped the Pump",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "A customer brings in a water pump that 'just stopped'. The repairer opens the casing, and what looked like one broken thing turns out to be several small failures that only add up once you look closely.",
+  "human_question": "Is there ever really just one reason something stops working?",
+  "premise": {
+    "story": "A day, or several, in a small-town repair shop, following two or three real jobs from complaint to diagnosis to a working machine, or an honest admission that it cannot be fixed.",
+    "place": "A roadside electrical or mechanical repair shop in a northern market town.",
+    "experience": "The satisfying, unhurried logic of diagnosis: a story told short by the customer, then told long and exact by the repairer's hands."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C078",
+      "role": "primary",
+      "why": "The same cause-and-effect can be told briefly, one main reason, or in full detail, every specific support; the source insists both accounts are true and both are needed for complete understanding."
+    },
+    {
+      "concept_id": "C083",
+      "role": "supporting",
+      "why": "A part's continuing presence keeps a system running; its absence, or the moment it fails, forces the whole system to change, an ordinary version of presence and absence as conditions."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The customer's one-line account of the fault",
+    "The casing opened, parts laid out",
+    "Parts tested one by one and named",
+    "A worn part traced back to what it depended on",
+    "The machine running again, or the repairer's honest verdict that it cannot be fixed"
+  ],
+  "what_must_be_real": "Real customers, real jobs and real outcomes, including failures the repairer genuinely cannot resolve.",
+  "possible_arc": {
+    "opening": "\"It just stopped.\"",
+    "turn": "The casing opens and the short story becomes a long, exact one.",
+    "ending_open": "It runs, or it doesn't; the repairer says so plainly either way."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An established small-appliance or vehicle repair shop willing to be filmed over real working days",
+      "At least two or three genuine repair jobs within the filming window",
+      "A repairer willing to explain their diagnosis on camera"
+    ],
+    "suggestions": [
+      {
+        "name": "A small market town with an established repair trade",
+        "region": "Vavuniya or Kilinochchi district, Northern Province",
+        "why": "Gives the group a northern setting distinct from its other locations, and small-town repair shops are common along the main market roads there.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific shop and repairer must be identified and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning the repair into a visual metaphor instead of caring about the repairer and customers",
+    "The diagram of cause and effect upstaging the people"
+  ],
+  "drop_if": [
+    "No repairer willing to let the camera into real jobs and honest failures"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0157",
+      "relation": "pairs with",
+      "note": "Both follow ordinary small livelihoods that depend, visibly, on many small and specific supports."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

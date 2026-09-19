@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0008",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Lantern",
+  "logline": "A neighbourhood spends weeks building a great Vesak lantern of bamboo and paper, lights it for a few nights, then takes it apart.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0010"
+  ],
+  "concept_ids": [
+    "C077",
+    "C084"
+  ],
+  "chronology": {
+    "group_id": "GRP-01",
+    "position_in_group": 8,
+    "global_position": 8
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-01"
+    ],
+    "note": "Object 1 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0007",
+    "thread": "From a procession's fire to a neighbourhood's paper lights: something built with great care, seen for a few nights, then taken apart."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0009",
+    "thread": "As the lantern comes down, the first thing found beneath the names is wanting: the colours of lantern paper give way to cloth unfolded bolt after bolt, and something wanted badly."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A lantern or thorana build during Vesak",
+      "Access across build, lighting and dismantling"
+    ],
+    "suggestions": [
+      {
+        "name": "A Colombo neighbourhood known for Vesak thoranas",
+        "region": "Western Province",
+        "why": "Large community builds and crowds.",
+        "season_notes": "Vesak (May)",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "A small-town Vesak lantern competition",
+        "region": "Any province",
+        "why": "More intimate community build.",
+        "season_notes": "Vesak (May)",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0010"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

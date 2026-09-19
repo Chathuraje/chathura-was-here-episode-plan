@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0014",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Catching the Wind",
+  "logline": "On a windy stretch of the southern coast, kite makers fight to get a huge kite airborne, and then, for a few minutes, barely touch the line at all.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0019"
+  ],
+  "concept_ids": [
+    "C021",
+    "C006"
+  ],
+  "chronology": {
+    "group_id": "GRP-02",
+    "position_in_group": 6,
+    "global_position": 14
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-02"
+    ],
+    "note": "Object 2 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0013",
+    "thread": "From the pleasure of watching something eat to the pleasure of watching something fly: on the southern coast in the windy season, a kite and the wish for it to be seen."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0015",
+    "thread": "After the loud, public effort of a kite launch, wanting-to-do turns quiet and private in the southern low country: one hand polishing a stone for hours with no one watching."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "An open beach or field with reliable seasonal wind",
+      "Kite makers willing to be filmed over more than one flying day",
+      "Good long-lens and wide coverage for kites at height"
+    ],
+    "suggestions": [
+      {
+        "name": "A beach near Tangalle or Mirissa during the kite season",
+        "region": "Southern Province",
+        "why": "The south coast has open beaches and a seasonal kite-flying tradition.",
+        "season_notes": "Kite-flying season is typically February to March.",
+        "access_notes": "Specific makers and beach unconfirmed.",
+        "verify": "No kite maker has been contacted; the season and general tradition are plausible but the specific group is unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0019"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

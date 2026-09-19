@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0042",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "One Strike, A Thousand Echoes",
+  "logline": "A temple bell is struck once at dawn, and its sound fades slowly across the valley below, the same way, the keeper says, one sight can set off a long private echo of thought.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0079"
+  ],
+  "concept_ids": [
+    "C048",
+    "C047",
+    "C010"
+  ],
+  "chronology": {
+    "group_id": "GRP-05",
+    "position_in_group": 7,
+    "global_position": 42
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-05"
+    ],
+    "note": "Object 5 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0041",
+    "thread": "Memory's long echo becomes a literal one: a temple bell struck once at dawn, its sound fading slowly across the valley."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0043",
+    "thread": "From the echo that follows a single strike to a real task in progress, where contact, recognition and adjustment happen moment by moment."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A hill or rock temple with a bell and a keeper willing to be filmed",
+      "A vantage point to follow the sound into the valley below",
+      "Consent covering both the keeper's work and his personal reflections"
+    ],
+    "suggestions": [
+      {
+        "name": "A rock or hill temple in the Kandy-Matale hills",
+        "region": "Central Province",
+        "why": "The Kandy-Matale hills hold numerous rock and hill temples overlooking farming valleys.",
+        "season_notes": "",
+        "access_notes": "Specific temple and monastic permission would need to be arranged directly.",
+        "verify": "A specific temple, bell-keeper and willingness to be filmed are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0079"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

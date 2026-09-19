@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0086",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "When the Kiln Goes Out",
+  "logline": "A potter's crew feeds a wood-fired kiln through an entire night, watching the wind and the colour of the flame, and only when the fuel stops and the fire finally dies down can the kiln cool enough to open.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0163"
+  ],
+  "concept_ids": [
+    "C083",
+    "C082"
+  ],
+  "chronology": {
+    "group_id": "GRP-09",
+    "position_in_group": 8,
+    "global_position": 86
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-08",
+      "OBJ-09"
+    ],
+    "note": "Object 9 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject. Object 8, from Endings, may also recur as a fire is finally let go out."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0085",
+    "thread": "Conditions that shape a season lead to a fire that lasts only as long as it is fed: a crew tending a wood-fired kiln through the night until it is let go out."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0087",
+    "thread": "What arises by conditions can end by conditions: the kiln stops being fed, and the next film opens on something set down, a family's final payment on gold pawned years ago."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A traditional pottery workshop still firing by wood in a single overnight session",
+      "Access through a full night of work",
+      "A crew willing to show real losses, not only successful pots"
+    ],
+    "suggestions": [
+      {
+        "name": "A traditional pottery-making village",
+        "region": "Kegalle or Kurunegala district (villages such as Molagoda are known for pottery)",
+        "why": "Low-country pottery villages in this area have long-standing traditions of wood-fired kilns.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Whether a specific workshop still fires by wood, rather than gas or electricity, and is willing to be filmed overnight must be confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0163"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

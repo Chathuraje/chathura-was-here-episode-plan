@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0133",
+  "record_type": "idea",
+  "title": "What Was Left Behind",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "Weeks after a grandfather's funeral, his family finally opens the room he never let anyone into, and has to decide what a half-finished life becomes now.",
+  "human_question": "When someone dies mid-task, who finishes what they started, and who decides what is let go?",
+  "premise": {
+    "story": "An extended family gathers to clear a deceased elder's room and settle his unfinished matters: letters, debts, a house extension left half built, a tool mid-repair. They quietly decide, out loud, what to keep, finish, or let go.",
+    "place": "A family home in a Kandy-district hill village, the kind with a room nobody has touched since the funeral.",
+    "experience": "Cupboards opening onto a life in the middle of things, and a family deciding together what happens next to what is left."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C057",
+      "role": "primary",
+      "why": "The source divides what a person does into what ripens in this life, in the next, much later, or never, and gives the image of grain kept past its season that will not sprout [C057-P:L87]. A family sorting an unfinished life gives that idea an entirely ordinary, unstaged form."
+    },
+    {
+      "concept_id": "C061",
+      "role": "supporting",
+      "why": "Both sources insist nothing physical or mental travels on from one existence to the next [C061-P:L85; C061-M:L15]. The film can hold that teaching next to a family's instinct to keep an object 'because it was his', without resolving the tension."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Relatives arriving with keys, drawers and boxes opened one by one",
+    "An old ledger, notebook or letters",
+    "A half-built house extension or an unfinished repair",
+    "A family debate, conducted in the room itself, over what to keep, finish, sell or discard",
+    "One object set aside and carried out of the house"
+  ],
+  "what_must_be_real": "A family that has genuinely lost someone and is doing this sorting for their own reasons, in their own time, not for the camera. No possession is assigned a meaning it does not have.",
+  "possible_arc": {
+    "opening": "An unopened room, a bunch of keys.",
+    "turn": "An unfinished thing surfaces, a debt, a letter, a repair, that the family must decide about.",
+    "ending_open": "One object leaves the house in someone's hands. Where it goes next is not decided by the film."
+  },
+  "position_hint": "opening candidate: a real moment where an object belonging to someone gone could plausibly become Object 8, if a willing family allows it; the film also stands on its own as an early piece on what an ending leaves unfinished",
+  "location": {
+    "requirements": [
+      "A household that has recently lost an elder and is willing to be filmed sorting belongings",
+      "A room or set of rooms not yet cleared since a death",
+      "Enough trust for the family to speak plainly about any disagreements"
+    ],
+    "suggestions": [
+      {
+        "name": "A hill-country village in the Kandy or Matale district",
+        "region": "Central Province",
+        "why": "A common house form with an elder's room set apart; suggested for texture and access, not for a specific household.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific household identified; region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Intruding on fresh grief",
+    "Turning private disagreements about inheritance into drama",
+    "Implying any object was 'meant' to be found"
+  ],
+  "drop_if": [
+    "No family will let the camera into this private a process",
+    "The sorting becomes staged or re-enacted for filming"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0147",
+      "relation": "mirrors",
+      "note": "Both follow an object surviving the person who used it, one just after a death, one years later in a craftsman's hands."
+    },
+    {
+      "idea_id": "IDEA-0134",
+      "relation": "alternative to",
+      "note": "A second, different real moment where Object 8 could be acquired, this time through ritual rather than sorting belongings."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

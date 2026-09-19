@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0188",
+  "record_type": "idea",
+  "title": "Coming Down",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "On the last morning of a silent retreat, a room full of strangers who have not spoken in days says its first ordinary words, packs up, and starts down the hill together, back toward a city none of them have seen in a week.",
+  "human_question": "What does it take to come back into a crowded world after time spent putting it down?",
+  "premise": {
+    "story": "The final day of a lay meditation retreat: the end of silence, packing, goodbyes, and the journey back down from the hills. Chathura travels with departing retreatants as far as the city.",
+    "place": "A hill-country lay retreat centre, not the remote forest hermitage of Episode 1, and the road and city beyond it.",
+    "experience": "The strange re-entry into ordinary noise and movement after days of quiet, ending in the exact crowded urban image the whole chronology has been moving toward."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C097",
+      "role": "primary",
+      "why": "This is the largest map this group works with, purity of conduct through to the knowledge of the paths, and its own end point is not a private, permanent withdrawal: laypeople are told to keep taking up their precepts again and again, in ordinary life [C097-P4:L1022]. A retreat's ordinary, repeated ending, back into the world, is an honest small-scale image of that same return."
+    },
+    {
+      "concept_id": "C100",
+      "role": "supporting",
+      "why": "The source's account of path and fruition includes reviewing afterwards: what was gained, what is gone, what remains; the retreat's closing circle, if one exists, or simply people's own quiet reflections, can carry this without any doctrinal claim."
+    },
+    {
+      "concept_id": "C085",
+      "role": "supporting",
+      "why": "Across the retreat's days, different participants will have practised different ones of the forty subjects the source describes; the film does not need to itemise them, only to show the variety folding back into one shared departure."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The final sitting, and the moment silence formally ends",
+    "Packing, first conversations, laughter returning",
+    "The descent by road from the hills",
+    "The film's planned closing image: the road giving way to a crowded city junction, traffic, pedestrians and overlapping sound, where Chathura is set down among the crowd, described here only as the planned ending, not as invented content"
+  ],
+  "what_must_be_real": "A real retreat, its real participants (with consent) and its real schedule. The film does not stage the end of silence or any participant's words.",
+  "possible_arc": {
+    "opening": "The last hour of silence.",
+    "turn": "Silence ends; the retreat becomes an ordinary group of people again.",
+    "ending_open": "The descent, and the planned closing image of arrival in the crowded junction shared with Episode 1 and Episode 100."
+  },
+  "position_hint": "closing candidate: a collective, communal route to the same required closing image, hands directly to the planned crowded-location event that ends the chronological development slate (released as Episode 99) and opens both Episode 1 and Episode 100.",
+  "location": {
+    "requirements": [
+      "A real lay retreat centre and a cohort willing to be filmed on their final day",
+      "A road connecting the centre to a real, busy city junction",
+      "Consent from the centre and every participant shown"
+    ],
+    "suggestions": [
+      {
+        "name": "A hill-country lay meditation retreat centre, with the road leading toward Colombo",
+        "region": "Central Province to Western Province",
+        "why": "Colombo's Fort and Pettah areas are well-known busy urban junctions suitable for the required crowded-location ending; the exact junction is undecided.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific retreat centre or exact junction is identified; the crowded-location choice belongs to Chathura.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Overlapping visually with Episode 1's monastery material; this must stay a clearly different, lay, hill-country retreat, not a forest hermitage",
+    "Retreat centres may have strict no-filming rules during silence",
+    "Implying any participant has attained anything"
+  ],
+  "drop_if": [
+    "No retreat centre will permit filming even at the edges of a silent period, or participants are unwilling to be shown"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0187",
+      "relation": "alternative to",
+      "note": "A different route to the same required closing image: a retreat's collective return, rather than an individual's final letting go."
+    },
+    {
+      "idea_id": "IDEA-0176",
+      "relation": "mirrors",
+      "note": "From a single day's class matching many people to many objects, to one retreat's shared, collective ending."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0041",
+  "record_type": "idea",
+  "title": "Which Word Carries the Water",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "Farmers gather under a tree to decide how the tank's water will be shared for the coming season. Elders argue for how it has always been done; younger farmers argue for their own standing and results. The harvest depends on which voice wins.",
+  "human_question": "In an argument that matters, when does a person switch from arguing the facts to arguing their own standing?",
+  "premise": {
+    "story": "A real farmers' organisation meeting deciding water release for an ancient irrigation tank: speeches, interruptions, appeals to tradition, appeals to personal record and standing, and the decision that is finally reached.",
+    "place": "A meeting under a tree or in a village hall, served by a tank that has irrigated this land for generations.",
+    "experience": "The viewer sits in the meeting as the argument moves, without anyone quite noticing, between what is true and who is owed respect, and feels how much a season's harvest rides on the outcome."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C022",
+      "role": "primary",
+      "why": "The sources distinguish two different ways of holding on that never occupy a mind at the same moment: fixed wrong view, insisting 'this is how things are', and conceit, insisting on one's own rank, 'this is how I stand' [C022-P:L91–L113; C022-M:L27–L31]. A heated meeting about a shared resource is a real place to watch speakers move between these two different grips, without the film needing to name either."
+    },
+    {
+      "concept_id": "C026",
+      "role": "supporting",
+      "why": "Both sources agree these two never coincide in one moment, though they explain it differently: Pradeepika says conceit is as strong an unwholesome state as wrong view, so the mind cannot hold both at once; Margaya says they are simply different kinds of grasping, over what is true and over where one stands [C026-P:L35; C026-M:L17]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The meeting itself: seating, order of speaking, interruptions",
+    "Elders appealing to precedent and how things have always been done",
+    "Younger farmers appealing to their own results, effort or standing",
+    "The moment the argument turns personal, and the moment it turns back to the water",
+    "The final decision, and the walk home"
+  ],
+  "what_must_be_real": "The meeting, the dispute and its outcome must be genuine and unscripted, with every participant's consent. Every side must be shown fairly and the film must not take a position on who was right.",
+  "possible_arc": {
+    "opening": "The tank at dawn, low or full depending on the season.",
+    "turn": "The meeting grows heated, and voices shift between fact and standing.",
+    "ending_open": "Whatever the farmers actually decide, and how they carry it afterwards, ends the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A village served by an ancient irrigation tank with an active farmers' organisation",
+      "A genuine water-allocation meeting occurring during the filming window",
+      "Consent from all participants, including those on both sides of the dispute"
+    ],
+    "suggestions": [
+      {
+        "name": "A tank-irrigated farming village",
+        "region": "Anuradhapura or Polonnaruwa district, North Central Province",
+        "why": "The dry zone's ancient tank-irrigation system remains central to village farming life and organised water-sharing decisions in this region.",
+        "season_notes": "Tied to the seasonal water-release cycle ahead of cultivation.",
+        "access_notes": "",
+        "verify": "A specific tank, village and meeting must be found and confirmed; this is a region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning a real dispute over livelihoods into a simple morality play",
+    "Appearing to take a side in a genuine, ongoing community disagreement",
+    "Identifying individuals in ways that could affect real standing or relationships in the village"
+  ],
+  "drop_if": [
+    "No genuine water-allocation meeting occurs during the filming window",
+    "Participants are unwilling to have a real dispute filmed"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0035",
+      "relation": "pairs with",
+      "note": "Both are set in dry-zone farmland where a real threat to a livelihood tests fear and anger together."
+    },
+    {
+      "idea_id": "IDEA-0039",
+      "relation": "alternative to",
+      "note": "Two possible studies of status and possession; a slate might choose one over the other to avoid repetition."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

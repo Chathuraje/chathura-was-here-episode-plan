@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0145",
+  "record_type": "idea",
+  "title": "What Comes at Dusk",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "As the light goes at the edge of a village, a ritual specialist and a family build an offering stand for a sick relative, and the whole village stays up with them until dawn.",
+  "human_question": "What does a community do for someone in trouble that medicine alone cannot reach?",
+  "premise": {
+    "story": "A night-long healing ritual (thovil) held for a sick member of a family, from building the offering stands at dusk to the ceremony's end at dawn.",
+    "place": "A rural village compound in the low-country south.",
+    "experience": "Drums and masks in torchlight, offerings placed at the village's edge, a community keeping watch through the night, and the family's own hope, spoken or unspoken."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C053",
+      "role": "primary",
+      "why": "The source itself connects one class of rebirth it describes to the beings who accept exactly these kinds of offerings [C053-M:L15]. It is one of the few places where the text points directly at a living Sri Lankan practice, and the film can simply watch that practice without asserting anything about the beings it names."
+    },
+    {
+      "concept_id": "C051",
+      "role": "supporting",
+      "why": "The source places various downcast and lesser spirits within its picture of the planes of existence [C051-P:L95-L101]. A ritual addressed to unseen beings is where that picture is actually lived, not studied."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Building the offering stands",
+    "Masks and drums prepared",
+    "Offerings placed at dusk",
+    "The community gathering and staying through the night",
+    "The ceremony's end at dawn"
+  ],
+  "what_must_be_real": "A ritual the family and specialist have genuinely chosen to hold, for their own reasons, with the sick person's own consent where they are able to give it. The film asserts nothing about the cause of the illness.",
+  "possible_arc": {
+    "opening": "The offering stands going up as the light fails.",
+    "turn": "The ceremony itself, deep in the night.",
+    "ending_open": "Dawn, and whatever the family says or does not say about whether it helped."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A family and ritual specialist willing to have a real ceremony filmed",
+      "Full, ongoing consent from the sick person or their guardians, and from every performer",
+      "The sick person's dignity and privacy protected throughout"
+    ],
+    "suggestions": [
+      {
+        "name": "A rural village in the Southern Province low country",
+        "region": "Southern Province",
+        "why": "Thovil and related healing ceremonies remain a living low-country practice; no specific village identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No family, specialist or ceremony confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Exoticising a living practice",
+    "Implying the illness was caused by past action or by anyone's fault",
+    "The sick person becoming a spectacle rather than the centre of care",
+    "Never asserting whether the beings addressed exist"
+  ],
+  "drop_if": [
+    "Full consent cannot be secured from the sick person or their family",
+    "The ceremony's meaning cannot be respectfully filmed without exposing the family's privacy"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0134",
+      "relation": "pairs with",
+      "note": "Both are about a community's care reaching toward beings that ordinary comfort cannot reach directly, one for the newly dead, one for the endangered living."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

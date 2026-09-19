@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0046",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "No One at the Wheel",
+  "logline": "On a mountain road thick with blind bends, a long-distance bus driver reacts to whatever appears, a truck, a landslide, a child, faster than thought, with no one, he says, deciding in advance what he will do.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0082"
+  ],
+  "concept_ids": [
+    "C043",
+    "C041",
+    "C038"
+  ],
+  "chronology": {
+    "group_id": "GRP-05",
+    "position_in_group": 11,
+    "global_position": 46
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-05"
+    ],
+    "note": "Object 5 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0045",
+    "thread": "The gap between seeing and deciding narrows further on a mountain road, where a bus driver reacts to each blind bend faster than thought, still caring for everyone on board."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0047",
+    "thread": "Inside that fast, unowned process there is still room to choose, and the next film finds it at a roadside free-food stall where, again and again, someone decides how to share what is left."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A mountain or hill-country bus route with steep grades and blind bends",
+      "A driver and transport operator willing to allow filming from inside a moving vehicle",
+      "A safety plan for filming in a moving vehicle that does not distract the driver"
+    ],
+    "suggestions": [
+      {
+        "name": "The Nuwara Eliya-Ella hill-country road network",
+        "region": "Central / Uva Province",
+        "why": "Well-known mountain routes with steep grades and sharp bends served by regular buses.",
+        "season_notes": "Fog and rain are more likely in the monsoon months and would need separate safety planning.",
+        "access_notes": "Filming inside a moving public bus needs the operator's and driver's active cooperation.",
+        "verify": "A specific route, operator and willing driver are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0082"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

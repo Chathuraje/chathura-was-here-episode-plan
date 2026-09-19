@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0180",
+  "record_type": "idea",
+  "title": "Cutting It Out",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "A chena farmer finally decides to dig out, root and all, a weed that has come back every season for years, choosing the harder work now over the easier work every year after.",
+  "human_question": "What is the real difference between managing a problem and ending it?",
+  "premise": {
+    "story": "A farmer working a slash-and-burn plot faces a deep-rooted, recurring weed and chooses between the usual seasonal cutting-back and the much harder work of digging it out completely.",
+    "place": "A chena (shifting cultivation) plot in the dry zone.",
+    "experience": "Physical, unglamorous labour that stands in for a real and recognisable choice: quick relief now, or harder work that actually finishes the problem."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C016",
+      "role": "primary",
+      "why": "The source's own image for a path mind's permanent effect is exactly this: holding a harmful tendency down for a while versus cutting it off at the root so it cannot come back, like felling a young tree before it fruits [C016-P:L76–L82]."
+    },
+    {
+      "concept_id": "C076",
+      "role": "supporting",
+      "why": "The balance the farmer needs, patient digging without giving up, but not so much force that the tool breaks, echoes the source's repeated theme of balanced, sustained effort [C076-P:L783]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The familiar weed found again this season, the farmer's decision",
+    "The harder digging work: roots traced and pulled, not just cut",
+    "The cleared ground, and what is planted or left in its place",
+    "The following season, if filming allows, showing whether it returns"
+  ],
+  "what_must_be_real": "A real farmer's real land and real choice. The film should not suggest the digging succeeds if, in fact, the weed returns.",
+  "possible_arc": {
+    "opening": "The weed found again, as every year.",
+    "turn": "The decision to dig, not cut.",
+    "ending_open": "The cleared ground, and, if time allows, the next season's check."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working chena farmer with a real recurring weed problem",
+      "A filming schedule that can follow at least one full clearing",
+      "Ideally, a return visit the following season"
+    ],
+    "suggestions": [
+      {
+        "name": "A chena farming area",
+        "region": "North Central or Uva Province",
+        "why": "Slash-and-burn cultivation is still practised in parts of the dry zone.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific willing farmer must be identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Treating a farmer's practical choice as a moral lesson",
+    "Chena cultivation can be a sensitive land-use topic; avoid taking a position on it",
+    "Overstating what one cleared season proves"
+  ],
+  "drop_if": [
+    "No farmer will let a real land decision be filmed, or the metaphor would misrepresent their actual reasoning, which is driven by labour and cost, not by any wider point"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0179",
+      "relation": "pairs with",
+      "note": "Both ask whether a change is temporary or complete, one through a crossing, one through a farmer's choice about a weed."
+    },
+    {
+      "idea_id": "IDEA-0181",
+      "relation": "mirrors",
+      "note": "The same question asked through a person's habit rather than a field."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0074",
+  "record_type": "idea",
+  "title": "What the Net Cannot See",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "Night after night, a small lagoon-fishing crew works by lamplight where most of what reaches them never becomes a catch, a flicker at the edge of sight, a sound not quite placed, and only a few signals ever become a decision to strike.",
+  "human_question": "How much of what happens around us is ever actually noticed, and what decides which faint signal becomes an action?",
+  "premise": {
+    "story": "A lagoon or reef fishing crew works through a night shift by lamp and starlight, watching a float, listening for a splash, reading faint disturbances in dark water, most of which lead nowhere.",
+    "place": "A lagoon, estuary or shallow reef fished at night by lamplight.",
+    "experience": "The viewer sits inside long stretches of near-nothing broken by a handful of moments sharp enough to matter, and feels the gap between what merely touches the senses and what actually becomes an act."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C045",
+      "role": "primary",
+      "why": "The source's six 'very slight object' processes describe contact so faint it barely disturbs the resting mind and produces no real knowing at all, 'seen, not seen; heard, not heard', which is close to a documentary truth about watching dark water for hours [C045-M:L20]."
+    },
+    {
+      "concept_id": "C040",
+      "role": "supporting",
+      "why": "The source grades objects by how vivid they are, size, light, nearness, and how late they strike, which is exactly what separates a flicker a crew member ignores from the one they act on."
+    },
+    {
+      "concept_id": "C009",
+      "role": "supporting",
+      "why": "The eighteen rootless minds describe a layer of bare sensing that carries no verdict of its own; a fisher's glance at the water is this layer before any decision to strike is made."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Lamp sweeping dark water and the crew's eyes following it",
+    "A float or net line watched for long stretches with no visible change",
+    "A sudden turn of the head at a sound or ripple, followed by a decision to act or let it pass",
+    "Quiet talk between casts about what someone thought they saw",
+    "The catch, or the return with an empty net, at dawn"
+  ],
+  "what_must_be_real": "The crew's actual livelihood and risk; nothing staged for the camera, including any 'near miss' or dramatic strike. Participants describe what they noticed in their own words, not prompted by the interviewer.",
+  "possible_arc": {
+    "opening": "Lamp lit, boat pushed out, a long watch begins.",
+    "turn": "A signal, a movement, a sound, is caught and acted on, or is let go.",
+    "ending_open": "Dawn; the night's catch, whatever it is, and the crew's own account of what they noticed and missed."
+  },
+  "position_hint": "middle: an intimate, low-light film about the edge of perception, not an Object 5 acquisition scene.",
+  "location": {
+    "requirements": [
+      "A working lagoon, estuary or shallow reef fished at night",
+      "A crew willing to be filmed through long, low-light hours",
+      "Safe water access for a small camera crew at night"
+    ],
+    "suggestions": [
+      {
+        "name": "Batticaloa Lagoon",
+        "region": "Eastern Province",
+        "why": "A well-known lagoon with an active night-fishing tradition.",
+        "season_notes": "",
+        "access_notes": "Night filming on water requires careful safety planning.",
+        "verify": "Specific crews, access and current fishing patterns are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Low light makes filming difficult and could tempt the crew to add light for the camera, changing the very conditions being observed",
+    "Dramatising a catch or a near-miss would be staging",
+    "Romanticising dangerous night work without showing its real economics"
+  ],
+  "drop_if": [
+    "No crew will allow a camera through an ordinary night shift without extra light or performance",
+    "The work cannot be filmed safely at night",
+    "Nothing distinguishes a noticed from an unnoticed signal in a way the camera can honestly show"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0083",
+      "relation": "pairs with",
+      "note": "Both watch the line between a signal that barely registers and one that triggers a full response."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

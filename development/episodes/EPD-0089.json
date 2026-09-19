@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0089",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Held, Not Touched",
+  "logline": "A gem-cutter in Ratnapura brings a rough stone close under a single lamp and looks at it for longer than seems reasonable, ignoring everything else in the room until its faults and its worth both become visible.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0175"
+  ],
+  "concept_ids": [
+    "C013",
+    "C031",
+    "C099"
+  ],
+  "chronology": {
+    "group_id": "GRP-10",
+    "position_in_group": 3,
+    "global_position": 89
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-10"
+    ],
+    "note": "Object 10 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0088",
+    "thread": "One plain object for each person becomes one stone held under one lamp for longer than seems reasonable, until its faults and its worth both show."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0090",
+    "thread": "Attention held on one thing grows finer: a potter throwing nested bowls, each wall thinner than the last, stopping just before thinner would mean broken."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A working gem-cutter willing to be filmed over a real commission",
+      "Good light control for close macro photography",
+      "Time to follow one stone through several sessions"
+    ],
+    "suggestions": [
+      {
+        "name": "Ratnapura",
+        "region": "Sabaragamuwa Province",
+        "why": "Sri Lanka's best-known gem-trading and cutting town.",
+        "season_notes": "",
+        "access_notes": "Many small workshops; a specific willing cutter must be found.",
+        "verify": "Access to a specific workshop and cutter is unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0175"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

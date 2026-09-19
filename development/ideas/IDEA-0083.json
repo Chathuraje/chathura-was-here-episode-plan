@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0083",
+  "record_type": "idea",
+  "title": "The Close Call",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "In a village cricket match, an umpire has a fraction of a second to decide a dismissal that will end someone's innings, and the whole ground waits, in silence, for the gap between seeing and deciding to close.",
+  "human_question": "How much room is really there between something happening and a person's ruling on what it was?",
+  "premise": {
+    "story": "A village or town cricket tournament, following an umpire, and the players and crowd around a close decision, through a match, focusing on the moments where a fast, high-stakes call must be made.",
+    "place": "A village or town cricket ground during a local tournament.",
+    "experience": "The viewer feels the pause after an appeal, a held breath, a raised or withheld finger, and comes to notice how short and how real that gap actually is."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C044",
+      "role": "primary",
+      "why": "The source's second class of process for a great object ends right at the burst of full response, with no lingering afterward, because the object itself has already ceased [C044-P:L33; C044-M:L9]. An umpire's instant call, with nothing to revisit once made, mirrors this exactly."
+    },
+    {
+      "concept_id": "C025",
+      "role": "supporting",
+      "why": "The source's rule that decision cannot coexist with doubt in the same moment [C025-P:L69] is dramatized by the visible pause of an umpire before the decision arrives."
+    },
+    {
+      "concept_id": "C040",
+      "role": "supporting",
+      "why": "The source's grading of how vividly an object presents itself, size, light, nearness, explains why some appeals are obvious and some are agonisingly close."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The delivery, the contact, the appeal",
+    "The umpire's face and stillness in the pause before the decision",
+    "The finger raised, or not, and the reaction that follows",
+    "Players and crowd reacting to a close call",
+    "Post-match conversation about calls that could have gone either way"
+  ],
+  "what_must_be_real": "Real matches and real decisions; no re-enacted or staged appeals. The umpire's own account of how he makes close calls, in his own words.",
+  "possible_arc": {
+    "opening": "A tournament match begins; early overs pass without incident.",
+    "turn": "A genuinely close appeal forces a real, high-stakes decision.",
+    "ending_open": "The match ends as it actually does, with whatever consequence the call actually had."
+  },
+  "position_hint": "middle: a public, high-tension setting that gives the group a burst of communal drama between its quieter craft films.",
+  "location": {
+    "requirements": [
+      "An active local cricket tournament with a willing umpire and organisers",
+      "Fast, reliable camera coverage of play, including close-in shots on the umpire",
+      "Consent from players, umpires and organisers to film real matches and decisions"
+    ],
+    "suggestions": [
+      {
+        "name": "A village or town cricket tournament",
+        "region": "Any province, to be selected",
+        "why": "Local cricket tournaments are widespread and would supply real, unstaged close decisions.",
+        "season_notes": "Cricket season and tournament calendars vary by region and school or club schedule.",
+        "access_notes": "",
+        "verify": "A specific tournament, ground and willing umpire are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Sports-highlight editing could flatten the film into a reflexes showcase",
+    "Slow motion could misleadingly suggest the moment is something a person can consciously watch happen, which the source denies",
+    "Focusing only on drama could lose the umpire's own account of the work"
+  ],
+  "drop_if": [
+    "No tournament or umpire allows genuine, unscripted filming of real decisions",
+    "The matches available turn out too low-stakes to carry real tension",
+    "The umpire is unwilling to reflect on how close calls are actually made"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0074",
+      "relation": "pairs with",
+      "note": "Both trace the line between an object that barely registers and one that draws a full, decisive response."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0080",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "What Stopped the Pump",
+  "logline": "A customer brings in a water pump that 'just stopped'. The repairer opens the casing, and what looked like one broken thing turns out to be several small failures that only add up once you look closely.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0156"
+  ],
+  "concept_ids": [
+    "C078",
+    "C083"
+  ],
+  "chronology": {
+    "group_id": "GRP-09",
+    "position_in_group": 2,
+    "global_position": 80
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-03",
+      "OBJ-09"
+    ],
+    "note": "Object 9 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject. Object 3, marked by conflict and repair, may also recur beside another thing opened up to find its causes."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0079",
+    "thread": "The water that starts the chain meets a machine that stopped: a repairer opening a water pump to find not one cause but several small ones."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0081",
+    "thread": "From causes found inside one machine to a chain spread across one day: a fish netted at dawn on the west coast and eaten inland by nightfall."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "An established small-appliance or vehicle repair shop willing to be filmed over real working days",
+      "At least two or three genuine repair jobs within the filming window",
+      "A repairer willing to explain their diagnosis on camera"
+    ],
+    "suggestions": [
+      {
+        "name": "A small market town with an established repair trade",
+        "region": "Vavuniya or Kilinochchi district, Northern Province",
+        "why": "Gives the group a northern setting distinct from its other locations, and small-town repair shops are common along the main market roads there.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific shop and repairer must be identified and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0156"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

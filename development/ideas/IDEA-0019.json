@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0019",
+  "record_type": "idea",
+  "title": "Catching the Wind",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "On a windy stretch of the southern coast, kite makers fight to get a huge kite airborne, and then, for a few minutes, barely touch the line at all.",
+  "human_question": "What is the difference between wanting to make something fly and wanting it to be seen flying?",
+  "premise": {
+    "story": "A day among kite makers building and flying large kites in the windy season: the hard, repeated struggle of the launch, the sudden ease once a kite catches the wind, rivalries between makers, and the pride and disappointment of a day's flying.",
+    "place": "A beach or open field on the southern coast during the kite-flying season.",
+    "experience": "Wind, fabric and bamboo; the strain of the launch giving way to a long, steady glide; small figures on the ground craning upward."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C021",
+      "role": "primary",
+      "why": "This is close to the concept's own image: an effortful start that gives way to a settled, steady holding, and the wish to do something well that is not the same as clinging to how it looks to others [C021-P:L33] [C021-P:L41] [C021-M:L27]."
+    },
+    {
+      "concept_id": "C006",
+      "role": "supporting",
+      "why": "A kite launched easily on a good day and one wrestled up against a difficult wind echo the concept's account of conditions, such as weather, that favour spontaneous over effortful arising [C006-P:L46-L52]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Frames tied and fabric stretched",
+    "The struggle of launching into the wind",
+    "A kite settling and gliding with only small corrections",
+    "Rival makers watching each other's kites",
+    "The maker's face at the moment a kite finally holds"
+  ],
+  "what_must_be_real": "The makers' actual rivalry, skill and disappointments. No wind or outcome staged.",
+  "possible_arc": {
+    "opening": "Bamboo frames and fabric laid out on sand.",
+    "turn": "A difficult launch, again and again, until the kite catches.",
+    "ending_open": "The kite holds, falls, or is outflown by a rival. Reality decides."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An open beach or field with reliable seasonal wind",
+      "Kite makers willing to be filmed over more than one flying day",
+      "Good long-lens and wide coverage for kites at height"
+    ],
+    "suggestions": [
+      {
+        "name": "A beach near Tangalle or Mirissa during the kite season",
+        "region": "Southern Province",
+        "why": "The south coast has open beaches and a seasonal kite-flying tradition.",
+        "season_notes": "Kite-flying season is typically February to March.",
+        "access_notes": "Specific makers and beach unconfirmed.",
+        "verify": "No kite maker has been contacted; the season and general tradition are plausible but the specific group is unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Being a merely pretty metaphor without real stakes",
+    "Rivalry between makers escalating beyond what consent covers"
+  ],
+  "drop_if": [
+    "No maker or rivalry with a real stake can be found and filmed over a full flying day"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0023",
+      "relation": "pairs with",
+      "note": "Two open-air disciplines built on repeated effort, one chasing wind, one chasing a place on a team."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

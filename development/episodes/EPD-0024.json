@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0024",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Which Word Carries the Water",
+  "logline": "Farmers gather under a tree to decide how the tank's water will be shared for the coming season. Elders argue for how it has always been done; younger farmers argue for their own standing and results. The harvest depends on which voice wins.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0041"
+  ],
+  "concept_ids": [
+    "C022",
+    "C026"
+  ],
+  "chronology": {
+    "group_id": "GRP-03",
+    "position_in_group": 6,
+    "global_position": 24
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-03"
+    ],
+    "note": "Object 3 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0023",
+    "thread": "The wait ends on the road but continues under a tree: farmers deciding together how a tank's water will be shared, and the moment arguing facts becomes arguing standing."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0025",
+    "thread": "The tank carries across: after the argument over its water, a village turns out to clear a bund, some because they wanted to, some because they were asked."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A village served by an ancient irrigation tank with an active farmers' organisation",
+      "A genuine water-allocation meeting occurring during the filming window",
+      "Consent from all participants, including those on both sides of the dispute"
+    ],
+    "suggestions": [
+      {
+        "name": "A tank-irrigated farming village",
+        "region": "Anuradhapura or Polonnaruwa district, North Central Province",
+        "why": "The dry zone's ancient tank-irrigation system remains central to village farming life and organised water-sharing decisions in this region.",
+        "season_notes": "Tied to the seasonal water-release cycle ahead of cultivation.",
+        "access_notes": "",
+        "verify": "A specific tank, village and meeting must be found and confirmed; this is a region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0041"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

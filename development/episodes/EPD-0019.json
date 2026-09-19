@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0019",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Mended Net",
+  "logline": "A fishing crew's net comes back from the water cut clean through, torn by a rival boat working too close to their ground. Before it fishes again, it has to be mended, knot by knot, on the sand.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0033"
+  ],
+  "concept_ids": [
+    "C007",
+    "C022"
+  ],
+  "chronology": {
+    "group_id": "GRP-03",
+    "position_in_group": 1,
+    "global_position": 19
+  },
+  "object": {
+    "acquires": "OBJ-03",
+    "appears": [],
+    "note": "Object 3 (identity not chosen) could enter only if the crew genuinely offers or discards a torn or mended piece of gear. Never staged."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0018",
+    "thread": "The catch that went to someone else becomes a net cut by someone else: blocked wanting starts to push back, and the heat of the next stage begins on another shore."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0020",
+    "thread": "From a rival on the water to a threat that comes out of the dark: the question of what wanting turns into when something stands in the way follows a farmer up into a watch hut for the night."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A fishing community with a real, current or recent dispute over grounds or gear",
+      "A crew willing to show the damage and the repair, and to speak about the dispute on their own terms",
+      "Access that does not require naming or filming the other side without consent"
+    ],
+    "suggestions": [
+      {
+        "name": "Fishing villages of the Jaffna peninsula coast",
+        "region": "Jaffna district, Northern Province",
+        "why": "A coastline with many small fishing communities and long-contested inshore grounds; well known as an active fishing region.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm a specific community, a real current dispute, and willingness to be filmed discussing it.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Fishing beaches of the eastern coast",
+        "region": "Trincomalee or Batticaloa district, Eastern Province",
+        "why": "Another well-known active fishing coastline where inshore ground disputes are a known feature of the livelihood.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm a specific community and a real, current dispute.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0033"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

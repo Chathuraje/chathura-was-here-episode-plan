@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0093",
+  "record_type": "idea",
+  "title": "The Free Table",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "On a dry-zone road with no restaurant in sight, a family that has fed passing strangers for free every day for years hands Chathura a plate before he even asks, and keeps insisting it was nothing.",
+  "human_question": "What does it cost to give the same thing away, every day, to people who will never come back?",
+  "premise": {
+    "story": "A roadside family stall that feeds anyone who stops, with no fixed price and no memory kept of who paid and who didn't.",
+    "place": "A quiet stretch of dry-zone road between two towns, no restaurants for miles.",
+    "experience": "Arriving hungry and unknown, and being fed before being asked who you are."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C011",
+      "role": "primary",
+      "why": "The eight wholesome sense-sphere minds cover both joyful, unprompted giving and calmer, habitual giving to a stranger who can never repay [C011-P:L89; C011-P:L93-L109]."
+    },
+    {
+      "concept_id": "C019",
+      "role": "supporting",
+      "why": "The family's giving is not one single feeling but the ordinary team of goodness arriving together, unremarked and unnamed [C019-P:L49]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Lorries and buses slowing at the stall, the family's practised motions with no cash register",
+    "A stranger trying to pay and being waved off",
+    "The quiet after the road empties out",
+    "Family members eating what is left over at the end of the day"
+  ],
+  "what_must_be_real": "The family's actual business and economics of giving food away for free. No staged refusals or manufactured generosity for the camera.",
+  "possible_arc": {
+    "opening": "An empty road; a small stall lights up before dawn.",
+    "turn": "Chathura tries to pay and is refused, and the family explains, or doesn't.",
+    "ending_open": "Whatever the family actually says, if anything, about why they keep doing it."
+  },
+  "position_hint": "opening candidate: a natural, unstaged place for something to be given freely to Chathura, and for Object 6 to enter his hands, only if it really happens",
+  "location": {
+    "requirements": [
+      "A genuine roadside stall or household that feeds passing strangers without payment as an ongoing practice",
+      "Willingness to be filmed over enough time to show the pattern, not a single staged act",
+      "Real traffic and real strangers, not arranged visitors"
+    ],
+    "suggestions": [
+      {
+        "name": "A road-side rest stop in the North Central dry zone",
+        "region": "e.g. the Anuradhapura-Habarana road corridor",
+        "why": "This stretch has long-standing traditions of free wayside food and drink for travellers.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific stall or family has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Staging generosity for the camera",
+    "Reducing a real, precarious business to a parable about kindness",
+    "The family's own economic fragility being glossed over"
+  ],
+  "drop_if": [
+    "No family or stall is found that genuinely gives food without payment as a matter of regular practice"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0094",
+      "relation": "pairs with",
+      "note": "Both are ordinary, repeated acts of free giving to someone who cannot reciprocate, and both are candidates for where Object 6 first changes hands."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

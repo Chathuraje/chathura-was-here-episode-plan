@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0063",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Learning the Body",
+  "logline": "At a village temple school, young novices learn to recite the body's thirty-two parts aloud, forwards and backwards, stumbling over the reverse order until a teacher corrects them.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0121"
+  ],
+  "concept_ids": [
+    "C093",
+    "C063"
+  ],
+  "chronology": {
+    "group_id": "GRP-07",
+    "position_in_group": 6,
+    "global_position": 63
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-07"
+    ],
+    "note": "Object 7 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0062",
+    "thread": "Sight restored becomes the body named part by part: young novices reciting its thirty-two parts, an echo of the novices in 'Learning the Map' who memorised the mind."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0064",
+    "thread": "The body recited from the outside becomes a body built out of sight: a midwife's rounds following pregnancies week by week."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A village pirivena with new novices in early training",
+      "Full consent from guardians, the novices themselves, and the monastery's senior monks",
+      "A genuine, ongoing recitation practice, not one staged for filming"
+    ],
+    "suggestions": [
+      {
+        "name": "A village pirivena in the Central Province",
+        "region": "Kandy or Matale district",
+        "why": "The central hill villages have a strong tradition of small monastic schools.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific pirivena and its willingness to allow filming of minors are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0121"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

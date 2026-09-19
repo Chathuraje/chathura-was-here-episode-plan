@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0125",
+  "record_type": "idea",
+  "title": "Two Bodies, One Warmth",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "Through one year in a shared household, a grandchild visibly grows and a great-grandparent visibly slows, fed and warmed by the same table, the same well, the same weather.",
+  "human_question": "Is the warmth that grows a child the same warmth that wears out a grandparent?",
+  "premise": {
+    "story": "A year of ordinary life in a multi-generation household, following one young child and one elder side by side, told through the family's own rhythms and choices about what to share.",
+    "place": "A multi-generation family home in a village, where several generations share meals, chores and space.",
+    "experience": "Shared meals, bathing at the same well, a birthday and an illness, small daily changes that only add up when looked at across a whole year."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C064",
+      "role": "primary",
+      "why": "The source states plainly that one and the same ripening warmth builds up a young body and, once growth is complete, wears an older one down. A household spanning a full life makes that single claim visible without a word being said."
+    },
+    {
+      "concept_id": "C066",
+      "role": "supporting",
+      "why": "Grey hair, slower movement and stiffening joints are named as only the signs of decay, not decay itself, which has been present, hidden behind growth, from the start; this household can show both the growth and the sign at once."
+    },
+    {
+      "concept_id": "C072",
+      "role": "supporting",
+      "why": "The elder's presence quietly carries the group's closing question of what continues once a body ends, without the film needing to show a death directly."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Shared meals across generations",
+    "Bathing or washing at the same well or tap",
+    "The child's changing abilities: crawling, first words, first steps",
+    "The elder's changing pace: a birthday, an illness, a good day and a hard one",
+    "Evening routines that repeat, with small differences, through the year"
+  ],
+  "what_must_be_real": "The family's own rhythms, consent and comfort at every visit over the year. No schematic 'growth versus decay' framing imposed on real people; the family's own sense of the year, not a symbolic reading of it, must lead.",
+  "possible_arc": {
+    "opening": "The household's ordinary year begins.",
+    "turn": "A visible change in one or the other, good or hard, becomes impossible to ignore.",
+    "ending_open": "Wherever the year actually leaves the family."
+  },
+  "position_hint": "closing candidate: the group's clearest, most human answer to what continues when a body ends, carried by two bodies at opposite ends of one life; a strong film to end the group before it hands off to the next stage",
+  "location": {
+    "requirements": [
+      "A multi-generation household willing to be visited repeatedly across a full year",
+      "Ongoing consent from every generation, renewed at each visit",
+      "A household where an infant or young child and an elder both live together"
+    ],
+    "suggestions": [
+      {
+        "name": "A multi-generation household in a hill-country or Uva village",
+        "region": "Central or Uva Province",
+        "why": "Extended, multi-generation households living under one roof remain common in these regions; no specific family is identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific willing family has not been found or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "The elder's decline could be exploited for pathos",
+    "Framing the child as 'growth' and the elder as 'decay' would be too schematic and must be resisted",
+    "A year-long filming commitment needs genuinely ongoing, renewable consent from every generation"
+  ],
+  "drop_if": [
+    "No multi-generation household willing to be visited across a full year",
+    "A family member's health or circumstances make continued filming inappropriate"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0123",
+      "relation": "pairs with",
+      "note": "One family answers 'what remains' in the days right after a death; the other watches two bodies answer the same question across a whole year."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

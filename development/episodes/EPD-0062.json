@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0062",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "What the Eye Receives",
+  "logline": "At a free cataract camp, dressings come off one by one, and each patient's first sight in months arrives before anyone can film their face changing.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0124"
+  ],
+  "concept_ids": [
+    "C063",
+    "C064",
+    "C067"
+  ],
+  "chronology": {
+    "group_id": "GRP-07",
+    "position_in_group": 5,
+    "global_position": 62
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-07"
+    ],
+    "note": "Object 7 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0061",
+    "thread": "From an ear straining against the wind to eyes waiting behind dressings: a free eye camp, and first sight arriving after months."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0063",
+    "thread": "Sight restored becomes the body named part by part: young novices reciting its thirty-two parts, an echo of the novices in 'Learning the Map' who memorised the mind."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A free cataract or eye camp with institutional permission to film",
+      "Patients and families giving full informed consent",
+      "A camp large enough to allow following a small number of individual stories"
+    ],
+    "suggestions": [
+      {
+        "name": "A rural hospital or temple hall hosting a free eye camp",
+        "region": "North Central or Uva Province",
+        "why": "Free eye camps are a regularly run form of rural healthcare outreach in these provinces.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific camp, its organisers and willing patients are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0124"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

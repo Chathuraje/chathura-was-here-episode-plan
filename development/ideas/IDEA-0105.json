@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0105",
+  "record_type": "idea",
+  "title": "The Tea Round",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "Every night for years, a volunteer has pushed a tea trolley along hospital corridors for families who haven't left in days; on the night a patient finally goes home, the same trolley gets pushed a little faster.",
+  "human_question": "How do you stay useful to people's pain without either flinching from it or being flattened by it?",
+  "premise": {
+    "story": "A volunteer's routine of serving tea to relatives waiting outside hospital wards through the night, across ordinary nights and one discharge.",
+    "place": "Hospital corridors and benches at night, the grounds just outside a ward.",
+    "experience": "Long, quiet hours of small kindness, and the sudden lift when someone finally goes home."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C027",
+      "role": "primary",
+      "why": "Compassion toward the suffering and gladness at another's good fortune are separate responses that take turns, each needing a specific person actually in view [C027-M:L21; C027-P:L47]."
+    },
+    {
+      "concept_id": "C095",
+      "role": "supporting",
+      "why": "The same shift from wishing someone's pain to end toward gladness at their good fortune, without dwelling permanently in either [C095-P4:L39]."
+    },
+    {
+      "concept_id": "C012",
+      "role": "supporting",
+      "why": "Years of steady, unglamorous giving whose return is not the visible point of the act [C012-M:L22]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Night corridors and benches, the tea trolley on its round",
+    "Quiet exchanges with worried relatives",
+    "On another night, a discharge: hugs, relief, the volunteer's visible gladness",
+    "The volunteer's own account of years of doing this"
+  ],
+  "what_must_be_real": "Explicit, informed consent from every patient and relative shown. No identifying detail of anyone's medical condition without consent.",
+  "possible_arc": {
+    "opening": "A quiet, ordinary night round.",
+    "turn": "A longer, harder wait for one particular family.",
+    "ending_open": "Whatever actually happens to that family, whether the news is good or not."
+  },
+  "position_hint": "closing candidate: hands the group off to the next stage's concern with the body's fragility, seen here in the sick and those keeping vigil through the night",
+  "location": {
+    "requirements": [
+      "Hospital administration approval for filming in patient-adjacent areas",
+      "A real, long-serving volunteer willing to be followed over time",
+      "Full, ongoing consent from every patient and family member shown"
+    ],
+    "suggestions": [
+      {
+        "name": "The grounds of a district or provincial base hospital",
+        "region": "Region-level, unspecified",
+        "why": "No specific hospital is named; this requires institutional access and permission wherever it is filmed.",
+        "season_notes": "",
+        "access_notes": "Hospital administration permission required.",
+        "verify": "No specific hospital, volunteer or family has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "High: patients' and families' privacy and distress during an already vulnerable time",
+    "Must never linger on suffering for emotional effect",
+    "Institutional and personal consent required throughout, and may be withdrawn at any point"
+  ],
+  "drop_if": [
+    "Hospital administration or families will not consent, or filming would disrupt patient care"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0106",
+      "relation": "pairs with",
+      "note": "Both are closing candidates for the group, handing off to the next stage's concern with the body's fragility."
+    },
+    {
+      "idea_id": "IDEA-0100",
+      "relation": "leads into",
+      "note": "Sustained, patient attention to one held-in-mind good thing there leads into sustained, patient care for people here."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

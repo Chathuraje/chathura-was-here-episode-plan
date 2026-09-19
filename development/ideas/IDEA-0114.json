@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0114",
+  "record_type": "idea",
+  "title": "Before First Light",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "A night-shift watchman fights sleep through the small hours, and when his attention finally sinks, his body slumps with it, and has to be caught and held up again.",
+  "human_question": "What keeps a body upright, when the mind that is supposed to hold it up can barely stay awake?",
+  "premise": {
+    "story": "One long night shift, from the quiet after midnight to the change in the body and the light at dawn, told through a watchman's own routines and reasons for the work.",
+    "place": "A tea or rubber estate factory, or a security post, kept awake through the night by one or two people.",
+    "experience": "The stretched, echoing quiet of the small hours, a head dropping and snapping back, tea made to stay awake, and the visible change in the body when the sky lightens."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C068",
+      "role": "primary",
+      "why": "The source uses exactly this situation: mind-born matter is what moves the body and holds its posture, arising only at the instant of a thought. When the mind sinks into its faint sleep-state, the body can no longer hold itself up, and a sitting or standing person who dozes off falls."
+    },
+    {
+      "concept_id": "C066",
+      "role": "supporting",
+      "why": "Lightness and workability of the body are described as coming and going with sleep, food, weather and mood; a long night shift is where their absence is most visible."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Posture slowly collapsing in a chair through the small hours",
+    "The head dropping and snapping back, a hand gripping a torch or rail",
+    "A tea break or a walk taken specifically to stay upright",
+    "Ordinary rounds and checks repeated through the night",
+    "The visible change in the body when dawn comes and the shift ends"
+  ],
+  "what_must_be_real": "The worker's actual shift, routines and reasons for the job. Nothing staged; fatigue must never be framed as a personal failing rather than a real labour condition, and the worker must not be exposed to disciplinary risk by the filming.",
+  "possible_arc": {
+    "opening": "The quiet that settles in after midnight.",
+    "turn": "The fight between attention and gravity, hour by hour.",
+    "ending_open": "Whatever the body and the worker actually do when the shift ends."
+  },
+  "position_hint": "opening candidate: a body shaped by the hours it keeps, at the very edge of what the mind can hold up, and a possible point for Object 7 to be acquired if a real moment allows it",
+  "location": {
+    "requirements": [
+      "A genuine night shift with a worker willing to be filmed over several nights",
+      "Employer permission that does not put the worker's job at risk",
+      "Enough low light to film without disturbing the work"
+    ],
+    "suggestions": [
+      {
+        "name": "A tea or rubber estate factory running a night shift",
+        "region": "Central Highlands (e.g. Hatton/Dikoya or Nuwara Eliya district)",
+        "why": "Estate factories are well documented as running through the night during processing season.",
+        "season_notes": "Depends on the estate's processing calendar.",
+        "access_notes": "",
+        "verify": "A specific estate, its night-shift practice and management permission are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Could mock or expose a worker who might be disciplined for dozing on duty",
+    "Framing fatigue as a personal failing rather than a labour condition",
+    "Low-light filming logistics"
+  ],
+  "drop_if": [
+    "No willing worker and employer consent that protects the worker's job",
+    "Filming would itself put the worker at risk of discipline"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0122",
+      "relation": "mirrors",
+      "note": "Both watch attention keep a tired body going through a long stretch of work, one through the night, one through a harvest day."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

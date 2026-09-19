@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0095",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "What No Longer Comes Up",
+  "logline": "Years after giving up an old trade everyone in the village remembers, a shopkeeper now sells something else, in the same street, past the same old customers, and talks plainly about the difference between holding back and not being pulled at all.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0181"
+  ],
+  "concept_ids": [
+    "C098",
+    "C016"
+  ],
+  "chronology": {
+    "group_id": "GRP-10",
+    "position_in_group": 9,
+    "global_position": 95
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-10"
+    ],
+    "note": "Object 10 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0094",
+    "thread": "The weed that will not return becomes a pull that no longer comes: a shopkeeper who gave up an old trade and talks about not being pulled at all."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0096",
+    "thread": "Freedom from an old pull leaves a mind that is simply ready: a lifeguard crew drilling the same response for a danger that may never come."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A person willing to speak openly about a past trade or habit and a real current change",
+      "Full, ongoing consent, with the ability to stop the shoot",
+      "A community where the past is known but not weaponised against the person"
+    ],
+    "suggestions": [
+      {
+        "name": "A small town or village",
+        "region": "Any province",
+        "why": "This kind of quiet, local reinvention could happen almost anywhere.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific person or place is identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0181"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

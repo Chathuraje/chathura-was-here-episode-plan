@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0015",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "One Hand Holds",
+  "logline": "In a small moonstone workshop, a cutter grips a rough stone firmly in one hand while the other, for hours, does nothing but polish.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0020"
+  ],
+  "concept_ids": [
+    "C021",
+    "C032"
+  ],
+  "chronology": {
+    "group_id": "GRP-02",
+    "position_in_group": 7,
+    "global_position": 15
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-02"
+    ],
+    "note": "Object 2 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0014",
+    "thread": "After the loud, public effort of a kite launch, wanting-to-do turns quiet and private in the southern low country: one hand polishing a stone for hours with no one watching."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0016",
+    "thread": "Patient effort that expects a result gives way to its opposite: a daily ritual of buying the same numbers, wanting without quite expecting."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A working lapidary or goldsmith's workshop",
+      "A cutter willing to be filmed over the span of one piece's completion",
+      "Quiet space for close, detailed camera work"
+    ],
+    "suggestions": [
+      {
+        "name": "A moonstone-cutting workshop near Meetiyagoda",
+        "region": "Galle District, Southern Province",
+        "why": "Meetiyagoda is Sri Lanka's best-known moonstone-mining and cutting area.",
+        "season_notes": "",
+        "access_notes": "Specific workshop unconfirmed.",
+        "verify": "No workshop or cutter has been contacted; this is a plausible setting, not a confirmed location.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0020"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

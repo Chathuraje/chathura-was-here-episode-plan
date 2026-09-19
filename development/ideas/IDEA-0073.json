@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0073",
+  "record_type": "idea",
+  "title": "The Work Between Moments",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": ["IDEA-P01-A"],
+  "group_id": "GRP-05",
+  "logline": "A person or small crew works through a real, bounded task, something that must be made, repaired, prepared, moved or completed, and reality alone decides whether it succeeds. The film watches contact, recognition and adjustment happen in real time, and lets actions, natural sound and the participants' own words carry whatever can be known about what they felt.",
+  "human_question": "When real work changes from moment to moment, how does a person recognize what is happening, live with how it feels, and decide what to do next?",
+  "premise": {
+    "story": "One person or a small working group carries out a real, consequential task with a visible beginning, real constraints, corrections along the way and a genuine finish. The task itself, not a lesson about it, supplies the story.",
+    "place": "An active, ethically filmable working environment where a bounded task unfolds through observable action, with enough visual and natural-sound variation to sustain a film without the crew interrupting or reshaping the work.",
+    "experience": "The viewer watches contact with materials and people, moments that feel easy, painful or ordinary, the features a skilled worker recognizes, and the choices that redirect the work, without the film ever claiming to see inside anyone's mind."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C020",
+      "role": "primary",
+      "why": "The seven factors present in every moment of mind, contact, feeling, perception, volition, one-pointedness, momentary maintenance and attention, offer an editorial checklist for attending to a real task: what is touched, how it feels, what is recognized, what drives the next move, what the worker's mind rests on, what keeps the moment going, and where attention is directed. It is not imposed on the film as a seven-step plot or as a diagnosis of any participant's inner life."
+    },
+    {
+      "concept_id": "C032",
+      "role": "supporting",
+      "why": "Its distinction between pleasant, painful and neutral feeling, and between bodily and mental forms, keeps the film from treating all difficulty in the work as one flat emotion. A participant's own account is required before the film ever attributes a feeling to them."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Hands, tools, materials, faces, pauses, repeated attempts, checks and corrections",
+    "Cooperation between people doing the task together",
+    "Changes in pace, sound, light, weather or material condition, if they actually occur",
+    "The full natural-sound texture of the work, including its quiet intervals",
+    "Participant explanations tied to concrete actions: what they noticed, recognized, expected or changed"
+  ],
+  "what_must_be_real": "The task, its constraints and its consequences must be real; nothing is staged for the camera. The edit must not present facial expression alone as proof of an inner feeling or intention. Stakes must come from what completion or failure means to the participant, not from manufactured urgency, and participants must describe comfort, pain, recognition and decision in their own words, never supplied by the interviewer.",
+  "possible_arc": {
+    "opening": "A real task begins; its constraints and its stakes are already present before the camera arrives.",
+    "turn": "A real requirement, an error, a changing condition or a responsibility to another person forces a visible adjustment, if research verifies that one occurs.",
+    "ending_open": "The task ends in completion or failure, whichever reality actually delivers; the film never promises mastery or transformation beforehand."
+  },
+  "position_hint": "middle: a close study of ordinary skilled work and the moment-by-moment adjustment inside it, not tied to a specific Object 5 acquisition moment unless research finds a real one.",
+  "location": {
+    "requirements": [
+      "An active, ethically filmable working environment where a bounded task unfolds through observable action",
+      "Sufficient visual and natural-sound variation without the crew interrupting or reshaping the work",
+      "Safe camera access and fully informed participant consent"
+    ],
+    "suggestions": [],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "No real task with an independent human stake beyond illustrating C020 or C032 has been found",
+    "Drifting into passive observation of a task with nothing real at stake",
+    "Over-attributing inner feeling to facial expression alone rather than to what a participant actually says"
+  ],
+  "drop_if": [
+    "The task has no independent human stake beyond illustrating C020 or C032",
+    "Access would require staging actions or disrupting livelihoods",
+    "Participants do not want inner experience discussed, or the film can only infer it from images",
+    "The work is visually repetitive without real development, relationship or consequence",
+    "Research reveals that the combined framework distorts how participants understand their own activity"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0081",
+      "relation": "mirrors",
+      "note": "Both are close studies of an ordinary working day built from repeated small acts of noticing and response."
+    }
+  ],
+  "source_doc": "docs/planning/pilot-01/idea-p01-a-the-work-between-moments.md",
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction.",
+    "C084 was read during the pilot phase and deliberately left unattached; this idea does not need it."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

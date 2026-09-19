@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0141",
+  "record_type": "idea",
+  "title": "What the Fire Leaves",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "A dry-zone family sows a paddy field, tends it through drought and pests, and waits to see whether the season ends in harvest or ruin.",
+  "human_question": "How many different forces have to go right, one after another, for anything to come to fruit?",
+  "premise": {
+    "story": "A paddy-farming family followed through one full growing season, from ploughing to whatever the harvest actually turns out to be.",
+    "place": "A dry-zone paddy village dependent on a seasonal tank or rains.",
+    "experience": "Mud and water at the start, the long wait through the growing months, a dry spell or a pest outbreak, and the specific tension of the final weeks before harvest."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C055",
+      "role": "primary",
+      "why": "The source's own image for its four kinds of kamma is exactly this: sowing a field, tending it, a drought that weakens the crop, then a fire that ends it [C055-P:L127]. The film can follow a real season and let the viewer feel the forces at work without the concept ever being named."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Ploughing and sowing",
+    "Repairing water channels",
+    "Night watches against animals",
+    "A dry spell or pest damage",
+    "The harvest or its failure",
+    "The family's own account of a hard season"
+  ],
+  "what_must_be_real": "A real family's real season, with its real financial stakes. The film does not know in advance whether the harvest will succeed.",
+  "possible_arc": {
+    "opening": "Water let into a prepared field, seed going in.",
+    "turn": "A dry spell, a pest, or some other setback threatens the crop.",
+    "ending_open": "Harvest, partial harvest, or loss, whichever the season actually brings."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A paddy-farming family willing to be followed across a full growing season",
+      "Access to a dry-zone irrigation tract"
+    ],
+    "suggestions": [
+      {
+        "name": "A village in the Polonnaruwa district",
+        "region": "North Central Province",
+        "why": "An established dry-zone paddy-farming area with tank-fed irrigation.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific family or field identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning a family's crop loss into a moral lesson",
+    "Implying hardship reflects the family's own past actions",
+    "Filming across a season requires a long, patient production schedule"
+  ],
+  "drop_if": [
+    "No family will commit to being filmed across an entire season",
+    "The season is too uneventful or too catastrophic to tell honestly"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0143",
+      "relation": "mirrors",
+      "note": "A second, different-scale story about a growing season and what happens when the rain does not come."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

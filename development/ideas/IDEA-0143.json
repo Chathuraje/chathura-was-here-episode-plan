@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0143",
+  "record_type": "idea",
+  "title": "When the Rain Stops",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "In an eastern dry-zone village, the paddy comes up green and full, and then the rain that should keep coming simply stops.",
+  "human_question": "What does a community do while it waits to find out whether this season will be the one that breaks it?",
+  "premise": {
+    "story": "A farming community around a large dry-zone tank, watching a promising crop as the rains fail, and making the hard daily decisions that follow.",
+    "place": "A tank-irrigated farming area in the Eastern Province dry zone.",
+    "experience": "A green, hopeful field turning to cracked earth, farmers checking the tank's water line each morning, and a community's practical response, water-sharing meetings, decisions about what to save."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C052",
+      "role": "primary",
+      "why": "The source's account of how a world ends begins with something entirely ordinary: rain falls, people sow happily, the crop grows, and then the rain stops for good [C052-P:L156-L160]. A real drought carries that shape without any cosmic frame ever being spoken."
+    }
+  ],
+  "what_camera_could_observe": [
+    "A green, well-grown field",
+    "Cracks opening in dry earth",
+    "Farmers checking the tank's falling water line",
+    "A water-sharing meeting",
+    "A household's decision about what to save or let go"
+  ],
+  "what_must_be_real": "A real, current drought's real stakes for a real farming community. The film does not stage or predict the outcome.",
+  "possible_arc": {
+    "opening": "A full tank, a healthy crop.",
+    "turn": "The rains fail to come; the water line keeps dropping.",
+    "ending_open": "Whatever the community's season actually brings, a partial harvest, a hard decision, or rain arriving late."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A dry-zone tank-irrigated farming community currently facing or recently through a drought",
+      "Farmers and a water-management body willing to be filmed"
+    ],
+    "suggestions": [
+      {
+        "name": "The Ampara or Batticaloa district dry zone",
+        "region": "Eastern Province",
+        "why": "Large tank-irrigated paddy areas in the eastern dry zone; suggested for regional variety alongside the group's other dry-zone stories.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific tank or village identified; current drought conditions would need confirming at the time of filming.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Implying that drought is caused by anyone's moral failure",
+    "Turning real hardship into an apocalyptic metaphor",
+    "Suggesting fatalism about climate and livelihood"
+  ],
+  "drop_if": [
+    "No drought or water crisis is actually underway when filming would occur",
+    "No farming community consents to being filmed through a hard season"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0141",
+      "relation": "mirrors",
+      "note": "A second growing-season story, this one following a community through a season's failure rather than a single family's."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

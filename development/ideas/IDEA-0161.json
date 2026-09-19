@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0161",
+  "record_type": "idea",
+  "title": "What the Meal Leaves Behind",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "A family cooks for two days to welcome a relative home after years working abroad, and afterwards, over the same plates and the same effort, one person feels only relief, another quiet pride, and another an old feeling they did not expect.",
+  "human_question": "Can the very same act of care mean completely different things to the people who remember it?",
+  "premise": {
+    "story": "A household's preparation and celebration of a homecoming, or another large, real family effort such as a wedding meal or a harvest kitchen, followed through the work itself and into the days after, when people talk about it differently.",
+    "place": "A village or small-town home in the low country.",
+    "experience": "Two days of real labour, noise and shared effort, then a quieter aftermath where the same event settles differently into different people."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C082",
+      "role": "primary",
+      "why": "The object-condition teaching, illustrated at length in the Pradeepika: the memory of one act, such as giving, can support gladness, pride, possessiveness, doubt or regret, depending only on the mind that takes it up."
+    },
+    {
+      "concept_id": "C075",
+      "role": "supporting",
+      "why": "Food and shared effort as what keeps a household going, the plainest form of nutriment as a condition for continuing life."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Cooking in bulk over two days",
+    "Borrowed pots and helping neighbours",
+    "The arrival and the meal itself",
+    "Family members separately, afterwards, on how the same days felt to them"
+  ],
+  "what_must_be_real": "The family's actual relationships and history; nothing about private feelings should be prompted or dramatised beyond what they choose to say.",
+  "possible_arc": {
+    "opening": "Preparations beginning, the house full of work.",
+    "turn": "The homecoming itself, a single shared event.",
+    "ending_open": "Whatever the family actually says, separately, about the same days."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A family with a genuine homecoming or comparable large shared effort within the filming window",
+      "Willingness from more than one family member to speak separately and honestly",
+      "Consent that extends to showing mixed or difficult feelings, not only celebration"
+    ],
+    "suggestions": [
+      {
+        "name": "A village or small-town home in the low country",
+        "region": "Kurunegala or Kegalle district",
+        "why": "A central low-country setting distinct from the group's coastal and dry-zone ideas, common for both migrant-worker households and large family gatherings.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific family and event must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Pushing family members toward a 'revealing' interview",
+    "Turning private feeling into an illustration of doctrine",
+    "Consent to show any tension must be explicit and ongoing"
+  ],
+  "drop_if": [
+    "No family willing to speak honestly about mixed feelings",
+    "No comparable real event falls within the filming window"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0157",
+      "relation": "pairs with",
+      "note": "The catch followed in 'Boat to Plate' could plausibly reach a table like this one."
+    },
+    {
+      "idea_id": "IDEA-0163",
+      "relation": "mirrors",
+      "note": "Both look at what a shared effort, a meal or a firing, leaves behind once it is over: different feelings in the people who remember it, or a finished, imperfect result."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

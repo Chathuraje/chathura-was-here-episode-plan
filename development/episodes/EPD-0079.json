@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0079",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "What the Channel Feeds",
+  "logline": "In a dry-zone village, farmers wait for the tank gate to open, and a single release of water starts a chain that ends, months later, at a bowl of rice on a table none of them will ever see.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0153"
+  ],
+  "concept_ids": [
+    "C075",
+    "C082",
+    "C078"
+  ],
+  "chronology": {
+    "group_id": "GRP-09",
+    "position_in_group": 1,
+    "global_position": 79
+  },
+  "object": {
+    "acquires": "OBJ-09",
+    "appears": [],
+    "note": "Object 9 (identity not chosen) could enter only if something that exists because of the whole chain, such as hand-milled rice or a winnowing basket, is genuinely given. Never staged."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0078",
+    "thread": "If nothing passes across and yet everything continues, something must connect it all: from nets passed hand to hand to a tank gate opening, the first link in a chain that ends in a bowl of rice."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0080",
+    "thread": "The water that starts the chain meets a machine that stopped: a repairer opening a water pump to find not one cause but several small ones."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A working tank-fed irrigation system with a visible water-sharing arrangement",
+      "A family plot that can be followed through most of one season",
+      "Willingness to show disputes or hardship honestly, not only a good outcome"
+    ],
+    "suggestions": [
+      {
+        "name": "A minor-tank paddy village in the Rajarata dry zone",
+        "region": "Anuradhapura or Polonnaruwa district",
+        "why": "Small, tank-fed paddy systems with rotational water sharing are widespread and long-established across this region.",
+        "season_notes": "Yala or Maha cultivation season, depending on the tank",
+        "access_notes": "",
+        "verify": "A specific tank, family and water-sharing arrangement must be identified and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0153"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

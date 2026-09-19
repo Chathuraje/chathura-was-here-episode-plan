@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0057",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Tea Round",
+  "logline": "Every night for years, a volunteer has pushed a tea trolley along hospital corridors for families who haven't left in days; on the night a patient finally goes home, the same trolley gets pushed a little faster.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0105"
+  ],
+  "concept_ids": [
+    "C027",
+    "C095",
+    "C012"
+  ],
+  "chronology": {
+    "group_id": "GRP-06",
+    "position_in_group": 10,
+    "global_position": 57
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-06"
+    ],
+    "note": "Object 6 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0056",
+    "thread": "From the day's rounds at the elders' home to night rounds in a hospital, where a volunteer's tea trolley reaches families who have not left in days."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0058",
+    "thread": "Kindness meets the body's fragility: from the tea trolley's night corridors to a tea factory's night shift, where a watchman's body sinks with his sleep and has to be held up again."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "Hospital administration approval for filming in patient-adjacent areas",
+      "A real, long-serving volunteer willing to be followed over time",
+      "Full, ongoing consent from every patient and family member shown"
+    ],
+    "suggestions": [
+      {
+        "name": "The grounds of a district or provincial base hospital",
+        "region": "Region-level, unspecified",
+        "why": "No specific hospital is named; this requires institutional access and permission wherever it is filmed.",
+        "season_notes": "",
+        "access_notes": "Hospital administration permission required.",
+        "verify": "No specific hospital, volunteer or family has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0105"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

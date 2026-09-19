@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0036",
+  "record_type": "idea",
+  "title": "Third Gear",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "At a small roadside repair shop, broken vehicles arrive all day, each one carrying a customer who is already frustrated before they say a word. The mechanic fixes what is broken and, without quite trying to, absorbs what people bring with it.",
+  "human_question": "What happens to a day made entirely of other people's small refusals?",
+  "premise": {
+    "story": "A long working day at a three-wheeler or motorcycle repair shop: vehicles arriving broken, customers' first words, waiting, bargaining, repair, and the mechanic's own mood shifting as the hours pass.",
+    "place": "A small workshop on a provincial main road, tools and parts within arm's reach.",
+    "experience": "The viewer feels the accumulation of a day: each small breakdown a small refusal of someone's plan, and the workshop as the place all of those refusals pass through."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C007",
+      "role": "primary",
+      "why": "'Not getting what one wants' and 'when what one asks for is not given' are named directly among the ordinary occasions for this state of mind [C007-P:L49; C007-M:L17]. A repair shop is where a whole day's worth of those small refusals arrive, one customer at a time."
+    },
+    {
+      "concept_id": "C022",
+      "role": "supporting",
+      "why": "Restlessness is one of the four factors present in every state of this kind, described as a mind that will not settle on what is in front of it [C022-P:L73; C022-M:L19]. A long day of interruptions and impatient customers is an everyday register of that same unsettling."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Vehicles arriving broken, and the first words exchanged",
+    "The mechanic's hands at work, and the tools of the trade",
+    "Waiting customers: phones checked, small complaints, bargaining over price and time",
+    "The mechanic's own mood across the day, in quiet moments between jobs",
+    "The shop closing, and whatever is left unresolved"
+  ],
+  "what_must_be_real": "The shop, the mechanic and the customers' visits must all be genuine and unscripted. No breakdown, delay or disagreement may be arranged for the camera.",
+  "possible_arc": {
+    "opening": "The shop opening; the first vehicle of the day rolled in.",
+    "turn": "A difficult customer, or a difficult repair, tests the mechanic's patience in view of the camera.",
+    "ending_open": "However the day actually ends for the mechanic closes the film."
+  },
+  "position_hint": "opening candidate: a repair shop deals daily in objects marked by damage and mended by hand, which fits Object 3's symbolic hint directly, and a genuinely offered or discarded repaired part could be a natural acquisition moment",
+  "location": {
+    "requirements": [
+      "A working roadside repair shop with steady daily traffic",
+      "A mechanic willing to be filmed across a full working day",
+      "Customers willing to be shown and, where their words are used, to consent"
+    ],
+    "suggestions": [
+      {
+        "name": "A roadside repair shop on a provincial main road",
+        "region": "Kurunegala or Kegalle town, North Western or Sabaragamuwa Province",
+        "why": "Busy provincial towns on major road corridors with a steady flow of three-wheeler and motorcycle traffic and many small repair shops.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific shop and mechanic willing to be filmed must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "The temptation to provoke or wait for a confrontation rather than observe",
+    "Making an ordinary hard day look like a portrait of a short-tempered person",
+    "Customers' faces and words used without clear consent"
+  ],
+  "drop_if": [
+    "No shop or mechanic will allow a full day's observation",
+    "The only usable material would require prompting a dispute"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0033",
+      "relation": "alternative to",
+      "note": "Both are opening candidates where Object 3's mark of repair could plausibly be acquired; only one should open the group."
+    },
+    {
+      "idea_id": "IDEA-0044",
+      "relation": "leads into",
+      "note": "The shop's small refusals of the day open into the queue's larger, slower version of the same wait."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

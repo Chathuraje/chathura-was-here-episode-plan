@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0098",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Emptied Room",
+  "logline": "An elderly woman gives away what is left of a house she has lived in for sixty years, and Chathura leaves her doorway for a road that, by evening, puts him down in the middle of a crowded city junction.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0187"
+  ],
+  "concept_ids": [
+    "C073",
+    "C015",
+    "C102"
+  ],
+  "chronology": {
+    "group_id": "GRP-10",
+    "position_in_group": 12,
+    "global_position": 98
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-01",
+      "OBJ-10"
+    ],
+    "note": "Object 10 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject. Object 1, the first object, may also be carried into the day that ends in the crowd."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0097",
+    "thread": "Stepping away without abandoning anyone leads to a final giving away: an elderly woman emptying a house of sixty years, and a doorway that becomes Chathura's road toward the crowd."
+  },
+  "thread_out": {
+    "to_episode_id": null,
+    "thread": "Ends on the crowded-location event → Episode 100 Part A."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": 99,
+    "pinned_note": "last film in story time; ends on the crowd shared with Episodes 1 and 100"
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "An elderly person genuinely leaving or emptying a long-held home, with full family consent",
+      "A road connecting that home to a real, busy Sri Lankan city junction",
+      "Care around a private, possibly difficult life transition"
+    ],
+    "suggestions": [
+      {
+        "name": "A hill-country village home, with the road leading toward Kandy",
+        "region": "Central Province",
+        "why": "Kandy has a well-known, busy town centre suitable for the required crowded-location ending; the exact junction is undecided.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific family, home or exact junction is identified; the crowded-location choice belongs to Chathura.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0187"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

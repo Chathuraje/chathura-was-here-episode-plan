@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0059",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Counting to Ten",
+  "logline": "At a dry-zone paddy store during harvest, a measurer fills basket after basket by hand, calling each count aloud, never rushing and never losing his place.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0122"
+  ],
+  "concept_ids": [
+    "C094",
+    "C068"
+  ],
+  "chronology": {
+    "group_id": "GRP-07",
+    "position_in_group": 2,
+    "global_position": 59
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-07"
+    ],
+    "note": "Object 7 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0058",
+    "thread": "The long night's struggle to stay upright gives way to a harvest day kept steady by counting aloud, basket after basket, never losing the place."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0060",
+    "thread": "From grain in the hands to clay in the hands: a potter's family reading hardness, wetness, warmth and air long before any of it has a name."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "An active paddy store using hand measuring at harvest time",
+      "A measurer and farmers willing to be filmed during a real harvest day",
+      "Correct timing within the harvest calendar"
+    ],
+    "suggestions": [
+      {
+        "name": "Paddy stores of the North Central rice-growing districts",
+        "region": "Polonnaruwa District",
+        "why": "A well-known dry-zone rice-growing area with active harvest-season paddy trading.",
+        "season_notes": "Timed to the maha or yala harvest season; needs local confirmation.",
+        "access_notes": "",
+        "verify": "A specific store, its continued use of hand measuring and willingness to be filmed are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0122"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

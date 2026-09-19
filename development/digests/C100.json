@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C100",
+  "record_type": "concept_digest",
+  "concept_id": "C100",
+  "group_id": "GRP-10",
+  "title_si": "මාර්ග වීථි හා ඵලසමාපත්ති වීථි",
+  "title_en": "Path and fruition processes",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C100-P4",
+      "path": "content/02-concepts/Chapter 9/Concept 100 - මාර්ග වීථි හා ඵලසමාපත්ති වීථි/sources/Abhidhammattha Pradeepika Book 4.md",
+      "lines": "1-247",
+      "complete": true,
+      "markers": "Book 4, ch. 9 (කම්මට්ඨාන සංග්‍රහ විභාගය), section '7. ඤානදර්ශන විශුද්ධිය', pdf 607–620 / printed 588–601, then pdf 639–640 / printed 620–621 (fruition attainment); Sinhala commentary only; extract notes deliberate overlap with Concepts 97 and 98"
+    },
+    {
+      "ref": "C100-P",
+      "path": "content/02-concepts/Chapter 9/Concept 100 - මාර්ග වීථි හා ඵලසමාපත්ති වීථි/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-200",
+      "complete": true,
+      "markers": "Book 1, ch. 4 (වීථි සංග්‍රහ විභාගය), 'මාර්ග චිත්ත වීථි' pdf 349–362 / printed 339–352, then 'ඵලසමාපත්ති වීථි' pdf 372–373 / printed 362–363; Sinhala commentary only"
+    },
+    {
+      "ref": "C100-M",
+      "path": "content/02-concepts/Chapter 9/Concept 100 - මාර්ග වීථි හා ඵලසමාපත්ති වීථි/sources/Abhidharma Margaya.md",
+      "lines": "1-45",
+      "complete": true,
+      "markers": "Section '16. මාර්ග වීථි හා ඵලසමාපත්ති වීථි' (labelled '19 වන පාඩම'); no frontmatter, page or edition metadata"
+    }
+  ],
+  "summary_en": "The extracts describe the sequence of mind-moments in which each of the four supramundane paths (stream-entry, once-return, non-return, arahantship) arises, and the later sequence by which a noble person re-enters the fruit already won. When insight has matured, a single mind-door process runs within the limit of seven impulsion moments: preparation, access and conformity moments that still take conditioned things as object; then 'change-of-lineage' (gotrabhū), which is called 'cleansing' (vodāna) for the three higher paths, and which takes nibbāna as object; then one path moment that does four tasks at once; then two fruit moments for a slower person or three for a quicker one. Five reviewing processes follow each path (four for the arahant, nineteen in all). Fruition attainment is a noble person's deliberate re-entry into their own fruit, for a period decided in advance, entered and left by turning attention towards or away from the signless; the Margaya says the fruit moments in one such process have no fixed number.",
+  "sinhala_explanation": [
+    {
+      "heading": "මාර්ග වීථි සතර, මාර්ගයට පැමිණෙන පුද්ගලයෝ දෙදෙනා සහ පෙර පිළිවෙත",
+      "text": "ලෝකෝත්තර මාර්ග සිත් හා ඵල සිත් උපදින චිත්ත වීථි 'මාර්ග චිත්ත වීථි' නම් වේ. එක් පුද්ගල සන්තානයක සෝවාන්, සකෘදාගාමී, අනාගාමී, අර්හත් යන මාර්ග වීථි සතර මිස ඊට වැඩි ගණනක් නූපදී [C100-P:L25]. අභිධර්ම මාර්ගය ද මාර්ග වීථි සතර දක්වා, 'ප්‍රථම ධ්‍යාන ශ්‍රෝතාපත්ති මාර්ගය' ආදී වශයෙන් ධ්‍යාන ක්‍රමයෙන් එක් එක් මාර්ගයට වීථි පස බැගින් විස්සක් ද, මන්දප්‍රාඥ-තීක්ෂ්ණප්‍රාඥ වශයෙන් දෙගුණ කොට සතළිසක් ද ගණන් කරයි [C100-M:L5].\n\nප්‍රදීපිකාවට අනුව මාර්ගඵල උපදවන පුද්ගලයෝ දෙදෙනෙකි: ශුෂ්ක විදර්ශකයා සහ සමථයානිකයා [C100-P:L27]. ධ්‍යාන පසෙන් එකක් හෝ කීපයක් උපදවා, එකක් උපකාර කොට ගෙන විදර්ශනා වඩා මාර්ගඵල ලබන්නා සමථයානික ආර්ය පුද්ගලයා ය; ඔහුගේ මාර්ගඵල සිත් ලෝකෝත්තර ධ්‍යාන සිත් සතළිසට ඇතුළත් වේ [C100-P:L29–L33]. ධ්‍යානය පාදක නොකොට විදර්ශනාවෙන්ම මාර්ගඵලයට පැමිණෙන්නා ශුෂ්ක විදර්ශකයා ය; ඔහුට ලෝකෝත්තර සිත් අටෙන් එක් මාර්ග සිතක් හා එක් ඵල සිතක් ලැබේ [C100-P:L35]. ධ්‍යානය මාර්ගයේ ස්වභාවයට බලපාන ආකාර තුනක් ප්‍රදීපිකාව දක්වයි: සමවැදී නැගිට ඒ ධ්‍යානයේ නාම ධර්ම අනිත්‍ය, දුක්ඛ, අනාත්ම වශයෙන් විදර්ශනා කරන 'පාදක ධ්‍යානය'; එක් ධ්‍යානයකට සමවැදී වෙනත් ධ්‍යානයක් සම්මර්ශනය කරන 'සම්මසිත ධ්‍යානය'; අසවල් ධ්‍යානයට බඳු මාර්ගයක් ලබමියි අදහස් කරන 'පුද්ගලජ්ඣාසය ධ්‍යානය' [C100-P:L37–L43]. එසේ ලැබෙන මාර්ගඵල ඒ ධ්‍යානයට සමාන අංගවලින් යුක්ත වේ [C100-P:L45]. මේ ත්‍රිවිධය ධ්‍යානලාභීන්ට පමණක් වුවද, ශුෂ්ක විදර්ශකයාගේ මාර්ගය ද ප්‍රථම ධ්‍යානයට සමාන අංග පසකින් යුක්ත බැවින් කවර මාර්ගයක් වුවද ධ්‍යානාංගවලින් තොර නොවේ [C100-P:L49].\n\nනිවන් අවබෝධයට වීර්ය කරන සෑම කෙනෙකුම ශීල, සමාධි, ප්‍රඥා පිළිවෙළින් වැඩිය යුතුය: පිරිසිදු සීලයෙන් තොර සමාධියක් නැත; සමාධියෙන් තොර සිතක විදර්ශනා ඥානය නූපදී; විදර්ශනාවෙන් තොර ලෝකෝත්තර මාර්ගඵලයක් නැත [C100-P:L51]. දීර්ඝ කාලයක් තියුණු කළ ශ්‍රද්ධාදී ඉන්ද්‍රිය පස, ත්‍රිහේතුක ප්‍රතිසන්ධිය, ප්‍රතිරූප දේශ වාසය, පණ්ඩිත සේවනය, සද්ධර්ම ශ්‍රවණය හා නොපසුබට වීර්යය ඇත්තාටම මාර්ගඵල අවබෝධය කළ හැකි බවත්, හෙතෙම ශීල විසුද්ධියෙහි පිහිටා කසිණ, ආනාපාන හෝ තමාට ප්‍රකට අරමුණකින් අඩුම තරමින් ප්‍රථම ධ්‍යානයවත් ලබා චිත්ත විසුද්ධිය සපයා ගන්නා බවත් ප්‍රදීපිකාව කියයි [C100-P:L53–L57]. ඉන්පසු නාමරූප දැකීමෙන් දිට්ඨි විසුද්ධිය, ප්‍රත්‍යය දැකීමෙන් කඞ්ඛාවිතරණ විසුද්ධිය, ඕභාසාදී දස විදර්ශනෝපක්ලේශවලින් නොමග නොයාමෙන් මග්ගාමග්ග ඤාණදස්සන විසුද්ධිය, උදයව්‍යය ඥානාදී නව මහා විදර්ශනා ඥානවලින් ප්‍රතිපදා ඤාණදස්සන විසුද්ධිය ලැබේ; මේ ෂට් විසුද්ධිය ලත් තැනැත්තා 'චුල්ලසෝතාපන්න' යයි කිව යුතු අතර, තවත් වැඩිය යුතු විදර්ශනාවක් නැති කල මාර්ග චිත්ත වීථිය පහළ වේ [C100-P:L59]. සතරවන කාණ්ඩය ද මේ පිළිවෙළම සාරාංශ කරයි [C100-P4:L99]."
+    },
+    {
+      "heading": "සෝවාන් මාර්ග වීථිය: අනුලෝමයේ සිට ඵලය දක්වා",
+      "text": "විදර්ශනාව මුදුන් පත් කල භවාංග චලන, භවාංගුපච්ඡේද, මනෝද්වාරාවජ්ජන සිත්වලට පසු මන්දප්‍රාඥයාට පරිකර්ම, උපචාර, අනුලෝම, ගෝත්‍රභූ නමින් කාමාවචර මහා කුසල් ජවන් සතරක් ද, තීක්ෂ්ණප්‍රාඥයාට පරිකර්මය නැතිව උපචාර, අනුලෝම, ගෝත්‍රභූ යන තුන ද උපදී [C100-P:L63; C100-M:L7–L9]. පරිකර්ම, උපචාර, අනුලෝම, ගෝත්‍රභූ, මාර්ග, ඵල යන සියල්ල එකම ජවන වීථියක උපදනා සිත් ය [C100-P4:L42]. පළමු සිත් තුන සංස්කාරයම අනිත්‍ය, දුක්ඛ හෝ අනාත්ම වශයෙන් අරමුණු කරයි [C100-M:L7]; ඒවා මාර්ගයට මග සලසමින් අනුකූලව පවත්නා බැවින් 'අනුලෝම සිත්' නම් වන අතර, ඒවාට සම්ප්‍රයුක්ත ප්‍රඥාව අනුලෝම ඥානය, සච්චානුලෝම ඥානය, වුට්ඨානගාමිනී විදර්ශනා ඥානය, සංඛාරුපෙක්ඛා ඥානය ආදී නම්වලින් හැඳින්වේ [C100-P:L63].\n\nත්‍රිලක්ෂණයෙන් එකක් විශේෂයෙන් වැටහීම අනුව මේ අනුලෝම ප්‍රඥාව විමොක්ෂ මුඛ තුනෙන් එකක් වේ: සියල්ල අනාත්ම ලෙස දැක ආත්ම ග්‍රහණය හරින්නාට 'සුඤ්ඤත', අනිත්‍ය ලෙස දැක විපල්ලාස නිමිත්ත හරින්නාට 'අනිමිත්ත', දුක් ලෙස දැක තෘෂ්ණා ප්‍රණිධිය හරින්නාට 'අප්පණිහිත'; ඉන් පසු උපදනා මාර්ගය, ඵලය හා අරමුණු වන නිර්වාණය ද ඒ නමම ලබයි [C100-P:L65–L73]. නිර්වාණය නම් ක්ෂේම භූමියට ඇතුළු වන දොරටු තුනක් බඳු බැවින් මේවා 'විමොක්ෂ මුඛ' නම් වේ [C100-P:L73].\n\nගෝත්‍රභූ සිත නිවන අරමුණු කර පෘථග්ජන ගෝත්‍රය මැඩ ආර්ය භූමියට පමුණුවයි; එහෙත් මාර්ග කෘත්‍ය සතර කිරීමට අසමත් බැවින් එය ප්‍රතිපදා ඤාණදස්සන විසුද්ධිය හෝ ඤාණදස්සන විසුද්ධිය හෝ නොවේ [C100-P:L75; C100-P4:L26]. සතරවන කාණ්ඩය එය විදර්ශනා ශ්‍රෝතයට වැටුණු බැවින් විදර්ශනා ගණයට ගන්නා අතර [C100-P4:L26–L30], එය මාර්ගයට අනන්තර, සමනන්තර, ආසේවන, උපනිස්සය, නත්ථි, විගත යන සයාකාර ප්‍රත්‍යයෙන් උපකාර වන, පෙරළා නොඑන, එක් වරක් පමණක් උපදින සිතක් ලෙස දක්වයි [C100-P4:L36]. උත්පාදය, ප්‍රවෘත්තිය හා සංස්කාර නිමිත්ත මැඩීම ද, සංස්කාර නිරෝධය වූ නිවනට වැදීම ද යන අර්ථයෙන් එය 'ගෝත්‍රභූ' නම් වේ [C100-P4:L40; C100-P:L81]. අනුලෝම ඥානය සත්‍යය වසන කෙලෙස් අඳුර දුරු කළ හැකි නමුත් නිවන අරමුණු කළ නොහැකිය; ගෝත්‍රභූ ඥානය නිවන අරමුණු කළ හැකි නමුත් ඒ අඳුර දුරු කළ නොහැකිය [C100-P4:L48–L52; C100-P:L85].\n\nඅනතුරුව සෝවාන් මාර්ග සිත එක් වරක් ඉපිද, දුක්ඛ සත්‍යය පිරිසිඳ දැනීම, සමුදය සත්‍යය පහ කිරීම, නිරෝධ සත්‍යය ප්‍රත්‍යක්ෂ කිරීම, මාර්ග සත්‍යය වැඩීම යන මාර්ග කෘත්‍ය සතර එක් ක්ෂණයකින් සිදු කරයි [C100-P:L93]. එය පෙර නොවිදි ලෝභ, ද්වේෂ, මෝහ ස්කන්ධ විදිමින් උපදී; සියලු අපාය දොරටු වසයි [C100-P4:L58; C100-P4:L69]. ඉන් පසු එහි 'අකාලික' විපාකය වූ ඵල සිත් මන්දප්‍රාඥයාට දෙකක් ද තීක්ෂ්ණප්‍රාඥයාට තුනක් ද උපදී; චිත්ත වීථියක ජවන් සතකට වඩා ඉඩ නැති බැවින් ඵල සිත් ඊට වැඩි නොවේ [C100-P:L95–L99; C100-P4:L71–L77; C100-M:L7–L17]. සතරවන කාණ්ඩය අර්පණා ජවනය සතරවනුව හෝ පස්වනුව විය යුතු බව ද එකතු කරයි [C100-P4:L73]. ඵල සිත් නිවන අරමුණු කළද කුසල් ගණයට නොවැටෙන අව්‍යාකෘත ධර්මයෝ ය; 'ආනන්තරික සමාධිය', 'අකාලික විපාකය' යන නම් ලබමින් මාර්ගයෙන් නැසූ කෙලෙස් පටිප්පස්සද්ධි ප්‍රහාණයෙන් සංසිඳුවයි [C100-P:L101]. සෝවාන් වීථියට පෙර පසු භවාංගය පඤ්චවෝකාර ත්‍රිහේතුක භවාංග නවයෙන් එකකි [C100-P:L110]."
+    },
+    {
+      "heading": "උපමා: ඇළ පැනීම, වලා පහවීම සහ 'මාගේ' යයි ගත් දේ අත්හැරීම",
+      "text": "ඇළකින් එතෙර වනු කැමැති පුරුෂයෙක් වේගයෙන් දුව විත් ගස් අත්තක එල්ලෙන රැහැනක එල්ලී එතෙරට පැන, රැහැන හැර වෙවුලමින් සිට පසුව ස්ථිරව පිහිටයි. එසේම යෝගියා ත්‍රිලක්ෂණයෙන් එකක් එල්බගෙන අනුලෝම සිත් තුනෙන් නිවනට ආසන්නව, ගෝත්‍රභූ සිතින් සංස්කාර අරමුණ හැර නිවනට වැටී, ආසේවන නොලැබූ බැවින් පළමුව මනාව නොපිහිටා, පසුව මාර්ග ඥානයෙන් ස්ථිරව පිහිටයි [C100-P4:L44–L46; C100-P:L83]. වාත තුනක් පිළිවෙළින් ඝන, මධ්‍යම, සියුම් වලා පහ කළ පසු ඇස් ඇති පුරුෂයා සඳ දකින්නා සේ, අනුලෝම සිත් තුන අඳුර දුරු කළ පසු ගෝත්‍රභූව නිවන දකී [C100-P4:L54–L56; C100-P:L87–L91]. දුනුවායාට දණ්ඩෙන් දුන් සලකුණ නොහැර පුවරු සියය විදින්නා සේ, මාර්ග ඥානය ගෝත්‍රභූව දුන් සංඥාව නොහැර පෙර නොවිදි ලෝභ, ද්වේෂ, මෝහ ස්කන්ධ විදියි [C100-P4:L61–L67].\n\nසතරවන කාණ්ඩය විදර්ශනාවේ අවසන් ඥාන පිළිවෙළ පෙන්වීමට තවත් උපමා රැසක් දක්වයි: ශාඛා පසක ඵල නොදැක අහසට පියාඹා වෙනත් ගසක වසන වවුලිය [C100-P4:L107–L111]; සර්පයා හැර ආ මග බලා අභය තැනක සිටීම [C100-P4:L115]; ගිනිගත් ගෙයින් අවදිව මගක් සොයා වේගයෙන් නික්ම නිර්භය තැනකට යන ගෙහිමියා [C100-P4:L117–L123]; රජුගේ ගවයන් තමාගේ යයි ගෙන ගොස් අලුයම හඳුනාගෙන බියෙන් ඔවුන් හැර පලා යන ගොවියා [C100-P4:L125–L127]; සහවාසය කළ ස්ත්‍රිය යකින්නක් බව දැන පලා යන පුරුෂයා [C100-P4:L129–L135]; අනුන්ගේ පුතු තම පුතු යයි ගෙන, හඳුනාගෙන, ආපසු තබා පහයට නැගෙන මව [C100-P4:L137–L139]. මේ සෑම උපමාවකම 'මම ය, මාගේ' යයි ගැනීම, එය එසේ නොවන බව හඳුනා ගැනීම (ත්‍රිලක්ෂණ දර්ශනය), බිය (භයතුපට්ඨාන), මිදෙනු කැමැත්ත (මුඤ්චිතුකම්‍යතා), අත්හැරීම හෝ නික්මීම (ගෝත්‍රභූ), වේගයෙන් යාම (මාර්ගය) හා අභය තැනේ සිටීම (ඵලය) යන පිළිවෙළ ගැලපේ. සාගින්නා බොජුන, පිපාසිතයා පානය, සීතලින් පෙළෙන්නා උණුසුම, විෂ කැවූවා ඖෂධය පතන්නා සේ යෝගියා මාර්ගය හා නිවන පතයි [C100-P4:L143–L153]."
+    },
+    {
+      "heading": "ඉහළ මාර්ග තුන, වෝදාන සිත සහ ආර්ය පුද්ගලයෝ අට දෙනා",
+      "text": "සකෘදාගාමී, අනාගාමී, අර්හත් මාර්ග වීථි සෝවාන් වීථියට සමාන වන අතර එකම වෙනස ගෝත්‍රභූ සිත වෙනුවට 'වෝදාන' නමින් ජවන් සිතක් උපදීමයි [C100-P:L136; C100-M:L19–L29]. ප්‍රදීපිකාවට අනුව ආර්ය භාවයට පත් තැනැත්තාට ඉක්මවිය යුතු පෘථග්ජන ගෝත්‍රයක් නැති බැවින්, සෑම අතින්ම පිරිසිදු නිවන අරමුණු කරන, 'පිරිසිදු බව' අදහස් වන වෝදාන සිත උපදී [C100-P:L136]; අභිධර්ම මාර්ගයට අනුව එය මාර්ග සිත ඇතිවීමට බාධක කෙලෙස් දුරු කොට පිරිසිදු කරන සිත ය [C100-M:L19]. මේ වීථිවලට පෙර පසු භවාංගය විපාක දහතුනෙන් එකකි; සෝවාන් මාර්ගය අරූප ලෝකවල නූපදින බැවින් සෝවාන් වීථියට අරූප විපාක භවාංග නොලැබේ; අරූප ලෝකයේ උපන් සෝවාන් පුද්ගලයා එහිදීම ඉතිරි මාර්ගඵල ලබා පිරිනිවන් පායි [C100-P:L138–L142].\n\nසතරවන කාණ්ඩය මාර්ගස්ථ හා ඵලස්ථ පුද්ගලයන් අට දෙනා පිළිවෙළින් ගණන් කරයි: සෝවාන් මාර්ගස්ථයා පළමුවැන්නා, ඵලස්ථයා දෙවැන්නා [C100-P4:L69; C100-P4:L79]; සකෘදාගාමී මාර්ගස්ථ හා ඵලස්ථ තුන්වන හා සතරවන [C100-P4:L159; C100-P4:L163]; අනාගාමී පස්වන හා සයවන [C100-P4:L185–L190]; අර්හත් සත්වන හා අටවන [C100-P4:L194–L200]. සෝවාන් ඵලස්ථයා ප්‍රමාද වුවද දෙව් මිනිස් අතර සත් වරක් ඉපිද දුක් කෙළවර කිරීමට සමත් ය [C100-P4:L81]. සකෘදාගාමී මාර්ගය කාමරාග, ව්‍යාපාද තුනී කිරීමෙන් ලැබේ [C100-P4:L155]; සකෘදාගාමියා මේ ලෝකයට එක් වරක් පැමිණ දුක් කෙළවර කරන අතර, එය මෙහිදීම, දෙව්ලොවදී හෝ ආපසු මිනිස් ලොවට පැමිණ සිදුවන ආකාර කීපයක් දැක්වේ [C100-P4:L163–L175]. අනාගාමී මාර්ගය කාමරාග, ව්‍යාපාද නිරවශේෂයෙන් පහ කිරීමෙන් ලැබේ; අනාගාමියා නැවත කාම භවයට නොඑන අතර මරණින් මතු බඹලොව උපදී, එහිදීම රහත්ව පිරිනිවන් පායි [C100-P4:L181; C100-P4:L192]. අර්හත් මාර්ගය රූපරාග, අරූපරාග, මාන, උද්ධච්ච, අවිජ්ජා යන උද්ධම්භාගීය සංයෝජන පස නිරවශේෂයෙන් පහ කරයි; රහතන් වහන්සේ බර බහා තැබූ, භව සංයෝජන ක්ෂය කළ, දෙවියන් සහිත ලෝකයාගේ අග්‍ර දක්ෂිණාවට සුදුසු අටවන ආර්ය පුද්ගලයා ය [C100-P4:L194–L200]. සෑම ඉහළ මාර්ගයකටම පෙර ඉන්ද්‍රිය, බල, බොධ්‍යංග එක්රැස් කොට සංස්කාර අනිත්‍ය, දුක්ඛ, අනාත්ම වශයෙන් නැවත විදර්ශනා කළ යුතුය [C100-P4:L155–L159; C100-P4:L185; C100-P4:L194]. මාර්ග සතරෙහි ඥානය 'ඤාණදස්සන විසුද්ධිය' නම් වේ [C100-P4:L32; C100-P4:L202].\n\nප්‍රදීපිකාව එක් මාර්ගයකට 'නය දහසක්' ඇතත් එක් ආර්ය පුද්ගලයෙකුට උපදින්නේ එක් මාර්ග සිතක් පමණක් බව කියා, ප්‍රතිපදා සතර, අභිනිවේශ එකුන්විස්ස හා අධිපති සතර අනුව එම දහස ගණනය කරයි; ඉන් මාර්ග සතරට සාරදහසක්, නීයාණිකාර්ථ පස හා ධ්‍යානාංග පස අනුව සැටදහසක්, ඵල සමඟ එක් ලක්ෂ විසිදහසක් නය ලැබේ [C100-P:L148–L170]."
+    },
+    {
+      "heading": "ප්‍රත්‍යවේක්ෂා වීථි: ලත් දේ ආපසු හැරී බැලීම",
+      "text": "මාර්ග වීථිය අවසන් වී භවාංගය නැවත පැවතී, ප්‍රත්‍යවේක්ෂා ජවනවලින් යුත් වීථි උපදී. සෑම එකකම භවාංග චලන, භවාංගුපච්ඡේද, මනෝද්වාරාවජ්ජනය හා ඥාන සම්ප්‍රයුක්ත කාමාවචර මහා කුසල් සිතක් ජවන් වශයෙන් සත් වරක් ඉපිද නැවත භවාංගයට බසී [C100-P:L112–L116; C100-P:L131; C100-M:L33]. ප්‍රත්‍යවේක්ෂා කරන කරුණු පස මෙසේ ය: (1) ලත් මාර්ගය, 'මම මේ මාර්ගයෙන් ඒකාන්තයෙන්ම නිවනට පැමිණියෙමි' යි [C100-P4:L83]; (2) ඵලය, 'මා විසින් මේ අනුසස් ලබන ලදී' යි [C100-P4:L85]; (3) පහවූ කෙලෙස් [C100-P4:L89; C100-P:L120]; (4) ඉදිරි මාර්ගවලින් නැසිය යුතු ඉතිරි කෙලෙස් [C100-P4:L91; C100-P:L122]; (5) ජාති, ජරා, මරණයෙන් තොර අසංඛත වූ නිවන [C100-P4:L93; C100-P:L126]. ප්‍රදීපිකාව මෙය ධර්මය මනාව දත් තීක්ෂ්ණප්‍රාඥ ආර්යයාගේ ක්‍රමය ලෙස දක්වයි [C100-P:L112].\n\nපස ම ඇතිවන්නේ උත්කෘෂ්ට වශයෙනි; සමහර ශෛක්ෂ පුද්ගලයන්ට පහවූ හා ඉතිරි කෙලෙස් ප්‍රත්‍යවේක්ෂාව නොවේ [C100-P4:L95]. ප්‍රදීපිකාව මෙය ඇතැම් විට මන්දප්‍රාඥයන්ට සිදුවන බවත්, එවිට මාර්ගය, ඵලය, නිවන යන ප්‍රත්‍යවේක්ෂා වීථි තුන පමණක් ඇති බවත් කියයි [C100-P:L134]. රහතුන්ට ඉතිරි කෙලෙස් නැති බැවින් ප්‍රත්‍යවේක්ෂා සතරක් පමණි; එබැවින් පහළ මාර්ග තුනට පස බැගින් පසළොසක් ද අර්හත් මාර්ගයට සතරක් ද එක්ව ප්‍රත්‍යවේක්ෂා එකුන්විස්සක් වේ [C100-P:L144–L146; C100-P4:L95; C100-M:L33]. ප්‍රදීපිකාව මේවා 'විමුක්ති ඥාන' යයි ද හඳුන්වයි [C100-P:L146]."
+    },
+    {
+      "heading": "ඵල සමාපත්ති වීථිය: ලත් ඵලයට නැවත සමවැදීම",
+      "text": "ප්‍රඥා භාවනාවේ ආනිශංස අතර ආර්ය ඵල රසය අනුභව කිරීම දෙයාකාර ය: මාර්ග වීථියේ මාර්ග සිතට අනතුරුව අකාලික විපාක වශයෙන් ඵල සිත් දෙක තුන ඉපදීම පළමුවැන්න ය; ප්‍රවෘත්ති කාලයේ ඵල සමාපත්තියට සමවැදීම දෙවැන්න ය [C100-P:L176; C100-P4:L206–L212]. නිවන අරමුණු කොට ඵල සිත් පිළිවෙළින් පැවැත්ම ඵල සමාපත්ති නම් වේ [C100-P:L178; C100-P4:L214]. සියලු ආර්යයෝ තම තමන්ගේ ඵලයට පමණක් සමවදිති; ඉහළ ආර්යයෝ පහළ ඵලවලට ද, පහළ ආර්යයෝ ඉහළ ඵලවලට ද සම නොවදිති [C100-P:L180; C100-P4:L214]. රජු රාජ්‍ය සැප ද, දෙවියන් දිව්‍ය සැප ද විඳින්නා සේ, ආර්යයෝ මෙලොවදීම කෙලෙස් විඩා සංසිඳුවා සුවසේ වසනු පිණිස කැමති කැමති කෙණෙහි කාලය පිරිසිඳ ඵල සමවතට සමවදිති [C100-P4:L216; C100-P:L182].\n\nසමවදිනු කැමැත්තා රහසිගතව, නන් අරමුණෙන් වැළකී, සංස්කාර උදයව්‍යය ආදී වශයෙන් විදර්ශනා කරයි [C100-P4:L224; C100-P:L184]. ප්‍රදීපිකාවට අනුව එවිට භවාංග චලන, භවාංගුපච්ඡේද, මනෝද්වාරාවජ්ජන, පරිකර්ම, උපචාර, අනුලෝම, වෝදාන සිත්වලට පසු නිවන අරමුණු කරන ඵල සිත් කැමති තාක් කල් උපදී; තීක්ෂ්ණප්‍රාඥයාට පරිකර්මය නූපදී [C100-P:L188–L196]. අභිධර්ම මාර්ගය මන්දප්‍රාඥයාට අනුලෝම ජවන සතරක් ද, තීක්ෂ්ණප්‍රාඥයාට තුනක් ද ඇති බව කියමින්, ඵල සිත්වල සංඛ්‍යාවට නියමයක් නැති බවත් – සිය, දහස්, ලක්ෂ, කෝටි ගණන් විය හැකි නමුත් වීථිය එකක්ම බවත් – ඵල සමාපත්ති වීථි ද මාර්ග වීථි මෙන් සතළිසක් බවත් කියයි [C100-M:L37–L45]. ධ්‍යානය පාදක කොට මාර්ගය ලත් සමථයානිකයාට ඒ ධ්‍යානික ඵලයම ලැබේ [C100-P:L188; C100-P4:L224–L228].\n\nසතරවන කාණ්ඩය සමවැදීමට කරුණු දෙකක් දක්වයි: නිවනින් අන් අරමුණක් මෙනෙහි නොකිරීම සහ නිවන මෙනෙහි කිරීම [C100-P4:L218–L222]. 'අනිමිත්ත චේතෝවිමුක්තිය' ද නම් වූ මේ සමාපත්තිය නොසිඳී පැවැත්මට කරුණු තුනකි: සංස්කාර නිමිති මෙනෙහි නොකිරීම, අනිමිත්ත ධාතුව (නිවන) මෙනෙහි කිරීම, පෙරාතුව කාලය පිරිසිඳීම [C100-P4:L230–L236]. නැගිටීමට කරුණු දෙකකි: සංස්කාර නිමිති මෙනෙහි කිරීම සහ අනිමිත්ත ධාතුව මෙනෙහි නොකිරීම [C100-P4:L238–L241]. ප්‍රදීපිකාවට අනුව අවසාන ඵල සිතට පසු තමාගේම ඥාන සම්ප්‍රයුක්ත විපාකයක් වූ භවාංග සිතින් සමවතින් නැගිටීම වේ [C100-P:L188]. මාර්ග වීථියේ ඵල සිතට මාර්ග සිත ද, ඵල සමාපත්තියේ පළමු ඵල සිතට 'වෝදාන' නම් අනුලෝම ඥානය ද අනන්තර ප්‍රත්‍යය වේ [C100-P4:L243–L247]. ගෝත්‍රභූ වෙනුවට වෝදාන ද, ධ්‍යාන සිත් වෙනුවට ඵල සිත් ද යෙදූ කල ඵල සමාපත්ති වීථිය ධ්‍යාන සමාපත්ති වීථියට බොහෝ සෙයින් සමාන ය [C100-P:L198]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "මාර්ග චිත්ත වීථිය",
+      "pali": "magga-vīthi",
+      "en": "path process: the single run of mind-moments in which a supramundane path and its fruit arise",
+      "note": "Four per person, one for each path [C100-P:L25]; the Margaya counts forty by jhāna and speed [C100-M:L5]."
+    },
+    {
+      "term_si": "පරිකර්ම, උපචාර, අනුලෝම",
+      "pali": "parikamma, upacāra, anuloma",
+      "en": "preparation, access, conformity: the moments just before the crossing, still looking at conditioned things",
+      "note": "The quicker person has no preparation moment [C100-P:L63; C100-M:L9]."
+    },
+    {
+      "term_si": "ගෝත්‍රභූ",
+      "pali": "gotrabhū",
+      "en": "change-of-lineage: the moment that first takes the unconditioned as object and leaves the ordinary person's lineage",
+      "note": "Occurs once, only before the first path [C100-P4:L36; C100-P:L136]."
+    },
+    {
+      "term_si": "වෝදාන",
+      "pali": "vodāna",
+      "en": "cleansing: the moment that stands where change-of-lineage stood, in the three higher paths and in fruition attainment",
+      "note": "Glossed differently in P and M; see cross_source_notes."
+    },
+    {
+      "term_si": "මාර්ග කෘත්‍ය සතර",
+      "pali": "cattāri magga-kiccāni",
+      "en": "the four tasks the path does at one moment: fully knowing suffering, abandoning its origin, realising cessation, developing the path",
+      "note": "[C100-P:L93]"
+    },
+    {
+      "term_si": "ඵල සිත / අකාලික විපාකය / ආනන්තරික සමාධිය",
+      "pali": "phala-citta / akālika vipāka / ānantarika samādhi",
+      "en": "fruit moment: the immediate, undelayed result of the path",
+      "note": "Two for the slower person, three for the quicker; kammically indeterminate [C100-P:L95–L101]."
+    },
+    {
+      "term_si": "මන්දප්‍රාඥ / තීක්ෂ්ණප්‍රාඥ",
+      "pali": "manda-pañña / tikkha-pañña",
+      "en": "slower and quicker understanding",
+      "note": "Changes only the count of preparation and fruit moments inside the seven-slot limit."
+    },
+    {
+      "term_si": "ශුෂ්ක විදර්ශක / සමථයානික",
+      "pali": "sukkha-vipassaka / samatha-yānika",
+      "en": "dry-insight practitioner / one whose vehicle is calm (jhāna)",
+      "note": "[C100-P:L27–L35]"
+    },
+    {
+      "term_si": "පාදක ධ්‍යානය",
+      "pali": "pādaka-jjhāna",
+      "en": "basis absorption: the absorption entered and then examined, which shapes the factors of the path",
+      "note": "With සම්මසිත and පුද්ගලජ්ඣාසය ධ්‍යානය [C100-P:L37–L45]."
+    },
+    {
+      "term_si": "විමොක්ෂ මුඛ",
+      "pali": "vimokkha-mukha",
+      "en": "doors to release: emptiness, signless, desireless, according to which characteristic is seen",
+      "note": "[C100-P:L67–L73]"
+    },
+    {
+      "term_si": "ඤාණදස්සන විසුද්ධිය",
+      "pali": "ñāṇadassana-visuddhi",
+      "en": "purification by knowledge and vision: the knowledge in the four paths",
+      "note": "Seventh purification; gotrabhū is excluded from it [C100-P4:L26; C100-P4:L202]."
+    },
+    {
+      "term_si": "ප්‍රත්‍යවේක්ෂා වීථි",
+      "pali": "paccavekkhaṇa-vīthi",
+      "en": "reviewing processes after the path: path, fruit, defilements abandoned, defilements remaining, nibbāna",
+      "note": "Nineteen in all; also called විමුක්ති ඥාන in P [C100-P:L146]."
+    },
+    {
+      "term_si": "ආර්ය පුද්ගලයෝ අට දෙනා",
+      "pali": "aṭṭha ariya-puggalā",
+      "en": "the eight noble persons: path-holder and fruit-holder at each of the four stages",
+      "note": "Numbered explicitly in P4 only [C100-P4:L69–L200]."
+    },
+    {
+      "term_si": "ඵල සමාපත්තිය",
+      "pali": "phala-samāpatti",
+      "en": "fruition attainment: deliberate re-entry into one's own fruit for a fixed time",
+      "note": "[C100-P:L178–L188; C100-P4:L214–L241; C100-M:L37]"
+    },
+    {
+      "term_si": "අනිමිත්ත චේතෝවිමුක්තිය",
+      "pali": "animitta cetovimutti",
+      "en": "signless release of mind: P4's other name for fruition attainment",
+      "note": "[C100-P4:L230]"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "A long preparation, then a crossing that happens once",
+      "text": "The sources give years to what comes before: good conduct, a steadied mind, and many stages of seeing clearly. Yet the change itself happens in a few moments and cannot be done a second time at the same level. Their own image is a man who runs, grabs a rope hanging from a branch, swings over a canal, lets go, and stands on the far bank shaking before he finds his footing. The weight falls on two things: the change was earned by everything before it, and it still happens in an instant. The shaking on landing matters too. Arriving is one thing and being settled is another; the text gives these to two different moments."
+    },
+    {
+      "heading": "Seeing that what you held as 'mine' is not",
+      "text": "Most of the similes share one plot. Someone takes something as theirs: cattle that turn out to belong to the king, a child in the street who turns out to be another woman's, a companion who turns out to be something that feeds on corpses. Then they recognise the truth, feel afraid, want to get out, let go, move quickly, and stand somewhere safe. The source puts the crucial moment at letting go, not at recognising. Recognising clears the fog but does not yet touch the other shore; letting go touches it but does not clear anything. Only the step after that does both. In human terms, knowing something is not yours and actually releasing it are separate acts, and the story lives in the gap between them."
+    },
+    {
+      "heading": "Stopping to take stock",
+      "text": "After each crossing the mind turns back and checks five things: the road it took, what it gained, what is truly gone, what is still left, and where it has arrived. The texts admit that some people skip the two middle questions. Only the fully finished person has nothing left on the 'still remaining' list. This is an honest audit, not a celebration. The person who has made real progress is the one best able to name exactly what they have not yet dealt with."
+    },
+    {
+      "heading": "Going back to a quiet you have already found",
+      "text": "The last part describes someone who can return, when they choose, to a settled state they have already reached. They decide beforehand how long they will stay, and they come out by turning their attention back to ordinary things. They can only return to the level they have actually reached, not one above it and not one below it. The comparison the text uses is a king enjoying his kingdom: rest that is used, not something to show off. In human terms it is rest you have a right to, entered on purpose and left on purpose."
+    }
+  ],
+  "does_not_transfer": [
+    "Not an 'aha moment' or life-changing epiphany. The source describes a fixed order of mind-moments that comes after conduct, concentration and nine stages of insight. Its object is the unconditioned, not a new idea about one's life, and a single insight or crisis cannot stand in for it.",
+    "Not 'let go and move on' self-help. The similes of the cattle, the child and the burning house are about seeing that body and mind are not a self. They are not about decluttering, leaving a job or ending a relationship.",
+    "The irreversibility belongs to one specific change of lineage. It does not mean that every big life decision is 'no going back'. The texts even say a stream-enterer may still be very heedless and take up to seven more lives [C100-P4:L81].",
+    "Fruition attainment is not a 'happy place', flow state or relaxation technique. It needs a fruit already attained, it can only be entered at one's own level, and its object is the unconditioned. The source does not offer it as something an ordinary person can reach through calm alone.",
+    "The eight noble persons, the seven lives, the once-returner and the non-returner depend on the texts' view of rebirth and their cosmology. They are not a ladder of personal-growth levels, and 'slower' versus 'quicker' understanding is not a measure of intelligence.",
+    "Reviewing is not journaling or goal-tracking. The texts treat it as a set of mental processes that follow the path by themselves, and its fifth object is the unconditioned, not a personal achievement."
+  ],
+  "story_seeds": [
+    {
+      "seed": "A rural stream or canal with no bridge, where people cross each day by a rope, a log or a jump.",
+      "what_camera_could_observe": "The run-up, the grip, the swing or leap, the unsteady first second on the far bank, the steadying. The same crossing made by a child, a farmer carrying produce and an older person who hesitates.",
+      "why_it_fits": "It is the canal simile both Pradeepikas use [C100-P4:L44–L46; C100-P:L83]: a committed crossing, letting go of the support, a shaky arrival and then firm footing.",
+      "setting_type": "Village or estate area in the wet zone or hill country where a stream separates homes from fields or a school path.",
+      "risk": "It could make a real hardship (no bridge, safety risk) look picturesque or merely symbolic. The crew must never ask anyone to repeat a dangerous crossing for the camera."
+    },
+    {
+      "seed": "A household preparing for weeks for a single auspicious moment, such as the New Year nekath, when the hearth is lit or the first meal is eaten.",
+      "what_camera_could_observe": "Days of cleaning, cooking and waiting. Someone watching the clock or the sky. The few seconds when the act is done, and the quiet checking afterwards that everything was done as it should be.",
+      "why_it_fits": "Long preparation leads to one brief, unrepeatable instant, which is then reviewed. The moon-and-clouds simile is itself about someone waiting for the sky to clear to read a conjunction [C100-P4:L54–L56]. The structure matches, not the belief.",
+      "setting_type": "Ordinary family home in a Sinhala or Tamil community during the April New Year.",
+      "risk": "It could imply that the source endorses astrology, or it could exoticise a family's customs. The link is only structural and must stay unstated or be handled lightly."
+    },
+    {
+      "seed": "A paddy farmer walking the field the day after harvest, taking stock of what came in, what pest or disease has gone and what problem remains for next season.",
+      "what_camera_could_observe": "Walking the bunds, counting sacks, turning over stubble, pointing out a patch that failed, telling a neighbour or family member what must be fixed before the next sowing.",
+      "why_it_fits": "It mirrors the five reviewings: the road taken, what was gained, what is gone, what remains, and the place arrived at [C100-P4:L83–L93]. Only someone fully finished has nothing left to name.",
+      "setting_type": "Irrigated paddy land in the dry zone, or terraced fields in the hills, at the end of a Yala or Maha season.",
+      "risk": "Forcing a neat five-part structure onto a real farmer's words. Let the farmer's own accounting lead, and do not script categories."
+    },
+    {
+      "seed": "A dairy farmer at dawn tracking cattle that broke out of the pen overnight.",
+      "what_camera_could_observe": "The broken fence, the hoofprints in wet ground, the search along roads and scrub, the moment of recognising (or not recognising) one's own animals among a neighbour's herd, and the walk home.",
+      "why_it_fits": "The farmer simile turns on mistaking someone else's cattle for one's own, recognising the error at dawn and letting go [C100-P4:L125–L127]. The human stake of 'is this mine?' is real and visible.",
+      "setting_type": "Smallholder dairy area with open grazing land, in the dry zone or up-country.",
+      "risk": "It needs luck, not staging. Filming a real dispute over ownership could expose people to conflict or accusation, so avoid any framing that suggests theft."
+    },
+    {
+      "seed": "A lay meditator or monastic at a forest hermitage who sits on a fixed daily timetable and decides beforehand when they will rise.",
+      "what_camera_could_observe": "The preparation of a quiet place, the announced or self-set length of the sitting, the stillness, the moment of rising at the chosen time, and ordinary work resumed afterwards. The camera sees only the outside.",
+      "why_it_fits": "Fruition attainment is described as deliberate, time-bounded re-entry into stillness, entered and left by the direction of attention [C100-P4:L230–L241]. The observable part is the discipline of the fixed time and the chosen return.",
+      "setting_type": "Forest hermitage or rural meditation centre.",
+      "risk": "Serious risk of implying that the person has a spiritual attainment. Monastic rules forbid monks from claiming attainments, and the film must never suggest it. Consent is needed, and the practice must not become a spectacle."
+    },
+    {
+      "seed": "The lost-and-found point at a large pilgrimage or festival, where separated children and parents are reunited.",
+      "what_camera_could_observe": "Announcements over loudspeakers, volunteers holding a child's hand, a parent pushing through the crowd, the moment of recognition, sometimes the moment of 'no, that is not mine'.",
+      "why_it_fits": "The mother simile is about taking another's child as one's own, recognising the mistake and setting the child down [C100-P4:L137–L139]. Recognition and release are visible and human.",
+      "setting_type": "Major pilgrimage site or festival ground during a peak season.",
+      "risk": "It involves distressed children and anxious parents. It needs clear consent from families and organisers, no lingering on distress, and faces blurred where consent is doubtful."
+    }
+  ],
+  "cross_source_notes": [
+    "All three sources agree on the core order of the path process: mind-door adverting, then preparation, access and conformity (preparation absent for the quicker person), then change-of-lineage, one path moment, and two fruit moments (slower) or three (quicker), within seven impulsion slots [C100-P:L63; C100-P:L95–L99; C100-P4:L73–L77; C100-M:L7–L17]. The notation differs: P uses 'නු' for conformity and 'ග්ග' for path [C100-P:L106–L107]; M uses 'අ' and 'මා' [C100-M:L13–L17].",
+    "Counting differs. M counts 20 path processes by jhāna (5 per path), doubled to 40 by speed, and says fruition processes are also 40 [C100-M:L5; C100-M:L37]. P frames the jhāna question through two kinds of person (dry-insight, calm-vehicle) and three ways jhāna shapes the path [C100-P:L27–L49], and adds the 'thousand methods' arithmetic up to 120,000 [C100-P:L148–L170]. P4 gives neither count.",
+    "Vodāna is glossed differently. P says it means 'purified' and takes nibbāna as object, replacing change-of-lineage because a noble person has no ordinary lineage left to cross [C100-P:L136]. M says it is the mind that purifies by removing the defilements obstructing the path [C100-M:L19]. P4 says in fruition attainment the vodāna moment takes formations as object [C100-P4:L224] and calls the conformity knowledge 'vodāna' [C100-P4:L245].",
+    "Change-of-lineage: both Pradeepikas exclude it from the sixth and seventh purifications [C100-P:L75; C100-P4:L26]. P4 adds that it is counted as insight because it falls in the stream of insight [C100-P4:L26–L30] and lists its six conditions to the path [C100-P4:L36]. P stresses that it is a sense-sphere wholesome mind that stays within the ordinary person's state [C100-P:L75].",
+    "Reviewing: the order differs. Both Pradeepikas give path, fruit, abandoned, remaining, nibbāna [C100-P:L112–L126; C100-P4:L83–L93]; M gives path, fruit, nibbāna, abandoned, unabandoned [C100-M:L33]. On omissions, P4 says 'some trainees', P says 'sometimes, slower persons' [C100-P4:L95; C100-P:L134]. M mentions only that arahants lack the fifth. P alone calls them 'knowledges of release' [C100-P:L146].",
+    "Fruition attainment: P lists preparation, access, conformity and vodāna before the fruit moments, which last 'as long as wished' [C100-P:L188–L193]. M's process shows four conformity moments (slower) or three (quicker) with no named vodāna, and says the fruit moments may number hundreds to tens of millions in one process [C100-M:L37–L45]. P4 alone gives the two ways of entering, three conditions for continuing and two for emerging [C100-P4:L218–L241]. P alone describes emergence through the person's own bhavaṅga and compares the process to jhāna attainment [C100-P:L188; C100-P:L198].",
+    "Only P4 numbers the eight noble persons and gives the rebirth prospects of each stage, and only P4 has the archer, bat, snake, burning-house, cattle, yakkhinī, mother and yearning similes [C100-P4:L61–L200]. The canal and moon similes appear in both Pradeepikas in nearly the same words. M has no similes. Only P discusses the bhavaṅga types around the path processes (9 vs 13) and rebirth in the formless realms [C100-P:L110; C100-P:L138–L142]."
+  ],
+  "uncertainties": [
+    "P4's reviewing arithmetic names only stream-enterer and once-returner but totals fifteen for them (5 each), which requires three persons; non-returner appears to have been dropped in printing. The transcriber flags this [C100-P4:L95–L97]. P's parallel includes the non-returner explicitly [C100-P:L146]. Not filled in above.",
+    "P's final sentence says that because a dry-insight noble person also enters fruition attainment, it is clear he had developed jhāna before generating the path [C100-P:L200]. This sits uneasily with P's own definition of the dry-insight person as one who reaches the path without a jhāna basis [C100-P:L35; C100-P:L49]. Needs expert check; recorded as the text reads.",
+    "P says the stream-entry path is 'of two kinds' but then lists three names: 'සොවාන් මාර්ගය, සුඤ්ඤත සොතාපත්ති මාර්ගය, අප්පණිහිත සොතාපත්ති මාර්ගය'. The signless path, discussed earlier at [C100-P:L71], is absent from the thousand-methods count [C100-P:L150]. The reason is not given in the extract.",
+    "P4 [C100-P4:L214] reads 'ආර්ය ඵලයාගේ නිරොධයෙහි අඞ්ඥව පිහිටීම'. The word 'අඞ්ඥව' is unclear (possibly an OCR form of a word like අර්පණාව, which P uses in the parallel [C100-P:L178]). Not resolved.",
+    "P [C100-P:L182] has 'කෙලෙස් විඩා දහයන්'. It is unclear whether this means 'ten' or 'burning' (දාහ) fatigues of defilement. P4's parallel has only 'කෙලෙස් විඩා' [C100-P4:L216].",
+    "It is unclear whether vodāna in fruition attainment takes formations (P4 [C100-P4:L224]) or nibbāna (as P says of vodāna in the higher path processes [C100-P:L136]). M's fruition diagram does not mark a vodāna slot at all [C100-M:L41–L45]. Needs expert check.",
+    "P4 says the non-returner dwells in 'බඹලොව' (the Brahma world) after death [C100-P4:L192] without naming the Pure Abodes. Recorded as printed.",
+    "P4's fruition part is numbered '2.' as a further benefit [C100-P4:L206]; benefit 1 and pdf 621–638 are outside this extract (gap between L202 and L204). P's list of the benefits of insight [C100-P:L176] may correspond.",
+    "M's heading is '16.' but it is labelled '19 වන පාඩම' [C100-M:L1–L3]. This is a numbering mismatch within the source.",
+    "The P4 extract notes that it deliberately overlaps Concepts 97 and 98 [C100-P4:L13]. The purification sequence and the similes may be digested there as well.",
+    "OCR and orthography: P uses 'ආය්‍ය', 'දුක්බ', 'තික්බ' throughout. P4 carries several transcriber notes on printed forms (විරු, කාත්‍යයන්, උදය-ව්‍යායානු, ආතිතාක්). None of these affects the meaning."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

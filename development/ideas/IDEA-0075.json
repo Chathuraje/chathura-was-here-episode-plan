@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0075",
+  "record_type": "idea",
+  "title": "The Weight of a Stone",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "In a gem-cutting town, a stone is turned once under a lamp, and in less than a second a cutter says what it is worth, a judgement that took a lifetime to become instant.",
+  "human_question": "What has to happen, in an instant, for someone to just know what they are looking at?",
+  "premise": {
+    "story": "A gem sorter or cutter examines rough and cut stones through a working day: tilting them to the light, judging colour, deciding what to buy, reject, or how to cut.",
+    "place": "A gem-trading room or small cutter's workshop in a mining district.",
+    "experience": "The viewer watches a judgement that looks instantaneous and comes to see how many small steps, arriving, being taken in, checked, settled, and finally acted on, are folded into that one glance."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C041",
+      "role": "primary",
+      "why": "The source's full seventeen-moment process for a very great object, adverting, seeing, receiving, examining, determining, a burst of full engagement, then a brief holding, describes, at the level of doctrine, exactly the kind of instant, total judgement a practised eye makes over a stone; the series reads the concluding burst as where a response is made, though the source itself never calls this stage choice [C041-P:L46; C041-M:L7]."
+    },
+    {
+      "concept_id": "C036",
+      "role": "supporting",
+      "why": "The source insists the eye meets only colour, not a ruby or a flaw; recognition is added from everything seen before. A gem cutter's snap judgement is built on exactly this gap between raw colour and trained naming."
+    },
+    {
+      "concept_id": "C039",
+      "role": "supporting",
+      "why": "Matter's own brief lifespan, seventeen mind-moments, is the source's account of why a full judgement has to happen fast or not at all, a useful, if technical, frame for why a trained eye works in an instant."
+    }
+  ],
+  "what_camera_could_observe": [
+    "A stone tilted under a lamp, turned in the fingers",
+    "The moment a face changes as a verdict forms",
+    "A second look, or a colleague's differing opinion",
+    "Bargaining, rejection or a sale following the verdict",
+    "Cutting, grinding or polishing once a decision is made"
+  ],
+  "what_must_be_real": "The trade's real money, risk and secrecy; no staged verdicts for the camera; the cutter's own account of what a first look tells them versus what only a second look does.",
+  "possible_arc": {
+    "opening": "A stone changes hands; work for the day begins.",
+    "turn": "A stone tests the cutter's judgement, an unusual colour, a hidden flaw, a disagreement with a buyer.",
+    "ending_open": "The stone is bought, rejected, or cut; the outcome is whatever the trade actually decides."
+  },
+  "position_hint": "opening candidate: a real, demanding craft with a strong physical object, a gemstone, that could plausibly be where Object 5 is acquired, if a real moment allows.",
+  "location": {
+    "requirements": [
+      "An active gem-cutting or gem-trading workshop willing to allow filming",
+      "Consent covering security and trade confidentiality around valuable stones",
+      "Good close-up light and stable access for macro camera work"
+    ],
+    "suggestions": [
+      {
+        "name": "Ratnapura gem-mining district",
+        "region": "Sabaragamuwa Province",
+        "why": "Sri Lanka's best-known centre for gem mining, trading and cutting.",
+        "season_notes": "",
+        "access_notes": "Security and confidentiality around stones will need careful negotiation.",
+        "verify": "A specific workshop, trader or cutter willing to be filmed is unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "The gem trade involves real money and security concerns that could limit access",
+    "Glamorising the trade without its labour and mining realities",
+    "Implying trade secrets or valuations on camera that could put someone at risk"
+  ],
+  "drop_if": [
+    "No trader or cutter will allow filming of real transactions",
+    "Security concerns make filming valuable stones impossible",
+    "The work cannot be shown without exposing confidential pricing or sourcing"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0087",
+      "relation": "mirrors",
+      "note": "Both watch a trained eye separate raw colour from a name and a value, one with stones and one with flowers."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

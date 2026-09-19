@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0031",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Among the Roots",
+  "logline": "Strangers get lost in the mangrove channels, where every turning looks the same. A lagoon fisher who grew up there reads the roots like streets, and spends the low tides planting new ones.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0058"
+  ],
+  "concept_ids": [
+    "C033",
+    "C008"
+  ],
+  "chronology": {
+    "group_id": "GRP-04",
+    "position_in_group": 4,
+    "global_position": 31
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-04"
+    ],
+    "note": "Object 4 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0030",
+    "thread": "After the rush breaks into sudden quiet, a different kind of lostness: mangrove channels where every turning looks the same, and a fisher who reads the roots like streets."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0032",
+    "thread": "Roots that hold a shore in place become a rope that holds an animal to its circle: what keeps us going round, even when the rope is long."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A mangrove lagoon with navigable channels",
+      "A local fisher or boat operator who knows them well and is willing to be followed",
+      "An active community mangrove replanting effort"
+    ],
+    "suggestions": [
+      {
+        "name": "Muthurajawela wetland",
+        "region": "Gampaha district, Western Province (near Negombo)",
+        "why": "A large coastal marsh with mangrove channels on the edge of the Colombo region.",
+        "season_notes": "",
+        "access_notes": "Some boat trips operate; local access to fishers needs research",
+        "verify": "Confirm current replanting work and a willing local guide or fisher.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Puttalam lagoon",
+        "region": "Puttalam district, North Western Province",
+        "why": "A large west-coast lagoon fringed with mangroves and fishing communities.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm where community mangrove replanting is currently active.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0058"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

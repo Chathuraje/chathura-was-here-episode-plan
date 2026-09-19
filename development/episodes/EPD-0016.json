@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0016",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Number That Comes Up",
+  "logline": "At a dry-zone town junction, a lottery-ticket seller's daily calling turns into a private ritual for regulars who buy the same numbers morning after morning, certain today might finally be the day.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0013"
+  ],
+  "concept_ids": [
+    "C006",
+    "C004"
+  ],
+  "chronology": {
+    "group_id": "GRP-02",
+    "position_in_group": 8,
+    "global_position": 16
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-02"
+    ],
+    "note": "Object 2 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0015",
+    "thread": "Patient effort that expects a result gives way to its opposite: a daily ritual of buying the same numbers, wanting without quite expecting."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0017",
+    "thread": "The daily hope at the lottery kiosk becomes a wait in a station ticket queue, where the board changes just before one traveller's turn."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "An active ticket kiosk with a willing seller",
+      "Regular customers willing to speak about their habit",
+      "A working evening draw broadcast on site"
+    ],
+    "suggestions": [
+      {
+        "name": "A bus-stand or town-junction kiosk in Anuradhapura",
+        "region": "Anuradhapura District, North Central Province",
+        "why": "A well-known dry-zone town with an active bus stand and daily lottery trade.",
+        "season_notes": "",
+        "access_notes": "Specific kiosk and seller unconfirmed.",
+        "verify": "No seller has been contacted; exact kiosk and willingness to be filmed are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0013"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

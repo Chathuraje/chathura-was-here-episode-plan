@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0087",
+  "record_type": "idea",
+  "title": "Only Colour, Not Yet a Flower",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "At a pre-dawn flower market, buyers sort marigold, jasmine and lotus by colour in the half-light, before the flowers' names or uses matter at all.",
+  "human_question": "What does the eye actually take in, before a thing is named as a flower, the right one, or good enough?",
+  "premise": {
+    "story": "A dawn flower market supplying temples sees buyers and sellers sort, bundle and grade flowers largely by colour and freshness, working fast in low early light.",
+    "place": "A city or town flower market that supplies temples, working before dawn.",
+    "experience": "The viewer watches a market built on fast colour judgement in low light, and comes to notice the gap between the raw colour arriving at the eye and the naming and valuing that follows it."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C036",
+      "role": "primary",
+      "why": "The source insists that the eye meets only colour, a blend, not a flower or a lotus; naming and recognition are added from what has been seen before [C036-P:L41; C036-M:L9]. A flower market at first light, where buyers judge colour and freshness fast, makes this literally visible."
+    },
+    {
+      "concept_id": "C035",
+      "role": "supporting",
+      "why": "The source separates the visible organ from the fine sensitivity that actually registers colour, and low pre-dawn light is exactly the condition under which that fine threshold matters most."
+    },
+    {
+      "concept_id": "C009",
+      "role": "supporting",
+      "why": "The bare, rootless moment of seeing colour, before any judgement of quality or price, is the sensing layer the source describes beneath every purchase that follows."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Flowers arriving by bicycle, cart or lorry before dawn",
+    "Buyers sorting and judging in low light",
+    "Bundling, pricing and negotiation",
+    "The market emptying as flowers move toward temples for the day's offerings",
+    "Sellers' and buyers' own accounts of judging quality fast"
+  ],
+  "what_must_be_real": "The market's real economics and pace; no staged sorting for better light. Participants' own words about how they judge quality.",
+  "possible_arc": {
+    "opening": "Flowers arrive before first light; the market begins.",
+    "turn": "A difficult morning, poor quality stock, a shortage, a price dispute, tests buyers' fast judgement.",
+    "ending_open": "The market clears as flowers move on to temples, however the morning's trading actually went."
+  },
+  "position_hint": "middle: a fast, low-light urban film offering visual and tonal variety within the group.",
+  "location": {
+    "requirements": [
+      "An active pre-dawn flower market supplying temples",
+      "Low-light filming capability without disrupting the market's pace",
+      "Consent from sellers and buyers to film real trading"
+    ],
+    "suggestions": [
+      {
+        "name": "Kandy's flower market district",
+        "region": "Central Province",
+        "why": "Kandy's temple culture, especially around the Temple of the Tooth, sustains active daily flower trading.",
+        "season_notes": "Poya days would see higher volume and different pressures.",
+        "access_notes": "Very early morning filming would need vendor cooperation and safe low-light conditions.",
+        "verify": "A specific market location and willing traders are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Reducing a working market to a pretty pre-dawn visual piece",
+    "Low light and crowded, fast conditions carry practical filming risk",
+    "Missing the market's real economics in favour of colour and mood"
+  ],
+  "drop_if": [
+    "No market or traders allow filming of real, unstaged pre-dawn trading",
+    "Low-light conditions make filming impractical without disruptive lighting",
+    "The market's pace makes sustained, honest observation impossible"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0075",
+      "relation": "mirrors",
+      "note": "Both watch a trained eye separate raw colour from a name and a value, one with stones and one with flowers."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0155",
+  "record_type": "idea",
+  "title": "The Vine Gatherers",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "Cane cutters walk into the scrub, take hold of a vine wherever they first find it, root, middle or tip, and pull its whole hidden length out of the undergrowth to be split and woven into baskets that no single length of vine could have made alone.",
+  "human_question": "If you can enter a story from any point along its length, where does the story actually begin?",
+  "premise": {
+    "story": "A forest-edge household's working day gathering cane or vine, splitting and weaving it into baskets and mats sold at a nearby market.",
+    "place": "A forest-edge village where cane or vine weaving is a livelihood passed hand to hand.",
+    "experience": "Walking into green scrub, cutting where the hand first finds purchase, hauling out a length longer than expected, and watching a shapeless coil become, patiently, a basket."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C081",
+      "role": "primary",
+      "why": "The Pradeepika's own simile for the four ways the Buddha taught the chain: like four men pulling in a vine from wherever they first see it, root, middle or tip; the chain has no findable first beginning."
+    },
+    {
+      "concept_id": "C079",
+      "role": "supporting",
+      "why": "The gathered vine is worked into a made object where every strand has to hold its place, an everyday echo of the formula's fixed, unbroken order."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Walking into scrub at first light, looking for a usable vine",
+    "Cutting at whichever point the hand first meets it",
+    "Hauling a long, hidden length out of the undergrowth",
+    "Coiling and splitting the vine",
+    "Weaving; the finished basket or mat carried to market"
+  ],
+  "what_must_be_real": "The family's real livelihood, prices and working conditions, and any legal limits on what they can gather from the forest.",
+  "possible_arc": {
+    "opening": "Walking into green undergrowth at first light.",
+    "turn": "A long vine comes free all at once, further and heavier than it looked.",
+    "ending_open": "The basket sold, kept, or left unfinished; reality decides."
+  },
+  "position_hint": "opening candidate: a vine pulled in from wherever it is first grasped is a strong opening image for a group about chains of dependence; an Object 9 acquisition (a hand-woven basket or mat made only because of this whole chain) would be possible only if it really happens",
+  "location": {
+    "requirements": [
+      "A household still gathering forest cane or vine and weaving it by hand",
+      "Legal, safe access to a forest-edge gathering area",
+      "A finished object completed within the filming window"
+    ],
+    "suggestions": [
+      {
+        "name": "A forest-edge village where cane or vine weaving is still practised",
+        "region": "Villages bordering the Sinharaja buffer zone or the Knuckles foothills",
+        "why": "These wet-zone forest margins have long-standing traditions of cane and vine gathering and weaving.",
+        "season_notes": "",
+        "access_notes": "Forest-produce collection may be regulated inside protected areas.",
+        "verify": "A specific household, their gathering rights and current practice are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Forest-produce collection may be legally restricted",
+    "Exposing the family to legal trouble by filming an unpermitted harvest",
+    "Staging the gathering rather than following real, permitted work"
+  ],
+  "drop_if": [
+    "Gathering cannot be shown as legal and safe",
+    "No household will show the whole process from forest to finished object"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0153",
+      "relation": "alternative to",
+      "note": "Both are candidate openings built around acquiring something that exists only because many hands and processes made it."
+    },
+    {
+      "idea_id": "IDEA-0159",
+      "relation": "pairs with",
+      "note": "Both follow a made thing, vine or palm leaf, through a craft that renews itself hand by hand."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

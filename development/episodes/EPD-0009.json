@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0009",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Before the Wedding",
+  "logline": "In a provincial textile shop, weeks before a wedding, a family unfolds sari after sari, and one relative talks a hesitant bride into a colour she didn't choose.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0014"
+  ],
+  "concept_ids": [
+    "C004",
+    "C006"
+  ],
+  "chronology": {
+    "group_id": "GRP-02",
+    "position_in_group": 1,
+    "global_position": 9
+  },
+  "object": {
+    "acquires": "OBJ-02",
+    "appears": [],
+    "note": "Object 2 (identity not chosen) could enter only if something small genuinely changes hands in the shop, kept or given. Never staged."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0008",
+    "thread": "As the lantern comes down, the first thing found beneath the names is wanting: the colours of lantern paper give way to cloth unfolded bolt after bolt, and something wanted badly."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0010",
+    "thread": "The wedding season carries across the island: from choosing what will be worn to a reception where hosts keep filling plates, and wanting moves from the eye to the appetite."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A textile or saree shop with a family genuinely shopping for a wedding",
+      "Consent from the family to be filmed choosing and disagreeing",
+      "A shop assistant willing to be filmed working"
+    ],
+    "suggestions": [
+      {
+        "name": "A textile shop on the main street of Kurunegala",
+        "region": "Kurunegala District, North Western Province",
+        "why": "A well-known provincial market town with a concentration of textile and saree shops serving surrounding villages.",
+        "season_notes": "Wedding seasons cluster around school holidays and after Vesak/Poson.",
+        "access_notes": "Specific shop and family unconfirmed.",
+        "verify": "No shop or family has been contacted; this is a plausible town, not a confirmed location.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0014"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0147",
+  "record_type": "idea",
+  "title": "The Tools",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "A fisherman's nets, mended and re-mended for thirty years, pass to his son, whose hands are shaped by the same work before he has fully learned it.",
+  "human_question": "What actually continues when someone's life's work passes to someone else?",
+  "premise": {
+    "story": "The tools and trade of a fisherman who has recently died, now in daily use by the relative who has taken up his work: nets, a boat, the particular knots and habits of the trade.",
+    "place": "A fishing village on the west coast.",
+    "experience": "Salt-worn hands on old nets, a boat that still carries one man's habits of repair, and a successor learning a trade that is also, quietly, a form of company with someone gone."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C061",
+      "role": "primary",
+      "why": "Both sources insist that nothing physical or mental travels from one life to the next, yet what follows is never a stranger, only ever what the causal stream itself produces [C061-P:L85; C061-M:L15-L17]. Tools passing into someone else's hands, worn into the shape of the first person's use, give that continuity-without-a-traveller an entirely ordinary, secular form."
+    },
+    {
+      "concept_id": "C057",
+      "role": "supporting",
+      "why": "What a person leaves unfinished, including a trade only partly handed on, is part of what the source calls a life's continuing, unresolved action [C057-P:L87]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The tools themselves, worn to one person's grip",
+    "The boat or workshop",
+    "The successor learning or continuing the trade",
+    "Stories told while working",
+    "The day's catch or the day's work brought home"
+  ],
+  "what_must_be_real": "A real family's real trade and real loss. The film does not claim anything about how the person died or what, if anything, they 'saw' at the end.",
+  "possible_arc": {
+    "opening": "The tools at rest, still shaped by one person's hands.",
+    "turn": "The successor at work, learning what the tools still teach.",
+    "ending_open": "A day's work completed. The trade continues, changed by whoever now does it."
+  },
+  "position_hint": "closing candidate: continuity carried entirely by ordinary work and objects, without doctrine, a plain image for what the group's teaching on rebirth holds without a traveller",
+  "location": {
+    "requirements": [
+      "A fishing family who has recently lost the person whose trade and tools are now used by a relative",
+      "Willingness to be filmed at real, ongoing work"
+    ],
+    "suggestions": [
+      {
+        "name": "A fishing village near Negombo",
+        "region": "Western Province",
+        "why": "An established west-coast fishing community; no specific family identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No family confirmed; would need direct outreach and consent.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Over-symbolising ordinary objects",
+    "Implying anything about the cause or manner of the original owner's death",
+    "Turning a working trade into a metaphor rather than a livelihood"
+  ],
+  "drop_if": [
+    "No family with this exact situation and full consent can be found",
+    "The successor does not want their inherited trade framed around the death"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0133",
+      "relation": "mirrors",
+      "note": "Both follow an object outliving the person who used it, one at the very start of the group, one much later."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

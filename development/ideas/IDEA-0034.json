@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0034",
+  "record_type": "idea",
+  "title": "Match Point",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "A village tournament final is level and tense when a disputed decision stops play. For several long minutes, nobody is playing and everybody has an opinion.",
+  "human_question": "In the minutes after a decision nobody accepts, what does a crowd actually do with its own displeasure?",
+  "premise": {
+    "story": "A closely fought local match reaches a disputed call: an appeal, a protest, players and spectators taking sides, and the practical business of getting the game moving again.",
+    "place": "A village or small-town ground on a weekend, ringed by spectators who know every player.",
+    "experience": "The viewer stands inside the stoppage: raised voices, folded arms, someone trying to calm it, and the strange flatness of the next few overs or minutes once play resumes."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C007",
+      "role": "primary",
+      "why": "Margaya names 'when one's word is not accepted' and 'when others seem to do wrong, or are thought to have done wrong' among the ordinary daily occasions for this state of mind [C007-M:L17]. A disputed umpiring call is that occasion in its most public, least private form."
+    },
+    {
+      "concept_id": "C022",
+      "role": "supporting",
+      "why": "Restlessness, one of the four factors present in every state of this kind, is described as agitation that will not settle, like wind shaking the leaves of a tree [C022-P:L73; C022-M:L19]. The stoppage is that agitation made visible across an entire crowd at once, not only in one arguing player."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The appeal and the call, and the instant reaction on both sides",
+    "Faces in the crowd, not only the players",
+    "Whoever steps in to calm things down, and how long it takes",
+    "The practical restart: fields reset, overs resumed, the game's own rhythm returning",
+    "How the players who protested loudest behave a few minutes later"
+  ],
+  "what_must_be_real": "The match, the dispute and its resolution must be a real, unstaged local event. No decision, appeal or reaction may be prompted or restaged for the camera.",
+  "possible_arc": {
+    "opening": "A tense final over, the crowd close and loud.",
+    "turn": "A disputed call stops everything; the ground becomes an argument.",
+    "ending_open": "However play actually resumes, and however the match actually ends, closes the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A genuine local tournament final or high-stakes match during the filming window",
+      "Consent from the organisers, players and, where practical, vocal spectators",
+      "A ground where the camera can move between the field and the crowd"
+    ],
+    "suggestions": [
+      {
+        "name": "A village or small-town sports ground",
+        "region": "Uva Province, Badulla district",
+        "why": "A hill-country farming and estate district with strong local cricket and volleyball tournament culture at village level.",
+        "season_notes": "Local tournament season varies by sport and school calendar.",
+        "access_notes": "",
+        "verify": "A specific tournament, ground and willing organisers and players must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Editing could make ordinary players look like people with a permanent bad temper",
+    "Consent from spectators shown reacting strongly",
+    "Exaggerating a brief stoppage into more drama than it was"
+  ],
+  "drop_if": [
+    "No disputed or tense moment happens during the filming window without being provoked",
+    "Participants do not want the moment shown"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0038",
+      "relation": "pairs with",
+      "note": "Both are bounded-time ensemble pieces where a delay tests a crowd's patience in public."
+    },
+    {
+      "idea_id": "IDEA-0037",
+      "relation": "leads into",
+      "note": "The shape of anger studied here, in a crowd, is carried later by one person who has lived a long time with what it does to the one who holds it."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

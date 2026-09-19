@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0043",
+  "record_type": "idea",
+  "title": "Willing Hands",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "A village turns out to clear a tank bund or temple ground together. Some people arrived because they wanted to. Others came because they were asked, and their whole day moves differently.",
+  "human_question": "Does it change the work when the hands doing it were pushed rather than willing?",
+  "premise": {
+    "story": "A community voluntary work day, followed from the early morning gathering through the heat of the afternoon: who sets the pace, who lingers over tea, who drifts to the shade, and how the group's energy changes as the day wears on.",
+    "place": "A village clearing a tank bund, road or temple ground together.",
+    "experience": "The viewer feels the texture of a long shared task, and the difference, visible in bodies and pacing rather than words, between those who came eagerly and those who came because they were asked."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C026",
+      "role": "primary",
+      "why": "Sloth and torpor, the mind's dullness and heaviness, are described as occurring only in states that had to be urged along, never in ones that arise on their own initiative, because they make the mind unfit for the task at hand [C026-P:L43; C026-M:L21]. A voluntary work day, where some came freely and some were asked, offers a real, everyday texture close to that structural distinction, without implying that the reluctant are doing anything wrong."
+    },
+    {
+      "concept_id": "C022",
+      "role": "supporting",
+      "why": "This heaviness is described through the image of a bird's feather drawn near a flame, curling and shrinking away from the task [C022-P:L165]. A long, hot day of communal labour has its own visible version of that same shrinking and reviving, in anyone, regardless of why they came."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The morning gathering and the start of the work",
+    "Different paces and different energy across the group",
+    "Tea breaks, shade, who lingers and who returns quickly to work",
+    "Conversations about why people came, in their own words",
+    "The finished task, and the group's mood at the end of the day"
+  ],
+  "what_must_be_real": "The work day, the participants and their reasons for attending must be genuine. No one may be asked to characterise themselves or others as lazy or willing for the camera; the film observes texture, not verdicts.",
+  "possible_arc": {
+    "opening": "Early morning, tools gathered, the group assembling.",
+    "turn": "The heat of the day tests everyone's pace differently.",
+    "ending_open": "Whatever the finished (or unfinished) work looks like, and how the group feels at the end, ends the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A village organising a genuine communal work day during the filming window",
+      "A mix of participants who came for different reasons, willing to speak plainly about it",
+      "Consent from organisers and participants"
+    ],
+    "suggestions": [
+      {
+        "name": "A village clearing a tank bund or temple ground",
+        "region": "Kandy or Matale district, Central Province",
+        "why": "Central Province villages with active temple and irrigation-maintenance traditions of communal labour.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific village and work day must be found and confirmed; this is a region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Implying that reluctant participants are wrongdoers; the source's link is only an analogy about texture, not a doctrine applied to real people",
+    "Singling out individuals as lazy in the edit",
+    "A quiet, low-event day may not sustain a full film without a clear human throughline"
+  ],
+  "drop_if": [
+    "No genuine communal work day is scheduled during the filming window",
+    "Participants are uncomfortable with the framing once it is explained to them"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0039",
+      "relation": "mirrors",
+      "note": "Two workshops of willingness: one about giving knowledge freely or not, one about giving effort freely or not."
+    },
+    {
+      "idea_id": "IDEA-0045",
+      "relation": "leads into",
+      "note": "The heaviness of a task some were urged into opens into the deeper stall of a decision no one in a household can quite make."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

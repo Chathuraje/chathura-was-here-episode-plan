@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0004",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Same Boat",
+  "logline": "A fisherman's boat has been repaired so many times that no original plank is left, but everyone still calls it by the same name.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0005"
+  ],
+  "concept_ids": [
+    "C001",
+    "C077",
+    "C084"
+  ],
+  "chronology": {
+    "group_id": "GRP-01",
+    "position_in_group": 4,
+    "global_position": 4
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-01"
+    ],
+    "note": "Object 1 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0003",
+    "thread": "The question left by the novices' memorised map, a name for everything inside, meets an outside mirror: a boat still called by one name though its planks have all been replaced."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0005",
+    "thread": "From the salt water the boat works on to the fresh water a village waits for: after a thing that stays 'the same' while every part changes, a thing that is named though it is only empty space."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A boat undergoing substantial repair",
+      "Owner and carpenter willing",
+      "Access to the launch"
+    ],
+    "suggestions": [
+      {
+        "name": "Negombo lagoon (oruwa outrigger canoes)",
+        "region": "Western Province",
+        "why": "Traditional outrigger boats still built and repaired.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "East-coast fishing beaches (e.g. near Arugam Bay)",
+        "region": "Eastern Province",
+        "why": "Beach-hauled boats and a strong fishing community.",
+        "season_notes": "East-coast fishing season, roughly Apr–Oct",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0005"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

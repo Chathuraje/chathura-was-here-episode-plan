@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0162",
+  "record_type": "idea",
+  "title": "Water, Weather, Roof",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "Through a hard monsoon stretch on a tea estate, the same families who share tea and shelter on dry days start keeping to themselves when the rain and the cold do not let up, and everyone can feel exactly when it changes.",
+  "human_question": "How much of what we call someone's character is really just today's weather, food and shelter?",
+  "premise": {
+    "story": "A tea-estate community's daily life through a difficult monsoon period: work, food, shared or scarce shelter, and the visible shift in mood and generosity as conditions change.",
+    "place": "A hill-country tea estate community during the south-west monsoon.",
+    "experience": "Grey, wet days strung together, small kindnesses and small frictions, and the moment a break in the weather visibly lifts a whole line of houses."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C082",
+      "role": "primary",
+      "why": "The decisive-support condition names weather, food, lodging and bodily pleasure or pain as strong, non-exclusive supports for both wholesome and unwholesome states in the same people."
+    },
+    {
+      "concept_id": "C075",
+      "role": "supporting",
+      "why": "Life and feeling as governing faculties, coloured directly by what the body is going through in a hard season."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Rain days and clear days back to back",
+    "Meals cooked with whatever is on hand",
+    "People sharing or guarding dry space",
+    "Tempers and generosity visibly shifting with the sky",
+    "The community's own account, in its own words, of a hard season"
+  ],
+  "what_must_be_real": "The community's actual working and living conditions; nothing staged to produce conflict or kindness for the camera.",
+  "possible_arc": {
+    "opening": "A wet week settling in.",
+    "turn": "Scarcity or discomfort visibly changing how people treat each other.",
+    "ending_open": "A break in the weather, or the season simply continuing; reality decides."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A tea estate community willing to be filmed through a genuinely difficult stretch of weather",
+      "Ongoing, specific consent about what hardship is shown",
+      "Enough time in the filming window to see a real shift when weather changes"
+    ],
+    "suggestions": [
+      {
+        "name": "A tea estate community during the south-west monsoon",
+        "region": "Nuwara Eliya or Badulla district",
+        "why": "Hill-country tea estates have well-documented seasonal hardship tied to monsoon weather and shared worker housing.",
+        "season_notes": "South-west monsoon, roughly May to September",
+        "access_notes": "",
+        "verify": "A specific estate and community consent must be confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Poverty as spectacle",
+    "Suggesting people's circumstances decide their character rather than shape a hard season",
+    "Consent must be ongoing and specific about what is shown"
+  ],
+  "drop_if": [
+    "No estate community willing to be filmed through a real difficult stretch",
+    "Conditions cannot be observed without exploitation"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0160",
+      "relation": "pairs with",
+      "note": "Both work at a communal, epic scale, following many people's coordinated effort rather than one person's story."
+    },
+    {
+      "idea_id": "IDEA-0163",
+      "relation": "leads into",
+      "note": "The same weather that shapes an estate community's mood also decides whether an overnight kiln firing can be safely attempted."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

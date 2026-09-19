@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0157",
+  "record_type": "idea",
+  "title": "Boat to Plate",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "A net comes up at dawn on the west coast, and what is inside it is auctioned, carried, cooked and eaten inland before the day is out, each stage existing only because of the one before it.",
+  "human_question": "How many hands does one fish pass through before it becomes someone's dinner, and would any of those hands call themselves connected to the others?",
+  "premise": {
+    "story": "One catch's route from the sea to a specific inland kitchen: the haul, the beach auction, a bicycle or three-wheeler vendor's round, and a meal.",
+    "place": "A west-coast beach landing site and the inland towns and villages it supplies.",
+    "experience": "A relay followed without a break: nets and cold sea-spray at dawn, the fast noise of an auction, a long slow ride inland, and finally a plate, a family, a meal."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C079",
+      "role": "primary",
+      "why": "The Pāli formula's own grammar, 'because of this, that', carried here by a real supply chain of hands rather than by the text itself."
+    },
+    {
+      "concept_id": "C078",
+      "role": "supporting",
+      "why": "The short answer, 'we caught fish', and the long answer, the specific chain of hands that gets it to a plate, are both true at once."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Nets hauled in surf at first light",
+    "The catch sorted on sand",
+    "The auction's fast calls and hand signals",
+    "A vendor's round from door to door inland",
+    "A kitchen; a family eating"
+  ],
+  "what_must_be_real": "Real prices, real margins and real relationships along the chain; nothing staged to fit a neat step-by-step structure.",
+  "possible_arc": {
+    "opening": "Dark water and a net coming in.",
+    "turn": "The auction, fast and loud, decides where the catch goes.",
+    "ending_open": "Whichever kitchen the catch actually reaches, and whoever eats it."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working beach landing site with a visible auction",
+      "A traceable vendor's round reaching a specific inland kitchen",
+      "Cooperation from fishers, auctioneers, a vendor and a household, all within one day's chain"
+    ],
+    "suggestions": [
+      {
+        "name": "A west-coast fish landing site and its inland market towns",
+        "region": "Negombo or Chilaw area",
+        "why": "Well-established beach landing sites and lagoon fisheries with active daily auctions and inland vendor rounds.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific catch and vendor's round that can realistically be followed door to door must be confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Forcing a tidy step-by-step match onto the fish's real journey",
+    "The film losing its footing as a livelihood story if the 'chain' structure takes over"
+  ],
+  "drop_if": [
+    "No single catch can realistically be followed door to door within the filming window"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0156",
+      "relation": "pairs with",
+      "note": "Both follow ordinary small livelihoods that depend, visibly, on many small and specific supports."
+    },
+    {
+      "idea_id": "IDEA-0161",
+      "relation": "leads into",
+      "note": "The catch followed here could plausibly reach the shared table followed in 'What the Meal Leaves Behind'."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

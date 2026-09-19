@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0186",
+  "record_type": "idea",
+  "title": "Before the Long Trip",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "A fishing family spends the day before a multi-day trip securing the house, settling debts, and telling neighbours exactly when to expect the boat back, so that being unreachable for days does not mean being irresponsible.",
+  "human_question": "What does it take to step away from the world for a while without abandoning anyone in it?",
+  "premise": {
+    "story": "A fishing family's preparations, over one day, before a multi-day trip that will take the fisherman out of contact.",
+    "place": "A fishing village with multi-day deep-sea boats.",
+    "experience": "The practical, unglamorous groundwork of a real withdrawal: securing property, settling accounts, fixing a return date, and the waiting that follows."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C102",
+      "role": "primary",
+      "why": "Before entering the deepest state the source describes, a practitioner performs four preliminary duties: protecting belongings, making themselves answerable to their community, to their teacher, and checking how much time they have [C102-P:L43–L62]. The film offers a real, secular parallel: a family's own version of securing what is left behind and fixing a time to return, without equating the two."
+    },
+    {
+      "concept_id": "C099",
+      "role": "supporting",
+      "why": "The source insists that any deep, repeatable state depends on being able to enter and leave at a chosen time, not by chance; the fixed departure and return date is a plain, human version of that same discipline."
+    },
+    {
+      "concept_id": "C073",
+      "role": "supporting",
+      "why": "The source describes its deepest state as 'dwelling at ease, here and now,' not an escape from the world; the family's ordinary, responsible departure is one honest way a film can hold that phrase without over-claiming it."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Securing the house and boat, settling accounts before leaving",
+    "Instructions left with neighbours: when to expect the boat, who to call",
+    "The departure itself",
+    "The family's watch on the weather and the calendar until the return date"
+  ],
+  "what_must_be_real": "A real fishing family's real trip and real precautions. No danger at sea is shown or implied for dramatic effect.",
+  "possible_arc": {
+    "opening": "An ordinary day of preparation.",
+    "turn": "The boat leaves; the house is left in order.",
+    "ending_open": "The family's wait, and the return, however it actually happens."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A fishing family with a real multi-day trip during the filming window",
+      "Consent to film both departure preparations and, if possible, the return",
+      "No filming of the trip itself unless it can be done safely"
+    ],
+    "suggestions": [
+      {
+        "name": "Kalpitiya",
+        "region": "North Western Province",
+        "why": "A well-known base for multi-day deep-sea fishing trips.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific willing family and trip must be identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning a hard, risky livelihood into a spiritual metaphor",
+    "Filming real danger or distress at sea for effect",
+    "Overstating the parallel with the source in narration"
+  ],
+  "drop_if": [
+    "No family will allow filming of real preparations, or a genuine multi-day trip cannot be scheduled within the filming window"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0185",
+      "relation": "leads into",
+      "note": "From readiness for sudden danger to the ordinary, practical readiness of setting affairs in order before a longer absence."
+    },
+    {
+      "idea_id": "IDEA-0187",
+      "relation": "leads into",
+      "note": "From a family's practical preparations before absence, to a single person's final, complete letting go of a home."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

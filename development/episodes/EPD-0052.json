@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0052",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Society Book",
+  "logline": "A village savings and funeral-aid society, run from a handwritten ledger, decides together how to help a member through a bad year, and turns down the easier option of interest that would eventually take the family's land.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0103"
+  ],
+  "concept_ids": [
+    "C024",
+    "C012",
+    "C019"
+  ],
+  "chronology": {
+    "group_id": "GRP-06",
+    "position_in_group": 5,
+    "global_position": 52
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-06"
+    ],
+    "note": "Object 6 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0051",
+    "thread": "What is rigid made useful moves from a hide to a village: a mutual-aid society deciding how to help one member through a bad year rather than profit from it."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0053",
+    "thread": "From a community holding one member in mind to a sculptor holding one face in mind, in detail, for weeks."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A long-running mutual-aid or funeral-aid society willing to be filmed",
+      "A real, current case, with full consent from the member involved",
+      "Trust and access built over enough time to observe genuine deliberation, not a performance for the camera"
+    ],
+    "suggestions": [
+      {
+        "name": "A rural village with a long-running mutual-aid society",
+        "region": "Ampara or Polonnaruwa district",
+        "why": "Region-level suggestion for geographic variety; village mutual-aid and funeral societies of this kind are common across rural Sri Lanka.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific society, village or member has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0103"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

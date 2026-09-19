@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0086",
+  "record_type": "idea",
+  "title": "Salt That Never Stops Forming",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "In shallow coastal pans, salt crystals form, are raked away, and form again within days, a heap that always looks the same because it is never actually the same crystal twice.",
+  "human_question": "What does it mean for something to look unchanged, when every part of it is quietly being replaced?",
+  "premise": {
+    "story": "Salt workers in coastal pans flood, evaporate, rake and gather salt through a working season, in a cycle of forming, harvesting and reforming that repeats every few days.",
+    "place": "Coastal salt pans in the dry zone.",
+    "experience": "The viewer watches a heap of salt that looks constant across a season while learning, through the work itself, that it is made and remade continuously, never the same grains twice."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C039",
+      "role": "primary",
+      "why": "The source's account of matter's own brief lifespan and constant replacement, things seem unchanged because their parts do not all break at once, and each one that goes is replaced in the same spot [C039-M:L9], is a close, working match for what actually happens in a salt pan across a season."
+    },
+    {
+      "concept_id": "C037",
+      "role": "supporting",
+      "why": "The source's account of the body as the physical base mental life depends on frames the workers' own physical labour and endurance in the sun and brine."
+    },
+    {
+      "concept_id": "C042",
+      "role": "supporting",
+      "why": "The rhythmic, repeated cycle of the pans, flood, form, rake, gather, echoes the source's own patterned, repeating notation for a fast process, at a scale slow enough to actually watch."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Pans flooded with brine and left to evaporate",
+    "Crystals forming at the pan's edges over days",
+    "Raking and gathering into heaps, carried by basket",
+    "A heap dissolving at the edges in rain, and the cycle beginning again",
+    "Workers' own account of the trade's pace and pressures"
+  ],
+  "what_must_be_real": "The workers' real pay and conditions; no time-lapse cliche that erases the labour involved. The trade's real seasonal and economic pressures must be part of the film.",
+  "possible_arc": {
+    "opening": "Pans are flooded at the start of a cycle.",
+    "turn": "Weather, market prices, or labour shortages test the workers' plans for the cycle.",
+    "ending_open": "A harvest is gathered, or lost to rain, as the season actually goes."
+  },
+  "position_hint": "middle: a slow, cyclical, landscape-driven film that gives the group a dry-zone coastal setting distinct from its craft-workshop stories.",
+  "location": {
+    "requirements": [
+      "An active coastal salt-pan operation willing to allow filming across a working cycle",
+      "Time on location across several days or weeks to observe a full cycle",
+      "Consent that includes the workers' economic situation, not only the visual cycle"
+    ],
+    "suggestions": [
+      {
+        "name": "Palatupana salt pans, Hambantota",
+        "region": "Southern Province (dry zone coast)",
+        "why": "A well-known traditional salt-production area on the southern dry-zone coast.",
+        "season_notes": "Salt production is tied to the dry season; timing would need to match an active harvest cycle.",
+        "access_notes": "",
+        "verify": "A specific operation and willing workers are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Time-lapse or montage treatment could aestheticise the labour away",
+    "The workers' pay and conditions must not be glossed over for a pretty landscape film",
+    "Weather dependency could make filming a full cycle logistically difficult"
+  ],
+  "drop_if": [
+    "No salt-pan operation allows filming across a real working cycle",
+    "The workers do not want their economic situation shown alongside the visual cycle",
+    "Weather or access problems make a full cycle impossible to film"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0075",
+      "relation": "pairs with",
+      "note": "Both watch a substance and a trade built on materials that seem constant but are constantly, quietly renewed or replaced."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

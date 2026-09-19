@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0175",
+  "record_type": "idea",
+  "title": "Held, Not Touched",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "A gem-cutter in Ratnapura brings a rough stone close under a single lamp and looks at it for longer than seems reasonable, ignoring everything else in the room until its faults and its worth both become visible.",
+  "human_question": "What changes when attention stops scattering and holds one thing for a long time?",
+  "premise": {
+    "story": "A day, or several, in a small gem-cutting workshop, following one stone from rough form to finished cut, through the cutter's held, undistracted looking.",
+    "place": "A gem-cutting workshop in a gem-trading town.",
+    "experience": "Close, patient, almost uncomfortable attention on one small object, and the value that only shows up after a long look."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C013",
+      "role": "primary",
+      "why": "The source's own image for deep concentration is someone who wants to truly know an object: bringing it close, shutting out the room, and looking long at its colour and marks until it is completely clear [C013-P:L48–L52]. The film keeps this as a working image, not a claim about the cutter's inner state."
+    },
+    {
+      "concept_id": "C031",
+      "role": "supporting",
+      "why": "As attention holds in this way, some things that felt necessary fall away one by one; the film can show a narrowing of movement and talk without naming it as doctrine."
+    },
+    {
+      "concept_id": "C099",
+      "role": "supporting",
+      "why": "A skilled cutter can pick up a stone, settle into the work, stop exactly when needed and look back over what was done, the ordinary craft version of a mastery the source describes for meditative absorption [C099-P:L69–L79]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The rough stone under different light, turned slowly",
+    "The cutter's stillness, breathing, the room otherwise ignored",
+    "Small adjustments, rejected angles, the first facet catching light",
+    "The finished stone weighed, valued, sold or kept"
+  ],
+  "what_must_be_real": "The cutter's actual trade, risk and skill. The film must not claim the cutter is meditating or has any inner attainment.",
+  "possible_arc": {
+    "opening": "A rough stone arrives; the cutter turns it under a lamp.",
+    "turn": "A difficult decision about where to cut, made only after long looking.",
+    "ending_open": "The stone leaves the workshop, for a buyer or a client. Reality decides the ending."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working gem-cutter willing to be filmed over a real commission",
+      "Good light control for close macro photography",
+      "Time to follow one stone through several sessions"
+    ],
+    "suggestions": [
+      {
+        "name": "Ratnapura",
+        "region": "Sabaragamuwa Province",
+        "why": "Sri Lanka's best-known gem-trading and cutting town.",
+        "season_notes": "",
+        "access_notes": "Many small workshops; a specific willing cutter must be found.",
+        "verify": "Access to a specific workshop and cutter is unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Overclaiming a spiritual state for ordinary skilled work",
+    "Trade secrecy around value and sourcing",
+    "Becoming a craft showcase with no stake"
+  ],
+  "drop_if": [
+    "No cutter will allow a real commission to be filmed start to finish"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0177",
+      "relation": "pairs with",
+      "note": "Both are close studies of craft attention narrowing and refining, one on a single stone, one across a graduated set of vessels."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

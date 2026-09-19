@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0148",
+  "record_type": "idea",
+  "title": "Sitting With It",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "Every morning before the village wakes, a forest monk walks to the cemetery at its edge and simply sits there, the way he has for years, doing nothing that looks like very much.",
+  "human_question": "What changes in a person who deliberately keeps death close, on purpose, every single day?",
+  "premise": {
+    "story": "A forest monk's regular practice of sitting at a village cemetery or charnel ground as part of his own training, followed over several mornings.",
+    "place": "A forest hermitage beside a rural cemetery.",
+    "experience": "Dawn light through trees, the ordinary business of a cemetery, a monk sitting still among it, and, if he chooses to speak, his own account of why."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C092",
+      "role": "primary",
+      "why": "The source's own instruction is to go to charnel grounds and forests to see the dead and wisely recollect that death is certain for oneself and for everyone [C092-P4:L80-L84]. A monk who does exactly this, as an ordinary part of his life, needs no further explanation."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The walk from hermitage to cemetery at dawn",
+    "The cemetery's ordinary daily life",
+    "The monk sitting still for an extended period",
+    "Villagers passing on the path",
+    "The monk's own words, if he offers them, about why he comes"
+  ],
+  "what_must_be_real": "A real, ongoing practice by a monk willing to have it observed. The film does not claim he has attained anything; it only shows what he does.",
+  "possible_arc": {
+    "opening": "A dawn walk from hermitage to cemetery.",
+    "turn": "An ordinary event at the cemetery, a caretaker at work, perhaps a funeral in the distance, met by the same stillness.",
+    "ending_open": "The monk gets up and walks back. Whatever this practice has done to him is not something the camera can show directly."
+  },
+  "position_hint": "closing candidate: a quiet, accepting note on which to hand the group's question on toward what comes after grief, without resolving it into doctrine",
+  "location": {
+    "requirements": [
+      "A forest hermitage with an established practice of this kind near a working cemetery",
+      "A monk willing to be filmed and, if he chooses, to speak about the practice"
+    ],
+    "suggestions": [
+      {
+        "name": "A forest hermitage in the North Central or North Western dry-zone forest belt",
+        "region": "North Central Province or North Western Province",
+        "why": "Dry-zone forest hermitages of this kind are established in this belt; no specific hermitage identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No hermitage or monk confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Presenting the monk as having 'attained' something the camera cannot verify",
+    "Treating a working cemetery and grieving families nearby as scenery",
+    "Romanticising austerity"
+  ],
+  "drop_if": [
+    "No monk with this established practice will allow filming",
+    "The nearby cemetery's use by grieving families cannot be respected during filming"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0136",
+      "relation": "leads into",
+      "note": "A monk who spends his working life at other people's deathbeds finds a natural route into this, his own private practice of recollecting death."
+    },
+    {
+      "idea_id": "IDEA-0144",
+      "relation": "pairs with",
+      "note": "A companion piece: one watches a solitary practitioner train attention toward death, the other watches many people training attention toward stillness together."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

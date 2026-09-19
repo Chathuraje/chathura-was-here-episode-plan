@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0023",
+  "record_type": "idea",
+  "title": "Before the Selection",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "In the grey light before school, boys and girls bat and bowl in village nets, some dreaming of a national shirt, some just loving the game.",
+  "human_question": "Can you tell, by watching someone practise, whether they love the game or want what the game might give them?",
+  "premise": {
+    "story": "A dawn cricket practice at a village or school ground: a coach pushing young players through repetition, talk of heroes and selection trials, and one player who keeps batting long after the others have gone home.",
+    "place": "A village or school cricket ground in the hill country, practising before the school day begins.",
+    "experience": "Bat on ball in the cool morning air, a coach's voice, and the private, repeated effort of players hoping for very different things from the same game."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C021",
+      "role": "primary",
+      "why": "This is close to the concept's own example: the wish to act, in practice, can run either toward the love of doing something or toward craving reward and recognition, and the source is explicit that the two are not the same drive even when they look identical from outside [C021-P:L75] [C021-M:L27]."
+    },
+    {
+      "concept_id": "C005",
+      "role": "supporting",
+      "why": "Sport itself is not treated as a fault in the source; wanting shows up in how and why someone plays, not in playing itself [C005-M:L5], which matters for a film about children who must not be shown as 'greedy' for wanting to succeed."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Repetitive batting and bowling drills in early light",
+    "A coach's corrections and encouragement",
+    "Talk among players about heroes, selection and money",
+    "One player continuing alone after the others leave",
+    "The walk to school once practice ends"
+  ],
+  "what_must_be_real": "The players' actual practice and their own, freely given words about why they play. Full guardian consent throughout.",
+  "possible_arc": {
+    "opening": "Grey light, dew on grass, the first balls of the morning.",
+    "turn": "Talk turns to an upcoming trial or selection.",
+    "ending_open": "Practice ends as it actually does, with or without a trial to look forward to."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A village or school cricket ground with an active morning practice",
+      "A coach and players willing to be filmed and interviewed",
+      "Full guardian consent for all minors involved"
+    ],
+    "suggestions": [
+      {
+        "name": "A village or school cricket ground near Matale",
+        "region": "Matale District, Central Province",
+        "why": "An accessible hill-country district with active school and village cricket.",
+        "season_notes": "",
+        "access_notes": "Specific ground and team unconfirmed.",
+        "verify": "No coach or team has been contacted; this is a plausible setting, not a confirmed location.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Involves minors: guardian consent is essential throughout",
+    "Framing any child's ambition as greed",
+    "Pressure and selection anxiety must be handled with care"
+  ],
+  "drop_if": [
+    "Full guardian consent cannot be obtained for the players shown",
+    "No coach or team will allow candid conversation about motives"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0019",
+      "relation": "pairs with",
+      "note": "Two open-air disciplines built on repeated effort, one chasing wind, one chasing a place on a team."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

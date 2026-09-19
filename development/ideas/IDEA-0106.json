@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0106",
+  "record_type": "idea",
+  "title": "Between Two Rounds",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "At a small temple-run elders' home, the same two carers move within one hour from helping a resident through a hard, frightened moment to sitting with another whose grandchild has just visited with good news.",
+  "human_question": "Can the same person really be fully present for someone's pain and someone else's joy within the same hour?",
+  "premise": {
+    "story": "A single day of care at a small elders' home, following two carers through its real range of moments.",
+    "place": "A modest elders' home run by a temple or small charity.",
+    "experience": "The quiet, practical texture of care work: routine, discomfort, a visit, a shift in mood, and back again."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C030",
+      "role": "primary",
+      "why": "Compassion and sympathetic joy each need a specific person actually in view and cannot be felt in the same instant, illustrated here by carers moving between one resident's pain and another's good news [C030-P:L25; C030-P:L39]."
+    },
+    {
+      "concept_id": "C095",
+      "role": "supporting",
+      "why": "The fourth sublime abiding, equanimity, describes what a carer needs once there is nothing more they can do for someone [C095-P4:L39]."
+    },
+    {
+      "concept_id": "C024",
+      "role": "supporting",
+      "why": "Compassion and sympathetic joy are the two variable 'boundless' factors, meant to be extended without favourites among the people cared for [C024-P:L81; C024-P:L91]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Morning care routines",
+    "A resident in discomfort being helped through a hard moment",
+    "A grandchild's visit and its aftermath",
+    "The carers moving from one room, and one need, to the next"
+  ],
+  "what_must_be_real": "Residents' full capacity to give informed consent, or family and guardian consent where needed. No exposure of frailty for effect.",
+  "possible_arc": {
+    "opening": "The home waking up, routines beginning.",
+    "turn": "A hard, frightened moment with one resident.",
+    "ending_open": "Whatever the rest of the day actually holds, good and difficult alike."
+  },
+  "position_hint": "closing candidate: hands the group off to the next stage's concern with the body's fragility, seen here in the old and the tired, cared for by others",
+  "location": {
+    "requirements": [
+      "A small elders' home willing to allow filming with full institutional and resident consent",
+      "Residents and families capable of giving genuine, ongoing consent",
+      "Carers willing to be followed and interviewed"
+    ],
+    "suggestions": [
+      {
+        "name": "A small temple-run or charity elders' home",
+        "region": "Region-level, unspecified",
+        "why": "No specific home is named; this requires direct outreach and consent wherever it is filmed.",
+        "season_notes": "",
+        "access_notes": "Institutional and family permission required.",
+        "verify": "No specific home, carer or resident has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "High: elders' dignity and capacity to consent",
+    "Institutional and family permission required throughout, and may be withdrawn at any point",
+    "Must not expose frailty for emotional effect"
+  ],
+  "drop_if": [
+    "The home or its residents cannot give informed, ongoing consent"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0105",
+      "relation": "pairs with",
+      "note": "Both are closing candidates for the group, handing off to the next stage's concern with the body's fragility."
+    },
+    {
+      "idea_id": "IDEA-0098",
+      "relation": "mirrors",
+      "note": "Both ask how one person's care changes shape for different people within the same day."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

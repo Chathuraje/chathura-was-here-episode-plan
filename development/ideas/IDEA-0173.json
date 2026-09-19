@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0173",
+  "record_type": "idea",
+  "title": "The Levelled Disc",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "A clay-worker levels a plain reddish disc for a lay meditation class down the road, smoothing it again each time the sun cracks it, while a whole village day organises itself around one small, deliberately uninteresting object.",
+  "human_question": "What can a person do with attention that has nowhere interesting to land?",
+  "premise": {
+    "story": "A potter or clay-worker prepares kasiṇa discs for a nearby lay meditation teacher: sourcing the right clay, kneading out grit, levelling the surface like a drum skin, re-levelling it each time it dries and cracks, and finally delivering finished discs to the hall.",
+    "place": "A small clay-working household in a dry-zone or low-country pottery village, and the plain lay meditation hall it supplies.",
+    "experience": "The hypnotic patience of getting one small circle of clay perfectly flat and dull, and the discovery that the whole discipline of stillness can begin with something this ordinary."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C087",
+      "role": "primary",
+      "why": "Kasiṇa practice begins with exactly this act of craft: a disc of smooth reddish clay, made and re-levelled until it is as even as a drum face, then used as a training object for attention [C087-P4:L209; C087-M:L19–L21]."
+    },
+    {
+      "concept_id": "C013",
+      "role": "supporting",
+      "why": "The sources describe deep concentration through the same image of bringing an object close and looking long at its colour and marks until it is completely clear; the finished disc is what such attention would eventually rest on [C013-P:L48–L52]."
+    },
+    {
+      "concept_id": "C085",
+      "role": "supporting",
+      "why": "The disc is one of forty listed meditation subjects, chosen to fit different temperaments; the film can show it made without explaining the larger list."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Picking grit and stones out of wet clay, testing it between the fingers",
+    "The board or palm smoothing the surface, cracks appearing as it dries in the sun, the patient re-levelling",
+    "The finished discs stacked, wrapped and carried to the hall on a bicycle or in a basket",
+    "A brief, unexplained glimpse of the hall itself: mats, low light, a few people already seated"
+  ],
+  "what_must_be_real": "The clay-worker's actual livelihood, orders and relationship with the meditation hall. No one performs meditation for the camera, and the clay-worker is not shown as practising.",
+  "possible_arc": {
+    "opening": "Grit picked from wet clay, an ordinary morning's work.",
+    "turn": "A disc cracks in the sun and has to be redone; the deadline for delivery presses.",
+    "ending_open": "The discs are carried to the hall and set down. Whether Chathura is given one, and by whom, is for reality to decide."
+  },
+  "position_hint": "opening candidate: a plausible, ordinary place for Object 10 to be acquired if a disc, or the clay-worker's own tool, is genuinely given to Chathura; the object fits the group's hint of 'something that helps stillness.'",
+  "location": {
+    "requirements": [
+      "A working clay craftsperson supplying a real meditation hall or teacher",
+      "Consent to film both the workshop and, briefly and respectfully, the exterior of the hall",
+      "A finished disc or delivery to follow during the filming window"
+    ],
+    "suggestions": [
+      {
+        "name": "Molagoda pottery village",
+        "region": "Kegalle district",
+        "why": "A traditional clay-working area in the low country.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Whether kasiṇa discs specifically are made to order there, or only domestic pottery, is unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning craft into pure metaphor with no livelihood at stake",
+    "Implying the clay-worker practises kasiṇa themselves without evidence",
+    "The link to meditation could feel imposed if no real hall or teacher is found"
+  ],
+  "drop_if": [
+    "No clay-worker can be found who actually supplies discs to a real, willing meditation teacher or hall"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0176",
+      "relation": "pairs with",
+      "note": "Both look at the plain, made objects a meditator's attention rests on, from opposite ends: making one object closely, and choosing among forty."
+    },
+    {
+      "idea_id": "IDEA-0174",
+      "relation": "alternative to",
+      "note": "A different, non-craft way Object 10 could be acquired at the group's opening."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

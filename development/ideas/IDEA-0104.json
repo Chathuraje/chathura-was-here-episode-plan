@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0104",
+  "record_type": "idea",
+  "title": "The Whole Team",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "Before sunrise, a beach-seine crew of a dozen men and women pulls a single net from two directions at once; no one person could do any part of it alone, and the catch belongs to all of them the moment it's decided.",
+  "human_question": "When something can only be done by everyone at once, whose achievement is it?",
+  "premise": {
+    "story": "One full haul of a beach-seine net, from the boat going out to the net coming in and the catch being divided.",
+    "place": "A working beach at first light, ropes laid out on sand, the whole crew's coordinated pull.",
+    "experience": "A single sustained physical effort that literally cannot happen without every member playing their part."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C019",
+      "role": "primary",
+      "why": "The four marks of association describe factors that arise together, cease together, take the same object and rest on the same base, each with its own distinct function, closely echoed by a crew that launches and lands as one [C019-P:L33-L47; C019-M:L3-L17]."
+    },
+    {
+      "concept_id": "C023",
+      "role": "supporting",
+      "why": "The ease and coordination visible in a well-practised team echoes the workability and proficiency that come with repeated, shared effort [C023-P:L153-L157]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The boat going out with one end of the net",
+    "The long, coordinated pull from the beach",
+    "Each person's distinct task within the single shared effort",
+    "The net closing and the catch being divided among the crew"
+  ],
+  "what_must_be_real": "The crew's actual livelihood, a real catch, and a real division of proceeds. No restaging of the pull for better camera angles.",
+  "possible_arc": {
+    "opening": "Ropes and net laid out on the sand before light.",
+    "turn": "The long, hard, coordinated pull.",
+    "ending_open": "What the catch actually is, and how it is shared among the crew."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An active beach-seine fishing crew willing to have a real working morning filmed",
+      "A genuine haul, not one arranged for the camera",
+      "Safe filming positions that do not interfere with the work"
+    ],
+    "suggestions": [
+      {
+        "name": "A beach-seine fishing community",
+        "region": "Southern coast, e.g. the Ahangama-Weligama area",
+        "why": "Beach-seine fishing is a well-known traditional practice along this stretch of coast.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific crew or morning has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning hard, precarious labour into a pretty metaphor",
+    "The crew's own livelihood and voices must lead, not the visual composition"
+  ],
+  "drop_if": [
+    "No crew is willing to have a real working morning filmed as it happens"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0095",
+      "relation": "mirrors",
+      "note": "Both are physically demanding labour used to show what the ease and coordination of goodness can look like in the body."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

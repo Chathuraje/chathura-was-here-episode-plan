@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0045",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Close Call",
+  "logline": "In a village cricket match, an umpire has a fraction of a second to decide a dismissal that will end someone's innings, and the whole ground waits, in silence, for the gap between seeing and deciding to close.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0083"
+  ],
+  "concept_ids": [
+    "C044",
+    "C025",
+    "C040"
+  ],
+  "chronology": {
+    "group_id": "GRP-05",
+    "position_in_group": 10,
+    "global_position": 45
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-05"
+    ],
+    "note": "Object 5 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0044",
+    "thread": "Something too fast to watch becomes something too fast to replay: an umpire's split-second ruling while a whole ground waits in silence."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0046",
+    "thread": "The gap between seeing and deciding narrows further on a mountain road, where a bus driver reacts to each blind bend faster than thought, still caring for everyone on board."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "An active local cricket tournament with a willing umpire and organisers",
+      "Fast, reliable camera coverage of play, including close-in shots on the umpire",
+      "Consent from players, umpires and organisers to film real matches and decisions"
+    ],
+    "suggestions": [
+      {
+        "name": "A village or town cricket tournament",
+        "region": "Any province, to be selected",
+        "why": "Local cricket tournaments are widespread and would supply real, unstaged close decisions.",
+        "season_notes": "Cricket season and tournament calendars vary by region and school or club schedule.",
+        "access_notes": "",
+        "verify": "A specific tournament, ground and willing umpire are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0083"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0138",
+  "record_type": "idea",
+  "title": "Lost and Found",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "At a big city railway station, a counter piled with other people's things waits for owners who may never come, while a clerk decides, item by item, what honesty actually costs.",
+  "human_question": "What does it cost, in the moment, to hand back something you could easily have kept?",
+  "premise": {
+    "story": "A lost-property counter at a major railway or bus station, followed through its daily rhythm of handed-in items, unclaimed shelves and the occasional reunion.",
+    "place": "A busy city station.",
+    "experience": "A counter that is half museum, half confessional: bags, phones, umbrellas, a logbook, and the specific moment when someone walks up hoping something is still there."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C058",
+      "role": "primary",
+      "why": "The source defines taking what is not given by the plain fact of knowing something belongs to another and deciding to take it anyway [C058-P:L78-L86]. The counter shows the opposite decision, made quietly by strangers, again and again."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Items being logged in",
+    "Shelves of unclaimed belongings",
+    "An owner arriving and the moment of return",
+    "The clerk's own stories about what does and does not come back",
+    "The counter at closing time"
+  ],
+  "what_must_be_real": "A real, working lost-property office and its actual daily traffic. No 'found' items are planted for the camera.",
+  "possible_arc": {
+    "opening": "The counter opening for the day, a shelf of unclaimed things.",
+    "turn": "Someone arrives certain their bag is gone, and finds it.",
+    "ending_open": "The counter closes with items still unclaimed. Their owners may or may not ever come."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A railway or bus station with an active, willing lost-property office",
+      "Members of the public willing to be filmed retrieving items"
+    ],
+    "suggestions": [
+      {
+        "name": "Colombo Fort Railway Station",
+        "region": "Western Province",
+        "why": "A major, well-known station with a long-running lost-property office and high daily traffic.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Access and filming permission from railway authorities are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Filming identifiable members of the public without consent",
+    "Moralising about 'honest' versus 'dishonest' people",
+    "Making light of genuine loss"
+  ],
+  "drop_if": [
+    "No station will permit filming at the counter",
+    "The office's daily traffic is too low to sustain a film"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0139",
+      "relation": "pairs with",
+      "note": "Both look at wanting what belongs to someone else, one among strangers at a counter, one among relatives over land."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

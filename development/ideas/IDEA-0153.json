@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0153",
+  "record_type": "idea",
+  "title": "What the Channel Feeds",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "In a dry-zone village, farmers wait for the tank gate to open, and a single release of water starts a chain that ends, months later, at a bowl of rice on a table none of them will ever see.",
+  "human_question": "How many hands and how much water does it take before a single meal can exist?",
+  "premise": {
+    "story": "One paddy season on a small family plot fed by a shared irrigation tank, from the meeting that decides when the sluice opens to the harvest and the first cooked rice.",
+    "place": "A tank-fed paddy village in the dry zone, where water is shared by turns and argument.",
+    "experience": "The long, patient unfolding of a single grain: soil, water, labour, weather and neighbours, each one holding up the next, until a family eats what none of them made alone."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C075",
+      "role": "primary",
+      "why": "The Margaya's own image for nutriment: a seed starts the plant, but water and fertiliser keep it growing; a crop visibly depends on many supports at once, none of which it controls."
+    },
+    {
+      "concept_id": "C082",
+      "role": "supporting",
+      "why": "Water released on a fixed rotation, borrowed labour, seed and weather are each a specific, nameable support for the harvest, not a vague sense that everything is connected."
+    },
+    {
+      "concept_id": "C078",
+      "role": "supporting",
+      "why": "A farmer's short answer for a good or bad season ('the rain came' or 'it failed') and the long answer, the whole chain of specific supports, are both true at once."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Seed soaking and the nursery bed",
+    "The farmers' meeting deciding the water order, and the channel gate opening",
+    "Water reaching the last field in the rotation",
+    "Transplanting by hand; fertiliser carried in",
+    "The crop's colour changing with water and weather over months",
+    "Harvest, milling, and a first cooked meal of the new rice"
+  ],
+  "what_must_be_real": "The family's real water-sharing arrangement, their debts and expectations, and the season's real outcome, good or bad.",
+  "possible_arc": {
+    "opening": "A dry canal bed and a meeting to decide whose turn the water is.",
+    "turn": "Water reaches the field, and the crop is now visibly bound to a rotation it does not control.",
+    "ending_open": "A harvest and a meal, or a season that disappoints; reality decides."
+  },
+  "position_hint": "opening candidate: matches the group's own opening image of rain to tank to paddy to rice; an Object 9 acquisition (something that exists only because of this whole chain, such as a hand-milled bag of rice or a winnowing basket) would be possible only if it really happens",
+  "location": {
+    "requirements": [
+      "A working tank-fed irrigation system with a visible water-sharing arrangement",
+      "A family plot that can be followed through most of one season",
+      "Willingness to show disputes or hardship honestly, not only a good outcome"
+    ],
+    "suggestions": [
+      {
+        "name": "A minor-tank paddy village in the Rajarata dry zone",
+        "region": "Anuradhapura or Polonnaruwa district",
+        "why": "Small, tank-fed paddy systems with rotational water sharing are widespread and long-established across this region.",
+        "season_notes": "Yala or Maha cultivation season, depending on the tank",
+        "access_notes": "",
+        "verify": "A specific tank, family and water-sharing arrangement must be identified and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Pastoral cliché; postcard imagery of rural hardship",
+    "Treating the farmers as illustrations of doctrine rather than people with real debts, rain and prices",
+    "Filming a water dispute as manufactured drama"
+  ],
+  "drop_if": [
+    "No family willing to show the whole season, including disappointment",
+    "No real water-sharing meeting or decision happens within the filming window"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0155",
+      "relation": "alternative to",
+      "note": "Both are candidate openings built around acquiring something that exists only because many hands and processes made it."
+    },
+    {
+      "idea_id": "IDEA-0161",
+      "relation": "leads into",
+      "note": "The rice grown here could plausibly be part of the shared meal followed in 'What the Meal Leaves Behind'."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

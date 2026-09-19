@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0160",
+  "record_type": "idea",
+  "title": "Leaning Poles",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "A crew raises a tall bamboo frame for a village festival, poles leaning against each other's tips until, all at once, the structure holds on its own, decorations hanging from a frame that itself stands only because nothing in it stands alone.",
+  "human_question": "What does it take for many unstable things to become one stable thing?",
+  "premise": {
+    "story": "A village crew building a festival frame or gateway, a pandal, a lit archway, a temporary tower, against a fixed opening date, from raw poles to the finished, lit structure.",
+    "place": "A village temple ground during a seasonal festival.",
+    "experience": "The tension of a structure that should not stand and somehow does: poles steadied by hand, an argument about angles, and the exact moment the frame first holds itself up."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C082",
+      "role": "primary",
+      "why": "The mutuality condition's own image: several sticks staying upright only by leaning against each other's tips, together with the text's care to say that not everything arising together supports everything else."
+    },
+    {
+      "concept_id": "C083",
+      "role": "supporting",
+      "why": "The same 'nothing stands alone' summary, read through an ordinary structure rather than through doctrine."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Poles selected and lashed together",
+    "A first attempt and a correction",
+    "The moment the frame holds without hands on it",
+    "Decorations and lights going up",
+    "A pole tested and the frame's give and recovery",
+    "The finished structure lit at night"
+  ],
+  "what_must_be_real": "The crew's real skill, deadline pressure and pay; no staged collapse or manufactured crisis.",
+  "possible_arc": {
+    "opening": "A pile of raw poles on open ground.",
+    "turn": "The frame is raised and, for a moment, everyone steps back to see if it holds.",
+    "ending_open": "The finished structure lit for the festival, or however the real build actually goes."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A village crew building a festival structure from raw materials on site, not pre-fabricated",
+      "A fixed opening date to build toward",
+      "Safe filming positions during the raising"
+    ],
+    "suggestions": [
+      {
+        "name": "A village temple ground during a local festival season",
+        "region": "Sabaragamuwa or Uva province",
+        "why": "Deliberately a smaller, local festival rather than a major national procession, to allow closer access to one crew's whole build.",
+        "season_notes": "Varies by local temple calendar",
+        "access_notes": "",
+        "verify": "A specific festival, crew and structure must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Becoming a neat visual metaphor with a voice-over lecture",
+    "The build being staged or accelerated for the camera"
+  ],
+  "drop_if": [
+    "No crew will let the camera in during the actual build",
+    "The structure is pre-fabricated rather than raised on site"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0162",
+      "relation": "pairs with",
+      "note": "Both work at a communal, epic scale, following many people's coordinated effort rather than one person's story."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

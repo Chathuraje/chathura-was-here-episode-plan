@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0069",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "What Comes at Dusk",
+  "logline": "As the light goes at the edge of a village, a ritual specialist and a family build an offering stand for a sick relative, and the whole village stays up with them until dawn.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0145"
+  ],
+  "concept_ids": [
+    "C053",
+    "C051"
+  ],
+  "chronology": {
+    "group_id": "GRP-08",
+    "position_in_group": 3,
+    "global_position": 69
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-08"
+    ],
+    "note": "Object 8 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0068",
+    "thread": "From a rite for someone gone to a night-long rite for someone still here: a village staying up with a family and a ritual specialist for a sick relative."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0070",
+    "thread": "What a community gives one of its own becomes what is owed on paper: a village shop's credit book, where some debts are struck through when the debtor dies."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A family and ritual specialist willing to have a real ceremony filmed",
+      "Full, ongoing consent from the sick person or their guardians, and from every performer",
+      "The sick person's dignity and privacy protected throughout"
+    ],
+    "suggestions": [
+      {
+        "name": "A rural village in the Southern Province low country",
+        "region": "Southern Province",
+        "why": "Thovil and related healing ceremonies remain a living low-country practice; no specific village identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No family, specialist or ceremony confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0145"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

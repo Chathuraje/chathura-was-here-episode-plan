@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0022",
+  "record_type": "idea",
+  "title": "The Hundredth Piece",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "In a hill-country kitchen before the New Year, a sweet-maker's hands move without looking, and a child's whole day depends on the first bite.",
+  "human_question": "Can the same taste mean everything to one person and nothing much to another, in the same room?",
+  "premise": {
+    "story": "A family or small kitchen making traditional New Year sweets over several days: the maker's flat, practised rhythm after hundreds of pieces, an elder's careful tasting and judgement, and children waiting for the first batch to cool enough to eat.",
+    "place": "A home kitchen in a hill-country village in the weeks before the New Year.",
+    "experience": "Oil, sugar and pattern; the contrast between a tired, expert hand and a child's undivided delight."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C032",
+      "role": "primary",
+      "why": "This is close to the concept's own story seed: the same sweet bringing delight to one person and a neutral, practised routine to another, which is feeling following the object and the person rather than the object alone [C032-P:L43]. The idea that pleasant feeling is 'where wanting begins' is the group's own editorial framing, not a claim stated in this digest's extracts, and the film should not present it as source teaching."
+    },
+    {
+      "concept_id": "C004",
+      "role": "supporting",
+      "why": "The sweets themselves are a small, ordinary example of the sense-sphere world: taste, smell and sight together, wanted keenly by some and handled with flat skill by others [C004-P:L25]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Batter, oil and patterns forming",
+    "The maker's rhythm after many repetitions",
+    "An elder tasting and judging a batch",
+    "Children waiting, then eating the first cooled piece",
+    "Sweets packed for visitors and the New Year table"
+  ],
+  "what_must_be_real": "The family's actual New Year preparations and their own account of who taught whom. Nothing staged beyond normal cooking.",
+  "possible_arc": {
+    "opening": "The first batter poured into hot oil before dawn.",
+    "turn": "A child can't wait for the sweets to cool.",
+    "ending_open": "The sweets are finished, shared, or run out before the visitors arrive. Reality decides."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A family actively making traditional sweets for the New Year",
+      "Consent to film children in a home setting, from parents or guardians",
+      "A kitchen with room for close, unobtrusive filming"
+    ],
+    "suggestions": [
+      {
+        "name": "A village home kitchen near Badulla",
+        "region": "Badulla District, Uva Province",
+        "why": "A hill-country district with strong village New Year traditions.",
+        "season_notes": "New Year season, mid-April.",
+        "access_notes": "Specific family unconfirmed.",
+        "verify": "No family has been contacted; this is a plausible setting, not a confirmed location.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Nostalgic, touristic imagery without a real family story underneath",
+    "Filming children requires full guardian consent throughout"
+  ],
+  "drop_if": [
+    "No family will allow filming across the full preparation, or will not consent to filming children"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0017",
+      "relation": "mirrors",
+      "note": "Both are about giving something to eat, and whose pleasure the giving is really for."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

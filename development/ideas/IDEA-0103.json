@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0103",
+  "record_type": "idea",
+  "title": "The Society Book",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "A village savings and funeral-aid society, run from a handwritten ledger, decides together how to help a member through a bad year, and turns down the easier option of interest that would eventually take the family's land.",
+  "human_question": "What does a community actually choose, when it could profit from one of its own members' trouble instead?",
+  "premise": {
+    "story": "A mutual-aid or funeral-aid society's monthly meeting and its handling of a real member's real difficulty.",
+    "place": "A village hall or a member's home: ledgers, handwritten notes, a circle of people who know each other's business.",
+    "experience": "The unglamorous, procedural texture of a community actually looking after its own."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C024",
+      "role": "primary",
+      "why": "The source's own example of wrong livelihood is lending to someone in difficulty at unjust interest in order to eventually take their land; a fair mutual-aid society is its deliberate opposite [C024-P:L47-L51]."
+    },
+    {
+      "concept_id": "C012",
+      "role": "supporting",
+      "why": "This is a return, visible only much later, on years of steady fair dealing within a community, resonant with the idea that good action's fruit can arrive long after the act [C012-P:L50]."
+    },
+    {
+      "concept_id": "C019",
+      "role": "supporting",
+      "why": "Many people's small, specific contributions add up to one outcome, none of them the whole story alone [C019-P:L49]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The monthly meeting and the ledger itself",
+    "Discussion of terms and how to help a member fairly",
+    "A member's situation being handled with visible care and discretion",
+    "The society's ordinary, procedural rhythm across meetings"
+  ],
+  "what_must_be_real": "The society's actual practice and a real member's real situation, shown only with their full, informed consent.",
+  "possible_arc": {
+    "opening": "The ledger opens for the month.",
+    "turn": "A member's difficulty is raised and discussed.",
+    "ending_open": "What the group actually decides, and how it plays out."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A long-running mutual-aid or funeral-aid society willing to be filmed",
+      "A real, current case, with full consent from the member involved",
+      "Trust and access built over enough time to observe genuine deliberation, not a performance for the camera"
+    ],
+    "suggestions": [
+      {
+        "name": "A rural village with a long-running mutual-aid society",
+        "region": "Ampara or Polonnaruwa district",
+        "why": "Region-level suggestion for geographic variety; village mutual-aid and funeral societies of this kind are common across rural Sri Lanka.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific society, village or member has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Exposing members' private debts and hardship without full consent",
+    "Implying a real lender elsewhere in the community is a villain, without direct evidence"
+  ],
+  "drop_if": [
+    "Members will not consent to being identified even partially, or no real, current case is active"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0102",
+      "relation": "pairs with",
+      "note": "Both concern honest dealing chosen over an available, more profitable wrong, at the level of a trade and of a community."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0137",
+  "record_type": "idea",
+  "title": "The Night Ward",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "A night-shift nurse on a hospital ward moves from bed to bed in the dark, doing the small physical things, a sip of water, a hand held, for people whose families can't be there.",
+  "human_question": "What is left to give someone when medicine has done what it can?",
+  "premise": {
+    "story": "One overnight shift with a nurse on a general or palliative ward in a provincial hospital, told through her rounds and her own account of the work.",
+    "place": "A government hospital ward in a Central Province town.",
+    "experience": "A quiet corridor at 3am, the particular rhythms of a night shift, small physical gestures of care, and a nurse's own, unsentimental words about what she has learned from sitting with many people at the end."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C056",
+      "role": "primary",
+      "why": "The source stresses what is done or remembered near the end of a life, and the value of someone nearby who helps a dying person toward something good to hold onto [C056-P:L83; C056-M:L22]. A night nurse's ordinary care sits inside that idea without any doctrine being spoken."
+    },
+    {
+      "concept_id": "C061",
+      "role": "supporting",
+      "why": "The source describes the dying mind still meeting the world through the senses right up to the end. A nurse's small physical gestures, moistening lips, holding a hand, work at exactly those senses, without the film needing to explain why."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The ward at night",
+    "Medication and observation rounds",
+    "A small gesture of comfort",
+    "A conversation at shift change",
+    "The ward emptying into daylight"
+  ],
+  "what_must_be_real": "The nurse's real work and years of experience. No patient is shown identifiably without explicit, informed consent, and no death is filmed.",
+  "possible_arc": {
+    "opening": "The ward settling for the night.",
+    "turn": "A quiet hour where the nurse talks about what she has seen people return to at the end.",
+    "ending_open": "Dawn and shift change. The ward keeps going without her."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A public hospital willing to permit filming under strict patient-privacy conditions",
+      "A nurse with long experience willing to speak on camera",
+      "No identifiable dying patients shown without consent"
+    ],
+    "suggestions": [
+      {
+        "name": "A district or base hospital in the Kandy area",
+        "region": "Central Province",
+        "why": "A public hospital of the right scale for a ward-based observational piece.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific hospital or ward has agreed to filming; hospital permission and ethics clearance would be required.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Patient privacy and dignity",
+    "Hospital administrative sensitivity",
+    "Sentimentalising a demanding, underpaid job"
+  ],
+  "drop_if": [
+    "No hospital grants filming access under safe privacy conditions",
+    "The nurse is unwilling to be identified or her patients cannot be adequately protected"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0136",
+      "relation": "pairs with",
+      "note": "A companion piece: presence at the very end, seen once in a village home and once on a hospital ward."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

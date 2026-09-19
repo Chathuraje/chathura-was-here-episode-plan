@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0039",
+  "record_type": "idea",
+  "title": "The Closed Hand",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "A family workshop takes on an apprentice from outside the family. The craft passes hand to hand in daily lessons, but some steps are only ever done when the apprentice has gone home.",
+  "human_question": "What is the difference between a skill you protect and a skill you keep to yourself?",
+  "premise": {
+    "story": "The daily rhythm of teaching a hereditary craft to an apprentice who is not family: open demonstrations, quiet conversations between family members about how much to show, and the apprentice's own progress and frustrations over weeks or months.",
+    "place": "A small family metalworking or casting workshop where a technique has passed down through generations.",
+    "experience": "The viewer learns the craft alongside the apprentice, at exactly the pace they are allowed to learn it, and feels the pull between a family protecting its livelihood and a student wanting to be trusted with all of it."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C022",
+      "role": "primary",
+      "why": "Both sources count knowledge or skill (dhamma) among the five things this state of mind clings to and will not let go: as much a target of stinginess as a house, a following, a reputation or a gain [C022-P:L133–L135; C022-M:L43–L45]. A hereditary craft, taught to an outsider, is a direct, filmable form of exactly that pull."
+    },
+    {
+      "concept_id": "C026",
+      "role": "supporting",
+      "why": "This state is unusual: it grows out of attachment to one's own things, yet it shows itself as displeasure at those things being shared, so the sources group it with aversion rather than with wanting [C026-M:L19]. What looks like simple caution or love for the craft may, in a given moment, be either wanting to keep, or displeasure at sharing; the film need not decide which, only observe closely."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Open teaching: demonstrations, corrections, the apprentice's hands learning",
+    "Family conversations, in the family's own words, about what and how much to teach",
+    "Moments the apprentice is asked to step away, and what happens after they do",
+    "The apprentice's own account of what they notice being withheld, if anything",
+    "Work leaving the workshop, finished by whichever hands actually finished it"
+  ],
+  "what_must_be_real": "The workshop, the family and the apprentice's real teaching relationship must be genuine and already in progress. Trade methods the family wishes to keep private must stay private; the film observes the relationship, not the secret itself.",
+  "possible_arc": {
+    "opening": "A finished piece, and the many unseen hands and steps behind it.",
+    "turn": "A specific moment of teaching, or of being asked to step aside, makes the pull visible.",
+    "ending_open": "Whatever the family and the apprentice actually decide about how far the teaching goes ends the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A hereditary craft workshop currently training an apprentice from outside the family",
+      "Consent from the family to show what they are comfortable showing, and no more",
+      "An apprentice willing to speak about their own experience of the teaching"
+    ],
+    "suggestions": [
+      {
+        "name": "A family brass or metalwork workshop",
+        "region": "Kandy district, Central Province",
+        "why": "A region with a long-standing tradition of hereditary metal-craft workshops, some still family-run and training-based.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific workshop currently training an outside apprentice must be found and confirmed; this is a region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Framing a family's protection of its livelihood as a moral failing",
+    "Exposing trade methods the family wishes to keep private",
+    "The apprentice feeling exposed by speaking honestly about what is withheld from them"
+  ],
+  "drop_if": [
+    "No workshop is currently training a non-family apprentice",
+    "The family is unwilling to have the teaching relationship itself observed"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0042",
+      "relation": "pairs with",
+      "note": "Both examine what people will or won't share: a skill in one, a catch in the other."
+    },
+    {
+      "idea_id": "IDEA-0043",
+      "relation": "mirrors",
+      "note": "Two workshops of willingness: one about giving knowledge freely or not, one about giving effort freely or not."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

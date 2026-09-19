@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0066",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "What the Fire Doesn't Take",
+  "logline": "After a death in a village, volunteers from the local funeral-aid society take over the practical work of the house and yard, so the family can sit with their loss.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0123"
+  ],
+  "concept_ids": [
+    "C072",
+    "C063"
+  ],
+  "chronology": {
+    "group_id": "GRP-07",
+    "position_in_group": 9,
+    "global_position": 66
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-07"
+    ],
+    "note": "Object 7 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0065",
+    "thread": "The slowing that the year shows reaches its end: after a death, a village funeral-aid society takes over the practical work so a family can sit with its loss."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0067",
+    "thread": "The body ends, so what carries on? Weeks after a funeral, a family opens the room of someone who is gone and faces what a half-finished life becomes."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A village funeral-aid society willing to be filmed carrying out its ordinary work",
+      "A grieving family giving full, explicit, ongoing consent",
+      "Sensitivity and flexibility in scheduling around an actual death, not a staged one"
+    ],
+    "suggestions": [
+      {
+        "name": "A village funeral-aid society (marana adahara samithiya)",
+        "region": "Uva Province (e.g. Badulla district)",
+        "why": "Village funeral-aid societies are a widespread, well-documented institution across rural Sri Lanka; Uva is suggested for geographic variety within the group.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific society, family and willingness to be filmed are all unverified and cannot be arranged in advance of a real death.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0123"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

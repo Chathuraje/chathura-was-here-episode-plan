@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0027",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Not Yet Decided",
+  "logline": "For months, a household has been going back and forth on whether one of them should go abroad for work. Agency visits, forms half-filled, evenings of the same conversation. Nobody in the house can quite say what they have decided.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0045"
+  ],
+  "concept_ids": [
+    "C028",
+    "C022"
+  ],
+  "chronology": {
+    "group_id": "GRP-03",
+    "position_in_group": 9,
+    "global_position": 27
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-03"
+    ],
+    "note": "Object 3 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0026",
+    "thread": "What replaces the heat is not certainty but something quieter; the next film stays inside that quiet, in a household that cannot settle whether someone should go abroad for work."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0028",
+    "thread": "The question of which way to go leaves a family's evenings and becomes a real road: on unsigned dry-zone tracks, Chathura keeps stopping to ask the way."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A household currently in the middle of a genuine, unresolved decision about overseas labour migration",
+      "Willingness from every family member shown to be filmed discussing it",
+      "A realistic filming window that can hold an open-ended, possibly unresolved story"
+    ],
+    "suggestions": [
+      {
+        "name": "A household in a district with a long-established pattern of overseas labour migration",
+        "region": "Kurunegala or Puttalam district, North Western Province",
+        "why": "A region-level suggestion only; overseas employment for work is a broadly familiar path from many parts of Sri Lanka.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific family currently facing this decision, and willing to be filmed, must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0045"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

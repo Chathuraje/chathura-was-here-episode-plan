@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0178",
+  "record_type": "idea",
+  "title": "Reading the Field",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "Across one growing season, a farmer in a tank-irrigated village makes dozens of small calls, when to flood, when to weed, when to hold water back, none of them written down, all of them adding up to a harvest.",
+  "human_question": "What does it mean to know something so well that you can act on it instantly, without stopping to think it through?",
+  "premise": {
+    "story": "One paddy season, from sowing to harvest, following a farmer's daily, practical decisions and their outcome.",
+    "place": "A tank-irrigated rice village in the dry zone.",
+    "experience": "The unglamorous, high-stakes skill of reading a field, a sky and a season, and getting it right or wrong."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C096",
+      "role": "primary",
+      "why": "The source separates recognising a thing, noticing more about it, and understanding it so well that the understanding itself can act; it names exactly this practical skill, seeing what makes things grow and what makes them decline, and knowing on the spot what serves wellbeing [C096-P4:L30; C096-P4:L66–L72]. The farmer's field skill is an echo of that practical strand, not a claim about the farmer's inner life."
+    },
+    {
+      "concept_id": "C097",
+      "role": "supporting",
+      "why": "This kind of seeing is placed, in the larger map, only after conduct and a settled mind; the film does not need to say this, but the farmer's steady, repeated attention can carry the idea."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Walking the bunds at dawn, checking water levels and plant colour",
+    "A quick decision made after sudden rain or a pest sighting",
+    "Conversations with neighbours about what went wrong or right last season",
+    "The harvest itself, good or bad, and the farmer's own account of the season's calls"
+  ],
+  "what_must_be_real": "The farmer's actual land, water rights, and economic stakes. Market prices, weather and yield are not adjusted for the story.",
+  "possible_arc": {
+    "opening": "Water released into the field for the first time this season.",
+    "turn": "A decision made under pressure, right or wrong.",
+    "ending_open": "Whatever the harvest actually brings."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A farming household willing to be followed across a full season",
+      "Access to the field and irrigation system",
+      "Patience for a long shooting schedule tied to the crop calendar"
+    ],
+    "suggestions": [
+      {
+        "name": "A tank-irrigated paddy village",
+        "region": "Anuradhapura or Polonnaruwa district",
+        "why": "Classic dry-zone tank-irrigation farming country.",
+        "season_notes": "Tied to the Yala or Maha growing season",
+        "access_notes": "",
+        "verify": "A specific willing household must be identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Romanticising rural poverty",
+    "Reducing a farmer's knowledge to a doctrinal illustration",
+    "A bad season could read as the farmer's fault when climate and market forces are the real cause"
+  ],
+  "drop_if": [
+    "No household will commit to a full-season shoot, or a crop failure would make filming exploitative"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0176",
+      "relation": "leads into",
+      "note": "From settling the mind to the further work of seeing clearly, which this idea follows into ordinary working wisdom."
+    },
+    {
+      "idea_id": "IDEA-0179",
+      "relation": "leads into",
+      "note": "The same season's harvest, taken stock of, flows into the following idea's image of crossing and letting go."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

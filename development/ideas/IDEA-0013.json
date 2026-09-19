@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0013",
+  "record_type": "idea",
+  "title": "The Number That Comes Up",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "At a dry-zone town junction, a lottery-ticket seller's daily calling turns into a private ritual for regulars who buy the same numbers morning after morning, certain today might finally be the day.",
+  "human_question": "What does it mean to want the same thing every single day, without ever quite expecting to get it?",
+  "premise": {
+    "story": "A day in the working life of a lottery-ticket seller at a bus-stand kiosk: the regulars who buy without looking up, the newcomer who is talked into a ticket, the small television playing the evening draw, and the seller's own quiet accounting of who wins and who doesn't.",
+    "place": "A bus-stand or town-junction kiosk in the dry zone, where tickets, tea and talk move at the same unhurried pace all day.",
+    "experience": "The viewer falls into the daily rhythm of hope sold in small paper slips: routine, patter, brief excitement, and the evening moment when the numbers are read out."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C006",
+      "role": "primary",
+      "why": "The seller's calling is itself the 'prompting' that turns a passing thought into a purchase, while regulars buy the same numbers unprompted and out of habit; the same reaching for a ticket appears with flat routine in most and with real excitement on a lucky day [C006-M:L5] [C006-P:L44]."
+    },
+    {
+      "concept_id": "C004",
+      "role": "supporting",
+      "why": "The ticket seller is one of the concept's own story seeds: reaching for a hoped-for good as part of an ordinary sense-sphere day of sight, sound and small transaction."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The seller's calls and patter through the morning",
+    "A regular buying the same numbers without a word",
+    "A newcomer being talked into a first ticket",
+    "The small television during the evening draw",
+    "Tickets checked, torn or kept for tomorrow"
+  ],
+  "what_must_be_real": "The seller's real trade, the regulars' real habits and their own words about why they play. No arranged win or loss.",
+  "possible_arc": {
+    "opening": "Dawn at the kiosk; the first calls of the day.",
+    "turn": "The draw airs on the small television; faces watch, and the numbers don't match.",
+    "ending_open": "Whatever the seller and regulars actually do the next morning leads the ending."
+  },
+  "position_hint": "opening candidate: a plausible first film for Group 2, built on daily, ordinary wanting rather than a single big want; a natural place for Object 2's acquisition if a real moment allows (something small changing hands, kept or given).",
+  "location": {
+    "requirements": [
+      "An active ticket kiosk with a willing seller",
+      "Regular customers willing to speak about their habit",
+      "A working evening draw broadcast on site"
+    ],
+    "suggestions": [
+      {
+        "name": "A bus-stand or town-junction kiosk in Anuradhapura",
+        "region": "Anuradhapura District, North Central Province",
+        "why": "A well-known dry-zone town with an active bus stand and daily lottery trade.",
+        "season_notes": "",
+        "access_notes": "Specific kiosk and seller unconfirmed.",
+        "verify": "No seller has been contacted; exact kiosk and willingness to be filmed are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Sneering at poor buyers or the seller's trade",
+    "Turning gambling into a moral lesson",
+    "Privacy of regulars who may not want their habit shown"
+  ],
+  "drop_if": [
+    "No seller or regulars are willing to be filmed and speak honestly about the habit"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0025",
+      "relation": "mirrors",
+      "note": "Hope bought in small doses here meets hope refused all at once there."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0018",
+  "record_type": "idea",
+  "title": "Measured Twice",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "In the weeks before the New Year, a tailor in a northern market town takes orders from a student who fears being looked down on, a mother dressing her children to impress, and a man who just wants a decent shirt.",
+  "human_question": "Can you tell, from the outside, whether someone is dressing to be safe or dressing to be admired?",
+  "premise": {
+    "story": "A tailor's shop in the run-up to the New Year season, following several customers' orders and the reasons they give in their own words for what they want made, alongside the tailor's own unbroken rhythm of measuring, cutting and stitching.",
+    "place": "A small tailoring shop on a market street in a northern town.",
+    "experience": "Chalk lines on cloth, the rhythm of a sewing machine, and a string of small conversations about why people want to look a certain way."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C005",
+      "role": "primary",
+      "why": "This is the concept's own example: the same act of ordering clothes can be driven by the wish to attract or to seem superior, or by the wish to avoid others' contempt, and the source treats these very differently even though the outward act looks the same [C005-M:L15] [C005-M:L19]."
+    },
+    {
+      "concept_id": "C004",
+      "role": "supporting",
+      "why": "The finished garments are things made beautiful and wanted, one more example of the sense-sphere world's ordinary reach for what looks good [C004-M:L13]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Fabric measured and chalked",
+    "The sewing machine's rhythm",
+    "Customers explaining, in their own words, what they want and why",
+    "Fittings and small adjustments",
+    "Finished garments collected before the New Year"
+  ],
+  "what_must_be_real": "The tailor's actual orders and customers' own reasons, given freely, not prompted by a question about doctrine.",
+  "possible_arc": {
+    "opening": "Bolts of cloth and a tape measure at the start of a working day.",
+    "turn": "Two very different customers, on the same day, ask for very different things.",
+    "ending_open": "Garments are collected, or not finished in time. Reality decides."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An active tailoring shop with a season of orders",
+      "A tailor willing to be filmed working and talking with customers",
+      "Customers willing to explain their own reasons on camera"
+    ],
+    "suggestions": [
+      {
+        "name": "A tailoring shop on a market street in Jaffna town",
+        "region": "Jaffna District, Northern Province",
+        "why": "Jaffna town has an active market district and the New Year (Puthandu) is widely marked with new clothes.",
+        "season_notes": "New Year season, mid-April.",
+        "access_notes": "Specific shop unconfirmed.",
+        "verify": "No tailor has been contacted; this is a plausible setting, not a confirmed location.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Probing customers' motives can feel intrusive",
+    "Presenting poverty as virtue and wealth as vice",
+    "Sorting customers into 'good' and 'bad' wanting on screen"
+  ],
+  "drop_if": [
+    "No tailor or customers are willing to speak candidly about their reasons"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0014",
+      "relation": "pairs with",
+      "note": "Two garments chosen for two different occasions, one led by others' wanting, one sorted by the customer's own reasons."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

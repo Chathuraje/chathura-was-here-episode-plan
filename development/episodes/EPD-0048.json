@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0048",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Free Table",
+  "logline": "On a dry-zone road with no restaurant in sight, a family that has fed passing strangers for free every day for years hands Chathura a plate before he even asks, and keeps insisting it was nothing.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0093"
+  ],
+  "concept_ids": [
+    "C011",
+    "C019"
+  ],
+  "chronology": {
+    "group_id": "GRP-06",
+    "position_in_group": 1,
+    "global_position": 48
+  },
+  "object": {
+    "acquires": "OBJ-06",
+    "appears": [],
+    "note": "Object 6 (identity not chosen) could enter only if something is genuinely given freely to Chathura along with the meal. Never staged."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0047",
+    "thread": "In that gap, goodness can be chosen: from a festival stall's free food to a roadside family that has fed passing strangers for years and hands Chathura a plate before he asks."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0049",
+    "thread": "Giving without keeping count becomes weighing honestly when no one checks: a market vendor whose old scales nobody doubts."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A genuine roadside stall or household that feeds passing strangers without payment as an ongoing practice",
+      "Willingness to be filmed over enough time to show the pattern, not a single staged act",
+      "Real traffic and real strangers, not arranged visitors"
+    ],
+    "suggestions": [
+      {
+        "name": "A road-side rest stop in the North Central dry zone",
+        "region": "e.g. the Anuradhapura-Habarana road corridor",
+        "why": "This stretch has long-standing traditions of free wayside food and drink for travellers.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific stall or family has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0093"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

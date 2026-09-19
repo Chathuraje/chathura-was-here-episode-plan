@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0026",
+  "record_type": "idea",
+  "title": "The Last Bid",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "At a lagoon-side fish auction, a buyer who has come every morning for a particular catch loses it, again, to a higher bid.",
+  "human_question": "What is it like to want something you can never quite outbid?",
+  "premise": {
+    "story": "A morning at a lagoon or coastal fish auction: the fast, coded calls of the auctioneer, regular buyers with their own habits and limits, and one buyer whose usual catch goes, morning after morning, to someone willing to pay more.",
+    "place": "A lagoon-side or coastal fish market at auction hour.",
+    "experience": "Noise, ice, fast hands and faster numbers; the particular sting of losing, in seconds, something you came for on purpose."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C005",
+      "role": "primary",
+      "why": "The buyer's daily, habitual return for a particular catch is the concept's own territory of everyday occasions for wanting, tested here against someone else's stronger want [C005-M:L5] [C005-M:L7]."
+    },
+    {
+      "concept_id": "C021",
+      "role": "supporting",
+      "why": "The buyer's effort and resolve returning day after day, and the moment their decision to bid or hold back settles the outcome, touch the concept's account of effort and decision as morally neutral forces that can as easily lose as win [C021-P:L45] [C021-M:L19]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The auctioneer's fast, coded calling",
+    "Buyers' hand signals and running totals",
+    "Ice, catch and the smell of the morning market",
+    "The regular buyer's face as a bid goes past their limit",
+    "The catch carried off by someone else"
+  ],
+  "what_must_be_real": "A real auction, real buyers and a real, unscripted outcome. No bid arranged for the camera.",
+  "possible_arc": {
+    "opening": "Boats returning at first light, catch laid out on ice.",
+    "turn": "The bidding for one lot climbs past what the regular buyer will pay.",
+    "ending_open": "The buyer walks away empty-handed, or tries again tomorrow. Reality decides."
+  },
+  "position_hint": "closing candidate: a public, high-energy version of wanting meeting a wall, well suited to close the group before it hands off into blocked wanting turning to anger.",
+  "location": {
+    "requirements": [
+      "An active fish auction with a genuine daily market",
+      "A regular buyer willing to be followed over more than one morning",
+      "Permission to film inside a working market at trading hours"
+    ],
+    "suggestions": [
+      {
+        "name": "Negombo fish market",
+        "region": "Gampaha District, Western Province",
+        "why": "A well-known daily fish market and auction on the west coast, close to the lagoon and open sea.",
+        "season_notes": "",
+        "access_notes": "Trading hours are early morning; specific buyers and auctioneers unconfirmed.",
+        "verify": "No buyer, auctioneer or specific market day has been identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "A losing buyer's frustration must not be provoked or exploited",
+    "Market permissions and safety around fast-moving trade",
+    "Risk of feeling like a spectacle rather than one person's real stake"
+  ],
+  "drop_if": [
+    "No buyer with a genuine, repeated stake can be found and followed",
+    "Market will not permit filming during live trading"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0024",
+      "relation": "mirrors",
+      "note": "One family loses what it finally had; another loses what it never quite got. Both are wanting meeting a wall."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

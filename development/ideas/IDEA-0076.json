@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0076",
+  "record_type": "idea",
+  "title": "Seven Doors of a Leaf",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "In a cinnamon-peeling shed, quality is judged by smell, touch and sound as much as by sight, a grade decided before a word is spoken.",
+  "human_question": "When a judgement is made through several senses at once, what does each one actually contribute?",
+  "premise": {
+    "story": "Workers in a cinnamon-peeling shed peel, scrape, roll and grade bark, testing quills by smell, touch, sound and sight as they work.",
+    "place": "A cinnamon-peeling shed in the southern low country.",
+    "experience": "The viewer follows a single quill from raw bark to graded product, noticing how many different senses are folded into knowing a good one without anyone explaining it."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C035",
+      "role": "primary",
+      "why": "The source's six doors, each admitting only its own kind of object, sight only colour, smell only scent, touch only texture and temperature, describe, in doctrinal terms, exactly the separate channels a peeler is drawing on and combining without naming them."
+    },
+    {
+      "concept_id": "C037",
+      "role": "supporting",
+      "why": "The source ties each sense to a physical base the mind depends on; watching workers rely on fingers, nose and ear in turn is a concrete, human version of that dependence."
+    },
+    {
+      "concept_id": "C036",
+      "role": "supporting",
+      "why": "The source's account of smell and taste as blended, present-moment mixtures fits how a peeler judges a quill, not by comparing memories consciously, but by meeting the thing itself."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Bark stripped, scraped and rolled by hand",
+    "A peeler lifting a quill to the nose, testing it between the fingers, tapping it",
+    "Grading and sorting into piles",
+    "Workers describing, in their own words, how they know a good quill",
+    "The finished quills bundled for sale or export"
+  ],
+  "what_must_be_real": "The workers' actual skill, pay and working conditions; no staged sensory close-ups that misrepresent an ordinary working rhythm.",
+  "possible_arc": {
+    "opening": "Raw bark arrives; the day's peeling begins.",
+    "turn": "A difficult batch tests the workers' judgement, an unusual smell, an uneven texture.",
+    "ending_open": "The day's grading is finished, or not, and the quills move on to buyers."
+  },
+  "position_hint": "opening candidate: a demanding craft using several senses at once, with a real object, a peeling knife or the day's first quill, that could plausibly be where Object 5 is acquired.",
+  "location": {
+    "requirements": [
+      "An active cinnamon-peeling shed willing to allow filming during real production",
+      "Workers willing to describe, in their own words, how they judge quality",
+      "Consent covering the economics of a labour-intensive trade"
+    ],
+    "suggestions": [
+      {
+        "name": "Southern coastal cinnamon-growing belt",
+        "region": "Galle and Matara Districts",
+        "why": "Sri Lanka's traditional heartland for cinnamon cultivation and peeling.",
+        "season_notes": "",
+        "access_notes": "Peeling sheds are often small family operations; access would need direct relationships.",
+        "verify": "A specific shed and willing workers are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Exoticising manual labour or reducing it to a sensory showcase",
+    "Softening the real economic pressures of the trade into a mood piece",
+    "Labour conditions in the cinnamon trade can be difficult and should not be glossed over"
+  ],
+  "drop_if": [
+    "No shed will allow filming of real, unstaged work",
+    "The economics of the trade cannot be shown honestly alongside the craft",
+    "Workers do not want their judgement process described on camera"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0084",
+      "relation": "pairs with",
+      "note": "Both watch what happens to a skilled, sense-dependent life when the senses themselves are the subject."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0077",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Sitting With It",
+  "logline": "Every morning before the village wakes, a forest monk walks to the cemetery at its edge and simply sits there, the way he has for years, doing nothing that looks like very much.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0148"
+  ],
+  "concept_ids": [
+    "C092"
+  ],
+  "chronology": {
+    "group_id": "GRP-08",
+    "position_in_group": 11,
+    "global_position": 77
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-08"
+    ],
+    "note": "Object 8 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0076",
+    "thread": "From measuring stillness to keeping death close: a forest monk who sits at a village cemetery every morning before the village wakes."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0078",
+    "thread": "Death kept close each morning opens onto what continues after it: a fisherman's nets, mended for decades, passing to his son."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A forest hermitage with an established practice of this kind near a working cemetery",
+      "A monk willing to be filmed and, if he chooses, to speak about the practice"
+    ],
+    "suggestions": [
+      {
+        "name": "A forest hermitage in the North Central or North Western dry-zone forest belt",
+        "region": "North Central Province or North Western Province",
+        "why": "Dry-zone forest hermitages of this kind are established in this belt; no specific hermitage identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No hermitage or monk confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0148"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

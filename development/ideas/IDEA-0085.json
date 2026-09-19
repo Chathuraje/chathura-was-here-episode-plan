@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0085",
+  "record_type": "idea",
+  "title": "The Score for a Vanishing Sound",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "A drumming teacher passes on a rhythm as spoken syllables before letting a student near the drum, a way of writing down, in sound, something that happens too fast to see.",
+  "human_question": "How do you teach someone something that happens faster than it can be watched?",
+  "premise": {
+    "story": "A traditional drumming teacher in a village or town household teaches an apprentice a rhythm through spoken syllables, correcting and repeating until the pattern becomes automatic.",
+    "place": "A traditional drumming teacher's home or practice space.",
+    "experience": "The viewer watches an invisible, fast sequence become audible, memorable and eventually automatic, and feels what it takes to turn something too quick to grasp into something a person can learn and repeat."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C042",
+      "role": "primary",
+      "why": "The source uses letter-symbols and dotted charts to make an invisible, extremely fast sequence of mind-moments memorable and recitable [C042-M:L3]. A drumming teacher's spoken syllables are a living, sonic version of exactly this kind of notation for something too fast to watch directly."
+    },
+    {
+      "concept_id": "C038",
+      "role": "supporting",
+      "why": "The source states that no single moment accomplishes an act; a whole series is required [C038-M:L3]. Watching a rhythm build up, beat by beat, in a student's hands makes that claim vivid without anyone naming it."
+    },
+    {
+      "concept_id": "C041",
+      "role": "supporting",
+      "why": "The source's picture of a trained response completing in a fast, unified burst describes what a rhythm looks like once an apprentice has fully learned it, in contrast to the halting, deliberate early attempts the film would also show."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The teacher reciting syllable patterns before any drum is touched",
+    "The student repeating them, correcting mistakes",
+    "Hands finally striking the drum, first haltingly, then more fluently",
+    "The teacher's hand keeping time and correcting in real time",
+    "A performance or ritual context where the learned rhythm is finally used"
+  ],
+  "what_must_be_real": "The teacher's real teaching method and the student's real pace of learning; no compressed or staged montage of progress that misrepresents how long real learning takes.",
+  "possible_arc": {
+    "opening": "A lesson begins with spoken syllables, no drum yet touched.",
+    "turn": "A difficult passage, a repeated mistake, a real struggle to get it right.",
+    "ending_open": "The rhythm is learned, or not yet, as honestly as the teaching actually goes."
+  },
+  "position_hint": "middle: a craft-and-teaching film that gives the group a strong sound-and-rhythm texture distinct from its other stories.",
+  "location": {
+    "requirements": [
+      "A traditional drumming teacher and apprentice household willing to be filmed over real lessons",
+      "Good sound recording conditions for the syllables and the drum",
+      "Consent that respects a hereditary tradition and does not exoticise it"
+    ],
+    "suggestions": [
+      {
+        "name": "A traditional Kandyan drumming (bera) teaching household",
+        "region": "Kandy District, Central Province",
+        "why": "Kandy is closely associated with traditional drumming and its teaching lineages.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific teacher, student and willingness to be filmed are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Treating a living, hereditary art form as an illustration of doctrine rather than valuing it on its own terms",
+    "Exoticising a traditional teaching method for outside audiences",
+    "Compressing real learning time into a misleadingly fast montage"
+  ],
+  "drop_if": [
+    "No teacher and student are willing to be filmed over real lessons",
+    "The teaching method turns out not to use the described syllable-based approach",
+    "The tradition's keepers do not want it filmed or explained on camera"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0078",
+      "relation": "mirrors",
+      "note": "Both make a fast, invisible sequence audible, spoken syllables for rhythm, a listening pause for language."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

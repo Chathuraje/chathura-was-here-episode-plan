@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0054",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Four Shapes of the Same Care",
+  "logline": "A mother's day moves between a toddler who needs feeding, a sick teenager who needs medicine, a young adult leaving for a first job, and a grown child on the phone from abroad who needs nothing from her at all.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0098"
+  ],
+  "concept_ids": [
+    "C095",
+    "C024"
+  ],
+  "chronology": {
+    "group_id": "GRP-06",
+    "position_in_group": 7,
+    "global_position": 54
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-06"
+    ],
+    "note": "Object 6 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0053",
+    "thread": "The patient attention given to a carved face becomes care given to living ones: a mother's single day moving between children who each need something different."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0055",
+    "thread": "A mother's care leads to the bodies of those who carry: tea-leaf baskets coming off backs at the weighing shed, and relief visible in the body underneath."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A real family with children at genuinely different life stages, willing to be filmed over enough time",
+      "Full consent from every family member shown, including minors' guardians",
+      "No engineering of the household's circumstances to match the premise"
+    ],
+    "suggestions": [
+      {
+        "name": "A fishing or farming household",
+        "region": "Trincomalee or Batticaloa district, east coast",
+        "why": "A region-level suggestion for geographic variety; no specific family or household is implied.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific family has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0098"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0181",
+  "record_type": "idea",
+  "title": "What No Longer Comes Up",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "Years after giving up an old trade everyone in the village remembers, a shopkeeper now sells something else, in the same street, past the same old customers, and talks plainly about the difference between holding back and not being pulled at all.",
+  "human_question": "How do you know whether you have stopped doing something, or only stopped doing it today?",
+  "premise": {
+    "story": "A person who gave up a livelihood or habit years ago (for instance an old informal trade) now works differently in the same small community, still surrounded by the old triggers and old acquaintances.",
+    "place": "A village or small town where the old trade or habit was, and still partly is, part of the social fabric.",
+    "experience": "An honest, unsentimental portrait of a real change: what remains the same around a person, and what, in their own account, has actually stopped pulling at them."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C098",
+      "role": "primary",
+      "why": "The source separates holding a tendency down, displacing it for a time, and cutting it off at the root so that it does not arise again, and is candid that even long-practised people can be ambushed by something only held down, never uprooted [C098-P4:L205–L249; the flying elder undone by a song]."
+    },
+    {
+      "concept_id": "C016",
+      "role": "supporting",
+      "why": "What produces that final, non-returning kind of change is the path mind itself; the film does not claim this person has had one, only shows the human shape of the question."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The person's current, different work, day to day",
+    "Old acquaintances or customers who still pass by or mention the past",
+    "A moment where the old habit or trade is directly offered or raised, and how the person responds",
+    "The person's own, unprompted account of what changed and when"
+  ],
+  "what_must_be_real": "The person's real history and current life, told in their own words, with full consent and the ability to withdraw.",
+  "possible_arc": {
+    "opening": "An ordinary working day in the new trade.",
+    "turn": "An old customer or old temptation reappears.",
+    "ending_open": "The person's own account of whether, and how, the pull is actually gone."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A person willing to speak openly about a past trade or habit and a real current change",
+      "Full, ongoing consent, with the ability to stop the shoot",
+      "A community where the past is known but not weaponised against the person"
+    ],
+    "suggestions": [
+      {
+        "name": "A small town or village",
+        "region": "Any province",
+        "why": "This kind of quiet, local reinvention could happen almost anywhere.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific person or place is identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Stigmatising the person by dwelling on their past",
+    "Presenting them as a model or a saint",
+    "Exposing family members who may not want the past discussed"
+  ],
+  "drop_if": [
+    "No one will speak about this openly, or filming would expose them to harm or shame in their community"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0180",
+      "relation": "mirrors",
+      "note": "The same question asked through a person's habit rather than a field."
+    },
+    {
+      "idea_id": "IDEA-0174",
+      "relation": "pairs with",
+      "note": "Both ask whether a change is temporary relief or something that does not come back, one through money, one through habit."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

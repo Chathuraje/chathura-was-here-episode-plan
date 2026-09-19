@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0042",
+  "record_type": "idea",
+  "title": "The Even Share",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "At dawn, a beach-seine crew hauls in the night's catch and divides it by a traditional share system that everyone on the beach knows by heart. Every division is a small, quick test of what the crew will and won't hold back.",
+  "human_question": "When something has been worked for together, what makes sharing it easy, and what makes it hard?",
+  "premise": {
+    "story": "A beach-seine crew's morning: the long haul of the net, the sorting of the catch, and the division into shares under a system worked out long before this crew was born, including whatever is set aside for others beyond the crew itself.",
+    "place": "A working beach at dawn, net stretched wide across the sand and sea.",
+    "experience": "The viewer watches value change hands in real time, fish by fish, and feels the ordinary, unremarked ease or difficulty of a group sharing what it has made together."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C026",
+      "role": "primary",
+      "why": "The sources make a fine distinction: this state of mind grows out of attachment to one's own things, yet it shows itself as displeasure at those things being shared, used, matched or even known about, so it is grouped with aversion, not with wanting [C026-M:L19]. The moment of dividing a catch is exactly where that displeasure, or its plain absence, becomes visible."
+    },
+    {
+      "concept_id": "C022",
+      "role": "supporting",
+      "why": "One of the five things this state clings to is gain (lābha): not wanting one's own gain matched or shared by someone else [C022-P:L133–L135; C022-M:L43–L45]. A shared catch, divided in view of the whole crew, is a plain, daily test of exactly that."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The haul: the crew working the net in together, in rhythm",
+    "The catch sorted on the sand",
+    "The division into shares, fish by fish or basket by basket",
+    "Any set-aside portion for others beyond the crew",
+    "Easy agreement, or a moment of dispute, however it actually goes"
+  ],
+  "what_must_be_real": "The crew, the haul and the division must be a real, ordinary working morning. No dispute or generosity may be prompted, and the crew must not be shown as either petty or virtuous beyond what actually happens.",
+  "possible_arc": {
+    "opening": "First light, the net already out in the water.",
+    "turn": "The haul comes in and the catch is sorted for division.",
+    "ending_open": "However the division actually goes, and whatever is said about it, ends the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A beach-seine fishing community that still practises a traditional share system",
+      "A crew willing to be filmed through a full haul and division",
+      "Predawn or dawn access to the beach"
+    ],
+    "suggestions": [
+      {
+        "name": "Mirissa",
+        "region": "Matara district, Southern Province",
+        "why": "A well-known south-coast fishing town with active beach-seine crews alongside other fishing methods.",
+        "season_notes": "West and south coast fishing season generally runs outside the south-west monsoon.",
+        "access_notes": "",
+        "verify": "Confirm a specific crew still using the traditional share system and willing to be filmed.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Tangalle",
+        "region": "Hambantota district, Southern Province",
+        "why": "Another well-known south-coast fishing town with a working beach-seine tradition.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm a specific crew and current practice.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Implying the crew is petty when generosity and fairness are just as likely to be what the camera sees",
+    "Turning a livelihood into an illustration rather than reporting what actually happens",
+    "Filming a low catch as failure rather than an ordinary working reality"
+  ],
+  "drop_if": [
+    "No crew still uses a traditional, visible share system",
+    "The crew does not want the division itself filmed"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0033",
+      "relation": "mirrors",
+      "note": "Two fishing-community films: one scarred by a dispute over what is claimed, the other testing what is freely shared at the catch."
+    },
+    {
+      "idea_id": "IDEA-0039",
+      "relation": "pairs with",
+      "note": "Both examine what people will or won't share: a catch in one, a skill in the other."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

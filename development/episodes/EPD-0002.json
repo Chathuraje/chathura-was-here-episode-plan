@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0002",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "When Morning Begins",
+  "logline": "In one small town, 'morning' begins at a different hour for the baker, the fisher, the drummer and the farmer.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0008"
+  ],
+  "concept_ids": [
+    "C084",
+    "C001"
+  ],
+  "chronology": {
+    "group_id": "GRP-01",
+    "position_in_group": 2,
+    "global_position": 2
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-01"
+    ],
+    "note": "Object 1 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0001",
+    "thread": "The dawn reached at the summit carries into the next film's question: when does 'morning' actually begin, and who decides it?"
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0003",
+    "thread": "The early sounds that mark the start of a day lead into a monastic school where the day begins with recitation: names learned for what happens inside."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "Several dawn trades within reach of each other",
+      "Night filming permissions"
+    ],
+    "suggestions": [
+      {
+        "name": "Kandy, around the dawn drumming at the Temple of the Tooth",
+        "region": "Central Province",
+        "why": "Drums mark the hour for a whole city.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Filming permissions at the temple are strict.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "A southern fishing harbour (e.g. Mirissa or Beruwala)",
+        "region": "Southern / Western Provinces",
+        "why": "Boats return at dawn; markets start in the dark.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Access, permissions and current conditions are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0008"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

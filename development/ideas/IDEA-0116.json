@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0116",
+  "record_type": "idea",
+  "title": "The Weight of a Word",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "A family finds an old cassette recording of a relative who has died, and gathers to hear a voice that sounds exactly the same as it always did.",
+  "human_question": "A recording can keep a voice. What does it lose?",
+  "premise": {
+    "story": "A family decides, in its own time, whether and when to listen again to an old recording, told entirely through their own choice and reactions.",
+    "place": "A family home, wherever the tape and a working player happen to be.",
+    "experience": "The search for a machine that still plays, the first seconds of a familiar voice, and the strange gap between hearing someone and them being there."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C066",
+      "role": "primary",
+      "why": "The source notices precisely this: a machine can reproduce the sound of someone's voice exactly, and yet what made the sound a message, a living person's intention shaping breath and throat at that moment, is missing. It gives that absence a name."
+    },
+    {
+      "concept_id": "C063",
+      "role": "supporting",
+      "why": "The wider inventory of matter that includes sound as a conditioned, momentary thing frames why a recording can copy the sound but not renew the person who once produced it."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Finding the tape, or a box of old recordings, while clearing a shelf",
+    "Searching for a player that still works",
+    "The first seconds of the voice, and faces in the room",
+    "Someone speaking back to the recording, or staying silent",
+    "The tape put away again, wherever the family decides it belongs"
+  ],
+  "what_must_be_real": "The family's own grief, timing and choice. Nothing staged, repeated for the camera, or scheduled to suit a shoot; the family decides whether this is filmed at all, and can stop at any point.",
+  "possible_arc": {
+    "opening": "A box of tapes found, half by accident.",
+    "turn": "The voice starts, and the room changes.",
+    "ending_open": "Whatever the family actually does next."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A family with an old recording of a relative who has died, willing to be filmed on their own terms",
+      "No pressure or scheduling that would turn grief into a performance",
+      "Full control by the family over what is filmed and used"
+    ],
+    "suggestions": [],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Grief must not be staged, prolonged or repeated for the camera",
+    "The family, not a schedule, decides whether and when this happens",
+    "Risk of turning a private moment into spectacle"
+  ],
+  "drop_if": [
+    "No family willing to have this moment filmed on their own terms",
+    "The presence of a camera would itself change or intrude on the moment"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0117",
+      "relation": "mirrors",
+      "note": "A voice a machine can copy but not mean; a limb a workshop can make but cannot, by itself, make someone's own."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

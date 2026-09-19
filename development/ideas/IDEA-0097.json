@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0097",
+  "record_type": "idea",
+  "title": "Practised Hands",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "At a festival-night stall handing out free food to strangers, one volunteer's hands move without a single wasted motion after twenty years; beside them, someone doing it for the first time can barely look a stranger in the eye.",
+  "human_question": "Does kindness get easier, or does it just start to look different once you've done it enough times?",
+  "premise": {
+    "story": "One long night at a volunteer-run free food or drinks stall during a local festival, following an experienced volunteer and a first-timer side by side.",
+    "place": "A roadside stall during a temple festival, strings of lights, a long night of strangers passing through.",
+    "experience": "The contrast between practised ease and first-time shyness, doing exactly the same task."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C023",
+      "role": "primary",
+      "why": "Proficiency (pāguññatā) makes practised giving easy and even sweet, while its absence brings hesitation, fear and shame at doing it for the first time [C023-P:L153-L157]."
+    },
+    {
+      "concept_id": "C011",
+      "role": "supporting",
+      "why": "Both the confident and the hesitant act are counted as fully wholesome; the sources never treat prompted or unpractised giving as less real [C011-P:L93-L109]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The stall being set up before the crowd arrives",
+    "The queue and the rhythm of serving, hour after hour",
+    "The experienced volunteer's economical, unhesitating movements",
+    "The newcomer's hesitation, and how it changes, if it does, by the end of the night"
+  ],
+  "what_must_be_real": "Real volunteers giving up a real night of their own time. No staged nerves or arranged 'first-timer' performance.",
+  "possible_arc": {
+    "opening": "The stall going up before the crowd.",
+    "turn": "The newcomer's uncertain first hour, beside the practised volunteer's ease.",
+    "ending_open": "However the night actually ends, and whatever the two volunteers say to each other, if anything."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A genuine volunteer-run free food or drinks stall at an actual festival",
+      "At least one long-serving volunteer and one real first-time volunteer, both willing to be filmed",
+      "Permission from event organisers for overnight filming"
+    ],
+    "suggestions": [
+      {
+        "name": "A town temple festival",
+        "region": "Southern Province (e.g. Matara or Tangalle area)",
+        "why": "Local temple festivals across the south regularly involve volunteer-run free food and drink stalls.",
+        "season_notes": "Varies by temple calendar.",
+        "access_notes": "",
+        "verify": "No specific festival, stall or volunteers have been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Performative generosity staged for the camera",
+    "Treating recipients as background rather than people with their own dignity"
+  ],
+  "drop_if": [
+    "No genuine first-time volunteer can be found, or the event turns out to be organised specifically for filming"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0094",
+      "relation": "mirrors",
+      "note": "Both watch the same kind of giving become easier, or simply different, with repetition over time."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

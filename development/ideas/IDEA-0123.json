@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0123",
+  "record_type": "idea",
+  "title": "What the Fire Doesn't Take",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "After a death in a village, volunteers from the local funeral-aid society take over the practical work of the house and yard, so the family can sit with their loss.",
+  "human_question": "Once someone has died, whose job is what remains of their body?",
+  "premise": {
+    "story": "The hours and days after a death, told through the volunteers who quietly take over the practical work while the family grieves, with the family's full consent.",
+    "place": "A village home and its neighbourhood, organised by a local funeral-aid society (marana adahara samithiya).",
+    "experience": "White flags going up, borrowed chairs, tea made in bulk, a collection book passed around, and a family sitting apart from all of it while neighbours do the work."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C072",
+      "role": "primary",
+      "why": "The source describes death as a sequence of stoppings: kamma-born matter stops first, mind-born and food-born matter fade soon after, and only temperature-born matter continues in the body afterward. What is left is not being renewed from within, only weathered, which is exactly the work the volunteers step in to care for."
+    },
+    {
+      "concept_id": "C063",
+      "role": "supporting",
+      "why": "The wider inventory of matter, with nothing in it called 'owner', frames why a body needs the care of others once its own life is no longer sustaining it."
+    }
+  ],
+  "what_camera_could_observe": [
+    "White flags going up along the lane",
+    "Chairs borrowed, tea made in bulk for visitors",
+    "The society's collection book and record of who helped",
+    "Neighbours doing practical work: cooking, seating, arrangements",
+    "The family sitting with their loss while the household runs around them"
+  ],
+  "what_must_be_real": "Full family consent at every stage. The deceased must never be filmed without explicit permission, and mourning must never be staged, prolonged or repeated for the camera.",
+  "possible_arc": {
+    "opening": "News of a death reaching the neighbourhood.",
+    "turn": "The house filling with practical helpers.",
+    "ending_open": "Whatever the family and the day actually bring."
+  },
+  "position_hint": "closing candidate: a direct, unsentimental answer to what remains of a body once life has left it, and a fitting film to close the group before it hands off to the next stage",
+  "location": {
+    "requirements": [
+      "A village funeral-aid society willing to be filmed carrying out its ordinary work",
+      "A grieving family giving full, explicit, ongoing consent",
+      "Sensitivity and flexibility in scheduling around an actual death, not a staged one"
+    ],
+    "suggestions": [
+      {
+        "name": "A village funeral-aid society (marana adahara samithiya)",
+        "region": "Uva Province (e.g. Badulla district)",
+        "why": "Village funeral-aid societies are a widespread, well-documented institution across rural Sri Lanka; Uva is suggested for geographic variety within the group.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific society, family and willingness to be filmed are all unverified and cannot be arranged in advance of a real death.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Intruding on grief",
+    "Requires clear, explicit family consent at every single stage",
+    "Never film the deceased without explicit permission",
+    "Must not turn mourning into spectacle"
+  ],
+  "drop_if": [
+    "A family unwilling to be filmed at such a time",
+    "A society unwilling to participate, or no genuine access without intrusion"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0125",
+      "relation": "pairs with",
+      "note": "One family answers 'what remains' in the days right after a death; the other watches two bodies answer the same question across a whole year."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

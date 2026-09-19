@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0014",
+  "record_type": "idea",
+  "title": "Before the Wedding",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "In a provincial textile shop, weeks before a wedding, a family unfolds sari after sari, and one relative talks a hesitant bride into a colour she didn't choose.",
+  "human_question": "When does choosing for someone else stop being help and start being your own wanting?",
+  "premise": {
+    "story": "A family's shopping day for a wedding: the bride, her mother, an aunt with strong opinions, and a shop assistant who has folded a thousand fabrics that week, ending in a bill and a decision that may or may not be the bride's own.",
+    "place": "A busy textile or saree shop in a provincial town during wedding season.",
+    "experience": "Colour, texture and light on fabric held up to faces; the small drama of a family choosing, differing and settling; the flat rhythm of the shop underneath it."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C004",
+      "role": "primary",
+      "why": "This is the concept's own story seed: things seen as beautiful and reached for, with delight on one face and flat professional indifference on another [C004-M:L13] [C004-M:L17]."
+    },
+    {
+      "concept_id": "C006",
+      "role": "supporting",
+      "why": "The bride's own eye lighting up is a spontaneous reaching; the aunt talking her into a different colour is the same wanting arising through another person's prompting [C006-M:L5] [C006-P:L44]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Fabric unfolded and held against a face",
+    "A relative arguing for a colour",
+    "The bride's hesitation and eventual choice",
+    "The shop assistant's practised, tired folding",
+    "The bill being written and counted"
+  ],
+  "what_must_be_real": "The family's actual shopping day, their own disagreements and the assistant's real working week. Nothing restaged for a better shot.",
+  "possible_arc": {
+    "opening": "Bolts of cloth unrolling under fluorescent light.",
+    "turn": "A disagreement over colour, and someone gives way.",
+    "ending_open": "The chosen sari is wrapped and paid for, or the family leaves without deciding. Reality decides."
+  },
+  "position_hint": "opening candidate: a clear image of wanting badly and being pulled by others' wanting too, with a natural moment for something small to be acquired if it genuinely becomes Object 2.",
+  "location": {
+    "requirements": [
+      "A textile or saree shop with a family genuinely shopping for a wedding",
+      "Consent from the family to be filmed choosing and disagreeing",
+      "A shop assistant willing to be filmed working"
+    ],
+    "suggestions": [
+      {
+        "name": "A textile shop on the main street of Kurunegala",
+        "region": "Kurunegala District, North Western Province",
+        "why": "A well-known provincial market town with a concentration of textile and saree shops serving surrounding villages.",
+        "season_notes": "Wedding seasons cluster around school holidays and after Vesak/Poson.",
+        "access_notes": "Specific shop and family unconfirmed.",
+        "verify": "No shop or family has been contacted; this is a plausible town, not a confirmed location.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning the family into a lesson about materialism",
+    "Making the aunt or assistant a comic figure without consent",
+    "Wedding pressure filmed as entertainment rather than lived experience"
+  ],
+  "drop_if": [
+    "No family will allow their real disagreements to be filmed",
+    "The shop will not allow filming during trading hours"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0018",
+      "relation": "pairs with",
+      "note": "Two garments chosen for two different occasions, one led by others' wanting, one sorted by the customer's own reasons."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

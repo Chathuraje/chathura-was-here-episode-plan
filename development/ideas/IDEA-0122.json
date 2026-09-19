@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0122",
+  "record_type": "idea",
+  "title": "Counting to Ten",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "At a dry-zone paddy store during harvest, a measurer fills basket after basket by hand, calling each count aloud, never rushing and never losing his place.",
+  "human_question": "How does counting, of grain or of breath, keep an ordinary body steady through a long working day?",
+  "premise": {
+    "story": "One day at a paddy store during harvest, following the measurer, the farmers waiting on the tally, and the store's own pace, told through the real pressure of the season's income.",
+    "place": "A rural paddy store or threshing floor at harvest time in the dry zone.",
+    "experience": "The measure filled and levelled, straw and stones flicked out, numbers called steadily hour after hour, bags stacking, and farmers watching a count that decides their season."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C094",
+      "role": "primary",
+      "why": "The source's own image for slow, steady counting is a paddy measurer filling a measure and calling each one, discarding the rubbish, neither rushing nor dawdling. This is mindfulness of breathing's own method of attention, transposed from breath to grain."
+    },
+    {
+      "concept_id": "C068",
+      "role": "supporting",
+      "why": "The steady rhythm of a working body through a long day, kept going by mind, food and the day's heat, is the same ground the four origins of matter describe."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The measurer filling and levelling the measure",
+    "Straw and stones flicked out, numbers called aloud",
+    "Bags filling and being stacked",
+    "Farmers watching the tally that decides their season's income",
+    "The day's total reached, and reactions to it"
+  ],
+  "what_must_be_real": "The actual harvest, real prices and real stakes for the farmers involved. The counting itself must not be staged, slowed or repeated for the camera.",
+  "possible_arc": {
+    "opening": "The first baskets of a long harvest day.",
+    "turn": "The count nearly lost in the noise and heat, then recovered.",
+    "ending_open": "The day's total, and what it actually means for the farmers waiting."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An active paddy store using hand measuring at harvest time",
+      "A measurer and farmers willing to be filmed during a real harvest day",
+      "Correct timing within the harvest calendar"
+    ],
+    "suggestions": [
+      {
+        "name": "Paddy stores of the North Central rice-growing districts",
+        "region": "Polonnaruwa District",
+        "why": "A well-known dry-zone rice-growing area with active harvest-season paddy trading.",
+        "season_notes": "Timed to the maha or yala harvest season; needs local confirmation.",
+        "access_notes": "",
+        "verify": "A specific store, its continued use of hand measuring and willingness to be filmed are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Nostalgia for manual methods that ignores real debt and price pressure on farmers",
+    "Turning a livelihood into a meditation metaphor"
+  ],
+  "drop_if": [
+    "No harvest or hand measuring actually happening during the filming window",
+    "No store or farmers willing to be filmed"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0114",
+      "relation": "mirrors",
+      "note": "Both watch attention keep a tired body going through a long stretch of work, one through the night, one through a harvest day."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0099",
+  "record_type": "idea",
+  "title": "A Good Catch Day",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "One boat comes in low in the water with the best catch of the month; the others come in light. What happens on the sand in the next ten minutes says more than the weighing scale does.",
+  "human_question": "When someone else's luck is good, what actually happens in you?",
+  "premise": {
+    "story": "A single morning at a small fishing harbour when catches are visibly unequal between boats.",
+    "place": "A beach landing site at first light, boats coming in one after another.",
+    "experience": "The noise and rush of unloading, then the quieter human weather that follows around who did well and who didn't."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C095",
+      "role": "primary",
+      "why": "Sympathetic joy (muditā) is gladness at another's good fortune, and its failure is envy or discontent at that same fortune [C095-P4:L54]."
+    },
+    {
+      "concept_id": "C024",
+      "role": "supporting",
+      "why": "Sympathetic joy is one of the two variable 'boundless' factors, meant to extend toward whoever is happy, not only to one's own [C024-P:L91]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Boats approaching with visibly uneven loads",
+    "Unloading, weighing or the morning auction",
+    "Who walks over to help or congratulate, and who keeps to their own nets",
+    "Tea, fish or conversation shared afterward, or not"
+  ],
+  "what_must_be_real": "The actual results of the morning's fishing, and crews' actual reactions. No directing or suggesting anyone's response.",
+  "possible_arc": {
+    "opening": "Boats approaching with visibly uneven catches.",
+    "turn": "The unloading and weighing, results becoming clear to everyone.",
+    "ending_open": "What actually happens between the crews once the scales are read."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working fishing harbour with multiple crews returning at the same time",
+      "A morning where catches are genuinely uneven, not arranged",
+      "Crews willing to be filmed and to speak honestly"
+    ],
+    "suggestions": [
+      {
+        "name": "A small fishing harbour on the southern coast",
+        "region": "e.g. Mirissa or Beruwala",
+        "why": "Well-known, active fishing harbours on the south coast with daily boat landings.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific crews or morning have been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Editing could invent rivalry or sour feeling that isn't really there",
+    "Real livelihoods are at stake in every frame; framing crews as envious without evidence would be unfair"
+  ],
+  "drop_if": [
+    "Crews are unwilling to be filmed on an actual uneven-catch morning"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0098",
+      "relation": "pairs with",
+      "note": "Both centre on sympathetic joy and its opposite, shown through real, unscripted human relationships."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

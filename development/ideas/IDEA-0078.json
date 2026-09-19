@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0078",
+  "record_type": "idea",
+  "title": "The Interpreter's Pause",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "In a courtroom or hospital corridor, an interpreter listens, pauses, and only then speaks, and in that pause, understanding is built from nothing, one piece at a time.",
+  "human_question": "What actually has to happen, step by step, for one person's words to become understanding in someone else's mind?",
+  "premise": {
+    "story": "A court, hospital or government-office interpreter moves between languages for people who depend on being understood, working case after case through a real day.",
+    "place": "A district court, hospital, or public office where interpretation is routine and consequential.",
+    "experience": "The viewer watches understanding assembled in real time, a listening pause, a rendering, a correction, and comes to see that understanding a sentence is not one act but several."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C038",
+      "role": "primary",
+      "why": "The source states plainly that understanding another person's words is never accomplished by a single moment of mind but requires a whole ordered series [C038-M:L3]. Interpretation makes that multi-step work audible and visible."
+    },
+    {
+      "concept_id": "C034",
+      "role": "supporting",
+      "why": "The source's fourteen functions of mind, from bare receiving through examining to a full response, describe the same layered work an interpreter performs out loud."
+    },
+    {
+      "concept_id": "C046",
+      "role": "supporting",
+      "why": "The source's account of naming and meaning as separate, later stages of a mind-door process mirrors an interpreter's own two-step work, catching what was said, then finding what it means in another language."
+    }
+  ],
+  "what_camera_could_observe": [
+    "An interpreter listening intently, a small pause, then rendering",
+    "A listener's face changing as meaning lands",
+    "A correction or clarification requested mid-sentence",
+    "Quiet moments between cases where the interpreter describes how they hear before they translate",
+    "The practical stakes of a case, medical, legal, or administrative, riding on the interpretation"
+  ],
+  "what_must_be_real": "Legal and medical confidentiality must be respected; filming actual proceedings may be impossible, so the film may need to work with training sessions, practice interpretation, or willing participants' consent. The interpreter's own account of their process must lead.",
+  "possible_arc": {
+    "opening": "A day of cases begins; the interpreter takes a seat.",
+    "turn": "A difficult sentence, an ambiguous term, or a high-stakes case tests the process.",
+    "ending_open": "The day's cases end, successfully or not, and the interpreter reflects on what the work actually is."
+  },
+  "position_hint": "middle: a language-and-listening film set in an institutional space, offering variety of tone and setting against the group's more rural stories.",
+  "location": {
+    "requirements": [
+      "A district court, hospital or public office with a willing interpreter and institutional permission",
+      "Confidentiality safeguards for anyone whose case is filmed",
+      "An interpreter willing to reflect openly on their own process"
+    ],
+    "suggestions": [
+      {
+        "name": "A district court or government hospital, Central or Western Province",
+        "region": "Central or Western Province",
+        "why": "Sri Lanka's multilingual courts and hospitals routinely rely on Sinhala-Tamil-English interpretation.",
+        "season_notes": "",
+        "access_notes": "Institutional and legal permissions will be required and may limit what can be filmed.",
+        "verify": "A specific institution, case type and willing interpreter are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Legal or medical confidentiality may prevent filming real proceedings",
+    "Reducing a skilled professional to an illustration of doctrine",
+    "The people being interpreted for have their own privacy that must be protected"
+  ],
+  "drop_if": [
+    "No institution will permit filming, even of training or practice sessions",
+    "Confidentiality concerns cannot be resolved",
+    "The interpreter's own account cannot carry the film without real case context"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0085",
+      "relation": "mirrors",
+      "note": "Both make an invisible, fast sequence audible or visible, spoken language in one, drummed rhythm in the other."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

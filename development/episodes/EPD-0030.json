@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0030",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Four O'Clock Prices",
+  "logline": "Before dawn at a great wholesale vegetable market, lorries arrive all at once, prices change by the minute, and a trader juggles buyers, a phone and a scale until the rush breaks into sudden quiet.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0055"
+  ],
+  "concept_ids": [
+    "C008",
+    "C074"
+  ],
+  "chronology": {
+    "group_id": "GRP-04",
+    "position_in_group": 3,
+    "global_position": 30
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-04"
+    ],
+    "note": "Object 4 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0029",
+    "thread": "From a reservoir's slow, silent mud to a wholesale market where lorries arrive all at once and attention scatters as fast as prices change."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0031",
+    "thread": "After the rush breaks into sudden quiet, a different kind of lostness: mangrove channels where every turning looks the same, and a fisher who reads the roots like streets."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A working wholesale market with a trader willing to be followed for a whole night",
+      "Permission from market management",
+      "Safe camera positions among moving lorries and carts"
+    ],
+    "suggestions": [
+      {
+        "name": "Dambulla Dedicated Economic Centre",
+        "region": "Matale district, Central Province",
+        "why": "The best-known wholesale vegetable market in Sri Lanka, where produce from many regions changes hands.",
+        "season_notes": "Year-round; harvest peaks change volumes",
+        "access_notes": "Very busy; filming needs management permission",
+        "verify": "Trading hours, filming permissions and a willing trader are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0055"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

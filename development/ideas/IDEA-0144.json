@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0144",
+  "record_type": "idea",
+  "title": "As Long As It Takes",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "On a long, silent meditation retreat in the hills, a teacher meets each student for a few minutes every evening, trying to gauge, without ever quite asking, how deep they've gone.",
+  "human_question": "How do you measure something as private as another person's stillness?",
+  "premise": {
+    "story": "A period on a residential meditation retreat, following the daily rhythm and the teacher's private evening interviews with students.",
+    "place": "A forest or hill-country meditation centre.",
+    "experience": "Long silent hours, walking meditation on a forest path, and the particular, quiet ritual of the evening interview, where a student says a little and a teacher listens for what is underneath it."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C054",
+      "role": "primary",
+      "why": "The source ties rebirth into the higher planes to how deeply and steadily a person has trained their attention, graded as limited, moderate, or fully mastered [C054-P:L25]. A retreat's evening interviews are exactly where a living tradition tries, carefully, to gauge that depth."
+    },
+    {
+      "concept_id": "C050",
+      "role": "supporting",
+      "why": "The source's surprising point is that the freest state in its table has fewer, not more, kinds of experience available to it [C050-P:L80]. The retreat's discipline of narrowing what reaches the senses gives that idea a human, practising form."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Students arriving and settling in",
+    "The daily timetable",
+    "Walking meditation",
+    "Students waiting outside the teacher's room",
+    "Short private interviews",
+    "The teacher's own instructions and questions"
+  ],
+  "what_must_be_real": "A real, ongoing retreat and real students' full consent. No one is described or implied to have 'attained' anything; the film cannot see or verify inner states.",
+  "possible_arc": {
+    "opening": "Students arriving, the retreat's silence beginning.",
+    "turn": "An evening interview where a student struggles to describe what has or hasn't happened.",
+    "ending_open": "The retreat continues past the point the film stops watching."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A residential meditation centre willing to allow filming without disrupting the retreat",
+      "Students willing to be filmed and interviewed with full consent"
+    ],
+    "suggestions": [
+      {
+        "name": "A forest meditation centre in the Kandy or Matale district hills",
+        "region": "Central Province",
+        "why": "The hill country has a number of established meditation centres of the kind this story needs.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific centre identified; access would need direct negotiation given the need to protect the retreat's silence.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Inner states cannot be filmed or verified",
+    "Presenting any student as 'advanced'",
+    "Disrupting a retreat's silence for the sake of a shot"
+  ],
+  "drop_if": [
+    "No centre will permit filming without compromising the retreat",
+    "Students cannot give full, informed consent within a silent retreat's constraints"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0148",
+      "relation": "pairs with",
+      "note": "A companion piece: one watches people training attention toward stillness in company, the other watches a single practitioner doing the same alone."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

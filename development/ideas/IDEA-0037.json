@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0037",
+  "record_type": "idea",
+  "title": "What the Body Remembers",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "A coach or teacher who once had a violent temper now works patiently with young people, day after day. They still notice the moment before they would once have exploded. They just don't go there anymore.",
+  "human_question": "When the heat is gone, what is actually left in its place?",
+  "premise": {
+    "story": "A working day for someone whose old reputation for a bad temper is well known locally, now doing steady, patient work: coaching, teaching or mending. The film follows their ordinary practice and, in their own words, what anger used to feel like in the body and what changed.",
+    "place": "A rural school, sports ground or workshop where this person works with others regularly.",
+    "experience": "The viewer watches small, real moments where a pause visibly replaces what used to be a flare, and hears one person's own account of a change that is still being lived, not a finished story."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C007",
+      "role": "primary",
+      "why": "The older text describes what this state of mind does to the person who holds it before it touches anyone else: it burns, it cannot tell right from wrong in the moment, and it ends in words and acts that person later has to live with [C007-P:L47]. It closes by urging a mindful, watchful way of living precisely because this state visits ordinary people often [C007-P:L65]. This is a film about someone who took that seriously, in their own way and their own words."
+    },
+    {
+      "concept_id": "C028",
+      "role": "supporting",
+      "why": "Both hate-rooted states are the most crowded on the sources' list and never carry joy [C028-P:L31]. That structural fact, that this state of mind is never light, gives a grounded reason why someone would spend years working to recognise and step back from it, without needing the film to say so directly."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Ordinary teaching or coaching sessions, and how corrections are given",
+    "A visible pause before a response, where an old reaction might once have been immediate",
+    "Interactions with young people who may know, or not know, this person's old reputation",
+    "The person's own account, on their own terms, of what changed and how",
+    "The place itself: the ground, the workshop, the classroom, worn by years of this work"
+  ],
+  "what_must_be_real": "The person's history and change must be their own account, led entirely by what they choose to disclose. No past incident or victim may be named, sought out or exposed without that person's explicit wish and consent. Nothing about the 'old temper' may be re-enacted.",
+  "possible_arc": {
+    "opening": "An ordinary session: teaching, coaching or mending, unremarkable on the surface.",
+    "turn": "A moment that could once have gone badly does not.",
+    "ending_open": "Whatever this person actually says, in their own words, about what replaced the heat, ends the film."
+  },
+  "position_hint": "closing candidate: a person who has already moved past the group's heat is a natural way to hand off from anger to the group's closing fog, since what has replaced the old temper is, in their own honest account, not certainty but something quieter and less defined",
+  "location": {
+    "requirements": [
+      "A person locally known for having changed in this way, willing to speak about it on their own terms",
+      "A rural school, sports ground or workshop where they currently work with others regularly",
+      "Consent from any young people shown, and their guardians where required"
+    ],
+    "suggestions": [
+      {
+        "name": "A rural school or sports ground",
+        "region": "Nuwara Eliya or Badulla district, hill country",
+        "why": "Hill-country towns and estate communities with active local schools and sports grounds and strong, well-known community figures.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific person, willing and able to speak about this, must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Sliding into a redemption cliché rather than an honest, ongoing account",
+    "Confessional exploitation; the person must lead what is disclosed",
+    "Past victims or incidents being identified or exposed against their wishes"
+  ],
+  "drop_if": [
+    "No such person exists locally who is willing to be filmed on these terms",
+    "The account cannot be told without naming or implicating others who have not consented"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0034",
+      "relation": "pairs with",
+      "note": "Both are bounded-time ensemble pieces where a delay tests a crowd's patience in public."
+    },
+    {
+      "idea_id": "IDEA-0045",
+      "relation": "pairs with",
+      "note": "Both are closing candidates: one shows heat that has already cooled, the other a fog that has not yet lifted."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

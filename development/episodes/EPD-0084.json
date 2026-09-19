@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0084",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Old Roof",
+  "logline": "Every year a family strips the old palm leaves off their roof and weaves on new ones, and by their own account it is still the same roof, though no single leaf on it is the one that was there before.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0159"
+  ],
+  "concept_ids": [
+    "C081",
+    "C080"
+  ],
+  "chronology": {
+    "group_id": "GRP-09",
+    "position_in_group": 6,
+    "global_position": 84
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-09"
+    ],
+    "note": "Object 9 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0083",
+    "thread": "A festival frame that stands only because nothing in it stands alone becomes a roof renewed leaf by leaf, still 'the same roof' each year, an echo of 'The Same Boat'."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0085",
+    "thread": "Roofs carry across: from palm thatch in the dry south to estate homes through a hard monsoon, where rain and cold change how neighbours keep company."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A household that still re-thatches or renews part of its home by hand",
+      "A renewal that can realistically be completed within the filming window",
+      "Willingness to discuss whether they would prefer a different roof"
+    ],
+    "suggestions": [
+      {
+        "name": "A coastal home where palm-thatch roofing is still practised",
+        "region": "Southern Province, Hambantota or Tangalle area",
+        "why": "Traditional palm-thatch roofing survives in pockets of the southern coast alongside more modern roofing.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific household still re-thatching by hand must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0159"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

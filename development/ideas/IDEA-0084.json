@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0084",
+  "record_type": "idea",
+  "title": "What the Body Still Carries",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "As an elder's hearing fades, a tea-estate family finds new ways to reach her, notes, gestures, faces turned toward her before speaking, and the household relearns, together, how she now takes in the world.",
+  "human_question": "When one of the senses weakens, how does a person's whole way of taking in the world, and their family's way of reaching them, actually change?",
+  "premise": {
+    "story": "A multi-generation family in a hill-country tea estate community adapts as an elder gradually loses her hearing, developing new habits of communication and closeness.",
+    "place": "A family home in a hill-country tea estate community.",
+    "experience": "The viewer watches ordinary daily communication slowly change shape, and comes to notice how much of connection depends on which senses are actually working, and how a family adapts without fuss."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C037",
+      "role": "primary",
+      "why": "The source holds that mental life, for beings like us, always depends on a physical base, a working sense organ for each sense, a shared base for most other mental activity [C037-P:L27; C037-M:L11]. An elder's changing hearing is a real, human instance of what happens when one of those bases weakens."
+    },
+    {
+      "concept_id": "C035",
+      "role": "supporting",
+      "why": "The source's account of the ear's sensitivity as a distinct, fine door, separate from the visible ear itself, frames why hearing loss is not simply about the outer ear but about a much finer threshold."
+    },
+    {
+      "concept_id": "C048",
+      "role": "supporting",
+      "why": "The source lists hearing what others say among the causes that set off a person's inner life [C048-M:L5]. Watching a family invent new, non-auditory ways to reach an elder shows what has to be rebuilt when that channel narrows."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Ordinary daily routines: meals, chores, the estate's rhythms",
+    "Written notes, gestures, a grandchild learning to face the elder when speaking",
+    "Moments of misunderstanding, correction, and laughter",
+    "The elder's own account of how her experience of the household has changed",
+    "New habits the family has built without being asked to"
+  ],
+  "what_must_be_real": "The elder's clear, ongoing, informed consent, separate from the family's; no framing that turns her hearing loss into a moral lesson or links it to any claim about spiritual attainment.",
+  "possible_arc": {
+    "opening": "An ordinary day in the household, hearing loss already part of daily life.",
+    "turn": "A moment of real miscommunication, and the family's real way of working through it.",
+    "ending_open": "The household's adapted rhythm, whatever it actually looks like, closes the film."
+  },
+  "position_hint": "middle: a tender, domestic film set in a working tea-estate community, giving the group a hill-country, multi-generational setting.",
+  "location": {
+    "requirements": [
+      "A multi-generation household in a tea-estate community, with an elder and family willing to be filmed",
+      "The elder's own clear, separate, ongoing consent",
+      "Enough time on location to observe real adaptation, not a single staged demonstration"
+    ],
+    "suggestions": [
+      {
+        "name": "A tea-estate community in the central hill country",
+        "region": "Nuwara Eliya or Hatton area, Central Province",
+        "why": "Well-established tea-estate communities with multi-generation households.",
+        "season_notes": "",
+        "access_notes": "Estate management permission may be needed alongside the family's own consent.",
+        "verify": "A specific family and their willingness to be filmed are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Pity-framing of a vulnerable elder rather than showing her agency",
+    "The elder's dignity and clear, separate consent must come before the family's",
+    "Implying any link between hearing loss and the source's doctrinal claims about spiritual capacity, which must never be suggested about a real person"
+  ],
+  "drop_if": [
+    "The elder does not clearly and separately consent, even if the family agrees",
+    "The family does not want their adaptation shown on camera",
+    "The story cannot be told without exploiting a vulnerable person's condition"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0076",
+      "relation": "pairs with",
+      "note": "Both are studies of the senses at work, one where several combine in a skilled trade, one where a household adapts as one of them weakens."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

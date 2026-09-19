@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0032",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Tether",
+  "logline": "In the paddy lands of the north, a herder moves buffalo from stake to stake. Each animal grazes a perfect circle and cannot leave it. Some wander free trailing their ropes, and come back at dusk anyway.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0057"
+  ],
+  "concept_ids": [
+    "C074",
+    "C033"
+  ],
+  "chronology": {
+    "group_id": "GRP-04",
+    "position_in_group": 5,
+    "global_position": 32
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-04"
+    ],
+    "note": "Object 4 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0031",
+    "thread": "Roots that hold a shore in place become a rope that holds an animal to its circle: what keeps us going round, even when the rope is long."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0033",
+    "thread": "The worn circle of habit moves indoors: a household up before dawn for an almsgiving, each person finding a different way through the same work."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A herder with tethered buffalo or cattle on open paddy or tank land",
+      "A season when the grazing circles are visible",
+      "The herder's consent to be followed over several days"
+    ],
+    "suggestions": [
+      {
+        "name": "Paddy and tank lands of the Vanni",
+        "region": "Kilinochchi and Mullaitivu districts, Northern Province",
+        "why": "Broad dry-zone paddy country where cattle and buffalo graze on fields and tank bunds.",
+        "season_notes": "After harvest, when fields are open to grazing",
+        "access_notes": "",
+        "verify": "Region-level suggestion; confirm tethered grazing is practised and find a herder.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0057"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

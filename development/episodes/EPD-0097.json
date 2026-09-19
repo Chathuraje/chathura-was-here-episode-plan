@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0097",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Before the Long Trip",
+  "logline": "A fishing family spends the day before a multi-day trip securing the house, settling debts, and telling neighbours exactly when to expect the boat back, so that being unreachable for days does not mean being irresponsible.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0186"
+  ],
+  "concept_ids": [
+    "C102",
+    "C099",
+    "C073"
+  ],
+  "chronology": {
+    "group_id": "GRP-10",
+    "position_in_group": 11,
+    "global_position": 97
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-10"
+    ],
+    "note": "Object 10 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0096",
+    "thread": "Readiness for the sea becomes preparation for leaving it for a while: a fishing family settling everything before days out of reach."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0098",
+    "thread": "Stepping away without abandoning anyone leads to a final giving away: an elderly woman emptying a house of sixty years, and a doorway that becomes Chathura's road toward the crowd."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A fishing family with a real multi-day trip during the filming window",
+      "Consent to film both departure preparations and, if possible, the return",
+      "No filming of the trip itself unless it can be done safely"
+    ],
+    "suggestions": [
+      {
+        "name": "Kalpitiya",
+        "region": "North Western Province",
+        "why": "A well-known base for multi-day deep-sea fishing trips.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific willing family and trip must be identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0186"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

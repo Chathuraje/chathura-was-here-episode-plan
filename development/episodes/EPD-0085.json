@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0085",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Water, Weather, Roof",
+  "logline": "Through a hard monsoon stretch on a tea estate, the same families who share tea and shelter on dry days start keeping to themselves when the rain and the cold do not let up, and everyone can feel exactly when it changes.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0162"
+  ],
+  "concept_ids": [
+    "C082",
+    "C075"
+  ],
+  "chronology": {
+    "group_id": "GRP-09",
+    "position_in_group": 7,
+    "global_position": 85
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-09"
+    ],
+    "note": "Object 9 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0084",
+    "thread": "Roofs carry across: from palm thatch in the dry south to estate homes through a hard monsoon, where rain and cold change how neighbours keep company."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0086",
+    "thread": "Conditions that shape a season lead to a fire that lasts only as long as it is fed: a crew tending a wood-fired kiln through the night until it is let go out."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A tea estate community willing to be filmed through a genuinely difficult stretch of weather",
+      "Ongoing, specific consent about what hardship is shown",
+      "Enough time in the filming window to see a real shift when weather changes"
+    ],
+    "suggestions": [
+      {
+        "name": "A tea estate community during the south-west monsoon",
+        "region": "Nuwara Eliya or Badulla district",
+        "why": "Hill-country tea estates have well-documented seasonal hardship tied to monsoon weather and shared worker housing.",
+        "season_notes": "South-west monsoon, roughly May to September",
+        "access_notes": "",
+        "verify": "A specific estate and community consent must be confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0162"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

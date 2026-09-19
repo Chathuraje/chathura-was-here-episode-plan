@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0051",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Softening",
+  "logline": "A drum-maker works a stiff, raw hide with oil and water for days until it can finally be stretched, tuned and played.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0096"
+  ],
+  "concept_ids": [
+    "C023",
+    "C019"
+  ],
+  "chronology": {
+    "group_id": "GRP-06",
+    "position_in_group": 4,
+    "global_position": 51
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-06"
+    ],
+    "note": "Object 6 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0050",
+    "thread": "The softening that lets someone be glad at another's luck becomes a literal one: a drum-maker working a stiff hide with oil and water for days until it can sound."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0052",
+    "thread": "What is rigid made useful moves from a hide to a village: a mutual-aid society deciding how to help one member through a bad year rather than profit from it."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A working family drum-making household willing to show the full process over enough time",
+      "A drum currently in production, not one made only for filming",
+      "The maker's willingness to speak about the craft and its economics"
+    ],
+    "suggestions": [
+      {
+        "name": "A traditional drum-making household",
+        "region": "Kandy district or the wider hill country",
+        "why": "The Kandy area has long-standing traditional drum-making communities linked to ritual and dance music.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific household, maker or drum has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0096"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

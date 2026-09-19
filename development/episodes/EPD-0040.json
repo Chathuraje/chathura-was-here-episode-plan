@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0040",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Turning Toward",
+  "logline": "At a town three-wheeler stand, a driver's eyes move to every passer-by, and in a fraction of a second, before anyone speaks, he has already decided: customer, or not.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0081"
+  ],
+  "concept_ids": [
+    "C010",
+    "C034",
+    "C025"
+  ],
+  "chronology": {
+    "group_id": "GRP-05",
+    "position_in_group": 5,
+    "global_position": 40
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-05"
+    ],
+    "note": "Object 5 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0039",
+    "thread": "The instant before naming carries into a town's three-wheeler stand, where a driver's eyes turn to each passer-by and a judgement forms before anyone speaks."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0041",
+    "thread": "From faces glimpsed and let go to a place long remembered: a woman returning after years of work abroad, the other side of the choice left open in 'Not Yet Decided'."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A busy three-wheeler stand with drivers willing to be filmed over a working day",
+      "A vantage point that can follow both the driver and the passing street",
+      "Consent that respects the driver's livelihood and does not slow his actual work"
+    ],
+    "suggestions": [
+      {
+        "name": "A busy stand in a market town",
+        "region": "Any market town, to be selected",
+        "why": "Three-wheeler stands are a near-universal feature of Sri Lankan town life; a specific town is left open.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific stand and a willing driver are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0081"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

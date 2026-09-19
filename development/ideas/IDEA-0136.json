@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0136",
+  "record_type": "idea",
+  "title": "Called to the House",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "A village monk is called to house after house where someone is close to death, walking the same roads again and again to sit with families he barely has time to know.",
+  "human_question": "What can a stranger's presence still give someone at the very end?",
+  "premise": {
+    "story": "A period in the life of a rural monk whose role includes being summoned to homes where a death is near: the walk there, the chanting, the walk back.",
+    "place": "A rural temple and the villages it serves in the Southern Province hinterland.",
+    "experience": "A three-wheeler or bicycle on back roads at odd hours, a house quietly rearranged around a sickbed, a chant heard from another room, the monk's own account of what this work asks of him."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C062",
+      "role": "primary",
+      "why": "The source treats dying itself as an ordinary act of the senses, seeing, hearing, smelling, touching, or simply remembering, right to the end [C062-M:L25]. A monk's visits are built on the belief that what reaches those senses in the last hours still matters."
+    },
+    {
+      "concept_id": "C056",
+      "role": "supporting",
+      "why": "The source gives special weight to a good companion who helps someone dying recall good things done in their life [C056-M:L22]. The monk's presence is one living form of that role."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The call arriving",
+    "The journey on foot, bicycle or three-wheeler",
+    "Arriving at a rearranged front room",
+    "The chant heard through a doorway",
+    "The walk home afterward",
+    "The monk speaking in his own words about the work"
+  ],
+  "what_must_be_real": "The monk's actual, ongoing pastoral work and the families' full consent. No dying person is filmed without clear, ongoing agreement, and no final moments are shown.",
+  "possible_arc": {
+    "opening": "A call comes in; the monk sets out.",
+    "turn": "A house prepared for a visit, the wait outside a door.",
+    "ending_open": "The walk home. What happened inside stays private unless the family chooses otherwise."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A rural temple whose monk regularly performs this pastoral role and is willing to be followed",
+      "Families willing to have the monk's visit, not the dying person, filmed",
+      "Full, ongoing consent, with the dying person's own wishes given priority"
+    ],
+    "suggestions": [
+      {
+        "name": "A village temple in the Galle or Matara district hinterland",
+        "region": "Southern Province",
+        "why": "A common setting for this kind of pastoral rural temple role.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific temple or monk identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Filming a dying person without full, ongoing consent",
+    "Turning a private death into spectacle",
+    "Suggesting the visit guarantees any particular outcome"
+  ],
+  "drop_if": [
+    "No monk or family will allow filming under these conditions",
+    "A dying person's own wishes are unclear or cannot be confirmed"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0137",
+      "relation": "pairs with",
+      "note": "Both follow someone whose work is presence at the very end, one rural and monastic, one clinical and urban."
+    },
+    {
+      "idea_id": "IDEA-0148",
+      "relation": "leads into",
+      "note": "A monk who spends his working life at other people's deathbeds gives a natural route into his own private practice of recollecting death."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

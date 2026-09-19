@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0033",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Almsgiving",
+  "logline": "A family has been up since before dawn to cook for the monks. One person arranges every plate beautifully, one checks for mistakes, one waits to be told, one keeps drifting off to talk, and one quietly wonders whether any of it matters.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0059"
+  ],
+  "concept_ids": [
+    "C086",
+    "C008",
+    "C074"
+  ],
+  "chronology": {
+    "group_id": "GRP-04",
+    "position_in_group": 6,
+    "global_position": 33
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-04"
+    ],
+    "note": "Object 4 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0032",
+    "thread": "The worn circle of habit moves indoors: a household up before dawn for an almsgiving, each person finding a different way through the same work."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0034",
+    "thread": "Different temperaments in one kitchen become different stages in one workshop: apprentices at every level beside a carver who still calls themselves a learner."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A family already planning an almsgiving in the filming window",
+      "Every adult in the family consents to being filmed",
+      "Permission from the monks attending"
+    ],
+    "suggestions": [
+      {
+        "name": "A village in Kurunegala district",
+        "region": "North Western Province",
+        "why": "A large farming district with many village temples and household almsgivings.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Region-level suggestion; a specific family must be found.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0059"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

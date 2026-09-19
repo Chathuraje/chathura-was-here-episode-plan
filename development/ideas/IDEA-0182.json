@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0182",
+  "record_type": "idea",
+  "title": "The Same Crossing",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "A ferryman makes the same short lagoon crossing dozens of times a day, in flat dawn stillness and in a wind-driven afternoon chop, arriving each time at the same far bank by a different road.",
+  "human_question": "If two people reach the same place, does it matter that they got there so differently?",
+  "premise": {
+    "story": "A day and a season with a lagoon or river ferry operator, following the same short crossing in very different water and weather.",
+    "place": "A lagoon or river ferry crossing.",
+    "experience": "Repetition with variation: the same short journey made calm and made hard, arriving at an identical point each time."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C017",
+      "role": "primary",
+      "why": "The source counts the moment of path and fruition again by the depth of absorption behind it: the destination is the same, but the texture of arrival differs, glad at four levels, evenly calm at the deepest [C017-P:L25; C017-M:L3–L11]. The ferry's identical crossing in different water is an honest, loose echo of a journey's texture changing while its endpoint does not."
+    },
+    {
+      "concept_id": "C016",
+      "role": "supporting",
+      "why": "The source's own word for these minds rests on the image of 'carrying across' to the far side [C016-P:L25]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The same crossing at dawn stillness and in a rough afternoon current",
+    "Passengers' reasons for crossing, ordinary and varied",
+    "The ferryman's reading of the water, his adjustments",
+    "The moment of arrival, similar each time despite very different journeys"
+  ],
+  "what_must_be_real": "A real, working ferry crossing and its actual operator and passengers. Weather is not engineered; the film follows what the season brings.",
+  "possible_arc": {
+    "opening": "A calm, early crossing.",
+    "turn": "The same crossing attempted in rough water.",
+    "ending_open": "The ferryman's own account of the difference, if he chooses to give one."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working ferry crossing with a willing operator",
+      "Filming across enough of a season to capture different water conditions",
+      "Passenger consent for any close filming"
+    ],
+    "suggestions": [
+      {
+        "name": "Batticaloa lagoon",
+        "region": "Eastern Province",
+        "why": "A well-known lagoon with small local ferry crossings.",
+        "season_notes": "Monsoon timing differs by coast; local advice needed",
+        "access_notes": "",
+        "verify": "Whether a specific ferry crossing still operates there, and by whom, is unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "The metaphor becoming heavy-handed if the edit over-emphasises 'arrival'",
+    "Safety in rough-water filming",
+    "Reducing the ferryman to a symbol rather than a working person"
+  ],
+  "drop_if": [
+    "No ferry crossing with a willing operator can be found, or safe filming in rough conditions cannot be arranged"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0177",
+      "relation": "mirrors",
+      "note": "Refinement of depth in the potter's bowls; refinement of texture, not destination, in this crossing."
+    },
+    {
+      "idea_id": "IDEA-0183",
+      "relation": "leads into",
+      "note": "From one crossing to the boats and craft of a coastal community nearby."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

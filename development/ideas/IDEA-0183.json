@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0183",
+  "record_type": "idea",
+  "title": "The Boatwright",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "In a lagoon-side yard, a boatbuilder lashes eight separate timbers into one outrigger hull, testing each binding before trusting the whole craft to open water.",
+  "human_question": "What holds a group of separate, ordinary parts together well enough to carry someone across open water?",
+  "premise": {
+    "story": "A boatbuilder constructs or repairs a traditional lashed or outrigger fishing craft, timber by timber, binding by binding, through to its first launch.",
+    "place": "A lagoon-side or coastal boatyard.",
+    "experience": "The physical logic of a vessel that only becomes seaworthy once every one of its separate parts is properly bound to the others."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C076",
+      "role": "primary",
+      "why": "The source compares the eight path factors to a raft of eight great logs, bound together, that carries a person across the ocean to the far shore [C076-P:L1413]. The film gives that comparison a real, physical form without ever stating it."
+    },
+    {
+      "concept_id": "C016",
+      "role": "supporting",
+      "why": "The eightfold path is what makes up the path minds this group's other films also touch; the boatbuilder's craft is one more honest, physical echo of 'carrying across.'"
+    }
+  ],
+  "what_camera_could_observe": [
+    "Individual timbers selected, shaped and tested",
+    "The lashing and binding process, and a loose binding being retested and corrected",
+    "The completed hull checked for balance before launch",
+    "The first launch through the surf or into the lagoon"
+  ],
+  "what_must_be_real": "A real, working boatbuilder's actual commission or repair. No boat is built solely for the film if it will not actually be used.",
+  "possible_arc": {
+    "opening": "Separate, unremarkable timbers laid out.",
+    "turn": "A binding tested and found wanting, redone.",
+    "ending_open": "The finished boat's first launch, and whether it performs as intended."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A boatyard where traditional lashed or outrigger construction is still practised",
+      "A real commission or repair during the filming window",
+      "Safe access to the launch"
+    ],
+    "suggestions": [
+      {
+        "name": "Negombo lagoon",
+        "region": "Western Province",
+        "why": "A well-known centre for traditional outrigger fishing craft.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Whether lashed (rather than nailed or fibreglass) construction is still practised there must be confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Traditional lashed construction may be rare or no longer practised; do not stage a revival for the film",
+    "Romanticising a hard, often precarious livelihood"
+  ],
+  "drop_if": [
+    "No boatyard still builds or repairs craft this way, or none will allow filming of a real commission"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0182",
+      "relation": "leads into",
+      "note": "From one crossing to the boats and craft of a coastal community nearby."
+    },
+    {
+      "idea_id": "IDEA-0184",
+      "relation": "leads into",
+      "note": "From the boat that carries people across, to the community that lands and sells what the sea gives."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

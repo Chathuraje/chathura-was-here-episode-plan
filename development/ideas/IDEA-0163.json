@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0163",
+  "record_type": "idea",
+  "title": "When the Kiln Goes Out",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "A potter's crew feeds a wood-fired kiln through an entire night, watching the wind and the colour of the flame, and only when the fuel stops and the fire finally dies down can the kiln cool enough to open.",
+  "human_question": "If something needs to be fed to keep going, what happens the moment the feeding stops?",
+  "premise": {
+    "story": "One overnight firing at a traditional pottery workshop, from loading the kiln to the morning it is opened and the finished pots are lifted out.",
+    "place": "A traditional pottery-making village.",
+    "experience": "A long night of watching and feeding a fire that could fail at any point, the anxious quiet before dawn, and the moment heat gives way to stillness and the kiln is finally opened."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C083",
+      "role": "primary",
+      "why": "Presence and absence together: the fire is sustained only while fuel keeps arriving, and only its ending, the fire finally going out, lets the next state, a cooled, finished kiln, arise."
+    },
+    {
+      "concept_id": "C082",
+      "role": "supporting",
+      "why": "Many different things, clay, fuel, weather, a waking crew, hold up one result, none of them sufficient alone, echoing Margaya's own match-and-box image for how several conditions each help differently."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Loading the kiln; choosing and stacking wood",
+    "Watching the wind and the flame's colour through the night",
+    "Exhaustion and quiet near dawn",
+    "The fire finally allowed to die down",
+    "The kiln opened and pots lifted out, some cracked, most whole"
+  ],
+  "what_must_be_real": "The crew's real skill, risk and financial stake; some pots really do crack, and that must not be hidden.",
+  "possible_arc": {
+    "opening": "The kiln loaded and the first fire lit at dusk.",
+    "turn": "The long night of feeding and watching the fire, never certain it will hold.",
+    "ending_open": "The kiln opened at dawn, whatever is actually inside."
+  },
+  "position_hint": "closing candidate: a fire that holds only as long as it is fed, and that only completes its work once it is finally let go out, mirrors the group's hand-off that what arises by conditions can also cease by conditions",
+  "location": {
+    "requirements": [
+      "A traditional pottery workshop still firing by wood in a single overnight session",
+      "Access through a full night of work",
+      "A crew willing to show real losses, not only successful pots"
+    ],
+    "suggestions": [
+      {
+        "name": "A traditional pottery-making village",
+        "region": "Kegalle or Kurunegala district (villages such as Molagoda are known for pottery)",
+        "why": "Low-country pottery villages in this area have long-standing traditions of wood-fired kilns.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Whether a specific workshop still fires by wood, rather than gas or electricity, and is willing to be filmed overnight must be confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning the firing into a neat metaphor read over real labour",
+    "The crew's skill, fatigue and financial stake in the outcome must lead the film, not the imagery"
+  ],
+  "drop_if": [
+    "No overnight wood firing happens within the filming window",
+    "The workshop now fires only by gas or electricity"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0154",
+      "relation": "mirrors",
+      "note": "Both closing candidates show a condition, sight or fire, finally withdrawn or completed, echoing the group's hand-off that what arises by conditions can also cease by conditions."
+    },
+    {
+      "idea_id": "IDEA-0162",
+      "relation": "pairs with",
+      "note": "The same weather that shapes an estate community's mood also decides whether an overnight kiln firing can be safely attempted."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0056",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Between Two Rounds",
+  "logline": "At a small temple-run elders' home, the same two carers move within one hour from helping a resident through a hard, frightened moment to sitting with another whose grandchild has just visited with good news.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0106"
+  ],
+  "concept_ids": [
+    "C030",
+    "C095",
+    "C024"
+  ],
+  "chronology": {
+    "group_id": "GRP-06",
+    "position_in_group": 9,
+    "global_position": 56
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-06"
+    ],
+    "note": "Object 6 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0055",
+    "thread": "Relief in a working body gives way to bodies that can no longer carry much: carers at an elders' home moving within one hour from a frightened moment to good news."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0057",
+    "thread": "From the day's rounds at the elders' home to night rounds in a hospital, where a volunteer's tea trolley reaches families who have not left in days."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A small elders' home willing to allow filming with full institutional and resident consent",
+      "Residents and families capable of giving genuine, ongoing consent",
+      "Carers willing to be followed and interviewed"
+    ],
+    "suggestions": [
+      {
+        "name": "A small temple-run or charity elders' home",
+        "region": "Region-level, unspecified",
+        "why": "No specific home is named; this requires direct outreach and consent wherever it is filmed.",
+        "season_notes": "",
+        "access_notes": "Institutional and family permission required.",
+        "verify": "No specific home, carer or resident has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0106"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

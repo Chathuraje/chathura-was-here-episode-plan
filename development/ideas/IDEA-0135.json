@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0135",
+  "record_type": "idea",
+  "title": "The Old Cow at the Gate",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "At dusk a herder drives the cattle into the pen; at dawn he opens the gate, and it's never the strongest animal that leaves first, it's whoever ended up nearest the door.",
+  "human_question": "Does what matters most always come first, or just what's closest to hand?",
+  "premise": {
+    "story": "A day and night in a dry-zone cattle herder's routine, driving animals into the pen at dusk and letting them out at dawn.",
+    "place": "A small dry-zone village with common cattle pens.",
+    "experience": "Dust, lowing animals, a herder's practised patience, and the simple fact of watching which animal actually leaves the gate first."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C056",
+      "role": "primary",
+      "why": "This is the source's own image for why what is nearest a life's end can outweigh what is strongest in it: an old, weak cow nearest the gate leaves the pen before all the others [C056-P:L119]. The film needs no explanation if the herder's real routine is simply followed."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Cattle driven in at dusk",
+    "The herder settling disputes among animals for space",
+    "The pen at night",
+    "The gate opening at dawn",
+    "The actual order in which animals leave"
+  ],
+  "what_must_be_real": "A working herder's real routine, not one staged to match the simile. If the animals do not behave as the old story suggests, the film follows what actually happens.",
+  "possible_arc": {
+    "opening": "Dust and noise as the herd is driven into the pen at dusk.",
+    "turn": "A quiet night; the herder's own account of the animals he knows individually.",
+    "ending_open": "The gate opens. The order the animals leave in is whatever it is."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working cattle pen with a herder willing to be filmed over a dusk-to-dawn cycle",
+      "Dry-zone terrain"
+    ],
+    "suggestions": [
+      {
+        "name": "A village near Polonnaruwa or Anuradhapura",
+        "region": "North Central Province",
+        "why": "Traditional cattle-herding communities are still active in this dry-zone area.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific herder or pen identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Staging the shot to force the simile onto real animal behaviour",
+    "Romanticising a hard, low-income trade"
+  ],
+  "drop_if": [
+    "The animals' actual order contradicts the simile and the film cannot honestly use the image",
+    "No working herder will allow overnight filming"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0140",
+      "relation": "mirrors",
+      "note": "Both use an ordinary, everyday image, cattle at a gate, debts in a ledger, to carry the same idea about what comes due and when."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

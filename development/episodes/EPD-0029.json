@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0029",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Drowned Town",
+  "logline": "In a dry year the water behind a dam drops, and the streets of a town that was flooded decades ago come back into the air. People who grew up there walk out across the cracked mud, looking for a house that is no longer where they remember it.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0053"
+  ],
+  "concept_ids": [
+    "C074",
+    "C008"
+  ],
+  "chronology": {
+    "group_id": "GRP-04",
+    "position_in_group": 2,
+    "global_position": 29
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-04"
+    ],
+    "note": "Object 4 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0028",
+    "thread": "Every answer on the road came from where the person stood; next, people whose own map no longer matches the ground walk out across a drained reservoir looking for where home was."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0030",
+    "thread": "From a reservoir's slow, silent mud to a wholesale market where lorries arrive all at once and attention scatters as fast as prices change."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A reservoir whose drawdown genuinely exposes the remains of a submerged settlement during the filming window",
+      "Former residents or their families willing to return and speak",
+      "Safe access onto the exposed bed and permission from the relevant authorities"
+    ],
+    "suggestions": [
+      {
+        "name": "Victoria Reservoir (old Teldeniya area)",
+        "region": "Kandy district, Central Province",
+        "why": "A large Mahaweli reservoir whose construction submerged settlements; remains of the old town have been reported to reappear in severe droughts.",
+        "season_notes": "Only in drought years, when water levels fall far enough; unpredictable",
+        "access_notes": "Reservoir and security restrictions likely",
+        "verify": "Confirm which settlements were submerged, whether remains have actually re-emerged, and who manages access.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Kotmale Reservoir area",
+        "region": "Nuwara Eliya district, Central Province",
+        "why": "Another Mahaweli reservoir built over inhabited valleys; low water has reportedly exposed older structures.",
+        "season_notes": "Drought years only",
+        "access_notes": "",
+        "verify": "Unverified; confirm what is actually exposed at low water and whether former residents live nearby.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0053"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0142",
+  "record_type": "idea",
+  "title": "The Opposing Good",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "A person who once did real harm now spends every day doing quiet, repeated service at a community kitchen, without ever explaining why to the people they serve.",
+  "human_question": "Can steady, ordinary good work actually answer for something done long before?",
+  "premise": {
+    "story": "A volunteer's daily routine at a community kitchen or shelter, and, in their own words and own time, why they do this particular work now.",
+    "place": "A community kitchen or shelter in a northern town.",
+    "experience": "Unglamorous daily tasks, chopping, serving, cleaning up, repeated with real steadiness, and a person's own account, offered only if and when they choose, of what led them here."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C055",
+      "role": "primary",
+      "why": "The source advises that someone who has done wrong should deliberately take up the opposing good, because a later strong action can weaken an earlier one's force [C055-M:L32-L34]. The film follows someone living that out in their own terms, without ever narrating their past for them."
+    },
+    {
+      "concept_id": "C058",
+      "role": "supporting",
+      "why": "Whatever the past harm was, the ten courses of harm this source sets out [C058-M:L3] give the film's viewer, without a single word of doctrine, the sense that harm has a shape and a weight."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Daily kitchen or shelter work",
+    "The person's manner with those they serve",
+    "A quiet conversation about the present rather than the past",
+    "The routine repeated across different days"
+  ],
+  "what_must_be_real": "A real volunteer with real, ongoing consent to reveal as much or as little of their own history as they choose. The film never demands or reconstructs their past.",
+  "possible_arc": {
+    "opening": "An ordinary morning at the kitchen.",
+    "turn": "A moment where the person is asked, gently, why they do this.",
+    "ending_open": "Whatever they choose to answer, or not. The routine continues either way."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A community kitchen or shelter with a long-term volunteer willing to be filmed and to control their own story",
+      "Full consent over what personal history, if any, is disclosed"
+    ],
+    "suggestions": [
+      {
+        "name": "A community kitchen or shelter in Jaffna or Vavuniya",
+        "region": "Northern Province",
+        "why": "Suggested for northern geographic representation; no specific organisation identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No organisation or volunteer confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Exposing a real person's past without their full, ongoing consent",
+    "Turning the film into a redemption narrative that the person has not chosen for themselves",
+    "Any past victims' privacy and feelings"
+  ],
+  "drop_if": [
+    "No volunteer will participate under these consent conditions",
+    "The story would require disclosing details the person does not want shared"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0139",
+      "relation": "alternative to",
+      "note": "A different response to the same pressure explored in The Boundary Walk: repair through service rather than dispute over property."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

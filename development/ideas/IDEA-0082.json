@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0082",
+  "record_type": "idea",
+  "title": "No One at the Wheel",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "On a mountain road thick with blind bends, a long-distance bus driver reacts to whatever appears, a truck, a landslide, a child, faster than thought, with no one, he says, deciding in advance what he will do.",
+  "human_question": "If so much of what we do happens faster than we can think about it, where does our own part in it actually lie?",
+  "premise": {
+    "story": "A long-distance or local bus driver works a mountain road with sharp bends, reacting instantly and continuously to what the road reveals, over the course of one or more shifts.",
+    "place": "A mountain bus route in the hill country, with steep grades and blind bends.",
+    "experience": "The viewer rides inside a stream of constant, unplanned response, and comes to feel the strange combination of total absence of a single controlling decision and the driver's real, ongoing care for his passengers."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C043",
+      "role": "primary",
+      "why": "The source insists that this whole sequence of noticing and responding is not arranged by anyone's effort, our own or another's, and unfolds only by the force of what came before [C043-M:L3-L5]. A driver's instant, continuous reaction on a mountain road is the clearest ordinary-life echo of a process with, in the source's own words, no arranger."
+    },
+    {
+      "concept_id": "C041",
+      "role": "supporting",
+      "why": "The source's account of a full, vivid response happening in a burst too fast to deliberate over, which the series reads, as its own editorial interpretation, as the window where a response is made, though the source itself never calls this choice [C041-P:L46], matches the driver's split-second reactions at each bend."
+    },
+    {
+      "concept_id": "C038",
+      "role": "supporting",
+      "why": "The source's basic claim, that no single mind-moment accomplishes an act like steering or braking, but a whole ordered series does [C038-M:L3], is made vivid by watching a driver's hands and eyes work continuously."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The windscreen view opening onto each blind bend",
+    "The driver's eyes, hands and feet reacting continuously",
+    "Horn, braking, steering, and small negotiations with other vehicles",
+    "The conductor and passengers, and how much they trust the driver's judgement",
+    "The driver's own account, off the road, of what he thinks is really happening when he reacts"
+  ],
+  "what_must_be_real": "The driver's real skill and the real risks of the route; no staged near-misses or manufactured danger. A moving-vehicle shoot must not distract the driver or compromise safety.",
+  "possible_arc": {
+    "opening": "The bus sets out; the mountain road's first bends begin.",
+    "turn": "A genuinely difficult moment on the road, weather, another vehicle, an obstacle, tests the driver's continuous reaction.",
+    "ending_open": "The route ends, safely, however it actually goes, and the driver reflects on what he thinks he is doing at each bend."
+  },
+  "position_hint": "closing candidate: the film's central image, a driver reacting without a separate act of deliberation while still caring for everyone in his charge, can hand off directly to the group's closing idea that within an unowned, unarranged process there is still room to choose goodness.",
+  "location": {
+    "requirements": [
+      "A mountain or hill-country bus route with steep grades and blind bends",
+      "A driver and transport operator willing to allow filming from inside a moving vehicle",
+      "A safety plan for filming in a moving vehicle that does not distract the driver"
+    ],
+    "suggestions": [
+      {
+        "name": "The Nuwara Eliya-Ella hill-country road network",
+        "region": "Central / Uva Province",
+        "why": "Well-known mountain routes with steep grades and sharp bends served by regular buses.",
+        "season_notes": "Fog and rain are more likely in the monsoon months and would need separate safety planning.",
+        "access_notes": "Filming inside a moving public bus needs the operator's and driver's active cooperation.",
+        "verify": "A specific route, operator and willing driver are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Filming in a moving vehicle carries real safety risk for crew, driver and passengers",
+    "Dramatising near-misses would be both dishonest and dangerous",
+    "The no-doer framing could be misread as fatalism if the driver's real care and skill are not equally shown"
+  ],
+  "drop_if": [
+    "No operator or driver will allow in-vehicle filming without compromising safety",
+    "The route turns out to be too routine to show genuine continuous reaction",
+    "The film cannot show the driver's care for passengers alongside his instant reactions"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0088",
+      "relation": "leads into",
+      "note": "Instant, unowned reaction on the road hands off to the closing film's harder, slower question of what a person does with the same kind of gap."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0134",
+  "record_type": "idea",
+  "title": "The Seventh Day",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "On the seventh day after a death, a family cooks through the night, invites monks at dawn, and pours water until it overflows, saying a name out loud one more time.",
+  "human_question": "What can the living still do for someone who is gone?",
+  "premise": {
+    "story": "A family's almsgiving in memory of the dead (mataka danaya), followed from the first errands to the quiet after the guests leave.",
+    "place": "A family home and its neighbourhood temple in a North Central province village.",
+    "experience": "A house rearranged for guests, a whole night's cooking, monks arriving at dawn, and the specific small ceremony of pouring water into a bowl until it overflows while a name is spoken."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C059",
+      "role": "primary",
+      "why": "The source treats sharing merit with the dead as real work: simply saying 'share in this' is not enough, the deed has to be told well enough that the person who died can feel glad about it [C059-P:L239-L245]. The film can follow that telling as it actually happens in a family's kitchen and front room."
+    },
+    {
+      "concept_id": "C051",
+      "role": "supporting",
+      "why": "One class of unhappy being described in the source lives only on what relatives give in its name and waits for them to give it [C051-M:L21]. This is the everyday ritual behind that description, without the film asserting where the dead person now is."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Shopping and borrowing pots the evening before",
+    "Cooking through the night",
+    "The house rearranged for monks",
+    "The meal offered at dawn",
+    "Water poured slowly until it overflows while the family says the name",
+    "The quiet afterwards when the guests have gone"
+  ],
+  "what_must_be_real": "A family's own loss and their own reasons for holding the almsgiving. No line is scripted; the dedication is whatever the family actually says.",
+  "possible_arc": {
+    "opening": "A house being swept and rearranged before dawn.",
+    "turn": "The meal is offered; the family's attention narrows to the moment of pouring water.",
+    "ending_open": "The last guest leaves. What the house feels like afterward is not explained."
+  },
+  "position_hint": "opening candidate: an heirloom used in the ritual, such as a jug, a set of dishes or a framed photograph, could plausibly be where Object 8 is acquired, if the family is willing; the film also works as a strong early piece for the group on its own",
+  "location": {
+    "requirements": [
+      "A family in the days following a bereavement who wants an almsgiving filmed",
+      "A neighbourhood temple with monks able to attend",
+      "Full, ongoing consent from every family member present"
+    ],
+    "suggestions": [
+      {
+        "name": "A village in the Anuradhapura district",
+        "region": "North Central Province",
+        "why": "A common setting for this practice with a nearby village temple; suggested for texture, not for a specific household.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No family or temple identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Intruding on fresh grief",
+    "Implying the deceased has become a suffering being",
+    "Treating a private rite as performance"
+  ],
+  "drop_if": [
+    "No family gives full, ongoing consent",
+    "The family does not want the ritual explained or framed on camera"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0133",
+      "relation": "alternative to",
+      "note": "A second real moment where Object 8 could be acquired, here through ritual rather than sorting a room."
+    },
+    {
+      "idea_id": "IDEA-0145",
+      "relation": "pairs with",
+      "note": "Both are about care extended toward beings ordinary comfort cannot reach directly."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

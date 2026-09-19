@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0060",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Kiln and the Hand",
+  "logline": "A potter's family works a week's batch from wet clay to a fired pot, reading hardness, wetness, warmth and air in their hands long before any of it has a name.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0113"
+  ],
+  "concept_ids": [
+    "C064",
+    "C063",
+    "C070"
+  ],
+  "chronology": {
+    "group_id": "GRP-07",
+    "position_in_group": 3,
+    "global_position": 60
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-07"
+    ],
+    "note": "Object 7 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0059",
+    "thread": "From grain in the hands to clay in the hands: a potter's family reading hardness, wetness, warmth and air long before any of it has a name."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0061",
+    "thread": "The elements in the potter's hands move out to the wind of an eastern landing site, where a voice has to be told apart from the weather."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "An active traditional pottery household still working by hand",
+      "A complete firing cycle achievable within the filming window",
+      "A potter willing to have decisions, losses and orders filmed, not just the craft"
+    ],
+    "suggestions": [
+      {
+        "name": "Traditional pottery-making villages of the western lowlands (e.g. around Kosgama/Meepe)",
+        "region": "Western Province / Sabaragamuwa border",
+        "why": "This belt is known for household pottery production still worked by hand.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "The specific village, household and whether hand-thrown pottery is still active there are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0113"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

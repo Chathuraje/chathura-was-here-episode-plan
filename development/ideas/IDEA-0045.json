@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0045",
+  "record_type": "idea",
+  "title": "Not Yet Decided",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "For months, a household has been going back and forth on whether one of them should go abroad for work. Agency visits, forms half-filled, evenings of the same conversation. Nobody in the house can quite say what they have decided.",
+  "human_question": "When a decision keeps not getting made, what does the waiting itself do to a family?",
+  "premise": {
+    "story": "A household living inside a long, unresolved decision about overseas labour migration: visits to agencies, paperwork started and set aside, conversations that circle without landing, and the practical, financial and emotional weight of staying undecided.",
+    "place": "A home where this conversation keeps happening, in a region where going abroad for work is a familiar, ordinary path.",
+    "experience": "The viewer sits inside the family's unfinished sentences and half-filled forms, and feels how heavy simply not deciding can become, without anyone doing anything dramatic at all."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C028",
+      "role": "primary",
+      "why": "The sources describe the doubting state of mind as the sparest on their whole list: it cannot reach a decision, and it has no desire to act, only a mind that circles without settling [C028-P:L33; C028-M:L29]. This is offered here only as an analogy for the lived texture of a long, unresolved family decision; the source's doubt is specifically about matters of the teaching, and the film must never claim they are the same thing."
+    },
+    {
+      "concept_id": "C022",
+      "role": "supporting",
+      "why": "Both sources are explicit that ordinary uncertainty about unknown or undecided matters in life is not the unwholesome doubt they describe, which concerns the teacher and the teaching specifically [C022-P:L179; C022-M:L57]. This film sits entirely in that ordinary kind of uncertainty, and the concept is linked here as a boundary to respect, not a label to apply to the family."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Visits to a recruitment agency or similar office",
+    "Forms started, set aside, picked up again",
+    "Evening conversations at home that return to the same open question",
+    "The household's daily life continuing underneath the unresolved decision",
+    "Whatever the family actually decides, or does not decide, by the end of filming"
+  ],
+  "what_must_be_real": "The family's decision, timeline and circumstances must be entirely their own and genuinely unresolved when filming begins; no deadline, meeting or conversation may be arranged for the camera, and the film must not push the family toward any outcome.",
+  "possible_arc": {
+    "opening": "A form on a table, half-filled, and the household around it.",
+    "turn": "A visit, a phone call or a deadline forces the question forward without settling it.",
+    "ending_open": "Whatever the family has actually decided, or still not decided, by the end of filming ends the film."
+  },
+  "position_hint": "closing candidate: the group's closing arc is a fog, not knowing which way to go, and a household genuinely unable to settle a real decision is a direct, human form of that fog, handing off into the next group's questions about which way to travel",
+  "location": {
+    "requirements": [
+      "A household currently in the middle of a genuine, unresolved decision about overseas labour migration",
+      "Willingness from every family member shown to be filmed discussing it",
+      "A realistic filming window that can hold an open-ended, possibly unresolved story"
+    ],
+    "suggestions": [
+      {
+        "name": "A household in a district with a long-established pattern of overseas labour migration",
+        "region": "Kurunegala or Puttalam district, North Western Province",
+        "why": "A region-level suggestion only; overseas employment for work is a broadly familiar path from many parts of Sri Lanka.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific family currently facing this decision, and willing to be filmed, must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Exploiting real economic hardship for drama",
+    "Implying an honest, difficult life decision is any kind of moral failing",
+    "The story may not resolve within the filming window, which the film must be able to hold as its own true ending"
+  ],
+  "drop_if": [
+    "No family in a genuinely unresolved position is willing to be filmed",
+    "The family reaches a firm decision before filming can begin, removing the open question at the centre of the film"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0037",
+      "relation": "pairs with",
+      "note": "Both are closing candidates: one shows heat that has already cooled, the other a fog that has not yet lifted."
+    },
+    {
+      "idea_id": "IDEA-0043",
+      "relation": "leads into",
+      "note": "The heaviness of a task some were urged into opens into the deeper stall of a decision no one in a household can quite make."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

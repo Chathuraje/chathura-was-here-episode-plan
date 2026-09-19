@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C099",
+  "record_type": "concept_digest",
+  "concept_id": "C099",
+  "group_id": "GRP-10",
+  "title_si": "අර්පණා වීථි",
+  "title_en": "The absorption process",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C099-P4",
+      "path": "content/02-concepts/Chapter 9/Concept 99 - අර්පණා වීථි/sources/Abhidhammattha Pradeepika Book 4.md",
+      "lines": "1-136",
+      "complete": true,
+      "markers": "Book 4, ch. 9 (කම්මට්ඨාන සංග්‍රහ විභාගය), pdf 82–84 / printed 63–65 and pdf 92–99 / printed 73–80; Sinhala commentary only; extract opens mid-page on pdf 82; editorial repair note for pages 98–101 at L117–L120; deliberately overlaps Concepts 87 and 88"
+    },
+    {
+      "ref": "C099-P",
+      "path": "content/02-concepts/Chapter 9/Concept 99 - අර්පණා වීථි/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-79",
+      "complete": true,
+      "markers": "Book 1, ch. 4 (වීථි සංග්‍රහ විභාගය), pdf 341–344 / printed 331–334 and pdf 362–363 / printed 352–353; Sinhala commentary only; two non-contiguous cuts"
+    },
+    {
+      "ref": "C099-M",
+      "path": "content/02-concepts/Chapter 9/Concept 99 - අර්පණා වීථි/sources/Abhidharma Margaya.md",
+      "lines": "1-39",
+      "complete": true,
+      "markers": "Section 15 (අර්පණා වීථි), lesson 18; no page or edition metadata"
+    }
+  ],
+  "summary_en": "Appanā ('fixing' the mind on its object) is the name for the 26 sublime and supramundane impulsion consciousnesses, and the mind-door processes in which they arise are called absorption processes [C099-P:L25–L31; C099-M:L5]. When absorption first arises, the mind adverts to the meditation object and then runs through sense-sphere impulsions named preparation, access, conformity and change-of-lineage (four for a slower person, three for a quicker one, who skips preparation), after which a single moment of absorption consciousness arises and the mind lapses back into the life-continuum [C099-P4:L26–L30; C099-M:L15–L17; C099-M:L25–L29]. With practice the same run-up leads into an attainment in which absorption consciousness repeats as long as one wishes; the meditator reviews the absorption factors, masters five skills of entering, staying, leaving and reviewing, and repeats the same process to reach higher absorptions by discarding coarser factors [C099-P:L69–L79; C099-P4:L38–L136; C099-M:L21; C099-M:L37]. The two sources classify absorption processes differently: three kinds in the Pradeepika, five in the Margaya [C099-P:L35–L39; C099-M:L5].",
+  "sinhala_explanation": [
+    {
+      "heading": "අර්පණාව සහ අර්පණා ජවන වීථිය",
+      "text": "‘අර්පණා’ යනු මහග්ගත හා ලෝකෝත්තර ජවන් සිත්වලට යෙදෙන නමකි. එනම් රූපාවචර කුසල් සිත් පස, ක්‍රියා සිත් පස, අරූපාවචර කුසල් සිත් සතර, ක්‍රියා සිත් සතර, ලෝකෝත්තර මාර්ග සතර සහ ඵල සතර යන සිත් සවිස්සයි [C099-P:L25–L29]. සම්ප්‍රයුක්ත ධර්ම සහිත සිත අරමුණට ‘පමුණුවන’ අර්ථයෙන් මෙය අර්පණා නම් වන අතර, එය විතර්කයේ පර්යාය නාමයකි [C099-P:L29]. මෙවැනි අර්පණා ජවන් පහළ වන මනෝද්වාර චිත්ත වීථි ‘අර්පණා ජවන වීථි’ නම් වේ [C099-P:L31; C099-M:L5]. ප්‍රථම ධ්‍යානයේ පටන් නිරෝධ සමාපත්තිය දක්වා සියලු උත්තරීමනුෂ්‍ය ධර්ම ඉපදවීමට විතර්ක සංඛ්‍යාත අර්පණාව ප්‍රධාන වන බැවින් ඒ සියල්ලටම ද ‘අර්පණා’ යන නම ව්‍යවහාර වේ [C099-P:L51]. බලවත් චිත්තෛකාග්‍රතා සමාධිය නිසා මේ වීථිවලට හමු වන අරමුණු ඉතා ප්‍රකට (විභූත) ය; එබැවින් අවිභූතාරම්මණ අර්පණා වීථි නැත. කාමාවචර ජවන් වීථිවල පමණක් යෙදෙන තදාරම්මණ සිත් ද අර්පණා වීථිවල නොලැබේ [C099-P:L33]."
+    },
+    {
+      "heading": "අර්පණා වීථි වර්ගීකරණය: මූලාශ්‍ර දෙකේ ක්‍රම",
+      "text": "අභිධර්මාර්ථ ප්‍රදීපිකාව අර්පණා ජවන වීථි තුන් වැදෑරුම් කොට දක්වයි: ධ්‍යාන වීථි, මාර්ග වීථි, සමාපත්ති වීථි [C099-P:L35–L39]. සමාපත්තිය ද ධ්‍යාන සමාපත්ති, ඵල සමාපත්ති, නිරෝධ සමාපත්ති වශයෙන් ත්‍රිවිධ වේ [C099-P:L65]. අභිධර්ම මාර්ගය වනාහි අර්පණා වීථි පස් කොටසක් ලෙස දක්වයි: ධ්‍යාන වීථිය, මාර්ග වීථිය, ඵලසමාපත්ති වීථිය, අභිඥා වීථිය, නිරෝධ සමාපත්ති වීථිය [C099-M:L5]. අභිධර්ම මාර්ගයට අනුව රූපාවචර ධ්‍යාන පස හා අරූපාවචර ධ්‍යාන සතර නිසා ධ්‍යාන වීථි නවයකි; ඒ එකක් ආදිකර්මික හා සමාපජ්ජන වශයෙන් දෙකක් වීමෙන් අටළොසක් ද, දන්ධාභිඥ හා ක්ෂිප්‍රාභිඥ පුද්ගලයන් වශයෙන් සතිසක් ද, කුශල හා ක්‍රියා ධ්‍යාන වශයෙන් දෙසැත්තෑවක් ද වේ [C099-M:L7; C099-M:L11]. ප්‍රදීපිකාව රූපාවචර ධ්‍යාන චිත්ත වීථිවල පහළ වන ධ්‍යාන සිත් දසය දක්වයි: පෘථග්ජනයන්ට හා ශෛක්ෂයන්ට කුසල් සිත් පස, අශෛක්ෂ (රහත්) පුද්ගලයාට ක්‍රියා සිත් පස [C099-P:L55]."
+    },
+    {
+      "heading": "පළමු වරට ධ්‍යානය ලැබෙන (ආදිකර්මික) අර්පණා වීථිය",
+      "text": "මනාව වඩන ලද පඨවි කසිණය වැනි අරමුණක් ඇති කල්හි, භවඞ්ගචලන, භවඞ්ගුපච්ඡේද යන භවඞ්ග සිත් දෙක ඉපිද නිරුද්ධ වූ පසු එම අරමුණම ගෙන මනෝද්වාරාවජ්ජන සිත ඉපිද, ඉක්බිති ජවන් සිත් සතරක් හෝ පසක් උපදී. මුල් ජවන් තුන හෝ සතර කාමාවචර ඥාණසම්ප්‍රයුක්ත කුසල් සිත් වන අතර අවසාන ජවනය රූපාවචර වේ. මේ කාමාවචර ජවන්හි විතක්ක, විචාර, ප්‍රීති, සුඛ, ඒකාග්‍රතා යන චෛතසික සාමාන්‍ය කාමාවචර සිත්වලට වඩා ඉතා බලවත් ය [C099-P4:L26]. දන්ධාභිඥ (නොතියුණු නුවණැති) පුද්ගලයාට පරිකර්ම, උපචාර, අනුලෝම, ගෝත්‍රභූ, අර්පණා යයි ජවන් පසක් ද, ක්ෂිප්‍රාභිඥ (තියුණු නුවණැති) පුද්ගලයාට පරිකර්මයක් නැතිව උපචාර, අනුලෝම, ගෝත්‍රභූ, අර්පණා යයි ජවන් සතරක් ද උපදී [C099-P4:L30; C099-M:L9; C099-M:L15–L17]. පළමු වරට ලැබෙන මේ ආදිකර්මික වීථියේ ධ්‍යාන සිත එක් වරක් පමණක් ඉපිද නිරුද්ධ වී භවාඞ්ගයට බසී [C099-M:L15–L17; C099-M:L25–L29]. සිත් හතරේ නම්වල අර්ථය මෙසේ ය: පරිකර්ම යනු අර්පණාවට පිරියම් කරන සිතයි (අභිධර්ම මාර්ගයට අනුව ඉන්ද්‍රිය සමතාදියෙන් අර්පණාවට විශේෂයෙන් උපකාර වන බැවිනි); උපචාර යනු අර්පණාවට සමීපයෙහි හැසිරෙන සිතයි; අනුලෝම යනු අර්පණාවට අනුකූල වන සිතයි (අභිධර්ම මාර්ගයට අනුව කාමච්ඡන්දාදී බාධක දුරු කරන බැවිනි); ගෝත්‍රභූ යනු කාම හෙවත් පරිත්ත ගෝත්‍රය මැඩ මහද්ගත ගෝත්‍රය වඩන සිතයි (අභිධර්ම මාර්ගයට අනුව එයට අනතුරුව කාමාවචර සිතක් නොව අර්පණා සිතක්ම උපදින බැවිනි) [C099-P4:L26–L30; C099-M:L33]. පළමු වරට උපදින මේ අර්පණා සිත ‘ප්‍රථම ධ්‍යාන සිත’ නම් වන අතර, එය ලැබූ යෝගාවචරයා කාමයන්ගෙන් හා අකුසල ධර්මයන්ගෙන් වෙන්ව, විතක්ක විචාර සහිත, විවේකයෙන් උපන් ප්‍රීති සුඛ ඇති ප්‍රථම ධ්‍යානය උපදවා වාසය කරන්නේ යයි කියනු ලැබේ [C099-P4:L30]."
+    },
+    {
+      "heading": "අර්පණාවට පෙර අවශ්‍යතා සහ වීර්ය සමතාව",
+      "text": "ධ්‍යාන උපදවනු කැමති පුද්ගලයා විපාකාවරණ, කර්මාවරණ, ක්ලේශාවරණ යන ආවරණ තුනෙන් නොවැසුණු, ත්‍රිහේතුක ප්‍රතිසන්ධියක් ලැබූ කල්‍යාණ පෘථග්ජනයෙකු විය යුතු ය; ඔහු ධ්‍යානලාභී ආචාර්යවරයෙකු කරා එළඹ, සතර සංවර සීලයෙන් පිරිසිදු වී, ආචාර්යයන්ගෙන් උපනිශ්‍රය ලැබ, සුදුසු සෙනසුනක් දැන, භාවනාවට යෝග්‍ය කර්මස්ථානයක් ලබාගෙන ධ්‍යානය පිණිස වීර්ය කළ යුතු යයි ප්‍රදීපිකාව කියයි [C099-P:L57]. අභිධර්ම මාර්ගය ද ධ්‍යාන, මාර්ග, ඵල ලැබිය හැක්කේ ඥාණසම්ප්‍රයුක්ත ප්‍රතිසන්ධියෙන් උපතින්ම නුවණ ලැබූවන්ට පමණක් බවත්, නුවණ මඳ පුද්ගලයන්ට නොලැබිය හැකි බවත් පවසයි [C099-M:L9]. දශවිධ අර්පණා කෞශල්‍යය සම්පාදනය කළ ද අර්පණාව නොලැබුණොත් භාවනාව අත් නොහැර නුවණින් යුතුව නැවත නැවත ව්‍යායාම කළ යුතු ය. ප්‍රතිභාග නිමිත්ත උපන් විගස අර්පණාවට පැමිණෙමියි වීර්යය දැඩි කරන්නාට අධික වීර්යය නිසා උද්ධච්චය හෙවත් නොසන්සුන් බව ඇති වී අර්පණාව නොලැබේ; අධික වීර්යයේ දොස් දැක ලිහිල් වන්නා කුසීත බවට වැටෙන බැවින් ඔහුට ද නොලැබේ; මේ දෙකටම නොවැටී සමබරව නිමිත්ත වඩන්නා අර්පණාවට පැමිණේ [C099-P4:L24–L26]."
+    },
+    {
+      "heading": "සමාපජ්ජන වීථිය, ප්‍රත්‍යවේක්ෂා වීථි සහ වශී පස",
+      "text": "ලත් ධ්‍යානය පඤ්ච වශීතාවෙන් පුරුදු කොට වහ වහා ධ්‍යාන සිත් ඉපදවීමේ ශක්තිය ඇති වූ කල්හි, ධ්‍යානයට උපකාර වූ අරමුණෙහිම සිත රඳවූ විට ධ්‍යාන සමාපත්ති වීථිය හටගනී: භවඞ්ගචලන, භවඞ්ගුපච්ඡේද, මනෝද්වාරාවජ්ජන, පරිකර්ම, උපචාර, අනුලෝම, ගෝත්‍රභූ යන සිත්වලට පසු තමන් කැමති තාක් කල් ධ්‍යාන සිත් පිළිවෙළින් ඉපිද, අවසානයේ සිත් පරම්පරාව භවඞ්ගයට බසී [C099-P:L69–L76]. අභිධර්ම මාර්ගයට අනුව සමාපජ්ජන වීථියේ ආදිකර්මික වීථියෙන් ඇති වෙනස ධ්‍යාන සිත වාර බොහෝ ගණනක් ඇති වීම පමණක් වන අතර, ක්ෂිප්‍රාභිඥයාට මෙහිදී ද පරිකර්ම සිත නැත [C099-M:L21; C099-M:L31]. ධ්‍යාන සිත් පවතින තාක් අකුසලයන් විෂ්කම්භණ වශයෙන් යටපත් වේ; ලෞකික සැප අතරින් ධ්‍යාන සුවය ඉතා ප්‍රණීත ය [C099-P:L79]. ධ්‍යානය ලැබීමෙන් පසුත් සමාපත්තියෙන් නැගිටීමෙන් පසුත් ධ්‍යානාඞ්ග ප්‍රත්‍යවේක්ෂා කරන වීථි ඇති වේ; ප්‍රථම ධ්‍යානයේ අඞ්ග පසක් ඇති බැවින් විතර්කය, විචාරය, ප්‍රීතිය, සුඛය, ඒකාග්‍රතාව ප්‍රත්‍යවේක්ෂා කරන වීථි පසක් වන අතර, ඒවායේ ඇත්තේ කාමාවචර ජවන් පමණි [C099-M:L37; C099-P4:L30]. වශී පස නම්: ආවජ්ජන වශී (කැමති තැනක කැමති ධ්‍යානාඞ්ගයක් කැමති තාක් ආවර්ජනය කිරීමේ සමත්කම), සමාපජ්ජන වශී (ධ්‍යානයට සීඝ්‍රව සමවැදීම), අධිට්ඨාන වශී (ධ්‍යානය කැමති තාක් තබාගැනීම), වුට්ඨාන වශී (කැමති විට ධ්‍යානයෙන් වහා නැගිටීම), පච්චවෙක්ඛණ වශී (කැමති ධ්‍යානාඞ්ගයක් කැමති කලෙක ප්‍රත්‍යවේක්ෂා කිරීම) යන පසයි [C099-P4:L38–L50]. ද්විතීය ධ්‍යානාදිය ලබනු කැමැත්තා ප්‍රථම ධ්‍යානය මේ වශී පසින් පුරුදු කළ යුතු අතර, ඒ ප්‍රථම ධ්‍යානය මුල් කොටගෙන අෂ්ට සමාපත්ති, පඤ්චාභිඥා, සෝවාන් ආදී මාර්ගඵල සහ නිරෝධ සමාපත්තිය දක්වා උත්තරීමනුෂ්‍ය ධර්ම උපදවා ගත යුතු බව ප්‍රදීපිකාව දක්වයි [C099-P4:L52; C099-P:L41–L49]."
+    },
+    {
+      "heading": "උසස් ධ්‍යාන ලැබෙන අර්පණා වීථි: ඖදාරික අඞ්ග අත්හැරීම",
+      "text": "ප්‍රථම ධ්‍යානය ප්‍රගුණ කළ යෝගාවචරයා එයට පඤ්ච නීවරණ ආසන්න සතුරන් බවත්, එහි විතර්ක විචාර ඖදාරික හා දුර්වල බවත්, විතක්ක විචාර රහිත ද්විතීය ධ්‍යානය ශාන්ත බවත් සලකා ප්‍රථම ධ්‍යානයේ නිකාන්තිය (ඇලීම) දුරු කර, එම නිමිත්තම ‘පඨවි පඨවි’ යයි නැවත නැවත මෙනෙහි කරයි; එවිට එම වීථි රටාවම ඇති වී අවසාන ජවනය රූපාවචර ද්විතීය ධ්‍යානය වේ, ඉතිරි ජවන් ඥාණසම්ප්‍රයුක්ත කාමාවචර කුසල් සිත් ය [C099-P4:L56]. විතක්ක විචාරයන්ගේ ප්‍රහාණය උපචාර ක්ෂණයේ නොව ද්විතීය ධ්‍යාන සිත උපදින ක්ෂණයේම සිදු වේ [C099-P4:L62]. එලෙසම ප්‍රීතිය ඖදාරික ලෙසත් සුඛය හා ඒකාග්‍රතාව ශාන්ත ලෙසත් වැටහී තෘතීය ධ්‍යානය ලැබේ; ප්‍රීතිය අර්පණා ක්ෂණයේම ප්‍රහීණ වේ; එහි ‘උපේක්ෂක ව වසන්නේ’ යයි කී උපේක්ෂාව දශවිධ උපේක්ෂාවන් අතරින් ධ්‍යානොපේක්ෂාව වේ, එනම් අග්‍ර වූ ධ්‍යාන සුඛයෙහි ද පක්ෂපාත බවක් නූපදවන උපේක්ෂාවයි [C099-P4:L66–L74; C099-P4:L109; C099-P4:L113]. ඉන්පසු සුඛය ද ඖදාරික ලෙස දැක චතුර්ථ ධ්‍යානය ලැබේ; එහි සමන්නාගතාඞ්ග උපේක්ෂා හා ඒකාග්‍රතා දෙක වන අතර, උපේක්ෂාවෙන් උපන් පිරිසිදු සිහිය ඇති බැවින් එය ‘උපෙක්ඛාසතිපාරිසුද්ධි’ යයි කියනු ලැබේ [C099-P4:L124–L132]. මේ චතුෂ්ක නයයි; පඤ්චක නයේදී විතර්කය හා විචාරය වෙන් වෙන්ව දුරු කරන බැවින් රූපාවචර ධ්‍යාන පසක් වේ [C099-P4:L134–L136]. සෑම උසස් ධ්‍යානයකම සිත් පිළිවෙළ එලෙසම වන අතර, වෙනස ඒ ඒ වීථියේ ඒ ඒ ධ්‍යාන සිත ඇති වීම පමණක් බව අභිධර්ම මාර්ගය ද කියයි [C099-M:L31]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "අර්පණා",
+      "pali": "appanā",
+      "en": "absorption; 'fixing' the mind onto its object",
+      "note": "Names the 26 sublime and supramundane impulsions; also a synonym of applied thought (vitakka) [C099-P:L25–L29]"
+    },
+    {
+      "term_si": "අර්පණා ජවන වීථිය",
+      "pali": "appanā-javana-vīthi",
+      "en": "absorption cognitive process",
+      "note": "A mind-door process in which absorption impulsions arise"
+    },
+    {
+      "term_si": "පරිකර්ම",
+      "pali": "parikamma",
+      "en": "preparation",
+      "note": "First preliminary impulsion; absent for the quick-witted person"
+    },
+    {
+      "term_si": "උපචාර",
+      "pali": "upacāra",
+      "en": "access / proximity",
+      "note": "Impulsion moving near absorption"
+    },
+    {
+      "term_si": "අනුලෝම",
+      "pali": "anuloma",
+      "en": "conformity",
+      "note": "Impulsion in line with absorption"
+    },
+    {
+      "term_si": "ගෝත්‍රභූ",
+      "pali": "gotrabhū",
+      "en": "change-of-lineage",
+      "note": "Last sense-sphere impulsion; crosses from the sense-sphere 'lineage' to the sublime"
+    },
+    {
+      "term_si": "දන්ධාභිඥ",
+      "pali": "dandhābhiñña",
+      "en": "person of slow (not sharp) understanding",
+      "note": "Spelled දඞ්ධාභිඥ at C099-P4:L30"
+    },
+    {
+      "term_si": "ක්ෂිප්‍රාභිඥ",
+      "pali": "khippābhiñña",
+      "en": "person of quick (sharp) understanding"
+    },
+    {
+      "term_si": "ආදිකර්මික වීථිය",
+      "pali": "ādikammika-vīthi",
+      "en": "beginner's (first-attainment) process",
+      "note": "Absorption consciousness arises only once"
+    },
+    {
+      "term_si": "සමාපජ්ජන / ධ්‍යාන සමාපත්ති වීථිය",
+      "pali": "samāpajjana-vīthi / jhāna-samāpatti",
+      "en": "attainment process",
+      "note": "Absorption consciousness repeats as long as wished"
+    },
+    {
+      "term_si": "ප්‍රත්‍යවේක්ෂා වීථිය",
+      "pali": "paccavekkhaṇa-vīthi",
+      "en": "reviewing process",
+      "note": "One process per absorption factor, sense-sphere impulsions only"
+    },
+    {
+      "term_si": "පඤ්ච වශී",
+      "pali": "pañca vasī",
+      "en": "five masteries",
+      "note": "Adverting, entering, resolving (staying), emerging, reviewing"
+    },
+    {
+      "term_si": "ධ්‍යානාඞ්ග",
+      "pali": "jhānaṅga",
+      "en": "absorption factors",
+      "note": "Applied thought, sustained thought, rapture, happiness, one-pointedness; later equanimity"
+    },
+    {
+      "term_si": "විෂ්කම්භණ",
+      "pali": "vikkhambhana",
+      "en": "suppression",
+      "note": "Unwholesome states are held down only while absorption lasts [C099-P:L79]"
+    },
+    {
+      "term_si": "ධ්‍යානොපේක්ෂා",
+      "pali": "jhānupekkhā",
+      "en": "equanimity of absorption",
+      "note": "Impartiality even toward the highest absorption happiness; one of ten equanimities"
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "A run-up, then a threshold",
+      "text": "The source describes deep, settled attention as something that is not switched on. It has a short approach, and the text names each stage of it: getting ready, coming close, falling into line, and crossing over. Only after the crossing does the settled state arrive. Once the crossing is made, the mind does not slip back into ordinary mode within that approach. The next thing is the deep state itself. The whole approach lasts a moment. The point is not a slow ritual but a fixed order. There is an edge, and a last step before it that commits you."
+    },
+    {
+      "heading": "Neither forcing nor slackening",
+      "text": "The text is frank about failure. The person who grabs at the result the moment it seems close becomes restless and loses it. The person who sees that pushing is a mistake and eases off too far becomes sluggish and loses it too. What works is steady, balanced effort, repeated without giving up and without panic. Anyone who has learned a physical skill where tension spoils the result will recognise this."
+    },
+    {
+      "heading": "The first time, and coming back",
+      "text": "The first breakthrough is a single flash, one moment, and then it is gone. Coming back is different. With practice the same approach leads into a state that lasts as long as the person wishes. The source then treats real skill as being able to turn toward it, enter, stay, leave on time and look back over it, whenever and wherever one chooses. Some people need one step more in the run-up than others. The text does not treat that as a moral failing. It simply records it. And after each entry comes a quiet review: what was present, piece by piece."
+    },
+    {
+      "heading": "Letting go of what felt good",
+      "text": "Each deeper stage comes from looking back at the previous one and seeing that something which felt like a gift, first busy thinking, then excited joy, then even pleasure itself, is slightly rough compared with what lies beyond it. The meditator loosens their attachment to it and goes through the same approach again. Progress here is subtraction. It means finding that the quieter state is the better one, even when the louder one was pleasant."
+    }
+  ],
+  "does_not_transfer": [
+    "It is not the same as a modern 'flow state'. The source describes a trained meditative state with ethical preconditions, a teacher, a suitable place and a set object. A craftsman's or athlete's absorption can only be an echo or analogy, not an instance of it.",
+    "'Anyone can get there with enough effort' distorts the source. Both texts say attainment depends on a birth endowed with wisdom and freedom from certain obstructions, and that people of weak understanding cannot attain it [C099-P:L57; C099-M:L9]. Effort must also be balanced, not maximised.",
+    "It is not a happiness hack. The text calls absorption bliss the most refined worldly pleasure, but says it only holds unwholesome states down while it lasts, and it trains the meditator to see even joy and pleasure as coarse [C099-P:L79; C099-P4:L70; C099-P4:L124].",
+    "The named stages (preparation, access, conformity, change-of-lineage) are single mind-moments in one cognitive process. They are not a four-step self-improvement programme or a timetable of weeks of practice.",
+    "The difference between 'slow' and 'quick' persons is a technical count of preliminary moments, not a ranking of human worth or general intelligence."
+  ],
+  "story_seeds": [
+    {
+      "seed": "An apprentice potter learning to centre clay on the wheel beside a master who does it almost without looking.",
+      "what_camera_could_observe": "Repeated attempts where the clay wobbles because the hands press too hard or give way too soon. The moment it suddenly runs true. The master centring in seconds and then working at length. Later, the apprentice finding it faster than the day before.",
+      "why_it_fits": "It is an honest analogy, not an instance. It shows a run-up that ends at a clear threshold, failure from both forcing and slackening, and the difference between a first flash of success and a state one can enter and hold at will.",
+      "setting_type": "A family pottery workshop in a village with a pottery tradition",
+      "risk": "Turning the craft into a lesson about meditation, or implying the potter is 'meditating'. Let the craft carry itself. Avoid picturesque poverty framing."
+    },
+    {
+      "seed": "A household where lace or mat weaving is done by an older woman and a younger relative learning the pattern.",
+      "what_camera_could_observe": "The slow, halting start of each session, the point where the hands 'catch' the rhythm, interruptions (a visitor, the kettle) and how quickly each of them gets back into it, and the older woman checking the finished section row by row.",
+      "why_it_fits": "It echoes entering, staying, leaving and reviewing, and the different lengths of run-up for different people, without any doctrinal claim.",
+      "setting_type": "A home-based craft household in a coastal or rural area",
+      "risk": "Romanticising unpaid or poorly paid home labour, and exoticising women's work. The economics of the craft must stay visible if it is the reality."
+    },
+    {
+      "seed": "A lay meditator who returns each day to the same seat at a forest hermitage, and the conversations with the teacher that follow.",
+      "what_camera_could_observe": "Only the outside: sweeping and arranging the seat, taking precepts, sitting, rising, and the brief interview afterwards in which the meditator describes, in their own words, what happened and the teacher responds.",
+      "why_it_fits": "The source insists on preconditions (conduct, a teacher, a suitable dwelling, a suitable object) and on reviewing after emerging. These are the observable edges of the process.",
+      "setting_type": "A forest hermitage or meditation centre that permits filming",
+      "risk": "The inner state cannot be filmed, and any claim of attainment cannot be verified and must not be presented as fact. Easily becomes a lecture. Needs clear consent from the meditator and the community, and respect for silence rules."
+    },
+    {
+      "seed": "A child learning to float in a village tank or calm river with an older relative.",
+      "what_camera_could_observe": "Thrashing that makes the child sink, giving up and sinking again, the relative's quiet coaching, the moment the body lies still and is held, and the next day's attempt, when it comes sooner.",
+      "why_it_fits": "It is a physical picture of the source's warning that too much effort brings restlessness and too little brings sinking, and that the threshold arrives when effort is balanced.",
+      "setting_type": "A rural reservoir (tank) or slow river used for daily bathing",
+      "risk": "Child safety and consent. The metaphor could feel forced if the film leans on it. The value must be in the family relationship, not the illustration."
+    },
+    {
+      "seed": "A young traditional drummer rehearsing the lead-in beats before a set piece under a strict teacher.",
+      "what_camera_could_observe": "The teacher stopping him again and again during the opening beats, the point where the lead-in 'hands over' cleanly to the main pattern, and the difference between his first clean run and being able to start it at will during a real ceremony.",
+      "why_it_fits": "The fixed preparatory beats before the main pattern loosely echo the named preliminary moments before absorption. It also shows how mastery means being able to enter on demand.",
+      "setting_type": "A teacher's home or practice space in a region with a living drumming tradition",
+      "risk": "Treating a cultural art as a prop for doctrine. Ritual contexts may have their own rules about filming. The drumming tradition deserves to be filmed on its own terms."
+    }
+  ],
+  "cross_source_notes": [
+    "Classification differs. The Pradeepika gives three kinds of absorption process (absorption, path, attainment) with attainment itself threefold (absorption, fruition, cessation) [C099-P:L35–L39; C099-P:L65]. The Margaya gives five (absorption, path, fruition-attainment, direct-knowledge, cessation-attainment) [C099-M:L5]. The two schemes are kept separate here.",
+    "Counting differs. The Margaya multiplies nine absorptions by beginner/attainment, slow/quick and wholesome/functional to reach 72 absorption processes [C099-M:L7; C099-M:L11]. The Pradeepika instead counts 26 absorption impulsions overall and 10 fine-material absorption consciousnesses (5 wholesome for non-arahants, 5 functional for arahants) [C099-P:L25–L29; C099-P:L55].",
+    "Attainment (re-entry) process. The Pradeepika describes it with all four preliminary impulsions including preparation and does not distinguish slow and quick persons [C099-P:L69–L76]. The Margaya says the quick person lacks the preparation moment in the attainment process too [C099-M:L21].",
+    "Reviewing process. P4 says four or five knowledge-associated wholesome impulsions review the absorption [C099-P4:L30], and also four or five in the adverting-mastery processes [C099-P4:L40]. The Margaya says seven sense-sphere impulsions per reviewing process, dropping to four or five only when a master reviews quickly, e.g. for displaying marvels [C099-M:L37–L39].",
+    "Explanations of the four names overlap but differ in emphasis. For preparation, P4 says it prepares for absorption and the Margaya says it balances the faculties. For conformity, P4 says it conforms to absorption and the Margaya says it removes hindrances such as sensual desire. For change-of-lineage, P4 says it overcomes the limited (sense-sphere) lineage and develops the sublime, and the Margaya says it transcends the sense-sphere so that only absorption can follow [C099-P4:L26–L30; C099-M:L33].",
+    "Preconditions. The Pradeepika gives a detailed list: free of three obstructions, triple-rooted rebirth, good worldling, teacher, four kinds of restraint-virtue, dwelling, meditation subject [C099-P:L57]. The Margaya states only the need for a rebirth linked with knowledge [C099-M:L9].",
+    "Number of absorptions. P4 explains both the fourfold and fivefold reckonings of fine-material absorption [C099-P4:L134–L136]. The Pradeepika (Book 1) uses the fivefold [C099-P:L43; C099-P:L55; C099-P:L69]. The Margaya lists nine absorptions, five fine-material and four immaterial [C099-M:L7].",
+    "Terminology. The Margaya uses ආදිකර්මික / සමාපජ්ජන වීථි. The Pradeepika uses ධ්‍යාන චිත්ත වීථි / ධ්‍යාන සමාපත්ති වීථි for broadly the same pair."
+  ],
+  "uncertainties": [
+    "P4 L117–L120 carry an editorial repair note: pdf marker 99 was a spurious split, and image page 101 was missing and has been transcribed from the scan. The text at L122–L136 (fourth absorption and fivefold method) should be checked against the printed book.",
+    "P4 L62: the sentence saying that the happiness born of first-absorption concentration is also a 'possessed factor' (of the second absorption) because of decisive-support condition is garbled and its meaning is unclear. Expert check needed.",
+    "P4 L56: the sentence '...පඤ්චනීවරණ සඞ්ඛ්‍යාත සතුරෝ ඇත්තාහ.' appears to be missing a verb of reflection (e.g. 'thus considering'). It is read here as part of the meditator's reflection, but that is an inference.",
+    "P4 L66: 'සිත් උල්ප වන්නාක් බැවින්' looks like an OCR or typesetting corruption. The intended word describing rapture's agitation is uncertain.",
+    "P4 L126: the Sinhala gloss places the disappearance of both mental joy and mental displeasure at the access stage of the fourth absorption, while the quoted Pali uses 'pubbeva' ('already before'). Whether the source intends different stages for each needs expert check. It has not been resolved here.",
+    "P4 L24 refers to 'tenfold skill in absorption' (දශවිධ අර්පණා කෞශල්‍යය) and L30 to 'threefold goodness and ten characteristics' of the first absorption. Neither is listed in this extract.",
+    "The diagram abbreviations at P L76 ('න ද ම ප උ නු ගො ඣා ... භ') are not glossed in the extract. Reading න/ද as life-continuum vibration/arrest and ම as mind-door adverting is an inference from the prose at L69.",
+    "P4 L26 names the preliminary impulsions as sense-sphere wholesome. The extract does not say what they are for an arahant, whose absorptions are functional [C099-P:L55; C099-M:L11]. The Margaya says only 'knowledge-associated sense-sphere impulsion' [C099-M:L15].",
+    "Spelling variant: දඞ්ධාභිඥ at P4 L30 versus දන්ධාභිඥ elsewhere. It is treated as the same term.",
+    "Scope overlap: P4 is flagged as deliberately overlapping Concepts 87 and 88 [C099-P4:L13]. Path, fruition, direct knowledge and cessation processes named here (P L47–L49, L65; M L5) are treated in C100–C102."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence."
+}

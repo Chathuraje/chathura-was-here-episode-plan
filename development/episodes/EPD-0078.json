@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0078",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Tools",
+  "logline": "A fisherman's nets, mended and re-mended for thirty years, pass to his son, whose hands are shaped by the same work before he has fully learned it.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0147"
+  ],
+  "concept_ids": [
+    "C061",
+    "C057"
+  ],
+  "chronology": {
+    "group_id": "GRP-08",
+    "position_in_group": 12,
+    "global_position": 78
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-07",
+      "OBJ-08"
+    ],
+    "note": "Object 8 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject. Object 7, from The Body, may also sit near hands shaped by work that is being passed on."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0077",
+    "thread": "Death kept close each morning opens onto what continues after it: a fisherman's nets, mended for decades, passing to his son."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0079",
+    "thread": "If nothing passes across and yet everything continues, something must connect it all: from nets passed hand to hand to a tank gate opening, the first link in a chain that ends in a bowl of rice."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A fishing family who has recently lost the person whose trade and tools are now used by a relative",
+      "Willingness to be filmed at real, ongoing work"
+    ],
+    "suggestions": [
+      {
+        "name": "A fishing village near Negombo",
+        "region": "Western Province",
+        "why": "An established west-coast fishing community; no specific family identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No family confirmed; would need direct outreach and consent.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0147"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

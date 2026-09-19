@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0095",
+  "record_type": "idea",
+  "title": "Setting the Load Down",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "Estate workers carry tea-leaf baskets down a mountain path all morning, and the moment each basket reaches the weighing shed and comes off a back, something visibly changes in the body underneath it.",
+  "human_question": "What does relief actually look like on a body, and how much of goodness might be exactly that?",
+  "premise": {
+    "story": "A day of leaf-plucking and carrying on a hill-country tea estate, from the first climb of the morning to the last basket weighed in.",
+    "place": "Steep tea rows and a mountain path, cool air, a weighing shed at the bottom of the slope.",
+    "experience": "The rhythm of ascent and descent, the accumulating weight, and the exact moment of setting it down."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C023",
+      "role": "primary",
+      "why": "Lightness is pictured as putting down a load carried from far away, and the whole pair of qualities describes real ease in body as well as mind [C023-P:L137]."
+    },
+    {
+      "concept_id": "C019",
+      "role": "supporting",
+      "why": "Only the factors a moment's work actually requires arise with it; effort itself is neither good nor bad, entirely coloured by what it serves [C019-P:L49; C019-P:L61-L63]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Baskets going up the slope empty at dawn",
+    "The climb, the picking, the weight accumulating on backs",
+    "The walk down and the weighing",
+    "Workers' shoulders and breathing before and immediately after the basket comes off"
+  ],
+  "what_must_be_real": "The workers' actual wages, conditions and choices about this work. No staged relief or performed exhaustion.",
+  "possible_arc": {
+    "opening": "Empty baskets climbing the slope at first light.",
+    "turn": "The long carry through heat and fatigue.",
+    "ending_open": "Whatever the workers actually say about the work, the weight, and the relief, if they say anything at all."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An active tea estate willing to allow filming of real pickers over a working day",
+      "Honest access to conditions and pay, not only the picturesque parts of the process",
+      "Workers' full consent to be filmed and interviewed"
+    ],
+    "suggestions": [
+      {
+        "name": "Hatton-Dickoya tea estate region",
+        "region": "Nuwara Eliya district, hill country",
+        "why": "A well-known, long-established tea-growing area with active estates and pluckers.",
+        "season_notes": "",
+        "access_notes": "Estate management permission required.",
+        "verify": "No specific estate or workers have been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Romanticising hard, poorly paid labour",
+    "Aestheticising real economic hardship as a metaphor",
+    "Estate access and permission difficulties"
+  ],
+  "drop_if": [
+    "No estate or workers are willing to be filmed honestly, including about conditions and pay, not only the visual rhythm of the work"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0096",
+      "relation": "pairs with",
+      "note": "Both use a real, physical process as the direct image of a beautiful factor: lightness here, softness there."
+    },
+    {
+      "idea_id": "IDEA-0104",
+      "relation": "mirrors",
+      "note": "Both are physically demanding group or individual labour used to show what goodness's ease and coordination can look like in the body."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

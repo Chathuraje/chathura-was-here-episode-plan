@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0121",
+  "record_type": "idea",
+  "title": "Learning the Body",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "At a village temple school, young novices learn to recite the body's thirty-two parts aloud, forwards and backwards, stumbling over the reverse order until a teacher corrects them.",
+  "human_question": "What does a body look like once you have said all thirty-two of its ordinary parts out loud?",
+  "premise": {
+    "story": "A recitation lesson repeated over days at a rural monastic school, told through the novices' own progress, mistakes and ordinary monastery routine around it.",
+    "place": "A village temple school (pirivena) where new novices learn their early lessons.",
+    "experience": "Small voices chanting a fixed list, faltering on the reverse order, a teacher's correction, and the strange effect of repetition on an ordinary word."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C093",
+      "role": "primary",
+      "why": "This is the practice itself: reciting the body's thirty-two parts aloud and then mentally, forwards and backwards, until each word calls up a picture and the body stops being one smooth whole called 'me'. The Margaya gives this as the first meditation subject taught to new novices."
+    },
+    {
+      "concept_id": "C063",
+      "role": "supporting",
+      "why": "Naming and counting a whole into its qualities, one by one, is the same discipline of attention the source describes for the twenty-eight kinds of matter more generally."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The daily recitation session, forwards and then backwards",
+    "Small voices stumbling over the reverse order",
+    "A teacher correcting a skipped or misplaced part",
+    "Novices glancing at their own hands or skin as they say the words",
+    "Ordinary monastery routine around the lesson: sweeping, meals, washing robes"
+  ],
+  "what_must_be_real": "The novices' actual training, with full guardian and monastery consent. Nothing performed only for the camera, and no claim on screen that the children have grasped or mastered the practice's meaning; they are shown learning, not demonstrating.",
+  "possible_arc": {
+    "opening": "The list begun from memory, faltering early on.",
+    "turn": "The reverse order breaks down and is patiently corrected.",
+    "ending_open": "Whatever the day's lesson actually becomes."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A village pirivena with new novices in early training",
+      "Full consent from guardians, the novices themselves, and the monastery's senior monks",
+      "A genuine, ongoing recitation practice, not one staged for filming"
+    ],
+    "suggestions": [
+      {
+        "name": "A village pirivena in the Central Province",
+        "region": "Kandy or Matale district",
+        "why": "The central hill villages have a strong tradition of small monastic schools.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific pirivena and its willingness to allow filming of minors are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Filming minors requires full guardian and monastery consent at every stage",
+    "Risk of cute-child framing that trivialises the practice",
+    "Must not imply the children understand or have completed what they are still learning by rote"
+  ],
+  "drop_if": [
+    "No monastery or guardians consent",
+    "No genuine ongoing recitation practice available to observe"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0120",
+      "relation": "leads into",
+      "note": "A body assembled week by week in one film; the same body, years later, taught to take itself apart again, part by part, in the next."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

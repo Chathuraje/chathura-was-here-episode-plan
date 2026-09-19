@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0119",
+  "record_type": "idea",
+  "title": "Flour and Water",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "Before dawn, a roadside hopper-maker mixes several flours into one dough, and no one watching afterward could say where any single flour went.",
+  "human_question": "Once several flours are kneaded into one dough, can you still say where any one of them is?",
+  "premise": {
+    "story": "One maker's pre-dawn routine, from mixing to the day's first customers, told through their own recipe, hours and regulars.",
+    "place": "A roadside hopper or roti stall that opens before light.",
+    "experience": "Flours measured into one bowl, water worked in, the batter fermenting overnight, the first hoppers hitting a hot pan, and the smell that draws in the first customers."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C070",
+      "role": "primary",
+      "why": "This is the source's own image for material groups (kalāpa): rice, wheat, kurakkan and barley flour mixed into one ball, where asking 'where is the rice flour?' can only be answered 'inside all the others'. Matter never arises as separable parts, only as bound groups."
+    },
+    {
+      "concept_id": "C063",
+      "role": "supporting",
+      "why": "The dough's hardness, moisture, warmth and smell all change together as it ferments and cooks, another instance of the source's inseparable qualities of matter."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Flours measured out and mixed before dawn",
+    "Water worked in, the dough or batter kneaded and left to rest",
+    "The first hoppers or rotis cooked on a hot pan",
+    "Regular customers arriving, orders called out",
+    "The stall's rhythm settling into the morning rush"
+  ],
+  "what_must_be_real": "The maker's actual recipe, hours and customers. Nothing staged as an illustration of the simile; the stall's real business must lead.",
+  "possible_arc": {
+    "opening": "Dry flours in separate tins before first light.",
+    "turn": "The mix becomes one thing that cannot be taken apart again.",
+    "ending_open": "The morning rush, or a slow day, whichever actually happens."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An active roadside hopper or roti stall with a pre-dawn routine",
+      "A maker willing to have the early hours filmed, not just service time",
+      "Good access for low-light filming before sunrise"
+    ],
+    "suggestions": [
+      {
+        "name": "Roadside eating houses in Negombo or greater Colombo",
+        "region": "Western Province",
+        "why": "This area has many long-running roadside stalls with pre-dawn opening hours.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific stall and its willingness to be filmed are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Using the maker's livelihood only to illustrate a simile",
+    "The maker's own day, income and concerns must carry the film"
+  ],
+  "drop_if": [
+    "No maker willing to have the pre-dawn routine filmed",
+    "No real pre-dawn mixing practice to observe"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0113",
+      "relation": "pairs with",
+      "note": "Both hands mix earth, water, heat and air (or several flours) into something that holds its own shape."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

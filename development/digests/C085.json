@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "id": "DIG-C085",
+  "record_type": "concept_digest",
+  "concept_id": "C085",
+  "group_id": "GRP-10",
+  "title_si": "කර්මස්ථාන සංග්‍ර‍හය",
+  "title_en": "The compendium of meditation subjects",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "sources_read": [
+    {
+      "ref": "C085-P4",
+      "path": "content/02-concepts/Chapter 9/Concept 85 - කර්මස්ථාන සංග්‍ර‍හය/sources/Abhidhammattha Pradeepika Book 4.md",
+      "lines": "1-864, 865-1296",
+      "complete": true,
+      "markers": "Read in 2 parts. Book 4, ch. 9 (කම්මට්ඨාන සංග්‍රහ විභාගය); this part covers pdf 40–50 / printed 21–31 (samatha–vipassanā, 15 kinds of samādhi), pdf 63–64 / printed 44–45 (the forty subjects), pdf 105–111 / printed 86–92 (ten asubha, list of ten anussati), pdf 130–149 / printed 111–130 (dhamma, saṅgha, sīla, cāga, devatā anussati), pdf 240–245 / printed 221–226 (upasamānussati), pdf 309–320 / printed 290–301 (āhāre paṭikkūla saññā, ending at L863). Part 1 of 2; the file continues at L865 (part 2)."
+    },
+    {
+      "ref": "C085-P",
+      "path": "content/02-concepts/Chapter 9/Concept 85 - කර්මස්ථාන සංග්‍ර‍හය/sources/Abhidhammattha Pradeepika.md",
+      "lines": "1-97",
+      "complete": true,
+      "markers": "Read in 2 parts. Book 1, ch. 4 (වීථි සංග්‍රහ විභාගය), pdf 344–349 / printed 334–339; objects of each jhāna level and the appanā vīthi; whole file"
+    },
+    {
+      "ref": "C085-M",
+      "path": "content/02-concepts/Chapter 9/Concept 85 - කර්මස්ථාන සංග්‍ර‍හය/sources/Abhidharma Margaya.md",
+      "lines": "1-82",
+      "complete": true,
+      "markers": "Read in 2 parts. §1 කර්මස්ථාන සංග්‍රහය, lesson 1 and ‘2 වන පාඩම’ (L35); no pdf/printed page markers in the extract; whole file"
+    }
+  ],
+  "summary_en": "The sources open the ninth chapter by saying that learning the analysis of mind and matter is not enough: its real fruit is to use meditation to remove defilements and realise nibbāna. Meditation has two kinds of work: samatha (calm, the one-pointedness that stills the hindrances) and vipassanā (insight, seeing mind and matter as impermanent, suffering and non-self), and only insight brings path and fruition. For calm there are forty meditation subjects in seven groups (ten kasiṇas, ten asubha, ten recollections, four brahmavihāras, four formless objects, one perception of the repulsiveness of food, one analysis of the four elements); each has a ceiling: some reach full absorption, while the recollections of qualities and the food and elements practices reach only access concentration. The sources also describe how concentration develops (three stages of practice, three signs, the cognitive process of absorption, fifteen ways of classifying concentration), and part 1 of Book 4 gives worked instructions for the ten foul objects, the recollections of Dhamma, Saṅgha, virtue, generosity, deities and peace, and the perception of the repulsiveness of food. This part covers the last of the meditation subjects, the defining of the four elements (earth, water, fire, wind, meaning hardness, cohesion, heat and distension/motion), and then the five benefits of concentration practice in general. The body is examined through 42 parts (20 earth, 12 water, 4 fire, 6 wind): briefly by characteristic for sharp minds, in detail for slower ones, then by four graded methods and finally by thirteen modes (word meaning, clusters, reduction to particles, characteristics, origins, and so on). The stated aim is to remove the perception of a 'being'. The text says openly that this practice reaches only access concentration, not absorption, and that it brings fearlessness, even-mindedness, and nibbāna or a good rebirth. The five benefits of concentration are pleasant abiding here and now, support for insight, the higher knowledges, a special rebirth and the attainment of cessation.",
+  "sinhala_explanation": [
+    {
+      "heading": "1/2 · කර්මස්ථාන යනු කුමක්ද: ශමථ හා විදර්ශනා",
+      "text": "අභිධර්ම මාර්ගයට අනුව, පෙර පරිච්ඡේද අටෙහි උගත් ප්‍රත්‍යය සහිත නාම-රූප දැනුමේ උසස් ඵලය නම් ඒ දැනුම පිහිට කරගෙන භාවනාවෙහි යෙදී, අවිද්‍යා-තෘෂ්ණා ප්‍රධාන ක්ලේශ දුරු කොට, ලෝකෝත්තර නිර්වාණ ධාතුව පසක් කිරීමයි. පරමාර්ථ ධර්මයන්ගේ සැබෑ තත්ත්වය පොත උගෙනීමෙන් පමණක් නොදත හැකි බැවින්, භාවනාවෙන් දියුණු කළ සමාධියක් හා ඥානයක් අවශ්‍ය වේ [C085-M:L3]. ප්‍රදීපිකාව ආරම්භ කරන්නේ, සීලයෙන් කාය-වාග් සංවරය ලත් තැනැත්තා චිත්ත දමනය පිණිස භාවනාවෙහි යෙදෙන බව කියමිනි; භාවනාව නම් සිත තැන්පත් කරගැනීමට සුදුසු අරමුණක සිත වැඩීම, නැවත නැවත සිහි කිරීමයි [C085-P4:L33]. යෝගාවචරයා යෝග කර්මයට අරමුණ ලෙස ගන්නා කසිණාදි ප්‍රඥප්ති හා නාම-රූප ධර්ම ‘කර්මස්ථාන’ නම් වේ; වචනයේ අරුත ‘යෝග කර්මයට ස්ථාන වන දෙය’ යන්නයි. මුලින් කරන භාවනාව ද පසු භාවනාවට අත්තිවාරම වන බැවින් කර්මස්ථාන නම් වේ [C085-M:L7]. භාවනාව ශමථ (චිත්ත භාවනා) හා විදර්ශනා (පඤ්ඤා භාවනා) යයි දෙවැදෑරුම් ය [C085-P4:L35; C085-M:L7]. ශමථය නම් කාමච්ඡන්දාදී නීවරණ හා විතර්කාදී ඖදාරික ධ්‍යානාඞ්ග සංසිඳුවා ලබන චිත්තෛකාග්‍රතාවයි; එයට සමාධිය යයි ද කියනු ලැබේ [C085-P4:L37; C085-M:L9]. ශමථයෙන් ලැබිය හැකි උසස් දේ ධ්‍යාන, අභිඥා හා සුගතියෙහි ඉපදීම වන අතර, ඒ සමාධිය විදර්ශනාවට ද උපකාරී ය [C085-M:L9]. විදර්ශනාව නම් පඤ්චස්කන්ධය සත්ත්ව, පුද්ගල, ස්ත්‍රී, පුරුෂ හෝ නිත්‍ය, සුභ, සුඛ, ආත්ම ලෙස නොබලා, නාම-රූප රාශියක් ලෙස අනිත්‍ය, දුක්ඛ, අනාත්ම වශයෙන් දක්නා නුවණයි; නිවන අරමුණු කොට මාර්ගඵලයට පමුණුවන්නේ විදර්ශනා කර්මස්ථානයයි [C085-P4:L41; C085-M:L11]."
+    },
+    {
+      "heading": "1/2 · සමාධියේ ස්වභාවය හා ප්‍රභේද පසළොස",
+      "text": "සිත හා චෛතසිකයන්ගේ සාමාන්‍ය ස්වභාවය නොයෙක් අරමුණුවල විසිරී හැසිරීමයි; ඒවා එක් අරමුණක සමව, වික්ෂිප්ත නොවී පිහිටුවන ධර්මය සමාධියයි. මෙහි සමාධිය ලෙස අදහස් කරන්නේ ඤාණසම්ප්‍රයුක්ත කුසල සිතේ යෙදෙන බලවත් එකාග්‍රතාවයි [C085-P4:L45]. එහි ලක්ෂණය අවික්ෂේපයයි; කෘත්‍යය වික්ෂේපය නැති කිරීමයි; පච්චුපට්ඨානය උද්ධච්චයෙන් කම්පා නොවන බවයි; පදට්ඨානය සුඛයයි [C085-P4:L47–L49]. \n\nපළමු ප්‍රභේදය උපචාර හා අර්පණා සමාධියයි. උද්ග්‍රහ නිමිත්ත නැවත නැවත වැඩීමෙන් නීවරණ විෂ්කම්භනය වී ප්‍රතිභාග නිමිත්ත වැටහුණු විට සිත උපචාර සමාධියෙන් සමාහිත වේ; එහි ධ්‍යානාඞ්ග දුර්වල බැවින් සිත ඇතැම් විට නිමිත්ත ගනී, ඇතැම් විට භවඞ්ගයට බසී [C085-P4:L55–L59]. අර්පණා සමාධිය නම් ගොත්‍රභූවට අනතුරුව ලැබෙන මහද්ගත සිත්හි බලවත් එකග්ගතාවයි; උපචාරයේ සිත සමාහිත වන්නේ නීවරණ විෂ්කම්භනයෙන්, අර්පණාවේ ධ්‍යානාඞ්ගයන්ගේ බලවත්වීමෙනි [C085-P4:L63–L65]. \n\nඉතිරි ප්‍රභේද: ලෞකික/ලෝකෝත්තර [C085-P4:L67–L71]; සප්‍රීතික/නිෂ්ප්‍රීතික, සුඛසහගත/උපේක්ෂාසහගත [C085-P4:L75–L83]; හීන/මධ්‍යම/ප්‍රණීත [C085-P4:L85–L87]; විතක්ක-විචාර අනුව තුන් වර්ගය [C085-P4:L89–L95]; ප්‍රීති/සුඛ/උපේක්ෂා සහගත [C085-P4:L97–L99]; පරිත්ත/මහද්ගත/අප්‍රමාණ [C085-P4:L101–L103]; ප්‍රතිපදා හා අභිඥා අනුව සතර වර්ගය [C085-P4:L105–L167]; පරිත්ත-අප්පමාණ හා අරමුණ අනුව සතර වර්ගය [C085-P4:L171–L187]; චතුෂ්ක නයින් ධ්‍යාන සතර [C085-P4:L189–L201]; හාන/ඨිති/විසේස/නිබ්බේධ භාගිය [C085-P4:L203–L211]; කාමාවචර/රූපාවචර/අරූපාවචර/අපරියාපන්න [C085-P4:L213–L223]; ඡන්ද/විරිය/චිත්ත/වීමංසා [C085-P4:L225–L233]; පඤ්චක නයින් ධ්‍යාන පස [C085-P4:L235–L245]. \n\nප්‍රතිපදා වර්ගීකරණයේදී භාවනා ආරම්භයේ සිට උපචාරය දක්වා කාලය ‘ප්‍රතිපදා’ ද, උපචාරයේ සිට අර්පණාව දක්වා ප්‍රඥාව ‘අභිඥා’ ද වේ [C085-P4:L107–L111]. සප්පාය නොලැබීම, පළිබෝධ නොසිඳ භාවනා කිරීම, තෘෂ්ණාව බලවත්වීම, පෙර සමථ පුරුදු නොකිරීම, තියුණු කෙලෙස් ඇතිවීම ප්‍රතිපදාව දුක් කරයි; ප්‍රතිවිරුද්ධ කරුණු එය පහසු කරයි [C085-P4:L115–L139]. අර්පණා කෞශල්‍යය නොමැතිවීම, අවිද්‍යාව බලවත්වීම, පෙර විදර්ශනා නොකිරීම, මෘදු ඉන්ද්‍රිය ඇතිවීම අභිඥාව මන්ද කරයි; ප්‍රතිවිරුද්ධ කරුණු එය ශීඝ්‍ර කරයි [C085-P4:L141–L159]."
+    },
+    {
+      "heading": "1/2 · ශමථ කර්මස්ථාන සතළිස හා ඒවායේ සීමා",
+      "text": "ශමථ කර්මස්ථාන සතළිසකි: කසිණ දශය, අශුභ දශය, අනුස්මෘති දශය, අප්‍රමාණ්‍ය (බ්‍රහ්මවිහාර) සතර, එක් සංඥාව, එක් ව්‍යවස්ථානය, ආරුප්‍ය සතර [C085-M:L15; C085-P4:L253–L269]. කසිණ දශය: පඨවි, ආපෝ, තේජෝ, වායෝ, නීල, පීත, ලෝහිත, ඕදාත, ආකාස, ආලෝක [C085-M:L19; C085-P4:L255]. අශුභ දශය: උද්ධුමාතක ආදී මළසිරුරු අවස්ථා දහය [C085-M:L39–L41; C085-P4:L257]. අනුස්මෘති දශය: බුද්ධ, ධම්ම, සඞ්ඝ, සීල, චාග, දේවතා, උපසම, මරණ අනුස්සති, කායගතාසති, ආනාපානසති [C085-M:L45–L56; C085-P4:L259; C085-P4:L340–L360]. බ්‍රහ්මවිහාර සතර මෛත්‍රී, කරුණා, මුදිතා, උපේක්ෂාය [C085-M:L58; C085-P4:L261]. එක් සංඥාව ආහාරයේ පිළිකුල් බව අනේකාකාරයෙන් සිහි කිරීමයි; එක් ව්‍යවස්ථානය ශරීරයේ පඨවි-ආපෝ-තේජෝ-වායෝ ධාතු සතර ලක්ෂණාදි වශයෙන් වෙන් කොට බැලීමයි (චතුර්ධාතු ව්‍යවස්ථානය) [C085-M:L60–L62; C085-P4:L267–L269]. ආරුප්‍ය සතර අරූප ධ්‍යාන සතරට අරමුණු වන, කසිණයෙන් උපුටාගත් ආකාශ ප්‍රඥප්තිය ආදී අරමුණු සතරයි [C085-M:L64; C085-P4:L265]. \n\nමාර්ගය කසිණ සාදාගන්නා ආකාරය ප්‍රායෝගිකව විස්තර කරයි: කුඩා කසිණය වියත් සතරඟුලක් පමණ ය; පඨවි කසිණයට තරමක් රතු පස් ගෙන කඩතොලු නැතිව මට්ටමට මණ්ඩලයක් සාදයි; පාත්‍රයක පිරිසිදු ජලය ආපෝ කසිණය වේ; සිදුරක් ඇති තහඩුවකින් පෙනෙන ගින්න තේජෝ කසිණය වේ; පාට කරදාසි, රෙදි, සායම් වර්ණ කසිණ වේ; ටින් එකක සිදුරක් කොට පහනක් දල්වා හෝ විදුලි බලයෙන් හෝ ආලෝක කසිණය සාදාගත හැකි ය [C085-M:L21–L33]. \n\nසෑම අරමුණක්ම සෑම ධ්‍යානයක්ම නොදෙයි. ප්‍රදීපිකා (පළමු කාණ්ඩය) අනුව ප්‍රථම ධ්‍යානයට කසිණ දශය, අශුභ දශය, කේසාදි කාය කොට්ඨාස ප්‍රඥප්තිය, ආශ්වාස-ප්‍රශ්වාස ප්‍රඥප්තිය, මෛත්‍රී-කරුණා-මුදිතාවට අරමුණු වන අනන්ත සත්ත්ව ප්‍රඥප්තිය යන විසිපහ අරමුණු වේ [C085-P:L25]; දෙවන-සතරවන ධ්‍යානවලට අශුභ හා කායගතාසතිය හැර තුදුසක් [C085-P:L27]; පස්වන ධ්‍යානයට කසිණ දශය, ආනාපාන හා උපේක්ෂා බ්‍රහ්මවිහාරය යන දොළොසක් [C085-P:L29]. අරූප ධ්‍යාන සතරට ආකාශ ප්‍රඥප්තිය, ආකාසානඤ්චායතන සිත, එහි නත්ථිභාවය නම් අභාව ප්‍රඥප්තිය, ආකිඤ්චඤ්ඤායතන සිත පිළිවෙළින් අරමුණු වේ [C085-P:L31–L45]. සතර වන කාණ්ඩය අනුව බුද්ධ, ධම්ම, සඞ්ඝ, සීල, චාග, දේවතා, උපසම, මරණ අනුස්සති, ආහාර පටික්කූල සඤ්ඤාව හා චතුධාතු ව්‍යවස්ථානය යන දහයෙන් ලැබෙන්නේ උපචාර සමාධිය පමණි; අර්පණාව නොලැබේ [C085-P4:L61]."
+    },
+    {
+      "heading": "1/2 · භාවනා තුන, නිමිති තුන හා අර්පණා වීථිය",
+      "text": "මාර්ගය අනුව භාවනා තුනකි: කසිණාදි අරමුණක සිත පිහිටුවා නැවත නැවත මෙනෙහි කරමින් ඇසට පෙනෙන්නාක් මෙන් සිතට පෙනෙන තෙක් පුරුදු කිරීම පරිකර්ම භාවනාවයි; නීවරණ යටපත් කළ තැන් පටන් අර්පණාවට ළං වන තුරු උපචාර භාවනාවයි; මහද්ගත-ලෝකෝත්තර භාවයට පැමිණි භාවනාව අර්පණා භාවනාවයි [C085-M:L70–L76]. අරමුණට පිවිසෙන්නාක් මෙන් පවතින බැවින් විතර්කය ‘අර්පණා’ නම් වන අතර, එය ප්‍රධාන කොට සියලු මහද්ගත-ලෝකෝත්තර ධ්‍යාන ධර්මයන්ට ඒ නම ව්‍යවහාර වේ [C085-M:L78]. නිමිති තුනකි: මුලින් පෘථිවි මණ්ඩලාදියෙන් සිතට ගන්නා පරිකර්ම නිමිත්ත; ඇසට පෙනෙන්නාක් මෙන් සිතට පෙනෙන උද්ග්‍රහ නිමිත්ත; නීවරණ වැඩිදුර දුරු වී සකල දෝෂයෙන් තොරව ඉතා පිරිසිදුව වැටහෙන ප්‍රතිභාග නිමිත්ත [C085-M:L82]. \n\nප්‍රදීපිකාව (පළමු කාණ්ඩය) මෙය සිත්වල පිළිවෙළ ලෙස පෙන්වයි. තම චරිතයට යෝග්‍ය අරමුණක් ගෙන භාවනා කරන්නාට ධ්‍යානය ලැබීමට හේතු ඇත්නම් ඔහුගේ භවඞ්ගය ඤාණසම්ප්‍රයුක්ත මහා විපාක සිත් සතරින් එකක් විය යුතු ය. භාවනාව සඵල වූ විට භවඞ්ග චලනය, භවඞ්ගුපච්ඡේදය, මනොද්වාරාවජ්ජනය ඉපිද, ඤාණසම්ප්‍රයුක්ත මහා කුසල් සිතක් පරිකර්ම, උපචාර, අනුලෝම, ගොත්‍රභූ ලෙස සතර වරක් ඉපිද, අනතුරුව ධ්‍යාන (අර්පණා) සිත එක් වරක් ඉපිද, නැවත භවඞ්ගයට බසී [C085-P:L47–L51]. පළමු සිත අර්පණාවට සිත පිළියෙළ කරන බැවින් පරිකර්ම, ඊට සමීප බැවින් උපචාර, අනුකූල බැවින් අනුලෝම, කාම ගොත්‍රය ඉක්මවා අර්පණාවට පමුණුවන බැවින් ගොත්‍රභූ නම් වේ [C085-P:L53–L55]. මාර්ග වීථියේ ගොත්‍රභූව නම් පෘථග්ජන ගොත්‍රය නැවත නොඑන සේ නසයි [C085-P:L57]. තියුණු නුවණැත්තාට (තික්ඛප්‍රාඥ) පරිකර්ම සිත නූපදී; මන්දප්‍රාඥයාට සතරම උපදී [C085-P:L67; C085-P:L85–L95]. ප්‍රථම ධ්‍යානය විතක්ක, විචාර, පීති, සුඛ, එකග්ගතා යන අඞ්ග පසින් නීවරණ පස විෂ්කම්භනය කරයි [C085-P:L65]. \n\nධ්‍යානය ලත් තැනැත්තා එය ආවජ්ජන, සමාපජ්ජන, අධිට්ඨාන, උට්ඨාන, පච්චවෙක්ඛණ යන වසී පසින් පුරුදු කොට, ප්‍රථම ධ්‍යානය කාමයට ආසන්න බවත් නීවරණ නැවත මතුවිය හැකි බවත් දෙස් ලෙස දැක, ඊළඟ ධ්‍යානය උපදවයි; එක් එක් ධ්‍යානයේ අඞ්ග ක්‍රමයෙන් අඩු වේ [C085-P:L69–L81]. එක් එක් ධ්‍යානයට පසු, එක් ධ්‍යානාඞ්ගයකට එක් ප්‍රත්‍යවේක්ෂා ජවන වීථිය බැගින් පහළ වේ [C085-P:L97]."
+    },
+    {
+      "heading": "1/2 · අශුභ කර්මස්ථානය",
+      "text": "අශුභ දහය නම් ඉදිමුණු, නිල්වූ, සැරව ගලන, දෙකඩ වූ, සතුන් කෑ, විසිරුණු, ආයුධයෙන් කොටා විසුරුවා ලූ, ලේ වැකුණු, පණුවන් ගැවසුණු මළසිරුරු හා ඇටසැකිල්ලයි [C085-P4:L275–L277; C085-M:L41]. මෙකල අමුසොහොන්වල මළසිරුරු දක්නට නොලැබෙන බැවින් මේ භාවනාව දුෂ්කර වුවත් වඩන ආකාරය දැනගැනීම ප්‍රයෝජනවත් යයි කතුවරයා සඳහන් කරයි [C085-P4:L279]. \n\nයෝගාවචරයා පූර්වකෘත්‍ය සම්පූර්ණ කොට, ආචාර්යයන්ගෙන් කමටහන ඉගෙන, විසභාග නොවූ (පුරුෂයාට පුරුෂ, ස්ත්‍රියට ස්ත්‍රී) සිරුරක් සොයා, ආචාර්යයන්ට හෝ එහි වසන කෙනෙකුට දන්වා, සිහියෙන් යුතුව හුදකලාව යයි; මඟ ඇති ගල්, රුක්, තුඹස් ආදිය ද සලකුණු කරගනිමින් වර්ණ, ලිඞ්ග, සණ්ඨාන, දිසා, ඕකාස, පරිච්ඡේද, සන්ධි, විවර, නින්න, ථල, සමන්ත යන එකොළොස් ආකාරයෙන් අරමුණ ගනී [C085-P4:L283–L293]. ඉතා ළඟ හෝ දුර නොවන තැන හිඳ ‘උද්ධුමාතක පටික්කූලය’ ආදී වශයෙන් වඩා ඇස් පියාගත් විටද නිමිත්ත වැටහුණු විට උද්ග්‍රහ නිමිත්ත ලැබේ; ඉන් ප්‍රතිභාග නිමිත්තද අර්පණාවද ලැබේ; උත්සාහ කළහොත් විදර්ශනා වඩා අර්හත්වයද ලැබිය හැකි ය [C085-P4:L297; C085-P4:L301–L305]. ප්‍රතිභාග නිමිත්ත ලැබූ විට කාමච්ඡන්දය ප්‍රමුඛ නීවරණ පස ප්‍රහීණ වී ධ්‍යානාඞ්ග පහළ වේ [C085-P4:L299]. \n\nඑක් එක් අශුභය එක් එක් වර්ගයේ රාගයට සප්පාය වේ: උද්ධුමාතකය හැඩයට ඇලුණවුන්ට, විනීලකය සිරුරේ පැහැයට ඇලුණවුන්ට, විපුබ්බකය සුවඳට ඇලුණවුන්ට, අට්ඨිකය දත් පිළිබඳ රාගය ඇත්තවුන්ට ආදී වශයෙනි [C085-P4:L307–L330]. අරමුණ පිළිකුල් බැවින් බලවත් විතර්කයෙන්ම සිත පිහිටුවිය යුතු නිසා අශුභයෙන් ලැබෙන්නේ ප්‍රථම ධ්‍යානය පමණි; එහෙත් ජරාමරණයෙන් මිදීමට උපකාරී වේ යන සිතුවිල්ලෙන් හා නීවරණ විෂ්කම්භනයෙන් ප්‍රීතිය ලැබේ [C085-P4:L332]. අපිරිසුදු බව, දුර්ගන්ධය ආදී අශුභ ලක්ෂණ ජීවමාන සිරුරේද ඇති නමුත් ආගන්තුක අලංකාරයෙන් වැසී ඇත; එබැවින් මළ හෝ ජීවමාන හෝ කොතැනක හෝ අශුභ ලක්ෂණය වැටහෙන තැන මේ භාවනාව වැඩිය හැකි ය [C085-P4:L334]."
+    },
+    {
+      "heading": "1/2 · අනුස්සති භාවනා හා ආහාරයෙහි පටික්කූල සංඥාව",
+      "text": "නැවත නැවත සිහි කිරීම අනුස්සතියයි [C085-P4:L340]. ධම්මානුස්සතියේදී ‘ස්වාක්ඛාතො භගවතා ධම්මො…’ යනුවෙන් පර්යාප්ති ධර්මයේද නවලෝකෝත්තර ධර්මයේද ගුණ මෙනෙහි කරයි; ආදි-මජ්ඣෙ-පරියොසාන කල්‍යාණ බව, සන්දිට්ඨික, අකාලික, එහිපස්සික, ඕපනයික, පච්චත්තං වෙදිතබ්බ බව විස්තර වේ [C085-P4:L366–L488]. සඞ්ඝානුස්සතියේදී සුපටිපන්න ආදී සඟ ගුණ නවය හා පුරිසයුග සතර, පුරිසපුද්ගල අට මෙනෙහි කරයි [C085-P4:L500–L570]. සීලානුස්සතියේදී ගිහියා තම පන්සිල්, දසසිල් හෝ උපෝසථ සීලය, පැවිද්දා පැවිදි සීලය, අඛණ්ඩ, අච්ඡිද්ද, අසබල, අකල්මාෂ, භුජිස්ස, විඤ්ඤූපසත්ථ, අපරාමට්ඨ (තෘෂ්ණාවෙන් හෝ දෘෂ්ටියෙන් නොඇල්ලූ), සමාධිසංවත්තනික වශයෙන් මෙනෙහි කරයි [C085-P4:L584–L606]. චාගානුස්සතිය වඩන්නා ස්වභාවයෙන්ම දීමට නැඹුරු කෙනෙකු විය යුතු ය; භාවනා දිනයේ දන් දී, මසුරුමලින් තොරව, අපේක්ෂා නොකොට (මුත්ත චාග) දුන් තම දානය මෙනෙහි කරයි [C085-P4:L620–L636]. දේවතානුස්සතියේදී දෙවියන් සාක්ෂි කොට, ඔවුන් එහි ඉපදුණු ශ්‍රද්ධා, ශීල, ශ්‍රැත, ත්‍යාග, ප්‍රඥා තමාටද ඇතැයි සිහි කරයි [C085-P4:L644–L650]. උපසමානුස්සතියේදී ‘මදනිම්මදන, පිපාසවිනය, ආලයසමුග්ඝාත, වට්ටුපච්ඡේද, තණ්හක්ඛය, විරාග, නිරෝධ, නිබ්බාන’ ආදී නිර්වාණ ගුණ ද, අසඞ්ඛත, සච්ච, පාර, අජර, ධුව, අමත, සිව, ඛේම, තාණ, ලේණ ආදී ගුණ ද මෙනෙහි කරයි [C085-P4:L665–L744]. \n\nමේ එක් එක් අනුස්සතියේදී සිත රාග-ද්වේෂ-මෝහයෙන් නොමැඩී ඍජු වී, නීවරණ විෂ්කම්භනය වී, ධ්‍යානාඞ්ග පහළ වී උපචාරයට පැමිණේ; එහෙත් ගුණ ගැඹුරු බැවිනුත් නානාවිධ ගුණ සිහි වන බැවිනුත් අර්පණාවට නොපැමිණේ [C085-P4:L490; C085-P4:L572; C085-P4:L612; C085-P4:L638; C085-P4:L652; C085-P4:L746]. බුද්ධ සිට දේවතා දක්වා අනුස්සති සය ආර්යශ්‍රාවකයන්ටම ‘සමාධ’ වේ යයි පාඨය කියයි [C085-P4:L656]; උපසමානුස්සතිය ආර්යශ්‍රාවකයන්ටම සමෘද්ධ වුවද, උපසමය ගරු කරන පෘථග්ජනයන්ද මෙනෙහි කළ යුතු ය [C085-P4:L746]. අනුසස් ලෙස ශාස්තෘ, ධර්මය, සඞ්ඝයා, ශික්ෂාව කෙරෙහි ගෞරවය, ශ්‍රද්ධාදී ගුණ විපුලවීම, ප්‍රීති-ප්‍රමෝද්‍යය, භය හා දුක් ඉවසීම, වරදකට අවස්ථාවක හිරි-ඔතප් පහළවීම, මාර්ගඵල නොලැබුවද සුගතිගාමීවීම දැක්වේ [C085-P4:L496; C085-P4:L576–L580; C085-P4:L616; C085-P4:L640; C085-P4:L654; C085-P4:L750–L760]. \n\nආහාරය කබලීකාර, ඵස්ස, මනෝසඤ්චේතනා, විඤ්ඤාණ යයි සතර වැදෑරුම් වුවද [C085-P4:L770–L795], පිළිකුල් සංඥාවට අරමුණ වන්නේ අසිත, පීත, ඛායිත, සායිත යන ගිලිනා කබලීකාරාහාරය පමණි [C085-P4:L797]. ආචාර්යයන්ගෙන් ඉගෙන, ගමනාගමන, පරියේසන, පරිභෝග, ආසය, නිධාන, අපරිපක්ක, පරිපක්ක, ඵල, නිස්සන්ද, සම්මක්ඛන යන දස ආකාරයෙන් ආහාරයේ පිළිකුල් බව ප්‍රත්‍යවේක්ෂා කරයි; පළමු ආකාර දෙක පිණ්ඩපාතයට ගමට යන භික්ෂුවකගේ ගමන හා සිඟාකෑම ඇසුරෙන් විස්තර වේ [C085-P4:L799–L853]. එයින් නීවරණ පහව කෙලෙස් සංසිඳුණද, ආහාරය පිළිකුල් බැවින් සිත අර්පණාවට නොපැමිණ උපචාරයේ පිහිටයි [C085-P4:L855]. අනුසස් ලෙස සිත රසතෘෂ්ණාවෙන් හැකිළේ; කතරින් එතර වීමට පුත්‍රමාංසය කන්නාක් මෙන්, මද රහිතව දුකින් එතර වීම පිණිසම ආහාර ගනී; පඤ්චකාම රාගය පිරිසිඳ දැනීමට, කායගතාසතිය සම්පූර්ණ වීමට හා අශුභ සංඥාවට උපකාරී වේ [C085-P4:L781; C085-P4:L857–L861]. මේ භාවනාවට ‘ඒක සංඥා’ යයිද කියනු ලැබේ [C085-P4:L863]."
+    },
+    {
+      "heading": "2/2 · චතුධාතු ව්‍යවස්ථානය යනු කුමක්ද",
+      "text": "පඨවි, ආපෝ, තෙජෝ, වායෝ යන සතර මහා භූතයන්, ඒ ඒ ධාතුවේ කර්කශ බව ආදී ස්වකීය ලක්ෂණය අනුව වෙන් කොට සන්නිටුහන් කිරීම චතුධාතු ව්‍යවස්ථානය නම් වේ. පූර්වභාගයේදී ධාතු සතර වෙන් වෙන්ව මෙනෙහි කළත්, උපචාර අවස්ථාවේදී එකම ධාතු මනසිකාරයක් පවතින බැවින් මෙයට 'ඒක ව්‍යවස්ථාන' යන නමද ඇත. ධාතු මනසිකාරය, ධාතු කර්මස්ථානය, චතුධාතු ව්‍යවස්ථානය යන නම් තුන අර්ථයෙන් එකකි. බුදුරජාණන් වහන්සේ මෙය මහාසතිපට්ඨාන සූත්‍රයේ සංක්ෂේපයෙන්ද, මහාහත්ථිපදෝපම, මහාරාහුලෝවාද, ධාතුවිභඞ්ග සූත්‍රවල හා අභිධර්මයේ ධාතුවිභඞ්ගයේ විස්තරයෙන්ද දේශනා කළ සේක [C085-P4:L865–L867]. මහාසතිපට්ඨාන සූත්‍රයේ උපමාව මෙසේය: දක්ෂ ගොඝාතකයෙක් ගවදෙන මරා, සතර මංසන්ධියේ කොටස් කොටස් කොට බෙදා හිඳින විට ඔහුට 'ගවදෙන' යන සංඥාව අතුරුදහන් වී 'මස්' යන සංඥාව පමණක් ඉතිරි වේ. ගවදෙන පෝෂණය කරන විට, මරණ තැනට ගෙන යන විට, මරන විට හෝ මැරූ සතා බලන විට පවා එම සංඥාව නැති නොවේ [C085-P4:L871–L873]. එලෙසම, සිටි පරිදි පිහිටි පරිදි පවතින මේ කය ඝන විනිර්භෝගය කොට (ඝන ගතිය වෙන් කොට) ධාතු වශයෙන් ප්‍රත්‍යවේක්ෂා නොකරන තාක් 'සත්ත්වයා, පුද්ගලයා, පුරුෂයා' යන සංඥාව දුරු නොවේ. ධාතු වශයෙන් ප්‍රත්‍යවේක්ෂා කළ කල්හි එය දුරු වේ [C085-P4:L875–L879]."
+    },
+    {
+      "heading": "2/2 · දෙසාළිස් කොටස, නුවණ අනුව ක්‍රමය, සංක්ෂේප භාවනාව",
+      "text": "මහාහත්ථිපදෝපම සූත්‍රය අනුව අධ්‍යාත්මික පඨවි ධාතුව නම් කෙස්, ලොම්, නිය, දත්, සම, මස් ආදී ශරීරයට අයත් තද, රළු කොටස්ය. ආපෝ ධාතුව නම් පිත, සෙම, සැරව, ලේ, ඩහදිය, මේද තෙල, කඳුළ, වුරුණු තෙල, කෙළ, සොටු, සඳමිදුළු, මූත්‍ර යන බැඳෙන, තෙත් ස්වභාවය ඇති කොටස්ය [C085-P4:L881–L885]. තෙජෝ ධාතුව ශරීරය තවන, දිරවන (රැලි වැටීම, කෙස් පැසීම ආදියට පමුණුවන), උණ ආදියෙන් දවන හා කෑ බී දේ පසවා සප්ත ධාතු බවට වෙන් කරන තේජස ලෙස විස්තර කෙරේ [C085-P4:L887–L891]. වායෝ ධාතුව උඩට නගින, යටට බසින, බඩවැල් අතර පවතින, අඟපසඟ අනුව පැතිරී හැකිළීම් දිගහැරීම් උපදවන වාත, ආශ්වාස හා ප්‍රශ්වාස ආදී ලෙස දැක්වේ [C085-P4:L893–L897]. මෙසේ පඨවි විස්සක්, ආපෝ දොළහක්, තෙජෝ හතරක් හා වායෝ හයක් වශයෙන්, ආකාර දෙසාළිසකින් ධාතු සතර විස්තර වේ [C085-P4:L899–L901]. තියුණු නුවණැත්තාට කොටසින් කොටස විස්තර කිරීම ප්‍රපඤ්චයක් (ප්‍රමාදයක්) ලෙස වැටහේ. එබැවින් ඔහු තද ලක්ෂණය පඨවි ලෙසද, බැඳ තබන ලක්ෂණය ආපෝ ලෙසද, පැසවන ලක්ෂණය තෙජෝ ලෙසද, විත්ථම්භන (පිරවීම) ලක්ෂණය වායෝ ලෙසද සංක්ෂේපයෙන් මෙනෙහි කළ යුතුය. මද නුවණැත්තාට මෙම සංක්ෂේප ක්‍රමය අඳුරු වන බැවින් ඔහු විස්තර ක්‍රමය අනුගමනය කළ යුතුය [C085-P4:L903–L907]. සංක්ෂේප ක්‍රමයේදී යෝගාවචරයා සිල් පිරිසිදු කරගෙන සුදුසු සෙනසුනකට ගොස්, තම රූපකය අරමුණු කොට, ධාතු සතර නිස්සත්ව නිර්ජීව වශයෙන් බොහෝ කලක් නැවත නැවත ආවර්ජනා කළ යුතුය. පෙර කී මනසිකාර කෞශල්‍ය දහය (අනුපුබ්බ, නාතිසීඝ, නාතිසණික ආදී) ද සැපයිය යුතුය. එවිට විතර්කාදී ධ්‍යානාඞ්ග පහළ වී නීවරණ විෂ්කම්භනය වේ. එහෙත් මෙහිදී පැමිණෙන්නේ උපචාර ධ්‍යානයට පමණි, අර්පණාවට නොවේ [C085-P4:L909–L913]. සැරියුත් මහතෙරුන්ගේ උපමාව අනුව, ඇට, නහර, මස් හා සම නිසා වට වූ අවකාශය 'රූපය' ලෙස, 'ශරීරය' ලෙස ව්‍යවහාර කෙරෙන්නේ කණු, වැල්, ලෙප කළ මැටි හා සෙවිලි තණ නිසා වට වූ අවකාශය 'ගෙය' ලෙස ව්‍යවහාර කෙරෙන්නාක් මෙනි. මෙහි කිසි ජීවයෙක් හෝ සත්ත්වයෙක් නැත. මෙසේ නිස්සත්ව නිර්ජීව වශයෙන් නැවත නැවත මෙනෙහි කරන්නාට ස්වභාව ධර්ම අරමුණු නිසා අර්පණාවට නොපැමිණෙන උපචාර සමාධිය පමණක් උපදී [C085-P4:L915–L920]."
+    },
+    {
+      "heading": "2/2 · විස්තර ක්‍රම සතර",
+      "text": "විස්තර වශයෙන් වඩන්නා ආචාර්යවරයෙකු සමීපයේ ආකාර දෙසාළිස ඉගෙනගෙන, (1) සසම්භාර සංක්ෂේප, (2) සසම්භාර විභත්ති, (3) සලක්ඛණ සංක්ෂේප, (4) සලක්ඛණ විභත්ති යන ආකාර සතරෙන් කමටහන වැඩිය යුතුය [C085-P4:L922–L929]. සසම්භාර සංක්ෂේපයේදී කෙස් ආදී කොටස් විස්ස පඨවි ලෙසද, පිත ආදී දොළහ ආපෝ ලෙසද, තවන ගින්න ආදී හතර තෙජෝ ලෙසද, උඩට නගින වාතය ආදී හය වායෝ ලෙසද කොටස් සමූහ වශයෙන් ව්‍යවස්ථා කෙරේ [C085-P4:L931–L935]. එයින් කමටහන සිද්ධ නොවේ නම් සසම්භාර විභත්ති ක්‍රමයට යා යුතුය. එහිදී කායගතාසති භාවනාවේ කී සත් වැදෑරුම් උද්ග්‍රහ කෞශල්‍යය හා දස වැදෑරුම් මනසිකාර කෞශල්‍යය සපුරා, වර්ණ, සණ්ඨාන, දිසා, ඔකාස, පරිච්ඡේද වශයෙන් කොටසින් කොටස මෙනෙහි කොට, ඉන්පසු ඒවා ධාතු වශයෙන් වෙන් කළ යුතුය [C085-P4:L937–L942]. එයද සාර්ථක නොවේ නම් සලක්ඛණ සංක්ෂේපයේදී සෑම කොටස් සමූහයකම තද ගතිය, බැඳෙන ගතිය, පැසවන ගතිය හා පිපෙන ගතිය වෙන් වෙන්ව දැකිය යුතුය [C085-P4:L944–L956]. එයද සාර්ථක නොවේ නම් ස්වලක්ෂණ විභත්තියේදී කොටස් දෙසාළිසෙන් එකිනෙක ගෙන, එක් එක් කොටසෙහි ධාතු සතර වෙන් කළ යුතු අතර, එවිට ධාතු 168ක් (42 × 4) ව්‍යවස්ථා කළා වේ [C085-P4:L958–L958]. සෑම ක්‍රමයකින්ම ධාතු ප්‍රකට වී, ඒවා නැවත නැවත ආවර්ජනා කිරීමෙන් උපචාර සමාධිය උපදී [C085-P4:L935–L935] [C085-P4:L942–L942] [C085-P4:L956–L958]."
+    },
+    {
+      "heading": "2/2 · ආකාර දහතුන (1–5): වචනාර්ථය, කලාපය, චූර්ණය, ලක්ෂණය, සමුට්ඨානය",
+      "text": "මීට අමතරව කමටහන ආකාර දහතුනකින් වැඩිය යුතුය: වචනාර්ථ, කලාප, චූර්ණ, ලක්ෂණාදි, සමුට්ඨාන, නානත්ත-එකත්ත, විනිර්භෝග-අවිනිර්භෝග, සභාග-විසභාග, අජ්ඣත්තික-බාහිර, සංග්‍රහ, ප්‍රත්‍යය, අසමන්නාහාර හා ප්‍රත්‍යය විභාග. ඒවා මේ අනුපිළිවෙළින් පෙළගැසෙන්නේ ඇයිද යන්නද ග්‍රන්ථය පැහැදිලි කරයි [C085-P4:L960–L989]. වචනාර්ථ වශයෙන්: පැතිරී ඇති බැවින් හෝ පිහිටීම් වශයෙන් වැටහෙන බැවින් පඨවි නම් වේ. අනෙක් තුන බැඳ විසිරී යා නොදී පැතිරෙන බැවින් ආප නම් වේ. තියුණු බැවින් අනෙක් තුන උණුසුම් කරන බැවින් තෙජෝ නම් වේ. සොලවන, තැනින් තැනට ගෙනයන බැවින් වායු නම් වේ. ස්වලක්ෂණය දරන බැවින්, දුක ගෙන දෙන බැවින්, වසඟයේ නොපවතින බැවින් හා නිස්සත්ත නිර්ජීව බැවින් මේවා 'ධාතු' නම් වේ [C085-P4:L991–L991]. කලාප වශයෙන්: 'කෙස්' යනු පඨවි, ආප, තෙජස, වායු, වර්ණ, ගන්ධ, රස, ඕජා යන අෂ්ට ධර්මයන්ගේ එක්වීමට දෙන සම්මුතියක් පමණි. ඒවා වෙන් කළ කල්හි 'කෙස්' යන සම්මුතිය නැත. කර්මජ කොටස්වල ජීවිතින්ද්‍රිය හා භාවරූපය එක් වී දසකයක්ද, පැසවන තෙජෝ කොටසේ ජීවිතින්ද්‍රිය සමග නවකයක්ද වේ. ධාතු මනසිකාර කර්මස්ථානය දේශනා කළේ සත්ත්ව සංඥාව දුරු කිරීමටය [C085-P4:L995–L995]. සමුට්ඨාන වශයෙන්: නොපැසුණු අහර, මළ, සැරව, මුත්‍ර සෘතුවෙන් පමණක්ද, අහර පැසවන තේජස කර්මයෙන් පමණක්ද, ආශ්වාස-ප්‍රශ්වාස චිත්තයෙන් පමණක්ද හටගනී. ඩහදිය, කඳුළ, කෙළ, සොටු සෘතුවෙන් හා චිත්තයෙන් හටගනී. සෙසු කොටස් දෙතිස කර්ම, චිත්ත, සෘතු, ආහාර යන සතරින්ම හටගනී [C085-P4:L997–L1001] [C085-P4:L1109–L1113] [C085-P4:L1009–L1063]. මේ අනුව ඒකඝන වශයෙන් ගත් කලාප 173ක් හා රූප 1501ක් ගණන් කෙරෙන අතර, අවයව විභාග වශයෙන් රූප අසංඛ්‍ය වේ. එහෙත් වැඩි වශයෙන් ඇති ධාතුව අනුව (උස්සද ග්‍රහණයෙන්) කොටස් දෙසාළිසම ධාතු සතර ලෙසම ව්‍යවස්ථා කළ යුතුය [C085-P4:L1005–L1005] [C085-P4:L1069–L1081]. චූර්ණ වශයෙන්: මධ්‍යම ප්‍රමාණ ශරීරයක පඨවි ධාතුව පරමාණු බවට සුණු කළ විට ද්‍රෝණයක් (නැළි 16ක්) පමණ වේ. එයින් අඩක් පමණ වූ ආපෝ ධාතුවෙන් එය බැඳී, තෙජසින් රැකී, වාතයෙන් පිරී, තෙමූ මුහුකුරවූ හමවූ පිටි පිඩක් මෙන් ඝන වී ස්ත්‍රී පුරුෂ ආදී භාවයටද කුඩා, මහත්, දිග ආදී ස්වභාවයටද පැමිණේ [C085-P4:L1085–L1085]. බාල ජනයා රවටන මායා රූපයක් බඳු මේ ධාතුමය සිරුර, ක්‍රියා කරවන ආත්මයක් නැතිව, සූත්‍ර බලයෙන් පවතින යන්ත්‍ර රූපයක් මෙන් චිත්ත බලයෙන් පවතී [C085-P4:L1091–L1099]. ලක්ෂණාදි වශයෙන්: පඨවිය තද බව ලක්ෂණය, සහජාත ධර්මයන්ට පිහිට වීම කෘත්‍යය, පිළිගැනීම වැටහීම කොට ඇත. ආපෝව වෑහීම ලක්ෂණය, වැඩීම කෘත්‍යය, පිඬු කිරීම වැටහීම කොට ඇත. තෙජෝව උණුසුම ලක්ෂණය, මිහි කිරීම (පැසවීම) කෘත්‍යය, මෘදු බව දීම වැටහීම කොට ඇත. වායෝව විත්ථම්භනය ලක්ෂණය, චලනය කෘත්‍යය, එක් තැනක සිට අන් තැනකට ගෙනයාම වැටහීම කොට ඇත [C085-P4:L1101–L1107]."
+    },
+    {
+      "heading": "2/2 · ආකාර දහතුන (6–13): එකත්වය, වෙන් කළ නොහැකි බව, එකිනෙකාට ප්‍රත්‍යය වීම",
+      "text": "නානත්ත-එකත්ත වශයෙන්: ලක්ෂණ, රස, පච්චුපට්ඨාන හා කර්ම සමුට්ඨාන ආදිය අනුව ධාතු එකිනෙකට වෙනස්ය. එහෙත් රූප, මහාභූත, ධාතු, ධර්ම, අනිත්‍ය, දුඃඛ, අනාත්ම වශයෙන් ඒවා සමානය [C085-P4:L1115–L1117]. ඒවා 'මහාභූත' නම් වන්නේ හේතු හයක් නිසාය: මහත් ලෙස පහළ වීම, මායාකාරයාට හා යක්ෂාදී භූතයන්ට සමාන වීම (තමාගේ නොවන වර්ණ පෙන්වා, තම කර්කශ ස්වභාවය සඟවා, බාල ජනයා වසඟ කිරීම), මහත් ප්‍රත්‍යයෙන් පෝෂණය කළ යුතු වීම, මහත් විකාර ඇති වීම (කල්ප විනාශය හා කාෂ්ඨමුඛ ආදී සර්පයන් සතරදෙනාගේ උපමාවෙන් දැක්වෙන ධාතු කෝපය), මහත් වෑයමින් පරිග්‍රහ කළ යුතු වීම හා විද්‍යමාන වීම [C085-P4:L1119–L1166]. රූප ධර්ම සිත් සතළොසක ආයුෂ පමණක් පවතින බැවින් අනිත්‍යය. උදය-ව්‍යයෙන් පෙළෙන බැවින් දුඃඛය. ආත්ම සාරයෙන් ශූන්‍ය බැවින් අනාත්මය [C085-P4:L1169–L1181]. විනිර්භෝග-අවිනිර්භෝග වශයෙන්: ධාතු සතර එක්ව ඉපිද එක්ව පවතින බැවින් කිසිදු කලාපයක ඒවා වෙන් කළ නොහැක. එහෙත් ලක්ෂණ අනුව ඒවා වෙනස්ය [C085-P4:L1183–L1183]. සභාග-විසභාග වශයෙන්: පඨවි හා ආපෝ බර බැවින් එකිනෙකට සභාගය. තෙජෝ හා වායෝ සැහැල්ලු බැවින් සභාගය. මේ යුගල දෙක එකිනෙකට විසභාගය [C085-P4:L1185–L1189]. අජ්ඣත්තික-බාහිර වශයෙන්: ඇතුළත ධාතු විඥාන වස්තු, විඥප්ති හා ඉන්ද්‍රියයන්ට නිශ්‍රය වේ. බාහිර ධාතු එසේ නොවේ. ඒවා ඉරියව් නූපදවන අතර චතුසමුට්ඨාන ද නොවේ [C085-P4:L1191–L1191]. සංග්‍රහ වශයෙන්: එකම සමුට්ඨානයෙන් හටගත් ධාතු එක් සංග්‍රහයකට අයත් වේ [C085-P4:L1193–L1193]. ප්‍රත්‍යය වශයෙන්: පඨවිය පිහිට වීමෙන්, ආපෝව බැඳීමෙන්, තෙජෝව පැසවීමෙන්, වායෝව විත්ථම්භනයෙන් අනෙක් තුනට උපකාර වේ [C085-P4:L1195–L1205]. අසමන්නාහාර වශයෙන්: පඨවිය 'මම පඨවියි, අනෙක් තුනට පිහිටයි' කියා නොදනී. අනෙක් තුනද 'පඨවිය අපට පිහිටයි' කියා නොදනී [C085-P4:L1207–L1207]. ප්‍රත්‍යය විභාග වශයෙන්: කර්ම, චිත්ත, සෘතු, ආහාර යන ප්‍රත්‍යය සතර තම තමන්ගේ සමුට්ඨානයෙන් හටගත් ධාතුවලට පමණක් ජනක ප්‍රත්‍යය වේ. අන්‍ය ධාතුවලට උපනිශ්‍රය, පච්ඡාජාත, අත්ථි, අවිගත ආදී ශක්තිවලින් උපකාර වේ [C085-P4:L1209–L1233]. එක් ධාතුවක් නිසා තුනක් ආකාර සතරකින්ද, තුනක් නිසා එකක් ආකාර සතරකින්ද, දෙකක් නිසා දෙකක් ආකාර හයකින්ද පවතී [C085-P4:L1235–L1253]. ඇවිදීමේදී පාදය බිම තැබීම, පහත හෙළීම, ඔසවීම හා ඉදිරියට සහ හරහට ගෙනයාම ධාතු යුගලවල උපකාරයෙන් සිදු වේ [C085-P4:L1255–L1257]."
+    },
+    {
+      "heading": "2/2 · ඵලය සහ සමාධි භාවනාවේ ආනිසංස පහ",
+      "text": "ආකාර දහතුනෙන් මෙනෙහි කරන්නාට ධාතු ප්‍රකට වී උපචාර සමාධිය උපදී. ධාතු සතර ව්‍යවස්ථා කරන ඥානය නිසා උපදින ඒ උපචාර සමාධියම 'චතුධාතු ව්‍යවස්ථාන' නමින් හැඳින්වේ [C085-P4:L1259–L1263]. මෙහි යෙදුණු යෝගාවචරයා සත්ත්ව ශූන්‍යතාව දැක සත්ත්ව සංඥාව නසයි. එබැවින් අරණ්‍ය සෙනසුන්හිදී වන සතුන්, යක්ෂයන්, රාක්ෂසයන් යැයි භේද නොකර ධාතු මාත්‍රයක් ලෙස දකිමින් භය භෙරව ඉවසයි. හුදෙකලා සෙනසුන්හි නොඇල්මද පස්කම් ගුණයේ ඇල්මද මැඩ පවත්වයි. ඉෂ්ට අරමුණේ ඉපිලීමට හෝ අනිෂ්ට අරමුණේ බැගෑ බවට හෝ නොපැමිණේ. මහා ප්‍රඥාව ඇත්තෙක් වී, නිර්වාණය කෙළවර කොට හෝ සුගතිය පිහිට කොට හෝ ඇත්තෙක් වේ [C085-P4:L1265–L1265]. ඉන්පසු ග්‍රන්ථය සමාධි භාවනාවේ ආනිසංස පහක් දක්වයි. (1) දිට්ඨධම්ම සුඛවිහාරය: රහතන් වහන්සේලා අර්පණා සමාධියට සමවැදී මෙලොවම සැපසේ වාසය කරති. සල්ලේඛ සූත්‍රයේ චුන්දට වදාළ පරිදි, ශාසනයේ මේ ධ්‍යාන 'කෙලෙස් ලියන ප්‍රතිපදා' ලෙස නොව 'මෙලොව සැප විහරණ' ලෙස හැඳින්වේ [C085-P4:L1267–L1272]. (2) විපස්සනා ආනිසංසය: සෝවාන්, සකෘදාගාමී, අනාගාමී ආර්යයන්ගේ හා පෘථග්ජනයන්ගේ අර්පණා සමාධිය විදර්ශනාවට ආධාර වේ. අර්පණාවට අවකාශ නොලබන සංවේග බහුල පුද්ගලයා උපචාර සමාධියෙහිම සිට විදර්ශනා කරන බැවින්, ඔහුගේ උපචාර සමාධියද විදර්ශනාවට ආසන්න කාරණයක් වේ [C085-P4:L1274–L1281]. (3) අභිඥා ආනිසංසය: අෂ්ට සමාපත්ති උපදවා, පාදක ධ්‍යානයෙන් නැඟිට, පූර්ව හේතු ඇති කල්හි සෘද්ධිවිධ ආදී අභිඥා උපදවා ගත හැක [C085-P4:L1282–L1287]. (4) භව විශේෂ ආනිසංසය: ධ්‍යානයෙන් නොපිරිහුණු පෘථග්ජනයන්ට එය බඹලොව උපතක් ගෙන දේ. උපචාර සමාධිය කාමාවචර සුගතිය ගෙන දේ [C085-P4:L1290–L1290]. (5) නිරෝධ ආනිසංසය: අෂ්ට සමාපත්ති ලැබූ අනාගාමී හා රහතන් වහන්සේලා සත් දවසක් පමණ නාම ස්කන්ධ නිරුද්ධ කොට නිර්වාණ සැපයෙන් වාසය කරති. ඥාන වශීභාව සොළොසක් හා සමාධි වශීභාව නවයක් ඇති ප්‍රඥාව නිරෝධ සමාපත්තියේ නුවණ ලෙස කියැවේ [C085-P4:L1292–L1292]. මෙසේ ආනිසංස පහක් ඇති බැවින් නුවණැති යෝගාවචරයා භාවනාවෙහි ප්‍රමාද නොවිය යුතු බව කියමින් කොටස අවසන් වේ [C085-P4:L1296–L1296]."
+    }
+  ],
+  "key_terms": [
+    {
+      "term_si": "කර්මස්ථාන / කම්මට්ඨාන",
+      "pali": "kammaṭṭhāna",
+      "en": "meditation subject; literally ‘ground (place) for the work of practice’",
+      "note": "Also used for an earlier practice that is the foundation of a later one [C085-M:L7]."
+    },
+    {
+      "term_si": "ශමථ භාවනා",
+      "pali": "samatha-bhāvanā",
+      "en": "calm meditation; development of one-pointedness",
+      "note": "Also called citta-bhāvanā [C085-P4:L35]."
+    },
+    {
+      "term_si": "විදර්ශනා භාවනා",
+      "pali": "vipassanā-bhāvanā",
+      "en": "insight meditation; seeing mind and matter as impermanent, suffering, non-self",
+      "note": "Also called paññā-bhāvanā [C085-P4:L35]."
+    },
+    {
+      "term_si": "සමාධිය",
+      "pali": "samādhi",
+      "en": "concentration; the factor that keeps mind on one object without scattering"
+    },
+    {
+      "term_si": "උපචාර සමාධිය",
+      "pali": "upacāra-samādhi",
+      "en": "access (neighbourhood) concentration",
+      "note": "P4 uses it for a sustained stage where the counterpart sign appears; P (Book 1) uses ‘upacāra’ for one javana moment before absorption."
+    },
+    {
+      "term_si": "අර්පණා සමාධිය",
+      "pali": "appanā-samādhi",
+      "en": "absorption concentration (jhāna)"
+    },
+    {
+      "term_si": "පරිකර්ම / උද්ග්‍රහ / ප්‍රතිභාග නිමිත්ත",
+      "pali": "parikamma / uggaha / paṭibhāga-nimitta",
+      "en": "preparatory sign / learning (grasped) sign / counterpart sign"
+    },
+    {
+      "term_si": "ගොත්‍රභූ",
+      "pali": "gotrabhū",
+      "en": "change-of-lineage moment",
+      "note": "Before jhāna it crosses the sense-sphere ‘lineage’ temporarily; in the path process it crosses the worldling lineage permanently [C085-P:L55–L57]."
+    },
+    {
+      "term_si": "නීවරණ",
+      "pali": "nīvaraṇa",
+      "en": "hindrances: sensual desire, ill will, sloth-torpor, restlessness-worry, doubt"
+    },
+    {
+      "term_si": "කසිණ",
+      "pali": "kasiṇa",
+      "en": "totality device; a disc or field of earth, water, fire, air, colour, space or light used as a meditation object"
+    },
+    {
+      "term_si": "අශුභ",
+      "pali": "asubha",
+      "en": "foulness; the ten stages of a decaying corpse used as objects"
+    },
+    {
+      "term_si": "අනුස්සති",
+      "pali": "anussati",
+      "en": "recollection; repeated calling to mind"
+    },
+    {
+      "term_si": "ආහාරේ පටික්කූල සඤ්ඤා",
+      "pali": "āhāre paṭikkūla-saññā",
+      "en": "perception of the repulsiveness of (edible) food",
+      "note": "Called ‘the one perception’ (eka saññā) [C085-P4:L863]."
+    },
+    {
+      "term_si": "චතුධාතු ව්‍යවස්ථානය",
+      "pali": "catudhātu-vavatthāna",
+      "en": "analysis (defining) of the four elements in the body"
+    },
+    {
+      "term_si": "වසී",
+      "pali": "vasī",
+      "en": "mastery; the five masteries of adverting, entering, resolving (sustaining), emerging and reviewing a jhāna"
+    },
+    {
+      "term_si": "පඨවි ධාතුව",
+      "pali": "pathavīdhātu",
+      "en": "earth element: hardness, support",
+      "note": "20 body parts (L883, L901)."
+    },
+    {
+      "term_si": "ආපෝ ධාතුව",
+      "pali": "āpodhātu",
+      "en": "water element: cohesion, flowing",
+      "note": "12 body parts (L885, L901)."
+    },
+    {
+      "term_si": "තෙජෝ ධාතුව",
+      "pali": "tejodhātu",
+      "en": "fire element: heat, ripening",
+      "note": "4 kinds: warming, ageing, burning, digesting (L891, L1053–L1056)."
+    },
+    {
+      "term_si": "වායෝ ධාතුව",
+      "pali": "vāyodhātu",
+      "en": "wind element: distension, motion",
+      "note": "6 kinds in the count at L901 and the table at L1058–L1063."
+    },
+    {
+      "term_si": "සසම්භාර / සලක්ඛණ",
+      "pali": "sasambhāra / salakkhaṇa",
+      "en": "by the composite parts / by characteristic",
+      "note": "Combined with saṅkhepa (brief) and vibhatti (analysed) to make the four detailed methods (L924–L927)."
+    },
+    {
+      "term_si": "අර්පණාව",
+      "pali": "appanā",
+      "en": "absorption / full concentration"
+    },
+    {
+      "term_si": "සත්ත්ව සංඥාව",
+      "pali": "sattasaññā",
+      "en": "the perception of 'a being'",
+      "note": "Removing it is the stated purpose (L879, L995, L1265)."
+    },
+    {
+      "term_si": "කලාපය",
+      "pali": "kalāpa",
+      "en": "material cluster (octad, nonad, decad)",
+      "note": "173 clusters and 1501 material phenomena counted (L1005, L1081)."
+    },
+    {
+      "term_si": "සමුට්ඨානය",
+      "pali": "samuṭṭhāna",
+      "en": "origin: kamma, mind, temperature, nutriment"
+    },
+    {
+      "term_si": "අවිනිර්භෝග",
+      "pali": "avinibbhoga",
+      "en": "inseparable (the four always arise together)"
+    },
+    {
+      "term_si": "අසමන්නාහාර",
+      "pali": "asamannāhāra",
+      "en": "non-awareness: the elements do not know they support one another"
+    },
+    {
+      "term_si": "පරමාණුව / ද්‍රෝණය",
+      "pali": "paramāṇu / doṇa",
+      "en": "smallest particle / a measure of volume (16 nāḷi)",
+      "note": "Used in the reduction-to-particles mode (L1085)."
+    },
+    {
+      "term_si": "ආනිසංස",
+      "pali": "ānisaṃsa",
+      "en": "benefit",
+      "note": "Five benefits of concentration practice (L1267–L1296)."
+    }
+  ],
+  "human_interpretation_en": [
+    {
+      "heading": "A toolkit, not one technique",
+      "text": "The chapter does not hand out a single method. It lists forty things a person can keep bringing their attention back to: a smooth disc of reddish clay, a bowl of clean water, a circle of lamplight, the breath, a body after death, the qualities of a teacher and a community, one's own honest conduct, one's own generosity, the food on one's plate. The choice is supposed to fit the person: their temperament, what pulls at them. Each object also has limits. Some can carry the mind into a deep, unbroken stillness. Others, especially remembering good qualities or reflecting on food, only ever bring the mind close to that stillness, because what is being remembered is too rich and varied to rest on as one simple point."
+    },
+    {
+      "heading": "Two jobs: settling and seeing",
+      "text": "The text starts with an admission: understanding how the mind works from a book is not enough. Two kinds of work are needed. One is settling: gathering attention onto one thing until wanting, resentment, dullness, restlessness and doubt go quiet. The other is seeing: looking at one's own experience plainly, as something that keeps changing, cannot be held onto and is not a fixed self. Settling is support. Seeing is what actually frees. The source says what settling alone can give (deep stillness, unusual powers, a good next life) and is clear that it is not the end of the road."
+    },
+    {
+      "heading": "Stillness is built in stages, and at different speeds",
+      "text": "Attention steadies in steps. First you look at the object with your eyes. Then it stays in the mind even with eyes closed. Then a cleaner, brighter inner version appears, free of the object's flaws, and the usual distractions fall away. The text is frank that people differ. For some the approach is hard and for others easy; some arrive slowly and some quickly. It names ordinary reasons: whether the conditions around you suit you, whether you cleared your obligations before starting, how strong your appetites are, and what you practised before. It also expects that anyone who reaches a deep state will practise entering, staying in, leaving and reviewing it until they can do so at will, before moving on."
+    },
+    {
+      "heading": "Remembering what is good; seeing through what is pleasant",
+      "text": "Several practices are simply acts of remembering: calling to mind the conduct you have kept clean, the gifts you gave without wanting anything back, and the qualities of people you look up to. The source says this brings gladness, courage, respect, and a quick sense of shame when you are about to do wrong. It also warns against keeping your good conduct as a bargaining chip. Other practices go the other way. They make you look at the whole journey of a meal (walking out to get it, asking for it, chewing, digesting, what is left over) or at the body without its decoration, so that appetite loosens its grip. The aim is not disgust for its own sake. It is to eat the way a traveller eats to get across a desert: enough to cross, without making the eating itself the point."
+    },
+    {
+      "heading": "When the cow becomes meat",
+      "text": "The text starts from an uncomfortable picture. While a butcher feeds, leads and even kills a cow, he still thinks 'cow'. Only when it is cut into portions at the crossroads does he start to think 'meat'. A second picture is gentler: a house is really posts, sticks, clay and thatch around an empty space, and 'house' is the name we give to that arrangement. The practice asks a person to look at their own body the same way, as hardness, wetness that binds, warmth and movement, until the automatic sense of 'here is a person, here is me' loosens. The aim is not disgust. It is to see how a name is put together from parts that are not the name."
+    },
+    {
+      "heading": "Fit the method to the learner, and keep going",
+      "text": "The text knows that people learn differently. A quick mind gets bored by a long inventory, and a slower mind gets lost in abstractions, so each is given a different route. If the first route fails there is a second, then a third, then a fourth, and after that thirteen more angles to look from. Progress comes from going over the same ground again and again. The text is also frank about limits: this method brings the mind to the doorway of deep stillness, not through it. It is an honest teaching manual rather than a promise."
+    },
+    {
+      "heading": "Everything holds everything up, and nobody is in charge",
+      "text": "Each quality needs the others: hardness gives a place to stand, binding keeps things together, warmth ripens, movement carries. Even a single step is described as these qualities passing work between them. None of them 'knows' it is helping. The body is compared to a puppet worked by strings with no operator inside. The text claims this way of seeing has practical results: less fear when alone at night in wild places, and less swinging between delight at what is pleasant and dejection at what is not."
+    },
+    {
+      "heading": "What steadiness is for",
+      "text": "The section ends by listing five uses of a steady, gathered mind: ease in this life, a clearer view of how things are, unusual capacities, a better next life, and a complete temporary stilling. The same steadiness serves very different ends depending on who has it and what they want from it. The closing line is a plain encouragement not to be careless with it."
+    }
+  ],
+  "does_not_transfer": [
+    "It is not ‘mindfulness for stress relief’: the sources frame all of this as a means to uproot the root defilements and realise the unconditioned, with insight, not calm, doing the freeing [C085-M:L3; C085-M:L11; C085-P4:L41].",
+    "‘Focus on whatever you like’ distorts it: objects are to be matched to temperament and taken from a teacher, and each object has a fixed ceiling (e.g. the recollections and the food perception reach only access concentration) [C085-P:L47; C085-P4:L61; C085-P4:L307].",
+    "The corpse and food contemplations are not body-shaming or diet advice; they are tools against specific forms of craving, practised under instruction, and a modern audience could easily misread them as disgust or self-harm cues [C085-P4:L283; C085-P4:L855–L861].",
+    "Recollecting the Buddha, Dhamma and Saṅgha is not generic ‘positive thinking’: it depends on faith in specific qualities, and the text says these recollections come to full success only for noble disciples [C085-P4:L656].",
+    "Recollecting one's own virtue and giving is not self-congratulation: the text specifically values virtue that is not grasped as a means to become a god or as purity in itself, and giving done without expectation [C085-P4:L604; C085-P4:L632].",
+    "The promised benefit of ‘a good rebirth’ if one does not attain the path belongs to the rebirth framework and does not map onto a secular wellbeing claim [C085-M:L9; C085-P4:L616].",
+    "The parable of the father eating his dead son's flesh to cross a famine desert is deliberately shocking; it cannot be lifted into a modern slogan about ‘mindful eating’ without losing its point about eating without craving [C085-P4:L781; C085-P4:L857].",
+    "'Your body is just chemistry' or 'we are just atoms': the four elements are felt qualities (hardness, cohesion, heat, motion), not chemical elements. The analysis serves to dissolve the sense of a self-owning 'being'. It is not a materialist claim that mind is nothing but matter.",
+    "'You are not your body, you are the soul inside it': the source denies any operator inside at all (the puppet with no controller, L1099; 'no life or being here', L915). It does not swap body-identity for soul-identity.",
+    "'Meditation for stress relief and productivity': the stated fruits are fearlessness, even-mindedness, nibbāna or a good rebirth, and the five benefits. The source also says plainly that this practice reaches only access concentration.",
+    "The particle measures (paramāṇu, a doṇa of earth-dust in a body, L1085), the cosmology (the earth's thickness, beings a hundred yojanas long, world-destructions, L1132, L1144–L1148) and the supernormal powers (L1282) cannot be presented as physical facts. They should not be mocked either. They belong to the text's own world.",
+    "The butcher simile (L873) is a teaching image about perception, not an endorsement of slaughter, and it should not be softened into 'see through appearances' self-help."
+  ],
+  "story_seeds": [
+    {
+      "seed": "Monks from a small village temple walking an early-morning alms round, and the households that do or do not come to their gates.",
+      "what_camera_could_observe": "The walk out at first light through mud or dust, dogs and animal dung on the road, doors that open and doors that stay shut, food placed into bowls, the silent walk back and the meal eaten slowly.",
+      "why_it_fits": "The source's reflection on food is built on exactly this walk: leaving a calm place, the dirty road, the begging from door to door, the kind and unkind responses. It also shows generosity from the giver's side. The film can simply watch; the doctrine never has to be said.",
+      "setting_type": "A rural village with a small temple, in the dry zone or the wet zone.",
+      "risk": "Treating monks as picturesque decoration, or staging refusals and gifts. It needs clear consent from the temple and the households, and must not shame families who do not give."
+    },
+    {
+      "seed": "A household preparing an almsgiving through the night and, days later, remembering it.",
+      "what_camera_could_observe": "Cooking before dawn, dividing the food, the moment of offering, then a later ordinary conversation in which family members recall the day and what it meant to them.",
+      "why_it_fits": "Recollection of generosity is the practice of calling to mind one's own giving, made without expecting a return. The seed is about what giving leaves behind in a person, not about the ritual.",
+      "setting_type": "A family home in a small town or village.",
+      "risk": "It could become a showcase of piety or merit. If it is a memorial almsgiving it touches grief and needs consent. Moments of ‘recollection’ must not be scripted."
+    },
+    {
+      "seed": "A craftsperson whose work demands long attention to one smooth surface, one colour or one flame, such as a potter smoothing clay, a dyer, or a maker of oil lamps.",
+      "what_camera_could_observe": "The repeated movement of the hands, the surface slowly becoming even, the worker's stillness, the light of a lamp through a hole in a tin.",
+      "why_it_fits": "The source explains how to make meditation devices from ordinary materials: a smooth disc of reddish clay about a span and four fingers wide, a lamp inside a tin throwing a circle of light. The honest link is sustained attention on a simple form. The craftsperson is not meditating, and the film must not claim they are.",
+      "setting_type": "A village pottery, a dyeing or lamp-making workshop.",
+      "risk": "Forcing a meditation metaphor onto someone's working life, or romanticising hard, poorly paid work."
+    },
+    {
+      "seed": "An elder who has recited the same verses of praise every evening for decades at a household shrine.",
+      "what_camera_could_observe": "The nightly routine: lighting the lamp, the recitation, perhaps a grandchild half-joining, and what the elder says when asked what the repetition has done for them.",
+      "why_it_fits": "Recollection means calling something to mind again and again. The source says it brings reverence, gladness and a quick conscience, but not deep absorption. That is a modest, human-scale claim a film can watch without exaggerating.",
+      "setting_type": "A family home with a household shrine, in a village or town.",
+      "risk": "Sentimentality, or turning the elder into a symbol. The film must respect the privacy of the practice and avoid a voice-over lecture."
+    },
+    {
+      "seed": "A family re-plastering or rebuilding a wattle-and-daub house before the monsoon",
+      "what_camera_could_observe": "Posts set, sticks and vines woven, clay trodden with water and pressed into the frame, thatch or tiles laid. The house appearing and then being 'a house' again.",
+      "why_it_fits": "It is the source's own image (L915): a 'house' is the name for space enclosed by posts, vines, clay and grass, just as a 'body' is the name for space enclosed by bone, sinew, flesh and skin. Earth bound by water is also visible in the mud itself.",
+      "setting_type": "Rural village in the dry zone or hill country where mud-walled houses are still maintained",
+      "risk": "Romanticising poverty or 'traditional' housing; the family's own reasons (cost, heat, pride, weather) must lead, not the metaphor."
+    },
+    {
+      "seed": "A night at a small village bakery or brick kiln, where earth, water, heat and air visibly make something",
+      "what_camera_could_observe": "Flour or clay wetted and kneaded, dough rising, loaves or bricks going into fire, the baker's or kiln-worker's judgement of heat and timing, the finished form.",
+      "why_it_fits": "The source compares the body to a lump of flour moistened by water, ripened by heat and puffed by wind (L1085), and describes each element supporting the others (L1195–L1205). The workers' craft knowledge of these interactions is the human story.",
+      "setting_type": "Small-town bakery or rural brick-making yard",
+      "risk": "Turning labour into a pretty metaphor; long night hours and hard conditions deserve honest treatment, not decoration."
+    },
+    {
+      "seed": "A farmer keeping a night watch over a chena or paddy field from a raised hut",
+      "what_camera_could_observe": "Dusk to dawn in the watch hut: sounds in the dark, the fire, torches, how the farmer names and handles what might be out there, what they say about fear.",
+      "why_it_fits": "The text claims that seeing things as 'mere elements' lets a practitioner endure fear in forest dwellings without sorting shapes into beasts and spirits (L1265). The film would observe how a real person actually lives with night fear, without assuming they practise anything.",
+      "setting_type": "Dry-zone farmland at the edge of scrub jungle",
+      "risk": "Human-elephant conflict is dangerous and politically charged; never stage tension or put anyone at risk for a shot, and do not frame the farmer as a meditator."
+    },
+    {
+      "seed": "A roadside or junction fish market at dawn, where whole fish become cuts and prices",
+      "what_camera_could_observe": "Boats or trucks arriving, whole fish laid out, the cutter's knife work, the change in how buyers and sellers talk ('that fish' becomes 'half a kilo of slices').",
+      "why_it_fits": "This is the nearest everyday parallel to the source's butcher-at-the-crossroads simile (L873): the name changes once the whole has been divided.",
+      "setting_type": "Coastal town junction market or fishing-harbour auction",
+      "risk": "Gore and sensationalism; Buddhist audiences may find the link to killing offensive. Keep the cutting unshowy, and do not use it to preach about meat-eating or to make vendors props for a lesson."
+    }
+  ],
+  "cross_source_notes": [
+    "Both Margaya and Pradeepika Book 4 list the same forty subjects in seven groups, but in a different order. M: kasiṇa, asubha, anussati, appamaññā, one saññā, one vavatthāna, four āruppa [C085-M:L15]. P4: kasiṇa, asubha, anussati, brahmavihāra, four āruppa, one saññā, one vavatthāna [C085-P4:L253–L269].",
+    "Kasiṇa order differs in the last two items: M ends ‘ආකාස, ආලෝක’ [C085-M:L19]; P4 ends ‘ආලෝක, ආකාශ’ [C085-P4:L255].",
+    "Anussati order differs: M puts upasamānussati seventh, before maraṇa, kāyagatā and ānāpāna [C085-M:L45]; P4 puts it tenth and last, both in the list [C085-P4:L259] and in the numbered definitions [C085-P4:L342–L360].",
+    "Samatha and vipassanā are defined in substantially the same terms in M [C085-M:L9–L11] and P4 [C085-P4:L37–L41]. M adds that samatha yields jhāna, abhiññā and good rebirth and supports vipassanā; P4 adds the samādhi characteristic, function, manifestation and proximate cause [C085-P4:L47–L49].",
+    "The three sources approach the development of concentration from different angles and should be kept separate. M gives the three bhāvanā and three nimitta briefly [C085-M:L68–L82]. P (Book 1) gives the moment-by-moment appanā vīthi with parikamma–upacāra–anuloma–gotrabhū [C085-P:L47–L67]. P4 gives fifteen classifications of samādhi [C085-P4:L51–L245].",
+    "M gives practical, even modern, instructions for building kasiṇas (clay colour, size, tin and lamp, electricity) [C085-M:L21–L33]. P4 part 1 does not; it refers back to ‘what was said for the earth kasiṇa’ [C085-P4:L283], which is not in this extract.",
+    "Only P (Book 1) maps objects to jhāna levels (25, 14 and 12 objects; the āruppa objects) [C085-P:L25–L45]. P4 gives consistent ceilings: ten subjects reach only upacāra [C085-P4:L61], and asubha reaches only the first jhāna [C085-P4:L332]. M does not discuss ceilings in this extract.",
+    "Asubha descriptions differ in detail. For vinīlaka, M has ‘swollen and blue’ [C085-M:L41]; P4 has red where the flesh is thick, white where pus collects, and blue elsewhere [C085-P4:L277]. For hatavikkhittaka, M has ‘wounded in a crow's-foot pattern and scattered’ [C085-M:L41]; P4 has ‘hacked with a weapon and scattered’ [C085-P4:L277]. For vicchiddaka, M adds ‘on battlefields etc.’ [C085-M:L41].",
+    "Speed of attainment is framed differently. P (Book 1) contrasts the sharp-witted (no parikamma moment) with the dull-witted (all four) [C085-P:L67]. P4 uses the four paṭipadā/abhiññā combinations and their causes [C085-P4:L105–L167]. These are not in conflict but are different frames.",
+    "‘Upacāra’ is used in two senses. In P (Book 1) it is one of the four kāmāvacara javana moments immediately before appanā in a single process, and ‘access concentration is obtained together with absorption’ [C085-P:L61]. In P4 it is an extended stage in which the counterpart sign has appeared but the jhāna factors are weak, and which some subjects never go beyond [C085-P4:L59–L61]. M's upacāra-bhāvanā runs from the suppression of the hindrances until near appanā [C085-M:L74].",
+    "This part reads only P4 (L865–L1296). The Pradeepika Book 1 and Margaya extracts are in part 1, so no Pradeepika/Margaya comparison is possible from this part; the merge step should check whether P or M cover catudhātuvavatthāna and the five benefits of concentration at all.",
+    "P4 relies on earlier sections: the four elements were 'already detailed in the Dhātukathā section above' (L867); the ten skills in attention were 'stated before' (L909); and the seven skills in learning and ten in attention come from the kāyagatāsati section (L937). Part 1 should confirm these are in its range.",
+    "Within P4, the kāyagatāsati practice uses 32 parts (L937, 'කෙසාදි දෙතිස් කොටස්'), while this meditation uses 42 (the same 32 as earth and water, plus 4 fire and 6 wind: L901, table L1011–L1063).",
+    "Structurally the passage (four methods, thirteen modes, the mahābhūta reasons, the five benefits of concentration) closely resembles the Visuddhimagga's treatment at the end of its chapter on the four elements. The source itself does not name the Visuddhimagga here, so the parallel needs expert confirmation before it is cited."
+  ],
+  "uncertainties": [
+    "The P4 extract is discontinuous. Buddhānussati is not in it: the text jumps from pdf 111 to 130 and resumes at ‘2. ධම්මානුස්සතිය’ [C085-P4:L362–L364]. Maraṇānussati, kāyagatāsati and ānāpānasati (7–9) are skipped between pdf 149 and 240 [C085-P4:L659–L663]. Kasiṇa and brahmavihāra practice detail is also absent. These are presumably in C087, C091–C095; the merge step should not treat them as missing doctrine.",
+    "P4 L656 twice prints ‘සමාධ’ (the editor note at L657 confirms it is printed so), whereas the parallel statement at L746 has ‘සමෘද්ධ’. The sense is probably ‘succeed / come to fulfilment’ (samiddha), but this needs checking against the original.",
+    "In the upasama Pali passage [C085-P4:L703] the list has no ‘දීපං’, yet the glosses include ‘දීපං’ [C085-P4:L736]. The spelling also differs: ‘අබ්‍යාපජ්ජං’ in the quotation [C085-P4:L703] against ‘අව්‍යාපජ්ඣං’ in the gloss [C085-P4:L732]. The glosses also do not follow the quotation's order exactly.",
+    "Printed forms flagged in the extract: ‘රොගීන්ට’ probably for ‘රාගීන්ට’ [C085-P4:L327–L328]; ‘වට්ටුපච්ඡෙදෙ’ for ‘vaṭṭupacchedo’ [C085-P4:L667–L669]; ‘ඛාසිත’ for ‘ඛායිත’ [C085-P4:L797]. These were transcribed as printed; the explanation above uses the standard ‘ඛායිත’.",
+    "The word ‘අප්‍රමාණ / අප්පමාණ’ is used in two senses in the samādhi list: lokuttara samādhi in division 8 [C085-P4:L103], and well-developed, mastered samādhi in division 10 [C085-P4:L175]. Readers should not conflate them.",
+    "M's definition of parikamma-bhāvanā (practising until the object appears to the mind ‘as if seen by the eye’) [C085-M:L72] overlaps with its definition of the uggaha-nimitta [C085-M:L82]. The boundary between the bhāvanā triad and the nimitta triad is not drawn sharply in M.",
+    "M says vitakka is called ‘appanā’ and the name is extended to all mahaggata and lokuttara jhāna [C085-M:L78], including jhānas that have no vitakka. This is a traditional usage, but it may confuse a lay reader and needs a careful gloss.",
+    "Doctrinal point for expert check: how P's statement that access and absorption are ‘obtained together’ [C085-P:L61] fits P4's claim that ten subjects give access but never absorption [C085-P4:L61]. The two probably use ‘upacāra’ in different senses (see cross_source_notes).",
+    "P4 L279 says corpses left in charnel grounds are no longer seen ‘nowadays’. This reflects the author's time and place, not a doctrinal statement, and must not be used as a factual claim about present-day Sri Lanka.",
+    "L897 names the internal winds as uddhaṅgama, adhogama, koṭṭhāsaya, aṅgamaṅgānusārī, satthaka, 'ඵුරක', uppalaka, assāsa and passāsa (nine names), but L901 says 'six kinds', and the table (L1058–L1063) lists six different ones, including kucchisaya (absent from L897) and a combined assāsa-passāsa. 'ඵුරක' may be a misprint for khuraka (razor). Needs expert check; do not reconcile.",
+    "L938 (transcriber note): the second of the four detailed methods is printed '1.' instead of '2.' at L937.",
+    "Naming drift: method 3 is headed 'සලක්ඛණ සංක්ෂෙප' at L944 but called 'ස්වලක්ෂණ සංක්ෂෙප' at L956, and method 4 is 'ස්වලක්ෂණ විභත්ති' at L958, while the list at L926–L927 uses 'සලක්ඛණ'. Probably one method under two spellings; not resolved here.",
+    "L916: the scan is degraded at 'හිතනිපාදදී' in Sāriputta's house simile; reading uncertain.",
+    "L991: 'එරැෂාකාරය' is an uncertain reading (transcriber note).",
+    "L1087: 'නො විසිදෙන සේ' is transcribed as set, although a parallel passage has 'විසිරෙන සේ'.",
+    "L1167, L1270, L1279, L1283: the transcriber resolved readings (මහන්තභූතභාවාදී, චුන්දය, උදාර, පූර්හේතු); L1279 is marked 'not verified by crop'.",
+    "L1217: the paragraph on conditioning moves from nutriment to 'ඒ සෘතුව' (that temperature) without first stating that temperature is the generative condition for temperature-born elements, as it did for kamma, mind and nutriment. Possibly a line was dropped in print.",
+    "L1005 and the table at L1069–L1081: the five sense-base 'parts' (eye, ear, nose, tongue, heart-base) carrying the eye-decad and similar decads are not among the 42 named parts, and the text does not say where they sit. The 'sound nonad' row covers '2' parts without naming them. The totals do add up (173 clusters, 1501 phenomena).",
+    "L1085: the paramāṇu is 1/8 of an aṇu, but 'some teachers' say 1/36. The doṇa figure (16 nāḷi = 12 Magadha nāḷi) is reproduced as printed.",
+    "L1173: the material lifespan of seventeen mind-moments, and L1292: nirodhasamāpatti for 'seven days' with sixteen knowledge-masteries (8 contemplations + 8 paths/fruits) and nine concentration-masteries. These are doctrinal specifics that need expert confirmation.",
+    "Scope: the five benefits of concentration (L1267–L1296) apply to concentration practice in general, not only to the four-elements meditation. The merge step should decide whether they close the whole compendium of meditation subjects or only this subject."
+  ],
+  "evidence_class_note": "sinhala_explanation and summary_en = source teaching; human_interpretation_en and story_seeds = editorial interpretation; nothing here is documentary evidence. Drafted in 2 parts and merged."
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0159",
+  "record_type": "idea",
+  "title": "The Old Roof",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-09",
+  "logline": "Every year a family strips the old palm leaves off their roof and weaves on new ones, and by their own account it is still the same roof, though no single leaf on it is the one that was there before.",
+  "human_question": "Can something stay the same thing while every part of it changes?",
+  "premise": {
+    "story": "A household's yearly re-thatching of a palm roof, or renewal of another perishable part of a house, and the family's own account of what makes it 'their' roof across the years.",
+    "place": "A coastal home where roofs are still renewed with woven palm leaf.",
+    "experience": "Hands stripping old, blackened leaf and weaving in new green leaf, and a family's plain, unsentimental talk about a roof that is always changing and always theirs."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C081",
+      "role": "primary",
+      "why": "The methods of identity and diversity together: an unbroken continuity made entirely of new parts, neither simply the same thing nor simply a different one."
+    },
+    {
+      "concept_id": "C080",
+      "role": "supporting",
+      "why": "Nothing travels from the old roof to the new one, yet the new roof exists only because of the old, an ordinary version of continuity without a thing that moves across."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Stripping the old, blackened roof leaf",
+    "Weaving new green palm leaf",
+    "The bare frame exposed between old and new",
+    "The family working together, old and young",
+    "The finished roof against the sky"
+  ],
+  "what_must_be_real": "Whether the family still does this by hand or would rather have tin or tile; their own reasons must carry the film.",
+  "possible_arc": {
+    "opening": "A roof visibly aged, patched or leaking.",
+    "turn": "The old leaf comes off entirely, and for a while there is no roof at all.",
+    "ending_open": "The new roof finished, or the family's own decision about whether to keep doing it this way."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A household that still re-thatches or renews part of its home by hand",
+      "A renewal that can realistically be completed within the filming window",
+      "Willingness to discuss whether they would prefer a different roof"
+    ],
+    "suggestions": [
+      {
+        "name": "A coastal home where palm-thatch roofing is still practised",
+        "region": "Southern Province, Hambantota or Tangalle area",
+        "why": "Traditional palm-thatch roofing survives in pockets of the southern coast alongside more modern roofing.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific household still re-thatching by hand must be found and confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Treating the family as picturesque rural imagery",
+    "Implying they should prefer traditional roofing when they may not"
+  ],
+  "drop_if": [
+    "No family re-thatches by hand within the filming window, or the practice has died out in the chosen area"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0155",
+      "relation": "pairs with",
+      "note": "Both follow a made thing, vine or palm leaf, through a craft that renews itself hand by hand."
+    },
+    {
+      "idea_id": "IDEA-0158",
+      "relation": "pairs with",
+      "note": "Both explore continuity without a fixed traveller: nothing crosses over unchanged, yet nothing arises without what came before."
+    },
+    {
+      "idea_id": "IDEA-0160",
+      "relation": "leads into",
+      "note": "A structure renewed leaf by leaf sits naturally beside a frame that stands only by mutual support."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

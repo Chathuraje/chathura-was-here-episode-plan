@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0017",
+  "record_type": "idea",
+  "title": "Whoever Is Hungry",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "Every evening, one person feeds the same stray dogs by name and checks their wounds. Every evening, passers-by toss them scraps to watch them scramble.",
+  "human_question": "Can the same act of giving be, at the same time, a kindness and a private pleasure?",
+  "premise": {
+    "story": "An evening routine of feeding stray dogs at a public gathering place: the regular feeder's bowls, names and care, and the different, lighter gestures of passers-by, children and visitors who feed the same dogs for the fun of watching them eat.",
+    "place": "A bus stand, temple compound or market square where stray dogs gather each evening.",
+    "experience": "The quiet discipline of one person's routine against the passing amusement of a crowd; the dogs themselves, indifferent to anyone's reasons."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C005",
+      "role": "primary",
+      "why": "This is close to the concept's own example: feeding an animal to enjoy watching it eat is one of the occasions greed-rooted minds arise, while feeding it out of care is counted differently, without judging either person on screen [C005-M:L21]."
+    },
+    {
+      "concept_id": "C021",
+      "role": "supporting",
+      "why": "The regular feeder's steady, unprompted routine, sustained without anyone urging them, echoes the concept's account of effort and desire-to-act that need no push from outside [C021-M:L19] [C021-P:L53]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Bowls set out, dogs recognised by name",
+    "Wounds checked and treated",
+    "Children or visitors tossing scraps to watch a scramble",
+    "The dogs themselves, at rest and at the moment food appears",
+    "The feeder's routine ending as the light goes"
+  ],
+  "what_must_be_real": "The feeder's actual routine and the passers-by's own, unstaged behaviour. No one is prompted to feed the dogs for the camera.",
+  "possible_arc": {
+    "opening": "Dusk; dogs gathering as if they know the hour.",
+    "turn": "A crowd of passers-by feeds the dogs for the spectacle of it.",
+    "ending_open": "The feeder finishes their round, or doesn't, as it actually happens."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A public place with a consistent stray-dog population and a known regular feeder",
+      "Consent from the feeder to be followed over several evenings",
+      "Passers-by willing to be filmed in an ordinary public space"
+    ],
+    "suggestions": [
+      {
+        "name": "A bus stand or temple compound in Kandy town",
+        "region": "Central Province",
+        "why": "A well-known town centre with public gathering places where stray animals are commonly present.",
+        "season_notes": "",
+        "access_notes": "Specific feeder unconfirmed.",
+        "verify": "No feeder has been identified or contacted; this is a plausible setting only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Sentimentality about strays and their feeders",
+    "Shaming casual passers-by on camera",
+    "Animal welfare concerns must not be turned into a lecture"
+  ],
+  "drop_if": [
+    "No consistent, willing feeder can be found and followed"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0022",
+      "relation": "mirrors",
+      "note": "Both are about giving something to eat, and whose pleasure the giving is really for."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0098",
+  "record_type": "idea",
+  "title": "Four Shapes of the Same Care",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "A mother's day moves between a toddler who needs feeding, a sick teenager who needs medicine, a young adult leaving for a first job, and a grown child on the phone from abroad who needs nothing from her at all.",
+  "human_question": "Is it the same love wearing different shapes, or four different things that happen to share a name?",
+  "premise": {
+    "story": "An ordinary day, or a few days observed together, in a household where children are at very different life stages at once.",
+    "place": "A family home, the daily rhythm of a household spanning a wide range of ages.",
+    "experience": "Watching one person's attention change shape hour to hour without anyone ever naming what it is doing."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C095",
+      "role": "primary",
+      "why": "The source's own image for the four sublime abidings is a mother with sons at different stages: wishing the infant well, wanting the sick child's pain gone, being glad at the young adult's good years, and stepping back from the one who needs nothing further [C095-P4:L39]."
+    },
+    {
+      "concept_id": "C024",
+      "role": "supporting",
+      "why": "Compassion and sympathetic joy are responses that shift with who is actually in view, not a fixed mood [C024-P:L81; C024-P:L91]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Feeding and looking after the youngest child",
+    "Sitting with the sick child through discomfort",
+    "Quiet pride at an exam result, a first wage, or a departure for a new job",
+    "A phone call with the child furthest away, where she mostly listens"
+  ],
+  "what_must_be_real": "The family's actual daily life and real circumstances. Nothing staged or arranged to fit a four-part scheme; illness must not be treated as spectacle.",
+  "possible_arc": {
+    "opening": "Morning routine with the youngest child.",
+    "turn": "A different kind of attention needed for the sick child.",
+    "ending_open": "The phone call, or its absence, with the child who is furthest away."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A real family with children at genuinely different life stages, willing to be filmed over enough time",
+      "Full consent from every family member shown, including minors' guardians",
+      "No engineering of the household's circumstances to match the premise"
+    ],
+    "suggestions": [
+      {
+        "name": "A fishing or farming household",
+        "region": "Trincomalee or Batticaloa district, east coast",
+        "why": "A region-level suggestion for geographic variety; no specific family or household is implied.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific family has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Staging illness or hardship for the camera",
+    "Casting a family to fit a scheme rather than following one where the pattern is already, even partially, present"
+  ],
+  "drop_if": [
+    "No family's real situation actually shows this range of care without being engineered for the film"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0099",
+      "relation": "pairs with",
+      "note": "Both centre on sympathetic joy and its opposite, shown through real, unscripted human relationships."
+    },
+    {
+      "idea_id": "IDEA-0106",
+      "relation": "mirrors",
+      "note": "Both ask how one person's care changes shape for different people within the same day."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

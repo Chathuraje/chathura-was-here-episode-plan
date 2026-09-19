@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0087",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Last Instalment",
+  "logline": "A family counts out the final payment on gold pawned years ago during a hard season, and walks home carrying back something they had almost stopped expecting to see again.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0174"
+  ],
+  "concept_ids": [
+    "C073",
+    "C098"
+  ],
+  "chronology": {
+    "group_id": "GRP-10",
+    "position_in_group": 1,
+    "global_position": 87
+  },
+  "object": {
+    "acquires": "OBJ-10",
+    "appears": [],
+    "note": "Object 10 (identity not chosen) could enter only if the family is willing to part with or pass on something connected to the closed debt. Never staged."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0086",
+    "thread": "What arises by conditions can end by conditions: the kiln stops being fed, and the next film opens on something set down, a family's final payment on gold pawned years ago."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0088",
+    "thread": "A burden set down makes room for stillness: a town temple's lay meditation class, where each person is sent to their own plain object."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A family willing to be filmed at a real pawn transaction and at home",
+      "Full consent around financial privacy",
+      "A pawn business willing to allow filming at the counter"
+    ],
+    "suggestions": [
+      {
+        "name": "A market town in the central or hill-country districts",
+        "region": "Central Province (e.g. Matale, Kegalle or Gampola area)",
+        "why": "Small-town pawn counters are common in these market towns.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific business or family is identified; this is a region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0174"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

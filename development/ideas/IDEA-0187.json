@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0187",
+  "record_type": "idea",
+  "title": "The Emptied Room",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "An elderly woman gives away what is left of a house she has lived in for sixty years, and Chathura leaves her doorway for a road that, by evening, puts him down in the middle of a crowded city junction.",
+  "human_question": "What is left when a person has stopped adding anything to their life, and only ever takes away?",
+  "premise": {
+    "story": "An elderly lay person, over the course of closing up or leaving a home they have lived in for decades (moving in with family, or the house being given up), gives away or sets aside what remains of their belongings.",
+    "place": "A rural or hill-country home being emptied, and the road from there into a city.",
+    "experience": "A quiet, unsentimental final visit: what is kept, what is given away, what is simply left, and the physical and emotional experience of a room becoming empty. The film's very last images travel with Chathura from that doorway to a crowded city junction: traffic, pedestrians and overlapping sound."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C073",
+      "role": "primary",
+      "why": "The sources describe their final peace as something uncovered rather than built, very near and simply covered until what is added falls away; the film cannot show that peace, but it can watch a life visibly ceasing to add anything to itself."
+    },
+    {
+      "concept_id": "C015",
+      "role": "supporting",
+      "why": "The source describes a contentment that needs nothing added from outside, unlike pleasure that depends on stimulating the senses [C015-M:L12]; an elderly person living with very little offers an honest, modest, human-scale echo of that idea, without any claim about their inner state."
+    },
+    {
+      "concept_id": "C102",
+      "role": "supporting",
+      "why": "The practical, responsible groundwork before a long absence, described elsewhere in this group in the fisherman's departure, is echoed here in reverse: not preparing to leave and return, but setting a whole life in order before a final departure."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Belongings sorted: given away, kept, or simply left",
+    "The elder's own account of what each thing meant, and why it can now go",
+    "The empty room, last light through the window",
+    "Chathura's road away from the house, continuing until, by the film's end, he is standing in a busy city junction: traffic, crowds and overlapping sound, exactly as planned for this closing image, and described here only as the ending, not as invented content"
+  ],
+  "what_must_be_real": "A real elder's real, willing decision to give up or leave a real home, and their own account of it. The road and the crowd are filmed, observational footage, not staged action.",
+  "possible_arc": {
+    "opening": "The first belongings sorted for giving away.",
+    "turn": "One object the elder is reluctant to part with, and what happens to it.",
+    "ending_open": "The empty room; then the road; then the planned closing image of Chathura arriving in the crowded junction that opens Episode 1 and Episode 100."
+  },
+  "position_hint": "closing candidate: the group's answer in a single life, someone who keeps only taking away, hands directly to the planned crowded-location event that ends the chronological development slate (released as Episode 99) and opens both Episode 1 and Episode 100.",
+  "location": {
+    "requirements": [
+      "An elderly person genuinely leaving or emptying a long-held home, with full family consent",
+      "A road connecting that home to a real, busy Sri Lankan city junction",
+      "Care around a private, possibly difficult life transition"
+    ],
+    "suggestions": [
+      {
+        "name": "A hill-country village home, with the road leading toward Kandy",
+        "region": "Central Province",
+        "why": "Kandy has a well-known, busy town centre suitable for the required crowded-location ending; the exact junction is undecided.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific family, home or exact junction is identified; the crowded-location choice belongs to Chathura.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Intruding on a genuinely difficult or grief-laden life transition",
+    "Romanticising old age, solitude or poverty",
+    "Overreaching by suggesting the elder has attained anything; the film must not do this"
+  ],
+  "drop_if": [
+    "No elder and family will consent to this being filmed with full dignity and the ability to stop at any point"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0186",
+      "relation": "leads into",
+      "note": "From a family's practical preparations before absence, to a single person's final, complete letting go of a home."
+    },
+    {
+      "idea_id": "IDEA-0188",
+      "relation": "alternative to",
+      "note": "A different route to the same required closing image: an individual's final letting go, rather than a retreat's collective return."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0118",
+  "record_type": "idea",
+  "title": "Two Kinds of Sound",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "At a wind-scoured fish landing site, auctioneers' calls compete with gusts and surf, and buyers lean in close to tell a voice from the weather.",
+  "human_question": "When the wind and a human voice make the same kind of sound, how does anyone tell them apart?",
+  "premise": {
+    "story": "A morning's fish auction on an exposed beach, told through the auctioneers, buyers and crews whose livelihoods depend on being heard, or on hearing correctly.",
+    "place": "A coastal fish landing site where boats arrive, catches are auctioned on the sand, and the wind is a constant.",
+    "experience": "Shouted bids and hand signs, gusts and surf swallowing words, buyers straining forward to catch a number, a catch changing hands."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C069",
+      "role": "primary",
+      "why": "The source draws exactly this distinction: speech is mind-born sound, and wind noise is temperature-born sound. The same kind of sense object, sound, arises here from two different origins at once, audible side by side."
+    },
+    {
+      "concept_id": "C065",
+      "role": "supporting",
+      "why": "Sound is described as dying where it arises, so what reaches a buyer's ear across a windy beach is only sound's own moving trace, which is why a call can be lost entirely in a gust."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Boats landing and catches carried up the beach",
+    "Shouted bids, hand signs and gestures",
+    "Gusts and surf briefly drowning out calls",
+    "Buyers leaning in, cupping ears, asking for a number to be repeated",
+    "The catch changing hands and the crowd moving to the next lot"
+  ],
+  "what_must_be_real": "Real prices, real catches and real trade. No staged auction or repeated takes; the fishers' and buyers' actual stakes must lead.",
+  "possible_arc": {
+    "opening": "Boats landing at first light, the crowd gathering.",
+    "turn": "The wind rising against the calling, a bid nearly lost.",
+    "ending_open": "The last lot sold, or the morning's trade ending as it actually does."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An active fish auction on an open, windy beach or landing site",
+      "Fishers, auctioneers and buyers willing to be filmed at their real work",
+      "Enough wind on the day to make the sound contrast real, not staged"
+    ],
+    "suggestions": [
+      {
+        "name": "Fish landing sites on the eastern coast",
+        "region": "Eastern Province (e.g. Trincomalee area)",
+        "why": "The east coast has open, often windy beach landing sites with beach-based auctions.",
+        "season_notes": "Wind conditions vary by monsoon season; needs local confirmation.",
+        "access_notes": "",
+        "verify": "A specific landing site, its auction practice and willingness to be filmed are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Could stay a sound-design exercise with no real human stake",
+    "Must follow real buyers and sellers and their actual livelihoods, not just the weather"
+  ],
+  "drop_if": [
+    "No auction with real wind and sound contrast on the filming days",
+    "No consent from traders and fishers"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0115",
+      "relation": "pairs with",
+      "note": "Two senses under pressure at once: sound lost to wind, colour lost to shifting light."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

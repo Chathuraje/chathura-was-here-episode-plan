@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0096",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Rarest Readiness",
+  "logline": "At a surf beach lifeguard tower, a rescue crew drills the same response hundreds of times so that, on the rare day someone is actually in trouble, no one has to think before they move.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0185"
+  ],
+  "concept_ids": [
+    "C089",
+    "C101",
+    "C090"
+  ],
+  "chronology": {
+    "group_id": "GRP-10",
+    "position_in_group": 10,
+    "global_position": 96
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-10"
+    ],
+    "note": "Object 10 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0095",
+    "thread": "Freedom from an old pull leaves a mind that is simply ready: a lifeguard crew drilling the same response for a danger that may never come."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0097",
+    "thread": "Readiness for the sea becomes preparation for leaving it for a while: a fishing family settling everything before days out of reach."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "An active, professional or volunteer lifeguard or rescue service",
+      "Consent for training and, if it happens, real incident footage handled sensitively",
+      "A season with enough beach activity to observe real watch-keeping"
+    ],
+    "suggestions": [
+      {
+        "name": "Arugam Bay",
+        "region": "Eastern Province",
+        "why": "A well-known surf beach with an active water-safety presence during the surf season.",
+        "season_notes": "Surf season roughly April to October on the east coast",
+        "access_notes": "",
+        "verify": "The specific lifeguard or rescue service and its willingness to be filmed must be confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0185"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0120",
+  "record_type": "idea",
+  "title": "Eleven Weeks",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "A public health midwife's rounds through a dry-zone village follow several pregnancies at once, each body being assembled week by week, out of sight of everyone but its mother.",
+  "human_question": "Before a person has a name, a face, or lungs of their own, what is already being built?",
+  "premise": {
+    "story": "A working round of home visits by a rural midwife over several weeks, following two or three expectant mothers at different stages, told through their own care and concerns.",
+    "place": "Scattered village households and a small rural clinic in the dry zone.",
+    "experience": "Travelling between houses on a motorbike or bicycle, weighing and checking, quiet advice about food and rest, and a family's own preparations for a birth."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C071",
+      "role": "primary",
+      "why": "The source traces exactly this: matter assembling from a first speck through named weekly stages, fed by warmth, mind and food arriving in a fixed order, through the mother's own nourishment. The midwife's rounds are the everyday care that surrounds that unseen process."
+    },
+    {
+      "concept_id": "C066",
+      "role": "supporting",
+      "why": "Growth and continuity, named among the non-concrete kinds of matter, are the visible register of that week-by-week assembly, most concretely observable in a pregnancy followed over time."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The midwife travelling between houses",
+    "Mothers being weighed and checked, quiet advice given",
+    "Paperwork and records kept for each pregnancy",
+    "Families preparing rooms, clothes or ceremonies for a coming birth",
+    "A due date approaching, and whatever the family and clinic decide to share"
+  ],
+  "what_must_be_real": "Full informed consent from mothers and their families at every stage. No staged examinations, no medical claims presented as advice, and the doctrine's weekly stages never set against or confused with real medical guidance.",
+  "possible_arc": {
+    "opening": "The midwife's morning round begins.",
+    "turn": "A due date draws close.",
+    "ending_open": "A birth, if the family and hospital agree to include it, or the film ending before that point out of respect for privacy."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A rural public health midwife willing to have her rounds filmed",
+      "Expectant mothers and families giving full, ongoing consent",
+      "Health ministry or clinic permission"
+    ],
+    "suggestions": [
+      {
+        "name": "Rural villages served by a public health midwife",
+        "region": "North Central Province (e.g. Anuradhapura District)",
+        "why": "A well-known dry-zone agricultural region with an established rural public health midwife service.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific midwife, clinic and willing families are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Pregnancy is private and medically sensitive; consent must be ongoing and revocable at every stage",
+    "The doctrine's weekly stages must never be presented as medical fact or set against real medical advice",
+    "Mothers must control what is filmed and shown, especially near a birth"
+  ],
+  "drop_if": [
+    "No midwife or expectant mothers willing to participate",
+    "Hospital or ministry permissions are unavailable"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0121",
+      "relation": "leads into",
+      "note": "A body assembled week by week in one film; the same body, years later, taught to take itself apart again, part by part, in the next."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

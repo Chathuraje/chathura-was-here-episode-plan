@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0044",
+  "record_type": "idea",
+  "title": "The Number You're Given",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "A government office fills with people on a busy morning, each holding a number and a folder of papers. The queue barely moves. Small frustrations surface, and so, here and there, does an unplanned kindness between strangers.",
+  "human_question": "What does an ordinary wait, with nothing at stake but time, still manage to stir up in us?",
+  "premise": {
+    "story": "A single busy morning at a public office: people arriving, taking numbers, waiting, checking papers, a clerk's clipped replies, small disputes over queue order, and, among all of it, moments of people helping each other.",
+    "place": "A public office on a market-day morning, benches full, a number display on the wall.",
+    "experience": "The viewer waits with the room in something close to real time, and feels how small the group question's heat can be, and how ordinary."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C022",
+      "role": "primary",
+      "why": "Restlessness is one of the four factors the sources say are present in every state of this kind, a mind that will not settle on what is in front of it, compared to wind that keeps shaking the leaves of a tree [C022-P:L73; C022-M:L19]. A queue on a slow morning is restlessness in its smallest, least dramatic daily form."
+    },
+    {
+      "concept_id": "C007",
+      "role": "supporting",
+      "why": "The group's question in miniature: life, in the form of a queue, refusing what everyone in the room wants, which is simply to be seen next [C007-P:L49]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "People arriving, taking numbers, finding seats",
+    "The display board, or its absence, and how people track their place",
+    "Small complaints, checked papers, glances at the clock",
+    "A clerk's replies and the counter's own rhythm",
+    "An unplanned kindness: help with a form, a seat given up, directions offered"
+  ],
+  "what_must_be_real": "The office, its staff and its visitors must be filmed as they genuinely are on an ordinary day, with consent from the office and from anyone shown closely. No delay, dispute or kindness may be arranged for the camera.",
+  "possible_arc": {
+    "opening": "The office opening, the first numbers taken.",
+    "turn": "The queue barely moves, and the room's mood shifts through the morning.",
+    "ending_open": "Whoever is left, and whatever the room looks like by closing, ends the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "Filming permission from a public office willing to be observed on a genuinely busy day",
+      "Consent from visitors shown closely or interviewed",
+      "An office known for high public footfall"
+    ],
+    "suggestions": [
+      {
+        "name": "A divisional secretariat or similar public office",
+        "region": "Kurunegala or Ratnapura town",
+        "why": "Busy provincial towns with high daily public-service footfall for a wide range of everyday needs.",
+        "season_notes": "",
+        "access_notes": "Filming inside government offices requires formal permission.",
+        "verify": "A specific office and its willingness to permit filming must be confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Mocking members of the public shown frustrated or waiting",
+    "Portraying officials unfairly as the source of the frustration",
+    "Formal permission requirements for filming inside a government office"
+  ],
+  "drop_if": [
+    "No office grants filming permission for a genuinely busy day",
+    "Visitors are unwilling to be shown"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0036",
+      "relation": "leads into",
+      "note": "The workshop's small refusals of the day open into the queue's larger, slower version of the same wait."
+    },
+    {
+      "idea_id": "IDEA-0038",
+      "relation": "mirrors",
+      "note": "Two waiting rooms of different kinds, a road and an office counter, testing the same small patience."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

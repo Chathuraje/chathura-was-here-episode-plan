@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0079",
+  "record_type": "idea",
+  "title": "One Strike, A Thousand Echoes",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "A temple bell is struck once at dawn, and its sound fades slowly across the valley below, the same way, the keeper says, one sight can set off a long private echo of thought.",
+  "human_question": "How much of what occupies a mind is not what is in front of it, but the long echo of something that already happened?",
+  "premise": {
+    "story": "The keeper of a hill or rock temple's bell strikes it at set times, and the film follows the sound down into the valley and the keeper's own quiet days and broken naps between duties.",
+    "place": "A hill or rock temple above farming villages, and the valley that hears its bell.",
+    "experience": "The viewer follows a single sound outward into a landscape and inward into a life built around waiting, striking, and resting, and comes to notice how one contact can echo on long after it ends."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C048",
+      "role": "primary",
+      "why": "The source's own image is a bell struck once, its sound fading without a second strike, used to describe how a single contact can set off hundreds or thousands of later mind-door processes [C048-M:L7]. The same source also treats falling asleep, waking and dreaming as mind-door events, which the keeper's own broken rest between duties makes visible [C048-P:L25-L33]."
+    },
+    {
+      "concept_id": "C047",
+      "role": "supporting",
+      "why": "The distinction between a present sound and its long, later echo in the mind is the same distinction the source draws between present and past mind-door objects."
+    },
+    {
+      "concept_id": "C010",
+      "role": "supporting",
+      "why": "The keeper's own quiet, unprompted stillness, observed honestly and without claiming any spiritual attainment for him, echoes the source's picture of the rootless functional minds, a layer that reaches for nothing."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The dawn strike and the sound fading over paddy fields or forest",
+    "People below pausing, or not pausing, as it passes",
+    "The keeper's ordinary day: waiting, small tasks, short naps",
+    "The keeper's own account of what runs through his mind in the quiet hours",
+    "Villagers describing what the bell means to their own day"
+  ],
+  "what_must_be_real": "The keeper's actual daily rhythm and role; no staged reactions from villagers. Any account of dreams or private thought must come from the keeper's own words, not the film's inference.",
+  "possible_arc": {
+    "opening": "Dawn; the bell is struck; the sound moves out over the valley.",
+    "turn": "A quiet stretch of the keeper's day, a nap, a wait, a private thought he is willing to describe.",
+    "ending_open": "Evening, or another strike, closes the day however it actually unfolds."
+  },
+  "position_hint": "middle: a contemplative, place-driven film that could also function as a quiet turning point within the group.",
+  "location": {
+    "requirements": [
+      "A hill or rock temple with a bell and a keeper willing to be filmed",
+      "A vantage point to follow the sound into the valley below",
+      "Consent covering both the keeper's work and his personal reflections"
+    ],
+    "suggestions": [
+      {
+        "name": "A rock or hill temple in the Kandy-Matale hills",
+        "region": "Central Province",
+        "why": "The Kandy-Matale hills hold numerous rock and hill temples overlooking farming valleys.",
+        "season_notes": "",
+        "access_notes": "Specific temple and monastic permission would need to be arranged directly.",
+        "verify": "A specific temple, bell-keeper and willingness to be filmed are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning the keeper into a symbol rather than a person",
+    "Implying spiritual attainment for a real person based on the source's account of the arahant's smile, which must never be done",
+    "Over-illustrating a doctrinal simile literally rather than letting the place and person carry the film"
+  ],
+  "drop_if": [
+    "No temple and keeper are found who are willing to have both work and rest filmed",
+    "The keeper does not want his private thoughts or dreams discussed on camera",
+    "The bell's role turns out to be minor or ceremonial only, without a real daily rhythm"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0077",
+      "relation": "pairs with",
+      "note": "Both are about what a mind holds onto and reworks long after a single contact has ended."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

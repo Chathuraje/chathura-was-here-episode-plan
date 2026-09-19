@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0007",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "The Ring of Fire",
+  "logline": "At a night procession, a fire performer whirls a torch and the crowd sees a ring of fire. Up close there is only one flame, a pair of hands, and years of practice.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0012"
+  ],
+  "concept_ids": [
+    "C001",
+    "C003",
+    "C002"
+  ],
+  "chronology": {
+    "group_id": "GRP-01",
+    "position_in_group": 7,
+    "global_position": 7
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-01"
+    ],
+    "note": "Object 1 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0006",
+    "thread": "The question of how much we 'know' through the senses moves from the tongue to the eye: at night, a single flame that a crowd sees as a ring."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0008",
+    "thread": "From a procession's fire to a neighbourhood's paper lights: something built with great care, seen for a few nights, then taken apart."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A procession with fire performers during the filming window",
+      "Permission from organisers and performers",
+      "Safe camera positions near fire"
+    ],
+    "suggestions": [
+      {
+        "name": "Kandy Esala Perahera",
+        "region": "Central Province",
+        "why": "The best-known night procession, with fire performers among the dancers and drummers.",
+        "season_notes": "Esala (July–August)",
+        "access_notes": "Very crowded; filming positions need organiser permission",
+        "verify": "Performer access and filming permissions are unverified.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "A village or regional perahera",
+        "region": "Any province",
+        "why": "A smaller procession allows closer access to one performer's whole night.",
+        "season_notes": "Varies by temple calendar",
+        "access_notes": "",
+        "verify": "A specific procession and performer must be found.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0012"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

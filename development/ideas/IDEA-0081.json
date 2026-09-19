@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0081",
+  "record_type": "idea",
+  "title": "Turning Toward",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-05",
+  "logline": "At a town three-wheeler stand, a driver's eyes move to every passer-by, and in a fraction of a second, before anyone speaks, he has already decided: customer, or not.",
+  "human_question": "What is the very first thing a mind does when someone catches its attention, before any decision is made about them?",
+  "premise": {
+    "story": "A three-wheeler driver waits at a stand through a working day, watching passers-by, calling out to some, letting most go, and occasionally landing a fare.",
+    "place": "A town three-wheeler stand on a busy street.",
+    "experience": "The viewer watches hundreds of small, mostly wasted turns of attention, and starts to notice the tiny, repeated moment where a glance either goes nowhere or becomes an approach."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C010",
+      "role": "primary",
+      "why": "The source's turning toward mind points at an object without yet knowing anything about it, and its determining function settles what something is just before any response [C010-P:L29-L37]. A driver's glance at every passer-by is a documentary version of exactly this turning and settling."
+    },
+    {
+      "concept_id": "C034",
+      "role": "supporting",
+      "why": "The source's account of the fourteen functions of mind as a relay, each step handing on to the next, matches the driver's repeated cycle of noticing, sizing up, and calling out or not."
+    },
+    {
+      "concept_id": "C025",
+      "role": "supporting",
+      "why": "Effort and decisiveness, the source's occasional mental factors, show up unevenly across a driver's day, sharp when a fare looks likely, absent through long empty stretches."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The driver's eyes moving over the passing crowd",
+    "A call made, and a call withheld",
+    "A fare negotiated, or a passer-by who was never really a prospect",
+    "Long empty stretches between fares",
+    "The driver's own account of how he reads the street"
+  ],
+  "what_must_be_real": "The driver's real economics and working conditions; no staged misses or exaggerated reactions. His own account of his day, not a narrated explanation of his glances.",
+  "possible_arc": {
+    "opening": "The stand fills with drivers; the day's watching begins.",
+    "turn": "A slow day, a difficult fare, or a rival driver tests his patience and judgement.",
+    "ending_open": "The day ends with whatever the driver actually earned and however he actually feels about it."
+  },
+  "position_hint": "middle: a small-scale, everyday urban film that gives the group texture beyond craft and nature settings.",
+  "location": {
+    "requirements": [
+      "A busy three-wheeler stand with drivers willing to be filmed over a working day",
+      "A vantage point that can follow both the driver and the passing street",
+      "Consent that respects the driver's livelihood and does not slow his actual work"
+    ],
+    "suggestions": [
+      {
+        "name": "A busy stand in a market town",
+        "region": "Any market town, to be selected",
+        "why": "Three-wheeler stands are a near-universal feature of Sri Lankan town life; a specific town is left open.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific stand and a willing driver are unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Reducing the driver to an illustration of a single mental process rather than a full person",
+    "Voice-over or narration that claims to know what he is thinking at each glance",
+    "Treating an ordinary livelihood as merely picturesque"
+  ],
+  "drop_if": [
+    "No driver is willing to be filmed candidly over real working hours",
+    "The stand turns out to be too quiet or too chaotic to observe clearly",
+    "The film cannot avoid narrating the driver's inner state instead of showing his actions"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0073",
+      "relation": "mirrors",
+      "note": "Both are studies of an ordinary working day built from repeated small acts of noticing and response."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

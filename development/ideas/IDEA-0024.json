@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0024",
+  "record_type": "idea",
+  "title": "What the Bank Took",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "A family in a northern town watches a repossession agent walk out with the one vehicle they scrimped years to buy, and no argument brings it back.",
+  "human_question": "What happens to wanting when the thing you finally got is taken away again?",
+  "premise": {
+    "story": "The day a family's vehicle, bought after years of saving and loan repayments, is repossessed over missed payments: the arguments, the paperwork, the neighbours who gather, and the family's life the next morning without it.",
+    "place": "A family home and yard in a northern town, on the day of a repossession.",
+    "experience": "The ordinary morning of a family interrupted; official calm against private loss; the strange quiet of a yard with an empty space in it."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C004",
+      "role": "primary",
+      "why": "The vehicle is precisely the concept's own subject: a thing held with real attachment, wanted badly and finally owned, and then handled with the flat, professional indifference of someone whose job is to take it away [C004-M:L13] [C004-M:L17]."
+    },
+    {
+      "concept_id": "C032",
+      "role": "supporting",
+      "why": "What was a source of pleasant feeling becomes a source of pain the moment it changes hands, which is the concept's own account of pleasant feeling carrying the seed of loss when conditions turn [C032-P:L117]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Paperwork and an agent's practised, neutral manner",
+    "The family's arguments and pleading",
+    "Neighbours gathering to watch",
+    "The vehicle driven away",
+    "The yard and the family's routine the next morning, changed"
+  ],
+  "what_must_be_real": "A genuine repossession, with the family's full, informed consent to be filmed during a difficult and legally sensitive event. No dispute staged or resolved for the camera.",
+  "possible_arc": {
+    "opening": "An ordinary morning, before anyone arrives.",
+    "turn": "The agent arrives with the paperwork, and the family's wanting meets a wall.",
+    "ending_open": "The vehicle leaves, or the family finds a way to keep it a little longer. Reality decides."
+  },
+  "position_hint": "closing candidate: a direct, unmistakable image of the group's arc closing on wanting refused, lost or taken, ready to hand off into a story of what that loss turns into.",
+  "location": {
+    "requirements": [
+      "A family genuinely facing repossession, willing to be filmed through a legally and emotionally sensitive event",
+      "Cooperation or at least non-obstruction from the lender or agent involved",
+      "Careful legal and editorial handling of a real financial dispute"
+    ],
+    "suggestions": [
+      {
+        "name": "A town in the Vavuniya area",
+        "region": "Northern Province",
+        "why": "A regional town plausible for this kind of story; no specific family or case is known.",
+        "season_notes": "",
+        "access_notes": "This event would need to be found in progress or agreed in advance with a real family; it cannot be arranged for the camera.",
+        "verify": "No family, lender or case has been identified. This entire idea depends on finding a real, willing situation.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "High sensitivity: financial hardship and shame must never be exploited",
+    "Legal complexity around filming a repossession",
+    "The family's dignity and consent must be protected above the story"
+  ],
+  "drop_if": [
+    "No family experiencing this can be found who freely and fully consents to being filmed",
+    "Filming would worsen the family's legal or financial situation"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0026",
+      "relation": "mirrors",
+      "note": "One family loses what it finally had; another loses what it never quite got. Both are wanting meeting a wall."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

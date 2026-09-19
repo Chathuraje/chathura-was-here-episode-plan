@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0146",
+  "record_type": "idea",
+  "title": "The Night Shift",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "On steep, misted hill roads, an ambulance crew races between a district hospital and villages that are sometimes twenty minutes away and sometimes two hours, and every call is a small argument with time.",
+  "human_question": "How much difference can skill and speed make against how fragile a life actually is?",
+  "premise": {
+    "story": "One long overnight shift with a rural ambulance crew, following whatever calls actually come in.",
+    "place": "A hill-district ambulance service covering winding roads between a base hospital and outlying villages.",
+    "experience": "Headlights on wet mountain roads, the particular tension of a call coming in, first aid given at the roadside or in a home, and the crew's own account, between calls, of what the job has taught them."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C060",
+      "role": "primary",
+      "why": "The source names carelessness, unsuitable conditions and untreated illness among the ordinary causes of an early death, and says a death that seemed to be coming could sometimes still be averted by skilled help [C060-P:L62-L66; C060-M:L29-L33]. A crew's working night is exactly where that skill and that fragility meet."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Calls coming in over radio",
+    "The drive on narrow hill roads",
+    "First aid given at a scene",
+    "The handover at hospital",
+    "Quiet moments between calls",
+    "The crew's own reflections at shift's end"
+  ],
+  "what_must_be_real": "The crew's real working shift. Patients in crisis are protected; no identifiable patient is shown without explicit consent, and no death is filmed.",
+  "possible_arc": {
+    "opening": "The crew starting a shift, checking equipment.",
+    "turn": "A call that tests everything they have.",
+    "ending_open": "Dawn and the end of shift, whatever the night actually brought."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A rural or hill-district ambulance service willing to permit filming under strict patient-privacy conditions",
+      "A crew willing to be followed for at least one full shift"
+    ],
+    "suggestions": [
+      {
+        "name": "The Badulla or Nuwara Eliya district hill roads",
+        "region": "Uva Province or Central Province",
+        "why": "Winding hill roads and dispersed villages of the kind this story needs; no specific service identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No ambulance service or crew confirmed; health authority permission would be required.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Patient privacy and dignity in emergencies",
+    "Sensationalising real medical crises",
+    "Accident and injury risk to the crew while filming"
+  ],
+  "drop_if": [
+    "No ambulance service grants filming access under safe privacy conditions",
+    "A shift produces nothing filmable without compromising patient care"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0136",
+      "relation": "mirrors",
+      "note": "Both follow someone called to where death may be near, one racing to prevent it, one accompanying it when it cannot be prevented."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0013",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Whoever Is Hungry",
+  "logline": "Every evening, one person feeds the same stray dogs by name and checks their wounds. Every evening, passers-by toss them scraps to watch them scramble.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0017"
+  ],
+  "concept_ids": [
+    "C005",
+    "C021"
+  ],
+  "chronology": {
+    "group_id": "GRP-02",
+    "position_in_group": 5,
+    "global_position": 13
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-02"
+    ],
+    "note": "Object 2 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0012",
+    "thread": "The question of wanting to be seen passes from what people wear to what they give: an evening gathering place where the same stray dogs are fed for very different reasons."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0014",
+    "thread": "From the pleasure of watching something eat to the pleasure of watching something fly: on the southern coast in the windy season, a kite and the wish for it to be seen."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A public place with a consistent stray-dog population and a known regular feeder",
+      "Consent from the feeder to be followed over several evenings",
+      "Passers-by willing to be filmed in an ordinary public space"
+    ],
+    "suggestions": [
+      {
+        "name": "A bus stand or temple compound in Kandy town",
+        "region": "Central Province",
+        "why": "A well-known town centre with public gathering places where stray animals are commonly present.",
+        "season_notes": "",
+        "access_notes": "Specific feeder unconfirmed.",
+        "verify": "No feeder has been identified or contacted; this is a plausible setting only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0017"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

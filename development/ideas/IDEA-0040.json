@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0040",
+  "record_type": "idea",
+  "title": "Lamps on the Lagoon",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "Lamps are lit on the water at dusk. Through the night, fish and insects gather to the light, and a crew works the same patient rhythm they have worked for years, hoping this catch is enough.",
+  "human_question": "What does a whole night of patient, repeated effort feel like when the result is still not known?",
+  "premise": {
+    "story": "A night of lamp fishing on a lagoon: the lighting of the lamps, the long watch, the steady, repetitive work of the catch, and the crew's own account of what a good night and a bad night mean for their households.",
+    "place": "A lagoon at night, lamps the only light on the water.",
+    "experience": "The viewer sits through the long, quiet hours of the watch, lit only by lamplight and stars, and feels the weight of a livelihood that depends on this same night repeating itself, well or badly, again and again."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C007",
+      "role": "supporting",
+      "why": "Ageing, illness, loss and simply not getting what is wanted or needed are named among the ordinary occasions for this state of mind [C007-P:L49]. A night's fishing is one livelihood's version of that: the crew cannot control what the water gives, and a bad night carries a real, quiet worry about what follows it."
+    },
+    {
+      "concept_id": "C022",
+      "role": "supporting",
+      "why": "Restlessness, a mind that will not settle on what is in front of it, is one of the four factors present in every state of this kind [C022-P:L73; C022-M:L19]. The long, watchful hours of a night's fishing are offered here only as an image of sustained, unsettled attention under uncertainty, not as a moral reading of the crew themselves."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Lamps being prepared and lit as dusk falls",
+    "Insects and fish gathering to the light through the night",
+    "The crew's patient, repeated work: watching, drawing in, sorting",
+    "Quiet exchanges between crew members through the long hours",
+    "The catch at dawn, and what it means for the crew that night"
+  ],
+  "what_must_be_real": "The crew, their methods and their night's catch must be entirely genuine and unscripted. Nothing about the crew's effort or patience should be narrated as a lesson about their character; the image of light and gathering life belongs to the source text, never to the people shown.",
+  "possible_arc": {
+    "opening": "Dusk, lamps carried out onto still water.",
+    "turn": "The long middle of the night: rhythm, quiet, uncertainty.",
+    "ending_open": "Whatever dawn actually brings, good or lean, ends the film in the crew's own words."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A lagoon community that still practises lamp fishing at night",
+      "A crew willing to be filmed across a full night's work",
+      "Safe camera positions on or near the water after dark"
+    ],
+    "suggestions": [
+      {
+        "name": "Negombo lagoon",
+        "region": "Gampaha district, Western Province",
+        "why": "A well-known lagoon with an active fishing community using varied traditional methods.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm whether lamp fishing specifically is still practised here and find a willing crew.",
+        "status": "ai_suggestion"
+      },
+      {
+        "name": "Chilaw lagoon area",
+        "region": "Puttalam district, North Western Province",
+        "why": "Another well-known west-coast lagoon with an active fishing community.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Confirm current fishing methods and find a willing crew.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning a livelihood into a visual allegory that frames the crew unfairly",
+    "Long, slow night footage losing narrative shape without a clear human stake",
+    "Safety on the water after dark for crew and film team"
+  ],
+  "drop_if": [
+    "No lamp-fishing crew can be found willing to be filmed for a full night",
+    "The method is no longer practised in a findable, accessible community"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0035",
+      "relation": "mirrors",
+      "note": "Two night vigils at the edge of water and wild: one guarding land from what comes to take it, one drawing life toward a light."
+    },
+    {
+      "idea_id": "IDEA-0033",
+      "relation": "pairs with",
+      "note": "Two coastal, water-based livelihoods: one marked by conflict and repair, one carried by patient, repeated work."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0096",
+  "record_type": "idea",
+  "title": "The Softening",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-06",
+  "logline": "A drum-maker works a stiff, raw hide with oil and water for days until it can finally be stretched, tuned and played.",
+  "human_question": "What has to happen to something rigid before it can be made useful?",
+  "premise": {
+    "story": "The full process of preparing a drumhead in a family workshop, from raw hide to a tested, tuned sound.",
+    "place": "A village workshop belonging to a family with a generations-old drum-making tradition.",
+    "experience": "Watching material resistance slowly give way to usefulness, and hearing the first true note the finished drum makes."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C023",
+      "role": "primary",
+      "why": "Softness is pictured as a stiff hide worked with oil and water until it can be used, opposed to the rigidity of a fixed position [C023-P:L141]."
+    },
+    {
+      "concept_id": "C019",
+      "role": "supporting",
+      "why": "A specific, ordinary capacity, here the skill of working hide, is shaped entirely by what it is put to serve [C019-P:L61-L63]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Soaking and working the hide by hand",
+    "Stretching it over the drum body",
+    "Testing tension by ear, tightening and adjusting",
+    "The maker's hands, patience and small corrections over days"
+  ],
+  "what_must_be_real": "The maker's actual craft, livelihood and working process. Nothing staged purely to serve the metaphor.",
+  "possible_arc": {
+    "opening": "A stiff, unusable hide, freshly prepared.",
+    "turn": "Days of soaking, working and stretching it.",
+    "ending_open": "The first sound the finished drum makes, and whatever the maker says about it, or doesn't."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A working family drum-making household willing to show the full process over enough time",
+      "A drum currently in production, not one made only for filming",
+      "The maker's willingness to speak about the craft and its economics"
+    ],
+    "suggestions": [
+      {
+        "name": "A traditional drum-making household",
+        "region": "Kandy district or the wider hill country",
+        "why": "The Kandy area has long-standing traditional drum-making communities linked to ritual and dance music.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific household, maker or drum has been identified or confirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Animal-hide processing may disturb some viewers and needs careful, honest framing",
+    "Turning a living tradition into pure metaphor rather than letting the craft and the maker lead"
+  ],
+  "drop_if": [
+    "No maker is willing to show the full process, or the craft is no longer practised at the identified location"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0095",
+      "relation": "pairs with",
+      "note": "Both use a real, physical process as the direct image of a beautiful factor: softness here, lightness there."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0115",
+  "record_type": "idea",
+  "title": "What the Hand Knows",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-07",
+  "logline": "A batik dyer carries a length of cloth between shade, doorway and full sun before deciding a colour is right, while an apprentice waits for the verdict.",
+  "human_question": "If the same cloth looks like a different colour in every light, which colour is the real one?",
+  "premise": {
+    "story": "A working day in a small dyeing workshop, following one commission from vat to finished cloth, told through the dyer's own standards and disagreements.",
+    "place": "A home-based batik or dye workshop where colour is judged by eye against samples, memory and daylight.",
+    "experience": "Cloth moved from shade to doorway to full sun, a squint, a pause, a quiet disagreement, and the moment a colour is finally called right."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C065",
+      "role": "primary",
+      "why": "Colour is the only kind of matter, of all twenty-eight, that the eye can see at all, and even that arrives as a blend of countless tiny colours that shifts with distance and light; the source says plainly that the 'true colour' is never seen."
+    },
+    {
+      "concept_id": "C067",
+      "role": "supporting",
+      "why": "The classification of matter as visible or invisible singles out colour as the one visible kind among twenty-eight, which is exactly what a dyer's daily work depends on and tests."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The cloth moved between shade, doorway and full sun and held against a sample",
+    "Dye vats, wax reserve work, and cloth drying on lines",
+    "The dyer squinting, stepping back, comparing",
+    "A quiet disagreement with an apprentice or customer over whether a colour matches",
+    "The finished cloth folded, priced and sent off"
+  ],
+  "what_must_be_real": "The dyer's own commissions, standards and real judgement calls. No staged 'moment of decision'; the workshop's actual order book leads.",
+  "possible_arc": {
+    "opening": "A colour sample compared against memory before the vat is even mixed.",
+    "turn": "The same cloth looking different from every angle and every light.",
+    "ending_open": "Whatever verdict the dyer actually reaches, and whether the customer agrees."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "An active dyeing or batik workshop with a real commission in progress",
+      "Willingness to be filmed making and disputing colour judgements, not just working the wax and dye",
+      "Good natural light through the day"
+    ],
+    "suggestions": [
+      {
+        "name": "Batik and dye workshops of the Kalutara/Beruwala coastal belt",
+        "region": "Western Province coast",
+        "why": "This stretch of coast has a long-established batik trade.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific workshop and its willingness to be filmed are unverified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Could become a pretty colour montage with no real stake",
+    "Temptation to relight or stage the 'moment of judgement'",
+    "Craft reduced to illustration rather than a real livelihood"
+  ],
+  "drop_if": [
+    "No real commission or order to follow during the filming window"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0124",
+      "relation": "pairs with",
+      "note": "Both ask what the eye actually receives, and how much of seeing is taken for granted until it fails or is questioned."
+    },
+    {
+      "idea_id": "IDEA-0118",
+      "relation": "pairs with",
+      "note": "Two senses under pressure at once: colour lost to shifting light, sound lost to wind."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

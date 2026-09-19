@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0015",
+  "record_type": "idea",
+  "title": "The Weighing Hour",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "On a gem-trading street, a dealer's flat, expert glance under a loupe meets a miner's family who has carried one stone a long way, hoping.",
+  "human_question": "Why does the calm, unexcited offer sometimes carry more weight than the hopeful one?",
+  "premise": {
+    "story": "A working day on a gem-trading street: practised dealers examining stones with professional detachment, a family bringing a single stone with real hope riding on it, the bargaining talk, and whatever price is finally reached or refused.",
+    "place": "A gem-trading street in a gem-mining town.",
+    "experience": "Loupes, scales and quiet, expert hands; the tension between a dealer's flat calm and a seller's open hope; the long wait for a number."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C006",
+      "role": "primary",
+      "why": "The dealer's unexcited, businesslike wanting and the family's joyful hope are the concept's own contrast between neutral and joyful greed-rooted minds, and between reasons offered and reasons withheld [C006-M:L19] [C006-P:L74]."
+    },
+    {
+      "concept_id": "C021",
+      "role": "supporting",
+      "why": "The dealer's steady, practised effort and settled decision under the loupe echo the concept's picture of effort and decision (adhimokkha) at work in a trained craft [C021-P:L45] [C021-M:L19]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "A loupe raised to an eye, a stone turned in light",
+    "Scales and small paper packets",
+    "A family waiting, hopeful, off to one side",
+    "The bargaining talk and its pauses",
+    "A price accepted, or the family walking on to try another dealer"
+  ],
+  "what_must_be_real": "A real stone, a real family's stake and a real dealer's trade. No price or negotiation staged for the camera.",
+  "possible_arc": {
+    "opening": "Morning light on a street of small shopfronts and loupes.",
+    "turn": "A stone is examined, and the room goes quiet.",
+    "ending_open": "A deal is struck, refused, or taken elsewhere. Reality decides."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A gem-trading street with dealers willing to be filmed appraising",
+      "A seller or family willing to have their sale filmed",
+      "Trust built with dealers over more than one visit, given the sensitivity of prices"
+    ],
+    "suggestions": [
+      {
+        "name": "The gem-trading street in Ratnapura town",
+        "region": "Sabaragamuwa Province",
+        "why": "Sri Lanka's best-known gem-trading centre, with a long-established street of dealers.",
+        "season_notes": "",
+        "access_notes": "Trading and prices are sensitive; access depends on dealers' trust.",
+        "verify": "No dealer or seller has been contacted; willingness to film real transactions is unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Portraying dealers as predatory, which would be defamatory in effect",
+    "Exposing a family's financial hardship without full consent",
+    "Filming real prices could carry commercial sensitivity"
+  ],
+  "drop_if": [
+    "No dealer will allow real appraisals and prices to be filmed",
+    "A seller's hardship cannot be shown with dignity and consent"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0020",
+      "relation": "pairs with",
+      "note": "The same stone traded here is cut and set there: one craft in dealing, another in shaping."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

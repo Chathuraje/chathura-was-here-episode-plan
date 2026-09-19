@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0139",
+  "record_type": "idea",
+  "title": "The Boundary Walk",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-08",
+  "logline": "Months after their father's death, siblings and a surveyor walk the old family land together, and every fence post seems to remember something different.",
+  "human_question": "What does losing a parent make family members want that they didn't want before?",
+  "premise": {
+    "story": "Adult siblings, after settling their late parent's estate, walk their inherited land with a surveyor to formalise boundaries that were always understood, never drawn.",
+    "place": "Family paddy or garden land in a rural district.",
+    "experience": "Chains and measuring instruments in tall grass, old deeds spread on a car bonnet, siblings pointing to trees and fences they each remember differently."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C058",
+      "role": "primary",
+      "why": "The source defines covetousness as wanting something that belongs to another to become one's own [C058-P:L224-L229]. A land survey after a parent's death is exactly where that wanting, ordinary and understandable, becomes visible."
+    },
+    {
+      "concept_id": "C057",
+      "role": "supporting",
+      "why": "The source treats what a life leaves unresolved as its own kind of unfinished action [C057-P:L87]. An undivided inheritance is one very common form of that."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Measuring the land with chains or modern instruments",
+    "Old deeds and photographs laid out",
+    "Siblings recalling boundaries differently",
+    "A disagreement handled with more or less grace",
+    "A shared meal or a quiet departure at day's end"
+  ],
+  "what_must_be_real": "A family that genuinely wants this filmed and controls what is shown. No sibling is cast as 'the greedy one'; the film does not take a side in any real dispute.",
+  "possible_arc": {
+    "opening": "The surveyor's van arriving, old deeds unfolded.",
+    "turn": "A boundary that two siblings remember differently.",
+    "ending_open": "The measurements are recorded. Whether the family stays easy with each other is left open."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A family willing to have a real land settlement filmed, in full agreement among all parties",
+      "A licensed surveyor willing to be filmed at work"
+    ],
+    "suggestions": [
+      {
+        "name": "A rural district with family paddy or garden holdings",
+        "region": "Southern Province or Uva Province",
+        "why": "Both regions have common smallholder family land of the kind this story needs; no specific family identified.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "Region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning a private family conflict into entertainment",
+    "Casting any one relative as the villain",
+    "Legal sensitivity around real property disputes"
+  ],
+  "drop_if": [
+    "Any sibling withholds consent",
+    "The dispute is too raw or contested to film responsibly"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0138",
+      "relation": "pairs with",
+      "note": "A companion piece on wanting what belongs to another, here among family rather than strangers."
+    },
+    {
+      "idea_id": "IDEA-0142",
+      "relation": "alternative to",
+      "note": "A different possible response to the same pressure: repair through service rather than dispute over property."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0176",
+  "record_type": "idea",
+  "title": "Forty Doors",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "In one ordinary day at a small-town temple's lay meditation class, a teacher sends a grieving widow to loving-kindness, a proud young trader to a reflection on the body, and a doubtful engineer to the breath, each to their own plain object.",
+  "human_question": "If there is one path, why does it start in so many different places?",
+  "premise": {
+    "story": "A single day, or a few sessions, at a lay meditation class, following the teacher's quiet, practical matching of different people to different simple practices.",
+    "place": "A small-town temple hall used for a regular lay meditation class, not a remote forest hermitage.",
+    "experience": "The variety and ordinariness of what people are actually asked to do: watch a breath, recall a kindness, look at a disc, remember a gift given."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C085",
+      "role": "primary",
+      "why": "The source lists forty meditation subjects and insists the choice must fit the person's temperament and be given by a teacher, each with its own reach and limit [C085-M:L3; C085-P:L47]."
+    },
+    {
+      "concept_id": "C087",
+      "role": "supporting",
+      "why": "The kasiṇa disc is one of the forty; a brief glimpse of it being used situates the earlier disc-making idea inside this larger list."
+    },
+    {
+      "concept_id": "C096",
+      "role": "supporting",
+      "why": "The source separates settling, this class's work, from seeing, the further work of insight, and is clear that settling alone is not the end of the road [C096-P4:L26]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "Several very different people arriving for the same weekly class",
+    "Short, separate conversations where the teacher asks about each person's life before suggesting an object",
+    "The room settling into silence with everyone doing something different",
+    "People leaving, briefly saying what, if anything, they noticed"
+  ],
+  "what_must_be_real": "A real, ongoing class with a real teacher and real participants. No practice or conversation is staged for the camera; consent is needed from everyone shown.",
+  "possible_arc": {
+    "opening": "The hall filling before the class starts.",
+    "turn": "The teacher's private, practical matching of person to practice.",
+    "ending_open": "What each participant says afterwards, in their own words, closes the film."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A real, regular lay meditation class with a willing teacher",
+      "Participants willing to be identified only as much as they choose",
+      "A room, not a forest retreat, to keep this distinct from Episode 1's monastery"
+    ],
+    "suggestions": [
+      {
+        "name": "A town temple's lay meditation society",
+        "region": "Any market town",
+        "why": "Such weekly classes are common at temples across the island.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "No specific temple or teacher is identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Turning into a lecture about the forty subjects",
+    "Exposing private reasons people are grieving or struggling",
+    "Implying anyone in the class has attained anything"
+  ],
+  "drop_if": [
+    "No teacher and class will allow filming without disrupting or exposing participants"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0173",
+      "relation": "pairs with",
+      "note": "Both look at the plain, made objects a meditator's attention rests on, from opposite ends: making one object closely, and choosing among forty."
+    },
+    {
+      "idea_id": "IDEA-0178",
+      "relation": "leads into",
+      "note": "From settling the mind to the further work of seeing clearly, which the next idea follows into ordinary working wisdom."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

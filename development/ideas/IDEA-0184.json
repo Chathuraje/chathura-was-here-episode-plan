@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0184",
+  "record_type": "idea",
+  "title": "Not Thrown About",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-10",
+  "logline": "At a fish-landing site before dawn, a gutter and sorter handles the day's catch, however it arrives, without flinching or lingering, and talks plainly about how they got used to work most people turn away from.",
+  "human_question": "What is the difference between not caring and simply not being thrown off balance by what you meet?",
+  "premise": {
+    "story": "A worker at a fish-landing or fish-market site (or a similar site of work others find unpleasant) does their daily, skilled, unglamorous work with evident steadiness.",
+    "place": "A fish-landing site, market or similar workplace.",
+    "experience": "Close observation of steady, competent handling of repulsive or difficult tasks, without commentary, and the worker's own account of how they got that way."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C090",
+      "role": "primary",
+      "why": "Among ten kinds described, from the most spectacular to the most ordinary, the source names one power that belongs only to the fully freed: dwelling without revulsion towards the repulsive, without attraction to the alluring, and evenly towards both [C090-P4:L85–L87; C090-M:L13]. The film watches an ordinary, human-scale form of that steadiness, and must never suggest the worker has any such attainment."
+    },
+    {
+      "concept_id": "C089",
+      "role": "supporting",
+      "why": "The source is clear that no special ability arises just from wishing, and separately ranks readiness under pressure as the hardest use of any power; the worker's daily composure is offered only as an echo, not an instance."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The pre-dawn arrival of the catch, sorting and gutting",
+    "The worker's manner with customers and colleagues",
+    "A difficult or unpleasant moment handled without fuss",
+    "Breaks, and what the worker says, in their own words, about the work"
+  ],
+  "what_must_be_real": "The worker's real job and real account of themselves. No claim of any inner attainment is made or implied.",
+  "possible_arc": {
+    "opening": "The catch arriving before light.",
+    "turn": "A particularly unpleasant or difficult task.",
+    "ending_open": "The worker's own reflection on the work, however they choose to give it."
+  },
+  "position_hint": "middle",
+  "location": {
+    "requirements": [
+      "A willing worker at a real fish-landing site or similar workplace",
+      "Full consent and dignity throughout, without exploiting low-status labour",
+      "Early-morning filming access"
+    ],
+    "suggestions": [
+      {
+        "name": "Peliyagoda fish market",
+        "region": "Western Province (Colombo suburbs)",
+        "why": "A large, well-known wholesale fish market.",
+        "season_notes": "",
+        "access_notes": "Very early hours; market management permission needed.",
+        "verify": "A specific willing worker must be identified.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Exploiting low-status or difficult labour for a spiritual message",
+    "The worker becoming a symbol rather than a full person",
+    "Gore or sensationalism in the imagery"
+  ],
+  "drop_if": [
+    "No worker will consent to be filmed and interviewed with dignity, on their own terms"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0183",
+      "relation": "leads into",
+      "note": "From the boat that carries people across, to the community that lands and sells what the sea gives."
+    },
+    {
+      "idea_id": "IDEA-0185",
+      "relation": "pairs with",
+      "note": "Two ordinary, unstaged forms of steadiness the sources call 'power': one under unpleasant routine, one under sudden danger."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0025",
+  "record_type": "idea",
+  "title": "The Last Ticket",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-02",
+  "logline": "At a crowded railway station, a man near the front of a long queue watches the board change just before his turn, and the seat he wanted is gone.",
+  "human_question": "What does the last, ordinary minute of not getting what you wanted actually feel like?",
+  "premise": {
+    "story": "A single day at a busy railway station's ticket counters: the queue, the small talk and impatience within it, and one traveller's wait ending not in a ticket but in a board that says the train is full, followed by whatever they do next.",
+    "place": "A city railway station's ticket hall and platforms.",
+    "experience": "The particular tension of a queue, the ordinary hum of a station, and the small, private deflation of arriving one place too late."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C005",
+      "role": "primary",
+      "why": "The daily, habitual reaching for a wanted seat or ticket is exactly the concept's territory of ordinary occasions for wanting, and this idea shows what happens on the day that ordinary reaching is refused [C005-M:L5] [C005-M:L7]."
+    },
+    {
+      "concept_id": "C006",
+      "role": "supporting",
+      "why": "Some travellers queue from habit and expectation, unprompted, while others are pushed to try by a friend's urging or a family's need; the refusal falls on both kinds of wanting alike [C006-M:L5]."
+    }
+  ],
+  "what_camera_could_observe": [
+    "The queue lengthening as the counter opens",
+    "Small talk, impatience and waiting among travellers",
+    "The departures board changing",
+    "The moment a traveller is told there is no seat left",
+    "What the traveller does next: wait, argue, or leave"
+  ],
+  "what_must_be_real": "A real queue, a real day's ticket sales, and travellers' own, unscripted reactions. No refusal staged.",
+  "possible_arc": {
+    "opening": "A queue forming before the counters even open.",
+    "turn": "The board changes; word moves back through the queue.",
+    "ending_open": "Whatever the traveller actually does next leads the ending."
+  },
+  "position_hint": "closing candidate: an ordinary, unforced image of wanting refused, small in scale but exact for the group's closing beat.",
+  "location": {
+    "requirements": [
+      "A busy railway station with a real ticket queue and genuine demand",
+      "Travellers willing to be filmed and interviewed about being turned away",
+      "Cooperation from station staff for filming in a public transport facility"
+    ],
+    "suggestions": [
+      {
+        "name": "Colombo Fort Railway Station",
+        "region": "Colombo District, Western Province",
+        "why": "Sri Lanka's main railway hub, with heavy demand and long queues for popular routes, especially to the hill country.",
+        "season_notes": "Demand is highest around holidays and long weekends.",
+        "access_notes": "Filming inside a working railway station requires permission from the railway authority.",
+        "verify": "No specific day, queue or traveller has been identified; railway authority permission is unconfirmed.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "risks": [
+    "Travellers' frustration must not be exploited or provoked for the camera",
+    "Filming permissions in a public transport facility",
+    "Risk of the scene feeling staged if the refusal is anticipated rather than found"
+  ],
+  "drop_if": [
+    "No genuine queue and refusal can be filmed without staging or provoking it",
+    "Railway authority will not permit filming"
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0013",
+      "relation": "mirrors",
+      "note": "Hope bought in small doses here meets hope refused all at once there."
+    }
+  ],
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+  ],
+  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+}

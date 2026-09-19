@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0010",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Second Helping",
+  "logline": "At an east-coast wedding reception, hosts keep piling food onto plates, guests protest and then accept, and one man goes back for a third helping without being asked.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0021"
+  ],
+  "concept_ids": [
+    "C006",
+    "C032"
+  ],
+  "chronology": {
+    "group_id": "GRP-02",
+    "position_in_group": 2,
+    "global_position": 10
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-02"
+    ],
+    "note": "Object 2 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0009",
+    "thread": "The wedding season carries across the island: from choosing what will be worn to a reception where hosts keep filling plates, and wanting moves from the eye to the appetite."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0011",
+    "thread": "From a feast's second and third helpings to a kitchen before the New Year, where the maker's hands no longer need to look and a child's day hangs on the first bite."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A wedding family willing to have their reception filmed",
+      "Guests willing to be filmed eating and being urged to eat",
+      "A kitchen willing to be filmed before and after the feast"
+    ],
+    "suggestions": [
+      {
+        "name": "A wedding reception hall in Batticaloa or Trincomalee",
+        "region": "Eastern Province",
+        "why": "Both are established towns with active wedding-reception venues and strong hospitality traditions.",
+        "season_notes": "",
+        "access_notes": "Specific family and hall unconfirmed.",
+        "verify": "No family has been contacted; this is a plausible setting, not a confirmed location.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0021"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}

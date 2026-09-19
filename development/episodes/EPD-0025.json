@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "EPD-0025",
+  "record_type": "episode",
+  "record_role": "development_episode",
+  "title": "Willing Hands",
+  "logline": "A village turns out to clear a tank bund or temple ground together. Some people arrived because they wanted to. Others came because they were asked, and their whole day moves differently.",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-18",
+  "updated_at": "2026-09-18",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "idea_ids": [
+    "IDEA-0043"
+  ],
+  "concept_ids": [
+    "C026",
+    "C022"
+  ],
+  "chronology": {
+    "group_id": "GRP-03",
+    "position_in_group": 7,
+    "global_position": 25
+  },
+  "object": {
+    "acquires": null,
+    "appears": [
+      "OBJ-03"
+    ],
+    "note": "Object 3 (identity not chosen) may appear subtly, for example among Chathura's things while he travels, waits or watches, only where it sits naturally in a real moment. Never staged, never the subject."
+  },
+  "thread_in": {
+    "from_episode_id": "EPD-0024",
+    "thread": "The tank carries across: after the argument over its water, a village turns out to clear a bund, some because they wanted to, some because they were asked."
+  },
+  "thread_out": {
+    "to_episode_id": "EPD-0026",
+    "thread": "From a day where pushed and willing hands move differently to a person who knows in the body what the old heat felt like, and no longer goes there."
+  },
+  "release": {
+    "series_id": null,
+    "position": null,
+    "public_number": null
+  },
+  "filming": {
+    "block_id": null,
+    "position": null,
+    "target_window": null
+  },
+  "location": {
+    "requirements": [
+      "A village organising a genuine communal work day during the filming window",
+      "A mix of participants who came for different reasons, willing to speak plainly about it",
+      "Consent from organisers and participants"
+    ],
+    "suggestions": [
+      {
+        "name": "A village clearing a tank bund or temple ground",
+        "region": "Kandy or Matale district, Central Province",
+        "why": "Central Province villages with active temple and irrigation-maintenance traditions of communal labour.",
+        "season_notes": "",
+        "access_notes": "",
+        "verify": "A specific village and work day must be found and confirmed; this is a region-level suggestion only.",
+        "status": "ai_suggestion"
+      }
+    ],
+    "selected_location_id": null,
+    "selected_location_decision_id": null,
+    "selection_status": "awaiting_chathura",
+    "name_reveal_policy": "undecided"
+  },
+  "unknowns": [
+    "No participant, access or event has been found or confirmed."
+  ],
+  "provenance": {
+    "derived_from": [
+      "IDEA-0043"
+    ],
+    "note": "Chronological slate v1 (draft)."
+  }
+}
