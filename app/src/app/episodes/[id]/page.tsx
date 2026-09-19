@@ -56,6 +56,25 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
           </section>
 
           <section className="source-document">
+            <div className="source-document-head"><div><span>Screenplay</span><h2>{
+              context.next_stage === "blocked_location" ? "Waiting for Chathura's location choice"
+                : context.next_stage === "complete" ? "Production screenplay ready"
+                : `Next: ${context.next_stage.replace("_", " ")}`
+            }</h2></div></div>
+            <div className="chip-list">
+              {(["treatment", "scene_outline", "production"] as const).map((stage) => {
+                const version = context.stages[stage];
+                return version
+                  ? <Link key={stage} href={`/screenplays/${version.id}`}>{stage.replace("_", " ")} v{version.version} · {version.status}</Link>
+                  : <span className="chip-static" key={stage}>{stage.replace("_", " ")}: not yet</span>;
+              })}
+            </div>
+            {context.next_stage !== "blocked_location" && context.next_stage !== "complete" && (
+              <p className="panel-note">Copy the episode brief and give it to an AI with <code>docs/planning/prompts/screenplay-brief.md</code>, or ask Claude to write the next stage for {episode.id}.</p>
+            )}
+          </section>
+
+          <section className="source-document">
             <p className="lead-question">{idea.human_question}</p>
             <div className="layer-grid">
               <div><span className="layer-label">Story</span><p>{idea.premise.story}</p></div>

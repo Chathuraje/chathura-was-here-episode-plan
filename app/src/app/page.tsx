@@ -33,9 +33,9 @@ export default async function Home() {
           { label: "Concept digests", value: `${dev.digests.size}/${data.concepts.size}`, href: "/arc" },
           { label: "Candidate ideas", value: String(dev.ideas.length), href: "/ideas" },
           { label: "Films in slate", value: `${dev.episodes.length}/98`, href: "/chronology" },
-          { label: "Locations chosen", value: `${dev.episodes.filter((episode) => episode.location.selected_location_id).length}/${dev.episodes.length || 98}`, href: "/chronology" },
+          { label: "Locations chosen", value: `${dev.episodes.filter((episode) => episode.location.selected_location_id).length}/${dev.episodes.length || 98}`, href: "/locations" },
           { label: "Release plan", value: "after locations", href: "/release" },
-          { label: "Screenplays", value: "after locations", href: "/chronology" },
+          { label: "Screenplays", value: `${new Set(dev.screenplays.filter((version) => version.stage === "production").map((version) => version.episode_id)).size}/98`, href: "/screenplays" },
         ].map((step, index) => (
           <Link key={step.label} href={step.href} className="pipeline-step">
             <span>{String(index + 2).padStart(2, "0")}</span>

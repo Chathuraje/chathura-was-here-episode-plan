@@ -1,5 +1,5 @@
 import { getData, readDoc } from "./content";
-import { getDevelopment, ownedObjectsAt, type Digest, type Episode, type Group, type Idea, type Place, type StoryObject } from "./development";
+import { getDevelopment, latestStages, ownedObjectsAt, type Digest, type ScreenplayVersion, type Episode, type Group, type Idea, type Place, type StoryObject } from "./development";
 
 export const PROJECT_RULES = [
   "Chathura Was Here is a cinematic documentary series, mainly set in Sri Lanka. The governing sequence is Story → Place → Experience.",
@@ -89,6 +89,8 @@ export type EpisodeContext = {
   place: Place | null;
   is_first: boolean;
   is_last: boolean;
+  stages: Partial<Record<ScreenplayVersion["stage"], ScreenplayVersion>>;
+  next_stage: ScreenplayVersion["stage"] | "blocked_location" | "complete";
 };
 
 export async function buildIdeaBrief(ideaId: string): Promise<IdeaBrief | null> {
@@ -137,7 +139,13 @@ export async function buildEpisodeBrief(episodeId: string): Promise<IdeaBrief | 
     place: episode.location.selected_location_id ? dev.places.get(episode.location.selected_location_id) ?? null : null,
     is_first: index === 0,
     is_last: index === dev.episodes.length - 1,
+    stages: latestStages(dev, episode.id),
+    next_stage: "blocked_location",
   };
+  const stages = brief.episode.stages;
+  if (episode.location.selected_location_id) {
+    brief.episode.next_stage = !stages.treatment ? "treatment" : !stages.scene_outline ? "scene_outline" : !stages.production ? "production" : "complete";
+  }
   brief.manifest.unshift({ id: episode.id, version: episode.version, status: episode.status });
   return brief;
 }
@@ -268,7 +276,22 @@ Cited lines: ${source.ranges.map(([a, b]) => (a === b ? `L${a}` : `L${a}–L${b}
 ${source.lines.map((line) => `> L${line.n}: ${line.text}`).join("\n")}`).join("\n\n")}`);
   }
 
-  out.push(`## 7. Instructions for the next step
+  if (ep) {
+    const stageLabel: Record<string, string> = { treatment: "treatment", scene_outline: "scene outline", production: "production screenplay" };
+    const previous = ep.next_stage === "scene_outline" ? ep.stages.treatment : ep.next_stage === "production" ? ep.stages.scene_outline : ep.next_stage === "complete" ? ep.stages.production : undefined;
+    const lines = [`## 7. Screenplay stage`];
+    if (ep.next_stage === "blocked_location") {
+      lines.push("**Blocked:** Chathura has not selected a location for this film. Do not write a treatment or screenplay. Research questions and location requirements are fine.");
+    } else if (ep.next_stage === "complete") {
+      lines.push(`The production screenplay exists (${ep.stages.production?.id} v${ep.stages.production?.version}). The next version comes only after filming, grounded in captured footage.`);
+    } else {
+      lines.push(`**Next to write:** the ${stageLabel[ep.next_stage]}. Follow \`docs/planning/prompts/screenplay-brief.md\` exactly (gate, non-negotiables, stage format, JSON record). Set \`based_on\` to ${previous ? `\`${previous.id}\`` : "null"} and \`location_id\` to \`${ep.episode.location.selected_location_id}\`.`);
+    }
+    if (previous) lines.push(`### Latest ${stageLabel[previous.stage] ?? previous.stage} (${previous.id} v${previous.version}, ${previous.status})\n\n${previous.body_markdown}`);
+    out.push(lines.join("\n\n"));
+  }
+
+  out.push(`## ${ep ? 8 : 7}. Instructions for the next step
 - Use this brief to refine the idea, write research questions, or describe the kinds of participants and moments to look for.
 - Do not invent people, dialogue, events, access or facts about real places. Mark every assumption.
 - Do not choose the location. If a location is needed, describe requirements or add clearly labelled suggestions.

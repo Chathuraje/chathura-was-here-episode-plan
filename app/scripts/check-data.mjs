@@ -129,6 +129,25 @@ if (fs.existsSync(development)) {
     }
   }
 
+  const screenplays = readJson("screenplays");
+  if (screenplays.length) {
+    const episodeById = new Map(episodes.map((episode) => [episode.id, episode]));
+    const byId = new Map(screenplays.map((version) => [version.id, version]));
+    const previousStage = { scene_outline: "treatment", production: "scene_outline" };
+    check("Screenplay IDs match file names", screenplays.every((version) => /^SPV-\d{4}$/.test(version.id) && version.name === `${version.id}.json`));
+    check("Screenplays belong to development episodes (never Episodes 1 or 100)", screenplays.every((version) => episodeById.has(version.episode_id)));
+    check("Screenplays are written only for a location Chathura selected", screenplays.every((version) => {
+      const episode = episodeById.get(version.episode_id);
+      return version.stage === "post_filming" || (version.location_id && episode?.location.selected_location_id === version.location_id);
+    }), screenplays.filter((version) => version.location_id !== episodeById.get(version.episode_id)?.location.selected_location_id).map((version) => version.id).join(", "));
+    check("Each screenplay stage builds on the previous stage", screenplays.every((version) => {
+      const needed = previousStage[version.stage];
+      if (!needed) return true;
+      const base = byId.get(version.based_on);
+      return base && base.stage === needed && base.episode_id === version.episode_id;
+    }));
+  }
+
   const allRecords = fs.readdirSync(development, { withFileTypes: true }).filter((entry) => entry.isDirectory()).flatMap((entry) => readJson(entry.name));
   const unauthorisedLocations = allRecords.filter((record) => record.selected_location_id && !record.selected_location_decision_id);
   check("Selected locations carry a Chathura decision", unauthorisedLocations.length === 0, unauthorisedLocations.map((record) => record.id).join(", "));

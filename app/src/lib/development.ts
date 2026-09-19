@@ -157,6 +157,43 @@ export type Place = Envelope & {
   decision_id: string;
 };
 
+export type ScreenplayScene = {
+  n: number;
+  heading: string;
+  required: boolean;
+  purpose: string;
+  footage: string[];
+  sound: string;
+  narration: string;
+  real_speech_placeholders: string[];
+  estimated_seconds: number;
+  research_gaps: string[];
+  continuity: string;
+};
+
+export type ScreenplayVersion = Envelope & {
+  episode_id: string;
+  stage: "treatment" | "scene_outline" | "production" | "post_filming";
+  based_on: string | null;
+  location_id: string | null;
+  guide: {
+    genre: string;
+    runtime: { range: string; editorial_target: string; narration_target: string };
+    narrative_function: string;
+    visual_approach: string[];
+    sound_approach: string[];
+    information_reveal: { method: string; order: string[]; location_name_policy: string };
+    editorial_priorities: string[];
+    continuity_hooks: string[];
+    evidence_boundary: string;
+  };
+  scenes: ScreenplayScene[];
+  body_markdown: string;
+  unknowns: string[];
+};
+
+export const SCREENPLAY_STAGES = ["treatment", "scene_outline", "production", "post_filming"] as const;
+
 export type Development = {
   groups: Group[];
   objects: Map<string, StoryObject>;
@@ -167,6 +204,7 @@ export type Development = {
   ideas: Idea[];
   episodes: Episode[];
   places: Map<string, Place>;
+  screenplays: ScreenplayVersion[];
 };
 
 async function readRecords<T>(dir: string): Promise<T[]> {
@@ -189,7 +227,11 @@ export async function getDevelopment(): Promise<Development> {
     readRecords<Digest>("digests"),
     readRecords<Idea>("ideas"),
   ]);
-  const [episodes, places] = await Promise.all([readRecords<Episode>("episodes"), readRecords<Place>("locations")]);
+  const [episodes, places, screenplays] = await Promise.all([
+    readRecords<Episode>("episodes"),
+    readRecords<Place>("locations"),
+    readRecords<ScreenplayVersion>("screenplays"),
+  ]);
   episodes.sort((a, b) => a.chronology.global_position - b.chronology.global_position);
   groups.sort((a, b) => a.chronological_position - b.chronological_position);
   const conceptGroup = new Map<string, Group>();
@@ -204,7 +246,18 @@ export async function getDevelopment(): Promise<Development> {
     ideas,
     episodes,
     places: new Map(places.map((place) => [place.id, place])),
+    screenplays,
   };
+}
+
+/** Latest version of each screenplay stage for one episode. */
+export function latestStages(dev: Development, episodeId: string): Partial<Record<ScreenplayVersion["stage"], ScreenplayVersion>> {
+  const latest: Partial<Record<ScreenplayVersion["stage"], ScreenplayVersion>> = {};
+  for (const version of dev.screenplays.filter((entry) => entry.episode_id === episodeId)) {
+    const current = latest[version.stage];
+    if (!current || version.version > current.version) latest[version.stage] = version;
+  }
+  return latest;
 }
 
 /** Objects planned as owned at the start of an episode, in chronological order. */
