@@ -190,6 +190,25 @@ export function briefToMarkdown(brief: IdeaBrief): string {
 - Visibility is separate from ownership: an owned object need not appear on screen.${ep.is_last ? "\n- **Framing:** this film is released as Episode 99 and must end on the crowded-location footage that opens Episodes 1 and 100. Do not invent what happens in the crowd." : ""}`);
   }
 
+  if (ep?.episode.lesson) {
+    const lesson = ep.episode.lesson;
+    out.push(`## 2c. What the viewer learns (${lesson.status})
+**In simple terms:** ${lesson.in_simple_terms}
+**සරලව:** ${lesson.in_simple_terms_si}
+
+**The teaching behind it:** ${lesson.the_teaching}
+Sources: ${lesson.sources.map((source) => `${source.concept_id} (${source.citations.join(", ")})`).join("; ")}
+
+**How the film shows it (never state it in narration):** ${lesson.how_the_film_shows_it}
+
+**Key terms:** ${lesson.key_terms.map((term) => [term.en, term.pali, term.si].filter(Boolean).join(" / ")).join("; ")}
+**What it does not mean:** ${lesson.caution}
+**Builds on:** ${lesson.builds_on}`);
+  }
+  if (group?.lesson) {
+    out.push(`**Group lesson (${group.title}):** ${group.lesson.in_simple_terms}`);
+  }
+
   out.push(`## 3. The idea
 **Logline:** ${idea.logline}
 

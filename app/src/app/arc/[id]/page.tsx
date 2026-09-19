@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getData } from "@/lib/content";
 import IdeaList from "@/components/IdeaList";
+import { GroupLessonView } from "@/components/LessonView";
 import { getDevelopment } from "@/lib/development";
 
 export default async function GroupPage({ params }: { params: Promise<{ id: string }> }) {
@@ -44,6 +45,8 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
               <div className="layer-depth"><span className="layer-label">What the source material explores underneath</span><p>{group.depth}</p></div>
             </div>
           </section>
+
+          {group.lesson ? <GroupLessonView lesson={group.lesson} /> : null}
 
           <section className="source-document" id="episode-shape">
             <div className="source-document-head"><div><span>Episodes {firstEpisode}–{lastEpisode}</span><h2>How this stage develops</h2></div></div>
@@ -92,6 +95,7 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
             <h2>On this page</h2>
             <nav aria-label="Story stage sections">
               <a href="#overview">Stage overview</a>
+              {group.lesson ? <a href="#lesson">What this stage teaches</a> : null}
               <a href="#episode-shape">Episode progression</a>
               <a href="#concepts">Concept cluster</a>
               <a href="#ideas">Candidate ideas</a>

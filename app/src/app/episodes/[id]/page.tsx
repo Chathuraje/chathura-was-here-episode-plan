@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CopyButton from "@/components/CopyButton";
+import { EpisodeLessonView } from "@/components/LessonView";
 import { clearLocation, selectLocation } from "@/app/location-actions";
 import { buildEpisodeBrief, briefToMarkdown } from "@/lib/brief";
 
@@ -32,6 +33,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
 
       <div className="concept-layout">
         <article className="source-stack">
+          {episode.lesson ? <EpisodeLessonView lesson={episode.lesson} /> : null}
           <section className="source-document">
             <div className="source-document-head"><div><span>Continuity</span><h2>Where this film sits</h2></div></div>
             <div className="layer-grid">

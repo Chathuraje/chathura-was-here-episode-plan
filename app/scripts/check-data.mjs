@@ -129,6 +129,20 @@ if (fs.existsSync(development)) {
     }
   }
 
+  const lessonEpisodes = episodes.filter((episode) => episode.lesson);
+  if (lessonEpisodes.length) {
+    const lessonFields = ["in_simple_terms", "in_simple_terms_si", "the_teaching", "how_the_film_shows_it", "caution"];
+    check("Episode lessons are complete", lessonEpisodes.every((episode) => lessonFields.every((field) => typeof episode.lesson[field] === "string" && episode.lesson[field].trim())),
+      lessonEpisodes.filter((episode) => !lessonFields.every((field) => episode.lesson[field]?.trim?.())).map((episode) => episode.id).join(", "));
+    const badSources = lessonEpisodes.filter((episode) => !episode.lesson.sources?.length || episode.lesson.sources.some((source) =>
+      !episode.concept_ids.includes(source.concept_id) || !source.citations?.length || source.citations.some((citation) => !citation.startsWith(`${source.concept_id}-`))));
+    check("Lesson sources cite the episode's own concepts", badSources.length === 0, badSources.map((episode) => episode.id).join(", "));
+  }
+  const lessonGroups = groups.filter((group) => group.lesson);
+  if (lessonGroups.length) {
+    check("Group lessons are complete", lessonGroups.every((group) => group.lesson.in_simple_terms && group.lesson.the_teaching && group.lesson.progression?.length));
+  }
+
   const screenplays = readJson("screenplays");
   if (screenplays.length) {
     const episodeById = new Map(episodes.map((episode) => [episode.id, episode]));

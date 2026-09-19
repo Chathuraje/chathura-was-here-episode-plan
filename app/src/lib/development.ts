@@ -18,6 +18,30 @@ type Envelope = {
   updated_by: string;
 };
 
+export type EpisodeLesson = {
+  in_simple_terms: string;
+  in_simple_terms_si: string;
+  the_teaching: string;
+  how_the_film_shows_it: string;
+  key_terms: { pali?: string; si?: string; en: string }[];
+  sources: { concept_id: string; citations: string[] }[];
+  caution: string;
+  builds_on: string;
+  status: string;
+  evidence_class: string;
+};
+
+export type GroupLesson = {
+  in_simple_terms: string;
+  in_simple_terms_si: string;
+  the_teaching: string;
+  progression: string[];
+  builds_on: string;
+  hands_to_next: string;
+  status: string;
+  evidence_class: string;
+};
+
 export type GroupConcept = { id: string; role: string; role_status: string };
 
 export type Group = Envelope & {
@@ -36,6 +60,7 @@ export type Group = Envelope & {
   candidate_idea_refs: string[];
   episode_ids: string[];
   unknowns: string[];
+  lesson?: GroupLesson;
 };
 
 export type StoryObject = Envelope & {
@@ -147,6 +172,7 @@ export type Episode = Envelope & {
   filming: { block_id: string | null; position: number | null; target_window: string | null };
   location: EpisodeLocation;
   logline: string;
+  lesson?: EpisodeLesson;
 };
 
 export type Place = Envelope & {
