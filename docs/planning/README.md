@@ -14,6 +14,7 @@ The dated audit and proposal documents below preserve the reasoning and reposito
 4. [Data-model proposal](04-data-model-proposal.md) — proposed file-backed records, relationships, chronology, reviews, and exports.
 5. [Episode 001/100 continuity](05-episode-001-100-continuity.md) — framing structure with repository evidence separated from brief-supplied requirements.
 6. [Master roadmap](06-master-roadmap.md) — the step-by-step plan from the concept library to 98 production screenplays, with the draft 10-category map and dashboard build slices.
+7. [Abhidhamma Depth Map](07-abhidhamma-depth-map.md) — concept, mechanism, and group-level viewer-understanding audit for Chronology v1, with a separate non-destructive recommendation layer.
 
 Retrieved external-reference planning summaries:
 

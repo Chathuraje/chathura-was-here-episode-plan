@@ -239,6 +239,37 @@ if (fs.existsSync(development)) {
       && group.updated_at >= group.created_at && group.updated_by), lessonGroups.filter((group) => group.version < 2 || !group.updated_by).map((group) => group.id).join(", "));
   }
 
+  const depthMaps = readJson("analysis").filter((record) => record.record_type === "teaching_depth_analysis");
+  check("Exactly one Abhidhamma depth map exists", depthMaps.length === 1, `${depthMaps.length} maps`);
+  if (depthMaps.length === 1) {
+    const depthMap = depthMaps[0];
+    const depthStatuses = new Set(["missing", "surface_only", "introduced", "built", "integrated", "dangerously_compressed"]);
+    const depthConceptIds = depthMap.concepts.map((concept) => concept.concept_id);
+    const mechanismIds = new Set(depthMap.mechanisms.map((mechanism) => mechanism.mechanism_id));
+    const episodeIds = new Set(episodes.map((episode) => episode.id));
+    check("Depth map assesses every concept exactly once", depthConceptIds.length === conceptIds.size
+      && new Set(depthConceptIds).size === conceptIds.size
+      && [...conceptIds].every((id) => depthConceptIds.includes(id)), `${depthConceptIds.length}/${conceptIds.size} concepts`);
+    check("Depth concept groups and linked episodes match the slate", depthMap.concepts.every((concept) => groupOf.get(concept.concept_id) === concept.group_id
+      && JSON.stringify(concept.linked_episode_ids) === JSON.stringify(episodes.filter((episode) => episode.concept_ids.includes(concept.concept_id)).map((episode) => episode.id))));
+    check("Depth concept statuses and mechanism links are valid", depthMap.concepts.every((concept) => depthStatuses.has(concept.depth_status)
+      && concept.related_mechanism_ids.every((id) => mechanismIds.has(id))));
+    check("Depth map assesses ten groups and at least twenty major mechanisms", depthMap.groups.length === groups.length
+      && groups.every((group) => depthMap.groups.some((entry) => entry.group_id === group.id))
+      && depthMap.mechanisms.length >= 20, `${depthMap.groups.length} groups, ${depthMap.mechanisms.length} mechanisms`);
+    check("Depth mechanism milestones and coverage resolve", depthMap.mechanisms.every((mechanism) => depthStatuses.has(mechanism.current_depth_status)
+      && mechanism.concept_ids.every((id) => conceptIds.has(id))
+      && [mechanism.first_introduced_episode, ...mechanism.development_episodes, ...mechanism.integration_episodes, ...mechanism.recall_episodes].every((id) => episodeIds.has(id))
+      && mechanism.group_coverage.length === groups.length
+      && mechanism.group_coverage.every((coverage) => depthStatuses.has(coverage.status)
+        && groups.some((group) => group.id === coverage.group_id)
+        && coverage.episode_ids.every((id) => episodeIds.has(id))
+        && (coverage.status === "missing" || coverage.episode_ids.length > 0))));
+    const calculatedCounts = Object.fromEntries([...depthStatuses].map((status) => [status, depthMap.concepts.filter((concept) => concept.depth_status === status).length]));
+    check("Depth summary counts match concept records", [...depthStatuses].every((status) => depthMap.summary.concept_status_counts[status] === calculatedCounts[status])
+      && depthMap.summary.concepts_with_adequate_depth === calculatedCounts.built + calculatedCounts.integrated);
+  }
+
   const screenplays = readJson("screenplays");
   const screenplayById = new Map(screenplays.map((version) => [version.id, version]));
   const stageDecisions = decisions.filter((decision) => decision.decision_type === "screenplay_stage_approval");

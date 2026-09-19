@@ -16,6 +16,7 @@ export default async function Home() {
         <p>Read the source material and review the complete draft chronology before locations, release packaging, or screenplays advance.</p>
         <div className="actions">
           <Link className="button primary" href="/chronology">Review Chronology v1</Link>
+          <Link className="button" href="/depth-map">Open depth map</Link>
           <Link className="button" href="/concepts">Browse concepts</Link>
           <Link className="button" href="/sources">Open sources</Link>
         </div>
@@ -61,6 +62,11 @@ export default async function Home() {
         <Link className="feature-card" href="/arc">
           <span className="feature-index">03</span>
           <div><h2>Story arc</h2><p>{dev.groups.length} chronological groups, {dev.draftFilmTotal} draft films, {dev.conceptGroup.size} concepts placed. Draft for review.</p></div>
+          <span className="feature-arrow" aria-hidden="true">→</span>
+        </Link>
+        <Link className="feature-card" href="/depth-map">
+          <span className="feature-index">A</span>
+          <div><h2>Abhidhamma depth</h2><p>Concept, mechanism, and group-level teaching depth across all 98 films.</p></div>
           <span className="feature-arrow" aria-hidden="true">→</span>
         </Link>
       </div>

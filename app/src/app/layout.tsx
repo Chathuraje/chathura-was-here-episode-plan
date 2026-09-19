@@ -17,6 +17,7 @@ const navigation = [
   { href: "/ideas", label: "Ideas", number: "04" },
   { href: "/chronology", label: "Chronology", number: "05" },
   { href: "/learning", label: "Learning path" },
+  { href: "/depth-map", label: "Depth map" },
   { href: "/locations", label: "Locations", number: "06" },
   { href: "/release", label: "Release", number: "07" },
   { href: "/screenplays", label: "Screenplays", number: "08" },

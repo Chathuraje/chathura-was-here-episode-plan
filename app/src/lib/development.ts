@@ -7,6 +7,105 @@ export const DEVELOPMENT_DIR = path.join(REPO_DIR, "development");
 export const TARGET_DEVELOPMENT_FILMS = 98;
 export const TARGET_GROUPS = 10;
 
+export type DepthStatus =
+  | "missing"
+  | "surface_only"
+  | "introduced"
+  | "built"
+  | "integrated"
+  | "dangerously_compressed";
+
+export type DepthConcept = {
+  concept_id: string;
+  title: string;
+  title_si: string;
+  group_id: string;
+  linked_episode_ids: string[];
+  linked_episodes: { id: string; global_position: number; title: string; lesson_in_simple_terms: string }[];
+  depth_status: DepthStatus;
+  depth_reason: string;
+  viewer_understanding_summary: string;
+  risks: string[];
+  related_mechanism_ids: string[];
+  review_priority: "low" | "medium" | "high";
+  teaching_risk: string;
+  notes_for_chathura_review: string;
+};
+
+export type DepthMechanism = {
+  mechanism_id: string;
+  name: string;
+  summary: string;
+  concept_ids: string[];
+  first_introduced_episode: string;
+  development_episodes: string[];
+  integration_episodes: string[];
+  recall_episodes: string[];
+  current_depth_status: DepthStatus;
+  viewer_understanding_summary: string;
+  compression_risks: string[];
+  review_priority: "low" | "medium" | "high";
+  group_coverage: { group_id: string; status: DepthStatus; episode_ids: string[] }[];
+  notes: string;
+};
+
+export type DepthGroup = {
+  group_id: string;
+  title: string;
+  chronological_position: number;
+  emotional_stage: string;
+  concept_count: number;
+  episode_count: number;
+  overall_teaching_depth_status: DepthStatus;
+  status_counts: Record<DepthStatus, number>;
+  strong_areas: string[];
+  weak_or_compressed_areas: string[];
+  what_a_viewer_likely_learns: string;
+  internal_progression_assessment: string;
+  handoff_assessment: string;
+  strongest_mechanisms: { mechanism_id: string; name: string; status: DepthStatus }[];
+  most_compressed_mechanisms: { mechanism_id: string; name: string; status: DepthStatus }[];
+  risks: string[];
+  readiness_for_chronology_review: string;
+  review_priority: "low" | "medium" | "high";
+  recommendation_summary: string;
+};
+
+export type DepthMap = {
+  schema_version: number;
+  id: string;
+  record_type: string;
+  title: string;
+  status: string;
+  generated_at: string;
+  analytical_boundary: string;
+  source_inputs: string[];
+  methodology: {
+    lens: string;
+    levels: Record<string, string>;
+    status_definitions: Record<DepthStatus, string>;
+    rules: string[];
+  };
+  summary: {
+    verdict: string;
+    verdict_text: string;
+    total_concepts: number;
+    total_episodes: number;
+    total_groups: number;
+    major_mechanisms_assessed: number;
+    concept_status_counts: Record<DepthStatus, number>;
+    concepts_with_adequate_depth: number;
+    high_risk_concepts: string[];
+    high_risk_mechanisms: string[];
+    strongest_groups: string[];
+    first_review_groups: string[];
+  };
+  recommendations: { priority: "low" | "medium" | "high"; target: string; category: string; text: string }[];
+  concepts: DepthConcept[];
+  mechanisms: DepthMechanism[];
+  groups: DepthGroup[];
+};
+
 type Envelope = {
   schema_version: number;
   id: string;
@@ -304,6 +403,11 @@ export async function getDevelopment(): Promise<Development> {
     screenplays,
     decisions,
   };
+}
+
+export async function getDepthMap(): Promise<DepthMap> {
+  const file = path.join(DEVELOPMENT_DIR, "analysis", "abhidhamma-depth-map.json");
+  return JSON.parse(await fs.readFile(file, "utf8")) as DepthMap;
 }
 
 /** Latest version of each screenplay stage for one episode. */
