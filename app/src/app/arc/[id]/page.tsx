@@ -17,8 +17,8 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
   const next = dev.groups[index + 1];
   const ideas = dev.ideas.filter((idea) => idea.group_id === group.id);
   const digested = group.concepts.filter((concept) => dev.digests.has(concept.id)).length;
-  const firstEpisode = 2 + dev.groups.slice(0, index).reduce((total, item) => total + item.draft_film_count, 0);
-  const lastEpisode = firstEpisode + group.draft_film_count - 1;
+  const firstFilm = 1 + dev.groups.slice(0, index).reduce((total, item) => total + item.draft_film_count, 0);
+  const lastFilm = firstFilm + group.draft_film_count - 1;
 
   return (
     <>
@@ -28,7 +28,7 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
         <h1>{group.title}</h1>
         <p className="lead-question">{group.human_question}</p>
         <div className="concept-header-meta">
-          <span>Episodes {firstEpisode}–{lastEpisode}</span>
+          <span>Chronology {firstFilm}–{lastFilm}</span>
           <span>{group.concepts.length} concepts</span>
           <span>{digested} readable overviews</span>
           <span>{ideas.length} candidate ideas</span>
@@ -49,7 +49,7 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
           {group.lesson ? <GroupLessonView lesson={group.lesson} /> : null}
 
           <section className="source-document" id="episode-shape">
-            <div className="source-document-head"><div><span>Episodes {firstEpisode}–{lastEpisode}</span><h2>How this stage develops</h2></div></div>
+            <div className="source-document-head"><div><span>Development films {firstFilm}–{lastFilm}</span><h2>How this stage develops</h2></div></div>
             <div className="arc-phase-grid">
               <div><span>01</span><b>Opening</b><p>{group.arc.opening}</p></div>
               <div><span>02</span><b>Middle</b><p>{group.arc.middle}</p></div>

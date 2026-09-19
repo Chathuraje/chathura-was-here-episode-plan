@@ -19,7 +19,7 @@ export default async function LocationsPage() {
         <h1>Locations</h1>
         <p>
           Every film with its requirements, the AI suggestions and your current choice. Suggestions are only suggestions:
-          open a film and record your own decision. Treatments and screenplays unlock one film at a time as you choose.
+          open a film and record your own decision. Location choice permits treatment planning, but production remains gated by research and explicit screenplay-stage approvals. Chronology v1 review is the current primary creative step.
         </p>
       </header>
 

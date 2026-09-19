@@ -21,15 +21,15 @@ export default async function ReleasePage() {
         <div className="eyebrow">06 / Release order</div>
         <h1>Release planner</h1>
         <p>
-          Release order ignores chronology and is built around where films are shot. Series form automatically from the regions of the
-          locations Chathura selects. This is a live proposal; public numbers 2–98 are assigned only at the release-planning review.
+          Region clusters below are a proposal only. Chathura may merge or split them, create journey-based series, reorder films,
+          assign the ten seasons, and assign public numbers 2–98. Season 1 must contain exactly eight episodes; later season counts may differ.
         </p>
       </header>
 
       <section className="summary" aria-label="Release summary">
         <div><strong>{pool.length - awaiting.length}/{pool.length}</strong><span>films with a location</span></div>
         <div><strong>{series.length}</strong><span>proposed series</span></div>
-        <div><strong>3</strong><span>pinned films (1, 99, 100)</span></div>
+        <div><strong>2</strong><span>public pins (1 and 99)</span></div>
         <div><strong>{awaiting.length}</strong><span>waiting for a location</span></div>
       </section>
 
@@ -39,7 +39,7 @@ export default async function ReleasePage() {
 
       {series.map(([region, episodes], index) => (
         <section className="concept-section" key={region}>
-          <div className="section-heading"><span>S{index + 1}</span><h2>{region}</h2><small>{episodes.length} films · series length is free</small></div>
+          <div className="section-heading"><span>P{index + 1}</span><h2>{region}</h2><small>{episodes.length} films · proposed cluster, not a season</small></div>
           <div className="concept-list">
             {episodes.map((episode) => (
               <Link className="chrono-row" href={`/episodes/${episode.id}`} key={episode.id}>
@@ -60,8 +60,10 @@ export default async function ReleasePage() {
         </section>
       )}
       <section className="concept-section">
-        <div className="section-heading"><span>100</span><h2>Episode 100: The Way Back</h2><small>pinned · framing film</small></div>
+        <div className="section-heading"><span>100</span><h2>Episode 100: The Way Back</h2><small>hidden/discoverable · outside the ordinary public 1–99 structure</small></div>
       </section>
+
+      <p className="notice">Chronology v1 remains draft until Chathura approves it. These clusters do not authorize release order, season membership, or public numbers.</p>
 
       {awaiting.length > 0 && (
         <section className="concept-section">

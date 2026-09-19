@@ -1,6 +1,10 @@
-# Episode-development planning foundation
+# Episode-development planning and implemented foundation
 
-This directory contains the Step 1 audit and proposals for extending the current source/concept browser into a complete episode-development system, plus one small draft concept-to-idea pilot. It does not contain an episode slate, approved concept conversions, new screenplays, or implemented dashboard features.
+## Current implemented state — 2026-09-19
+
+The repository now contains the complete source library, 102 concepts, 102 concept digests, ten draft chronological groups, a candidate idea pool, the full 98-film draft Chronology v1 slate, ten planned object-acquisition points, the viewer-learning layer, location-selection records/UI, a proposal-only release planner, and gated screenplay-pipeline infrastructure. Chronology v1 is complete as a draft but is **not creatively approved**; Chathura's GRP-01 → GRP-10 review is the next primary creative phase. No locations, object identities, real participants/access, release order for public numbers 2–98, or screenplay stages are approved by this status summary.
+
+The dated audit and proposal documents below preserve the reasoning and repository state that existed when they were written. Their historical statements do not override this current status.
 
 ## Documents
 
@@ -19,7 +23,7 @@ Retrieved external-reference planning summaries:
 
 These repository files are dated, planning-relevant summaries of external Google Docs. They are not complete document or screenplay exports; the full originals remain external and are not present in the repository.
 
-## Small Step 2 pilot — draft completed for review
+## Historical snapshot / original Step 2 pilot
 
 The [Pilot 01 review package](pilot-01/README.md) uses the three Chathura-selected concepts C020, C032, and C084 to test only the early pipeline. It contains:
 
@@ -30,15 +34,16 @@ The [Pilot 01 review package](pilot-01/README.md) uses the three Chathura-select
 5. location requirements only, with `selected_location_id` left `null`;
 6. one complete-brief preview in equivalent Markdown and JSON forms with a validated provenance manifest.
 
-The package stops at idea review. It does not assign release numbers, build chronological groups, select locations, or write a screenplay.
+At the time it was created, the package stopped at idea review and did not assign release numbers, build groups, select locations, or write a screenplay. The repository has since implemented groups and the draft chronological slate; the pilot remains useful provenance, not the current project-state summary.
 
-## Decisions needed before further development
+## Decisions still waiting for Chathura
 
-- Approve or revise the three draft Sinhala explanations and their English editorial interpretations.
-- Decide whether either candidate idea merits reality research and refinement.
-- Assess whether the selected concepts need additional `Abhidharma Margaya` provenance before their interpretations can be approved.
-- Resolve or independently check C084’s “eight” heading with only seven supplied categories before doctrinal publication.
+- Approve or revise Chronology v1 across GRP-01 → GRP-10, including any episode revisions arising from that review.
+- Select locations and later verify object identities, participants, access, permissions, and documentary facts.
+- Approve release series, ten-season membership beyond the locked Season 1 count, and public numbers 2–98.
+- Review and approve each treatment and scene outline before the next screenplay stage; approve production screenplays separately.
+- Resolve source-specific uncertainties such as C084's “eight” heading with only seven supplied categories before doctrinal publication.
 
-The older distribution model affects later publication/discovery strategy; season-length rules affect later release packaging; the PDF archival policy affects long-term reproducibility; and Episode 99’s provisional crowd ending affects later framing/edit work. None blocks the small unnumbered concept-to-idea pilot. The external channel and framing references have been identified and retrieved, though they remain outside the repository.
+The ordinary public structure is Episodes 1–99 across ten seasons; Season 1 has exactly eight episodes. Episode 100 retains its identity but is hidden/discoverable outside that ordinary structure. The external channel and framing references remain planning evidence rather than verified footage records.
 
 Location selection remains exclusively Chathura’s at every stage.

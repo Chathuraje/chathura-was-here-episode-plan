@@ -6,11 +6,11 @@
   "title": "What Stopped the Pump",
   "logline": "A customer brings in a water pump that 'just stopped'. The repairer opens the casing, and what looked like one broken thing turns out to be several small failures that only add up once you look closely.",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "idea_ids": [
     "IDEA-0156"
   ],
@@ -122,5 +122,12 @@
     "builds_on": "The last film showed many supports holding up one harvest; this one turns the lens round and shows that when something stops, many small conditions stand behind that too.",
     "status": "draft",
     "evidence_class": "editorial interpretation grounded in cited source teaching"
+  },
+  "research": {
+    "status": "not_started",
+    "access_status": "unverified",
+    "participant_status": "unverified",
+    "permission_status": "unverified",
+    "evidence_ids": []
   }
 }

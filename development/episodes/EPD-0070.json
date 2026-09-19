@@ -6,11 +6,11 @@
   "title": "The Ledger",
   "logline": "A village shop's handwritten credit book holds decades of small debts, some paid next week, some after the harvest, some quietly struck through when the debtor dies.",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "idea_ids": [
     "IDEA-0140"
   ],
@@ -113,5 +113,12 @@
     "builds_on": "The last film showed a community holding one of its own through a night; this one turns to what is owed between people, and adds that results keep different clocks and some never come due.",
     "status": "draft",
     "evidence_class": "editorial interpretation grounded in cited source teaching"
+  },
+  "research": {
+    "status": "not_started",
+    "access_status": "unverified",
+    "participant_status": "unverified",
+    "permission_status": "unverified",
+    "evidence_ids": []
   }
 }

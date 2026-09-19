@@ -4,11 +4,11 @@
   "record_type": "chronological_group",
   "title": "The Body",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "chronological_position": 7,
   "emotional_stage": "Vulnerability",
   "tone": "physical, honest, humbling",
@@ -87,10 +87,20 @@
   ],
   "object_id": "OBJ-07",
   "candidate_idea_refs": [],
-  "episode_ids": [],
+  "episode_ids": [
+    "EPD-0058",
+    "EPD-0059",
+    "EPD-0060",
+    "EPD-0061",
+    "EPD-0062",
+    "EPD-0063",
+    "EPD-0064",
+    "EPD-0065",
+    "EPD-0066"
+  ],
   "unknowns": [
-    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
-    "Concept roles are English working glosses, not approved interpretations."
+    "The 98-film Chronology v1 slate now fixes this group's current film count, but the slate remains draft pending Chathura's creative approval.",
+    "Concept roles remain draft working glosses; completed digests do not make them creatively or doctrinally approved."
   ],
   "provenance": {
     "derived_from": [
@@ -117,6 +127,80 @@
     "builds_on": "The kindness group showed goodness arriving as a team of factors, among them lightness, pliancy and ease; this group follows kindness to the body it must care for, and finds that the body too is a team, kept going by many conditions and able to give way at any point.",
     "hands_to_next": "If a body stops in layers and nothing in it goes on being renewed, what, if anything, continues, and how is the end of one life linked to what follows?",
     "status": "draft",
-    "evidence_class": "editorial interpretation grounded in cited source teaching"
+    "evidence_class": "editorial interpretation grounded in cited source teaching",
+    "sources": [
+      {
+        "concept_id": "C068",
+        "citations": [
+          "C068-M:L13"
+        ]
+      },
+      {
+        "concept_id": "C066",
+        "citations": [
+          "C066-P:L84"
+        ]
+      },
+      {
+        "concept_id": "C094",
+        "citations": [
+          "C094-P4:L118"
+        ]
+      },
+      {
+        "concept_id": "C064",
+        "citations": [
+          "C064-P:L112"
+        ]
+      },
+      {
+        "concept_id": "C063",
+        "citations": [
+          "C063-P:L26"
+        ]
+      },
+      {
+        "concept_id": "C070",
+        "citations": [
+          "C070-P:L22"
+        ]
+      },
+      {
+        "concept_id": "C069",
+        "citations": [
+          "C069-M:L9"
+        ]
+      },
+      {
+        "concept_id": "C065",
+        "citations": [
+          "C065-P:L46"
+        ]
+      },
+      {
+        "concept_id": "C067",
+        "citations": [
+          "C067-P:L120"
+        ]
+      },
+      {
+        "concept_id": "C093",
+        "citations": [
+          "C093-M:L5"
+        ]
+      },
+      {
+        "concept_id": "C071",
+        "citations": [
+          "C071-P:L127–L139"
+        ]
+      },
+      {
+        "concept_id": "C072",
+        "citations": [
+          "C072-P:L16"
+        ]
+      }
+    ]
   }
 }

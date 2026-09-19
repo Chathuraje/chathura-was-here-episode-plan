@@ -13,10 +13,10 @@ export default async function Home() {
       <header className="hero">
         <div className="eyebrow">Knowledge library</div>
         <h1>Sources and concepts</h1>
-        <p>Read the original source material, browse the concepts extracted from it, and review how they become a 100-film story arc.</p>
+        <p>Read the source material and review the complete draft chronology before locations, release packaging, or screenplays advance.</p>
         <div className="actions">
-          <Link className="button primary" href="/concepts">Browse concepts</Link>
-          <Link className="button" href="/arc">Review story arc</Link>
+          <Link className="button primary" href="/chronology">Review Chronology v1</Link>
+          <Link className="button" href="/concepts">Browse concepts</Link>
           <Link className="button" href="/sources">Open sources</Link>
         </div>
       </header>
@@ -34,7 +34,7 @@ export default async function Home() {
           { label: "Candidate ideas", value: String(dev.ideas.length), href: "/ideas" },
           { label: "Films in slate", value: `${dev.episodes.length}/98`, href: "/chronology" },
           { label: "Locations chosen", value: `${dev.episodes.filter((episode) => episode.location.selected_location_id).length}/${dev.episodes.length || 98}`, href: "/locations" },
-          { label: "Release plan", value: "after locations", href: "/release" },
+          { label: "Release plan", value: "proposal only", href: "/release" },
           { label: "Screenplays", value: `${new Set(dev.screenplays.filter((version) => version.stage === "production").map((version) => version.episode_id)).size}/98`, href: "/screenplays" },
         ].map((step, index) => (
           <Link key={step.label} href={step.href} className="pipeline-step">
@@ -44,6 +44,8 @@ export default async function Home() {
           </Link>
         ))}
       </section>
+
+      <p className="notice">Current human gate: <b>CHATHURA — CHRONOLOGY V1 REVIEW</b>, GRP-01 → GRP-10. Location selection remains available, but it is not the next primary creative step.</p>
 
       <div className="feature-grid">
         <Link className="feature-card" href="/sources">

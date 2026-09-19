@@ -4,11 +4,11 @@
   "record_type": "object",
   "title": "Object 1",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "group_id": "GRP-01",
   "identity": null,
   "image": null,
@@ -17,8 +17,8 @@
     "status": "suggestion only; Chathura chooses the object"
   },
   "planned_acquisition": {
-    "where": "first chronological film of GRP-01",
-    "episode_id": null
+    "where": "EPD-0001 (first chronological development film of GRP-01; planned only)",
+    "episode_id": "EPD-0001"
   },
   "planned_appearances": "Subtle appearance in later films of the group; may recur in later groups.",
   "planned_ownership_at_episode_1": true,

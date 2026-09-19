@@ -4,11 +4,11 @@
   "record_type": "chronological_group",
   "title": "The Way Through",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "chronological_position": 10,
   "emotional_stage": "Peace",
   "tone": "still, clear, released",
@@ -127,10 +127,23 @@
   ],
   "object_id": "OBJ-10",
   "candidate_idea_refs": [],
-  "episode_ids": [],
+  "episode_ids": [
+    "EPD-0087",
+    "EPD-0088",
+    "EPD-0089",
+    "EPD-0090",
+    "EPD-0091",
+    "EPD-0092",
+    "EPD-0093",
+    "EPD-0094",
+    "EPD-0095",
+    "EPD-0096",
+    "EPD-0097",
+    "EPD-0098"
+  ],
   "unknowns": [
-    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
-    "Concept roles are English working glosses, not approved interpretations."
+    "The 98-film Chronology v1 slate now fixes this group's current film count, but the slate remains draft pending Chathura's creative approval.",
+    "Concept roles remain draft working glosses; completed digests do not make them creatively or doctrinally approved."
   ],
   "provenance": {
     "derived_from": [
@@ -160,6 +173,128 @@
     "builds_on": "Group 9 showed that what arises by conditions can also cease by conditions, so there is a way through; Group 10 takes up that promise and follows the texts along the way itself, from settling the mind to cutting a tendency at its root, and completes the map of four ultimate realities first named in Group 1.",
     "hands_to_next": "It hands directly to Episode 100, \"The Way Back\": the last film ends in the crowd that opens Episode 1, and the finale follows Chathura back along the road to the forest, leaving open on screen the question this group raised, what it would take to walk the way through.",
     "status": "draft",
-    "evidence_class": "editorial interpretation grounded in cited source teaching"
+    "evidence_class": "editorial interpretation grounded in cited source teaching",
+    "sources": [
+      {
+        "concept_id": "C073",
+        "citations": [
+          "C073-M:L5–L7"
+        ]
+      },
+      {
+        "concept_id": "C098",
+        "citations": [
+          "C098-P4:L205–L249"
+        ]
+      },
+      {
+        "concept_id": "C085",
+        "citations": [
+          "C085-P:L47"
+        ]
+      },
+      {
+        "concept_id": "C087",
+        "citations": [
+          "C087-M:L13"
+        ]
+      },
+      {
+        "concept_id": "C096",
+        "citations": [
+          "C096-P4:L26"
+        ]
+      },
+      {
+        "concept_id": "C013",
+        "citations": [
+          "C013-P:L48–L52"
+        ]
+      },
+      {
+        "concept_id": "C031",
+        "citations": [
+          "C031-P:L45"
+        ]
+      },
+      {
+        "concept_id": "C099",
+        "citations": [
+          "C099-P:L69–L79"
+        ]
+      },
+      {
+        "concept_id": "C088",
+        "citations": [
+          "C088-P4:L40"
+        ]
+      },
+      {
+        "concept_id": "C014",
+        "citations": [
+          "C014-P:L68"
+        ]
+      },
+      {
+        "concept_id": "C015",
+        "citations": [
+          "C015-P:L45"
+        ]
+      },
+      {
+        "concept_id": "C097",
+        "citations": [
+          "C097-M:L3"
+        ]
+      },
+      {
+        "concept_id": "C100",
+        "citations": [
+          "C100-P4:L44–L46"
+        ]
+      },
+      {
+        "concept_id": "C017",
+        "citations": [
+          "C017-P:L25"
+        ]
+      },
+      {
+        "concept_id": "C016",
+        "citations": [
+          "C016-P:L25"
+        ]
+      },
+      {
+        "concept_id": "C076",
+        "citations": [
+          "C076-P:L1081"
+        ]
+      },
+      {
+        "concept_id": "C089",
+        "citations": [
+          "C089-P4:L392"
+        ]
+      },
+      {
+        "concept_id": "C101",
+        "citations": [
+          "C101-P4:L34–L38"
+        ]
+      },
+      {
+        "concept_id": "C090",
+        "citations": [
+          "C090-P4:L127"
+        ]
+      },
+      {
+        "concept_id": "C102",
+        "citations": [
+          "C102-P:L43–L62"
+        ]
+      }
+    ]
   }
 }

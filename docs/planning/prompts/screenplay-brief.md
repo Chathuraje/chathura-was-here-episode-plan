@@ -5,8 +5,9 @@ Use this with an **episode brief** (dashboard: *Copy episode brief*, or `GET /ap
 ## Gate — check before writing anything
 
 1. The episode brief must show a **Selected location chosen by Chathura** (section 4). If it says "awaiting Chathura's choice", stop: write nothing and say that the location is needed.
-2. Write the stages in order and never skip one: **treatment → scene outline → production screenplay**. Each stage builds on the latest version of the previous stage, and Chathura should review each before the next.
-3. A post-filming version is written only from captured footage, transcripts and field notes. Never write one from imagination.
+2. Write the stages in order and never skip one: **treatment → Chathura approval → scene outline → Chathura approval → production screenplay**. A draft file existing is not approval. The episode brief must explicitly name the next writable stage.
+3. Before a production screenplay, the episode must have `research.status: sufficient_for_production`. Location selection alone does not verify access, participants, permissions, events, or place facts.
+4. A post-filming version is written only from captured footage, transcripts and field notes. Never write one from imagination.
 
 ## Non-negotiables
 
@@ -105,4 +106,5 @@ Save one JSON file per version as `development/screenplays/SPV-NNNN.json`. `NNNN
 
 - For a treatment, `scenes` is `[]`.
 - `based_on` holds the ID of the version this one builds on: `null` for a first treatment, the treatment's ID for an outline, and the outline's ID for a production screenplay.
-- After writing, run `cd app && node scripts/check-data.mjs`. It checks that the location gate and the stage order are respected.
+- An outline is valid only when a `screenplay_stage_approval` review decision by Chathura approves the exact treatment ID and version. Production requires the equivalent exact-version approval for the outline and production-level research readiness. Never create those approvals on Chathura's behalf.
+- After writing, run `cd app && npm run check`. It checks the location, research, exact-version approval, and stage-order gates.

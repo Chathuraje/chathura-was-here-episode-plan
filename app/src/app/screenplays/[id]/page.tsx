@@ -2,7 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import CopyButton from "@/components/CopyButton";
 import Markdown from "@/components/Markdown";
-import { getDevelopment } from "@/lib/development";
+import { recordScreenplayReview } from "@/app/screenplay-actions";
+import { getDevelopment, screenplayApproval } from "@/lib/development";
 
 const STAGE_LABEL: Record<string, string> = {
   treatment: "Treatment",
@@ -18,6 +19,7 @@ export default async function ScreenplayPage({ params }: { params: Promise<{ id:
   if (!version) notFound();
   const episode = dev.episodes.find((entry) => entry.id === version.episode_id);
   const place = version.location_id ? dev.places.get(version.location_id) : undefined;
+  const approval = screenplayApproval(dev, version);
   const totalSeconds = version.scenes.reduce((total, scene) => total + (scene.estimated_seconds || 0), 0);
 
   return (
@@ -82,6 +84,21 @@ export default async function ScreenplayPage({ params }: { params: Promise<{ id:
           </section>
           {version.unknowns.length > 0 && (
             <section className="panel"><h2>Unknowns</h2><ul>{version.unknowns.map((item) => <li key={item}>{item}</li>)}</ul></section>
+          )}
+          {version.stage !== "post_filming" && (
+            <section className="panel">
+              <span className="layer-label">Chathura review gate</span>
+              <h2>{approval?.outcome?.decision === "approved" ? "Approved" : approval?.outcome?.decision === "needs_revision" ? "Needs revision" : "Awaiting review"}</h2>
+              {approval ? <p className="panel-note">Decision {approval.id} applies to {version.id} v{version.version}.</p> : null}
+              <form action={recordScreenplayReview} className="location-form">
+                <input type="hidden" name="screenplay_id" value={version.id} />
+                <label className="choice"><input type="radio" name="decision" value="approved" required /><span>Approve this exact version for the next gate</span></label>
+                <label className="choice"><input type="radio" name="decision" value="needs_revision" required /><span>Request revision</span></label>
+                <textarea name="note" placeholder="Review note (optional)" rows={3} />
+                <button className="button primary" type="submit">Record Chathura&apos;s review</button>
+                <small className="muted-note">No approval is inferred from this file existing. This form records an explicit decision for this version.</small>
+              </form>
+            </section>
           )}
         </aside>
       </div>

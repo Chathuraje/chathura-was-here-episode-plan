@@ -6,11 +6,11 @@
   "title": "The Taster",
   "logline": "A tea taster tells a whole estate's story through sight, smell, taste and touch, then gives it a grade: a name built entirely from the senses.",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "idea_ids": [
     "IDEA-0006"
   ],
@@ -129,5 +129,12 @@
     "builds_on": "The well was named for what is absent; the taster's grade is built entirely from what is present to the senses, turning attention from the named thing to the doors through which it is known.",
     "status": "draft",
     "evidence_class": "editorial interpretation grounded in cited source teaching"
+  },
+  "research": {
+    "status": "not_started",
+    "access_status": "unverified",
+    "participant_status": "unverified",
+    "permission_status": "unverified",
+    "evidence_ids": []
   }
 }

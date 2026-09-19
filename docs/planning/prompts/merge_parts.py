@@ -1,9 +1,10 @@
 """Merge partial digests scratchpad/parts/<CID>-partN.json into development/digests/<CID>.json.
 Usage: python3 merge_parts.py C080 [C082 ...]"""
 import glob, json, os, sys, unicodedata
+from pathlib import Path
 
 S = os.path.dirname(os.path.abspath(__file__)) + "/"
-REPO = "/Volumes/chathura-pc/chathura-was-here-notes"
+REPO = str(Path(__file__).resolve().parents[3])
 TITLES_EN = {
     "C076": "The thirty-seven requisites of enlightenment",
     "C080": "The meaning of dependent origination",

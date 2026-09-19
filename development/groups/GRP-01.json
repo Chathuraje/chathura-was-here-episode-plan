@@ -4,11 +4,11 @@
   "record_type": "chronological_group",
   "title": "The Names of Things",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "chronological_position": 1,
   "emotional_stage": "Wonder",
   "tone": "bright, curious, open",
@@ -57,10 +57,19 @@
   ],
   "object_id": "OBJ-01",
   "candidate_idea_refs": [],
-  "episode_ids": [],
+  "episode_ids": [
+    "EPD-0001",
+    "EPD-0002",
+    "EPD-0003",
+    "EPD-0004",
+    "EPD-0005",
+    "EPD-0006",
+    "EPD-0007",
+    "EPD-0008"
+  ],
   "unknowns": [
-    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
-    "Concept roles are English working glosses, not approved interpretations."
+    "The 98-film Chronology v1 slate now fixes this group's current film count, but the slate remains draft pending Chathura's creative approval.",
+    "Concept roles remain draft working glosses; completed digests do not make them creatively or doctrinally approved."
   ],
   "provenance": {
     "derived_from": [
@@ -86,6 +95,44 @@
     "builds_on": "GRP-01 opens the series with wonder rather than doctrine: before any single state of mind is examined, it teaches the lens the whole journey uses, the difference between the names we live by and what is actually there, and it unfolds the full map of the mind that the following groups walk through region by region, with the fourth reality, Nibbāna, only named as a distant horizon.",
     "hands_to_next": "If names sit on top of passing moments, what in those moments makes us hold on? The group ends as the lantern comes down and leaves the next group to ask where wanting begins: in the pleasant feelings of the sense world, and in the kinds of mind rooted in greed.",
     "status": "draft",
-    "evidence_class": "editorial interpretation grounded in cited source teaching"
+    "evidence_class": "editorial interpretation grounded in cited source teaching",
+    "sources": [
+      {
+        "concept_id": "C084",
+        "citations": [
+          "C084-P:L25"
+        ]
+      },
+      {
+        "concept_id": "C001",
+        "citations": [
+          "C001-P:L51"
+        ]
+      },
+      {
+        "concept_id": "C018",
+        "citations": [
+          "C018-M:L3"
+        ]
+      },
+      {
+        "concept_id": "C003",
+        "citations": [
+          "C003-P:L25"
+        ]
+      },
+      {
+        "concept_id": "C002",
+        "citations": [
+          "C002-P:L34"
+        ]
+      },
+      {
+        "concept_id": "C077",
+        "citations": [
+          "C077-P:L42"
+        ]
+      }
+    ]
   }
 }

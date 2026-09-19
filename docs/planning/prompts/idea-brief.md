@@ -3,8 +3,8 @@
 You write candidate film ideas for one chronological group of *Chathura Was Here*, a cinematic documentary series of 100 films, mainly in Sri Lanka.
 
 ## Read first
-1. Project rules: `/Volumes/chathura-pc/chathura-was-here-notes/docs/planning/02-project-rules.md`
-2. The channel reference: `/Volumes/chathura-pc/chathura-was-here-notes/docs/planning/references/channel-details-2026-09-18.md`
+1. Project rules: `docs/planning/02-project-rules.md`
+2. The channel reference: `docs/planning/references/channel-details-2026-09-18.md`
 3. Your group record: `development/groups/<GRP>.json`. Its emotional stage, question, journey, surface/depth, arc and hand-off are the frame for every idea.
 4. Every concept digest for your group: `development/digests/<CID>.json`. Read `summary_en`, `human_interpretation_en`, `does_not_transfer`, `story_seeds`, `uncertainties` and the Sinhala sections.
 5. The exemplar ideas from Group 1: `development/ideas/IDEA-0001.json`, `IDEA-0002.json` and `IDEA-0012.json`. Match their schema **exactly** and match their quality.

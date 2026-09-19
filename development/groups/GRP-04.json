@@ -4,11 +4,11 @@
   "record_type": "chronological_group",
   "title": "Lost",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "chronological_position": 4,
   "emotional_stage": "Confusion",
   "tone": "low, drifting, uncertain",
@@ -52,10 +52,19 @@
   ],
   "object_id": "OBJ-04",
   "candidate_idea_refs": [],
-  "episode_ids": [],
+  "episode_ids": [
+    "EPD-0028",
+    "EPD-0029",
+    "EPD-0030",
+    "EPD-0031",
+    "EPD-0032",
+    "EPD-0033",
+    "EPD-0034",
+    "EPD-0035"
+  ],
   "unknowns": [
-    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
-    "Concept roles are English working glosses, not approved interpretations."
+    "The 98-film Chronology v1 slate now fixes this group's current film count, but the slate remains draft pending Chathura's creative approval.",
+    "Concept roles remain draft working glosses; completed digests do not make them creatively or doctrinally approved."
   ],
   "provenance": {
     "derived_from": [
@@ -81,6 +90,38 @@
     "builds_on": "Group 3 showed anger burning first in the one who is angry; when that heat fades, what remains is confusion, and this group turns from the hot unwholesome states to the quiet delusion the texts find beneath all of them.",
     "hands_to_next": "Having slowed down in the fog, it leaves the question: what do we actually find when we look closely at a single moment of seeing?",
     "status": "draft",
-    "evidence_class": "editorial interpretation grounded in cited source teaching"
+    "evidence_class": "editorial interpretation grounded in cited source teaching",
+    "sources": [
+      {
+        "concept_id": "C008",
+        "citations": [
+          "C008-P:L34"
+        ]
+      },
+      {
+        "concept_id": "C074",
+        "citations": [
+          "C074-P:L404"
+        ]
+      },
+      {
+        "concept_id": "C033",
+        "citations": [
+          "C033-P:L27"
+        ]
+      },
+      {
+        "concept_id": "C086",
+        "citations": [
+          "C086-M:L7"
+        ]
+      },
+      {
+        "concept_id": "C049",
+        "citations": [
+          "C049-P:L55"
+        ]
+      }
+    ]
   }
 }

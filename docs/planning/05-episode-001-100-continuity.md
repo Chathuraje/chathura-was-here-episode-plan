@@ -57,7 +57,7 @@ The labels below are descriptive planning labels, not implemented IDs.
 
 | Stable scene/event identity | Chronological relationship | Episode appearances | Status and unknowns |
 |---|---|---|---|
-| Crowded-location event | Before room/packing and the journey toward Meemure in intended story chronology | Episode 1 opening cuts away; Episode 100 opening continues beyond that cut; Episode 99 ending is planned to share it | Episode 1/100 relationship is intended and supported by external references; Episode 99 appearance remains provisional. Footage ID and all timecodes unknown |
+| Crowded-location event | Before room/packing and the journey toward Meemure in intended story chronology | Episode 1 opening cuts away; Episode 100 opening continues beyond that cut; Episode 99 ending shares it by current creative instruction | Episode 1/100 relationship is intended and supported by external references; Episode 99's crowd ending is locked as creative continuity, while footage ID and all timecodes remain unknown |
 | Road-resumption event | After room, packing, departure, and travel; before the monastery sequence | Episode 1 resumes here; Episode 100 Part A reaches the same planned point | Matching composition is specified; actual common footage, frame identity, footage ID, and timecodes remain unverified |
 | Selected Episode 1 revisit | After the road-resumption point and before the forest disappearance | Original Episode 1 sequence; selected material appears again within Episode 100 | Selection and intended meaning are planned; final shot list and edit boundaries unknown |
 | Forest-disappearance event | After the monastery experience; before beyond-forest continuation | Episode 1 ends after the disappearance/empty forest; Episode 100 reaches it and continues in Part B | Intended relationship is supported by both screenplays; footage ID, handoff timecode, and verified action remain unknown |
@@ -108,7 +108,7 @@ They do not provide usable footage IDs or technical edit timecodes. The words â€
 ## Continuity protections
 
 - Never fabricate crowd behavior, monastery events, participant dialogue, the route actually taken, object acquisition, or what occurs beyond the forest.
-- Retain Episode 99â€™s crowd ending as provisional until newer material or evidence supersedes it.
+- Retain Episode 99's crowd ending as current locked creative continuity. Keep the creative instruction separate from still-unverified footage IDs, timecodes, and captured events.
 - Keep planned ownership separate from verified acquisition and possession history.
 - Keep ownership separate from shot visibility, while retaining the explicit planned Episode 100 room-reveal exception.
 - Preserve production screenplay versions separately from post-filming revisions grounded in captured footage.

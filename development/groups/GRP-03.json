@@ -4,11 +4,11 @@
   "record_type": "chronological_group",
   "title": "Anger and Fear",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "chronological_position": 3,
   "emotional_stage": "Resistance",
   "tone": "hot, tense, heavy",
@@ -47,10 +47,20 @@
   ],
   "object_id": "OBJ-03",
   "candidate_idea_refs": [],
-  "episode_ids": [],
+  "episode_ids": [
+    "EPD-0019",
+    "EPD-0020",
+    "EPD-0021",
+    "EPD-0022",
+    "EPD-0023",
+    "EPD-0024",
+    "EPD-0025",
+    "EPD-0026",
+    "EPD-0027"
+  ],
   "unknowns": [
-    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
-    "Concept roles are English working glosses, not approved interpretations."
+    "The 98-film Chronology v1 slate now fixes this group's current film count, but the slate remains draft pending Chathura's creative approval.",
+    "Concept roles remain draft working glosses; completed digests do not make them creatively or doctrinally approved."
   ],
   "provenance": {
     "derived_from": [
@@ -77,6 +87,32 @@
     "builds_on": "The previous stage followed wanting from the pleasant feeling where it begins, and showed that it can come with joy; this stage picks up where wanting is blocked and turns into aversion, which the texts say never comes with joy.",
     "hands_to_next": "Having found delusion and restlessness underneath every flare of heat, and ending in a household that cannot settle, the group hands on the question of what it is that stops us seeing clearly once the heat has gone and only confusion remains.",
     "status": "draft",
-    "evidence_class": "editorial interpretation grounded in cited source teaching"
+    "evidence_class": "editorial interpretation grounded in cited source teaching",
+    "sources": [
+      {
+        "concept_id": "C007",
+        "citations": [
+          "C007-P:L59"
+        ]
+      },
+      {
+        "concept_id": "C022",
+        "citations": [
+          "C022-P:L121"
+        ]
+      },
+      {
+        "concept_id": "C026",
+        "citations": [
+          "C026-M:L19"
+        ]
+      },
+      {
+        "concept_id": "C028",
+        "citations": [
+          "C028-P:L31"
+        ]
+      }
+    ]
   }
 }

@@ -13,6 +13,18 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
   const episode = context.episode;
   const markdown = briefToMarkdown(brief);
   const location = episode.location;
+  const stageTitle: Record<typeof context.next_stage, string> = {
+    blocked_location: "Waiting for Chathura's location choice",
+    treatment: "Next: treatment",
+    awaiting_treatment_approval: "Waiting for Chathura's treatment approval",
+    scene_outline: "Next: scene outline",
+    awaiting_outline_approval: "Waiting for Chathura's outline approval",
+    blocked_research: "Waiting for production-level research",
+    production: "Next: production screenplay",
+    awaiting_production_approval: "Waiting for Chathura's production approval",
+    production_ready: "Production screenplay approved",
+    post_filming: "Post-filming revision",
+  };
 
   return (
     <>
@@ -27,7 +39,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
           <CopyButton text={markdown} label="Copy episode brief" />
           <a className="button" href={`/api/episodes/${episode.id}?format=md`} target="_blank" rel="noreferrer">Open as Markdown</a>
           <a className="button" href={`/api/episodes/${episode.id}`} target="_blank" rel="noreferrer">JSON for agents</a>
-          <Link className="button" href={`/ideas/${idea.id}`}>Idea {idea.id}</Link>
+          {brief.source_ideas.map((sourceIdea) => <Link className="button" href={`/ideas/${sourceIdea.idea.id}`} key={sourceIdea.idea.id}>Idea {sourceIdea.idea.id}</Link>)}
         </div>
       </header>
 
@@ -58,11 +70,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
           </section>
 
           <section className="source-document">
-            <div className="source-document-head"><div><span>Screenplay</span><h2>{
-              context.next_stage === "blocked_location" ? "Waiting for Chathura's location choice"
-                : context.next_stage === "complete" ? "Production screenplay ready"
-                : `Next: ${context.next_stage.replace("_", " ")}`
-            }</h2></div></div>
+            <div className="source-document-head"><div><span>Screenplay</span><h2>{stageTitle[context.next_stage]}</h2></div></div>
             <div className="chip-list">
               {(["treatment", "scene_outline", "production"] as const).map((stage) => {
                 const version = context.stages[stage];
@@ -71,9 +79,10 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
                   : <span className="chip-static" key={stage}>{stage.replace("_", " ")}: not yet</span>;
               })}
             </div>
-            {context.next_stage !== "blocked_location" && context.next_stage !== "complete" && (
+            {(["treatment", "scene_outline", "production"] as string[]).includes(context.next_stage) && (
               <p className="panel-note">Copy the episode brief and give it to an AI with <code>docs/planning/prompts/screenplay-brief.md</code>, or ask Claude to write the next stage for {episode.id}.</p>
             )}
+            <p className="panel-note">Research: {episode.research.status}. Access: {episode.research.access_status}; participants: {episode.research.participant_status}; permissions: {episode.research.permission_status}.</p>
           </section>
 
           <section className="source-document">
@@ -102,6 +111,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
             ) : (
               <p className="panel-note warn">No location selected. Treatment and screenplay work waits for this.</p>
             )}
+            <p className="panel-note"><b>Research readiness:</b> {episode.research.status}. Choosing a place does not verify access, participants, permissions or documentary facts.</p>
             <span className="layer-label">Requirements</span>
             <ul>{location.requirements.map((item) => <li key={item}>{item}</li>)}</ul>
 

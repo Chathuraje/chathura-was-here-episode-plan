@@ -9,12 +9,12 @@ export default async function ArcPage() {
   const filmsOk = dev.draftFilmTotal === TARGET_DEVELOPMENT_FILMS;
   const episodeOne = dev.framing.find((episode) => episode.release.public_number === 1);
   const episodeOneHundred = dev.framing.find((episode) => episode.release.public_number === 100);
-  let nextEpisode = 2;
+  let nextFilm = 1;
   const groups = dev.groups.map((group) => {
-    const firstEpisode = nextEpisode;
-    const lastEpisode = firstEpisode + group.draft_film_count - 1;
-    nextEpisode = lastEpisode + 1;
-    return { group, firstEpisode, lastEpisode };
+    const firstFilm = nextFilm;
+    const lastFilm = firstFilm + group.draft_film_count - 1;
+    nextFilm = lastFilm + 1;
+    return { group, firstFilm, lastFilm };
   });
 
   return (
@@ -22,9 +22,9 @@ export default async function ArcPage() {
       <header className="page-header arc-page-header">
         <div className="eyebrow">03 / Series journey</div>
         <h1>Story arc</h1>
-        <p>Follow the complete 100-episode experience in public order: Episode 1 opens the journey, Episodes 2–99 move through ten connected stages, and Episode 100 brings the framing story to its close.</p>
+        <p>Review the draft story chronology across ten connected stages. The ordinary public structure is Episodes 1–99; Episode 100 keeps its identity but is hidden/discoverable outside that structure.</p>
         <div className="catalogue-summary" aria-label="Story arc summary">
-          <span><strong>100</strong> total episodes</span>
+          <span><strong>99</strong> ordinary public episodes</span>
           <span><strong>{dev.groups.length}</strong> story groups</span>
           <span><strong>{assigned}</strong> concepts placed</span>
         </div>
@@ -32,13 +32,13 @@ export default async function ArcPage() {
 
       <nav className="arc-order" aria-label="Jump through the series order">
         <a className="arc-order-bookend" href="#episode-1"><span>Episode 1</span><small>Opening</small></a>
-        {groups.map(({ group, firstEpisode, lastEpisode }) => (
+        {groups.map(({ group, firstFilm, lastFilm }) => (
           <a href={`#${group.id}`} key={group.id}>
             <span>{String(group.chronological_position).padStart(2, "0")}</span>
-            <small>Ep {firstEpisode}–{lastEpisode}</small>
+            <small>Film {firstFilm}–{lastFilm}</small>
           </a>
         ))}
-        <a className="arc-order-bookend" href="#episode-100"><span>Episode 100</span><small>Finale</small></a>
+        <a className="arc-order-bookend" href="#episode-100"><span>Episode 100</span><small>Hidden / discoverable</small></a>
       </nav>
 
       <section className="summary arc-summary" aria-label="Arc development status">
@@ -62,20 +62,20 @@ export default async function ArcPage() {
             <p>Each group connects a cluster of concepts to one emotional stage and one part of the journey.</p>
           </div>
           <div className="group-grid">
-            {groups.map(({ group, firstEpisode, lastEpisode }) => {
+            {groups.map(({ group, firstFilm, lastFilm }) => {
               const object = dev.objects.get(group.object_id);
               const overviewCount = group.concepts.filter((concept) => dev.digests.has(concept.id)).length;
               return (
                 <Link className="group-card" href={`/arc/${group.id}`} id={group.id} key={group.id}>
                   <div className="group-card-head">
                     <span className="group-number">Stage {String(group.chronological_position).padStart(2, "0")}</span>
-                    <span className="badge">Episodes {firstEpisode}–{lastEpisode}</span>
+                    <span className="badge">Chronology {firstFilm}–{lastFilm}</span>
                   </div>
                   <div className="group-stage">{group.emotional_stage}</div>
                   <h3>{group.title}</h3>
                   <p>{group.human_question}</p>
                   <div className="group-meta">
-                    <span>{group.draft_film_count} episodes</span>
+                    <span>{group.draft_film_count} development films</span>
                     <span>{group.concepts.length} concepts</span>
                     <span>{overviewCount} overviews</span>
                     <span>{object?.title ?? group.object_id}</span>
@@ -87,11 +87,11 @@ export default async function ArcPage() {
           </div>
         </section>
 
-        {episodeOneHundred ? <FramingCard episode={episodeOneHundred} label="The closing frame" /> : null}
+        {episodeOneHundred ? <FramingCard episode={episodeOneHundred} label="The hidden frame" /> : null}
       </div>
 
       <p className="notice arc-continuity-note">
-        <strong>Continuity note:</strong> the public order remains Episode 1 first and Episode 100 last. Episode 100 deliberately revisits and extends Episode 1&apos;s material, creating the story-time overlap between them.
+        <strong>Continuity note:</strong> Episode 100 is not a normal public finale. It is hidden/discoverable and deliberately surrounds Episode 1 in story time: Episode 100 Part A → Episode 1 → Episode 100 Part B.
       </p>
     </>
   );

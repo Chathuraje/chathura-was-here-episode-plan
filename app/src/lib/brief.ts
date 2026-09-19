@@ -1,5 +1,7 @@
 import { getData, readDoc } from "./content";
-import { getDevelopment, latestStages, ownedObjectsAt, type Digest, type ScreenplayVersion, type Episode, type Group, type Idea, type Place, type StoryObject } from "./development";
+import { getDevelopment, latestStages, ownedObjectsAt, screenplayNextStage, type Digest, type ScreenplayVersion, type Episode, type Group, type Idea, type Place, type ScreenplayNextStage, type StoryObject } from "./development";
+import { citationsInText } from "./citation-utils.mjs";
+import { resolveBriefSourceIdeas } from "./brief-ideas.mjs";
 
 export const PROJECT_RULES = [
   "Chathura Was Here is a cinematic documentary series, mainly set in Sri Lanka. The governing sequence is Story → Place → Experience.",
@@ -12,9 +14,10 @@ export const PROJECT_RULES = [
   "Every film ends with 'A Film by Chathura', then the project logo.",
   "Narration is written in English for now; Sinhala translation comes later.",
   "Keep the evidence classes separate: source teaching, editorial interpretation, documentary possibility, verified evidence.",
+  "The ordinary public structure is Episodes 1–99 across 10 seasons. Season 1 has exactly 8 episodes; later seasons may have unequal counts. Episode 100 keeps its number but is hidden/discoverable outside the ordinary public structure.",
+  "Chronology v1 is a complete 98-film draft awaiting Chathura's creative approval. Release order, seasons beyond the locked rules, locations, research, and screenplay approvals remain human decisions.",
 ];
 
-const CITATION = /\b(C\d{3}-[A-Z0-9]+):L(\d+)(?:\s*[–-]\s*L?(\d+))?/g;
 const MAX_LINES_PER_SOURCE = 250;
 
 type Range = [number, number];
@@ -27,12 +30,11 @@ function citedRanges(digest: Digest): Map<string, Range[]> {
     ...digest.uncertainties,
   ].join("\n");
   const ranges = new Map<string, Range[]>();
-  for (const match of text.matchAll(CITATION)) {
-    const start = Number(match[2]);
-    const end = Number(match[3] ?? match[2]);
-    const list = ranges.get(match[1]) ?? [];
+  for (const citation of citationsInText(text)) {
+    const { start, end } = citation;
+    const list = ranges.get(citation.ref) ?? [];
     list.push([Math.min(start, end), Math.max(start, end)]);
-    ranges.set(match[1], list);
+    ranges.set(citation.ref, list);
   }
   for (const [ref, list] of ranges) {
     list.sort((a, b) => a[0] - b[0]);
@@ -71,10 +73,22 @@ async function citedSources(digest: Digest): Promise<CitedSource[]> {
 export type IdeaBrief = {
   generated_at: string;
   idea: Idea;
+  source_ideas: {
+    presentation_role: "primary" | "linked";
+    idea: Idea;
+    related_ideas: { id: string; title: string; relation: string; note: string }[];
+  }[];
   group: Group | null;
   object: StoryObject | null;
   related_ideas: { id: string; title: string; relation: string; note: string }[];
-  concepts: { id: string; title_si: string; role: string; why: string; digest: Digest | null }[];
+  concepts: {
+    id: string;
+    title_si: string;
+    role: string;
+    why: string;
+    digest: Digest | null;
+    idea_links: { idea_id: string; role: string; why: string }[];
+  }[];
   citations: CitedSource[];
   rules: string[];
   manifest: { id: string; version: number; status: string }[];
@@ -90,36 +104,59 @@ export type EpisodeContext = {
   is_first: boolean;
   is_last: boolean;
   stages: Partial<Record<ScreenplayVersion["stage"], ScreenplayVersion>>;
-  next_stage: ScreenplayVersion["stage"] | "blocked_location" | "complete";
+  next_stage: ScreenplayNextStage;
 };
 
-export async function buildIdeaBrief(ideaId: string): Promise<IdeaBrief | null> {
+async function buildBrief(ideaIds: string[]): Promise<IdeaBrief | null> {
   const [data, dev] = await Promise.all([getData(), getDevelopment()]);
-  const idea = dev.ideas.find((entry) => entry.id === ideaId);
-  if (!idea) return null;
+  const resolvedIdeas = resolveBriefSourceIdeas(ideaIds, dev.ideas);
+  if (!resolvedIdeas.length || resolvedIdeas.some((context) => !context)) return null;
+  const sourceIdeas = resolvedIdeas as { presentation_role: "primary" | "linked"; idea: Idea }[];
+  const ideas = sourceIdeas.map((context) => context.idea);
+  const idea = ideas[0];
   const group = dev.groups.find((entry) => entry.id === idea.group_id) ?? null;
   const object = group ? dev.objects.get(group.object_id) ?? null : null;
-  const concepts = idea.concept_links.map((link) => ({
-    id: link.concept_id,
-    title_si: data.concepts.get(link.concept_id)?.title ?? "",
-    role: link.role,
-    why: link.why,
-    digest: dev.digests.get(link.concept_id) ?? null,
+  const source_ideas = sourceIdeas.map(({ idea: sourceIdea, presentation_role }) => ({
+    presentation_role,
+    idea: sourceIdea,
+    related_ideas: sourceIdea.connections.map((connection) => ({
+      id: connection.idea_id,
+      title: dev.ideas.find((entry) => entry.id === connection.idea_id)?.title ?? "",
+      relation: connection.relation,
+      note: connection.note,
+    })),
   }));
-  // Verbatim passages only for primary concepts; supporting concepts stay summarised to keep the brief pasteable.
-  const citations = (await Promise.all(
-    concepts.map((concept) => (concept.digest && concept.role === "primary" ? citedSources(concept.digest) : [])),
-  )).flat();
-  const related_ideas = idea.connections.map((connection) => ({
-    id: connection.idea_id,
-    title: dev.ideas.find((entry) => entry.id === connection.idea_id)?.title ?? "",
-    relation: connection.relation,
-    note: connection.note,
-  }));
-  const manifest = [idea, group, object, ...concepts.map((concept) => concept.digest)]
+  const concepts = [...new Set(ideas.flatMap((sourceIdea) => sourceIdea.concept_links.map((link) => link.concept_id)))].map((conceptId) => {
+    const idea_links = ideas.flatMap((sourceIdea) => sourceIdea.concept_links
+      .filter((link) => link.concept_id === conceptId)
+      .map((link) => ({ idea_id: sourceIdea.id, role: link.role, why: link.why })));
+    const first = idea_links[0];
+    return {
+      id: conceptId,
+      title_si: data.concepts.get(conceptId)?.title ?? "",
+      role: first.role,
+      why: first.why,
+      digest: dev.digests.get(conceptId) ?? null,
+      idea_links,
+    };
+  });
+  // Verbatim passages are included once for every concept that is primary to any attached source idea.
+  const cited = (await Promise.all(concepts.map((concept) => concept.digest
+    && concept.idea_links.some((link) => link.role === "primary") ? citedSources(concept.digest) : []))).flat();
+  const citations = cited.filter((source, index) => cited.findIndex((candidate) => candidate.ref === source.ref
+    && candidate.path === source.path
+    && JSON.stringify(candidate.ranges) === JSON.stringify(source.ranges)) === index);
+  const related_ideas = source_ideas.flatMap((context) => context.related_ideas)
+    .filter((related, index, all) => all.findIndex((candidate) => candidate.id === related.id
+      && candidate.relation === related.relation && candidate.note === related.note) === index);
+  const manifest = [...ideas, group, object, ...concepts.map((concept) => concept.digest)]
     .filter((record): record is NonNullable<typeof record> => Boolean(record))
     .map((record) => ({ id: record.id, version: record.version, status: record.status }));
-  return { generated_at: new Date().toISOString(), idea, group, object, related_ideas, concepts, citations, rules: PROJECT_RULES, manifest };
+  return { generated_at: new Date().toISOString(), idea, source_ideas, group, object, related_ideas, concepts, citations, rules: PROJECT_RULES, manifest };
+}
+
+export async function buildIdeaBrief(ideaId: string): Promise<IdeaBrief | null> {
+  return buildBrief([ideaId]);
 }
 
 export async function buildEpisodeBrief(episodeId: string): Promise<IdeaBrief | null> {
@@ -127,7 +164,7 @@ export async function buildEpisodeBrief(episodeId: string): Promise<IdeaBrief | 
   const index = dev.episodes.findIndex((entry) => entry.id === episodeId);
   if (index < 0) return null;
   const episode = dev.episodes[index];
-  const brief = await buildIdeaBrief(episode.idea_ids[0]);
+  const brief = await buildBrief(episode.idea_ids);
   if (!brief) return null;
   const previous = dev.episodes[index - 1];
   const next = dev.episodes[index + 1];
@@ -140,12 +177,8 @@ export async function buildEpisodeBrief(episodeId: string): Promise<IdeaBrief | 
     is_first: index === 0,
     is_last: index === dev.episodes.length - 1,
     stages: latestStages(dev, episode.id),
-    next_stage: "blocked_location",
+    next_stage: screenplayNextStage(dev, episode),
   };
-  const stages = brief.episode.stages;
-  if (episode.location.selected_location_id) {
-    brief.episode.next_stage = !stages.treatment ? "treatment" : !stages.scene_outline ? "scene_outline" : !stages.production ? "production" : "complete";
-  }
   brief.manifest.unshift({ id: episode.id, version: episode.version, status: episode.status });
   return brief;
 }
@@ -156,7 +189,8 @@ export function briefToMarkdown(brief: IdeaBrief): string {
   const { idea, group, object } = brief;
   const out: string[] = [];
   const ep = brief.episode;
-  out.push(ep ? `# Episode brief: ${ep.episode.title} (${ep.episode.id}, from ${idea.id})` : `# Idea brief: ${idea.title} (${idea.id})`);
+  const sourceIdeaIds = brief.source_ideas.map((context) => context.idea.id).join(", ");
+  out.push(ep ? `# Episode brief: ${ep.episode.title} (${ep.episode.id}, from ${sourceIdeaIds})` : `# Idea brief: ${idea.title} (${idea.id})`);
   out.push(`Generated ${brief.generated_at} from the Chathura Was Here development records. Status: **${idea.status}**. This is a snapshot; the records are the source of truth.`);
 
   out.push(`## 1. Project rules (always apply)\n${list(brief.rules)}`);
@@ -209,38 +243,54 @@ Sources: ${lesson.sources.map((source) => `${source.concept_id} (${source.citati
     out.push(`**Group lesson (${group.title}):** ${group.lesson.in_simple_terms}`);
   }
 
-  out.push(`## 3. The idea
-**Logline:** ${idea.logline}
+  const includeSourceLocations = brief.source_ideas.length > 1;
+  const ideaBlocks = brief.source_ideas.map((context, index) => {
+    const sourceIdea = context.idea;
+    const locationContext = includeSourceLocations ? `
 
-**Human question:** ${idea.human_question}
+**Source-idea location requirements**
+${list(sourceIdea.location.requirements)}
 
-**Story:** ${idea.premise.story}
-**Place:** ${idea.premise.place}
-**Experience:** ${idea.premise.experience}
+**Source-idea location suggestions (AI suggestions, never selections)**
+${sourceIdea.location.suggestions.length ? list(sourceIdea.location.suggestions.map((suggestion) => `${suggestion.name}, ${suggestion.region}. ${suggestion.why}${suggestion.verify ? ` Verify: ${suggestion.verify}` : ""}`)) : "- none"}` : "";
+    return `### ${index + 1}. ${sourceIdea.id} ${sourceIdea.title} (${context.presentation_role})
+**Logline:** ${sourceIdea.logline}
+
+**Human question:** ${sourceIdea.human_question}
+
+**Story:** ${sourceIdea.premise.story}
+**Place:** ${sourceIdea.premise.place}
+**Experience:** ${sourceIdea.premise.experience}
 
 **What the camera could observe**
-${list(idea.what_camera_could_observe)}
+${list(sourceIdea.what_camera_could_observe)}
 
-**What must be real:** ${idea.what_must_be_real}
+**What must be real:** ${sourceIdea.what_must_be_real}
 
-**Possible arc:** opening: ${idea.possible_arc.opening} Turn: ${idea.possible_arc.turn} Ending (left open): ${idea.possible_arc.ending_open}
+**Possible arc:** opening: ${sourceIdea.possible_arc.opening} Turn: ${sourceIdea.possible_arc.turn} Ending (left open): ${sourceIdea.possible_arc.ending_open}
 
 **Risks**
-${list(idea.risks)}
+${list(sourceIdea.risks)}
 
 **Drop or revise if**
-${list(idea.drop_if)}
+${list(sourceIdea.drop_if)}
 
 **Connections to other ideas**
-${list(brief.related_ideas.map((related) => `${related.id} ${related.title}: ${related.relation}. ${related.note}`))}
+${context.related_ideas.length ? list(context.related_ideas.map((related) => `${related.id} ${related.title}: ${related.relation}. ${related.note}`)) : "- none"}
 
 **Unknowns**
-${list(idea.unknowns)}`);
+${list(sourceIdea.unknowns)}${locationContext}
+
+**Evidence boundary:** ${sourceIdea.evidence_class_note}`;
+  });
+  out.push(`## 3. Source idea context${brief.source_ideas.length > 1 ? "s" : ""}
+${ideaBlocks.join("\n\n")}`);
 
   const location = ep ? ep.episode.location : idea.location;
   out.push(`## 4. Location (Chathura selects)
 **Selected location:** ${ep?.place ? `${ep.place.name}, ${ep.place.region} (${ep.place.id}, chosen by Chathura, decision ${ep.place.decision_id})${ep.place.note ? `. Note: ${ep.place.note}` : ""}` : location.selected_location_id ?? "none; awaiting Chathura's choice. Location-dependent work (treatment, screenplay) cannot advance until Chathura selects."}
 **Name reveal policy:** ${location.name_reveal_policy}
+${ep ? `**Research readiness:** ${ep.episode.research.status}. Access: ${ep.episode.research.access_status}; participants: ${ep.episode.research.participant_status}; permissions: ${ep.episode.research.permission_status}. Location selection alone does not verify documentary reality or unlock a production screenplay.` : ""}
 
 **Requirements**
 ${list(location.requirements)}
@@ -250,9 +300,10 @@ ${location.suggestions.length ? list(location.suggestions.map((s) => `${s.name},
 
   const conceptBlocks = brief.concepts.map((concept) => {
     const digest = concept.digest;
-    const head = `### ${concept.id} ${concept.title_si} (${concept.role})\nWhy it is linked: ${concept.why}`;
+    const isPrimary = concept.idea_links.some((link) => link.role === "primary");
+    const head = `### ${concept.id} ${concept.title_si}${isPrimary ? " (primary in at least one source idea)" : " (supporting)"}\n${concept.idea_links.map((link) => `- ${link.idea_id} (${link.role}): ${link.why}`).join("\n")}`;
     if (!digest) return `${head}\n\n_Concept digest pending._`;
-    if (concept.role !== "primary") {
+    if (!isPrimary) {
       return `${head}
 
 Digest ${digest.id} v${digest.version} (${digest.status}): ${digest.title_en}. Supporting concept, so it is summarised here; the full digest is in the JSON brief and on the concept page.
@@ -297,12 +348,22 @@ ${source.lines.map((line) => `> L${line.n}: ${line.text}`).join("\n")}`).join("\
 
   if (ep) {
     const stageLabel: Record<string, string> = { treatment: "treatment", scene_outline: "scene outline", production: "production screenplay" };
-    const previous = ep.next_stage === "scene_outline" ? ep.stages.treatment : ep.next_stage === "production" ? ep.stages.scene_outline : ep.next_stage === "complete" ? ep.stages.production : undefined;
+    const previous = ep.next_stage === "scene_outline" || ep.next_stage === "awaiting_treatment_approval" ? ep.stages.treatment
+      : ep.next_stage === "production" || ep.next_stage === "blocked_research" || ep.next_stage === "awaiting_outline_approval" ? ep.stages.scene_outline
+        : ep.next_stage === "production_ready" || ep.next_stage === "awaiting_production_approval" ? ep.stages.production : undefined;
     const lines = [`## 7. Screenplay stage`];
     if (ep.next_stage === "blocked_location") {
       lines.push("**Blocked:** Chathura has not selected a location for this film. Do not write a treatment or screenplay. Research questions and location requirements are fine.");
-    } else if (ep.next_stage === "complete") {
-      lines.push(`The production screenplay exists (${ep.stages.production?.id} v${ep.stages.production?.version}). The next version comes only after filming, grounded in captured footage.`);
+    } else if (ep.next_stage === "awaiting_treatment_approval") {
+      lines.push(`**Awaiting Chathura:** treatment ${ep.stages.treatment?.id} v${ep.stages.treatment?.version} exists but is not approved. Do not write the scene outline.`);
+    } else if (ep.next_stage === "awaiting_outline_approval") {
+      lines.push(`**Awaiting Chathura:** scene outline ${ep.stages.scene_outline?.id} v${ep.stages.scene_outline?.version} exists but is not approved. Do not write the production screenplay.`);
+    } else if (ep.next_stage === "blocked_research") {
+      lines.push("**Blocked by research readiness:** the outline may be approved, but research is not marked sufficient for production. Verify access, participants, permissions and the documentary facts before writing a production screenplay.");
+    } else if (ep.next_stage === "awaiting_production_approval") {
+      lines.push(`**Awaiting Chathura:** production screenplay ${ep.stages.production?.id} v${ep.stages.production?.version} exists but is not approved for production.`);
+    } else if (ep.next_stage === "production_ready") {
+      lines.push(`The production screenplay is approved (${ep.stages.production?.id} v${ep.stages.production?.version}). A post-filming version may only be written from captured footage, transcripts and field notes.`);
     } else {
       lines.push(`**Next to write:** the ${stageLabel[ep.next_stage]}. Follow \`docs/planning/prompts/screenplay-brief.md\` exactly (gate, non-negotiables, stage format, JSON record). Set \`based_on\` to ${previous ? `\`${previous.id}\`` : "null"} and \`location_id\` to \`${ep.episode.location.selected_location_id}\`.`);
     }

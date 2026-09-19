@@ -6,11 +6,11 @@
   "title": "The Same Boat",
   "logline": "A fisherman's boat has been repaired so many times that no original plank is left, but everyone still calls it by the same name.",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "idea_ids": [
     "IDEA-0005"
   ],
@@ -136,5 +136,12 @@
     "builds_on": "The novices learned a map for taking the mind apart; here the same method of taking apart is tried on something you can touch, a boat that stays 'the same' while its parts change.",
     "status": "draft",
     "evidence_class": "editorial interpretation grounded in cited source teaching"
+  },
+  "research": {
+    "status": "not_started",
+    "access_status": "unverified",
+    "participant_status": "unverified",
+    "permission_status": "unverified",
+    "evidence_ids": []
   }
 }

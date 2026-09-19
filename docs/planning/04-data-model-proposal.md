@@ -1,6 +1,12 @@
 # File-backed data model proposal
 
-Status: proposal only. Nothing in this document is implemented by the current dashboard.
+> **HISTORICAL SNAPSHOT / ORIGINAL PROPOSAL — 2026-09-18.** Much of this proposal is now implemented in `development/`, the dashboard, brief exporters, validation, location decisions, and the screenplay pipeline. The current implementation also adds exact lesson provenance, multi-idea briefing, explicit research readiness, and screenplay-stage approval decisions. The remaining text preserves the original design reasoning and may use future tense.
+
+## Current implemented state
+
+The source library and 102-concept catalogue remain unchanged. The implemented development layer now contains 102 digests, ten draft chronological groups, the candidate idea pool, 98 ordered development episodes, ten object plans, explicit episode/group lesson citations, framing records, review decisions, location selection, research readiness, and screenplay versions. Generated briefs include every attached idea and a version manifest. Validation enforces exact group lists, object acquisition links, reciprocal chronology threads, source-line citation resolution, location authority, research readiness, and exact-version screenplay approvals. Chronology v1 is still awaiting Chathura's creative approval.
+
+The ordinary public structure is Episodes 1–99 across ten seasons, with exactly eight episodes in Season 1. Episode 100 retains its number with `distribution_mode: hidden_discoverable` outside the ordinary public structure. Remaining release order and season membership are human-controlled.
 
 ## Design goals
 
@@ -232,6 +238,6 @@ A future episode page may offer **Copy complete brief**, generated from approved
 
 The same resolver should produce a machine-readable JSON export with record IDs and versions. The copied text is a generated snapshot, not a new source of truth, and should include generation time plus a manifest of source record versions.
 
-## Future compatibility work (not performed)
+## Original future compatibility work (historical)
 
-Later implementation would require schema validation, ID allocation, development-data loaders, route/UI work, updated validation scripts, dependency tracking, and export tests. The current app has none of these capabilities. This proposal does not authorize or perform those changes.
+At proposal time, later implementation required schema validation, ID allocation, development-data loaders, route/UI work, updated validation scripts, dependency tracking, and export tests. Those core capabilities are now implemented; this paragraph is retained to show the original boundary, not the current app state.

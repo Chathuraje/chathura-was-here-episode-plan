@@ -4,11 +4,11 @@
   "record_type": "chronological_group",
   "title": "Kindness",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "chronological_position": 6,
   "emotional_stage": "Warmth",
   "tone": "warm, generous, light",
@@ -72,10 +72,21 @@
   ],
   "object_id": "OBJ-06",
   "candidate_idea_refs": [],
-  "episode_ids": [],
+  "episode_ids": [
+    "EPD-0048",
+    "EPD-0049",
+    "EPD-0050",
+    "EPD-0051",
+    "EPD-0052",
+    "EPD-0053",
+    "EPD-0054",
+    "EPD-0055",
+    "EPD-0056",
+    "EPD-0057"
+  ],
   "unknowns": [
-    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
-    "Concept roles are English working glosses, not approved interpretations."
+    "The 98-film Chronology v1 slate now fixes this group's current film count, but the slate remains draft pending Chathura's creative approval.",
+    "Concept roles remain draft working glosses; completed digests do not make them creatively or doctrinally approved."
   ],
   "provenance": {
     "derived_from": [
@@ -103,6 +114,62 @@
     "builds_on": "The previous stage slowed perception down until a gap appeared inside each moment, the point of impulsion where choice is made and action begins; this stage shows what the mind is like, from the inside, when that choice goes toward goodness.",
     "hands_to_next": "Caring for others has led to bodies that tire, sicken and age, so the next stage asks what the body itself is made of and why decay is written into it.",
     "status": "draft",
-    "evidence_class": "editorial interpretation grounded in cited source teaching"
+    "evidence_class": "editorial interpretation grounded in cited source teaching",
+    "sources": [
+      {
+        "concept_id": "C011",
+        "citations": [
+          "C011-M:L16"
+        ]
+      },
+      {
+        "concept_id": "C019",
+        "citations": [
+          "C019-P:L29"
+        ]
+      },
+      {
+        "concept_id": "C024",
+        "citations": [
+          "C024-P:L45"
+        ]
+      },
+      {
+        "concept_id": "C027",
+        "citations": [
+          "C027-M:L5"
+        ]
+      },
+      {
+        "concept_id": "C095",
+        "citations": [
+          "C095-P4:L54"
+        ]
+      },
+      {
+        "concept_id": "C023",
+        "citations": [
+          "C023-P:L141–L145"
+        ]
+      },
+      {
+        "concept_id": "C012",
+        "citations": [
+          "C012-P:L34"
+        ]
+      },
+      {
+        "concept_id": "C091",
+        "citations": [
+          "C091-M:L7"
+        ]
+      },
+      {
+        "concept_id": "C030",
+        "citations": [
+          "C030-P:L25"
+        ]
+      }
+    ]
   }
 }

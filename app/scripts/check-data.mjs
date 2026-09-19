@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 import fs from "node:fs";
 import path from "node:path";
+import { citationIsRepresented, citationsInText, digestEvidenceCitations, parseCitation, parseDeclaredLines } from "../src/lib/citation-utils.mjs";
+import { resolveBriefSourceIdeas } from "../src/lib/brief-ideas.mjs";
 
 const app = path.resolve(import.meta.dirname, "..");
 const content = path.resolve(process.env.CONTENT_DIR ?? path.join(app, "..", "content"));
 const allowed = new Set(["01-sources", "02-concepts"]);
+const repo = path.resolve(app, "..");
 let failures = 0;
 
 function check(name, okay, detail = "") {
@@ -17,6 +20,19 @@ function walk(dir) {
     const full = path.join(dir, entry.name);
     return entry.isDirectory() ? walk(full) : [full];
   });
+}
+
+function resolveNormalizedRepoPath(requested) {
+  if (typeof requested !== "string" || path.isAbsolute(requested)) return null;
+  let current = repo;
+  for (const segment of requested.split(/[\\/]+/).filter(Boolean)) {
+    if (segment === "." || segment === "..") return null;
+    const match = fs.readdirSync(current, { withFileTypes: true })
+      .find((entry) => entry.name.normalize("NFC") === segment.normalize("NFC"));
+    if (!match) return null;
+    current = path.join(current, match.name);
+  }
+  return current.startsWith(repo + path.sep) ? current : null;
 }
 
 const rootEntries = fs.readdirSync(content, { withFileTypes: true });
@@ -56,7 +72,7 @@ if (fs.existsSync(development)) {
   check("Group IDs match file names", groups.every((group) => /^GRP-\d{2}$/.test(group.id) && group.name === `${group.id}.json`));
   const positions = groups.map((group) => group.chronological_position);
   check("Group chronological positions are unique", new Set(positions).size === positions.length);
-  check("At most ten chronological groups", groups.length <= 10, `${groups.length} groups`);
+  check("Exactly ten chronological groups", groups.length === 10, `${groups.length} groups`);
   check("Every group has at least one draft film", groups.every((group) => Number.isInteger(group.draft_film_count) && group.draft_film_count >= 1));
 
   const placed = groups.flatMap((group) => group.concepts.map((concept) => concept.id));
@@ -73,23 +89,47 @@ if (fs.existsSync(development)) {
   }
 
   check("Each group's object exists and points back to it", groups.every((group) => objects.some((object) => object.id === group.object_id && object.group_id === group.id)));
+  check("Exactly ten story objects", objects.length === 10, `${objects.length} objects`);
   check("Object identities are not invented", objects.every((object) => object.identity === null || object.identity_decision_id), "identity requires a Chathura decision");
 
   const framingIds = framing.map((episode) => episode.id).sort().join(",");
   check("Framing films EP-001 and EP-100 are present", framingIds === "EP-001,EP-100", framingIds);
   check("Framing films are excluded from screenplay generation", framing.every((episode) => episode.generated_by_screenplay_system === false));
+  const episode100 = framing.find((episode) => episode.id === "EP-100");
+  check("Episode 100 keeps its number and hidden/discoverable distribution", episode100?.release.public_number === 100
+    && episode100.release.distribution_mode === "hidden_discoverable"
+    && episode100.release.public_structure === "outside_ordinary_public_1_99");
 
   const digests = readJson("digests");
   const groupOf = new Map(groups.flatMap((group) => group.concepts.map((concept) => [concept.id, group.id])));
   check("Digest files are named after their concept", digests.every((digest) => digest.name === `${digest.concept_id}.json` && digest.id === `DIG-${digest.concept_id}`));
   check("Digests belong to the concept's group", digests.every((digest) => groupOf.get(digest.concept_id) === digest.group_id), digests.filter((digest) => groupOf.get(digest.concept_id) !== digest.group_id).map((digest) => digest.id).join(", "));
-  const citation = /\b(C\d{3}-[A-Z0-9]+):L\d+/g;
+  check("Every concept has a digest", digests.length === conceptIds.size && [...conceptIds].every((id) => digests.some((digest) => digest.concept_id === id)), `${digests.length}/${conceptIds.size} digests`);
   const badRefs = digests.flatMap((digest) => {
     const refs = new Set(digest.sources_read.map((source) => source.ref));
-    const text = digest.sinhala_explanation.map((section) => section.text).join(" ");
-    return [...text.matchAll(citation)].map((match) => match[1]).filter((ref) => !refs.has(ref)).map((ref) => `${digest.id}:${ref}`);
+    return digest.sinhala_explanation.flatMap((section) => citationsInText(section.text)).map((citation) => citation.ref)
+      .filter((ref) => !refs.has(ref)).map((ref) => `${digest.id}:${ref}`);
   });
   check("Digest citations point to sources that were read", badRefs.length === 0, [...new Set(badRefs)].join(", "));
+  const digestByConcept = new Map(digests.map((digest) => [digest.concept_id, digest]));
+  const digestEvidence = new Map(digests.map((digest) => [digest.concept_id, digestEvidenceCitations(digest)]));
+  const sourceLineCounts = new Map();
+  function validateLessonCitation(conceptId, value) {
+    const digest = digestByConcept.get(conceptId);
+    if (!digest) return "concept digest does not exist";
+    const citation = parseCitation(value);
+    if (!citation) return "citation syntax is invalid";
+    const source = digest.sources_read.find((entry) => entry.ref === citation.ref);
+    if (!source) return `${citation.ref} is not in ${digest.id}.sources_read`;
+    const declared = parseDeclaredLines(source.lines);
+    if (!declared.some((range) => citation.start >= range.start && citation.end <= range.end)) return `range is outside ${source.lines}`;
+    const sourcePath = resolveNormalizedRepoPath(source.path);
+    if (!sourcePath || !fs.statSync(sourcePath).isFile()) return `source path does not resolve: ${source.path}`;
+    if (!sourceLineCounts.has(sourcePath)) sourceLineCounts.set(sourcePath, fs.readFileSync(sourcePath, "utf8").split(/\r?\n/).length);
+    if (citation.start < 1 || citation.end < citation.start || citation.end > sourceLineCounts.get(sourcePath)) return `range exceeds source (${sourceLineCounts.get(sourcePath)} lines)`;
+    if (!citationIsRepresented(citation, digestEvidence.get(conceptId) ?? [])) return `citation is not represented in ${digest.id} evidence`;
+    return null;
+  }
 
   const ideas = readJson("ideas");
   const ideaIds = new Set(ideas.map((idea) => idea.id));
@@ -99,27 +139,57 @@ if (fs.existsSync(development)) {
   check("Location suggestions are never selections", ideas.every((idea) => idea.location.suggestions.every((suggestion) => suggestion.status === "ai_suggestion") && (idea.location.selected_location_id === null || idea.location.selected_location_decision_id)));
 
   const episodes = readJson("episodes").sort((a, b) => a.chronology.global_position - b.chronology.global_position);
+  const decisions = readJson("decisions");
   if (episodes.length) {
     const places = new Set(readJson("locations").map((place) => place.id));
-    const decisions = readJson("decisions");
     const chathuraDecisions = new Set(decisions.filter((decision) => decision.reviewer_role === "chathura").map((decision) => decision.id));
     check("Episode IDs match file names", episodes.every((episode) => /^EPD-\d{4}$/.test(episode.id) && episode.name === `${episode.id}.json`));
+    check("Exactly 98 development episodes", episodes.length === 98, `${episodes.length} episodes`);
     check("Episode global positions run 1..n without gaps", episodes.every((episode, index) => episode.chronology.global_position === index + 1));
     check("Episodes reference existing ideas", episodes.every((episode) => episode.idea_ids.length && episode.idea_ids.every((id) => ideaIds.has(id))));
     const usedIdeas = episodes.flatMap((episode) => episode.idea_ids);
     check("Each idea is used by at most one episode", new Set(usedIdeas).size === usedIdeas.length);
+    const multiIdeaEpisodes = episodes.filter((episode) => episode.idea_ids.length > 1);
+    const multiIdeaContexts = multiIdeaEpisodes.flatMap((episode) => resolveBriefSourceIdeas(episode.idea_ids, ideas)
+      .map((context) => context?.idea.id));
+    check("Multi-idea briefs resolve every attached idea", multiIdeaContexts.length === multiIdeaEpisodes.reduce((total, episode) => total + episode.idea_ids.length, 0)
+      && multiIdeaEpisodes.every((episode) => resolveBriefSourceIdeas(episode.idea_ids, ideas).every((context, index) => context?.idea.id === episode.idea_ids[index])),
+    multiIdeaEpisodes.map((episode) => `${episode.id}:${episode.idea_ids.join("+")}`).join(", "));
+    const regressionEpisode = episodes.find((episode) => episode.id === "EPD-0001");
+    check("EPD-0001 multi-idea briefing regression", regressionEpisode?.idea_ids.length === 2
+      && resolveBriefSourceIdeas(regressionEpisode.idea_ids, ideas).map((context) => context?.idea.id).join(",") === regressionEpisode.idea_ids.join(","),
+    regressionEpisode?.idea_ids.join(",") ?? "missing");
     check("Episodes stay inside their group's block", groups.every((group) => {
       const positions = episodes.filter((episode) => episode.chronology.group_id === group.id).map((episode) => episode.chronology.global_position);
       return positions.length === 0 || Math.max(...positions) - Math.min(...positions) + 1 === positions.length;
     }));
+    check("Group episode lists exactly match chronology", groups.every((group) => {
+      const expected = episodes.filter((episode) => episode.chronology.group_id === group.id).map((episode) => episode.id);
+      return JSON.stringify(group.episode_ids) === JSON.stringify(expected);
+    }), groups.filter((group) => JSON.stringify(group.episode_ids) !== JSON.stringify(episodes.filter((episode) => episode.chronology.group_id === group.id).map((episode) => episode.id))).map((group) => group.id).join(", "));
     check("Each group's first film acquires its object, and no other film does", groups.every((group) => {
       const own = episodes.filter((episode) => episode.chronology.group_id === group.id);
       return own.length === 0 || (own[0].object.acquires === group.object_id && own.slice(1).every((episode) => !episode.object.acquires));
     }));
+    check("Object planned acquisitions point to each group's first film", objects.every((object) => {
+      const first = episodes.find((episode) => episode.chronology.group_id === object.group_id);
+      return first && object.planned_acquisition?.episode_id === first.id;
+    }), objects.filter((object) => object.planned_acquisition?.episode_id !== episodes.find((episode) => episode.chronology.group_id === object.group_id)?.id).map((object) => object.id).join(", "));
     check("Objects only appear after they are acquired", episodes.every((episode) => episode.object.appears.every((objectId) => {
       const source = episodes.find((other) => other.object.acquires === objectId);
       return source && source.chronology.global_position <= episode.chronology.global_position;
     })));
+    check("Adjacent episode threads are reciprocal", episodes.every((episode, index) => {
+      const previous = episodes[index - 1];
+      const next = episodes[index + 1];
+      return episode.thread_in.from_episode_id === (previous?.id ?? null)
+        && episode.thread_out.to_episode_id === (next?.id ?? null);
+    }), episodes.filter((episode, index) => episode.thread_in.from_episode_id !== (episodes[index - 1]?.id ?? null)
+      || episode.thread_out.to_episode_id !== (episodes[index + 1]?.id ?? null)).map((episode) => episode.id).join(", "));
+    const researchStates = new Set(["not_started", "researching", "sufficient_for_treatment", "sufficient_for_production"]);
+    check("Episode research readiness is explicit", episodes.every((episode) => researchStates.has(episode.research?.status)
+      && episode.research.access_status && episode.research.participant_status && episode.research.permission_status
+      && Array.isArray(episode.research.evidence_ids)), episodes.filter((episode) => !researchStates.has(episode.research?.status)).map((episode) => episode.id).join(", "));
     check("Selected episode locations come from Chathura's decisions", episodes.every((episode) => !episode.location.selected_location_id
       || (places.has(episode.location.selected_location_id) && chathuraDecisions.has(episode.location.selected_location_decision_id))));
     const last = episodes.at(-1);
@@ -134,19 +204,59 @@ if (fs.existsSync(development)) {
     const lessonFields = ["in_simple_terms", "in_simple_terms_si", "the_teaching", "how_the_film_shows_it", "caution"];
     check("Episode lessons are complete", lessonEpisodes.every((episode) => lessonFields.every((field) => typeof episode.lesson[field] === "string" && episode.lesson[field].trim())),
       lessonEpisodes.filter((episode) => !lessonFields.every((field) => episode.lesson[field]?.trim?.())).map((episode) => episode.id).join(", "));
-    const badSources = lessonEpisodes.filter((episode) => !episode.lesson.sources?.length || episode.lesson.sources.some((source) =>
-      !episode.concept_ids.includes(source.concept_id) || !source.citations?.length || source.citations.some((citation) => !citation.startsWith(`${source.concept_id}-`))));
-    check("Lesson sources cite the episode's own concepts", badSources.length === 0, badSources.map((episode) => episode.id).join(", "));
+    const citationIssues = lessonEpisodes.flatMap((episode) => {
+      if (!episode.lesson.sources?.length) return [`${episode.id}: no lesson sources`];
+      return episode.lesson.sources.flatMap((source) => {
+        if (!episode.concept_ids.includes(source.concept_id)) return [`${episode.id}:${source.concept_id}: not in episode concept_ids`];
+        if (!source.citations?.length) return [`${episode.id}:${source.concept_id}: no citations`];
+        return source.citations.map((citation) => {
+          const issue = validateLessonCitation(source.concept_id, citation);
+          return issue ? `${episode.id}:${citation}: ${issue}` : null;
+        }).filter(Boolean);
+      });
+    });
+    check("Episode lesson citations resolve to digest evidence and valid source lines", citationIssues.length === 0, citationIssues.join("; "));
+    check("Lesson-bearing episode envelopes identify the consumed version", lessonEpisodes.every((episode) => episode.version >= 2
+      && episode.updated_at >= episode.created_at && episode.updated_by), lessonEpisodes.filter((episode) => episode.version < 2 || !episode.updated_by).map((episode) => episode.id).join(", "));
   }
   const lessonGroups = groups.filter((group) => group.lesson);
   if (lessonGroups.length) {
     check("Group lessons are complete", lessonGroups.every((group) => group.lesson.in_simple_terms && group.lesson.the_teaching && group.lesson.progression?.length));
+    const groupCitationIssues = lessonGroups.flatMap((group) => {
+      const allowedConcepts = new Set(episodes.filter((episode) => episode.chronology.group_id === group.id).flatMap((episode) => episode.concept_ids));
+      if (!group.lesson.sources?.length) return [`${group.id}: no lesson sources`];
+      return group.lesson.sources.flatMap((source) => {
+        if (!allowedConcepts.has(source.concept_id)) return [`${group.id}:${source.concept_id}: not used by a group episode`];
+        if (!source.citations?.length) return [`${group.id}:${source.concept_id}: no citations`];
+        return source.citations.map((citation) => {
+          const issue = validateLessonCitation(source.concept_id, citation);
+          return issue ? `${group.id}:${citation}: ${issue}` : null;
+        }).filter(Boolean);
+      });
+    });
+    check("Group lesson citations resolve to concepts used by the group", groupCitationIssues.length === 0, groupCitationIssues.join("; "));
+    check("Lesson-bearing group envelopes identify the consumed version", lessonGroups.every((group) => group.version >= 2
+      && group.updated_at >= group.created_at && group.updated_by), lessonGroups.filter((group) => group.version < 2 || !group.updated_by).map((group) => group.id).join(", "));
   }
 
   const screenplays = readJson("screenplays");
+  const screenplayById = new Map(screenplays.map((version) => [version.id, version]));
+  const stageDecisions = decisions.filter((decision) => decision.decision_type === "screenplay_stage_approval");
+  check("Screenplay-stage decisions target an exact existing version", stageDecisions.every((decision) => {
+    const target = screenplayById.get(decision.target?.record_id);
+    return decision.record_type === "review_decision" && decision.reviewer_role === "chathura"
+      && target && target.version === decision.target.version
+      && new Set(["approved", "needs_revision"]).has(decision.outcome?.decision);
+  }), stageDecisions.filter((decision) => {
+    const target = screenplayById.get(decision.target?.record_id);
+    return !target || target.version !== decision.target?.version || decision.reviewer_role !== "chathura";
+  }).map((decision) => decision.id).join(", "));
+  const isApproved = (version) => stageDecisions
+    .filter((decision) => decision.target?.record_id === version?.id && decision.target?.version === version?.version && decision.reviewer_role === "chathura")
+    .sort((a, b) => `${a.created_at ?? ""}:${a.id}`.localeCompare(`${b.created_at ?? ""}:${b.id}`))
+    .at(-1)?.outcome?.decision === "approved";
   if (screenplays.length) {
     const episodeById = new Map(episodes.map((episode) => [episode.id, episode]));
-    const byId = new Map(screenplays.map((version) => [version.id, version]));
     const previousStage = { scene_outline: "treatment", production: "scene_outline" };
     check("Screenplay IDs match file names", screenplays.every((version) => /^SPV-\d{4}$/.test(version.id) && version.name === `${version.id}.json`));
     check("Screenplays belong to development episodes (never Episodes 1 or 100)", screenplays.every((version) => episodeById.has(version.episode_id)));
@@ -154,12 +264,15 @@ if (fs.existsSync(development)) {
       const episode = episodeById.get(version.episode_id);
       return version.stage === "post_filming" || (version.location_id && episode?.location.selected_location_id === version.location_id);
     }), screenplays.filter((version) => version.location_id !== episodeById.get(version.episode_id)?.location.selected_location_id).map((version) => version.id).join(", "));
-    check("Each screenplay stage builds on the previous stage", screenplays.every((version) => {
+    check("Each screenplay stage builds on Chathura-approved previous stage", screenplays.every((version) => {
       const needed = previousStage[version.stage];
       if (!needed) return true;
-      const base = byId.get(version.based_on);
-      return base && base.stage === needed && base.episode_id === version.episode_id;
+      const base = screenplayById.get(version.based_on);
+      return base && base.stage === needed && base.episode_id === version.episode_id && isApproved(base);
     }));
+    check("Production screenplays require production-level research", screenplays.every((version) => version.stage !== "production"
+      || episodeById.get(version.episode_id)?.research.status === "sufficient_for_production"), screenplays.filter((version) => version.stage === "production"
+      && episodeById.get(version.episode_id)?.research.status !== "sufficient_for_production").map((version) => version.id).join(", "));
   }
 
   const allRecords = fs.readdirSync(development, { withFileTypes: true }).filter((entry) => entry.isDirectory()).flatMap((entry) => readJson(entry.name));

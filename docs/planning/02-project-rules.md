@@ -32,27 +32,29 @@ This document records the working rules supplied on 2026-09-18. Labels distingui
 - Keep these evidence classes distinct: source teaching, editorial interpretation, documentary possibility, and verified real-world evidence.
 - Source citations must remain traceable to exact repository files and, where available, page/line metadata.
 
-## Series structures and numbering
+## Series structures, numbering, and distribution
 
 **Confirmed current instruction**
 
-- Working target: 100 films.
-- Release Episode 1 is **The Beginning**.
-- Release Episode 100 is **The Way Back**.
+- The project retains 100 numbered film identities, but the **ordinary public structure is Episodes 1–99**.
+- Public Episode 1 is **The Beginning**.
+- The chronologically last development film is public Episode 99 and ends on the shared crowd footage.
+- Episode 100 is **The Way Back**. It keeps the number 100 but sits outside the ordinary public 1–99 structure with `distribution_mode: hidden_discoverable`; it is not treated as a normal public episode.
 - Episode-development and screenplay generation covers Episodes 2–99 only: 98 films.
 - Episodes 1 and 100 are stored separately as continuity references, not mixed into the 98-film development pool.
 - Develop ten connected chronological groups whose flexible sizes total 98. A group may contain five, eight, ten, or more films; ten is not a maximum.
 - Chronological groups, public release series, seasons, and filming schedules are independent structures.
-- Do not assign permanent public release numbers while developing initial ideas.
+- The ordinary public structure contains **10 seasons**. Season 1 contains **exactly 8 episodes**; later seasons may have unequal episode counts.
+- Episode 1 remains public Episode 1 and the last chronological development film remains public Episode 99. Public numbers 2–98, later season membership, and the remaining release order are not assigned until Chathura approves them.
 - Use stable internal identifiers that do not depend on chronological position or release number.
 
 Arithmetic invariant:
 
-`100 total films = 2 framing films (Episodes 1 and 100) + 98 development films (Episodes 2–99)`
+`100 numbered identities = Episode 1 + 98 development films (public slots 2–99) + hidden/discoverable Episode 100`
 
-**Provisional assumption**
+**Current approval state**
 
-- “100 films” remains a working target until the flexible group structure and viable stories are reviewed; the system must enforce the current arithmetic without pretending the creative slate is already locked.
+- The 98-film Chronology v1 slate exists and satisfies the arithmetic, but it remains a creative draft pending Chathura's approval. Completeness is not creative approval.
 
 ## Objects
 
@@ -103,6 +105,14 @@ Arithmetic invariant:
 
 - The chronologically last development film (the final film of GRP-10) is released as Episode 99 and ends on the crowded-location footage shared with Episodes 1 and 100.
 
+## Release-planning authority
+
+**Confirmed current instruction**
+
+- Region clustering in the dashboard is a proposal, never final release authority.
+- Chathura may merge or split region clusters, create journey-based series, reorder films, assign seasons, and assign public numbers 2–98.
+- This cleanup does not assign the remaining release order or season membership.
+
 ## Editorial form
 
 **Confirmed current instruction**
@@ -124,13 +134,13 @@ These decisions are not silently resolved, but they are not all prerequisites fo
 
 | Decision | Later work affected | Blocks the small pilot? |
 |---|---|---|
-| Older 99-public-plus-hidden-100 distribution model | Public release architecture, Episode 100 discovery/publishing strategy, audience-facing numbering | No |
-| Older fixed eight-episode Season 1 rule | Season and release-series packaging after chronological development | No |
+| Exact hidden/discovery publishing mechanism for Episode 100 | Platform implementation and audience discovery path; its hidden/discoverable distribution mode is already locked | No |
+| Season membership after Season 1's locked eight-episode count | Release packaging and public numbers 2–98 | No |
 | Older season-linked object language | Historical documentation and later release/season presentation; current development uses group-linked objects | No |
 | Episode 99 crowd ending | Final framing continuity, footage matching, and edit design | Resolved 2026-09-18: last chronological film = Episode 99, ends on the crowd |
 | Per-episode location disclosure | Treatment, title/coordinate reveal, and screenplay for the affected episode | No for an unlocated idea; Chathura decides before dependent work advances |
 | Physical object identity and acquisition evidence | Object continuity, production, and final edit | No for concept interpretation or unnumbered ideas |
-| Release architecture | Public numbering, seasons, series, and publication plan | No |
+| Release architecture beyond the locked rules | Public numbering 2–98, later-season membership, series boundaries, and publication plan | No |
 | `Abhidharma Margaya` repository-level provenance | Strength of source audit and any claim requiring that provenance | Not automatically; assess against the selected pilot concepts |
 | Ignored-PDF archival policy | Long-term reproducibility, backup, and independent transcription verification | No |
 

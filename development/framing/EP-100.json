@@ -4,7 +4,7 @@
   "record_type": "episode",
   "title": "The Way Back",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
   "updated_at": "2026-09-19",
   "created_by": "claude",
@@ -13,7 +13,9 @@
   "generated_by_screenplay_system": false,
   "release": {
     "public_number": 100,
-    "status": "fixed"
+    "status": "fixed",
+    "distribution_mode": "hidden_discoverable",
+    "public_structure": "outside_ordinary_public_1_99"
   },
   "chronology": {
     "position": "surrounds EP-001: Part A before it, Part B after it"

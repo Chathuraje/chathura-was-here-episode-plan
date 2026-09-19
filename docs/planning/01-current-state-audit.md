@@ -1,5 +1,7 @@
 # Current-state audit
 
+> **HISTORICAL SNAPSHOT — 2026-09-18.** This audit describes revision `aeb0eca`, before the development data layer and dashboard were implemented. For the current implemented state, use [planning README](README.md), [project rules](02-project-rules.md), and the live validator. Historical findings below are retained as evidence, not presented as current repository status.
+
 Audit date: 2026-09-18  
 Repository: `https://github.com/Chathuraje/chathura-was-here-episode-plan.git`  
 Checkout: `D:\chathura-was-here-notes`  
@@ -14,7 +16,7 @@ Only this repository was inspected. It is the only Git repository in the supplie
 
 ## Verified inventory
 
-The repository currently has two content layers and one read-only browsing app:
+At the audited revision, the repository had two content layers and one read-only browsing app:
 
 | Layer | Exact path | Verified contents |
 |---|---|---|

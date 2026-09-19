@@ -5,7 +5,7 @@ For each chronological group and each of its episodes, write what a viewer comes
 ## Read first
 - Your group record: `development/groups/<GRP>.json` (emotional stage, question, depth).
 - The group's episodes: `development/episodes/EPD-*.json` where `chronology.group_id` is your group. Read `title`, `logline`, `idea_ids`, `concept_ids`, `thread_in` and `thread_out`.
-- Each episode's primary idea: `development/ideas/<idea_ids[0]>.json`. Read `human_question`, `premise`, `concept_links` and `what_camera_could_observe`.
+- Every idea in each episode's `idea_ids`: `development/ideas/<IDEA-ID>.json`. Read every linked idea's question, premise, concept links, observability, risks, revision/drop conditions, unknowns, location context, connections, and evidence boundary. No attached idea may silently disappear.
 - Every concept digest those episodes link to: `development/digests/<CID>.json`. Read `summary_en`, `human_interpretation_en`, `key_terms`, `does_not_transfer`, `uncertainties` and the cited Sinhala sections.
 - The previous group's `lesson`, if one exists, so your group lesson can say how it builds on it.
 
@@ -45,6 +45,7 @@ For each chronological group and each of its episodes, write what a viewer comes
   "progression": ["One line per film in order: 'EPD-00xx <title>: <the step this film adds>'"],
   "builds_on": "How this group's lesson grows from the previous group's (for GRP-01: how it opens the series).",
   "hands_to_next": "What question it leaves for the next group.",
+  "sources": [{ "concept_id": "C084", "citations": ["C084-M:L7"] }],
   "status": "draft",
   "evidence_class": "editorial interpretation grounded in cited source teaching"
 }
@@ -53,5 +54,7 @@ For each chronological group and each of its episodes, write what a viewer comes
 ## How to write
 - Load, modify and save the JSON with a Python script (`json.load`, then add the `lesson` key, then `json.dump(..., ensure_ascii=False, indent=2)` plus a trailing newline), so no other field changes.
 - Never modify `content/`. Never commit. Touch only your group's files.
-- When done, run `cd /Volumes/chathura-pc/chathura-was-here-notes/app && node scripts/check-data.mjs` and fix any failure caused by your changes.
+- A substantial lesson addition increments the record `version` once and updates `updated_at` and `updated_by` truthfully.
+- Group `sources` must use exact citations already present in the relevant concept digests; never fabricate a citation.
+- When done, run `cd app && npm run check` from the repository root and fix any failure caused by your changes.
 - Report in under 150 words: the group's `in_simple_terms`, and any film where the lesson was hard to ground.

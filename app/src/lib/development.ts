@@ -38,6 +38,7 @@ export type GroupLesson = {
   progression: string[];
   builds_on: string;
   hands_to_next: string;
+  sources: { concept_id: string; citations: string[] }[];
   status: string;
   evidence_class: string;
 };
@@ -75,7 +76,12 @@ export type StoryObject = Envelope & {
 export type FramingEpisode = Envelope & {
   record_role: "continuity_reference";
   generated_by_screenplay_system: false;
-  release: { public_number: number; status: string };
+  release: {
+    public_number: number;
+    status: string;
+    distribution_mode: "ordinary_public" | "hidden_discoverable";
+    public_structure?: "outside_ordinary_public_1_99";
+  };
   chronology: { position: string };
   reference_snapshot: string;
   external_screenplay: string;
@@ -149,6 +155,7 @@ export type Idea = Envelope & {
   connections: { idea_id: string; relation: string; note: string }[];
   source_doc: string | null;
   unknowns: string[];
+  evidence_class_note: string;
 };
 
 export type EpisodeLocation = {
@@ -158,6 +165,14 @@ export type EpisodeLocation = {
   selected_location_decision_id: string | null;
   selection_status: string;
   name_reveal_policy: string;
+};
+
+export type EpisodeResearch = {
+  status: "not_started" | "researching" | "sufficient_for_treatment" | "sufficient_for_production";
+  access_status: "unverified" | "researching" | "verified";
+  participant_status: "unverified" | "researching" | "verified";
+  permission_status: "unverified" | "researching" | "verified";
+  evidence_ids: string[];
 };
 
 export type Episode = Envelope & {
@@ -171,6 +186,7 @@ export type Episode = Envelope & {
   release: { series_id: string | null; position: number | null; public_number: number | null; pinned_note?: string };
   filming: { block_id: string | null; position: number | null; target_window: string | null };
   location: EpisodeLocation;
+  research: EpisodeResearch;
   logline: string;
   lesson?: EpisodeLesson;
 };
@@ -218,6 +234,17 @@ export type ScreenplayVersion = Envelope & {
   unknowns: string[];
 };
 
+export type ReviewDecision = {
+  schema_version: number;
+  id: string;
+  record_type: string;
+  reviewer_role?: string;
+  decision_type?: string;
+  target?: { record_id: string; version: number };
+  outcome?: { decision?: string; [key: string]: unknown };
+  created_at?: string;
+};
+
 export const SCREENPLAY_STAGES = ["treatment", "scene_outline", "production", "post_filming"] as const;
 
 export type Development = {
@@ -231,6 +258,7 @@ export type Development = {
   episodes: Episode[];
   places: Map<string, Place>;
   screenplays: ScreenplayVersion[];
+  decisions: ReviewDecision[];
 };
 
 async function readRecords<T>(dir: string): Promise<T[]> {
@@ -253,10 +281,11 @@ export async function getDevelopment(): Promise<Development> {
     readRecords<Digest>("digests"),
     readRecords<Idea>("ideas"),
   ]);
-  const [episodes, places, screenplays] = await Promise.all([
+  const [episodes, places, screenplays, decisions] = await Promise.all([
     readRecords<Episode>("episodes"),
     readRecords<Place>("locations"),
     readRecords<ScreenplayVersion>("screenplays"),
+    readRecords<ReviewDecision>("decisions"),
   ]);
   episodes.sort((a, b) => a.chronology.global_position - b.chronology.global_position);
   groups.sort((a, b) => a.chronological_position - b.chronological_position);
@@ -273,6 +302,7 @@ export async function getDevelopment(): Promise<Development> {
     episodes,
     places: new Map(places.map((place) => [place.id, place])),
     screenplays,
+    decisions,
   };
 }
 
@@ -284,6 +314,42 @@ export function latestStages(dev: Development, episodeId: string): Partial<Recor
     if (!current || version.version > current.version) latest[version.stage] = version;
   }
   return latest;
+}
+
+export function screenplayApproval(dev: Development, version: ScreenplayVersion): ReviewDecision | null {
+  return dev.decisions
+    .filter((decision) => decision.record_type === "review_decision"
+      && decision.reviewer_role === "chathura"
+      && decision.decision_type === "screenplay_stage_approval"
+      && decision.target?.record_id === version.id
+      && decision.target.version === version.version)
+    .sort((a, b) => `${a.created_at ?? ""}:${a.id}`.localeCompare(`${b.created_at ?? ""}:${b.id}`))
+    .at(-1) ?? null;
+}
+
+export function isScreenplayStageApproved(dev: Development, version: ScreenplayVersion | undefined): boolean {
+  return Boolean(version && screenplayApproval(dev, version)?.outcome?.decision === "approved");
+}
+
+export type ScreenplayNextStage = ScreenplayVersion["stage"]
+  | "blocked_location"
+  | "blocked_research"
+  | "awaiting_treatment_approval"
+  | "awaiting_outline_approval"
+  | "awaiting_production_approval"
+  | "production_ready";
+
+export function screenplayNextStage(dev: Development, episode: Episode): ScreenplayNextStage {
+  if (!episode.location.selected_location_id) return "blocked_location";
+  const stages = latestStages(dev, episode.id);
+  if (!stages.treatment) return "treatment";
+  if (!isScreenplayStageApproved(dev, stages.treatment)) return "awaiting_treatment_approval";
+  if (!stages.scene_outline) return "scene_outline";
+  if (!isScreenplayStageApproved(dev, stages.scene_outline)) return "awaiting_outline_approval";
+  if (episode.research.status !== "sufficient_for_production") return "blocked_research";
+  if (!stages.production) return "production";
+  if (!isScreenplayStageApproved(dev, stages.production)) return "awaiting_production_approval";
+  return "production_ready";
 }
 
 /** Objects planned as owned at the start of an episode, in chronological order. */

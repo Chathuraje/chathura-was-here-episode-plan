@@ -4,11 +4,11 @@
   "record_type": "chronological_group",
   "title": "Nothing Stands Alone",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
-  "updated_by": "claude",
+  "updated_by": "codex",
   "chronological_position": 9,
   "emotional_stage": "Understanding",
   "tone": "spacious, connected, grateful",
@@ -62,10 +62,19 @@
   ],
   "object_id": "OBJ-09",
   "candidate_idea_refs": [],
-  "episode_ids": [],
+  "episode_ids": [
+    "EPD-0079",
+    "EPD-0080",
+    "EPD-0081",
+    "EPD-0082",
+    "EPD-0083",
+    "EPD-0084",
+    "EPD-0085",
+    "EPD-0086"
+  ],
   "unknowns": [
-    "Film count is a draft; it is finalised in Step 4 (chronological slate).",
-    "Concept roles are English working glosses, not approved interpretations."
+    "The 98-film Chronology v1 slate now fixes this group's current film count, but the slate remains draft pending Chathura's creative approval.",
+    "Concept roles remain draft working glosses; completed digests do not make them creatively or doctrinally approved."
   ],
   "provenance": {
     "derived_from": [
@@ -91,6 +100,50 @@
     "builds_on": "Group 8 closed on death, with the last moments of one life conditioning the next and nothing passing across, and asked what connects it all; this group answers 'conditions' and shows the earlier stages as links in one chain: the not-seeing of Group 4 conditions the actions and awareness of Group 5, which lead through the senses to the contact and feeling met in Group 2, feeling to the wanting and holding on of Groups 2 and 3, and those to the becoming, birth, ageing and death of Groups 7 and 8.",
     "hands_to_next": "If the wheel turns on two roots, not-seeing and craving, and Margaya says there is no other way out of it than removing them, then what arises by conditions can end by conditions, and the next group asks what that way through actually involves.",
     "status": "draft",
-    "evidence_class": "editorial interpretation grounded in cited source teaching"
+    "evidence_class": "editorial interpretation grounded in cited source teaching",
+    "sources": [
+      {
+        "concept_id": "C075",
+        "citations": [
+          "C075-M:L130"
+        ]
+      },
+      {
+        "concept_id": "C082",
+        "citations": [
+          "C082-M:L3–L5"
+        ]
+      },
+      {
+        "concept_id": "C078",
+        "citations": [
+          "C078-M:L7"
+        ]
+      },
+      {
+        "concept_id": "C083",
+        "citations": [
+          "C083-M:L31"
+        ]
+      },
+      {
+        "concept_id": "C079",
+        "citations": [
+          "C079-M:L3–L15"
+        ]
+      },
+      {
+        "concept_id": "C081",
+        "citations": [
+          "C081-P:L33–L54"
+        ]
+      },
+      {
+        "concept_id": "C080",
+        "citations": [
+          "C080-P:L929–L931"
+        ]
+      }
+    ]
   }
 }

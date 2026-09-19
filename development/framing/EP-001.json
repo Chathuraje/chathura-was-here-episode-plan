@@ -4,7 +4,7 @@
   "record_type": "episode",
   "title": "The Beginning",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
   "updated_at": "2026-09-19",
   "created_by": "claude",
@@ -13,7 +13,8 @@
   "generated_by_screenplay_system": false,
   "release": {
     "public_number": 1,
-    "status": "fixed"
+    "status": "fixed",
+    "distribution_mode": "ordinary_public"
   },
   "chronology": {
     "position": "after GRP-10, inside EP-100 (between Part A and Part B)"

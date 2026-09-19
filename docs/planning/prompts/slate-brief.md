@@ -66,4 +66,4 @@ Also write `development/slate-notes.md`: for each group, the chosen ideas in ord
 ## Rules
 - Never modify `content/`, never commit, and never set or change any `selected_location_*` field.
 - Write valid JSON (2-space indent, UTF-8, not ASCII-escaped).
-- When done, run `cd /Volumes/chathura-pc/chathura-was-here-notes/app && node scripts/check-data.mjs` and fix anything failing in your files. Report in under 250 words: per group, the opening and closing films; any concept left without a chosen idea; any check failures.
+- When done, run `cd app && npm run check` from the repository root and fix anything failing in your files. Report in under 250 words: per group, the opening and closing films; any concept left without a chosen idea; any check failures.

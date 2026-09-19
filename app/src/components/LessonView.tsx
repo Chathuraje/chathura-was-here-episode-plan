@@ -44,7 +44,17 @@ export function GroupLessonView({ lesson }: { lesson: GroupLesson }) {
       </div>
       <p className="lesson-si">{lesson.in_simple_terms_si}</p>
       <div className="layer-grid">
-        <div className="layer-depth"><span className="layer-label">The teaching underneath</span><p>{lesson.the_teaching}</p></div>
+        <div className="layer-depth">
+          <span className="layer-label">The teaching underneath</span><p>{lesson.the_teaching}</p>
+          <p className="panel-note">
+            Sources: {lesson.sources.map((source, index) => (
+              <span key={source.concept_id}>
+                {index ? " · " : ""}
+                <Link className="id-link" href={`/concepts/${source.concept_id}`}>{source.concept_id}</Link> ({source.citations.join(", ")})
+              </span>
+            ))}
+          </p>
+        </div>
         <div><span className="layer-label">Film by film</span><ol className="arc-steps">{lesson.progression.map((step) => <li key={step}>{step}</li>)}</ol></div>
         <div className="lesson-row">
           <div><span className="layer-label">Builds on</span><p>{lesson.builds_on}</p></div>
