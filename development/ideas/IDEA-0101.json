@@ -4,84 +4,64 @@
   "record_type": "idea",
   "title": "Handed Back",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "A lorry driver finds an envelope of cash wedged in his cab after a delivery, and spends two days trying to find out whose it is instead of keeping it.",
+  "logline": "A driver finds an envelope of cash left in his cab after a delivery, and spends two days trying to find out whose it is instead of keeping it.",
   "human_question": "What does it cost, in the moment, to give back something no one would ever know you kept?",
-  "premise": {
-    "story": "A driver who finds money or valuables left behind, and the real, inconvenient effort of tracking down and returning it.",
-    "place": "The cab of a working vehicle, depots, phone calls, the open road.",
-    "experience": "A small, ordinary moral decision made in real time, with real cost attached."
+  "situation": {
+    "what_happens": "Someone whose work puts other people's property in their hands finds money or valuables left behind. Nobody saw it, nobody is looking for it yet, and keeping it would carry no visible cost. Instead the finder starts asking: calls, enquiries, a detour, hours that are not paid for. Eventually the item is handed back, or it is not.",
+    "who_is_involved": "The finder, working a route or a job that brings them into other people's goods; the owner, who may not yet know anything is missing; the employer or depot whose rules and time are also involved.",
+    "what_is_at_stake": "For the finder, real money forgone and real hours lost. For the owner, something that may matter more than its value. For the viewer, the question of what restraint costs when nobody is watching.",
+    "how_it_unfolds": "These events are unplanned and short. They begin with a discovery, pass through the practical difficulty of finding an owner, and end in a handover, a dead end or a quiet decision not to pursue it. Reality decides whether such a thing happens at all during filming, and how the person behaves when it does; the moment cannot be reconstructed afterwards without destroying it."
+  },
+  "concept_merge": {
+    "why_together": "C024 holds that an abstinence exists only where a real wrong was available and was refused, and distinguishes the restraint that arises in the moment with no prior vow from the restraint of an undertaking kept at cost. C019 adds that what is on show is one moment's assembly of factors, not proof of a lifelong character. Together they make a small, unwitnessed decision legible as an event rather than as evidence about a person.",
+    "what_it_reveals": "That the tradition locates goodness in the refusal itself, at the point where it could have gone the other way, and declines to turn that into a verdict on the person."
   },
   "concept_links": [
     {
       "concept_id": "C024",
       "role": "primary",
-      "why": "This is restraint in the moment (sampatta virati), arising without any prior vow, at the exact point where a wrong could be done and isn't [C024-P:L61]."
+      "why": "This is restraint in the moment (sampatta virati), arising with no prior vow, at the exact point where a wrong could be done and is not [C024-P:L61]; the source's three depths run from stopping because you suddenly see the harm, through keeping an undertaking even when it costs, to a change deep enough that the wrong no longer occurs."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "This is a single moment's factors on display, not proof of a lifelong virtue; the roster present in that moment is what matters [C019-P:L49]."
+      "why": "Only the factors the moment's work requires arise with it, so what is visible is a single moment's roster, not a demonstration of standing virtue [C019-P:L49]."
     }
   ],
-  "what_camera_could_observe": [
-    "The discovery of the money or item",
-    "Phone calls and asking around to find the owner",
-    "The drive or journey to return it",
-    "The actual handover, and the driver's own account of the decision"
-  ],
-  "what_must_be_real": "A genuine find and a genuine return as it actually happens, not staged or re-enacted after the fact. Full consent from whoever the item belongs to.",
-  "possible_arc": {
-    "opening": "A routine delivery ends.",
-    "turn": "The envelope, or item, is found.",
-    "ending_open": "Whether and how it is returned, and what it actually costs the driver to do it."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A real, current instance that can be filmed as it unfolds, not reconstructed afterward",
-      "Consent from both the driver and the person the item belongs to",
-      "A working freight or transport route"
-    ],
-    "suggestions": [
-      {
-        "name": "A long-distance freight route through the dry zone",
-        "region": "e.g. the A9 or A6 highway corridor",
-        "why": "Region-level suggestion for a working transport route with real cargo and drivers.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific driver, route or incident has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts put goodness in the refusal itself: the good act happens in the moment a real wrong was available and was turned down, and it says nothing about the rest of the person.",
+  "what_must_be_real": "A genuine find and a genuine return as they actually happen, never staged or re-enacted, with consent from the finder and from whoever the property belongs to.",
+  "position_hint": "middle: it is a single-moment film and sits naturally beside an ongoing practice of the same kind.",
   "risks": [
-    "Cannot be staged or re-enacted after the fact without falsifying the entire premise",
-    "Legal complications around lost property and its rightful owner"
+    "The premise collapses entirely if staged or reconstructed",
+    "Legal complications around found property and its rightful owner",
+    "Turning one decision into a character reference for the person who made it"
   ],
   "drop_if": [
-    "No genuine, current instance can be found and filmed as it actually unfolds"
+    "No genuine, current instance can be filmed as it unfolds"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0102",
-      "relation": "pairs with",
-      "note": "Both show restraint from a specific wrong, one in a single moment, the other as an ongoing daily practice."
+      "relation": "folded into",
+      "note": "Its substance now lives inside IDEA-0102 as the one-off form of the same refusal, alongside the trader's weekly one."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0102",
+    "reason": "Same concept and the same moral structure as IDEA-0102, and far less filmable; its distinctive contribution, restraint with no prior vow, is folded into that film."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,89 +4,76 @@
   "record_type": "idea",
   "title": "The Society Book",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
   "logline": "A village savings and funeral-aid society, run from a handwritten ledger, decides together how to help a member through a bad year, and turns down the easier option of interest that would eventually take the family's land.",
   "human_question": "What does a community actually choose, when it could profit from one of its own members' trouble instead?",
-  "premise": {
-    "story": "A mutual-aid or funeral-aid society's monthly meeting and its handling of a real member's real difficulty.",
-    "place": "A village hall or a member's home: ledgers, handwritten notes, a circle of people who know each other's business.",
-    "experience": "The unglamorous, procedural texture of a community actually looking after its own."
+  "situation": {
+    "what_happens": "A mutual-aid society that people pay into over years meets, as it does every month, and works through its ledger. One member is in difficulty. The society could lend on terms that would make the fund money and, in time, cost the family more than the loan. It could also carry the member. The decision is made in the open, among people who know each other's circumstances, and it is recorded in the book in handwriting.",
+    "who_is_involved": "The members, who are simultaneously contributors and potential claimants; the office-holders who keep the ledger; the member in difficulty and their household; and the lenders elsewhere whose terms are the alternative everyone knows about.",
+    "what_is_at_stake": "For the member, land, standing and privacy. For the society, its fund and the precedent it is setting. For the viewer, whether fairness at this scale is an achievement or merely a procedure.",
+    "how_it_unfolds": "Societies like this run on a monthly cycle and survive for decades or collapse over a single disputed decision. The pressures are arrears, favouritism, the cost of a funeral or an illness, and the fact that everyone will meet again next month. The decision may be generous, cautious, or deferred. Reality decides what the members choose, whether the member in difficulty wants any of it shown, and how it turns out over the following year."
+  },
+  "concept_merge": {
+    "why_together": "C024's own example of wrong livelihood is lending to someone in difficulty at unjust interest in order to take their land later, which makes a fair society the deliberate refusal of a named wrong rather than a generally nice institution. C012 describes what the tradition says action produces: resultant moments of experience arising from one's own earlier action, with no judge handing anything out, experienced by everyone because everyone's past is mixed. C019 keeps the scale right: one outcome carried by many people's small, distinct contributions, none of them the whole story. Together they show a refusal made collectively, and a tradition's account of consequence that refuses to explain anybody's hardship.",
+    "what_it_reveals": "That the abstinence the texts describe can be held by a group and written into a procedure, and that the doctrine of results, read honestly, says nothing about why this particular member is having a bad year."
   },
   "concept_links": [
     {
       "concept_id": "C024",
       "role": "primary",
-      "why": "The source's own example of wrong livelihood is lending to someone in difficulty at unjust interest in order to eventually take their land; a fair mutual-aid society is its deliberate opposite [C024-P:L47-L51]."
+      "why": "The source's own examples of wrong livelihood include lending to someone in difficulty at unjust interest and later seizing their land, and putting others at risk for a small profit [C024-P:L45; C024-P:L47-L51]; a society that refuses those terms is refusing the named wrong, which is what makes it the abstinence rather than merely decent behaviour."
     },
     {
       "concept_id": "C012",
       "role": "supporting",
-      "why": "This is a return, visible only much later, on years of steady fair dealing within a community, resonant with the idea that good action's fruit can arrive long after the act [C012-P:L50]."
+      "why": "Rewritten after the digest check. The sources describe resultant minds as moments of experience arising from a person's own earlier action, with no judge and no giver involved [C012-P:L34], and state that everyone, including the most realised, lives through the whole range of results because every past is mixed [C012-P:L52]. That is the honest form of the link: every member of the society is at once a giver and a receiver. It is emphatically not a claim that this member's bad year, or anyone's poverty, is the fruit of their own past action — the digest flags that claim as one that must never be used on camera — and not a promise that fair dealing is repaid."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "Many people's small, specific contributions add up to one outcome, none of them the whole story alone [C019-P:L49]."
+      "why": "Factors arise together, cease together and take the same object, each with its own distinct function [C019-P:L33-L47], which is the shape of a decision that exists only because many people hold different parts of it at the same time; only the contributions the work requires are involved [C019-P:L49]."
     }
   ],
-  "what_camera_could_observe": [
-    "The monthly meeting and the ledger itself",
-    "Discussion of terms and how to help a member fairly",
-    "A member's situation being handled with visible care and discretion",
-    "The society's ordinary, procedural rhythm across meetings"
-  ],
-  "what_must_be_real": "The society's actual practice and a real member's real situation, shown only with their full, informed consent.",
-  "possible_arc": {
-    "opening": "The ledger opens for the month.",
-    "turn": "A member's difficulty is raised and discussed.",
-    "ending_open": "What the group actually decides, and how it plays out."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A long-running mutual-aid or funeral-aid society willing to be filmed",
-      "A real, current case, with full consent from the member involved",
-      "Trust and access built over enough time to observe genuine deliberation, not a performance for the camera"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural village with a long-running mutual-aid society",
-        "region": "Ampara or Polonnaruwa district",
-        "why": "Region-level suggestion for geographic variety; village mutual-aid and funeral societies of this kind are common across rural Sri Lanka.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific society, village or member has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Refusing to profit from a neighbour's trouble is, in the texts, a good act in its own right, and good action has results of its own that arise from what a person did, not from anyone handing out rewards.",
+  "what_must_be_real": "The society's actual practice and a real member's real situation, shown only with their full, informed and revocable consent. No reconstruction of a decision already taken, and no on-screen suggestion that anybody's hardship is explained by their past.",
+  "position_hint": "middle: it widens the group's restraint film from one trader to a community, and it is the natural place for the question of what action produces.",
   "risks": [
     "Exposing members' private debts and hardship without full consent",
-    "Implying a real lender elsewhere in the community is a villain, without direct evidence"
+    "Implying that a real lender elsewhere in the community is a villain, without direct evidence",
+    "Letting the doctrine of results slide into 'good things happen to good people', which the digest rules out",
+    "Any implication, however oblique, that the member's difficulty is a consequence of their own past action"
   ],
   "drop_if": [
-    "Members will not consent to being identified even partially, or no real, current case is active"
+    "Members will not consent to being identified even partially",
+    "No real, current case is active and the film would have to reconstruct one"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0102",
       "relation": "pairs with",
-      "note": "Both concern honest dealing chosen over an available, more profitable wrong, at the level of a trade and of a community."
+      "note": "Both concern honest dealing chosen over an available and more profitable wrong, at the level of a trade and of a community."
+    },
+    {
+      "idea_id": "IDEA-0093",
+      "relation": "mirrors",
+      "note": "Both show goodness carried by a group of people rather than by a single decisive act."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and the group's only communal-scale film; its results link has been rewritten to what the digest actually supports."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

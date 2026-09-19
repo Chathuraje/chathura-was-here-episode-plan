@@ -4,87 +4,66 @@
   "record_type": "idea",
   "title": "Before First Light",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "A night-shift watchman fights sleep through the small hours, and when his attention finally sinks, his body slumps with it, and has to be caught and held up again.",
-  "human_question": "What keeps a body upright, when the mind that is supposed to hold it up can barely stay awake?",
-  "premise": {
-    "story": "One long night shift, from the quiet after midnight to the change in the body and the light at dawn, told through a watchman's own routines and reasons for the work.",
-    "place": "A tea or rubber estate factory, or a security post, kept awake through the night by one or two people.",
-    "experience": "The stretched, echoing quiet of the small hours, a head dropping and snapping back, tea made to stay awake, and the visible change in the body when the sky lightens."
+  "logline": "A lone night-shift worker fights sleep through the small hours, and when attention finally sinks the body sinks with it and has to be brought upright again.",
+  "human_question": "What holds a body upright, when the mind that is supposed to hold it up can barely stay awake?",
+  "situation": {
+    "what_happens": "One person keeps watch, or keeps a process running, through a whole night while everyone else sleeps. Very little happens, which is the difficulty: the work is to stay present and upright for eight or ten hours against the body's own schedule. Attention comes and goes in waves. A head drops and snaps back. Tea is made, a round is walked early, a light is switched on, all simply to stay upright. When the sky lightens the body changes noticeably, some time before the shift actually ends and the worker goes home to sleep through a day that everyone else is using.",
+    "who_is_involved": "The worker on the shift; whoever shares it or takes the handover; a supervisor or employer whose rules decide what counts as being awake; and a household at home whose hours are set by this one person's inverted day.",
+    "what_is_at_stake": "For the worker, the job itself, because dozing on duty is a disciplinary matter almost everywhere night work exists, and the slower cost of years of inverted sleep. For the employer, whatever the night is there to protect. For anyone filming, the real possibility that recording a person losing the fight is what causes the consequence.",
+    "how_it_unfolds": "Night shifts move the same way everywhere: an alert first stretch, a long middle in which the body argues, and a change at dawn that arrives before the shift is over. The pressures are the hour, the quiet, the temperature and whatever the worker last ate. It ends with a night got through unremarkably, a night barely remembered, or a lapse with consequences. Which of those happens is decided by the night."
+  },
+  "concept_merge": {
+    "why_together": "C068 contributes the claim that a living body is produced by four causes at once, past action, mind, temperature and nutriment, and most concretely that mind-born matter is what moves the body and holds a posture, arising only at the instant of a thought, so that a person who dozes off while seated or standing slumps. C066 contributes lightness, softness and workability, qualities the sources say appear when sleep, food, weather and mood are suitable and disappear when they are not. One is about what holds the body up; the other is about how easily it can be held.",
+    "what_it_reveals": "Separately, the four origins read as a list and the three qualities as an afterthought. Together, across one night, they describe exactly what it is like for a body to become heavy: not a failure of will, but the withdrawal of several conditions at once. What becomes visible is that staying upright is a posture being renewed moment by moment, and that when the renewing weakens there is nothing underneath holding the shape."
   },
   "concept_links": [
     {
       "concept_id": "C068",
       "role": "primary",
-      "why": "The source uses exactly this situation: mind-born matter is what moves the body and holds its posture, arising only at the instant of a thought. When the mind sinks into its faint sleep-state, the body can no longer hold itself up, and a sitting or standing person who dozes off falls."
+      "why": "The digest uses this situation directly: mind-born matter moves the body and holds its posture and arises only at the instant of a thought, and the faint mind running during deep sleep cannot do it, which is why a person who dozes off while sitting or standing falls. The rest of the four-origin scheme, heat and food keeping the body going through the same hours, is present in the same night."
     },
     {
       "concept_id": "C066",
       "role": "supporting",
-      "why": "Lightness and workability of the body are described as coming and going with sleep, food, weather and mood; a long night shift is where their absence is most visible."
+      "why": "The digest describes lightness, softness and workability as conditional rather than fixed traits: they appear when sleep, food, weather and mood are right and give way to heaviness with lost sleep, fatigue, worry, heat or cold. A long night shift is where their absence is lived hour by hour rather than argued about."
     }
   ],
-  "what_camera_could_observe": [
-    "Posture slowly collapsing in a chair through the small hours",
-    "The head dropping and snapping back, a hand gripping a torch or rail",
-    "A tea break or a walk taken specifically to stay upright",
-    "Ordinary rounds and checks repeated through the night",
-    "The visible change in the body when dawn comes and the shift ends"
-  ],
-  "what_must_be_real": "The worker's actual shift, routines and reasons for the job. Nothing staged; fatigue must never be framed as a personal failing rather than a real labour condition, and the worker must not be exposed to disciplinary risk by the filming.",
-  "possible_arc": {
-    "opening": "The quiet that settles in after midnight.",
-    "turn": "The fight between attention and gravity, hour by hour.",
-    "ending_open": "Whatever the body and the worker actually do when the shift ends."
-  },
-  "position_hint": "opening candidate: a body shaped by the hours it keeps, at the very edge of what the mind can hold up, and a possible point for Object 7 to be acquired if a real moment allows it",
-  "location": {
-    "requirements": [
-      "A genuine night shift with a worker willing to be filmed over several nights",
-      "Employer permission that does not put the worker's job at risk",
-      "Enough low light to film without disturbing the work"
-    ],
-    "suggestions": [
-      {
-        "name": "A tea or rubber estate factory running a night shift",
-        "region": "Central Highlands (e.g. Hatton/Dikoya or Nuwara Eliya district)",
-        "why": "Estate factories are well documented as running through the night during processing season.",
-        "season_notes": "Depends on the estate's processing calendar.",
-        "access_notes": "",
-        "verify": "A specific estate, its night-shift practice and management permission are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Staying upright is not something a body simply does by itself. These texts describe a waking mind holding it up moment by moment, so that when attention sinks into sleep, the body sinks with it.",
+  "what_must_be_real": "The worker's actual shift, routines and reasons for doing the job. Nothing may be staged, no lapse may be provoked or waited for as a prize, and no filming may be done that could put the worker's employment at risk. Fatigue may never be framed as a personal failing rather than a condition of the work.",
+  "position_hint": "opening candidate: the group's plainest demonstration that a body is held up by something other than itself, and a natural place for the group's object to enter if a real moment allows it.",
   "risks": [
-    "Could mock or expose a worker who might be disciplined for dozing on duty",
-    "Framing fatigue as a personal failing rather than a labour condition",
-    "Low-light filming logistics"
+    "Could expose a worker to discipline for having been filmed dozing on duty.",
+    "Framing exhaustion as a character flaw rather than a labour condition.",
+    "Drifting into 'mind over matter': the digest rules out reading mind-born matter as willpower reshaping the body.",
+    "The scholastic numbers, mind-moments and cluster counts, presented as physiology."
   ],
   "drop_if": [
-    "No willing worker and employer consent that protects the worker's job",
-    "Filming would itself put the worker at risk of discipline"
+    "No arrangement with worker and employer that protects the worker's job.",
+    "The filming would itself change how the shift is worked, or put the worker at risk."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0122",
       "relation": "mirrors",
-      "note": "Both watch attention keep a tired body going through a long stretch of work, one through the night, one through a harvest day."
+      "note": "Both watch attention hold a tired body together through a long stretch of work, one through a night, one through a working day."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0058; the group's clearest and best-sourced case of mind-born matter holding a posture."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

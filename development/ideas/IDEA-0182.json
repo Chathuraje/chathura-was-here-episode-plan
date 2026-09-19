@@ -4,90 +4,70 @@
   "record_type": "idea",
   "title": "The Same Crossing",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "A ferryman makes the same short lagoon crossing dozens of times a day, in flat dawn stillness and in a wind-driven afternoon chop, arriving each time at the same far bank by a different road.",
+  "logline": "A ferryman makes the same short crossing dozens of times a day, in flat dawn stillness and in a wind-driven afternoon chop, arriving each time at the same far bank by a different road.",
   "human_question": "If two people reach the same place, does it matter that they got there so differently?",
-  "premise": {
-    "story": "A day and a season with a lagoon or river ferry operator, following the same short crossing in very different water and weather.",
-    "place": "A lagoon or river ferry crossing.",
-    "experience": "Repetition with variation: the same short journey made calm and made hard, arriving at an identical point each time."
+  "situation": {
+    "what_happens": "A small ferry runs a fixed route all day for people who have no other way over. The route never changes and the destination never changes, but the crossing does: the same few hundred metres are effortless at dawn and a fight in the afternoon. Passengers arrive in the same place having had entirely different journeys, and mostly do not remark on it.",
+    "who_is_involved": "The operator and whoever crews with them; the regular passengers, for whom this is a commute; occasional passengers with something urgent; the households on both banks who depend on the service running.",
+    "what_is_at_stake": "A livelihood that depends on running in conditions that are sometimes marginal, and the safety of everyone aboard when the operator decides to run anyway. For the film: the ferryman becoming a symbol instead of a working person.",
+    "how_it_unfolds": "A day builds from calm early runs to harder ones; a season swings further. The pressure is the decision to run or not, taken repeatedly and alone, against people who need to get across. It ends each day with the last run, and ends as a livelihood when a bridge or a road replaces it. Reality decides what weather the filming period brings."
+  },
+  "concept_merge": {
+    "why_together": "C017 (the supramundane minds counted in full) contributes the claim that the same arrival is counted differently according to the depth of calm behind it: glad at four levels, evenly balanced at the deepest, with the destination unchanged [C017-P:L25]. C016 (the eight supramundane minds) contributes the word itself, which the source explains as what carries one across and beyond [C016-P:L25].",
+    "what_it_reveals": "Together they make a fine distinction concrete: that the road leaves a mark on the moment of arrival without moving the destination. That is easy to say and hard to feel, and a crossing repeated in every kind of water is one of the few ordinary situations where it can be watched. C017 alone would be a counting scheme; C016 alone would be an etymology."
   },
   "concept_links": [
     {
       "concept_id": "C017",
       "role": "primary",
-      "why": "The source counts the moment of path and fruition again by the depth of absorption behind it: the destination is the same, but the texture of arrival differs, glad at four levels, evenly calm at the deepest [C017-P:L25; C017-M:L3–L11]. The ferry's identical crossing in different water is an honest, loose echo of a journey's texture changing while its endpoint does not."
+      "why": "The source counts the path and fruition moment again by the level of absorption behind it: accompanied by gladness at four depths, by even calm at the deepest, while the stage reached is the same [C017-P:L25]. The digest insists this is not 'every road leads to the same place, so the road does not matter', and that the counts are a study device rather than a scoreboard."
     },
     {
       "concept_id": "C016",
       "role": "supporting",
-      "why": "The source's own word for these minds rests on the image of 'carrying across' to the far side [C016-P:L25]."
+      "why": "The source explains the term for these minds as what carries one across and beyond the worlds of existence [C016-P:L25]. The digest rules out reading that as a breakthrough or epiphany, so the ferry stays an image of carrying across and nothing more."
     }
   ],
-  "what_camera_could_observe": [
-    "The same crossing at dawn stillness and in a rough afternoon current",
-    "Passengers' reasons for crossing, ordinary and varied",
-    "The ferryman's reading of the water, his adjustments",
-    "The moment of arrival, similar each time despite very different journeys"
-  ],
-  "what_must_be_real": "A real, working ferry crossing and its actual operator and passengers. Weather is not engineered; the film follows what the season brings.",
-  "possible_arc": {
-    "opening": "A calm, early crossing.",
-    "turn": "The same crossing attempted in rough water.",
-    "ending_open": "The ferryman's own account of the difference, if he chooses to give one."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working ferry crossing with a willing operator",
-      "Filming across enough of a season to capture different water conditions",
-      "Passenger consent for any close filming"
-    ],
-    "suggestions": [
-      {
-        "name": "Batticaloa lagoon",
-        "region": "Eastern Province",
-        "why": "A well-known lagoon with small local ferry crossings.",
-        "season_notes": "Monsoon timing differs by coast; local advice needed",
-        "access_notes": "",
-        "verify": "Whether a specific ferry crossing still operates there, and by whom, is unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Two people can reach the same place by very different roads. The road colours what arriving feels like, even though where they arrive does not change.",
+  "what_must_be_real": "A working crossing, its real operator and real passengers, with consent. Weather is never waited for at the cost of safety and never engineered, and no one is asked to run in conditions they would refuse.",
+  "position_hint": "middle: it sits directly after the group's first decisive-change film, refining it before the films about what does and does not come back.",
   "risks": [
-    "The metaphor becoming heavy-handed if the edit over-emphasises 'arrival'",
-    "Safety in rough-water filming",
-    "Reducing the ferryman to a symbol rather than a working person"
+    "The edit over-emphasising 'arrival' until the metaphor swallows the work",
+    "Safety in rough water, for crew, passengers and the film unit",
+    "Reducing the operator to a symbol"
   ],
   "drop_if": [
-    "No ferry crossing with a willing operator can be found, or safe filming in rough conditions cannot be arranged"
+    "No working crossing with a willing operator can be found",
+    "Filming in the harder conditions cannot be done without adding risk"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0177",
       "relation": "mirrors",
-      "note": "Refinement of depth in the potter's bowls; refinement of texture, not destination, in this crossing."
+      "note": "Refinement of depth there; sameness of destination with difference of texture here."
     },
     {
       "idea_id": "IDEA-0183",
-      "relation": "leads into",
-      "note": "From one crossing to the boats and craft of a coastal community nearby."
+      "relation": "pairs with",
+      "note": "The crossing itself, and the craft that has to hold together for it to happen."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0093; the texture-of-arrival claim is the digest's own reading of the count."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

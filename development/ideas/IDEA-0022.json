@@ -4,85 +4,71 @@
   "record_type": "idea",
   "title": "The Hundredth Piece",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "In a hill-country kitchen before the New Year, a sweet-maker's hands move without looking, and a child's whole day depends on the first bite.",
-  "human_question": "Can the same taste mean everything to one person and nothing much to another, in the same room?",
-  "premise": {
-    "story": "A family or small kitchen making traditional New Year sweets over several days: the maker's flat, practised rhythm after hundreds of pieces, an elder's careful tasting and judgement, and children waiting for the first batch to cool enough to eat.",
-    "place": "A home kitchen in a hill-country village in the weeks before the New Year.",
-    "experience": "Oil, sugar and pattern; the contrast between a tired, expert hand and a child's undivided delight."
+  "logline": "Before the New Year, a sweet-maker's hands move without looking, and a child's whole day depends on the first bite.",
+  "human_question": "Can the same taste mean everything to one person and almost nothing to another, in the same room?",
+  "situation": {
+    "what_happens": "A household spends several days making the sweets a festival requires, in quantities far past anything anyone would make for pleasure. The person doing most of the work has made hundreds and works by feel, tasting only to check. An older relative tastes slowly and judges. Children wait for the first batch to cool and then eat as though nothing else in the world is happening. The same sweet lands differently on every one of them.",
+    "who_is_involved": "Whoever in a household carries the festival cooking, usually taught by someone now older or gone; an elder whose judgement still settles what is right; children with no patience; the relatives and visitors the sweets are being made for.",
+    "what_is_at_stake": "For the maker, a standard to be met and a skill that will or will not pass on. For the elder, whether the thing still tastes the way it is supposed to. For the children, an ordinary and complete happiness. For the household, enough to last until the final visitor, made out of ingredients that cost more each year.",
+    "how_it_unfolds": "Festival cooking runs for days and ends in a rush: a trial batch, a long grind of repetition, tiredness setting in as the quantity climbs, and then a moment when it is over and the sweets belong to everybody else. Whether the maker still takes any pleasure in it, whether a child is disappointed, and whether there is enough at the end are not things that can be arranged in advance."
+  },
+  "concept_merge": {
+    "why_together": "C032 contributes the central claim: feeling is the tasting of an object's flavour, present in every mind because every mind takes an object, experienced as pleasant, painful or neutral and in no fourth way, and varying with the one who meets the object rather than with the object alone. C004 contributes the setting in which that becomes visible: the ordinary sense-sphere day, where one and the same sweet is reached for by one person and handled with flat, practised skill by another.",
+    "what_it_reveals": "That the flavour people talk about is not waiting inside the food to be found. Put together, the two show that a neutral feeling is a feeling and not an absence, and that delight proves nothing about the sweet: the maker's flatness and the child's joy are both accurate reports of the same object."
   },
   "concept_links": [
     {
       "concept_id": "C032",
       "role": "primary",
-      "why": "This is close to the concept's own story seed: the same sweet bringing delight to one person and a neutral, practised routine to another, which is feeling following the object and the person rather than the object alone [C032-P:L43]. The idea that pleasant feeling is 'where wanting begins' is the group's own editorial framing, not a claim stated in this digest's extracts, and the film should not present it as source teaching."
+      "why": "This is close to the digest's own story seed: the same sweet bringing delight to one person and flat, practised routine to another, which is feeling following the object and the person rather than the object alone [C032-P:L43], with the joyful greed-rooted minds counted among the pleasant-feeling ones [C032-P:L58]. The idea that pleasant feeling is where wanting begins is the group's editorial framing, not a claim stated in these extracts, and the film must not present it as source teaching."
     },
     {
       "concept_id": "C004",
       "role": "supporting",
-      "why": "The sweets themselves are a small, ordinary example of the sense-sphere world: taste, smell and sight together, wanted keenly by some and handled with flat skill by others [C004-P:L25]."
+      "why": "Sight, smell and taste together make up the everyday sense-sphere world the sources are counting [C004-P:L25], and greed is defined there as attaching that arrives with joy in one person and flat feeling in another [C004-M:L17]. The sweets are a small, ordinary instance of that world, wanted keenly by some in the room and handled with skill by others."
     }
   ],
-  "what_camera_could_observe": [
-    "Batter, oil and patterns forming",
-    "The maker's rhythm after many repetitions",
-    "An elder tasting and judging a batch",
-    "Children waiting, then eating the first cooled piece",
-    "Sweets packed for visitors and the New Year table"
-  ],
-  "what_must_be_real": "The family's actual New Year preparations and their own account of who taught whom. Nothing staged beyond normal cooking.",
-  "possible_arc": {
-    "opening": "The first batter poured into hot oil before dawn.",
-    "turn": "A child can't wait for the sweets to cool.",
-    "ending_open": "The sweets are finished, shared, or run out before the visitors arrive. Reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A family actively making traditional sweets for the New Year",
-      "Consent to film children in a home setting, from parents or guardians",
-      "A kitchen with room for close, unobtrusive filming"
-    ],
-    "suggestions": [
-      {
-        "name": "A village home kitchen near Badulla",
-        "region": "Badulla District, Uva Province",
-        "why": "A hill-country district with strong village New Year traditions.",
-        "season_notes": "New Year season, mid-April.",
-        "access_notes": "Specific family unconfirmed.",
-        "verify": "No family has been contacted; this is a plausible setting, not a confirmed location.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Every taste arrives with a feeling already in it: pleasant, unpleasant, or neither. In one kitchen the same sweet can bring a child pure delight and bring the hands that made it almost nothing at all, and neither of them is mistaken.",
+  "what_must_be_real": "The household's actual preparations at their own pace, and their own account of who taught whom. No batch made a second time for the film, and no child prompted to react.",
+  "position_hint": "middle: the third beat, where the group turns from how wanting arrives to the feeling that comes with every experience, which is what makes the later distinctions of aim possible.",
   "risks": [
-    "Nostalgic, touristic imagery without a real family story underneath",
-    "Filming children requires full guardian consent throughout"
+    "Nostalgic, touristic imagery with no real household story underneath",
+    "Children in a home setting, which needs guardian consent that can be withdrawn at any point",
+    "Presenting the editorial line that pleasant feeling is where wanting begins as source teaching",
+    "Reading feelings onto faces and calling the reading doctrine"
   ],
   "drop_if": [
-    "No family will allow filming across the full preparation, or will not consent to filming children"
+    "No household will let the full stretch of preparation be included",
+    "Consent for children cannot be held throughout"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0017",
       "relation": "mirrors",
-      "note": "Both are about giving something to eat, and whose pleasure the giving is really for."
+      "note": "Both turn on food given to someone else, and on whose pleasure the giving is really for."
+    },
+    {
+      "idea_id": "IDEA-0021",
+      "relation": "pairs with",
+      "note": "Two rooms where the same food meets several different feelings at once."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "The group's feeling beat, resting on the digest's own seed and already carrying the editorial caveat the digest requires."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

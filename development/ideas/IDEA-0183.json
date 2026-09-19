@@ -4,89 +4,70 @@
   "record_type": "idea",
   "title": "The Boatwright",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "In a lagoon-side yard, a boatbuilder lashes eight separate timbers into one outrigger hull, testing each binding before trusting the whole craft to open water.",
-  "human_question": "What holds a group of separate, ordinary parts together well enough to carry someone across open water?",
-  "premise": {
-    "story": "A boatbuilder constructs or repairs a traditional lashed or outrigger fishing craft, timber by timber, binding by binding, through to its first launch.",
-    "place": "A lagoon-side or coastal boatyard.",
-    "experience": "The physical logic of a vessel that only becomes seaworthy once every one of its separate parts is properly bound to the others."
+  "logline": "A boatbuilder binds eight separate timbers into one hull, testing every lashing, before anyone trusts the finished craft to open water.",
+  "human_question": "What holds a set of separate, ordinary parts together well enough to carry someone across?",
+  "situation": {
+    "what_happens": "A builder takes a commission or a repair and assembles a working craft from parts that are useless alone: timbers selected and shaped, lashings drawn tight, the whole checked for balance. A single weak binding makes the boat unsafe without making it look unsafe, so testing matters more than appearance. It ends with a launch and with someone else's life depending on the work.",
+    "who_is_involved": "The builder and whoever works alongside them; the fisher or family who commissioned the craft and will take it out; an apprentice learning which bindings can be trusted.",
+    "what_is_at_stake": "Money for the owner, reputation for the builder, and safety for whoever goes out in it. Also the survival of a way of building that may be nearly gone.",
+    "how_it_unfolds": "Work runs from selection through assembly to launch, over days or weeks, against the owner's need to be fishing. Pressure comes from timber quality, from cost and from the temptation to accept a binding that is nearly right. It ends at the launch, and the sea decides the rest. Reality decides whether such work is still being done at all."
+  },
+  "concept_merge": {
+    "why_together": "C076 (the thirty-seven requisites) contributes the source's own comparison: the eight path factors are like a raft of eight great logs bound together, which carries a person across the ocean [C076-P:L1413], and the digest adds that in the full sense all the factors arise together in a single moment, so human analogies fit only the gradual stage [C076-P:L1467]. C016 (the eight supramundane minds) contributes the term the tradition uses for those minds, explained as what carries one across and beyond [C016-P:L25].",
+    "what_it_reveals": "Together they make a claim about composition rather than effort: what carries someone across is not one strong thing but several ordinary ones that have to hold at once, and the failure of any one is invisible until it matters. The comparison alone would be decorative; the craft alone would be a trade film."
   },
   "concept_links": [
     {
       "concept_id": "C076",
       "role": "primary",
-      "why": "The source compares the eight path factors to a raft of eight great logs, bound together, that carries a person across the ocean to the far shore [C076-P:L1413]. The film gives that comparison a real, physical form without ever stating it."
+      "why": "The source compares the eight path factors to a raft of eight great logs bound together that carries one across the ocean [C076-P:L1413]. The digest cautions that the factors arise together only in a single path-moment and that everyday teamwork analogies cannot reproduce that [C076-P:L1467], so the film shows the physical form and never states the comparison as a lecture."
     },
     {
       "concept_id": "C016",
       "role": "supporting",
-      "why": "The eightfold path is what makes up the path minds this group's other films also touch; the boatbuilder's craft is one more honest, physical echo of 'carrying across.'"
+      "why": "The source explains the term for the path and fruition minds as what carries one across and beyond the worlds of existence [C016-P:L25]; the craft is one more physical echo of carrying across, with no claim attached."
     }
   ],
-  "what_camera_could_observe": [
-    "Individual timbers selected, shaped and tested",
-    "The lashing and binding process, and a loose binding being retested and corrected",
-    "The completed hull checked for balance before launch",
-    "The first launch through the surf or into the lagoon"
-  ],
-  "what_must_be_real": "A real, working boatbuilder's actual commission or repair. No boat is built solely for the film if it will not actually be used.",
-  "possible_arc": {
-    "opening": "Separate, unremarkable timbers laid out.",
-    "turn": "A binding tested and found wanting, redone.",
-    "ending_open": "The finished boat's first launch, and whether it performs as intended."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A boatyard where traditional lashed or outrigger construction is still practised",
-      "A real commission or repair during the filming window",
-      "Safe access to the launch"
-    ],
-    "suggestions": [
-      {
-        "name": "Negombo lagoon",
-        "region": "Western Province",
-        "why": "A well-known centre for traditional outrigger fishing craft.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Whether lashed (rather than nailed or fibreglass) construction is still practised there must be confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "What carries a person across is made of separate ordinary parts that only work bound together, and a single weak binding is invisible until the water tests it.",
+  "what_must_be_real": "A real commission or repair that would happen anyway, and a boat that will actually be used. No construction is revived or staged for the film, and nobody is presented as having attained anything.",
+  "position_hint": "middle if a slot opens: it belongs beside the group's crossing films, where the far-shore language is already in play.",
   "risks": [
-    "Traditional lashed construction may be rare or no longer practised; do not stage a revival for the film",
-    "Romanticising a hard, often precarious livelihood"
+    "Traditional lashed construction may be rare or gone; reviving it for the film would be a fabrication",
+    "Romanticising a precarious livelihood",
+    "Letting the comparison be spoken over the images"
   ],
   "drop_if": [
-    "No boatyard still builds or repairs craft this way, or none will allow filming of a real commission"
+    "No yard still builds or repairs this way for real use",
+    "The only available build would exist because the film asked for it"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0182",
-      "relation": "leads into",
-      "note": "From one crossing to the boats and craft of a coastal community nearby."
+      "relation": "pairs with",
+      "note": "The crossing itself, and the craft that has to hold together for it to happen."
     },
     {
-      "idea_id": "IDEA-0184",
-      "relation": "leads into",
-      "note": "From the boat that carries people across, to the community that lands and sells what the sea gives."
+      "idea_id": "IDEA-0179",
+      "relation": "alternative to",
+      "note": "The same far-shore question approached through what carries people across rather than through the crossing itself."
     }
   ],
+  "selection": {
+    "recommendation": "hold",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Strong and well grounded, but the group's twelve slots are full and C076 is already carried by IDEA-0180; held as the reserve for either crossing film."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

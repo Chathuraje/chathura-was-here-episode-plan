@@ -4,88 +4,65 @@
   "record_type": "idea",
   "title": "Second Sight",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "At a visiting eye camp, dressings come off one by one, and each patient's first sight in months depends on a surgeon, a donor, a driver, a nurse and a lens ground somewhere else entirely.",
+  "logline": "At a visiting eye camp, dressings come off one by one, and each patient's first sight in months rests on a surgeon, a donor, a driver, a nurse and a lens ground somewhere else entirely.",
   "human_question": "How many other people does it take before one person can simply see again?",
-  "premise": {
-    "story": "A mobile cataract-surgery camp from the first morning's queue to the moment bandages come off, following patients, the visiting surgical team and the local volunteers who make the camp possible.",
-    "place": "A rural hospital or temple hall hosting a visiting eye-surgery team.",
-    "experience": "The camera stays close to hands and eyes: the wait in dim light, the operation itself glimpsed only briefly, and the exact instant someone reads a chart, names a colour or sees a face again."
+  "situation": {
+    "what_happens": "A visiting surgical team runs a short cataract camp in a place with no permanent eye service. People who have been waiting months are examined, operated on in quick succession, and kept overnight. The next morning the dressings come off one at a time, and each person finds out what they can now see. Some see well, some partly, and a few do not improve. The team packs up and moves on.",
+    "who_is_involved": "The patients, most of them older, and the relatives who have been seeing for them; the visiting surgeons and nurses; the local volunteers and organisers who found the patients and the room; the suppliers of the lenses and equipment, present only in what they sent.",
+    "what_is_at_stake": "Independence, work and safety for each patient, and for some of them the difference between being cared for and caring for others. For the team, the number of people they can get through before they have to leave.",
+    "how_it_unfolds": "A camp runs to a fixed, short schedule set by the team's availability, and ends when they leave. The outcomes are found out in a single morning and are not all good."
+  },
+  "concept_merge": {
+    "why_together": "C075 names the eye among the twenty-two faculties: a governing state whose field is its own, so that clarity of sight can be no clearer than the eye allows and no wanting can see past it. C083 says matter supports mind in one way, the sense bases and objects already present supporting the seeing that follows. A camp is where one faculty is restored and everything that depends on it changes at a stroke.",
+    "what_it_reveals": "It would show a faculty as the sources describe it: not willpower or attention, but a bounded capacity that governs within its own function and cannot be substituted for."
   },
   "concept_links": [
     {
       "concept_id": "C075",
       "role": "primary",
-      "why": "Both sources use the eye as their example of a governing faculty: clarity of sight can be no clearer than the eye allows; the camp shows one faculty restored and what depends on it changing."
+      "why": "The eye is one of the twenty-two faculties, governing within its own field; the sources use it as their example of a capacity nothing else can supply, and the Margaya adds that the faculties were taught to undo the belief in an inner self in control."
     },
     {
       "concept_id": "C083",
       "role": "supporting",
-      "why": "Pre-nascence: something already there, the eye and its base, supports what arises after it; restoring that base organ is a literal, filmable version of the relation."
+      "why": "In the summary, matter supports mind in one way: sense bases and objects already present support the seeing and hearing that follow, so a restored base is a literal instance of that single relation."
     }
   ],
-  "what_camera_could_observe": [
-    "Queues on the first morning, led in by relatives",
-    "Reading charts, the pre-operative checks",
-    "The ward after surgery, bandages still on",
-    "Bandages coming off; a patient identifying colours or a relative's face",
-    "First attempts to thread a needle, read a bus number or walk unaided",
-    "The visiting team packing up to move on to the next town"
-  ],
-  "what_must_be_real": "Patients' real consent and real outcomes, including cases where sight is not fully restored; the team's real schedule and constraints.",
-  "possible_arc": {
-    "opening": "A queue in half-light, people led by relatives who see for them.",
-    "turn": "The operations happen, mostly out of frame; the ward waits.",
-    "ending_open": "Whatever patients actually see and say when the bandage comes off."
-  },
-  "position_hint": "closing candidate: restoring a faculty that had failed is a filmable image of a condition undone, echoing the group's hand-off that what arises by conditions can also cease by conditions",
-  "location": {
-    "requirements": [
-      "A visiting eye-surgery camp with willing patients, surgeons and organisers",
-      "Clear, ongoing informed consent from every patient shown",
-      "Access to both the pre-operative wait and the moment of bandage removal"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural district hospital or temple hall hosting a visiting eye camp",
-        "region": "Uva or Monaragala province",
-        "why": "Mobile cataract-surgery camps are a long-running form of rural outreach in Sri Lanka and are held periodically in under-served districts.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific camp, its organisers and dates are unconfirmed and must be found.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Seeing is not a power of a person but the working of a bounded organ that nothing else can stand in for, and that other hands had to restore.",
+  "what_must_be_real": "Every patient's real, ongoing consent and their real outcomes, including the ones that do not improve.",
+  "position_hint": "middle: its subject is a faculty, which belongs with the group's films about kinds of support rather than with its opening or its close.",
   "risks": [
-    "Medical privacy and consent",
-    "Turning patients into 'miracle' spectacle or charity advertising",
-    "Filming distress or failed outcomes without full consent"
+    "Medical privacy and consent, including for people whose sight does not return.",
+    "Turning patients into miracle spectacle or charity promotion.",
+    "Framing blindness or its relief through doctrine, which risks implying a cause in the patient; the Pradeepika's linking of past merit to present condition must never be brought near a film about disability."
   ],
   "drop_if": [
-    "No camp falls within the filming window",
-    "Patients or the medical team are unwilling to be filmed through the whole process"
+    "No camp falls within the filming window.",
+    "Patients or the team are unwilling to be filmed through the whole process."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0163",
-      "relation": "mirrors",
-      "note": "Both closing candidates show a condition, sight or fire, finally withdrawn or completed, echoing the group's hand-off that what arises by conditions can also cease by conditions."
+      "idea_id": "IDEA-0124",
+      "relation": "duplicate of",
+      "note": "IDEA-0124 in Group 7 is the same cataract camp, already used by EPD-0062, and links it to the matter concepts that actually describe the eye's sensitivity."
     }
   ],
+  "selection": {
+    "recommendation": "drop",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Duplicate of IDEA-0124 in Group 7, which films the same cataract camp and is already on the slate; its own position reasoning was also backwards, since restoring sight is a condition supplied, not a condition ceasing."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

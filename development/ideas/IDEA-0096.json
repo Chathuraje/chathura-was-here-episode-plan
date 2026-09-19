@@ -4,84 +4,70 @@
   "record_type": "idea",
   "title": "The Softening",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
   "logline": "A drum-maker works a stiff, raw hide with oil and water for days until it can finally be stretched, tuned and played.",
   "human_question": "What has to happen to something rigid before it can be made useful?",
-  "premise": {
-    "story": "The full process of preparing a drumhead in a family workshop, from raw hide to a tested, tuned sound.",
-    "place": "A village workshop belonging to a family with a generations-old drum-making tradition.",
-    "experience": "Watching material resistance slowly give way to usefulness, and hearing the first true note the finished drum makes."
+  "situation": {
+    "what_happens": "A maker prepares a drumhead from raw material that begins completely unusable: stiff, resistant and the wrong shape for anything. Over days it is soaked, worked, scraped and softened by hand until it will stretch. It is then fitted, tightened and tuned by ear, with small corrections repeated until the instrument speaks. Nothing about the process can be hurried, and the material decides how long it takes.",
+    "who_is_involved": "A maker working in a household trade, often one carried by a family for generations; whoever has ordered the instrument and will use it; apprentices or relatives who help and who cannot yet feel when the material is ready.",
+    "what_is_at_stake": "For the maker, a commission, a reputation and a craft whose economics may be failing. For the film, the risk of treating a living trade as an illustration. For the viewer, the difference between a thing that resists and a thing that can be used.",
+    "how_it_unfolds": "The work moves from raw material through preparation to tension and tuning, and its pressures are time, weather, the quality of the material and the cost of the labour. It can fail: material tears, tension is wrong, the sound never arrives. Reality decides how long the softening takes, whether the finished instrument satisfies the maker, and whether he says anything about it at all."
+  },
+  "concept_merge": {
+    "why_together": "C023 names softness (mudutā) as one of the nineteen factors present in every good mind and pictures it exactly as this craft: a stiff hide worked with oil and water until it can be used, set against the hardness of pride and fixed views, which the source compares to a dry stick that cannot be bent. C019 explains that a specific ordinary skill is not good or bad in itself but takes the quality of what it serves. The craft carries the image; the second concept keeps the film from confusing the skill with the virtue.",
+    "what_it_reveals": "That the tradition's idea of a good mind is closer to a workable material than to a strong feeling, and that the opposite of goodness here is not cruelty but rigidity."
   },
   "concept_links": [
     {
       "concept_id": "C023",
       "role": "primary",
-      "why": "Softness is pictured as a stiff hide worked with oil and water until it can be used, opposed to the rigidity of a fixed position [C023-P:L141]."
+      "why": "Softness is pictured as a rough hide soaked with oil and water and worked until it becomes soft, and it opposes the hardness of wrong view and pride [C023-P:L141]. The digest's caution travels with the link: this is softness against pride and fixed opinions, not flexibility about one's values."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "A specific, ordinary capacity, here the skill of working hide, is shaped entirely by what it is put to serve [C019-P:L61-L63]."
+      "why": "Ordinary capacities are ethically variable and take the whole colour of the mind they join, like a friend who follows the company he keeps, so the maker's skill is not itself the beautiful factor [C019-P:L61-L63; C019-P:L63]."
     }
   ],
-  "what_camera_could_observe": [
-    "Soaking and working the hide by hand",
-    "Stretching it over the drum body",
-    "Testing tension by ear, tightening and adjusting",
-    "The maker's hands, patience and small corrections over days"
-  ],
-  "what_must_be_real": "The maker's actual craft, livelihood and working process. Nothing staged purely to serve the metaphor.",
-  "possible_arc": {
-    "opening": "A stiff, unusable hide, freshly prepared.",
-    "turn": "Days of soaking, working and stretching it.",
-    "ending_open": "The first sound the finished drum makes, and whatever the maker says about it, or doesn't."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working family drum-making household willing to show the full process over enough time",
-      "A drum currently in production, not one made only for filming",
-      "The maker's willingness to speak about the craft and its economics"
-    ],
-    "suggestions": [
-      {
-        "name": "A traditional drum-making household",
-        "region": "Kandy district or the wider hill country",
-        "why": "The Kandy area has long-standing traditional drum-making communities linked to ritual and dance music.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific household, maker or drum has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Every good mind includes a softness — pictured as a stiff hide worked until it can be used — that loosens pride and fixed opinions.",
+  "what_must_be_real": "The maker's actual craft, livelihood and working process, including its economics. Nothing done or repeated purely to serve the metaphor, and no instrument made only so that it can be filmed.",
+  "position_hint": "middle: it is one of two films that give a beautiful factor a physical image, and it works best once the viewer has seen plain goodness and is ready to be told what it is made of.",
   "risks": [
-    "Animal-hide processing may disturb some viewers and needs careful, honest framing",
-    "Turning a living tradition into pure metaphor rather than letting the craft and the maker lead"
+    "Animal-hide processing needs honest, careful handling and may disturb some viewers",
+    "Turning a living tradition into pure metaphor instead of letting the craft and the maker lead",
+    "Letting the image imply that flexibility about values is the virtue being described"
   ],
   "drop_if": [
-    "No maker is willing to show the full process, or the craft is no longer practised at the identified location"
+    "No maker will show the full process over the time it actually takes",
+    "The only available work is a piece made for the film"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0095",
       "relation": "pairs with",
-      "note": "Both use a real, physical process as the direct image of a beautiful factor: softness here, lightness there."
+      "note": "Both take a real physical process as the direct image of a beautiful factor: softness here, lightness there."
+    },
+    {
+      "idea_id": "IDEA-0100",
+      "relation": "mirrors",
+      "note": "Both watch a maker's long attention turn resistant material into something usable, one toward sound and one toward a face."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and the clearest available image of the source's own simile for softness."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

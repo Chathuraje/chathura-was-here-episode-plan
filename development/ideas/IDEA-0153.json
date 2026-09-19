@@ -4,98 +4,78 @@
   "record_type": "idea",
   "title": "What the Channel Feeds",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "In a dry-zone village, farmers wait for the tank gate to open, and a single release of water starts a chain that ends, months later, at a bowl of rice on a table none of them will ever see.",
-  "human_question": "How many hands and how much water does it take before a single meal can exist?",
-  "premise": {
-    "story": "One paddy season on a small family plot fed by a shared irrigation tank, from the meeting that decides when the sluice opens to the harvest and the first cooked rice.",
-    "place": "A tank-fed paddy village in the dry zone, where water is shared by turns and argument.",
-    "experience": "The long, patient unfolding of a single grain: soil, water, labour, weather and neighbours, each one holding up the next, until a family eats what none of them made alone."
+  "logline": "A family's paddy season is held up by supports that each arrive on their own schedule and from other people's hands, and only if they all keep arriving does any of it become a meal.",
+  "human_question": "How many things have to keep arriving, and keep on arriving, before one family can eat what they grew?",
+  "situation": {
+    "what_happens": "A farming household sows a season of paddy on a small plot fed by a shared irrigation reservoir. The water is not theirs to take when they want it: a meeting of cultivators sets when the sluice opens and in which order the fields are served, and their turn comes when it comes. Over the following months the crop is carried by supports that arrive separately and differently — the seed's own strength at the start, then released water, borrowed hands, fertiliser and whatever the weather does — and the family's work is largely the work of keeping each of them coming. At the end there is a harvest, or a thin one, and a first cooked meal of the new rice.",
+    "who_is_involved": "The household that farms the plot, including whoever does the daily watching of the field; the other cultivators who draw on the same water and sit in the same meeting; whoever keeps the order of turns and settles disagreements about it; the neighbours and hired hands who come for transplanting and harvest; and, at the far end, whoever eats the rice, who need not be anyone who grew it.",
+    "what_is_at_stake": "A year of income and a year of food for the household, and their standing with the same neighbours they will need again next season. Each support helps in its own way and cannot be substituted: water late at the wrong week is not made good by more fertiliser, and a strong seed cannot carry a crop that is not watered.",
+    "how_it_unfolds": "Such a season begins with a decision that is not the family's own, tightens through the weeks when the crop needs a support that has not yet come, and ends either in a harvest, in a poor one, or in a crop given up on partway. Whether the film reaches a first meal of new rice, and what mood that meal is eaten in, is decided by the rain, the water order, the labour available and the price at the end, not by the film."
+  },
+  "concept_merge": {
+    "why_together": "C075 supplies the sustaining cause, and its source's own picture is agricultural: a seed is what starts a rice plant, but water and fertiliser are what keep it growing for months, so what begins a thing and what keeps it going are different jobs. C082 supplies the insistence that nothing arises from a single condition and that each support helps by its own particular power — the source's own image is a match head and the side of the box, which would not both be needed if they helped in the same way. C078 supplies the two lengths at which any of this can be told: the brief account and the detailed one. A shared-water paddy season is where these three meet without being arranged, because the supports are separately owned, separately timed and individually nameable.",
+    "what_it_reveals": "Put together, they stop 'many things had to come together' from becoming a warm slogan. The film can name each support, say what job it does and show that no other support can do that job instead; and it can set the one-line answer a farmer gives for the season against the long chain the same film has just followed, without either answer being wrong."
   },
   "concept_links": [
     {
       "concept_id": "C075",
       "role": "primary",
-      "why": "The Margaya's own image for nutriment: a seed starts the plant, but water and fertiliser keep it growing; a crop visibly depends on many supports at once, none of which it controls."
+      "why": "The nutriment section's own simile is a rice seedling: the seed's strength is chief for the plant to begin, while water and fertiliser are chief for it to grow and last. A paddy season carries that distinction between what starts something and what sustains it without any need to state it."
     },
     {
       "concept_id": "C082",
       "role": "supporting",
-      "why": "Water released on a fixed rotation, borrowed labour, seed and weather are each a specific, nameable support for the harvest, not a vague sense that everything is connected."
+      "why": "Both sources say nothing arises from a single condition and that different conditions help in different ways; the released water, the borrowed labour, the seed and the weather are separate, nameable supports with different powers, not a general sense that everything is connected."
     },
     {
       "concept_id": "C078",
       "role": "supporting",
-      "why": "A farmer's short answer for a good or bad season ('the rain came' or 'it failed') and the long answer, the whole chain of specific supports, are both true at once."
+      "why": "The sources teach cause and effect at different lengths and hold that the brief account and the detailed account are both true and both needed; a farmer's one line about the season and the long chain behind it are the same relation at two distances."
     }
   ],
-  "what_camera_could_observe": [
-    "Seed soaking and the nursery bed",
-    "The farmers' meeting deciding the water order, and the channel gate opening",
-    "Water reaching the last field in the rotation",
-    "Transplanting by hand; fertiliser carried in",
-    "The crop's colour changing with water and weather over months",
-    "Harvest, milling, and a first cooked meal of the new rice"
-  ],
-  "what_must_be_real": "The family's real water-sharing arrangement, their debts and expectations, and the season's real outcome, good or bad.",
-  "possible_arc": {
-    "opening": "A dry canal bed and a meeting to decide whose turn the water is.",
-    "turn": "Water reaches the field, and the crop is now visibly bound to a rotation it does not control.",
-    "ending_open": "A harvest and a meal, or a season that disappoints; reality decides."
-  },
-  "position_hint": "opening candidate: matches the group's own opening image of rain to tank to paddy to rice; an Object 9 acquisition (something that exists only because of this whole chain, such as a hand-milled bag of rice or a winnowing basket) would be possible only if it really happens",
-  "location": {
-    "requirements": [
-      "A working tank-fed irrigation system with a visible water-sharing arrangement",
-      "A family plot that can be followed through most of one season",
-      "Willingness to show disputes or hardship honestly, not only a good outcome"
-    ],
-    "suggestions": [
-      {
-        "name": "A minor-tank paddy village in the Rajarata dry zone",
-        "region": "Anuradhapura or Polonnaruwa district",
-        "why": "Small, tank-fed paddy systems with rotational water sharing are widespread and long-established across this region.",
-        "season_notes": "Yala or Maha cultivation season, depending on the tank",
-        "access_notes": "",
-        "verify": "A specific tank, family and water-sharing arrangement must be identified and confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "One meal needs many different supports at once, and they do not all do the same job: a seed starts the rice plant, while water, fertiliser and other hands are what keep it going for months. The short answer a family gives for how the season went and the long chain behind it are both true.",
+  "what_must_be_real": "The household's actual water-sharing arrangement and their actual place in the turn order, their real obligations and debts to the people who help them, and the season's real outcome including a poor one. No support may be arranged, hurried or supplied so that a chain looks complete.",
+  "position_hint": "opening candidate: the group's plainest and slowest statement of its question, where supports can be counted one at a time before any of the harder ideas are asked for. An Object 9 acquisition is possible here only if something that exists because of this whole chain is genuinely given, never arranged for the film.",
   "risks": [
-    "Pastoral cliché; postcard imagery of rural hardship",
-    "Treating the farmers as illustrations of doctrine rather than people with real debts, rain and prices",
-    "Filming a water dispute as manufactured drama"
+    "Pastoral cliche: rural hardship photographed as something beautiful.",
+    "Treating the household as an illustration of a doctrine rather than people with debts, rain and prices.",
+    "Filming a disagreement over water as manufactured drama.",
+    "Letting 'many supports' soften into 'everything is connected', which both sources explicitly refuse.",
+    "The Pradeepika elsewhere links merit in a past life to present wealth or hardship; nothing in the film may present this household's circumstances that way."
   ],
   "drop_if": [
-    "No family willing to show the whole season, including disappointment",
-    "No real water-sharing meeting or decision happens within the filming window"
+    "No household is willing to be followed through a whole season, including a disappointing one.",
+    "No real decision about the water order occurs while filming.",
+    "The chain can only be shown by arranging or accelerating parts of it."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0155",
       "relation": "alternative to",
-      "note": "Both are candidate openings built around acquiring something that exists only because many hands and processes made it."
+      "note": "Both are openings built on something that exists only because many separate supports each did their own part."
     },
     {
       "idea_id": "IDEA-0161",
       "relation": "leads into",
-      "note": "The rice grown here could plausibly be part of the shared meal followed in 'What the Meal Leaves Behind'."
+      "note": "The held idea about a shared meal picks up the same food at the point where it stops being a supply chain and becomes a memory people take up differently."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0079 and philosophically sound: the nutriment link rests on the source's own rice-seedling simile."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,93 +4,72 @@
   "record_type": "idea",
   "title": "The Seventh Day",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
   "logline": "On the seventh day after a death, a family cooks through the night, invites monks at dawn, and pours water until it overflows, saying a name out loud one more time.",
   "human_question": "What can the living still do for someone who is gone?",
-  "premise": {
-    "story": "A family's almsgiving in memory of the dead (mataka danaya), followed from the first errands to the quiet after the guests leave.",
-    "place": "A family home and its neighbourhood temple in a North Central province village.",
-    "experience": "A house rearranged for guests, a whole night's cooking, monks arriving at dawn, and the specific small ceremony of pouring water into a bowl until it overflows while a name is spoken."
+  "situation": {
+    "what_happens": "In the days after a death a household prepares an almsgiving in the dead person's name. There is borrowing and buying, a night of cooking, the house emptied and rearranged, monks received in the morning, a meal offered, and then the short act at the centre of it all: water poured slowly into a vessel until it overflows while the family speaks the name and says what has been done. Afterwards the guests leave, and the house is quiet and much too clean.",
+    "who_is_involved": "The immediate family, who are hosts and mourners at the same time; relatives and neighbours who cook, lend pots and carry; the monks who are invited, who chant and receive; and the person who has died, named aloud and not present.",
+    "what_is_at_stake": "Whether the family can complete something for someone they can no longer reach, and whether doing it well changes what they feel. The cost and the exhaustion are real, and so is the possibility that the rite works for the living and leaves the loss itself exactly where it was.",
+    "how_it_unfolds": "Preparations begin a day or two ahead and the heaviest work is done overnight. The morning is busy and formal, the offering itself lasts a minute, and the collapse afterwards is the part nobody plans for. Some families find the day steadying; for some the following week is worse. Reality decides how this household experiences it, and whether they want any of it said out loud."
+  },
+  "concept_merge": {
+    "why_together": "The results of wholesome action (C059) supply what the rite actually runs on: in the source, sharing a deed with the dead is not a transfer but a telling, and it is not enough to say 'share in this'. The deed has to be described well enough that the other could be glad about it. The four planes (C051) supply the addressee the practice traditionally has in mind, since the source names only one subclass of unhappy spirits that lives on what relatives give in its name. One concept explains the mechanism the family is relying on; the other names who it is aimed at without the film claiming that is where anyone now is.",
+    "what_it_reveals": "That this is a rite of description rather than delivery, working in the source's own terms through someone else's gladness at hearing what was done, and that the care visibly lands somewhere regardless: on the people in the kitchen. Neither concept alone shows an act of giving that is addressed to someone unreachable and received by everyone present."
   },
   "concept_links": [
     {
       "concept_id": "C059",
       "role": "primary",
-      "why": "The source treats sharing merit with the dead as real work: simply saying 'share in this' is not enough, the deed has to be told well enough that the person who died can feel glad about it [C059-P:L239-L245]. The film can follow that telling as it actually happens in a family's kitchen and front room."
+      "why": "The digest is explicit that sharing merit is not sending things to the dead: in the source it works through the relative's own gladness at a deed that has been properly described [C059-P:L239-L245]. The film can follow that describing as it actually happens. It stays inside the source by never presenting the rite as a delivery, a transaction or a guaranteed benefit, which the same digest warns against."
     },
     {
       "concept_id": "C051",
       "role": "supporting",
-      "why": "One class of unhappy being described in the source lives only on what relatives give in its name and waits for them to give it [C051-M:L21]. This is the everyday ritual behind that description, without the film asserting where the dead person now is."
+      "why": "The source limits this dependence to one subclass of peta, which waits on what relatives give in its name [C051-M:L21]. The digest warns directly against generalising that into 'the dead are watching over us' or 'the dead need our offerings'. The link therefore stands for what the practice is addressed to, and the film asserts nothing about where this particular person now is, a claim the digest says must never be attached to any real person and least of all in a group about grief."
     }
   ],
-  "what_camera_could_observe": [
-    "Shopping and borrowing pots the evening before",
-    "Cooking through the night",
-    "The house rearranged for monks",
-    "The meal offered at dawn",
-    "Water poured slowly until it overflows while the family says the name",
-    "The quiet afterwards when the guests have gone"
-  ],
-  "what_must_be_real": "A family's own loss and their own reasons for holding the almsgiving. No line is scripted; the dedication is whatever the family actually says.",
-  "possible_arc": {
-    "opening": "A house being swept and rearranged before dawn.",
-    "turn": "The meal is offered; the family's attention narrows to the moment of pouring water.",
-    "ending_open": "The last guest leaves. What the house feels like afterward is not explained."
-  },
-  "position_hint": "opening candidate: an heirloom used in the ritual, such as a jug, a set of dishes or a framed photograph, could plausibly be where Object 8 is acquired, if the family is willing; the film also works as a strong early piece for the group on its own",
-  "location": {
-    "requirements": [
-      "A family in the days following a bereavement who wants an almsgiving filmed",
-      "A neighbourhood temple with monks able to attend",
-      "Full, ongoing consent from every family member present"
-    ],
-    "suggestions": [
-      {
-        "name": "A village in the Anuradhapura district",
-        "region": "North Central Province",
-        "why": "A common setting for this practice with a nearby village temple; suggested for texture, not for a specific household.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No family or temple identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts describe sharing a good deed with someone who has died as something done by telling: it is not enough to say 'share in this'. The living have to describe what they did well enough that the other could feel glad about it.",
+  "what_must_be_real": "The family's own loss, their own decision to hold the almsgiving and their own words. Nothing is scripted, no part of the rite is repeated, moved or re-timed for the camera, and the monks take part on their own terms. Grief is filmed only with explicit and continuing consent, and is never presented as a failing.",
+  "position_hint": "early middle: the first turn from what an ending leaves behind to what the living can still do, before the group opens out into how results ripen.",
   "risks": [
-    "Intruding on fresh grief",
-    "Implying the deceased has become a suffering being",
-    "Treating a private rite as performance"
+    "Intruding on fresh grief, or making a bereaved household into hosts for a film crew as well as for guests",
+    "Implying that the person who died has become a suffering being, or is waiting for this",
+    "Treating a private rite as performance, or letting the camera change who attends",
+    "Suggesting the rite guarantees anything for anyone"
   ],
   "drop_if": [
-    "No family gives full, ongoing consent",
-    "The family does not want the ritual explained or framed on camera"
+    "Full, continuing consent from everyone present cannot be secured",
+    "The family does not want the rite explained or framed at all",
+    "The film's presence would enlarge or alter the almsgiving"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0133",
       "relation": "alternative to",
-      "note": "A second real moment where Object 8 could be acquired, here through ritual rather than sorting a room."
+      "note": "A second situation in which something of the dead could enter the series, here through a rite rather than through sorting a room."
     },
     {
       "idea_id": "IDEA-0145",
       "relation": "pairs with",
-      "note": "Both are about care extended toward beings ordinary comfort cannot reach directly."
+      "note": "Both follow care aimed at someone ordinary comfort cannot reach, one for the newly dead and one for the endangered living."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by the group's second episode, and the strongest-supported concept link in the group."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

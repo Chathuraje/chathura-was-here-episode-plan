@@ -4,87 +4,67 @@
   "record_type": "idea",
   "title": "As Long As It Takes",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
-  "logline": "On a long, silent meditation retreat in the hills, a teacher meets each student for a few minutes every evening, trying to gauge, without ever quite asking, how deep they've gone.",
+  "logline": "On a long, silent meditation retreat, a teacher meets each student for a few minutes every evening, trying to gauge, without ever quite asking, how deep they have gone.",
   "human_question": "How do you measure something as private as another person's stillness?",
-  "premise": {
-    "story": "A period on a residential meditation retreat, following the daily rhythm and the teacher's private evening interviews with students.",
-    "place": "A forest or hill-country meditation centre.",
-    "experience": "Long silent hours, walking meditation on a forest path, and the particular, quiet ritual of the evening interview, where a student says a little and a teacher listens for what is underneath it."
+  "situation": {
+    "what_happens": "A residential retreat runs for days or weeks in silence. The timetable is identical every day. Each evening every student has a short private interview in which they describe what happened in their practice, and the teacher decides what to say next. The teacher is working almost blind: the only evidence is the student's own account, which is unreliable in both directions, and whatever the teacher can read behind it.",
+    "who_is_involved": "The teacher, who is responsible for people they cannot see inside; the students, who range from first-timers to people who have been doing this for decades; and the staff who cook and keep the place running so that the silence can hold.",
+    "what_is_at_stake": "For students, sometimes a great deal, since people come to retreats after bereavements and breakdowns as well as out of discipline. For the teacher, the responsibility of guiding on thin evidence, and of knowing when to tell someone to stop. For the tradition, whether depth can be recognised and passed on at all.",
+    "how_it_unfolds": "Retreats begin with logistics and restlessness, settle around the middle, and often get hardest just before they ease. The interviews grow shorter and more specific as the teacher learns each person. Then it ends, people speak again, and most of what happened is invisible by the time they reach the gate. Reality decides what happens to any individual, and none of it can be verified from outside."
+  },
+  "concept_merge": {
+    "why_together": "Rebirth-linking into the fine-material and immaterial planes (C054) says that the level of absorption a person has trained and not lost at death conditions where the next life begins, graded for the first absorption as limited, medium or fully mastered. The minds available by plane (C050) says something counter-intuitive about those same higher states: fewer kinds of experience are available in them, not more. Together they make the evening interview strange and interesting, because a teacher is trying to gauge a depth the tradition takes seriously enough to link to the shape of an existence, while what that depth gains is subtraction rather than addition.",
+    "what_it_reveals": "That 'higher' here means narrower. The freest person in the source's own table has the fewest kinds of mind available, with no smell, taste or touch and no aversion. Placed beside a retreat, that turns the whole enterprise from acquiring experiences into giving them up, and it exposes the gap neither concept shows alone: none of this inner state is visible to a teacher, let alone to a camera."
   },
   "concept_links": [
     {
       "concept_id": "C054",
       "role": "primary",
-      "why": "The source ties rebirth into the higher planes to how deeply and steadily a person has trained their attention, graded as limited, moderate, or fully mastered [C054-P:L25]. A retreat's evening interviews are exactly where a living tradition tries, carefully, to gauge that depth."
+      "why": "The source grades the first absorption as limited, medium or fully mastered and links each grade to a different plane, saying the same method applies to the higher absorptions without spelling them out, which the digest records as an unresolved gap [C054-P:L25-L27]. The digest also warns that 'meditate and you will go to heaven' turns a precise teaching about an attainment unlost at death into a self-help promise, so the film shows people practising and never suggests that any of them is going anywhere. The source's traditional remarks about women who attain absorption are not used."
     },
     {
       "concept_id": "C050",
       "role": "supporting",
-      "why": "The source's surprising point is that the freest state in its table has fewer, not more, kinds of experience available to it [C050-P:L80]. The retreat's discipline of narrowing what reaches the senses gives that idea a human, practising form."
+      "why": "The digest's first correction is that 'higher beings feel more' reverses the source: the most freed person in its table has the fewest kinds of mind available [C050-P:L80]. A retreat's deliberate narrowing of what reaches the senses gives that an ordinary, practising form. The digest's warning that the count for people born without a sense faculty must never become a ranking of human worth is observed absolutely; nothing in this film ranks anybody."
     }
   ],
-  "what_camera_could_observe": [
-    "Students arriving and settling in",
-    "The daily timetable",
-    "Walking meditation",
-    "Students waiting outside the teacher's room",
-    "Short private interviews",
-    "The teacher's own instructions and questions"
-  ],
-  "what_must_be_real": "A real, ongoing retreat and real students' full consent. No one is described or implied to have 'attained' anything; the film cannot see or verify inner states.",
-  "possible_arc": {
-    "opening": "Students arriving, the retreat's silence beginning.",
-    "turn": "An evening interview where a student struggles to describe what has or hasn't happened.",
-    "ending_open": "The retreat continues past the point the film stops watching."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A residential meditation centre willing to allow filming without disrupting the retreat",
-      "Students willing to be filmed and interviewed with full consent"
-    ],
-    "suggestions": [
-      {
-        "name": "A forest meditation centre in the Kandy or Matale district hills",
-        "region": "Central Province",
-        "why": "The hill country has a number of established meditation centres of the kind this story needs.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific centre identified; access would need direct negotiation given the need to protect the retreat's silence.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts describe calm, focused attention as something a person can train a little, moderately or to full mastery, and they link its depth to birth in the higher worlds. Those worlds have fewer ways of experiencing, not more: no smell, taste or touch, and no anger.",
+  "what_must_be_real": "A retreat that runs exactly as it would without a camera. The silence is not broken for filming. Students consent individually, in advance and again afterwards, and an interview is filmed only if both people in the room want it. Nobody is presented as having attained anything, because nobody outside them can know.",
+  "position_hint": "late middle: the group's step up into the higher planes, after the films about death and before the two that close it.",
   "risks": [
-    "Inner states cannot be filmed or verified",
-    "Presenting any student as 'advanced'",
-    "Disrupting a retreat's silence for the sake of a shot"
+    "Presenting a student as advanced, which the camera cannot verify",
+    "Disturbing a retreat, or making the silence into a setting",
+    "A student in an intense state consenting to something they would not otherwise agree to",
+    "Implying that practice buys a destination"
   ],
   "drop_if": [
-    "No centre will permit filming without compromising the retreat",
-    "Students cannot give full, informed consent within a silent retreat's constraints"
+    "Filming would compromise the retreat",
+    "Students cannot consent freely within a silent retreat's constraints",
+    "The centre wants the film as promotion"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0148",
       "relation": "pairs with",
-      "note": "A companion piece: one watches people training attention toward stillness in company, the other watches a single practitioner doing the same alone."
+      "note": "One watches people training attention together, the other a single practitioner doing something similar alone."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and the only carrier of both C054 and C050 in the group."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

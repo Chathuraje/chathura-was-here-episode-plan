@@ -4,91 +4,74 @@
   "record_type": "idea",
   "title": "The Boundary Walk",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
   "logline": "Months after their father's death, siblings and a surveyor walk the old family land together, and every fence post seems to remember something different.",
-  "human_question": "What does losing a parent make family members want that they didn't want before?",
-  "premise": {
-    "story": "Adult siblings, after settling their late parent's estate, walk their inherited land with a surveyor to formalise boundaries that were always understood, never drawn.",
-    "place": "Family paddy or garden land in a rural district.",
-    "experience": "Chains and measuring instruments in tall grass, old deeds spread on a car bonnet, siblings pointing to trees and fences they each remember differently."
+  "human_question": "What does losing a parent make family members want that they did not want before?",
+  "situation": {
+    "what_happens": "After a parent's death, adult siblings set about formalising land that was always held by common understanding and never drawn on paper. A surveyor measures, deeds and old plans come out, and each sibling's memory of where a line ran turns out to be slightly different and slightly favourable to themselves. Most of it is agreed in an hour. One or two points are not, and the family has to decide, in front of each other, how hard to press.",
+    "who_is_involved": "Adult siblings and their spouses, who are also negotiating on behalf of their own children; the licensed surveyor, a professional with no stake in the outcome; neighbours whose own boundaries are touched by the same measurement; and the parent, present only as things said and never written down.",
+    "what_is_at_stake": "Land and money, and underneath them standing: who is thought to have done more, who left and who stayed, who was already helped once. What is risked is the relationship itself, which is easier to damage on a morning like this than at any funeral.",
+    "how_it_unfolds": "It usually begins amicably, with everyone calling the paperwork a formality, and the difficulty arrives at one specific point on the ground. Some families settle it there, some defer it, some end in a case that runs for years. Reality decides which. The film takes no side, and does not need a conflict in order to be worth making."
+  },
+  "concept_merge": {
+    "why_together": "The ten unwholesome courses of action (C058) treats covetousness as an act of the mind, wanting what belongs to another to become one's own, while carefully separating a passing wish from a settled one. Time of ripening (C057) supplies what makes the wanting possible now: an inheritance is a life's unfinished business, still open precisely because the person who could have closed it is gone. Together they set an ordinary and understandable wish in the exact circumstances that produce it.",
+    "what_it_reveals": "That the line the texts draw is not between good people and greedy ones but inside a single mind, between a thought that passes and a wish that settles, and that this line gets drawn quietly and repeatedly by ordinary people in unremarkable moments. The same decision is made by strangers handing back a wallet or an unclaimed bag, where nothing but the decision itself is at stake, and it is made here with land, memory and grief loaded on top of it. Neither concept alone shows that grief and wanting can arrive together without either being a fault."
   },
   "concept_links": [
     {
       "concept_id": "C058",
       "role": "primary",
-      "why": "The source defines covetousness as wanting something that belongs to another to become one's own [C058-P:L224-L229]. A land survey after a parent's death is exactly where that wanting, ordinary and understandable, becomes visible."
+      "why": "The source defines covetousness as wanting what belongs to another to become one's own [C058-P:L224-L229], and the digest stresses that this is not a thought-crime teaching: a flash of wanting gives only minor results and is explicitly distinguished from a settled wish [C058-P:L239]. The same text defines taking what is not given by knowing a thing is another's and deciding to take it anyway [C058-P:L78-L86], which is the decision a formal measurement keeps putting in front of people and which most of them decline. The film neither names nor implies a course of action in any real person."
     },
     {
       "concept_id": "C057",
       "role": "supporting",
-      "why": "The source treats what a life leaves unresolved as its own kind of unfinished action [C057-P:L87]. An undivided inheritance is one very common form of that."
+      "why": "Time of ripening treats what a life leaves unresolved as still open, waiting for an occasion [C057-P:L87]. An undivided inheritance is one of the commonest forms of that, and it is what gives the wanting its opening. No one's share, or lack of one, is presented as a result of anything they did."
     }
   ],
-  "what_camera_could_observe": [
-    "Measuring the land with chains or modern instruments",
-    "Old deeds and photographs laid out",
-    "Siblings recalling boundaries differently",
-    "A disagreement handled with more or less grace",
-    "A shared meal or a quiet departure at day's end"
-  ],
-  "what_must_be_real": "A family that genuinely wants this filmed and controls what is shown. No sibling is cast as 'the greedy one'; the film does not take a side in any real dispute.",
-  "possible_arc": {
-    "opening": "The surveyor's van arriving, old deeds unfolded.",
-    "turn": "A boundary that two siblings remember differently.",
-    "ending_open": "The measurements are recorded. Whether the family stays easy with each other is left open."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A family willing to have a real land settlement filmed, in full agreement among all parties",
-      "A licensed surveyor willing to be filmed at work"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural district with family paddy or garden holdings",
-        "region": "Southern Province or Uva Province",
-        "why": "Both regions have common smallholder family land of the kind this story needs; no specific family identified.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Region-level suggestion only.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts treat wanting what belongs to someone else as a real act of the mind, even before anyone moves. But they separate a passing wish from a settled wish to make it one's own.",
+  "what_must_be_real": "A family that wants this filmed, with every party consenting separately and able to stop at any point. No sibling is cast as the greedy one, no live legal dispute is broadcast, and no footage becomes evidence in anyone's case. Grief is never used to explain or excuse anyone's behaviour, and is filmed only with consent.",
+  "position_hint": "middle: the group's closest look at how harm begins in the mind, between the film about repair and the films about death itself.",
   "risks": [
     "Turning a private family conflict into entertainment",
-    "Casting any one relative as the villain",
-    "Legal sensitivity around real property disputes"
+    "Casting one relative as the villain, or implying that wanting is the same as taking",
+    "Legal exposure in a live property matter, or the footage being used by one party against another",
+    "Framing a bereaved person's behaviour as a failure of grief"
   ],
   "drop_if": [
-    "Any sibling withholds consent",
-    "The dispute is too raw or contested to film responsibly"
+    "Any party withholds consent, or consents only because the others have",
+    "The dispute is too raw, or is already before a court",
+    "The family expects the film to arbitrate"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0138",
-      "relation": "pairs with",
-      "note": "A companion piece on wanting what belongs to another, here among family rather than strangers."
+      "relation": "absorbs",
+      "note": "The lost-property idea is merged here, bringing the source's definition of taking what is not given and the counter-case of strangers who quietly decide the other way."
     },
     {
       "idea_id": "IDEA-0142",
       "relation": "alternative to",
-      "note": "A different possible response to the same pressure: repair through service rather than dispute over property."
+      "note": "A different response to the same pressure: repair through service rather than a claim over property."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0138"
+    ],
+    "superseded_by": null,
+    "reason": "Used by its episode; now carries both sides of the same course of action after the lost-property idea was folded in."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

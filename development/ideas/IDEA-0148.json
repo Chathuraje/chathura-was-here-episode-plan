@@ -4,86 +4,67 @@
   "record_type": "idea",
   "title": "Sitting With It",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
   "logline": "Every morning before the village wakes, a forest monk walks to the cemetery at its edge and simply sits there, the way he has for years, doing nothing that looks like very much.",
   "human_question": "What changes in a person who deliberately keeps death close, on purpose, every single day?",
-  "premise": {
-    "story": "A forest monk's regular practice of sitting at a village cemetery or charnel ground as part of his own training, followed over several mornings.",
-    "place": "A forest hermitage beside a rural cemetery.",
-    "experience": "Dawn light through trees, the ordinary business of a cemetery, a monk sitting still among it, and, if he chooses to speak, his own account of why."
+  "situation": {
+    "what_happens": "A monastic keeps a daily practice of going where the dead are and sitting there. It is unremarkable to look at and it has been going on for years. Around him the place does its ordinary work: a caretaker, a burial, families visiting graves, someone taking a shortcut. He sits. Then he walks back and the day begins.",
+    "who_is_involved": "The practitioner, whose training this is; the people who work at the place, for whom it is a job; the families who come there in grief, who are no part of anyone's practice and whose privacy governs the film entirely; and the lay community that supports the hermitage and has opinions about what he does.",
+    "what_is_at_stake": "For the practitioner, whether the practice is doing what it is meant to do, which is urgency and less clinging, or one of the things the texts warn it can do instead: grief, satisfaction at somebody else's death, numbness or fear. For the film, whether a practice that produces no visible event can be shown at all.",
+    "how_it_unfolds": "A routine unfolds as repetition with small variations: the weather, who else is there, whatever he is carrying that week. It has no arc. It is interrupted by illness, by duties, by a funeral. Reality decides whether he says anything about it at all, and the honest ending is that whatever it has done to him cannot be seen from outside."
+  },
+  "concept_merge": {
+    "why_together": "Recollection of death (C092) is the single concept here, and unusually it is already a practice rather than an analysis. The source separates four meanings of death and takes only one as the object; it warns that done unwisely the same reflection produces grief, glee, indifference or fear; and it directs the practitioner to charnel grounds and forests to see the dead and recollect wisely that death is certain for everyone, including oneself.",
+    "what_it_reveals": "That keeping death in view is a skill with failure modes rather than a mood. The aim the source names is being shaken awake, and the benefits it lists are practical: less hoarding, less clinging, more care about doing harm, and meeting one's own end without terror. Watching someone do this daily shows the difference between that and both of its cheap alternatives, morbidity and 'you only live once'."
   },
   "concept_links": [
     {
       "concept_id": "C092",
       "role": "primary",
-      "why": "The source's own instruction is to go to charnel grounds and forests to see the dead and wisely recollect that death is certain for oneself and for everyone [C092-P4:L80-L84]. A monk who does exactly this, as an ordinary part of his life, needs no further explanation."
+      "why": "The Pradeepika directs the practitioner to charnel grounds and forests to see the dead and wisely recollect that death is certain for oneself and for all beings, and in the same place warns that unwise recollection brings grief, glee at an enemy's death, indifference or fear [C092-P4:L80-L84]. Both halves belong in the film. The digest also forbids using the source's timely and untimely categories to explain or judge any real person's death, so nothing visible in or near the practice is interpreted, and the source's own remarks about the body and its humours are not presented as fact."
     }
   ],
-  "what_camera_could_observe": [
-    "The walk from hermitage to cemetery at dawn",
-    "The cemetery's ordinary daily life",
-    "The monk sitting still for an extended period",
-    "Villagers passing on the path",
-    "The monk's own words, if he offers them, about why he comes"
-  ],
-  "what_must_be_real": "A real, ongoing practice by a monk willing to have it observed. The film does not claim he has attained anything; it only shows what he does.",
-  "possible_arc": {
-    "opening": "A dawn walk from hermitage to cemetery.",
-    "turn": "An ordinary event at the cemetery, a caretaker at work, perhaps a funeral in the distance, met by the same stillness.",
-    "ending_open": "The monk gets up and walks back. Whatever this practice has done to him is not something the camera can show directly."
-  },
-  "position_hint": "closing candidate: a quiet, accepting note on which to hand the group's question on toward what comes after grief, without resolving it into doctrine",
-  "location": {
-    "requirements": [
-      "A forest hermitage with an established practice of this kind near a working cemetery",
-      "A monk willing to be filmed and, if he chooses, to speak about the practice"
-    ],
-    "suggestions": [
-      {
-        "name": "A forest hermitage in the North Central or North Western dry-zone forest belt",
-        "region": "North Central Province or North Western Province",
-        "why": "Dry-zone forest hermitages of this kind are established in this belt; no specific hermitage identified.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No hermitage or monk confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts describe keeping death in mind on purpose, and wisely, as a practice meant to make a person more awake and less grasping, not gloomier. Done carelessly, the same thought only brings grief, glee, numbness or fear.",
+  "what_must_be_real": "An established practice that exists without the film. Grieving families at the place are not filmed, and where they are present the camera is not. No claim is made about what the practitioner has attained. If he does not want to explain the practice, the film does not press him and does not explain it on his behalf.",
+  "position_hint": "closing candidate: the group's calm, accepting note, and the one film in which its subject is faced deliberately rather than suffered.",
   "risks": [
-    "Presenting the monk as having 'attained' something the camera cannot verify",
-    "Treating a working cemetery and grieving families nearby as scenery",
-    "Romanticising austerity"
+    "Presenting the practitioner as having attained something no camera can verify",
+    "Treating a working cemetery, and the people grieving in it, as scenery",
+    "Romanticising austerity",
+    "Letting the film read as morbid, which the source itself names as the failure mode of the practice"
   ],
   "drop_if": [
-    "No monk with this established practice will allow filming",
-    "The nearby cemetery's use by grieving families cannot be respected during filming"
+    "No practitioner with an established practice will be filmed",
+    "The place's use by grieving families cannot be respected while filming",
+    "Filming would turn the practice into a demonstration"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0136",
       "relation": "leads into",
-      "note": "A monk who spends his working life at other people's deathbeds finds a natural route into this, his own private practice of recollecting death."
+      "note": "Someone whose working life is spent at other people's deathbeds gives a natural route into a private practice of recollecting death."
     },
     {
       "idea_id": "IDEA-0144",
       "relation": "pairs with",
-      "note": "A companion piece: one watches a solitary practitioner train attention toward death, the other watches many people training attention toward stillness together."
+      "note": "One watches a solitary practitioner keep death in view, the other watches many people training attention together."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and the group's only carrier of recollection of death."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

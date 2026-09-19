@@ -4,86 +4,76 @@
   "record_type": "idea",
   "title": "Two Kinds of Sound",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "At a wind-scoured fish landing site, auctioneers' calls compete with gusts and surf, and buyers lean in close to tell a voice from the weather.",
-  "human_question": "When the wind and a human voice make the same kind of sound, how does anyone tell them apart?",
-  "premise": {
-    "story": "A morning's fish auction on an exposed beach, told through the auctioneers, buyers and crews whose livelihoods depend on being heard, or on hearing correctly.",
-    "place": "A coastal fish landing site where boats arrive, catches are auctioned on the sand, and the wind is a constant.",
-    "experience": "Shouted bids and hand signs, gusts and surf swallowing words, buyers straining forward to catch a number, a catch changing hands."
+  "logline": "Where the day's catch is landed in the open wind, auctioneers' calls compete with gusts and surf, and buyers lean in and watch hands to be sure of a number.",
+  "human_question": "When a voice and the weather make the same kind of sound, what tells them apart?",
+  "situation": {
+    "what_happens": "A catch is landed and sold within an hour or two, in the open, by voice. An auctioneer calls, buyers bid, and numbers are confirmed as much by hand signs as by sound, because the wind takes whole words away. Prices are settled in that noise and money changes hands on what people believe they heard. A bid misheard is a real loss to somebody, and disputes are settled on the spot by people who have been trading with each other for years.",
+    "who_is_involved": "The crews who landed the catch; the auctioneer who calls; the buyers, many of them regulars who know each other's signs; the carriers, ice sellers and small traders whose day depends on the sale going quickly.",
+    "what_is_at_stake": "A day's earnings for a crew whose catch will not keep, and a margin for a buyer who has to resell it the same day. For the auctioneer, the standing that comes from being trusted to have heard correctly.",
+    "how_it_unfolds": "Trade like this begins when the boats come in and is over fast, because the goods spoil. The pressures are the weather, the size of the catch and how many buyers turned up. It ends with everything sold, with a lot left unsold, or with a dispute nobody planned. Neither the wind nor the prices can be arranged."
+  },
+  "concept_merge": {
+    "why_together": "C069 contributes the sorting of the twenty-eight kinds of matter by origin, and with it the single case where one kind comes from exactly two: sound is produced by mind, as speech, and by temperature, as the noise of wind. C065 contributes sound as one of the five sense objects, derived matter that the sources say arises from striking and does not last long as a series. C066 contributes intimation, the mode by which a movement of the hand or a spoken word carries what someone means. An auction in the open air holds all three at once: a voice, a gale, and a hand sign that says a number when the voice cannot.",
+    "what_it_reveals": "On its own the mind-born and temperature-born split is a line in a table. Here it is the working problem of a trade: two sounds of the same kind, one of which means something and one of which does not, and people whose money depends on telling them apart in the moment. Adding intimation shows that the meaning was never in the sound itself. When the sound is taken by the wind, the meaning moves into a hand and arrives anyway."
   },
   "concept_links": [
     {
       "concept_id": "C069",
       "role": "primary",
-      "why": "The source draws exactly this distinction: speech is mind-born sound, and wind noise is temperature-born sound. The same kind of sense object, sound, arises here from two different origins at once, audible side by side."
+      "why": "The digest gives this distinction directly, and even suggests the situation: a voice speaking and the wind in the trees are both sound, but one comes from a mind that means something and the other only from weather, and a place where both can be heard at once, a voice calling over a gale, holds the distinction without anyone having to explain it. In the origin tables, sound is the one kind produced by exactly two origins."
     },
     {
       "concept_id": "C065",
       "role": "supporting",
-      "why": "Sound is described as dying where it arises, so what reaches a buyer's ear across a windy beach is only sound's own moving trace, which is why a call can be lost entirely in a gust."
+      "why": "The digest counts sound among the five sense objects, derived matter dependent on the great elements, and reports the source's account that what reaches the ear is an effect carried through space rather than the sound itself, which dies where it was made. The digest says plainly that this is the author's explanatory model and not acoustics, so the film may not present it as one."
+    },
+    {
+      "concept_id": "C066",
+      "role": "supporting",
+      "why": "The digest describes the two kinds of intimation as the modes of matter through which a bodily movement or a spoken sound conveys what someone means. An auction conducted in hand signs as much as in shouts is that pair working side by side. The digest also rules out reading intimation as a guide to body language, so it stays a question about how meaning is carried, not a study of gesture."
     }
   ],
-  "what_camera_could_observe": [
-    "Boats landing and catches carried up the beach",
-    "Shouted bids, hand signs and gestures",
-    "Gusts and surf briefly drowning out calls",
-    "Buyers leaning in, cupping ears, asking for a number to be repeated",
-    "The catch changing hands and the crowd moving to the next lot"
-  ],
-  "what_must_be_real": "Real prices, real catches and real trade. No staged auction or repeated takes; the fishers' and buyers' actual stakes must lead.",
-  "possible_arc": {
-    "opening": "Boats landing at first light, the crowd gathering.",
-    "turn": "The wind rising against the calling, a bid nearly lost.",
-    "ending_open": "The last lot sold, or the morning's trade ending as it actually does."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active fish auction on an open, windy beach or landing site",
-      "Fishers, auctioneers and buyers willing to be filmed at their real work",
-      "Enough wind on the day to make the sound contrast real, not staged"
-    ],
-    "suggestions": [
-      {
-        "name": "Fish landing sites on the eastern coast",
-        "region": "Eastern Province (e.g. Trincomalee area)",
-        "why": "The east coast has open, often windy beach landing sites with beach-based auctions.",
-        "season_notes": "Wind conditions vary by monsoon season; needs local confirmation.",
-        "access_notes": "",
-        "verify": "A specific landing site, its auction practice and willingness to be filmed are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "A shouted bid and a gust of wind are the same kind of thing to the ear. These texts say one is made by a mind that means something and the other only by the weather, and that when the sound itself is lost, the meaning can still be carried by a hand.",
+  "what_must_be_real": "Real catches, real prices and real trade. No sale re-run and no call repeated for sound. The sources' account of how a sound reaches an ear may not be offered as a description of acoustics.",
+  "position_hint": "middle: it sits after the films about the body's own upkeep and before the films about a single sense, because it is the one place in the group where the same sense object arrives from two different makers at once.",
   "risks": [
-    "Could stay a sound-design exercise with no real human stake",
-    "Must follow real buyers and sellers and their actual livelihoods, not just the weather"
+    "A sound-design exercise with no human stake in it.",
+    "Traders' livelihoods used as a setting for an idea about hearing.",
+    "Reading 'sound dies where it arises' as physics.",
+    "Reading intimation as body-language technique, which the digest rules out."
   ],
   "drop_if": [
-    "No auction with real wind and sound contrast on the filming days",
-    "No consent from traders and fishers"
+    "No real open-air trade conducted by voice during the research window.",
+    "No consent from the traders and crews."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0115",
       "relation": "pairs with",
-      "note": "Two senses under pressure at once: sound lost to wind, colour lost to shifting light."
+      "note": "Two senses under pressure: sound lost to wind, colour lost to shifting light."
+    },
+    {
+      "idea_id": "IDEA-0116",
+      "relation": "pairs with",
+      "note": "One asks what a voice loses when the wind takes it; the other what a voice loses when a machine keeps it."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0061, and the digest for C069 all but proposes the situation itself; now strengthened with bodily intimation, which the hand signs genuinely carry."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

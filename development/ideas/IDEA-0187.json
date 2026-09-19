@@ -4,95 +4,81 @@
   "record_type": "idea",
   "title": "The Emptied Room",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "An elderly woman gives away what is left of a house she has lived in for sixty years, and Chathura leaves her doorway for a road that, by evening, puts him down in the middle of a crowded city junction.",
-  "human_question": "What is left when a person has stopped adding anything to their life, and only ever takes away?",
-  "premise": {
-    "story": "An elderly lay person, over the course of closing up or leaving a home they have lived in for decades (moving in with family, or the house being given up), gives away or sets aside what remains of their belongings.",
-    "place": "A rural or hill-country home being emptied, and the road from there into a city.",
-    "experience": "A quiet, unsentimental final visit: what is kept, what is given away, what is simply left, and the physical and emotional experience of a room becoming empty. The film's very last images travel with Chathura from that doorway to a crowded city junction: traffic, pedestrians and overlapping sound."
+  "logline": "An elderly householder gives away what is left of a home of sixty years, and the film's last movement carries Chathura from that doorway to the crowded place that Episodes 1 and 100 share.",
+  "human_question": "What is left when a person stops adding anything to their life and only ever takes away?",
+  "situation": {
+    "what_happens": "An old person closing a house they have lived in for decades decides what goes where: what is given to whom, what is kept, what is simply left. The process is practical and slow, and it is mostly subtraction, since almost nothing new comes in at this stage of a life. One or two things turn out to be harder to part with than expected, and that is where the real decisions are. At the end the rooms are emptier than they have been in a lifetime.",
+    "who_is_involved": "The householder; the adult children or relatives who are receiving things, and who may be the reason for the move; neighbours who have known the house for decades; whoever will use the house next.",
+    "what_is_at_stake": "Independence, memory and dignity. For the family, an unresolved question about what is being lost. For the film, the risk of intruding on a grief-shaped transition or making old age and having little look beautiful.",
+    "how_it_unfolds": "These moves usually begin as a practical necessity and take weeks, with objects sorted, re-sorted and argued over. The pressure is a date, someone's health, or a family decision already made. It ends when the house is handed over, and the person's own view of it may not settle for a long time afterwards. Reality decides what the elder says, what they keep, and whether they want the film there at all."
+  },
+  "concept_merge": {
+    "why_together": "C073 (nibbana, the fourth ultimate) contributes the group's final claim: the sources describe their peace as unconditioned, realised rather than produced, neither a feeling nor a place, and the Margaya says it is very near and simply covered over [C073-M:L3–L7; C073-P:L20; C073-P:L62]. C015 (immaterial resultant and functional minds) contributes a guard the ending needs: even the longest and most refined result the texts describe is still a result that ends, so a quiet, reduced life is not the thing being pointed at [C015-M:L22]. C102 (the attainment of cessation) contributes the shape of a responsible letting go, the same preliminary duties the previous film watched, here turned the other way: not securing a life to come back to, but settling it with no return planned [C102-P:L43–L62].",
+    "what_it_reveals": "Together they let the group end on its subject without claiming it. A life visibly ceasing to add anything is the nearest thing a camera can approach, and the concepts, taken together, insist on the distance: this is not the peace, a long quiet life is not the peace, and nothing here is an attainment. What becomes visible is the shape of an idea, held at arm's length, in a room that is emptying."
   },
   "concept_links": [
     {
       "concept_id": "C073",
       "role": "primary",
-      "why": "The sources describe their final peace as something uncovered rather than built, very near and simply covered until what is added falls away; the film cannot show that peace, but it can watch a life visibly ceasing to add anything to itself."
+      "why": "The sources describe their final peace as not produced by effort but realised, not a location or a pleasant feeling, and the Margaya calls it very near and simply covered, with effort clearing what covers it [C073-M:L3–L7; C073-P:L20; C073-P:L62]. The film cannot show that; it can watch a life that has stopped adding to itself, and say no more."
     },
     {
       "concept_id": "C015",
       "role": "supporting",
-      "why": "The source describes a contentment that needs nothing added from outside, unlike pleasure that depends on stimulating the senses [C015-M:L12]; an elderly person living with very little offers an honest, modest, human-scale echo of that idea, without any claim about their inner state."
+      "why": "The digest warns that a long peaceful existence is not the goal in this teaching, because however refined and however long, it is still a result that ends and still counted among the mundane minds [C015-M:L22]. That is the guard this film needs against reading a quiet, reduced old age as the answer. The Margaya's cake-and-rice image and its remark about a happiness close to nibbana's are flagged in the digest as needing a teacher's framing, and the film should not use them."
     },
     {
       "concept_id": "C102",
       "role": "supporting",
-      "why": "The practical, responsible groundwork before a long absence, described elsewhere in this group in the fisherman's departure, is echoed here in reverse: not preparing to leave and return, but setting a whole life in order before a final departure."
+      "why": "The four preliminary duties tie even the deepest withdrawal to belongings, to the community and to the time one has [C102-P:L43–L62]. Here that responsibility appears in reverse, as a life settled without a planned return; the digest restricts the attainment itself to rare, already-liberated people, so no equivalence is drawn and the elder is never implied to be approaching anything."
     }
   ],
-  "what_camera_could_observe": [
-    "Belongings sorted: given away, kept, or simply left",
-    "The elder's own account of what each thing meant, and why it can now go",
-    "The empty room, last light through the window",
-    "Chathura's road away from the house, continuing until, by the film's end, he is standing in a busy city junction: traffic, crowds and overlapping sound, exactly as planned for this closing image, and described here only as the ending, not as invented content"
-  ],
-  "what_must_be_real": "A real elder's real, willing decision to give up or leave a real home, and their own account of it. The road and the crowd are filmed, observational footage, not staged action.",
-  "possible_arc": {
-    "opening": "The first belongings sorted for giving away.",
-    "turn": "One object the elder is reluctant to part with, and what happens to it.",
-    "ending_open": "The empty room; then the road; then the planned closing image of Chathura arriving in the crowded junction that opens Episode 1 and Episode 100."
-  },
-  "position_hint": "closing candidate: the group's answer in a single life, someone who keeps only taking away, hands directly to the planned crowded-location event that ends the chronological development slate (released as Episode 99) and opens both Episode 1 and Episode 100.",
-  "location": {
-    "requirements": [
-      "An elderly person genuinely leaving or emptying a long-held home, with full family consent",
-      "A road connecting that home to a real, busy Sri Lankan city junction",
-      "Care around a private, possibly difficult life transition"
-    ],
-    "suggestions": [
-      {
-        "name": "A hill-country village home, with the road leading toward Kandy",
-        "region": "Central Province",
-        "why": "Kandy has a well-known, busy town centre suitable for the required crowded-location ending; the exact junction is undecided.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific family, home or exact junction is identified; the crowded-location choice belongs to Chathura.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The peace the texts point to at the end of the road is not something made or gained, and it is not a feeling or a place. They describe it as very near but covered over, and as the last of the four basic realities the series began with.",
+  "what_must_be_real": "A real elder's real, willing decision about a real home, and their own account of it, with consent they and their family control throughout. The film never suggests the elder has attained anything, and it does not treat their age, solitude or having little as an achievement. The closing crowded-location event is the planned shared image with Episodes 1 and 100 and is observed, not arranged.",
+  "position_hint": "closing candidate: it is the group's answer held inside one life, someone who only ever takes away, and it hands directly to the planned crowded-location event that ends the chronological slate and is shared with Episode 1 and Episode 100.",
   "risks": [
-    "Intruding on a genuinely difficult or grief-laden life transition",
+    "Intruding on a grief-shaped or contested family transition",
     "Romanticising old age, solitude or poverty",
-    "Overreaching by suggesting the elder has attained anything; the film must not do this"
+    "Implying the elder has attained anything, or that letting go of possessions is the peace the texts name",
+    "Letting the closing shared image be read as a claim rather than the series' planned hand-over"
   ],
   "drop_if": [
-    "No elder and family will consent to this being filmed with full dignity and the ability to stop at any point"
+    "No elder and family will consent with full dignity and the ability to stop at any point",
+    "The move is contested within the family, so that filming would take a side"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0186",
       "relation": "leads into",
-      "note": "From a family's practical preparations before absence, to a single person's final, complete letting go of a home."
+      "note": "From preparing to leave and return, to setting a whole life in order with no return planned."
     },
     {
       "idea_id": "IDEA-0188",
       "relation": "alternative to",
-      "note": "A different route to the same required closing image: an individual's final letting go, rather than a retreat's collective return."
+      "note": "A different route to the same required closing event: one person's final letting go, or a group's return into the world."
+    },
+    {
+      "idea_id": "IDEA-0174",
+      "relation": "mirrors",
+      "note": "The group opens on a debt set down and closes on a whole life set down."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0098; C073 is the group's closing concept and the C015 link has been re-grounded on the warning rather than the flagged passage."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

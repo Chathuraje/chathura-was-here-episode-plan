@@ -4,87 +4,72 @@
   "record_type": "idea",
   "title": "Eleven Weeks",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "A public health midwife's rounds through a dry-zone village follow several pregnancies at once, each body being assembled week by week, out of sight of everyone but its mother.",
-  "human_question": "Before a person has a name, a face, or lungs of their own, what is already being built?",
-  "premise": {
-    "story": "A working round of home visits by a rural midwife over several weeks, following two or three expectant mothers at different stages, told through their own care and concerns.",
-    "place": "Scattered village households and a small rural clinic in the dry zone.",
-    "experience": "Travelling between houses on a motorbike or bicycle, weighing and checking, quiet advice about food and rest, and a family's own preparations for a birth."
+  "logline": "A public health midwife's rounds follow several pregnancies at once, each one a body being put together out of sight of everyone but its mother.",
+  "human_question": "Before a person has a name, a face or a breath of their own, what is already being assembled, and out of what?",
+  "situation": {
+    "what_happens": "A community midwife visits the same households week after week through their pregnancies. She weighs, checks, records, advises on food and rest, and answers whatever the family asks, including the things they would not ask at a clinic. Between visits, nothing she is responsible for can be seen: the work of the weeks happens inside someone else's body and is known only through weight, appetite, movement and what the mother reports. Some pregnancies run straightforwardly and some do not, and her judgement about when to send someone on is the sharpest part of the job.",
+    "who_is_involved": "The midwife; the expectant mothers; the households whose food, water, workload and money decide much of what she is measuring; the older women whose advice competes with hers; and the clinic or hospital she refers to.",
+    "what_is_at_stake": "For the mothers, health and a safe birth. For the midwife, a caseload she is answerable for and cannot see. For the households, the arrangements, costs and hopes that build up around a coming birth.",
+    "how_it_unfolds": "A pregnancy followed by a midwife moves through a known order of visits and checks toward a date that is always approximate. The pressures are distance, money, food and other people's advice. It ends in a birth, and sometimes it does not, and a film has no claim on either outcome, nor any right to be present at the end unless the family asks for it at the time."
+  },
+  "concept_merge": {
+    "why_together": "C071 contributes the sources' account of how matter occurs through a life: a first speck that the Pradeepika insists rests on the parents' union without being made of their matter, mind-born, temperature-born and food-born matter joining in a fixed order, named weekly stages, and from then on streams that run unbroken like a lamp flame or a river. C066 contributes the two characteristics that register that assembling, initial growth before the body is complete and continuity, the repeated arising that replaces what breaks up afterwards. One is the account of the building; the other names what building and keeping going actually are.",
+    "what_it_reveals": "Put together they turn a pregnancy from an image of waiting into an image of constant production. The weeks are not a container filling up; something is being made, and once made it goes on being remade for the rest of a life. The midwife's rounds show this from outside: she attends something she can never see, entirely by its effects, which is also the position the texts put every one of us in with respect to our own bodies."
   },
   "concept_links": [
     {
       "concept_id": "C071",
       "role": "primary",
-      "why": "The source traces exactly this: matter assembling from a first speck through named weekly stages, fed by warmth, mind and food arriving in a fixed order, through the mother's own nourishment. The midwife's rounds are the everyday care that surrounds that unseen process."
+      "why": "The digest sets out how matter arises and continues through a life: the order in which mind-born, temperature-born and food-born matter join after conception, the child nourished by what the mother eats, the named weekly stages, and the lamp-flame and river images for streams that run unbroken until death. The digest is equally clear that this is not embryology and that the weekly timings must never be presented as a medical or scientific timeline, so the midwife's present-day care carries the film and the texts stay on their own side of that line."
     },
     {
       "concept_id": "C066",
       "role": "supporting",
-      "why": "Growth and continuity, named among the non-concrete kinds of matter, are the visible register of that week-by-week assembly, most concretely observable in a pregnancy followed over time."
+      "why": "The digest names growth as the arising before the body is complete and continuity as the repeated arising that replaces what breaks up afterwards, both counted as characteristics of matter rather than separate things. It also records that the exact relation between the two terms is left for an expert to settle, so the film can use the pair only in the plain sense the digest gives it."
     }
   ],
-  "what_camera_could_observe": [
-    "The midwife travelling between houses",
-    "Mothers being weighed and checked, quiet advice given",
-    "Paperwork and records kept for each pregnancy",
-    "Families preparing rooms, clothes or ceremonies for a coming birth",
-    "A due date approaching, and whatever the family and clinic decide to share"
-  ],
-  "what_must_be_real": "Full informed consent from mothers and their families at every stage. No staged examinations, no medical claims presented as advice, and the doctrine's weekly stages never set against or confused with real medical guidance.",
-  "possible_arc": {
-    "opening": "The midwife's morning round begins.",
-    "turn": "A due date draws close.",
-    "ending_open": "A birth, if the family and hospital agree to include it, or the film ending before that point out of respect for privacy."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A rural public health midwife willing to have her rounds filmed",
-      "Expectant mothers and families giving full, ongoing consent",
-      "Health ministry or clinic permission"
-    ],
-    "suggestions": [
-      {
-        "name": "Rural villages served by a public health midwife",
-        "region": "North Central Province (e.g. Anuradhapura District)",
-        "why": "A well-known dry-zone agricultural region with an established rural public health midwife service.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific midwife, clinic and willing families are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Long before anything can be seen, a new body is being built up bit by bit as several conditions join in, in order, including the mother's own food. After that, these texts say, it keeps being renewed, like a flame that is never the same substance twice.",
+  "what_must_be_real": "Full, ongoing and revocable consent from every mother and household at every visit. No examination staged, no medical advice invented or implied, and no birth filmed unless the family asks for it at the time. The texts' weekly stages, the seventy-seventh-night figure, and everything the sources say about sex or about bodies born without a faculty stay out of the film: the digests rule them out as embryology, as comment on any real person, and as material for any argument about reproductive rights.",
+  "position_hint": "middle to late: it is the group's account of where a body comes from, and it needs the earlier films' inventory of matter behind it, while leaving the closing films to deal with where a body goes.",
   "risks": [
-    "Pregnancy is private and medically sensitive; consent must be ongoing and revocable at every stage",
-    "The doctrine's weekly stages must never be presented as medical fact or set against real medical advice",
-    "Mothers must control what is filmed and shown, especially near a birth"
+    "Pregnancy is private and medically sensitive; consent has to be renewable and refusable at every stage.",
+    "The doctrinal weekly stages read as embryology, or set beside the midwife's actual advice as if they competed.",
+    "The traditional count of weeks drawn, even by implication, into an argument about reproductive rights, which the digest explicitly rules out.",
+    "The sources' explanations of sex, or of a body born without a faculty, carried into the film: the digests forbid applying either to any real person.",
+    "The upacaya and santati terminology used more confidently than the digest's own uncertainty allows."
   ],
   "drop_if": [
-    "No midwife or expectant mothers willing to participate",
-    "Hospital or ministry permissions are unavailable"
+    "No midwife or mothers willing, with the necessary clinic permission.",
+    "Consent cannot be kept genuinely ongoing and revocable across the weeks."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0121",
       "relation": "leads into",
-      "note": "A body assembled week by week in one film; the same body, years later, taught to take itself apart again, part by part, in the next."
+      "note": "A body assembled out of sight in one film; the same body, years later, taught to take itself apart again, part by part, in the next."
+    },
+    {
+      "idea_id": "IDEA-0125",
+      "relation": "pairs with",
+      "note": "One film watches a body being built; the other watches the same warmth that built it begin to wear another one down."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0064; the only film carrying C071, and the one that most needs its doctrinal boundaries written into the idea itself."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

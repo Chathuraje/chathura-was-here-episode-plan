@@ -4,90 +4,70 @@
   "record_type": "idea",
   "title": "Cutting It Out",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "A chena farmer finally decides to dig out, root and all, a weed that has come back every season for years, choosing the harder work now over the easier work every year after.",
+  "logline": "A farmer finally decides to dig out, root and all, a weed that has come back every season for years, choosing the harder work now over the easier work every year after.",
   "human_question": "What is the real difference between managing a problem and ending it?",
-  "premise": {
-    "story": "A farmer working a slash-and-burn plot faces a deep-rooted, recurring weed and chooses between the usual seasonal cutting-back and the much harder work of digging it out completely.",
-    "place": "A chena (shifting cultivation) plot in the dry zone.",
-    "experience": "Physical, unglamorous labour that stands in for a real and recognisable choice: quick relief now, or harder work that actually finishes the problem."
+  "situation": {
+    "what_happens": "On a plot cleared and cropped in cycles, a deep-rooted weed returns every season. Cutting it back is quick and works until the next rain. Digging it out is days of work in heat, for a benefit that only shows up in seasons the farmer has not yet reached. One year, for reasons of labour, cost or exhaustion, the decision goes the other way.",
+    "who_is_involved": "The farmer and whoever works the plot with them; neighbours with the same problem who made the other choice; the household that will absorb the lost days of other work.",
+    "what_is_at_stake": "Days of labour now against a recurring cost later, on land whose tenure may not be secure enough to make the investment rational. Getting it wrong is expensive either way.",
+    "how_it_unfolds": "The weed reappears with the rain, as it always does. The pressure is the calendar: the digging has to happen before planting or not at all. It ends with cleared ground, or with the job half done and abandoned when something more urgent arrives. Reality decides whether the weed actually stays away, and the film should not claim success it has not seen."
+  },
+  "concept_merge": {
+    "why_together": "C016 (the eight supramundane minds) contributes the distinction the whole group has been circling: the texts separate holding a defilement down and pushing it aside for a time from removing the ground in which it could arise at all, so that it cannot come back [C016-P:L76–L82]. C076 (the thirty-seven requisites) contributes the quality the work needs, which the sources describe precisely as a pairing of energy with steadiness, using a charioteer who stops correcting once the horses run evenly [C076-P:L783].",
+    "what_it_reveals": "Together they show why the harder choice is rarely made: ending something costs more than managing it, and the payoff is invisible at the time. The pairing also keeps the film honest about effort, because the sources' own point is balance rather than maximum force. C016 alone risks turning a farming decision into a moral lesson; C076 alone is advice with nothing at stake."
   },
   "concept_links": [
     {
       "concept_id": "C016",
       "role": "primary",
-      "why": "The source's own image for a path mind's permanent effect is exactly this: holding a harmful tendency down for a while versus cutting it off at the root so it cannot come back, like felling a young tree before it fruits [C016-P:L76–L82]."
+      "why": "The source distinguishes suppressing and temporarily displacing defilements from cutting them off so they can never arise again, because the ground they could arise in is gone [C016-P:L76–L82]; the digest's own story seed for this passage is a farmer choosing between cutting a weed back and digging it out. The vivid image of a young tree felled before it fruits belongs to C098's account of the same distinction, not to this one, and the film should not attribute it here."
     },
     {
       "concept_id": "C076",
       "role": "supporting",
-      "why": "The balance the farmer needs, patient digging without giving up, but not so much force that the tool breaks, echoes the source's repeated theme of balanced, sustained effort [C076-P:L783]."
+      "why": "The sources treat effort as something to be paired and balanced, not maximised, and use the charioteer who stops correcting once the horses run evenly [C076-P:L783]. The digest warns that this is not a work-life balance slogan and that human analogies fit only the gradual, mundane stage."
     }
   ],
-  "what_camera_could_observe": [
-    "The familiar weed found again this season, the farmer's decision",
-    "The harder digging work: roots traced and pulled, not just cut",
-    "The cleared ground, and what is planted or left in its place",
-    "The following season, if filming allows, showing whether it returns"
-  ],
-  "what_must_be_real": "A real farmer's real land and real choice. The film should not suggest the digging succeeds if, in fact, the weed returns.",
-  "possible_arc": {
-    "opening": "The weed found again, as every year.",
-    "turn": "The decision to dig, not cut.",
-    "ending_open": "The cleared ground, and, if time allows, the next season's check."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working chena farmer with a real recurring weed problem",
-      "A filming schedule that can follow at least one full clearing",
-      "Ideally, a return visit the following season"
-    ],
-    "suggestions": [
-      {
-        "name": "A chena farming area",
-        "region": "North Central or Uva Province",
-        "why": "Slash-and-burn cultivation is still practised in parts of the dry zone.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific willing farmer must be identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Managing a problem and ending it are different things: cutting a weed back keeps it quiet for a season, but digging out the root means it does not come back. The texts use this same difference for the deepest kind of change.",
+  "what_must_be_real": "The farmer's real land, real labour and real reasoning, which will be about cost and time rather than about anything the film is interested in. If the weed returns, the film says so.",
+  "position_hint": "middle: it states plainly the difference the group has been approaching, and hands directly to the film that asks the same question about a person rather than a field.",
   "risks": [
-    "Treating a farmer's practical choice as a moral lesson",
-    "Chena cultivation can be a sensitive land-use topic; avoid taking a position on it",
+    "Treating a practical farm decision as a moral lesson",
+    "Taking a position on a contested form of land use",
     "Overstating what one cleared season proves"
   ],
   "drop_if": [
-    "No farmer will let a real land decision be filmed, or the metaphor would misrepresent their actual reasoning, which is driven by labour and cost, not by any wider point"
+    "No farmer will let a real land decision be filmed",
+    "The reading would misrepresent their actual reasoning, which is driven by labour and cost"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0179",
       "relation": "pairs with",
-      "note": "Both ask whether a change is temporary or complete, one through a crossing, one through a farmer's choice about a weed."
+      "note": "Both ask whether a change is temporary or final, one through a crossing, one through a root."
     },
     {
       "idea_id": "IDEA-0181",
-      "relation": "mirrors",
-      "note": "The same question asked through a person's habit rather than a field."
+      "relation": "leads into",
+      "note": "The same question asked of a person's life rather than a field."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0094; the situation is the digest's own illustration of the passage, now cited correctly."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

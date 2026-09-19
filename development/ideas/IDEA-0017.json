@@ -4,86 +4,71 @@
   "record_type": "idea",
   "title": "Whoever Is Hungry",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "Every evening, one person feeds the same stray dogs by name and checks their wounds. Every evening, passers-by toss them scraps to watch them scramble.",
+  "logline": "Every evening one person feeds the same stray dogs by name and checks their wounds, while passers-by toss them scraps to watch them scramble.",
   "human_question": "Can the same act of giving be, at the same time, a kindness and a private pleasure?",
-  "premise": {
-    "story": "An evening routine of feeding stray dogs at a public gathering place: the regular feeder's bowls, names and care, and the different, lighter gestures of passers-by, children and visitors who feed the same dogs for the fun of watching them eat.",
-    "place": "A bus stand, temple compound or market square where stray dogs gather each evening.",
-    "experience": "The quiet discipline of one person's routine against the passing amusement of a crowd; the dogs themselves, indifferent to anyone's reasons."
+  "situation": {
+    "what_happens": "Somewhere people pass through every day, a population of stray dogs has learned the hour at which one particular person arrives with food. That person has names for them, knows which ones are hurt, and works through the round with no audience in mind. At the same hour other people throw food to the same dogs and stay to watch them fight over it. The dogs eat either way and have no opinion about anyone's reasons.",
+    "who_is_involved": "A person who took this on and has kept it up without being asked; the animals themselves; the people passing who feed them casually and move on; those nearby who tolerate, help or object to the feeding.",
+    "what_is_at_stake": "For the feeder, a routine nobody thanks them for, and what it costs them in money and time. For the animals, whether the injured ones are treated at all. For the passers-by, nothing whatsoever, which is part of the point. The film can easily shame the casual and sanctify the regular, and must do neither.",
+    "how_it_unfolds": "A routine like this runs for years and then stops: it rests on one person's persistence and is vulnerable to illness, money, a move, or a complaint from someone nearby. Across an evening it is one short sequence repeated; across a season, animals appear and disappear. Whether the feeder keeps it up, and what passers-by do when nobody is attending to them, cannot be arranged."
+  },
+  "concept_merge": {
+    "why_together": "C005 contributes the source's own example, given almost in these words: feeding an animal in order to enjoy watching it eat is counted among the greed-rooted minds, and feeding it as a kindness to it is counted wholesome. C021 contributes what the steady version of it is made of: desire-to-act, the wish to take up or do something, which both sources insist is not greed because it lacks greed's sticking, and effort, which does not turn back until a task is done. Neither is good or bad in itself; each takes the colour of the mind it joins.",
+    "what_it_reveals": "That the distinction the sources make cannot be read off the hand. Same food, same gesture, same animal. What separates the two is where the person's attention rests, on the animal or on the pleasure of watching it, and that is not observable. Set beside it, a wish that keeps someone coming back for years shows a drive the group has not met yet: wanting to do, without the sticking."
   },
   "concept_links": [
     {
       "concept_id": "C005",
       "role": "primary",
-      "why": "This is close to the concept's own example: feeding an animal to enjoy watching it eat is one of the occasions greed-rooted minds arise, while feeding it out of care is counted differently, without judging either person on screen [C005-M:L21]."
+      "why": "The source gives this case directly: feeding animals in order to enjoy watching them eat is counted among the greed-rooted minds, while feeding them as a kindness to them is counted as a wholesome mind [C005-M:L21]. The digest stresses that this classifies a mind, not a person, and the film must not turn it into a judgement on anyone shown."
     },
     {
       "concept_id": "C021",
       "role": "supporting",
-      "why": "The regular feeder's steady, unprompted routine, sustained without anyone urging them, echoes the concept's account of effort and desire-to-act that need no push from outside [C021-M:L19] [C021-P:L53]."
+      "why": "Both sources define desire-to-act (chanda) as the wish to take up or do something and insist it is not greed: it lacks greed's stickiness, supports greed inside a greed-rooted mind and opposes it inside a wholesome one, while effort is described as what does not turn back until a task is done and as mental rather than bodily [C021-P:L69] [C021-M:L27] [C021-M:L19]. A routine sustained for years is a plain instance. An earlier draft called that routine 'unprompted', borrowing a term that belongs to a different concept, and the link has been re-grounded on chanda itself."
     }
   ],
-  "what_camera_could_observe": [
-    "Bowls set out, dogs recognised by name",
-    "Wounds checked and treated",
-    "Children or visitors tossing scraps to watch a scramble",
-    "The dogs themselves, at rest and at the moment food appears",
-    "The feeder's routine ending as the light goes"
-  ],
-  "what_must_be_real": "The feeder's actual routine and the passers-by's own, unstaged behaviour. No one is prompted to feed the dogs for the camera.",
-  "possible_arc": {
-    "opening": "Dusk; dogs gathering as if they know the hour.",
-    "turn": "A crowd of passers-by feeds the dogs for the spectacle of it.",
-    "ending_open": "The feeder finishes their round, or doesn't, as it actually happens."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A public place with a consistent stray-dog population and a known regular feeder",
-      "Consent from the feeder to be followed over several evenings",
-      "Passers-by willing to be filmed in an ordinary public space"
-    ],
-    "suggestions": [
-      {
-        "name": "A bus stand or temple compound in Kandy town",
-        "region": "Central Province",
-        "why": "A well-known town centre with public gathering places where stray animals are commonly present.",
-        "season_notes": "",
-        "access_notes": "Specific feeder unconfirmed.",
-        "verify": "No feeder has been identified or contacted; this is a plausible setting only.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Feeding a hungry animal can be about the animal or about the fun of watching it, and the texts count those differently even though the hand does the same thing. The plain wish to do something is not itself greed.",
+  "what_must_be_real": "The feeder's actual routine and the passers-by's own unstaged behaviour. Nobody prompted to feed anything, and no animal's condition arranged or worsened for the film.",
+  "position_hint": "middle: it follows the beat that separates aim from act, and extends the same line from buying into giving, where it is harder to accept.",
   "risks": [
-    "Sentimentality about strays and their feeders",
-    "Shaming casual passers-by on camera",
-    "Animal welfare concerns must not be turned into a lecture"
+    "Sentimentality about strays and the people who feed them",
+    "Shaming casual passers-by",
+    "Turning animal welfare into a lecture",
+    "Implying the source condemns people who enjoy watching an animal eat; it classifies a mind, not a person"
   ],
   "drop_if": [
-    "No consistent, willing feeder can be found and followed"
+    "No consistent, willing feeder can be found and followed over time",
+    "The casual side of the situation can only be obtained by prompting people"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0022",
       "relation": "mirrors",
-      "note": "Both are about giving something to eat, and whose pleasure the giving is really for."
+      "note": "Both turn on food given to someone else, and on whose pleasure the giving is really for."
+    },
+    {
+      "idea_id": "IDEA-0018",
+      "relation": "pairs with",
+      "note": "Both hold one act steady and let the aim behind it vary; one in buying, one in giving."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "The digest's own example, and the group's first sight of desire-to-act as something other than greed."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

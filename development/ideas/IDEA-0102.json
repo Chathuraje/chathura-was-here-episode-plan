@@ -4,89 +4,72 @@
   "record_type": "idea",
   "title": "Fair Measure",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "At a weekly market, one vendor's old balance scales are the only ones nobody double-checks, and a neighbouring stallholder's quiet suggestion to shave a little weight off gets a flat no.",
+  "logline": "At a weekly market, one trader's old balance scales are the only ones nobody double-checks, and a neighbouring stallholder's quiet suggestion to shave a little weight off gets a flat no.",
   "human_question": "What does it look like to keep doing the harder, honest thing when the easier dishonest one is right there, unnoticed?",
-  "premise": {
-    "story": "A vendor's ordinary market day, weighing and selling, including one real moment where a shortcut is available and refused.",
-    "place": "A weekly open-air market (pola): noise, produce, scales, cash changing hands.",
-    "experience": "The unremarkable rhythm of trade, with one small, real test inside it."
+  "situation": {
+    "what_happens": "A trader works an ordinary market day: setting up, weighing, selling, arguing about price, packing away. Inside that rhythm the chance to take a little more than is owed is constantly available and almost never visible — a thumb, a weight, a rounding. On at least one occasion the shortcut is put to the trader directly, by a neighbour or by circumstance, and is turned down. Nothing about the day marks the moment as important.",
+    "who_is_involved": "A trader with an established position and regular customers; neighbouring stallholders whose practices differ; customers, some of whom check and some of whom do not; and anyone whose work puts other people's money or goods through their hands, where the same refusal happens once rather than weekly.",
+    "what_is_at_stake": "For the trader, margin that is genuinely thin, and a reputation that is the business. For the neighbours, being implied to be cheats. For the viewer, whether an honest trade is the same thing as the moment of refusing to cheat.",
+    "how_it_unfolds": "Market days repeat on a fixed cycle, and the pressures are price, spoilage, competition and a bad week. The refusals are unremarked and quickly over; they may happen several times in a day or not at all. The same shape appears in one-off form wherever somebody finds property that is not theirs and spends unpaid hours returning it. Reality decides whether a real test occurs while anyone is watching, and what the trader says about it afterwards, if anything."
+  },
+  "concept_merge": {
+    "why_together": "C024 makes the point the situation exists for: right livelihood is not 'having a decent job' but the actual refusal of a wrong way of earning, and the source says a naturally blameless trade is not this abstinence at all. C027 supplies the timing: in ordinary minds an abstinence arises occasionally and one at a time, only while a particular wrong is being held back from, and many good acts involve no restraint whatsoever. Together they locate the good moment precisely inside an otherwise unremarkable day.",
+    "what_it_reveals": "That honesty, in this account, is not a background trait a person has but a series of small refusals that happen and are over, and that most of a good person's day contains none of them."
   },
   "concept_links": [
     {
       "concept_id": "C024",
       "role": "primary",
-      "why": "Right livelihood is the conscious refusal of a specific wrong done for a living, not simply 'having an honest job'; naturally blameless trade on its own is not this abstinence [C024-P:L45]."
+      "why": "Right livelihood is the conscious refusal of a specific wrong done for a living; the source states that naturally blameless trade on its own is not this abstinence [C024-P:L45]. It also distinguishes three depths: stopping in the moment with no prior vow because the harm is suddenly seen [C024-P:L61], keeping an undertaking even at cost, and a change deep enough that the wrong no longer arises."
     },
     {
       "concept_id": "C027",
       "role": "supporting",
-      "why": "In ordinary sense-sphere minds, right livelihood arises only occasionally, one wrong refrained from at a time, not as a general virtuous mood running through the whole day [C027-M:L17]."
+      "why": "In the wholesome sense-sphere minds the abstinences arise only occasionally and separately, when a specific wrong is actually being refrained from, unlike the supramundane minds where all three are present together [C027-P:L41; C027-M:L17]; the digest adds that giving, bowing and listening involve no abstinence at all."
     }
   ],
-  "what_camera_could_observe": [
-    "The scales, weights and counter",
-    "A customer double-checking a weighing",
-    "Market banter between neighbouring stalls",
-    "The moment a shortcut is offered or considered, and refused"
-  ],
-  "what_must_be_real": "An actual market day and the vendor's actual, ongoing practice. No staged temptation or arranged 'test'.",
-  "possible_arc": {
-    "opening": "A normal market morning, stalls setting up.",
-    "turn": "A moment where cheating would be easy and likely unnoticed.",
-    "ending_open": "Whatever the vendor actually does and says, in their own words."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A weekly market with an established, trusted vendor willing to be filmed",
-      "A real, observed moment rather than a recreated or hypothetical one",
-      "Cooperation from neighbouring stallholders and market organisers"
-    ],
-    "suggestions": [
-      {
-        "name": "A weekly pola market",
-        "region": "North Central or Central Province",
-        "why": "Region-level suggestion; weekly open-air markets of this kind are common across these provinces.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific market or vendor has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Being honest is not only a background trait: the texts describe a specific good moment that happens when a person has a real chance to cheat and turns it down.",
+  "what_must_be_real": "An actual market day and the trader's actual, ongoing practice. No staged temptation, no arranged test, and no neighbour recruited to offer a shortcut.",
+  "position_hint": "middle, early: it follows plain giving with the first complication — that goodness can be a refusal rather than an act.",
   "risks": [
-    "Implying that other vendors cheat, which would be unfair without evidence",
-    "Staging a 'temptation' would falsify the entire premise of the film"
+    "Implying that other traders cheat, which would be unfair without evidence",
+    "Staging a temptation, which would falsify the premise entirely",
+    "Treating one refusal as proof of a whole character, which the sources do not support"
   ],
   "drop_if": [
-    "No vendor's real, ongoing practice can be observed without staging"
+    "No trader's real, ongoing practice can be observed without staging",
+    "No genuine refusal is observed and the film would have to imply one"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0101",
-      "relation": "pairs with",
-      "note": "Both show restraint from a specific wrong, one in a single moment, the other as an ongoing daily practice."
+      "relation": "absorbs",
+      "note": "IDEA-0101's found-and-returned property is folded in here as the one-off form of the same refusal, the restraint that arises with no prior vow."
     },
     {
       "idea_id": "IDEA-0103",
       "relation": "pairs with",
-      "note": "Both concern honest dealing chosen over an available, more profitable wrong, at the level of a trade and of a community."
+      "note": "Both concern honest dealing chosen over an available and more profitable wrong, at the level of a trade and of a community."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0101"
+    ],
+    "superseded_by": null,
+    "reason": "Used by its episode and the more filmable of the two restraint situations; IDEA-0101's momentary restraint is folded in."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

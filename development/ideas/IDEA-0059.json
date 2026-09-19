@@ -4,96 +4,76 @@
   "record_type": "idea",
   "title": "The Almsgiving",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-04",
-  "logline": "A family has been up since before dawn to cook for the monks. One person arranges every plate beautifully, one checks for mistakes, one waits to be told, one keeps drifting off to talk, and one quietly wonders whether any of it matters.",
+  "logline": "A family has been up since before dawn cooking for the monks: one arranges every plate beautifully, one checks for mistakes, one waits to be told, one keeps drifting off to talk, and one quietly wonders whether any of it matters.",
   "human_question": "Why do people who share the same work find their way through it so differently?",
-  "premise": {
-    "story": "A real household's preparation for a merit-making almsgiving, from the night before to the moment the monks leave. The film watches each family member's way of doing the same work, and listens if one of them openly doubts.",
-    "place": "A village home on almsgiving day: smoke from the kitchen, mats spread, the best plates out, relatives arriving.",
-    "experience": "Warm, crowded and intimate; the viewer recognises people they know in how each one works."
+  "situation": {
+    "what_happens": "A household undertakes to feed monks on a chosen day, usually as merit for someone living or dead, and the work starts the night before. Cooking, borrowing plates, sweeping, arranging and receiving relatives all have to converge on a fixed arrival time. Everyone is doing the same work, and each person does it in a recognisably different way. When the monks have eaten and gone, the family finally sits down to what is left.",
+    "who_is_involved": "The household that has undertaken the offering, usually across three generations; relatives and neighbours who come to help or to be fed; the monks who are invited; and, in some families, one member who is not sure the whole thing does what it is said to do.",
+    "what_is_at_stake": "The family's standing among neighbours and their own sense of having done it properly; the cost, which for many households is significant; the memory of whoever the merit is for; and, for the doubting member, whether to say anything at all.",
+    "how_it_unfolds": "It begins with a decision and a date, builds through a night of work to a narrow window in the morning, and breaks the moment the monks leave. The pressures are time, money, heat and relatives with opinions. It ends in satisfaction, in exhaustion, in a small quarrel, or in all three. Reality decides whether any disagreement surfaces at all, and the film has no business making it."
+  },
+  "concept_merge": {
+    "why_together": "C086 says everyone has all six leanings and each person tilts, that the tilt is very hard to identify, and that each troublesome leaning sits close to a good one: greed near faith, hatred near clear thinking, delusion near speculation [C086-M:L7; C086-P4:L37; C086-P4:L77]. C008 adds that doubt about whether good deeds bear fruit weakens the good done with it [C008-M:L16]. C074 adds the compendium's observation that pride can slip into generosity itself, wanting one's own offering to look better than a neighbour's. One shared act of merit-making holds all three at the same hour.",
+    "what_it_reveals": "That difference inside a family is not disagreement about the good but different ways of reaching for it, and that the flaw and the virtue are usually the same movement. C086 alone risks a typology; C008 alone singles out the doubter; C074 alone singles out the proud one. Together they hold everyone in the same frame, including whoever is filming."
   },
   "concept_links": [
     {
       "concept_id": "C086",
       "role": "primary",
-      "why": "Margaya's traits (doing things beautifully, noticing faults, following others, talking a lot and drifting) show up in ordinary shared work [C086-M:L9–L19]. Everyone has all these leanings; no family member is presented as a type."
+      "why": "The digest carries this exact situation as one of its own story seeds, and its everyday traits, doing things beautifully, noticing faults, following what others say, talking a lot and drifting between tasks, are described as recognisable within one shared effort [C086-M:L9–L19; C086-M:L7]. Its warnings are load-bearing here: this is not a personality test, everyone has all these qualities, the tilt is very hard to identify, and the sources' signs of temperament are guidance for a meditation teacher rather than a way to profile people on camera."
     },
     {
       "concept_id": "C008",
       "role": "supporting",
-      "why": "Margaya names doubt about the results of good deeds and about rebirth, and says good done with doubt is not strong good [C008-M:L5; C008-M:L16]. The film may observe hesitation only if a family member genuinely voices it."
+      "why": "The sources name doubt about the results of good deeds and about what follows death, and say that good done while doubting is not strong good [C008-M:L16]. This may only be observed if a family member genuinely voices it; the film must not make a fault of it or turn the believers into models, and the digest warns against flattening the teaching into either 'just trust' or 'question everything'."
     },
     {
       "concept_id": "C074",
       "role": "supporting",
-      "why": "The source notes pride slipping into generosity itself, wanting one's offering to look better than a neighbour's. If it happens, a camera can catch it without naming it."
+      "why": "The compendium notes pride slipping into generosity itself, wanting one's offering to look better than the neighbour's, which the digest calls a stuckness a camera could catch without anyone naming it. The same digest is explicit that the sources' warnings about rites and rituals may never be used on screen to judge or mock the real religious practice of real people."
     }
   ],
-  "what_camera_could_observe": [
-    "Cooking through the night; the kitchen at 4 a.m.",
-    "Each person's way of handling the same tasks",
-    "Remarks, jokes and silences while working",
-    "The monks arriving, the offering, the chanting",
-    "Clearing up, and the family finally sitting down to eat"
-  ],
-  "what_must_be_real": "The family, their almsgiving and their words. Doubt, disagreement or pride must never be prompted or staged, and no one is edited into a caricature.",
-  "possible_arc": {
-    "opening": "Dark kitchen, fire, many hands.",
-    "turn": "The pressure of the arrival time; differences between people show.",
-    "ending_open": "After the monks leave. Whatever the family actually says to each other ends the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A family already planning an almsgiving in the filming window",
-      "Every adult in the family consents to being filmed",
-      "Permission from the monks attending"
-    ],
-    "suggestions": [
-      {
-        "name": "A village in Kurunegala district",
-        "region": "North Western Province",
-        "why": "A large farming district with many village temples and household almsgivings.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Region-level suggestion; a specific family must be found.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "People doing the same work go about it in very different ways. The texts say everyone has every leaning, with each person tilting a little one way, and that each troublesome leaning sits close to a good one.",
+  "what_must_be_real": "The family, the almsgiving and every word said in it. Doubt, disagreement or pride are never prompted, and no one is edited into a caricature or matched to a type.",
+  "position_hint": "middle: the group's turn from states to persons, and the first film in which being lost differs from one human being to the next.",
   "risks": [
-    "Presenting a doubting relative as the villain, or the believers as models",
-    "Mapping family members onto temperament labels",
-    "Religious sensitivity"
+    "Presenting a doubting relative as the villain, or the believers as models.",
+    "Mapping family members onto the six temperaments; the digest says everyone has all of them and the tilt is very hard to identify.",
+    "Judging or mocking a real family's religious practice.",
+    "Filming a household at its most exposed, and the cost of the offering being read as display."
   ],
   "drop_if": [
-    "The family is uncomfortable with any disagreement being filmed"
+    "The family is uncomfortable with any disagreement being filmed.",
+    "The offering would be made differently, or at all, because of the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0055",
       "relation": "mirrors",
-      "note": "A private, devotional rush set against a public commercial one."
+      "note": "A private, devotional rush against a public, commercial one."
     },
     {
-      "idea_id": "IDEA-0062",
+      "idea_id": "IDEA-0060",
       "relation": "pairs with",
-      "note": "Different leanings seen in shared work here; the teacher's attempt to fit practice to one person's leaning there."
+      "note": "Leanings seen side by side in one family's shared work, and then met one learner at a time by someone teaching."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries the group's sixth episode and is the only idea that shows the six leanings inside a single shared act."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

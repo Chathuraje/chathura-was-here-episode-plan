@@ -4,92 +4,77 @@
   "record_type": "idea",
   "title": "Two Bodies, One Warmth",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "Through one year in a shared household, a grandchild visibly grows and a great-grandparent visibly slows, fed and warmed by the same table, the same well, the same weather.",
-  "human_question": "Is the warmth that grows a child the same warmth that wears out a grandparent?",
-  "premise": {
-    "story": "A year of ordinary life in a multi-generation household, following one young child and one elder side by side, told through the family's own rhythms and choices about what to share.",
-    "place": "A multi-generation family home in a village, where several generations share meals, chores and space.",
-    "experience": "Shared meals, bathing at the same well, a birthday and an illness, small daily changes that only add up when looked at across a whole year."
+  "logline": "Across one year in a shared household, a small child visibly grows and an elder visibly slows, fed and warmed by the same table, the same water and the same weather.",
+  "human_question": "Is the warmth that grows a child the same warmth that wears out an elder?",
+  "situation": {
+    "what_happens": "Several generations live in one house and share almost everything: meals, water, heat, work, illness and money. Over a year the youngest changes fast enough to be noticed month by month, and the oldest changes slowly enough that it only shows in comparison. The household absorbs both: clothes handed on, a room rearranged, a task quietly taken over by somebody else. There is usually a birthday and usually an illness, and neither is scheduled.",
+    "who_is_involved": "A young child; an elder at the other end of a life; the middle generation who carry both and whose year is the most crowded; and the relatives who visit, help, or do not.",
+    "what_is_at_stake": "For the middle generation, whether the arrangement holds, since caring at both ends at once is what is actually being tested. For the elder, independence and dignity in a house that is slowly reorganising around them. For the child, everything, unnoticed.",
+    "how_it_unfolds": "A year in a household like this has no plot and a great deal of change. Its pressures are money, health, school, work and distance. It can end with the arrangement intact, with someone moving, or with a loss. Which of those happens is entirely reality's to decide, and any film would have to be willing to end wherever the year leaves the family."
+  },
+  "concept_merge": {
+    "why_together": "C064 contributes the fire element as ripening, and the sources' plain statement that one and the same warmth matures and strengthens a body in youth and, once maturing is complete, wears bodies down. C066 contributes the characteristics of matter: decay belongs to all matter from the moment it has arisen, and grey hair, lost teeth and wrinkles are not decay but only its signs. C072 contributes the sources' sober point that it is the body's own running-down, rather than a decision or a last thought, that fixes when a life ends. One household holds all three without anyone having to say anything.",
+    "what_it_reveals": "Separately these are three statements about time. Together in one house they make a single claim that is hard to take: growth and ageing are not two processes but one, at different points of the same arc, so the difference between the two people at the table is where they are on it rather than what is happening to them. It also removes the usual consolation that ageing starts somewhere. By this account it was running all along, and only its visibility changed."
   },
   "concept_links": [
     {
       "concept_id": "C064",
       "role": "primary",
-      "why": "The source states plainly that one and the same ripening warmth builds up a young body and, once growth is complete, wears an older one down. A household spanning a full life makes that single claim visible without a word being said."
+      "why": "The digest states it without hedging: in youth ripening makes matter mature and grow, and once maturing is complete the same ripening makes bodies and outside things decay, so one element brings both growth and decline. The digest calls this the most human line in the source for a group about vulnerability."
     },
     {
       "concept_id": "C066",
       "role": "supporting",
-      "why": "Grey hair, slower movement and stiffening joints are named as only the signs of decay, not decay itself, which has been present, hidden behind growth, from the start; this household can show both the growth and the sign at once."
+      "why": "The digest says decay belongs to all matter once it has arisen, that in childhood it is simply hidden behind growth, and that grey hair, lost teeth and wrinkles are not decay itself but only signs that it has already been happening."
     },
     {
       "concept_id": "C072",
       "role": "supporting",
-      "why": "The elder's presence quietly carries the group's closing question of what continues once a body ends, without the film needing to show a death directly."
+      "why": "The digest reports the Margaya's point that the end of the body's own renewal is what fixes the moment of death, rather than a last moment of mind stopping the body: in the digest's words, we do not choose our time, the body's own running-down sets it. That is the fact an elder's year is lived inside, and it needs no death on screen to be true."
     }
   ],
-  "what_camera_could_observe": [
-    "Shared meals across generations",
-    "Bathing or washing at the same well or tap",
-    "The child's changing abilities: crawling, first words, first steps",
-    "The elder's changing pace: a birthday, an illness, a good day and a hard one",
-    "Evening routines that repeat, with small differences, through the year"
-  ],
-  "what_must_be_real": "The family's own rhythms, consent and comfort at every visit over the year. No schematic 'growth versus decay' framing imposed on real people; the family's own sense of the year, not a symbolic reading of it, must lead.",
-  "possible_arc": {
-    "opening": "The household's ordinary year begins.",
-    "turn": "A visible change in one or the other, good or hard, becomes impossible to ignore.",
-    "ending_open": "Wherever the year actually leaves the family."
-  },
-  "position_hint": "closing candidate: the group's clearest, most human answer to what continues when a body ends, carried by two bodies at opposite ends of one life; a strong film to end the group before it hands off to the next stage",
-  "location": {
-    "requirements": [
-      "A multi-generation household willing to be visited repeatedly across a full year",
-      "Ongoing consent from every generation, renewed at each visit",
-      "A household where an infant or young child and an elder both live together"
-    ],
-    "suggestions": [
-      {
-        "name": "A multi-generation household in a hill-country or Uva village",
-        "region": "Central or Uva Province",
-        "why": "Extended, multi-generation households living under one roof remain common in these regions; no specific family is identified.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific willing family has not been found or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "These texts say the same warmth that helps a child grow is what slowly wears an older body down. Ageing was there all along; grey hair is only its sign.",
+  "what_must_be_real": "The family's own year, and consent renewed at every visit by every generation, including the elder's own and the parents' on the child's behalf. No schematic arrangement of the two people as growth and decay, no filming of an illness or a decline the family has not invited, and no suggestion that either body's condition is explained by anything the texts say.",
+  "position_hint": "closing candidate: the group's most human statement of what a body is doing all the time, leaving the group one step from its final question without having to stage an ending.",
   "risks": [
-    "The elder's decline could be exploited for pathos",
-    "Framing the child as 'growth' and the elder as 'decay' would be too schematic and must be resisted",
-    "A year-long filming commitment needs genuinely ongoing, renewable consent from every generation"
+    "The elder's decline used for pathos.",
+    "The schematic reading, child as growth and elder as decay, which the real year must be allowed to contradict.",
+    "A year of filming needs genuinely renewable consent and an agreed way to stop.",
+    "Drifting into 'positive thinking keeps you young', which the digest rules out.",
+    "Reading the ripening element as a wellness claim about balancing elements, which the digest also rules out."
   ],
   "drop_if": [
-    "No multi-generation household willing to be visited across a full year",
-    "A family member's health or circumstances make continued filming inappropriate"
+    "No multi-generation household willing to be visited across a full year.",
+    "Health or circumstances make continuing inappropriate."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0123",
       "relation": "pairs with",
-      "note": "One family answers 'what remains' in the days right after a death; the other watches two bodies answer the same question across a whole year."
+      "note": "One family answers what remains in the days right after a death; the other watches two bodies answer the same question across a year."
+    },
+    {
+      "idea_id": "IDEA-0120",
+      "relation": "pairs with",
+      "note": "One film watches a body being built; the other watches the same warmth that built it begin to wear another one down."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0065; the group's clearest case of one process producing both growth and decline, with its C072 link re-grounded in what the sources actually say."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,88 +4,69 @@
   "record_type": "idea",
   "title": "What Comes at Dusk",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
   "logline": "As the light goes at the edge of a village, a ritual specialist and a family build an offering stand for a sick relative, and the whole village stays up with them until dawn.",
   "human_question": "What does a community do for someone in trouble that medicine alone cannot reach?",
-  "premise": {
-    "story": "A night-long healing ritual (thovil) held for a sick member of a family, from building the offering stands at dusk to the ceremony's end at dawn.",
-    "place": "A rural village compound in the low-country south.",
-    "experience": "Drums and masks in torchlight, offerings placed at the village's edge, a community keeping watch through the night, and the family's own hope, spoken or unspoken."
+  "situation": {
+    "what_happens": "A family with a seriously ill member arranges a night-long healing ceremony. Structures are built and offerings prepared as the light goes; drummers and a ritual specialist work through the night addressing beings nobody in the household claims to see; relatives and neighbours stay awake around the sick person. At dawn it ends, and the household goes back to whatever the illness is actually doing.",
+    "who_is_involved": "The sick person, who is the reason for the night and not its spectacle; the immediate family, who decided on this and are paying for it; the ritual specialist and drummers, who are professionals with a craft and a reputation; and the neighbours who sit up.",
+    "what_is_at_stake": "For the sick person, comfort, dignity, and being at the centre of something rather than being managed. For the family, money, sleep, and the hope that they have not left anything undone. For the specialist, a working livelihood. Behind all of it, the fact that the illness will do what it does either way.",
+    "how_it_unfolds": "Preparation runs through the afternoon; the ceremony takes the whole night and has its own sections and pauses; the end comes with the light. Afterwards families say very different things: that it helped, that it was really for the relatives, that they would do it again. Reality decides whether the person recovers, and the film never joins the two."
+  },
+  "concept_merge": {
+    "why_together": "The four kinds of rebirth-linking (C053) is the one place in this group where the source steps right up to a living practice, identifying one class of downcast being with the beings who accept exorcists' offerings. The four planes (C051) gives that identification its setting, placing lesser and downcast spirits inside the source's map of where beings are born. Together they let the film watch a household do something the texts describe from outside, and notice the distance between the description and the night.",
+    "what_it_reveals": "That a map drawn to explain how a life begins is also, for many families, a practical guide to what to do when someone is ill, and that the texts are less certain about that join than the practice is. The digest flags the identification as blending a canonical category with Sri Lankan folk practice and asks for expert comment before use, and that hesitation is part of what the film holds rather than something it resolves."
   },
   "concept_links": [
     {
       "concept_id": "C053",
       "role": "primary",
-      "why": "The source itself connects one class of rebirth it describes to the beings who accept exactly these kinds of offerings [C053-M:L15]. It is one of the few places where the text points directly at a living Sri Lankan practice, and the film can simply watch that practice without asserting anything about the beings it names."
+      "why": "The source connects one class of downcast spirit with the beings who accept exorcists' offerings [C053-M:L15]. The digest flags this exact line as blending a canonical category with Sri Lankan folk practice and says it needs expert comment before use, so the link is kept as the reason the film exists and not as a claim: the film watches the practice and asserts nothing about the beings it addresses. The same digest forbids any use of the source's list of congenital conditions as results of weak good action, which rules out reading this person's illness as the result of anything."
     },
     {
       "concept_id": "C051",
       "role": "supporting",
-      "why": "The source places various downcast and lesser spirits within its picture of the planes of existence [C051-P:L95-L101]. A ritual addressed to unseen beings is where that picture is actually lived, not studied."
+      "why": "The source places various lesser and downcast spirits inside its account of the planes [C051-P:L95-L101]; the digest notes that this passage is itself ambiguous about which asuras belong where. The link stands for the fact that the map is lived rather than studied. The film does not adjudicate the passage, and does not assert or deny that the beings addressed exist."
     }
   ],
-  "what_camera_could_observe": [
-    "Building the offering stands",
-    "Masks and drums prepared",
-    "Offerings placed at dusk",
-    "The community gathering and staying through the night",
-    "The ceremony's end at dawn"
-  ],
-  "what_must_be_real": "A ritual the family and specialist have genuinely chosen to hold, for their own reasons, with the sick person's own consent where they are able to give it. The film asserts nothing about the cause of the illness.",
-  "possible_arc": {
-    "opening": "The offering stands going up as the light fails.",
-    "turn": "The ceremony itself, deep in the night.",
-    "ending_open": "Dawn, and whatever the family says or does not say about whether it helped."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A family and ritual specialist willing to have a real ceremony filmed",
-      "Full, ongoing consent from the sick person or their guardians, and from every performer",
-      "The sick person's dignity and privacy protected throughout"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural village in the Southern Province low country",
-        "region": "Southern Province",
-        "why": "Thovil and related healing ceremonies remain a living low-country practice; no specific village identified.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No family, specialist or ceremony confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts picture many kinds of life we cannot see, and they teach that how a life begins and what it meets along the way can come from different causes. Where someone starts is never the whole story.",
+  "what_must_be_real": "A ceremony the family and the specialist chose for their own reasons and would hold anyway. The sick person's own consent, renewed as their condition allows, governs everything; where they cannot give it, they are not filmed. No part of the ceremony is arranged, moved or repeated for filming, and no cause is assigned to the illness.",
+  "position_hint": "middle: it follows what the living do for the dead and opens the group's map of where beings are said to be born, before the films about how results ripen.",
   "risks": [
-    "Exoticising a living practice",
-    "Implying the illness was caused by past action or by anyone's fault",
-    "The sick person becoming a spectacle rather than the centre of care",
-    "Never asserting whether the beings addressed exist"
+    "Exoticising a living practice, or filming it as folklore rather than as something a family is doing for a reason",
+    "Implying the illness was caused by past action, by the sick person's own doing or by anyone's fault",
+    "The sick person becoming a spectacle instead of the centre of care",
+    "Asserting or denying the existence of the beings the ceremony addresses",
+    "The film's presence enlarging the ceremony or affecting who pays for it"
   ],
   "drop_if": [
-    "Full consent cannot be secured from the sick person or their family",
-    "The ceremony's meaning cannot be respectfully filmed without exposing the family's privacy"
+    "Consent cannot be secured from the sick person, or from the family where the person cannot give it",
+    "The ceremony cannot be filmed without exposing private medical matters",
+    "The specialist or the family would perform the night differently because of the camera"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0134",
       "relation": "pairs with",
-      "note": "Both are about a community's care reaching toward beings that ordinary comfort cannot reach directly, one for the newly dead, one for the endangered living."
+      "note": "Both follow care aimed at those ordinary comfort cannot reach, one for the newly dead and one for the endangered living."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by the group's third episode; kept with its primary link rewritten to carry the digest's own uncertainty rather than hide it."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction.",
+    "The C053 digest asks for expert comment on the identification the film is built around; that check should happen before any approach to a family."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

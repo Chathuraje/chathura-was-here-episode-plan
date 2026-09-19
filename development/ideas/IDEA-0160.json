@@ -4,87 +4,67 @@
   "record_type": "idea",
   "title": "Leaning Poles",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "A crew raises a tall bamboo frame for a village festival, poles leaning against each other's tips until, all at once, the structure holds on its own, decorations hanging from a frame that itself stands only because nothing in it stands alone.",
-  "human_question": "What does it take for many unstable things to become one stable thing?",
-  "premise": {
-    "story": "A village crew building a festival frame or gateway, a pandal, a lit archway, a temporary tower, against a fixed opening date, from raw poles to the finished, lit structure.",
-    "place": "A village temple ground during a seasonal festival.",
-    "experience": "The tension of a structure that should not stand and somehow does: poles steadied by hand, an argument about angles, and the exact moment the frame first holds itself up."
+  "logline": "A crew raises a tall festival frame from loose poles that lean on each other's tips until, all at once, the structure holds itself — and then hangs decorations from it that hold nothing up in return.",
+  "human_question": "What does it take for many unstable things to become one stable thing, and what in that structure is only being carried?",
+  "situation": {
+    "what_happens": "A crew builds a temporary structure for a festival out of raw poles, against a fixed opening date. Nothing they raise is stable on its own; the poles are held by hand, corrected, lashed, and at some point the frame takes its own weight and the hands come off. Then the things the structure exists for — decoration, cloth, lights — are hung on it, and they depend on the frame entirely while giving it nothing back. When the festival is over the whole thing comes down again.",
+    "who_is_involved": "The crew who raise it, usually a few experienced hands and several who are learning; whoever is responsible to the organisers for it standing up on the day; the people who commissioned it and set the deadline; and the crowd who will stand under it without thinking about it.",
+    "what_is_at_stake": "The crew's pay and their reputation for the next festival, the organisers' date, and real physical safety for anyone under a structure that is only as good as the raising. A first attempt that does not hold is ordinary; a failure on the day is not.",
+    "how_it_unfolds": "Builds like this run from a pile of material to a deadline: a first arrangement, a correction after something moves, a raising, and then the slower decorative work. They end with a structure standing, a structure standing differently from the plan, or a build abandoned or simplified because time or material ran out. Whether the moment the frame first holds itself occurs on camera is decided by the crew's working order, not by the film."
+  },
+  "concept_merge": {
+    "why_together": "C082 supplies mutuality, and the source's own image for it is sticks that stay upright only by leaning on each other's tips — immediately followed by a limit, that not everything arising together supports everything else, and that some support runs in only one direction. C083 supplies the proportion: mutual support is one item in a much longer list, counted as one of nine ways mind and matter hold each other up, and most relations in the summary run one way only. A build in which one part of the structure holds itself by leaning and another part is purely carried has both the image and its limit standing in the same place.",
+    "what_it_reveals": "Together they show what the sources are careful to keep apart: real two-way support, which is specific and rare, and one-way support, which is most of what there is. What becomes visible is a corrective to the group's own easiest misreading — things standing together is not the same as everything holding everything else up."
   },
   "concept_links": [
     {
       "concept_id": "C082",
       "role": "primary",
-      "why": "The mutuality condition's own image: several sticks staying upright only by leaning against each other's tips, together with the text's care to say that not everything arising together supports everything else."
+      "why": "Mutuality is defined with the image of sticks upright only by leaning on each other, and the same passage states the limit: not everything that arises together supports everything else, and mind-born matter does not support the mind in return."
     },
     {
       "concept_id": "C083",
       "role": "supporting",
-      "why": "The same 'nothing stands alone' summary, read through an ordinary structure rather than through doctrine."
+      "why": "The summary counts mutual support as only one of the nine ways mind and matter support mind and matter, with most of its relations running one way only, which keeps the leaning frame from being read as a picture of universal interdependence."
     }
   ],
-  "what_camera_could_observe": [
-    "Poles selected and lashed together",
-    "A first attempt and a correction",
-    "The moment the frame holds without hands on it",
-    "Decorations and lights going up",
-    "A pole tested and the frame's give and recovery",
-    "The finished structure lit at night"
-  ],
-  "what_must_be_real": "The crew's real skill, deadline pressure and pay; no staged collapse or manufactured crisis.",
-  "possible_arc": {
-    "opening": "A pile of raw poles on open ground.",
-    "turn": "The frame is raised and, for a moment, everyone steps back to see if it holds.",
-    "ending_open": "The finished structure lit for the festival, or however the real build actually goes."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A village crew building a festival structure from raw materials on site, not pre-fabricated",
-      "A fixed opening date to build toward",
-      "Safe filming positions during the raising"
-    ],
-    "suggestions": [
-      {
-        "name": "A village temple ground during a local festival season",
-        "region": "Sabaragamuwa or Uva province",
-        "why": "Deliberately a smaller, local festival rather than a major national procession, to allow closer access to one crew's whole build.",
-        "season_notes": "Varies by local temple calendar",
-        "access_notes": "",
-        "verify": "A specific festival, crew and structure must be found and confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The frame stands only because its poles lean on each other, but the texts are careful: not everything that stands together holds everything else up, and most support runs one way only.",
+  "what_must_be_real": "The crew's real skill, their real deadline and their real pay. No collapse, near-miss or crisis may be arranged, and no part of the build may be re-done for the camera.",
+  "position_hint": "middle: it arrives after the chain has been followed forward and entered from anywhere, and it introduces a kind of support that is not sequential at all.",
   "risks": [
-    "Becoming a neat visual metaphor with a voice-over lecture",
-    "The build being staged or accelerated for the camera"
+    "Becoming a neat visual metaphor with an explanation laid over real labour.",
+    "Reading mutuality as community cooperation or mutual aid; in the source it describes states within a single moment of experience, not people helping each other.",
+    "Dropping the limit and letting the film say that everything supports everything.",
+    "The build being staged, accelerated or repeated for the camera."
   ],
   "drop_if": [
-    "No crew will let the camera in during the actual build",
-    "The structure is pre-fabricated rather than raised on site"
+    "No crew will let the camera in during the actual raising.",
+    "The structure arrives pre-fabricated, so nothing is raised on site.",
+    "Filming positions cannot be found that are safe during the raising."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0162",
       "relation": "pairs with",
-      "note": "Both work at a communal, epic scale, following many people's coordinated effort rather than one person's story."
+      "note": "Both follow many people's coordinated life rather than one person's story, and both turn on a limit the source insists on."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0083; the mutuality link and, just as importantly, its stated limit both come straight from the source."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

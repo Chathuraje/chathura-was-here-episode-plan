@@ -4,91 +4,72 @@
   "record_type": "idea",
   "title": "When the Kiln Goes Out",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "A potter's crew feeds a wood-fired kiln through an entire night, watching the wind and the colour of the flame, and only when the fuel stops and the fire finally dies down can the kiln cool enough to open.",
-  "human_question": "If something needs to be fed to keep going, what happens the moment the feeding stops?",
-  "premise": {
-    "story": "One overnight firing at a traditional pottery workshop, from loading the kiln to the morning it is opened and the finished pots are lifted out.",
-    "place": "A traditional pottery-making village.",
-    "experience": "A long night of watching and feeding a fire that could fail at any point, the anxious quiet before dawn, and the moment heat gives way to stillness and the kiln is finally opened."
+  "logline": "A crew feeds a wood-fired kiln through an entire night, reading the wind and the colour of the flame, and only once the feeding stops and the fire dies down can the kiln cool enough to be opened.",
+  "human_question": "If something keeps going only because it is being fed, what happens the moment the feeding stops?",
+  "situation": {
+    "what_happens": "A crew loads a kiln, lights it at dusk and then keeps it going all night. Nothing about the firing is automatic: fuel has to keep arriving, the wind has to be read and answered, and the flame's colour tells them whether the heat is where it needs to be. The work is continuous because the fire is not self-sustaining for a single hour. Near dawn the feeding stops, and the fire is allowed to go down. Only then, and only after hours of cooling, can the kiln be opened, and what is inside is whatever the night actually produced.",
+    "who_is_involved": "The potter or workshop owner whose money is in the load; the crew who take shifts through the night, sometimes family, sometimes paid hands; whoever supplies the fuel; and the buyers waiting on the finished work.",
+    "what_is_at_stake": "A whole load, which is weeks of shaping and drying, and the wages of a night. Some breakage is normal; a badly run firing can lose most of it. There is also the exhaustion and the real risk of working with fire through the night.",
+    "how_it_unfolds": "A firing runs on an exact clock that cannot be paused: load, light, feed, watch, stop, cool, open. Its tension is that nothing can be known until the end, and its ending is whatever comes out of the kiln — mostly whole, badly cracked, or somewhere between. The weather can also postpone the whole thing."
+  },
+  "concept_merge": {
+    "why_together": "C083 supplies the vocabulary: the sources' summary does not offer one notion of cause but a set of distinct kinds of holding-up — supporting by having been there first, by arising alongside, by feeding, by still being present, and even by ceasing so that what comes next has room — and it ends by saying there is nothing that is not a support for something. C082 supplies two of those in detail: nutriment, where what continues does so only because something keeps arriving, and presence, support given simply by a thing still being there, together with Margaya's match and box, where two things help make one flame in different ways and neither would be enough alone. A night's firing is a process in which every one of these is visible as work rather than as illustration.",
+    "what_it_reveals": "Together they separate two things a single word hides: what makes something happen and what keeps it happening. What becomes visible at the end is that the stopping is part of the process and not its failure — the pots could not be finished by more fire — while the sources' own limit is kept in view: in the texts, support by ceasing describes one moment of mind making room for the next, not a life lesson about letting go."
   },
   "concept_links": [
     {
       "concept_id": "C083",
       "role": "primary",
-      "why": "Presence and absence together: the fire is sustained only while fuel keeps arriving, and only its ending, the fire finally going out, lets the next state, a cooled, finished kiln, arise."
+      "why": "The summary of the conditions is precisely a list of different ways one thing holds up another, including presence and the support given by ceasing so the next thing has room, and it closes by saying no phenomenon is without some supporting role; a firing makes those distinctions into physical work."
     },
     {
       "concept_id": "C082",
       "role": "supporting",
-      "why": "Many different things, clay, fuel, weather, a waking crew, hold up one result, none of them sufficient alone, echoing Margaya's own match-and-box image for how several conditions each help differently."
+      "why": "Nutriment is support by something that must keep arriving, and presence is support given by a thing still being there; Margaya's match and box show two conditions helping one result in different ways, which is why neither fuel nor skill nor weather is sufficient alone."
     }
   ],
-  "what_camera_could_observe": [
-    "Loading the kiln; choosing and stacking wood",
-    "Watching the wind and the flame's colour through the night",
-    "Exhaustion and quiet near dawn",
-    "The fire finally allowed to die down",
-    "The kiln opened and pots lifted out, some cracked, most whole"
-  ],
-  "what_must_be_real": "The crew's real skill, risk and financial stake; some pots really do crack, and that must not be hidden.",
-  "possible_arc": {
-    "opening": "The kiln loaded and the first fire lit at dusk.",
-    "turn": "The long night of feeding and watching the fire, never certain it will hold.",
-    "ending_open": "The kiln opened at dawn, whatever is actually inside."
-  },
-  "position_hint": "closing candidate: a fire that holds only as long as it is fed, and that only completes its work once it is finally let go out, mirrors the group's hand-off that what arises by conditions can also cease by conditions",
-  "location": {
-    "requirements": [
-      "A traditional pottery workshop still firing by wood in a single overnight session",
-      "Access through a full night of work",
-      "A crew willing to show real losses, not only successful pots"
-    ],
-    "suggestions": [
-      {
-        "name": "A traditional pottery-making village",
-        "region": "Kegalle or Kurunegala district (villages such as Molagoda are known for pottery)",
-        "why": "Low-country pottery villages in this area have long-standing traditions of wood-fired kilns.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Whether a specific workshop still fires by wood, rather than gas or electricity, and is willing to be filmed overnight must be confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "A fire lasts only as long as it is fed, and when the feeding stops it dies down. The texts say a living body, too, keeps going only while food and weather keep supporting it.",
+  "what_must_be_real": "The crew's real skill, fatigue and financial stake, and the real result of the firing, including the pots that crack. Nothing about the night may be shortened or re-lit for the camera.",
+  "position_hint": "closing candidate: it is the group's own hand-off made watchable — what is held up by being fed ends when the feeding stops — and it ends on a result rather than on an explanation.",
   "risks": [
-    "Turning the firing into a neat metaphor read over real labour",
-    "The crew's skill, fatigue and financial stake in the outcome must lead the film, not the imagery"
+    "Turning the firing into a neat metaphor narrated over other people's labour.",
+    "Borrowing the absence condition as 'letting go makes room for the new'; the source means one mind-moment ceasing so the next can arise, in strict sequence.",
+    "Treating presence as a warm idea about showing up for people; in the source it is a technical relation that also supports craving.",
+    "Filming a night shift in a way that puts a tired crew at greater risk."
   ],
   "drop_if": [
-    "No overnight wood firing happens within the filming window",
-    "The workshop now fires only by gas or electricity"
+    "No overnight wood firing falls within the filming window.",
+    "The workshop has moved to gas or electric firing.",
+    "The crew cannot be filmed through a full night without getting in the way of the work."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0154",
-      "relation": "mirrors",
-      "note": "Both closing candidates show a condition, sight or fire, finally withdrawn or completed, echoing the group's hand-off that what arises by conditions can also cease by conditions."
-    },
-    {
       "idea_id": "IDEA-0162",
       "relation": "pairs with",
-      "note": "The same weather that shapes an estate community's mood also decides whether an overnight kiln firing can be safely attempted."
+      "note": "Weather that shapes a community's mood also decides whether a long firing can be attempted at all."
+    },
+    {
+      "idea_id": "IDEA-0161",
+      "relation": "mirrors",
+      "note": "Both look at what a long shared effort leaves behind once it is over: a finished, imperfect result, or different feelings in the people who remember it."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0086; the links were re-grounded so the film rests on nutriment and presence rather than on a loose reading of the absence condition."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

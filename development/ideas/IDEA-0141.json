@@ -4,82 +4,65 @@
   "record_type": "idea",
   "title": "What the Fire Leaves",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
-  "logline": "A dry-zone family sows a paddy field, tends it through drought and pests, and waits to see whether the season ends in harvest or ruin.",
+  "logline": "A family sows a paddy field, tends it through drought and pests, and waits to see whether the season ends in harvest or in ruin.",
   "human_question": "How many different forces have to go right, one after another, for anything to come to fruit?",
-  "premise": {
-    "story": "A paddy-farming family followed through one full growing season, from ploughing to whatever the harvest actually turns out to be.",
-    "place": "A dry-zone paddy village dependent on a seasonal tank or rains.",
-    "experience": "Mud and water at the start, the long wait through the growing months, a dry spell or a pest outbreak, and the specific tension of the final weeks before harvest."
+  "situation": {
+    "what_happens": "A farming family works one full season: preparing and sowing, keeping water to the field, feeding and watching the crop, guarding it at night, and meeting whatever comes, a dry spell, a pest, a price collapse. At the end there is a harvest, a partial harvest or a loss, and the family's year is decided by it.",
+    "who_is_involved": "The household who farm the land and carry the loan; the labourers who are paid by the day; the buyers who set the price; and the neighbours who share water and equipment.",
+    "what_is_at_stake": "A year's income, the loan taken against the crop, and whether the family keeps farming.",
+    "how_it_unfolds": "A season has a fixed calendar and an unfixed outcome. Setbacks are cumulative, and one of them can end the crop outright while others only reduce it. Reality decides the harvest; the film cannot know it in advance and must not need any particular ending."
+  },
+  "concept_merge": {
+    "why_together": "One concept. Kamma by function (C055) separates what starts a result, what keeps it going, what wears it down and what cuts it off, and the source's own picture of the four is a farming season: seed sown, the crop tended, a drought that weakens it, a fire that ends it.",
+    "what_it_reveals": "That an outcome is the product of several forces acting on each other over time, which is the opposite of a single cause and the opposite of fate. The source names the forces and gives nobody a way to read them in any particular person's situation."
   },
   "concept_links": [
     {
       "concept_id": "C055",
       "role": "primary",
-      "why": "The source's own image for its four kinds of kamma is exactly this: sowing a field, tending it, a drought that weakens the crop, then a fire that ends it [C055-P:L127]. The film can follow a real season and let the viewer feel the forces at work without the concept ever being named."
+      "why": "The source's own image for the four functions is exactly this season: sowing, tending, drought, fire [C055-P:L127]. The digest is explicit that this must not become 'everything happens for a reason' or 'they deserved it', and that the source's examples of illness and poverty describe how forces interact rather than licensing any judgement of real people's suffering."
     }
   ],
-  "what_camera_could_observe": [
-    "Ploughing and sowing",
-    "Repairing water channels",
-    "Night watches against animals",
-    "A dry spell or pest damage",
-    "The harvest or its failure",
-    "The family's own account of a hard season"
-  ],
-  "what_must_be_real": "A real family's real season, with its real financial stakes. The film does not know in advance whether the harvest will succeed.",
-  "possible_arc": {
-    "opening": "Water let into a prepared field, seed going in.",
-    "turn": "A dry spell, a pest, or some other setback threatens the crop.",
-    "ending_open": "Harvest, partial harvest, or loss, whichever the season actually brings."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A paddy-farming family willing to be followed across a full growing season",
-      "Access to a dry-zone irrigation tract"
-    ],
-    "suggestions": [
-      {
-        "name": "A village in the Polonnaruwa district",
-        "region": "North Central Province",
-        "why": "An established dry-zone paddy-farming area with tank-fed irrigation.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific family or field identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts describe results as produced by several forces at once, one starting something, another supporting it, another wearing it down and another ending it, and they give nobody a way to read those forces in a real person's life.",
+  "what_must_be_real": "A real family's real season with its real financial stakes, and no foreknowledge of the outcome. No hardship is presented as deserved.",
+  "position_hint": "middle, if it were kept: a season-long observational film whose concept is already carried by a kept idea.",
   "risks": [
     "Turning a family's crop loss into a moral lesson",
-    "Implying hardship reflects the family's own past actions",
-    "Filming across a season requires a long, patient production schedule"
+    "Implying that hardship reflects the family's own past actions",
+    "A season-long schedule that the production may not be able to hold"
   ],
   "drop_if": [
-    "No family will commit to being filmed across an entire season",
-    "The season is too uneventful or too catastrophic to tell honestly"
+    "No family will commit to being filmed across a whole season",
+    "The season is too uneventful, or too catastrophic, to film honestly"
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0142",
+      "relation": "merged into",
+      "note": "Folded into the film about a volunteer doing the opposing good, which now carries the whole set of four functions and the source's own field image rather than only the later good that weakens an earlier harm."
+    },
+    {
       "idea_id": "IDEA-0143",
       "relation": "mirrors",
-      "note": "A second, different-scale story about a growing season and what happens when the rain does not come."
+      "note": "Both are growing seasons whose outcome the film cannot know; the community-scale season is the one that keeps an episode."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0142",
+    "reason": "Its concept is carried by a kept idea and its situation overlaps the kept drought film; folding it in completes the four functions in the kept idea."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

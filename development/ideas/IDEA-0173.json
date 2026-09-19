@@ -4,95 +4,70 @@
   "record_type": "idea",
   "title": "The Levelled Disc",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "A clay-worker levels a plain reddish disc for a lay meditation class down the road, smoothing it again each time the sun cracks it, while a whole village day organises itself around one small, deliberately uninteresting object.",
+  "logline": "A clay-worker makes and re-makes a plain disc for a meditation teacher, smoothing it flat again every time it dries and cracks, so that someone else will have something completely uninteresting to look at.",
   "human_question": "What can a person do with attention that has nowhere interesting to land?",
-  "premise": {
-    "story": "A potter or clay-worker prepares kasiṇa discs for a nearby lay meditation teacher: sourcing the right clay, kneading out grit, levelling the surface like a drum skin, re-levelling it each time it dries and cracks, and finally delivering finished discs to the hall.",
-    "place": "A small clay-working household in a dry-zone or low-country pottery village, and the plain lay meditation hall it supplies.",
-    "experience": "The hypnotic patience of getting one small circle of clay perfectly flat and dull, and the discovery that the whole discipline of stillness can begin with something this ordinary."
+  "situation": {
+    "what_happens": "A clay-worker takes an order for training discs from a teacher who runs meditation classes: sourcing clay of the right colour, picking out grit and stones, levelling the surface until it is as even as a drum skin, and levelling it again each time it dries and cracks. The order is small, the object is deliberately plain, and the work is repetitive to the point of monotony. At the end the discs are wrapped and delivered, and the maker's involvement ends.",
+    "who_is_involved": "A clay-worker and their household, who do this alongside ordinary domestic ware; the teacher who ordered the discs; the people who will use them, who are strangers to the maker.",
+    "what_is_at_stake": "For the maker, a small paid order and their reputation for getting a surface truly flat. For the film, the risk of turning a livelihood into a metaphor, or implying the maker practises what the discs are for.",
+    "how_it_unfolds": "Clay work moves at the speed of drying: shape, wait, crack, repair, wait. The pressures are weather, fuel and a delivery date. It ends when the order is delivered, or when the clay or the weather defeats the deadline. Whether the maker has any interest in what the object is used for is for them to say, not for the film to arrange."
+  },
+  "concept_merge": {
+    "why_together": "C087 (kasina meditation) contributes the object itself: the sources describe preparing a disc of smooth reddish clay, levelling it until it is like a drum face, and attending to it by name rather than by its colour or feel [C087-P4:L209–L213]. C085 (the compendium of meditation subjects) contributes the fact that this is only one of forty things attention can be given, chosen to fit the person [C085-P:L47]. C013 (the fine-material minds) contributes the sources' image of what such long looking is for: bringing an object close and looking at it until it is completely clear [C013-P:L48–L52].",
+    "what_it_reveals": "Together they show that the discipline of stillness begins in ordinary craft, with an object made dull on purpose, and that the object matters far less than the choosing and the attending. The making alone would be a craft film; the list alone would be a lecture."
   },
   "concept_links": [
     {
       "concept_id": "C087",
       "role": "primary",
-      "why": "Kasiṇa practice begins with exactly this act of craft: a disc of smooth reddish clay, made and re-levelled until it is as even as a drum face, then used as a training object for attention [C087-P4:L209; C087-M:L19–L21]."
-    },
-    {
-      "concept_id": "C013",
-      "role": "supporting",
-      "why": "The sources describe deep concentration through the same image of bringing an object close and looking long at its colour and marks until it is completely clear; the finished disc is what such attention would eventually rest on [C013-P:L48–L52]."
+      "why": "The digest describes exactly this act of craft: picking out pebbles and twigs, kneading and levelling the clay, and levelling it again when it cracks, until the surface is as smooth as a drum skin [C087-P4:L209–L213]. The digest also warns that the powers the source lists as fruits of kasina practice must never be presented as verified fact or as a promise [C087-P4:L464–L484]."
     },
     {
       "concept_id": "C085",
       "role": "supporting",
-      "why": "The disc is one of forty listed meditation subjects, chosen to fit different temperaments; the film can show it made without explaining the larger list."
+      "why": "The digest lists the disc first among forty subjects, and insists the choice is matched to the person and given by a teacher [C085-P:L47]. The film can show one object being made without itemising the list."
+    },
+    {
+      "concept_id": "C013",
+      "role": "supporting",
+      "why": "The Pradeepika's image for deep concentration is someone who brings an object close, stops looking elsewhere and looks long at its colours and marks until it is completely clear [C013-P:L48–L52]. The finished disc is what such attention is meant to rest on; the film makes no claim that the maker practises."
     }
   ],
-  "what_camera_could_observe": [
-    "Picking grit and stones out of wet clay, testing it between the fingers",
-    "The board or palm smoothing the surface, cracks appearing as it dries in the sun, the patient re-levelling",
-    "The finished discs stacked, wrapped and carried to the hall on a bicycle or in a basket",
-    "A brief, unexplained glimpse of the hall itself: mats, low light, a few people already seated"
-  ],
-  "what_must_be_real": "The clay-worker's actual livelihood, orders and relationship with the meditation hall. No one performs meditation for the camera, and the clay-worker is not shown as practising.",
-  "possible_arc": {
-    "opening": "Grit picked from wet clay, an ordinary morning's work.",
-    "turn": "A disc cracks in the sun and has to be redone; the deadline for delivery presses.",
-    "ending_open": "The discs are carried to the hall and set down. Whether Chathura is given one, and by whom, is for reality to decide."
-  },
-  "position_hint": "opening candidate: a plausible, ordinary place for Object 10 to be acquired if a disc, or the clay-worker's own tool, is genuinely given to Chathura; the object fits the group's hint of 'something that helps stillness.'",
-  "location": {
-    "requirements": [
-      "A working clay craftsperson supplying a real meditation hall or teacher",
-      "Consent to film both the workshop and, briefly and respectfully, the exterior of the hall",
-      "A finished disc or delivery to follow during the filming window"
-    ],
-    "suggestions": [
-      {
-        "name": "Molagoda pottery village",
-        "region": "Kegalle district",
-        "why": "A traditional clay-working area in the low country.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Whether kasiṇa discs specifically are made to order there, or only domestic pottery, is unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The training the texts describe can start with something a person makes by hand and deliberately keeps uninteresting, and the care goes into the making, not into the object being worth looking at.",
+  "what_must_be_real": "The clay-worker's actual livelihood, actual order and actual relationship with whoever buys the discs. The maker is never shown as practising, and no one is presented as having attained anything.",
+  "position_hint": "opening candidate if kept separately: an ordinary way Object 10 could be acquired, since the group's opening asks for something that helps stillness.",
   "risks": [
     "Turning craft into pure metaphor with no livelihood at stake",
-    "Implying the clay-worker practises kasiṇa themselves without evidence",
-    "The link to meditation could feel imposed if no real hall or teacher is found"
+    "Implying the maker practises kasina, or that the object confers anything",
+    "Letting the traditional fruits of the practice be heard as a promise"
   ],
   "drop_if": [
-    "No clay-worker can be found who actually supplies discs to a real, willing meditation teacher or hall"
+    "No clay-worker can be found who genuinely supplies such objects to a willing teacher",
+    "The only way to film it would be to commission an order that would not otherwise exist"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0176",
-      "relation": "pairs with",
-      "note": "Both look at the plain, made objects a meditator's attention rests on, from opposite ends: making one object closely, and choosing among forty."
-    },
-    {
-      "idea_id": "IDEA-0174",
-      "relation": "alternative to",
-      "note": "A different, non-craft way Object 10 could be acquired at the group's opening."
+      "relation": "merged into",
+      "note": "Its situation detail, the plain object made and re-levelled by hand, now sits inside the class film."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0176",
+    "reason": "Its object and its craft detail strengthen the C087 link inside IDEA-0176, which has the episode slot."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,87 +4,65 @@
   "record_type": "idea",
   "title": "The Night Ward",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
-  "logline": "A night-shift nurse on a hospital ward moves from bed to bed in the dark, doing the small physical things, a sip of water, a hand held, for people whose families can't be there.",
+  "logline": "A night-shift nurse moves from bed to bed in the dark, doing the small physical things, a sip of water, a hand held, for people whose families cannot be there.",
   "human_question": "What is left to give someone when medicine has done what it can?",
-  "premise": {
-    "story": "One overnight shift with a nurse on a general or palliative ward in a provincial hospital, told through her rounds and her own account of the work.",
-    "place": "A government hospital ward in a Central Province town.",
-    "experience": "A quiet corridor at 3am, the particular rhythms of a night shift, small physical gestures of care, and a nurse's own, unsentimental words about what she has learned from sitting with many people at the end."
+  "situation": {
+    "what_happens": "A nurse works an overnight shift on a ward where some patients will not recover. The work is rounds, observations and medication, and inside that, repeatedly, a few seconds of physical kindness for someone who is frightened or alone. She has done this for years and has her own unsentimental account of what people seem to return to at the end.",
+    "who_is_involved": "The nurse and the rest of the night staff; the patients, some of whom are dying and most of whom are simply ill; the families who are absent because of distance, money or work; and the day staff who take over.",
+    "what_is_at_stake": "For patients, whether the hardest hours are spent with someone attentive. For the nurse, the strain of doing emotional work inside a job that is paid and measured as physical work.",
+    "how_it_unfolds": "A shift has a known shape, quiet after the visitors leave, a long middle, a rush before dawn, handover. Reality decides what any night contains, and whether anyone dies in it."
+  },
+  "concept_merge": {
+    "why_together": "The order of ripening (C056) says that where there is no weighty action, what is done or recalled near the end gives the rebirth, and that a good companion at the deathbed matters for exactly that reason. The near-death process (C062) says dying is itself an ordinary run of mind-moments through the senses, so what reaches a person still reaches them. Together they explain why small physical attentions at the end are not nothing, in a setting with no religious frame at all.",
+    "what_it_reveals": "That the role the texts describe as a good friend at the deathbed is filled, in practice, largely by paid strangers, and that it is done without any of the claims the texts are careful to avoid making."
   },
   "concept_links": [
     {
       "concept_id": "C056",
       "role": "primary",
-      "why": "The source stresses what is done or remembered near the end of a life, and the value of someone nearby who helps a dying person toward something good to hold onto [C056-P:L83; C056-M:L22]. A night nurse's ordinary care sits inside that idea without any doctrine being spoken."
+      "why": "The source stresses what is done or recalled near the end of a life, and the value of someone present who helps a dying person toward something good to hold onto [C056-P:L83; C056-M:L22]. Ordinary nursing care sits inside that with no doctrine spoken. The digest's guards apply: a peaceful or difficult death is not a verdict, and nothing at the bedside guarantees a destination."
     },
     {
-      "concept_id": "C061",
+      "concept_id": "C062",
       "role": "supporting",
-      "why": "The source describes the dying mind still meeting the world through the senses right up to the end. A nurse's small physical gestures, moistening lips, holding a hand, work at exactly those senses, without the film needing to explain why."
+      "why": "The earlier version of this idea attached this content to C061, but what it described, the dying mind still meeting the world through the senses, is the near-death process and belongs to C062 [C062-M:L25]. The link is corrected here. The digest adds the limit the film must keep: sense contact at the bedside can become the door of the last mental process, but the texts do not say such care secures anything."
     }
   ],
-  "what_camera_could_observe": [
-    "The ward at night",
-    "Medication and observation rounds",
-    "A small gesture of comfort",
-    "A conversation at shift change",
-    "The ward emptying into daylight"
-  ],
-  "what_must_be_real": "The nurse's real work and years of experience. No patient is shown identifiably without explicit, informed consent, and no death is filmed.",
-  "possible_arc": {
-    "opening": "The ward settling for the night.",
-    "turn": "A quiet hour where the nurse talks about what she has seen people return to at the end.",
-    "ending_open": "Dawn and shift change. The ward keeps going without her."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A public hospital willing to permit filming under strict patient-privacy conditions",
-      "A nurse with long experience willing to speak on camera",
-      "No identifiable dying patients shown without consent"
-    ],
-    "suggestions": [
-      {
-        "name": "A district or base hospital in the Kandy area",
-        "region": "Central Province",
-        "why": "A public hospital of the right scale for a ward-based observational piece.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific hospital or ward has agreed to filming; hospital permission and ethics clearance would be required.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts treat dying as one more act of the senses, so what reaches a dying person still reaches them, and they count a companion at the bedside as a real help, without promising anything.",
+  "what_must_be_real": "The nurse's real work and years of experience. No patient appears identifiably without explicit, informed consent, no death is filmed, and nothing is repeated for the camera.",
+  "position_hint": "middle, if it were kept: the clinical counterpart to the film about being called to a house, which is why its substance has been folded there instead.",
   "risks": [
     "Patient privacy and dignity",
-    "Hospital administrative sensitivity",
-    "Sentimentalising a demanding, underpaid job"
+    "Sentimentalising a demanding, underpaid job",
+    "Implying that care at the bedside determines anything about what follows"
   ],
   "drop_if": [
-    "No hospital grants filming access under safe privacy conditions",
-    "The nurse is unwilling to be identified or her patients cannot be adequately protected"
+    "No hospital grants access under safe privacy conditions",
+    "Patients cannot be adequately protected"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0136",
-      "relation": "pairs with",
-      "note": "A companion piece: presence at the very end, seen once in a village home and once on a hospital ward."
+      "relation": "merged into",
+      "note": "Folded into the film about someone called repeatedly to the dying, which now carries this secular, clinical register of the same role."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0136",
+    "reason": "Duplicates the situation of the kept idea, whose episode already holds both concepts; it contributes the register of paid, non-religious care."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

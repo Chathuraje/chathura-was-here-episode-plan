@@ -4,88 +4,76 @@
   "record_type": "idea",
   "title": "What the Fire Doesn't Take",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "After a death in a village, volunteers from the local funeral-aid society take over the practical work of the house and yard, so the family can sit with their loss.",
-  "human_question": "Once someone has died, whose job is what remains of their body?",
-  "premise": {
-    "story": "The hours and days after a death, told through the volunteers who quietly take over the practical work while the family grieves, with the family's full consent.",
-    "place": "A village home and its neighbourhood, organised by a local funeral-aid society (marana adahara samithiya).",
-    "experience": "White flags going up, borrowed chairs, tea made in bulk, a collection book passed around, and a family sitting apart from all of it while neighbours do the work."
+  "logline": "After a death, neighbours from a funeral-aid society take over the practical running of the house so the family can sit with their loss.",
+  "human_question": "Once someone has died, whose work is what is left of their body?",
+  "situation": {
+    "what_happens": "A death is announced and a mutual-aid society that people have been paying into for years activates without being asked. Within hours neighbours are doing everything the household cannot: chairs and awnings borrowed, tea made in quantity, notice given, the body attended to, arrangements made, a collection book passed round and a record kept of who gave and who came. The family is deliberately kept out of the work. Over the following days the house fills and empties several times, and eventually the borrowed things go back.",
+    "who_is_involved": "The bereaved household; the neighbours and society members who do the work; the office-holders who keep the society's book; and the wider set of people for whom attending is itself an obligation.",
+    "what_is_at_stake": "For the family, being carried through days they could not organise. For the society, the reciprocity it runs on, since everyone there expects the same in their turn. For the neighbourhood, an obligation that is also a ledger, and which quietly records who can be relied on.",
+    "how_it_unfolds": "These days follow a known sequence, and the sequence is the point: it starts without being requested, peaks, and unwinds. The pressures are cost, distance and relatives travelling. It ends when the borrowed chairs go back and the family is left in a house that has gone quiet. None of it can be scheduled in advance, and nothing about it should be waited for."
+  },
+  "concept_merge": {
+    "why_together": "C072 contributes the sources' account of death as a sequence of stoppings in a fixed order, after which nothing in the body is renewed from within and only temperature-born matter continues, so that the body is no longer being lived but only weathered. C070 contributes the reason that is so complete: of the twenty-one kinds of material group, nineteen occur only in living bodies, so what remains is made entirely of the two ordinary kinds also found in stones, water and wind. C063 contributes the inventory in which no item anywhere is called 'owner'. The three say the same thing from three directions, and the society's work is the human answer to it.",
+    "what_it_reveals": "Taken together they explain, without a word of doctrine, why care for the dead is other people's work: nothing is being renewed from inside any more, so everything that happens to the body from now on has to be done to it by somebody. The digest notes that the sources draw no consoling moral from this, and the film should not either. What the situation adds is that a neighbourhood has already organised itself, in advance and by subscription, for exactly that fact."
   },
   "concept_links": [
     {
       "concept_id": "C072",
       "role": "primary",
-      "why": "The source describes death as a sequence of stoppings: kamma-born matter stops first, mind-born and food-born matter fade soon after, and only temperature-born matter continues in the body afterward. What is left is not being renewed from within, only weathered, which is exactly the work the volunteers step in to care for."
+      "why": "The digest sets out the order of cessation, kamma-born matter no longer produced, mind-born and food-born matter fading shortly after, only temperature-born matter continuing, and states plainly that afterwards nothing in the body is renewed from within. Its own words are that the corpse is no longer being lived, only weathered, and that this is why caring for the dead becomes the work of other people."
+    },
+    {
+      "concept_id": "C070",
+      "role": "supporting",
+      "why": "The digest reports that only two of the twenty-one kinds of material group occur outside living bodies, while the other nineteen, the ones carrying sight, hearing, life, speech and ease of movement, exist only in a living being, so that what remains at the end is made entirely of the two ordinary kinds."
     },
     {
       "concept_id": "C063",
       "role": "supporting",
-      "why": "The wider inventory of matter, with nothing in it called 'owner', frames why a body needs the care of others once its own life is no longer sustaining it."
+      "why": "The digest points out that the inventory of twenty-eight kinds contains qualities and processes carefully counted but no item called 'owner', which is the plainest reason why a body, once its own life is not sustaining it, passes into other people's hands."
     }
   ],
-  "what_camera_could_observe": [
-    "White flags going up along the lane",
-    "Chairs borrowed, tea made in bulk for visitors",
-    "The society's collection book and record of who helped",
-    "Neighbours doing practical work: cooking, seating, arrangements",
-    "The family sitting with their loss while the household runs around them"
-  ],
-  "what_must_be_real": "Full family consent at every stage. The deceased must never be filmed without explicit permission, and mourning must never be staged, prolonged or repeated for the camera.",
-  "possible_arc": {
-    "opening": "News of a death reaching the neighbourhood.",
-    "turn": "The house filling with practical helpers.",
-    "ending_open": "Whatever the family and the day actually bring."
-  },
-  "position_hint": "closing candidate: a direct, unsentimental answer to what remains of a body once life has left it, and a fitting film to close the group before it hands off to the next stage",
-  "location": {
-    "requirements": [
-      "A village funeral-aid society willing to be filmed carrying out its ordinary work",
-      "A grieving family giving full, explicit, ongoing consent",
-      "Sensitivity and flexibility in scheduling around an actual death, not a staged one"
-    ],
-    "suggestions": [
-      {
-        "name": "A village funeral-aid society (marana adahara samithiya)",
-        "region": "Uva Province (e.g. Badulla district)",
-        "why": "Village funeral-aid societies are a widespread, well-documented institution across rural Sri Lanka; Uva is suggested for geographic variety within the group.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific society, family and willingness to be filmed are all unverified and cannot be arranged in advance of a real death.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "These texts describe a body's end as a series of stoppings rather than a single switch. Afterwards nothing in it is renewed from within and only heat and cold keep working on it, which is why everything still to be done for it is done by other people.",
+  "what_must_be_real": "Explicit, ongoing family consent, given at the time and revocable at any point, including afterwards. The deceased is never filmed without explicit permission. Mourning is never staged, prolonged or repeated, and the doctrine may never be offered to the bereaved as an explanation or a comfort.",
+  "position_hint": "closing candidate: it is the group's direct answer to what is left of a body once life has gone out of it, and it sets up the question the next stage has to take on.",
   "risks": [
-    "Intruding on grief",
-    "Requires clear, explicit family consent at every single stage",
-    "Never film the deceased without explicit permission",
-    "Must not turn mourning into spectacle"
+    "Intruding on grief; the family decides everything, at the time.",
+    "Turning mourning into spectacle, or waiting on a death as an opportunity.",
+    "Letting the film settle into 'we return to nature', which the digest says the sources refuse.",
+    "The scholastic timing of cessation presented as a clinical account of dying."
   ],
   "drop_if": [
-    "A family unwilling to be filmed at such a time",
-    "A society unwilling to participate, or no genuine access without intrusion"
+    "No family willing to be filmed at such a time.",
+    "No society willing to take part, or no access that is not an intrusion."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0125",
       "relation": "pairs with",
-      "note": "One family answers 'what remains' in the days right after a death; the other watches two bodies answer the same question across a whole year."
+      "note": "One family answers what remains in the days right after a death; the other watches two bodies answer the same question across a year."
+    },
+    {
+      "idea_id": "IDEA-0113",
+      "relation": "pairs with",
+      "note": "One film watches material being made workable; the other watches material that only the weather works on now."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0066; the group's closing statement, now also carrying the material-group reason why so little of a body is left once it stops living."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

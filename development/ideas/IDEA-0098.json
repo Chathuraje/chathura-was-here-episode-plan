@@ -4,89 +4,71 @@
   "record_type": "idea",
   "title": "Four Shapes of the Same Care",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "A mother's day moves between a toddler who needs feeding, a sick teenager who needs medicine, a young adult leaving for a first job, and a grown child on the phone from abroad who needs nothing from her at all.",
+  "logline": "A mother's day moves between a toddler who needs feeding, a sick teenager who needs medicine, a young adult leaving for a first job, and a grown child on the phone from far away who needs nothing from her at all.",
   "human_question": "Is it the same love wearing different shapes, or four different things that happen to share a name?",
-  "premise": {
-    "story": "An ordinary day, or a few days observed together, in a household where children are at very different life stages at once.",
-    "place": "A family home, the daily rhythm of a household spanning a wide range of ages.",
-    "experience": "Watching one person's attention change shape hour to hour without anyone ever naming what it is doing."
+  "situation": {
+    "what_happens": "In a household whose children are at very different stages of life, one person's attention changes shape several times in a day without anyone naming what it is doing. A small child is fed and kept close. An unwell older child is sat with, and what is wanted is simply for the discomfort to stop. A young adult leaving for work or study is watched with an unmistakable gladness that has nothing to do with need. A grown child at a distance is mostly listened to, because there is nothing left to do for them.",
+    "who_is_involved": "A parent whose children span a wide range of ages; the children themselves, including at least one who is unwell and at least one who has left; other adults in the household who take over when she cannot.",
+    "what_is_at_stake": "For the family, their private life becoming material, and an unwell child becoming a spectacle. For the film, the temptation to cast a household that fits a four-part scheme. For the viewer, whether care that steps back is still care.",
+    "how_it_unfolds": "Households like this move by their own rhythm: a day is shaped by who is ill, who is leaving, who has called. Over months the shapes rotate — the sick child recovers, the young adult leaves, the distant one comes home. The pressures are money, illness, distance and the exhaustion of the person doing most of it. Reality decides what any given day contains, whether the call from far away comes at all, and whether anyone in the family would describe what she does the way the film is tempted to."
+  },
+  "concept_merge": {
+    "why_together": "C095 gives the four sublime abidings and, as its own teaching image, a mother with sons at different stages: wishing the infant well, wanting the sick one's pain gone, being glad at the young adult's good years, and staying even-minded about the one busy with his own affairs. C024 gives the two boundless factors as they actually arise in ordinary minds, responding to who is in view rather than sitting there as a mood, and frames them by self-comparison: you do not want pain for yourself, so you do not want it for others. Held together, the source's image and the source's analysis let one day be read as four different responses rather than one feeling.",
+    "what_it_reveals": "That the fourth shape, stepping back, belongs to the same care as the first three and is not its withdrawal — and, just as importantly, that the sources do not agree about whether love inside a family is the model for this or the thing it has to grow out of."
   },
   "concept_links": [
     {
       "concept_id": "C095",
       "role": "primary",
-      "why": "The source's own image for the four sublime abidings is a mother with sons at different stages: wishing the infant well, wanting the sick child's pain gone, being glad at the young adult's good years, and stepping back from the one who needs nothing further [C095-P4:L39]."
+      "why": "The source's own image for the four abidings is a mother with sons at different stages, and the sequence runs from wishing welfare to wanting suffering removed to gladness at success to even-mindedness because nothing more remains to be done [C095-P4:L39]. The digest is explicit that the failure of equanimity is ignorant indifference, so stepping back is not ceasing to care [C095-P4:L60]."
     },
     {
       "concept_id": "C024",
       "role": "supporting",
-      "why": "Compassion and sympathetic joy are responses that shift with who is actually in view, not a fixed mood [C024-P:L81; C024-P:L91]."
+      "why": "The Margaya frames compassion and sympathetic joy by self-comparison, which is the form this situation actually shows [C024-M:L15; C024-M:L17], and the two are occasional factors that answer whoever is in view rather than a fixed mood [C024-P:L81; C024-P:L91]. The link must carry the tension, not hide it: in the same concept the Pradeepika classes tenderness and pride limited to one's own family as attachment rather than the boundless factors [C024-P:L81; C024-P:L91], while C095 uses a mother's love for her own children as its teaching image. The digest flags this as the author's own strong formulation. The film observes the four shapes; it must not tell this family that their love is attachment, and it must not present family feeling as the finished form of boundless compassion either."
     }
   ],
-  "what_camera_could_observe": [
-    "Feeding and looking after the youngest child",
-    "Sitting with the sick child through discomfort",
-    "Quiet pride at an exam result, a first wage, or a departure for a new job",
-    "A phone call with the child furthest away, where she mostly listens"
-  ],
-  "what_must_be_real": "The family's actual daily life and real circumstances. Nothing staged or arranged to fit a four-part scheme; illness must not be treated as spectacle.",
-  "possible_arc": {
-    "opening": "Morning routine with the youngest child.",
-    "turn": "A different kind of attention needed for the sick child.",
-    "ending_open": "The phone call, or its absence, with the child who is furthest away."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A real family with children at genuinely different life stages, willing to be filmed over enough time",
-      "Full consent from every family member shown, including minors' guardians",
-      "No engineering of the household's circumstances to match the premise"
-    ],
-    "suggestions": [
-      {
-        "name": "A fishing or farming household",
-        "region": "Trincomalee or Batticaloa district, east coast",
-        "why": "A region-level suggestion for geographic variety; no specific family or household is implied.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific family has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Care takes different shapes depending on who is in front of you — wishing a little one well, wanting a sick one's pain to end, gladness at a grown one's good start, and stepping back when nothing more is needed — and the texts use exactly this picture of a mother to explain four kinds of goodwill.",
+  "what_must_be_real": "The family's actual daily life and real circumstances, with full consent from everyone shown and from guardians of any minors. Illness is never staged and never treated as spectacle. No one is told what their feelings really are.",
+  "position_hint": "middle: it gathers the group's separate warm qualities into one scheme, which only pays off after several of them have been seen on their own.",
   "risks": [
     "Staging illness or hardship for the camera",
-    "Casting a family to fit a scheme rather than following one where the pattern is already, even partially, present"
+    "Casting a family to fit a four-part scheme rather than following one where the range is already present",
+    "Resolving a real disagreement between the sources by implying that family love is 'really' attachment, or by quietly dropping the objection",
+    "Letting the scheme narrate over what the family themselves say they are doing"
   ],
   "drop_if": [
-    "No family's real situation actually shows this range of care without being engineered for the film"
+    "No family's real situation shows this range without being engineered for the film",
+    "Consent cannot be held for every person shown, including the unwell child"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0099",
       "relation": "pairs with",
-      "note": "Both centre on sympathetic joy and its opposite, shown through real, unscripted human relationships."
+      "note": "Both turn on gladness at someone else's good fortune, one inside a family and one between rivals."
     },
     {
       "idea_id": "IDEA-0106",
       "relation": "mirrors",
-      "note": "Both ask how one person's care changes shape for different people within the same day."
+      "note": "Both ask how one person's care changes shape for different people within the same day, one among kin and one among strangers."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and carrying the source's own image for the four abidings; kept with the family-attachment tension made explicit rather than resolved."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

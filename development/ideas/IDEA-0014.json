@@ -4,87 +4,66 @@
   "record_type": "idea",
   "title": "Before the Wedding",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "In a provincial textile shop, weeks before a wedding, a family unfolds sari after sari, and one relative talks a hesitant bride into a colour she didn't choose.",
+  "logline": "Weeks before a wedding, a family spends a day choosing cloth, and a relative talks a hesitant bride into a colour she would not have picked herself.",
   "human_question": "When does choosing for someone else stop being help and start being your own wanting?",
-  "premise": {
-    "story": "A family's shopping day for a wedding: the bride, her mother, an aunt with strong opinions, and a shop assistant who has folded a thousand fabrics that week, ending in a bill and a decision that may or may not be the bride's own.",
-    "place": "A busy textile or saree shop in a provincial town during wedding season.",
-    "experience": "Colour, texture and light on fabric held up to faces; the small drama of a family choosing, differing and settling; the flat rhythm of the shop underneath it."
+  "situation": {
+    "what_happens": "A family sets aside a day to buy cloth for a wedding that is still weeks away. Bolt after bolt is unfolded and held up, opinions collide, and the person the clothes are for is the least certain of everyone in the room. One relative argues hard for a particular colour, and the bride, who had been drawn to another, agrees in the end. All the while the shop's assistant folds and refolds the same fabrics they have been handling all week, with no visible feeling about any of them.",
+    "who_is_involved": "A bride-to-be; her mother; an aunt or older relative with strong opinions and the standing to press them; whoever in the family is paying; a shop assistant partway through a long trading season.",
+    "what_is_at_stake": "For the bride, whether what she wears on the most looked-at day of her life is her own choice, and whether saying so is worth the friction. For the older relative, the family's standing and their own idea of what is beautiful. For the family, money that has to stretch further than is comfortable. For the assistant, a sale at the end of a long day and nothing else.",
+    "how_it_unfolds": "Days like this usually start warm and wide and narrow as they go: several shops, a shortlist, one colour that keeps returning, a disagreement that stays polite, and a decision made when everyone is tired. They end in a purchase, in a deferral to another day, or in a choice that is quietly regretted later. Whether the bride yields, holds out, or was never that sure to begin with is decided by the family, in their own time, and must not be steered."
+  },
+  "concept_merge": {
+    "why_together": "C004 supplies the frame: the everyday sense-sphere mind living among things seen and reached for, with greed defined as the attaching that takes a thing to be good, beautiful or sweet, arriving with joy or with flat feeling but never with displeasure. C006 supplies the mechanism of this particular day: the same reaching can rise sharply on its own, or be urged along by another person, or by oneself coaxing a hesitating mind. A day spent choosing cloth for a wedding puts both in one room, because one person's eye lights up while another person's argument is doing the work.",
+    "what_it_reveals": "Together they show that persuasion does not make the wanting somebody else's. It makes it prompted wanting, which the sources still count as wanting, in the one persuaded and in the one persuading. And because a person who handles the same beautiful cloth all week shows no delight in it at all, it becomes visible that the beauty is not sitting in the cloth: the reaching is what is being described."
   },
   "concept_links": [
     {
       "concept_id": "C004",
       "role": "primary",
-      "why": "This is the concept's own story seed: things seen as beautiful and reached for, with delight on one face and flat professional indifference on another [C004-M:L13] [C004-M:L17]."
+      "why": "The digest's own first story seed is a family choosing clothes before a wedding, and the source defines greed as the attaching that takes things to be good, beautiful or sweet, present with delight in one person and flat indifference in another [C004-M:L13] [C004-M:L17]. The film stays with that definition and does not touch the source's listing of affection and love among the names of greed, which the digest flags as unresolved and needing an expert check [C004-M:L13]."
     },
     {
       "concept_id": "C006",
       "role": "supporting",
-      "why": "The bride's own eye lighting up is a spontaneous reaching; the aunt talking her into a different colour is the same wanting arising through another person's prompting [C006-M:L5] [C006-P:L44]."
+      "why": "The sources distinguish wanting that arises sharply of its own accord from wanting urged on by others or by one's own coaxing of a reluctant mind [C006-M:L5] [C006-P:L44]. A relative arguing a bride round, and the bride's own eye settling on something first, are that distinction as it actually happens. The sources rank the prompted kind as weaker but do not excuse it, so the film cannot let persuasion carry the whole weight."
     }
   ],
-  "what_camera_could_observe": [
-    "Fabric unfolded and held against a face",
-    "A relative arguing for a colour",
-    "The bride's hesitation and eventual choice",
-    "The shop assistant's practised, tired folding",
-    "The bill being written and counted"
-  ],
-  "what_must_be_real": "The family's actual shopping day, their own disagreements and the assistant's real working week. Nothing restaged for a better shot.",
-  "possible_arc": {
-    "opening": "Bolts of cloth unrolling under fluorescent light.",
-    "turn": "A disagreement over colour, and someone gives way.",
-    "ending_open": "The chosen sari is wrapped and paid for, or the family leaves without deciding. Reality decides."
-  },
-  "position_hint": "opening candidate: a clear image of wanting badly and being pulled by others' wanting too, with a natural moment for something small to be acquired if it genuinely becomes Object 2.",
-  "location": {
-    "requirements": [
-      "A textile or saree shop with a family genuinely shopping for a wedding",
-      "Consent from the family to be filmed choosing and disagreeing",
-      "A shop assistant willing to be filmed working"
-    ],
-    "suggestions": [
-      {
-        "name": "A textile shop on the main street of Kurunegala",
-        "region": "Kurunegala District, North Western Province",
-        "why": "A well-known provincial market town with a concentration of textile and saree shops serving surrounding villages.",
-        "season_notes": "Wedding seasons cluster around school holidays and after Vesak/Poson.",
-        "access_notes": "Specific shop and family unconfirmed.",
-        "verify": "No shop or family has been contacted; this is a plausible town, not a confirmed location.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Wanting is the ordinary pull of seeing something as beautiful and reaching for it, and it can rise in us on its own or be talked into us by someone else. Either way it is the same reaching, and what is beautiful is decided by the reaching rather than by the thing.",
+  "what_must_be_real": "The family's actual choosing and their own disagreements in their own words, and the assistant's real working week. No exchange prompted, replayed or resolved for the film, and nobody asked to make the decision again.",
+  "position_hint": "opening candidate: the group opens on something wanted badly and plainly, and this is wanting at its most ordinary and most legible, with room for the group's object to be acquired if a real exchange offers one.",
   "risks": [
     "Turning the family into a lesson about materialism",
-    "Making the aunt or assistant a comic figure without consent",
-    "Wedding pressure filmed as entertainment rather than lived experience"
+    "Making the insistent relative or the tired assistant a comic figure",
+    "Wedding pressure filmed as entertainment rather than as lived obligation",
+    "Letting the source's listing of affection and love under greed become a verdict on family love; the digest flags that classification as unresolved"
   ],
   "drop_if": [
-    "No family will allow their real disagreements to be filmed",
-    "The shop will not allow filming during trading hours"
+    "No family will let their real disagreements be part of the film",
+    "The decision can only be obtained by asking them to make it a second time"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0018",
       "relation": "pairs with",
-      "note": "Two garments chosen for two different occasions, one led by others' wanting, one sorted by the customer's own reasons."
+      "note": "Two garments for two occasions: one choice led by other people's wanting, one sorted by the customer's own stated reasons."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries the group's opening beat and its two founding concepts, both grounded in the digests' own examples."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

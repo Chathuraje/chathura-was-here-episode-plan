@@ -4,92 +4,72 @@
   "record_type": "idea",
   "title": "Water, Weather, Roof",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "Through a hard monsoon stretch on a tea estate, the same families who share tea and shelter on dry days start keeping to themselves when the rain and the cold do not let up, and everyone can feel exactly when it changes.",
-  "human_question": "How much of what we call someone's character is really just today's weather, food and shelter?",
-  "premise": {
-    "story": "A tea-estate community's daily life through a difficult monsoon period: work, food, shared or scarce shelter, and the visible shift in mood and generosity as conditions change.",
-    "place": "A hill-country tea estate community during the south-west monsoon.",
-    "experience": "Grey, wet days strung together, small kindnesses and small frictions, and the moment a break in the weather visibly lifts a whole line of houses."
+  "logline": "Through a long wet stretch, families who share food and shelter freely on dry days start keeping to themselves, and everyone can feel exactly when it turns and exactly when it lifts.",
+  "human_question": "How much of what we call someone's character is really today's weather, food and shelter?",
+  "situation": {
+    "what_happens": "A working community lives through a stretch of weather that does not let up: wet, cold, with work still required outdoors and housing that leaks or crowds. Over days the small economies of the place change. Food is made from whatever is to hand and shared less widely. Dry space is offered, or guarded. Tempers shorten in people who are not short-tempered, and other people become notably kinder. When the weather finally breaks, the change is immediate and everyone remarks on it.",
+    "who_is_involved": "The households of a working community who live in adjoining or shared housing; the people who decide what work happens in bad weather and what is paid for it; the ones with the driest rooms and the ones with the worst; children and older people, for whom a wet fortnight is a different thing than for a working adult.",
+    "what_is_at_stake": "Health, wages and relationships that have to survive the season and continue afterwards. The same conditions that make some people harder make others more generous, and nobody can predict in advance which way a particular household will go.",
+    "how_it_unfolds": "A hard stretch of weather has no plot: it settles in, it goes on longer than expected, it does or does not break within the time anyone is watching. The film's ending is whatever the season does, and the risk is that the hardest part happens when no one is there to see it."
+  },
+  "concept_merge": {
+    "why_together": "C082 supplies decisive support, which the sources call the strongest of the conditions, and its 'natural' kind is named in exactly these terms: bodily pleasure and pain, weather, food and lodging. The same passages insist the influence runs both ways — good conditions support giving and virtue and also conceit; hard conditions support anger and also generosity — and that these are strong supports, not sole causes. C075 supplies the inner side: feeling, pleasant, painful or neutral, is counted among the faculties that govern what arises with them, so a body having a bad month is not a background to a person's states but a governing part of them.",
+    "what_it_reveals": "Together they give a way of seeing a hard season that neither excuses nor blames: the pressure is real, strong and physical, and it does not determine the outcome. What becomes visible is that the same weather produces opposite behaviour in neighbouring houses, which is precisely what a 'strong but non-exclusive support' means and what no simpler account of character allows."
   },
   "concept_links": [
     {
       "concept_id": "C082",
       "role": "primary",
-      "why": "The decisive-support condition names weather, food, lodging and bodily pleasure or pain as strong, non-exclusive supports for both wholesome and unwholesome states in the same people."
+      "why": "Natural decisive support is defined to include bodily pleasure and pain, weather, food and lodging, and the worked examples show them supporting both wholesome and unwholesome states in the same people; the sources call it the strongest condition and also insist it is not a sole cause."
     },
     {
       "concept_id": "C075",
       "role": "supporting",
-      "why": "Life and feeling as governing faculties, coloured directly by what the body is going through in a hard season."
+      "why": "Feeling is one of the twenty-two faculties, a governing state that colours what arises with it; a body going through a hard season is not scenery behind a mood but part of what governs it."
     }
   ],
-  "what_camera_could_observe": [
-    "Rain days and clear days back to back",
-    "Meals cooked with whatever is on hand",
-    "People sharing or guarding dry space",
-    "Tempers and generosity visibly shifting with the sky",
-    "The community's own account, in its own words, of a hard season"
-  ],
-  "what_must_be_real": "The community's actual working and living conditions; nothing staged to produce conflict or kindness for the camera.",
-  "possible_arc": {
-    "opening": "A wet week settling in.",
-    "turn": "Scarcity or discomfort visibly changing how people treat each other.",
-    "ending_open": "A break in the weather, or the season simply continuing; reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A tea estate community willing to be filmed through a genuinely difficult stretch of weather",
-      "Ongoing, specific consent about what hardship is shown",
-      "Enough time in the filming window to see a real shift when weather changes"
-    ],
-    "suggestions": [
-      {
-        "name": "A tea estate community during the south-west monsoon",
-        "region": "Nuwara Eliya or Badulla district",
-        "why": "Hill-country tea estates have well-documented seasonal hardship tied to monsoon weather and shared worker housing.",
-        "season_notes": "South-west monsoon, roughly May to September",
-        "access_notes": "",
-        "verify": "A specific estate and community consent must be confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Weather, food and shelter strongly shape how people feel and act, making kindness easier or harder. They are strong supports rather than the whole story, and the same conditions can lead to generosity or to friction.",
+  "what_must_be_real": "The community's actual working and living conditions and their actual consent, renewed as the season gets harder. No kindness and no conflict may be prompted, and no one's worst week may be filmed because it makes a better film.",
+  "position_hint": "middle to late: it turns the group's question outward, from things holding each other up to people being held up or worn down, just before the group's closing statement about support withdrawn.",
   "risks": [
-    "Poverty as spectacle",
-    "Suggesting people's circumstances decide their character rather than shape a hard season",
-    "Consent must be ongoing and specific about what is shown"
+    "Poverty as spectacle.",
+    "Suggesting that people's circumstances decide their character; the source names these as strong supports for good and bad alike, not sole causes.",
+    "Any hint that a community's hardship is deserved or earned; the Pradeepika's tree simile links past merit to present condition and must never be applied to people on screen.",
+    "Consent that is given once at the start and not revisited as conditions worsen."
   ],
   "drop_if": [
-    "No estate community willing to be filmed through a real difficult stretch",
-    "Conditions cannot be observed without exploitation"
+    "No community is willing to be filmed through a genuinely hard stretch, with consent renewed as it goes.",
+    "Conditions cannot be observed without exploiting the people living in them.",
+    "The filming window is too short to see both the hard stretch and a change."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0160",
       "relation": "pairs with",
-      "note": "Both work at a communal, epic scale, following many people's coordinated effort rather than one person's story."
+      "note": "Both follow many people's coordinated life rather than one person's story, and both turn on a limit the source insists on."
     },
     {
       "idea_id": "IDEA-0163",
       "relation": "leads into",
-      "note": "The same weather that shapes an estate community's mood also decides whether an overnight kiln firing can be safely attempted."
+      "note": "Weather that shapes a community's mood also decides whether a long firing can be attempted at all."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0085; decisive support is the one condition the sources describe in these exact physical terms."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

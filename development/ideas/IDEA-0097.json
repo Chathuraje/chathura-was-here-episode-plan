@@ -4,84 +4,70 @@
   "record_type": "idea",
   "title": "Practised Hands",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "At a festival-night stall handing out free food to strangers, one volunteer's hands move without a single wasted motion after twenty years; beside them, someone doing it for the first time can barely look a stranger in the eye.",
-  "human_question": "Does kindness get easier, or does it just start to look different once you've done it enough times?",
-  "premise": {
-    "story": "One long night at a volunteer-run free food or drinks stall during a local festival, following an experienced volunteer and a first-timer side by side.",
-    "place": "A roadside stall during a temple festival, strings of lights, a long night of strangers passing through.",
-    "experience": "The contrast between practised ease and first-time shyness, doing exactly the same task."
+  "logline": "At a stall handing out free food through a festival night, one volunteer's hands move without a wasted motion after twenty years; beside them, someone doing it for the first time can barely meet a stranger's eye.",
+  "human_question": "Does kindness get easier, or does it only start to look different once you have done it enough times?",
+  "situation": {
+    "what_happens": "A volunteer-run stall gives food and drink away through a long night to whoever passes. Two people work side by side at the same task: one who has done it for decades and one who has never done it before. The experienced volunteer's movements are economical and unhesitating; the newcomer is awkward, slow and visibly self-conscious about handing something to a stranger. By dawn the difference has either narrowed or it has not.",
+    "who_is_involved": "A long-serving volunteer; a genuine first-timer; the organisers who run the stall; the strangers who come through it, who are guests rather than recipients of charity.",
+    "what_is_at_stake": "For the newcomer, the small humiliation of being bad at something simple. For the veteran, years of unremarked work suddenly being looked at. For the viewer, whether ease is evidence of goodness or only of practice.",
+    "how_it_unfolds": "A night like this has its own curve: setting up, a slow start, a rush that leaves no room for self-consciousness, a long flat stretch, and an exhausted clearing away. Its pressures are crowd size, supplies running out, and tiredness. Reality decides whether the newcomer settles, whether the two volunteers speak to each other at all, and what either of them makes of the night afterwards."
+  },
+  "concept_merge": {
+    "why_together": "C023 names proficiency (pāguññatā) among the nineteen factors of every good mind and describes it in exactly these terms: someone used to giving finds giving easy and even sweet, while someone who has never done it hesitates, feels shy or afraid. C011 supplies the guard-rail: the hesitant act and the practised one are both fully wholesome, and prompted or unpractised goodness is never called unreal. Together they let a film watch skill and virtue come apart.",
+    "what_it_reveals": "That the tradition treats kindness as closer to a skill than to a temperament — it gets lighter with use — without letting the beginner's clumsy version count for less."
   },
   "concept_links": [
     {
       "concept_id": "C023",
       "role": "primary",
-      "why": "Proficiency (pāguññatā) makes practised giving easy and even sweet, while its absence brings hesitation, fear and shame at doing it for the first time [C023-P:L153-L157]."
+      "why": "Proficiency makes practised good action easy and even sweet, and its absence brings hesitation and awkwardness at doing it for the first time [C023-P:L153-L157]. The digest adds the second sense the Pradeepika gives it, soundness or 'not being sick', which is not carried by this situation and should not be claimed for it."
     },
     {
       "concept_id": "C011",
       "role": "supporting",
-      "why": "Both the confident and the hesitant act are counted as fully wholesome; the sources never treat prompted or unpractised giving as less real [C011-P:L93-L109]."
+      "why": "The eight kinds include prompted and unpractised wholesome minds, and the digest is explicit that the sources never treat prompted or joyless goodness as fake, only as generally ranked below the unprompted [C011-P:L93-L109; C011-M:L28]."
     }
   ],
-  "what_camera_could_observe": [
-    "The stall being set up before the crowd arrives",
-    "The queue and the rhythm of serving, hour after hour",
-    "The experienced volunteer's economical, unhesitating movements",
-    "The newcomer's hesitation, and how it changes, if it does, by the end of the night"
-  ],
-  "what_must_be_real": "Real volunteers giving up a real night of their own time. No staged nerves or arranged 'first-timer' performance.",
-  "possible_arc": {
-    "opening": "The stall going up before the crowd.",
-    "turn": "The newcomer's uncertain first hour, beside the practised volunteer's ease.",
-    "ending_open": "However the night actually ends, and whatever the two volunteers say to each other, if anything."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A genuine volunteer-run free food or drinks stall at an actual festival",
-      "At least one long-serving volunteer and one real first-time volunteer, both willing to be filmed",
-      "Permission from event organisers for overnight filming"
-    ],
-    "suggestions": [
-      {
-        "name": "A town temple festival",
-        "region": "Southern Province (e.g. Matara or Tangalle area)",
-        "why": "Local temple festivals across the south regularly involve volunteer-run free food and drink stalls.",
-        "season_notes": "Varies by temple calendar.",
-        "access_notes": "",
-        "verify": "No specific festival, stall or volunteers have been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts treat goodness as something that becomes easier with repetition, like a skill, while still counting the awkward first attempt as fully good.",
+  "what_must_be_real": "Real volunteers giving a real night of their own time, and a first-timer who is actually a first-timer. No staged nerves, no recruited beginner, and no event convened so that it can be filmed.",
+  "position_hint": "middle: it depends on the viewer already accepting ordinary giving as goodness, and then complicates it with the question of practice.",
   "risks": [
     "Performative generosity staged for the camera",
-    "Treating recipients as background rather than people with their own dignity"
+    "Treating the people served as background rather than as people",
+    "Making the newcomer's awkwardness into comedy, or into a verdict on them"
   ],
   "drop_if": [
-    "No genuine first-time volunteer can be found, or the event turns out to be organised specifically for filming"
+    "No genuine first-time volunteer can be found",
+    "The event turns out to be organised specifically for filming"
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0094",
+      "idea_id": "IDEA-0093",
       "relation": "mirrors",
-      "note": "Both watch the same kind of giving become easier, or simply different, with repetition over time."
+      "note": "Both watch free giving to strangers become practised; IDEA-0093 holds the group's slot for that situation."
+    },
+    {
+      "idea_id": "IDEA-0095",
+      "relation": "pairs with",
+      "note": "Both belong to the same set of six paired factors, this one to proficiency and that one to lightness."
     }
   ],
+  "selection": {
+    "recommendation": "hold",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Strong and well grounded, but the group's ten slots are filled and its leading concept would have to be added to the opening film's concept set to be carried; held for a later slot or as a second idea for that film."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

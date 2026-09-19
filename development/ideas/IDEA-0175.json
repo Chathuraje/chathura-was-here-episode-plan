@@ -4,90 +4,70 @@
   "record_type": "idea",
   "title": "Held, Not Touched",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "A gem-cutter in Ratnapura brings a rough stone close under a single lamp and looks at it for longer than seems reasonable, ignoring everything else in the room until its faults and its worth both become visible.",
-  "human_question": "What changes when attention stops scattering and holds one thing for a long time?",
-  "premise": {
-    "story": "A day, or several, in a small gem-cutting workshop, following one stone from rough form to finished cut, through the cutter's held, undistracted looking.",
-    "place": "A gem-cutting workshop in a gem-trading town.",
-    "experience": "Close, patient, almost uncomfortable attention on one small object, and the value that only shows up after a long look."
+  "logline": "A gem-cutter brings a rough stone close under a single lamp and looks at it for far longer than seems reasonable, until both its flaws and its worth become visible.",
+  "human_question": "What changes when attention stops scattering and stays on one thing for a long time?",
+  "situation": {
+    "what_happens": "A cutter takes in a rough stone and decides what it will become. Most of the work is looking: the stone turned under light, set down, picked up again, while the room is ignored. A wrong angle destroys value that cannot be recovered, so the decision is deferred until the looking has produced it. Then the cutting is quick, and the stone leaves.",
+    "who_is_involved": "The cutter, working on commission or on their own stock; the owner of the stone, who is carrying the risk; the buyer or broker at the other end; apprentices or family who work in the same room.",
+    "what_is_at_stake": "Real money, other people's money, and a reputation that rests on judgement. For the film: the temptation to claim that skilled concentration is the same thing as the meditative absorption the texts describe, which the sources explicitly deny.",
+    "how_it_unfolds": "A stone arrives with a history and an expectation attached. The pressure builds as the decision is delayed and the owner waits. It ends in a cut that is either right or wrong, and the market says which. Reality decides the value, and whether the cutter is willing to say anything about how the looking feels."
+  },
+  "concept_merge": {
+    "why_together": "C013 (the fine-material minds) contributes the sources' own image for deep concentration: someone who wants to really know an object brings it close, stops looking elsewhere, and looks long at its colours and marks until it is completely clear [C013-P:L48–L52]. C099 (the absorption process) contributes what the texts count as skill, which is not intensity but control: being able to turn to it, enter, stay, leave on time and look back over it at will [C099-P:L69–L79]. C031 (the factors in absorbed minds) contributes the texts' analysis of what such a state actually consists of, which is a precise set of factors, some dropping away in a fixed order as it deepens.",
+    "what_it_reveals": "Together they make visible both the attraction and the limit of the comparison. Long, controlled, undistracted looking is filmable and real, and it is what the sources reach for when they want to explain themselves; but the sources also say a craftsman's absorption can only ever be an echo of what they mean, because their subject is defined by which factors are present, not by how well the work goes. The film can hold the echo without claiming the thing."
   },
   "concept_links": [
     {
       "concept_id": "C013",
       "role": "primary",
-      "why": "The source's own image for deep concentration is someone who wants to truly know an object: bringing it close, shutting out the room, and looking long at its colour and marks until it is completely clear [C013-P:L48–L52]. The film keeps this as a working image, not a claim about the cutter's inner state."
-    },
-    {
-      "concept_id": "C031",
-      "role": "supporting",
-      "why": "As attention holds in this way, some things that felt necessary fall away one by one; the film can show a narrowing of movement and talk without naming it as doctrine."
+      "why": "The Pradeepika explains deep concentration by exactly this behaviour: bringing an object close, shutting out the room and looking for a long time until everything about it is plain [C013-P:L48–L52]. The digest is explicit that absorption is not 'flow' or being in the zone at work, so the film keeps this as the source's working image and makes no claim about the cutter's mind."
     },
     {
       "concept_id": "C099",
       "role": "supporting",
-      "why": "A skilled cutter can pick up a stone, settle into the work, stop exactly when needed and look back over what was done, the ordinary craft version of a mastery the source describes for meditative absorption [C099-P:L69–L79]."
+      "why": "The digest treats real skill as being able to turn toward the object, enter, stay, leave on time and review [C099-P:L69–L79], and states that a craftsman's absorption can only be an echo or analogy, never an instance. That is precisely the register the film works in."
+    },
+    {
+      "concept_id": "C031",
+      "role": "supporting",
+      "why": "The texts describe a settled mind by counting what accompanies it, and say the drop-outs follow a set order tied to absorption factors, with one of the most refined moments also one of the richest. The digest warns that this is an analytic count, not something a person could feel or a camera could see, and that work focus is not these states. The link is background for the film's restraint rather than something the images can carry; it is the weakest link in this idea and could move to the film about deepening by subtraction."
     }
   ],
-  "what_camera_could_observe": [
-    "The rough stone under different light, turned slowly",
-    "The cutter's stillness, breathing, the room otherwise ignored",
-    "Small adjustments, rejected angles, the first facet catching light",
-    "The finished stone weighed, valued, sold or kept"
-  ],
-  "what_must_be_real": "The cutter's actual trade, risk and skill. The film must not claim the cutter is meditating or has any inner attainment.",
-  "possible_arc": {
-    "opening": "A rough stone arrives; the cutter turns it under a lamp.",
-    "turn": "A difficult decision about where to cut, made only after long looking.",
-    "ending_open": "The stone leaves the workshop, for a buyer or a client. Reality decides the ending."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working gem-cutter willing to be filmed over a real commission",
-      "Good light control for close macro photography",
-      "Time to follow one stone through several sessions"
-    ],
-    "suggestions": [
-      {
-        "name": "Ratnapura",
-        "region": "Sabaragamuwa Province",
-        "why": "Sri Lanka's best-known gem-trading and cutting town.",
-        "season_notes": "",
-        "access_notes": "Many small workshops; a specific willing cutter must be found.",
-        "verify": "Access to a specific workshop and cutter is unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Ordinary attention only brushes past things, but attention that stays on one thing for a long time begins to see it clearly. The texts picture someone bringing an object close and looking at it until everything about it is plain.",
+  "what_must_be_real": "The cutter's actual trade, actual commission and actual risk. The film never says the cutter is meditating, is absorbed in the sense the texts mean, or has attained anything.",
+  "position_hint": "middle: it follows the film about choosing a practice by showing what long attention on one object looks like from outside, before the group moves on to depth and to insight.",
   "risks": [
-    "Overclaiming a spiritual state for ordinary skilled work",
-    "Trade secrecy around value and sourcing",
-    "Becoming a craft showcase with no stake"
+    "Overclaiming a meditative state for ordinary skilled work, which both digests rule out",
+    "Trade secrecy about value, sourcing and labour conditions in the gem trade",
+    "Becoming a craft showcase with nothing at stake"
   ],
   "drop_if": [
-    "No cutter will allow a real commission to be filmed start to finish"
+    "No cutter will let a real commission be followed from rough stone to sale",
+    "The film could only work by asking the cutter to perform stillness"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0177",
       "relation": "pairs with",
-      "note": "Both are close studies of craft attention narrowing and refining, one on a single stone, one across a graduated set of vessels."
+      "note": "Two close studies of attention refining: one on a single object, one across a graduated sequence."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0089; the C013 image is the source's own, with the flow-state misreading explicitly blocked."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,80 +4,65 @@
   "record_type": "idea",
   "title": "The Old Cow at the Gate",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
-  "logline": "At dusk a herder drives the cattle into the pen; at dawn he opens the gate, and it's never the strongest animal that leaves first, it's whoever ended up nearest the door.",
-  "human_question": "Does what matters most always come first, or just what's closest to hand?",
-  "premise": {
-    "story": "A day and night in a dry-zone cattle herder's routine, driving animals into the pen at dusk and letting them out at dawn.",
-    "place": "A small dry-zone village with common cattle pens.",
-    "experience": "Dust, lowing animals, a herder's practised patience, and the simple fact of watching which animal actually leaves the gate first."
+  "logline": "At dusk a herder drives the cattle into the pen; at dawn he opens the gate, and it is never the strongest animal that leaves first, it is whoever ended up nearest the door.",
+  "human_question": "Does what matters most always come first, or just what is closest to hand?",
+  "situation": {
+    "what_happens": "A herder brings his animals in at dusk, settles the disputes over space that happen every night, and opens the gate again at dawn. He knows each animal individually and can say which is strong, which is old and which is trouble. When the gate opens, the order they come out in is decided by where they happen to be standing.",
+    "who_is_involved": "A working herder whose income depends on the animals; the household that shares the labour; and neighbours who use the same pen or the same grazing.",
+    "what_is_at_stake": "A season's income and the condition of the animals, and for the film the honesty of not bending real animal behaviour to fit an old comparison.",
+    "how_it_unfolds": "The cycle is the same every day and the variation is all in weather, feed and which animals are calving or ailing. Reality decides what happens at the gate, and if the animals do not behave as the comparison suggests, that is what the film has."
+  },
+  "concept_merge": {
+    "why_together": "One concept only. The order of ripening (C056) says which action gives the next rebirth: weighty first, then what is done or recalled near the end, then what is habitual, then whatever is left over. The source illustrates this with an old, weak cow that leaves the pen first because it is nearest the gate.",
+    "what_it_reveals": "How ordering differs from weight, and also how little a single image can carry: the source's own sentence here is compressed enough that the digest asks for an expert reading of it before anyone relies on it."
   },
   "concept_links": [
     {
       "concept_id": "C056",
       "role": "primary",
-      "why": "This is the source's own image for why what is nearest a life's end can outweigh what is strongest in it: an old, weak cow nearest the gate leaves the pen before all the others [C056-P:L119]. The film needs no explanation if the herder's real routine is simply followed."
+      "why": "The source illustrates the ordering of results with an old, weak cow that leaves the pen first because it is nearest the gate [C056-P:L119]. The earlier version of this link said the image shows that what is nearest the end outweighs what is strongest in a life, which the sources do not say: weighty action takes priority over everything, and what is near death decides only where there is no weighty action [C056-P:L117]. The digest also flags this very line as syntactically compressed, with two possible readings, and asks for an expert check, so the image cannot carry a film by itself. The digest's warning that the source's examples of habitual occupations must never be used to frame working communities applies here too."
     }
   ],
-  "what_camera_could_observe": [
-    "Cattle driven in at dusk",
-    "The herder settling disputes among animals for space",
-    "The pen at night",
-    "The gate opening at dawn",
-    "The actual order in which animals leave"
-  ],
-  "what_must_be_real": "A working herder's real routine, not one staged to match the simile. If the animals do not behave as the old story suggests, the film follows what actually happens.",
-  "possible_arc": {
-    "opening": "Dust and noise as the herd is driven into the pen at dusk.",
-    "turn": "A quiet night; the herder's own account of the animals he knows individually.",
-    "ending_open": "The gate opens. The order the animals leave in is whatever it is."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working cattle pen with a herder willing to be filmed over a dusk-to-dawn cycle",
-      "Dry-zone terrain"
-    ],
-    "suggestions": [
-      {
-        "name": "A village near Polonnaruwa or Anuradhapura",
-        "region": "North Central Province",
-        "why": "Traditional cattle-herding communities are still active in this dry-zone area.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific herder or pen identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Which of a life's actions gives the next rebirth is settled by an order, weighty first, then what is near the end, then what is habitual, and not simply by which action was biggest.",
+  "what_must_be_real": "A working herder's real routine, never a routine arranged to match a comparison. If the animals do not do what the old image says, the film follows the animals.",
+  "position_hint": "middle, if it were kept: an image-led film with no human situation of its own, which is why its concept has been folded into a film that has one.",
   "risks": [
-    "Staging the shot to force the simile onto real animal behaviour",
+    "Staging animal behaviour to force the comparison",
+    "Presenting a line the digest flags for expert checking as settled doctrine",
     "Romanticising a hard, low-income trade"
   ],
   "drop_if": [
-    "The animals' actual order contradicts the simile and the film cannot honestly use the image",
+    "The animals' actual behaviour contradicts the image and the film cannot use it honestly",
     "No working herder will allow overnight filming"
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0136",
+      "relation": "merged into",
+      "note": "The ordering of results now sits in the film about being called to a bedside, where it has a human situation, and the correction to the old why travels with it."
+    },
+    {
       "idea_id": "IDEA-0140",
       "relation": "mirrors",
-      "note": "Both use an ordinary, everyday image, cattle at a gate, debts in a ledger, to carry the same idea about what comes due and when."
+      "note": "A gate and a ledger are two everyday images for the same family of ideas about what comes due and when."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0136",
+    "reason": "Its concept is already carried by an episode, its why was inaccurate, and its one image rests on a line the digest flags for expert checking."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

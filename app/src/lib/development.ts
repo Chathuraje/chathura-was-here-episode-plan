@@ -235,26 +235,19 @@ export type Idea = Envelope & {
   group_id: string;
   logline: string;
   human_question: string;
-  premise: { story: string; place: string; experience: string };
+  situation: { what_happens: string; who_is_involved: string; what_is_at_stake: string; how_it_unfolds: string };
+  concept_merge: { why_together: string; what_it_reveals: string };
   concept_links: { concept_id: string; role: string; why: string }[];
-  what_camera_could_observe: string[];
+  what_the_viewer_could_understand: string;
   what_must_be_real: string;
-  possible_arc: { opening: string; turn: string; ending_open: string };
   position_hint: string;
-  location: {
-    requirements: string[];
-    suggestions: LocationSuggestion[];
-    selected_location_id: string | null;
-    selected_location_decision_id: string | null;
-    selection_status: string;
-    name_reveal_policy: string;
-  };
   risks: string[];
   drop_if: string[];
   connections: { idea_id: string; relation: string; note: string }[];
+  selection: { recommendation: "keep" | "merge" | "hold" | "drop"; merged_with: string[]; superseded_by: string | null; reason: string };
+  evidence_class_note: string;
   source_doc: string | null;
   unknowns: string[];
-  evidence_class_note: string;
 };
 
 export type EpisodeLocation = {

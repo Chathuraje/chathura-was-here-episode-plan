@@ -4,92 +4,85 @@
   "record_type": "idea",
   "title": "What the Eye Receives",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "At a free cataract camp, dressings come off one by one, and each patient's first sight in months arrives before anyone can film their face changing.",
-  "human_question": "How much of 'seeing' is a tiny patch of clouded matter, and how much is everything a person has been waiting to see again?",
-  "premise": {
-    "story": "A day or two at a rural eye camp, following a small number of patients from the queue through surgery to the removal of their dressings, with their full consent.",
-    "place": "A rural hospital or temple hall hosting a free cataract surgery camp.",
-    "experience": "A long, patient queue, quiet waiting, and the sudden, unrehearsed moment a dressing comes off and someone sees again."
+  "logline": "At a free eye-surgery camp, dressings come off one at a time, and each patient's first sight in months arrives without warning.",
+  "human_question": "How much of seeing is a small patch of living matter working, and how much is everything a person has been waiting to see again?",
+  "situation": {
+    "what_happens": "A camp is organised so that people who cannot afford or reach eye surgery can have it in a day or two. A queue forms early. People are examined, sorted, operated on and bandaged, and the next morning the dressings come off one by one. Some see well, some see partly, and some do not get the result they hoped for. Families wait through all of it. Afterwards people go home to houses, work and faces they have not been able to see properly for months or years.",
+    "who_is_involved": "The patients, mostly older people; the families who brought them and will take them home; the surgeons, nurses and volunteers running the camp; the organisation paying for it and counting the operations.",
+    "what_is_at_stake": "For a patient, whether they can work, cook, walk to the shop, or see a grandchild clearly. For a family, how much daily care will still be needed. For the camp, a number of operations against a fixed budget and a fixed day, which decides who is selected and who is turned away.",
+    "how_it_unfolds": "Camps run to a tight schedule with a long wait inside it. The pressures are numbers, time and selection. They end with results that differ from person to person and are known only when a dressing comes off. Nothing there can be arranged, and no one's reaction should be waited for as a payoff."
+  },
+  "concept_merge": {
+    "why_together": "C063 contributes the inventory in which the eye's sensitivity is one named, conditional item among twenty-eight, with nothing anywhere in the list called 'owner'. C064 contributes the account of that sensitivity as a clarity of the four great elements themselves, sitting in a small area of the organ and working only while conditions allow. C067 contributes the pairs that sharpen it: of all twenty-eight kinds only colour is visible at all, and only the five sense organs count as 'internal', not by anatomy but because the grip of 'mine' is strongest there. C065, folded in from IDEA-0115, contributes what is actually received, never the object but an image carried by light, a blend of countless small colours that shifts with distance and lighting.",
+    "what_it_reveals": "Together they take seeing apart into facts that a camp puts in one room: that sight depends on a tiny, failable piece of a living body; that even working perfectly it delivers colour rather than the thing itself; and that we hold it as the most intimate thing we own because of the grip, not because of where it sits. What becomes visible is why losing and regaining sight is felt as something happening to a person rather than to an organ, and how thin the thing being repaired actually is."
   },
   "concept_links": [
     {
       "concept_id": "C063",
       "role": "primary",
-      "why": "The twenty-eight kinds of matter include the sensitive matter of the eye as one small, named, failable item among many, not a guarantee. An eye camp makes visible how much of ordinary seeing depends on a tiny patch of living matter working at all."
+      "why": "The digest counts the sense organs among the twenty-eight kinds as items found only in living bodies, each conditioned and none of them guaranteed, and notes that nowhere in the count is there an item called 'owner'. A camp is the ordinary situation in which that conditionality is the whole subject."
     },
     {
       "concept_id": "C064",
       "role": "supporting",
-      "why": "The eye's clear sensitivity is described as a minute area, easily clouded, whose function is entirely dependent on conditions being right; cataract removal restores exactly that condition."
+      "why": "The digest describes the five sensitive kinds as a clarity of the great elements themselves, each sitting in a small area of its organ where the matching consciousness arises. It also states that the traditional measurements for those areas are descriptions, not anatomy, and that the sources' claim that the senses were shaped by past wanting must never be used to say anyone's loss of sight is deserved."
     },
     {
       "concept_id": "C067",
       "role": "supporting",
-      "why": "The sense organs are named as the most intensely 'inner' of all twenty-eight kinds of matter, the ones held most fiercely as 'mine', which is part of why their loss and recovery are so keenly felt."
+      "why": "The digest's pairs are directly at work here: of all twenty-eight kinds only colour is visible, and only the five sense organs count as internal, drawn that way because the sense of 'this is me, this is mine' is strongest there rather than because of where they sit under the skin."
+    },
+    {
+      "concept_id": "C065",
+      "role": "supporting",
+      "why": "Folded in from IDEA-0115. The digest says that what reaches the eye is described as an image carried by light, always a blend of countless tiny colours that shifts with distance and light, so that no one receives the true colour and two people looking at one thing do not receive quite the same thing. The digest is explicit that this is the author's explanatory model and not early optics."
     }
   ],
-  "what_camera_could_observe": [
-    "The queue forming before dawn",
-    "Examinations and waiting through the day",
-    "Dressings removed, one patient at a time",
-    "What people say they missed seeing most",
-    "Family members watching and reacting"
-  ],
-  "what_must_be_real": "Full informed consent from elderly patients and their families at every stage. No 'miracle cure' framing, and no implication that clouded sight or its cause is deserved or doctrinal.",
-  "possible_arc": {
-    "opening": "The queue, before dawn.",
-    "turn": "A dressing comes off.",
-    "ending_open": "Whatever a patient actually says or does first, in their own words."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A free cataract or eye camp with institutional permission to film",
-      "Patients and families giving full informed consent",
-      "A camp large enough to allow following a small number of individual stories"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural hospital or temple hall hosting a free eye camp",
-        "region": "North Central or Uva Province",
-        "why": "Free eye camps are a regularly run form of rural healthcare outreach in these provinces.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific camp, its organisers and willing patients are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Seeing depends on a small, delicate part of a living body working at all, and even then what arrives is colour, shifting with the light, rather than the thing itself. Because we hold our senses as the most truly 'mine' of anything in us, losing one and getting it back is felt so deeply.",
+  "what_must_be_real": "Full informed consent from every patient and family, taken before the day and confirmed afterwards. No miracle framing and no one's reaction waited on as the film's payoff. Nothing on screen may suggest that anyone's blindness, its cause or its cure has a doctrinal explanation; the digests rule that out in the strongest terms. The sources' descriptions of where each sense sits are traditional, not anatomical, and may not be presented as medical fact.",
+  "position_hint": "middle: it comes after the films about sound and before the film that recites the body's parts, because it is the group's closest look at a single sense before the body is taken apart as a whole.",
   "risks": [
-    "Medical privacy and consent from elderly patients",
-    "Risk of 'miracle cure' framing",
-    "Turning patients into symbols rather than people with their own reasons for coming"
+    "Medical privacy and consent from older patients.",
+    "Miracle-cure framing.",
+    "Patients used as symbols rather than as people with their own reasons for coming.",
+    "Any implication, however indirect, that sight lost or restored is deserved or explained by past action; the digests forbid it.",
+    "Traditional descriptions of the eye's sensitive matter mistaken for anatomy.",
+    "Reading the sources' account of what the eye receives as early optics, or as 'the senses lie'."
   ],
   "drop_if": [
-    "No camp grants institutional permission to film",
-    "Patient consent cannot be properly and fully obtained"
+    "No institutional permission to film.",
+    "Patient consent cannot be fully and properly obtained."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0115",
+      "relation": "absorbs",
+      "note": "IDEA-0115's colour material, and its C065 link, are folded in here."
+    },
+    {
+      "idea_id": "IDEA-0118",
       "relation": "pairs with",
-      "note": "Both ask what the eye actually receives, and how much of seeing is taken for granted until it fails or is questioned."
+      "note": "Two senses examined at the point where they nearly fail: one to wind, one to clouding."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0115"
+    ],
+    "superseded_by": null,
+    "reason": "Used by EPD-0062; the group's one close look at a single sense, now carrying the colour material folded in from IDEA-0115 and explicit boundaries against any kamma-and-disability reading."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

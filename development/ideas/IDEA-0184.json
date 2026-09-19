@@ -4,90 +4,66 @@
   "record_type": "idea",
   "title": "Not Thrown About",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "At a fish-landing site before dawn, a gutter and sorter handles the day's catch, however it arrives, without flinching or lingering, and talks plainly about how they got used to work most people turn away from.",
+  "logline": "A worker handles, hour after hour, what most people turn away from, without flinching and without hardening, and talks plainly about how they got that way.",
   "human_question": "What is the difference between not caring and simply not being thrown off balance by what you meet?",
-  "premise": {
-    "story": "A worker at a fish-landing or fish-market site (or a similar site of work others find unpleasant) does their daily, skilled, unglamorous work with evident steadiness.",
-    "place": "A fish-landing site, market or similar workplace.",
-    "experience": "Close observation of steady, competent handling of repulsive or difficult tasks, without commentary, and the worker's own account of how they got that way."
+  "situation": {
+    "what_happens": "Someone whose daily work involves what others find repulsive does it steadily, competently and without display. The steadiness is neither indifference nor stoicism on show; it is what the job requires and what long practice produced. Asked about it, the person usually says something plainer and less flattering than the film expects.",
+    "who_is_involved": "The worker; colleagues who do the same work and talk about it differently; customers or members of the public who keep their distance; the family who knows what the work is.",
+    "what_is_at_stake": "Dignity, mostly. This is low-status work and a film can easily make a symbol of the worker, or trade on disgust. For the worker, being seen doing it may carry a social cost.",
+    "how_it_unfolds": "The work is shift-shaped and repetitive, with unpleasant moments that arrive without warning. The pressure is physical and social rather than dramatic. It ends with the shift. Reality decides whether the worker wants to reflect on it at all, and the film accepts a shrug as an answer."
+  },
+  "concept_merge": {
+    "why_together": "C090 (the ten kinds of supernormal power) contributes a ranking that is easy to miss: among ten kinds, from the spectacular to the ordinary, one is said to belong to the fully freed alone, and it is not a feat at all but dwelling without revulsion toward the repulsive, without being pulled by the alluring, and evenly toward both [C090-P4:L85–L87; C090-M:L13]. C089 (the direct knowledges) contributes the sources' insistence that nothing of this kind comes from wishing and that the hardest use of any of it is composure when someone else is suddenly in danger.",
+    "what_it_reveals": "Put together, the tradition's own list turns out to put its highest mark on an inner response rather than a display, and that reframes what the group has been calling power. Watching ordinary steadiness in work others avoid gives that ranking a human scale without ever suggesting the worker is what the texts describe."
   },
   "concept_links": [
     {
       "concept_id": "C090",
       "role": "primary",
-      "why": "Among ten kinds described, from the most spectacular to the most ordinary, the source names one power that belongs only to the fully freed: dwelling without revulsion towards the repulsive, without attraction to the alluring, and evenly towards both [C090-P4:L85–L87; C090-M:L13]. The film watches an ordinary, human-scale form of that steadiness, and must never suggest the worker has any such attainment."
+      "why": "The source defines the noble kind of power as dwelling without revulsion toward what is repulsive, without attraction to the alluring, or evenly toward both, and says it belongs to the fully freed alone [C090-P4:L85–L87; C090-M:L13]. The film watches an ordinary human form of that steadiness and must never suggest the worker has any attainment. The digest also warns against turning the source's protection stories into a promise that good people are safe."
     },
     {
       "concept_id": "C089",
       "role": "supporting",
-      "why": "The source is clear that no special ability arises just from wishing, and separately ranks readiness under pressure as the hardest use of any power; the worker's daily composure is offered only as an echo, not an instance."
+      "why": "The sources say plainly that wishing achieves nothing and that these capacities rest on long, rule-bound training, and they present the powers only as what the texts describe. The worker's composure is offered as an echo, not an instance."
     }
   ],
-  "what_camera_could_observe": [
-    "The pre-dawn arrival of the catch, sorting and gutting",
-    "The worker's manner with customers and colleagues",
-    "A difficult or unpleasant moment handled without fuss",
-    "Breaks, and what the worker says, in their own words, about the work"
-  ],
-  "what_must_be_real": "The worker's real job and real account of themselves. No claim of any inner attainment is made or implied.",
-  "possible_arc": {
-    "opening": "The catch arriving before light.",
-    "turn": "A particularly unpleasant or difficult task.",
-    "ending_open": "The worker's own reflection on the work, however they choose to give it."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A willing worker at a real fish-landing site or similar workplace",
-      "Full consent and dignity throughout, without exploiting low-status labour",
-      "Early-morning filming access"
-    ],
-    "suggestions": [
-      {
-        "name": "Peliyagoda fish market",
-        "region": "Western Province (Colombo suburbs)",
-        "why": "A large, well-known wholesale fish market.",
-        "season_notes": "",
-        "access_notes": "Very early hours; market management permission needed.",
-        "verify": "A specific willing worker must be identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "In the texts' own ranking, the mark they reserve for the fully freed is not a spectacular feat but an even response to what disgusts and what attracts, and that is a thing ordinary steadiness can point at without claiming.",
+  "what_must_be_real": "The worker's real job and their own account of it, filmed with dignity and full consent. No claim of any inner attainment is made or implied, and the powers the texts describe are presented only as what the texts describe.",
+  "position_hint": "middle if kept separately: it belongs with the group's films about what the texts call power, before the final withdrawal and closing films.",
   "risks": [
-    "Exploiting low-status or difficult labour for a spiritual message",
-    "The worker becoming a symbol rather than a full person",
-    "Gore or sensationalism in the imagery"
+    "Exploiting low-status labour for a spiritual message",
+    "Gore or sensationalism in the imagery",
+    "The worker becoming a symbol rather than a person",
+    "Implying the worker has attained anything"
   ],
   "drop_if": [
-    "No worker will consent to be filmed and interviewed with dignity, on their own terms"
+    "No worker will consent to be filmed and interviewed on their own terms",
+    "The work cannot be shown without trading on disgust"
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0183",
-      "relation": "leads into",
-      "note": "From the boat that carries people across, to the community that lands and sells what the sea gives."
-    },
-    {
       "idea_id": "IDEA-0185",
-      "relation": "pairs with",
-      "note": "Two ordinary, unstaged forms of steadiness the sources call 'power': one under unpleasant routine, one under sudden danger."
+      "relation": "merged into",
+      "note": "Its substance, the least spectacular of the ten kinds and the steadiness that is not indifference, now sits inside the readiness film."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0185",
+    "reason": "It carries the strongest reading of C090 and strengthens IDEA-0185, which holds the episode slot."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

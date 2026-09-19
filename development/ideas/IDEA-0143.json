@@ -4,81 +4,62 @@
   "record_type": "idea",
   "title": "When the Rain Stops",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
-  "logline": "In an eastern dry-zone village, the paddy comes up green and full, and then the rain that should keep coming simply stops.",
-  "human_question": "What does a community do while it waits to find out whether this season will be the one that breaks it?",
-  "premise": {
-    "story": "A farming community around a large dry-zone tank, watching a promising crop as the rains fail, and making the hard daily decisions that follow.",
-    "place": "A tank-irrigated farming area in the Eastern Province dry zone.",
-    "experience": "A green, hopeful field turning to cracked earth, farmers checking the tank's water line each morning, and a community's practical response, water-sharing meetings, decisions about what to save."
+  "logline": "The paddy comes up green and full on land that depends on a seasonal tank, and then the rain that should keep coming simply stops.",
+  "human_question": "What does a community do while it waits to find out whether this season is the one that breaks it?",
+  "situation": {
+    "what_happens": "A farming community sows into a good start: water in the tank, rain on time, a crop that comes up strong. Then the rain stops. Over the following weeks the water level falls, what the crop needs and what the tank holds pull apart, and the community has to decide together who irrigates, what is saved and what is written off, while each household makes its own quieter decisions about debt, work elsewhere and what to sell.",
+    "who_is_involved": "The cultivating households, who carry the loss personally; the farmers' organisation or water committee that allocates what is left; the landless people who work the fields for wages and lose their income first; and the officials who arrive with figures and forms.",
+    "what_is_at_stake": "A season's income and the loans taken against it, the fairness of the sharing, and relations between neighbours at the top and the bottom of a channel. Underneath that, a household's confidence that this place can go on being farmed at all.",
+    "how_it_unfolds": "A failure like this is slow and legible: there is a date by which rain must come, a level below which the tank cannot serve everyone, and a week in which the decision gets made. Sometimes late rain rescues part of a crop; sometimes the season is written off and people go looking for work elsewhere. Reality decides which, and nobody, including the film, knows at the start."
+  },
+  "concept_merge": {
+    "why_together": "In this group, the fine-material and immaterial planes (C052) carries the source's account of how an entire world-system ends, and that account opens with something completely ordinary: rain falls, people sow happily, the crop grows, and then the rain stops for good. Putting the largest ending the texts describe beside one failed season is the merge. The cosmology supplies the scale; the season supplies the fact that the scale is made of ordinary weeks.",
+    "what_it_reveals": "That impermanence in these texts is not only personal, that nothing is exempt from ending, including the most blissful worlds, and that the way the texts imagine the largest ending is exactly how an ordinary drought feels from inside: no announcement, just something that should happen and does not. It also shows what the cosmology leaves out, which is the committee meeting, the loan and the neighbour upstream."
   },
   "concept_links": [
     {
       "concept_id": "C052",
       "role": "primary",
-      "why": "The source's account of how a world ends begins with something entirely ordinary: rain falls, people sow happily, the crop grows, and then the rain stops for good [C052-P:L156-L160]. A real drought carries that shape without any cosmic frame ever being spoken."
+      "why": "The source's account of a world-system's destruction begins with rain, sowing, a growing crop, and then rain that stops [C052-P:L156-L160]. The digest forbids two uses of that passage: reading it as an ecological prophecy, and blaming a real drought on anyone's moral failure, since the source ties the cycle to greed, hatred and delusion in general and never to a named community. The film therefore borrows only the shape of the account and makes no causal claim whatever about this drought or these farmers."
     }
   ],
-  "what_camera_could_observe": [
-    "A green, well-grown field",
-    "Cracks opening in dry earth",
-    "Farmers checking the tank's falling water line",
-    "A water-sharing meeting",
-    "A household's decision about what to save or let go"
-  ],
-  "what_must_be_real": "A real, current drought's real stakes for a real farming community. The film does not stage or predict the outcome.",
-  "possible_arc": {
-    "opening": "A full tank, a healthy crop.",
-    "turn": "The rains fail to come; the water line keeps dropping.",
-    "ending_open": "Whatever the community's season actually brings, a partial harvest, a hard decision, or rain arriving late."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A dry-zone tank-irrigated farming community currently facing or recently through a drought",
-      "Farmers and a water-management body willing to be filmed"
-    ],
-    "suggestions": [
-      {
-        "name": "The Ampara or Batticaloa district dry zone",
-        "region": "Eastern Province",
-        "why": "Large tank-irrigated paddy areas in the eastern dry zone; suggested for regional variety alongside the group's other dry-zone stories.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific tank or village identified; current drought conditions would need confirming at the time of filming.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts teach that nothing lasts forever, not even the most blissful worlds or the earth itself. Their story of a world's end begins with something ordinary: rain that falls, a crop that grows, and then rain that stops.",
+  "what_must_be_real": "A real water shortage with real consequences for the people filmed, and no foreknowledge of how it ends. Nothing is arranged: not the meetings, not the decisions, not the arrival of rain. No household's hardship is presented as deserved, explained or symbolic of anything.",
+  "position_hint": "middle: the widest frame in the group, placed where an ending stops being one person's and becomes everyone's.",
   "risks": [
-    "Implying that drought is caused by anyone's moral failure",
+    "Implying a drought is caused by anyone's moral failure, or by kamma",
     "Turning real hardship into an apocalyptic metaphor",
-    "Suggesting fatalism about climate and livelihood"
+    "Encouraging fatalism about climate, water policy or livelihood",
+    "Filming people at the most exposed moment of a financial loss"
   ],
   "drop_if": [
-    "No drought or water crisis is actually underway when filming would occur",
-    "No farming community consents to being filmed through a hard season"
+    "No water shortage is actually underway when filming could happen",
+    "The community will not consent to being filmed through a hard season",
+    "The film's presence could affect how aid or water is allocated"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0141",
       "relation": "mirrors",
-      "note": "A second growing-season story, this one following a community through a season's failure rather than a single family's."
+      "note": "Both are growing seasons whose outcome the film cannot know in advance; the single-family season has been merged into IDEA-0142, and this film keeps the community scale."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode; the link is supported and the digest's two prohibitions are now written into the idea."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

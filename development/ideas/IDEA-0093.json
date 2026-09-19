@@ -4,85 +4,74 @@
   "record_type": "idea",
   "title": "The Free Table",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "On a dry-zone road with no restaurant in sight, a family that has fed passing strangers for free every day for years hands Chathura a plate before he even asks, and keeps insisting it was nothing.",
+  "logline": "A household that has fed passing strangers free of charge for years hands a traveller a plate before he asks, and keeps insisting it was nothing.",
   "human_question": "What does it cost to give the same thing away, every day, to people who will never come back?",
-  "premise": {
-    "story": "A roadside family stall that feeds anyone who stops, with no fixed price and no memory kept of who paid and who didn't.",
-    "place": "A quiet stretch of dry-zone road between two towns, no restaurants for miles.",
-    "experience": "Arriving hungry and unknown, and being fed before being asked who you are."
+  "situation": {
+    "what_happens": "A household cooks and serves food each day to travellers who stop, taking no fixed price and keeping no record of who paid and who did not. The pot goes on before first light, people arrive and leave, and anyone who tries to pay is waved off. Watched over weeks rather than once, the giving is never quite the same twice: some days there is more to give, some days the giver is tired or the day has gone badly, some days a familiar face comes back and is handed a little extra with nothing said about it. The household lives on what is left over.",
+    "who_is_involved": "The household that cooks and serves, including whoever started the practice and whoever now keeps it going; strangers who stop once and are never seen again; a few regulars recognised by face rather than by name; and the traveller who is handed a plate before he has asked for one.",
+    "what_is_at_stake": "For the household, a real livelihood made thinner by what it gives away, and the risk of being turned into somebody else's parable. For the people fed, the ordinary surprise of being looked after by someone with no claim on them and no way of being repaid. For the viewer, whether something this plain and this repetitive still deserves to be called goodness at all.",
+    "how_it_unfolds": "A practice like this usually begins with one person's decision and hardens into a routine nobody in the household questions any more. Its pressures are money, fatigue, illness and the day a giver is simply not glad to give. It can end quietly when the person who began it dies, when a road or a bus route changes, or when the cost stops being bearable; it can also outlive its founder by a generation. Reality decides whether anything is given to the traveller at all, whether the household ever explains itself or shrugs the question off, and whether the practice survives the year it is watched."
+  },
+  "concept_merge": {
+    "why_together": "C011 sets out the eight kinds of everyday wholesome mind: glad or even-toned, with or without understanding of action and its results, arising on its own or after being prompted; and it explains that this goodness is called 'great' because it is common to many people everywhere, not because it stands above other kinds. C019 supplies the other half: a mind never arrives alone, only the factors a moment's work actually needs arise with it, and ordinary capacities such as effort and attention take the whole colour of the moment they join. Laid over a household that gives the same thing away every day, C011 says the act counts on the flat day as much as the glad one, and C019 says each of those days is a separate assembly rather than one long mood.",
+    "what_it_reveals": "That a practice which looks from outside like a single settled virtue is, in this account, a long run of separate moments with different strengths of intention inside them, and that the plainest of those moments is still fully good."
   },
   "concept_links": [
     {
       "concept_id": "C011",
       "role": "primary",
-      "why": "The eight wholesome sense-sphere minds cover both joyful, unprompted giving and calmer, habitual giving to a stranger who can never repay [C011-P:L89; C011-P:L93-L109]."
+      "why": "The digest supports both halves of the situation directly: giving is one of the acts that produces the everyday wholesome mind, and the eight kinds cover the glad day and the flat one, the understood act and the purely habitual one, the plate offered unasked and the one somebody had to request [C011-P:L51; C011-M:L3]. The Margaya's coin-and-note example compares the same giver's strength of intention on two different days, which is the only comparison this situation can honestly make; the digest is explicit that it is not a comparison between a large giver and a small one [C011-M:L26]."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "The family's giving is not one single feeling but the ordinary team of goodness arriving together, unremarked and unnamed [C019-P:L49]."
+      "why": "A mind arises with only the factors its work requires, between seven and at most thirty-six, and the ethically variable capacities take the quality of the mind they join, so the household's giving is a roster assembled afresh each time rather than one standing quality [C019-P:L49; C019-P:L63]. The digest corrects the group's shorthand: the fifty-two are the roster, never all present at once."
     }
   ],
-  "what_camera_could_observe": [
-    "Lorries and buses slowing at the stall, the family's practised motions with no cash register",
-    "A stranger trying to pay and being waved off",
-    "The quiet after the road empties out",
-    "Family members eating what is left over at the end of the day"
-  ],
-  "what_must_be_real": "The family's actual business and economics of giving food away for free. No staged refusals or manufactured generosity for the camera.",
-  "possible_arc": {
-    "opening": "An empty road; a small stall lights up before dawn.",
-    "turn": "Chathura tries to pay and is refused, and the family explains, or doesn't.",
-    "ending_open": "Whatever the family actually says, if anything, about why they keep doing it."
-  },
-  "position_hint": "opening candidate: a natural, unstaged place for something to be given freely to Chathura, and for Object 6 to enter his hands, only if it really happens",
-  "location": {
-    "requirements": [
-      "A genuine roadside stall or household that feeds passing strangers without payment as an ongoing practice",
-      "Willingness to be filmed over enough time to show the pattern, not a single staged act",
-      "Real traffic and real strangers, not arranged visitors"
-    ],
-    "suggestions": [
-      {
-        "name": "A road-side rest stop in the North Central dry zone",
-        "region": "e.g. the Anuradhapura-Habarana road corridor",
-        "why": "This stretch has long-standing traditions of free wayside food and drink for travellers.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific stall or family has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Everyday giving is the kind of goodness the texts call 'great' because it is everywhere, not because it is lofty, and it counts whether it is done with a big smile or as a quiet daily habit.",
+  "what_must_be_real": "The household's actual practice and its actual economics, including what the giving costs them. No refusal of payment arranged for the film, no generosity performed on request, and nothing handed to the traveller that was not going to be handed to whoever turned up.",
+  "position_hint": "opening candidate: the group opens with something given freely, and this is the plainest and least ceremonious form of that. It can only open the group if the giving genuinely happens without being asked for.",
   "risks": [
-    "Staging generosity for the camera",
-    "Reducing a real, precarious business to a parable about kindness",
-    "The family's own economic fragility being glossed over"
+    "Staging or prompting generosity for the camera, which would falsify the whole premise",
+    "Reducing a precarious real business to a parable about kindness",
+    "Glossing over the household's own economic fragility to keep the picture warm",
+    "Implying that a larger gift means a better giver, which the sources do not claim",
+    "Treating the regulars who depend on the food as illustrations of need rather than as people"
   ],
   "drop_if": [
-    "No family or stall is found that genuinely gives food without payment as a matter of regular practice"
+    "No household is found that genuinely gives food away as an ongoing practice rather than as an occasion",
+    "The practice can only be observed by arranging it"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0094",
-      "relation": "pairs with",
-      "note": "Both are ordinary, repeated acts of free giving to someone who cannot reciprocate, and both are candidates for where Object 6 first changes hands."
+      "relation": "absorbs",
+      "note": "IDEA-0094's daily shopkeeper-and-regular exchange is folded in here as the repeat-recipient strand: the same giver, the same receiver, and the day-to-day variation in what is given."
+    },
+    {
+      "idea_id": "IDEA-0097",
+      "relation": "mirrors",
+      "note": "Both watch giving become practised with repetition; IDEA-0097 is held and would carry proficiency as its leading concept."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0094"
+    ],
+    "superseded_by": null,
+    "reason": "Used by the group's opening episode and now the fullest statement of everyday wholesome giving, with IDEA-0094's repeat-recipient observation folded in."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

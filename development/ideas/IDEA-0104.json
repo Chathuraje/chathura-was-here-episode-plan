@@ -4,70 +4,43 @@
   "record_type": "idea",
   "title": "The Whole Team",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "Before sunrise, a beach-seine crew of a dozen men and women pulls a single net from two directions at once; no one person could do any part of it alone, and the catch belongs to all of them the moment it's decided.",
+  "logline": "Before sunrise, a crew of a dozen people pulls a single net from two directions at once; no one could do any part of it alone, and the catch belongs to all of them the moment it is decided.",
   "human_question": "When something can only be done by everyone at once, whose achievement is it?",
-  "premise": {
-    "story": "One full haul of a beach-seine net, from the boat going out to the net coming in and the catch being divided.",
-    "place": "A working beach at first light, ropes laid out on sand, the whole crew's coordinated pull.",
-    "experience": "A single sustained physical effort that literally cannot happen without every member playing their part."
+  "situation": {
+    "what_happens": "A crew sets one end of a very long net out on the water while the rest hold the other end, and then the whole group hauls for as long as it takes. Every person has a different job and none of the jobs is the work. The pull begins together and finishes together. When the net closes, what is in it is divided by an arrangement the crew already knows.",
+    "who_is_involved": "A crew who work together habitually, including older members who no longer haul but still take a share; the households the shares go to.",
+    "what_is_at_stake": "A morning's income for everyone at once, and an arrangement about sharing that has to survive a bad haul. For the film, the risk of turning precarious labour into a pleasing shape.",
+    "how_it_unfolds": "The work has one long movement — setting, hauling, closing, dividing — and it either produces something or it does not. Its pressures are weather, declining stocks, equipment cost and the fairness of the split. Reality decides what comes up in the net and what is said while it is divided."
+  },
+  "concept_merge": {
+    "why_together": "C019's four marks of association — factors arise together, cease together, take the same object and rest on the same base, each with its own function — are almost exactly a crew that launches and lands as one; the digest itself reaches for a boat's crew as its image. C023 adds that the ease and coordination of a practised group is what workability and proficiency look like from outside.",
+    "what_it_reveals": "That the tradition's account of a mind is closer to a crew than to a person: distinct jobs, one object, one beginning and one end, and no member who is the work."
   },
   "concept_links": [
     {
       "concept_id": "C019",
       "role": "primary",
-      "why": "The four marks of association describe factors that arise together, cease together, take the same object and rest on the same base, each with its own distinct function, closely echoed by a crew that launches and lands as one [C019-P:L33-L47; C019-M:L3-L17]."
+      "why": "The four marks describe factors that arise together, cease together, take the same object and depend on the same base, each with a distinct function [C019-P:L33-L47; C019-M:L3-L17]; the digest's own simile for this is a boat's crew that launches and lands together."
     },
     {
       "concept_id": "C023",
       "role": "supporting",
-      "why": "The ease and coordination visible in a well-practised team echoes the workability and proficiency that come with repeated, shared effort [C023-P:L153-L157]."
+      "why": "Workability and proficiency describe what repeated, shared effort makes possible, and the source's account of practice is that what is often done becomes easy [C023-P:L153-L157]."
     }
   ],
-  "what_camera_could_observe": [
-    "The boat going out with one end of the net",
-    "The long, coordinated pull from the beach",
-    "Each person's distinct task within the single shared effort",
-    "The net closing and the catch being divided among the crew"
-  ],
-  "what_must_be_real": "The crew's actual livelihood, a real catch, and a real division of proceeds. No restaging of the pull for better camera angles.",
-  "possible_arc": {
-    "opening": "Ropes and net laid out on the sand before light.",
-    "turn": "The long, hard, coordinated pull.",
-    "ending_open": "What the catch actually is, and how it is shared among the crew."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active beach-seine fishing crew willing to have a real working morning filmed",
-      "A genuine haul, not one arranged for the camera",
-      "Safe filming positions that do not interfere with the work"
-    ],
-    "suggestions": [
-      {
-        "name": "A beach-seine fishing community",
-        "region": "Southern coast, e.g. the Ahangama-Weligama area",
-        "why": "Beach-seine fishing is a well-known traditional practice along this stretch of coast.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific crew or morning has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "A mind, in this account, is never a single thing acting alone: it is a set of qualities that begin together, attend to the same thing and finish together, each doing a different job.",
+  "what_must_be_real": "The crew's actual livelihood, a real haul and a real division of what it produces. No repeat of the pull for the camera and no arranged catch.",
+  "position_hint": "middle: it is an explanatory film about how a mind is put together, which needs the viewer to have seen good minds in action first.",
   "risks": [
     "Turning hard, precarious labour into a pretty metaphor",
-    "The crew's own livelihood and voices must lead, not the visual composition"
+    "Letting visual composition lead instead of the crew's own livelihood and words"
   ],
   "drop_if": [
     "No crew is willing to have a real working morning filmed as it happens"
@@ -75,13 +48,19 @@
   "connections": [
     {
       "idea_id": "IDEA-0095",
-      "relation": "mirrors",
-      "note": "Both are physically demanding labour used to show what the ease and coordination of goodness can look like in the body."
+      "relation": "folded into",
+      "note": "Its substance now lives inside IDEA-0095: work that exists only when several people begin and finish it together, carrying the four marks of association."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0095",
+    "reason": "Shares both concepts with IDEA-0095 and duplicates it as physical-labour film; its four-marks image is stronger folded into that film than competing with it for a slot."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,87 +4,65 @@
   "record_type": "idea",
   "title": "Before the Selection",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "In the grey light before school, boys and girls bat and bowl in village nets, some dreaming of a national shirt, some just loving the game.",
+  "logline": "In the grey light before school, young cricketers bat and bowl at practice, some dreaming of a national shirt and some just loving the game.",
   "human_question": "Can you tell, by watching someone practise, whether they love the game or want what the game might give them?",
-  "premise": {
-    "story": "A dawn cricket practice at a village or school ground: a coach pushing young players through repetition, talk of heroes and selection trials, and one player who keeps batting long after the others have gone home.",
-    "place": "A village or school cricket ground in the hill country, practising before the school day begins.",
-    "experience": "Bat on ball in the cool morning air, a coach's voice, and the private, repeated effort of players hoping for very different things from the same game."
+  "situation": {
+    "what_happens": "A group of young players trains before the school day starts, through the same drills they did yesterday. A coach pushes them and corrects them. Between rounds the talk turns to heroes, trials, money and who might be selected. When practice ends most of them leave, and one stays on and keeps going.",
+    "who_is_involved": "Young players of mixed ability and mixed reasons; a coach who may be paid little or nothing; parents whose expectations are in the background of every session; the one player who stays behind.",
+    "what_is_at_stake": "For the players, a narrow path with very few places on it, and a childhood spent on it either way. For the coach, other people's children's hopes. For the film, the standing danger of framing a child's ambition as greed, which the digest warns against directly.",
+    "how_it_unfolds": "Seasons of practice lead to trials that almost everyone fails, and the failing is ordinary rather than dramatic. Some stop, some keep going for the pleasure of it, and a very few go on. Nothing about who is selected can be influenced, and no child should be asked to perform an ambition."
+  },
+  "concept_merge": {
+    "why_together": "C021 contributes the distinction at the heart of it: desire-to-act is the wish to do something, held apart from greed's sticking, and the sources say it can run towards the love of doing or towards craving reward while looking identical from outside. C005 contributes the guard rail: sport itself is not treated as a fault in the sources, so what is being described is how and why somebody plays, never the playing.",
+    "what_it_reveals": "That the one thing worth knowing about a person's effort is the one thing no observer can see. Only the person practising can say which way their wish runs, and a film can do no more than ask and wait."
   },
   "concept_links": [
     {
       "concept_id": "C021",
       "role": "primary",
-      "why": "This is close to the concept's own example: the wish to act, in practice, can run either toward the love of doing something or toward craving reward and recognition, and the source is explicit that the two are not the same drive even when they look identical from outside [C021-P:L75] [C021-M:L27]."
+      "why": "This is close to the digest's own story seed. Desire-to-act can run either towards the love of doing something or towards craving reward and recognition, and the sources are explicit that the two are not the same drive even when they look identical [C021-P:L75] [C021-M:L27]."
     },
     {
       "concept_id": "C005",
       "role": "supporting",
-      "why": "Sport itself is not treated as a fault in the source; wanting shows up in how and why someone plays, not in playing itself [C005-M:L5], which matters for a film about children who must not be shown as 'greedy' for wanting to succeed."
+      "why": "Games appear in the source's list of everyday occasions for greed-rooted minds because of the enjoying mind, and the digest states plainly that the arts and sport are not condemned [C005-M:L5]; this matters for a situation in which children must never be shown as greedy for wanting to succeed."
     }
   ],
-  "what_camera_could_observe": [
-    "Repetitive batting and bowling drills in early light",
-    "A coach's corrections and encouragement",
-    "Talk among players about heroes, selection and money",
-    "One player continuing alone after the others leave",
-    "The walk to school once practice ends"
-  ],
-  "what_must_be_real": "The players' actual practice and their own, freely given words about why they play. Full guardian consent throughout.",
-  "possible_arc": {
-    "opening": "Grey light, dew on grass, the first balls of the morning.",
-    "turn": "Talk turns to an upcoming trial or selection.",
-    "ending_open": "Practice ends as it actually does, with or without a trial to look forward to."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A village or school cricket ground with an active morning practice",
-      "A coach and players willing to be filmed and interviewed",
-      "Full guardian consent for all minors involved"
-    ],
-    "suggestions": [
-      {
-        "name": "A village or school cricket ground near Matale",
-        "region": "Matale District, Central Province",
-        "why": "An accessible hill-country district with active school and village cricket.",
-        "season_notes": "",
-        "access_notes": "Specific ground and team unconfirmed.",
-        "verify": "No coach or team has been contacted; this is a plausible setting, not a confirmed location.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Two people can do exactly the same practice for completely different reasons, and the wish to do something well is not the same as craving what it might bring. Watching cannot tell you which is which.",
+  "what_must_be_real": "The players' actual practice and their own freely given words. Guardian consent held throughout and revocable, and no child asked to describe an ambition they have not volunteered.",
+  "position_hint": "middle, if ever revived: it belongs with the group's desire-to-act beat, where its question is already being asked.",
   "risks": [
-    "Involves minors: guardian consent is essential throughout",
+    "It involves minors, so guardian consent is essential and must remain revocable",
     "Framing any child's ambition as greed",
-    "Pressure and selection anxiety must be handled with care"
+    "Selection anxiety and family pressure handled carelessly"
   ],
   "drop_if": [
-    "Full guardian consent cannot be obtained for the players shown",
-    "No coach or team will allow candid conversation about motives"
+    "Guardian consent cannot be obtained and held for everyone shown",
+    "No coach or team will speak candidly about motives"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0019",
-      "relation": "pairs with",
-      "note": "Two open-air disciplines built on repeated effort, one chasing wind, one chasing a place on a team."
+      "relation": "merged into",
+      "note": "Its substance now sits inside IDEA-0019: practice whose aim only the practitioner knows, and the rule that a young person's ambition is never framed as greed."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0019",
+    "reason": "It asks the same question IDEA-0019 already asks, on the same concept and the same digest seed, but with children and the consent burden that brings; the question and its guard rail are folded into IDEA-0019 instead."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,87 +4,66 @@
   "record_type": "idea",
   "title": "What the Bank Took",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "A family in a northern town watches a repossession agent walk out with the one vehicle they scrimped years to buy, and no argument brings it back.",
+  "logline": "A family watches an agent drive away the one vehicle they scrimped years to buy, and no argument brings it back.",
   "human_question": "What happens to wanting when the thing you finally got is taken away again?",
-  "premise": {
-    "story": "The day a family's vehicle, bought after years of saving and loan repayments, is repossessed over missed payments: the arguments, the paperwork, the neighbours who gather, and the family's life the next morning without it.",
-    "place": "A family home and yard in a northern town, on the day of a repossession.",
-    "experience": "The ordinary morning of a family interrupted; official calm against private loss; the strange quiet of a yard with an empty space in it."
+  "situation": {
+    "what_happens": "A family that saved for years and borrowed the rest falls behind on repayments, and the lender sends somebody to take the vehicle back. The paperwork is correct and the agent is neither cruel nor interested. There is arguing, then pleading, then nothing. The next morning the family's whole routine has to be rebuilt around the space where it used to be.",
+    "who_is_involved": "A family whose livelihood or schooling depended on the vehicle; the agent doing a job; the lender, who is not present; neighbours who gather and have opinions.",
+    "what_is_at_stake": "For the family, a loss that is financial, practical and public all at once, and shame that will outlast the loss. For the agent, an ordinary day. For the film, the plain danger of trading on a family's worst morning, which no editorial value can justify.",
+    "how_it_unfolds": "Repossessions are preceded by months of warnings and arrive on a day nobody chooses. They end with the thing gone, occasionally with a last-minute reprieve, and always with a household rearranged around the gap. Nothing about it can be arranged or delayed for anyone, and it should not be sought out."
+  },
+  "concept_merge": {
+    "why_together": "C004 contributes the attaching itself: greed is defined as taking a thing to be good and holding to it, and the same object can be held with everything by one person and handled with complete indifference by another. C032 contributes the cost built into it: the sources count even pleasant feeling as a kind of suffering because it rests on conditions, rises and falls, and hurts when it turns.",
+    "what_it_reveals": "That the sources' suffering of change is not an abstraction but a morning like this one, and that the indifference on the other side of the exchange is not cruelty. Together they show a thing wanted, got, held, and then simply gone, with nobody in the wrong."
   },
   "concept_links": [
     {
       "concept_id": "C004",
       "role": "primary",
-      "why": "The vehicle is precisely the concept's own subject: a thing held with real attachment, wanted badly and finally owned, and then handled with the flat, professional indifference of someone whose job is to take it away [C004-M:L13] [C004-M:L17]."
+      "why": "Greed is defined as the attaching that takes things to be good, beautiful or sweet, present with feeling in one person and with none in another [C004-M:L13] [C004-M:L17]. The digest's own seed of a family object being valued and let go is close to this, and it insists that hardship must never be framed as greed."
     },
     {
       "concept_id": "C032",
       "role": "supporting",
-      "why": "What was a source of pleasant feeling becomes a source of pain the moment it changes hands, which is the concept's own account of pleasant feeling carrying the seed of loss when conditions turn [C032-P:L117]."
+      "why": "The sources teach that pleasant feeling carries a cost because it is conditioned and hurts when it changes, the suffering of change [C032-P:L117], and they separate concealed suffering, which nobody knows about unless they ask, from open suffering that everybody can see [C032-P:L119]. Both are present on a morning like this. The digest notes this material rests on one source alone."
     }
   ],
-  "what_camera_could_observe": [
-    "Paperwork and an agent's practised, neutral manner",
-    "The family's arguments and pleading",
-    "Neighbours gathering to watch",
-    "The vehicle driven away",
-    "The yard and the family's routine the next morning, changed"
-  ],
-  "what_must_be_real": "A genuine repossession, with the family's full, informed consent to be filmed during a difficult and legally sensitive event. No dispute staged or resolved for the camera.",
-  "possible_arc": {
-    "opening": "An ordinary morning, before anyone arrives.",
-    "turn": "The agent arrives with the paperwork, and the family's wanting meets a wall.",
-    "ending_open": "The vehicle leaves, or the family finds a way to keep it a little longer. Reality decides."
-  },
-  "position_hint": "closing candidate: a direct, unmistakable image of the group's arc closing on wanting refused, lost or taken, ready to hand off into a story of what that loss turns into.",
-  "location": {
-    "requirements": [
-      "A family genuinely facing repossession, willing to be filmed through a legally and emotionally sensitive event",
-      "Cooperation or at least non-obstruction from the lender or agent involved",
-      "Careful legal and editorial handling of a real financial dispute"
-    ],
-    "suggestions": [
-      {
-        "name": "A town in the Vavuniya area",
-        "region": "Northern Province",
-        "why": "A regional town plausible for this kind of story; no specific family or case is known.",
-        "season_notes": "",
-        "access_notes": "This event would need to be found in progress or agreed in advance with a real family; it cannot be arranged for the camera.",
-        "verify": "No family, lender or case has been identified. This entire idea depends on finding a real, willing situation.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "A thing can be wanted for years, got, and then simply taken, with nobody behaving badly at any point. What hurts is not the taking but the change, and much of that hurt is never visible to anyone who does not ask.",
+  "what_must_be_real": "A genuine event, with the family's full and continuing understanding of what being part of a film means during a legally sensitive loss. No dispute arranged, prolonged or resolved for the film.",
+  "position_hint": "closing candidate in kind, but not for this group: it is a heavier refusal than this group's ending needs, and it points forward to what blocked wanting turns into.",
   "risks": [
-    "High sensitivity: financial hardship and shame must never be exploited",
-    "Legal complexity around filming a repossession",
-    "The family's dignity and consent must be protected above the story"
+    "High sensitivity: financial hardship and shame must never be traded on",
+    "Legal complexity around a live dispute",
+    "The family's dignity and understanding must outrank the story at every point",
+    "Being present could itself change what the agent or the lender does"
   ],
   "drop_if": [
-    "No family experiencing this can be found who freely and fully consents to being filmed",
-    "Filming would worsen the family's legal or financial situation"
+    "No family experiencing this freely and fully consents, and can withdraw at any point",
+    "Being filmed would worsen the family's legal or financial position"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0026",
       "relation": "mirrors",
-      "note": "One family loses what it finally had; another loses what it never quite got. Both are wanting meeting a wall."
+      "note": "One family loses what it finally had; the other loses what it never quite got."
     }
   ],
+  "selection": {
+    "recommendation": "hold",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Held, not merged: the group's two refusals are already carried by IDEA-0025 and IDEA-0026 at a scale that does not require filming a family's worst morning, and this idea's real home is a later stage on loss and on what blocked wanting turns into, if a real and freely consenting situation is ever found."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

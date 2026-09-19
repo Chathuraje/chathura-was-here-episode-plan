@@ -4,84 +4,48 @@
   "record_type": "idea",
   "title": "Among the Roots",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-04",
-  "logline": "Strangers get lost in the mangrove channels, where every turning looks the same. A lagoon fisher who grew up there reads the roots like streets, and spends the low tides planting new ones.",
+  "logline": "Every turning in the mangrove channels looks the same to a stranger, but a lagoon fisher who grew up in them reads the roots like streets, and spends the low tides planting more.",
   "human_question": "What holds us in place, and can we choose what grows there?",
-  "premise": {
-    "story": "A lagoon fisher or boatman who knows the mangrove maze, and the community replanting that they take part in. Their stake is the fish, crabs and shrimp that depend on the roots, and the shore the roots protect.",
-    "place": "A coastal lagoon edge: narrow channels under a roof of leaves, prop roots arching out of the mud, tides flowing in and out.",
-    "experience": "The viewer is disoriented in the channels at first, then slowly learns to see the differences a local sees."
+  "situation": {
+    "what_happens": "A tidal lagoon is threaded with narrow channels between mangroves, where the water moves twice a day and the banks are held together by roots. Someone who fishes there has learned the maze by small differences, a bent root or a gap in the canopy, and takes part in the replanting the community does at low tide, pushing seedlings into the mud and coming back later to see which took hold. The catch that feeds the household depends on those root systems, and so does the shore behind them. Anyone else entering the same channels cannot tell one from another.",
+    "who_is_involved": "A lagoon fisher or boat handler whose living comes out of the channels; the neighbours and the community group who replant; and outsiders who pass through without being able to read the place.",
+    "what_is_at_stake": "The crabs, shrimp and fish that depend on the roots, and with them a household's income; the shore's protection from the sea; and knowledge that may not pass to anyone younger.",
+    "how_it_unfolds": "The tide sets the clock: planting at low water, fishing at the turn. Seedlings are pushed in and then either hold or wash out, which takes weeks or a season to know. It can end with a stretch of bank visibly holding, with a planting lost, or with nothing conclusive at all. The tide, the salinity and the weather decide."
+  },
+  "concept_merge": {
+    "why_together": "C033 is the concept of holding: both sources insist the six roots are not what makes a mind arise but what keeps it standing on its object, as a tree's roots keep the tree up, and the digest adds that the wholesome roots are the stronger set [C033-P:L27; C033-M:L5; C033-P:L83]. C008 is the concept of not being able to take in what is in front of you [C008-M:L3]. A channel system where roots do the holding, and where a stranger cannot tell one turning from the next, puts both in the same water.",
+    "what_it_reveals": "That the useful question is not what started something but what is keeping it in place, and that the same question applies to the good as much as to the harmful. C033 alone stays an image of anchorage; C008 alone stays a mood of disorientation. Together they show a maze held together by exactly the thing that makes it hard to read."
   },
   "concept_links": [
     {
       "concept_id": "C033",
       "role": "primary",
-      "why": "Both sources say a root is what keeps a thing standing, not what made it grow [C033-P:L27; C033-M:L5]. Roots anchoring against the pull of the tide mirror the roots holding the mind on its object, for good or ill; Pradeepika adds that the good roots are the stronger [C033-P:L83]."
+      "why": "Both sources say plainly that a root is what holds the mind and its companions firmly on their object, not what caused the mind to arise, and both use the tree simile; the digest adds the claim that the wholesome roots can undo their opposites [C033-P:L27; C033-M:L5; C033-P:L83]. Roots anchoring against a running tide carry that sense directly. The digest's two limits are held: this is not modern root-cause analysis, and the roots classify moments of mind, never people."
     },
     {
       "concept_id": "C008",
       "role": "supporting",
-      "why": "Being lost in channels that all look alike is the everyday face of not being able to take in what is in front of you."
+      "why": "The digest states that delusion is a darkening that stops the mind knowing a thing as it is, and that it is present in every unwholesome mind [C008-M:L3]. Channels that all look alike are the ordinary face of not being able to take in what is in front of you. The link is to that description and makes no claim about anyone in the film."
     }
   ],
-  "what_camera_could_observe": [
-    "A boat nosing through channels that all look the same",
-    "The fisher's small landmarks: a bent root, a gap in the canopy",
-    "Mature prop roots holding against a running tide",
-    "Seedlings pushed into mud at low tide, and later checked to see which took hold",
-    "Crabs, fish traps, birds among the roots"
-  ],
-  "what_must_be_real": "The fisher's knowledge and the replanting must be real and already happening. The film does not organise a planting for the camera.",
-  "possible_arc": {
-    "opening": "A boat in a green maze; no way to tell one channel from another.",
-    "turn": "Through the fisher's eyes the maze becomes a map.",
-    "ending_open": "Low tide and the seedlings. Whether they have taken root, and what the fisher says about it, closes the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A mangrove lagoon with navigable channels",
-      "A local fisher or boat operator who knows them well and is willing to be followed",
-      "An active community mangrove replanting effort"
-    ],
-    "suggestions": [
-      {
-        "name": "Muthurajawela wetland",
-        "region": "Gampaha district, Western Province (near Negombo)",
-        "why": "A large coastal marsh with mangrove channels on the edge of the Colombo region.",
-        "season_notes": "",
-        "access_notes": "Some boat trips operate; local access to fishers needs research",
-        "verify": "Confirm current replanting work and a willing local guide or fisher.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "Puttalam lagoon",
-        "region": "Puttalam district, North Western Province",
-        "why": "A large west-coast lagoon fringed with mangroves and fishing communities.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm where community mangrove replanting is currently active.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "What keeps us stuck is not always what started it. The texts call greed, hatred and confusion roots because they hold the mind in place the way roots hold a tree up, and they name good roots too: letting go, goodwill and understanding.",
+  "what_must_be_real": "The fisher's knowledge, the catch and the replanting, which must already be happening. No planting is organised for the film, and no channel is made to look harder or easier to read than it is.",
+  "position_hint": "middle: the group turns here from images of being lost to the question of what holds anything in place, and this is the first film in which it says plainly that there are good roots too.",
   "risks": [
-    "Environmental messaging taking over the film",
-    "Forcing doctrine onto conservation work",
-    "Tourist-boat framing"
+    "Environmental messaging taking over the film.",
+    "Forcing doctrine onto conservation work.",
+    "Treating the fisher's local expertise as the texts' non-delusion; the digest is explicit that non-delusion is understanding within a moment of mind, not information or education.",
+    "Tourist-boat framing."
   ],
   "drop_if": [
-    "No replanting is active and no local person with a real stake can be found"
+    "No replanting is active and no local person with a real stake in it can be found."
   ],
   "connections": [
     {
@@ -92,12 +56,18 @@
     {
       "idea_id": "IDEA-0054",
       "relation": "pairs with",
-      "note": "Lost on roads and lost in channels, and the local knowledge that finds the way."
+      "note": "Lost among roads and lost among channels, and the local knowledge that finds the way in both."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries the group's fourth episode and is the group's only full treatment of the roots, including the wholesome ones."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

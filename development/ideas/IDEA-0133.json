@@ -4,92 +4,77 @@
   "record_type": "idea",
   "title": "What Was Left Behind",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
   "logline": "Weeks after a grandfather's funeral, his family finally opens the room he never let anyone into, and has to decide what a half-finished life becomes now.",
-  "human_question": "When someone dies mid-task, who finishes what they started, and who decides what is let go?",
-  "premise": {
-    "story": "An extended family gathers to clear a deceased elder's room and settle his unfinished matters: letters, debts, a house extension left half built, a tool mid-repair. They quietly decide, out loud, what to keep, finish, or let go.",
-    "place": "A family home in a Kandy-district hill village, the kind with a room nobody has touched since the funeral.",
-    "experience": "Cupboards opening onto a life in the middle of things, and a family deciding together what happens next to what is left."
+  "human_question": "When someone dies in the middle of things, who finishes what they started, and who decides what is let go?",
+  "situation": {
+    "what_happens": "Some weeks after an elder dies, a household comes back to everything the death interrupted: a room left as it was, letters unanswered, money owed in both directions, a repair begun and never completed, a building half raised. The family works through it item by item, saying out loud what will be finished, what will be kept unused, what will be given away and what will simply be let go. Some of it is settled in an afternoon. Some of it turns out to be unsettleable, because only the person who is gone knew what it was for. None of it is ceremonial: it is administration carried out inside grief.",
+    "who_is_involved": "The adult children and in-laws of an elder who has died; the grandchildren, who knew him mostly as a presence behind a door; and whoever outside the household holds a piece of the unfinished business, such as a neighbour owed money, a mason who never came back to the job, or a friend who still has one of his tools.",
+    "what_is_at_stake": "Whether the family can disagree about the things without the disagreement becoming permanent, and whether letting something go will feel like a betrayal. For each person, a private question about what they were owed or never said. For the household, the practical weight of debts, documents and a room that will eventually be needed by someone living.",
+    "how_it_unfolds": "This kind of clearing usually starts late, after the funeral rites are over and the visitors stop coming, and it starts with something easy and gets harder. A drawer of paper turns up an obligation nobody knew about. One relative wants everything kept; another wants the room usable. Sometimes it ends in a single day and a shared meal, sometimes it stalls for years with the door closed again. Reality decides whether this family finishes at all, what they find, and whether anything is genuinely resolved. The film cannot know in advance and must not need a resolution."
+  },
+  "concept_merge": {
+    "why_together": "Time of ripening (C057) says that what a person set in motion does not all come due at once: some of it has already had its result, some is still waiting for an occasion, and some will never come due at all, like seed grain kept past its season. Rebirth as causal continuation (C061) says that when the life ended, nothing mental or physical crossed over. In a room full of one person's unfinished business, the first concept explains the debris and the second refuses the comfort the debris invites.",
+    "what_it_reveals": "That a life is not a ledger that balances on its last day, and that the instinct to keep an object because it was his is an act of the living rather than a way of keeping the person. The sources are explicit that continuity is not legacy, belongings or being remembered, so the film can let a family hold both things at once without deciding between them."
   },
   "concept_links": [
     {
       "concept_id": "C057",
       "role": "primary",
-      "why": "The source divides what a person does into what ripens in this life, in the next, much later, or never, and gives the image of grain kept past its season that will not sprout [C057-P:L87]. A family sorting an unfinished life gives that idea an entirely ordinary, unstaged form."
+      "why": "The digest sorts intentional action by when its result ripens, in this life, the next, later whenever an opening comes, or never, and gives the image of seed grain kept past its season that will not sprout [C057-P:L87]. A family working through what an ended life left unfinished is that idea in entirely ordinary form. The digest also rules out 'instant karma' and says lapsing is expiry rather than forgiveness, so the film reads nothing in this family's circumstances as a result of anything."
     },
     {
       "concept_id": "C061",
       "role": "supporting",
-      "why": "Both sources insist nothing physical or mental travels on from one existence to the next [C061-P:L85; C061-M:L15]. The film can hold that teaching next to a family's instinct to keep an object 'because it was his', without resolving the tension."
+      "why": "Both sources state that nothing mental or physical passes from one existence to the next [C061-P:L85; C061-M:L15]. The digest also excludes the reading that we live on through legacy, belongings or memory, so the link is held as an unresolved tension: the keeping is shown as the living taking care of themselves, and the film never suggests the person is present in what he left."
     }
   ],
-  "what_camera_could_observe": [
-    "Relatives arriving with keys, drawers and boxes opened one by one",
-    "An old ledger, notebook or letters",
-    "A half-built house extension or an unfinished repair",
-    "A family debate, conducted in the room itself, over what to keep, finish, sell or discard",
-    "One object set aside and carried out of the house"
-  ],
-  "what_must_be_real": "A family that has genuinely lost someone and is doing this sorting for their own reasons, in their own time, not for the camera. No possession is assigned a meaning it does not have.",
-  "possible_arc": {
-    "opening": "An unopened room, a bunch of keys.",
-    "turn": "An unfinished thing surfaces, a debt, a letter, a repair, that the family must decide about.",
-    "ending_open": "One object leaves the house in someone's hands. Where it goes next is not decided by the film."
-  },
-  "position_hint": "opening candidate: a real moment where an object belonging to someone gone could plausibly become Object 8, if a willing family allows it; the film also stands on its own as an early piece on what an ending leaves unfinished",
-  "location": {
-    "requirements": [
-      "A household that has recently lost an elder and is willing to be filmed sorting belongings",
-      "A room or set of rooms not yet cleared since a death",
-      "Enough trust for the family to speak plainly about any disagreements"
-    ],
-    "suggestions": [
-      {
-        "name": "A hill-country village in the Kandy or Matale district",
-        "region": "Central Province",
-        "why": "A common house form with an elder's room set apart; suggested for texture and access, not for a specific household.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific household identified; region-level suggestion only.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "When someone dies, much of what they set going is still unfinished, and some of it will never come due at all. What carries on is a chain of causes, not a traveller, and not the things left in a room.",
+  "what_must_be_real": "The loss, the family's own reasons and their own timing. Nothing is unpacked, found, discussed or decided for the film, no object is given a meaning the family does not give it, and no part of the sorting is repeated for a second take. Consent is continuing, and anything the family later wants withheld is withheld. Grief is filmed only where that consent is explicit, and is never framed as a failing in anyone.",
+  "position_hint": "opening candidate: the group's first film, where an ending is met through its ordinary aftermath rather than through a rite, and the one situation in which something belonging to a person who is gone could pass into the series, but only if a family freely offers it.",
   "risks": [
-    "Intruding on fresh grief",
-    "Turning private disagreements about inheritance into drama",
-    "Implying any object was 'meant' to be found"
+    "Intruding on fresh grief, or arriving before a family is ready to be watched",
+    "Turning private disagreement about inheritance into drama, or casting one relative as the difficult one",
+    "Implying an object was meant to be found, or that the person continues in his belongings",
+    "Letting any part of the family's loss or the unfinished business be read as a result of the dead man's own actions"
   ],
   "drop_if": [
-    "No family will let the camera into this private a process",
-    "The sorting becomes staged or re-enacted for filming"
+    "No family will allow a camera into a process this private with consent that lasts beyond the day",
+    "The sorting would have to be staged, re-enacted or scheduled around filming",
+    "The grief is too raw for agreement to be meaningful"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0147",
       "relation": "mirrors",
-      "note": "Both follow an object surviving the person who used it, one just after a death, one years later in a craftsman's hands."
+      "note": "Both watch what outlives a person, one in the weeks after a death and one once the work has been taken up by someone else."
     },
     {
       "idea_id": "IDEA-0134",
       "relation": "alternative to",
-      "note": "A second, different real moment where Object 8 could be acquired, this time through ritual rather than sorting belongings."
+      "note": "A second situation in which something belonging to the dead could enter the series, through a rite rather than through sorting."
+    },
+    {
+      "idea_id": "IDEA-0140",
+      "relation": "pairs with",
+      "note": "Both ask what happens to what is still owed or unfinished when the person concerned is gone."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries the group's opening episode and stands up to both digests once the legacy reading is explicitly refused."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

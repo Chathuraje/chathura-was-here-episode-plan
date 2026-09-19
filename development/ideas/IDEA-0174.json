@@ -4,74 +4,49 @@
   "record_type": "idea",
   "title": "The Last Instalment",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "A family counts out the final payment on gold pawned years ago during a hard season, and walks home carrying back something they had almost stopped expecting to see again.",
-  "human_question": "Why does being freed from a debt feel different from gaining something new?",
-  "premise": {
-    "story": "Over one day, a family makes the last payment on jewellery pawned years earlier during an illness or a bad harvest, receives the item back, and the household adjusts to the debt being gone.",
-    "place": "A small-town pawn counter and the family's home.",
-    "experience": "The unglamorous mechanics of debt and repayment, and the quiet, unmarked moment when a long-carried weight is simply not there any more."
+  "logline": "A family counts out the last payment on gold pawned years ago in a hard season, and comes home carrying something they had almost stopped expecting to see again.",
+  "human_question": "Why does being freed from a weight feel different from being given something new?",
+  "situation": {
+    "what_happens": "A household finishes a repayment it has been carrying for years on jewellery pawned during an illness or a bad season, redeems the item, and goes home without the debt. Nothing is added to the house; something that had been pressing on it is simply not there any more. The day itself is administrative, a sum counted and a pledge released, and the change shows up afterwards, in how the household talks about the years it was paying.",
+    "who_is_involved": "The family that pawned the item and has been paying it down; whoever runs the counter that has held the pledge and the paperwork; the relatives and neighbours who knew what was pawned and why. Never real names.",
+    "what_is_at_stake": "For the family: the end of a monthly obligation, the return of an object that usually carries family history, and the exposure of a private hardship to a camera. For the film: whether release can be filmed at all, since what changes is an absence.",
+    "how_it_unfolds": "Such debts usually begin in an emergency and are paid down in small instalments over years, with the pledge renewed each time interest falls due. The pressure is the arithmetic of keeping up, and the risk is losing the item outright. The ending is undramatic by nature: a last payment, a wrapped item handed back, a household that either feels the difference or does not. Reality decides whether what follows is relief, anticlimax, or immediate worry about the next obligation, and the film takes whichever it gets."
+  },
+  "concept_merge": {
+    "why_together": "C073 (nibbana, the unconditioned) contributes the sources' own argument for why release is a different kind of good from pleasure, and they argue it from exactly this behaviour: people pawn what they own and sell land to be free of an illness or a debt, and nobody would pay that much for something worth nothing [C073-M:L5–L7]. C098 (the noble persons) contributes the distinction the texts draw between a burden held down or displaced for a time and one that is finished for good [C098-P4:L205–L249]. They meet in a household that has just stopped owing something.",
+    "what_it_reveals": "Put together, they let a film about money show the shape of an argument about release without touching its subject: value measured by what people will give up to be rid of something, and the honest uncertainty about whether a weight has ended or only paused. C073 alone would tempt the film into claiming a peace it cannot film; C098 alone would be a distinction with nothing at stake."
   },
   "concept_links": [
     {
       "concept_id": "C073",
       "role": "primary",
-      "why": "The Margaya grounds its whole argument about release in exactly this: people pawn belongings and sell land to be free of illness or debt, because release is valued above pleasure, and no one would pay that much for something worth nothing [C073-M:L7]."
+      "why": "The Margaya grounds the whole distinction between felt pleasure and the happiness of release in ordinary economic behaviour: people pawn belongings and sell land to be free of illness or debt, which shows what release is worth to them [C073-M:L5–L7]. The digest is equally clear about the limit: the peace the texts name is not produced by effort and is not a pleasant feeling, so a redeemed debt is the argument's starting point, never an instance of it [C073-P:L18; C073-P:L20]."
     },
     {
       "concept_id": "C098",
       "role": "supporting",
-      "why": "The source distinguishes change that is only temporary relief from change that does not come back; the film can hold that question open about a single family's debt without claiming any larger attainment."
+      "why": "The sources separate holding something down, displacing it for a time, and cutting it off so it cannot arise again [C098-P4:L205–L249]. The film can hold that question open about one family's finances without any claim about a person's attainment, which the digest forbids outright."
     }
   ],
-  "what_camera_could_observe": [
-    "The counter, the ledger, the final sum counted out in cash",
-    "The wrapped item handed back, unwrapped at home",
-    "What the family does or does not do differently that evening",
-    "Ordinary conversation about the years the debt was carried"
-  ],
-  "what_must_be_real": "A real, willing family's real financial history. Nothing about the hardship or the repayment is staged or re-created for the camera.",
-  "possible_arc": {
-    "opening": "An ordinary transaction at a pawn counter.",
-    "turn": "The last note is counted; the item changes hands.",
-    "ending_open": "The family's own account of what, if anything, feels different now leads the ending."
-  },
-  "position_hint": "opening candidate: the returned item, or a token connected to the closed debt, could plausibly become Object 10 if the family is willing to part with or duplicate something; a direct, human image of 'something set down.'",
-  "location": {
-    "requirements": [
-      "A family willing to be filmed at a real pawn transaction and at home",
-      "Full consent around financial privacy",
-      "A pawn business willing to allow filming at the counter"
-    ],
-    "suggestions": [
-      {
-        "name": "A market town in the central or hill-country districts",
-        "region": "Central Province (e.g. Matale, Kegalle or Gampola area)",
-        "why": "Small-town pawn counters are common in these market towns.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific business or family is identified; this is a region-level suggestion only.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Being freed from a weight is a different kind of good from getting something nice. People will give up a great deal just to be free of a debt or an illness, and that is a measure of what release is worth.",
+  "what_must_be_real": "The family's own financial history and their own repayment, in their words and on their terms. The hardship is never re-created, the transaction is never arranged for the film, and no one is presented as having attained anything.",
+  "position_hint": "opening candidate: the group opens on something set down rather than something gained, and this is the plainest human form of that. Object 10 could be acquired here if the family freely offers something connected to the closed debt.",
   "risks": [
-    "Financial shame and privacy",
+    "Financial shame and privacy, including exposure to neighbours or other creditors",
     "Turning a family's hardship into a tidy moral",
-    "Implying repayment equals spiritual release"
+    "Implying that repayment is spiritual release, which the digest rules out",
+    "Implying that the debt was a moral failing or its ending a reward, which would read kamma as fate"
   ],
   "drop_if": [
-    "No family will consent to show a real repayment on camera, or would be exposed to embarrassment by it"
+    "No family will consent to show a real repayment, or consenting would expose them to embarrassment or pressure",
+    "The only way to film it would be to arrange or re-create the transaction"
   ],
   "connections": [
     {
@@ -80,14 +55,20 @@
       "note": "Both ask whether a change is temporary relief or something that does not come back, one through money, one through habit."
     },
     {
-      "idea_id": "IDEA-0173",
-      "relation": "alternative to",
-      "note": "A different, non-craft way Object 10 could be acquired at the group's opening."
+      "idea_id": "IDEA-0187",
+      "relation": "mirrors",
+      "note": "The group opens on a debt set down and closes on a whole life set down."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0087, and the C073 link is the digest's own example rather than an imposed reading."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

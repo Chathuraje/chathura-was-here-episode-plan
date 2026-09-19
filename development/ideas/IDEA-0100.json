@@ -4,84 +4,70 @@
   "record_type": "idea",
   "title": "The Face Taking Shape",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "A sculptor has spent three weeks on the eyes of a Buddha image and still isn't satisfied. He won't say what he's looking for, only that he'll know it when the face stops looking back.",
+  "logline": "A sculptor has spent three weeks on the eyes of a Buddha image and still isn't satisfied; he won't say what he is looking for, only that he will know it when the face stops looking back.",
   "human_question": "What is someone actually doing when they hold one thing in mind, in detail, for weeks?",
-  "premise": {
-    "story": "The final stage of carving or casting a Buddha image, following the maker's attention to the face specifically.",
-    "place": "A family image-making workshop: tools, half-finished figures, plaster dust or clay.",
-    "experience": "The strange patience of working on a face that isn't looking back yet, and the moment it starts to."
+  "situation": {
+    "what_happens": "A maker is finishing a Buddha image. The body has been done for some time; the face, and within it the eyes, takes far longer than anyone outside the trade expects. He works, stops, looks, checks proportion against memory or a reference, and adjusts again. He cannot say in advance what he is waiting for. The work is also a commission with a deadline and a price attached to it.",
+    "who_is_involved": "The maker, usually working within a household trade; whoever commissioned the image and will install it; the people who will eventually sit in front of it.",
+    "what_is_at_stake": "For the maker, a commission, his own standard, and the awkwardness of being asked about belief. For the film, the temptation to make him a devotional figure. For the viewer, the question of what sustained attention actually is.",
+    "how_it_unfolds": "Work of this kind moves from rough form through refinement to a final feature that decides everything, and it ends when the maker says it is finished, not when the schedule does. Its pressures are money, time, materials and the client's expectations. Reality decides how long the face takes, whether the maker will describe what he is doing in his own words, and whether he connects it to any practice at all."
+  },
+  "concept_merge": {
+    "why_together": "C091 describes recollection of the Buddha as a practice with two ways in: attending to an image part by part, from head to feet, until it can be held in the mind, or dwelling on a few qualities one genuinely understands — and it refuses to count reciting lines one does not understand. C023 supplies what is visibly happening in the workshop: faith as a clarifying confidence, and the pair of workability and proficiency by which long repetition makes a mind, like a material, usable. The film observes the making of the very object the practice uses, while the practice itself stays in the sources.",
+    "what_it_reveals": "That faith in this tradition is a kind of work — attention held on something specific until it can be carried — and that the object of it is made by hand, by someone with a deadline."
   },
   "concept_links": [
     {
       "concept_id": "C091",
       "role": "primary",
-      "why": "One method of recollecting the Buddha is careful, head-to-feet attention to an image until it can be held in the mind [C091-M:L7]."
+      "why": "One of the two methods the Margaya gives is careful, head-to-feet attention to a beloved image until it can be seen with the eyes closed, and the same source rejects recitation without understanding [C091-M:L7; C091-M:L25]. The digest's cautions travel with the link: this is not 'think of your hero' or visualisation for wellbeing, and the film may not attribute the practice to the maker unless he claims it himself."
     },
     {
       "concept_id": "C023",
       "role": "supporting",
-      "why": "Workability and proficiency describe a craft made usable through long, repeated attention, exactly the labour visible in this workshop [C023-P:L149; C023-P:L153-L157]."
+      "why": "Faith is described as a clarifying confidence, like a gem that settles the mud in water [C023-P:L41], and workability and proficiency describe what long, repeated attention does to a mind, the same shape as a craft becoming usable [C023-P:L149; C023-P:L153-L157]. The digest warns that faith here is not loyalty to a person and that devotion to a flawed figure is named as false conviction rather than faith."
     }
   ],
-  "what_camera_could_observe": [
-    "Tools, dust and half-finished figures in the workshop",
-    "Long, silent attention to one feature at a time",
-    "Checking proportions against reference or memory",
-    "The moment the eyes, specifically, are finished"
-  ],
-  "what_must_be_real": "The maker's actual working method and his own account of it. The film must not frame him as practising a meditation he may not himself do; his own words must lead.",
-  "possible_arc": {
-    "opening": "An unfinished, faceless figure.",
-    "turn": "The slow, repeated work on the eyes over days.",
-    "ending_open": "The finished face, and whatever the maker actually says about it, or doesn't."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A family or workshop currently completing a Buddha image, willing to allow filming over enough time",
-      "Access to the maker's own account of his process and beliefs, not assumptions imposed on him",
-      "No disruption to a live commission"
-    ],
-    "suggestions": [
-      {
-        "name": "A family Buddha-image workshop",
-        "region": "Kandy or greater Colombo area",
-        "why": "Region-level suggestion; traditional image-making workshops exist in and around these areas.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific workshop or maker has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Faith can be practised: holding a good thing in mind carefully, and with real understanding of it, settles the mind and turns it glad and calm.",
+  "what_must_be_real": "The maker's actual working method, his own account of it, and the commercial reality of the commission. He is never framed as performing a meditation he has not described himself as doing.",
+  "position_hint": "middle: faith belongs after the group has shown goodness as ordinary action, and before care turns toward the body.",
   "risks": [
-    "Implying the craftsman practises this specific meditation without his confirmation",
-    "Commercial pressures on the family's work being edited out to keep a purely pious picture"
+    "Implying the maker practises this specific meditation without his own confirmation",
+    "Editing out commercial pressure to keep a purely pious picture",
+    "Letting the religious object do emotional work the film has not earned"
   ],
   "drop_if": [
-    "No workshop will allow the camera into the actual working process over enough time to show real patience, not a summary"
+    "No workshop will allow the camera into the real working process over enough time to show patience rather than a summary",
+    "The maker does not want his beliefs discussed on camera and the film cannot work without assuming them"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0105",
       "relation": "leads into",
-      "note": "Sustained, patient attention to one held-in-mind good thing here leads into sustained, patient care for people in the later, harder film."
+      "note": "Sustained attention to one held-in-mind good thing here leads into sustained attention to people in the harder, later film."
+    },
+    {
+      "idea_id": "IDEA-0096",
+      "relation": "mirrors",
+      "note": "Both watch a maker's long attention turn resistant material into something usable."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and the group's only carrier of faith as a practice."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

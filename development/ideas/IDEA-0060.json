@@ -4,91 +4,79 @@
   "record_type": "idea",
   "title": "Still Learning",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-04",
-  "logline": "In a mask-carving workshop on the south-west coast, apprentices at every stage work beside a carver who has done it for decades, and who still calls themselves a learner.",
+  "logline": "In a mask-carving workshop, apprentices at every stage work beside a carver of decades who decides one by one who is ready for what, and who still calls themselves a learner.",
   "human_question": "If even the master is still learning, where does being lost end?",
-  "premise": {
-    "story": "The rhythm of a working carving workshop over a real commission: the youngest apprentice's mistakes, a middle apprentice given a harder face to carve, and the master deciding who is ready for what.",
-    "place": "A family workshop on the coast: wood shavings, paint pots, rows of half-finished faces staring from the shelves.",
-    "experience": "The viewer watches skill being passed on in small corrections, and feels how long it takes to see what an expert sees."
+  "situation": {
+    "what_happens": "A workshop that still trains apprentices takes on a real commission, and the work is divided by what each person can currently do: the roughing out, the difficult face, the finishing, the paint. The youngest makes mistakes and has them corrected in a few words or a hand laid on the tool. Someone further along is given something slightly beyond them and either manages it or does not. The person who has done this for decades watches, allocates, sometimes simply asks what a learner finds easy, and says without false modesty that they are still learning.",
+    "who_is_involved": "An experienced carver who owns both the work and the teaching; apprentices at different stages, some family and some not; and the customer whose commission sets the deadline and the standard.",
+    "what_is_at_stake": "For an apprentice, whether they are trusted with more, and whether the craft becomes theirs. For the master, the commission, the workshop's name, and whether anyone will carry it on. For the craft, one more year of being passed on rather than performed.",
+    "how_it_unfolds": "It begins with an order and a block of wood and ends when the work leaves. The pressures are the deadline, the cost of a ruined piece, and the patience it takes to let someone learn slowly on a paying job. It can end with work that goes out, work quietly redone by the master, or an apprentice who leaves. Reality decides which, and the film cannot know in advance."
+  },
+  "concept_merge": {
+    "why_together": "C049 supplies the distinction the film is named for: the sources call everyone short of the very end a learner, still in training, and only the final stage beyond learning, and they show specific states falling away in a fixed order, with the restless, unsettled mind the last to go [C049-P:L55; C049-P:L85; C049-P:L97]. C086 supplies how a guide actually works: not the same instruction for everyone, but looking closely at the person, or, when that is not possible, asking what comes easily to them and where their mind goes [C086-P4:L278; C086-M:L5]. A workshop shows both at once: a ladder with no top rung, climbed one person at a time.",
+    "what_it_reveals": "That being further along is not the same as being finished, and that good teaching is particular rather than general. C049 alone would abstract the stages; C086 alone would become a study of temperament. Together they show why a lifetime of practice can honestly be called still learning, and why the master's attention falls differently on each apprentice."
   },
   "concept_links": [
     {
       "concept_id": "C049",
       "role": "primary",
-      "why": "The sources call everyone short of the very end a 'learner', still in training [C049-P:L55; C049-M:L11]. The workshop makes the structure visible. The source's stages are spiritual, not craft skill, and the film must not equate them."
+      "why": "The digest keeps two things from this concept that a film can use: that everyone on the path short of its very end is a 'learner' still in training [C049-P:L55], and that specific states stop in a fixed order, doubt ending first and restlessness last [C049-P:L85; C049-P:L97]. The workshop makes that structure visible. The film uses only this strand and must never touch the concept's other half, the classification of persons by the roots present at birth, which the digest calls ethically sensitive and unverifiable and says must not be used in any film. Craft skill is not spiritual attainment and is not claimed to be."
     },
     {
       "concept_id": "C086",
       "role": "supporting",
-      "why": "A good guide does not give everyone the same instruction; they look closely at the person, or ask [C086-P4:L278]. The master's handing out of tasks is an everyday version of that."
+      "why": "The digest describes a teacher who cannot read a student's mind asking which states are frequent and which subject comes easily, then giving a practice that fits [C086-P4:L278], and says the whole purpose of the many subjects is to fit the person [C086-M:L5]. A master handing out tasks according to what they see in each apprentice, and sometimes simply asking, is the everyday form of that (folded in from IDEA-0062, with the learner's own account of where their attention goes)."
     }
   ],
-  "what_camera_could_observe": [
-    "Hands at every level of skill on the same kind of work",
-    "An apprentice's mistake, and how the master corrects it",
-    "Harder tasks slowly handed over",
-    "Faces emerging from wood, then paint",
-    "Finished masks leaving the workshop"
-  ],
-  "what_must_be_real": "The workshop, the apprentices and the commission must be real. Nothing is taught for the camera's benefit.",
-  "possible_arc": {
-    "opening": "Rows of blank wooden faces.",
-    "turn": "An apprentice is given something beyond them.",
-    "ending_open": "The commission leaves. What the master says about their own learning ends the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working mask-carving workshop that trains apprentices",
-      "A real commission in progress during filming",
-      "Consent from the master and each apprentice"
-    ],
-    "suggestions": [
-      {
-        "name": "Ambalangoda",
-        "region": "Galle district, Southern Province",
-        "why": "The best-known centre of traditional mask carving in Sri Lanka, with family workshops.",
-        "season_notes": "",
-        "access_notes": "Some workshops are tourist-facing; a working, teaching one is needed",
-        "verify": "Confirm a workshop that still trains apprentices.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Even someone who has practised for decades can honestly call themselves a learner. The texts use that very word for everyone on the path until its very end, and say the restless, unsettled mind is among the last things to fall away.",
+  "what_must_be_real": "The workshop, the apprentices, the commission and the corrections. Nothing is taught for the camera's benefit, no task is reassigned to make a point, and no one is ranked.",
+  "position_hint": "middle, immediately before the close: the group stops describing what being lost is like and starts showing how people are actually helped out of it, one at a time.",
   "risks": [
-    "Implying craft mastery equals spiritual attainment",
-    "Ranking the apprentices",
-    "Craft showcase with no stake"
+    "Implying that craft mastery equals spiritual attainment, or treating the master as a finished person.",
+    "Ranking the apprentices against one another.",
+    "Any drift towards the concept's birth-root classification of persons, which the digest forbids in a film.",
+    "A craft showcase with no stake in it.",
+    "Presenting what the master notices in an apprentice as a diagnosis of their character (folded in from IDEA-0062)."
   ],
   "drop_if": [
-    "No workshop is training apprentices during the filming window"
+    "No workshop is training apprentices during the development window.",
+    "The teaching would be performed for the camera rather than observed."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0062",
-      "relation": "pairs with",
-      "note": "A master reading apprentices here; a meditation teacher reading a newcomer there."
+      "relation": "absorbs",
+      "note": "Takes in the guide who asks rather than assumes, and the learner's own account of where attention goes."
     },
     {
       "idea_id": "IDEA-0061",
       "relation": "alternative to",
-      "note": "Both are craft films about looking closely; choose one to avoid two workshop films in the group."
+      "note": "Two films about close attention inside a craft; only one belongs in this group."
+    },
+    {
+      "idea_id": "IDEA-0059",
+      "relation": "pairs with",
+      "note": "Leanings seen side by side in shared work, and then met one learner at a time."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0062"
+    ],
+    "superseded_by": null,
+    "reason": "Carries the group's seventh episode, and folding in IDEA-0062 turns a craft film into a film about being taught as the particular person you are."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,87 +4,71 @@
   "record_type": "idea",
   "title": "The Last Bid",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "At a lagoon-side fish auction, a buyer who has come every morning for a particular catch loses it, again, to a higher bid.",
+  "logline": "At a dawn fish auction, a buyer who comes every morning for a particular catch loses it, again, to a higher bid.",
   "human_question": "What is it like to want something you can never quite outbid?",
-  "premise": {
-    "story": "A morning at a lagoon or coastal fish auction: the fast, coded calls of the auctioneer, regular buyers with their own habits and limits, and one buyer whose usual catch goes, morning after morning, to someone willing to pay more.",
-    "place": "A lagoon-side or coastal fish market at auction hour.",
-    "experience": "Noise, ice, fast hands and faster numbers; the particular sting of losing, in seconds, something you came for on purpose."
+  "situation": {
+    "what_happens": "Each morning a catch is landed and sold within an hour, in fast public bidding among buyers who all know one another. One buyer comes for the same thing every day, with a limit set by what they can sell it on for. On a good morning they get it. On this one, somebody with more room goes past their limit and the lot is gone in seconds. They will be back tomorrow with the same limit.",
+    "who_is_involved": "Buyers who resell, each with a ceiling set by their own customers; the crews whose night's work is being priced in front of them; the auctioneer; the families on both sides of every price.",
+    "what_is_at_stake": "For the buyer, a day's trade and a customer who expects that fish. For the crew, whether the night paid for itself. For the higher bidder, very little. The source's own caution matters here: earning a living is not treated as a fault, so the buyer cannot be used as an exhibit of greed.",
+    "how_it_unfolds": "An auction morning is over almost as soon as it starts and repeats the next day without memory: boats in, lots called, prices set by how much was landed and who turned up, everyone gone by mid-morning. Across a season the same buyer wins some and loses more. Whether they raise their limit, hold it, or stop coming is theirs to decide, and any single lot is settled in seconds by somebody else."
+  },
+  "concept_merge": {
+    "why_together": "C005 contributes the occasion and its limit: earning, guarding and spending are listed among the everyday occasions of greed-rooted minds, while the same work done with regard to what is useful is explicitly not counted as unwholesome, so a working buyer is exactly the case the sources refuse to settle from outside. C021 contributes the forces in the room: effort, defined as what does not turn back until a task is done, and decision, which settles firmly on something whether or not it is right, neither of them carrying any moral colour of its own.",
+    "what_it_reveals": "That resolve and wanting are not the same thing even when they arrive in the same person in the same second, and that a decision can be complete, firm and wrong. Closing on a refusal delivered by somebody else's stronger want, it shows the wall the whole group has been moving towards: nothing was taken, nothing was unfair, and the wanting simply stopped."
   },
   "concept_links": [
     {
       "concept_id": "C005",
       "role": "primary",
-      "why": "The buyer's daily, habitual return for a particular catch is the concept's own territory of everyday occasions for wanting, tested here against someone else's stronger want [C005-M:L5] [C005-M:L7]."
+      "why": "Earning, guarding and spending wealth are among the source's everyday occasions for greed-rooted minds [C005-M:L5] [C005-M:L7], and the same source says the same work done with practical wisdom, with regard to what is useful, is not counted as unwholesome [C005-M:L9]. A buyer trading for a living sits on that line, and the film must leave them on it rather than deciding for them."
     },
     {
       "concept_id": "C021",
       "role": "supporting",
-      "why": "The buyer's effort and resolve returning day after day, and the moment their decision to bid or hold back settles the outcome, touch the concept's account of effort and decision as morally neutral forces that can as easily lose as win [C021-P:L45] [C021-M:L19]."
+      "why": "Effort is described as the mental quality that does not turn back until a task is done, and decision (adhimokkha) as the mind settling firmly on an object whether or not it is right [C021-M:L19] [C021-P:L45]; both are named as morally neutral factors that take the colour of the mind they join. The digest notes the sources disagree on how discernible decision is, one calling it hard to detect and the other stressing how often it is wrong [C021-M:L15] [C021-P:L45], so the film should show the moment of deciding without claiming to read it."
     }
   ],
-  "what_camera_could_observe": [
-    "The auctioneer's fast, coded calling",
-    "Buyers' hand signals and running totals",
-    "Ice, catch and the smell of the morning market",
-    "The regular buyer's face as a bid goes past their limit",
-    "The catch carried off by someone else"
-  ],
-  "what_must_be_real": "A real auction, real buyers and a real, unscripted outcome. No bid arranged for the camera.",
-  "possible_arc": {
-    "opening": "Boats returning at first light, catch laid out on ice.",
-    "turn": "The bidding for one lot climbs past what the regular buyer will pay.",
-    "ending_open": "The buyer walks away empty-handed, or tries again tomorrow. Reality decides."
-  },
-  "position_hint": "closing candidate: a public, high-energy version of wanting meeting a wall, well suited to close the group before it hands off into blocked wanting turning to anger.",
-  "location": {
-    "requirements": [
-      "An active fish auction with a genuine daily market",
-      "A regular buyer willing to be followed over more than one morning",
-      "Permission to film inside a working market at trading hours"
-    ],
-    "suggestions": [
-      {
-        "name": "Negombo fish market",
-        "region": "Gampaha District, Western Province",
-        "why": "A well-known daily fish market and auction on the west coast, close to the lagoon and open sea.",
-        "season_notes": "",
-        "access_notes": "Trading hours are early morning; specific buyers and auctioneers unconfirmed.",
-        "verify": "No buyer, auctioneer or specific market day has been identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Coming back every morning takes effort and resolve, and the texts say effort is not the same as greed. When somebody else bids higher, even a well-practised wanting simply hits a wall.",
+  "what_must_be_real": "A real auction, real buyers and a real outcome. No bid arranged, no limit disclosed on anyone's behalf, and no loss re-enacted.",
+  "position_hint": "closing candidate: the group's last beat, where wanting is refused not by bad luck or an official but by somebody else's stronger want, which is what hands the group on.",
   "risks": [
-    "A losing buyer's frustration must not be provoked or exploited",
-    "Market permissions and safety around fast-moving trade",
-    "Risk of feeling like a spectacle rather than one person's real stake"
+    "Provoking or exploiting a losing buyer's frustration",
+    "Using a working trader as an exhibit of greed, which the sources themselves refuse",
+    "Commercial sensitivity around prices and limits",
+    "Spectacle standing in for one person's real stake"
   ],
   "drop_if": [
-    "No buyer with a genuine, repeated stake can be found and followed",
-    "Market will not permit filming during live trading"
+    "No buyer with a genuine, repeated stake will take part over more than one morning",
+    "The outcome can only be shown by arranging a bid"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0024",
       "relation": "mirrors",
-      "note": "One family loses what it finally had; another loses what it never quite got. Both are wanting meeting a wall."
+      "note": "One person loses what they never quite got; the held idea has a family losing what they finally had."
+    },
+    {
+      "idea_id": "IDEA-0025",
+      "relation": "pairs with",
+      "note": "Two refusals: one delivered by a system that meant nothing by it, one by another person wanting the same thing more."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Closes the group on wanting refused by a stronger want, with effort and decision kept clearly apart from greed."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

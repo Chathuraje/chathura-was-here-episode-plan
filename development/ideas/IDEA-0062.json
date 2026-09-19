@@ -4,105 +4,70 @@
   "record_type": "idea",
   "title": "Where the Mind Goes",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-04",
-  "logline": "Newcomers arrive at a forest meditation centre and try to sit still. On the first evening a teacher asks each of them one question: where does your mind go?",
+  "logline": "Newcomers arrive at a forest meditation centre and try to sit still, and on the first evening a teacher asks each of them one question: where does your mind go?",
   "human_question": "Why do we each lose our way differently, and what brings each of us back?",
-  "premise": {
-    "story": "A few newcomers over their first days at a meditation centre that admits lay people: fidgeting, walking, sleeping, and their own words about how the mind keeps running off. The film includes the teacher's conversation with a newcomer only if both agree.",
-    "place": "A forest centre in the hills: a simple meditation hall, walking paths, mist, the sound of a bell.",
-    "experience": "The viewer's own restlessness is slowly quietened by the place's rhythm, then asked the same question."
+  "situation": {
+    "what_happens": "A centre that takes lay newcomers admits a handful of people for their first retreat. They sit, fidget, walk, sleep, and discover within hours how little of their attention they command. A teacher who cannot read anyone's mind does what the sources describe: asks each person what comes easily and where the mind runs, then gives a practice that fits. Over a few days something small shifts, or nothing does.",
+    "who_is_involved": "First-time lay meditators; a teacher whose whole job is to fit a practice to a person; and the community of the centre, whose rules and rhythm hold the days together.",
+    "what_is_at_stake": "For a newcomer, whether any of this is for them, and what they find out about their own mind in the meantime. For the teacher, the risk of giving the wrong practice to the wrong person. For the centre, its quiet, which visitors and cameras both disturb.",
+    "how_it_unfolds": "It begins with arrival and noise in the head, and turns on the first conversation. Days pass with very little visible happening. It ends with people leaving, slightly changed or not at all, and nobody can say in advance which. Reality decides, and nothing here can be arranged."
+  },
+  "concept_merge": {
+    "why_together": "C086 says the many meditation subjects exist because people differ, and describes a teacher who cannot read minds asking the student which states are frequent and which subject comes easily, then giving a fitting practice [C086-P4:L278; C086-M:L5]. C008 supplies what the newcomer is actually meeting: restlessness as the loss of the power to stay with one object, which scatters the rest of the mind with it [C008-P:L62]. One is the difficulty, the other is how it is met person by person.",
+    "what_it_reveals": "That the answer to being scattered is not a single method but a particular one, chosen after someone has looked or asked. C086 alone becomes a typology; C008 alone becomes a complaint about attention."
   },
   "concept_links": [
     {
       "concept_id": "C086",
       "role": "primary",
-      "why": "Pradeepika describes a teacher who cannot read minds asking the student which states are frequent and which subject feels easy, then giving a fitting practice [C086-P4:L278]; the whole point of the many subjects is to fit the person [C086-M:L5]."
+      "why": "The digest carries this as one of its own story seeds and describes exactly this conversation: a teacher who cannot read minds asks which states are frequent and which subject feels easy, then gives a practice that fits [C086-P4:L278], and the whole point of the many subjects is to fit the person [C086-M:L5]. Its warnings apply directly: this is not a personality test and the teacher's advice may never be presented as a diagnosis."
     },
     {
       "concept_id": "C008",
       "role": "supporting",
-      "why": "Restlessness as the loss of the power to stay with one object, which scatters the rest of the mind [C008-P:L62–L64]. A retreat is where people meet this directly and describe it in their own words."
-    },
-    {
-      "concept_id": "C049",
-      "role": "supporting",
-      "why": "Everyone here is a learner, and the sources say people start from different places; some fog is not a personal failing [C049-P:L27–L33]."
+      "why": "The digest describes restlessness as the loss of one-pointedness, which sends the whole mind astray [C008-P:L62]. A first retreat is where people meet that directly and describe it in their own words, which is the only form in which the film should carry it."
     }
   ],
-  "what_camera_could_observe": [
-    "Arrivals: bags, sandals left at the door, the first silence",
-    "Newcomers shifting, getting up, walking the grounds",
-    "The teacher's question and the newcomer's answer, if consented",
-    "Small changes over several days",
-    "Each newcomer's own words at the end of a day"
-  ],
-  "what_must_be_real": "The centre, the newcomers and every word they say. No one performs meditation for the camera, and the teacher's advice is not presented as a diagnosis.",
-  "possible_arc": {
-    "opening": "Arrival, noise in the head, a bell.",
-    "turn": "The first evening's question: where does your mind go?",
-    "ending_open": "A few days later. Whatever the newcomers actually say about their minds ends the film."
-  },
-  "position_hint": "closing candidate: the group's arc turns here from being lost to stopping and looking closely, and hands off naturally to a group about a single moment of attention",
-  "location": {
-    "requirements": [
-      "A meditation centre that receives lay newcomers and allows filming",
-      "Newcomers willing to be followed for several days",
-      "Filming that follows the centre's rules and does not disturb others"
-    ],
-    "suggestions": [
-      {
-        "name": "Nilambe Buddhist Meditation Centre",
-        "region": "Kandy district, Central Province",
-        "why": "A long-established hill-country centre known for receiving lay meditators.",
-        "season_notes": "Cooler, misty months suit the tone",
-        "access_notes": "Filming permission is essential",
-        "verify": "Confirm filming policy, schedules and current teachers.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "Kanduboda meditation centre (Siyane)",
-        "region": "Gampaha district, Western Province",
-        "why": "A well-known centre that has long received lay and foreign meditators.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm filming policy and whether newcomer interviews are permitted.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The many practices exist because people differ; a good guide does not hand everyone the same instruction but looks closely, or simply asks. Whatever scatters your attention, meeting it starts with someone finding out what yours actually does.",
+  "what_must_be_real": "The centre, the newcomers and every word they say. No one performs meditation for the camera, the teacher's advice is never presented as a diagnosis, and the centre's rules come before the film.",
+  "position_hint": "middle, if ever used on its own: wherever a group needs the moment when being lost stops being general and is met one person at a time.",
   "risks": [
-    "Disrupting a retreat; the centre's rules come first",
-    "Turning a person's inner struggle into spectacle or a lesson",
-    "Temperament presented as a personality test"
+    "Disrupting a retreat; the centre's rules come first.",
+    "Turning a person's inner struggle into spectacle or into a lesson.",
+    "Temperament presented as a personality test.",
+    "Reading a newcomer's difficulty as a statement about the kind of person they are, which is the reading the C049 digest forbids."
   ],
   "drop_if": [
-    "The centre does not allow filming of newcomers or of a teacher's conversation"
+    "The centre does not allow the filming of newcomers or of a teacher's conversation."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0059",
-      "relation": "pairs with",
-      "note": "Leanings seen in a family's shared work, then met one by one by a teacher."
+      "idea_id": "IDEA-0060",
+      "relation": "merged into",
+      "note": "Its guide who asks rather than assumes, and the learner's own account of where attention goes, now live inside the workshop film."
     },
     {
-      "idea_id": "IDEA-0063",
-      "relation": "alternative to",
-      "note": "Two closing candidates: an inner stopping, or an outer one in fog."
+      "idea_id": "IDEA-0059",
+      "relation": "pairs with",
+      "note": "Leanings seen in a family's shared work, then met one by one by someone teaching."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0060",
+    "reason": "Folded into IDEA-0060, which gains the guide who asks rather than assumes and the learner's own account of where attention goes."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

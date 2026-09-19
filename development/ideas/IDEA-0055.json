@@ -4,91 +4,70 @@
   "record_type": "idea",
   "title": "Four O'Clock Prices",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-04",
-  "logline": "Before dawn at a great wholesale vegetable market, lorries arrive all at once, prices change by the minute, and a trader juggles buyers, a phone and a scale until the rush breaks into sudden quiet.",
+  "logline": "Before dawn at a wholesale vegetable market the lorries all arrive at once, prices move by the minute, and a trader holds buyers, a phone and a scale together until the rush breaks into sudden quiet.",
   "human_question": "What happens to our attention when everything arrives at once?",
-  "premise": {
-    "story": "One trader's night at a wholesale market, from the first lorries to the moment the stall is empty. The stakes are real: prices, spoilage, debts and the next harvest.",
-    "place": "A vast dry-zone wholesale market lit by bulbs and headlights: sacks of carrots and beans, handcarts, shouting, diesel, then daylight on bruised leaves.",
-    "experience": "The viewer is carried by the rush and then dropped into the stillness after it, feeling how scattered attention is made by conditions."
+  "situation": {
+    "what_happens": "Produce comes in overnight from many growing areas and has to be sold before it loses value, so a whole day's trade is compressed into a few hours in the dark. A trader takes delivery, sets and resets prices as supply shifts, weighs, argues, answers a phone and keeps a running account of who owes what, all at the same time. Counts are lost and started again and sentences are left unfinished. Then the last sacks go and the noise stops all at once.",
+    "who_is_involved": "A trader who carries the stall's risk; the drivers and loaders who set the pace; the buyers, who can always walk to the next stall; and the growers, absent, whose season is settled by the prices agreed here.",
+    "what_is_at_stake": "Money that is immediate and real: spoilage, a price agreed a minute too late, a debt owed to a grower, the next planting. For a trader's household a single night can decide a month.",
+    "how_it_unfolds": "It begins in the dark with arrival and ends in daylight on an empty floor. The pressure peaks when supply and buyers coincide, and something is usually nearly missed. It ends in exhaustion, a cup of tea, a count reconciled or left. Reality decides how heavy the night is: how much came in, what the weather did to the crop that week, who turned up to buy."
+  },
+  "concept_merge": {
+    "why_together": "C008 gives the mechanism: restlessness is the loss of one-pointedness, the mind's power to stay with a single object, and when that power breaks the mind's other faculties are thrown off with it [C008-P:L62]; the sources tie it to sudden situations, to doing many things at once and to working in a hurry [C008-M:L16–L20]. C074 gives the image and the frame: the compendium counts restlessness among the states that cover the mind, likens it to water ruffled by the wind, and answers it with plain practical helps rather than effort [C074-P:L348–L358]. Together they let a working night show a state rather than a failing.",
+    "what_it_reveals": "That scattered attention is made by conditions before it is made by character. C008 alone would put the fault inside the trader; C074 alone would leave the state a category. Together the viewer feels the scattering in their own attention, then the stillness after it, and understands that it is the wind that ruffles the water."
   },
   "concept_links": [
     {
       "concept_id": "C008",
       "role": "primary",
-      "why": "Margaya ties restlessness to sudden situations, doing many things at once and working in a hurry [C008-M:L20]. The market shows those conditions. It does not show anyone's inner state or fault."
+      "why": "The digest ties the restless mind to sudden situations, to doing many things at once and to working in a hurry, and explains it as the breaking of the mind's power to stay with one object, which throws the rest of the mind off course [C008-M:L16–L20; C008-P:L62]. The market shows those conditions and nothing about anyone's inner state. The digest's warning is carried in the film's design: restlessness is not a productivity problem with a mindfulness tip for an answer."
     },
     {
       "concept_id": "C074",
       "role": "supporting",
-      "why": "The source's image for restlessness is water ruffled by the wind; the film can hold the rush and the calm after it without naming anything."
+      "why": "The compendium's image for restlessness is a surface of water ruffled by the wind, and it places the state among those that cover the mind and stop it settling [C074-P:L348–L358]. The film can hold the rush and the calm after it without naming anything."
     }
   ],
-  "what_camera_could_observe": [
-    "Lorries queuing in the dark; sacks thrown down in rhythm",
-    "A trader handling several buyers, a phone and a weighing scale at once",
-    "A count lost and started again; half-finished sentences",
-    "Prices chalked, shouted and changed",
-    "The moment the rush breaks: a cup of tea, a sweep of the floor, sleep on a sack"
-  ],
-  "what_must_be_real": "The trader's work, prices and pressures must be real. Nothing is slowed down or sped up for the camera beyond what the edit does.",
-  "possible_arc": {
-    "opening": "Headlights, noise, and too many things happening at once.",
-    "turn": "The rush peaks and something is nearly missed or lost.",
-    "ending_open": "The quiet after. Whatever the trader actually does and says once it is over leads the ending."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working wholesale market with a trader willing to be followed for a whole night",
-      "Permission from market management",
-      "Safe camera positions among moving lorries and carts"
-    ],
-    "suggestions": [
-      {
-        "name": "Dambulla Dedicated Economic Centre",
-        "region": "Matale district, Central Province",
-        "why": "The best-known wholesale vegetable market in Sri Lanka, where produce from many regions changes hands.",
-        "season_notes": "Year-round; harvest peaks change volumes",
-        "access_notes": "Very busy; filming needs management permission",
-        "verify": "Trading hours, filming permissions and a willing trader are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "When everything arrives at once, attention scatters. The texts compare this restlessness to water ruffled by the wind, and name rushing and doing many things at once as the moments when it tends to arise.",
+  "what_must_be_real": "The trader's work, prices, debts and pressures. Nothing is arranged, slowed or repeated; no rush is manufactured and no quiet is requested.",
+  "position_hint": "middle: the group's second face of confusion, the mind that cannot stay, set against the mind that cannot settle. It also earns the closing turn by giving the viewer something to slow down from.",
   "risks": [
-    "Making busy working people look like an illustration of a mental flaw",
-    "Chaos footage with no person at the centre",
-    "Safety in a crowded working space"
+    "Making busy working people look like an illustration of a mental flaw.",
+    "Chaos footage with no person at its centre.",
+    "Reading the quiet afterwards as equanimity; the digest says the flat neutrality of these states is not peace.",
+    "Safety in a crowded working space."
   ],
   "drop_if": [
-    "No trader will let the camera stay with them through the whole rush"
+    "No trader will let the camera stay with them through the whole rush."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0063",
       "relation": "leads into",
-      "note": "The rush that scatters attention here is answered at the end of the group by work that can only be done slowly."
+      "note": "The rush that scatters attention here is answered at the close of the group by work that can only be done slowly."
     },
     {
       "idea_id": "IDEA-0059",
       "relation": "mirrors",
-      "note": "A public, commercial rush set against a private household rush of preparation."
+      "note": "A public, commercial rush against a private, devotional one."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries the group's third episode and is the only idea that shows restlessness as something conditions produce."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

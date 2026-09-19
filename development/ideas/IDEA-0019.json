@@ -4,85 +4,73 @@
   "record_type": "idea",
   "title": "Catching the Wind",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "On a windy stretch of the southern coast, kite makers fight to get a huge kite airborne, and then, for a few minutes, barely touch the line at all.",
+  "logline": "Kite makers fight for an hour to get a huge kite airborne, and then, for a few minutes, barely touch the line at all.",
   "human_question": "What is the difference between wanting to make something fly and wanting it to be seen flying?",
-  "premise": {
-    "story": "A day among kite makers building and flying large kites in the windy season: the hard, repeated struggle of the launch, the sudden ease once a kite catches the wind, rivalries between makers, and the pride and disappointment of a day's flying.",
-    "place": "A beach or open field on the southern coast during the kite-flying season.",
-    "experience": "Wind, fabric and bamboo; the strain of the launch giving way to a long, steady glide; small figures on the ground craning upward."
+  "situation": {
+    "what_happens": "People who build large kites bring them out in the season when the wind will carry them. Getting one up is heavy, repetitive work that mostly fails: running, hauling, resetting, arguing about the frame. When it finally catches, the work almost stops, the kite holds itself, and the maker's hands go quiet. Around them other makers are doing the same thing and watching each other do it. Some of them talk about the kite, and some talk about who is watching.",
+    "who_is_involved": "Makers who build their own kites, usually taught by someone older; the helpers a large kite needs at launch; rivals who are also friends. The same question sits over anyone who practises something hard for years and is the only one who knows why they do it, a young player at a dawn practice as much as a maker on a windy afternoon.",
+    "what_is_at_stake": "For the maker, months of building tested in an afternoon of weather nobody controls, in front of people who know exactly how hard it is. For a rival, the same. For anyone else watching, nothing at all, which is precisely what makes the maker's own reason the only real question in the film.",
+    "how_it_unfolds": "A flying day is governed by wind that nobody schedules: long stretches of nothing, sudden windows, a launch that works or does not, and an ending that can be a kite holding for an hour, a broken frame, or a day called off. Over a season there are rivalries, borrowed parts and one or two days people remember. Whether a maker keeps going after the third failed launch, and what they say when asked why they bother, is theirs alone."
+  },
+  "concept_merge": {
+    "why_together": "C021 contributes the two motions the sources use to picture a working mind: initial application as a bird beating its wings to rise and sustained application as the same bird gliding without moving them, effort as what does not turn back until a thing is done, and desire-to-act as a wish that can run towards the love of doing something or towards craving what the doing might bring, the sources being explicit that these are not the same drive. C006 contributes the push: wanting that rises sharply on its own, and wanting that arrives because someone else urged it, or because the person coaxed their own reluctant mind into one more attempt.",
+    "what_it_reveals": "That effort and the wish to do are not the wanting the group has been following, and that they can serve either side. Beside the group's greed-rooted minds, the strain of a launch shows a drive with no moral colour of its own, and the single thing that would settle its colour, whether the person wants the kite up or wants to be seen with it up, cannot be observed and has to be said out loud by them."
   },
   "concept_links": [
     {
       "concept_id": "C021",
       "role": "primary",
-      "why": "This is close to the concept's own image: an effortful start that gives way to a settled, steady holding, and the wish to do something well that is not the same as clinging to how it looks to others [C021-P:L33] [C021-P:L41] [C021-M:L27]."
+      "why": "The sources picture initial application as a bird beating its wings to rise and sustained application as the same bird gliding, insisting the two arise together rather than in sequence [C021-P:L33] [C021-P:L41] [C021-M:L11]; effort is what does not turn back until the task is done [C021-M:L19]; and desire-to-act can run either towards the love of doing or towards craving reward, which is the film's question [C021-P:L75] [C021-M:L27]. The digest's account of gladness moving the body is traditional physiology and must not be read onto anyone's face."
     },
     {
       "concept_id": "C006",
       "role": "supporting",
-      "why": "A kite launched easily on a good day and one wrestled up against a difficult wind echo the concept's account of conditions, such as weather, that favour spontaneous over effortful arising [C006-P:L46-L52]."
+      "why": "The sources define prompting to include self-prompting: a person urging their own hesitating mind on, as well as being urged by others [C006-M:L5] [C006-P:L44] [C006-P:L58]. A maker who has failed three launches and talks themselves into a fourth, and rivals goading each other on, are that distinction in ordinary life. An earlier draft instead read the source's background conditions for spontaneous arising, among them health, habit and suitable weather [C006-P:L46-L52], onto the kite's flight, which confuses a condition of a mind with a condition of the air; the link has been re-grounded."
     }
   ],
-  "what_camera_could_observe": [
-    "Frames tied and fabric stretched",
-    "The struggle of launching into the wind",
-    "A kite settling and gliding with only small corrections",
-    "Rival makers watching each other's kites",
-    "The maker's face at the moment a kite finally holds"
-  ],
-  "what_must_be_real": "The makers' actual rivalry, skill and disappointments. No wind or outcome staged.",
-  "possible_arc": {
-    "opening": "Bamboo frames and fabric laid out on sand.",
-    "turn": "A difficult launch, again and again, until the kite catches.",
-    "ending_open": "The kite holds, falls, or is outflown by a rival. Reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An open beach or field with reliable seasonal wind",
-      "Kite makers willing to be filmed over more than one flying day",
-      "Good long-lens and wide coverage for kites at height"
-    ],
-    "suggestions": [
-      {
-        "name": "A beach near Tangalle or Mirissa during the kite season",
-        "region": "Southern Province",
-        "why": "The south coast has open beaches and a seasonal kite-flying tradition.",
-        "season_notes": "Kite-flying season is typically February to March.",
-        "access_notes": "Specific makers and beach unconfirmed.",
-        "verify": "No kite maker has been contacted; the season and general tradition are plausible but the specific group is unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Getting something off the ground takes a hard, flapping effort, and keeping it there takes only a light, steady touch. The wish to do something is not the same as clinging to it, and from outside nobody can tell which one they are watching.",
+  "what_must_be_real": "The makers' actual rivalry, skill and failures, and their own words about why they do it. No wind, launch or outcome arranged, and nothing repeated for a better version of itself.",
+  "position_hint": "middle: it follows the group's first look at desire-to-act and gives it a whole film, so that effort is clearly established as separate from wanting before wanting meets refusal.",
   "risks": [
-    "Being a merely pretty metaphor without real stakes",
-    "Rivalry between makers escalating beyond what consent covers"
+    "Being a pretty metaphor with no real stakes",
+    "Rivalry escalating past what consent covers",
+    "Reading rapture or any other doctrinal state onto people's faces",
+    "Framing anyone's ambition, least of all a young person's, as greed"
   ],
   "drop_if": [
-    "No maker or rivalry with a real stake can be found and filmed over a full flying day"
+    "No maker with a real stake can be found and followed across a full season of flying",
+    "The makers' own reasons can only be got by putting words in their mouths"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0023",
+      "relation": "absorbs",
+      "note": "Folded in: practice whose aim only the practitioner knows, and the rule that a young person's ambition is never to be framed as greed."
+    },
+    {
+      "idea_id": "IDEA-0020",
       "relation": "pairs with",
-      "note": "Two open-air disciplines built on repeated effort, one chasing wind, one chasing a place on a team."
+      "note": "Two pictures of the same pair of factors: the effortful lift here, the long sustained hold there."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0023"
+    ],
+    "superseded_by": null,
+    "reason": "Carries the group's effort-and-desire-to-act beat on the digest's own simile, and now also the ambition question folded in from IDEA-0023."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

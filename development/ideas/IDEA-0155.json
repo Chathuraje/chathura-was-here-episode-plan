@@ -4,92 +4,70 @@
   "record_type": "idea",
   "title": "The Vine Gatherers",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "Cane cutters walk into the scrub, take hold of a vine wherever they first find it, root, middle or tip, and pull its whole hidden length out of the undergrowth to be split and woven into baskets that no single length of vine could have made alone.",
+  "logline": "Gatherers take hold of a vine wherever their hand first meets it, root, middle or tip, and pull its whole hidden length out of the undergrowth to be split and woven into something no single length could have made alone.",
   "human_question": "If you can enter a story from any point along its length, where does the story actually begin?",
-  "premise": {
-    "story": "A forest-edge household's working day gathering cane or vine, splitting and weaving it into baskets and mats sold at a nearby market.",
-    "place": "A forest-edge village where cane or vine weaving is a livelihood passed hand to hand.",
-    "experience": "Walking into green scrub, cutting where the hand first finds purchase, hauling out a length longer than expected, and watching a shapeless coil become, patiently, a basket."
+  "situation": {
+    "what_happens": "A household that lives partly by gathering and weaving walks out to cut cane or vine. They do not look for the beginning of a plant; they take hold where the hand first finds purchase and haul, and what comes free is longer and heavier than what was visible. Back at the house the lengths are coiled, split and worked, over days, into baskets or mats in which every strand has to hold its own place in an order that cannot be varied. The finished work is carried to a buyer or a market, and priced by someone else.",
+    "who_is_involved": "The people of the household who gather, usually the ones who know where the usable growth is; the ones who split and weave, often older and often not the same people; whoever holds the permission or the customary right to cut; the buyer or trader who sets the price for a day's or a week's work.",
+    "what_is_at_stake": "A livelihood that depends on a resource that may be regulated, shrinking, or claimed by others, and on a skill that is only worth passing on if it still pays. There is also legal exposure: gathering in the wrong place can cost a household more than the work is worth.",
+    "how_it_unfolds": "Work like this repeats: a day of cutting, days of weaving, a sale. It tightens when the usable growth is further away than it used to be, or when the price for finished work falls, and it ends either in a finished object sold, an object kept because no one would buy it, or a household deciding the work is no longer worth doing. Which of those happens is decided by the buyer and the forest, not by the film."
+  },
+  "concept_merge": {
+    "why_together": "C081 supplies the source's own simile for how the chain is taught: four men pulling in a vine from wherever they first see it, at the root, the middle or the tip — four ways of teaching one thing, and a direct statement that beginning an account with ignorance does not name a first beginning, because the round has none. C079 supplies the opposite pressure: within any telling the formula keeps a fixed order, one clause pattern handing on to the next, so a free entry point is not the same as a free arrangement. Gathering and weaving hold both at once, because the vine is taken up anywhere and then worked into something whose order cannot be varied.",
+    "what_it_reveals": "Together they separate two things that are easily confused: where an account starts, and what order it has. What becomes visible is that having no findable beginning is not the same as having no structure — and that the way most people explain their own lives, starting from a loss or an ache and working backwards, is a legitimate way in rather than a failure of understanding."
   },
   "concept_links": [
     {
       "concept_id": "C081",
       "role": "primary",
-      "why": "The Pradeepika's own simile for the four ways the Buddha taught the chain: like four men pulling in a vine from wherever they first see it, root, middle or tip; the chain has no findable first beginning."
+      "why": "The Pradeepika's own image for the four ways the chain is taught is men drawing in a vine from the root, the middle or the tip, and both books state plainly that the round has no first beginning; the gatherers' habit of cutting where the hand first lands is that simile as ordinary work."
     },
     {
       "concept_id": "C079",
       "role": "supporting",
-      "why": "The gathered vine is worked into a made object where every strand has to hold its place, an everyday echo of the formula's fixed, unbroken order."
+      "why": "The formula is one clause pattern in a fixed order, each clause handing on what the last produced; a woven object in which every strand must hold its own place is an everyday echo of an order that stays fixed however the account is entered."
     }
   ],
-  "what_camera_could_observe": [
-    "Walking into scrub at first light, looking for a usable vine",
-    "Cutting at whichever point the hand first meets it",
-    "Hauling a long, hidden length out of the undergrowth",
-    "Coiling and splitting the vine",
-    "Weaving; the finished basket or mat carried to market"
-  ],
-  "what_must_be_real": "The family's real livelihood, prices and working conditions, and any legal limits on what they can gather from the forest.",
-  "possible_arc": {
-    "opening": "Walking into green undergrowth at first light.",
-    "turn": "A long vine comes free all at once, further and heavier than it looked.",
-    "ending_open": "The basket sold, kept, or left unfinished; reality decides."
-  },
-  "position_hint": "opening candidate: a vine pulled in from wherever it is first grasped is a strong opening image for a group about chains of dependence; an Object 9 acquisition (a hand-woven basket or mat made only because of this whole chain) would be possible only if it really happens",
-  "location": {
-    "requirements": [
-      "A household still gathering forest cane or vine and weaving it by hand",
-      "Legal, safe access to a forest-edge gathering area",
-      "A finished object completed within the filming window"
-    ],
-    "suggestions": [
-      {
-        "name": "A forest-edge village where cane or vine weaving is still practised",
-        "region": "Villages bordering the Sinharaja buffer zone or the Knuckles foothills",
-        "why": "These wet-zone forest margins have long-standing traditions of cane and vine gathering and weaving.",
-        "season_notes": "",
-        "access_notes": "Forest-produce collection may be regulated inside protected areas.",
-        "verify": "A specific household, their gathering rights and current practice are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "You can take hold of a long vine anywhere and still pull the whole thing out. The texts say the chain of a life can be explained starting from any point, because no first beginning can be found, and that within any telling the order still holds.",
+  "what_must_be_real": "The household's real livelihood, the real price they get, and the real legal position of their gathering. Nothing may be cut or gathered for the film that they would not otherwise have cut.",
+  "position_hint": "opening candidate: entering a length wherever it is first grasped is a strong first statement of the group's question, and it can also carry an Object 9 acquisition if a finished piece is genuinely given rather than commissioned.",
   "risks": [
-    "Forest-produce collection may be legally restricted",
-    "Exposing the family to legal trouble by filming an unpermitted harvest",
-    "Staging the gathering rather than following real, permitted work"
+    "Exposing the household to legal trouble by filming gathering that is not permitted.",
+    "Staging a cut or a haul rather than following work that was happening anyway.",
+    "Letting the vine be read as a claim about where things begin; in the source it is a picture of a way of teaching, and both books deny a first beginning."
   ],
   "drop_if": [
-    "Gathering cannot be shown as legal and safe",
-    "No household will show the whole process from forest to finished object"
+    "The gathering cannot be shown to be legal and safe.",
+    "No household will show the whole process through to a finished object and its price."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0153",
       "relation": "alternative to",
-      "note": "Both are candidate openings built around acquiring something that exists only because many hands and processes made it."
+      "note": "Both are openings built on something that exists only because many separate supports each did their own part."
     },
     {
       "idea_id": "IDEA-0159",
       "relation": "pairs with",
-      "note": "Both follow a made thing, vine or palm leaf, through a craft that renews itself hand by hand."
+      "note": "Both follow a craft that renews itself hand by hand, one entering a length anywhere, the other replacing every part and staying the same thing."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0082 and grounded directly in the Pradeepika's own vine simile."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

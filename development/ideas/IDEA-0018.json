@@ -4,86 +4,71 @@
   "record_type": "idea",
   "title": "Measured Twice",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "In the weeks before the New Year, a tailor in a northern market town takes orders from a student who fears being looked down on, a mother dressing her children to impress, and a man who just wants a decent shirt.",
+  "logline": "In the weeks before the New Year, a tailor takes orders from a student who fears being looked down on, a mother dressing her children to impress, and a man who just wants a decent shirt.",
   "human_question": "Can you tell, from the outside, whether someone is dressing to be safe or dressing to be admired?",
-  "premise": {
-    "story": "A tailor's shop in the run-up to the New Year season, following several customers' orders and the reasons they give in their own words for what they want made, alongside the tailor's own unbroken rhythm of measuring, cutting and stitching.",
-    "place": "A small tailoring shop on a market street in a northern town.",
-    "experience": "Chalk lines on cloth, the rhythm of a sewing machine, and a string of small conversations about why people want to look a certain way."
+  "situation": {
+    "what_happens": "In the busiest weeks of a tailor's year, a run of customers order clothes for the same season and the same festival. The measuring, the chalking and the stitching are identical for each of them. What differs is what each person says, mostly unasked, about why they want it: to not be looked down on at a relative's house, to have children who are noticed, to own one shirt that is not falling apart. The tailor writes all of it down the same way and gets on with the work.",
+    "who_is_involved": "A tailor at the peak of a seasonal trade; the customers who pass through in a few weeks, among them a young person anxious about how they will be received, a parent dressing children for display, and someone simply replacing what has worn out; whoever helps in the shop.",
+    "what_is_at_stake": "For the customers, how they will be seen at an occasion they cannot skip, and money spent that is not spare money. For the tailor, a year's margin compressed into a few weeks, and promises that have to be kept. For the film, the standing risk of sorting living people into good wanting and bad wanting, which is exactly what it must not do.",
+    "how_it_unfolds": "A tailoring season builds to a wall: orders taken freely at first, then a backlog, then the last days when something has to give. It ends with garments collected, altered, or not finished in time. Which customers choose to say anything about their reasons, and whether a reason turns out to be simpler than it first looked, is decided by them."
+  },
+  "concept_merge": {
+    "why_together": "C005 contributes the line the sources themselves draw: fine clothes are listed among the everyday occasions on which greed-rooted minds arise, and then the same act is separated by aim, so that dressing to look beautiful, to attract, or to seem superior is counted one way, while dressing to cover the body and keep off cold, heat and insects is not counted as unwholesome. C004 contributes what makes it a film rather than an argument: a finished garment is a thing seen as beautiful and reached for, and the reaching is what greed is named for, not the cloth.",
+    "what_it_reveals": "That the difference the sources care about is invisible from outside and audible only if a person chooses to speak it. Holding an identical act steady while the reasons vary is the only honest way to show that the act is not what is being judged, and it makes plain how little anyone watching can actually conclude about anyone else."
   },
   "concept_links": [
     {
       "concept_id": "C005",
       "role": "primary",
-      "why": "This is the concept's own example: the same act of ordering clothes can be driven by the wish to attract or to seem superior, or by the wish to avoid others' contempt, and the source treats these very differently even though the outward act looks the same [C005-M:L15] [C005-M:L19]."
+      "why": "This is the digest's own example: the same order of clothes counted as greed-rooted when it is for beauty, attraction or seeming superior, and not counted as unwholesome when it is for cover and protection [C005-M:L15] [C005-M:L17] [C005-M:L19]. The digest flags one of those rulings, that wearing good clothes to escape others' contempt is not unwholesome, as notable and needing an expert check before any film leans on it, so the film may show a customer's fear of contempt but must not state the ruling as settled."
     },
     {
       "concept_id": "C004",
       "role": "supporting",
-      "why": "The finished garments are things made beautiful and wanted, one more example of the sense-sphere world's ordinary reach for what looks good [C004-M:L13]."
+      "why": "Greed is defined as the attaching that takes things to be good, beautiful or sweet [C004-M:L13], so a finished garment belongs to the sense-sphere world the sources are counting, and the film can show the object without the object being the fault."
     }
   ],
-  "what_camera_could_observe": [
-    "Fabric measured and chalked",
-    "The sewing machine's rhythm",
-    "Customers explaining, in their own words, what they want and why",
-    "Fittings and small adjustments",
-    "Finished garments collected before the New Year"
-  ],
-  "what_must_be_real": "The tailor's actual orders and customers' own reasons, given freely, not prompted by a question about doctrine.",
-  "possible_arc": {
-    "opening": "Bolts of cloth and a tape measure at the start of a working day.",
-    "turn": "Two very different customers, on the same day, ask for very different things.",
-    "ending_open": "Garments are collected, or not finished in time. Reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active tailoring shop with a season of orders",
-      "A tailor willing to be filmed working and talking with customers",
-      "Customers willing to explain their own reasons on camera"
-    ],
-    "suggestions": [
-      {
-        "name": "A tailoring shop on a market street in Jaffna town",
-        "region": "Jaffna District, Northern Province",
-        "why": "Jaffna town has an active market district and the New Year (Puthandu) is widely marked with new clothes.",
-        "season_notes": "New Year season, mid-April.",
-        "access_notes": "Specific shop unconfirmed.",
-        "verify": "No tailor has been contacted; this is a plausible setting, not a confirmed location.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Two people can order the very same shirt for very different reasons, and what makes it wanting is the reason inside, not the shirt. From outside, the two are indistinguishable.",
+  "what_must_be_real": "The tailor's actual orders and customers' own reasons, given freely and never in answer to a question about doctrine. No customer recruited to represent a category.",
+  "position_hint": "middle: the pivot of the group, where wanting stops being told by what someone does and starts being told by why.",
   "risks": [
-    "Probing customers' motives can feel intrusive",
-    "Presenting poverty as virtue and wealth as vice",
-    "Sorting customers into 'good' and 'bad' wanting on screen"
+    "Probing customers' motives, which is intrusive however gently it is done",
+    "Presenting poverty as virtue and comfort as vice",
+    "Sorting customers into good and bad wanting on screen",
+    "Stating the source's ruling on dressing to escape contempt as settled, when the digest flags it for expert check"
   ],
   "drop_if": [
-    "No tailor or customers are willing to speak candidly about their reasons"
+    "No tailor or customers will speak candidly about their own reasons",
+    "Customers' reasons can only be got by leading them"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0014",
       "relation": "pairs with",
-      "note": "Two garments chosen for two different occasions, one led by others' wanting, one sorted by the customer's own reasons."
+      "note": "Two garments for two occasions: one choice led by other people's wanting, one sorted by the customer's own stated reasons."
+    },
+    {
+      "idea_id": "IDEA-0017",
+      "relation": "pairs with",
+      "note": "Both hold one act steady and let the aim behind it vary; one in buying, one in giving."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "The group's clearest statement that aim, not act, is what the sources sort by; grounded in the digest's own example."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,86 +4,65 @@
   "record_type": "idea",
   "title": "Flour and Water",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "Before dawn, a roadside hopper-maker mixes several flours into one dough, and no one watching afterward could say where any single flour went.",
-  "human_question": "Once several flours are kneaded into one dough, can you still say where any one of them is?",
-  "premise": {
-    "story": "One maker's pre-dawn routine, from mixing to the day's first customers, told through their own recipe, hours and regulars.",
-    "place": "A roadside hopper or roti stall that opens before light.",
-    "experience": "Flours measured into one bowl, water worked in, the batter fermenting overnight, the first hoppers hitting a hot pan, and the smell that draws in the first customers."
+  "logline": "Before dawn a roadside cook mixes several flours into one dough, and by the time the first customer arrives nobody could say where any single flour is.",
+  "human_question": "Once several things are worked into one, can you still say where any one of them is?",
+  "situation": {
+    "what_happens": "A small eating place opens before light. Flours are measured into one bowl, water is worked in, the mix is left to stand overnight or to rest while the pan heats, and the first food of the day is cooked to order as regulars arrive on their way to work. The recipe is not written down and the proportions are judged by feel.",
+    "who_is_involved": "The cook, whose recipe and hours these are; family members who help; the regular customers whose arrival sets the pace of the morning.",
+    "what_is_at_stake": "A day's takings on thin margins, and a reputation built on a mix that tastes the same every morning.",
+    "how_it_unfolds": "A morning like this begins in the dark and is decided by about nine o'clock. The pressures are the price of flour, the weather and whether the regulars come. It ends in a good morning or a slow one, and neither can be arranged."
+  },
+  "concept_merge": {
+    "why_together": "C070 contributes the rule that matter never arises alone but always in bound groups whose members arise together, cease together and share one support, along with the sources' own mixing image and their own admission that the image falls short. C063 contributes the wider inventory in which hardness, moisture, warmth, colour, smell and taste are counted as the qualities that turn up together in any lump of matter.",
+    "what_it_reveals": "Put together, the two show why the sources reached for a kitchen for this teaching and then immediately warned against it: mixing is the nearest ordinary thing to inseparability, and it is still not close enough, because flour specks stay separate and a material group has no gap at all. The situation carries both the image and its limit."
   },
   "concept_links": [
     {
       "concept_id": "C070",
       "role": "primary",
-      "why": "This is the source's own image for material groups (kalāpa): rice, wheat, kurakkan and barley flour mixed into one ball, where asking 'where is the rice flour?' can only be answered 'inside all the others'. Matter never arises as separable parts, only as bound groups."
+      "why": "The digest gives the sources' own image for material groups: a ball made from several flours, where asking where the rice flour is can only be answered that it is inside the others. It also records the sources' own correction, that the image fails because in dough the specks are still separate while in a group of matter there is no gap, and it warns that a kalapa is not an atom or a particle of physics."
     },
     {
       "concept_id": "C063",
       "role": "supporting",
-      "why": "The dough's hardness, moisture, warmth and smell all change together as it ferments and cooks, another instance of the source's inseparable qualities of matter."
+      "why": "The digest lists the qualities that arrive together in any lump of matter, hardness, cohesion, heat, motion, colour, smell, taste and nutritive essence, and treats a thing's apparent steadiness as its conditions continuing to produce it. A dough changing together in all those registers as it stands and cooks is that account in miniature."
     }
   ],
-  "what_camera_could_observe": [
-    "Flours measured out and mixed before dawn",
-    "Water worked in, the dough or batter kneaded and left to rest",
-    "The first hoppers or rotis cooked on a hot pan",
-    "Regular customers arriving, orders called out",
-    "The stall's rhythm settling into the morning rush"
-  ],
-  "what_must_be_real": "The maker's actual recipe, hours and customers. Nothing staged as an illustration of the simile; the stall's real business must lead.",
-  "possible_arc": {
-    "opening": "Dry flours in separate tins before first light.",
-    "turn": "The mix becomes one thing that cannot be taken apart again.",
-    "ending_open": "The morning rush, or a slow day, whichever actually happens."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active roadside hopper or roti stall with a pre-dawn routine",
-      "A maker willing to have the early hours filmed, not just service time",
-      "Good access for low-light filming before sunrise"
-    ],
-    "suggestions": [
-      {
-        "name": "Roadside eating houses in Negombo or greater Colombo",
-        "region": "Western Province",
-        "why": "This area has many long-running roadside stalls with pre-dawn opening hours.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific stall and its willingness to be filmed are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "These texts say nothing physical ever turns up on its own; the smallest bit of matter is already a small crowd that arrives together and ends together. Their own kitchen image for this is a dough of several flours, and they are the first to say the image only goes part of the way.",
+  "what_must_be_real": "The cook's actual recipe, hours and customers. Nothing staged as an illustration of a simile, and the stall's real business leads.",
+  "position_hint": "middle if it ever stood alone; in practice its substance now sits inside the group's opening film about clay and a kiln.",
   "risks": [
-    "Using the maker's livelihood only to illustrate a simile",
-    "The maker's own day, income and concerns must carry the film"
+    "A livelihood used only to illustrate a simile.",
+    "Presenting the flour-ball image as the teaching itself, which the sources warn against.",
+    "Mapping material groups onto molecules or atoms."
   ],
   "drop_if": [
-    "No maker willing to have the pre-dawn routine filmed",
-    "No real pre-dawn mixing practice to observe"
+    "No maker willing to have the early hours filmed.",
+    "No real mixing practice to observe."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0113",
-      "relation": "pairs with",
-      "note": "Both hands mix earth, water, heat and air (or several flours) into something that holds its own shape."
+      "relation": "merged into",
+      "note": "Its kalapa material, the flour-ball image and the sources' own warning about it, now sit inside IDEA-0113."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0113",
+    "reason": "Folded into IDEA-0113, which holds the group's slot on the elements; the merge gives that film its C070 link, the sources' own mixing image, and the warning the sources attach to it."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

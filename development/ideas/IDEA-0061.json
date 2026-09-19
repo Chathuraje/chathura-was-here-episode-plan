@@ -4,91 +4,69 @@
   "record_type": "idea",
   "title": "The Weeping Pot",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-04",
-  "logline": "A potter lifts newly fired pots from the kiln, taps each one and listens, then fills it with water and waits. A hidden crack shows only as a slow dark bead on the base.",
+  "logline": "A potter lifts newly fired pots from the kiln, taps each one and listens, then fills it with water and waits for the slow dark bead that shows a crack no eye could find.",
   "human_question": "How do you find a flaw that cannot be seen until something is poured in?",
-  "premise": {
-    "story": "A potter's family through one firing, from shaping to the kiln to testing to market. Their livelihood depends on finding the cracked pots before a buyer does.",
-    "place": "A pottery village on a main road: clay pits, a wood-fired kiln, rows of pots drying in the sun, a roadside stall.",
-    "experience": "Heat and smoke give way to a very quiet, very close act of attention: an ear to a pot, eyes on a wet patch spreading."
+  "situation": {
+    "what_happens": "A firing takes days of shaping and drying and one long night at the kiln, and comes out as a batch of pots that all look alike. Some of them are cracked in ways that do not show. The potter tests them the way the trade has always tested them, tapping and listening for a dull note, filling and waiting for seepage, because a pot that fails in a customer's house costs more than the pot. The sound ones go to the stall and the failures are set aside or broken.",
+    "who_is_involved": "A potter and the family who work the clay with them; the buyers who will carry the pots home and trust them; and whoever sells at the roadside stall.",
+    "what_is_at_stake": "A whole firing's income, and a reputation that one leaking pot can damage. Behind that, the slow question of whether the trade is worth continuing.",
+    "how_it_unfolds": "It begins with clay and ends at the stall. The pressure is the kiln, which cannot be undone, and then the testing, which is the only moment at which the hidden becomes visible. It ends with a batch mostly sound or with a firing largely lost. Reality decides how many crack."
+  },
+  "concept_merge": {
+    "why_together": "C074 supplies the sources' own image for the taints: something that ferments inside and leaks out through unguarded doors, with the flaw invisible until the vessel is filled [C074-P:L79]. C033 supplies the counterpart: non-delusion is the wisdom factor within a moment of mind, not information [C033-M:L3]. Testing a pot is where the two meet, in a flaw only a particular kind of attention can find.",
+    "what_it_reveals": "That some things can only be known by being put under load, and that the person who can tell is not the one who knows the most but the one who attends most closely. The image without the attention is a diagram; the attention without the image has nothing to find."
   },
   "concept_links": [
     {
       "concept_id": "C074",
       "role": "primary",
-      "why": "The Pradeepika's image for the taints is water oozing from a cracked pot through unguarded 'doors' (P L79; M L22). The flaw is invisible until the pot is filled and tested."
+      "why": "The digest gives the taints under the image of something fermenting and leaking out through unguarded doors [C074-P:L79], and stresses that these forces are usually invisible, so that not reacting today proves little. A crack that shows only when the pot is filled carries that precisely."
     },
     {
       "concept_id": "C033",
       "role": "supporting",
-      "why": "Non-delusion is understanding within a moment of mind [C033-M:L3], not information; the potter's close listening is the ordinary human face of seeing a thing as it is."
+      "why": "The digest identifies non-delusion with the wisdom factor inside a moment of mind and warns that it is not education or information [C033-M:L3]. The potter's listening is the ordinary human face of seeing a thing as it is, and the film must not upgrade it into the sources' meaning."
     }
   ],
-  "what_camera_could_observe": [
-    "Clay shaped by hand and wheel",
-    "The kiln firing through the night",
-    "Each pot tapped and listened to; the difference between a clear and a dull note",
-    "Water poured in, a slow bead of seepage, a pot set aside",
-    "The good pots on the stall; the rejected ones"
-  ],
-  "what_must_be_real": "The potter's real work, testing practice and market. The testing method must be the potter's own; nothing is invented for the image.",
-  "possible_arc": {
-    "opening": "Smoke from the kiln at dawn.",
-    "turn": "The testing: silence, tapping, listening, waiting.",
-    "ending_open": "The pots go to market. Whatever the potter does with the cracked ones, and says about them, ends the film."
-  },
-  "position_hint": "closing candidate: the group's answer in miniature, stopping and attending closely to find what cannot be seen, and a natural hand-off to a group about looking at a single moment",
-  "location": {
-    "requirements": [
-      "A working pottery with a kiln and a regular market",
-      "A potter whose own practice includes testing for cracks",
-      "A firing within the filming window"
-    ],
-    "suggestions": [
-      {
-        "name": "Molagoda",
-        "region": "Kegalle district, Sabaragamuwa Province",
-        "why": "A well-known pottery village on the Colombo–Kandy road, with roadside pottery stalls.",
-        "season_notes": "Dry weather for drying and firing",
-        "access_notes": "",
-        "verify": "Confirm that wood firing and testing by water or sound are actually practised there.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Some flaws appear only under load. The texts describe what troubles us as often hidden rather than gone, and treat finding it as a matter of close attention rather than of knowing more.",
+  "what_must_be_real": "The potter's work, testing practice and market. The testing method must be the potter's own, nothing is invented for the image, and no pot is cracked or rejected for the camera.",
+  "position_hint": "closing candidate, currently unplaced: it does what a closing film for this group has to do, which is to stop and attend closely to one small thing.",
   "risks": [
-    "Turning the craftsperson into a walking metaphor",
-    "Inventing claims about the tradition",
-    "Picturesque framing of economic hardship"
+    "Turning a craftsperson into a walking metaphor.",
+    "Inventing claims about the tradition.",
+    "Picturesque framing of economic hardship."
   ],
   "drop_if": [
-    "Potters do not test in a way the camera can observe"
+    "Potters do not test in a way that can be observed at all."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0060",
-      "relation": "alternative to",
-      "note": "Both are craft films about looking closely; choose one."
-    },
-    {
       "idea_id": "IDEA-0063",
       "relation": "alternative to",
-      "note": "Two closing candidates for the same hand-off: close attention in a workshop, or slow movement through fog."
+      "note": "Two ways to close the group on close attention; the mist film holds the slot."
+    },
+    {
+      "idea_id": "IDEA-0060",
+      "relation": "alternative to",
+      "note": "Two craft films about looking closely; only one belongs in this group."
     }
   ],
+  "selection": {
+    "recommendation": "hold",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Held as the standing alternative closing film if access to the mist film fails, and as the only place the compendium's cracked-pot image of the taints is carried."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,95 +4,76 @@
   "record_type": "idea",
   "title": "Before the Long Trip",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "A fishing family spends the day before a multi-day trip securing the house, settling debts, and telling neighbours exactly when to expect the boat back, so that being unreachable for days does not mean being irresponsible.",
+  "logline": "A fishing family spends the day before a multi-day trip securing the house, settling debts and telling neighbours exactly when to expect the boat back, so that being unreachable does not mean being irresponsible.",
   "human_question": "What does it take to step away from the world for a while without abandoning anyone in it?",
-  "premise": {
-    "story": "A fishing family's preparations, over one day, before a multi-day trip that will take the fisherman out of contact.",
-    "place": "A fishing village with multi-day deep-sea boats.",
-    "experience": "The practical, unglamorous groundwork of a real withdrawal: securing property, settling accounts, fixing a return date, and the waiting that follows."
+  "situation": {
+    "what_happens": "Before a trip that will put one member of a household out of contact for days, the family does a set of ordinary, practical things: securing property, settling what is owed, leaving instructions with a neighbour, naming a return date and agreeing what happens if it passes. None of it is ceremonial. The point of the preparation is that the absence should cost nobody anything.",
+    "who_is_involved": "The person leaving; the household that stays and carries everything in the meantime; the neighbour who holds the instructions; the crew and owner whose schedule sets the dates; whoever is owed money.",
+    "what_is_at_stake": "The household's safety and solvency during the absence, and, plainly, the risk of the trip itself, which the film must not use for tension.",
+    "how_it_unfolds": "Preparation is compressed into a day or two, driven by weather and by the owner's schedule. Pressure comes from money that has to be found before departure and from the things that cannot be finished in time. It ends with the departure, then a waiting period measured against the promised date. Reality decides whether the boat returns when it said it would."
+  },
+  "concept_merge": {
+    "why_together": "C102 (the attainment of cessation) contributes the four preliminary duties: before entering the deepest withdrawal the texts describe, a practitioner secures belongings not on the body, makes themselves answerable to their community and to their teacher, and checks how much time they have [C102-P:L43–L62]. C099 (the absorption process) contributes what counts as mastery, which is entering and leaving at a chosen time rather than by accident [C099-P:L69–L79]. C073 (nibbana) contributes a boundary the film needs: the peace the texts name is not a place, has no location or direction, and is therefore not something anyone travels to [C073-P:L62; C073-P:L74].",
+    "what_it_reveals": "Together they overturn the usual picture of withdrawal as escape. The deepest disappearance the texts describe comes with obligations attached and a fixed return, and it is not a journey to anywhere. A family's ordinary departure makes the obligations visible and, at the same time, marks the difference: they are going somewhere, and the texts' subject is not a somewhere at all."
   },
   "concept_links": [
     {
       "concept_id": "C102",
       "role": "primary",
-      "why": "Before entering the deepest state the source describes, a practitioner performs four preliminary duties: protecting belongings, making themselves answerable to their community, to their teacher, and checking how much time they have [C102-P:L43–L62]. The film offers a real, secular parallel: a family's own version of securing what is left behind and fixing a time to return, without equating the two."
+      "why": "Before entering, the practitioner performs four preliminary duties: protecting belongings, remaining answerable to the community and to the teacher, and knowing how much life remains [C102-P:L43–L62]. The digest says outright that this is not switching off and not an escape from responsibility, and that the attainment itself is restricted to rare, already-liberated people, so the family's preparations are a parallel and never an equivalence."
     },
     {
       "concept_id": "C099",
       "role": "supporting",
-      "why": "The source insists that any deep, repeatable state depends on being able to enter and leave at a chosen time, not by chance; the fixed departure and return date is a plain, human version of that same discipline."
+      "why": "The texts treat mastery as being able to turn toward, enter, stay, leave on time and review at will [C099-P:L69–L79]. A fixed departure and a promised return date are a plain, human version of that discipline, and the digest is clear that a craft or work parallel is only an echo."
     },
     {
       "concept_id": "C073",
       "role": "supporting",
-      "why": "The source describes its deepest state as 'dwelling at ease, here and now,' not an escape from the world; the family's ordinary, responsible departure is one honest way a film can hold that phrase without over-claiming it."
+      "why": "The digest denies the peace the texts name any location, direction or shape, and rejects reading it as a place one goes to [C073-P:L62; C073-P:L74]. That is the correction the film needs while watching a literal departure. The phrase 'dwelling at ease here and now' belongs to C102's account of cessation [C102-P:L92] and should not be attributed to this concept."
     }
   ],
-  "what_camera_could_observe": [
-    "Securing the house and boat, settling accounts before leaving",
-    "Instructions left with neighbours: when to expect the boat, who to call",
-    "The departure itself",
-    "The family's watch on the weather and the calendar until the return date"
-  ],
-  "what_must_be_real": "A real fishing family's real trip and real precautions. No danger at sea is shown or implied for dramatic effect.",
-  "possible_arc": {
-    "opening": "An ordinary day of preparation.",
-    "turn": "The boat leaves; the house is left in order.",
-    "ending_open": "The family's wait, and the return, however it actually happens."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A fishing family with a real multi-day trip during the filming window",
-      "Consent to film both departure preparations and, if possible, the return",
-      "No filming of the trip itself unless it can be done safely"
-    ],
-    "suggestions": [
-      {
-        "name": "Kalpitiya",
-        "region": "North Western Province",
-        "why": "A well-known base for multi-day deep-sea fishing trips.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific willing family and trip must be identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Stepping away for a while can be done responsibly: you secure what you leave, tell people when you will be back, and keep that promise. The texts describe even their deepest withdrawal this way, with duties to others attached.",
+  "what_must_be_real": "A real family's real trip and real precautions, including the debts and the arrangements. No danger at sea is shown or implied for effect, and nothing about the departure is arranged for the film.",
+  "position_hint": "closing candidate, placed second to last: it sets the terms for a responsible letting go just before the group's final film.",
   "risks": [
-    "Turning a hard, risky livelihood into a spiritual metaphor",
-    "Filming real danger or distress at sea for effect",
-    "Overstating the parallel with the source in narration"
+    "Turning a hard and risky livelihood into a spiritual metaphor",
+    "Using the danger of the trip for suspense",
+    "Overstating the parallel with the texts in narration",
+    "Exposing the family's debts without their control over what is shown"
   ],
   "drop_if": [
-    "No family will allow filming of real preparations, or a genuine multi-day trip cannot be scheduled within the filming window"
+    "No family will allow real preparations to be filmed",
+    "A genuine trip cannot be followed within the filming window without the film shaping it"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0185",
       "relation": "leads into",
-      "note": "From readiness for sudden danger to the ordinary, practical readiness of setting affairs in order before a longer absence."
+      "note": "From readiness for sudden danger to the practical readiness of setting affairs in order before a long absence."
     },
     {
       "idea_id": "IDEA-0187",
       "relation": "leads into",
-      "note": "From a family's practical preparations before absence, to a single person's final, complete letting go of a home."
+      "note": "From preparing to leave and return, to setting a whole life in order with no return planned."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0097; the four duties are explicit in the digest and the C073 link has been re-grounded."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

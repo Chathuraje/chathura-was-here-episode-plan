@@ -4,90 +4,70 @@
   "record_type": "idea",
   "title": "Boat to Plate",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "A net comes up at dawn on the west coast, and what is inside it is auctioned, carried, cooked and eaten inland before the day is out, each stage existing only because of the one before it.",
-  "human_question": "How many hands does one fish pass through before it becomes someone's dinner, and would any of those hands call themselves connected to the others?",
-  "premise": {
-    "story": "One catch's route from the sea to a specific inland kitchen: the haul, the beach auction, a bicycle or three-wheeler vendor's round, and a meal.",
-    "place": "A west-coast beach landing site and the inland towns and villages it supplies.",
-    "experience": "A relay followed without a break: nets and cold sea-spray at dawn, the fast noise of an auction, a long slow ride inland, and finally a plate, a family, a meal."
+  "logline": "A net comes up at dawn, and what is in it is auctioned, carried inland, cooked and eaten before the day is out, each stage existing only because of the one before it and none of the hands at either end ever meeting.",
+  "human_question": "How many hands does one fish pass through before it is someone's dinner, and would any of those hands call themselves connected to the others?",
+  "situation": {
+    "what_happens": "A catch is hauled in at first light and sorted on the sand. Within the hour it is auctioned, in a fast exchange that decides where it goes and at what price, and a vendor carries a share of it inland on a bicycle or a three-wheeler, selling door to door. By the middle of the day some of it is in a kitchen being cleaned and cooked, and by evening it has been eaten by people who will never meet the crew that caught it. Each stage takes what the last one produced and hands it on, and no stage could have happened without the one before.",
+    "who_is_involved": "The crew who work the net and own or rent the boat; whoever calls the auction and the buyers who bid against each other; the vendor who takes a share inland and carries the risk of not selling it; the household that buys and cooks it; and the people at each step who are owed money from an earlier step.",
+    "what_is_at_stake": "A day's earnings for everyone along the line, divided by an auction none of them individually controls. If the catch is poor, or the price collapses, or the vendor's round is slow, the loss does not fall evenly, and the people who bear it most are usually the ones furthest from the auction's decisions.",
+    "how_it_unfolds": "A day like this begins before light with an unknown quantity, tightens at the auction where the whole day's value is set in minutes, and disperses into rounds and kitchens that the people at the start never see. Whether one catch can actually be followed to one table, or whether it scatters beyond following, is decided by how the auction goes."
+  },
+  "concept_merge": {
+    "why_together": "C079 is the formula itself: one sentence pattern, 'with this as condition, that', repeated until twelve links have been joined, each clause taking what the last produced and handing it on, and ending not in a single blow but in a heap. C078 supplies the reminder that this middle-length telling names only the principal cause at each step, so the relay is a simplification honestly made. A day's fish trade carries the grammar of the formula in a form anyone can follow — with the same honesty about what it leaves out, since no stage of the trade really has one cause either.",
+    "what_it_reveals": "Together they show what the formula is and what it is not: a sentence pattern that makes dependence legible, not a line of dominoes with one cause per step. The film can let a viewer feel the handing-on — no stage making itself, no stage able to skip the one before — while the second concept keeps it from hardening into a mechanical chain."
   },
   "concept_links": [
     {
       "concept_id": "C079",
       "role": "primary",
-      "why": "The Pāli formula's own grammar, 'because of this, that', carried here by a real supply chain of hands rather than by the text itself."
+      "why": "The formula is one clause pattern repeated eleven times, each clause taking up what the last produced; the day's relay of hands carries that grammar without anyone naming a link, which is what the digest says the text does before it is explained."
     },
     {
       "concept_id": "C078",
       "role": "supporting",
-      "why": "The short answer, 'we caught fish', and the long answer, the specific chain of hands that gets it to a plate, are both true at once."
+      "why": "The sources say the middle-length account names only the principal cause at each step and that the detailed account is also needed; the short sentence 'we caught fish' and the specific chain that puts it on a plate are the same day at two lengths."
     }
   ],
-  "what_camera_could_observe": [
-    "Nets hauled in surf at first light",
-    "The catch sorted on sand",
-    "The auction's fast calls and hand signals",
-    "A vendor's round from door to door inland",
-    "A kitchen; a family eating"
-  ],
-  "what_must_be_real": "Real prices, real margins and real relationships along the chain; nothing staged to fit a neat step-by-step structure.",
-  "possible_arc": {
-    "opening": "Dark water and a net coming in.",
-    "turn": "The auction, fast and loud, decides where the catch goes.",
-    "ending_open": "Whichever kitchen the catch actually reaches, and whoever eats it."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working beach landing site with a visible auction",
-      "A traceable vendor's round reaching a specific inland kitchen",
-      "Cooperation from fishers, auctioneers, a vendor and a household, all within one day's chain"
-    ],
-    "suggestions": [
-      {
-        "name": "A west-coast fish landing site and its inland market towns",
-        "region": "Negombo or Chilaw area",
-        "why": "Well-established beach landing sites and lagoon fisheries with active daily auctions and inland vendor rounds.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific catch and vendor's round that can realistically be followed door to door must be confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Each stage of the fish's day exists only because of the stage before it, and the Abhidhamma describes a whole life with the same kind of sentence repeated link by link: because of this, that. Naming one cause per step is a simplification the texts make on purpose.",
+  "what_must_be_real": "Real prices, real margins and the real relationships and debts along the chain. Nothing may be re-staged or re-sequenced so that the day looks like a neat set of steps.",
+  "position_hint": "middle: it states the group's central sentence in its simplest forward form, which the following films then complicate.",
   "risks": [
-    "Forcing a tidy step-by-step match onto the fish's real journey",
-    "The film losing its footing as a livelihood story if the 'chain' structure takes over"
+    "Forcing a tidy step-by-step structure onto a day that is messier than the structure.",
+    "Reading the chain as a domino line with one cause per step, which the source explicitly denies.",
+    "Losing the livelihood story — who is paid what, and who carries the loss — to the shape of the chain."
   ],
   "drop_if": [
-    "No single catch can realistically be followed door to door within the filming window"
+    "No single catch can realistically be followed from the net to a table.",
+    "Following it requires arranging the sale or the household in advance."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0156",
       "relation": "pairs with",
-      "note": "Both follow ordinary small livelihoods that depend, visibly, on many small and specific supports."
+      "note": "Both set a one-line account of an ordinary livelihood against the long chain underneath it."
     },
     {
       "idea_id": "IDEA-0161",
       "relation": "leads into",
-      "note": "The catch followed here could plausibly reach the shared table followed in 'What the Meal Leaves Behind'."
+      "note": "The held idea about a shared meal begins where this chain ends, at a table, and asks what the same food becomes in different people's memory."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0081; carries the formula's grammar, with the source's own caution against a domino reading kept in the risks."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

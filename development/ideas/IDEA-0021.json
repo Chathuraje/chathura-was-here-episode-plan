@@ -4,86 +4,74 @@
   "record_type": "idea",
   "title": "Second Helping",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "At an east-coast wedding reception, hosts keep piling food onto plates, guests protest and then accept, and one man goes back for a third helping without being asked.",
+  "logline": "At a wedding feast, hosts keep piling food onto plates, guests protest and then accept, and one man goes back for a third helping without being asked.",
   "human_question": "Where does hospitality end and appetite begin, and does it matter?",
-  "premise": {
-    "story": "A wedding reception's buffet hour: hosts urging guests to eat more, guests giving in or asking for extra unprompted, and the pride and exhaustion of a family that has been cooking for days.",
-    "place": "A reception hall or a family's own courtyard set up for a wedding feast, on the east coast.",
-    "experience": "Noise, heat, plates piled high, and the push and pull between generosity given and appetite taken."
+  "situation": {
+    "what_happens": "A family that has been cooking for days serves a feast to a room full of guests. The hosts move along the tables pressing more food on people, and guests refuse once or twice before giving way; others get up and return for more with nobody urging them at all. Some eat with obvious relish and some eat steadily, with no expression to speak of. In the kitchen, the people who cooked it and have tasted everything eat last, standing up, quickly and without ceremony.",
+    "who_is_involved": "The family hosting, whose standing rides on the table; guests, some close and some barely known; cooks and helpers who have tasted every dish and want none of it; one or two guests who need no encouragement whatsoever.",
+    "what_is_at_stake": "For the hosts, a generosity that would be shamed by a guest leaving hungry, and equally by food thrown away. For guests, the small social cost of refusing and the smaller one of accepting. For the cooks, days of work judged in an hour. Nobody's dignity should be the price of showing any of it.",
+    "how_it_unfolds": "Feasts of this kind build for days in a kitchen and empty out in an hour or two: a slow start, a crowded middle where the pressing is hardest, a long tail of leftovers and tired talk, and then the cooks' own plain meal at the end. Whether anyone is genuinely pressed past what they wanted, and whether the family's pride is met or disappointed, is settled by how the day actually goes and by nothing else."
+  },
+  "concept_merge": {
+    "why_together": "C006 contributes the distinction the room is already making without naming it: wanting that rises on its own and wanting that arrives through another's urging. The sources' own example for both is eating with relish, and they add that a person can prompt themselves, talking a hesitating mind round. C032 contributes the tone: every mind tastes its object as pleasant, painful or neutral, with no fourth way, and the joyful wanting minds sit squarely among the pleasant ones while others are flat. A feast is the rare occasion where urging, spontaneous appetite and plain, tired eating happen at one table within the same hour.",
+    "what_it_reveals": "That being pressed does not make the eating someone else's act, and that a guest's appetite and a host's generosity are not the same thing although they look identical from across the room. And that the clearest view of wanting in its flat, joyless form is not at the tables at all but in the kitchen afterwards, where the same food is eaten by people who are only hungry."
   },
   "concept_links": [
     {
       "concept_id": "C006",
       "role": "primary",
-      "why": "The concept's own example is eating with relish, arising both spontaneously and through a host's urging; the reception shows both at once, in the same room, at the same meal [C006-M:L7] [C006-M:L9]."
+      "why": "The sources' own example of a greed-rooted mind is eating with relish, given both as arising spontaneously and as arising when urged on by a host, or by oneself coaxing a reluctant mind [C006-M:L5] [C006-M:L7] [C006-M:L9]. A feast shows both in one room at one meal. The sources rank prompted wanting as weaker without excusing it [C006-M:L19], and what they are classifying is the guest's reaching, not the host's hospitality, which the digest warns must not be blurred together."
     },
     {
       "concept_id": "C032",
       "role": "supporting",
-      "why": "The pleasure of a good meal sits among the concept's pleasant-feeling minds, while the sheer scale of a wedding buffet can also tip into the concept's account of pleasant feeling that turns uncomfortable once it is too much [C032-P:L54-L63] [C032-P:L117]."
+      "why": "The sources count the four joyful greed-rooted minds among the pleasant-feeling minds, and teach that feeling accompanies every mind in one of three ways with no fourth [C032-P:L58] [C032-M:L5]; so relish at one plate and flat, automatic eating at the next are two tones of the same reaching. The group's line that pleasant feeling is where wanting begins is editorial compression and is not stated in these extracts, so the film must not present it as source teaching. An earlier draft read the source's suffering of change [C032-P:L117] as pleasure turning uncomfortable once there is too much of it; that is a misreading of a passage about conditioned feeling changing, and it has been removed."
     }
   ],
-  "what_camera_could_observe": [
-    "Hosts piling food onto plates",
-    "A guest protesting and then accepting",
-    "Someone returning unprompted for more",
-    "The kitchen's exhausted, satisfied cooks",
-    "The last plates cleared at the end of the night"
-  ],
-  "what_must_be_real": "A real wedding, a real family's hospitality and their guests' own behaviour. Nothing staged for the buffet scene.",
-  "possible_arc": {
-    "opening": "A hall filling with guests and the smell of a feast.",
-    "turn": "A host's insistence meets a guest's resistance, again and again.",
-    "ending_open": "The feast winds down, plates emptied or food left over. Reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A wedding family willing to have their reception filmed",
-      "Guests willing to be filmed eating and being urged to eat",
-      "A kitchen willing to be filmed before and after the feast"
-    ],
-    "suggestions": [
-      {
-        "name": "A wedding reception hall in Batticaloa or Trincomalee",
-        "region": "Eastern Province",
-        "why": "Both are established towns with active wedding-reception venues and strong hospitality traditions.",
-        "season_notes": "",
-        "access_notes": "Specific family and hall unconfirmed.",
-        "verify": "No family has been contacted; this is a plausible setting, not a confirmed location.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "A second helping can be reached for on our own or accepted because someone keeps pressing it on us, and either way it is the same wanting. It comes feeling pleasant or just ordinary, never unpleasant, which is why it does not always look like pleasure.",
+  "what_must_be_real": "A real family's hospitality, real guests and their own behaviour. Nobody urged to eat, or to refuse, for the film; no plate arranged; the cooks' own meal not delayed for anybody.",
+  "position_hint": "middle, early: the second beat, where the wanting the group opened with is shown arriving by two routes at once and carrying its feeling tone with it.",
   "risks": [
     "Ridiculing guests' appetites",
-    "Sri Lankan hospitality shown without the respect it deserves",
-    "A family's private celebration used only for spectacle"
+    "Confusing the host's generosity with the guest's wanting, which the digest explicitly warns against",
+    "Hospitality shown without the respect it is owed",
+    "A family's private celebration used for spectacle",
+    "Presenting the editorial line that pleasant feeling is where wanting begins as though the sources said it"
   ],
   "drop_if": [
-    "No family will allow their reception to be filmed with this level of access"
+    "No family will let a private celebration be part of the film at this closeness",
+    "The kitchen side of it, which carries the contrast, cannot be included"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0016",
+      "relation": "absorbs",
+      "note": "Folded in: the same appetite in its plain everyday form, ordered without a word and eaten without ceremony, which now sits in the kitchen at the end of the feast."
+    },
+    {
+      "idea_id": "IDEA-0022",
       "relation": "pairs with",
-      "note": "Two tables: one of habitual daily appetite, one of festive urging to eat more."
+      "note": "Two rooms where the same food meets several different feelings at once."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0016"
+    ],
+    "superseded_by": null,
+    "reason": "Holds the prompted-and-unprompted beat on the sources' own example, and now carries the everyday register folded in from IDEA-0016."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

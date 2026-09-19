@@ -4,84 +4,70 @@
   "record_type": "idea",
   "title": "A Good Catch Day",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "One boat comes in low in the water with the best catch of the month; the others come in light. What happens on the sand in the next ten minutes says more than the weighing scale does.",
+  "logline": "One boat comes in low in the water with the best catch of the month; the others come in light. What happens in the next ten minutes says more than the weighing scale does.",
   "human_question": "When someone else's luck is good, what actually happens in you?",
-  "premise": {
-    "story": "A single morning at a small fishing harbour when catches are visibly unequal between boats.",
-    "place": "A beach landing site at first light, boats coming in one after another.",
-    "experience": "The noise and rush of unloading, then the quieter human weather that follows around who did well and who didn't."
+  "situation": {
+    "what_happens": "Several crews who work the same water return within an hour of each other after a night out. One has done far better than the rest, and everybody can see it before anything is weighed. The unloading, the weighing and the selling make the difference public. Then comes the part that is not about fish: who walks over to help, who congratulates, who stays with their own nets, and what is said or shared afterwards.",
+    "who_is_involved": "The crew that had the good night; the crews that did not; the buyers and weighers whose numbers make the gap official; the families whose week depends on either result.",
+    "what_is_at_stake": "Real money, in a trade where one night can decide a month. For the crews, being filmed on a bad day. For the film, the risk of manufacturing rivalry. For the viewer, the difference between being pleased for someone and being pinched by their luck.",
+    "how_it_unfolds": "Uneven days occur constantly in this work and nobody arranges them. The morning has a fixed sequence: return, unload, weigh, sell, disperse. Pressure comes from debt, fuel costs and the knowledge that the same luck will reverse. Reality decides how uneven the morning is, what is actually said between crews, and whether anything is shared — including the possibility that nothing visible happens at all."
+  },
+  "concept_merge": {
+    "why_together": "C095 defines sympathetic joy as gladness at another's good fortune, names envy and discontent as its failure, and names a near-miss that looks like it: worldly, giddy excitement. C024 adds that this gladness is one of the two boundless factors, arising only when someone who is doing well is actually in view, and that it is supposed to reach anyone, including a rival. A morning of unequal results puts both to the only test that matters, between people whose livelihoods compete.",
+    "what_it_reveals": "That the hardest place for gladness is not far away but alongside, and that the tradition's demand is impartiality rather than warmth."
   },
   "concept_links": [
     {
       "concept_id": "C095",
       "role": "primary",
-      "why": "Sympathetic joy (muditā) is gladness at another's good fortune, and its failure is envy or discontent at that same fortune [C095-P4:L54]."
+      "why": "Sympathetic joy (muditā) is gladness at others' success, its function is not envying, and it settles discontent; the source also warns of its look-alike, worldly giddy excitement [C095-P4:L54]. The Margaya frames it by self-comparison: be glad at another's gain as you are at your own."
     },
     {
       "concept_id": "C024",
       "role": "supporting",
-      "why": "Sympathetic joy is one of the two variable 'boundless' factors, meant to extend toward whoever is happy, not only to one's own [C024-P:L91]."
+      "why": "Sympathetic joy is one of the two boundless factors, arising occasionally and only when a happy being is in view, and it is meant to extend without favourites — including to a rival, which is exactly what envy prevents [C024-P:L91]. The digest's own line applies here rather than to any family: gladness confined to one's own is classed as attachment."
     }
   ],
-  "what_camera_could_observe": [
-    "Boats approaching with visibly uneven loads",
-    "Unloading, weighing or the morning auction",
-    "Who walks over to help or congratulate, and who keeps to their own nets",
-    "Tea, fish or conversation shared afterward, or not"
-  ],
-  "what_must_be_real": "The actual results of the morning's fishing, and crews' actual reactions. No directing or suggesting anyone's response.",
-  "possible_arc": {
-    "opening": "Boats approaching with visibly uneven catches.",
-    "turn": "The unloading and weighing, results becoming clear to everyone.",
-    "ending_open": "What actually happens between the crews once the scales are read."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working fishing harbour with multiple crews returning at the same time",
-      "A morning where catches are genuinely uneven, not arranged",
-      "Crews willing to be filmed and to speak honestly"
-    ],
-    "suggestions": [
-      {
-        "name": "A small fishing harbour on the southern coast",
-        "region": "e.g. Mirissa or Beruwala",
-        "why": "Well-known, active fishing harbours on the south coast with daily boat landings.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific crews or morning have been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "When someone else has a lucky day, the gladness a person may feel is named as a quality of its own, the opposite of envy, and it is meant to reach anyone who is doing well.",
+  "what_must_be_real": "The actual results of the morning's work and the crews' actual reactions. Nobody's response is directed, suggested or re-run, and no one is edited into resentment they did not show.",
+  "position_hint": "middle: it is the group's clearest single-quality film and needs the viewer to have already met goodness as something ordinary.",
   "risks": [
-    "Editing could invent rivalry or sour feeling that isn't really there",
-    "Real livelihoods are at stake in every frame; framing crews as envious without evidence would be unfair"
+    "Editing could invent rivalry or sour feeling that is not there",
+    "Real livelihoods are in every frame; implying envy without evidence would be unfair",
+    "Mistaking the source's warning about giddy excitement for a licence to judge people's celebrations"
   ],
   "drop_if": [
-    "Crews are unwilling to be filmed on an actual uneven-catch morning"
+    "Crews are unwilling to be filmed on a genuinely uneven morning",
+    "The only access available depends on arranging who lands what"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0098",
       "relation": "pairs with",
-      "note": "Both centre on sympathetic joy and its opposite, shown through real, unscripted human relationships."
+      "note": "Both turn on gladness at another's good fortune, one between competitors and one inside a family."
+    },
+    {
+      "idea_id": "IDEA-0106",
+      "relation": "leads into",
+      "note": "Gladness observed between equals here becomes gladness that has to alternate with compassion in the later care films."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and the group's only situation that tests gladness against direct competition."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

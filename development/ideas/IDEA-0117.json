@@ -4,87 +4,53 @@
   "record_type": "idea",
   "title": "Borrowed Parts",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "Over several visits to a limb-fitting workshop, a new prosthetic leg goes from a cast and a carved socket to a first careful walk, and the words its wearer uses for it change along the way.",
+  "logline": "Over several visits to a limb-fitting workshop, a newly made leg goes from a cast to a first careful walk, and the words its wearer uses for it change along the way.",
   "human_question": "At what point does something made by other hands become 'my leg'?",
-  "premise": {
-    "story": "One person's fitting process, from measurement to first steps to daily use weeks later, told entirely through their own account and pace.",
-    "place": "A limb-fitting or prosthetics workshop, and the wearer's own home and streets afterward.",
-    "experience": "The craft of casting and carving a socket, the effort of first steps, and the quiet moment a person starts calling the limb 'mine' rather than 'it' or 'the leg'."
+  "situation": {
+    "what_happens": "A person is measured and cast for a prosthesis, a socket is shaped and ground, and over several visits it is fitted, walked on, found uncomfortable, adjusted and walked on again. Weeks later it is either in daily use or it is not.",
+    "who_is_involved": "The wearer; the technicians who make and adjust the limb; the household and workplace the wearer returns to.",
+    "what_is_at_stake": "Mobility, work, independence and cost, on the wearer's own terms and in the wearer's own words.",
+    "how_it_unfolds": "Fittings run over weeks and the outcome is not known in advance: some limbs are used daily, some are used rarely, and the reasons are practical rather than inspirational."
   },
-  "concept_links": [
-    {
-      "concept_id": "C067",
-      "role": "primary",
-      "why": "The source defines 'clung-to' matter not by where it came from but by the grip of 'mine' placed on it. A fitted limb, made entirely by someone else's hands, tests exactly where that boundary sits and whether it can move."
-    },
-    {
-      "concept_id": "C066",
-      "role": "supporting",
-      "why": "Workability (kammaññatā), the body's fitness for action, is literally what the fitting process is trying to produce in a limb that starts out unfamiliar and stiff."
-    }
-  ],
-  "what_camera_could_observe": [
-    "Casting and grinding a socket to fit",
-    "The wearer's first steps with the new limb, with a frame or rail nearby",
-    "Return visits for adjustment as use reveals discomfort",
-    "The words the wearer uses for the limb over time",
-    "Ordinary daily use weeks or months later, walking, working, resting"
-  ],
-  "what_must_be_real": "The wearer's own story, pace and language for what happened to them. No 'triumph over adversity' arc imposed from outside; the doctrine's account of what is 'mine' must never be offered to the wearer as an explanation of their loss.",
-  "possible_arc": {
-    "opening": "A cast taken, a socket shaped.",
-    "turn": "The first unsteady steps.",
-    "ending_open": "Whatever the wearer actually says about it, in their own words, weeks on."
+  "concept_merge": {
+    "why_together": "None survives review. The proposed merge rested on treating a fitted limb as a test case for 'clung-to' matter, and the C067 digest does not support that reading: clung-to matter there names a psychological grip that the sources apply to the eighteen kamma-born kinds, and it is explicitly not a claim about bodily ownership or autonomy. No other link in the group's concept set carries this situation without importing what the digests forbid.",
+    "what_it_reveals": "Nothing that survives the philosophy check. The record is kept so that the reasoning is not lost, not as a proposal."
   },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A limb-fitting workshop willing to allow filming across several visits",
-      "A wearer willing to be followed and to speak about their own experience",
-      "Enough time in the schedule to cover more than one visit"
-    ],
-    "suggestions": [
-      {
-        "name": "A limb-fitting or prosthetics centre serving communities affected by the northern conflict",
-        "region": "Northern Province (Jaffna/Vavuniya area)",
-        "why": "This region has a documented, ongoing need for limb-fitting services; a real centre and wearer would need to be found and consented.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "The specific centre, its willingness to participate and a wearer's consent are all unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "concept_links": [],
+  "what_the_viewer_could_understand": "Nothing is proposed. The idea is not carried forward in this group.",
+  "what_must_be_real": "Not applicable: the idea is dropped. Were any related situation ever revisited, the wearer's own story, pace and language would have to lead it entirely, and no doctrinal account of bodies or faculties could be offered to them or laid over them.",
+  "position_hint": "none: dropped at review, so no position is proposed.",
   "risks": [
-    "Using a disabled person as a metaphor for doctrine rather than a person with their own story",
-    "Exploiting war or accident trauma",
-    "The film must never suggest disability is deserved, doctrinal, or a lesson for the viewer"
+    "Using a disabled participant as the vehicle for a doctrine that the digests forbid applying to any real person's body.",
+    "Exploiting injury or conflict history.",
+    "A triumph-over-adversity arc imposed from outside."
   ],
   "drop_if": [
-    "No wearer willing to be followed over multiple visits and to speak in their own words",
-    "No workshop consents to filming"
+    "Already dropped at review."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0116",
-      "relation": "mirrors",
-      "note": "A voice a machine can copy but not mean; a limb a workshop can make but cannot, by itself, make someone's own."
+      "idea_id": "IDEA-0124",
+      "relation": "replaced by",
+      "note": "The group's work on what is held as 'mine' is carried by IDEA-0124, where the sources' own examples, the sense organs, are the subject."
     }
   ],
+  "selection": {
+    "recommendation": "drop",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "The primary link misreads the source: the C067 digest defines clung-to matter as a psychological grip applying especially to the eighteen kamma-born kinds, and says explicitly that it is not a claim about owning a body, so a manufactured limb cannot be an instance of it. Beyond the misreading, the situation would place a disabled participant inside a doctrinal frame that the C064, C068, C069 and C071 digests all forbid applying to any real person's body or faculties. Nothing from it is folded into a kept idea."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

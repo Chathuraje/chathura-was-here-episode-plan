@@ -4,90 +4,75 @@
   "record_type": "idea",
   "title": "The Crossing",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "Where the stream has no bridge, people cross by a rope tied to a tree: a run-up, a grip, a swing, an unsteady landing, and then, every time, a moment of standing firm on the far side.",
-  "human_question": "Is the moment you let go of the rope the same moment you are safe, or are those two different things?",
-  "premise": {
-    "story": "A village where a stream or channel with no bridge is crossed daily by rope, log or pole, followed through a season, in calm weather and in flood.",
-    "place": "A hill-country or wet-zone village where a stream separates homes from fields, a school path, or a market road.",
-    "experience": "The small, repeated physical drama of committing to a crossing: the grip, the release, the unsteady first step, the recovery."
+  "logline": "Where a stream has no bridge, people cross by a rope tied to a tree: a run-up, a grip, a swing, an unsteady landing, and then, every time, a moment of standing firm on the far side.",
+  "human_question": "Is the moment you let go the same moment you are safe, or are those two different things?",
+  "situation": {
+    "what_happens": "A community without a bridge crosses a stream every day by rope, log or pole, to reach fields, school or a road. Each crossing has the same shape: a decision, a commitment that cannot be taken back once made, a landing that is always unsteady, and a second afterwards in which the person recovers their footing. In flood the same crossing is a different proposition, and some people stop making it.",
+    "who_is_involved": "The households on the far side; children going to school; older people who now hesitate or stop crossing; whoever maintains the rope or the log, and whoever is blamed when it is not maintained.",
+    "what_is_at_stake": "Daily access to work, schooling and help, and sometimes real physical risk. Also the community's standing: a missing bridge is a grievance as well as a fact, and the film can easily make it look picturesque.",
+    "how_it_unfolds": "The crossing is routine in the dry months and dangerous after rain, and its condition drifts until someone repairs it. Pressure comes from water level, from loads carried, and from people who should not be crossing but must. It ends, in a lifetime, either with a bridge or with someone being hurt. Reality decides what the water does during filming, and no one is ever asked to cross for the camera."
+  },
+  "concept_merge": {
+    "why_together": "C100 (path and fruition processes) contributes its own image of the decisive moment: a man runs, grips a rope hanging from a branch, swings over a canal, lets go, and stands on the far bank shaking before he finds his footing [C100-P4:L44–L46]. C098 (the noble persons) contributes what the texts say about the kind of change that happens there: not held down, not displaced, but finished [C098-P4:L205–L249].",
+    "what_it_reveals": "Together they separate two things a single word usually covers. Letting go is not arriving; the landing is not yet the standing. And the texts' claim that such a change does not come back is thrown into relief by a crossing that has to be made again tomorrow. C100 alone is a vivid image; C098 alone is a classification. The pair asks the viewer to feel the difference between a crossing you repeat and one you do not."
   },
   "concept_links": [
     {
       "concept_id": "C100",
       "role": "primary",
-      "why": "Both sources describe the decisive moment of path and fruition with a canal-crossing simile: a man runs, grips a rope, swings, lets go, and lands shaking before he finds his footing; recognising and letting go are treated as two different moments, only the second of which actually crosses [C100-P4:L44–L46]."
+      "why": "The sources' own simile for the path moment is a man who runs, grabs a rope, swings over a canal, lets go and stands shaking on the far bank before he finds his footing [C100-P4:L44–L46]. The digest warns this is not an 'aha moment' or a big life decision, so the film keeps the image and makes no equivalence."
     },
     {
       "concept_id": "C098",
       "role": "supporting",
-      "why": "What changes at such a crossing, in the source's account, does not come back; the film's crossings are ordinary and repeatable, an honest, non-equivalent echo of that idea."
+      "why": "What the texts describe as changing at that moment does not come back, unlike what is only suppressed or displaced [C098-P4:L205–L249]. The film's crossings are repeatable by nature, which is an honest, non-equivalent counterpoint rather than an illustration."
     }
   ],
-  "what_camera_could_observe": [
-    "The run-up, the grip on the rope or log, the swing or step across",
-    "The unsteady first second on the far bank, then the settled stride",
-    "The same crossing made by a child, a farmer carrying produce, an older person who hesitates",
-    "The crossing in different water: low and calm, high and fast after rain"
-  ],
-  "what_must_be_real": "A crossing people actually rely on, not one staged for the camera. No one is asked to cross dangerously for a better shot.",
-  "possible_arc": {
-    "opening": "An ordinary morning crossing.",
-    "turn": "The same crossing attempted by someone less confident, or in rising water.",
-    "ending_open": "Whatever the crossings on the day of filming actually look like."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A real village where a bridgeless crossing is part of daily life",
-      "Consent from the community and anyone filmed crossing",
-      "Safety oversight; the crew must never encourage a risky crossing"
-    ],
-    "suggestions": [
-      {
-        "name": "A hill-country or wet-zone village with a seasonal stream crossing",
-        "region": "Central or Sabaragamuwa Province foothills",
-        "why": "Bridgeless stream crossings by rope, log or pole are still part of daily life in some hill-country villages.",
-        "season_notes": "Most dramatic after monsoon rain",
-        "access_notes": "",
-        "verify": "A specific village and crossing must be identified and confirmed safe to film.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Letting go and being safe are two different moments: you let go of the rope, land shaking, and only then find your footing. The texts use exactly this picture for the decisive change they describe.",
+  "what_must_be_real": "A crossing people genuinely depend on, filmed as they use it. Nobody is asked to cross, to cross again, or to cross in higher water for the film, and the hardship is not presented as charm.",
+  "position_hint": "middle: it is the group's first decisive-change film, and it sets up the later distinction between a change that holds and one that has to be made again.",
   "risks": [
-    "Making a real hardship (no bridge) look picturesque or purely symbolic",
-    "Safety of anyone filmed crossing in high water",
-    "Over-explaining the metaphor in narration"
+    "Making the absence of a bridge look picturesque rather than unjust",
+    "Safety of anyone filmed crossing, especially children and in high water",
+    "Over-explaining the simile in narration until the crossing stops being real work"
   ],
   "drop_if": [
-    "No such crossing can be found and filmed safely, or the community does not want it shown as a hardship"
+    "No such crossing can be filmed without encouraging risk",
+    "The community does not want a hardship shown"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0178",
       "relation": "leads into",
-      "note": "The same season's harvest, taken stock of, flows into this idea's image of crossing and letting go."
+      "note": "From a season of small judgements to a single committed moment."
     },
     {
       "idea_id": "IDEA-0180",
       "relation": "pairs with",
-      "note": "Both ask whether a change is temporary or complete, one through a crossing, one through a farmer's choice about a weed."
+      "note": "Both ask whether a change is temporary or final, one through a crossing, one through a root."
+    },
+    {
+      "idea_id": "IDEA-0183",
+      "relation": "alternative to",
+      "note": "The same far-shore question approached through what carries people across rather than through the crossing itself."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0092; the rope-and-canal image is the sources' own and the film keeps it non-equivalent."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

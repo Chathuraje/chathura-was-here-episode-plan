@@ -4,91 +4,71 @@
   "record_type": "idea",
   "title": "The Tether",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-04",
-  "logline": "In the paddy lands of the north, a herder moves buffalo from stake to stake. Each animal grazes a perfect circle and cannot leave it. Some wander free trailing their ropes, and come back at dusk anyway.",
+  "logline": "A herder moves tethered buffalo from stake to stake across harvested fields; each animal grazes a perfect circle it cannot leave, and the ones that pull free trail their ropes and come back at dusk anyway.",
   "human_question": "What keeps us going round the same circle, even when the rope is long?",
-  "premise": {
-    "story": "One herder's day and season: moving stakes, untying and retying, bringing the herd home, and the herder's own account of the animals, the land and their livelihood.",
-    "place": "Harvested paddy fields and tank bunds in the dry north, flat to the horizon, with worn circles in the stubble around each stake.",
-    "experience": "Slow, hot, repetitive rhythm; the viewer begins to see circles everywhere without being told to."
+  "situation": {
+    "what_happens": "After harvest the fields are opened to grazing, and animals are tethered to stakes so that they feed without straying into anything still standing. Each morning the herder drives the stakes in, and by afternoon the stubble around each one is eaten down to a circle. The stakes are pulled and moved as the grazing is used up, day after day, through a season. Sometimes an animal works itself loose and wanders with the rope still trailing, and at dusk it is brought back and tied again.",
+    "who_is_involved": "A herder whose living is the animals; the family who share the work and the milk; the owners of the land whose stubble is grazed; and the animals, whose whole day the rope decides.",
+    "what_is_at_stake": "The condition of the animals and so a household's income; the goodwill of the people whose fields are used; and the herder's own days, which the same circuit takes.",
+    "how_it_unfolds": "It begins before light and repeats with small variations until the grazing or the season runs out. The pressures are heat, water, the length of the rope and a market the herder does not set. It ends when the fields are ploughed again, when animals are sold, or when the young in the family decide not to continue. Reality decides which of those comes first."
+  },
+  "concept_merge": {
+    "why_together": "C074 supplies the image the sources use themselves: the fetters are explained as a cow on a long rope tied to a post, able to move but never leaving its circle, and as cows loosed from the post with their ropes still attached, roaming further and still not free [C074-P:L544; C074-P:L621–L623; C074-M:L90]. C033 supplies what the rope is tied to: a root is what keeps a thing standing on its object [C033-M:L7]. One is the tie, the other is the holding.",
+    "what_it_reveals": "That freedom of movement and freedom are different things, and that the subtle tie outlasts the obvious one. C074 alone gives the picture, C033 alone gives the principle. Together they show why a long rope can feel like liberty, and why the sources describe cutting one as staged work rather than a decision."
   },
   "concept_links": [
     {
       "concept_id": "C074",
       "role": "primary",
-      "why": "The fetters are explained with this image: a cow on a long rope tied to a post can move but never leaves its circle, and cows let loose with their ropes still attached roam further but are not free (P L544, L621–L623; M L90)."
+      "why": "The digest reports the sources' own simile for the fetters: a cow on a long rope round a post, and cows let loose from the post still dragging their ropes, roaming further but bound [C074-P:L544; C074-P:L621–L623; C074-M:L90]. It also records that these ties are undone in stages and that practice only suppresses them. The film uses the animals' real tethering; the doctrine is never spoken over it."
     },
     {
       "concept_id": "C033",
       "role": "supporting",
-      "why": "The roots hold the mind firmly on its object as a tree's roots hold it standing [C033-M:L5–L7]: what keeps a thing in place, not what started it."
+      "why": "The digest's sense of a root as what holds a thing in place rather than what started it [C033-M:L7] is exactly what a stake does. It is supporting only: the film is about being tied, and the roots explain what tying means."
     }
   ],
-  "what_camera_could_observe": [
-    "Animals tethered at dawn and the grazed circles around each stake",
-    "The herder pulling stakes, walking, hammering them in again",
-    "An animal wandering off with its rope still trailing",
-    "Water at the tank, egrets, heat haze",
-    "Dusk: bringing the herd home and tying them again"
-  ],
-  "what_must_be_real": "The herder's real work, animals and livelihood. The rope and circle are never set up or lingered on as a sermon.",
-  "possible_arc": {
-    "opening": "Dawn, a stake, a circle of bare ground.",
-    "turn": "An animal wanders loose, still trailing its rope.",
-    "ending_open": "Dusk and the retying. Whatever the herder says about their animals and their own days closes the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A herder with tethered buffalo or cattle on open paddy or tank land",
-      "A season when the grazing circles are visible",
-      "The herder's consent to be followed over several days"
-    ],
-    "suggestions": [
-      {
-        "name": "Paddy and tank lands of the Vanni",
-        "region": "Kilinochchi and Mullaitivu districts, Northern Province",
-        "why": "Broad dry-zone paddy country where cattle and buffalo graze on fields and tank bunds.",
-        "season_notes": "After harvest, when fields are open to grazing",
-        "access_notes": "",
-        "verify": "Region-level suggestion; confirm tethered grazing is practised and find a herder.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "A long rope can feel like freedom. The texts picture what binds us as a rope tied to a post: the animal can move, but only round its circle, and one let loose while still trailing its rope is not yet free.",
+  "what_must_be_real": "The herder's work, animals and livelihood. No rope is arranged, no animal is released or restrained for the camera, and the circle is never staged or held on as a sermon.",
+  "position_hint": "middle: the group's plainest picture of being stuck, placed after the films about not seeing clearly and before the films about people differing from one another.",
   "risks": [
-    "Heavy-handed symbolism if the rope shot is cut too neatly",
-    "Reducing the herder to a metaphor",
-    "Post-war sensitivities in the north must be respected"
+    "Heavy-handed symbolism if the image is cut too neatly.",
+    "Reducing the herder to a metaphor.",
+    "Sliding into 'just let go of your attachments'; the digest says the sources describe these ties as loosened in stages and uprooted only by path-knowledge, not chosen away.",
+    "Animal welfare: tethering must be shown as the herder's ordinary practice, not as cruelty and not as an argument.",
+    "Communities that have lived through conflict or displacement may read images of tethering very differently; the film must not lay its image over their history."
   ],
   "drop_if": [
-    "No herder in the region tethers animals in this way"
+    "Tethered grazing of this kind is not actually practised by a herder willing to be followed."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0056",
-      "relation": "pairs with",
-      "note": "Being tied, in two kinds of rural work."
-    },
-    {
       "idea_id": "IDEA-0058",
       "relation": "mirrors",
-      "note": "What holds by tethering here; what holds by rooting in the mangroves."
+      "note": "Two ways of being held: a tether and a root."
+    },
+    {
+      "idea_id": "IDEA-0054",
+      "relation": "pairs with",
+      "note": "A decision that will not land, and a circle that cannot be left."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries the group's fifth episode and holds the sources' own image for the fetters."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

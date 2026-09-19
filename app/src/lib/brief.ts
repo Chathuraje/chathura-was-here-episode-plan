@@ -243,31 +243,25 @@ Sources: ${lesson.sources.map((source) => `${source.concept_id} (${source.citati
     out.push(`**Group lesson (${group.title}):** ${group.lesson.in_simple_terms}`);
   }
 
-  const includeSourceLocations = brief.source_ideas.length > 1;
   const ideaBlocks = brief.source_ideas.map((context, index) => {
     const sourceIdea = context.idea;
-    const locationContext = includeSourceLocations ? `
-
-**Source-idea location requirements**
-${list(sourceIdea.location.requirements)}
-
-**Source-idea location suggestions (AI suggestions, never selections)**
-${sourceIdea.location.suggestions.length ? list(sourceIdea.location.suggestions.map((suggestion) => `${suggestion.name}, ${suggestion.region}. ${suggestion.why}${suggestion.verify ? ` Verify: ${suggestion.verify}` : ""}`)) : "- none"}` : "";
     return `### ${index + 1}. ${sourceIdea.id} ${sourceIdea.title} (${context.presentation_role})
-**Logline:** ${sourceIdea.logline}
+**In one line:** ${sourceIdea.logline}
 
 **Human question:** ${sourceIdea.human_question}
 
-**Story:** ${sourceIdea.premise.story}
-**Place:** ${sourceIdea.premise.place}
-**Experience:** ${sourceIdea.premise.experience}
+**The situation**
+- What happens: ${sourceIdea.situation.what_happens}
+- Who is involved: ${sourceIdea.situation.who_is_involved}
+- What is at stake: ${sourceIdea.situation.what_is_at_stake}
+- How it unfolds: ${sourceIdea.situation.how_it_unfolds}
 
-**What the camera could observe**
-${list(sourceIdea.what_camera_could_observe)}
+**Why these concepts merge:** ${sourceIdea.concept_merge.why_together}
+**What the merge reveals:** ${sourceIdea.concept_merge.what_it_reveals}
+
+**What the viewer could come to understand:** ${sourceIdea.what_the_viewer_could_understand}
 
 **What must be real:** ${sourceIdea.what_must_be_real}
-
-**Possible arc:** opening: ${sourceIdea.possible_arc.opening} Turn: ${sourceIdea.possible_arc.turn} Ending (left open): ${sourceIdea.possible_arc.ending_open}
 
 **Risks**
 ${list(sourceIdea.risks)}
@@ -279,14 +273,19 @@ ${list(sourceIdea.drop_if)}
 ${context.related_ideas.length ? list(context.related_ideas.map((related) => `${related.id} ${related.title}: ${related.relation}. ${related.note}`)) : "- none"}
 
 **Unknowns**
-${list(sourceIdea.unknowns)}${locationContext}
+${list(sourceIdea.unknowns)}
 
-**Evidence boundary:** ${sourceIdea.evidence_class_note}`;
+**Selection:** ${sourceIdea.selection.recommendation}${sourceIdea.selection.merged_with.length ? ` (merged with ${sourceIdea.selection.merged_with.join(", ")})` : ""}. ${sourceIdea.selection.reason}
+
+**Evidence boundary:** ${sourceIdea.evidence_class_note}
+
+_Ideas carry no location, scene or shot decisions. Those are chosen later, on the episode._`;
   });
   out.push(`## 3. Source idea context${brief.source_ideas.length > 1 ? "s" : ""}
 ${ideaBlocks.join("\n\n")}`);
 
-  const location = ep ? ep.episode.location : idea.location;
+  const location = ep?.episode.location;
+  if (location) {
   out.push(`## 4. Location (Chathura selects)
 **Selected location:** ${ep?.place ? `${ep.place.name}, ${ep.place.region} (${ep.place.id}, chosen by Chathura, decision ${ep.place.decision_id})${ep.place.note ? `. Note: ${ep.place.note}` : ""}` : location.selected_location_id ?? "none; awaiting Chathura's choice. Location-dependent work (treatment, screenplay) cannot advance until Chathura selects."}
 **Name reveal policy:** ${location.name_reveal_policy}
@@ -297,6 +296,7 @@ ${list(location.requirements)}
 
 **AI suggestions (not selections)**
 ${location.suggestions.length ? list(location.suggestions.map((s) => `${s.name}, ${s.region}. ${s.why}${s.season_notes ? ` Season: ${s.season_notes}.` : ""}${s.access_notes ? ` Access: ${s.access_notes}.` : ""} Verify: ${s.verify ?? "unverified"}`)) : "- none offered"}`);
+  }
 
   const conceptBlocks = brief.concepts.map((concept) => {
     const digest = concept.digest;

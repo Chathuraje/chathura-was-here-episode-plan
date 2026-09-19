@@ -4,86 +4,64 @@
   "record_type": "idea",
   "title": "What the Regulars Order",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "At a roadside short-eats stall in the city at dusk, a regular orders without looking up, and a friend talks a first-timer into trying the hottest thing on the griddle.",
+  "logline": "At a roadside food stall at dusk, a regular orders without looking up, and a friend talks a first-timer into trying the hottest thing on the griddle.",
   "human_question": "How much of what we crave is the food, and how much is the ritual of ordering it?",
-  "premise": {
-    "story": "An evening at a roadside food stall: the vendor's rhythm, a regular's wordless order, a group of friends pushing a newcomer to try something, and the small satisfactions and disappointments of a single evening's trade.",
-    "place": "A roadside short-eats or kottu stall on a busy city street at dusk.",
-    "experience": "Sizzle, smoke and spice; the pull of smell before sight; the small theatre of ordering, waiting and the first bite."
+  "situation": {
+    "what_happens": "A food stall opens for the evening and works until the trade dies. Regulars order the same thing every night without discussion, some of them barely speaking. A group arrives with somebody who has never eaten there, and the others push them into trying the strongest thing on offer. The vendor cooks through all of it at one unvarying pace, and closes up when it is over.",
+    "who_is_involved": "A vendor and whoever helps them, working a long standing shift; regulars for whom this is part of the day rather than an event; a first-timer and the friends enjoying their reaction.",
+    "what_is_at_stake": "For the vendor, a night's takings and a trade that depends on regulars who will come in any weather. For the regulars, very little, which is exactly what makes it interesting. For the first-timer, a small social test.",
+    "how_it_unfolds": "An evening's trade rises, peaks and falls, and the same shape repeats nightly until something interrupts it: weather, illness, a licence, a road. Whether the first-timer enjoys it, and whether the regulars say anything at all about why they come, is not arrangeable."
+  },
+  "concept_merge": {
+    "why_together": "C004 contributes the everyday sense-sphere world itself, where sight, smell, sound and taste arrive together and are reached for, with delight in one person and flat habit in another. C005 contributes the reminder that ordinary appetite is one of the many occasions on which greed-rooted minds are said to arise, and that eating to quiet hunger is not counted as unwholesome, so nobody at the stall is being accused of anything.",
+    "what_it_reveals": "That habit is the quietest form of reaching, and that urging a friend into something is the same reaching arriving by another route. The everyday register makes both visible without any occasion to dress them up."
   },
   "concept_links": [
     {
       "concept_id": "C004",
       "role": "primary",
-      "why": "This is the concept's own story seed: sight, smell, sound and taste making up the everyday sense-sphere world, with wanting arising both spontaneously and through a friend's urging [C004-P:L25] [C004-M:L21]."
+      "why": "This is the digest's own story seed: an evening roadside stall with regulars and first-timers, where sight, smell, sound and taste make up the ordinary sense-sphere world [C004-P:L25] and wanting shows up with joy in some and flat habit in others [C004-M:L17]."
     },
     {
       "concept_id": "C005",
       "role": "supporting",
-      "why": "The vendor's craft and the regular's habitual order sit beside the concept's account of ordinary appetite as one of the many everyday occasions greed-rooted minds arise, without turning either person into a specimen [C005-M:L5]."
+      "why": "Tasty food is among the source's everyday occasions of greed-rooted minds, while eating to relieve hunger is explicitly not counted as unwholesome [C005-M:L5] [C005-M:L13]; the digest warns against turning ordinary appetite into a moral specimen."
     }
   ],
-  "what_camera_could_observe": [
-    "Griddle smoke and the vendor's hands",
-    "A regular ordering without a word",
-    "A newcomer being urged to try something new",
-    "The first bite and its reaction",
-    "The stall closing up for the night"
-  ],
-  "what_must_be_real": "The vendor's actual trade and the customers' own words about why they come. No dialogue written for them.",
-  "possible_arc": {
-    "opening": "Smoke and light against a darkening street.",
-    "turn": "A newcomer tries the stall's specialty for the first time.",
-    "ending_open": "The stall closes for the night, busy or quiet, as it actually happens."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active roadside food stall with a consistent evening trade",
-      "A vendor and regulars willing to speak on camera",
-      "Safe filming position on a public street"
-    ],
-    "suggestions": [
-      {
-        "name": "A roadside short-eats stall in Colombo",
-        "region": "Western Province",
-        "why": "Colombo has many long-running roadside food stalls with steady evening trade.",
-        "season_notes": "",
-        "access_notes": "Specific stall unconfirmed.",
-        "verify": "No vendor has been contacted; this is a plausible setting, not a confirmed location.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Most wanting is not an event. It is an order placed without looking up, and it can also arrive because a friend pushed you into it, and both are the same reaching.",
+  "what_must_be_real": "The vendor's actual trade and the customers' own words about why they come. No dialogue written for anyone and nobody urged to order for the film.",
+  "position_hint": "middle, if ever revived: it belongs beside the group's beats on habitual and prompted wanting rather than on its own.",
   "risks": [
     "Turning ordinary appetite into a moral specimen",
     "Food-tourism framing that flattens the vendor's working life",
-    "Traffic and safety on a busy street"
+    "Filming on a busy public road"
   ],
   "drop_if": [
-    "No vendor will allow filming through a full evening's trade"
+    "No vendor will let a full evening's trade be part of the film"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0021",
-      "relation": "pairs with",
-      "note": "Two tables: one of habitual daily appetite, one of festive urging to eat more."
+      "relation": "merged into",
+      "note": "Its substance now sits inside IDEA-0021: appetite in its plain everyday form, ordered without a word and eaten without ceremony."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0021",
+    "reason": "It repeats the prompted-and-unprompted eating beat that IDEA-0021 already carries on the sources' own example; its everyday, unceremonious register is folded into that idea instead."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

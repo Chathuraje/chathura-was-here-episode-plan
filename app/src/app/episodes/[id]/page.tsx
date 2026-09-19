@@ -88,9 +88,10 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
           <section className="source-document">
             <p className="lead-question">{idea.human_question}</p>
             <div className="layer-grid">
-              <div><span className="layer-label">Story</span><p>{idea.premise.story}</p></div>
-              <div><span className="layer-label">Place</span><p>{idea.premise.place}</p></div>
-              <div><span className="layer-label">Experience</span><p>{idea.premise.experience}</p></div>
+              <div><span className="layer-label">What happens</span><p>{idea.situation.what_happens}</p></div>
+              <div><span className="layer-label">Who is involved</span><p>{idea.situation.who_is_involved}</p></div>
+              <div><span className="layer-label">What is at stake</span><p>{idea.situation.what_is_at_stake}</p></div>
+              <div><span className="layer-label">How it unfolds</span><p>{idea.situation.how_it_unfolds}</p></div>
             </div>
             <p className="panel-note">Concepts: {brief.concepts.map((concept) => `${concept.id} (${concept.role})`).join(" · ")}</p>
           </section>

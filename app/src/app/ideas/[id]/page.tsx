@@ -8,7 +8,6 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
   if (!brief) notFound();
   const { idea, group, object } = brief;
   const markdown = briefToMarkdown(brief);
-  const location = idea.location;
 
   return (
     <>
@@ -29,21 +28,22 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
           <section className="source-document">
             <p className="lead-question">{idea.human_question}</p>
             <div className="layer-grid">
-              <div><span className="layer-label">Story</span><p>{idea.premise.story}</p></div>
-              <div><span className="layer-label">Place</span><p>{idea.premise.place}</p></div>
-              <div><span className="layer-label">Experience</span><p>{idea.premise.experience}</p></div>
+              <div><span className="layer-label">What happens</span><p>{idea.situation.what_happens}</p></div>
+              <div><span className="layer-label">Who is involved</span><p>{idea.situation.who_is_involved}</p></div>
+              <div><span className="layer-label">What is at stake</span><p>{idea.situation.what_is_at_stake}</p></div>
+              <div><span className="layer-label">How it unfolds</span><p>{idea.situation.how_it_unfolds}</p></div>
             </div>
+            <p className="panel-note">An idea carries no location, scene or shot decisions. Those come later, on the episode.</p>
           </section>
 
           <section className="source-document">
-            <div className="source-document-head"><div><span>Film</span><h2>What the camera could observe</h2></div></div>
-            <ul className="plain-list">{idea.what_camera_could_observe.map((item) => <li key={item}>{item}</li>)}</ul>
+            <div className="source-document-head"><div><span>Concept merge</span><h2>Why these concepts belong together</h2></div></div>
+            <div className="layer-grid">
+              <div><span className="layer-label">Why together</span><p>{idea.concept_merge.why_together}</p></div>
+              <div className="layer-depth"><span className="layer-label">What the merge reveals</span><p>{idea.concept_merge.what_it_reveals}</p></div>
+              <div><span className="layer-label">What the viewer could come to understand</span><p>{idea.what_the_viewer_could_understand}</p></div>
+            </div>
             <p><b>Must be real:</b> {idea.what_must_be_real}</p>
-            <ol className="arc-steps">
-              <li><b>Opening</b>{idea.possible_arc.opening}</li>
-              <li><b>Turn</b>{idea.possible_arc.turn}</li>
-              <li><b>Ending (left open)</b>{idea.possible_arc.ending_open}</li>
-            </ol>
           </section>
 
           <section className="source-document">
@@ -69,26 +69,14 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
         </article>
 
         <aside className="concept-aside">
-          <section className="panel location-panel">
-            <h2>Location</h2>
-            <p className="panel-note"><b>Selected:</b> {location.selected_location_id ?? "none, awaiting Chathura"}</p>
-            <p className="panel-note"><b>Name reveal:</b> {location.name_reveal_policy}</p>
-            <span className="layer-label">Requirements</span>
-            <ul>{location.requirements.map((item) => <li key={item}>{item}</li>)}</ul>
-            {location.suggestions.length > 0 && (
-              <>
-                <span className="layer-label">AI suggestions (not selections)</span>
-                <ul>
-                  {location.suggestions.map((suggestion) => (
-                    <li key={suggestion.name}>
-                      <b>{suggestion.name}</b>, {suggestion.region}. {suggestion.why}
-                      {suggestion.season_notes && <> Season: {suggestion.season_notes}.</>}
-                      <em> Verify: {suggestion.verify}</em>
-                    </li>
-                  ))}
-                </ul>
-              </>
+          <section className="panel">
+            <span className="layer-label">Selection</span>
+            <h2>{idea.selection.recommendation}</h2>
+            <p className="panel-note">{idea.selection.reason}</p>
+            {idea.selection.merged_with.length > 0 && (
+              <p className="panel-note">Merged with: {idea.selection.merged_with.map((id) => <Link key={id} href={`/ideas/${id}`}>{id} </Link>)}</p>
             )}
+            {idea.selection.superseded_by && <p className="panel-note">Superseded by <Link href={`/ideas/${idea.selection.superseded_by}`}>{idea.selection.superseded_by}</Link></p>}
           </section>
           <section className="panel">
             <h2>Placement</h2>

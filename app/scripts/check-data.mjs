@@ -136,7 +136,18 @@ if (fs.existsSync(development)) {
   check("Idea IDs match file names", ideas.every((idea) => /^IDEA-\d{4}$/.test(idea.id) && idea.name === `${idea.id}.json`));
   check("Ideas point to existing groups and concepts", ideas.every((idea) => groups.some((group) => group.id === idea.group_id) && idea.concept_links.every((link) => conceptIds.has(link.concept_id))));
   check("Idea connections resolve", ideas.every((idea) => idea.connections.every((connection) => ideaIds.has(connection.idea_id))));
-  check("Location suggestions are never selections", ideas.every((idea) => idea.location.suggestions.every((suggestion) => suggestion.status === "ai_suggestion") && (idea.location.selected_location_id === null || idea.location.selected_location_decision_id)));
+  check("Ideas carry no location or shot decisions", ideas.every((idea) => !idea.location && !idea.what_camera_could_observe && !idea.possible_arc && !idea.premise),
+    ideas.filter((idea) => idea.location || idea.what_camera_could_observe || idea.possible_arc || idea.premise).map((idea) => idea.id).join(", "));
+  const ideaShape = ["logline", "human_question", "what_the_viewer_could_understand", "what_must_be_real"];
+  check("Ideas describe a situation and a concept merge", ideas.every((idea) => ideaShape.every((field) => typeof idea[field] === "string" && idea[field].trim())
+    && idea.situation?.what_happens && idea.situation?.who_is_involved && idea.situation?.what_is_at_stake && idea.situation?.how_it_unfolds
+    && idea.concept_merge?.why_together && idea.concept_merge?.what_it_reveals),
+    ideas.filter((idea) => !idea.situation?.what_happens || !idea.concept_merge?.why_together).map((idea) => idea.id).join(", "));
+  const recommendations = new Set(["keep", "merge", "hold", "drop"]);
+  check("Every idea carries a selection decision", ideas.every((idea) => recommendations.has(idea.selection?.recommendation)
+    && (idea.selection.merged_with ?? []).every((id) => ideaIds.has(id))
+    && (idea.selection.superseded_by === null || ideaIds.has(idea.selection.superseded_by))),
+    ideas.filter((idea) => !recommendations.has(idea.selection?.recommendation)).map((idea) => idea.id).join(", "));
 
   const episodes = readJson("episodes").sort((a, b) => a.chronology.global_position - b.chronology.global_position);
   const decisions = readJson("decisions");
@@ -146,6 +157,10 @@ if (fs.existsSync(development)) {
     check("Episode IDs match file names", episodes.every((episode) => /^EPD-\d{4}$/.test(episode.id) && episode.name === `${episode.id}.json`));
     check("Exactly 98 development episodes", episodes.length === 98, `${episodes.length} episodes`);
     check("Episode global positions run 1..n without gaps", episodes.every((episode, index) => episode.chronology.global_position === index + 1));
+    check("Episodes use only kept or merged ideas", episodes.every((episode) => episode.idea_ids.every((id) => {
+      const idea = ideas.find((entry) => entry.id === id);
+      return idea && (idea.selection?.recommendation === "keep" || idea.selection?.recommendation === "merge");
+    })), episodes.filter((episode) => episode.idea_ids.some((id) => !["keep", "merge"].includes(ideas.find((entry) => entry.id === id)?.selection?.recommendation))).map((episode) => episode.id).join(", "));
     check("Episodes reference existing ideas", episodes.every((episode) => episode.idea_ids.length && episode.idea_ids.every((id) => ideaIds.has(id))));
     const usedIdeas = episodes.flatMap((episode) => episode.idea_ids);
     check("Each idea is used by at most one episode", new Set(usedIdeas).size === usedIdeas.length);

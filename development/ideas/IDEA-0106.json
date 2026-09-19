@@ -4,95 +4,76 @@
   "record_type": "idea",
   "title": "Between Two Rounds",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "At a small temple-run elders' home, the same two carers move within one hour from helping a resident through a hard, frightened moment to sitting with another whose grandchild has just visited with good news.",
+  "logline": "At a small elders' home, the same two carers move within one hour from helping a resident through a hard, frightened moment to sitting with another whose grandchild has just visited with good news.",
   "human_question": "Can the same person really be fully present for someone's pain and someone else's joy within the same hour?",
-  "premise": {
-    "story": "A single day of care at a small elders' home, following two carers through its real range of moments.",
-    "place": "A modest elders' home run by a temple or small charity.",
-    "experience": "The quiet, practical texture of care work: routine, discomfort, a visit, a shift in mood, and back again."
+  "situation": {
+    "what_happens": "Two carers work a shift in a small residential home for old people. The day is mostly routine: washing, feeding, medication, moving people, waiting. Inside it, the demands change completely from room to room. One resident is frightened or in pain and needs someone to stay. Another has had a visitor and wants to talk about it. A third wants nothing and is left alone. The carers move between these without any transition and without naming what they are doing.",
+    "who_is_involved": "Two carers on the same shift, probably underpaid and certainly under-staffed; residents with varying capacity to consent; families who visit, and families who do not; whoever runs the home.",
+    "what_is_at_stake": "For the residents, dignity and the right not to be looked at. For the carers, being judged on the hardest hour of their week. For the viewer, whether care is a mood a person has or a response they keep making.",
+    "how_it_unfolds": "A shift has a fixed frame and unpredictable contents. Its pressures are staffing, illness, deaths, family conflict, and the emotional cost of doing this for years. It ends with a handover and begins again. Reality decides what any single day contains, whether the good news arrives while anyone is there, and whether the carers will describe the switching for themselves."
+  },
+  "concept_merge": {
+    "why_together": "C030's ledger of which factors can join which minds carries the specific rule this film rests on: the occasional beautiful factors arrive one at a time, so compassion and gladness cannot fill the same moment. C095 gives the four shapes one care can take and names the failure of each, including the even-mindedness that remains when nothing more can be done. C024 adds that these two are the boundless factors, which are supposed to reach whoever is in front of you rather than the residents a carer happens to like. Together they describe the actual texture of care work as a rapid alternation rather than a temperament.",
+    "what_it_reveals": "That what looks like one continuous quality in a good carer is, in this account, a fast sequence of different responses, and that its discipline is impartiality rather than intensity."
   },
   "concept_links": [
     {
       "concept_id": "C030",
       "role": "primary",
-      "why": "Compassion and sympathetic joy each need a specific person actually in view and cannot be felt in the same instant, illustrated here by carers moving between one resident's pain and another's good news [C030-P:L25; C030-P:L39]."
+      "why": "Compassion and sympathetic joy each need a specific person actually in view, and the occasional beautiful factors arise one at a time [C030-P:L25; C030-P:L39]. An honest note from the digest: the narrow point the film rests on, that compassion and gladness never share a moment, is supported in both sources [C027-M:L7], while the wider rule that only one of the five occasional beautiful factors arises at a time comes from one source and is flagged for expert check."
     },
     {
       "concept_id": "C095",
       "role": "supporting",
-      "why": "The fourth sublime abiding, equanimity, describes what a carer needs once there is nothing more they can do for someone [C095-P4:L39]."
+      "why": "The four abidings include equanimity, described as what remains when there is nothing more to be done, and its failure is ignorant indifference, so stepping back is not the same as ceasing to care [C095-P4:L39; C095-P4:L60]."
     },
     {
       "concept_id": "C024",
       "role": "supporting",
-      "why": "Compassion and sympathetic joy are the two variable 'boundless' factors, meant to be extended without favourites among the people cared for [C024-P:L81; C024-P:L91]."
+      "why": "Compassion and sympathetic joy are the two boundless factors, arising only when a suffering or a happy being is in view and meant to extend without favourites [C024-P:L81; C024-P:L91]. Here, among people who are not the carers' own kin, the source's demand for impartiality applies straightforwardly."
     }
   ],
-  "what_camera_could_observe": [
-    "Morning care routines",
-    "A resident in discomfort being helped through a hard moment",
-    "A grandchild's visit and its aftermath",
-    "The carers moving from one room, and one need, to the next"
-  ],
-  "what_must_be_real": "Residents' full capacity to give informed consent, or family and guardian consent where needed. No exposure of frailty for effect.",
-  "possible_arc": {
-    "opening": "The home waking up, routines beginning.",
-    "turn": "A hard, frightened moment with one resident.",
-    "ending_open": "Whatever the rest of the day actually holds, good and difficult alike."
-  },
-  "position_hint": "closing candidate: hands the group off to the next stage's concern with the body's fragility, seen here in the old and the tired, cared for by others",
-  "location": {
-    "requirements": [
-      "A small elders' home willing to allow filming with full institutional and resident consent",
-      "Residents and families capable of giving genuine, ongoing consent",
-      "Carers willing to be followed and interviewed"
-    ],
-    "suggestions": [
-      {
-        "name": "A small temple-run or charity elders' home",
-        "region": "Region-level, unspecified",
-        "why": "No specific home is named; this requires direct outreach and consent wherever it is filmed.",
-        "season_notes": "",
-        "access_notes": "Institutional and family permission required.",
-        "verify": "No specific home, carer or resident has been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Care is not one fixed mood: compassion arises toward someone who is suffering and gladness toward someone who is happy, each answering the person actually in front of you, so the same carer moves between them within an hour.",
+  "what_must_be_real": "Residents' own informed, ongoing consent, or their families' and guardians' where capacity is limited, with the right to withdraw at any time. No frailty shown for effect, no moment of distress filmed that the person has not agreed to, and no scheduling of care around the film.",
+  "position_hint": "closing candidate: it turns the group's warmth toward bodies that are failing, which is where the next stage begins.",
   "risks": [
-    "High: elders' dignity and capacity to consent",
-    "Institutional and family permission required throughout, and may be withdrawn at any point",
-    "Must not expose frailty for emotional effect"
+    "High: residents' dignity and their capacity to consent",
+    "Institutional and family permission may be withdrawn at any point",
+    "Exposing frailty for emotional effect",
+    "Implying that anybody's age, illness or dependence is explained by what they did earlier in life"
   ],
   "drop_if": [
-    "The home or its residents cannot give informed, ongoing consent"
+    "The home or its residents cannot give informed, ongoing consent",
+    "Filming would change how care is given"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0105",
       "relation": "pairs with",
-      "note": "Both are closing candidates for the group, handing off to the next stage's concern with the body's fragility."
+      "note": "Both are closing candidates handing the group on to the body's fragility, one among the sick and one among the old."
     },
     {
       "idea_id": "IDEA-0098",
       "relation": "mirrors",
-      "note": "Both ask how one person's care changes shape for different people within the same day."
+      "note": "Both ask how one person's care changes shape for different people within the same day, one among kin and one among strangers."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and the group's clearest carrier of the ledger of factors in ordinary good minds."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

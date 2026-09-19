@@ -4,87 +4,71 @@
   "record_type": "idea",
   "title": "The Last Ticket",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "At a crowded railway station, a man near the front of a long queue watches the board change just before his turn, and the seat he wanted is gone.",
+  "logline": "In a long queue for tickets, a traveller near the front watches the board change just before his turn, and the seat he wanted is gone.",
   "human_question": "What does the last, ordinary minute of not getting what you wanted actually feel like?",
-  "premise": {
-    "story": "A single day at a busy railway station's ticket counters: the queue, the small talk and impatience within it, and one traveller's wait ending not in a ticket but in a board that says the train is full, followed by whatever they do next.",
-    "place": "A city railway station's ticket hall and platforms.",
-    "experience": "The particular tension of a queue, the ordinary hum of a station, and the small, private deflation of arriving one place too late."
+  "situation": {
+    "what_happens": "A queue forms for a limited number of seats on a journey many people want to make on the same day. The wait develops its own small society: complaints, phone calls, people holding places for others. Somewhere in the middle of it the supply runs out, and the news travels backwards along the line. Those near the front who miss it by a few places take it hardest, and then have to decide what to do with the rest of the day.",
+    "who_is_involved": "Travellers whose reasons for the journey have nothing in common: a holiday, a funeral, a job, an obligation that cannot be moved; the staff who spend the day saying no; people queuing on someone else's behalf.",
+    "what_is_at_stake": "For each traveller, something different and mostly invisible to everyone else, from a day out to being present for something that will not wait. For the staff, delivering a refusal they did not cause. This is exactly why the film cannot treat the queue as one appetite with one face.",
+    "how_it_unfolds": "Queues like this build, peak and dissolve within a few hours, and the refusal arrives as an ordinary administrative fact rather than as a confrontation. What follows varies: waiting for the next one, paying more elsewhere, arguing, giving up, going home. Nothing about the refusal can be arranged, and it must never be provoked or announced in advance."
+  },
+  "concept_merge": {
+    "why_together": "C005 contributes both halves of the source's own distinction: ordinary spending and pleasure trips are listed among the everyday occasions of greed-rooted minds, and the same act done out of need or practical wisdom is explicitly not counted as unwholesome. In one queue, both are standing in line and cannot be told apart. C006 contributes the fact that the queue is also made of two kinds of wanting, one that rose on its own and one that somebody else pressed on the person, and the refusal falls on both in exactly the same way.",
+    "what_it_reveals": "That the group's subject has been running quietly under something as unremarkable as waiting for a seat, and that the wall it meets is not dramatic at all: a board changes. It also shows why the sources' distinction by aim is not a way of sorting a crowd. Nobody in the line can be placed from outside, and the film must not try."
   },
   "concept_links": [
     {
       "concept_id": "C005",
       "role": "primary",
-      "why": "The daily, habitual reaching for a wanted seat or ticket is exactly the concept's territory of ordinary occasions for wanting, and this idea shows what happens on the day that ordinary reaching is refused [C005-M:L5] [C005-M:L7]."
+      "why": "Spending on what we like and going on pleasure trips are among the source's everyday occasions for greed-rooted minds [C005-M:L5] [C005-M:L7], and the same source is equally explicit that an act done out of need or practical wisdom is not counted as unwholesome [C005-M:L9]. A queue holds both, which is the point; the digest also notes that the source does not say what kind of mind those excluded cases are instead, so the film must not fill that gap."
     },
     {
       "concept_id": "C006",
       "role": "supporting",
-      "why": "Some travellers queue from habit and expectation, unprompted, while others are pushed to try by a friend's urging or a family's need; the refusal falls on both kinds of wanting alike [C006-M:L5]."
+      "why": "Some travellers queue unprompted, out of habit and expectation, while others are pushed to try by a friend or by a family's need; the sources count both as wanting and treat prompting as including one's own coaxing of a hesitating mind [C006-M:L5] [C006-P:L44]. The refusal makes no distinction between them."
     }
   ],
-  "what_camera_could_observe": [
-    "The queue lengthening as the counter opens",
-    "Small talk, impatience and waiting among travellers",
-    "The departures board changing",
-    "The moment a traveller is told there is no seat left",
-    "What the traveller does next: wait, argue, or leave"
-  ],
-  "what_must_be_real": "A real queue, a real day's ticket sales, and travellers' own, unscripted reactions. No refusal staged.",
-  "possible_arc": {
-    "opening": "A queue forming before the counters even open.",
-    "turn": "The board changes; word moves back through the queue.",
-    "ending_open": "Whatever the traveller actually does next leads the ending."
-  },
-  "position_hint": "closing candidate: an ordinary, unforced image of wanting refused, small in scale but exact for the group's closing beat.",
-  "location": {
-    "requirements": [
-      "A busy railway station with a real ticket queue and genuine demand",
-      "Travellers willing to be filmed and interviewed about being turned away",
-      "Cooperation from station staff for filming in a public transport facility"
-    ],
-    "suggestions": [
-      {
-        "name": "Colombo Fort Railway Station",
-        "region": "Colombo District, Western Province",
-        "why": "Sri Lanka's main railway hub, with heavy demand and long queues for popular routes, especially to the hill country.",
-        "season_notes": "Demand is highest around holidays and long weekends.",
-        "access_notes": "Filming inside a working railway station requires permission from the railway authority.",
-        "verify": "No specific day, queue or traveller has been identified; railway authority permission is unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Wanting can be as ordinary as hoping for a seat on a train, and whether it rose on its own or somebody pushed us to try, a changing board can end it in a second. Not everyone in the queue is wanting in the same way, and nobody watching can tell which is which.",
+  "what_must_be_real": "A real queue on a real day, and travellers' own unscripted reactions. No refusal staged, anticipated aloud, or provoked, and no one interviewed in the minute it lands on them.",
+  "position_hint": "closing candidate: the group's first refusal, deliberately small and administrative, so that the wall arrives without a villain behind it.",
   "risks": [
-    "Travellers' frustration must not be exploited or provoked for the camera",
-    "Filming permissions in a public transport facility",
-    "Risk of the scene feeling staged if the refusal is anticipated rather than found"
+    "Exploiting or provoking travellers' frustration",
+    "Treating everyone in the queue as an instance of the same thing",
+    "The scene feeling arranged if the refusal is anticipated rather than found",
+    "Filming people at a moment they would not have chosen"
   ],
   "drop_if": [
-    "No genuine queue and refusal can be filmed without staging or provoking it",
-    "Railway authority will not permit filming"
+    "No genuine refusal can be part of the film without staging or provoking it",
+    "Travellers cannot consent freely at the moment it happens"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0013",
       "relation": "mirrors",
-      "note": "Hope bought in small doses here meets hope refused all at once there."
+      "note": "Hope bought in small daily doses there, hope refused all at once here."
+    },
+    {
+      "idea_id": "IDEA-0026",
+      "relation": "pairs with",
+      "note": "Two refusals: one delivered by a system that meant nothing by it, one by another person wanting the same thing more."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "The group's turn into refusal, at the smallest possible scale and with the source's own exclusion for need kept intact."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

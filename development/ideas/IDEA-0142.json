@@ -4,85 +4,75 @@
   "record_type": "idea",
   "title": "The Opposing Good",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
   "logline": "A person who once did real harm now spends every day doing quiet, repeated service at a community kitchen, without ever explaining why to the people they serve.",
   "human_question": "Can steady, ordinary good work actually answer for something done long before?",
-  "premise": {
-    "story": "A volunteer's daily routine at a community kitchen or shelter, and, in their own words and own time, why they do this particular work now.",
-    "place": "A community kitchen or shelter in a northern town.",
-    "experience": "Unglamorous daily tasks, chopping, serving, cleaning up, repeated with real steadiness, and a person's own account, offered only if and when they choose, of what led them here."
+  "situation": {
+    "what_happens": "Someone who did serious harm in the past now does daily, unglamorous service in a place that feeds or shelters people: cooking, serving, carrying, cleaning up. The work is repetitive and public; the reason is private, and most of the people served do not know it. Over months the person keeps turning up, and whatever the work is doing for them happens at the speed of ordinary habit rather than in a moment of confession.",
+    "who_is_involved": "The volunteer; the organisation that took them on, and the people who run it; the people who eat or sleep there, who are not part of anybody's redemption; and, unseen and unfilmed, whoever was harmed.",
+    "what_is_at_stake": "For the volunteer, whether the work actually lightens anything, and what it would cost to be recognised. For the organisation, the dignity of its people and its standing in the neighbourhood. For the film, the absolute requirement that a person's past is never disclosed beyond what they choose to say.",
+    "how_it_unfolds": "Arrangements like this usually begin quietly, through someone who vouches, settle into routine, and are tested by perfectly ordinary things: illness, a paid job, money, somebody who recognises them. They tend to end by fading rather than by resolution. Reality decides whether this person wants to say anything at all about why they come, and the film has to work even if the answer is no."
+  },
+  "concept_merge": {
+    "why_together": "Kamma by function (C055) says that results are produced by one action and then propped up, worn down or cut off by others, and the source draws its own picture of this as a farming season: seed sown, the crop tended, a drought that weakens it, a fire that ends it. Its practical conclusion is that someone who has done wrong should deliberately take up the opposing good. The ten unwholesome courses of action (C058) gives harm a definite shape and weight, so that the opposing good is not vague self-improvement. Together they put a mechanism behind a volunteer's routine: not a balance being paid off, but a weaker force being overridden by a stronger.",
+    "what_it_reveals": "That a life's outcome is layered, with several forces acting at once, one starting something, another supporting it, another wearing it down, and that this is the opposite of fate. No act has the last word, and what the source recommends in response to harm is action, repeated, rather than remorse. It also shows the limit: the film can watch the routine and can never see whether it has weakened anything."
   },
   "concept_links": [
     {
       "concept_id": "C055",
       "role": "primary",
-      "why": "The source advises that someone who has done wrong should deliberately take up the opposing good, because a later strong action can weaken an earlier one's force [C055-M:L32-L34]. The film follows someone living that out in their own terms, without ever narrating their past for them."
+      "why": "The source's practical conclusion is that someone who has done wrong should deliberately do the opposing good, because a later strong action can weaken an earlier one's force [C055-M:L34]. Its own image for the four functions is a farming season, sowing, tending, drought and fire [C055-P:L127], which is why this idea carries the whole set of functions and not only the repair. The digest is emphatic that this is not karma points netting out and not 'they deserved it': stronger forces override weaker ones, and the source gives nobody a way to read those forces in any particular person's life."
     },
     {
       "concept_id": "C058",
       "role": "supporting",
-      "why": "Whatever the past harm was, the ten courses of harm this source sets out [C058-M:L3] give the film's viewer, without a single word of doctrine, the sense that harm has a shape and a weight."
+      "why": "The ten courses of action set out what the sources count as harm, and what makes an act heavier or lighter [C058-M:L3]. The link gives the film's idea of harm a shape without naming this person's. The digest's warnings apply in full: statements that an act 'certainly' leads somewhere are doctrinal claims and must never be attached to a real person, and the source's framing of sexual misconduct and of wrong view is historical commentary that the film does not adopt."
     }
   ],
-  "what_camera_could_observe": [
-    "Daily kitchen or shelter work",
-    "The person's manner with those they serve",
-    "A quiet conversation about the present rather than the past",
-    "The routine repeated across different days"
-  ],
-  "what_must_be_real": "A real volunteer with real, ongoing consent to reveal as much or as little of their own history as they choose. The film never demands or reconstructs their past.",
-  "possible_arc": {
-    "opening": "An ordinary morning at the kitchen.",
-    "turn": "A moment where the person is asked, gently, why they do this.",
-    "ending_open": "Whatever they choose to answer, or not. The routine continues either way."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A community kitchen or shelter with a long-term volunteer willing to be filmed and to control their own story",
-      "Full consent over what personal history, if any, is disclosed"
-    ],
-    "suggestions": [
-      {
-        "name": "A community kitchen or shelter in Jaffna or Vavuniya",
-        "region": "Northern Province",
-        "why": "Suggested for northern geographic representation; no specific organisation identified.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No organisation or volunteer confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts teach that no single act has the last word: later actions can strengthen or weaken earlier ones, and someone who has done harm is advised to take up the opposite good.",
+  "what_must_be_real": "The volunteer's work, and their complete control over their own history. Nothing about their past is researched, reconstructed, implied or disclosed beyond what they choose to say, and consent can be withdrawn after filming. The people served are not used as the backdrop of somebody else's story. If the past cannot be left unstated, the film is not made.",
+  "position_hint": "middle: the group's turn from what happens to a life to what a person can still do inside one, after the films about results and before those about harm and death.",
   "risks": [
-    "Exposing a real person's past without their full, ongoing consent",
-    "Turning the film into a redemption narrative that the person has not chosen for themselves",
-    "Any past victims' privacy and feelings"
+    "Exposing a real person's past, or letting the film become the disclosure they did not make",
+    "Imposing a redemption narrative the person has not chosen",
+    "Harm to the privacy and feelings of anyone they hurt",
+    "Letting service read as payment that nets a debt to zero, which the sources deny",
+    "Reading anyone's hardship, the volunteer's or the people served, as their kamma"
   ],
   "drop_if": [
-    "No volunteer will participate under these consent conditions",
-    "The story would require disclosing details the person does not want shared"
+    "No volunteer will take part on these consent terms",
+    "The story would need details the person does not want shared",
+    "The organisation's people cannot be protected from being used as background"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0139",
       "relation": "alternative to",
-      "note": "A different response to the same pressure explored in The Boundary Walk: repair through service rather than dispute over property."
+      "note": "A different response to the same pressure: repair through service rather than a claim over property."
+    },
+    {
+      "idea_id": "IDEA-0141",
+      "relation": "absorbs",
+      "note": "The paddy-season idea is merged here, bringing the source's own field image and with it the full set of four functions, not only the later good that weakens an earlier harm."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0141"
+    ],
+    "superseded_by": null,
+    "reason": "Used by its episode, and now carries the whole of kamma by function after the farming-season idea was folded in."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

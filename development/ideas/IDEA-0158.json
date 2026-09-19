@@ -4,85 +4,63 @@
   "record_type": "idea",
   "title": "The Rope Crossing",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "At a hand-pulled ferry, a passenger takes hold of a rope tied to a tree on the far bank and crosses under their own weight. Nothing of the near bank goes with them, and yet without the near bank they could never have crossed.",
+  "logline": "At a hand-pulled crossing, passengers take hold of a rope and arrive on the far side under their own weight, carrying nothing of the bank they left, and yet without that bank they could not have crossed at all.",
   "human_question": "When something continues, what exactly is it that continues?",
-  "premise": {
-    "story": "A working day at a rope- or chain-pulled river or lagoon crossing: the ferryman's routine, the people and goods who depend on it, and the small talk of a crossing repeated hundreds of times.",
-    "place": "A rural river or lagoon crossing where a hand-pulled ferry or rope crossing still operates.",
-    "experience": "The unhurried rhythm of a crossing: rope through calloused hands, the boat's slow arc, and the exact moment each passenger stands on the far bank on their own two feet."
+  "situation": {
+    "what_happens": "A hand-pulled crossing works all day, taking people, goods and bicycles over water that has no bridge. The person working the rope repeats the same short journey dozens of times. Nothing physically travels from one side to the other except the people and what they carry; the bank they push off from stays where it is, and they land on the far side under their own weight.",
+    "who_is_involved": "The person who works the crossing and is paid per trip or per day; the people who cross every day for work, school or market and who have no alternative; and the households on both sides whose lives are shaped by how long the crossing takes.",
+    "what_is_at_stake": "A livelihood that ends the day a bridge is built, and a community's access to everything on the other side.",
+    "how_it_unfolds": "A crossing like this runs in a repeated daily rhythm and ends, over years, either by being replaced or by being abandoned when the people who used it move away. Whether any such crossing is still operating is the first thing reality decides."
+  },
+  "concept_merge": {
+    "why_together": "C080 supplies the source's own image for rebirth-linking: a man crossing a stream on a rope tied to a tree on the near bank, who lands by his own weight and brings nothing of that bank with him. C081 supplies the frame around it, the methods of identity and diversity that together deny both an unchanging traveller and an unrelated new thing. A crossing is the simile itself as ordinary work.",
+    "what_it_reveals": "It makes literal what the texts say about continuity without transfer: dependence complete, transfer none."
   },
   "concept_links": [
     {
       "concept_id": "C080",
       "role": "primary",
-      "why": "The Pradeepika's own simile for rebirth-linking consciousness: a man crossing a stream on a rope tied to a tree on the near bank, landing by his own weight; continuity with nothing that physically travels."
+      "why": "The Pradeepika explains rebirth-linking with a man crossing a stream on a rope tied to a tree on the near bank, landing by his own weight, with nothing of the near bank coming across; a hand-pulled crossing is that image directly."
     },
     {
       "concept_id": "C081",
       "role": "supporting",
-      "why": "No fixed traveller passes between one state and the next; the near bank does not become the far bank, yet the crossing depends entirely on it, echoing the method of identity and diversity held together."
+      "why": "The methods of identity and diversity together rule out both a fixed traveller and an unconnected new thing, which is what a crossing shows: the far bank is not the near bank, and the crossing depended wholly on the near bank."
     }
   ],
-  "what_camera_could_observe": [
-    "The ferryman working the rope, hand over hand",
-    "Passengers and goods loading and unloading",
-    "The tree and its knot on the near bank",
-    "The boat's slow arc across the water",
-    "The moment each passenger steps off onto solid ground"
-  ],
-  "what_must_be_real": "Whether such a crossing still operates, the ferryman's real livelihood, and the community's real dependence on it.",
-  "possible_arc": {
-    "opening": "The rope taut across still water at first light.",
-    "turn": "A full day's crossings, ordinary and repeated, in all weather.",
-    "ending_open": "Whatever the ferryman and passengers actually say about a crossing they have made for years."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working rope- or hand-pulled ferry crossing still in daily use",
-      "A ferryman willing to be filmed over a working day",
-      "Passengers who genuinely depend on the crossing"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural river or lagoon crossing served by a rope- or hand-pulled ferry",
-        "region": "Eastern Province, Batticaloa lagoon area",
-        "why": "The Batticaloa area has historically had lagoon and river crossings served by small hand-pulled or paddled ferries where bridges have not replaced them.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Whether a rope- or hand-pulled crossing (as opposed to a motorised or bridge crossing) is still operating here must be confirmed before relying on it.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Something can depend entirely on what came before it without anything travelling across from it.",
+  "what_must_be_real": "Whether such a crossing still operates at all, the real livelihood of the person who works it, and the community's real dependence on it.",
+  "position_hint": "middle: it belongs with the group's films about continuity across time rather than support at one moment.",
   "risks": [
-    "Literalising the doctrine onto the ferry itself",
-    "The metaphor overpowering the ferryman's actual life and the community's real dependence on the crossing"
+    "Literalising the doctrine onto the crossing and losing the person who works it.",
+    "Building a film on a simile so exact that the people in it become illustration."
   ],
   "drop_if": [
-    "No such crossing can be found still operating, or it has been replaced by a bridge or motorised boat"
+    "No such crossing is still operating."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0159",
-      "relation": "pairs with",
-      "note": "Both explore continuity without a fixed traveller: nothing crosses over unchanged, yet nothing arises without what came before."
+      "relation": "merged into",
+      "note": "Its C080 grounding and its subject, continuity with nothing carried across, are folded into the roof renewal, where the same point is carried by a craft and a household rather than by a simile enacted."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0159",
+    "reason": "Merged into IDEA-0159, which now carries C080 as a primary link through the skill passed hand to hand; the crossing depended on a simile being acted out in front of the camera."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

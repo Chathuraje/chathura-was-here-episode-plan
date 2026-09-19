@@ -4,102 +4,72 @@
   "record_type": "idea",
   "title": "The Drowned Town",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-04",
-  "logline": "In a dry year the water behind a dam drops, and the streets of a town that was flooded decades ago come back into the air. People who grew up there walk out across the cracked mud, looking for a house that is no longer where they remember it.",
+  "logline": "A dry year drops the water behind a dam far enough for the streets of a town drowned decades ago to come back into the air, and the people who grew up there walk out across the mud looking for houses that are no longer where they remember.",
   "human_question": "When the map we carry no longer matches the ground, how do we find our way?",
-  "premise": {
-    "story": "Former residents of a town submerged by a reservoir return while the drawdown lasts. They try to find their old houses, schools and temple among the foundations, and often disagree about which ruin was which.",
-    "place": "The exposed bed of a hill-country reservoir during drought: cracked mud, stumps, steps leading nowhere, the waterline high on the hills around.",
-    "experience": "The viewer walks a lost place with the only people who can read it, and feels the disorientation of memory meeting ground that has moved on."
+  "situation": {
+    "what_happens": "A settlement was flooded when a reservoir was built, and its people were resettled a generation or more ago. In a severe dry year the water falls far enough to expose foundations, steps, wells and thresholds, and word travels among the former residents that the town is briefly back. They walk out across the cracked bed and try to match what they remember against what is in front of them, often disagreeing about which ruin was whose. Then the rain comes and the water closes over it again.",
+    "who_is_involved": "Former residents and their grown children, who are the only people able to read the ground; younger family members who have only ever heard about the place; and, at a distance, the authority that manages the water and the access.",
+    "what_is_at_stake": "For the former residents, a memory either confirmed or quietly lost, and a loss long since settled being reopened for a few weeks. For their children, a story either becoming a place or staying a story. For the film, the danger of turning other people's displacement into a spectacle.",
+    "how_it_unfolds": "It begins with a rumour and a water level, moves through days of walking, pacing out streets and arguing gently, and is ended by the weather rather than by anyone's decision. Some people find what they came for, some find that they cannot, and some choose not to come at all. Reality decides whether there is a drawdown, how much it exposes, and when it goes under again."
+  },
+  "concept_merge": {
+    "why_together": "C074 brings the compendium's account of what lies dormant: states that lie asleep in the mind-stream and rise again when a suitable object appears, so that not reacting today proves very little [C074-P:L474; C074-P:L486–L498; C074-M:L75]. C008 brings the everyday face of a mind that cannot take in what is in front of it [C008-P:L34]. The town under the water gives the first its image; the people standing on the foundations give the second its human weight.",
+    "what_it_reveals": "That hiddenness is not absence, and that finding this out is disorienting rather than dramatic. C074 alone would be a diagram. C008 alone would be a mood. Together they show why what lies low is so easily mistaken for what is finished."
   },
   "concept_links": [
     {
       "concept_id": "C074",
       "role": "primary",
-      "why": "The source's latent tendencies lie hidden and 'rise up when a suitable object is found'; it also names going over past misfortunes as a source of worry and restlessness. The town under the water is an image of what lies low until conditions change, not an illustration of anyone's mind."
+      "why": "The digest describes latent tendencies as lying asleep until something wakes them, and reports the sources' example of hermits far from temptation who still fall when the right object meets them [C074-P:L474; C074-P:L486–L498; C074-M:L75]. The drowned town is an image of what lies low until conditions change. It is not a picture of anyone's mind: the residents' memories and grief are not defilements, and the digest also rules out the reading that the mind is pure underneath."
     },
     {
       "concept_id": "C008",
       "role": "supporting",
-      "why": "The general sense of doubt as a mind that cannot settle on what is in front of it [C008-P:L34]: people standing on foundations, unable to agree where they are. The source's harmful doubt is narrower, so this is an image, not an equivalence."
+      "why": "The digest reads the two delusion-rooted minds as the everyday experience of being lost, stuck at a fork or running in circles, and describes doubt generally as a mind that cannot decide about its object [C008-P:L34]. People standing on a foundation unable to agree where they are carry that description. The link reaches no further: the sources' harmful doubt is restricted to eight religious matters, and a disagreement about a remembered street is not it."
     }
   ],
-  "what_camera_could_observe": [
-    "The waterline stain high on the surrounding hills, and the town floor far below it",
-    "Former residents stepping onto the mud, pointing, pacing out a street, arguing gently about which foundation was whose",
-    "Objects surfacing: steps, a well, tiles, a doorway, the remains of a place of worship",
-    "Old photographs held up against the present view, if families have them",
-    "The first rain and the water beginning to come back"
-  ],
-  "what_must_be_real": "The drought, the drawdown and the returning residents must all be real. No one is brought to the site for the camera, and no memory is scripted.",
-  "possible_arc": {
-    "opening": "Wide, silent mud and a line of steps walking into nothing.",
-    "turn": "Someone finds the thing they were looking for, or realises they cannot find it.",
-    "ending_open": "The water returns and the town goes under again. What the residents actually say or do as it disappears leads the ending."
-  },
-  "position_hint": "opening candidate: a place that has literally lost its way, and a possible Object 4 acquisition moment only if something real happens there (for example a gift or a found thing offered by a resident); nothing may be staged",
-  "location": {
-    "requirements": [
-      "A reservoir whose drawdown genuinely exposes the remains of a submerged settlement during the filming window",
-      "Former residents or their families willing to return and speak",
-      "Safe access onto the exposed bed and permission from the relevant authorities"
-    ],
-    "suggestions": [
-      {
-        "name": "Victoria Reservoir (old Teldeniya area)",
-        "region": "Kandy district, Central Province",
-        "why": "A large Mahaweli reservoir whose construction submerged settlements; remains of the old town have been reported to reappear in severe droughts.",
-        "season_notes": "Only in drought years, when water levels fall far enough; unpredictable",
-        "access_notes": "Reservoir and security restrictions likely",
-        "verify": "Confirm which settlements were submerged, whether remains have actually re-emerged, and who manages access.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "Kotmale Reservoir area",
-        "region": "Nuwara Eliya district, Central Province",
-        "why": "Another Mahaweli reservoir built over inhabited valleys; low water has reportedly exposed older structures.",
-        "season_notes": "Drought years only",
-        "access_notes": "",
-        "verify": "Unverified; confirm what is actually exposed at low water and whether former residents live nearby.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Something you cannot see is not necessarily gone. The texts describe some states of mind as lying hidden, like a town under water, and rising again when conditions change.",
+  "what_must_be_real": "The drought, the drawdown and the returning residents. No one is brought to the site for the camera, no memory is scripted, no grief is asked for, and the resettlement history is not flattened into a story with a villain.",
+  "position_hint": "middle, sitting early in the group: it follows the opening by moving from not knowing the way to not being able to trust what one already knows, and it makes the group's plainest statement that what is covered has not gone.",
   "risks": [
-    "Grief and displacement filmed as spectacle; the resettlement history may be painful and politically sensitive",
-    "Unsafe footing on reservoir mud",
-    "Depends entirely on weather; may not happen in any given year"
+    "Grief and displacement filmed as spectacle; the resettlement history is painful and may be politically sensitive.",
+    "Presenting the residents' memory, or their disagreement, as confusion or as a defilement.",
+    "The image doing the work that the people should do.",
+    "Exposed reservoir ground may not be safe to stand on."
   ],
   "drop_if": [
-    "No drawdown exposes the remains during the development window",
-    "Former residents do not wish to return with a camera"
+    "No drawdown exposes the remains during the development window.",
+    "Former residents do not wish to return with a camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0054",
-      "relation": "alternative to",
-      "note": "Two ways to open the group: a place that has lost its bearings, or a traveller who has."
+      "relation": "sits beside",
+      "note": "A place that has lost its bearings, and a traveller who has."
     },
     {
       "idea_id": "IDEA-0063",
       "relation": "mirrors",
-      "note": "Opens in a place that cannot be seen clearly because it is covered; the closing candidate ends in fog that is moved through by slowing down."
+      "note": "The group opens on something covered by water and closes on something covered by cloud."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries the group's second episode and is the only idea that shows a thing lying hidden and returning when conditions change."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction.",
+    "No participant or event has been found or confirmed. Everything here is a research direction.",
     "Whether any submerged settlement has re-emerged recently, and when it might again, is unconfirmed."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

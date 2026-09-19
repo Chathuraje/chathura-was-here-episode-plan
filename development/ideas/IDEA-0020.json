@@ -4,85 +4,71 @@
   "record_type": "idea",
   "title": "One Hand Holds",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "In a small moonstone workshop, a cutter grips a rough stone firmly in one hand while the other, for hours, does nothing but polish.",
+  "logline": "A stone cutter grips a rough stone firmly in one hand while the other, for hours, does nothing but polish.",
   "human_question": "What does patient, unglamorous effort feel like from the inside, when nobody is watching?",
-  "premise": {
-    "story": "A day or more in a small lapidary or goldsmith's workshop, following one piece from a rough stone or blank to a finished, saleable piece, through the cutter's long concentration, checks under a lens, and the moment of handing over finished work.",
-    "place": "A small moonstone-cutting or goldsmith's workshop.",
-    "experience": "Close, still concentration; the small sounds of grinding and polishing; the slow emergence of shine from a dull surface."
+  "situation": {
+    "what_happens": "One piece of rough material is worked, over hours or days, into something finished and saleable. Most of that time is a single repeated motion, one hand holding and the other working, with pauses only to check. There is no visible progress for long stretches and then a change that only the worker saw coming. At the end the piece goes to somebody else and the next one begins.",
+    "who_is_involved": "A cutter or polisher who has done this for years, in all likelihood taught by a relative; whoever they work for, or the buyer waiting on the piece; the household the piece rate supports; younger people who are not taking the trade up.",
+    "what_is_at_stake": "For the worker, a piece that can be ruined in a second after hours of care, and a rate paid on the finished thing rather than on the hours. For the trade, a skill with fewer people entering it each year. For the film, the temptation to turn a person into the illustration of a simile, which would be a kind of theft.",
+    "how_it_unfolds": "Work like this moves at its own speed and cannot be hurried for anybody: a rough start, a long even stretch, a delicate finish where mistakes are expensive, and then it is out of the worker's hands. Whether the piece comes out well, whether it sells for what it should, and whether the worker says anything at all about any of it are not arrangeable."
+  },
+  "concept_merge": {
+    "why_together": "C021 contributes the image the source itself uses for sustained application: one hand gripping a vessel firmly while the other slowly polishes it, the mind staying with its object and working it over, alongside effort described as what does not turn back until a task is done and as mental rather than bodily strength. C032 contributes what such a stretch of time is actually like: the sources say every mind carries a feeling, in one of three ways with no fourth, and count neutral feeling in fifty-five of the one hundred and twenty-one minds, from the most ordinary to the most refined.",
+    "what_it_reveals": "That a long stretch of undramatic work is not an absence of feeling but a feeling in its own right, and that the sources' picture of a mind at work happens to be a literal description of what a pair of hands does. It also gives the group its plainest counter-example: sustained, absorbed effort that nobody is excited about and that is not wanting at all."
   },
   "concept_links": [
     {
       "concept_id": "C021",
       "role": "primary",
-      "why": "This is the concept's own image: one hand gripping a piece firmly while the other slowly polishes, an image of sustained application and effort without excitement [C021-P:L41]."
+      "why": "The source's own image for sustained application is a hand gripping a vessel firmly while the other slowly polishes it [C021-P:L41], and effort is defined as the mental quality that does not turn back from a task until it is done, explicitly not as bodily strength [C021-M:L19]. The sources also warn that the similes must not be read as a sequence: the factors arise together [C021-M:L11]."
     },
     {
       "concept_id": "C032",
       "role": "supporting",
-      "why": "The cutter's long, even concentration sits mostly with neutral feeling rather than joy or displeasure, matching the concept's account of skilled, absorbed work as one home of neutral feeling [C032-P:L75-L83]."
+      "why": "The sources teach that feeling accompanies every mind and is experienced in three ways with no fourth, and both count neutral feeling in fifty-five minds, ordinary and refined alike [C032-M:L5] [C032-M:L13]. So hours without excitement are hours with a feeling in them. An earlier draft claimed the sources treat skilled, absorbed work as a home of neutral feeling and cited a passage the digest flags as possibly garbled and needing an expert check [C032-P:L75]; that claim has been removed, and the film should not assert what any worker is feeling."
     }
   ],
-  "what_camera_could_observe": [
-    "A rough stone or blank held firmly",
-    "The other hand's slow, repeated polishing",
-    "Checks under a loupe or lens",
-    "The cutter's stillness over long stretches",
-    "A finished piece compared with where it began"
-  ],
-  "what_must_be_real": "The cutter's actual work and pace. No piece finished faster than it really takes.",
-  "possible_arc": {
-    "opening": "A dull, rough stone under a bare workbench light.",
-    "turn": "The first hint of shine appears after long, unremarkable work.",
-    "ending_open": "The finished piece is set aside, sold, or kept unfinished. Reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working lapidary or goldsmith's workshop",
-      "A cutter willing to be filmed over the span of one piece's completion",
-      "Quiet space for close, detailed camera work"
-    ],
-    "suggestions": [
-      {
-        "name": "A moonstone-cutting workshop near Meetiyagoda",
-        "region": "Galle District, Southern Province",
-        "why": "Meetiyagoda is Sri Lanka's best-known moonstone-mining and cutting area.",
-        "season_notes": "",
-        "access_notes": "Specific workshop unconfirmed.",
-        "verify": "No workshop or cutter has been contacted; this is a plausible setting, not a confirmed location.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Some effort is quiet: one hand holding steady while the other works, hour after hour, with nobody watching. The feeling that goes with it need not be excitement; it can be neither pleasant nor unpleasant, and that is still a feeling.",
+  "what_must_be_real": "The worker's actual work and actual pace. No piece finished faster than it really takes, and no stage of it repeated because the first time was not seen.",
+  "position_hint": "middle: the group's stillest film, placed where the difference between effort and wanting has to be felt rather than argued.",
   "risks": [
     "Reducing a craftsperson to a metaphor rather than a livelihood",
-    "Slow pace may need a strong editorial hand to hold interest"
+    "A slow film with no human stake underneath it",
+    "Asserting what the worker feels; the sources count feelings, they do not read minds",
+    "Commercial sensitivity around piece rates and buyers"
   ],
   "drop_if": [
-    "No cutter will allow filming across the full span of one piece"
+    "No worker will let a full piece be followed from rough to finished",
+    "The work can only be shown by asking for parts of it to be redone"
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0019",
+      "relation": "pairs with",
+      "note": "Two pictures of the same pair of factors: the effortful lift there, the long sustained hold here."
+    },
+    {
       "idea_id": "IDEA-0015",
       "relation": "pairs with",
-      "note": "The same stone traded here is cut and set there: one craft in dealing, another in shaping."
+      "note": "One trade in shaping a stone, one in pricing it; the held idea keeps the other half."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "The source's own simile lived rather than illustrated, and the group's clearest instance of neutral feeling."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

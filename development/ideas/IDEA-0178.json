@@ -4,90 +4,70 @@
   "record_type": "idea",
   "title": "Reading the Field",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "Across one growing season, a farmer in a tank-irrigated village makes dozens of small calls, when to flood, when to weed, when to hold water back, none of them written down, all of them adding up to a harvest.",
-  "human_question": "What does it mean to know something so well that you can act on it instantly, without stopping to think it through?",
-  "premise": {
-    "story": "One paddy season, from sowing to harvest, following a farmer's daily, practical decisions and their outcome.",
-    "place": "A tank-irrigated rice village in the dry zone.",
-    "experience": "The unglamorous, high-stakes skill of reading a field, a sky and a season, and getting it right or wrong."
+  "logline": "Across one growing season a farmer makes dozens of small calls, when to flood, when to weed, when to hold water back, none of them written down, all of them adding up to a harvest.",
+  "human_question": "What does it mean to know something so well that the knowing itself acts, without stopping to reason it out?",
+  "situation": {
+    "what_happens": "Over a single season a farmer reads a crop, the water and the weather daily and acts on what is read, usually within minutes and usually without consulting anyone. The knowledge is not written and mostly cannot be stated; it shows only in what gets done and when. At the end there is a yield, which is the only public account of whether the reading was good, even though weather and prices decided much of it.",
+    "who_is_involved": "A farming household that works the land itself; the neighbours who share the same water and compare decisions; the buyers who set the price at the end; whoever administers the shared water.",
+    "what_is_at_stake": "A year's income and, for a tenant or an indebted household, more than that. Also standing among neighbours, since these judgements are visible to everyone who shares the water.",
+    "how_it_unfolds": "A season starts with preparation and a gamble on timing. Pressure arrives as rain that is late, early or too much, as pests, and as the water others are taking. It ends at harvest, well or badly, and the two are not fully in the farmer's hands. Reality decides the yield, and the film must not let a bad season read as the farmer's fault."
+  },
+  "concept_merge": {
+    "why_together": "C096 (insight meditation and the wisdom it develops) contributes one strand of what the texts call wisdom, and it is intensely practical: seeing what makes good things grow, seeing what lets them decay, and knowing on the spot what move serves wellbeing here [C096-P4:L30; C096-P4:L66–L72]. C097 (the seven purifications) contributes the placement: that kind of seeing is not a talent floating free but the third stage of a map that begins in conduct and a settled mind [C097-M:L3].",
+    "what_it_reveals": "Together they separate practical knowing from cleverness. Skill that acts without deliberating looks like instinct from outside, and the sources treat it as something built in order, on ground that was laid first. C096 alone would flatter the farmer as intuitive; C097 alone would be a diagram with no one standing in it."
   },
   "concept_links": [
     {
       "concept_id": "C096",
       "role": "primary",
-      "why": "The source separates recognising a thing, noticing more about it, and understanding it so well that the understanding itself can act; it names exactly this practical skill, seeing what makes things grow and what makes them decline, and knowing on the spot what serves wellbeing [C096-P4:L30; C096-P4:L66–L72]. The farmer's field skill is an echo of that practical strand, not a claim about the farmer's inner life."
+      "why": "The digest names exactly this strand: seeing what makes good things grow, what lets them decay, and knowing on the spot what move serves wellbeing [C096-P4:L30; C096-P4:L66–L72]. The digest also warns that insight here is not a sudden clever realisation and not intelligence, so the farmer's skill is an echo of the practical strand and not a claim about the farmer's inner life."
     },
     {
       "concept_id": "C097",
       "role": "supporting",
-      "why": "This kind of seeing is placed, in the larger map, only after conduct and a settled mind; the film does not need to say this, but the farmer's steady, repeated attention can carry the idea."
+      "why": "The seven purifications run from conduct through a settled mind to knowledge and vision, in that order [C097-M:L3], so practical seeing has a floor under it. The digest warns the sequence is not a seven-step wellbeing ladder and that much of its detail is written for monastics, so the film uses only the ordering."
     }
   ],
-  "what_camera_could_observe": [
-    "Walking the bunds at dawn, checking water levels and plant colour",
-    "A quick decision made after sudden rain or a pest sighting",
-    "Conversations with neighbours about what went wrong or right last season",
-    "The harvest itself, good or bad, and the farmer's own account of the season's calls"
-  ],
-  "what_must_be_real": "The farmer's actual land, water rights, and economic stakes. Market prices, weather and yield are not adjusted for the story.",
-  "possible_arc": {
-    "opening": "Water released into the field for the first time this season.",
-    "turn": "A decision made under pressure, right or wrong.",
-    "ending_open": "Whatever the harvest actually brings."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A farming household willing to be followed across a full season",
-      "Access to the field and irrigation system",
-      "Patience for a long shooting schedule tied to the crop calendar"
-    ],
-    "suggestions": [
-      {
-        "name": "A tank-irrigated paddy village",
-        "region": "Anuradhapura or Polonnaruwa district",
-        "why": "Classic dry-zone tank-irrigation farming country.",
-        "season_notes": "Tied to the Yala or Maha growing season",
-        "access_notes": "",
-        "verify": "A specific willing household must be identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "One kind of wisdom is very practical: seeing what makes good things grow, what makes them decline, and knowing on the spot what to do. The texts say clear seeing like this grows on the ground of honest conduct and a steady mind.",
+  "what_must_be_real": "The household's real land, real water rights and real economics. Weather, prices and yield are never adjusted, improved or waited out to give the film a better ending.",
+  "position_hint": "middle: it turns the group from settling the mind toward seeing clearly, and it is the last ordinary-life film before the decisive-change films.",
   "risks": [
-    "Romanticising rural poverty",
-    "Reducing a farmer's knowledge to a doctrinal illustration",
-    "A bad season could read as the farmer's fault when climate and market forces are the real cause"
+    "Romanticising rural hardship",
+    "Reducing a lifetime of practical knowledge to an illustration of doctrine",
+    "A bad season reading as the farmer's failing when climate, water politics and prices decided it, which would sound like kamma as fate"
   ],
   "drop_if": [
-    "No household will commit to a full-season shoot, or a crop failure would make filming exploitative"
+    "No household will commit to being followed across a full season",
+    "The season turns out badly enough that filming would be extractive"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0176",
       "relation": "leads into",
-      "note": "From settling the mind to the further work of seeing clearly, which this idea follows into ordinary working wisdom."
+      "note": "From settling the mind to the further work of seeing clearly."
     },
     {
       "idea_id": "IDEA-0179",
       "relation": "leads into",
-      "note": "The same season's harvest, taken stock of, flows into the following idea's image of crossing and letting go."
+      "note": "From a season of many small judgements to one decisive moment of letting go."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0091; the practical strand of wisdom is named in the digest in almost these words."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

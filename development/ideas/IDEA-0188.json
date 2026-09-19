@@ -4,95 +4,76 @@
   "record_type": "idea",
   "title": "Coming Down",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "On the last morning of a silent retreat, a room full of strangers who have not spoken in days says its first ordinary words, packs up, and starts down the hill together, back toward a city none of them have seen in a week.",
+  "logline": "On the last morning of a silent retreat, a room of strangers who have not spoken for days says its first ordinary words, packs, and travels back together toward a city none of them have seen in a week.",
   "human_question": "What does it take to come back into a crowded world after time spent putting it down?",
-  "premise": {
-    "story": "The final day of a lay meditation retreat: the end of silence, packing, goodbyes, and the journey back down from the hills. Chathura travels with departing retreatants as far as the city.",
-    "place": "A hill-country lay retreat centre, not the remote forest hermitage of Episode 1, and the road and city beyond it.",
-    "experience": "The strange re-entry into ordinary noise and movement after days of quiet, ending in the exact crowded urban image the whole chronology has been moving toward."
+  "situation": {
+    "what_happens": "A lay retreat ends. Silence is formally released, people speak, pack and say goodbye to strangers they have lived beside without speaking, and then travel back into ordinary noise. The re-entry, not the retreat, is the event: people notice traffic, phones, conversation and their own reactions to all three, and most of them will be back at work the next day.",
+    "who_is_involved": "The retreatants, who are laypeople with jobs and families; whoever runs and teaches the retreat; the families collecting people at the other end.",
+    "what_is_at_stake": "For participants: privacy about why they came, and the ordinary disappointment of watching a week's quiet evaporate within hours. For the centre: its rules and its participants' trust.",
+    "how_it_unfolds": "The last morning follows a fixed schedule, and the release of silence is a scheduled act rather than a breakthrough. Pressure comes from transport, from the abruptness of speech returning, and from people reaching for words about something they may not want to describe. It ends when everyone is back in ordinary life, and reality decides what anyone is willing to say about it."
+  },
+  "concept_merge": {
+    "why_together": "C097 (the seven purifications) contributes the largest map the group works with, from purity of conduct to the knowledge and vision of the path, and the fact that its lay form is not a permanent withdrawal: laypeople keep their precepts by taking them up again and again [C097-M:L10]. C100 (path and fruition processes) contributes the reviewing that the texts place after the decisive moment, looking back at what was gained and what remains. C085 (the compendium of meditation subjects) contributes the fact that the people in one silent room were not all doing the same thing [C085-P:L47].",
+    "what_it_reveals": "Together they show that the map's end is not a departure from ordinary life but a return to it, repeatedly, and that the variety of practice folds back into one shared journey home. C097 alone would be a diagram; the retreat alone would be a lifestyle film."
   },
   "concept_links": [
     {
       "concept_id": "C097",
       "role": "primary",
-      "why": "This is the largest map this group works with, purity of conduct through to the knowledge of the paths, and its own end point is not a private, permanent withdrawal: laypeople are told to keep taking up their precepts again and again, in ordinary life [C097-P4:L1022]. A retreat's ordinary, repeated ending, back into the world, is an honest small-scale image of that same return."
+      "why": "The seven purifications run from conduct to knowledge and vision [C097-M:L3], and the source's own lay ending is ordinary and repeatable: laypeople keep the precepts by retaking them again and again [C097-M:L10]. The digest warns the sequence is not a seven-step wellbeing ladder and that most of its detail is written for monastics, so the film uses the shape and the lay ending only."
     },
     {
       "concept_id": "C100",
       "role": "supporting",
-      "why": "The source's account of path and fruition includes reviewing afterwards: what was gained, what is gone, what remains; the retreat's closing circle, if one exists, or simply people's own quiet reflections, can carry this without any doctrinal claim."
+      "why": "The texts place a reviewing after the decisive moment, looking back over what changed and what remains, and the digest warns that this is not journaling or goal-tracking. Participants' own quiet reflections can carry the human shape without any doctrinal claim."
     },
     {
       "concept_id": "C085",
       "role": "supporting",
-      "why": "Across the retreat's days, different participants will have practised different ones of the forty subjects the source describes; the film does not need to itemise them, only to show the variety folding back into one shared departure."
+      "why": "The forty subjects are matched to the person, so one silent room holds several different practices [C085-P:L47]. The film does not itemise them; it shows the variety folding back into one shared departure."
     }
   ],
-  "what_camera_could_observe": [
-    "The final sitting, and the moment silence formally ends",
-    "Packing, first conversations, laughter returning",
-    "The descent by road from the hills",
-    "The film's planned closing image: the road giving way to a crowded city junction, traffic, pedestrians and overlapping sound, where Chathura is set down among the crowd, described here only as the planned ending, not as invented content"
-  ],
-  "what_must_be_real": "A real retreat, its real participants (with consent) and its real schedule. The film does not stage the end of silence or any participant's words.",
-  "possible_arc": {
-    "opening": "The last hour of silence.",
-    "turn": "Silence ends; the retreat becomes an ordinary group of people again.",
-    "ending_open": "The descent, and the planned closing image of arrival in the crowded junction shared with Episode 1 and Episode 100."
-  },
-  "position_hint": "closing candidate: a collective, communal route to the same required closing image, hands directly to the planned crowded-location event that ends the chronological development slate (released as Episode 99) and opens both Episode 1 and Episode 100.",
-  "location": {
-    "requirements": [
-      "A real lay retreat centre and a cohort willing to be filmed on their final day",
-      "A road connecting the centre to a real, busy city junction",
-      "Consent from the centre and every participant shown"
-    ],
-    "suggestions": [
-      {
-        "name": "A hill-country lay meditation retreat centre, with the road leading toward Colombo",
-        "region": "Central Province to Western Province",
-        "why": "Colombo's Fort and Pettah areas are well-known busy urban junctions suitable for the required crowded-location ending; the exact junction is undecided.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific retreat centre or exact junction is identified; the crowded-location choice belongs to Chathura.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "In the texts the road does not end in permanent withdrawal for laypeople: they take their commitments up again and again, in ordinary life, which is exactly where a retreat puts everyone back.",
+  "what_must_be_real": "A real retreat, its real schedule and its real participants, filmed with the centre's permission and each person's consent. Neither the end of silence nor anyone's first words are staged, and no participant is presented as having attained anything.",
+  "position_hint": "closing candidate: a collective route to the group's required closing event, in which the film is set down among a crowd, the planned shared image with Episode 1 and Episode 100.",
   "risks": [
-    "Overlapping visually with Episode 1's monastery material; this must stay a clearly different, lay, hill-country retreat, not a forest hermitage",
-    "Retreat centres may have strict no-filming rules during silence",
-    "Implying any participant has attained anything"
+    "Overlapping with Episode 1's monastery material; this must stay a lay retreat, not a forest hermitage",
+    "Centres may forbid filming near a silent period",
+    "Implying any participant has attained anything",
+    "Making re-entry look like failure"
   ],
   "drop_if": [
-    "No retreat centre will permit filming even at the edges of a silent period, or participants are unwilling to be shown"
+    "No centre will permit filming even at the edges of a silent period",
+    "Participants are unwilling to be shown, which is likely and legitimate"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0187",
       "relation": "alternative to",
-      "note": "A different route to the same required closing image: a retreat's collective return, rather than an individual's final letting go."
+      "note": "A different route to the same required closing event: a group's return into the world, or one person's final letting go."
     },
     {
       "idea_id": "IDEA-0176",
       "relation": "mirrors",
-      "note": "From a single day's class matching many people to many objects, to one retreat's shared, collective ending."
+      "note": "One day's class matching many people to many objects, against one retreat's shared ending."
     }
   ],
+  "selection": {
+    "recommendation": "hold",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Held as the standing alternative for the final film if the elder's film cannot be made; it is also the group's fullest treatment of C097."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

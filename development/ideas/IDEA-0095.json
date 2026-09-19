@@ -4,90 +4,73 @@
   "record_type": "idea",
   "title": "Setting the Load Down",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-06",
-  "logline": "Estate workers carry tea-leaf baskets down a mountain path all morning, and the moment each basket reaches the weighing shed and comes off a back, something visibly changes in the body underneath it.",
+  "logline": "Workers carry harvested leaf on their backs all morning, and the moment each basket reaches the weighing shed and comes off a back, something visibly changes in the body underneath it.",
   "human_question": "What does relief actually look like on a body, and how much of goodness might be exactly that?",
-  "premise": {
-    "story": "A day of leaf-plucking and carrying on a hill-country tea estate, from the first climb of the morning to the last basket weighed in.",
-    "place": "Steep tea rows and a mountain path, cool air, a weighing shed at the bottom of the slope.",
-    "experience": "The rhythm of ascent and descent, the accumulating weight, and the exact moment of setting it down."
+  "situation": {
+    "what_happens": "A gang of hand-harvest workers climbs to the day's ground with empty baskets, picks through the morning, and carries an accumulating weight back down to be weighed. The load grows heavier the longer it is carried. At the weighing point the basket comes off, the weight is recorded, and for a few seconds the body that carried it moves differently. Then the next round begins. The same day also contains the parts that are not picturesque: the pay the weight converts into, and what the work does to people over years.",
+    "who_is_involved": "The workers who carry, most of whom have done this for years; whoever runs the weighing and the records; the households the wage goes to. Where the situation is the kind of work that cannot be done alone at all — a crew hauling one net from both ends, a team lifting what no one can lift singly — the same observation is available with every person holding a distinct part of one effort.",
+    "what_is_at_stake": "For the workers, a wage measured in weight and a body that pays for it. For the film, the risk of borrowing hard, badly paid labour as a pretty illustration. For the viewer, the difference between a simile and the thing the simile is about.",
+    "how_it_unfolds": "A working day of this kind has a fixed shape: an early start, rounds that get heavier, a weighing that settles the day's earnings, and an end that arrives whether or not the target was met. Its pressures are weather, quotas, injury and pay disputes. Reality decides how heavy the day actually is, what the workers say about the work when asked, and whether the relief at the weighing point is visible at all or simply absorbed into the next round."
+  },
+  "concept_merge": {
+    "why_together": "C023 supplies the image: among the nineteen factors present in every good mind are the paired qualities of tranquillity and lightness, and the source's picture of lightness is a person setting down a load carried from far away. C019 supplies the structure: factors arise together, cease together, take the same object and rest on the same base, and only those the work requires arrive at all. Put together on real carried weight, the first says that goodness comes with ease rather than adding effort, and the second says that ease is not one quality switching on but a whole set beginning and ending at once.",
+    "what_it_reveals": "That the tradition's account of a good mind is built from bodily experience — weight, relief, coordination — while insisting the factor itself is mental; holding both at once is what the film has to do, and what a viewer can feel before they can explain."
   },
   "concept_links": [
     {
       "concept_id": "C023",
       "role": "primary",
-      "why": "Lightness is pictured as putting down a load carried from far away, and the whole pair of qualities describes real ease in body as well as mind [C023-P:L137]."
+      "why": "Lightness (lahutā) is pictured as putting down a load carried from far away, and it is paired with tranquillity, so real ease belongs to every good mind [C023-P:L137]. Two corrections from the digest must travel with this link: in these six pairs the word 'body' means the group of accompanying mental factors, not the physical body [C023-P:L119], and the heaviness lightness opposes is the dullness of sloth and torpor, explicitly not the weight of any substance. The carried basket is how the simile is made felt; it is not itself the factor."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "Only the factors a moment's work actually requires arise with it; effort itself is neither good nor bad, entirely coloured by what it serves [C019-P:L49; C019-P:L61-L63]."
+      "why": "The four marks of association — arising together, ceasing together, one object, one base — describe a set of factors that begins and finishes as a unit, each with its own distinct job [C019-P:L33-L47; C019-M:L3-L17], which is why work that literally cannot be done by one person is a fair image of it. Only the factors a moment's work needs arise, and effort itself is neither good nor bad, taking the colour of what it serves [C019-P:L49; C019-P:L61-L63]."
     }
   ],
-  "what_camera_could_observe": [
-    "Baskets going up the slope empty at dawn",
-    "The climb, the picking, the weight accumulating on backs",
-    "The walk down and the weighing",
-    "Workers' shoulders and breathing before and immediately after the basket comes off"
-  ],
-  "what_must_be_real": "The workers' actual wages, conditions and choices about this work. No staged relief or performed exhaustion.",
-  "possible_arc": {
-    "opening": "Empty baskets climbing the slope at first light.",
-    "turn": "The long carry through heat and fatigue.",
-    "ending_open": "Whatever the workers actually say about the work, the weight, and the relief, if they say anything at all."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active tea estate willing to allow filming of real pickers over a working day",
-      "Honest access to conditions and pay, not only the picturesque parts of the process",
-      "Workers' full consent to be filmed and interviewed"
-    ],
-    "suggestions": [
-      {
-        "name": "Hatton-Dickoya tea estate region",
-        "region": "Nuwara Eliya district, hill country",
-        "why": "A well-known, long-established tea-growing area with active estates and pluckers.",
-        "season_notes": "",
-        "access_notes": "Estate management permission required.",
-        "verify": "No specific estate or workers have been identified or confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts describe a good mind as a lighter one, and their picture for that lightness is someone setting down a load carried a long way, so kindness comes with a kind of relief.",
+  "what_must_be_real": "The workers' actual wages, conditions and choices about this work, and their own words about it. No staged relief, no performed exhaustion, and no edit that keeps the rhythm of the work while dropping what it pays.",
+  "position_hint": "middle: it explains a quality the whole group depends on, and it needs the viewer to have already seen ordinary goodness before being told what goodness feels like from the inside.",
   "risks": [
     "Romanticising hard, poorly paid labour",
-    "Aestheticising real economic hardship as a metaphor",
-    "Estate access and permission difficulties"
+    "Aestheticising economic hardship into a metaphor",
+    "Letting the simile take over, so that a real body's tiredness is treated as a diagram of a mental factor",
+    "Presenting kindness as purely pleasant, when the same source says turning toward the good takes effort against a pull the other way"
   ],
   "drop_if": [
-    "No estate or workers are willing to be filmed honestly, including about conditions and pay, not only the visual rhythm of the work"
+    "No workers are willing to be filmed honestly, including about conditions and pay",
+    "Access can only be had on terms that exclude the unflattering parts of the work"
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0096",
-      "relation": "pairs with",
-      "note": "Both use a real, physical process as the direct image of a beautiful factor: lightness here, softness there."
+      "idea_id": "IDEA-0104",
+      "relation": "absorbs",
+      "note": "IDEA-0104's collective haul is folded in here: work that exists only when several people begin and finish it together, which is what carries the four marks of association."
     },
     {
-      "idea_id": "IDEA-0104",
-      "relation": "mirrors",
-      "note": "Both are physically demanding group or individual labour used to show what goodness's ease and coordination can look like in the body."
+      "idea_id": "IDEA-0096",
+      "relation": "pairs with",
+      "note": "Both take a real physical process as the direct image of a beautiful factor: lightness here, softness there."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0104"
+    ],
+    "superseded_by": null,
+    "reason": "Used by its episode, and now the group's strongest carrier of the mental factors as a set, with IDEA-0104's collective-effort image folded in."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

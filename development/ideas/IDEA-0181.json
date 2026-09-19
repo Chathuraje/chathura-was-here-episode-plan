@@ -4,74 +4,49 @@
   "record_type": "idea",
   "title": "What No Longer Comes Up",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "Years after giving up an old trade everyone in the village remembers, a shopkeeper now sells something else, in the same street, past the same old customers, and talks plainly about the difference between holding back and not being pulled at all.",
+  "logline": "Years after giving up a trade everyone locally remembers, a shopkeeper sells something else on the same street, past the same old customers, and talks plainly about the difference between holding back and not being pulled at all.",
   "human_question": "How do you know whether you have stopped doing something, or only stopped doing it today?",
-  "premise": {
-    "story": "A person who gave up a livelihood or habit years ago (for instance an old informal trade) now works differently in the same small community, still surrounded by the old triggers and old acquaintances.",
-    "place": "A village or small town where the old trade or habit was, and still partly is, part of the social fabric.",
-    "experience": "An honest, unsentimental portrait of a real change: what remains the same around a person, and what, in their own account, has actually stopped pulling at them."
+  "situation": {
+    "what_happens": "A person who left a livelihood or a habit years ago now works differently in the same small community, where everyone knows the history and the old associations are part of daily traffic. The change is old enough to have been tested and ordinary enough that nobody remarks on it any more. Asked directly, the person can say whether the old pull is gone or simply managed, and that answer is the film.",
+    "who_is_involved": "The person who changed; their household, who lived through both versions; former associates and customers who still pass by; the community that decides how much of the past to keep mentioning.",
+    "what_is_at_stake": "Reputation and safety: being filmed re-tells a story the person may have spent years letting fade, and it may reach family members, employers or old associates who would use it.",
+    "how_it_unfolds": "Changes like this are usually not clean: there is a first attempt, a return, and then a version that holds. The pressures are money, old company and the days when it would be easier. It ends only in the sense that time passes without a return. Reality decides what the person is willing to say, and whether the pull is honestly gone."
+  },
+  "concept_merge": {
+    "why_together": "C098 (the noble persons) contributes the three-way distinction the texts insist on: a tendency held down, a tendency displaced for a time by something better, and a tendency cut off so that it does not arise again [C098-P4:L205–L249]. C016 (the eight supramundane minds) contributes what the texts say produces that third kind, which is a path moment and nothing the film could see [C016-P:L76–L82].",
+    "what_it_reveals": "Together they give a shape to something people describe badly. 'I stopped' covers all three states, and only time and pressure tell them apart. The film can hold a person's own honest uncertainty about which one they are in, while the texts supply the vocabulary the person never needed. Either concept alone would either flatter the person or turn the film into doctrine."
   },
   "concept_links": [
     {
       "concept_id": "C098",
       "role": "primary",
-      "why": "The source separates holding a tendency down, displacing it for a time, and cutting it off at the root so that it does not arise again, and is candid that even long-practised people can be ambushed by something only held down, never uprooted [C098-P4:L205–L249; the flying elder undone by a song]."
+      "why": "The source names abandoning by suppression, by the opposing factor for a time, and by cutting off, and says only path-knowledge does the last [C098-P4:L205–L249]. The digest also warns that the illustrations of defilements resurfacing are the source's own teaching examples, not verified facts about real people, so the film cites the distinction and not the anecdotes, and never labels anyone as a noble person."
     },
     {
       "concept_id": "C016",
       "role": "supporting",
-      "why": "What produces that final, non-returning kind of change is the path mind itself; the film does not claim this person has had one, only shows the human shape of the question."
+      "why": "What produces the non-returning kind of change is the path mind, which cuts off a named set of defilements because their ground is gone [C016-P:L76–L82]. The film makes no claim that this person has had one; it shows the human shape of the question."
     }
   ],
-  "what_camera_could_observe": [
-    "The person's current, different work, day to day",
-    "Old acquaintances or customers who still pass by or mention the past",
-    "A moment where the old habit or trade is directly offered or raised, and how the person responds",
-    "The person's own, unprompted account of what changed and when"
-  ],
-  "what_must_be_real": "The person's real history and current life, told in their own words, with full consent and the ability to withdraw.",
-  "possible_arc": {
-    "opening": "An ordinary working day in the new trade.",
-    "turn": "An old customer or old temptation reappears.",
-    "ending_open": "The person's own account of whether, and how, the pull is actually gone."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A person willing to speak openly about a past trade or habit and a real current change",
-      "Full, ongoing consent, with the ability to stop the shoot",
-      "A community where the past is known but not weaponised against the person"
-    ],
-    "suggestions": [
-      {
-        "name": "A small town or village",
-        "region": "Any province",
-        "why": "This kind of quiet, local reinvention could happen almost anywhere.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific person or place is identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Holding yourself back from something and simply no longer being pulled by it are not the same. The texts say a tendency that is only held down can return, while one cut at the root does not arise again.",
+  "what_must_be_real": "The person's own history and current life, in their own words, with consent they control and can withdraw at any point, including after filming. No claim is made about their inner state or their attainment.",
+  "position_hint": "middle: it takes the field film's distinction into a life, and is the last human-scale film before the group turns to what the texts call powers.",
   "risks": [
-    "Stigmatising the person by dwelling on their past",
-    "Presenting them as a model or a saint",
-    "Exposing family members who may not want the past discussed"
+    "Stigmatising the person by re-telling a past they have outlived",
+    "Presenting them as a model or as someone who has attained something",
+    "Exposing family members who did not choose to be part of the story",
+    "Implying their past hardship was deserved"
   ],
   "drop_if": [
-    "No one will speak about this openly, or filming would expose them to harm or shame in their community"
+    "No one will speak about this openly without risk to themselves",
+    "Filming would expose them to harm, shame or legal jeopardy in their community"
   ],
   "connections": [
     {
@@ -85,9 +60,15 @@
       "note": "Both ask whether a change is temporary relief or something that does not come back, one through money, one through habit."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0095; the three kinds of abandoning are explicit in the digest and the anecdote has been removed."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

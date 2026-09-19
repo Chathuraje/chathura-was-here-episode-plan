@@ -4,85 +4,65 @@
   "record_type": "idea",
   "title": "What Stopped the Pump",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-09",
-  "logline": "A customer brings in a water pump that 'just stopped'. The repairer opens the casing, and what looked like one broken thing turns out to be several small failures that only add up once you look closely.",
+  "logline": "A customer brings in a water pump that 'just stopped', and the repairer opens the casing to find not one broken thing but several small ones that only amount to a failure together.",
   "human_question": "Is there ever really just one reason something stops working?",
-  "premise": {
-    "story": "A day, or several, in a small-town repair shop, following two or three real jobs from complaint to diagnosis to a working machine, or an honest admission that it cannot be fixed.",
-    "place": "A roadside electrical or mechanical repair shop in a northern market town.",
-    "experience": "The satisfying, unhurried logic of diagnosis: a story told short by the customer, then told long and exact by the repairer's hands."
+  "situation": {
+    "what_happens": "Someone brings a failed machine to a repairer with a one-line account of what it did: it just stopped. The repairer opens the casing, lays the parts out and tests them one at a time, and the single fault becomes a set of smaller conditions — a worn part, a habit of use, a supply that was never quite right — none of which on its own would have stopped the machine. The repairer names them as they are found, traces the worn part back to what it depended on, and reaches a verdict: it runs again, or it cannot be made to.",
+    "who_is_involved": "A repairer who works mostly alone and diagnoses by hand; the customer who owns the machine and depends on it for water, work or income; whoever sold or last serviced the machine, present only in what the parts show; an apprentice or family member helping in the workshop, if there is one.",
+    "what_is_at_stake": "For the customer, the cost of a repair against the cost of replacement, and whatever the machine was doing for them in the meantime. For the repairer, a reputation that rests on being right, and the harder job of telling someone plainly that their machine is finished.",
+    "how_it_unfolds": "A job like this begins with a complaint that is short and confident, opens into a diagnosis that is long and provisional, and ends either in a running machine or in an honest refusal. Whether the repairer finds the cause, finds several, or cannot find any is decided by what is actually inside the casing."
+  },
+  "concept_merge": {
+    "why_together": "C078 is the claim that the same cause and effect can be told briefly, at middle length or in full detail, and that the short account is not a lesser version of the long one — the middle-length telling names only the principal cause at each step, and the full account says through which specific powers a thing helps. C083 is the summary of what those powers actually are: a vocabulary of distinct kinds of holding-up, ending on the sweeping line that there is no phenomenon that is not a support for something. A diagnosis is where a short account is spoken aloud and then taken apart in front of the person who gave it, which is exactly the difference C078 describes, and the repairer's naming of each part's job is a plain version of C083's point that 'cause' is too coarse a word.",
+    "what_it_reveals": "Together they show that the short answer and the long answer are not rivals and that neither is complete on its own. What becomes visible is the sharper question the sources prefer: not what caused this, but in what particular way did each thing help — and the honest discovery that a fault the customer experienced as one event was never one thing."
   },
   "concept_links": [
     {
       "concept_id": "C078",
       "role": "primary",
-      "why": "The same cause-and-effect can be told briefly, one main reason, or in full detail, every specific support; the source insists both accounts are true and both are needed for complete understanding."
+      "why": "Both sources hold that cause and effect are taught at three lengths and that the brief and the detailed accounts are both needed for complete understanding; the counter story and the bench diagnosis are the same failure told at two of those lengths."
     },
     {
       "concept_id": "C083",
       "role": "supporting",
-      "why": "A part's continuing presence keeps a system running; its absence, or the moment it fails, forces the whole system to change, an ordinary version of presence and absence as conditions."
+      "why": "The summary of the conditions gives a vocabulary of distinct kinds of support rather than a single notion of cause, and Margaya closes it by saying there is no phenomenon that is not a support for something; the repairer's part-by-part naming of what each thing was doing is an everyday version of that."
     }
   ],
-  "what_camera_could_observe": [
-    "The customer's one-line account of the fault",
-    "The casing opened, parts laid out",
-    "Parts tested one by one and named",
-    "A worn part traced back to what it depended on",
-    "The machine running again, or the repairer's honest verdict that it cannot be fixed"
-  ],
-  "what_must_be_real": "Real customers, real jobs and real outcomes, including failures the repairer genuinely cannot resolve.",
-  "possible_arc": {
-    "opening": "\"It just stopped.\"",
-    "turn": "The casing opens and the short story becomes a long, exact one.",
-    "ending_open": "It runs, or it doesn't; the repairer says so plainly either way."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An established small-appliance or vehicle repair shop willing to be filmed over real working days",
-      "At least two or three genuine repair jobs within the filming window",
-      "A repairer willing to explain their diagnosis on camera"
-    ],
-    "suggestions": [
-      {
-        "name": "A small market town with an established repair trade",
-        "region": "Vavuniya or Kilinochchi district, Northern Province",
-        "why": "Gives the group a northern setting distinct from its other locations, and small-town repair shops are common along the main market roads there.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific shop and repairer must be identified and confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "When something breaks, the one-line reason is true, and so is the long list of small things that together made it stop. Both answers are needed, and 'cause' turns out to be a coarser word than what the repairer actually finds.",
+  "what_must_be_real": "Real customers, real jobs and real verdicts, including the machines the repairer genuinely cannot fix and the repairs that turn out to have been misdiagnosed.",
+  "position_hint": "middle: it follows the opening's forward chain by turning the same question round onto a failure, and it teaches the audience the difference between a short account and a long one before the group asks for harder ones.",
   "risks": [
-    "Turning the repair into a visual metaphor instead of caring about the repairer and customers",
-    "The diagram of cause and effect upstaging the people"
+    "Turning the repair into a visual metaphor and losing interest in the repairer and the customer.",
+    "A diagram of cause and effect upstaging the people in the room.",
+    "Sliding into 'everything happens for a reason', which the source rules out: a condition is not a purpose and there is no maker behind it."
   ],
   "drop_if": [
-    "No repairer willing to let the camera into real jobs and honest failures"
+    "No repairer is willing to let the camera into real jobs and honest failures.",
+    "Only successful, tidy repairs can be filmed."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0157",
       "relation": "pairs with",
-      "note": "Both follow ordinary small livelihoods that depend, visibly, on many small and specific supports."
+      "note": "Both take an ordinary working livelihood and set a one-line account of it against the long, specific chain underneath."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0080; the brief-versus-detailed link is the plainest thing C078 actually says."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

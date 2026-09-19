@@ -4,96 +4,78 @@
   "record_type": "idea",
   "title": "The Rarest Readiness",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "At a surf beach lifeguard tower, a rescue crew drills the same response hundreds of times so that, on the rare day someone is actually in trouble, no one has to think before they move.",
-  "human_question": "What does it take to be instantly ready for a danger that might never come?",
-  "premise": {
-    "story": "A season with a beach lifeguard or rescue crew, following training, quiet watch-keeping, and, if it occurs during filming, a real response.",
-    "place": "A surf beach with an active lifeguard or rescue service.",
-    "experience": "The long, repetitive discipline behind a readiness that, most days, has nothing to do."
+  "logline": "A rescue crew drills the same response hundreds of times so that on the rare day someone is actually in trouble nobody has to think before moving, and in between handles the ordinary unpleasantness the job brings.",
+  "human_question": "What does it take to be instantly ready for a danger that may never come?",
+  "situation": {
+    "what_happens": "A water rescue crew spends almost all of its time not rescuing anyone: drilling, checking equipment, watching, and dealing with the ordinary, unglamorous and sometimes repulsive parts of being the people called when something goes wrong. The drills exist so that the rare real moment requires no decision. Most days the readiness has nothing to do, and holding it anyway is the actual discipline.",
+    "who_is_involved": "The crew, professional or volunteer, and whoever trains them; the people they watch over, who mostly never know they were watched; the families of crew members; the services they hand casualties on to.",
+    "what_is_at_stake": "Someone's life, occasionally. Much more often: attention that cannot be allowed to lapse, on low pay or no pay, with nothing happening. For the film: the risk of filming a real emergency at the expense of the person in it.",
+    "how_it_unfolds": "A season runs on repetition, with competence maintained against boredom. Pressure comes from crowds, weather and the knowledge that the one incident will not announce itself. It ends either with a season in which nothing happened, which is the best outcome and the hardest to film, or with a real incident that the film must handle carefully. Reality decides which, and the film does not wish for the second."
+  },
+  "concept_merge": {
+    "why_together": "C089 (the direct knowledges) contributes the ranking: of everything the sources describe, they say the hardest and rarest use is being able to act instantly and calmly when someone else is suddenly in danger, harder than the spectacular feats they also relate [C089-P4:L104–L108]. C101 (the direct-knowledge process) contributes how such capacities are said to be built, by slow, graduated, repetitive training, near before far and coarse before fine. C090 (the ten kinds of supernormal power) contributes the full list and the fact that the one mark reserved for the fully freed is not a feat at all but an even response to the repulsive and the alluring alike [C090-P4:L85–L87; C090-M:L13], which the crew's ordinary handling of the job's unpleasant parts can point at.",
+    "what_it_reveals": "Together they invert what the word 'power' suggests. The tradition's own ordering puts drilled, unspectacular readiness and an even response to what disgusts above anything dramatic, and it is explicit that nothing comes from wishing. A film about people who train for a day that may not come makes that ordering visible in secular terms, while presenting the extraordinary abilities only as what the texts describe."
   },
   "concept_links": [
     {
       "concept_id": "C089",
       "role": "primary",
-      "why": "The source ranks the ability to act calmly and instantly when someone is suddenly in danger as the hardest and rarest use of any of these trained states, harder than the more dramatic feats it also describes [C089-P4:L104–L108; L400–L402]."
+      "why": "The sources rank acting calmly and instantly when someone is suddenly in danger as the hardest use of any of these trained states, and say that mere wishing achieves nothing [C089-P4:L104–L108]. The digest also requires that the miracle narratives be neither asserted as fact nor debunked, so the film presents them only as what the texts teach."
     },
     {
       "concept_id": "C101",
       "role": "supporting",
-      "why": "The sources describe extraordinary perception as built from ordinary, graduated, patient training rather than sudden talent; the lifeguards' drilled readiness is an honest echo of that discipline, not a claim about the source's specific abilities."
+      "why": "The digest describes the training as slow and graduated, coarse before fine and near before far, rather than sudden talent. Drilled readiness is an honest echo of that discipline, and the film does not claim the crew has anything the texts describe."
     },
     {
       "concept_id": "C090",
       "role": "supporting",
-      "why": "Readiness under danger sits, in the source's own list, alongside more dramatic claims as one of the ten kinds of accomplishment; this film gives it its most literal, secular form."
+      "why": "The list of ten runs from the spectacular to the ordinary, and the one kind said to belong to the fully freed alone is dwelling without revulsion toward the repulsive, without attraction to the alluring, and evenly toward both [C090-P4:L85–L87; C090-M:L13]. The crew's steady handling of what others avoid points at that ranking; the digest forbids turning the protection stories into a promise that good people are kept safe."
     }
   ],
-  "what_camera_could_observe": [
-    "Repetitive training drills, corrected and repeated",
-    "Long, quiet stretches of watching the water, nothing happening",
-    "Briefings about hazards, currents, busy days",
-    "A real response, if one occurs, handled without dramatisation"
-  ],
-  "what_must_be_real": "A real lifeguard or rescue service's actual training and duty. Any real rescue shown must be handled with care for the people involved and without staging danger.",
-  "possible_arc": {
-    "opening": "The morning briefing, an ordinary day.",
-    "turn": "A drill, or a real moment of alarm.",
-    "ending_open": "The crew's own account of what the waiting is actually like."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active, professional or volunteer lifeguard or rescue service",
-      "Consent for training and, if it happens, real incident footage handled sensitively",
-      "A season with enough beach activity to observe real watch-keeping"
-    ],
-    "suggestions": [
-      {
-        "name": "Arugam Bay",
-        "region": "Eastern Province",
-        "why": "A well-known surf beach with an active water-safety presence during the surf season.",
-        "season_notes": "Surf season roughly April to October on the east coast",
-        "access_notes": "",
-        "verify": "The specific lifeguard or rescue service and its willingness to be filmed must be confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Being ready to act calmly the instant someone is in danger is built from long, repetitive, unglamorous practice. In the texts' own ranking, that quiet readiness is harder and rarer than any spectacular feat.",
+  "what_must_be_real": "A real service's real training and real duty. Any actual incident is filmed only with care for the people in it, never with danger staged or prolonged, and no one is presented as having any ability the texts describe or any attainment.",
+  "position_hint": "middle, late: it reframes what the group's remaining material means by 'power' before the two films about withdrawal and letting go.",
   "risks": [
-    "Filming a real emergency could be exploitative of the person in danger",
-    "Implying the crew has any mystical ability rather than trained skill",
-    "Long stretches of nothing happening may be hard to sustain as a film"
+    "Filming a real emergency at the expense of the person in danger",
+    "Implying the crew has any ability beyond trained skill",
+    "Sensationalising the unpleasant parts of the work, or making a symbol of anyone who does them",
+    "Long stretches of nothing happening, which is the honest subject and the hardest to sustain"
   ],
   "drop_if": [
-    "No real incident occurs and the training material alone cannot carry a film",
-    "Filming a real rescue would compromise the safety of those involved"
+    "Filming a real response would compromise anyone's safety or privacy",
+    "No service will allow filming of training and waiting on their own terms"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0184",
-      "relation": "pairs with",
-      "note": "Two ordinary, unstaged forms of steadiness the sources call 'power': one under unpleasant routine, one under sudden danger."
+      "relation": "merged in",
+      "note": "Brought the least spectacular of the ten kinds, the even response to the repulsive and the alluring, and the ordinary work others turn away from."
     },
     {
       "idea_id": "IDEA-0186",
       "relation": "leads into",
-      "note": "From readiness for sudden danger to the ordinary, practical readiness of setting affairs in order before a longer absence."
+      "note": "From readiness for sudden danger to the practical readiness of setting affairs in order before a long absence."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0184"
+    ],
+    "superseded_by": null,
+    "reason": "Used by EPD-0096, and now carries the quiet end of the list of ten as well as the ranking of readiness."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

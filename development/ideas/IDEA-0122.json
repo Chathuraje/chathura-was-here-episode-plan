@@ -4,86 +4,66 @@
   "record_type": "idea",
   "title": "Counting to Ten",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "At a dry-zone paddy store during harvest, a measurer fills basket after basket by hand, calling each count aloud, never rushing and never losing his place.",
-  "human_question": "How does counting, of grain or of breath, keep an ordinary body steady through a long working day?",
-  "premise": {
-    "story": "One day at a paddy store during harvest, following the measurer, the farmers waiting on the tally, and the store's own pace, told through the real pressure of the season's income.",
-    "place": "A rural paddy store or threshing floor at harvest time in the dry zone.",
-    "experience": "The measure filled and levelled, straw and stones flicked out, numbers called steadily hour after hour, bags stacking, and farmers watching a count that decides their season."
+  "logline": "During harvest, a grain measurer fills basket after basket by hand, calling each count aloud, never rushing and never losing the place.",
+  "human_question": "What does a count, kept steady for a whole day, do to the person keeping it?",
+  "situation": {
+    "what_happens": "At harvest a store takes in grain and somebody measures it by hand: fill, level, flick out the straw and stones, call the number. This goes on for hours. The tally is the farmer's income, so it is watched closely by people with something to lose. The measurer's job is to be neither fast nor slow, since a rushed count loses accuracy and a slow one loses the day, and to hold a running number in the middle of noise, heat and argument.",
+    "who_is_involved": "The measurer; the store's owner or agent; the farmers whose season's income is the number being called; the labourers filling, carrying and stacking.",
+    "what_is_at_stake": "A season's income counted in public by hand, with prices already set elsewhere and debts often already taken against the crop. For the measurer, being trusted, which is the whole of the job.",
+    "how_it_unfolds": "An intake runs from the first load to the last and the count either holds or it does not. The pressures are heat, volume, fatigue and anyone who thinks the tally is wrong. It ends in a total, in a dispute, or in a price that disappoints everybody. None of that can be arranged."
+  },
+  "concept_merge": {
+    "why_together": "C094 contributes the first stage of mindfulness of breathing, counting, not below five and not beyond ten, without forcing the breath, and the sources' own image for how that counting should be done: a measurer who fills each measure, removes the rubbish and calls the number, neither hurrying nor dawdling. C068 contributes what is actually keeping the measurer going through the same hours, mind-born matter moving the limbs and holding the posture, with food and heat doing the rest. The image and the body it was drawn from occur in one place.",
+    "what_it_reveals": "The texts reached for an ordinary worker to explain an inward practice. Turning that around and watching the worker rather than the practice shows what the image was pointing at: a pace held for hours that is neither effortful nor slack. It also shows the limit of the comparison. The measurer is not meditating; he is being paid, and the digest is explicit that this practice is not a calming technique. What the two reveal together is how much of an inward discipline was described by looking hard at work."
   },
   "concept_links": [
     {
       "concept_id": "C094",
       "role": "primary",
-      "why": "The source's own image for slow, steady counting is a paddy measurer filling a measure and calling each one, discarding the rubbish, neither rushing nor dawdling. This is mindfulness of breathing's own method of attention, transposed from breath to grain."
+      "why": "The digest gives the paddy-measurer simile as the sources' own image for the slow counting that begins mindfulness of breathing, along with the counting rules and the instruction not to force the breath. It is equally explicit that the practice is not relaxation, not breath control and not something done anywhere in five minutes, so the film observes the original of the image and does not present the work as meditation."
     },
     {
       "concept_id": "C068",
       "role": "supporting",
-      "why": "The steady rhythm of a working body through a long day, kept going by mind, food and the day's heat, is the same ground the four origins of matter describe."
+      "why": "The digest's account of the four origins, with mind-born matter moving the limbs and holding posture while heat and food sustain the rest, is the plain description of what a body doing repetitive work through a long day is running on. The digest also rules out reading mind-born matter as willpower, so the steadiness stays a description, not an achievement of mind over body."
     }
   ],
-  "what_camera_could_observe": [
-    "The measurer filling and levelling the measure",
-    "Straw and stones flicked out, numbers called aloud",
-    "Bags filling and being stacked",
-    "Farmers watching the tally that decides their season's income",
-    "The day's total reached, and reactions to it"
-  ],
-  "what_must_be_real": "The actual harvest, real prices and real stakes for the farmers involved. The counting itself must not be staged, slowed or repeated for the camera.",
-  "possible_arc": {
-    "opening": "The first baskets of a long harvest day.",
-    "turn": "The count nearly lost in the noise and heat, then recovered.",
-    "ending_open": "The day's total, and what it actually means for the farmers waiting."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active paddy store using hand measuring at harvest time",
-      "A measurer and farmers willing to be filmed during a real harvest day",
-      "Correct timing within the harvest calendar"
-    ],
-    "suggestions": [
-      {
-        "name": "Paddy stores of the North Central rice-growing districts",
-        "region": "Polonnaruwa District",
-        "why": "A well-known dry-zone rice-growing area with active harvest-season paddy trading.",
-        "season_notes": "Timed to the maha or yala harvest season; needs local confirmation.",
-        "access_notes": "",
-        "verify": "A specific store, its continued use of hand measuring and willingness to be filmed are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "A simple count, neither rushed nor dragged, can hold attention steady through a long day. The old meditation texts chose a grain measurer calling out each measure as their picture of what counting the breath should feel like.",
+  "what_must_be_real": "A real intake, real prices and real stakes for the farmers involved. The counting may not be slowed, restaged or repeated for the camera, and the work may not be presented as a spiritual practice by the people doing it.",
+  "position_hint": "early: it follows the night-shift film because both watch attention hold a working body together, and it introduces the counting that the later recitation film will echo.",
   "risks": [
-    "Nostalgia for manual methods that ignores real debt and price pressure on farmers",
-    "Turning a livelihood into a meditation metaphor"
+    "Nostalgia for hand methods that ignores debt and price pressure on farmers.",
+    "A livelihood turned into a meditation metaphor.",
+    "Presenting mindfulness of breathing as stress relief or breathwork, both of which the digest rules out.",
+    "Implying the measurer is practising something he has not claimed to be practising."
   ],
   "drop_if": [
-    "No harvest or hand measuring actually happening during the filming window",
-    "No store or farmers willing to be filmed"
+    "No hand measuring at a real intake during the research window.",
+    "No store or farmers willing to be filmed."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0114",
       "relation": "mirrors",
-      "note": "Both watch attention keep a tired body going through a long stretch of work, one through the night, one through a harvest day."
+      "note": "Both watch attention hold a tired body together through a long stretch of work, one through a night, one through a working day."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0059; the sources' own image for counting, observed in its original setting rather than restaged as practice."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,86 +4,67 @@
   "record_type": "idea",
   "title": "The Tools",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
   "logline": "A fisherman's nets, mended and re-mended for thirty years, pass to his son, whose hands are shaped by the same work before he has fully learned it.",
   "human_question": "What actually continues when someone's life's work passes to someone else?",
-  "premise": {
-    "story": "The tools and trade of a fisherman who has recently died, now in daily use by the relative who has taken up his work: nets, a boat, the particular knots and habits of the trade.",
-    "place": "A fishing village on the west coast.",
-    "experience": "Salt-worn hands on old nets, a boat that still carries one man's habits of repair, and a successor learning a trade that is also, quietly, a form of company with someone gone."
+  "situation": {
+    "what_happens": "A skilled trade passes to whoever takes it up after the death of the person who did it. The successor works with equipment worn into the shape of somebody else's habits, and finds the work teaching them things they were never told: which knot, which repair, which hour to go out. They are not preserving anything. They are trying to earn a living, and the trade changes in their hands while they are still learning it.",
+    "who_is_involved": "The successor, often a son, daughter or nephew who did not entirely choose this; the household that depends on the income; the others in the same trade, who correct and help and compete; and the person who died, present only as the condition of all of it and not as a presence.",
+    "what_is_at_stake": "An income and a household's stability. For the successor, whether they are any good at it, and whether taking it on was ever their decision. For the trade, whether it continues at all, since many do not.",
+    "how_it_unfolds": "Handovers like this are usually partial and unplanned. Some of the knowledge was passed on, some is reconstructed from the equipment and from other people, some is simply lost. The first season is the hard one. Some successors stay, some sell up and leave. Reality decides which, and the film has to be willing to end with the trade changed, or ending."
+  },
+  "concept_merge": {
+    "why_together": "Rebirth as causal continuation (C061) says that when a life ends nothing mental or physical crosses over, and yet what follows arises only because of what came before, closely enough that the stream may conventionally be spoken of as one person. Time of ripening (C057) says that some of what the person set going was still unfinished when they died. Laid over a trade being taken up, the pair describes continuity precisely: no traveller, no transfer, and yet nothing here is a stranger.",
+    "what_it_reveals": "That 'nothing crosses over' does not mean 'nothing continues'. What the film can actually watch is a capability forming in a second person through practice and correction, which is nearer to the source's causal stream than the objects are. The sources explicitly rule out the sentimental reading, that we live on through legacy, belongings or memory, so the film's discipline is to keep its eye on the work rather than on relics, and to say plainly that the comparison is an editorial one."
   },
   "concept_links": [
     {
       "concept_id": "C061",
       "role": "primary",
-      "why": "Both sources insist that nothing physical or mental travels from one life to the next, yet what follows is never a stranger, only ever what the causal stream itself produces [C061-P:L85; C061-M:L15-L17]. Tools passing into someone else's hands, worn into the shape of the first person's use, give that continuity-without-a-traveller an entirely ordinary, secular form."
+      "why": "Both sources hold that nothing mental or physical passes from one existence to the next, while the continuity of the stream is close enough that the two may conventionally be spoken of as one person [C061-P:L85; C061-M:L15-L17]. The digest explicitly excludes 'we live on through our legacy and in people's memories' as a reading of this, so the link survives only in a disciplined form: inherited work is an editorial analogy for continuity without a traveller, offered as such, and the film never suggests the dead person is present in the equipment or in the successor. The digest's exclusion of an in-between state also means the film makes no claim about where he is."
     },
     {
       "concept_id": "C057",
       "role": "supporting",
-      "why": "What a person leaves unfinished, including a trade only partly handed on, is part of what the source calls a life's continuing, unresolved action [C057-P:L87]."
+      "why": "What a life leaves unfinished, including a trade handed on only in part, sits inside the source's account of results still waiting for an occasion [C057-P:L87]. Nothing about the household's fortunes, before or after the death, is presented as a result of anyone's actions."
     }
   ],
-  "what_camera_could_observe": [
-    "The tools themselves, worn to one person's grip",
-    "The boat or workshop",
-    "The successor learning or continuing the trade",
-    "Stories told while working",
-    "The day's catch or the day's work brought home"
-  ],
-  "what_must_be_real": "A real family's real trade and real loss. The film does not claim anything about how the person died or what, if anything, they 'saw' at the end.",
-  "possible_arc": {
-    "opening": "The tools at rest, still shaped by one person's hands.",
-    "turn": "The successor at work, learning what the tools still teach.",
-    "ending_open": "A day's work completed. The trade continues, changed by whoever now does it."
-  },
-  "position_hint": "closing candidate: continuity carried entirely by ordinary work and objects, without doctrine, a plain image for what the group's teaching on rebirth holds without a traveller",
-  "location": {
-    "requirements": [
-      "A fishing family who has recently lost the person whose trade and tools are now used by a relative",
-      "Willingness to be filmed at real, ongoing work"
-    ],
-    "suggestions": [
-      {
-        "name": "A fishing village near Negombo",
-        "region": "Western Province",
-        "why": "An established west-coast fishing community; no specific family identified.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No family confirmed; would need direct outreach and consent.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts say that when a life ends nothing of it crosses into the next, yet what begins is not a stranger: it arises only because of what came before. Worn tools in new hands are an everyday picture of that kind of continuity, and only a picture.",
+  "what_must_be_real": "A real trade, a real loss and a real economic dependency. The film makes no claim about how the person died or about anything he experienced at the end, and never asks the successor to perform inheritance. If the successor does not want the work framed around the death, it is not framed that way.",
+  "position_hint": "closing candidate: the group's last film, where the whole question is carried by ordinary work and nothing is explained, and where the thread of what connects it all is handed on.",
   "risks": [
-    "Over-symbolising ordinary objects",
-    "Implying anything about the cause or manner of the original owner's death",
-    "Turning a working trade into a metaphor rather than a livelihood"
+    "Over-symbolising ordinary objects until the film says 'he lives on in his tools', which the sources rule out",
+    "Implying something about the cause or manner of the death",
+    "Turning a livelihood into a metaphor rather than a way of feeding a household",
+    "Pressing a successor who took the work on out of necessity, or filming grief they did not offer"
   ],
   "drop_if": [
-    "No family with this exact situation and full consent can be found",
-    "The successor does not want their inherited trade framed around the death"
+    "No family in this situation will take part with full consent",
+    "The successor does not want the trade framed around the death",
+    "The trade is collapsing and filming would present a household's crisis as a theme"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0133",
       "relation": "mirrors",
-      "note": "Both follow an object outliving the person who used it, one at the very start of the group, one much later."
+      "note": "Both watch what outlives a person, one in the weeks after a death and one once the work has been taken up by someone else."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by the group's closing episode; kept with the legacy reading the C061 digest forbids now named and refused inside the idea."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

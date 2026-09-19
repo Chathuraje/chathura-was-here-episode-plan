@@ -4,85 +4,67 @@
   "record_type": "idea",
   "title": "The Ledger",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-08",
   "logline": "A village shop's handwritten credit book holds decades of small debts, some paid next week, some after the harvest, some quietly struck through when the debtor dies.",
   "human_question": "Does everything we owe, or are owed, eventually come due?",
-  "premise": {
-    "story": "A small rural shopkeeper's credit book, followed through a season of transactions, from money added to accounts to money finally settled or written off.",
-    "place": "A small grocery shop (kade) in a hill-country tea-growing village.",
-    "experience": "Worn pages, a shopkeeper's memory for who owes what, customers settling accounts at the counter, and the occasional quiet page where a name is crossed out for good."
+  "situation": {
+    "what_happens": "A small shop extends credit to the households around it and records it by hand. Over a season the book fills and empties unevenly: some accounts are cleared every week, some wait for a harvest or a pay day, some are carried for years out of relationship rather than expectation, and some are quietly ended, because a family has moved away or because the person has died and nobody will be asked. The shopkeeper does not think of this as philosophy. It is how the shop stays open.",
+    "who_is_involved": "The shopkeeper, who is lender, record keeper and the person who decides when to stop asking; the households who buy on credit, who are neighbours as well as debtors; and whoever in the family will inherit both the shop and the book.",
+    "what_is_at_stake": "The shop's survival, and the standing of families whose names are in the book. For the shopkeeper, the working question of how long to carry someone. For the customers, dignity: a credit book is a private record of a household's worst months, kept by someone they see every day.",
+    "how_it_unfolds": "Credit builds through a season and settles after it, unevenly, and the pressure arrives when the shop's own suppliers want paying. A line gets struck through when it is clear nothing more will come, and that moment is almost never announced. Reality decides which accounts close, which simply lapse, and whether the shop has a good year at all."
+  },
+  "concept_merge": {
+    "why_together": "One concept carries this film and needs no partner to be felt. Time of ripening (C057) sorts what a person does by when its result arrives: now, next, much later whenever an occasion opens, or never. A shop's credit book is that same sorting done by an ordinary person with a pen. The film's work is to let the two sit beside each other without either becoming an illustration of the other.",
+    "what_it_reveals": "That what comes due runs on several clocks and is not a balance. Some things arrive at once, some sit for years waiting for an opening that may never come, and some simply expire, which the source is careful to call expiry rather than forgiveness. Watching this happen with money makes the shape visible without asking anyone to believe anything."
   },
   "concept_links": [
     {
       "concept_id": "C057",
       "role": "primary",
-      "why": "The source's own image for action that never ripens is seed grain kept past its season, which will not sprout [C057-P:L87]. A shop's credit book, where some debts are paid and others simply lapse, gives that idea an entirely secular, everyday form."
+      "why": "The source's own image for action that never ripens is seed grain kept past its season, which will not sprout [C057-P:L87], and the digest insists that lapsing is expiry, not forgiveness or a clean slate. A credit book in which some debts are paid, some wait for an occasion and some are struck through gives that its plainest secular form. The digest also rules out 'instant karma' and any reading in which good and bad net out, so the accounting image must never become a moral balance sheet, and no customer's poverty is framed as anything but circumstance."
     }
   ],
-  "what_camera_could_observe": [
-    "The shopkeeper turning pages",
-    "Customers settling or adding to accounts",
-    "A line struck through",
-    "A conversation about an old account that will never be paid",
-    "The shop at closing time"
-  ],
-  "what_must_be_real": "The shop's actual business and its real customers' privacy. Named debts and amounts are never shown identifiably.",
-  "possible_arc": {
-    "opening": "The shop opening, the ledger taken down from its shelf.",
-    "turn": "An old account is mentioned that everyone knows will never be settled.",
-    "ending_open": "The shop closes for the night. The ledger goes back on its shelf, unfinished as ever."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A working village shop with a handwritten credit system and a shopkeeper willing to be filmed",
-      "Customers willing to be filmed at the counter, or filming arranged to protect their privacy"
-    ],
-    "suggestions": [
-      {
-        "name": "A tea-estate village shop in the Nuwara Eliya or Uda Pussellawa area",
-        "region": "Central Province",
-        "why": "Small rural shops with long-running credit books are still common in tea-growing hill country.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific shop identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts teach that what we do does not all come due at the same time: some of it shows up in this life, some in the next, some waits a very long time for an opening, and some simply lapses and never comes due at all.",
+  "what_must_be_real": "The shop's actual trade, and its customers' privacy: no name, amount or household appears identifiably without that person's own consent, and nobody is filmed being refused credit. The shopkeeper decides what the book may show, and can withdraw a page at any point.",
+  "position_hint": "middle: the group's plainest and least ceremonial account of how results keep different clocks, placed where the films turn from rites to mechanisms.",
   "risks": [
-    "Exposing named debtors or a family's money troubles",
-    "The metaphor overwhelming the shopkeeper's real livelihood"
+    "Exposing named debtors or a family's money troubles to their own neighbours",
+    "Letting the ledger image suggest that good and bad net out, which the sources deny",
+    "Poverty or a run of bad years read as the result of someone's past actions",
+    "The metaphor overwhelming the shopkeeper's actual livelihood"
   ],
   "drop_if": [
-    "The shopkeeper cannot protect customers' privacy while still telling the story",
-    "No shop with the right kind of long-running ledger can be found"
+    "Customers' privacy cannot be protected while the book is still legible as a story",
+    "No shop with a long-running handwritten credit system will take part",
+    "The shopkeeper would have to perform the book for the camera"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0135",
       "relation": "mirrors",
-      "note": "A second everyday image, a ledger instead of a cattle pen, for the same idea about what comes due and when."
+      "note": "A gate and a ledger are two everyday images for the same family of ideas about what comes due; the cattle-pen idea has been merged into IDEA-0136, where the ordering question belongs to a real deathbed."
     },
     {
       "idea_id": "IDEA-0133",
       "relation": "pairs with",
-      "note": "Both ask what happens to what is still owed, or unfinished, when the person involved is gone."
+      "note": "Both ask what happens to what is still owed or unfinished when the person concerned is gone."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by its episode and directly supported by the C057 digest's own central image."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

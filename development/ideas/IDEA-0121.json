@@ -4,87 +4,67 @@
   "record_type": "idea",
   "title": "Learning the Body",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-07",
-  "logline": "At a village temple school, young novices learn to recite the body's thirty-two parts aloud, forwards and backwards, stumbling over the reverse order until a teacher corrects them.",
-  "human_question": "What does a body look like once you have said all thirty-two of its ordinary parts out loud?",
-  "premise": {
-    "story": "A recitation lesson repeated over days at a rural monastic school, told through the novices' own progress, mistakes and ordinary monastery routine around it.",
-    "place": "A village temple school (pirivena) where new novices learn their early lessons.",
-    "experience": "Small voices chanting a fixed list, faltering on the reverse order, a teacher's correction, and the strange effect of repetition on an ordinary word."
+  "logline": "Young novices learn to recite the body's thirty-two parts aloud, forwards and then backwards, stumbling over the reverse order until a teacher corrects them.",
+  "human_question": "What happens to a body once you have said all thirty-two of its ordinary parts out loud, in order, for weeks?",
+  "situation": {
+    "what_happens": "New novices are given the list of the body's thirty-two parts as one of their first lessons. They learn it in small groups of parts, reciting aloud, day after day, first forwards and then backwards, and the reverse order is where it reliably breaks down. A teacher corrects a skipped or misplaced part and the group begins again. Around the lesson runs everything else in the day: sweeping, meals, washing, study, sleep.",
+    "who_is_involved": "Novices at the very start of their training, some of them children; the teacher who sets and corrects the recitation; the senior monks of the house; the families who placed them there and visit.",
+    "what_is_at_stake": "For the novices, whether the words will ever become anything more than words, since the texts themselves say the practice only begins when each name calls up the thing. For the teacher, handing on a discipline that can only be handed on by repetition. For the children, a childhood spent learning something whose point is not yet available to them.",
+    "how_it_unfolds": "A recitation lesson runs for weeks or months before anything is expected of it. It begins as sound, is corrected constantly, and either settles into memory or does not. The sources are clear that whatever change they describe comes slowly, to some people and not others, and nothing about filming can produce it or show it happening."
+  },
+  "concept_merge": {
+    "why_together": "C093 contributes the practice itself: thirty-two named parts recited aloud and then mentally, in fixed groups, forwards and backwards, given as the first meditation subject to the newly ordained, with the names treated as a marker to be dropped once the path is worn. C063 contributes the same discipline applied to the world: the sources tell the student to learn the twenty-eight kinds of matter by heart, and treat counting a whole into its parts as a way of attending rather than as information.",
+    "what_it_reveals": "Together they show that the two lists in this group, the body's parts and matter's kinds, are one exercise done twice. What is being taught is not an inventory but a way of looking that refuses to accept a single name for a whole. Watching children do it by rote also shows the honest distance between the exercise and its result: the words come first, by years."
   },
   "concept_links": [
     {
       "concept_id": "C093",
       "role": "primary",
-      "why": "This is the practice itself: reciting the body's thirty-two parts aloud and then mentally, forwards and backwards, until each word calls up a picture and the body stops being one smooth whole called 'me'. The Margaya gives this as the first meditation subject taught to new novices."
+      "why": "The digest describes the practice exactly: thirty-two parts recited aloud and then mentally, in fixed groups, forwards and backwards, named as the first meditation subject given to the newly ordained, with the names compared to a marker tied on the way to a well and dropped once the path is worn. The digest also states that the aim is to let go of both craving for the body and aversion to it, so the lesson may not be read on screen as self-hatred or as body-praise."
     },
     {
       "concept_id": "C063",
       "role": "supporting",
-      "why": "Naming and counting a whole into its qualities, one by one, is the same discipline of attention the source describes for the twenty-eight kinds of matter more generally."
+      "why": "The digest reports the instruction to learn the twenty-eight kinds of matter by heart and treats naming parts one by one as a practice of attention, less a piece of information than a discipline for slowing down the eye. The recitation lesson is that discipline in its most literal form."
     }
   ],
-  "what_camera_could_observe": [
-    "The daily recitation session, forwards and then backwards",
-    "Small voices stumbling over the reverse order",
-    "A teacher correcting a skipped or misplaced part",
-    "Novices glancing at their own hands or skin as they say the words",
-    "Ordinary monastery routine around the lesson: sweeping, meals, washing robes"
-  ],
-  "what_must_be_real": "The novices' actual training, with full guardian and monastery consent. Nothing performed only for the camera, and no claim on screen that the children have grasped or mastered the practice's meaning; they are shown learning, not demonstrating.",
-  "possible_arc": {
-    "opening": "The list begun from memory, faltering early on.",
-    "turn": "The reverse order breaks down and is patiently corrected.",
-    "ending_open": "Whatever the day's lesson actually becomes."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A village pirivena with new novices in early training",
-      "Full consent from guardians, the novices themselves, and the monastery's senior monks",
-      "A genuine, ongoing recitation practice, not one staged for filming"
-    ],
-    "suggestions": [
-      {
-        "name": "A village pirivena in the Central Province",
-        "region": "Kandy or Matale district",
-        "why": "The central hill villages have a strong tradition of small monastic schools.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific pirivena and its willingness to allow filming of minors are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Saying the body's ordinary parts aloud, one by one, forwards and backwards, slowly turns 'my body' from one smooth whole into a list of things. These texts give this as a first lesson to the newly ordained.",
+  "what_must_be_real": "The novices' actual training, with consent from guardians, the monastery and the novices themselves, renewable at any point. Nothing performed for the camera, and no implication that the children have grasped what they are reciting. Nothing from the sources' longer part-by-part description of the body, its bone, muscle and sinew counts, its intestine lengths, what it says bile does, may appear as anatomy or medicine: the digest records all of it as traditional commentary and rules out its use as fact.",
+  "position_hint": "middle: it follows the films that take a body apart from outside and turns the same operation inward, before the group moves to how a body begins and how it ends.",
   "risks": [
-    "Filming minors requires full guardian and monastery consent at every stage",
-    "Risk of cute-child framing that trivialises the practice",
-    "Must not imply the children understand or have completed what they are still learning by rote"
+    "Filming minors: consent from guardians and monastery at every stage, and the novices' own willingness.",
+    "Cute-child framing that trivialises the practice.",
+    "Implying the children understand or have completed what they are still learning by rote.",
+    "Traditional anatomy in the sources mistaken for medical description.",
+    "Reading the practice as body-shaming or as body-positivity, both of which the digest rules out."
   ],
   "drop_if": [
-    "No monastery or guardians consent",
-    "No genuine ongoing recitation practice available to observe"
+    "No monastery, guardians or novices consent.",
+    "No genuine ongoing recitation practice to observe."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0120",
       "relation": "leads into",
-      "note": "A body assembled week by week in one film; the same body, years later, taught to take itself apart again, part by part, in the next."
+      "note": "A body assembled out of sight in one film; the same body, years later, taught to take itself apart again, part by part, in the next."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0063; the only film carrying C093, and a direct observation of the practice as the sources describe it being taught."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

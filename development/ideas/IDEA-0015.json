@@ -4,87 +4,71 @@
   "record_type": "idea",
   "title": "The Weighing Hour",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-02",
-  "logline": "On a gem-trading street, a dealer's flat, expert glance under a loupe meets a miner's family who has carried one stone a long way, hoping.",
+  "logline": "A dealer's flat, expert glance under a loupe meets a family who has carried one stone a long way, hoping.",
   "human_question": "Why does the calm, unexcited offer sometimes carry more weight than the hopeful one?",
-  "premise": {
-    "story": "A working day on a gem-trading street: practised dealers examining stones with professional detachment, a family bringing a single stone with real hope riding on it, the bargaining talk, and whatever price is finally reached or refused.",
-    "place": "A gem-trading street in a gem-mining town.",
-    "experience": "Loupes, scales and quiet, expert hands; the tension between a dealer's flat calm and a seller's open hope; the long wait for a number."
+  "situation": {
+    "what_happens": "A family brings a single find to people who buy such things for a living and have seen thousands of them. The examination is short and gives nothing away. A price is named, argued over, and either taken or refused, after which the family either goes home with money or carries the same stone to the next buyer. Everything the family has riding on it is visible; almost nothing the buyer has riding on it is.",
+    "who_is_involved": "A family whose year may turn on one find, and who do not know what it is worth; dealers who appraise all day and will see another tomorrow; the middlemen and relatives who came along to advise.",
+    "what_is_at_stake": "For the family, a sum that is either transforming or disappointing, and no way of knowing which offer was fair. For the dealer, one of many small margins and a reputation in a trade that runs on trust. For the film, the risk of making dealers into villains, which would be defamatory in effect and untrue.",
+    "how_it_unfolds": "These exchanges are short and repeat: an appraisal, a silence, a number, a counter, and a decision made with incomplete information on one side. They end in a sale, a refusal, or a slow walk to the next buyer, and the family usually never learns what the thing was really worth. Nothing about the price can be arranged, and the outcome belongs to the trade."
+  },
+  "concept_merge": {
+    "why_together": "C006 contributes the contrast the exchange is built on: the sources sort greed-rooted minds by joyful or flat feeling, and rank the flat, unexcited kind as stronger than the joyful one, which is the reverse of what most people would expect. C021 contributes the appraiser's side: decision, which settles firmly on something whether or not it is right, and effort, which carries on until a task is finished, neither of them good or bad in itself.",
+    "what_it_reveals": "That the quieter party in a hopeful exchange is not the less involved one, and that calm is not evidence of detachment. Where the film could not go is the ranking itself: the digest records it as unexplained in the sources and needing an expert check, so it could only ever have been shown, never stated."
   },
   "concept_links": [
     {
       "concept_id": "C006",
       "role": "primary",
-      "why": "The dealer's unexcited, businesslike wanting and the family's joyful hope are the concept's own contrast between neutral and joyful greed-rooted minds, and between reasons offered and reasons withheld [C006-M:L19] [C006-P:L74]."
+      "why": "The digest's own story seed is a trading street where practised dealers and first-time sellers meet, and it ties the calm-beside-hopeful contrast to the sources' sorting of greed-rooted minds by joyful and neutral feeling, and to their ranking of neutral above joyful [C006-P:L74] [C006-M:L19]. The digest flags that ranking as unexplained and needing an expert check, and warns that portraying dealers as predatory would be defamatory in effect."
     },
     {
       "concept_id": "C021",
       "role": "supporting",
-      "why": "The dealer's steady, practised effort and settled decision under the loupe echo the concept's picture of effort and decision (adhimokkha) at work in a trained craft [C021-P:L45] [C021-M:L19]."
+      "why": "Decision is described as the mind settling firmly on an object, rightly or wrongly, and effort as what does not turn back until a task is done [C021-P:L45] [C021-M:L19]. A practised appraisal is a plain instance of both, and they carry no moral colour of their own."
     }
   ],
-  "what_camera_could_observe": [
-    "A loupe raised to an eye, a stone turned in light",
-    "Scales and small paper packets",
-    "A family waiting, hopeful, off to one side",
-    "The bargaining talk and its pauses",
-    "A price accepted, or the family walking on to try another dealer"
-  ],
-  "what_must_be_real": "A real stone, a real family's stake and a real dealer's trade. No price or negotiation staged for the camera.",
-  "possible_arc": {
-    "opening": "Morning light on a street of small shopfronts and loupes.",
-    "turn": "A stone is examined, and the room goes quiet.",
-    "ending_open": "A deal is struck, refused, or taken elsewhere. Reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A gem-trading street with dealers willing to be filmed appraising",
-      "A seller or family willing to have their sale filmed",
-      "Trust built with dealers over more than one visit, given the sensitivity of prices"
-    ],
-    "suggestions": [
-      {
-        "name": "The gem-trading street in Ratnapura town",
-        "region": "Sabaragamuwa Province",
-        "why": "Sri Lanka's best-known gem-trading centre, with a long-established street of dealers.",
-        "season_notes": "",
-        "access_notes": "Trading and prices are sensitive; access depends on dealers' trust.",
-        "verify": "No dealer or seller has been contacted; willingness to film real transactions is unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The person who looks calm in a bargain is not wanting less than the person who looks hopeful. Flat, unexcited wanting is still wanting, and it is the harder kind to notice.",
+  "what_must_be_real": "A real find, a real family's stake and a real trade. No price, appraisal or negotiation arranged, and no dealer's livelihood risked by what is shown.",
+  "position_hint": "middle, if ever revived: it belongs with the group's joyless-wanting beat rather than with its refusals.",
   "risks": [
     "Portraying dealers as predatory, which would be defamatory in effect",
-    "Exposing a family's financial hardship without full consent",
-    "Filming real prices could carry commercial sensitivity"
+    "Exposing a family's financial hardship without full understanding on their part",
+    "Real prices carry commercial sensitivity for everyone involved",
+    "Asserting the sources' ranking of flat over joyful wanting, which the digest flags for expert check"
   ],
   "drop_if": [
-    "No dealer will allow real appraisals and prices to be filmed",
-    "A seller's hardship cannot be shown with dignity and consent"
+    "No dealer will allow real appraisals and prices to be part of the film",
+    "A family's hardship cannot be shown with dignity and full understanding"
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0013",
+      "relation": "merged into",
+      "note": "Its substance now sits inside IDEA-0013: the practised, unexcited half of a hopeful exchange, and the sources' ranking of flat wanting above joyful."
+    },
+    {
       "idea_id": "IDEA-0020",
       "relation": "pairs with",
-      "note": "The same stone traded here is cut and set there: one craft in dealing, another in shaping."
+      "note": "One trade in pricing a stone, one in shaping it."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0013",
+    "reason": "Its contrast between a hopeful seller and a practised, unexcited buyer, and the sources' ranking of flat wanting above joyful, are folded into IDEA-0013, which carries the same pairing in a daily trade at far lower cost to the people in it."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

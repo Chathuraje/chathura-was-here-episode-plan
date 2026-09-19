@@ -4,95 +4,84 @@
   "record_type": "idea",
   "title": "Forty Doors",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-10",
-  "logline": "In one ordinary day at a small-town temple's lay meditation class, a teacher sends a grieving widow to loving-kindness, a proud young trader to a reflection on the body, and a doubtful engineer to the breath, each to their own plain object.",
+  "logline": "At a weekly lay meditation class, a teacher asks each newcomer about their life and then gives them a different, deliberately plain thing to attend to.",
   "human_question": "If there is one path, why does it start in so many different places?",
-  "premise": {
-    "story": "A single day, or a few sessions, at a lay meditation class, following the teacher's quiet, practical matching of different people to different simple practices.",
-    "place": "A small-town temple hall used for a regular lay meditation class, not a remote forest hermitage.",
-    "experience": "The variety and ordinariness of what people are actually asked to do: watch a breath, recall a kindness, look at a disc, remember a gift given."
+  "situation": {
+    "what_happens": "A teacher who runs a regular class for lay people takes each person aside, asks what their life is like and what pulls at them, and gives them a practice on that basis rather than a standard one: a breath, a phrase of goodwill, a recollection of their own giving, a plain made object to look at. Some of those objects are made by hand for the purpose, a clay disc kneaded free of grit and levelled flat again every time it dries and cracks, kept dull on purpose. Week after week the same room holds people sitting in silence doing entirely different things.",
+    "who_is_involved": "The teacher who does the matching; the lay people who come, of different ages and occupations and for reasons that are theirs to state or withhold; whoever makes or supplies the plain objects the class uses; the families who notice someone leaving the house every week.",
+    "what_is_at_stake": "For the participants: privacy about why they came, and the possibility that nothing changes. For the teacher: responsibility for a judgement about another person's life. For the maker: an ordinary order. For the film: whether it can show variety without cataloguing people.",
+    "how_it_unfolds": "Classes like this run in cycles, with a stable core and a drift of newcomers. The first weeks are awkward and practical; the pressure is ordinary life, which takes people away again. Some return for years, some come twice. Reality decides who stays, what they are willing to say, and whether anyone reports any change at all; the film does not need a change to have happened."
+  },
+  "concept_merge": {
+    "why_together": "C085 (the compendium of meditation subjects) contributes the forty objects and the rule that the choice must fit the person and come from a teacher, each object having its own ceiling [C085-P:L47; C085-P4:L61]. C087 (kasina meditation) contributes one of those objects in full, physical detail, the made and re-levelled disc attended to by name rather than by its colour [C087-P4:L209–L213], together with the sources' own insistence that the full method is hard and suits very few [C087-M:L9]. C096 (insight meditation) contributes the limit: settling the mind is groundwork, and the texts say it is seeing clearly that frees [C096-P4:L26].",
+    "what_it_reveals": "Held together, the variety stops looking like a menu of preferences and starts looking like fitting: a door chosen for a person, not by them. And the plainness of the objects becomes the point rather than an oddity. C085 alone would be a list; C087 alone would be one curious craft; C096 alone would be a warning with nothing to warn about."
   },
   "concept_links": [
     {
       "concept_id": "C085",
       "role": "primary",
-      "why": "The source lists forty meditation subjects and insists the choice must fit the person's temperament and be given by a teacher, each with its own reach and limit [C085-M:L3; C085-P:L47]."
+      "why": "The sources list forty subjects in seven groups and insist that the object is matched to the person's temperament and taken from a teacher, each with a fixed reach [C085-P:L47; C085-P4:L61]. The digest also warns against reading this as 'focus on whatever you like'."
     },
     {
       "concept_id": "C087",
       "role": "supporting",
-      "why": "The kasiṇa disc is one of the forty; a brief glimpse of it being used situates the earlier disc-making idea inside this larger list."
+      "why": "The disc is the classical instance of one of the forty, and the digest describes it being made: pebbles picked out, clay kneaded and levelled, re-levelled when it cracks, until it is as smooth as a drum skin [C087-P4:L209–L213]. The digest warns that the powers listed as fruits of kasina practice must never appear as verified fact or as a promise [C087-P4:L464–L484]."
     },
     {
       "concept_id": "C096",
       "role": "supporting",
-      "why": "The source separates settling, this class's work, from seeing, the further work of insight, and is clear that settling alone is not the end of the road [C096-P4:L26]."
+      "why": "The sources place wisdom on the ground of conduct and concentration and say plainly that calm is not what frees [C096-P4:L26]. The class is the settling work, and the film should not let it stand for the whole road."
     }
   ],
-  "what_camera_could_observe": [
-    "Several very different people arriving for the same weekly class",
-    "Short, separate conversations where the teacher asks about each person's life before suggesting an object",
-    "The room settling into silence with everyone doing something different",
-    "People leaving, briefly saying what, if anything, they noticed"
-  ],
-  "what_must_be_real": "A real, ongoing class with a real teacher and real participants. No practice or conversation is staged for the camera; consent is needed from everyone shown.",
-  "possible_arc": {
-    "opening": "The hall filling before the class starts.",
-    "turn": "The teacher's private, practical matching of person to practice.",
-    "ending_open": "What each participant says afterwards, in their own words, closes the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A real, regular lay meditation class with a willing teacher",
-      "Participants willing to be identified only as much as they choose",
-      "A room, not a forest retreat, to keep this distinct from Episode 1's monastery"
-    ],
-    "suggestions": [
-      {
-        "name": "A town temple's lay meditation society",
-        "region": "Any market town",
-        "why": "Such weekly classes are common at temples across the island.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "No specific temple or teacher is identified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "There is no single right way to settle the mind: a good teacher looks at who you are and gives you something that fits. And settling the mind is only a start; the texts say that seeing clearly is what frees.",
+  "what_must_be_real": "A real, continuing class with a real teacher and real participants, filmed with consent that each person controls and can withdraw. No conversation, assignment or sitting is staged. No participant is presented as having attained anything. If an object-maker appears, their real order and livelihood, and they are not shown as practising.",
+  "position_hint": "opening candidate, placed early: it lays out the many starting points before the later films follow single ones, and it introduces the plain object that the rest of the group's practice films assume.",
   "risks": [
-    "Turning into a lecture about the forty subjects",
-    "Exposing private reasons people are grieving or struggling",
-    "Implying anyone in the class has attained anything"
+    "Becoming a lecture on the forty subjects",
+    "Exposing private reasons people are grieving, ill or struggling, or letting the film imply grief is a fault to be treated",
+    "Sorting real participants into temperament types; the sources match a practice to a person and do not rank people",
+    "Implying anyone in the room has attained anything",
+    "Letting the traditional fruits of kasina practice be heard as a promise"
   ],
   "drop_if": [
-    "No teacher and class will allow filming without disrupting or exposing participants"
+    "No teacher and class will allow filming without disrupting the class or exposing participants",
+    "Consent cannot be kept genuinely revocable for every person in the room"
   ],
   "connections": [
     {
       "idea_id": "IDEA-0173",
-      "relation": "pairs with",
-      "note": "Both look at the plain, made objects a meditator's attention rests on, from opposite ends: making one object closely, and choosing among forty."
+      "relation": "merged in",
+      "note": "Brought the made object itself: clay picked clean, levelled and re-levelled, kept deliberately dull, which gives the C087 link a physical body."
     },
     {
       "idea_id": "IDEA-0178",
       "relation": "leads into",
-      "note": "From settling the mind to the further work of seeing clearly, which the next idea follows into ordinary working wisdom."
+      "note": "From settling the mind to the further work of seeing clearly, followed there into ordinary working knowledge."
+    },
+    {
+      "idea_id": "IDEA-0188",
+      "relation": "mirrors",
+      "note": "One day's class matching many people to many objects, against one retreat's shared ending."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0173"
+    ],
+    "superseded_by": null,
+    "reason": "Used by EPD-0088, and now carries the made object as well as the list."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }
