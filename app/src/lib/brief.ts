@@ -1,5 +1,5 @@
 import { getData, readDoc } from "./content";
-import { getDevelopment, latestStages, ownedObjectsAt, screenplayNextStage, type Digest, type ScreenplayVersion, type Episode, type Group, type Idea, type Place, type ScreenplayNextStage, type StoryObject } from "./development";
+import { getDevelopment, latestStages, orderedIdeas, ownedObjectsAt, screenplayNextStage, type Digest, type ScreenplayVersion, type Episode, type Group, type Idea, type Place, type ScreenplayNextStage, type StoryObject } from "./development";
 import { citationsInText } from "./citation-utils.mjs";
 import { resolveBriefSourceIdeas } from "./brief-ideas.mjs";
 
@@ -8,14 +8,14 @@ export const PROJECT_RULES = [
   "Each film stands on its own and follows Chathura's outward-looking point of view through real people, places and journeys. It is not a travel vlog and not a philosophical lecture.",
   "Abhidhamma concepts sit underneath the human story. Real people and events are never forced to illustrate doctrine.",
   "Never invent participants, dialogue, events, access, or facts about real places. Planned material is marked as planned; placeholders are marked as placeholders.",
-  "Location selection belongs to Chathura alone. AI may describe requirements and suggest places, but never selects one.",
+  "Location selection belongs to Chathura alone. AI may describe requirements and suggest places, but never selects one. An idea records the location Chathura chose for it, taken from the saved locations; AI must treat that field as read-only.",
   "Films begin inside the story with footage and early voice-over. Season/episode, coordinates and title arrive after curiosity develops. A location name is not automatically revealed.",
   "Natural sound, observation and room to breathe come before explanation. Target length is 5–10 minutes, ideally 6–8.",
   "Every film ends with 'A Film by Chathura', then the project logo.",
   "Narration is written in English for now; Sinhala translation comes later.",
   "Keep the evidence classes separate: source teaching, editorial interpretation, documentary possibility, verified evidence.",
   "The ordinary public structure is Episodes 1–99 across 10 seasons. Season 1 has exactly 8 episodes; later seasons may have unequal counts. Episode 100 keeps its number but is hidden/discoverable outside the ordinary public structure.",
-  "Chronology v1 is a complete 98-film draft awaiting Chathura's creative approval. Release order, seasons beyond the locked rules, locations, research, and screenplay approvals remain human decisions.",
+  "The chronology, the learning path and the earlier per-film location work have been cleared. The live step is idea review: each idea is confirmed, pending or rejected by Chathura, and confirmed ideas are given a location. Rejected ideas are kept so they can be regenerated.",
 ];
 
 const MAX_LINES_PER_SOURCE = 250;
@@ -80,6 +80,9 @@ export type IdeaBrief = {
   }[];
   group: Group | null;
   object: StoryObject | null;
+  place: Place | null;
+  previous: { id: string; title: string } | null;
+  next: { id: string; title: string } | null;
   related_ideas: { id: string; title: string; relation: string; note: string }[];
   concepts: {
     id: string;
@@ -116,6 +119,13 @@ async function buildBrief(ideaIds: string[]): Promise<IdeaBrief | null> {
   const idea = ideas[0];
   const group = dev.groups.find((entry) => entry.id === idea.group_id) ?? null;
   const object = group ? dev.objects.get(group.object_id) ?? null : null;
+  const place = idea.location.location_id ? dev.places.get(idea.location.location_id) ?? null : null;
+  const ordered = orderedIdeas(dev);
+  const index = ordered.findIndex((entry) => entry.id === idea.id);
+  const neighbour = (offset: number) => {
+    const entry = index < 0 ? undefined : ordered[index + offset];
+    return entry ? { id: entry.id, title: entry.title } : null;
+  };
   const source_ideas = sourceIdeas.map(({ idea: sourceIdea, presentation_role }) => ({
     presentation_role,
     idea: sourceIdea,
@@ -152,7 +162,21 @@ async function buildBrief(ideaIds: string[]): Promise<IdeaBrief | null> {
   const manifest = [...ideas, group, object, ...concepts.map((concept) => concept.digest)]
     .filter((record): record is NonNullable<typeof record> => Boolean(record))
     .map((record) => ({ id: record.id, version: record.version, status: record.status }));
-  return { generated_at: new Date().toISOString(), idea, source_ideas, group, object, related_ideas, concepts, citations, rules: PROJECT_RULES, manifest };
+  return {
+    generated_at: new Date().toISOString(),
+    idea,
+    source_ideas,
+    group,
+    object,
+    place,
+    previous: neighbour(-1),
+    next: neighbour(1),
+    related_ideas,
+    concepts,
+    citations,
+    rules: PROJECT_RULES,
+    manifest,
+  };
 }
 
 export async function buildIdeaBrief(ideaId: string): Promise<IdeaBrief | null> {
@@ -192,6 +216,16 @@ export function briefToMarkdown(brief: IdeaBrief): string {
   const sourceIdeaIds = brief.source_ideas.map((context) => context.idea.id).join(", ");
   out.push(ep ? `# Episode brief: ${ep.episode.title} (${ep.episode.id}, from ${sourceIdeaIds})` : `# Idea brief: ${idea.title} (${idea.id})`);
   out.push(`Generated ${brief.generated_at} from the Chathura Was Here development records. Status: **${idea.status}**. This is a snapshot; the records are the source of truth.`);
+
+  const review = idea.review;
+  out.push(`## 0. Chathura's review
+**Verdict:** ${review.status}${review.decided_at ? ` (recorded ${review.decided_at})` : " (not recorded yet)"}.${review.note ? ` Note: ${review.note}` : ""}
+${review.status === "rejected"
+    ? "This idea was rejected. A replacement may be generated for the same group and concepts; do not present this one as live."
+    : review.status === "pending"
+      ? "This idea is still awaiting Chathura's verdict. Do not treat it as settled."
+      : "This idea is confirmed. It may move on to a location and, later, to a film."}
+_Chathura's verdict, not the machine's. The \`selection\` field further down is only the AI's recommendation and never overrides this._`);
 
   out.push(`## 1. Project rules (always apply)\n${list(brief.rules)}`);
 
@@ -279,10 +313,21 @@ ${list(sourceIdea.unknowns)}
 
 **Evidence boundary:** ${sourceIdea.evidence_class_note}
 
-_Ideas carry no location, scene or shot decisions. Those are chosen later, on the episode._`;
+_Ideas carry no scene or shot decisions. Those are chosen later._`;
   });
   out.push(`## 3. Source idea context${brief.source_ideas.length > 1 ? "s" : ""}
 ${ideaBlocks.join("\n\n")}`);
+
+  if (!ep) {
+    const place = brief.place;
+    out.push(`## 4. Location (Chathura selects)
+**Chosen location:** ${place
+      ? `${place.name}${place.region ? `, ${place.region}` : ""} (${place.id}, chosen by Chathura${idea.location.set_at ? ` on ${idea.location.set_at}` : ""}${idea.location.decision_id ? `, decision ${idea.location.decision_id}` : ""})${place.note ? `. Location note: ${place.note}` : ""}`
+      : "none yet. Chathura has not chosen a place for this idea."}
+${idea.location.note ? `**Note on this choice:** ${idea.location.note}` : ""}
+
+Choosing a place verifies nothing: access, participants, permissions and the documentary facts are all still unresearched. Do not select or change a location, and do not infer one from the text above.`);
+  }
 
   const location = ep?.episode.location;
   if (location) {

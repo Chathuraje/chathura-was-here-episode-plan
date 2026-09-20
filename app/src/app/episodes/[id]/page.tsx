@@ -2,7 +2,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import CopyButton from "@/components/CopyButton";
 import { EpisodeLessonView } from "@/components/LessonView";
-import { clearLocation, selectLocation } from "@/app/location-actions";
 import { buildEpisodeBrief, briefToMarkdown } from "@/lib/brief";
 
 export default async function EpisodePage({ params }: { params: Promise<{ id: string }> }) {
@@ -104,46 +103,18 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
               <>
                 <p className="panel-note"><b>Selected:</b> {context.place?.name}, {context.place?.region}</p>
                 <p className="panel-note">Name reveal: {location.name_reveal_policy} · decision {location.selected_location_decision_id}</p>
-                <form action={clearLocation}>
-                  <input type="hidden" name="episode_id" value={episode.id} />
-                  <button className="button subtle" type="submit">Clear selection</button>
-                </form>
               </>
             ) : (
               <p className="panel-note warn">No location selected. Treatment and screenplay work waits for this.</p>
             )}
+            <p className="panel-note">
+              Location choice is now made on the idea this film came from, not here. Open{" "}
+              {episode.idea_ids.map((id) => <Link key={id} href={`/ideas/${id}`}>{id} </Link>)}
+              to change it, or add a new place in the <Link href="/locations">Locations</Link> tab.
+            </p>
             <p className="panel-note"><b>Research readiness:</b> {episode.research.status}. Choosing a place does not verify access, participants, permissions or documentary facts.</p>
             <span className="layer-label">Requirements</span>
             <ul>{location.requirements.map((item) => <li key={item}>{item}</li>)}</ul>
-
-            <form action={selectLocation} className="location-form">
-              <input type="hidden" name="episode_id" value={episode.id} />
-              <span className="layer-label">Choose</span>
-              {location.suggestions.map((suggestion, index) => (
-                <label key={suggestion.name} className="choice">
-                  <input type="radio" name="choice" value={`s:${index}`} required />
-                  <span><b>{suggestion.name}</b>, {suggestion.region}. <em>AI suggestion.</em> {suggestion.why} <small>Verify: {suggestion.verify}</small></span>
-                </label>
-              ))}
-              <label className="choice">
-                <input type="radio" name="choice" value="custom" required />
-                <span>My own location:</span>
-              </label>
-              <input name="custom_name" placeholder="Location name" />
-              <input name="custom_region" placeholder="Region / district" />
-              <label>
-                Name reveal
-                <select name="name_reveal_policy" defaultValue={location.name_reveal_policy}>
-                  <option value="undecided">undecided</option>
-                  <option value="early">early</option>
-                  <option value="later">later</option>
-                  <option value="never">never</option>
-                </select>
-              </label>
-              <textarea name="note" placeholder="Note (optional)" rows={2} />
-              <button className="button primary" type="submit">Record my selection</button>
-              <small className="muted-note">Records a decision attributed to Chathura. AI tools never use this form.</small>
-            </form>
           </section>
         </aside>
       </div>

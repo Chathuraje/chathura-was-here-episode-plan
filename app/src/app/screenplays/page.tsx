@@ -31,6 +31,16 @@ export default async function ScreenplaysPage() {
         <div><strong>{count("production")}</strong><span>production screenplays</span></div>
       </section>
 
+      {dev.episodes.length === 0 ? (
+        <div className="empty-state">
+          <h2>No films to write for</h2>
+          <p>
+            A screenplay hangs off a film with a chosen location. The slate has been cleared, so this page stays empty
+            until a chronology is rebuilt from the confirmed ideas.
+          </p>
+          <p><Link className="button primary" href="/ideas">Review ideas</Link> <Link className="button" href="/locations">Locations</Link></p>
+        </div>
+      ) : (
       <div className="table-wrap">
         <table className="location-table">
           <thead><tr><th>Film</th><th>Location / research</th>{STAGES.map(([, label]) => <th key={label}>{label}</th>)}<th>Gate</th></tr></thead>
@@ -49,6 +59,7 @@ export default async function ScreenplaysPage() {
           </tbody>
         </table>
       </div>
+      )}
     </>
   );
 }

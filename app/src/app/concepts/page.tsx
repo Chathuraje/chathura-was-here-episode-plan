@@ -21,6 +21,9 @@ export default async function ConceptsPage() {
           <span><strong>{chapters.size}</strong> chapters</span>
           <span><strong>{dev.digests.size}</strong> readable overviews</span>
         </div>
+        <div className="actions">
+          <Link className="button" href="/concepts/depth-map">Abhidhamma depth map →</Link>
+        </div>
       </header>
 
       <form action="/search" className="page-search concept-search">

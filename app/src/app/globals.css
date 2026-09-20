@@ -409,6 +409,18 @@ tr:last-child td { border-bottom: 0; }
 .pipeline-step small { color: var(--muted); font-size: 0.72rem; }
 
 .chip-static { padding: 5px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); font-size: 0.78rem; }
+/* Idea review status */
+.badge.review-confirmed { color: var(--accent-dark); border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); background: var(--accent-soft); }
+.badge.review-pending { color: var(--muted); }
+.badge.review-rejected { color: var(--source); border-color: color-mix(in srgb, var(--source) 45%, var(--line)); }
+.review-heading { text-transform: capitalize; }
+h2.review-confirmed { color: var(--accent-dark); }
+h2.review-rejected { color: var(--source); }
+.status-filter { margin: 0 0 18px; text-transform: capitalize; }
+.status-filter a[aria-current="page"] { color: var(--surface); border-color: var(--accent); background: var(--accent); }
+.location-panel details > summary { margin-top: 10px; cursor: pointer; }
+.new-location[open] > summary { color: var(--muted); }
+
 .location-table td { font-size: 0.82rem; }
 .location-table td:first-child { min-width: 170px; }
 .location-table td:last-child { min-width: 150px; }

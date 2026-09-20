@@ -18,7 +18,7 @@ export default async function ReleasePage() {
   return (
     <>
       <header className="page-header">
-        <div className="eyebrow">06 / Release order</div>
+        <div className="eyebrow">07 / Release order</div>
         <h1>Release planner</h1>
         <p>
           Region clusters below are a proposal only. Chathura may merge or split them, create journey-based series, reorder films,
@@ -32,6 +32,17 @@ export default async function ReleasePage() {
         <div><strong>2</strong><span>public pins (1 and 99)</span></div>
         <div><strong>{awaiting.length}</strong><span>waiting for a location</span></div>
       </section>
+
+      {dev.episodes.length === 0 && (
+        <div className="empty-state">
+          <h2>Nothing to package yet</h2>
+          <p>
+            Release clusters are built from films that already have a location. The slate has been cleared, so this page
+            stays empty until a chronology is rebuilt from the confirmed ideas.
+          </p>
+          <p><Link className="button primary" href="/ideas">Review ideas</Link> <Link className="button" href="/locations">Locations</Link></p>
+        </div>
+      )}
 
       <section className="concept-section">
         <div className="section-heading"><span>01</span><h2>Episode 1: The Beginning</h2><small>pinned · framing film</small></div>

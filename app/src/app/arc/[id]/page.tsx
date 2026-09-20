@@ -86,7 +86,7 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
             <div className="source-document-head">
               <div><span>Candidate ideas</span><h2>{ideas.length} ideas for {group.draft_film_count} episodes</h2></div>
             </div>
-            {ideas.length ? <IdeaList ideas={ideas} /> : <p className="muted-note">Ideas are drafted after this group&apos;s concept overviews.</p>}
+            {ideas.length ? <IdeaList ideas={ideas} places={dev.places} /> : <p className="muted-note">Ideas are drafted after this group&apos;s concept overviews.</p>}
           </section>
         </article>
 

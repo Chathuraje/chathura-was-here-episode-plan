@@ -1,19 +1,28 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CopyButton from "@/components/CopyButton";
+import { createLocationForIdea, setIdeaLocation, setIdeaReview } from "@/app/location-actions";
 import { buildIdeaBrief, briefToMarkdown } from "@/lib/brief";
+import { getDevelopment, IDEA_REVIEW_STATUSES } from "@/lib/development";
+
+const reviewBlurb: Record<string, string> = {
+  confirmed: "Confirmed. Ready for a location.",
+  pending: "Not decided yet.",
+  rejected: "Rejected. Kept on file so a replacement can be generated for this group.",
+};
 
 export default async function IdeaPage({ params }: { params: Promise<{ id: string }> }) {
-  const brief = await buildIdeaBrief((await params).id.toUpperCase());
+  const [brief, dev] = await Promise.all([buildIdeaBrief((await params).id.toUpperCase()), getDevelopment()]);
   if (!brief) notFound();
-  const { idea, group, object } = brief;
+  const { idea, group, object, place } = brief;
   const markdown = briefToMarkdown(brief);
+  const places = [...dev.places.values()].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <>
       <Link className="back-link" href={group ? `/arc/${group.id}` : "/ideas"}>← {group ? group.title : "All ideas"}</Link>
       <header className="page-header concept-header">
-        <div className="eyebrow">{idea.id}{idea.aliases.length ? ` (${idea.aliases.join(", ")})` : ""} / {group ? `Group ${String(group.chronological_position).padStart(2, "0")}` : "unassigned"} / {idea.status}</div>
+        <div className="eyebrow">{idea.id}{idea.aliases.length ? ` (${idea.aliases.join(", ")})` : ""} / {group ? `Group ${String(group.chronological_position).padStart(2, "0")}` : "unassigned"} / <span className={`badge review-${idea.review.status}`}>{idea.review.status}</span></div>
         <h1>{idea.title}</h1>
         <p>{idea.logline}</p>
         <div className="actions">
@@ -33,7 +42,7 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
               <div><span className="layer-label">What is at stake</span><p>{idea.situation.what_is_at_stake}</p></div>
               <div><span className="layer-label">How it unfolds</span><p>{idea.situation.how_it_unfolds}</p></div>
             </div>
-            <p className="panel-note">An idea carries no location, scene or shot decisions. Those come later, on the episode.</p>
+            <p className="panel-note">An idea carries no scene or shot decisions. Those come later.</p>
           </section>
 
           <section className="source-document">
@@ -70,7 +79,67 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
 
         <aside className="concept-aside">
           <section className="panel">
-            <span className="layer-label">Selection</span>
+            <span className="layer-label">Chathura&apos;s review</span>
+            <h2 className={`review-heading review-${idea.review.status}`}>{idea.review.status}</h2>
+            <p className="panel-note">{reviewBlurb[idea.review.status]}</p>
+            {idea.review.decided_at && <p className="panel-note">Recorded {idea.review.decided_at}{idea.review.note ? ` · ${idea.review.note}` : ""}</p>}
+            <form action={setIdeaReview} className="location-form">
+              <input type="hidden" name="idea_id" value={idea.id} />
+              <label>
+                Set status
+                <select name="status" defaultValue={idea.review.status}>
+                  {IDEA_REVIEW_STATUSES.map((status) => <option key={status} value={status}>{status}</option>)}
+                </select>
+              </label>
+              <textarea name="note" rows={2} placeholder="Why (optional)" defaultValue={idea.review.note} />
+              <button className="button primary" type="submit">Save status</button>
+              <small className="muted-note">Chathura&apos;s verdict. The AI recommendation below never changes it.</small>
+            </form>
+          </section>
+
+          <section className="panel location-panel">
+            <span className="layer-label">Location</span>
+            {place
+              ? <><h2>{place.name}</h2><p className="panel-note">{place.region || "no region set"} · {place.id}{idea.location.set_at ? ` · set ${idea.location.set_at}` : ""}</p>{place.note && <p className="panel-note">{place.note}</p>}</>
+              : <><h2>Not chosen</h2><p className="panel-note">No place picked for this idea yet.</p></>}
+            {idea.location.note && <p className="panel-note">Note: {idea.location.note}</p>}
+            {places.length > 0 && (
+              <form action={setIdeaLocation} className="location-form">
+                <input type="hidden" name="idea_id" value={idea.id} />
+                <label>
+                  Pick a saved place
+                  <select name="location_id" defaultValue={idea.location.location_id ?? ""}>
+                    <option value="">— none —</option>
+                    {places.map((entry) => (
+                      <option key={entry.id} value={entry.id}>{entry.name}{entry.region ? ` (${entry.region})` : ""}</option>
+                    ))}
+                  </select>
+                </label>
+                <textarea name="note" rows={2} placeholder="Note about this choice (optional)" defaultValue={idea.location.note} />
+                <button className="button primary" type="submit">Save location</button>
+              </form>
+            )}
+
+            <details className="new-location" open={places.length === 0}>
+              <summary className="small-link">＋ Add a new place</summary>
+              <form action={createLocationForIdea} className="location-form">
+                <input type="hidden" name="idea_id" value={idea.id} />
+                <label>Place name<input name="name" placeholder="e.g. Sri Pada / Adam&apos;s Peak" required /></label>
+                <label>Region or district<input name="region" placeholder="e.g. Ratnapura–Nuwara Eliya" /></label>
+                <label>About the place<textarea name="location_note" rows={2} placeholder="Access, season, who to ask (optional)" /></label>
+                <label>Note about this choice<textarea name="note" rows={2} placeholder="Why here, for this idea (optional)" /></label>
+                <button className="button primary" type="submit">Add and use for this idea</button>
+                <small className="muted-note">
+                  Saved to the <Link href="/locations">Locations</Link> tab straight away, where you can pin it on the map.
+                </small>
+              </form>
+            </details>
+
+            <p className="panel-note">Choosing a place verifies nothing about access, participants or permissions.</p>
+          </section>
+
+          <section className="panel">
+            <span className="layer-label">AI recommendation</span>
             <h2>{idea.selection.recommendation}</h2>
             <p className="panel-note">{idea.selection.reason}</p>
             {idea.selection.merged_with.length > 0 && (
@@ -89,6 +158,14 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
               <ul>{brief.related_ideas.map((related) => <li key={related.id}><Link href={`/ideas/${related.id}`}>{related.id} {related.title}</Link>: {related.relation}</li>)}</ul>
             </section>
           )}
+          <nav className="previous-next" aria-label="Previous and next ideas">
+            {brief.previous
+              ? <Link href={`/ideas/${brief.previous.id}`}><span>Previous</span><strong>← {brief.previous.id}</strong></Link>
+              : <span />}
+            {brief.next
+              ? <Link href={`/ideas/${brief.next.id}`}><span>Next</span><strong>{brief.next.id} →</strong></Link>
+              : null}
+          </nav>
         </aside>
       </div>
     </>

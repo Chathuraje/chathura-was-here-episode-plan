@@ -136,8 +136,8 @@ if (fs.existsSync(development)) {
   check("Idea IDs match file names", ideas.every((idea) => /^IDEA-\d{4}$/.test(idea.id) && idea.name === `${idea.id}.json`));
   check("Ideas point to existing groups and concepts", ideas.every((idea) => groups.some((group) => group.id === idea.group_id) && idea.concept_links.every((link) => conceptIds.has(link.concept_id))));
   check("Idea connections resolve", ideas.every((idea) => idea.connections.every((connection) => ideaIds.has(connection.idea_id))));
-  check("Ideas carry no location or shot decisions", ideas.every((idea) => !idea.location && !idea.what_camera_could_observe && !idea.possible_arc && !idea.premise),
-    ideas.filter((idea) => idea.location || idea.what_camera_could_observe || idea.possible_arc || idea.premise).map((idea) => idea.id).join(", "));
+  check("Ideas carry no scene or shot decisions", ideas.every((idea) => !idea.what_camera_could_observe && !idea.possible_arc && !idea.premise),
+    ideas.filter((idea) => idea.what_camera_could_observe || idea.possible_arc || idea.premise).map((idea) => idea.id).join(", "));
   const ideaShape = ["logline", "human_question", "what_the_viewer_could_understand", "what_must_be_real"];
   check("Ideas describe a situation and a concept merge", ideas.every((idea) => ideaShape.every((field) => typeof idea[field] === "string" && idea[field].trim())
     && idea.situation?.what_happens && idea.situation?.who_is_involved && idea.situation?.what_is_at_stake && idea.situation?.how_it_unfolds
@@ -149,10 +149,30 @@ if (fs.existsSync(development)) {
     && (idea.selection.superseded_by === null || ideaIds.has(idea.selection.superseded_by))),
     ideas.filter((idea) => !recommendations.has(idea.selection?.recommendation)).map((idea) => idea.id).join(", "));
 
+  const reviewStatuses = new Set(["confirmed", "pending", "rejected"]);
+  check("Every idea carries a Chathura review status", ideas.every((idea) => reviewStatuses.has(idea.review?.status)),
+    ideas.filter((idea) => !reviewStatuses.has(idea.review?.status)).map((idea) => idea.id).join(", "));
+  check("Recorded idea verdicts say when and by whom", ideas.every((idea) => idea.review?.status === "pending"
+    || (idea.review?.decided_at && idea.review?.decided_by)),
+  ideas.filter((idea) => idea.review?.status !== "pending" && !(idea.review?.decided_at && idea.review?.decided_by)).map((idea) => idea.id).join(", "));
+
+  const places = readJson("locations");
+  const placeIds = new Set(places.map((place) => place.id));
+  check("Location IDs match file names", places.every((place) => /^LOC-\d{4}$/.test(place.id) && place.name === `${place.id}.json`),
+    places.filter((place) => place.name !== `${place.id}.json`).map((place) => place.id).join(", "));
+  check("Locations are entered by Chathura and carry a name", places.every((place) => place.origin === "entered_by_chathura"
+    && typeof place.title === "string" && place.title.trim()),
+  places.filter((place) => place.origin !== "entered_by_chathura" || !place.title?.trim()).map((place) => place.id).join(", "));
+  check("Idea locations point at saved location records", ideas.every((idea) => !idea.location?.location_id
+    || placeIds.has(idea.location.location_id)),
+  ideas.filter((idea) => idea.location?.location_id && !placeIds.has(idea.location.location_id)).map((idea) => idea.id).join(", "));
+  check("Idea locations are attributed to Chathura", ideas.every((idea) => !idea.location?.location_id
+    || (idea.location.set_by === "chathura" && idea.location.decision_id)),
+  ideas.filter((idea) => idea.location?.location_id && !(idea.location.set_by === "chathura" && idea.location.decision_id)).map((idea) => idea.id).join(", "));
+
   const episodes = readJson("episodes").sort((a, b) => a.chronology.global_position - b.chronology.global_position);
   const decisions = readJson("decisions");
   if (episodes.length) {
-    const places = new Set(readJson("locations").map((place) => place.id));
     const chathuraDecisions = new Set(decisions.filter((decision) => decision.reviewer_role === "chathura").map((decision) => decision.id));
     check("Episode IDs match file names", episodes.every((episode) => /^EPD-\d{4}$/.test(episode.id) && episode.name === `${episode.id}.json`));
     check("Exactly 98 development episodes", episodes.length === 98, `${episodes.length} episodes`);
@@ -206,7 +226,7 @@ if (fs.existsSync(development)) {
       && episode.research.access_status && episode.research.participant_status && episode.research.permission_status
       && Array.isArray(episode.research.evidence_ids)), episodes.filter((episode) => !researchStates.has(episode.research?.status)).map((episode) => episode.id).join(", "));
     check("Selected episode locations come from Chathura's decisions", episodes.every((episode) => !episode.location.selected_location_id
-      || (places.has(episode.location.selected_location_id) && chathuraDecisions.has(episode.location.selected_location_decision_id))));
+      || (placeIds.has(episode.location.selected_location_id) && chathuraDecisions.has(episode.location.selected_location_decision_id))));
     const last = episodes.at(-1);
     check("The last chronological film is pinned as Episode 99", last.release.public_number === 99);
     if (groups.length === 10 && episodes.length === 98) {
@@ -265,20 +285,26 @@ if (fs.existsSync(development)) {
     check("Depth map assesses every concept exactly once", depthConceptIds.length === conceptIds.size
       && new Set(depthConceptIds).size === conceptIds.size
       && [...conceptIds].every((id) => depthConceptIds.includes(id)), `${depthConceptIds.length}/${conceptIds.size} concepts`);
-    check("Depth concept groups and linked episodes match the slate", depthMap.concepts.every((concept) => groupOf.get(concept.concept_id) === concept.group_id
-      && JSON.stringify(concept.linked_episode_ids) === JSON.stringify(episodes.filter((episode) => episode.concept_ids.includes(concept.concept_id)).map((episode) => episode.id))));
+    check("Depth concept groups match the concept library", depthMap.concepts.every((concept) => groupOf.get(concept.concept_id) === concept.group_id));
+    if (episodes.length) {
+      check("Depth concept linked episodes match the slate", depthMap.concepts.every((concept) =>
+        JSON.stringify(concept.linked_episode_ids) === JSON.stringify(episodes.filter((episode) => episode.concept_ids.includes(concept.concept_id)).map((episode) => episode.id))));
+    } else {
+      console.log("SKIP  Depth map episode references - the slate is empty; the map describes a cleared chronology");
+    }
     check("Depth concept statuses and mechanism links are valid", depthMap.concepts.every((concept) => depthStatuses.has(concept.depth_status)
       && concept.related_mechanism_ids.every((id) => mechanismIds.has(id))));
     check("Depth map assesses ten groups and at least twenty major mechanisms", depthMap.groups.length === groups.length
       && groups.every((group) => depthMap.groups.some((entry) => entry.group_id === group.id))
       && depthMap.mechanisms.length >= 20, `${depthMap.groups.length} groups, ${depthMap.mechanisms.length} mechanisms`);
+    const episodeRefsResolve = (ids) => episodes.length === 0 || ids.every((id) => episodeIds.has(id));
     check("Depth mechanism milestones and coverage resolve", depthMap.mechanisms.every((mechanism) => depthStatuses.has(mechanism.current_depth_status)
       && mechanism.concept_ids.every((id) => conceptIds.has(id))
-      && [mechanism.first_introduced_episode, ...mechanism.development_episodes, ...mechanism.integration_episodes, ...mechanism.recall_episodes].every((id) => episodeIds.has(id))
+      && episodeRefsResolve([mechanism.first_introduced_episode, ...mechanism.development_episodes, ...mechanism.integration_episodes, ...mechanism.recall_episodes])
       && mechanism.group_coverage.length === groups.length
       && mechanism.group_coverage.every((coverage) => depthStatuses.has(coverage.status)
         && groups.some((group) => group.id === coverage.group_id)
-        && coverage.episode_ids.every((id) => episodeIds.has(id))
+        && episodeRefsResolve(coverage.episode_ids)
         && (coverage.status === "missing" || coverage.episode_ids.length > 0))));
     const calculatedCounts = Object.fromEntries([...depthStatuses].map((status) => [status, depthMap.concepts.filter((concept) => concept.depth_status === status).length]));
     check("Depth summary counts match concept records", [...depthStatuses].every((status) => depthMap.summary.concept_status_counts[status] === calculatedCounts[status])

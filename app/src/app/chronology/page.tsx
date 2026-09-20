@@ -1,14 +1,15 @@
 import Link from "next/link";
-import { getDevelopment, TARGET_DEVELOPMENT_FILMS } from "@/lib/development";
+import { getDevelopment, orderedIdeas, TARGET_DEVELOPMENT_FILMS } from "@/lib/development";
 
 export default async function ChronologyPage() {
   const dev = await getDevelopment();
   const selected = dev.episodes.filter((episode) => episode.location.selected_location_id).length;
+  const confirmed = orderedIdeas(dev).filter((idea) => idea.review.status === "confirmed").length;
 
   return (
     <>
       <header className="page-header">
-        <div className="eyebrow">05 / Main order</div>
+        <div className="eyebrow">06 / Main order</div>
         <h1>Chronology</h1>
         <p>
           The 98 development films in story order, the order of Chathura&apos;s journey. ● marks the film where a group&apos;s object is
@@ -24,7 +25,14 @@ export default async function ChronologyPage() {
       </section>
 
       {dev.episodes.length === 0 && (
-        <div className="empty-state"><h2>No slate yet</h2><p>The chronological slate is built after every group has candidate ideas.</p></div>
+        <div className="empty-state">
+          <h2>No slate yet</h2>
+          <p>
+            The chronology has been cleared. It gets rebuilt from the ideas Chathura confirms, once each of them has a
+            location. {confirmed} idea{confirmed === 1 ? " is" : "s are"} confirmed so far.
+          </p>
+          <p><Link className="button primary" href="/ideas">Review ideas</Link> <Link className="button" href="/locations">Locations</Link></p>
+        </div>
       )}
 
       {dev.groups.map((group) => {

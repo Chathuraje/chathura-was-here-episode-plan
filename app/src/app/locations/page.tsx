@@ -1,84 +1,139 @@
 import Link from "next/link";
-import { getDevelopment } from "@/lib/development";
+import LocationMap from "@/components/LocationMap";
+import { createLocation, deleteLocation, placeLocation, updateLocation } from "@/app/location-actions";
+import { getDevelopment, ideasAtLocation, orderedIdeas } from "@/lib/development";
 
 export default async function LocationsPage() {
   const dev = await getDevelopment();
-  const selected = dev.episodes.filter((episode) => episode.location.selected_location_id);
-  const regionCounts = new Map<string, number>();
-  for (const episode of dev.episodes) {
-    if (episode.location.selected_location_id) continue;
-    const region = episode.location.suggestions[0]?.region ?? "No suggestion";
-    regionCounts.set(region, (regionCounts.get(region) ?? 0) + 1);
-  }
-  const regions = [...regionCounts.entries()].sort((a, b) => b[1] - a[1]);
+  const places = [...dev.places.values()].sort((a, b) => a.name.localeCompare(b.name));
+  const ideas = orderedIdeas(dev);
+  const placedIdeas = ideas.filter((idea) => idea.location.location_id);
+  const confirmedWithout = ideas.filter((idea) => idea.review.status === "confirmed" && !idea.location.location_id);
+  const regions = new Set(places.map((place) => place.region.trim()).filter(Boolean));
+
+  const pins = places
+    .filter((place) => place.coordinates)
+    .map((place) => ({
+      id: place.id,
+      name: place.name,
+      region: place.region,
+      lat: place.coordinates!.lat,
+      lng: place.coordinates!.lng,
+      ideaCount: ideasAtLocation(dev, place.id).length,
+    }));
+  const unpinned = places.filter((place) => !place.coordinates);
 
   return (
     <>
       <header className="page-header">
-        <div className="eyebrow">Step 5 / Chathura&apos;s decision</div>
+        <div className="eyebrow">05 / Chathura&apos;s decision</div>
         <h1>Locations</h1>
         <p>
-          Every film with its requirements, the AI suggestions and your current choice. Suggestions are only suggestions:
-          open a film and record your own decision. Location choice permits treatment planning, but production remains gated by research and explicit screenplay-stage approvals. Chronology v1 review is the current primary creative step.
+          Every place this series can be shot in, on one map. Add a place here or straight from an idea — either way it
+          shows up in both. Location choice belongs to Chathura alone: AI may describe requirements, but it never picks a
+          place, and pinning one verifies nothing about access, permissions or the people there.
         </p>
       </header>
 
       <section className="summary" aria-label="Location summary">
-        <div><strong>{selected.length}/{dev.episodes.length}</strong><span>locations chosen</span></div>
-        <div><strong>{dev.episodes.length - selected.length}</strong><span>waiting</span></div>
-        <div><strong>{new Set([...dev.places.values()].map((place) => place.region)).size}</strong><span>regions chosen so far</span></div>
-        <div><strong>{dev.episodes.filter((episode) => !episode.location.suggestions.length).length}</strong><span>films with no suggestion</span></div>
+        <div><strong>{places.length}</strong><span>locations saved</span></div>
+        <div><strong>{pins.length}</strong><span>pinned on the map</span></div>
+        <div><strong>{placedIdeas.length}/{ideas.length}</strong><span>ideas with a location</span></div>
+        <div><strong className={confirmedWithout.length ? "warn" : ""}>{confirmedWithout.length}</strong><span>confirmed ideas still waiting</span></div>
       </section>
 
-      {regions.length > 0 && (
+      <LocationMap
+        pins={pins}
+        unplaced={unpinned.map((place) => ({ id: place.id, name: place.name }))}
+        createLocation={createLocation}
+        placeLocation={placeLocation}
+      />
+
+      {places.length === 0 ? (
+        <div className="empty-state">
+          <h2>No locations yet</h2>
+          <p>
+            Click the island above to drop a pin and name the place, or add one from an idea page while you are reviewing.
+            Either way it appears here and in every idea&apos;s location list.
+          </p>
+          <p><Link className="button primary" href="/ideas">Review ideas</Link></p>
+        </div>
+      ) : (
         <section className="concept-section">
-          <div className="section-heading"><span>AI</span><h2>Where the suggestions cluster</h2><small>unchosen films, by first suggestion</small></div>
-          <p className="muted-note">For trip planning only. A film appears here under its first AI suggestion, not under any decision.</p>
-          <div className="chip-list">
-            {regions.map(([region, count]) => <span className="chip-static" key={region}>{region} · {count}</span>)}
+          <div className="section-heading">
+            <span>{String(places.length).padStart(2, "0")}</span>
+            <h2>Saved locations</h2>
+            <small>{regions.size} region{regions.size === 1 ? "" : "s"} · {placedIdeas.length} idea links</small>
+          </div>
+          {unpinned.length > 0 && (
+            <p className="muted-note">
+              {unpinned.length} location{unpinned.length === 1 ? " has" : "s have"} no pin yet: {unpinned.map((place) => place.name).join(", ")}.
+              Click a spot on the map above and use &ldquo;move a saved location here&rdquo;.
+            </p>
+          )}
+          <div className="table-wrap">
+            <table className="location-table">
+              <thead><tr><th>Location</th><th>Note</th><th>Used by</th><th>Edit</th></tr></thead>
+              <tbody>
+                {places.map((place) => {
+                  const users = ideasAtLocation(dev, place.id);
+                  return (
+                    <tr key={place.id} id={place.id}>
+                      <td>
+                        <b>{place.name}</b><br />
+                        <small className="muted-note">
+                          {place.region || "no region set"} · {place.id}
+                          {place.coordinates
+                            ? ` · ${place.coordinates.lat.toFixed(3)}, ${place.coordinates.lng.toFixed(3)}`
+                            : " · not pinned"}
+                        </small>
+                      </td>
+                      <td>{place.note || <span className="muted-note">—</span>}</td>
+                      <td>
+                        {users.length
+                          ? <div className="chip-list">{users.map((idea) => <Link key={idea.id} href={`/ideas/${idea.id}`}>{idea.id}</Link>)}</div>
+                          : <span className="muted-note">no ideas yet</span>}
+                      </td>
+                      <td>
+                        <details>
+                          <summary className="small-link">Edit</summary>
+                          <form action={updateLocation} className="location-form">
+                            <input type="hidden" name="location_id" value={place.id} />
+                            <label>Name<input name="name" defaultValue={place.name} required /></label>
+                            <label>Region<input name="region" defaultValue={place.region} /></label>
+                            <label>Note<textarea name="note" rows={2} defaultValue={place.note} /></label>
+                            <button className="button primary" type="submit">Save changes</button>
+                            <small className="muted-note">The map pin is kept. Move it by clicking the map above.</small>
+                          </form>
+                          <form action={deleteLocation} className="location-form">
+                            <input type="hidden" name="location_id" value={place.id} />
+                            <button className="button subtle" type="submit">Delete location</button>
+                            <small className="muted-note">
+                              {users.length
+                                ? `This also clears the location on ${users.length} idea${users.length === 1 ? "" : "s"}.`
+                                : "Not attached to any idea."}
+                            </small>
+                          </form>
+                        </details>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
         </section>
       )}
 
-      {dev.groups.map((group) => {
-        const episodes = dev.episodes.filter((episode) => episode.chronology.group_id === group.id);
-        if (!episodes.length) return null;
-        return (
-          <section className="concept-section" key={group.id}>
-            <div className="section-heading">
-              <span>{String(group.chronological_position).padStart(2, "0")}</span>
-              <h2>{group.title}</h2>
-              <small>{episodes.filter((episode) => episode.location.selected_location_id).length}/{episodes.length} chosen</small>
-            </div>
-            <div className="table-wrap">
-              <table className="location-table">
-                <thead><tr><th>Film</th><th>What the place must offer</th><th>AI suggestions</th><th>Your choice</th></tr></thead>
-                <tbody>
-                  {episodes.map((episode) => {
-                    const place = episode.location.selected_location_id ? dev.places.get(episode.location.selected_location_id) : undefined;
-                    return (
-                      <tr key={episode.id}>
-                        <td><Link href={`/episodes/${episode.id}`}><b>{String(episode.chronology.global_position).padStart(2, "0")} {episode.title}</b></Link></td>
-                        <td><ul className="plain-list">{episode.location.requirements.map((item) => <li key={item}>{item}</li>)}</ul></td>
-                        <td>
-                          {episode.location.suggestions.length
-                            ? <ul className="plain-list">{episode.location.suggestions.map((suggestion) => <li key={suggestion.name}>{suggestion.name} <small>({suggestion.region})</small></li>)}</ul>
-                            : <span className="muted-note">none</span>}
-                        </td>
-                        <td>
-                          {place
-                            ? <><b>{place.name}</b><br /><small>{place.region} · reveal: {episode.location.name_reveal_policy}</small></>
-                            : <Link className="button subtle" href={`/episodes/${episode.id}`}>Choose →</Link>}
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-          </section>
-        );
-      })}
+      {confirmedWithout.length > 0 && (
+        <section className="concept-section">
+          <div className="section-heading"><span>→</span><h2>Confirmed ideas without a location</h2><small>{confirmedWithout.length} ideas</small></div>
+          <p className="muted-note">These are the next ones to place. Open an idea and pick a place, or add a new one there.</p>
+          <div className="chip-list">
+            {confirmedWithout.map((idea) => <Link key={idea.id} href={`/ideas/${idea.id}`}>{idea.id} {idea.title}</Link>)}
+          </div>
+        </section>
+      )}
     </>
   );
 }

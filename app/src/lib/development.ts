@@ -230,7 +230,29 @@ export type LocationSuggestion = {
   status: "ai_suggestion";
 };
 
+export const IDEA_REVIEW_STATUSES = ["confirmed", "pending", "rejected"] as const;
+export type IdeaReviewStatus = (typeof IDEA_REVIEW_STATUSES)[number];
+
+/** Chathura's own verdict on an idea. Separate from `selection`, which is only the machine's advice. */
+export type IdeaReview = {
+  status: IdeaReviewStatus;
+  note: string;
+  decided_at: string | null;
+  decided_by: string | null;
+};
+
+/** The place chosen for an idea, pointing at a record created in the Locations tab. */
+export type IdeaLocation = {
+  location_id: string | null;
+  decision_id?: string | null;
+  note: string;
+  set_at: string | null;
+  set_by: string | null;
+};
+
 export type Idea = Envelope & {
+  review: IdeaReview;
+  location: IdeaLocation;
   aliases: string[];
   group_id: string;
   logline: string;
@@ -283,12 +305,16 @@ export type Episode = Envelope & {
   lesson?: EpisodeLesson;
 };
 
+/** Where a place sits on the island. Null until it is pinned on the Locations map. */
+export type Coordinates = { lat: number; lng: number };
+
 export type Place = Envelope & {
   name: string;
   region: string;
   origin: "ai_suggestion_chosen_by_chathura" | "entered_by_chathura";
   note: string;
-  decision_id: string;
+  coordinates: Coordinates | null;
+  decision_id: string | null;
 };
 
 export type ScreenplayScene = {
@@ -373,6 +399,23 @@ export async function getDevelopment(): Promise<Development> {
     readRecords<Digest>("digests"),
     readRecords<Idea>("ideas"),
   ]);
+  for (const idea of ideas) {
+    const review = idea.review as Partial<IdeaReview> | undefined;
+    const location = idea.location as Partial<IdeaLocation> | undefined;
+    idea.review = {
+      status: review?.status ?? "pending",
+      note: review?.note ?? "",
+      decided_at: review?.decided_at ?? null,
+      decided_by: review?.decided_by ?? null,
+    };
+    idea.location = {
+      location_id: location?.location_id ?? null,
+      decision_id: location?.decision_id ?? null,
+      note: location?.note ?? "",
+      set_at: location?.set_at ?? null,
+      set_by: location?.set_by ?? null,
+    };
+  }
   const [episodes, places, screenplays, decisions] = await Promise.all([
     readRecords<Episode>("episodes"),
     readRecords<Place>("locations"),
@@ -401,6 +444,19 @@ export async function getDevelopment(): Promise<Development> {
 export async function getDepthMap(): Promise<DepthMap> {
   const file = path.join(DEVELOPMENT_DIR, "analysis", "abhidhamma-depth-map.json");
   return JSON.parse(await fs.readFile(file, "utf8")) as DepthMap;
+}
+
+/** Every idea in the order the Ideas page lists them: by group, then by ID. */
+export function orderedIdeas(dev: Development): Idea[] {
+  const groupRank = new Map(dev.groups.map((group, index) => [group.id, index]));
+  return [...dev.ideas].sort((a, b) =>
+    (groupRank.get(a.group_id) ?? Number.MAX_SAFE_INTEGER) - (groupRank.get(b.group_id) ?? Number.MAX_SAFE_INTEGER)
+    || a.id.localeCompare(b.id));
+}
+
+/** Ideas that reference a location record, in list order. */
+export function ideasAtLocation(dev: Development, locationId: string): Idea[] {
+  return orderedIdeas(dev).filter((idea) => idea.location.location_id === locationId);
 }
 
 /** Latest version of each screenplay stage for one episode. */

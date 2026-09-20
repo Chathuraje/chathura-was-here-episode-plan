@@ -4,11 +4,11 @@
   "record_type": "chronological_group",
   "title": "Wanting",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
-  "updated_by": "codex",
+  "updated_by": "chathura",
   "chronological_position": 2,
   "emotional_stage": "Desire",
   "tone": "rising, warm, restless",
@@ -52,18 +52,7 @@
   ],
   "object_id": "OBJ-02",
   "candidate_idea_refs": [],
-  "episode_ids": [
-    "EPD-0009",
-    "EPD-0010",
-    "EPD-0011",
-    "EPD-0012",
-    "EPD-0013",
-    "EPD-0014",
-    "EPD-0015",
-    "EPD-0016",
-    "EPD-0017",
-    "EPD-0018"
-  ],
+  "episode_ids": [],
   "unknowns": [
     "The 98-film Chronology v1 slate now fixes this group's current film count, but the slate remains draft pending Chathura's creative approval.",
     "Concept roles remain draft working glosses; completed digests do not make them creatively or doctrinally approved."
@@ -74,58 +63,5 @@
       "docs/planning/06-master-roadmap.md"
     ],
     "note": "Category map v1, emotional life-story arc chosen by Chathura on 2026-09-18."
-  },
-  "lesson": {
-    "in_simple_terms": "Wanting runs through ordinary days: a colour, a meal, a new shirt, a lottery number, a seat on a train. It can feel joyful or flat, rise on its own or be pushed by others, and the same act can come from care or from wanting, while the plain wish to do something is not greed at all. At the end of the stage, wanting is refused.",
-    "in_simple_terms_si": "ආශාව අපේ එදිනෙදා ජීවිතය පුරා දිව යයි; එය සතුටින් හෝ නිසොල්මනේ, අපේම කැමැත්තෙන් හෝ අනුන්ගේ පෙලඹවීමෙන් පැන නගින අතර, එකම ක්‍රියාව කරුණාවෙන් හෝ ආශාවෙන් කළ හැකිය. යමක් කිරීමේ කැමැත්ත ලෝභය නොවන අතර, මේ අවධිය අවසන් වන්නේ ආශාව අවහිර වීමෙනි.",
-    "the_teaching": "The Abhidhamma describes the sense-sphere mind that lives among sights, sounds, smells, tastes and touches, and within it eight greed-rooted minds, sorted by whether they come with joy or neutral feeling, with or without a wrong view that denies consequences or excuses the act, and unprompted or prompted by others or oneself. Greed is described as the attaching that takes things to be good, beautiful or sweet, and it never comes with displeasure. The texts draw the line of wanting by the inner aim rather than the outward act, and teach that every moment carries a feeling tone: pleasant, painful or neutral. They also set desire-to-act (chanda) and effort, which take on the quality of whatever mind they join, apart from greed's sticking.",
-    "progression": [
-      "EPD-0009 Before the Wedding: wanting is seeing something as beautiful and reaching for it, and it can rise on its own or be talked into us.",
-      "EPD-0010 Second Helping: the same reach, spontaneous or urged, always comes with a feeling tone, pleasant or flat, never displeasure.",
-      "EPD-0011 The Hundredth Piece: every experience carries a feeling, and one sweet meets delight in one person and flatness in another.",
-      "EPD-0012 Measured Twice: what makes an act wanting is its aim, not the act itself.",
-      "EPD-0013 Whoever Is Hungry: the line of aim runs through giving too, and the wish to do something is not greed.",
-      "EPD-0014 Catching the Wind: the effortful lift and the steady glide, and desire-to-act set apart from clinging.",
-      "EPD-0015 One Hand Holds: patient, sustained effort, which can come with quiet, neutral feeling.",
-      "EPD-0016 The Number That Comes Up: wanting can be flat and habitual, prompted by a seller or needing no push at all.",
-      "EPD-0017 The Last Ticket: ordinary wanting, unprompted or pushed, meets its first refusal.",
-      "EPD-0018 The Last Bid: wanting refused by a stronger want, and the resolve behind it shown to be something other than greed."
-    ],
-    "builds_on": "Group 1 looked beneath names and conventions to the map of what is actually there, the ultimate realities and the full count of minds; Group 2 enters the first and most familiar region of that map, the everyday sense-sphere mind, and, as Group 1 handed on, the first thing it meets beneath the names is wanting.",
-    "hands_to_next": "If wanting itself never comes with displeasure, what is the heat that arrives when it is refused, lost or outbid? Group 3 takes up anger and fear, which the texts describe as always arising with displeasure and felt first by the one who is angry.",
-    "status": "draft",
-    "evidence_class": "editorial interpretation grounded in cited source teaching",
-    "sources": [
-      {
-        "concept_id": "C004",
-        "citations": [
-          "C004-P:L25"
-        ]
-      },
-      {
-        "concept_id": "C006",
-        "citations": [
-          "C006-M:L5"
-        ]
-      },
-      {
-        "concept_id": "C032",
-        "citations": [
-          "C032-M:L5"
-        ]
-      },
-      {
-        "concept_id": "C005",
-        "citations": [
-          "C005-M:L5"
-        ]
-      },
-      {
-        "concept_id": "C021",
-        "citations": [
-          "C021-P:L25"
-        ]
-      }
-    ]
   }
 }

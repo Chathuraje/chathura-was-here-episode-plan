@@ -4,6 +4,7 @@ import { getDevelopment } from "@/lib/development";
 export default async function LearningPage() {
   const dev = await getDevelopment();
   const withLesson = dev.episodes.filter((episode) => episode.lesson).length;
+  const empty = dev.episodes.length === 0;
 
   return (
     <>
@@ -17,7 +18,18 @@ export default async function LearningPage() {
         </p>
       </header>
 
-      {dev.groups.map((group) => {
+      {empty && (
+        <div className="empty-state">
+          <h2>No lessons yet</h2>
+          <p>
+            The learning path has been cleared along with the chronology. Each lesson belongs to a film, so this page fills
+            up again once a slate is rebuilt from the confirmed ideas.
+          </p>
+          <p><Link className="button primary" href="/ideas">Review ideas</Link> <Link className="button" href="/concepts/depth-map">Depth map</Link></p>
+        </div>
+      )}
+
+      {!empty && dev.groups.map((group) => {
         const episodes = dev.episodes.filter((episode) => episode.chronology.group_id === group.id);
         return (
           <section className="concept-section learning-group" key={group.id} id={group.id}>
@@ -54,7 +66,7 @@ export default async function LearningPage() {
         );
       })}
 
-      <p className="notice">After the last film: the crowd → Episode 100 &ldquo;The Way Back&rdquo;, where the whole journey is seen again with new eyes.</p>
+      {!empty && <p className="notice">After the last film: the crowd → Episode 100 &ldquo;The Way Back&rdquo;, where the whole journey is seen again with new eyes.</p>}
     </>
   );
 }

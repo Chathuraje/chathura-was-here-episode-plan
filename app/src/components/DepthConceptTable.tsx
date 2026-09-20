@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { DepthStatus } from "@/lib/development";
-import styles from "@/app/depth-map/depth-map.module.css";
+import styles from "@/app/concepts/depth-map/depth-map.module.css";
 
 export type DepthConceptRow = {
   conceptId: string;
@@ -23,7 +23,7 @@ const statusLabels: Record<DepthStatus, string> = {
   dangerously_compressed: "Dangerously compressed",
 };
 
-export default function DepthConceptTable({ rows }: { rows: DepthConceptRow[] }) {
+export default function DepthConceptTable({ rows, linkEpisodes }: { rows: DepthConceptRow[]; linkEpisodes: boolean }) {
   const [query, setQuery] = useState("");
   const [group, setGroup] = useState("all");
   const [status, setStatus] = useState("all");
@@ -70,7 +70,9 @@ export default function DepthConceptTable({ rows }: { rows: DepthConceptRow[] })
               <tr key={row.conceptId}>
                 <td><Link href={`/concepts/${row.conceptId}`}><strong>{row.conceptId}</strong><span>{row.title}</span></Link></td>
                 <td><Link href={`/arc/${row.groupId}`}>{row.groupId}</Link></td>
-                <td className={styles.episodeLinks}>{row.episodeIds.map((id) => <Link href={`/episodes/${id}`} key={id}>{id.replace("EPD-", "")}</Link>)}</td>
+                <td className={styles.episodeLinks}>{row.episodeIds.map((id) => (linkEpisodes
+                  ? <Link href={`/episodes/${id}`} key={id}>{id.replace("EPD-", "")}</Link>
+                  : <span key={id}>{id.replace("EPD-", "")}</span>))}</td>
                 <td><span className={styles.statusChip} data-status={row.status}>{statusLabels[row.status]}</span></td>
                 <td>{row.note}</td>
               </tr>

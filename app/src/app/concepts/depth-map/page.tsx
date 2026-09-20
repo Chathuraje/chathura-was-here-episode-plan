@@ -1,7 +1,7 @@
 import Link from "next/link";
 import DepthConceptTable from "@/components/DepthConceptTable";
 import { docHref } from "@/lib/routes";
-import { getDepthMap, type DepthStatus } from "@/lib/development";
+import { getDepthMap, getDevelopment, type DepthStatus } from "@/lib/development";
 import styles from "./depth-map.module.css";
 
 const statusLabels: Record<DepthStatus, string> = {
@@ -23,7 +23,12 @@ const shortStatus: Record<DepthStatus, string> = {
 };
 
 export default async function DepthMapPage() {
-  const depthMap = await getDepthMap();
+  const [depthMap, dev] = await Promise.all([getDepthMap(), getDevelopment()]);
+  // The map was written against a slate that has since been cleared, so episode
+  // references are only linked while the episodes they name still exist.
+  const episodeIds = new Set(dev.episodes.map((episode) => episode.id));
+  const EpisodeRef = ({ id }: { id: string }) =>
+    episodeIds.has(id) ? <Link href={`/episodes/${id}`}>{id.replace("EPD-", "")}</Link> : <span>{id.replace("EPD-", "")}</span>;
   const summary = depthMap.summary;
   const highRiskConcepts = depthMap.concepts
     .filter((concept) => concept.review_priority === "high")
@@ -37,11 +42,20 @@ export default async function DepthMapPage() {
 
   return (
     <div className={styles.page}>
+      <Link className="back-link" href="/concepts">← Concepts</Link>
       <header className="page-header">
-        <div className="eyebrow">Analysis / viewer understanding</div>
+        <div className="eyebrow">02 / Concepts / viewer understanding</div>
         <h1>Abhidhamma Depth Map</h1>
-        <p>Does the current 98-film chronology build a deeper mental model, or only place concepts on screen? This draft analysis separates presence from teaching depth without changing the slate.</p>
+        <p>Does a 98-film chronology build a deeper mental model, or only place concepts on screen? This draft analysis separates presence from teaching depth.</p>
       </header>
+
+      {episodeIds.size === 0 && (
+        <p className="notice warn">
+          This map was generated against the earlier 98-film slate, which has since been cleared. Its concept and mechanism
+          judgments still read, but every EPD reference below points at a film record that no longer exists, so those
+          references are shown as plain text. Regenerate the map once a new chronology is built.
+        </p>
+      )}
 
       <section className={styles.verdict} aria-labelledby="verdict-title">
         <div>
@@ -124,12 +138,12 @@ export default async function DepthMapPage() {
         <div className={styles.sectionHead}><div><span className="eyebrow">First introduced → built → recalled</span><h2 id="mechanisms-title">Mechanism assessments</h2><p>The key question is what the viewer can explain after the sequence, not how many links exist in the data.</p></div></div>
         <div className={styles.mechanismCards}>
           {depthMap.mechanisms.map((mechanism) => {
-            const episodeIds = [mechanism.first_introduced_episode, ...mechanism.development_episodes, ...mechanism.integration_episodes, ...mechanism.recall_episodes];
+            const milestoneIds = [mechanism.first_introduced_episode, ...mechanism.development_episodes, ...mechanism.integration_episodes, ...mechanism.recall_episodes];
             return (
               <article className={styles.mechanismCard} id={`detail-${mechanism.mechanism_id}`} key={mechanism.mechanism_id}>
                 <div className={styles.mechanismCardHead}><span>{mechanism.mechanism_id}</span><span className={styles.statusChip} data-status={mechanism.current_depth_status}>{statusLabels[mechanism.current_depth_status]}</span></div>
                 <h3>{mechanism.name}</h3><p>{mechanism.summary}</p>
-                <div className={styles.milestones}>{Array.from(new Set(episodeIds)).map((id) => <Link href={`/episodes/${id}`} key={id}>{id.replace("EPD-", "")}</Link>)}</div>
+                <div className={styles.milestones}>{Array.from(new Set(milestoneIds)).map((id) => <EpisodeRef id={id} key={id} />)}</div>
                 <p className={styles.mechanismViewer}>{mechanism.viewer_understanding_summary}</p>
               </article>
             );
@@ -139,7 +153,7 @@ export default async function DepthMapPage() {
 
       <section className={styles.section} id="concepts" aria-labelledby="concepts-title">
         <div className={styles.sectionHead}><div><span className="eyebrow">C001 → C102</span><h2 id="concepts-title">Concept-depth table</h2><p>Filter by group or status. Episode links are evidence locations; they do not by themselves imply adequate depth.</p></div></div>
-        <DepthConceptTable rows={depthMap.concepts.map((concept) => ({ conceptId: concept.concept_id, title: concept.title, groupId: concept.group_id, episodeIds: concept.linked_episode_ids, status: concept.depth_status, note: concept.viewer_understanding_summary }))} />
+        <DepthConceptTable rows={depthMap.concepts.map((concept) => ({ conceptId: concept.concept_id, title: concept.title, groupId: concept.group_id, episodeIds: concept.linked_episode_ids, status: concept.depth_status, note: concept.viewer_understanding_summary }))} linkEpisodes={episodeIds.size > 0} />
       </section>
 
       <section className={styles.section} id="risks" aria-labelledby="risks-title">
