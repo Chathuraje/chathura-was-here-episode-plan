@@ -4,101 +4,81 @@
   "record_type": "idea",
   "title": "The Mended Net",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "A fishing crew's net comes back from the water cut clean through, torn by a rival boat working too close to their ground. Before it fishes again, it has to be mended, knot by knot, on the sand.",
-  "human_question": "When someone stands between us and what we need, what does the wanting turn into?",
-  "premise": {
-    "story": "A crew whose gear has been damaged in a dispute over fishing ground works through the practical, unglamorous business of repair: assessing the damage, arguing about what to do next, and mending the net by hand before the next tide.",
-    "place": "A working fishing beach where boats, gear and grounds are shared, contested and defended.",
-    "experience": "The viewer sits at eye level with rope and netting through a long, patient repair, while the argument about who was in the wrong keeps surfacing and subsiding."
+  "logline": "A working crew's main piece of gear comes back cut through by someone else's boat, and the days that follow are spent mending it by hand while the argument about who was in the wrong keeps surfacing and settling again.",
+  "human_question": "When someone stands between us and what we need, what does the wanting turn into, and who actually carries it?",
+  "situation": {
+    "what_happens": "A crew that shares inshore water with other crews finds its net cut clean through, and they are certain another boat did it. The damage is not abstract: until the net is whole again the boat does not fish, and the repair is days of unglamorous hand work in which the same few people sit together with nothing to do but talk. The talk keeps returning to the other crew and keeps being put down again, because the twine still has to be tied. Somewhere in those days the crew decides whether to answer it, report it, or let it go, and the decision is made by tired people who are also short of money.",
+    "who_is_involved": "The crew who work the net and the person who owns it and carries the loss; younger crew who want it answered and older ones who have seen where that goes; the households that eat from this boat; the other crew, present for most of the film only as an account given by people who are not neutral; and whoever the community uses to settle such things, a fishers' society or an elder whose word is normally accepted.",
+    "what_is_at_stake": "Days of income, the cost of twine and hands, and a season that does not pause while the net is ashore. Beyond that, the working relationship between two crews who will go on sharing one stretch of water whatever is decided, and the risk that answering it costs more than the net did. For the film, the stake is not ruling on who was right, and not making a live dispute worse by filming it.",
+    "how_it_unfolds": "It begins with damage found, and with an immediate certainty about who did it. The pressures are the tide, the money, the pull between the ones who want it answered and the ones who want it dropped, and the fact that a version of events is circulating on both sides. It can end in a repair and a quiet letting-go, in a complaint taken to whoever settles such things, in a confrontation, or in nothing being resolved at all and the boat simply going back out. Reality decides which, and the days after the heat are as much the film as the heat is: the same people are back at ordinary work beside each other long before the damage is paid for."
+  },
+  "concept_merge": {
+    "why_together": "C007 supplies the state itself: the sources define aversion by its object and its aim, a disliked object met and a mind that strikes against it and wants it gone [C007-P:L32–L34], and they insist that both hate-rooted minds always arrive with a painful mental feeling, never a pleasant one [C007-P:L25–L28]. Margaya's own list of when this happens reads like this situation written out in advance: when what one asks for is not given, when one's word is not accepted, when others seem to have done wrong [C007-M:L17]. C022 supplies what is in the state while it lasts: hate's family of forms, which the compendium extends to discontent, disgust, displeasure and the wish to strike back [C022-P:L121], and the four that are present in every unwholesome moment whatever it looks like from outside, among them restlessness [C022-P:L31]. One holds the turn, the other holds the anatomy.",
+    "what_it_reveals": "That the loss and the heat are two different things arriving at the same time, and that they run on different clocks. The net's damage lasts for days and costs money; the displeasure comes and goes several times inside one afternoon of mending, in the same people, over the same facts. Neither concept shows that alone. C007 on its own would make the film a study of one flare; C022 on its own would be an inventory with nothing at stake. Together they let a viewer see that the state is something that visits, not something anyone here is."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "Pradeepika's own example shows a wish turning to hatred the moment something living stands in its way [C007-P:L59]. A rival boat working another crew's ground is exactly that turn: the catch is wanted, the other boat is the obstacle, and the mind's response to a threatened livelihood is named in the sources as a common occasion for this state [C007-P:L49]."
+      "why": "Pradeepika defines this state by what it meets and what it wants: a disliked object arrives and the mind strikes against it [C007-P:L32–L34], and both hate-rooted minds always carry a painful mental feeling [C007-P:L25–L28], so the displeasure is suffering in itself before it is anything else. Pradeepika names life's ordinary afflictions, including not getting what one wants, among the occasions [C007-P:L49], and Margaya adds the domestic and social ones this situation actually turns on: a request refused, one's word not accepted, others thought to have done wrong [C007-M:L17] (folded in from IDEA-0034). The film must not carry the sources' own example of a wish turning into the wish to destroy a living obstacle [C007-P:L59] into a dispute between two crews; that example belongs where the digest itself puts it, and importing it here would attribute to real people an intention they have not expressed. Two limits are load-bearing: Margaya says the hatred felt towards an enemy who comes to harm you is the fierce form of the same state [C007-M:L11], so the sources make no exception for a wronged crew's anger, and the film may not offer one either; and the sources' stress on the angry person's own suffering must never be used to make light of the damage actually done to this livelihood, since the same text says plainly that this state leads on to harming others [C007-P:L47; C007-P:L53]."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Fishing ground is one of the five things stinginess clings to (āvāsa, one's 'dwelling' or territory) [C022-P:L133; C022-M:L43]. The dispute over grounds is a territorial version of that same clinging, seen from the outside rather than named as a fault in anyone."
+      "why": "In the list of fourteen, hate is given a wider range than the English word 'anger': both sources gather fear, discontent, disgust and displeasure under it, and Pradeepika adds the wish for revenge [C022-P:L121; C022-M:L35]. A crew deciding what to do about a cut net lives in exactly that range rather than in one flare. Pradeepika also names the four that are present in every unwholesome mind, restlessness among them [C022-P:L31], which is why the argument keeps starting again over facts that have not changed. The earlier version of this link read the contested fishing ground as āvāsa, one of the five things stinginess clings to; the digest glosses that kind as one's dwelling and does not extend it to shared working water, so the claim has been withdrawn rather than repaired. Nothing here may be stated as a reading of any crew member's mind: the scheme describes moments, and a camera cannot see which factor is present."
     }
   ],
-  "what_camera_could_observe": [
-    "The net brought in and laid out, the cut examined by hand",
-    "The crew's first words on seeing the damage",
-    "Mending: shuttle, twine, the repeated motion of tying knots",
-    "Conversation about the other boat and the shared ground, however it actually goes",
-    "The mended net going back out, or staying ashore if it is not ready"
-  ],
-  "what_must_be_real": "The damage, the dispute and the repair must be real and already in progress or freshly happened; nothing is cut, staged or provoked for the camera. Any account of the other crew must be presented as one side's view, not as settled fact.",
-  "possible_arc": {
-    "opening": "A torn net laid out on sand, the tear still fresh.",
-    "turn": "The talk of blame gives way to the slow, wordless work of mending.",
-    "ending_open": "Whatever the crew decides to do about the other boat, and whether the net is ready in time, ends the film as it actually happens."
-  },
-  "position_hint": "opening candidate: a mended net is a plain, real form of Object 3's mark of conflict, damage and repair, and a torn or mended piece of gear could be a natural moment for its acquisition if a crew genuinely offers or discards one",
-  "location": {
-    "requirements": [
-      "A fishing community with a real, current or recent dispute over grounds or gear",
-      "A crew willing to show the damage and the repair, and to speak about the dispute on their own terms",
-      "Access that does not require naming or filming the other side without consent"
-    ],
-    "suggestions": [
-      {
-        "name": "Fishing villages of the Jaffna peninsula coast",
-        "region": "Jaffna district, Northern Province",
-        "why": "A coastline with many small fishing communities and long-contested inshore grounds; well known as an active fishing region.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm a specific community, a real current dispute, and willingness to be filmed discussing it.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "Fishing beaches of the eastern coast",
-        "region": "Trincomalee or Batticaloa district, Eastern Province",
-        "why": "Another well-known active fishing coastline where inshore ground disputes are a known feature of the livelihood.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm a specific community and a real, current dispute.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Anger often begins as wanting: something is wanted, something blocks it, and the wanting turns on the block. The texts say this state always comes with pain, and that the first person it hurts is the one who feels it, which is visible here because the other boat is nowhere near the beach where all the displeasure is. What the film can also show is how quickly it passes and returns in the same people, which is why the texts treat it as a state that visits rather than a kind of person.",
+  "what_must_be_real": "The damage, the dispute and the repair must be real and already under way; nothing may be cut, arranged or provoked, and no confrontation may be encouraged, waited for as an opportunity, or timed to the crew's presence. Any account of the other crew is one side's account and must be presented as such. The other crew may not be filmed or named without their own consent. If the presence of a camera would raise the temperature of a live dispute, the film does not happen.",
+  "position_hint": "opening candidate: the group opens on something pushing back, and a piece of working gear damaged by someone else and mended by hand is the plainest form of that, with a long enough repair to hold the whole shape of the state rather than only its first minute. No location reasoning is involved.",
   "risks": [
-    "Taking one crew's side in a real, ongoing dispute",
-    "Filming or naming the rival crew without their consent",
-    "Turning a livelihood dispute into a simple morality tale"
+    "Taking one crew's side in a real, ongoing dispute, or letting the edit settle a question of fact the film cannot settle.",
+    "The 'righteous anger' reading: a wronged crew is precisely where a viewer supplies the exception the sources refuse to make [C007-M:L11], and the film must not appear to endorse it either.",
+    "Using 'anger only hurts the angry person' in a way that makes light of a real, costly loss to a working household; the sources also say this state leads to harming others [C007-P:L53].",
+    "Narrating the traditional bodily effects of anger [C007-P:L47] or the claim about such minds at the time of death [C007-P:L51] as fact; the digest marks both as doctrinal statements needing expert framing.",
+    "Editing a brief flare into a portrait of a bad-tempered crew, when the same people are working quietly beside each other an hour later (folded in from IDEA-0034).",
+    "Filming or naming the rival crew without their consent, or making the film itself a move in the dispute."
   ],
   "drop_if": [
-    "No crew will discuss the dispute openly, or filming would inflame a live conflict",
-    "The damage was not caused by a genuine dispute and would need to be invented"
+    "No crew will discuss the dispute openly, or filming would inflame a live conflict.",
+    "The damage was not caused by a genuine dispute and would have to be invented or re-created.",
+    "The only usable heat would have to be provoked or waited for as an event."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0036",
-      "relation": "alternative to",
-      "note": "Both are opening candidates where Object 3's mark of repair could plausibly be acquired; only one should open the group."
+      "idea_id": "IDEA-0034",
+      "relation": "absorbs",
+      "note": "Takes in Margaya's own list of everyday occasions for this state, and the strand that matters most to the philosophy: what the people who were angriest are doing a few minutes later."
+    },
+    {
+      "idea_id": "IDEA-0035",
+      "relation": "leads into",
+      "note": "From a rival who can be argued with to a threat that cannot: the same pushing-away, once the thing in the way is stronger than you are."
     },
     {
       "idea_id": "IDEA-0042",
       "relation": "mirrors",
-      "note": "Two fishing-community films: one scarred by a dispute over what is claimed, the other testing what is freely shared at the catch."
+      "note": "Two crews and two nets: one marked by what was taken, the other by what is handed out."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0034"
+    ],
+    "superseded_by": null,
+    "reason": "Carries the group's opening episode, and is re-grounded on the occasions Margaya actually lists plus IDEA-0034's aftermath strand, which is what keeps it from reading as a portrait of angry people."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

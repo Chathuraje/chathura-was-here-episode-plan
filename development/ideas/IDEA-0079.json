@@ -4,93 +4,78 @@
   "record_type": "idea",
   "title": "One Strike, A Thousand Echoes",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "A temple bell is struck once at dawn, and its sound fades slowly across the valley below, the same way, the keeper says, one sight can set off a long private echo of thought.",
-  "human_question": "How much of what occupies a mind is not what is in front of it, but the long echo of something that already happened?",
-  "premise": {
-    "story": "The keeper of a hill or rock temple's bell strikes it at set times, and the film follows the sound down into the valley and the keeper's own quiet days and broken naps between duties.",
-    "place": "A hill or rock temple above farming villages, and the valley that hears its bell.",
-    "experience": "The viewer follows a single sound outward into a landscape and inward into a life built around waiting, striking, and resting, and comes to notice how one contact can echo on long after it ends."
+  "logline": "A temple bell is struck once at dawn and its sound fades slowly across the valley below, the same way, the keeper says, one sight can set off a long private echo of thought.",
+  "human_question": "How much of what occupies a mind is not what is in front of it, but the long echo of something that has already happened?",
+  "situation": {
+    "what_happens": "Someone whose duty is to strike a bell at fixed hours lives around a small number of very short acts. The rest of the day is waiting, small maintenance, short sleep and whatever runs through a mind in the quiet. The bell's sound carries far further than the person who strikes it ever goes, and people below organise parts of their day by it without thinking about who struck it. The keeper's own account of what fills the hours between strikes is the only way into the film's real subject.",
+    "who_is_involved": "The keeper, whose role may be paid, voluntary or inherited; whoever else lives or works at the same place and shares the rhythm; and the households below, for whom the sound is a clock, a comfort, an irritation or nothing at all.",
+    "what_is_at_stake": "For the keeper, a duty that must not be missed and a great deal of unstructured time, which is harder than it looks. For the people below, very little, which is part of the point: one act reaches hundreds of people who are not thinking about it. For the film, the keeper's privacy, since almost everything interesting here is interior and only he can report it.",
+    "how_it_unfolds": "A day is fixed at both ends by the times of striking and empty in between. The pressures are the duty itself, weather, age, and long stretches alone. It ends as the day ends, and nothing about it resolves; the film has to be willing to end without an event."
+  },
+  "concept_merge": {
+    "why_together": "C048 contributes the source's own image and its claim: like the long fading hum after one strike of a bell, a single sense contact can set off hundreds or thousands of later mind-door processes, and the source lists the ordinary things that set such processes going, what someone told us, something read, a question put to us, hunger and thirst, a bodily pain, meeting a friend or an enemy. C047 contributes the distinction that keeps the echo honest, since those later processes take as their object something already past, which the sources hold strictly apart from a present object. C010 contributes what happens at the far end of every one of those long quiet hours, the turning toward that occurs before anything is known and the settling that fixes what a thing is, both of which run in everyone, unbidden and hundreds of times an hour.",
+    "what_it_reveals": "A single sound and a life built around it turn out to be the same claim at two scales. One strike carries out over a valley and into hundreds of days; one contact carries into hundreds of later moments of thought. Between the strikes, C010's turning-toward keeps happening anyway, which is what makes the empty hours not empty. And C047's insistence that all of it is about something already gone gives the film its restraint: the echo is real, and it is not the bell."
   },
   "concept_links": [
     {
       "concept_id": "C048",
       "role": "primary",
-      "why": "The source's own image is a bell struck once, its sound fading without a second strike, used to describe how a single contact can set off hundreds or thousands of later mind-door processes [C048-M:L7]. The same source also treats falling asleep, waking and dreaming as mind-door events, which the keeper's own broken rest between duties makes visible [C048-P:L25-L33]."
+      "why": "The source's own image is a bell struck once, its sound fading without a second strike, used to say that after a single sight has come and gone it can reach the mind door and set off hundreds or even thousands of mind-door processes, drawing related objects in with it [C048-M:L7-L9]. The digest also lists the source's ordinary causes of such processes, sense contact, what others say, reading, a question, thinking, disturbance of the bodily elements, hunger and thirst, bodily pain, meeting friends or enemies [C048-M:L5], and treats falling asleep, waking and dreaming as mind-door events [C048-P:L25-L33], which is what a keeper's broken rest between duties is made of. Three limits are carried: the digest says dreams are not messages or predictions and the source only calls them weak; the source's passing mention of spirits giving objects to the mind is a traditional belief that a film should neither present as fact nor mock; and the digest notes that the source's list of causes is explicitly only 'a portion' of them."
     },
     {
       "concept_id": "C047",
       "role": "supporting",
-      "why": "The distinction between a present sound and its long, later echo in the mind is the same distinction the source draws between present and past mind-door objects."
+      "why": "The digest keeps a present object and a past one strictly apart, and the source's worked example does the same: seeing a thing, remembering it later when it no longer exists, and turning toward the real thing from a distance are three different acts with three different objects [C047-M:L9-L11]. That is the difference between the sound crossing the valley and the long echo it leaves in anyone who heard it. The digest's note that the source's example names a real monument and that this is source text only, never a location suggestion, is observed here too."
     },
     {
       "concept_id": "C010",
       "role": "supporting",
-      "why": "The keeper's own quiet, unprompted stillness, observed honestly and without claiming any spiritual attainment for him, echoes the source's picture of the rootless functional minds, a layer that reaches for nothing."
+      "why": "Re-grounded. The digest describes the five-door adverting mind as a turning toward that cannot itself know anything and only points, the hinge on the door rather than the person walking through, and the mind-door adverting mind as doing the determining job that settles 'this object is such' just before any response, both of them neutral, both happening in everyone hundreds of times an hour. A duty made of waiting is made of exactly those two moments, and the digest's own story seed for this concept is a keeper who spends the day listening for something that will come. The previous reading of this link, which took the keeper's quiet stillness as an echo of the rootless functional layer, is dropped: the digest is explicit that the third of these minds is the arahant's smile and that no real person in a film may be framed as having it, since that would imply a claim about their spiritual attainment. The film may never suggest any attainment for the keeper. The digest also notes that adverting is not mindfulness or being present, and that the traditional placement of the mind door in the heart cavity is not something a modern audience should be asked to accept literally."
     }
   ],
-  "what_camera_could_observe": [
-    "The dawn strike and the sound fading over paddy fields or forest",
-    "People below pausing, or not pausing, as it passes",
-    "The keeper's ordinary day: waiting, small tasks, short naps",
-    "The keeper's own account of what runs through his mind in the quiet hours",
-    "Villagers describing what the bell means to their own day"
-  ],
-  "what_must_be_real": "The keeper's actual daily rhythm and role; no staged reactions from villagers. Any account of dreams or private thought must come from the keeper's own words, not the film's inference.",
-  "possible_arc": {
-    "opening": "Dawn; the bell is struck; the sound moves out over the valley.",
-    "turn": "A quiet stretch of the keeper's day, a nap, a wait, a private thought he is willing to describe.",
-    "ending_open": "Evening, or another strike, closes the day however it actually unfolds."
-  },
-  "position_hint": "middle: a contemplative, place-driven film that could also function as a quiet turning point within the group.",
-  "location": {
-    "requirements": [
-      "A hill or rock temple with a bell and a keeper willing to be filmed",
-      "A vantage point to follow the sound into the valley below",
-      "Consent covering both the keeper's work and his personal reflections"
-    ],
-    "suggestions": [
-      {
-        "name": "A rock or hill temple in the Kandy-Matale hills",
-        "region": "Central Province",
-        "why": "The Kandy-Matale hills hold numerous rock and hill temples overlooking farming valleys.",
-        "season_notes": "",
-        "access_notes": "Specific temple and monastic permission would need to be arranged directly.",
-        "verify": "A specific temple, bell-keeper and willingness to be filmed are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "One sight or sound can keep a mind busy long after it has gone, the way a bell struck once keeps humming. On this account much of what fills a day is that echo rather than what is actually in front of us, and the echo is about something that no longer exists.",
+  "what_must_be_real": "The keeper's actual duty and actual rhythm, and no villagers' reactions arranged. Any account of his private thoughts, his rest or his dreams comes from his own words and never from the film's inference, and he may refuse any part of it at any point. No suggestion of spiritual attainment may be made about him, by image, edit or narration.",
+  "position_hint": "middle to late: it comes after the group's first mind-door film and closes the stretch about what the mind does with things the senses have already finished with, before the films about how a response is formed. No location reasoning is involved.",
   "risks": [
-    "Turning the keeper into a symbol rather than a person",
-    "Implying spiritual attainment for a real person based on the source's account of the arahant's smile, which must never be done",
-    "Over-illustrating a doctrinal simile literally rather than letting the place and person carry the film"
+    "Turning the keeper into a symbol rather than a person.",
+    "Implying spiritual attainment for a real person on the strength of the sources' account of the arahant's smile, which the digest forbids outright.",
+    "Over-illustrating a doctrinal simile literally instead of letting the person and the duty carry the film.",
+    "Presenting the source's remarks about dreams, or its passing mention of spirits, as claims about how minds work.",
+    "Filming a solitary person's private hours in a way that leaves him exposed after the film is over."
   ],
   "drop_if": [
-    "No temple and keeper are found who are willing to have both work and rest filmed",
-    "The keeper does not want his private thoughts or dreams discussed on camera",
-    "The bell's role turns out to be minor or ceremonial only, without a real daily rhythm"
+    "No keeper is found who is willing to have both duty and rest filmed.",
+    "The keeper does not want his private thoughts or his sleep discussed on camera.",
+    "The bell's role turns out to be occasional or ceremonial only, with no real daily rhythm."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0077",
       "relation": "pairs with",
-      "note": "Both are about what a mind holds onto and reworks long after a single contact has ended."
+      "note": "Both are about what a mind holds and reworks long after a single contact has ended."
+    },
+    {
+      "idea_id": "IDEA-0081",
+      "relation": "pairs with",
+      "note": "The same turning-toward moment in two opposite lives, one where it happens hundreds of times an hour and one where it happens rarely and matters when it does."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0042; the bell is the source's own image for this concept, and the C010 link has been re-grounded on adverting and determining after the previous reading strayed into the arahant's smile."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

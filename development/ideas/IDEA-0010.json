@@ -4,92 +4,81 @@
   "record_type": "idea",
   "title": "The Lantern",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "A neighbourhood spends weeks building a great Vesak lantern of bamboo and paper, lights it for a few nights, then takes it apart.",
+  "logline": "A neighbourhood spends weeks building an enormous festival lantern out of bamboo and paper, lights it for a few nights, and then takes it down.",
   "human_question": "Why do we pour so much into something we know will be taken apart, and what is it while it lasts?",
-  "premise": {
-    "story": "A community lantern (thorana or kuduwa) from bamboo frame to dismantling.",
-    "place": "A neighbourhood around Vesak.",
-    "experience": "Bamboo, glue, paper, light, crowds, and then the bare frame."
+  "situation": {
+    "what_happens": "For Vesak, a neighbourhood builds a lantern far larger than anything one household could make: money is collected, a frame is tied, paper is cut and pasted, wiring is argued over, and the work runs late into several nights. Some of the material is new and some is inherited, kept from last year or from a relative's build, and carries names and histories of its own. For a few nights the thing is lit and people come. Then it is taken down, the parts are sorted into what can be kept and what cannot, and the name goes with the shape. What the builders feel at that point is the honest end of the film.",
+    "who_is_involved": "The neighbours who build it, who do not all agree about the design, the budget or who is in charge; the older people who have done this for decades and remember every previous one; children who are given the small jobs; and the crowds who come to look and who did not build anything.",
+    "what_is_at_stake": "Money that was collected from people who do not have much of it, and standing in a neighbourhood that will compare this year's with last year's and with the one down the road. For the builders, several weeks of unpaid work after their own working days. For the older ones, whether anybody younger will take it on next year.",
+    "how_it_unfolds": "It begins weeks early with a collection and a decision, and accelerates into nights of work that run right up to the deadline, because the date cannot move. The pressures are money, weather, electricity, rivalry and exhaustion. It ends with the lighting, then with the taking-apart, and the taking-apart is the part nobody photographs. Rain can end it early; a failure of wiring can end it on the first night. Reality decides."
+  },
+  "concept_merge": {
+    "why_together": "C077 supplies both halves of the group's ending. The compendium gathers everything conditioned into heaps and says the division exists to take apart the habit of saying 'I' and 'mine' [C077-P:L984; C077-P:L996–L1010; C077-M:L24], and then places the whole analysis under four truths, naming a delight-laden craving, which takes what is pleasant as something to be had and held, as what keeps suffering going [C077-P:L2780–L2788; C077-M:L91]. C084 supplies what the lantern is: a collective and shape concept that exists only while its parts are arranged [C084-P:L27–L41; C084-M:L7], carrying, folded in from IDEA-0009, the further point that the parts themselves are named after people. Together they give a film in which something is assembled, named, loved and dismantled inside a few weeks.",
+    "what_it_reveals": "That the taking-apart is where the group's question finally costs something. C084 alone would make the lantern a neat example of a shape concept; C077 alone would be a doctrine with nothing in front of it. Together, at the moment the frame comes down and the name stops being used, a viewer can notice the wanting-it-to-stay in themselves rather than be told about it, which is exactly where this group hands on to the next."
   },
   "concept_links": [
     {
       "concept_id": "C077",
       "role": "primary",
-      "why": "Aggregates and the truths: a named whole assembled, seen, and dissolved. The reason for seeing clearly is suffering and its end."
+      "why": "The compendium's method and its purpose: everything conditioned is gathered into heaps, each a collection of many passing moments of one kind, and the sources say plainly that the division is there to loosen 'I' and 'mine' [C077-P:L984; C077-P:L996–L1010; C077-M:L24]; the four truths then name craving, a glad, clinging thirst that makes the ordinary look like treasure and settles wherever something seems lovely, as the cause of suffering [C077-P:L2780–L2788; C077-M:L91]. The digest's limits are heavy here and all four are in the risks: 'life is suffering' distorts the sources, which say birth, ageing and death are grounds for suffering rather than suffering itself; 'just stop wanting things' misses the specific craving named; cessation is not annihilation, which the Margaya's phrase about the cessation of the aggregates could be misread as; and freedom is not obtained by wishing but by a path [C077-P:L2754–L2756]."
     },
     {
       "concept_id": "C084",
       "role": "supporting",
-      "why": "A collective and shape concept that exists only while its parts are arranged."
+      "why": "A lantern is a collective and shape concept in the sources' own list, a whole that exists only while its parts are arranged, and it disappears under division as cloth disappears into thread [C084-P:L27–L41; C084-M:L7]. Folded in from IDEA-0009: the parts are also named for people, so what comes down is not only a shape but a set of borrowed, inherited and remembered things going back to being bamboo, paper and wire. The digest's bar holds: nothing here says the lantern was not real, and no builder is told that their name for it is wrong."
     }
   ],
-  "what_camera_could_observe": [
-    "Bamboo cut and tied",
-    "Paper and colour",
-    "The first lighting",
-    "The crowd's wonder",
-    "Dismantling the next week"
-  ],
-  "what_must_be_real": "The actual builders, budget, disagreements and timeline.",
-  "possible_arc": {
-    "opening": "A pile of bamboo.",
-    "turn": "Lit, named, admired.",
-    "ending_open": "Taken apart. What the builders feel then leads directly into wanting (Group 2)."
-  },
-  "position_hint": "closing candidate: hands off from wonder to wanting",
-  "location": {
-    "requirements": [
-      "A lantern or thorana build during Vesak",
-      "Access across build, lighting and dismantling"
-    ],
-    "suggestions": [
-      {
-        "name": "A Colombo neighbourhood known for Vesak thoranas",
-        "region": "Western Province",
-        "why": "Large community builds and crowds.",
-        "season_notes": "Vesak (May)",
-        "access_notes": "",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "A small-town Vesak lantern competition",
-        "region": "Any province",
-        "why": "More intimate community build.",
-        "season_notes": "Vesak (May)",
-        "access_notes": "",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That a great lantern is bamboo, paper and light held in one shape for a few nights, and that when it is taken apart the name goes with it. The texts look at everything, even a person, in this way, and say that wherever something seems lovely, wanting quietly begins.",
+  "what_must_be_real": "The actual builders, the actual budget, the actual disagreements and the actual timeline, including the dismantling, which is the part that is normally not filmed. Nothing is rebuilt or relit for the camera, no one is asked to say what they feel at the end, and the collection of money is treated with the discretion the neighbours themselves use.",
+  "position_hint": "closing candidate: it is the only kept idea whose situation contains its own ending, and the feeling at the dismantling is what hands this group on to the next. No location reasoning is involved.",
   "risks": [
-    "Festival spectacle without a person to follow"
+    "Festival spectacle with no one to follow; the crowd is not the subject.",
+    "Reading the film as 'life is suffering', which the digest says distorts the sources.",
+    "Reading it as 'stop wanting things'; the sources name a particular clinging thirst, not every wish.",
+    "Suggesting that the ending means ceasing to exist, which the digest flags as the likeliest misreading of the Margaya's wording.",
+    "Treating devotion, or the money spent on it, as naive.",
+    "Filming the builders' exhaustion or disagreement as comedy."
   ],
   "drop_if": [
-    "Only spectacle footage; no builders who will share the process"
+    "Only the finished lantern is accessible and no builder will share the weeks around it.",
+    "Access ends at the lighting, so the dismantling cannot be filmed.",
+    "Filming would require the build to be altered in any way."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0002",
+      "idea_id": "IDEA-0009",
+      "relation": "absorbs",
+      "note": "Takes in the strand of objects named after the people they belonged to, and the feeling of a named whole being sorted back into materials."
+    },
+    {
+      "idea_id": "IDEA-0005",
       "relation": "pairs with",
-      "note": "A whole assembled from parts and dissolved again."
+      "note": "A whole taken apart and rebuilt, and a whole taken apart for good."
+    },
+    {
+      "idea_id": "IDEA-0012",
+      "relation": "pairs with",
+      "note": "Something held together by speed, and something held together by bamboo and string."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0009"
+    ],
+    "superseded_by": null,
+    "reason": "Carries the closing episode, and absorbs IDEA-0009's strand of objects named after people and the feeling of un-naming."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

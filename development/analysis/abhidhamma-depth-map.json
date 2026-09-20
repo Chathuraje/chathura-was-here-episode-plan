@@ -584,7 +584,8 @@
       "group_id": "GRP-05",
       "linked_episode_ids": [
         "EPD-0038",
-        "EPD-0039"
+        "EPD-0039",
+        "EPD-0045"
       ],
       "linked_episodes": [
         {
@@ -598,10 +599,16 @@
           "global_position": 39,
           "title": "Only Colour, Not Yet a Flower",
           "lesson_in_simple_terms": "The eye does not see 'a marigold'; it meets colour, and the name, the kind and the value are added a moment later from what we have seen before. A buyer's fast judgement in the half-light starts with colour alone."
+        },
+        {
+          "id": "EPD-0045",
+          "global_position": 45,
+          "title": "The Close Call",
+          "lesson_in_simple_terms": "When something is small, far off or badly lit, it reaches the mind a little late, and the run from noticing to responding has less time to play out. The texts also say that making up one's mind and real doubt cannot happen in the same moment."
         }
       ],
       "depth_status": "introduced",
-      "depth_reason": "It is carried by 2 episodes (EPD-0038, EPD-0039), assessed as a sequence rather than by count alone. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: The 18 rootless minds (seeing, hearing, receiving, investigating): the machinery that runs before any choice.",
+      "depth_reason": "It is carried by 3 episodes (EPD-0038, EPD-0039, EPD-0045), assessed as a sequence rather than by count alone. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: The 18 rootless minds (seeing, hearing, receiving, investigating): the machinery that runs before any choice.",
       "viewer_understanding_summary": "The viewer can form a first working distinction for The eighteen rootless minds: the sensing machinery before any choice, but is unlikely to place its complete structure within the wider system.",
       "risks": [
         "Medium: repeated presence does not yet form a clearly cumulative mechanism."
@@ -899,16 +906,9 @@
       "title_si": "සිත් එක සිය විසි එක",
       "group_id": "GRP-01",
       "linked_episode_ids": [
-        "EPD-0001",
         "EPD-0003"
       ],
       "linked_episodes": [
-        {
-          "id": "EPD-0001",
-          "global_position": 1,
-          "title": "One Mountain, Many Names",
-          "lesson_in_simple_terms": "People can call the same mountain by many different names, and each name is useful to the people who use it. But a name is something we agree on; underneath all the names, every climber meets the same cold, wind and light."
-        },
         {
           "id": "EPD-0003",
           "global_position": 3,
@@ -917,7 +917,7 @@
         }
       ],
       "depth_status": "dangerously_compressed",
-      "depth_reason": "It is carried by 2 episodes (EPD-0001, EPD-0003), assessed as a sequence rather than by count alone. The assigned role contains a broad taxonomy or advanced process that the available narrative space cannot make fully legible. Project role assessed: The full 121 types of consciousness: the whole map in one view, unfolded group by group.",
+      "depth_reason": "It is carried by one episode (EPD-0003), so the judgment does not treat linkage as cumulative teaching. The assigned role contains a broad taxonomy or advanced process that the available narrative space cannot make fully legible. Project role assessed: The full 121 types of consciousness: the whole map in one view, unfolded group by group.",
       "viewer_understanding_summary": "The viewer may remember the subject of The 121 types of consciousness: the whole map, but the current span asks them to absorb more structure than the sequence develops.",
       "risks": [
         "High: do not describe this concept as taught in full during chronology review; inspect whether its internal distinctions are actually visible."
@@ -1420,9 +1420,16 @@
       "title_si": "අහේතුක චිත්තයන්හි චෛතසික සංග්‍ර‍හය",
       "group_id": "GRP-05",
       "linked_episode_ids": [
+        "EPD-0045",
         "EPD-0047"
       ],
       "linked_episodes": [
+        {
+          "id": "EPD-0045",
+          "global_position": 45,
+          "title": "The Close Call",
+          "lesson_in_simple_terms": "When something is small, far off or badly lit, it reaches the mind a little late, and the run from noticing to responding has less time to play out. The texts also say that making up one's mind and real doubt cannot happen in the same moment."
+        },
         {
           "id": "EPD-0047",
           "global_position": 47,
@@ -1431,10 +1438,10 @@
         }
       ],
       "depth_status": "introduced",
-      "depth_reason": "It is carried by one episode (EPD-0047), so the judgment does not treat linkage as cumulative teaching. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: Mental factors in the rootless minds.",
+      "depth_reason": "It is carried by 2 episodes (EPD-0045, EPD-0047), assessed as a sequence rather than by count alone. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: Mental factors in the rootless minds.",
       "viewer_understanding_summary": "The viewer can form a first working distinction for Which mental factors the rootless minds contain, but is unlikely to place its complete structure within the wider system.",
       "risks": [
-        "Medium: a single appearance has no later reinforcement."
+        "Medium: repeated presence does not yet form a clearly cumulative mechanism."
       ],
       "related_mechanism_ids": [
         "MECH-04",
@@ -1442,7 +1449,7 @@
       ],
       "review_priority": "medium",
       "teaching_risk": "insufficient-reinforcement",
-      "notes_for_chathura_review": "Medium: a single appearance has no later reinforcement."
+      "notes_for_chathura_review": "Medium: repeated presence does not yet form a clearly cumulative mechanism."
     },
     {
       "concept_id": "C030",
@@ -1679,7 +1686,8 @@
       "linked_episode_ids": [
         "EPD-0036",
         "EPD-0039",
-        "EPD-0041"
+        "EPD-0041",
+        "EPD-0043"
       ],
       "linked_episodes": [
         {
@@ -1699,10 +1707,16 @@
           "global_position": 41,
           "title": "What Came Back Home",
           "lesson_in_simple_terms": "Remembering a place and seeing it again are two different things: the remembered village is something that has already gone, while the village in front of you is what stands there now. Coming home is partly the mind meeting its own past."
+        },
+        {
+          "id": "EPD-0043",
+          "global_position": 43,
+          "title": "The Work Between Moments",
+          "lesson_in_simple_terms": "Every moment of real work, easy or hard, is made of the same few parts: something is touched, it feels a certain way, it is recognised, there is a push behind the next move, and attention points somewhere. A skilled worker's quick eye is partly recognition that has built up over time."
         }
       ],
       "depth_status": "built",
-      "depth_reason": "It is carried by 3 episodes (EPD-0036, EPD-0039, EPD-0041), assessed as a sequence rather than by count alone. The linked lessons add contrasts or applications, so viewer understanding develops rather than merely repeating a label. Project role assessed: The objects each kind of mind can take.",
+      "depth_reason": "It is carried by 4 episodes (EPD-0036, EPD-0039, EPD-0041, EPD-0043), assessed as a sequence rather than by count alone. The linked lessons add contrasts or applications, so viewer understanding develops rather than merely repeating a label. Project role assessed: The objects each kind of mind can take.",
       "viewer_understanding_summary": "The viewer can explain the central distinction in Objects of the mind: what each kind of mind can take and recognise it in more than one situation.",
       "risks": [
         "Low: preserve the current contrasts and applications; avoid removing the steps that create cumulative understanding."
@@ -2032,7 +2046,8 @@
       "title_si": "මනෝද්වාර වීථි",
       "group_id": "GRP-05",
       "linked_episode_ids": [
-        "EPD-0041"
+        "EPD-0041",
+        "EPD-0044"
       ],
       "linked_episodes": [
         {
@@ -2040,13 +2055,19 @@
           "global_position": 41,
           "title": "What Came Back Home",
           "lesson_in_simple_terms": "Remembering a place and seeing it again are two different things: the remembered village is something that has already gone, while the village in front of you is what stands there now. Coming home is partly the mind meeting its own past."
+        },
+        {
+          "id": "EPD-0044",
+          "global_position": 44,
+          "title": "The Score for a Vanishing Sound",
+          "lesson_in_simple_terms": "Some things happen too fast to watch, so people learn them by writing them down in another form. The Abhidhamma does this for a single act of seeing, charting it as a sequence of beats, because no act happens in just one moment."
         }
       ],
       "depth_status": "introduced",
-      "depth_reason": "It is carried by one episode (EPD-0041), so the judgment does not treat linkage as cumulative teaching. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: Mind-door processes: thinking, remembering, imagining.",
+      "depth_reason": "It is carried by 2 episodes (EPD-0041, EPD-0044), assessed as a sequence rather than by count alone. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: Mind-door processes: thinking, remembering, imagining.",
       "viewer_understanding_summary": "The viewer can form a first working distinction for Mind-door processes: remembering, recognising, imagining, but is unlikely to place its complete structure within the wider system.",
       "risks": [
-        "Medium: a single appearance has no later reinforcement."
+        "Medium: repeated presence does not yet form a clearly cumulative mechanism."
       ],
       "related_mechanism_ids": [
         "MECH-07",
@@ -2054,7 +2075,7 @@
       ],
       "review_priority": "medium",
       "teaching_risk": "insufficient-reinforcement",
-      "notes_for_chathura_review": "Medium: a single appearance has no later reinforcement."
+      "notes_for_chathura_review": "Medium: repeated presence does not yet form a clearly cumulative mechanism."
     },
     {
       "concept_id": "C047",
@@ -2517,6 +2538,7 @@
       "group_id": "GRP-08",
       "linked_episode_ids": [
         "EPD-0067",
+        "EPD-0075",
         "EPD-0078"
       ],
       "linked_episodes": [
@@ -2527,6 +2549,12 @@
           "lesson_in_simple_terms": "When someone dies, much of what they set in motion is still unfinished, and some of it will never come due at all. The texts also say that nothing of the person crosses into a next life: what carries on is a chain of causes, not a traveller."
         },
         {
+          "id": "EPD-0075",
+          "global_position": 75,
+          "title": "Called to the House",
+          "lesson_in_simple_terms": "The texts treat dying as one more act of seeing, hearing, smelling, tasting, touching or remembering, so what reaches a dying person's senses still reaches them. They also count a good friend at the bedside, who helps someone recall the good they have done, as a real help."
+        },
+        {
           "id": "EPD-0078",
           "global_position": 78,
           "title": "The Tools",
@@ -2534,7 +2562,7 @@
         }
       ],
       "depth_status": "built",
-      "depth_reason": "It is carried by 2 episodes (EPD-0067, EPD-0078), assessed as a sequence rather than by count alone. The linked lessons add contrasts or applications, so viewer understanding develops rather than merely repeating a label. Project role assessed: Rebirth: how a new life is conditioned without anything passing across.",
+      "depth_reason": "It is carried by 3 episodes (EPD-0067, EPD-0075, EPD-0078), assessed as a sequence rather than by count alone. The linked lessons add contrasts or applications, so viewer understanding develops rather than merely repeating a label. Project role assessed: Rebirth: how a new life is conditioned without anything passing across.",
       "viewer_understanding_summary": "The viewer can explain the central distinction in Rebirth: the dying mind's object and a new beginning without a traveller and recognise it in more than one situation.",
       "risks": [
         "Low: preserve the current contrasts and applications; avoid removing the steps that create cumulative understanding."
@@ -2682,7 +2710,8 @@
       "title_si": "ගෝචර රූප පස",
       "group_id": "GRP-07",
       "linked_episode_ids": [
-        "EPD-0061"
+        "EPD-0061",
+        "EPD-0062"
       ],
       "linked_episodes": [
         {
@@ -2690,13 +2719,19 @@
           "global_position": 61,
           "title": "Two Kinds of Sound",
           "lesson_in_simple_terms": "A shouted bid and a gust of wind are the same kind of thing to the ear: sound. The texts say one is made by a mind that means something, and the other only by the weather."
+        },
+        {
+          "id": "EPD-0062",
+          "global_position": 62,
+          "title": "What the Eye Receives",
+          "lesson_in_simple_terms": "Seeing depends on a small, delicate part of the living body working at all. Because we hold our senses as the most truly 'mine' of anything in us, losing one and getting it back is felt so deeply."
         }
       ],
       "depth_status": "introduced",
-      "depth_reason": "It is carried by one episode (EPD-0061), so the judgment does not treat linkage as cumulative teaching. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: The five sense objects: the material world as it meets the senses.",
+      "depth_reason": "It is carried by 2 episodes (EPD-0061, EPD-0062), assessed as a sequence rather than by count alone. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: The five sense objects: the material world as it meets the senses.",
       "viewer_understanding_summary": "The viewer can form a first working distinction for The five sense objects, but is unlikely to place its complete structure within the wider system.",
       "risks": [
-        "Medium: a single appearance has no later reinforcement."
+        "Medium: repeated presence does not yet form a clearly cumulative mechanism."
       ],
       "related_mechanism_ids": [
         "MECH-08",
@@ -2704,7 +2739,7 @@
       ],
       "review_priority": "medium",
       "teaching_risk": "insufficient-reinforcement",
-      "notes_for_chathura_review": "Medium: a single appearance has no later reinforcement."
+      "notes_for_chathura_review": "Medium: repeated presence does not yet form a clearly cumulative mechanism."
     },
     {
       "concept_id": "C066",
@@ -2713,6 +2748,7 @@
       "group_id": "GRP-07",
       "linked_episode_ids": [
         "EPD-0058",
+        "EPD-0061",
         "EPD-0064",
         "EPD-0065"
       ],
@@ -2722,6 +2758,12 @@
           "global_position": 58,
           "title": "Before First Light",
           "lesson_in_simple_terms": "Staying upright is not something a body does by itself. The texts describe a waking mind holding it up moment by moment, so when attention sinks into sleep, the body sinks with it."
+        },
+        {
+          "id": "EPD-0061",
+          "global_position": 61,
+          "title": "Two Kinds of Sound",
+          "lesson_in_simple_terms": "A shouted bid and a gust of wind are the same kind of thing to the ear: sound. The texts say one is made by a mind that means something, and the other only by the weather."
         },
         {
           "id": "EPD-0064",
@@ -2737,7 +2779,7 @@
         }
       ],
       "depth_status": "built",
-      "depth_reason": "It is carried by 3 episodes (EPD-0058, EPD-0064, EPD-0065), assessed as a sequence rather than by count alone. The linked lessons add contrasts or applications, so viewer understanding develops rather than merely repeating a label. Project role assessed: The ten non-concrete kinds of matter, including space, bodily and vocal expression, growth, decay and impermanence.",
+      "depth_reason": "It is carried by 4 episodes (EPD-0058, EPD-0061, EPD-0064, EPD-0065), assessed as a sequence rather than by count alone. The linked lessons add contrasts or applications, so viewer understanding develops rather than merely repeating a label. Project role assessed: The ten non-concrete kinds of matter, including space, bodily and vocal expression, growth, decay and impermanence.",
       "viewer_understanding_summary": "The viewer can explain the central distinction in The ten non-concrete kinds of matter: space, expression, pliancy, growth, decay and impermanence and recognise it in more than one situation.",
       "risks": [
         "Low: preserve the current contrasts and applications; avoid removing the steps that create cumulative understanding."
@@ -2853,7 +2895,8 @@
       "title_si": "රූප කලාප",
       "group_id": "GRP-07",
       "linked_episode_ids": [
-        "EPD-0060"
+        "EPD-0060",
+        "EPD-0066"
       ],
       "linked_episodes": [
         {
@@ -2861,13 +2904,19 @@
           "global_position": 60,
           "title": "The Kiln and the Hand",
           "lesson_in_simple_terms": "Wet clay, dry clay and a fired pot are described as the same four qualities in different amounts: hardness, holding together, heat and movement, always found together. When the conditions change, as they do in the kiln, the thing itself changes."
+        },
+        {
+          "id": "EPD-0066",
+          "global_position": 66,
+          "title": "What the Fire Doesn't Take",
+          "lesson_in_simple_terms": "The texts describe a body's end as a series of stoppings rather than a single switch. After death nothing in it is renewed from within, and only heat and cold keep working on it."
         }
       ],
       "depth_status": "introduced",
-      "depth_reason": "It is carried by one episode (EPD-0060), so the judgment does not treat linkage as cumulative teaching. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: Material groups (kalāpa): matter never arises alone.",
+      "depth_reason": "It is carried by 2 episodes (EPD-0060, EPD-0066), assessed as a sequence rather than by count alone. The lessons make a first distinction legible, but do not provide a later contrast or application strong enough to count as built. Project role assessed: Material groups (kalāpa): matter never arises alone.",
       "viewer_understanding_summary": "The viewer can form a first working distinction for Material groups (kalāpa): matter never arises alone, but is unlikely to place its complete structure within the wider system.",
       "risks": [
-        "Medium: a single appearance has no later reinforcement."
+        "Medium: repeated presence does not yet form a clearly cumulative mechanism."
       ],
       "related_mechanism_ids": [
         "MECH-10",
@@ -2875,7 +2924,7 @@
       ],
       "review_priority": "medium",
       "teaching_risk": "insufficient-reinforcement",
-      "notes_for_chathura_review": "Medium: a single appearance has no later reinforcement."
+      "notes_for_chathura_review": "Medium: repeated presence does not yet form a clearly cumulative mechanism."
     },
     {
       "concept_id": "C071",
@@ -4329,7 +4378,6 @@
           "group_id": "GRP-01",
           "status": "dangerously_compressed",
           "episode_ids": [
-            "EPD-0001",
             "EPD-0003",
             "EPD-0007"
           ]
@@ -4379,7 +4427,8 @@
             "EPD-0038",
             "EPD-0039",
             "EPD-0040",
-            "EPD-0042"
+            "EPD-0042",
+            "EPD-0045"
           ]
         },
         {
@@ -5011,6 +5060,7 @@
             "EPD-0040",
             "EPD-0041",
             "EPD-0042",
+            "EPD-0043",
             "EPD-0044",
             "EPD-0045",
             "EPD-0046",
@@ -5870,6 +5920,7 @@
           "status": "surface_only",
           "episode_ids": [
             "EPD-0067",
+            "EPD-0075",
             "EPD-0078"
           ]
         },

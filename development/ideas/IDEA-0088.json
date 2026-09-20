@@ -4,103 +4,89 @@
   "record_type": "idea",
   "title": "What's Left When It Runs Out",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "At a roadside food stall on a festival day, volunteers watch the queue grow longer than the food will stretch, and in the space of a few seconds, again and again, someone has to decide how to share what is left.",
-  "human_question": "In the small, repeated moment when there isn't enough to go around, what actually decides what a person does?",
-  "premise": {
-    "story": "Volunteers running a roadside dansala, a free food stall, during a religious festival face a real, recurring problem as supplies run low: how to keep serving fairly as the queue outlasts the food, and what each server actually does in that moment.",
-    "place": "A roadside food stall on a pilgrimage route or festival day, somewhere the flow of people can genuinely outpace supply.",
-    "experience": "The viewer watches ordinary, repeated small decisions, made fast, under real pressure, by people with nothing to gain and something real to give, and is left with the plain, human shape of a moment where someone chooses to be generous, or doesn't, and either way keeps going."
+  "logline": "At a roadside free-food stall on a festival day, volunteers watch the queue grow longer than the food will stretch, and in a few seconds, again and again, someone has to decide how to share what is left.",
+  "human_question": "In the small, repeated moment when there is not enough to go round, what actually decides what a person does?",
+  "situation": {
+    "what_happens": "Volunteers run a free food stall on a day when travellers pass in large numbers. Supply is finite and was estimated in advance. At some point the queue visibly outruns what is left, and from then on every single serving is a small decision made in a few seconds, in front of the person receiving it: full portion or smaller, this person or the family behind them, keep going or close. Nobody has time to think it through and everybody keeps going anyway. The same shortage produces visibly different responses from different volunteers standing side by side.",
+    "who_is_involved": "The volunteers, who have nothing to gain and have usually paid for the food themselves; whoever organised and funded the stall; the people in the queue, some of whom have travelled a long way and are hungry, and some of whom are not; and the volunteers' own families, who are often serving alongside them.",
+    "what_is_at_stake": "For those in the queue, a meal on a long day. For the volunteers, the difference between an act of generosity and an hour of rationing strangers, which is not a difference anyone can see from outside. For the stall, whether it ends well or ends badly, in front of everyone.",
+    "how_it_unfolds": "A stall opens in the morning and runs until the food does. The pressures are the number of travellers, the weather, what was budgeted and who turned up to help. It ends with supply lasting, with supply running out, or with the shortage absorbed by some real decision nobody planned, and only the day decides which."
+  },
+  "concept_merge": {
+    "why_together": "C034 contributes the placing: of fourteen named jobs a mind-moment can do, exactly one carries the doing of action and of merit or its absence, the few running moments that follow once the object has been determined. C029 contributes what is underneath it, and it is the clearest statement in the whole group: bare seeing carries only the seven universals, receiving and investigating add landing on the object, staying with it and settling, determining adds effort for the first time, and not one of those steps contains any wish to act, so the wanting only arrives once the machinery has finished. C025 contributes the neutral workforce that then shows up, effort, decisiveness and the wish to act, which the sources say are not virtues and appear equally in harmful minds. C041 contributes the burst's shape, fast, complete, and over. A stall running short is where all of this stops being a table and becomes a person handing a plate to somebody.",
+    "what_it_reveals": "Together they locate something the group has been circling for eleven films: everything before the response is the same in everyone and carries no wish at all, so the differences between two volunteers standing shoulder to shoulder belong entirely to a stage that lasts a few beats. That is the group's whole argument delivered on a plate, and it is also its limit, because the sources never call that stage a choice and describe no chooser behind it. The film says both."
   },
   "concept_links": [
     {
       "concept_id": "C034",
       "role": "primary",
-      "why": "The source places all of a response's moral weight in one stage, impulsion, where a wholesome, unwholesome or merely functional response is made [C034-P:L173; C034-M:L41]. The series reads this stage, as its own editorial framing rather than the source's own wording, as the moment where a small, real choice for generosity or its absence is made; the source itself never calls this choice and describes no separate chooser standing behind it."
+      "why": "The digest names the fourteen functions a mind-moment can perform and places the doing of action, and of merit and demerit, in impulsion, the few running moments after the object has been determined [C034-P:L173; C034-M:L41]. It also says a mind performs only one job at a time, so a single act of serving is a relay and not a decision made by a watcher. Three of the digest's limits are written into this film. It is not a mindfulness technique of watching each step, since the source says countless moments pass in a finger-snap and the background moments are never felt. The slogan about the gap between stimulus and response being where freedom lies borrows this shape and adds a claim the source does not make. And the source's link between weak rebirth-producing action and being born blind or deaf [C034-P:L47] must never be carried into any judgement about anyone, in the queue or behind the pot. The series' reading of impulsion as the moment a person chooses is stated as the series' own framing."
     },
     {
       "concept_id": "C029",
       "role": "supporting",
-      "why": "The source's account of the rootless, ethically neutral machinery beneath every response, the seeing, receiving, examining and settling that happen before any response is made, is the layer of ordinary noticing running underneath a volunteer's fast decisions about how to portion food."
+      "why": "The digest reads the rootless table as a sequence and draws the conclusion this film is built on: everything before the settling moment runs without wanting, without greed or kindness, without anything that could be called good or bad, and the rootless stage is not where a person is judged, it is what happens to everyone in the same way before they get a say [C029-P:L29-L55]. Its guards are carried: 'no wish-to-act in the early stages' is not 'we have no free will' or 'we are just machines', since the source places wanting and moral quality in the later stage rather than nowhere; and the factor counts are a student's analytical aid and not measurements of brain activity."
     },
     {
       "concept_id": "C025",
       "role": "supporting",
-      "why": "Effort, decisiveness and a real wish to help, the source's occasional mental factors, are visibly strained and renewed as supplies dwindle and the queue keeps coming."
+      "why": "The digest says the six occasional factors, getting the mind onto something, staying with it, making up one's mind, effort, joy and wanting to act, are not good or bad in themselves and turn up in greedy, generous and meditative minds alike, so the real question is what they are working for [C025-P:L85-L87]. Volunteers strained and renewed through a long day are that claim in use. The digest's warning is the point of including it: a film must not present drive or enthusiasm as good in itself on the strength of this concept, so nothing here may read as praise of energy."
     },
     {
       "concept_id": "C041",
       "role": "supporting",
-      "why": "The source's account of a full response completing in a fast, decisive burst gives shape to the almost-instant judgement each volunteer makes as a new person reaches the front of the queue."
+      "why": "The digest says only one stage of the whole sequence, the seven-beat impulsion, carries any quality, generous or grasping, kind or hostile, or merely functional, while everything before it receives and sorts [C041-P:L46], and it states in as many words that the text does not use the word choice. That is the shape of an almost-instant judgement as each new person reaches the front. The digest's rejection of the stimulus-and-response slogan is carried here as well."
     }
   ],
-  "what_camera_could_observe": [
-    "Preparation and the queue forming as the festival day begins",
-    "Portions served steadily as supply holds",
-    "The visible moment supply starts to run short: hesitation, smaller portions, quick conferring among volunteers",
-    "Individual servers' small, different responses to the same shortage",
-    "The stall's actual end, whether supply lasts, runs out, or is stretched by some real decision"
-  ],
-  "what_must_be_real": "The event, the shortage and every decision must be real and unstaged; no manufactured scarcity for dramatic effect. Volunteers' own accounts of what they were thinking must come in their own words, never supplied by the film.",
-  "possible_arc": {
-    "opening": "A festival day begins; a roadside stall opens to serve pilgrims and travellers.",
-    "turn": "Supply visibly starts to run short against a queue that keeps growing.",
-    "ending_open": "The day ends however it actually does, food enough, food short, a decision made or avoided, with no promise beforehand of a tidy moral resolution."
-  },
-  "position_hint": "closing candidate: a small, real, repeated moment of generosity under pressure gives the group's abstract gap where choice happens a concrete, human and communal form, and hands off directly to the next group's concerns with what people do for one another.",
-  "location": {
-    "requirements": [
-      "A roadside dansala or free food stall during a real religious festival, with organisers willing to allow filming",
-      "A festival day where demand plausibly outpaces supply, without the film creating or worsening any real shortage",
-      "Consent from volunteers and, where practical and respectful, from those being served"
-    ],
-    "suggestions": [
-      {
-        "name": "A town along the Kataragama pilgrimage route during a festival period",
-        "region": "Southern / Uva Province",
-        "why": "The Kataragama pilgrimage route has a long tradition of roadside dansala hospitality during festival seasons.",
-        "season_notes": "Timing would need to align with an actual festival or poya period with heavy pilgrim traffic.",
-        "access_notes": "Organisers' cooperation would be essential and filming must never slow down or interfere with real service.",
-        "verify": "A specific stall, organisers, and a festival date with genuinely constrained supply are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Everything before a response, the seeing, the taking in and the sorting, runs the same way in everyone and carries no wish to act at all. The moment of response is where generosity, or its absence, takes shape, and this series reads that moment as a choice, which is the series' own reading and not the texts' word.",
+  "what_must_be_real": "The event, the shortage and every decision must be real and unstaged, and no scarcity may be created, worsened or waited for. Volunteers' accounts of what they were thinking come in their own words and never from the film. Filming may never slow or alter real service to real people, and no individual volunteer's response may be edited into a verdict on their character.",
+  "position_hint": "closing candidate: a small, real, repeated moment of generosity under pressure gives the group's abstract gap a human and communal form, and it hands directly to the next group's concern with what people do for one another. No location reasoning is involved.",
   "risks": [
-    "Filming must never encourage or engineer an actual shortage for dramatic purposes",
-    "Framing any individual volunteer's response as a moral verdict on their character",
-    "Presenting the source's account of impulsion as if it used the word choice or described a self standing behind the response, which it does not"
+    "Filming that encourages or engineers an actual shortage for dramatic purposes.",
+    "Framing an individual volunteer's response as a moral verdict on their character.",
+    "Presenting the sources' account of impulsion as though it used the word choice or described a self standing behind the response, which it does not.",
+    "Presenting energy and willingness as virtues on the strength of C025, which its digest rules out.",
+    "Filming people at the moment of being turned away, when refusing consent is hardest."
   ],
   "drop_if": [
-    "No festival stall with a genuine, unengineered risk of running short is found",
-    "Organisers or volunteers do not want the moment of shortage filmed",
-    "The event cannot be filmed without slowing or altering real service to real people"
+    "No stall with a genuine, unengineered risk of running short is found.",
+    "Organisers or volunteers do not want the moment of shortage filmed.",
+    "The event cannot be filmed without slowing or altering real service.",
+    "People in the queue cannot be filmed with meaningful consent."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0082",
       "relation": "leads into",
-      "note": "The instant, unowned reactions of a mountain-road driver lead into this closer, slower and more consequential test of the same kind of gap."
+      "note": "The instant, unowned reactions of a driver lead into this closer, slower and more consequential test of the same gap."
     },
     {
       "idea_id": "IDEA-0080",
       "relation": "leads into",
-      "note": "A fast public decision under doubt at the fish auction leads into this harder decision made under real scarcity and stakes for others."
+      "note": "A fast public decision made under doubt leads into a harder decision made under real scarcity, with the stake on somebody else."
+    },
+    {
+      "idea_id": "IDEA-0083",
+      "relation": "pairs with",
+      "note": "Two repeated fast judgements with nothing to revisit, one that costs a player an innings and one that costs a stranger a meal."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0047; it carries the group's closing claim, and the C029 digest's own reading of the rootless table is the ground it stands on."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

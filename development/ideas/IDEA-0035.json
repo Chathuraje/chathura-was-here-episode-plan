@@ -4,92 +4,79 @@
   "record_type": "idea",
   "title": "The Watch Hut",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "A farmer spends the night in a hut on stilts at the edge of a field, listening for the animals that come to eat what the season took months to grow.",
-  "human_question": "When something we cannot control threatens what we have worked for, what wins first: the fear or the anger?",
-  "premise": {
-    "story": "A night's watch over a paddy field or chena at the edge of scrub jungle: the routines that keep a farmer awake and alert, the sounds that mean something is near, and the morning inspection of what was lost or saved.",
-    "place": "A watch hut on stilts above dry-zone farmland, jungle close on one side.",
-    "experience": "The viewer keeps the same watch: long stretches of dark and insects, sudden alertness at a sound, and the different feeling of dawn depending on what the night held."
+  "logline": "A farmer keeps a night watch over a ripening crop against the animals that come for it, holding fear, anger and plain exhaustion in the same body through the same hours.",
+  "human_question": "When something we cannot control threatens what we have worked for, what comes first, the fear or the anger, and how far apart are they?",
+  "situation": {
+    "what_happens": "A crop that took a season to grow becomes worth raiding in the few weeks before it is cut, and somebody has to be awake near it every night until then. The watch is mostly nothing: heat, insects, small noises that turn out to be nothing. Then there is a sound that is not nothing, and the body answers before any decision is made. What the watcher can actually do is limited and mostly noise, light and distance. At first light the field is walked and counted, and the arithmetic of the season changes or it does not.",
+    "who_is_involved": "The farmer who keeps the watch and the household whose year is in the field; neighbours who keep their own watches on adjoining land and share warnings; officials who are called when damage is serious and who may or may not come; and the animals, which are a living pressure on the situation and not adversaries in any moral sense.",
+    "what_is_at_stake": "A season's food and income, with no insurance behind it. The watcher's sleep for weeks, and their safety in the dark. The animals' safety, which is why nothing about this can be provoked. And for the film, never portraying a farmer as cruel, or an animal as a villain, or a night of real danger as atmosphere.",
+    "how_it_unfolds": "It begins when the crop becomes worth taking and ends when it is cut, so the situation has a fixed length and an uncertain content. The pressures are tiredness that accumulates across weeks, the unpredictability of whether anything comes at all, and the fact that the damage of one night can undo the work of months. It ends in a harvest, a partial loss, or a ruined field. Reality decides, including the real possibility that a crew spends every night there and nothing happens."
+  },
+  "concept_merge": {
+    "why_together": "C007 puts anger and fear in one family in the sources' own vocabulary: Margaya gathers anger, grudge, fear, dislike and discontent under the single word, and explains paṭigha as the mind striking against its object [C007-M:L3]. It also supplies the turn the situation is built on, a wish meeting something living in its way [C007-P:L59]. C022 supplies the finer distinction the night actually needs: fear is aversion that, judging the disliked object too strong, wants to move away from it [C022-P:L121], and, separately, the sources set the body's honest need for rest apart from the dull heaviness they count as a fault [C022-P:L171–L175]. Without C022 the film would have only one word for everything in the hut.",
+    "what_it_reveals": "That anger and fear are not opposites but two directions of the same refusal, chosen by the mind's estimate of what it is facing: push it away, or get away from it. And that the night contains a third thing neither of them covers, which the sources are careful to exclude from blame: a tired body at three in the morning is not an example of anything."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "Pradeepika's own example turns on exactly this situation: wanting something, and a living creature standing between the wanting and its object; the moment the wish becomes 'remove the obstacle' is the moment this state of mind begins [C007-P:L59]. Margaya explicitly places fear, the wish to get away from a threat judged too strong, in the same family as anger [C007-M:L3]."
+      "why": "Margaya widens the word 'hate' to include anger, grudge, fear, dislike and discontent, and names paṭigha for the mind's striking against its object [C007-M:L3], which is why anger and fear belong to one stage of this journey rather than two. Pradeepika's own example is the shape of this situation: something is wanted, a living creature stands between the wanting and its object, and the state changes at the moment the wish becomes 'remove the obstacle' [C007-P:L59]. That example is the reason the digest places a night watch under this concept, and it is also the reason the film must be exact: it describes a turn inside a mind, and the film may never suggest that any real farmer wants an animal destroyed, may never film or encourage harm to an animal, and may never present deterrence as the example's conclusion. Margaya's refusal to exempt the hatred felt towards a threat that comes to harm you [C007-M:L11] cuts both ways here: the film neither excuses the farmer's anger as justified nor holds it against them."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "The night watch also holds its opposite: the heaviness that Pradeepika separates from an honest bodily need for rest, from the dull, unwilled drowsiness the sources count among unwholesome states [C022-P:L171–L175]. A watcher fighting sleep lives both sides of that line in one night."
+      "why": "Both sources count fear among the forms of hate, and Pradeepika describes it precisely: the aversion that judges its object too strong and wants to get away from it, listed beside anger, disgust and discontent [C022-P:L121; C022-M:L35]. The same list separates two things this night puts side by side: the mental sluggishness counted as unwholesome, and the body's honest need for rest, which the text says even the fully awakened have [C022-P:L171–L175]. Two of the digest's limits are load-bearing here. 'Fear is healthy survival instinct' does not map onto this material, and neither does its opposite: the source counts fear as recoil among the forms of aversion, while the dread of wrongdoing praised elsewhere is a different word entirely [C022-P:L63]. And 'sleep is laziness' is the reading the digest rules out, so a watcher nodding off at four is not an illustration of thīna-middha."
     }
   ],
-  "what_camera_could_observe": [
-    "The hut after dark, the farmer's routines for staying alert",
-    "Sounds in the dark and the body's response to them",
-    "Any encounter with an animal, filmed only from a safe distance",
-    "The morning inspection of the field for damage",
-    "The farmer's own account, in their own words, of what the night felt like"
-  ],
-  "what_must_be_real": "The watch, the farmer and the season's real stakes must be genuine. No animal encounter is provoked, staged or baited, and no harm to any animal is filmed or encouraged. Crew safety at night near wildlife governs every decision.",
-  "possible_arc": {
-    "opening": "Dusk settling over a field; the hut lit by one small flame.",
-    "turn": "A sound in the dark, and the watcher's whole body changes.",
-    "ending_open": "Whatever the morning inspection actually finds decides how the film ends."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A farmer who genuinely keeps a night watch against crop-raiding animals during the filming window",
-      "Safe, agreed camera positions that do not increase risk to the farmer, crew or wildlife",
-      "Local guidance on the specific animals and current human-wildlife conflict conditions"
-    ],
-    "suggestions": [
-      {
-        "name": "Chena and paddy farmland on the edge of dry-zone jungle",
-        "region": "Anuradhapura or Polonnaruwa district, North Central Province",
-        "why": "Well-known dry-zone farming districts bordering forest and scrub where crop-raiding by wild animals is a recognised part of the agricultural year.",
-        "season_notes": "Likely tied to the growing and ripening season of the specific crop.",
-        "access_notes": "",
-        "verify": "A specific farmer, field and current wildlife activity must be confirmed with appropriate local and wildlife authority guidance.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Fear and anger are closer than they look. The texts put them under one word: anger is the mind pushing against what it does not want, and fear is the same pushing-away once the thing seems too strong to face. Nothing in that judges a person for being afraid of something genuinely dangerous, and nothing in it counts honest tiredness as a fault.",
+  "what_must_be_real": "The watch, the farmer and the season's real stakes must be genuine. No animal encounter may be provoked, baited, lit for or waited on as an event, and no harm to any animal may be filmed or encouraged. The farmer's fear may not be played up, and their own words, not narration, carry what the night felt like. Crew safety and the animals' safety govern every decision, including the decision to stop.",
+  "position_hint": "middle, and early: it is the film that widens the group's first word into its family, so it works best immediately after the state has been seen in its ordinary form, and before the group turns to what people hold back. No location reasoning is involved.",
   "risks": [
-    "Human-wildlife conflict is a sensitive, sometimes politically charged subject",
-    "Farmers must not be portrayed as cruel to animals",
-    "Genuine danger at night near wildlife for both farmer and crew"
+    "Human–wildlife conflict is a charged subject; the film must not enter it with a doctrinal frame.",
+    "Farmers being portrayed as cruel, or the sources' example of removing a living obstacle being heard as a description of what this farmer wants.",
+    "Implying the texts license a 'justified' fear or anger at a real threat; they make no such exception [C007-M:L11].",
+    "Implying a tired watcher is slothful in the sources' sense, when the digest separates honest rest from that fault [C022-P:L171–L175].",
+    "Genuine danger at night for farmer and crew, and the pressure to stay too long for a sound.",
+    "Narrating the traditional bodily effects of aversion [C007-P:L47] as physiology."
   ],
   "drop_if": [
-    "No farmer currently keeps this kind of watch, or filming would require prompting an encounter",
-    "Safety conditions cannot be met"
+    "No farmer currently keeps this kind of watch, or filming would require prompting an encounter.",
+    "Safety conditions for people or animals cannot be met.",
+    "The only way to give the film an event would be to wait for, or to help cause, an incident."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0041",
-      "relation": "pairs with",
-      "note": "Both are set in dry-zone farmland where a real threat to a livelihood tests fear and anger together."
+      "idea_id": "IDEA-0033",
+      "relation": "follows",
+      "note": "From a rival who can be argued with to a pressure that cannot: the same refusal, once the thing in the way is stronger than you are."
     },
     {
-      "idea_id": "IDEA-0040",
-      "relation": "mirrors",
-      "note": "Two night vigils at the edge of water and wild: one guarding land from what comes to take it, one drawing life toward a light."
+      "idea_id": "IDEA-0038",
+      "relation": "pairs with",
+      "note": "Two stretches of imposed waiting, one alone in the dark and one in a crowd in the heat."
+    },
+    {
+      "idea_id": "IDEA-0037",
+      "relation": "leads into",
+      "note": "A body that answers a sound before any decision is made, and a body that has learned to wait through the same moment."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries EPD-0020 and is the one film in the group that holds anger and fear in the same hours; its primary link is where the digest itself places this situation."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

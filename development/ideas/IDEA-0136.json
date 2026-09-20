@@ -4,9 +4,9 @@
   "record_type": "idea",
   "title": "Called to the House",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-20",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
@@ -15,13 +15,13 @@
   "human_question": "What can another person's presence still give someone at the very end?",
   "situation": {
     "what_happens": "Someone whose work is to be present when a death is near is called out, over and over, to households they may hardly know. They travel, arrive into a room the family has rearranged around a bed, do what is asked of them, which may be chanting, sitting, speaking or nothing at all, and then leave. It happens at inconvenient hours, it is unpaid or barely paid, and the same person does it dozens of times a year. Between calls they carry what they have seen.",
-    "who_is_involved": "A person called repeatedly to the dying: a monk asked for by families, and, in a completely different register, the night staff who do the small physical things, a sip of water, a hand held, for patients whose families cannot be there. The dying person, whose wishes govern everything. The family, deciding what the last hours should contain. And the one who arrives into a house full of people they do not know.",
+    "who_is_involved": "A person called repeatedly to the dying, asked for by families who want someone there. The dying person, whose wishes govern everything. The family, deciding what the last hours should contain. And the one who arrives into a house full of people they do not know. The same role is filled elsewhere with no religious standing at all, by night staff who do the small physical things, a sip of water, a hand held, for patients whose families cannot be there; that is this film's alternative situation for the same three concepts, not a second strand inside it, and the film follows one or the other.",
     "what_is_at_stake": "For the dying person, what the last hours are actually like, and whether they are treated as someone still living them. For the family, the fear of having done the wrong thing, and their hope, which the texts do not underwrite, that what happens in the room can settle something. For the one who is called, the cumulative weight of a working life made of other people's worst days.",
     "how_it_unfolds": "A call comes when it comes. The visit is short and shaped by the family rather than by the visitor, who leaves before the death or after it and often never learns the outcome. Over a year this becomes a rhythm and then a strain. Reality decides everything about any individual call, and the film may well never be allowed into a single room, in which case it is still the same film, about the person who keeps going to them."
   },
   "concept_merge": {
-    "why_together": "The near-death cognitive process (C062) says dying is itself an ordinary run of mind-moments through the senses or the mind door, which is why what reaches a dying person still reaches them. The order of ripening (C056) says that where there is no weighty action, what is done or recalled near the end gives the rebirth, and that this is exactly why a good friend at the deathbed matters. One concept says the last hours are still being lived; the other says they carry weight. Between them they are why anyone gets called at all.",
-    "what_it_reveals": "That the tradition's reason for being present is precise and also strictly limited. The sources say a sense contact at the bedside can become the door of the last mental process; they do not say bedside care secures anything, and they state that the object at death is presented by the action ready to ripen and not placed there by relatives, teachers or gods. The digests flag that the texts do not reconcile this with the things they themselves list at a deathbed, and ask for an expert check before any film treats the practice. What is left, and what a camera can actually see, is a person doing the humane thing without a guarantee."
+    "why_together": "The near-death cognitive process (C062) says dying is itself an ordinary run of mind-moments through the senses or the mind door, which is why what reaches a dying person still reaches them. The order of ripening (C056) says that where there is no weighty action, what is done or recalled near the end gives the rebirth, and that this is exactly why a good friend at the deathbed matters. One concept says the last hours are still being lived; the other says they carry weight. Between them they are why anyone gets called at all. The dying mind's object (C061) sets the boundary the other two would otherwise be read past, because it is the sources' own statement of what a person at a bedside cannot do.",
+    "what_it_reveals": "That the tradition's reason for being present is precise and also strictly limited. The dying mind's object (C061) is the third concept here, and it is what sets the limit: the sources say a sense contact at the bedside can become the door of the last mental process, but they do not say bedside care secures anything, and they state that the object at death is presented by the action ready to ripen and not placed there by relatives, teachers or gods. The digests flag that the texts do not reconcile this with the things they themselves list at a deathbed, and ask for an expert check before any film treats the practice. What is left, and what a camera can actually see, is a person doing the humane thing without a guarantee."
   },
   "concept_links": [
     {
@@ -33,6 +33,11 @@
       "concept_id": "C056",
       "role": "primary",
       "why": "Where there is no weighty action, an action done or recalled near death gives the rebirth, which the source offers as the reason a good friend at the deathbed matters [C056-P:L83; C056-M:L22]. Folded in from IDEA-0135 is the source's own image of an old, weak cow that leaves the pen first because it is nearest the gate [C056-P:L119]; the digest flags that line as compressed and open to two readings and asks for an expert check, so the ordering is used only as the sources plainly state it, weighty first, then what is near the end, then what is habitual, and never as 'the last thought decides'. The digest also warns that family rituals must not be presented as guaranteeing a destination, and notes the Margaya's point that people who have done much good can still be troubled by memories at the end."
+    },
+    {
+      "concept_id": "C061",
+      "role": "supporting",
+      "why": "The whole practice this film follows is addressed to what the dying mind takes as its object, which is this concept's own subject. The Pradeepika states that the near-death object is not brought by parents, relatives, teachers or gods [C061-P:L29], and the digest records as an open question how that sits with the same source's list of things present at a deathbed, a Buddha image, flowers, preaching, chanting and incense, received through the senses as signs of the ripening deed [C061-P:L49-L55]; it asks for an expert check before any film treats deathbed practices. The link is carried in exactly that unresolved form. It is what stops the other two links being read as a technique: the digest also excludes 'your last thought decides your next life, so think positively at the end', because the dying mind bends toward the object through unabandoned ignorance and craving [C061-M:L9], not through anyone's arrangement."
     }
   ],
   "what_the_viewer_could_understand": "The texts treat dying as one more act of seeing, hearing, smelling, tasting, touching or remembering, so what reaches a dying person's senses still reaches them. They also count a good friend at the bedside, who helps someone recall the good they have done, as a real help.",
@@ -79,12 +84,12 @@
       "IDEA-0137"
     ],
     "superseded_by": null,
-    "reason": "Used by its episode, and after two merges it carries the order of ripening as a second primary concept rather than as an aside."
+    "reason": "Used by its episode; after two merges it carries the order of ripening as a second primary concept rather than as an aside, and it now links the dying mind's object it was already relying on."
   },
   "source_doc": null,
   "unknowns": [
     "No participant or event has been found or confirmed. Everything here is a research direction.",
-    "The C061 digest asks for an expert check on how 'the object at death is not presented by others' fits with the deathbed practices the same source lists; that check should precede any filming of this kind."
+    "The C061 digest asks for an expert check on how 'the object at death is not presented by others' [C061-P:L29] fits with the deathbed practices the same source lists [C061-P:L49-L55]; that check should precede any filming of this kind, and the C061 link is held open until it happens."
   ],
   "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

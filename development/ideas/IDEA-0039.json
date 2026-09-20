@@ -4,92 +4,73 @@
   "record_type": "idea",
   "title": "The Closed Hand",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "A family workshop takes on an apprentice from outside the family. The craft passes hand to hand in daily lessons, but some steps are only ever done when the apprentice has gone home.",
+  "logline": "A family workshop teaches its craft to an apprentice from outside the family, openly for most of the day and never for the part that the craft's reputation actually rests on.",
   "human_question": "What is the difference between a skill you protect and a skill you keep to yourself?",
-  "premise": {
-    "story": "The daily rhythm of teaching a hereditary craft to an apprentice who is not family: open demonstrations, quiet conversations between family members about how much to show, and the apprentice's own progress and frustrations over weeks or months.",
-    "place": "A small family metalworking or casting workshop where a technique has passed down through generations.",
-    "experience": "The viewer learns the craft alongside the apprentice, at exactly the pace they are allowed to learn it, and feels the pull between a family protecting its livelihood and a student wanting to be trusted with all of it."
+  "situation": {
+    "what_happens": "A trade that has passed inside one family for generations takes on a learner who is not family, because there is nobody left inside it who wants the work. The teaching is real and generous for most of what there is to teach. But there are steps that are done after the apprentice goes home, and both sides know it without either having to say so. Over months the apprentice gets good enough to notice exactly what is missing, and the family has to decide something they have never had to decide before, in front of someone whose livelihood now depends on the answer.",
+    "who_is_involved": "The family who hold the craft, who do not agree among themselves about how much to pass on; the apprentice, who is learning a trade and also auditioning for trust; the older members for whom the withheld part is the family's only real asset; customers who buy the work without knowing whose hands finished it; and whoever else in the trade would be affected if the method travelled.",
+    "what_is_at_stake": "For the family, the one thing that makes their work worth more than anyone else's, and therefore their income after they can no longer work. For the apprentice, years of labour that may end without the thing they came for. For the craft, whether it survives a generation at all, since withholding it perfectly is also how it dies. For the film, never exposing what the family wishes to keep private and never framing a family's protection of its living as a moral failing.",
+    "how_it_unfolds": "It begins with a teaching relationship that is going well and a subject nobody raises. The pressure is time: the apprentice gets better, the older hands get older, and each month makes the unspoken thing louder. It can end with the method being handed over, with the apprentice leaving to work with what they have, with a partial transfer on conditions, or with nothing being decided at all and the question staying open for years. Reality decides, and the honest likelihood is that the film ends before the family does."
+  },
+  "concept_merge": {
+    "why_together": "C022 supplies the fact that makes the situation a concept at all: both sources count knowledge or teaching among the five things this holding-back clings to, alongside a dwelling, a family, a gain and praise [C022-P:L133–L135; C022-M:L43–L45]. Without that, a workshop is only a workshop. C026 supplies the strange part: the same sources place this holding-back with aversion rather than with wanting, because although it springs from attachment to one's own, it shows itself as displeasure at their being shared [C026-M:L19], and it arises only in the two hate-rooted minds, only sometimes, and never alongside envy or remorse [C026-P:L39].",
+    "what_it_reveals": "That the thing being described is not greed for a secret but a small recoil at the moment of parting with it, which is why the film has to watch the moment of teaching rather than interview anyone about their intentions. It also reveals the limit of the whole exercise: protecting a livelihood and the state the sources describe look identical from outside, and neither concept licenses anyone to tell them apart in a real family. C022 alone would make the film an accusation; C026 alone would have nothing to look at."
   },
   "concept_links": [
     {
       "concept_id": "C022",
       "role": "primary",
-      "why": "Both sources count knowledge or skill (dhamma) among the five things this state of mind clings to and will not let go: as much a target of stinginess as a house, a following, a reputation or a gain [C022-P:L133–L135; C022-M:L43–L45]. A hereditary craft, taught to an outsider, is a direct, filmable form of exactly that pull."
+      "why": "Both sources count knowledge and teaching (dhamma) among the five kinds of this holding-back, so a skill one knows is as much a possible object of it as a house, a following, a gain or a reputation [C022-P:L133–L135; C022-M:L43–L45]. Pradeepika also draws the line that keeps this film from drifting into the wrong concept: envy takes other people as its object, while this takes one's own things [C022-P:L133]. One point is deliberately not built on. The digest flags that Margaya's fourth aspect reads as 'indicating' one's own attainments where Pradeepika has 'not bearing others to know of it' [C022-M:L43], and says it may be an OCR error needing checking against the print, so the film does not rest anything on the 'cannot bear it to be known' aspect even though the situation appears to offer it."
     },
     {
       "concept_id": "C026",
       "role": "supporting",
-      "why": "This state is unusual: it grows out of attachment to one's own things, yet it shows itself as displeasure at those things being shared, so the sources group it with aversion rather than with wanting [C026-M:L19]. What looks like simple caution or love for the craft may, in a given moment, be either wanting to keep, or displeasure at sharing; the film need not decide which, only observe closely."
+      "why": "Margaya explains the part that is genuinely counter-intuitive: although this state springs from attachment to one's own things, it arises with aversion and never with greed, because what it actually consists of is displeasure at sharing [C026-M:L19]. Pradeepika adds that it occurs only in the two hate-rooted minds, only occasionally, and never together with envy or remorse, which arise one at a time [C026-P:L39]. Two of the digest's limits are written into the film: 'stinginess is greed' is exactly the English equation this material rules out, and the scheme is a study of single moments, not a way of reading people, so nothing on camera can show which factor is present in anyone."
     }
   ],
-  "what_camera_could_observe": [
-    "Open teaching: demonstrations, corrections, the apprentice's hands learning",
-    "Family conversations, in the family's own words, about what and how much to teach",
-    "Moments the apprentice is asked to step away, and what happens after they do",
-    "The apprentice's own account of what they notice being withheld, if anything",
-    "Work leaving the workshop, finished by whichever hands actually finished it"
-  ],
-  "what_must_be_real": "The workshop, the family and the apprentice's real teaching relationship must be genuine and already in progress. Trade methods the family wishes to keep private must stay private; the film observes the relationship, not the secret itself.",
-  "possible_arc": {
-    "opening": "A finished piece, and the many unseen hands and steps behind it.",
-    "turn": "A specific moment of teaching, or of being asked to step aside, makes the pull visible.",
-    "ending_open": "Whatever the family and the apprentice actually decide about how far the teaching goes ends the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A hereditary craft workshop currently training an apprentice from outside the family",
-      "Consent from the family to show what they are comfortable showing, and no more",
-      "An apprentice willing to speak about their own experience of the teaching"
-    ],
-    "suggestions": [
-      {
-        "name": "A family brass or metalwork workshop",
-        "region": "Kandy district, Central Province",
-        "why": "A region with a long-standing tradition of hereditary metal-craft workshops, some still family-run and training-based.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific workshop currently training an outside apprentice must be found and confirmed; this is a region-level suggestion only.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "People can be possessive about a skill exactly as they are about money or land; the texts count knowledge among the things a mind holds back. What is surprising is where they place it: not with wanting but with aversion, because what it consists of is a small displeasure at sharing. And they are equally clear that none of this can be read off anyone from outside, which is why a family protecting its living may be doing nothing the texts describe at all.",
+  "what_must_be_real": "The workshop, the family and the teaching relationship must be genuine and already under way; no lesson, withholding or conversation may be arranged. Methods the family wishes to keep private stay private, including from the film: the subject is the relationship, never the secret. The apprentice must be able to speak or not speak without it costing them their place, and the family must be able to see and refuse anything that would identify the method.",
+  "position_hint": "middle: it is the group's slowest and most private study of holding back, and it needs the group to have already established that this displeasure is what the sources are describing. No location reasoning is involved.",
   "risks": [
-    "Framing a family's protection of its livelihood as a moral failing",
-    "Exposing trade methods the family wishes to keep private",
-    "The apprentice feeling exposed by speaking honestly about what is withheld from them"
+    "Framing a family's protection of its livelihood as a moral failing, when the digest forbids reading any state off anyone.",
+    "Exposing trade methods the family wishes to keep private, or making them identifiable by accident.",
+    "The apprentice being exposed, or their position damaged, by speaking honestly about what is withheld.",
+    "Letting a viewer hear 'stinginess' as greed, which is the one equation the sources explicitly refuse.",
+    "Building on the disputed fourth aspect of this factor, which the digest flags as possibly an OCR error."
   ],
   "drop_if": [
-    "No workshop is currently training a non-family apprentice",
-    "The family is unwilling to have the teaching relationship itself observed"
+    "No workshop is currently training a non-family apprentice.",
+    "The family is unwilling to have the teaching relationship itself observed.",
+    "The film could only work by getting the withheld method on camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0042",
       "relation": "pairs with",
-      "note": "Both examine what people will or won't share: a skill in one, a catch in the other."
+      "note": "Two tests of what is handed over: a catch divided in the open in one morning, a skill divided in private across years."
     },
     {
       "idea_id": "IDEA-0043",
       "relation": "mirrors",
-      "note": "Two workshops of willingness: one about giving knowledge freely or not, one about giving effort freely or not."
+      "note": "Two studies of willingness: giving knowledge freely or not, and giving effort freely or not."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries EPD-0022; its primary link is one of the digest's own five kinds, and it is the group's clearest case of a state the camera can approach only through a relationship."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

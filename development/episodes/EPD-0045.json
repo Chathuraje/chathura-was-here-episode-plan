@@ -4,7 +4,7 @@
   "record_type": "episode",
   "record_role": "development_episode",
   "title": "The Close Call",
-  "logline": "In a village cricket match, an umpire has a fraction of a second to decide a dismissal that will end someone's innings, and the whole ground waits, in silence, for the gap between seeing and deciding to close.",
+  "logline": "In a local cricket match an umpire has a fraction of a second to end someone's innings, and the whole ground waits in silence for the gap between seeing and deciding to close.",
   "status": "draft",
   "version": 2,
   "created_at": "2026-09-18",
@@ -17,7 +17,9 @@
   "concept_ids": [
     "C044",
     "C025",
-    "C040"
+    "C040",
+    "C029",
+    "C009"
   ],
   "chronology": {
     "group_id": "GRP-05",

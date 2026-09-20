@@ -4,92 +4,81 @@
   "record_type": "idea",
   "title": "One Mountain, Many Names",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "Pilgrims of different faiths climb through the night to the same summit. Each calls it by a different name, and at dawn they all stand in front of the same stone, wind and light.",
+  "logline": "Pilgrims from several traditions climb through one night to a single summit that each of them calls by a different name, and the names travel up the path doing real work all the way.",
   "human_question": "When many people call one thing by different names, what are they all looking at?",
-  "premise": {
-    "story": "A night climb with pilgrims whose words for the mountain, the mark at its summit, and the journey itself differ by language and faith, while their steps, breath and cold are shared.",
-    "place": "A sacred mountain known by several names in several traditions.",
-    "experience": "The viewer climbs in the dark through names, chants and stories, and arrives at a summit where, for a moment, only light, wind and stone are there."
+  "situation": {
+    "what_happens": "A high place held sacred by more than one community is climbed through the night by people who do not share a language or a religion. Every one of them has a word for it, and the words differ: the word a person uses carries who taught them to come, what they believe is at the top, and what they will do when they get there. The names are in constant practical use on the way up, in greetings, in chants, in telling a stranger how much further there is to go, and in the signs, tickets and announcements that organise the climb. Somewhere in the middle of the night the words thin out because everyone is simply cold and tired, and near the top they come back, because what people do at the summit differs by tradition. Almost nobody corrects anybody.",
+    "who_is_involved": "Pilgrims of several traditions climbing the same steps: families carrying small children, elderly people who may be making a last climb, first-timers, and people who have come every year for decades. The people who keep the path working through the night: those who sell tea, tend lamps, sweep steps and pick up what is dropped. People for whom the double naming is ordinary work rather than a wonder: someone giving directions, someone announcing a stop, someone writing the place down in a record or on a form. And a traveller climbing with all of them who belongs to none of the groups.",
+    "what_is_at_stake": "For the pilgrims: a vow kept or broken, a body that may not manage the climb, a child carried the whole way, an elder who wants to reach the top once more. For the people who work the path: a night's income that only exists because of the crowd. For the film: the standing risk of ranking faiths, or of appearing to decide which community's word for the place is the correct one, which the sources themselves refuse to do, since they treat everyday naming as a legitimate way of speaking.",
+    "how_it_unfolds": "It starts at dusk with the crowd assembling and the names at full volume, and moves through a long, slow, crowded night in which speech gradually gives way to breathing. The pressures are cold, altitude, queueing, injury and the weather, and they fall hardest on the oldest and the youngest. It can end with a dawn everyone sees, a dawn swallowed by cloud, a summit too crowded to reach, or a climb given up halfway and begun again another year. Reality decides which: the weather, the size of the crowd, and whether the people the film is with actually get to the top."
+  },
+  "concept_merge": {
+    "why_together": "C084 supplies the machinery. Paññatti covers both what is made known and what makes it known [C084-P:L25], so a name-concept and the thing the mind takes up are two different items, and the Margaya separates them further: the sound of a spoken word is ultimately real, while the name it carries lives in the understanding of whoever hears it [C084-M:L21]. C001 supplies the stakes. The Pradeepika says the Buddha deliberately taught in everyday names, being, person, tree, mountain, river, so that people could understand easily [C001-P:L51], which means the many names on the path are not a confusion to be tidied up. Put into one climb, the two give a film in which several name-concepts, in several languages, all work perfectly well at once.",
+    "what_it_reveals": "That 'which name is right?' is not the question the sources are asking. C084 on its own would make this a film about language; C001 on its own would make it a film about truth and error. Together they show names doing accurate, useful, incompatible work on the same path, and they also close off the easy ending: the quiet at the summit is not ultimate reality finally showing itself, because 'stone', 'wind' and 'light' are wholes with names on them too."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "Several name-concepts for one collective whole; sound, name and meaning separated in real use."
+      "why": "The sources define paññatti as both the thing made known and the means of making it known [C084-P:L25], and list among meaning-concepts the collective whole, the shape, the being, the direction and the time [C084-P:L27–L41]. A high place is a collective concept of exactly that kind, and each tradition's word for it is a name-concept attached to it. The Margaya's separation of the spoken sound, which is ultimately real, from the name it conveys, which is not [C084-M:L21], is what this film can actually observe, because the same air is carrying several names at once. The digest's own limit is load-bearing here: a film must never tell a participant that the name they use is wrong, and the sources' existent and non-existent pairs are technical categories, not a scheme of true and false."
     },
     {
       "concept_id": "C001",
       "role": "supporting",
-      "why": "Conventional truth (the many names) alongside what remains when the names fall silent at dawn."
-    },
-    {
-      "concept_id": "C018",
-      "role": "supporting",
-      "why": "From the summit, the whole land is visible at once, like the full map of the mind seen in one view before the series walks through it."
+      "why": "The Pradeepika treats conventional teaching in everyday names as deliberate and legitimate, chosen so that listeners could understand easily [C001-P:L51], which is the ground on which this film can hold several religious vocabularies without ranking them. The film must not go further than that. Where the earlier draft had the names falling silent at dawn to leave what is really there, the digest blocks the move twice: it warns against flattening the analysis into 'nothing is real', and the Pradeepika says the final realities are known by omniscient knowledge rather than by ordinary human knowing [C001-P:L59]. Silence on a summit reveals no ultimate; it only leaves fewer words in the air."
     }
   ],
-  "what_camera_could_observe": [
-    "Pilgrims of different backgrounds greeting each other on the steps",
-    "Chants and calls in several languages",
-    "Hands on railings, breath in cold air, lamps along the path",
-    "The summit at sunrise; the mountain's shadow if it appears",
-    "From the summit, the whole landscape laid out at once: the map before the journey"
-  ],
-  "what_must_be_real": "The pilgrims, their words and their reasons. No staged interfaith moments.",
-  "possible_arc": {
-    "opening": "Night, lamps, many languages on one path.",
-    "turn": "The climb strips everyone down to breath and effort.",
-    "ending_open": "Dawn at the summit. Whatever people actually do and say there leads the ending."
-  },
-  "position_hint": "opening candidate: a strong first film for Group 1 and a natural Object 1 acquisition moment, if one really happens",
-  "location": {
-    "requirements": [
-      "A single place genuinely named differently by different communities",
-      "Night and dawn access; safe filming on steps",
-      "Pilgrims willing to speak about the names they use"
-    ],
-    "suggestions": [
-      {
-        "name": "Sri Pada / Adam's Peak (Samanalakanda, Sivanolipatha Malai)",
-        "region": "Ratnapura–Nuwara Eliya districts",
-        "why": "One mountain held sacred by Buddhist, Hindu, Muslim and Christian pilgrims, each with its own name and story.",
-        "season_notes": "Pilgrim season, roughly Unduvap Poya (Dec) to Vesak (May)",
-        "access_notes": "Crowded on poya weekends; Hatton (Nallathanni) and Ratnapura (Palabaddala) routes",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That many names can point to one thing, and that each of them is useful to the people who use it. A name is a shared agreement rather than the thing itself, and underneath all the names every climber is meeting the same cold, the same wind and the same light — shared conditions rather than a glimpse of what is ultimately there, since those are names too.",
+  "what_must_be_real": "The pilgrims, their words and their reasons. No staged interfaith moment, no one asked to repeat a name for the camera, and no one asked to say another community's name for the place. No act of worship is interrupted, restarted or lit for filming. If the naming is genuinely disputed between communities, the film records that it is disputed and does not settle it, on screen or in narration.",
+  "position_hint": "opening candidate: the simplest possible first step for the whole series, a name and the thing it names coming apart in front of people who are not arguing about it, before anything harder is asked. No location reasoning is involved.",
   "risks": [
-    "Religious sensitivity: never rank or contrast faiths",
-    "Crowds and safety at night",
-    "Drifting into a travel vlog"
+    "Ranking, contrasting or harmonising faiths; the film has no interest in which name is older or more correct.",
+    "Drifting into a travel film in which the climb is the subject and the naming is decoration.",
+    "Consent from people met briefly, at night, in a crowd, in languages the crew may not share.",
+    "Implying that dawn, silence or effort strips the world back to what is really there; the digest rules that reading out.",
+    "Treating the sources' existent and non-existent categories as 'true' and 'false' names.",
+    "Filming worship as spectacle, or treating a vow as an interesting custom."
   ],
   "drop_if": [
-    "Pilgrims do not actually use different names in practice",
-    "Filming would disturb worship"
+    "The different names turn out not to be used in practice, only recited for visitors.",
+    "Filming cannot happen without disturbing worship or the safety of a crowded path.",
+    "The contrast of names can only be got by arranging it."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0003",
-      "relation": "concrete version of",
-      "note": "A concrete, filmable form of the pilot 'The Name in Use'."
+      "relation": "absorbs",
+      "note": "Takes in the strand of names as practical instructions that change what people do, and the guard against telling anyone their name is wrong."
+    },
+    {
+      "idea_id": "IDEA-0008",
+      "relation": "pairs with",
+      "note": "Many names for one thing, then one name everybody uses for something nobody can point at."
+    },
+    {
+      "idea_id": "IDEA-0011",
+      "relation": "mirrors",
+      "note": "A name given to a place by many communities, and a name given to one new person by one family."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0003"
+    ],
+    "superseded_by": null,
+    "reason": "Carries the opening episode, and absorbs IDEA-0003's account of names as instructions people act on."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

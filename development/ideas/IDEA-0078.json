@@ -4,93 +4,77 @@
   "record_type": "idea",
   "title": "The Interpreter's Pause",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "In a courtroom or hospital corridor, an interpreter listens, pauses, and only then speaks, and in that pause, understanding is built from nothing, one piece at a time.",
+  "logline": "An interpreter listens, pauses, and only then speaks, and in that pause an understanding is assembled from nothing, one piece at a time.",
   "human_question": "What actually has to happen, step by step, for one person's words to become understanding in someone else's mind?",
-  "premise": {
-    "story": "A court, hospital or government-office interpreter moves between languages for people who depend on being understood, working case after case through a real day.",
-    "place": "A district court, hospital, or public office where interpretation is routine and consequential.",
-    "experience": "The viewer watches understanding assembled in real time, a listening pause, a rendering, a correction, and comes to see that understanding a sentence is not one act but several."
+  "situation": {
+    "what_happens": "An interpreter works between two languages for people who depend on being understood: a patient describing a symptom, a witness answering a question, someone filling in a form that decides something. Each exchange is a listening, a pause, a rendering, and often a correction. The pause is short and always visible, and everyone in the room waits inside it. A word with no equivalent stops the whole proceeding until the interpreter decides what to do about it.",
+    "who_is_involved": "The interpreter; the two parties who cannot speak to each other and are usually unequal in power; the official or professional running the proceeding, who owns the clock; and, behind all of them, whatever institution's rules decide what may be recorded.",
+    "what_is_at_stake": "For the person being interpreted for, a diagnosis, a ruling, an entitlement, or a case lost on a word. For the interpreter, professional standing, and the quiet knowledge that a choice made in a second can change someone's life. For the institution, a record that has to stand.",
+    "how_it_unfolds": "A day is a queue of exchanges, most routine, some not. The pressures are time, unequal power in the room, and terms that do not cross. It ends with the day's matters settled or adjourned, and almost none of the outcomes are things a film can influence or predict."
+  },
+  "concept_merge": {
+    "why_together": "C038 contributes the sources' plainest claim, that nothing a person does happens in a single mind-moment and that understanding another person's words in particular requires a whole ordered series. C034 contributes the fourteen named jobs that series is made of, each done by one moment and only one. C046 contributes the sources' own two-step account inside the mind door, where what was heard is replayed, then named, and only then understood. An interpreter is the one worker whose job makes that series audible, because the pause is the series and everyone in the room is waiting for it.",
+    "what_it_reveals": "The sources say the process can never be watched, only inferred. An interpreter does not show the process either, but she externalises its shape: everyone in the room can hear that understanding a sentence takes time and is not one act. It also makes visible the thing the tables cannot, that this work costs something, and that where the languages do not match the interpreter has to decide, in public, in a second."
   },
   "concept_links": [
     {
       "concept_id": "C038",
       "role": "primary",
-      "why": "The source states plainly that understanding another person's words is never accomplished by a single moment of mind but requires a whole ordered series [C038-M:L3]. Interpretation makes that multi-step work audible and visible."
+      "why": "The digest reports Margaya's claim directly: nothing a person does, whether properly seeing, hearing, understanding someone's words, moving a limb, giving or taking, happens in a single mind-moment; each needs a whole series [C038-M:L3]. Understanding another person's words is one of the source's own examples. The digest also gives the frankest thing in the group, that the mind is the hardest thing to study because it is the very thing doing the studying, like a knife that cannot cut itself, so even students know these processes only by inference. Two limits are carried: the digest says this is not 'slow down and you will see your thoughts arise', since the source says people never notice these processes at all; and it states plainly that the group's framing 'no separate seer behind it' is not made in these extracts and must be sourced elsewhere."
     },
     {
       "concept_id": "C034",
       "role": "supporting",
-      "why": "The source's fourteen functions of mind, from bare receiving through examining to a full response, describe the same layered work an interpreter performs out loud."
+      "why": "The digest names the fourteen jobs a mind-moment can do and stresses that each moment does exactly one, so what feels like one smooth act of looking, understanding and replying is a stitched-together result of many hand-offs. The digest's limits apply: it is not a mindfulness technique of watching each step, since the source says countless moments pass in a finger-snap; the impulsion stage is not described as a conscious pause for weighing options, and the slogan about the gap between stimulus and response borrows the shape and adds a claim the source does not make; and the source's link between weak rebirth-producing action and being born blind or deaf must never be carried into any judgement about a real person [C034-P:L47]."
     },
     {
       "concept_id": "C046",
       "role": "supporting",
-      "why": "The source's account of naming and meaning as separate, later stages of a mind-door process mirrors an interpreter's own two-step work, catching what was said, then finding what it means in another language."
+      "why": "The digest gives the source's own staged account: the sense catches only the bare object, the mind replays it, sorts it, puts a name to it, and only at the last step grasps what the name refers to, which is where a full response can be made [C046-P:L117-L151]. An interpreter's work is that sequence performed out loud, catching what was said, then finding what it means in another language. The digest's guard against 'labels are the problem, stop labelling' matters here, since the source treats naming as an ordinary and necessary step in knowing anything at all."
     }
   ],
-  "what_camera_could_observe": [
-    "An interpreter listening intently, a small pause, then rendering",
-    "A listener's face changing as meaning lands",
-    "A correction or clarification requested mid-sentence",
-    "Quiet moments between cases where the interpreter describes how they hear before they translate",
-    "The practical stakes of a case, medical, legal, or administrative, riding on the interpretation"
-  ],
-  "what_must_be_real": "Legal and medical confidentiality must be respected; filming actual proceedings may be impossible, so the film may need to work with training sessions, practice interpretation, or willing participants' consent. The interpreter's own account of their process must lead.",
-  "possible_arc": {
-    "opening": "A day of cases begins; the interpreter takes a seat.",
-    "turn": "A difficult sentence, an ambiguous term, or a high-stakes case tests the process.",
-    "ending_open": "The day's cases end, successfully or not, and the interpreter reflects on what the work actually is."
-  },
-  "position_hint": "middle: a language-and-listening film set in an institutional space, offering variety of tone and setting against the group's more rural stories.",
-  "location": {
-    "requirements": [
-      "A district court, hospital or public office with a willing interpreter and institutional permission",
-      "Confidentiality safeguards for anyone whose case is filmed",
-      "An interpreter willing to reflect openly on their own process"
-    ],
-    "suggestions": [
-      {
-        "name": "A district court or government hospital, Central or Western Province",
-        "region": "Central or Western Province",
-        "why": "Sri Lanka's multilingual courts and hospitals routinely rely on Sinhala-Tamil-English interpretation.",
-        "season_notes": "",
-        "access_notes": "Institutional and legal permissions will be required and may limit what can be filmed.",
-        "verify": "A specific institution, case type and willing interpreter are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Understanding a single sentence is not one act. On these texts' account it is a short series of separate steps, the words caught first, named next, and understood last, and an interpreter's pause is the only place in ordinary life where that series is something a room can hear.",
+  "what_must_be_real": "Legal, medical and administrative confidentiality comes before the film, and anyone whose matter is being interpreted must consent separately from the institution. Filming real proceedings may prove impossible, and if so the film works with training and practice sessions and says so rather than reconstructing a case. The interpreter's own account of how she hears before she translates must lead.",
+  "position_hint": "middle: its substance now sits inside the group's film about teaching something too fast to watch, and it belongs wherever that film belongs.",
   "risks": [
-    "Legal or medical confidentiality may prevent filming real proceedings",
-    "Reducing a skilled professional to an illustration of doctrine",
-    "The people being interpreted for have their own privacy that must be protected"
+    "Confidentiality that cannot be protected for the people being interpreted for.",
+    "Reducing a skilled professional to an illustration of doctrine.",
+    "Presenting the pause as a demonstration of a doctrinal sequence, when the sources say the sequence cannot be observed at all.",
+    "Filming people at a moment when they have very little power to refuse."
   ],
   "drop_if": [
-    "No institution will permit filming, even of training or practice sessions",
-    "Confidentiality concerns cannot be resolved",
-    "The interpreter's own account cannot carry the film without real case context"
+    "No institution will permit filming, even of training or practice.",
+    "Confidentiality concerns cannot be resolved.",
+    "The interpreter's own account cannot carry the film without real case context."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0085",
-      "relation": "mirrors",
-      "note": "Both make an invisible, fast sequence audible or visible, spoken language in one, drummed rhythm in the other."
+      "relation": "merged into",
+      "note": "Its C038 grounding, the sources' own example of understanding another person's words, the knife simile about a mind that cannot examine itself, and its C046 naming-then-meaning strand now sit inside IDEA-0085."
+    },
+    {
+      "idea_id": "IDEA-0082",
+      "relation": "pairs with",
+      "note": "Two kinds of work done inside a gap too short to think in, one where the gap is audible and one where it is not."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0085",
+    "reason": "Folded into IDEA-0085, which holds the group's slot on a sequence too fast to watch and now carries C038's own example of understanding another's words, the knife simile and a C046 link."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,70 +4,62 @@
   "record_type": "idea",
   "title": "The Name in Use",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [
     "IDEA-P01-B"
   ],
   "group_id": "GRP-01",
-  "logline": "People use different names for the same shared place or thing, and the names change what they do.",
+  "logline": "The same shared thing carries more than one name, and which name is used changes what people actually do next.",
   "human_question": "What changes in people's actions and relationships when the same part of their shared world carries different names?",
-  "premise": {
-    "story": "A practical need (finding the way, teaching, coordinating work) moves through a place that carries more than one name.",
-    "place": "A lived-in setting where more than one naming practice is genuinely used.",
-    "experience": "Listening closely to names spoken in context and watching the actions they prompt."
+  "situation": {
+    "what_happens": "Something everybody depends on, a junction, a crossing, a stretch of water, a building, is known by more than one name, and the names are not interchangeable in practice. One is what the elders say, one is what is written on the signboard, one is what the paperwork requires, one is what a conductor calls out. People switch between them without thinking, choosing by who they are talking to. Occasionally the switch fails: a direction is misunderstood, a form is rejected, someone is corrected. The naming is not a curiosity here; it is the machinery by which people coordinate.",
+    "who_is_involved": "People who have to be understood in order to do their work: someone giving directions, someone calling stops, someone writing an address on a form, a teacher, a clerk. Elders who use the older word, younger people who use the newer one, and the person caught between them who has to translate.",
+    "what_is_at_stake": "Small, concrete things: a journey taken twice, a delivery that does not arrive, a document returned. Underneath them, sometimes, a history that one name records and another does not, which is why the switching is careful and why nobody involved treats it as trivial.",
+    "how_it_unfolds": "It starts as a practical need that moves through the place, and turns whenever a second name arrives and a different action follows. The pressures are time, paperwork and the feelings attached to the older or newer word. It can end with the names sitting side by side quite comfortably, or with a genuine difficulty, or with the finding that nobody minds at all. Reality decides, and 'the names cause no difficulty' is a real possible outcome that the film must be willing to report."
+  },
+  "concept_merge": {
+    "why_together": "This idea carries C084 alone, and deliberately. It is the plainest possible case of the sources' distinction: a name-concept, the thing the mind takes up when it hears it [C084-P:L25], and the spoken sound that is ultimately real while the name it carries is not [C084-M:L21]. Because it is the plainest case, it is also the thinnest film, and its substance belongs inside a situation that supplies stakes of its own.",
+    "what_it_reveals": "That names are not labels sitting on top of a world that would carry on unchanged without them. They are instructions people act on, and a film can watch the acting rather than the naming."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "Conventional wholes, names, spoken sound and assigned meaning, in real use."
+      "why": "Conventional wholes, their names, the spoken sound and the meaning assigned to it, all in ordinary use [C084-P:L25; C084-M:L21]. The digest's limits govern this idea more tightly than any other in the group: a film must not tell a participant that the name they use is wrong, and where naming has a political history the film must not take a side or mock anyone's usage."
     }
   ],
-  "what_camera_could_observe": [
-    "A word spoken, written, pointed to, corrected or translated",
-    "People giving and following directions",
-    "The place or object seen from several distances"
-  ],
-  "what_must_be_real": "The terms actually used, by whom, in which situation. Checked with the people concerned.",
-  "possible_arc": {
-    "opening": "A name heard before its thing is seen.",
-    "turn": "A second name for the same thing, and a different action follows.",
-    "ending_open": "Whatever the research finds, including 'the names cause no difficulty'."
-  },
-  "position_hint": "flexible; recommend merging into IDEA-0001 (One Mountain, Many Names), its most concrete form",
-  "location": {
-    "requirements": [
-      "More than one naming practice genuinely in use",
-      "Ethical access to speakers",
-      "Clear speech recording conditions"
-    ],
-    "suggestions": [],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That a name is not decoration on top of a thing; it is a shared agreement that people act on, and the same thing can carry several of them at once without any of them being false.",
+  "what_must_be_real": "The terms actually used, by whom, and in which situation, checked with the people who use them. Nobody is prompted to use a name they would not otherwise use, and no naming dispute is opened up for the film's benefit.",
+  "position_hint": "flexible; its substance now sits inside IDEA-0001, where the same observation has a climb, a crowd and a night to carry it.",
   "risks": [
-    "Declaring one community's term correct",
-    "Exposing a dispute"
+    "Declaring one community's term the correct one, in narration or by editing.",
+    "Exposing or inflaming a dispute that the people involved manage quietly.",
+    "Having no human stake at all, so that the film becomes an illustration of a distinction."
   ],
   "drop_if": [
-    "Only interchangeable synonyms with no human consequence"
+    "The names turn out to be interchangeable synonyms with no consequence for anyone.",
+    "The only way to show the difference is to set it up."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0001",
-      "relation": "abstract form of",
-      "note": "The pilot's premise, made concrete by the mountain."
+      "relation": "merged into",
+      "note": "Its observation, that a name is an instruction people act on, now lives in the opening film, where the naming has a night and a crowd around it."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0001",
+    "reason": "The abstract form of IDEA-0001; folded into it so the same observation is carried by a situation with stakes."
+  },
   "source_doc": "docs/planning/pilot-01/idea-p01-b-the-name-in-use.md",
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

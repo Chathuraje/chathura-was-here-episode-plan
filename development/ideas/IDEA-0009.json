@@ -4,88 +4,71 @@
   "record_type": "idea",
   "title": "Clearing the House",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "A family empties an old ancestral house. Every object is 'grandmother's chair' or 'father's desk' until, one by one, they become wood, cloth and memory.",
+  "logline": "A family empties an old house, and every object is somebody's chair or somebody's desk right up until the moment it becomes wood, cloth and a decision.",
   "human_question": "When the story is taken away from an object, what is left, and where does the story go?",
-  "premise": {
-    "story": "The last weeks of a family home, following the people deciding what to keep, give away or leave.",
-    "place": "An old house about to change hands.",
-    "experience": "Dust, afternoon light, objects handled for the last time."
+  "situation": {
+    "what_happens": "A house that has been in one family for generations has to be emptied, because it is being sold, divided or given up. Over several weeks everything in it is handled, argued over and sorted into what is kept, what is given away and what is left. Almost nothing is described by what it is made of: things are named after the people they belonged to. As the sorting goes on the names get used less, and by the end there are objects in a lorry and an empty house that the family still calls by its own name.",
+    "who_is_involved": "The family members doing the sorting, who do not agree about what matters; whoever is left of the generation the objects are named after; relatives who arrive with claims; and the people who take things away, for whom the objects are only furniture.",
+    "what_is_at_stake": "Money and inheritance, at the plainest level, and under that the question of who gets to decide what a family keeps. For an older member, watching a life's accumulation reduced to categories. For the film, a family's privacy at a moment when people say things they would not say at any other time.",
+    "how_it_unfolds": "It begins with a deadline nobody chose and proceeds room by room, faster as exhaustion arrives and the standards drop. The pressures are time, grief, money and the physical work of moving things. It ends with an empty house and a set of decisions that cannot be revisited. Reality decides how much is kept and how it ends, and whether the family can bear to be filmed doing it at all."
+  },
+  "concept_merge": {
+    "why_together": "C084 supplies the exact observation: a name can hang a real quality or a real history on a conventional whole, and the wholes here are objects named after people rather than after their materials [C084-P:L25; C084-P:L27–L41]. C001 supplies the second movement: the sources' own example of dividing a named whole until only pieces are left, with the name attached to an arrangement and not to an extra hidden thing [C001-M:L46; C001-M:L52–L56]. Together they give the least abstract version of the group's question, because the thing being taken apart is a household.",
+    "what_it_reveals": "That the name on an object is usually not about the object. Dismantle the arrangement and the wood is still wood, but the name was never in the wood, and the people sorting know this perfectly well while it is happening to them."
   },
   "concept_links": [
     {
-      "concept_id": "C002",
-      "role": "primary",
-      "why": "Matter on one side, mind (memory, feeling) on the other: what is really there in an object."
-    },
-    {
       "concept_id": "C084",
-      "role": "supporting",
-      "why": "Being-concepts and collective concepts attached to things."
+      "role": "primary",
+      "why": "Names attached to conventional wholes, in the case where what the name records is a person rather than a material [C084-P:L25; C084-P:L27–L41]. The digest's caution that these categories are not a scheme of true and false is the whole ethical basis for filming this: nothing in the sources licenses telling a family that what they are holding is only wood."
     },
     {
       "concept_id": "C001",
       "role": "supporting",
-      "why": "Conventional value and what analysis finds."
+      "why": "The Margaya's dividing test, in the form the digest's own story seed gives for exactly this situation: a named whole taken apart into its pieces, with nothing destroyed and no whole remaining [C001-M:L46; C001-M:L52–L56]. The digest attaches the guard that goes with it, that a family's loss must never be framed as a lesson that the house never really existed."
     }
   ],
-  "what_camera_could_observe": [
-    "Hands on objects",
-    "Family members disagreeing about what something is",
-    "Empty rooms",
-    "The last door closing"
-  ],
-  "what_must_be_real": "A real family's decisions, feelings and timeline.",
-  "possible_arc": {
-    "opening": "A full house.",
-    "turn": "Things lose their names as they are sorted.",
-    "ending_open": "An empty house that is still, for the family, 'the house'."
-  },
-  "position_hint": "opening candidate: an ordinary object passing to Chathura here would be a natural Object 1 acquisition, only if it really happens",
-  "location": {
-    "requirements": [
-      "A family clearing a house during the filming window",
-      "Deep trust and consent"
-    ],
-    "suggestions": [
-      {
-        "name": "An old walauwa or family house in the southern or Sabaragamuwa hill country",
-        "region": "Southern / Sabaragamuwa Provinces",
-        "why": "Architecture full of layered family history.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Depends entirely on finding a family.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That the names we give things are mostly names for the people and the arrangements behind them, and that when the arrangement goes the name goes with it, while what the thing was made of stays exactly what it was.",
+  "what_must_be_real": "A real family's decisions, feelings and timeline, with consent that can be withdrawn at any stage and afterwards. No object is handled, found or discussed for the camera, and no disagreement is provoked.",
+  "position_hint": "flexible; its substance now sits inside IDEA-0010, where a named whole is also assembled and then sorted back into materials, with far less exposure for the people involved.",
   "risks": [
-    "Grief and privacy",
-    "Inheritance disputes"
+    "Grief and privacy, in a situation where people are least able to judge what they want filmed.",
+    "Inheritance disputes recorded and then published.",
+    "Framing a loss as a demonstration that the named thing was never really there.",
+    "The oldest person in the house becoming an illustration rather than a participant."
   ],
   "drop_if": [
-    "The family's privacy cannot be protected"
+    "The family's privacy cannot be protected.",
+    "The clearance is contested, so filming would become evidence in a dispute."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0010",
+      "relation": "merged into",
+      "note": "Its strand of objects named after people, and the feeling at the moment of un-naming, now sit in the closing film."
+    },
+    {
       "idea_id": "IDEA-0011",
       "relation": "mirrors",
-      "note": "Clearing a house at the end of a lineage; naming a child at the start of one."
+      "note": "Un-naming at the end of a household; naming at the start of a life."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0010",
+    "reason": "Its observation about objects named after people, and about what the dismantling feels like, strengthens the closing film at a fraction of the exposure to a grieving family."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

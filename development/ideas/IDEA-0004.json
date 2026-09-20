@@ -4,95 +4,71 @@
   "record_type": "idea",
   "title": "The Well",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "A well-digger spends weeks making something that is only empty space, and a village names the hole, and depends on it.",
+  "logline": "A well-digger spends weeks making something that is only an empty space, and the household that paid for it names the space and lives off it.",
   "human_question": "What are we making when what we make is an emptiness?",
-  "premise": {
-    "story": "The digging of one well, from choosing the spot to the first water, following the digger and the family that needs it.",
-    "place": "A dry-zone village where water depends on wells.",
-    "experience": "Descending into earth, heat and echo, then the sound of water."
+  "situation": {
+    "what_happens": "A household that has no reliable water pays for a well to be dug. Someone decides where, by whatever method is trusted locally, and then a digger and a helper spend weeks removing earth, bucket by bucket, from a shaft that gets deeper, darker and more dangerous as it goes. Nothing is built. The work consists entirely of taking away. At some point during the digging everybody stops calling it a hole and starts calling it the well, and after that the name is used as if it had always been there.",
+    "who_is_involved": "The digger and whoever works the rope above him; the household that has commissioned it and is paying by the foot or by the day; the person who chose the spot, whose judgement is on the line; and neighbours who will use the water if it comes.",
+    "what_is_at_stake": "For the household, a large sum and the whole question of whether they can go on living where they live without carrying water. For the digger, dangerous work paid by depth, in which the risk rises with every foot. For the person who chose the spot, a reputation that survives or does not.",
+    "how_it_unfolds": "It begins with a decision and a mark on the ground, and proceeds downward at a rate that slows as the shaft deepens. The pressures are cost, the season, the digger's safety, collapse, foul air and the simple possibility of nothing. It ends with water, with water that turns out to be brackish or too little, or with a shaft abandoned at a depth nobody can afford to go past. Reality decides, and it decides underground where nobody can see."
+  },
+  "concept_merge": {
+    "why_together": "C084 names the category outright. Among the meaning-concepts the sources list is the concept of space: a well or a cave, named by an emptiness rather than by anything present [C084-P:L27–L41; C084-M:L9]. C002 supplies what is actually going on around that emptiness: materiality defined as what is altered by opposing conditions such as cold and heat, with the ultimates described as momentary activities or forces rather than lumps of substance [C002-P:L34; C002-P:L40; C002-M:L17]. Put together in one shaft, a household's survival turns out to rest on a name given to a gap among things that will not hold still.",
+    "what_it_reveals": "That a name does not need anything underneath it in order to be indispensable. C084 alone would make the well a clever example; C002 alone would make the film about earth and water. Together they show weeks of hard, paid, dangerous labour whose entire product is an absence, and a household organising its life around that absence without any difficulty at all."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "Space-concept (ākāsa-paññatti): wells and caves are named by what is not there."
+      "why": "The sources list the concept of space among the meaning-concepts and give wells and caves as the example, named by what is not there [C084-P:L27–L41; C084-M:L9]. This film is that example, lived rather than illustrated. The digest's limits hold: the emptiness is not being called unreal, and the film must not tell the household that its name for the well is a mistake."
     },
     {
       "concept_id": "C002",
       "role": "supporting",
-      "why": "Earth, water and heat as real qualities, where 'the well' is a name for an absence among them."
+      "why": "Both sources define materiality as what is struck and altered by opposing conditions such as cold and heat [C002-P:L40; C002-M:L17], and describe the ultimate realities as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3]. The earlier draft's 'earth, water and heat as real qualities' went past what the sources say: the digest is explicit that the extract only names the four great elements without defining them, and that a film must not gloss them from popular assumptions about soil, water, flame and wind. The link is therefore to the definition of matter by alteration, not to the elements, and the film makes no claim that the soil and water in front of it are the texts' technical elements."
     }
   ],
-  "what_camera_could_observe": [
-    "The water-finder or digger choosing the spot",
-    "Buckets of earth rising, depth increasing",
-    "Light from above getting smaller",
-    "The first seep of water",
-    "The family drawing water"
-  ],
-  "what_must_be_real": "An actual well being dug for an actual need. Safety practices are shown as they are, and no danger is staged.",
-  "possible_arc": {
-    "opening": "Flat dry ground, nothing there yet.",
-    "turn": "The hole deepens and the village starts calling it 'the well'.",
-    "ending_open": "Water, or no water. Reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A well dug during the filming window",
-      "Safe camera access around and possibly into the shaft",
-      "A family for whom the well matters"
-    ],
-    "suggestions": [
-      {
-        "name": "Jaffna peninsula",
-        "region": "Northern Province",
-        "why": "Limestone country where household and farm wells are central to life.",
-        "season_notes": "Dry season for digging",
-        "access_notes": "",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "A dry-zone village near Anuradhapura",
-        "region": "North Central Province",
-        "why": "Wells and tanks are life-critical; strong light and landscape.",
-        "season_notes": "Dry season",
-        "access_notes": "",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That a well is named for what is not there: an empty space left where earth was taken out. A household gives that emptiness a name, depends on it, and draws water from it.",
+  "what_must_be_real": "An actual well being dug for an actual need, at the household's own pace and cost. Safety practice is filmed exactly as it is, neither improved nor made to look worse, and no descent, depth or risk is undertaken because a camera is present.",
+  "position_hint": "middle: it follows a film in which a whole comes apart into parts, by going one step further to a name with no parts under it at all. No location reasoning is involved.",
   "risks": [
-    "Worker safety",
-    "Poverty framing"
+    "Worker safety, and the pressure a camera puts on a man being paid by depth.",
+    "Poverty filmed as landscape.",
+    "Glossing soil, water and heat as the texts' four great elements, which the digest rules out.",
+    "Letting the emptiness become a poetic idea while the labour that made it disappears from the film."
   ],
   "drop_if": [
-    "No real dig in the filming window",
-    "Access would require staging"
+    "No real dig within the window.",
+    "Access to the work would require staging any part of it, or would put anyone at additional risk."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0008",
       "relation": "pairs with",
-      "note": "Both find names grounded in nature: space here, time and direction there."
+      "note": "Two names with nothing under them: an hour, and a hole."
+    },
+    {
+      "idea_id": "IDEA-0005",
+      "relation": "pairs with",
+      "note": "A whole divided into parts, and then a name with no parts at all."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries its episode and is the group's most literal case of a concept the sources name by this exact example."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

@@ -4,93 +4,79 @@
   "record_type": "idea",
   "title": "What the Net Cannot See",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "Night after night, a small lagoon-fishing crew works by lamplight where most of what reaches them never becomes a catch, a flicker at the edge of sight, a sound not quite placed, and only a few signals ever become a decision to strike.",
-  "human_question": "How much of what happens around us is ever actually noticed, and what decides which faint signal becomes an action?",
-  "premise": {
-    "story": "A lagoon or reef fishing crew works through a night shift by lamp and starlight, watching a float, listening for a splash, reading faint disturbances in dark water, most of which lead nowhere.",
-    "place": "A lagoon, estuary or shallow reef fished at night by lamplight.",
-    "experience": "The viewer sits inside long stretches of near-nothing broken by a handful of moments sharp enough to matter, and feels the gap between what merely touches the senses and what actually becomes an act."
+  "logline": "Night after night a small crew fishes by lamplight in shallow water, where most of what reaches them never becomes a catch: a flicker at the edge of sight, a sound not quite placed, and only a few signals ever become a strike.",
+  "human_question": "How much of what happens around us is ever actually noticed, and what decides which faint signal becomes an act?",
+  "situation": {
+    "what_happens": "A small crew fishes at night in shallow water by lamp and starlight. For hours almost nothing happens: the lamp moves, the water shifts, a sound arrives from somewhere that cannot be placed. A few times in a night something registers strongly enough that someone acts on it, and most of those come to nothing either. The night's earnings are decided by a handful of instants out of thousands that never became anything at all.",
+    "who_is_involved": "The crew, usually a few people who have worked together long enough to read each other without speaking; whoever owns the boat and the gear, who is often not one of the people in it; the buyer at first light who settles what the night was worth.",
+    "what_is_at_stake": "A night's earnings against fuel, gear and the wear of working in the dark, and real safety risk on water at night. For a crew paid by the catch, the difference between a night that covered its costs and one that did not.",
+    "how_it_unfolds": "Work like this begins when the boat goes out and ends at first light, whatever has or has not happened in between. The pressures are weather, moon, water clarity and how tired people are by the small hours. It ends in a good catch, a poor one, or nothing, and the crew's own account is the only record of what was noticed and missed. Nobody can arrange which it will be."
+  },
+  "concept_merge": {
+    "why_together": "C045 contributes the sources' most unsentimental claim: when something arrives too weak or too late, the process is cut short or never begins, so nothing is known and nothing follows. The sources call the emptiest kind futile rounds, and describe the grade just above it as 'seen, not seen', 'heard, not heard', like something in a dream [C045-M:L20]. C040 contributes the grading that decides which it will be: how prominent a thing is by size, light and nearness, and how late in its own short life it strikes. C009 contributes the layer underneath both, the bare rootless moment of seeing or hearing that carries no verdict, needs a working sense, an object, a medium such as light and attention, and can be identical in two beings whose responses then differ completely. A night spent watching dark water is all three running for hours with almost nothing to show.",
+    "what_it_reveals": "Put together they turn a fisher's night from a story about patience into a description of a threshold. The sources are not saying the crew should pay better attention: the digest is explicit that an object's grade is set mostly by its own prominence and timing, with attention only one condition among several. So the film can hold the thing the crew already knows and the sources also say, that whether a signal was worth acting on is a fact about the signal, while what a person did with it is a separate matter [C045-M:L28-L34]. That separation is the whole group's argument, arriving here in its plainest form."
   },
   "concept_links": [
     {
       "concept_id": "C045",
       "role": "primary",
-      "why": "The source's six 'very slight object' processes describe contact so faint it barely disturbs the resting mind and produces no real knowing at all, 'seen, not seen; heard, not heard', which is close to a documentary truth about watching dark water for hours [C045-M:L20]."
+      "why": "The digest describes six processes for objects that strike too late to be taken up. In the slight kind the determining moment simply repeats two or three times, impulsion never arises, and the sources say no action and no consequence follow [C045-P:L61]. In the very slight kind no cognitive moment arises at all, the resting mind only shakes, and the sources call these empty or futile rounds [C045-P:L81]. Margaya's description of the middle grade as dream-like knowing, 'seen, not seen', 'heard, not heard' [C045-M:L20], is close to a documentary truth about hours of watching dark water. Two of the digest's limits are written into the film: the counts, six processes, seventy-five across five doors, ten to fifteen moments, are a formal classification and not measurements of reaction time or thresholds of perception, and nothing here supports the idea that faint contacts shape a person subliminally, since the digest says they produce nothing at all."
     },
     {
       "concept_id": "C040",
       "role": "supporting",
-      "why": "The source grades objects by how vivid they are, size, light, nearness, and how late they strike, which is exactly what separates a flicker a crew member ignores from the one they act on."
+      "why": "The digest grades what meets the senses as very great, great, slight or very slight, by prominence, which it gives as size, light and nearness, and by how many mind-moments pass before the object strikes [C040-M:L5; C040-M:L7], and says that the stronger the object the further the process runs [C040-M:L9]. That is what separates the flicker nobody takes up from the one that is acted on. The digest corrects the reading this idea previously leaned on: 'pay more attention and you will see more' is not quite the claim, because the grade is set by the object's own prominence and timing and attention is only one condition. The film therefore never presents an unnoticed signal as a lapse by anyone."
     },
     {
       "concept_id": "C009",
       "role": "supporting",
-      "why": "The eighteen rootless minds describe a layer of bare sensing that carries no verdict of its own; a fisher's glance at the water is this layer before any decision to strike is made."
+      "why": "The digest describes the rootless sensing layer that carries no verdict of its own, and lists what each sense-consciousness needs: an intact sense organ, an object, a medium such as light or moving air, and attention [C009-P:L85-L98]. It also states the point this whole group turns on, that the same sight can be followed by completely different responses in different beings because the sensing is shared and the response comes later. Two guards from the digest are held here. 'Rootless' does not mean causeless, only that none of the six root factors is present [C009-M:L3]. And the source's treatment of pleasant and unpleasant contact as the result of past action must never become 'people get what they deserve', so nothing about a bad night, a lost season or anyone's poverty may be framed as payback."
     }
   ],
-  "what_camera_could_observe": [
-    "Lamp sweeping dark water and the crew's eyes following it",
-    "A float or net line watched for long stretches with no visible change",
-    "A sudden turn of the head at a sound or ripple, followed by a decision to act or let it pass",
-    "Quiet talk between casts about what someone thought they saw",
-    "The catch, or the return with an empty net, at dawn"
-  ],
-  "what_must_be_real": "The crew's actual livelihood and risk; nothing staged for the camera, including any 'near miss' or dramatic strike. Participants describe what they noticed in their own words, not prompted by the interviewer.",
-  "possible_arc": {
-    "opening": "Lamp lit, boat pushed out, a long watch begins.",
-    "turn": "A signal, a movement, a sound, is caught and acted on, or is let go.",
-    "ending_open": "Dawn; the night's catch, whatever it is, and the crew's own account of what they noticed and missed."
-  },
-  "position_hint": "middle: an intimate, low-light film about the edge of perception, not an Object 5 acquisition scene.",
-  "location": {
-    "requirements": [
-      "A working lagoon, estuary or shallow reef fished at night",
-      "A crew willing to be filmed through long, low-light hours",
-      "Safe water access for a small camera crew at night"
-    ],
-    "suggestions": [
-      {
-        "name": "Batticaloa Lagoon",
-        "region": "Eastern Province",
-        "why": "A well-known lagoon with an active night-fishing tradition.",
-        "season_notes": "",
-        "access_notes": "Night filming on water requires careful safety planning.",
-        "verify": "Specific crews, access and current fishing patterns are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Most of what touches our senses never becomes an experience at all: it arrives too faintly or too late and simply fades, and on this account nothing follows from it. Only the strongest arrivals get the mind's full run and a response, and how strong an arrival is depends mostly on the thing itself, not on how hard anyone is trying.",
+  "what_must_be_real": "The crew's actual livelihood and the actual darkness. No extra light may be added for the camera, since light is one of the very conditions the film is about, and no strike or near miss may be dramatised. Participants describe what they noticed in their own words, unprompted. The sources' counts are never offered as thresholds of human perception.",
+  "position_hint": "opening candidate for the group's early stretch: it sets the floor the later films build from, that most contact never becomes experience at all, before any film shows a single clear sight being taken apart. No location reasoning is involved.",
   "risks": [
-    "Low light makes filming difficult and could tempt the crew to add light for the camera, changing the very conditions being observed",
-    "Dramatising a catch or a near-miss would be staging",
-    "Romanticising dangerous night work without showing its real economics"
+    "Low light tempting the crew to add light for the camera, which would change the very conditions being observed.",
+    "Dramatising a catch or a near miss, or cutting the hours of nothing out of the film that is about them.",
+    "Romanticising dangerous night work without showing its real economics.",
+    "Presenting the sources' counts as thresholds of human perception or as reaction times, which the digest rules out.",
+    "Letting a signal that went unnoticed read as a failure of attention, which the C040 digest says is not the sources' claim."
   ],
   "drop_if": [
-    "No crew will allow a camera through an ordinary night shift without extra light or performance",
-    "The work cannot be filmed safely at night",
-    "Nothing distinguishes a noticed from an unnoticed signal in a way the camera can honestly show"
+    "No crew will allow a camera through an ordinary night without extra light or performance.",
+    "The work cannot be filmed safely at night.",
+    "Nothing distinguishes a noticed from an unnoticed signal in a way the film can show honestly.",
+    "The crew's economics cannot be shown alongside the waiting."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0083",
       "relation": "pairs with",
-      "note": "Both watch the line between a signal that barely registers and one that triggers a full response."
+      "note": "Both trace the line between something that barely registers and something that draws a full, decisive response, one over hours of nothing and one in a fraction of a second."
+    },
+    {
+      "idea_id": "IDEA-0087",
+      "relation": "sits beside",
+      "note": "Two films about seeing at the edge of what the light allows, one where almost nothing arrives and one where a great deal does, fast and badly lit."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0038, and both the C045 and C009 digests independently propose a night fishing crew by lamplight as the situation for this exact material."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

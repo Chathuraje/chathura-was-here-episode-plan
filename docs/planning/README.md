@@ -15,6 +15,7 @@ The dated audit and proposal documents below preserve the reasoning and reposito
 5. [Episode 001/100 continuity](05-episode-001-100-continuity.md) — framing structure with repository evidence separated from brief-supplied requirements.
 6. [Master roadmap](06-master-roadmap.md) — the step-by-step plan from the concept library to 98 production screenplays, with the draft 10-category map and dashboard build slices.
 7. [Abhidhamma Depth Map](07-abhidhamma-depth-map.md) — concept, mechanism, and group-level viewer-understanding audit for Chronology v1, with a separate non-destructive recommendation layer.
+8. [Idea finalisation reviews](idea-review/) — one report per chronological group, recording the philosophy check of every idea's concept links against its digest, the final kept slate in episode order, and the merges, holds and drops: [GRP-01](idea-review/GRP-01.md), [GRP-02](idea-review/GRP-02.md), [GRP-03](idea-review/GRP-03.md), [GRP-04](idea-review/GRP-04.md), [GRP-05](idea-review/GRP-05.md), [GRP-06](idea-review/GRP-06.md), [GRP-07](idea-review/GRP-07.md), [GRP-08](idea-review/GRP-08.md), [GRP-09](idea-review/GRP-09.md), [GRP-10](idea-review/GRP-10.md). The brief they follow is [prompts/idea-finalisation-brief.md](prompts/idea-finalisation-brief.md).
 
 Retrieved external-reference planning summaries:
 

@@ -4,93 +4,78 @@
   "record_type": "idea",
   "title": "Seven Doors of a Leaf",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "In a cinnamon-peeling shed, quality is judged by smell, touch and sound as much as by sight, a grade decided before a word is spoken.",
-  "human_question": "When a judgement is made through several senses at once, what does each one actually contribute?",
-  "premise": {
-    "story": "Workers in a cinnamon-peeling shed peel, scrape, roll and grade bark, testing quills by smell, touch, sound and sight as they work.",
-    "place": "A cinnamon-peeling shed in the southern low country.",
-    "experience": "The viewer follows a single quill from raw bark to graded product, noticing how many different senses are folded into knowing a good one without anyone explaining it."
+  "logline": "In a bark-peeling shed, quality is judged by smell, touch and sound as much as by sight, and a grade is settled before anyone speaks.",
+  "human_question": "When one judgement is made through several senses at once, what does each one actually contribute?",
+  "situation": {
+    "what_happens": "Workers strip, scrape, roll and grade bark through a working day, testing each piece by lifting it to the nose, working it between the fingers, tapping it and looking at it, in no fixed order and usually without comment. A grade is reached and the piece goes into a pile, and the pile is what the day is paid on. A difficult batch, an unfamiliar smell, an uneven texture, slows the whole shed and has to be argued out between people who each trust a different sense.",
+    "who_is_involved": "The peelers and graders, whose hands and noses are the whole of the skill and who are often paid by weight or by piece; whoever owns the shed and sets the grades; the buyer, who will re-grade everything and whose grade is the one that pays.",
+    "what_is_at_stake": "A day's pay tied directly to a grade that can be disputed, and the shed's standing with a buyer who can reject a batch. For an older worker, a sense that is no longer what it was, which the trade notices before they admit it.",
+    "how_it_unfolds": "A day begins when raw material arrives and ends when it is graded and bundled, or when it is not finished and holds over. The pressures are the quality of what came in, the weather, the buyer's grade and the piece rate. It ends with a batch accepted, argued over or refused, and the buyer decides that, not the shed and not the film."
+  },
+  "concept_merge": {
+    "why_together": "C035 contributes the six doors, each admitting only its own kind of object, and the sources' sharper point that the door is not the organ you can point at but a fine sensitivity inside it, so having eyes open is not yet seeing. C037 contributes what happens to that same matter when it is looked at from the other side: called a door where objects come in, it is called a base where the knowing arises, and for beings with a body no mental event floats free of it. C036 contributes what each door actually delivers, and in particular that smell and taste arrive as blends and are known as this or that only because they have been met before. A shed where a grade is assembled out of nose, fingers, ear and eye without a word spoken holds all three at once.",
+    "what_it_reveals": "Separately these are three lines in a table. Together, in a trade, they show that what feels like one act of knowing a good piece is several separate channels arriving and being added up, each resting on a different bit of a living body, and that the adding-up is not a sense at all. It also makes visible the thing the table cannot: that the channels are not equal for everyone, and that a worker knows which of their own senses to trust."
   },
   "concept_links": [
     {
       "concept_id": "C035",
       "role": "primary",
-      "why": "The source's six doors, each admitting only its own kind of object, sight only colour, smell only scent, touch only texture and temperature, describe, in doctrinal terms, exactly the separate channels a peeler is drawing on and combining without naming them."
+      "why": "The digest defines a door as where objects enter and the mind goes out to them, gives six, and separates the visible organ from the fine sensitive matter inside it, so that experience only gets in where something strikes that sensitivity strongly enough to interrupt the resting mind. Each door admits only its own kind of object: sight only colour, smell only scent, touch only the hard and the hot or cool. That is the shed's working method described from the inside. The digest's limits are carried: the sensitivity is not the retina, the eardrum or nerve endings, and Margaya's 'size of a louse's head' is reported tradition, not anatomy [C035-M:L9]; the mind-door is not the brain; and the phrase 'doors of perception', with its literary and psychedelic associations, is not to be used."
     },
     {
       "concept_id": "C037",
       "role": "supporting",
-      "why": "The source ties each sense to a physical base the mind depends on; watching workers rely on fingers, nose and ear in turn is a concrete, human version of that dependence."
+      "why": "The digest says a base is the physical support on which a mind arises, that the five sense bases are the same matter already called doors, now named for the knowing that arises on them, and that for beings with both mind and body no mental event happens without some piece of living matter under it [C037-P:L27]. The sixth base is placed in the heart region, and the digest is candid that Margaya says it cannot be seen, touched or found by medicine and that this is a point where the tradition and modern physiology part ways, which should be said plainly rather than smoothed over. Two prohibitions from the digest are written into this film: the source's phrase 'beings with complete faculties' must never become a judgement about disabled people, and its claim that the first stage of awakening depends on hearing another person must never be presented as saying that deaf people are spiritually disadvantaged."
     },
     {
       "concept_id": "C036",
       "role": "supporting",
-      "why": "The source's account of smell and taste as blended, present-moment mixtures fits how a peeler judges a quill, not by comparing memories consciously, but by meeting the thing itself."
+      "why": "The digest states that the five sense doors take only present objects of their own kind, and that what arrives at the nose or tongue is a mixture known as jasmine or tamarind because it has been met before [C036-P:L95 area; C036-M:L9-L17], which is exactly how a grader works: not by consciously comparing memories but by meeting the thing. The digest's limit applies here more than anywhere in the group: 'live in the present moment' is not what the source says. It states as a fact that the senses can only meet the present, and gives no advice at all."
     }
   ],
-  "what_camera_could_observe": [
-    "Bark stripped, scraped and rolled by hand",
-    "A peeler lifting a quill to the nose, testing it between the fingers, tapping it",
-    "Grading and sorting into piles",
-    "Workers describing, in their own words, how they know a good quill",
-    "The finished quills bundled for sale or export"
-  ],
-  "what_must_be_real": "The workers' actual skill, pay and working conditions; no staged sensory close-ups that misrepresent an ordinary working rhythm.",
-  "possible_arc": {
-    "opening": "Raw bark arrives; the day's peeling begins.",
-    "turn": "A difficult batch tests the workers' judgement, an unusual smell, an uneven texture.",
-    "ending_open": "The day's grading is finished, or not, and the quills move on to buyers."
-  },
-  "position_hint": "opening candidate: a demanding craft using several senses at once, with a real object, a peeling knife or the day's first quill, that could plausibly be where Object 5 is acquired.",
-  "location": {
-    "requirements": [
-      "An active cinnamon-peeling shed willing to allow filming during real production",
-      "Workers willing to describe, in their own words, how they judge quality",
-      "Consent covering the economics of a labour-intensive trade"
-    ],
-    "suggestions": [
-      {
-        "name": "Southern coastal cinnamon-growing belt",
-        "region": "Galle and Matara Districts",
-        "why": "Sri Lanka's traditional heartland for cinnamon cultivation and peeling.",
-        "season_notes": "",
-        "access_notes": "Peeling sheds are often small family operations; access would need direct relationships.",
-        "verify": "A specific shed and willing workers are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Each sense brings in only its own kind of thing: the eye brings colour, the nose brings smell, the fingers bring hardness and warmth. A worker's quick sense that a piece is good is assembled from several separate channels, each resting on a part of the living body, and the assembling is not itself one of the senses.",
+  "what_must_be_real": "The workers' actual skill, pay and conditions, and the buyer's actual grading. No sensory close-up may be staged that misrepresents the ordinary rhythm of the work, and no worker's judgement may be re-performed. The traditional descriptions of the sense sensitivities are never offered as anatomy.",
+  "position_hint": "opening candidate: it is the group's plainest statement that experience arrives through separate channels, which every later film in the group takes apart further, and it is the one situation where the separation is a working method rather than an idea. No location reasoning is involved.",
   "risks": [
-    "Exoticising manual labour or reducing it to a sensory showcase",
-    "Softening the real economic pressures of the trade into a mood piece",
-    "Labour conditions in the cinnamon trade can be difficult and should not be glossed over"
+    "Exoticising manual labour or reducing a trade to a sensory showcase.",
+    "Softening real economic pressure into a mood piece about craft.",
+    "Presenting the traditional descriptions of sense sensitivity as anatomy or as anticipated science.",
+    "Letting an older worker's fading sense be framed as loss or as doctrine rather than as something the trade and the person handle practically.",
+    "Reaching for the phrase 'doors of perception', which the digest rules out."
   ],
   "drop_if": [
-    "No shed will allow filming of real, unstaged work",
-    "The economics of the trade cannot be shown honestly alongside the craft",
-    "Workers do not want their judgement process described on camera"
+    "No shed will allow real, unstaged work to be filmed.",
+    "The economics of the trade cannot be shown honestly alongside the craft.",
+    "Workers do not want their own judgement process discussed on camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0084",
       "relation": "pairs with",
-      "note": "Both watch what happens to a skilled, sense-dependent life when the senses themselves are the subject."
+      "note": "Both study the senses at work, one where several combine in a skilled trade and one where a household adapts as one of them weakens."
+    },
+    {
+      "idea_id": "IDEA-0087",
+      "relation": "leads into",
+      "note": "Several doors working together narrow to a single door under pressure: colour arriving before anything is named."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0036, and the C035 digest proposes a bark-peeling shed judged by smell, touch and sound as the situation for exactly this concept."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

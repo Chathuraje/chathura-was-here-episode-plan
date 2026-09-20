@@ -4,92 +4,79 @@
   "record_type": "idea",
   "title": "What the Body Remembers",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "A coach or teacher who once had a violent temper now works patiently with young people, day after day. They still notice the moment before they would once have exploded. They just don't go there anymore.",
+  "logline": "Someone once known for a violent temper now spends their days working patiently with other people, and still recognises the moment where the old reaction used to begin.",
   "human_question": "When the heat is gone, what is actually left in its place?",
-  "premise": {
-    "story": "A working day for someone whose old reputation for a bad temper is well known locally, now doing steady, patient work: coaching, teaching or mending. The film follows their ordinary practice and, in their own words, what anger used to feel like in the body and what changed.",
-    "place": "A rural school, sports ground or workshop where this person works with others regularly.",
-    "experience": "The viewer watches small, real moments where a pause visibly replaces what used to be a flare, and hears one person's own account of a change that is still being lived, not a finished story."
+  "situation": {
+    "what_happens": "A person whose old reputation is common knowledge where they live now does work that consists almost entirely of other people getting things wrong in front of them: teaching, coaching, or training someone into a trade. Corrections are given all day, mistakes are repeated, and the work is slow. The change in them is not an event that can be filmed; it shows as an absence, a moment where something used to happen and now does not, and it is only legible because the person says, in their own words and on their own terms, what used to be there.",
+    "who_is_involved": "The person themselves; the people they work with day to day, some of whom know the old story and some of whom do not, and their guardians where they are young; family and long-standing friends who remember the earlier years; and people who were harmed, who are not sought out, not named and not approached.",
+    "what_is_at_stake": "For the person, their present standing weighed against a past they cannot take back, and the risk of being reduced on film to their worst years. For anyone once harmed, being identified or made into material. For the people around them now, being used as evidence of somebody else's progress. For the film, describing a change that is not finished without either celebrating it or doubting it.",
+    "how_it_unfolds": "A change like this is a long, uneven practice rather than a conversion; it can go backwards, and the person knows that better than the film does. The pressures are the ordinary ones of the work, plus the exposure of speaking about it at all. It can end with the person saying more than they meant to, with them deciding partway through to say nothing, or with weeks of perfectly ordinary patient days in which nothing visible happens at all. Reality decides, and the last of those is the most likely."
+  },
+  "concept_merge": {
+    "why_together": "C007 supplies the description the person is effectively confirming from the inside: Pradeepika sets out what this state does to the one who holds it before it touches anyone else, and closes by advising a watchful way of living precisely because ordinary people meet these states often [C007-P:L47; C007-P:L65]. C028 supplies the structural claim underneath it: both hate-rooted minds are counted entirely without joy, unlike the greed-rooted ones, which can carry delight [C028-P:L31]. That is the reason the sources give for why there was never anything to be got from the old temper, and it is a claim about the state, not about the man.",
+    "what_it_reveals": "Two things that pull against each other, which is why they need each other. Put together, they say that the anger was never the pleasure it seemed to be at the time, and, in the same breath, that none of this describes a person: the absence of joy is stated of a single moment of mind, not of anyone's character or life. That second point is exactly what the film's subject is asking to be believed about themselves, and the sources, read carefully, grant it."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "The older text describes what this state of mind does to the person who holds it before it touches anyone else: it burns, it cannot tell right from wrong in the moment, and it ends in words and acts that person later has to live with [C007-P:L47]. It closes by urging a mindful, watchful way of living precisely because this state visits ordinary people often [C007-P:L65]. This is a film about someone who took that seriously, in their own way and their own words."
+      "why": "Pradeepika describes what aversion does to the person who holds it before anyone else is touched: they cannot tell right from wrong while it lasts, and the mind keeps burning [C007-P:L47]; the section closes by urging a mindful, watchful way of living because ordinary people meet these states so often [C007-P:L65]. This is a film about someone who reached that conclusion by another road. Three limits are written into the film rather than left outside it. The bodily effects listed at L47, such as dryness and a change of complexion, are traditional teaching and may not be narrated as medical or observable fact. The claim that such minds arising at the time of death lead to the lower realms [C007-P:L51] is a doctrinal statement the digest says needs expert framing, and it stays out. And the slogan 'anger only hurts yourself' must never be used here, because the same text says plainly that this state leads to killing and harming others [C007-P:L53]; whatever harm was actually done was done to other people."
     },
     {
       "concept_id": "C028",
       "role": "supporting",
-      "why": "Both hate-rooted states are the most crowded on the sources' list and never carry joy [C028-P:L31]. That structural fact, that this state of mind is never light, gives a grounded reason why someone would spend years working to recognise and step back from it, without needing the film to say so directly."
+      "why": "Both hate-rooted minds are counted without joy at all, unlike greed-rooted minds, which can come with delight [C028-P:L31]. That is the sources' structural reason why this state never feels good even when it feels deserved. The earlier version of this link added that these are 'the most crowded' states on the list, which reads the factor counts as a severity score; the digest rules that out in as many words, so the count has been dropped and only the absence of joy is claimed. Two further limits belong in the link itself: the absence of joy is stated of a single mind-moment and not of anyone's character or life, which is the whole difference between this film and a verdict on a man; and the sources put effort and thought in every unwholesome mind [C028-P:L27], so the old temper may not be presented as a loss of control that excuses it, nor as a simple weakness."
     }
   ],
-  "what_camera_could_observe": [
-    "Ordinary teaching or coaching sessions, and how corrections are given",
-    "A visible pause before a response, where an old reaction might once have been immediate",
-    "Interactions with young people who may know, or not know, this person's old reputation",
-    "The person's own account, on their own terms, of what changed and how",
-    "The place itself: the ground, the workshop, the classroom, worn by years of this work"
-  ],
-  "what_must_be_real": "The person's history and change must be their own account, led entirely by what they choose to disclose. No past incident or victim may be named, sought out or exposed without that person's explicit wish and consent. Nothing about the 'old temper' may be re-enacted.",
-  "possible_arc": {
-    "opening": "An ordinary session: teaching, coaching or mending, unremarkable on the surface.",
-    "turn": "A moment that could once have gone badly does not.",
-    "ending_open": "Whatever this person actually says, in their own words, about what replaced the heat, ends the film."
-  },
-  "position_hint": "closing candidate: a person who has already moved past the group's heat is a natural way to hand off from anger to the group's closing fog, since what has replaced the old temper is, in their own honest account, not certainty but something quieter and less defined",
-  "location": {
-    "requirements": [
-      "A person locally known for having changed in this way, willing to speak about it on their own terms",
-      "A rural school, sports ground or workshop where they currently work with others regularly",
-      "Consent from any young people shown, and their guardians where required"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural school or sports ground",
-        "region": "Nuwara Eliya or Badulla district, hill country",
-        "why": "Hill-country towns and estate communities with active local schools and sports grounds and strong, well-known community figures.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific person, willing and able to speak about this, must be found and confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts say anger never comes with real delight, even when it feels deserved, and that it burns the person holding it first, which is why they advise living watchfully rather than waiting to be provoked less often. They also say this of single moments of mind, not of people, so nothing in it fixes anybody as an angry person, and nothing in it cancels the harm that was actually done to others.",
+  "what_must_be_real": "The person's history and their account of the change must be entirely their own, led by what they choose to disclose and revisable by them at any point. No past incident may be re-enacted, and no past victim may be named, sought out or exposed, whatever they might be willing to add to the film. Young people shown must consent, with their guardians where required. Nothing about the old temper may be staged, and no situation may be arranged to test the person's patience.",
+  "position_hint": "closing candidate: a person who is already past the group's heat is how the group hands its question on, because what replaced the temper is, in their own honest account, not certainty but something quieter and harder to name. No location reasoning is involved.",
   "risks": [
-    "Sliding into a redemption cliché rather than an honest, ongoing account",
-    "Confessional exploitation; the person must lead what is disclosed",
-    "Past victims or incidents being identified or exposed against their wishes"
+    "Sliding into a redemption cliché rather than an honest, unfinished account.",
+    "Confessional exploitation; the person must lead what is disclosed and be able to withdraw it.",
+    "Past victims or incidents being identified, contacted or exposed.",
+    "Reading the sources' 'no joy in these minds' as a claim about a person's whole life, which the digest explicitly forbids.",
+    "Presenting anger as a physiology or an illness by narrating the traditional bodily effects as fact.",
+    "Letting the film's sympathy for the person imply that the harm done mattered mainly because of what it cost him."
   ],
   "drop_if": [
-    "No such person exists locally who is willing to be filmed on these terms",
-    "The account cannot be told without naming or implicating others who have not consented"
+    "No such person can be found who is willing to be filmed on these terms.",
+    "The account cannot be told without naming or implicating others who have not consented.",
+    "The only way to show the change would be to arrange a situation that tests it."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0034",
-      "relation": "pairs with",
-      "note": "Both are bounded-time ensemble pieces where a delay tests a crowd's patience in public."
-    },
-    {
       "idea_id": "IDEA-0045",
       "relation": "pairs with",
-      "note": "Both are closing candidates: one shows heat that has already cooled, the other a fog that has not yet lifted."
+      "note": "Two endings for the group: heat that has already cooled, and a fog that has not lifted."
+    },
+    {
+      "idea_id": "IDEA-0035",
+      "relation": "follows",
+      "note": "A body that answers a sound before any decision is made, and a body that has learned to stay inside that same moment."
+    },
+    {
+      "idea_id": "IDEA-0033",
+      "relation": "answers",
+      "note": "The group opens on a flare filmed from outside; this looks at the same state from inside somebody who lived years of it."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries EPD-0026 and is the only place in the group where the state is described from inside a life; its C028 link is now grounded on the absence of joy alone, not on the factor counts."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

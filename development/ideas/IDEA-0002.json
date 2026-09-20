@@ -4,93 +4,65 @@
   "record_type": "idea",
   "title": "Thread",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "A handloom weaver turns thread into cloth, and cloth into a named thing someone will wear.",
+  "logline": "A weaver turns thread into cloth, and at some point during the work the thread stops being thread and starts being a thing with a name and a price.",
   "human_question": "At what moment does a pile of thread become 'a cloth', and where does 'the cloth' go when it is taken apart?",
-  "premise": {
-    "story": "One piece of cloth from spool to buyer, following the weaver's work, skill and livelihood.",
-    "place": "A weaving household or workshop where the loom sets the rhythm of the day.",
-    "experience": "The hypnotic loom and the slow appearance of a whole that was never anything but thread."
+  "situation": {
+    "what_happens": "One piece of cloth is made from beginning to end, on a loom that sets the pace of a household's day. It starts as spools with a cost, becomes warp and weft, and slowly becomes a thing people describe by its pattern rather than by its material. At some point in that process everybody, including the weaver, starts calling it by a name. Elsewhere in the same household, old cloth is going the other way: unpicked, cut down, reused as something else, until there is only thread again.",
+    "who_is_involved": "A weaver whose income depends on finishing; whoever else in the household prepares thread, dyes or sells; and the buyer who ordered the piece and has an opinion about what it should look like.",
+    "what_is_at_stake": "A commission, a price and a deadline, in a trade where the margin is thin and the work is slow. For the weaver, whether this kind of work can still support a household at all.",
+    "how_it_unfolds": "It begins with an order and a quantity of thread, and proceeds at the loom's speed, which cannot be hurried. The pressures are the cost of yarn, the buyer's expectations, eyesight, hands and the hours a body can work. It ends when the piece is finished and handed over, or when it is not, or when the buyer rejects it. Reality decides."
+  },
+  "concept_merge": {
+    "why_together": "C084 supplies the sources' own example, exactly: divide a thing, and if what seemed present disappears, as cloth disappears into thread, then it was a concept and not an ultimate [C084-M:L7]. C077 supplies the direction the method is eventually pointed in, the same taking-apart applied to a person in order to loosen 'I' and 'mine' [C077-M:L24]. A loom is the one place where the example can be watched running forwards and backwards in the same room.",
+    "what_it_reveals": "That the division test has a moment in it. Something becomes a named whole at a particular point in a week's work, and the weaver can usually say when, which makes the concept a thing with a history rather than a category."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "The Margaya's own example: cloth divided into threads disappears, so cloth is a concept, thread the more basic reality."
+      "why": "The Margaya's own division test, given in these very terms: cloth pulled apart is thread, so cloth is a concept and thread the more basic reality [C084-M:L7], and the finished piece is a collective concept named for an arrangement. The digest's limit applies: conventional wholes are valid in their own domain, and the point is not that the cloth is unreal."
     },
     {
       "concept_id": "C077",
       "role": "supporting",
-      "why": "A whole analysed into its parts, the same move later applied to a 'person'."
+      "why": "The compendium's method of gathering a whole into its parts is taught for a purpose, to loosen the sense of 'I' and 'mine' [C077-M:L24; C077-P:L996–L1010], and this idea is the mildest possible rehearsal of it, performed on a piece of cloth rather than on anybody."
     }
   ],
-  "what_camera_could_observe": [
-    "Spools, warp and weft, shuttle rhythm",
-    "The weaver's hands and feet",
-    "The cloth measured, cut, named and sold",
-    "Old cloth unpicked or reused"
-  ],
-  "what_must_be_real": "The weaver's real work, orders and economics. Nothing is staged for the metaphor.",
-  "possible_arc": {
-    "opening": "Loose thread and silence before the loom starts.",
-    "turn": "A pattern emerges and gets a name.",
-    "ending_open": "The cloth leaves with a buyer, or is unpicked. Reality decides."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "An active handloom with a willing weaver",
-      "A complete piece made within the filming window",
-      "Good natural sound of the loom"
-    ],
-    "suggestions": [
-      {
-        "name": "Thalagune handloom village",
-        "region": "Uda Dumbara, Kandy district",
-        "why": "Known for traditional handloom weaving.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm weaving is still active and who to approach.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "Henawala (Dumbara mat weaving)",
-        "region": "near Kandy",
-        "why": "Traditional Dumbara weaving; mats rather than cloth, so the premise would adapt.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm the craft is practised now.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That a whole can appear from parts and vanish back into them, and that the name belongs to the arrangement rather than to the material, which is as true of a cloth as of anything else people give names to.",
+  "what_must_be_real": "The weaver's real work, real orders and real economics. No piece is started, finished or unpicked for the camera.",
+  "position_hint": "middle; its substance now sits inside IDEA-0005, where the same test is carried by a repair a family's income depends on.",
   "risks": [
-    "Craft showcase with no stake",
-    "Economic hardship filmed as picturesque"
+    "A craft showcase with no stake for the person doing the work.",
+    "Economic hardship filmed as texture.",
+    "Being a visual copy of a textbook example rather than a portrait of a trade."
   ],
   "drop_if": [
-    "No weaver with a real commission or stake during the filming window"
+    "No weaver with a real commission during the window.",
+    "The only way to see a piece completed is to commission one for the film."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0005",
-      "relation": "pairs with",
-      "note": "Both ask where a whole goes when its parts change."
+      "relation": "merged into",
+      "note": "Its division test and its question about the moment of naming now carry the boat film's doctrinal spine."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0005",
+    "reason": "Its cloth-and-thread test is the exact repair IDEA-0005 needed, so its substance was folded there rather than run as a second film about parts and wholes."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

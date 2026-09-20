@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "IDEA-0221",
+  "record_type": "idea",
+  "title": "What Cannot Be Undone",
+  "status": "draft",
+  "version": 1,
+  "created_at": "2026-09-19",
+  "updated_at": "2026-09-19",
+  "created_by": "claude",
+  "updated_by": "claude",
+  "aliases": [],
+  "group_id": "GRP-03",
+  "logline": "An older person goes back to a place tied to something they did when they were young, and what they do when they get there is not talk about it.",
+  "human_question": "When a wrong cannot be undone, what is the difference between carrying it and going over it?",
+  "situation": {
+    "what_happens": "Someone decides, late, to return to a place connected with something they did decades ago and have never stopped thinking about. The decision is their own and has been coming for a long time. What they do when they arrive is practical and small: a repair, a gift, a debt settled, a visit to someone still living, or simply standing there and going home again. The gap between the size of the thing done and the size of the thing remembered is the whole subject. Most of the actual film is travel, arrangements and ordinary talk, because that is what such a journey consists of.",
+    "who_is_involved": "The person making the journey; whoever travels with them, usually a son, daughter or friend who knows some of it; people still living at the far end who may or may not remember, and who are approached only if the traveller has already approached them; and the family at home, who have lived with this for years without it being named.",
+    "what_is_at_stake": "For the traveller, whether doing something now changes anything, and the risk that it does not. For anyone at the far end, being made part of somebody else's resolution without having asked for it. For the family, hearing something said aloud that has always been half-known. For the film, never extracting a confession and never turning another person's harm into this person's story.",
+    "how_it_unfolds": "It begins with a decision already made, because a film may not prompt one. The pressures are age, distance, the possibility that the place or the people are gone, and the traveller's own second thoughts on the way. It can end with something done and nothing changed, with something done and a real change, with the traveller stopping short, or with the journey never being made at all. Reality decides, and the honest likelihood is a small act and an unresolved feeling."
+  },
+  "concept_merge": {
+    "why_together": "C022 supplies the teaching that makes the journey a concept rather than a portrait: the compendium's own example of remorse is a wrong done in youthful pride and recalled in old age [C022-P:L141], and it separates two things ordinary language runs together, simply remembering a wrong, which it does not treat as the fault, from the churning self-punishment that goes over it again and again, which it says makes the wrong heavier rather than lighter [C022-P:L143]. C026 supplies where that state lives: remorse arises only in the two hate-rooted minds, only on some occasions, and never together with envy or stinginess, which come one at a time [C026-P:L39], and Margaya names the conditions under which such a mind cannot arise at all, among them a mind already set on something good [C026-M:L15].",
+    "what_it_reveals": "That the alternative to brooding, on these sources' own account, is not forgetting and not forgiving oneself but doing something now, and that this is a claim about what a mind can hold rather than a piece of advice. Neither concept shows it alone: C022 gives the diagnosis and the surprising verdict that guilt does not cleanse, and C026 gives the mechanism, that the state cannot occupy a mind that is occupied otherwise. A journey made to do one small thing is the shape of both at once."
+  },
+  "concept_links": [
+    {
+      "concept_id": "C022",
+      "role": "primary",
+      "why": "Remorse is one of the fourteen, and Pradeepika's principal example of it is precisely this situation: wrongs done in the pride of youth, recalled in old age [C022-P:L141]. Its most surprising teaching is the one the film is built on: simply recalling a past wrong is not the fault, while brooding over it makes a small wrong heavier and brooding over good left undone does no good at all, because it drains the energy to do good now [C022-P:L143]. The digest is explicit that both popular slogans distort this: 'guilt is good for you, remorse purifies' is rejected by the source itself, and 'never feel bad about what you did' distorts it in the other direction. One claim in this material is deliberately not used. The digest flags as needing expert checking the statement that strong remorse can be overcome only with the help of Buddhas, paccekabuddhas or arahants [C022-P:L151], so the film makes no claim about what can or cannot lift this person's regret, and in particular does not present their journey as a method."
+    },
+    {
+      "concept_id": "C026",
+      "role": "supporting",
+      "why": "Remorse belongs to the hate tetrad: it arises only in the two hate-rooted minds, only occasionally, and never in the same moment as envy or stinginess, which each arise alone [C026-P:L39]. Margaya alone gives the conditions under which such minds cannot arise: while one sees the danger in the act, while shame and dread are awake, or while the mind rests in something good [C026-M:L15], which is the sources' own ground for preferring a small act now to another year of going over it. The digest's first limit governs the film: this is a study scheme about single moments of mind, not a way of reading a person, and the camera cannot show which factor is present."
+    }
+  ],
+  "what_the_viewer_could_understand": "The texts make a distinction most of us do not: remembering a wrong is not the problem, and going over it again and again is, because it makes the thing heavier and uses up the energy that could do some good now. They do not say guilt cleanses anybody, and they do not say a person should stop caring. They say the state cannot occupy a mind that is occupied by something good.",
+  "what_must_be_real": "The journey must be the person's own idea and already decided before a camera is involved; no return, meeting or apology may be arranged, suggested or paid for. Nothing may be re-visited for a second take. Third parties from the past are not sought out, named or contacted by the film, and are approached only where the traveller has already done so and they have consented on their own account. The person leads what is disclosed and may withdraw any of it, and the film may not require them to say what they did.",
+  "position_hint": "closing candidate if it were ever slated: it is a film about what is left when the heat has burned out and only the account remains, which is the group's own handover. Held rather than placed, so its position is a question for whoever finds a slot. No location reasoning is involved.",
+  "risks": [
+    "Extracting a confession, or making disclosure the price of the film.",
+    "Exposing people who were harmed, or making them into material for someone else's resolution.",
+    "Presenting the journey as a remedy the sources endorse, when the digest flags the source's own claim about what lifts strong remorse as needing expert checking.",
+    "Letting the film say that guilt cleansed this person, which is the reading the source itself rejects.",
+    "The opposite drift, a film that tells an old person they should stop feeling bad.",
+    "A journey with a small act at the end of it may not carry a film, and the smallness is the point, which is a real editorial tension."
+  ],
+  "drop_if": [
+    "No person is already planning such a return of their own accord.",
+    "The story cannot be told without identifying people who have not consented.",
+    "The film would be the reason the journey happens."
+  ],
+  "connections": [
+    {
+      "idea_id": "IDEA-0037",
+      "relation": "pairs with",
+      "note": "Two people living with what they did: one who works among others daily, one who goes back once."
+    },
+    {
+      "idea_id": "IDEA-0045",
+      "relation": "alternative to",
+      "note": "Two ways for the group to end: a decision that will not land, and a wrong that cannot be undone."
+    }
+  ],
+  "selection": {
+    "recommendation": "hold",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Created to close a factor-level gap: remorse is named in the group's own depth and lesson, is one of the four readings the C022 digest gives at length, and is carried by no kept idea. There is no slot in the nine episodes, so it is held for a slate revision or for the group that takes up what is left after the heat."
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No participant or event has been found or confirmed. Everything here is a research direction."
+  ],
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
+}

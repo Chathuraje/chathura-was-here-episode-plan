@@ -4,9 +4,9 @@
   "record_type": "idea",
   "title": "The Opposing Good",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-20",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
@@ -14,14 +14,14 @@
   "logline": "A person who once did real harm now spends every day doing quiet, repeated service at a community kitchen, without ever explaining why to the people they serve.",
   "human_question": "Can steady, ordinary good work actually answer for something done long before?",
   "situation": {
-    "what_happens": "Someone who did serious harm in the past now does daily, unglamorous service in a place that feeds or shelters people: cooking, serving, carrying, cleaning up. The work is repetitive and public; the reason is private, and most of the people served do not know it. Over months the person keeps turning up, and whatever the work is doing for them happens at the speed of ordinary habit rather than in a moment of confession.",
-    "who_is_involved": "The volunteer; the organisation that took them on, and the people who run it; the people who eat or sleep there, who are not part of anybody's redemption; and, unseen and unfilmed, whoever was harmed.",
-    "what_is_at_stake": "For the volunteer, whether the work actually lightens anything, and what it would cost to be recognised. For the organisation, the dignity of its people and its standing in the neighbourhood. For the film, the absolute requirement that a person's past is never disclosed beyond what they choose to say.",
-    "how_it_unfolds": "Arrangements like this usually begin quietly, through someone who vouches, settle into routine, and are tested by perfectly ordinary things: illness, a paid job, money, somebody who recognises them. They tend to end by fading rather than by resolution. Reality decides whether this person wants to say anything at all about why they come, and the film has to work even if the answer is no."
+    "what_happens": "Someone who did serious harm in the past now does daily, unglamorous service in a place that feeds or shelters people: cooking, serving, carrying, cleaning up. The work is repetitive and public; the reason is private, and most of the people served do not know it. Over months the person keeps turning up, and whatever the work is doing for them happens at the speed of ordinary habit rather than in a moment of confession. The place itself runs on whatever arrives: rice and vegetables given by growers, traders and households whose own year decides what they can spare. A bad season reaches the kitchen twice, as less coming in at the back and more people queuing at the front, and the work goes on inside that.",
+    "who_is_involved": "The volunteer; the organisation that took them on, and the people who run it; the people who eat or sleep there, who are not part of anybody's redemption; the growers, traders and households who supply the food, whose season and prices decide what the kitchen has to give; the day labourers among those who eat there, who are the first to lose work when a season fails; and, unseen and unfilmed, whoever was harmed.",
+    "what_is_at_stake": "For the volunteer, whether the work actually lightens anything, and what it would cost to be recognised. For the organisation, the dignity of its people and its standing in the neighbourhood, and the plain question of supply: a kitchen is held open by several forces at once and can be closed by any one of them, a failed season, a price, a withdrawn donor. For the people who depend on it, whether it is open tomorrow. For the film, the absolute requirement that a person's past is never disclosed beyond what they choose to say.",
+    "how_it_unfolds": "Arrangements like this usually begin quietly, through someone who vouches, settle into routine, and are tested by perfectly ordinary things: illness, a paid job, money, somebody who recognises them. They tend to end by fading rather than by resolution. The kitchen's own year runs on the same shape as a growing season, a fixed calendar and an unfixed outcome: what is started has to be kept up, can be worn down by an ordinary run of bad weeks, and can be cut off outright by one. Reality decides both, and it decides whether this person wants to say anything at all about why they come; the film has to work even if the answer is no."
   },
   "concept_merge": {
     "why_together": "Kamma by function (C055) says that results are produced by one action and then propped up, worn down or cut off by others, and the source draws its own picture of this as a farming season: seed sown, the crop tended, a drought that weakens it, a fire that ends it. Its practical conclusion is that someone who has done wrong should deliberately take up the opposing good. The ten unwholesome courses of action (C058) gives harm a definite shape and weight, so that the opposing good is not vague self-improvement. Together they put a mechanism behind a volunteer's routine: not a balance being paid off, but a weaker force being overridden by a stronger.",
-    "what_it_reveals": "That a life's outcome is layered, with several forces acting at once, one starting something, another supporting it, another wearing it down, and that this is the opposite of fate. No act has the last word, and what the source recommends in response to harm is action, repeated, rather than remorse. It also shows the limit: the film can watch the routine and can never see whether it has weakened anything."
+    "what_it_reveals": "That a life's outcome is layered, with several forces acting at once, one starting something, another supporting it, another wearing it down and another ending it, and that this is the opposite of fate. No act has the last word, and what the source recommends in response to harm is action, repeated, rather than remorse. Folding in the growing season gives the film somewhere the four functions can actually be watched rather than only stated: the kitchen's own supply is begun, propped up, worn down and sometimes cut off inside the film's frame, on a calendar nobody in it controls. It also shows the limit, which no merge removes: the film can watch the volunteer's routine and can never see whether it has weakened anything."
   },
   "concept_links": [
     {
@@ -43,7 +43,8 @@
     "Imposing a redemption narrative the person has not chosen",
     "Harm to the privacy and feelings of anyone they hurt",
     "Letting service read as payment that nets a debt to zero, which the sources deny",
-    "Reading anyone's hardship, the volunteer's or the people served, as their kamma"
+    "Reading anyone's hardship, the volunteer's or the people served, as their kamma",
+    "Letting a supplier's failed season, a price, or the kitchen running short be read as a result of anyone's past actions, or as the four functions illustrating themselves on real people"
   ],
   "drop_if": [
     "No volunteer will take part on these consent terms",
@@ -59,7 +60,7 @@
     {
       "idea_id": "IDEA-0141",
       "relation": "absorbs",
-      "note": "The paddy-season idea is merged here, bringing the source's own field image and with it the full set of four functions, not only the later good that weakens an earlier harm."
+      "note": "The paddy-season idea is merged here, bringing the source's own field image and with it the full set of four functions, not only the later good that weakens an earlier harm, and bringing its situation too: a year on a fixed calendar with an unfixed outcome, carried by people who depend on it, which the kitchen now has in its own supply."
     }
   ],
   "selection": {
@@ -68,7 +69,7 @@
       "IDEA-0141"
     ],
     "superseded_by": null,
-    "reason": "Used by its episode, and now carries the whole of kamma by function after the farming-season idea was folded in."
+    "reason": "Used by its episode, and after the farming-season idea was folded in it carries the whole of kamma by function together with a situation, the kitchen's own supply and season, in which the four functions can be observed rather than only stated."
   },
   "source_doc": null,
   "unknowns": [

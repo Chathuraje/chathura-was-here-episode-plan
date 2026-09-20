@@ -4,93 +4,77 @@
   "record_type": "idea",
   "title": "The Bid",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "At a harbour fish auction, hands rise and fall in seconds, and a trader must decide, before doubt catches up with them, whether this is the lot worth having.",
+  "logline": "On an auction floor hands rise and fall in seconds, and a trader has to make up their mind before doubt catches up with them.",
   "human_question": "What does it take, in a moment of real money and real doubt, to actually make up your mind?",
-  "premise": {
-    "story": "A fish auction at a working harbour, where traders bid fast on lots as they come off the boats, and doubt, decision and regret all show on the auction floor in public.",
-    "place": "A fishing harbour's wholesale auction floor at dawn.",
-    "experience": "The viewer feels the speed and pressure of the auction, and starts to notice the small, visible moment where hesitation turns into a raised hand, or doesn't."
+  "situation": {
+    "what_happens": "Lots come up fast and are sold in seconds each. A trader sees a lot, judges it, and either bids or does not, and there is no time to think it through; a hand that goes up late has already lost. Money changes hands on judgements made under open scrutiny, and the winners and losers of each lot are visible to everybody standing there. Afterwards traders talk about what they got and what they let go, which is the only place the hesitation gets described in words.",
+    "who_is_involved": "The traders, most of them regulars who know each other's habits; the auctioneer, whose pace sets everything; the producers whose goods are being sold and who may or may not be present; the carriers and small buyers whose day depends on the floor clearing quickly.",
+    "what_is_at_stake": "A margin on perishable goods that must be resold the same day, and in a bad hour, a real loss. For a producer, the whole worth of the work. For a trader who hesitates once too often, a standing that takes a long time to rebuild.",
+    "how_it_unfolds": "Trading like this starts when the goods arrive and is over fast because they spoil. The pressures are volume, quality, how many buyers turned up and how much cash each has. It ends with everything sold, with a lot unsold, or with a dispute, and nothing about which of those happens can be arranged."
+  },
+  "concept_merge": {
+    "why_together": "C025 contributes the sources' rule that decision and doubt cannot occupy the same moment, together with the wider point their tables make, that effort, decisiveness, joy and the wish to act are ethically neutral and turn up in harmful and generous minds alike. C029 contributes what the machinery underneath carries: the bare moment of seeing has only the seven universals, receiving and investigating add landing on the object, staying with it and settling, determining adds effort for the first time, and none of them contains any wish to act at all. C009 contributes the bare rootless seeing itself, which carries no verdict about price or quality. An auction floor is where the line between all of that and the response that follows has money on it.",
+    "what_it_reveals": "The sources' table says the wanting only arrives after the machinery has finished. A trading floor shows what that looks like when it costs something: the lot is seen by everyone in the same bare way, and what separates the traders is entirely what happens after. It also keeps the film from a moral about greed, because the digest is explicit that drive and decisiveness are not virtues here and appear equally in harmful minds."
   },
   "concept_links": [
     {
       "concept_id": "C025",
       "role": "primary",
-      "why": "The source states that decision and doubt cannot occupy the same moment [C025-P:L69]. The auction floor is a place where the switch from doubt to decision is unusually visible and has real stakes."
+      "why": "The digest reports the source's reason for one of its exclusions directly: decision cannot coexist with doubt, so where one is present the other is not [C025-P:L69]. It also says the bare moments of seeing and hearing carry none of the six occasional factors, no effort, no wish, no decision. Two of the digest's limits are written in: energy, passion and decisiveness are not virtues in this framework and appear equally in harmful minds, so a film may not present drive as good in itself on the strength of this concept; and the counts, 55, 66, 78, 73, 51, 69, are a student's memorisation aid and must never appear as if they were measurements."
     },
     {
       "concept_id": "C029",
       "role": "supporting",
-      "why": "The source's account of which of the thirteen ethically variable factors combine in which minds shows decision, effort and doubt as a shifting, neutral toolkit; the auction shows the same toolkit under real financial pressure."
+      "why": "The digest reads the table as a small story: the bare moment of seeing carries only the seven basics; receiving and looking over add the capacity to land on the object, stay with it and settle on it; the step that fixes what the thing is adds effort for the first time; and not one of these steps contains any wish to do something, so the wanting only arrives after the machinery has finished [C029-P:L31-L55]. The digest's guard is carried: 'no wish-to-act in the early stages' is not 'we have no free will', and the factor counts are an analytical aid, not measurements of brain activity."
     },
     {
       "concept_id": "C009",
       "role": "supporting",
-      "why": "The bare, rootless moment of seeing a lot of fish arrive, before any judgement of price or quality, is the sensing layer the source describes beneath every bid that follows."
+      "why": "The digest describes the rootless sensing layer as weak, carrying no verdict of its own and, for sight and hearing, only neutral feeling [C009-P:L29-L60]. The moment a lot comes into view, before any judgement of price or quality, is that layer. The digest's guard that the source's treatment of pleasant and unpleasant contact as the result of past action must never become 'people get what they deserve' applies to everyone on the floor, winners and losers alike."
     }
   ],
-  "what_camera_could_observe": [
-    "Lots of fish tipped out or displayed",
-    "Traders' eyes and hands as bidding opens",
-    "A raised hand, a withdrawn bid, a hesitation",
-    "The auctioneer's call and the moment a lot is sold",
-    "Traders afterward, discussing what they got and what they missed"
-  ],
-  "what_must_be_real": "The traders' real money and livelihoods; no staged bids or manufactured drama. The economics of fishing families behind the auction must not be reduced to metaphor.",
-  "possible_arc": {
-    "opening": "Boats come in; the day's lots are laid out.",
-    "turn": "A difficult lot, uncertain quality, a rival bidder, a tight budget, forces a real decision.",
-    "ending_open": "The morning's trading ends as it actually does, with winners and losers on both sides."
-  },
-  "position_hint": "middle: a fast, public, high-stakes setting that contrasts with the group's quieter craft-based films.",
-  "location": {
-    "requirements": [
-      "An active wholesale fish auction at a working harbour",
-      "Trader and auctioneer consent to filming real transactions",
-      "Safe camera positions amid fast-moving, wet, crowded conditions"
-    ],
-    "suggestions": [
-      {
-        "name": "Negombo Fisheries Harbour (Lellama)",
-        "region": "Western Province",
-        "why": "A major, well-known fishing harbour with an active wholesale auction.",
-        "season_notes": "",
-        "access_notes": "Early-morning access and harbour authority permission would be needed.",
-        "verify": "Specific auction schedules and trader consent are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "These texts say that making up your mind and real doubt cannot occupy the same moment, and that the machinery of noticing that runs before it carries no wish to act at all. On a trading floor that line is visible, and it costs money.",
+  "what_must_be_real": "Real lots, real money and real losses, with no bid staged or re-run. The livelihoods behind the goods may not be reduced to a setting for an idea about decisiveness, and no trader's bad hour may be edited into a character judgement.",
+  "position_hint": "middle: its substance now sits inside the group's film about a fast public ruling, and it belongs wherever that film belongs.",
   "risks": [
-    "Portraying traders as simply greedy rather than as people managing real risk",
-    "The economics of fishing families should not be reduced to a metaphor for a mental-factor lesson",
-    "Fast, crowded, wet conditions carry real safety and equipment risks"
+    "Portraying traders as greedy rather than as people managing real risk.",
+    "Reducing the economics behind the goods to a metaphor for a mental-factor lesson.",
+    "Presenting drive and decisiveness as virtues, which this concept's digest explicitly rules out.",
+    "Fast, crowded conditions carrying real safety and equipment risk."
   ],
   "drop_if": [
-    "No harbour or auction allows filming of real trading",
-    "Traders do not want their bidding and losses shown on camera",
-    "The auction turns out to be too small or irregular to sustain a film"
+    "No auction allows real trading to be filmed.",
+    "Traders do not want their bidding and their losses shown.",
+    "The trading turns out to be too small or too irregular to sustain a film."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0083",
+      "relation": "merged into",
+      "note": "Its doubt-into-decision strand and its C029 and C009 links, the neutral machinery that carries no wish to act, now sit inside IDEA-0083."
+    },
+    {
       "idea_id": "IDEA-0088",
       "relation": "leads into",
-      "note": "A public decision made under pressure and doubt leads naturally into the group's closing film about a harder, more consequential decision."
+      "note": "A fast public decision made under doubt leads into a harder decision made under real scarcity, with the stake on someone else."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0083",
+    "reason": "Folded into IDEA-0083, which holds the group's slot on a fast public ruling and now carries C029 and C009 and the doubt-cannot-share-a-moment material with real stakes attached."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

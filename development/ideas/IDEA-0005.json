@@ -4,97 +4,80 @@
   "record_type": "idea",
   "title": "The Same Boat",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "A fisherman's boat has been repaired so many times that no original plank is left, but everyone still calls it by the same name.",
+  "logline": "A working boat is hauled out and opened up, and for several weeks the thing everyone still calls by its one name is a stack of separate parts lying on the sand.",
   "human_question": "If every part has changed, what is it that stays 'the same'?",
-  "premise": {
-    "story": "A boat's repair season told through the fisherman, the carpenter and the boat's history.",
-    "place": "A fishing beach or lagoon where boats are hauled up and mended.",
-    "experience": "Salt, wood, tar and the sea: an old vessel made new again."
+  "situation": {
+    "what_happens": "A boat that has been repaired for years, to the point where little of the original hull remains, comes out of the water for a major repair. It is taken apart further than usual: planks prised off, ribs cut out, fastenings drawn, the good timber kept and the rotten burned or turned into something else. For a while there is no boat, only its parts and its name, and everyone on the beach goes on using the name for the heap. Then it is closed up again, the name is repainted on the bow, and it goes back to work. Somewhere in that sequence the parts became the boat again, and nobody can say exactly when.",
+    "who_is_involved": "The owner, whose income stops while the boat is out of the water; the carpenter doing the work, who knows which parts are original because he replaced the others; the crew who fish from it; and the people who take the discarded timber away for fences, firewood or a patched roof.",
+    "what_is_at_stake": "Money, directly: every week ashore is a week not fishing, and the cost of timber decides how much gets replaced and how much is patched again. For the carpenter, a judgement he will be blamed for if the repair fails at sea. For the older owner, the question of whether the boat outlasts him or he outlasts it.",
+    "how_it_unfolds": "It begins with a decision that the repair can no longer be postponed, and proceeds by discovery, since nobody knows how far the rot has gone until the hull is open. The pressures are weather, money, the availability of timber and the fishing season passing. It can end with a boat back at sea, with a repair that turns out to be uneconomic and a boat abandoned or sold, or with a hull that is quietly replaced rather than repaired. Reality decides, in the form of what is found inside the planks."
+  },
+  "concept_merge": {
+    "why_together": "C001 gives the sources' own test, and it is a test of division, not of endurance. The Margaya says a table is legs and boards, that laying the pieces on the floor leaves no table although nothing was destroyed, and that what is left when dividing can go no further is what it calls ultimate [C001-M:L46; C001-M:L52–L56]. C084 gives the same test in its plainest form, folded in from IDEA-0002: divide a thing, and if what seemed to be there disappears, as cloth disappears into thread, it was a concept [C084-M:L7]. C077 gives the reason anyone bothers: the same taking-apart is what the sources turn on a person, gathering everything conditioned into heaps in order to loosen the habit of saying 'I' and 'mine' [C077-P:L984; C077-P:L996–L1010; C077-M:L24]. A boatyard is where the test can be performed on something a family's income depends on.",
+    "what_it_reveals": "That the interesting fact is not that the name survived the replacement of the parts, but that the name survived the parts being separated at all. The first is a puzzle about identity over time, which is not what these sources are discussing; the second is their actual claim. Seen together, a heap of timber that everyone calls a boat shows the concept doing its work with no boat present, and the same method, applied later to a person, stops being an abstraction."
   },
   "concept_links": [
     {
       "concept_id": "C001",
       "role": "primary",
-      "why": "The conventional 'same boat' against its ever-changing parts."
-    },
-    {
-      "concept_id": "C077",
-      "role": "supporting",
-      "why": "Analysing a whole into constituents, the method the series later turns on the self."
+      "why": "The Margaya's table is the model: no leg and no board is the table, and apart from the pieces there is no table, so the name belongs to an arrangement and not to an extra hidden thing [C001-M:L46], with what remains when division ends called ultimate [C001-M:L52–L56]. The earlier draft grounded this film in the boat keeping its name while its parts changed, which is the Greek puzzle about identity over time and, as the digest warns in as many words, not this source's point; it concerns composites, not persistence. Re-grounded on division: the film's spine is the weeks in which the boat is in pieces. The digest also blocks the flattening of the Margaya's blunt 'does not truly exist' into 'nothing is real'."
     },
     {
       "concept_id": "C084",
       "role": "supporting",
-      "why": "A collective concept that survives total replacement of its parts."
+      "why": "The Margaya's division test in its clearest form: pull cloth apart and only thread is left, so cloth is a concept and thread the more basic reality [C084-M:L7], and the boat is a collective concept of the same kind, named for an arrangement of parts. Folded in from IDEA-0002. The limit the digest attaches goes with it: conventional wholes remain useful and valid in their own domain, and the film must never tell the owner that the name he uses for his boat is wrong."
+    },
+    {
+      "concept_id": "C077",
+      "role": "supporting",
+      "why": "The compendium gathers everything conditioned into five heaps and says plainly why: the division exists to take apart the habit of saying 'I' and 'mine' about each of them [C077-P:L984; C077-P:L996–L1010; C077-M:L24]. This film performs that method on an object, which is the only place in the group it can be performed without using a person as a demonstration. The digest's bar is carried with it: the analysis is not the claim that you do not exist, and it is not a psychology of personality components."
     }
   ],
-  "what_camera_could_observe": [
-    "Old planks removed, new ones shaped",
-    "The boat's name painted or repainted",
-    "The first launch after repair",
-    "The fisherman's memories of the boat"
-  ],
-  "what_must_be_real": "The boat's actual repair history, as told by its owners.",
-  "possible_arc": {
-    "opening": "The boat hauled out, tired.",
-    "turn": "Plank by plank, the old boat disappears.",
-    "ending_open": "The 'same' boat goes back to sea."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A boat undergoing substantial repair",
-      "Owner and carpenter willing",
-      "Access to the launch"
-    ],
-    "suggestions": [
-      {
-        "name": "Negombo lagoon (oruwa outrigger canoes)",
-        "region": "Western Province",
-        "why": "Traditional outrigger boats still built and repaired.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "East-coast fishing beaches (e.g. near Arugam Bay)",
-        "region": "Eastern Province",
-        "why": "Beach-hauled boats and a strong fishing community.",
-        "season_notes": "East-coast fishing season, roughly Apr–Oct",
-        "access_notes": "",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That a boat can keep its name even when every plank has been replaced, because the name belongs to the way the parts are put together and to the shared story, not to any one piece of wood. Take the boat apart and what you find is planks, not 'a boat'.",
+  "what_must_be_real": "The boat's actual repair history as its owners tell it, the actual economics of the repair, and the carpenter's actual judgements. Nothing is dismantled further than the repair requires, nothing is taken apart for the camera, and no timber is moved or arranged to make the point clearer.",
+  "position_hint": "middle: it is the first film in the group where the test is performed rather than described, and it needs the earlier films' simpler naming behind it. No location reasoning is involved.",
   "risks": [
-    "Too neat a philosophy puzzle (the Ship of Theseus); the owner's life must carry it"
+    "Becoming a neat philosophy puzzle; the digest names the Ship of Theseus specifically as the wrong frame for these sources.",
+    "The owner's livelihood used as a setting for an argument rather than as the story.",
+    "Flattening the Margaya's blunt wording into 'nothing is real'.",
+    "Suggesting to the owner, or to the viewer on his behalf, that his boat's name is a mistake.",
+    "Filming a dangerous or poorly paid job as picturesque craft."
   ],
   "drop_if": [
-    "No substantial repair in the filming window"
+    "No substantial repair happens within the window, so the boat is never actually opened up.",
+    "The only available repair is cosmetic, leaving nothing to divide.",
+    "Access can only be had by asking for work to be done differently."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0002",
+      "relation": "absorbs",
+      "note": "Takes in the cloth-and-thread division test, the sources' own example, and the question of the moment at which a heap of parts acquires its name."
+    },
+    {
+      "idea_id": "IDEA-0010",
       "relation": "pairs with",
-      "note": "Parts and wholes."
+      "note": "A whole taken apart and put back together, and a whole taken apart for good."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0002"
+    ],
+    "superseded_by": null,
+    "reason": "Carries its episode, re-grounded on the sources' division test, and strengthened by folding in IDEA-0002's cloth-and-thread example."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

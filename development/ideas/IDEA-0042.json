@@ -4,101 +4,73 @@
   "record_type": "idea",
   "title": "The Even Share",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "At dawn, a beach-seine crew hauls in the night's catch and divides it by a traditional share system that everyone on the beach knows by heart. Every division is a small, quick test of what the crew will and won't hold back.",
+  "logline": "At first light a crew hauls in what they worked all night for and divides it on the spot by a share system everyone present knows by heart, and every division is a small, quick test of what will and will not be held back.",
   "human_question": "When something has been worked for together, what makes sharing it easy, and what makes it hard?",
-  "premise": {
-    "story": "A beach-seine crew's morning: the long haul of the net, the sorting of the catch, and the division into shares under a system worked out long before this crew was born, including whatever is set aside for others beyond the crew itself.",
-    "place": "A working beach at dawn, net stretched wide across the sand and sea.",
-    "experience": "The viewer watches value change hands in real time, fish by fish, and feels the ordinary, unremarked ease or difficulty of a group sharing what it has made together."
+  "situation": {
+    "what_happens": "A catch belongs to nobody until it is divided, and the dividing happens in the open, in front of everyone whose share it is, within an hour of the work ending. The system is old and nobody invented it, which is what makes it interesting: it removes almost all of the deciding, and what remains is a series of very small moments where a person can be exact, generous or reluctant, and where everybody sees which. There are also shares for people who did not pull: the owner of the gear, someone too old to work, whoever was sick that week. Some mornings the whole thing takes ten minutes and nobody speaks. Some mornings it does not.",
+    "who_is_involved": "The crew who did the work; whoever owns the gear and takes a share for it; the older or absent people whose claim the system recognises without their being present; the buyers waiting to take it away at a price nobody controls; and the families the shares are actually for.",
+    "what_is_at_stake": "One morning's money, which in a lean week is the week. Beyond that, a system that only works because people keep accepting it, so every division is also a small vote on whether the system still holds. For the film, not making a crew look petty on a morning when what the camera actually sees is likely to be fairness.",
+    "how_it_unfolds": "It begins with work that is genuinely shared and ends with a value that has to be split. The pressures are the size of the catch, the price that morning, and whoever has a particular need that week. It ends in an easy division, in an argument, or in an adjustment made quietly for somebody who needed it. Reality decides, and a poor catch is an ordinary outcome rather than a failure."
+  },
+  "concept_merge": {
+    "why_together": "C026 supplies the fine distinction the whole film rests on: this holding-back springs from attachment to one's own things, yet it shows itself as displeasure at their being shared, so the sources group it with aversion and not with wanting [C026-M:L19]. C022 supplies its objects and its boundary: both sources give five kinds, gain among them, and Pradeepika separates it from envy by where each looks, envy at other people and this at one's own [C022-P:L133–L135; C022-M:L43–L45]. Dividing a catch is where an inward-facing state has to act outwardly, in public, on a deadline.",
+    "what_it_reveals": "That the moment of sharing is the only moment where this state is visible at all, and that it is visible as a flicker of displeasure rather than as a grab. Neither concept shows that on its own: C022 lists what people hold on to, C026 explains why the holding feels the way it does, and only together do they predict that a generous crew and a reluctant one will look almost identical except for a half-second at the moment of handing over. They also predict what the film is most likely to find, which is that the system works and nobody minds."
   },
   "concept_links": [
     {
       "concept_id": "C026",
       "role": "primary",
-      "why": "The sources make a fine distinction: this state of mind grows out of attachment to one's own things, yet it shows itself as displeasure at those things being shared, used, matched or even known about, so it is grouped with aversion, not with wanting [C026-M:L19]. The moment of dividing a catch is exactly where that displeasure, or its plain absence, becomes visible."
+      "why": "Margaya explains why this factor sits where it does: although it springs from attachment to one's own things, it arises with aversion, never with greed, because what it consists of is displeasure at those things being shared [C026-M:L19]. Pradeepika adds that it occurs only in the two hate-rooted minds, only on some occasions, and never together with envy or remorse, which come one at a time [C026-P:L39]. The moment of dividing a catch is exactly where that displeasure, or its plain absence, would have to show. Two of the digest's limits belong in the link: 'stinginess is greed' is the English equation the source refuses, and the scheme is not a way of reading people, since a camera cannot show which factor is present in anyone and the film must not claim it can."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "One of the five things this state clings to is gain (lābha): not wanting one's own gain matched or shared by someone else [C022-P:L133–L135; C022-M:L43–L45]. A shared catch, divided in view of the whole crew, is a plain, daily test of exactly that."
+      "why": "Both sources give five kinds of this holding-back, and gain is one of them: not bearing one's own gain to be shared with or matched by another [C022-P:L133–L135; C022-M:L43–L45]. A catch divided in view of the whole crew is a daily test of exactly that. Pradeepika's separation of envy from it is what keeps the film honest about which concept it is looking at: envy takes other people's good fortune as its object, this takes one's own things [C022-P:L133]. The digest flags one of the four aspects as textually unsettled, Margaya's 'indicating' against Pradeepika's 'not bearing others to know of it' [C022-M:L43], so the film does not rest anything on that aspect."
     }
   ],
-  "what_camera_could_observe": [
-    "The haul: the crew working the net in together, in rhythm",
-    "The catch sorted on the sand",
-    "The division into shares, fish by fish or basket by basket",
-    "Any set-aside portion for others beyond the crew",
-    "Easy agreement, or a moment of dispute, however it actually goes"
-  ],
-  "what_must_be_real": "The crew, the haul and the division must be a real, ordinary working morning. No dispute or generosity may be prompted, and the crew must not be shown as either petty or virtuous beyond what actually happens.",
-  "possible_arc": {
-    "opening": "First light, the net already out in the water.",
-    "turn": "The haul comes in and the catch is sorted for division.",
-    "ending_open": "However the division actually goes, and whatever is said about it, ends the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A beach-seine fishing community that still practises a traditional share system",
-      "A crew willing to be filmed through a full haul and division",
-      "Predawn or dawn access to the beach"
-    ],
-    "suggestions": [
-      {
-        "name": "Mirissa",
-        "region": "Matara district, Southern Province",
-        "why": "A well-known south-coast fishing town with active beach-seine crews alongside other fishing methods.",
-        "season_notes": "West and south coast fishing season generally runs outside the south-west monsoon.",
-        "access_notes": "",
-        "verify": "Confirm a specific crew still using the traditional share system and willing to be filmed.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "Tangalle",
-        "region": "Hambantota district, Southern Province",
-        "why": "Another well-known south-coast fishing town with a working beach-seine tradition.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm a specific crew and current practice.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Holding on to what is ours can feel less like enjoying it and more like a small sting when it has to be handed over. The texts notice that, and group that kind of holding back with aversion rather than with wanting. They are equally clear that nobody's mind can be read from outside, and that easy fairness is just as likely to be what a morning of dividing actually contains.",
+  "what_must_be_real": "The crew, the haul and the division must be an ordinary working morning. No dispute and no act of generosity may be prompted, re-done or waited on. The crew may not be shown as either petty or virtuous beyond what actually happens, and a small catch must be filmed as the ordinary working reality it is rather than as a disappointment the film needed.",
+  "position_hint": "middle, and early in the middle: it is the first film in which the state is not obviously hot, which is what lets the group move from anger to the quieter members of the same family. No location reasoning is involved.",
   "risks": [
-    "Implying the crew is petty when generosity and fairness are just as likely to be what the camera sees",
-    "Turning a livelihood into an illustration rather than reporting what actually happens",
-    "Filming a low catch as failure rather than an ordinary working reality"
+    "Implying the crew is petty when generosity and fairness are just as likely to be what the camera sees; the digest's own note on this situation says exactly that.",
+    "Turning a livelihood into an illustration rather than reporting what actually happens on the morning filmed.",
+    "Filming a low catch as failure rather than an ordinary working reality.",
+    "Letting a viewer hear 'stinginess' as greed, which is the equation the sources explicitly refuse.",
+    "Suggesting that a half-second of hesitation at a handover shows a state of mind, which no camera can show."
   ],
   "drop_if": [
-    "No crew still uses a traditional, visible share system",
-    "The crew does not want the division itself filmed"
+    "No crew still uses a traditional, visible share system.",
+    "The crew does not want the division itself filmed.",
+    "The only way to give the film a turning point would be to provoke a dispute over shares."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0033",
-      "relation": "mirrors",
-      "note": "Two fishing-community films: one scarred by a dispute over what is claimed, the other testing what is freely shared at the catch."
-    },
-    {
       "idea_id": "IDEA-0039",
       "relation": "pairs with",
-      "note": "Both examine what people will or won't share: a catch in one, a skill in the other."
+      "note": "Two tests of what is handed over: a catch divided in the open in one morning, a skill divided in private across years."
+    },
+    {
+      "idea_id": "IDEA-0033",
+      "relation": "mirrors",
+      "note": "Two crews and two nets: one marked by what was taken, the other by what is handed out."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries EPD-0021; its primary link is the digest's own explanation of why this factor belongs with aversion, and the situation is the one place that explanation becomes observable."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

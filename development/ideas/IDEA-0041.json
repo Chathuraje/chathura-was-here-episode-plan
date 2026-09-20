@@ -4,92 +4,79 @@
   "record_type": "idea",
   "title": "Which Word Carries the Water",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "Farmers gather under a tree to decide how the tank's water will be shared for the coming season. Elders argue for how it has always been done; younger farmers argue for their own standing and results. The harvest depends on which voice wins.",
-  "human_question": "In an argument that matters, when does a person switch from arguing the facts to arguing their own standing?",
-  "premise": {
-    "story": "A real farmers' organisation meeting deciding water release for an ancient irrigation tank: speeches, interruptions, appeals to tradition, appeals to personal record and standing, and the decision that is finally reached.",
-    "place": "A meeting under a tree or in a village hall, served by a tank that has irrigated this land for generations.",
-    "experience": "The viewer sits in the meeting as the argument moves, without anyone quite noticing, between what is true and who is owed respect, and feels how much a season's harvest rides on the outcome."
+  "logline": "Farmers meet to decide how a season's water will be shared, and the argument keeps sliding between what is true about the water and who is owed respect.",
+  "human_question": "In an argument that matters, when does a person stop arguing the facts and start arguing their own standing?",
+  "situation": {
+    "what_happens": "A shared water supply has to be allocated before cultivation, and the people it feeds decide it among themselves in a meeting that everyone attends because everyone is affected. The arguments are technical at first: how much there is, how long it has to last, which land gets it and when. Then the meeting changes register without anyone announcing it, and what is being asserted is no longer a fact about the water but a claim about the speaker: how long they have farmed, what they did last year, whose father built what. Both kinds of claim are made by the same people, sometimes in consecutive sentences, and both are sincere. A decision has to come out of it anyway.",
+    "who_is_involved": "Every household with land under the same water; the office-holders of the farmers' organisation who have to chair it and then live with the result; people farming the tail end who always get least and know it; people who have held the same position for decades; and newer farmers whose claim rests on results rather than on years.",
+    "what_is_at_stake": "A season's harvest for every household in the room, decided in an afternoon by people who will meet at a funeral next month. For the office-holders, the authority to make anyone accept a decision at all. For the film, not taking a side in a live allocation dispute and not appearing to grade anyone's arguments.",
+    "how_it_unfolds": "It begins with a quantity that is smaller than what everyone needs, which is what makes it an argument rather than an announcement. The pressures are the calendar, the fact that the previous decision is the precedent for this one, and the presence of everybody's neighbours. It ends in a decision, a deferral, a decision that is then quietly ignored in practice, or a walk-out. Reality decides, including whether a meeting happens during any filming window at all."
+  },
+  "concept_merge": {
+    "why_together": "C022 supplies the two grips: wrong view, grasping things otherwise than they are, and conceit, the mis-measuring of oneself as better, equal or worse than others [C022-P:L103–L111; C022-M:L31]. C026 supplies the rule that makes them worth filming together: both sources agree the two never occupy one moment, though they disagree about why. Pradeepika says conceit is as strong an unwholesome state as wrong view; Margaya says they are simply different modes of grasping, one about how things are and one about where one stands [C026-P:L35; C026-M:L17]. A meeting where both kinds of claim are made by the same mouths within a minute of each other is where that distinction stops being a list and becomes something a viewer can hear.",
+    "what_it_reveals": "That a single argument is made of two different activities that sound alike. Neither concept shows this alone: the list alone gives two names, and the association rule alone is an abstract exclusion. Together they let a viewer follow one speaker moving between a claim about water and a claim about themselves, and notice that the second kind never settles anything, because nothing about the water is being asserted. The film does not say which is present in anyone at any moment; it could not, and the sources do not license it to."
   },
   "concept_links": [
     {
       "concept_id": "C022",
       "role": "primary",
-      "why": "The sources distinguish two different ways of holding on that never occupy a mind at the same moment: fixed wrong view, insisting 'this is how things are', and conceit, insisting on one's own rank, 'this is how I stand' [C022-P:L91–L113; C022-M:L27–L31]. A heated meeting about a shared resource is a real place to watch speakers move between these two different grips, without the film needing to name either."
+      "why": "Among the fourteen, wrong view is grasping things otherwise than they are, and conceit is wrongly measuring one's own standing, which both sources give in three directions: better than, equal to and worse than others [C022-P:L103–L111; C022-M:L31]. A heated allocation meeting is a real place to watch speakers move between these two kinds of claim. The digest puts two readings of this exact material out of bounds, and both of them sit directly in this situation's path. First, 'I am inferior' is counted here as a form of conceit, and the digest says this must never be used to moralise about modern low self-worth or depression, which the sources do not discuss; the tail-end farmer who says he always comes last is not an illustration of anything. Second, and more serious for this film, Pradeepika's description of equal-conceit includes egalitarian-sounding statements such as 'we are all equal in every respect' [C022-P:L109], and the digest says plainly that the source is about how a person measures themselves, not a teaching against social equality, and that quoting it out of context would badly mislead. In a film about people arguing for an equal share of water, that line could be made to say that claiming an equal share is a fault. The digest additionally flags L109 as needing expert confirmation before any public use. The film therefore uses only the general distinction between the two grips, never the sub-kinds of birth, virtue and merit [C022-P:L107], and never applies equal-conceit to anybody's claim."
     },
     {
       "concept_id": "C026",
       "role": "supporting",
-      "why": "Both sources agree these two never coincide in one moment, though they explain it differently: Pradeepika says conceit is as strong an unwholesome state as wrong view, so the mind cannot hold both at once; Margaya says they are simply different kinds of grasping, over what is true and over where one stands [C026-P:L35; C026-M:L17]."
+      "why": "Both sources agree that wrong view and conceit never arise in the same moment of mind, and they give different reasons for it: Pradeepika because conceit is as strong an unwholesome state as wrong view [C026-P:L35], Margaya because both grow with attachment but grasp differently, one at permanence and the like and one at superiority [C026-M:L17]. The film leaves that disagreement standing rather than choosing a side. The digest's first limit governs the whole idea: this is a study scheme about single moments of mind, not a diagnostic tool, a camera cannot show which factor is present, and the film must not claim to."
     }
   ],
-  "what_camera_could_observe": [
-    "The meeting itself: seating, order of speaking, interruptions",
-    "Elders appealing to precedent and how things have always been done",
-    "Younger farmers appealing to their own results, effort or standing",
-    "The moment the argument turns personal, and the moment it turns back to the water",
-    "The final decision, and the walk home"
-  ],
-  "what_must_be_real": "The meeting, the dispute and its outcome must be genuine and unscripted, with every participant's consent. Every side must be shown fairly and the film must not take a position on who was right.",
-  "possible_arc": {
-    "opening": "The tank at dawn, low or full depending on the season.",
-    "turn": "The meeting grows heated, and voices shift between fact and standing.",
-    "ending_open": "Whatever the farmers actually decide, and how they carry it afterwards, ends the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A village served by an ancient irrigation tank with an active farmers' organisation",
-      "A genuine water-allocation meeting occurring during the filming window",
-      "Consent from all participants, including those on both sides of the dispute"
-    ],
-    "suggestions": [
-      {
-        "name": "A tank-irrigated farming village",
-        "region": "Anuradhapura or Polonnaruwa district, North Central Province",
-        "why": "The dry zone's ancient tank-irrigation system remains central to village farming life and organised water-sharing decisions in this region.",
-        "season_notes": "Tied to the seasonal water-release cycle ahead of cultivation.",
-        "access_notes": "",
-        "verify": "A specific tank, village and meeting must be found and confirmed; this is a region-level suggestion only.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "In a heated argument, holding on to a view and holding on to one's own standing are two different grips, and the texts say they never share a moment, which is why a person can switch between them without noticing and why an argument can go round for an hour without anything about the subject being settled. None of this tells you which is happening in anyone; the texts describe moments of mind, not the people in front of you.",
+  "what_must_be_real": "The meeting, the dispute and its outcome must be genuine and unscripted, with every participant's consent, including those who lose. Nothing may be re-said for the camera and no speaker may be asked to characterise another. Every side is shown as it argued, the film takes no position on who was right, and nothing in the edit may line up one group of speakers with one concept and another group with the other.",
+  "position_hint": "middle: the group's argument film, and it needs to come after the state itself has been established, because its subject is not the heat but the different ways a mind grips while the heat is on. No location reasoning is involved.",
   "risks": [
-    "Turning a real dispute over livelihoods into a simple morality play",
-    "Appearing to take a side in a genuine, ongoing community disagreement",
-    "Identifying individuals in ways that could affect real standing or relationships in the village"
+    "Sorting the room by generation, so that older speakers illustrate one grip and younger speakers the other; the earlier logline did exactly that and has been rewritten.",
+    "Allowing the source's equal-conceit description to be heard as a judgement on anyone claiming an equal share of a shared resource [C022-P:L109].",
+    "Using 'I am inferior is a form of conceit' anywhere near a person describing real disadvantage.",
+    "Turning a real dispute over livelihoods into a morality play, or appearing to take a side in an argument that will still be live after the film.",
+    "Identifying individuals in ways that damage their standing or their relationships afterwards.",
+    "Suggesting the film can tell which factor is present in any speaker, which the digest rules out."
   ],
   "drop_if": [
-    "No genuine water-allocation meeting occurs during the filming window",
-    "Participants are unwilling to have a real dispute filmed"
+    "No genuine allocation meeting occurs during the filming window.",
+    "Participants are unwilling to have a real dispute filmed, or consent is not freely given by the people likely to lose.",
+    "The material could only be cut into a film by assigning the two grips to identifiable people."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0035",
-      "relation": "pairs with",
-      "note": "Both are set in dry-zone farmland where a real threat to a livelihood tests fear and anger together."
+      "idea_id": "IDEA-0038",
+      "relation": "follows",
+      "note": "From a crowd with nobody to blame to neighbours with a great deal to argue about."
+    },
+    {
+      "idea_id": "IDEA-0043",
+      "relation": "leads into",
+      "note": "The same shared work seen twice: once as an argument about who gets it, once as a day of doing it."
     },
     {
       "idea_id": "IDEA-0039",
       "relation": "alternative to",
-      "note": "Two possible studies of status and possession; a slate might choose one over the other to avoid repetition."
+      "note": "Two studies of standing and possession; a slate might choose one over the other to avoid repetition."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries EPD-0024 and is the only film in the group about how a mind holds on rather than how hot it is; kept with the digest's equal-conceit warning written into the link, the risks and the logline."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

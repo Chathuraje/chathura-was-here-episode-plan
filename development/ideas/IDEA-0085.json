@@ -4,93 +4,91 @@
   "record_type": "idea",
   "title": "The Score for a Vanishing Sound",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "A drumming teacher passes on a rhythm as spoken syllables before letting a student near the drum, a way of writing down, in sound, something that happens too fast to see.",
-  "human_question": "How do you teach someone something that happens faster than it can be watched?",
-  "premise": {
-    "story": "A traditional drumming teacher in a village or town household teaches an apprentice a rhythm through spoken syllables, correcting and repeating until the pattern becomes automatic.",
-    "place": "A traditional drumming teacher's home or practice space.",
-    "experience": "The viewer watches an invisible, fast sequence become audible, memorable and eventually automatic, and feels what it takes to turn something too quick to grasp into something a person can learn and repeat."
+  "logline": "A drumming teacher passes on a rhythm as spoken syllables before letting a student near the drum, a way of writing down, in sound, something that happens too fast to watch.",
+  "human_question": "How do you hand on something that happens faster than it can be watched?",
+  "situation": {
+    "what_happens": "A teacher teaches a rhythm by saying it. The student repeats the syllables, gets them wrong, repeats them again, and is not allowed near the instrument until the pattern is secure in the mouth. Only then do the hands take it over, badly at first, and then, after weeks or months, without any deliberate steering at all. The teacher corrects by making the sound again rather than by explaining, because the thing being taught cannot be described, only produced.",
+    "who_is_involved": "The teacher, often carrying a tradition that came to them the same way; the student, who may be a family member, may be paying, and may not last; and whoever will eventually be on the receiving end of the rhythm when it is used for real, which is the reason it has to be exact.",
+    "what_is_at_stake": "For the student, whether the pattern will ever be theirs. For the teacher, whether something that exists only in living practice survives another generation, and whether this particular student is the one. For a tradition with few teachers left, more than either of them says.",
+    "how_it_unfolds": "Teaching like this runs over months and is measured in a student's failures. The pressures are time, money, the student's other obligations and the teacher's patience. It ends with the rhythm secure, the rhythm half-learned, or the student gone, and no film can hurry it or promise which."
+  },
+  "concept_merge": {
+    "why_together": "C042 contributes the sources' answer to an impossible teaching problem: draw the thing. Each mind-moment is set down as three dots for arising, standing and dissolving, with a letter naming what that beat does, so that something faster than a blink becomes a row a student can point at and recite. C038 contributes what the notation is for, the claim that nothing a person does happens in one moment, and the source's own frankness that the mind cannot examine itself, like a knife that cannot cut itself, so even students know these processes only by inference. C046, folded in with IDEA-0078, contributes what happens in the student between hearing and doing: the sound replayed as past, then named, and only then understood well enough to be produced. C041 contributes the particular sequence the charts were built for. A teacher reciting a pattern before any hand touches the instrument is doing, in sound, exactly what the charts do on a page.",
+    "what_it_reveals": "Alone, the charts look like a study aid. Beside a teacher who cannot describe what she is teaching and therefore sings it, they become the more interesting thing: a whole tradition's answer to the problem of handing on something that cannot be observed. The C038 material, folded in from the interpreter idea, gives the film its honesty. The sources' own example of what needs a whole series is understanding another person's words, and a lesson conducted entirely in syllables is that example running in both directions at once."
   },
   "concept_links": [
     {
       "concept_id": "C042",
       "role": "primary",
-      "why": "The source uses letter-symbols and dotted charts to make an invisible, extremely fast sequence of mind-moments memorable and recitable [C042-M:L3]. A drumming teacher's spoken syllables are a living, sonic version of exactly this kind of notation for something too fast to watch directly."
+      "why": "The digest says process charts exist to make an invisible, very fast sequence easy to hold in mind, that each mind-moment is drawn as three dots for arising, standing and dissolving with a letter above naming the kind of mind, and that the chart is not the experience but a score for it, the way written music is not the sound [C042-M:L3-L23]. It adds Margaya's point that each step in the chain knows only its own job, so that nobody in the relay has the whole picture and the whole picture still comes about. The digest's limits are carried: the charts are a traditional teaching notation and must never be animated as though they were brain scans or measurements; and Margaya's aside that registration is 'not very useful' is a teacher's remark to beginners, not a rule that lingering is worthless."
     },
     {
       "concept_id": "C038",
       "role": "supporting",
-      "why": "The source states that no single moment accomplishes an act; a whole series is required [C038-M:L3]. Watching a rhythm build up, beat by beat, in a student's hands makes that claim vivid without anyone naming it."
+      "why": "Strengthened by the fold-in of IDEA-0078. The digest reports Margaya's claim that nothing a person does, including properly seeing, understanding another person's words, moving a limb, giving or taking, happens in a single mind-moment; each needs a whole ordered series [C038-M:L3]. Understanding another's words is the source's own example, which is what a lesson conducted in spoken syllables is. The digest also gives the knife simile: the mind is the hardest thing to study because it is the thing doing the studying, and even careful students know these processes only by inference, never by watching [C038-M:L5]. Two limits follow. This is not 'slow down and you will see your thoughts arise', which the digest rules out by name. And the digest states plainly that the group's framing 'no separate seer behind it' is not made in these extracts, so this film does not attribute it to C038."
+    },
+    {
+      "concept_id": "C046",
+      "role": "supporting",
+      "why": "Folded in with IDEA-0078. The digest gives the source's staged account of what follows a single arrival at a sense door: the object replayed as past, then sorted, then given its name or concept, which is the moment of recognition, and only then understood, with the full response possible only at that last step [C046-P:L117-L151]. A student who has heard a pattern, holds it, names it and only later can produce it is that sequence spread over weeks instead of moments, which is exactly the analogy of scale a film can honestly make and must flag as one. The digest's guard against 'labels are the problem, stop labelling' matters here, since naming is the whole method of the teaching."
     },
     {
       "concept_id": "C041",
       "role": "supporting",
-      "why": "The source's picture of a trained response completing in a fast, unified burst describes what a rhythm looks like once an apprentice has fully learned it, in contrast to the halting, deliberate early attempts the film would also show."
+      "why": "The digest sets out the seventeen-moment sequence the charts were made to hold, from a disturbed resting mind through adverting, seeing, receiving, investigating and determining to seven moments of impulsion and two of registration [C041-P:L29-L48], and names the four conditions that have to be strong together for it. That is the content of the score, and it is why this episode's lesson can cite it. The digest's limits are carried: seventeen moments is not a timing in milliseconds, and the sources never call the impulsion stage a choice."
     }
   ],
-  "what_camera_could_observe": [
-    "The teacher reciting syllable patterns before any drum is touched",
-    "The student repeating them, correcting mistakes",
-    "Hands finally striking the drum, first haltingly, then more fluently",
-    "The teacher's hand keeping time and correcting in real time",
-    "A performance or ritual context where the learned rhythm is finally used"
-  ],
-  "what_must_be_real": "The teacher's real teaching method and the student's real pace of learning; no compressed or staged montage of progress that misrepresents how long real learning takes.",
-  "possible_arc": {
-    "opening": "A lesson begins with spoken syllables, no drum yet touched.",
-    "turn": "A difficult passage, a repeated mistake, a real struggle to get it right.",
-    "ending_open": "The rhythm is learned, or not yet, as honestly as the teaching actually goes."
-  },
-  "position_hint": "middle: a craft-and-teaching film that gives the group a strong sound-and-rhythm texture distinct from its other stories.",
-  "location": {
-    "requirements": [
-      "A traditional drumming teacher and apprentice household willing to be filmed over real lessons",
-      "Good sound recording conditions for the syllables and the drum",
-      "Consent that respects a hereditary tradition and does not exoticise it"
-    ],
-    "suggestions": [
-      {
-        "name": "A traditional Kandyan drumming (bera) teaching household",
-        "region": "Kandy District, Central Province",
-        "why": "Kandy is closely associated with traditional drumming and its teaching lineages.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific teacher, student and willingness to be filmed are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Some things happen too fast to watch, so people learn them by setting them down in another form. These texts do exactly that for a single act of seeing, charting it as a row of beats, because on their account no act happens in one moment, and because they are frank that the mind cannot watch itself at all.",
+  "what_must_be_real": "The teacher's real method and the student's real pace, with no montage compressing months into an impression of fast progress. A living tradition is filmed on its own terms and with its keepers' agreement about what may be shown, and the charts are never presented as diagrams of brain activity.",
+  "position_hint": "middle: it follows the group's films about single moments and gives the group its one film about how this material is actually taught, which is what the group itself is doing. No location reasoning is involved.",
   "risks": [
-    "Treating a living, hereditary art form as an illustration of doctrine rather than valuing it on its own terms",
-    "Exoticising a traditional teaching method for outside audiences",
-    "Compressing real learning time into a misleadingly fast montage"
+    "Treating a living hereditary art form as an illustration of doctrine rather than valuing it on its own terms.",
+    "Exoticising a traditional teaching method for outside audiences.",
+    "Compressing real learning time into a misleadingly fast montage.",
+    "Animating process charts as if they were measurements, which the digest rules out.",
+    "Letting the analogy between a lesson and a mind-moment be taken as an identity rather than a comparison of scale."
   ],
   "drop_if": [
-    "No teacher and student are willing to be filmed over real lessons",
-    "The teaching method turns out not to use the described syllable-based approach",
-    "The tradition's keepers do not want it filmed or explained on camera"
+    "No teacher and student are willing to be filmed over real lessons.",
+    "The teaching method turns out not to use a spoken, syllable-based approach.",
+    "The tradition's keepers do not want it filmed or explained on camera.",
+    "The student leaves early and there is no honest film in what remains."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0078",
-      "relation": "mirrors",
-      "note": "Both make a fast, invisible sequence audible, spoken syllables for rhythm, a listening pause for language."
+      "relation": "absorbs",
+      "note": "Takes in the C038 grounding, the sources' own example of understanding another person's words, the knife simile, and a C046 link on naming and meaning as separate later steps."
+    },
+    {
+      "idea_id": "IDEA-0077",
+      "relation": "sits beside",
+      "note": "Two films about what a mind does with something after the sense has finished with it, one remembering and one learning."
+    },
+    {
+      "idea_id": "IDEA-0086",
+      "relation": "pairs with",
+      "note": "Two ways of holding something too fast or too small to watch: a notation that stands in for it, and a material slow enough to watch instead."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0078"
+    ],
+    "superseded_by": null,
+    "reason": "Used by EPD-0044, proposed by the C042 digest's own story seed, and strengthened by folding in IDEA-0078's C038 grounding and its C046 naming-then-meaning strand."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

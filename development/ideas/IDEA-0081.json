@@ -4,93 +4,84 @@
   "record_type": "idea",
   "title": "Turning Toward",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "At a town three-wheeler stand, a driver's eyes move to every passer-by, and in a fraction of a second, before anyone speaks, he has already decided: customer, or not.",
-  "human_question": "What is the very first thing a mind does when someone catches its attention, before any decision is made about them?",
-  "premise": {
-    "story": "A three-wheeler driver waits at a stand through a working day, watching passers-by, calling out to some, letting most go, and occasionally landing a fare.",
-    "place": "A town three-wheeler stand on a busy street.",
-    "experience": "The viewer watches hundreds of small, mostly wasted turns of attention, and starts to notice the tiny, repeated moment where a glance either goes nowhere or becomes an approach."
+  "logline": "At a three-wheeler stand a driver's eyes move to every passer-by, and in a fraction of a second, before anyone speaks, he has already settled it: customer, or not.",
+  "human_question": "What is the very first thing a mind does when something catches it, before any decision is made?",
+  "situation": {
+    "what_happens": "A driver waits at a stand for most of a working day. Hundreds of people pass. His eyes go to each of them, and almost all of them are let go inside a second, without a word and without anything he would call a decision. A few times an hour he calls out, and a few times a day that becomes a fare. The great majority of the day is the part that produces nothing, and it is the part that never gets described.",
+    "who_is_involved": "The driver; the other drivers at the same stand, who are simultaneously his colleagues and his competition and whose turn-taking rules are unwritten; the passers-by, most of whom never notice being looked at; and whoever owns the vehicle, if he does not.",
+    "what_is_at_stake": "A day's earnings against fuel, hire and time; a place in the stand's order; and the ordinary cost of spending eight hours reading strangers for whether they want something.",
+    "how_it_unfolds": "A day begins when he takes his place and ends when it is no longer worth waiting. The pressures are weather, the hour, how many other drivers are waiting and whether an event or a market has brought people out. It ends with the day's earnings, whatever they are, and there is no way to arrange a good one."
+  },
+  "concept_merge": {
+    "why_together": "C010 contributes the two neutral moments this film is built on: a turning toward that happens before anything is known and cannot itself recognise anything, and the settling a moment later that fixes what the thing is, both of them neither good nor bad and both running in everyone unbidden. C034 contributes the relay those two sit inside, fourteen named jobs of which a mind-moment does exactly one at a time. C025 contributes the negative fact that makes the film honest: the bare sensing moments carry none of the six occasional factors at all, not effort, not decision, not the wish to act. A driver's day is thousands of repetitions of the first two, almost all of which stop before anything else can begin.",
+    "what_it_reveals": "Alone, adverting is an abstraction with no observable consequence. Placed in a working day where the same turning-toward is repeated thousands of times for money, it becomes visible in the one way it can be: by how much of a life is made of it and how little of that life produces anything. And C025's exclusions stop the film sentimentalising the empty stretches into patience or attentiveness. On the sources' account the emptiest moments contain no effort at all, which is a different and stranger claim."
   },
   "concept_links": [
     {
       "concept_id": "C010",
       "role": "primary",
-      "why": "The source's turning toward mind points at an object without yet knowing anything about it, and its determining function settles what something is just before any response [C010-P:L29-L37]. A driver's glance at every passer-by is a documentary version of exactly this turning and settling."
+      "why": "The digest describes the five-door adverting mind as pointing the mind-stream at something without being able to know it, the hinge on the door rather than the person walking through, and the mind-door adverting mind as also performing the determining job, which settles 'this is such' and is still neutral, the last neutral step before any response [C010-P:L29-L37]. The digest's own story seed for this concept is a three-wheeler driver reading every passer-by for a possible fare. Its limits are carried: adverting is not mindfulness or being present, it happens automatically in everyone with no quality of care attached; 'functional' does not mean mechanical or robotic; the arahant's smile, the third of these minds, may never be attributed to a real person; and the traditional placement of the mind door in the heart cavity is not something a modern audience is asked to accept literally."
     },
     {
       "concept_id": "C034",
       "role": "supporting",
-      "why": "The source's account of the fourteen functions of mind as a relay, each step handing on to the next, matches the driver's repeated cycle of noticing, sizing up, and calling out or not."
+      "why": "The digest names fourteen jobs a mind-moment can do and states that each moment does exactly one, so what feels like one smooth act of looking and judging is a stitched-together result of many hand-offs. It also gives the group's quietest image, that life is long quiet stretches interrupted by brief bursts of engagement rather than a constant stream of attention, which is a driver's day. The digest's limits are carried: it is not a technique for watching each step, since the source says countless moments pass in a finger-snap; the slogan about the gap between stimulus and response adds a claim the source does not make; and the source's link between weak rebirth-producing action and being born blind or deaf must never be carried into a judgement about any real person [C034-P:L47]."
     },
     {
       "concept_id": "C025",
       "role": "supporting",
-      "why": "Effort and decisiveness, the source's occasional mental factors, show up unevenly across a driver's day, sharp when a fare looks likely, absent through long empty stretches."
+      "why": "Re-grounded. The old reading had effort and decisiveness rising and falling across a driver's day with the likelihood of a fare, which maps a technical absence onto a mood. What the digest actually says is that the ten sense-consciousnesses are too weak to carry any of the six occasional factors at all, so the bare moments of seeing and hearing have no effort, no decision and no wish to act in them [C025-P:L75], which is the claim this episode's lesson cites. The digest's warning is carried with it: energy and decisiveness are not virtues in this framework and appear equally in harmful minds, so nothing about this driver's drive may be offered as a quality."
     }
   ],
-  "what_camera_could_observe": [
-    "The driver's eyes moving over the passing crowd",
-    "A call made, and a call withheld",
-    "A fare negotiated, or a passer-by who was never really a prospect",
-    "Long empty stretches between fares",
-    "The driver's own account of how he reads the street"
-  ],
-  "what_must_be_real": "The driver's real economics and working conditions; no staged misses or exaggerated reactions. His own account of his day, not a narrated explanation of his glances.",
-  "possible_arc": {
-    "opening": "The stand fills with drivers; the day's watching begins.",
-    "turn": "A slow day, a difficult fare, or a rival driver tests his patience and judgement.",
-    "ending_open": "The day ends with whatever the driver actually earned and however he actually feels about it."
-  },
-  "position_hint": "middle: a small-scale, everyday urban film that gives the group texture beyond craft and nature settings.",
-  "location": {
-    "requirements": [
-      "A busy three-wheeler stand with drivers willing to be filmed over a working day",
-      "A vantage point that can follow both the driver and the passing street",
-      "Consent that respects the driver's livelihood and does not slow his actual work"
-    ],
-    "suggestions": [
-      {
-        "name": "A busy stand in a market town",
-        "region": "Any market town, to be selected",
-        "why": "Three-wheeler stands are a near-universal feature of Sri Lankan town life; a specific town is left open.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific stand and a willing driver are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Before we know anything about what caught our eye, the mind has already turned toward it, and that turning cannot recognise anything; it only points. Settling what the thing is comes a moment later, and both happen before anything that could be called a response.",
+  "what_must_be_real": "The driver's real economics and real working conditions, and no miss or reaction exaggerated for the camera. His own account of how he reads a street carries the film, and no narration may claim to know what he was thinking at any particular glance.",
+  "position_hint": "middle: it is the group's hinge film about the last neutral steps, placed after the films about what a sense receives and before the films about memory and response. No location reasoning is involved.",
   "risks": [
-    "Reducing the driver to an illustration of a single mental process rather than a full person",
-    "Voice-over or narration that claims to know what he is thinking at each glance",
-    "Treating an ordinary livelihood as merely picturesque"
+    "Reducing the driver to an illustration of a single mental moment rather than a full person.",
+    "Narration that claims to know what he is thinking at each glance.",
+    "Treating an ordinary livelihood as picturesque.",
+    "Sentimentalising the empty stretches into patience, when the sources say those moments contain no effort at all.",
+    "Filming passers-by who have no idea they are being looked at, let alone filmed."
   ],
   "drop_if": [
-    "No driver is willing to be filmed candidly over real working hours",
-    "The stand turns out to be too quiet or too chaotic to observe clearly",
-    "The film cannot avoid narrating the driver's inner state instead of showing his actions"
+    "No driver will be filmed candidly across real working hours.",
+    "The stand is too quiet or too chaotic for anything to be observed clearly.",
+    "The film cannot avoid narrating his inner state instead of showing his actions.",
+    "Passers-by cannot be filmed with adequate consent or anonymity."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0073",
       "relation": "mirrors",
-      "note": "Both are studies of an ordinary working day built from repeated small acts of noticing and response."
+      "note": "Both are built from repeated small acts of noticing and response across an ordinary working day, one over a material and one over a street."
+    },
+    {
+      "idea_id": "IDEA-0079",
+      "relation": "pairs with",
+      "note": "The same turning-toward moment in two opposite lives, one where it happens thousands of times a day and one where it happens rarely."
+    },
+    {
+      "idea_id": "IDEA-0087",
+      "relation": "leads into",
+      "note": "Colour arrives before a name; a face arrives before a customer. The second film takes up what the first one leaves unnamed."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0040, and the C010 digest proposes a three-wheeler driver at a stand as the situation for exactly this concept."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

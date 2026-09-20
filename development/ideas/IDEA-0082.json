@@ -4,93 +4,79 @@
   "record_type": "idea",
   "title": "No One at the Wheel",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "On a mountain road thick with blind bends, a long-distance bus driver reacts to whatever appears, a truck, a landslide, a child, faster than thought, with no one, he says, deciding in advance what he will do.",
+  "logline": "On a mountain road thick with blind bends a driver responds to whatever appears, faster than thought, with nobody, he says, deciding in advance what he will do.",
   "human_question": "If so much of what we do happens faster than we can think about it, where does our own part in it actually lie?",
-  "premise": {
-    "story": "A long-distance or local bus driver works a mountain road with sharp bends, reacting instantly and continuously to what the road reveals, over the course of one or more shifts.",
-    "place": "A mountain bus route in the hill country, with steep grades and blind bends.",
-    "experience": "The viewer rides inside a stream of constant, unplanned response, and comes to feel the strange combination of total absence of a single controlling decision and the driver's real, ongoing care for his passengers."
+  "situation": {
+    "what_happens": "A driver works a road of steep grades and blind bends with a vehicle full of people who are not related to him and who have handed him their safety for a few hours. Each bend delivers something he could not have known about, and he responds continuously, without any separate act of deciding, for the length of a shift. He can describe almost none of it afterwards except in general terms, and he is entirely aware that he is responsible for all of it.",
+    "who_is_involved": "The driver; the conductor or assistant, who reads the road with him; the passengers, whose trust is complete and mostly unspoken; the operator who sets the timetable, which is the main pressure on how fast the road is taken; and other drivers on the same road, who are part of every decision he makes.",
+    "what_is_at_stake": "Everyone's safety, continuously. A timetable that penalises slowness. A licence and a livelihood that end with one serious error. And a question the driver himself is usually the first to raise: how much of what keeps the vehicle on the road is him.",
+    "how_it_unfolds": "A shift begins at a scheduled time and ends at another, and in between the road decides everything. The pressures are weather, visibility, the timetable, other traffic and fatigue. It ends with an ordinary arrival, which is what almost always happens, or it does not, and no film may wait for the second."
+  },
+  "concept_merge": {
+    "why_together": "C043 contributes the strongest claim in the group: this whole sequence of noticing and responding is not brought about by anyone's effort, our own or a god's, and each moment arises by the force of the one before, which the old teachers called the order of mind. C041 contributes the shape of what that unarranged sequence runs through, seventeen moments from a disturbed resting mind to a short lingering, with a burst of engagement near the end that the sources call wholesome, unwholesome or merely functional. C038 contributes the plain claim that no single moment accomplishes an act like steering or braking, and the sources' own frankness that none of it can be observed, only inferred. A driver on a road that gives him no time to deliberate is the clearest ordinary form of a process the sources say has no arranger.",
+    "what_it_reveals": "What the concepts reveal together is the thing that makes this film difficult and worth making: the absence of a deliberating chooser and the presence of real responsibility are not in conflict in a life. The driver is not deciding at each bend and is entirely answerable for every one of them. The sources agree on both halves, since the same list of natural orders that denies a controller also contains the order of action and result."
   },
   "concept_links": [
     {
       "concept_id": "C043",
       "role": "primary",
-      "why": "The source insists that this whole sequence of noticing and responding is not arranged by anyone's effort, our own or another's, and unfolds only by the force of what came before [C043-M:L3-L5]. A driver's instant, continuous reaction on a mountain road is the clearest ordinary-life echo of a process with, in the source's own words, no arranger."
+      "why": "The digest reports Margaya's claim plainly: the chain of mind-moments in seeing cannot be brought about by a person's own effort or by any god, and no one directs it; each moment arises by the force of the ones before [C043-M:L3-L5]. It also says how vividly something registers depends on four things lining up, a working sense, enough light, a strong enough object and attention, so vividness is a matter of circumstances rather than will. Four limits are carried. 'Just pause before you react' misreads the source, since the gap it describes lies inside a process far too fast to feel. 'Mind over matter' and 'you control your mind' contradict it outright. 'No doer' is not fatalism, because the same list of natural orders includes the order of action and result. And the source's physiological gloss about nerves and an unconscious person not reacting to injury is the author's own illustration, not doctrine and not medicine."
     },
     {
       "concept_id": "C041",
       "role": "supporting",
-      "why": "The source's account of a full, vivid response happening in a burst too fast to deliberate over, which the series reads, as its own editorial interpretation, as the window where a response is made, though the source itself never calls this choice [C041-P:L46], matches the driver's split-second reactions at each bend."
+      "why": "The digest gives the seventeen-moment order and says that only one stage in it, the seven-beat impulsion, carries any quality, generous or grasping, kind or hostile, or simply functional, while everything before it receives and sorts [C041-P:L46]. The digest is equally clear that the text never uses the word choice and that 'the pause between stimulus and response is where your freedom lies' is a modern slogan it rules out. The series' reading of impulsion as the place a response is chosen is named in the film as the series' own interpretation, never as the sources' wording. The seventeen moments are not offered as a timing and are never mapped to reaction speeds."
     },
     {
       "concept_id": "C038",
       "role": "supporting",
-      "why": "The source's basic claim, that no single mind-moment accomplishes an act like steering or braking, but a whole ordered series does [C038-M:L3], is made vivid by watching a driver's hands and eyes work continuously."
+      "why": "The digest reports Margaya's claim that no act, including moving a limb, is accomplished by one mind-moment, and gives the knife simile for why the mind is the hardest thing to study, so that even students know these processes only by inference [C038-M:L3-L5]. It also makes a correction that matters most at this episode, whose title says 'no one at the wheel': the digest states that the group's framing 'no separate seer behind it' is not made in these extracts at all and must be sourced elsewhere. The film therefore attributes that denial to C041 and C043, where the digests do support it, and never to C038."
     }
   ],
-  "what_camera_could_observe": [
-    "The windscreen view opening onto each blind bend",
-    "The driver's eyes, hands and feet reacting continuously",
-    "Horn, braking, steering, and small negotiations with other vehicles",
-    "The conductor and passengers, and how much they trust the driver's judgement",
-    "The driver's own account, off the road, of what he thinks is really happening when he reacts"
-  ],
-  "what_must_be_real": "The driver's real skill and the real risks of the route; no staged near-misses or manufactured danger. A moving-vehicle shoot must not distract the driver or compromise safety.",
-  "possible_arc": {
-    "opening": "The bus sets out; the mountain road's first bends begin.",
-    "turn": "A genuinely difficult moment on the road, weather, another vehicle, an obstacle, tests the driver's continuous reaction.",
-    "ending_open": "The route ends, safely, however it actually goes, and the driver reflects on what he thinks he is doing at each bend."
-  },
-  "position_hint": "closing candidate: the film's central image, a driver reacting without a separate act of deliberation while still caring for everyone in his charge, can hand off directly to the group's closing idea that within an unowned, unarranged process there is still room to choose goodness.",
-  "location": {
-    "requirements": [
-      "A mountain or hill-country bus route with steep grades and blind bends",
-      "A driver and transport operator willing to allow filming from inside a moving vehicle",
-      "A safety plan for filming in a moving vehicle that does not distract the driver"
-    ],
-    "suggestions": [
-      {
-        "name": "The Nuwara Eliya-Ella hill-country road network",
-        "region": "Central / Uva Province",
-        "why": "Well-known mountain routes with steep grades and sharp bends served by regular buses.",
-        "season_notes": "Fog and rain are more likely in the monsoon months and would need separate safety planning.",
-        "access_notes": "Filming inside a moving public bus needs the operator's and driver's active cooperation.",
-        "verify": "A specific route, operator and willing driver are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Much of what we do happens too fast to plan, and these texts describe the whole run from noticing to responding as unfolding in order by itself, with nobody arranging it. They also say the quality of the response depends on how the thing is attended to, so an unarranged process is not an excused one.",
+  "what_must_be_real": "The road's real risk and the driver's real skill. No near miss may be staged or manufactured, and a moving-vehicle shoot may never distract the driver or add risk for passengers who did not choose to be filmed. The no-doer claim may not be offered as fatalism, and the driver's own care for the people behind him must be as visible as his reflexes.",
+  "position_hint": "closing candidate: it is the group's last film before the one about response, and it hands off directly to the claim that within an unarranged process something can still be chosen. No location reasoning is involved.",
   "risks": [
-    "Filming in a moving vehicle carries real safety risk for crew, driver and passengers",
-    "Dramatising near-misses would be both dishonest and dangerous",
-    "The no-doer framing could be misread as fatalism if the driver's real care and skill are not equally shown"
+    "Real safety risk to crew, driver and passengers from filming inside a moving vehicle.",
+    "Dramatising near misses, which would be both dishonest and dangerous.",
+    "The no-doer framing read as fatalism if the driver's real care and skill are not equally shown.",
+    "Attributing the 'no separate seer' claim to a source that the digest says does not make it.",
+    "Passengers filmed without a real chance to decline."
   ],
   "drop_if": [
-    "No operator or driver will allow in-vehicle filming without compromising safety",
-    "The route turns out to be too routine to show genuine continuous reaction",
-    "The film cannot show the driver's care for passengers alongside his instant reactions"
+    "No operator or driver will allow in-vehicle filming without compromising safety.",
+    "The route is too routine to show genuine continuous response.",
+    "The film cannot show the driver's care for his passengers alongside his reactions.",
+    "Passengers cannot meaningfully consent."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0088",
       "relation": "leads into",
-      "note": "Instant, unowned reaction on the road hands off to the closing film's harder, slower question of what a person does with the same kind of gap."
+      "note": "Instant unowned reaction hands off to the closing film's slower, more consequential test of the same gap."
+    },
+    {
+      "idea_id": "IDEA-0083",
+      "relation": "pairs with",
+      "note": "Two fast rulings with nothing to revisit, one continuous and private, one single and watched by a crowd."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0046; both the C041 and C043 digests propose a driver on a hill road as the situation for the no-arranger claim."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

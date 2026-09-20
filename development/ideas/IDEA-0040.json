@@ -2,103 +2,55 @@
   "schema_version": 1,
   "id": "IDEA-0040",
   "record_type": "idea",
-  "title": "Lamps on the Lagoon",
+  "title": "Lamps on the Water",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "Lamps are lit on the water at dusk. Through the night, fish and insects gather to the light, and a crew works the same patient rhythm they have worked for years, hoping this catch is enough.",
+  "logline": "Lamps are lit on still water at dusk and a crew works the same patient rhythm all night, not knowing until dawn whether the night was worth it.",
   "human_question": "What does a whole night of patient, repeated effort feel like when the result is still not known?",
-  "premise": {
-    "story": "A night of lamp fishing on a lagoon: the lighting of the lamps, the long watch, the steady, repetitive work of the catch, and the crew's own account of what a good night and a bad night mean for their households.",
-    "place": "A lagoon at night, lamps the only light on the water.",
-    "experience": "The viewer sits through the long, quiet hours of the watch, lit only by lamplight and stars, and feels the weight of a livelihood that depends on this same night repeating itself, well or badly, again and again."
+  "situation": {
+    "what_happens": "A crew that fishes by light goes out at dusk, sets its lamps, and works a rhythm that does not change for eight or nine hours. Insects and fish gather to the light. Nothing about the night tells the crew how it is going until it is nearly over. At dawn the catch is counted and it is either a night that pays or a night that does not, and either way the same night happens again tomorrow.",
+    "who_is_involved": "The crew who work the lamps through the night; the households the night's takings belong to; whoever buys the catch at first light and sets its price.",
+    "what_is_at_stake": "One night's income against one night's fuel, lamps and sleep, repeated across a season in which the good nights have to pay for the bad ones.",
+    "how_it_unfolds": "It begins at dusk and it ends at dawn, and it is the same every time except for the amount at the end. The pressures are weather, fuel cost and the accumulation of nights that did not pay. It ends in a catch or in very little, and reality decides which."
   },
-  "concept_links": [
-    {
-      "concept_id": "C007",
-      "role": "supporting",
-      "why": "Ageing, illness, loss and simply not getting what is wanted or needed are named among the ordinary occasions for this state of mind [C007-P:L49]. A night's fishing is one livelihood's version of that: the crew cannot control what the water gives, and a bad night carries a real, quiet worry about what follows it."
-    },
-    {
-      "concept_id": "C022",
-      "role": "supporting",
-      "why": "Restlessness, a mind that will not settle on what is in front of it, is one of the four factors present in every state of this kind [C022-P:L73; C022-M:L19]. The long, watchful hours of a night's fishing are offered here only as an image of sustained, unsettled attention under uncertainty, not as a moral reading of the crew themselves."
-    }
-  ],
-  "what_camera_could_observe": [
-    "Lamps being prepared and lit as dusk falls",
-    "Insects and fish gathering to the light through the night",
-    "The crew's patient, repeated work: watching, drawing in, sorting",
-    "Quiet exchanges between crew members through the long hours",
-    "The catch at dawn, and what it means for the crew that night"
-  ],
-  "what_must_be_real": "The crew, their methods and their night's catch must be entirely genuine and unscripted. Nothing about the crew's effort or patience should be narrated as a lesson about their character; the image of light and gathering life belongs to the source text, never to the people shown.",
-  "possible_arc": {
-    "opening": "Dusk, lamps carried out onto still water.",
-    "turn": "The long middle of the night: rhythm, quiet, uncertainty.",
-    "ending_open": "Whatever dawn actually brings, good or lean, ends the film in the crew's own words."
+  "concept_merge": {
+    "why_together": "No merge survives inspection, which is why this idea is dropped rather than repaired. The two links it carried were both supporting and neither held: a night's uncertain livelihood was read as an occasion for aversion although no aversion is claimed or observed anywhere in the situation, and a crew's steady, unbroken all-night rhythm was offered as an image of restlessness, which inverts the concept, since restlessness is agitation that will not settle on its object [C022-P:L31] and sustained attention is the opposite of it. The one thing in the digests this situation genuinely sits on is the compendium's image of the moth flying into the lamp flame because the flame looks pleasant [C022-P:L67], and the digest's own note on that image says in as many words that the crew must never be framed as the moths.",
+    "what_it_reveals": "Nothing this group needs that another film does not already carry better. The group's account of uncertainty and its account of unsettledness are both held live by kept ideas, with grounds the digests actually support."
   },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A lagoon community that still practises lamp fishing at night",
-      "A crew willing to be filmed across a full night's work",
-      "Safe camera positions on or near the water after dark"
-    ],
-    "suggestions": [
-      {
-        "name": "Negombo lagoon",
-        "region": "Gampaha district, Western Province",
-        "why": "A well-known lagoon with an active fishing community using varied traditional methods.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm whether lamp fishing specifically is still practised here and find a willing crew.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "Chilaw lagoon area",
-        "region": "Puttalam district, North Western Province",
-        "why": "Another well-known west-coast lagoon with an active fishing community.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Confirm current fishing methods and find a willing crew.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "concept_links": [],
+  "what_the_viewer_could_understand": "Nothing is claimed. The concept links this idea carried were withdrawn rather than rewritten, so it makes no teaching claim at all in this state.",
+  "what_must_be_real": "If the idea were ever restored, the crew, their methods and their night's catch would have to be entirely genuine and unscripted, and no reading of the source's lamp-and-moth image could be laid over the people working the lamps.",
+  "position_hint": "none: the idea is dropped, and nothing in the group's arc depends on it. No location reasoning is involved.",
   "risks": [
-    "Turning a livelihood into a visual allegory that frames the crew unfairly",
-    "Long, slow night footage losing narrative shape without a clear human stake",
-    "Safety on the water after dark for crew and film team"
+    "Turning a livelihood into a visual allegory that frames the crew as the moths, which the digest forbids by name.",
+    "Reading sustained, patient attention as the restlessness the sources describe, which reverses the concept.",
+    "Long night material with no human stake and no supported concept underneath it."
   ],
   "drop_if": [
-    "No lamp-fishing crew can be found willing to be filmed for a full night",
-    "The method is no longer practised in a findable, accessible community"
+    "Already dropped: no concept link in the group's four digests supports the situation as it stands."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0035",
       "relation": "mirrors",
-      "note": "Two night vigils at the edge of water and wild: one guarding land from what comes to take it, one drawing life toward a light."
-    },
-    {
-      "idea_id": "IDEA-0033",
-      "relation": "pairs with",
-      "note": "Two coastal, water-based livelihoods: one marked by conflict and repair, one carried by patient, repeated work."
+      "note": "Two night vigils; only one of them has a state of mind in it that the sources actually describe."
     }
   ],
+  "selection": {
+    "recommendation": "drop",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Both its links failed the digests: the aversion link was loose, and the restlessness link inverted the concept it cited. Nothing is folded forward, because the only strand the digest supports here is the one it explicitly forbids applying to the crew."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

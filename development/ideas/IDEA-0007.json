@@ -4,91 +4,79 @@
   "record_type": "idea",
   "title": "Learning the Map",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "Young novices memorise an ancient map of the mind, with 121 kinds of consciousness, by heart, long before they understand it.",
+  "logline": "Children ordained as novices learn a map of the mind with a hundred and twenty-one regions by heart, years before any of it means anything to them.",
   "human_question": "What changes when you have a name for what is happening inside you?",
-  "premise": {
-    "story": "A term at a monastic school through one novice's routine: chanting, memorising, being tested, and ordinary childhood in between.",
-    "place": "A village monastic school (pirivena).",
-    "experience": "Rhythm of chanting, palm-leaf and exercise-book, the gap between reciting and understanding."
+  "situation": {
+    "what_happens": "At a monastic school, young novices spend a term committing to memory a classification of every kind of passing moment of awareness: chanting it, copying it, being tested on it aloud in front of the others. The text they are learning tells the student in so many words to learn the list by heart, because everything later depends on it. They can recite it long before they can explain it, and in between lessons they are children. Occasionally, and unpredictably, a term one of them has been reciting for months lands on something they have actually noticed in themselves.",
+    "who_is_involved": "Novices of different ages and very different aptitudes; a teacher who was taught the same way and has his own view of whether memorising before understanding works; the senior monk responsible for the school; and the families who sent the children, who have their own reasons and their own hopes.",
+    "what_is_at_stake": "For a novice: standing among the others, a teacher's approval, and a robe they may or may not keep. For the teacher: a method he has inherited and is being asked to defend by the simple fact of a camera watching it. For the film: these are children, some of them far from home, and nothing about the arrangement can be softened or made to look sadder than it is.",
+    "how_it_unfolds": "A term begins with a list nobody can say, and proceeds by repetition, testing, failure and gradual fluency. The pressures are memory, comparison between children, homesickness and the ordinary boredom of learning by rote. It ends with an examination of some kind and a term that closes, with some children fluent, some struggling, and possibly one for whom a word has landed. Reality decides whether that last thing happens at all, and the film cannot go looking for it."
+  },
+  "concept_merge": {
+    "why_together": "C018 is the object being learned: the whole classification laid out in one view, counted as eighty-nine or as a hundred and twenty-one depending on how finely the last group is divided [C018-P:L23–L27], and handed to the student with the instruction to memorise it because further study depends on it [C018-M:L125]. C003 is what the map is a map of: mind defined as the knowing of an object, arising only with an object, taking one at a time, running as a stream so fast and gapless that it passes for a single continuous thing [C003-P:L25]. C002 is the frame around both: the four ultimate realities into which everything the teaching describes is sorted, three of them conditioned and one not [C002-P:L34]. A classroom is where all three are physically present at once, in a chant.",
+    "what_it_reveals": "That this map is not information but inheritance: it is carried in the body by repetition long before it is carried in the mind by understanding. C018 alone is a list; C003 alone is a definition; C002 alone is a frame. Together, in front of a child who can recite a hundred and twenty-one kinds of a thing he has not yet noticed once, they show the gap between having a name for what happens inside you and seeing it, which is the gap the whole series is walking across."
   },
   "concept_links": [
     {
       "concept_id": "C018",
       "role": "primary",
-      "why": "The full map of consciousness as a thing that is learned, recited and carried."
+      "why": "The Margaya lists every type sphere by sphere and tells the student to learn them by heart because what follows depends on it [C018-M:L125]; the Pradeepika gives the totals compactly, eighty-one mundane plus eight, or plus forty when the last group is counted by depth of absorption, making a hundred and twenty-one [C018-P:L23–L27]. The film observes that instruction being obeyed. Four of the digest's limits apply at once and are written into the risks: the types are kinds of momentary consciousness and not personality types, not a ladder of better and worse people, not states anyone switches on by technique, and the arithmetic is not the point. The digest also notes that the familiar sum of the four spheres is not actually printed in either source, so any chart the film shows is an assembled figure and must not be presented as a quotation."
     },
     {
       "concept_id": "C003",
       "role": "supporting",
-      "why": "How mind is classified by plane and kind."
+      "why": "Mind is defined as the knowing of an object: it arises only in dependence on an object, takes one object at a time, and runs as a beginningless stream of extremely brief moments that appears to be one continuous mind [C003-P:L25]. That is what the children are memorising a classification of. The two sources use 'one' in two different senses, the Margaya saying mind is one in its general nature and divided only for teaching [C003-M:L5], the Pradeepika saying a being has not one mind but a stream that merely seems to be one [C003-P:L25]; the digest says these are different senses that must not be merged, and the film keeps them apart. The author's argument that the mind rests on a physical base at the heart rather than the brain [C003-P:L59–L69] may well be in the curriculum being filmed; the digest says it must never be presented on screen as settled science."
     },
     {
       "concept_id": "C002",
       "role": "supporting",
-      "why": "The four ultimates as the frame of the map."
+      "why": "Everything the teaching describes falls into four ultimate realities, described not as substances but as momentary activities or forces [C002-P:L34; C002-M:L3], of which three are conditioned and the fourth is not [C002-M:L21]. The map the novices are learning covers only the first of the four, which is why this group can lay out the frame and walk through it later. The fourth can only be named as a horizon: the digest is explicit that it is not relaxation, not a calm mood and not simply death, and nothing a camera can film belongs to it."
     }
   ],
-  "what_camera_could_observe": [
-    "Morning chanting",
-    "A teacher's question and a hesitant answer",
-    "Novices at play",
-    "Handwritten charts"
-  ],
-  "what_must_be_real": "The school's actual curriculum and the novices' own words. Consent from guardians and teachers.",
-  "possible_arc": {
-    "opening": "A child reciting words they cannot yet explain.",
-    "turn": "A moment where a word meets their own experience, if it happens.",
-    "ending_open": "The term ends; the map goes on."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A pirivena teaching Abhidhamma to young novices",
-      "Consent from guardians, teachers and the chief monk",
-      "Respectful, unobtrusive filming"
-    ],
-    "suggestions": [
-      {
-        "name": "A village pirivena in the Kandy or Kegalle districts",
-        "region": "Central / Sabaragamuwa Provinces",
-        "why": "Many small monastic schools; hill landscape.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific school must be found and approached with care.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That teachers long ago drew up a detailed map of the mind, sorting every kind of passing moment of awareness into a hundred and twenty-one types, and that young novices still learn it by heart before they understand it. The map describes what we feel as one steady mind as a very fast stream of separate moments, each knowing one thing.",
+  "what_must_be_real": "The school's actual curriculum, its actual timetable and the novices' own words. Consent from guardians, teachers and the senior monk, and a child's own willingness to be filmed, renewable at any point. No lesson is staged, no recitation is performed for the camera, and no child is set up to fail a test on film. The film never suggests that any child is an example of any type of mind.",
+  "position_hint": "middle: it is the group's turn inward, and the only film in the slate where the map itself, rather than a single thing named, is the subject. No location reasoning is involved.",
   "risks": [
-    "Minors: strict consent and dignity",
-    "Overlap with Ep 1's monastery material",
-    "Becoming a lecture"
+    "Minors: consent, dignity, and the ease with which children reciting can be made to look either charming or pitiable.",
+    "Reading the hundred and twenty-one types as personality types, or as a ladder of better and worse people.",
+    "Letting the arithmetic become the film; the digest says a film that dwells on the counting becomes a lecture.",
+    "Presenting the author's heart-base argument, or his embryological figures, as established fact.",
+    "Presenting the deepest categories as peak experiences available to anyone with a technique.",
+    "Becoming a lecture in which the teaching is explained rather than watched."
   ],
   "drop_if": [
-    "Consent is uncertain",
-    "The film can only work by explaining doctrine"
+    "Consent from guardians, teachers or the children themselves is anything less than wholehearted.",
+    "The film can only be made to work by explaining the doctrine in narration.",
+    "The school turns out not to teach this material at all, or to teach it only to adults."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0006",
       "relation": "pairs with",
-      "note": "Learned maps of experience."
+      "note": "Two learned maps of experience: one chanted by children, one held in a practised palate."
+    },
+    {
+      "idea_id": "IDEA-0012",
+      "relation": "pairs with",
+      "note": "The stream of moments described in a classroom, and the same stream made visible by a moving flame."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries its episode and is the only kept idea in which the whole map, and the instruction to learn it, is the subject."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

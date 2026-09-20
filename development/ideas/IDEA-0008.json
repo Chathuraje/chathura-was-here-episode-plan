@@ -4,91 +4,71 @@
   "record_type": "idea",
   "title": "When Morning Begins",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "In one small town, 'morning' begins at a different hour for the baker, the fisher, the drummer and the farmer.",
-  "human_question": "Morning, east, today: are these things in the world, or agreements we make with the sun and moon?",
-  "premise": {
-    "story": "One night-to-dawn cycle through people whose work defines when 'morning' starts.",
-    "place": "A town where several dawn trades meet.",
-    "experience": "The night slowly turning: sounds, lights and people waking in sequence."
+  "logline": "In one small town 'morning' begins at four different hours, because four trades each need it to begin at a different one.",
+  "human_question": "Morning, east, today: are these things in the world, or agreements we make with the sun and the moon?",
+  "situation": {
+    "what_happens": "Several people in one town start their working day at hours that do not match, and each of them calls their own hour morning. The baker's morning is in the middle of the night, because the bread has to be at the door when other people's morning starts. A fisher's morning is set by the tide and the wind rather than by light. A drummer's is fixed by a ritual hour that cannot slip. A farmer's is whatever time the heat has not yet arrived. Through the same single night the light changes slowly and evenly, and four different mornings arrive inside it.",
+    "who_is_involved": "People whose trades define when their day begins: someone working an oven, a boat crew, someone who keeps a ritual hour, someone working a field; and around them the people whose mornings are set by theirs, a family woken by the oven, a market that waits for the catch, children who leave when the light does.",
+    "what_is_at_stake": "For each of them, something that fails if the hour is missed: bread that misses its customers, a boat that misses the wind, a rite that loses its hour, a field worked in heat instead of cool. For the film, the risk of turning working people into a montage of picturesque hours, or of romanticising knowledge that the people using it treat as ordinary competence.",
+    "how_it_unfolds": "It begins around midnight, with someone already at work while the town calls it night, and moves through the sequence of wakings that follow. The pressures are weather, tide, electricity, sleep and a clock measured against a sky. It can end with a sunrise nobody in particular notices, with one of the mornings failing, or with someone's hour changing because their work changed. Reality decides: the weather and the tide most of all."
+  },
+  "concept_merge": {
+    "why_together": "C084 gives the exact category. The sources list time and direction among the meaning-concepts, and say plainly that these arise with the movement of the sun and the moon as their basis [C084-M:L9; C084-M:L11–L19], with dawn, evening and night given as examples [C084-P:L27–L41]. C001 gives the standing they have: everyday names of this kind were used deliberately, so that people could understand easily [C001-P:L51], which is why nobody in this film is making a mistake. Put together across one night, the concept and the people who live by it are visible at the same time.",
+    "what_it_reveals": "That a word can be indispensable, shared and completely unlocatable at once. C084 alone would make 'morning' sound like an illusion; C001 alone would leave it a harmless figure of speech. Together they show four people organising real work, real money and real risk around something that is not in the world in the way the sun is, and show that this costs them nothing."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "Time- and direction-concepts arise from the movement of sun and moon."
+      "why": "Time and direction are listed among the meaning-concepts and are said to arise with the movement of the sun and moon as their basis [C084-M:L9; C084-M:L11–L19], with dawn, evening and night named as instances [C084-P:L27–L41]. That is this film's whole subject, observed in the only place it can be observed, in the hours people actually keep. The digest's guard applies directly: this is not 'language constructs reality', and the film must not suggest that anyone's morning is the wrong one."
     },
     {
       "concept_id": "C001",
       "role": "supporting",
-      "why": "A conventional frame everyone relies on and no one can point to."
+      "why": "The Pradeepika says everyday names were chosen so people could understand easily [C001-P:L51], and treats conventional speech as a valid mode rather than a fault. The film needs that, because its subject is a convention that four households depend on. The digest also blocks the two slogans this situation invites: 'nothing is real', and the modern reading of the analysis as a claim about culture or social construction, which it explicitly says changes the meaning."
     }
   ],
-  "what_camera_could_observe": [
-    "Ovens lit before dawn",
-    "Boats returning",
-    "Temple drums or bells",
-    "The first light; shadows turning"
-  ],
-  "what_must_be_real": "Real schedules, real routines.",
-  "possible_arc": {
-    "opening": "Midnight: someone's day is already starting.",
-    "turn": "Each trade names the hour differently.",
-    "ending_open": "Sunrise, which is nobody's 'morning' in particular."
-  },
-  "position_hint": "middle or closing",
-  "location": {
-    "requirements": [
-      "Several dawn trades within reach of each other",
-      "Night filming permissions"
-    ],
-    "suggestions": [
-      {
-        "name": "Kandy, around the dawn drumming at the Temple of the Tooth",
-        "region": "Central Province",
-        "why": "Drums mark the hour for a whole city.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Filming permissions at the temple are strict.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "A southern fishing harbour (e.g. Mirissa or Beruwala)",
-        "region": "Southern / Western Provinces",
-        "why": "Boats return at dawn; markets start in the dark.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That 'morning' is not a thing you can point to. It is a shared agreement resting on the movement of the sun, and people use it to organise their lives, which is why the baker, the fisher, the drummer and the farmer can each have a morning that starts at a different hour.",
+  "what_must_be_real": "Real schedules and real routines. Nobody starts early or late for the camera, no hour is restaged, and no one is asked to describe their day in the language of the film's idea.",
+  "position_hint": "middle or early: it follows naturally from a film about many names for one thing, by turning to one name that everybody uses and nobody can locate. No location reasoning is involved.",
   "risks": [
-    "A montage with no single human thread"
+    "A montage of atmospheric hours with no single person to carry the night.",
+    "Romanticising working knowledge as traditional wisdom; the people using it treat it as competence.",
+    "Implying that time is fake or that one trade's morning is more real than another's.",
+    "Turning the idea into a social-construction argument, which the digest says changes the sources' meaning."
   ],
   "drop_if": [
-    "No person to carry the night"
+    "No person whose night the film can genuinely stay with.",
+    "The different hours turn out to be identical in practice, or exist only in how people talk."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0004",
       "relation": "pairs with",
-      "note": "Names grounded in nature."
+      "note": "Two names with nothing under them: a stretch of time, and a hole in the ground."
+    },
+    {
+      "idea_id": "IDEA-0001",
+      "relation": "pairs with",
+      "note": "Many names for one thing, then one name for something nobody can point at."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries its episode, and is the group's cleanest case of a concept the sources name directly."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

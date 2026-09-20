@@ -4,92 +4,78 @@
   "record_type": "idea",
   "title": "Willing Hands",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "A village turns out to clear a tank bund or temple ground together. Some people arrived because they wanted to. Others came because they were asked, and their whole day moves differently.",
+  "logline": "A community turns out to do a day of shared work, some because they wanted to and some because they were asked, and the two kinds of day move differently in the same bodies.",
   "human_question": "Does it change the work when the hands doing it were pushed rather than willing?",
-  "premise": {
-    "story": "A community voluntary work day, followed from the early morning gathering through the heat of the afternoon: who sets the pace, who lingers over tea, who drifts to the shade, and how the group's energy changes as the day wears on.",
-    "place": "A village clearing a tank bund, road or temple ground together.",
-    "experience": "The viewer feels the texture of a long shared task, and the difference, visible in bodies and pacing rather than words, between those who came eagerly and those who came because they were asked."
+  "situation": {
+    "what_happens": "A job too big for any household gets done by everybody at once, on a date somebody chose, with tools people bring themselves. Some of those present organised it. Some came because a neighbour came to the gate and asked, and saying no would have been remembered. By mid-morning the difference is not in what anyone says but in pace: who starts again first after the tea, who finds the job furthest from the middle, who leaves at noon with a reason. By the end the work is done anyway, which is the part that matters to everyone except the film.",
+    "who_is_involved": "The people who called the work day and carry the responsibility for it; those who came without being asked; those who came because being asked is not really a question; older people who do the lighter parts and the coordinating; and the households that benefit whether they came or not, who are also present in everyone's mind.",
+    "what_is_at_stake": "A piece of shared infrastructure that nobody owns and everybody needs. Underneath it, the standing of the people who called the day and the quiet accounting of who turned up, which will be remembered the next time. For the film, not marking anybody as the lazy one in a place where they still have to live.",
+    "how_it_unfolds": "It begins early, in good spirits, with more energy than the task needs. It thins in the heat. The pressures are the length of the job, the temperature, and the social arithmetic of leaving before other people do. It ends with the work finished, half-finished and deferred to another day, or finished by a much smaller group than started. Reality decides, and nothing about it can be arranged."
+  },
+  "concept_merge": {
+    "why_together": "C026 supplies the structural claim: dullness and heaviness occur only in unwholesome states that had to be urged along, never in ones that spring up on their own, because they make the mind unfit for what is in front of it [C026-P:L43–L47; C026-M:L21]. C022 supplies both the image and the boundary: the compendium's picture of a feather curling away from a flame [C022-P:L165], and its careful separation of the body's honest need for rest, which even the fully awakened have, from the mental sluggishness it counts as a fault [C022-P:L171–L175]. The second is what keeps the first from becoming an accusation on a hot afternoon.",
+    "what_it_reveals": "That the difference between willing and urged effort is real and visible, and that it is a difference of texture rather than of worth. Put together, the two concepts say something the day itself cannot: that being pushed does not make an act better or worse, only heavier, and that the heaviness a camera actually sees at two in the afternoon is mostly heat and a body, which the sources refuse to count as anything at all."
   },
   "concept_links": [
     {
       "concept_id": "C026",
       "role": "primary",
-      "why": "Sloth and torpor, the mind's dullness and heaviness, are described as occurring only in states that had to be urged along, never in ones that arise on their own initiative, because they make the mind unfit for the task at hand [C026-P:L43; C026-M:L21]. A voluntary work day, where some came freely and some were asked, offers a real, everyday texture close to that structural distinction, without implying that the reluctant are doing anything wrong."
+      "why": "Sloth and torpor occur occasionally and only in the five prompted unwholesome minds, never in spontaneous ones, because they leave the mind unwieldy and unfit for the task at hand [C026-P:L43–L47; C026-M:L21]. A work day where some came freely and some were asked offers a real, everyday texture close to that distinction. The link is to the texture, not to a verdict: the sources are describing harmful states of mind, and a village repairing something together is not one, so nothing here implies that the people who were asked are doing wrong. The digest's own limit is the point that has to survive into the film: prompting changes the texture, not the moral quality, so 'being pushed excuses it' is not available either. The digest also records an unresolved question about how the delusion-rooted minds are classified by prompting [C026-P:L47], so the film does not present the prompted and spontaneous split as tidier than the sources leave it."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "This heaviness is described through the image of a bird's feather drawn near a flame, curling and shrinking away from the task [C022-P:L165]. A long, hot day of communal labour has its own visible version of that same shrinking and reviving, in anyone, regardless of why they came."
+      "why": "This heaviness is given its own image in the compendium, a feather drawn near a flame and curling away from it [C022-P:L165], which describes shrinking from a task rather than being tired by it. The same treatment separates the body's honest need for rest, which the text says even the fully awakened have, from the dull sluggishness counted as unwholesome [C022-P:L171–L175]. The digest's bar on 'sleep is laziness' is load-bearing for a film about people working in heat: someone sitting in the shade at two in the afternoon is not an illustration of thīna-middha, and the film may not offer them as one."
     }
   ],
-  "what_camera_could_observe": [
-    "The morning gathering and the start of the work",
-    "Different paces and different energy across the group",
-    "Tea breaks, shade, who lingers and who returns quickly to work",
-    "Conversations about why people came, in their own words",
-    "The finished task, and the group's mood at the end of the day"
-  ],
-  "what_must_be_real": "The work day, the participants and their reasons for attending must be genuine. No one may be asked to characterise themselves or others as lazy or willing for the camera; the film observes texture, not verdicts.",
-  "possible_arc": {
-    "opening": "Early morning, tools gathered, the group assembling.",
-    "turn": "The heat of the day tests everyone's pace differently.",
-    "ending_open": "Whatever the finished (or unfinished) work looks like, and how the group feels at the end, ends the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A village organising a genuine communal work day during the filming window",
-      "A mix of participants who came for different reasons, willing to speak plainly about it",
-      "Consent from organisers and participants"
-    ],
-    "suggestions": [
-      {
-        "name": "A village clearing a tank bund or temple ground",
-        "region": "Kandy or Matale district, Central Province",
-        "why": "Central Province villages with active temple and irrigation-maintenance traditions of communal labour.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific village and work day must be found and confirmed; this is a region-level suggestion only.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The same job feels light or heavy depending on whether we chose it or were pushed into it. Describing unhelpful states of mind, the texts notice something similar: heaviness and dullness only show up where a mind had to be urged along. They are just as clear that this says nothing about whether the pushed act is worse, and that an honestly tired body is not what they are describing at all.",
+  "what_must_be_real": "The work day, the participants and their reasons for coming must be genuine, and the day cannot be convened, extended or re-run. Nobody may be asked to characterise themselves or anyone else as lazy or willing for the camera, and nobody's afternoon in the shade may be used to stand for them. The film observes texture, not verdicts, and anyone who does not want their pace filmed is not filmed.",
+  "position_hint": "middle, late: after the group's argument film, the same shared work seen from inside rather than fought over, and the last of the quiet films before the heat is looked at directly. No location reasoning is involved.",
   "risks": [
-    "Implying that reluctant participants are wrongdoers; the source's link is only an analogy about texture, not a doctrine applied to real people",
-    "Singling out individuals as lazy in the edit",
-    "A quiet, low-event day may not sustain a full film without a clear human throughline"
+    "Implying that reluctant participants are wrongdoers; the source describes harmful states and the link here is to texture only.",
+    "Singling out individuals as lazy in the edit, in a place where they go on living.",
+    "Reading ordinary tiredness in heat as the sluggishness the sources count as a fault, which the digest rules out.",
+    "Letting the film imply the opposite error, that being pushed into something makes it count for less.",
+    "A quiet, low-event day may not sustain a film without a human throughline, and the throughline may not be there."
   ],
   "drop_if": [
-    "No genuine communal work day is scheduled during the filming window",
-    "Participants are uncomfortable with the framing once it is explained to them"
+    "No genuine communal work day is scheduled during the filming window.",
+    "Participants are uncomfortable with the framing once it is explained to them.",
+    "The film would need someone identifiable to be the reluctant one."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0041",
+      "relation": "follows",
+      "note": "The same shared work seen twice: once as an argument about who gets it, once as a day of doing it."
+    },
+    {
       "idea_id": "IDEA-0039",
       "relation": "mirrors",
-      "note": "Two workshops of willingness: one about giving knowledge freely or not, one about giving effort freely or not."
+      "note": "Two studies of willingness: giving knowledge freely or not, and giving effort freely or not."
     },
     {
       "idea_id": "IDEA-0045",
       "relation": "leads into",
-      "note": "The heaviness of a task some were urged into opens into the deeper stall of a decision no one in a household can quite make."
+      "note": "The heaviness of a task some were urged into, and the deeper stall of a decision nobody can make at all."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries EPD-0025 and is the group's only look at the prompted and spontaneous split; kept with the analogy stated inside the link rather than left to a caution."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

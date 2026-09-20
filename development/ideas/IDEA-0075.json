@@ -4,93 +4,77 @@
   "record_type": "idea",
   "title": "The Weight of a Stone",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "In a gem-cutting town, a stone is turned once under a lamp, and in less than a second a cutter says what it is worth, a judgement that took a lifetime to become instant.",
-  "human_question": "What has to happen, in an instant, for someone to just know what they are looking at?",
-  "premise": {
-    "story": "A gem sorter or cutter examines rough and cut stones through a working day: tilting them to the light, judging colour, deciding what to buy, reject, or how to cut.",
-    "place": "A gem-trading room or small cutter's workshop in a mining district.",
-    "experience": "The viewer watches a judgement that looks instantaneous and comes to see how many small steps, arriving, being taken in, checked, settled, and finally acted on, are folded into that one glance."
+  "logline": "A cutter turns a rough stone once under a lamp and says in a second what it is worth, a judgement that took a lifetime to become instant.",
+  "human_question": "What has to happen, in an instant, for someone to simply know what they are looking at?",
+  "situation": {
+    "what_happens": "Rough and cut stones pass through a working day and each one has to be judged: tilted to the light, turned in the fingers, bought, rejected, or assigned a way of cutting that cannot be undone once the wheel touches it. The judgements are made in about a second each, and the money in them is large relative to everything else in the trade. Sometimes two people who both know the work disagree about the same stone, and the disagreement has to be settled by somebody paying.",
+    "who_is_involved": "The cutter or sorter whose eye the trade pays for; a buyer with their own opinion and their own money; whoever dug or washed the stone, who is usually furthest from the price; and a learner who can see that a verdict was reached but not how.",
+    "what_is_at_stake": "The value of a single stone, which can be a large part of a month. A reputation that exists only as a record of having been right quickly. And for the learner, whether a judgement that lives entirely inside someone else's eye can be passed on at all.",
+    "how_it_unfolds": "A stone arrives, is judged, and is bought, refused or cut, usually the same day. The pressures are the light, the buyer's own view, the money already committed and the irreversibility of cutting. It ends in a stone worth more than it was, worth less, or ruined, and the trade, not the film, decides which."
+  },
+  "concept_merge": {
+    "why_together": "C041 contributes the fullest form of the sources' process, the one that runs when the sense, the object, the light and the attention are all strong together: the resting mind is disturbed, turns toward, bare seeing occurs, then receiving, investigating and determining, then a burst of full engagement and a short lingering. C036 contributes what the eye is actually given in that run, a blend of colour and never the ruby, the flaw or the price. C039 contributes why such a judgement has to be fast or not at all, since matter's own lifespan is short and the whole process is built to fit inside it. A verdict given under a lamp in one second is the one everyday situation where all four of C041's conditions are deliberately arranged by the worker.",
+    "what_it_reveals": "Together they show that the practised eye is not seeing more than anyone else. It is receiving the same bare colour and adding a lifetime of naming to it, inside a window the sources say is fixed by the material rather than by the person. The trained verdict looks like insight and is described by the sources as a relay."
   },
   "concept_links": [
     {
       "concept_id": "C041",
       "role": "primary",
-      "why": "The source's full seventeen-moment process for a very great object, adverting, seeing, receiving, examining, determining, a burst of full engagement, then a brief holding, describes, at the level of doctrine, exactly the kind of instant, total judgement a practised eye makes over a stone; the series reads the concluding burst as where a response is made, though the source itself never calls this stage choice [C041-P:L46; C041-M:L7]."
+      "why": "The digest sets out the fullest eye-door process and names its four conditions, a strong eye-sensitivity, a strong visible object, strong light and strong attention, all present together [C041-P:L25], followed by the seventeen-moment order of adverting, seeing, receiving, investigating, determining, seven moments of impulsion and two of registration [C041-P:L29-L48]. A lamp held close over a stone is a worker deliberately arranging those conditions. The digest's limits are held: the seventeen moments are not a neuroscience timing and may not be presented as milliseconds; 'the pause between stimulus and response is where your freedom lies' is a modern slogan the digest rules out by name; and the concluding burst is called wholesome, unwholesome or merely functional by the sources, never 'choice', which is the series' own reading."
     },
     {
       "concept_id": "C036",
       "role": "supporting",
-      "why": "The source insists the eye meets only colour, not a ruby or a flaw; recognition is added from everything seen before. A gem cutter's snap judgement is built on exactly this gap between raw colour and trained naming."
+      "why": "The digest is explicit that the eye meets only colour, a blend of the colours of many clusters, not a stone and not a flaw, and that recognition comes from marks learned in earlier seeing [C036-P:L37-L41; C036-M:L9]. A snap verdict on a stone is built entirely in that gap. The digest also notes an unresolved tension in the source, which calls the visible object 'unmixed' in one place and a mixture of many clusters' colours in another [C036-P:L61; C036-P:L41]; the film does not choose between them."
     },
     {
       "concept_id": "C039",
       "role": "supporting",
-      "why": "Matter's own brief lifespan, seventeen mind-moments, is the source's account of why a full judgement has to happen fast or not at all, a useful, if technical, frame for why a trained eye works in an instant."
+      "why": "The digest gives matter a lifespan of seventeen mind-moments against the mind's one, and says in plain terms that the world holds still for about as long as it takes to be noticed once [C039-M:L5; C039-P:L31]. That is the sources' own reason why a full judgement happens fast or not at all. The digest's guards apply: the clusters are not atoms, molecules or cells, and 'less than a hundred-thousandth of an eye-blink' is a traditional image and not a figure to quote as science."
     }
   ],
-  "what_camera_could_observe": [
-    "A stone tilted under a lamp, turned in the fingers",
-    "The moment a face changes as a verdict forms",
-    "A second look, or a colleague's differing opinion",
-    "Bargaining, rejection or a sale following the verdict",
-    "Cutting, grinding or polishing once a decision is made"
-  ],
-  "what_must_be_real": "The trade's real money, risk and secrecy; no staged verdicts for the camera; the cutter's own account of what a first look tells them versus what only a second look does.",
-  "possible_arc": {
-    "opening": "A stone changes hands; work for the day begins.",
-    "turn": "A stone tests the cutter's judgement, an unusual colour, a hidden flaw, a disagreement with a buyer.",
-    "ending_open": "The stone is bought, rejected, or cut; the outcome is whatever the trade actually decides."
-  },
-  "position_hint": "opening candidate: a real, demanding craft with a strong physical object, a gemstone, that could plausibly be where Object 5 is acquired, if a real moment allows.",
-  "location": {
-    "requirements": [
-      "An active gem-cutting or gem-trading workshop willing to allow filming",
-      "Consent covering security and trade confidentiality around valuable stones",
-      "Good close-up light and stable access for macro camera work"
-    ],
-    "suggestions": [
-      {
-        "name": "Ratnapura gem-mining district",
-        "region": "Sabaragamuwa Province",
-        "why": "Sri Lanka's best-known centre for gem mining, trading and cutting.",
-        "season_notes": "",
-        "access_notes": "Security and confidentiality around stones will need careful negotiation.",
-        "verify": "A specific workshop, trader or cutter willing to be filmed is unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "A judgement that looks instantaneous is, on these texts' account, a short relay of separate steps, and what the eye contributes to it is only colour. Everything that makes the verdict valuable, the name, the grade and the price, was added from what the person had already seen thousands of times before.",
+  "what_must_be_real": "Real stones, real money and the trade's real secrecy. No verdict staged or repeated for the camera, and nothing filmed that would expose confidential pricing, sourcing or a participant's security. The cutter's own account of what a first look tells them, and what only a second look does, must lead.",
+  "position_hint": "middle: its substance now sits inside the group's film about skilled work rather than holding a slot of its own, and it belongs wherever that film belongs.",
   "risks": [
-    "The gem trade involves real money and security concerns that could limit access",
-    "Glamorising the trade without its labour and mining realities",
-    "Implying trade secrets or valuations on camera that could put someone at risk"
+    "Glamorising a high-value trade without the labour and the mining behind it.",
+    "Implying valuations or trade secrets on camera in ways that put someone at risk.",
+    "Presenting a seventeen-moment count as a measured reaction time.",
+    "Treating a trained verdict as intuition or a sixth sense rather than as accumulated recognition."
   ],
   "drop_if": [
-    "No trader or cutter will allow filming of real transactions",
-    "Security concerns make filming valuable stones impossible",
-    "The work cannot be shown without exposing confidential pricing or sourcing"
+    "No trader or cutter will allow real transactions to be filmed.",
+    "Security around valuable stones makes honest filming impossible.",
+    "The work cannot be shown without exposing confidential pricing or sourcing."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0073",
+      "relation": "merged into",
+      "note": "Its instant-verdict situation and its C036 link on colour arriving before any name now sit inside IDEA-0073, which needed a real trade to be about."
+    },
+    {
       "idea_id": "IDEA-0087",
       "relation": "mirrors",
-      "note": "Both watch a trained eye separate raw colour from a name and a value, one with stones and one with flowers."
+      "note": "Both watch a trained eye separate raw colour from a name and a value, one under a lamp and one in half-light."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0073",
+    "reason": "Folded into IDEA-0073, whose situation was abstract and which now carries this film's instant judgement, its years of accumulated recognition and its C036 link."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

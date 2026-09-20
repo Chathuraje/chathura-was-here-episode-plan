@@ -4,93 +4,79 @@
   "record_type": "idea",
   "title": "What Came Back Home",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "A woman returns to her home village after years of work abroad, naming places before they come into view, and finds that some of what she remembers is no longer there to be seen.",
-  "human_question": "When you remember a place, what exactly are you holding onto, if the place itself has already changed?",
-  "premise": {
-    "story": "A migrant worker returns home after years away. The journey home, the first sight of the house, and the gap between the village she describes from memory and the village that is actually there form the film.",
-    "place": "A rural home and the road leading to it, somewhere a family has waited years for a return.",
-    "experience": "The viewer travels between what someone remembers and what is actually in front of them, and feels how much of coming home is the mind meeting its own past."
+  "logline": "A woman returns to the village she grew up in after years of work abroad, naming places before they come into view, and finds that some of what she remembers is no longer there to be seen.",
+  "human_question": "When you remember a place, what exactly are you holding, if the place itself has already changed?",
+  "situation": {
+    "what_happens": "Someone who has worked abroad for years comes home for good, or for a long stay. On the last stretch of the journey she names what is coming before it appears, because she has been rehearsing it for years. Some of it is there and some of it is not: a house rebuilt, a shop gone, a neighbour dead, a child who was four and is now taller than she is. The adjustment that follows is not a single scene but weeks of small corrections, and the family is adjusting to her at the same rate she is adjusting to them.",
+    "who_is_involved": "The returning worker; the household that stayed, including whoever raised the children in her absence and now hands that role back, or does not; the children themselves, who remember her mostly as a voice and a remittance; neighbours whose own accounts of what changed do not always agree with hers.",
+    "what_is_at_stake": "Whether the family she has been paying for is the family she comes back to, and whether the years bought what they were meant to buy. For the person who stayed, the loss of an authority they held while she was away. For the children, a second rearrangement of who is in charge of them.",
+    "how_it_unfolds": "A return like this begins months before the journey, in plans and promises, and arrives all at once. The pressures are money that has stopped coming in, a role that has to be renegotiated without anyone saying so, and the difference between what was described on a call and what is actually standing there. It ends in settling back, in leaving again, or in a long unresolved middle, and only the family decides which."
+  },
+  "concept_merge": {
+    "why_together": "C047 contributes the sources' sharpest distinction, worked out through their own example of visiting a great monument: seeing it is one kind of event, remembering it at home is another whose object has already ceased and no longer exists, turning toward the real place from far away is a third, whose object is what stands there now, and the name of the place is a fourth thing again. C046 contributes the staged account of how recognition is actually assembled, the object replayed as past, then sorted, then named, then understood, with the weightiest response only at the last step. C036 contributes the hard limit underneath both, that the five senses can only meet what is present while the mind alone reaches into the past. A homecoming after years away is the one ordinary situation in which all four of C047's objects are present in the same hour and cannot be told apart by the person holding them.",
+    "what_it_reveals": "Separately these are classifications. Together, in a return, they explain why coming home is confusing in a way nobody expects: the village she has been holding is not an old version of the village in front of her, it is a different kind of object entirely, and the mind cannot help laying one over the other. C047's further distinction gives the film its second layer: remembering the place, remembering that she was there, and remembering how she felt there are three separate acts with three different objects, and most of what people call homesickness turns out to be the second and third kind."
   },
   "concept_links": [
     {
       "concept_id": "C047",
       "role": "primary",
-      "why": "The source distinguishes sharply between remembering a place, an object that no longer exists, and meeting the place as it now stands, a present object, precisely the gap a long-absent return makes visible [C047-M:L9; C047-M:L11]."
+      "why": "The digest teaches this concept through one worked example: seeing a great monument is an eye-door process; remembering it at home is a mind-door process whose object is something already seen, ceased and no longer existing; bowing toward the real place from far away takes present matter as object; its name is a concept; remembering that you saw it takes a past consciousness as object; and recalling the joy you felt there takes a mental factor [C047-M:L5-L23]. That is a long absence and a return, described in advance. The digest adds the point this film is really for, that remembering a place, remembering that you went and remembering how it felt are three different acts with three different objects, and that much of what we call memory is the second or third kind. Two limits are carried: the digest's own note that the source's example names a real monument and that this is source text only, never a location suggestion for the series; and its warning that 'living in the past is unhealthy' adds a judgement the source does not make, since the source only describes what remembering is."
     },
     {
       "concept_id": "C046",
       "role": "supporting",
-      "why": "The source's account of mind-door processes, taking a past object, then its name, then its meaning, describes, in doctrinal terms, how recognition of a changed place is built up in stages rather than arriving all at once."
+      "why": "The digest describes how one sight is followed by several mind-door processes: the object replayed as past, then its colour, then its name or concept, which is the moment of recognition, then its meaning, and only in the last of these can the response be a full act of liking, anger, trust or confusion [C046-P:L117-L151]. That is why 'I saw the house and felt nothing for a second' is not strange but expected. The digest rules out the reading this film could easily slide into, that naming is the problem and one should stop labelling: the source treats naming as an ordinary step in knowing, and puts the moral weight on the response that follows. It also notes that Margaya's own follow-on account has three processes rather than four and records it as one teacher's view, so the two versions are kept apart rather than merged."
     },
     {
       "concept_id": "C036",
       "role": "supporting",
-      "why": "The source's account of the mind door taking objects across all three times, while the senses meet only the present, frames why a returnee can see a house from years ago even while standing in front of the house as it is now."
+      "why": "The digest states that the five senses meet only what is present, while the mind door takes objects of past, present and future and also timeless ones such as names and concepts [C036-P:L125-L161], and gives the source's three senses of 'present', the instant, the stretch it takes to recognise something, and a whole life [C036-P:L45-L57], which is a precise frame for a woman holding a village as an instant, as a recognition and as the whole of her childhood at once. The digest's own limit is observed: 'live in the present moment' is not the source's advice, and the mind's reach into past and future is treated as ordinary, not as a fault. The source's deathbed objects are not touched by this film."
     }
   ],
-  "what_camera_could_observe": [
-    "The journey from airport or bus stop toward the village",
-    "The returnee naming places before they come into view, and correcting herself when they don't match",
-    "The first sight of the house and family",
-    "What has changed and what has not, in the family's own account",
-    "Quiet moments of adjustment in the days that follow"
-  ],
-  "what_must_be_real": "The family's real situation and feelings; no staged reunion moment for the camera. The economic realities of migrant labour must not be glossed over for a sentimental arc.",
-  "possible_arc": {
-    "opening": "The journey home begins; memory runs ahead of the road.",
-    "turn": "Something does not match what was remembered, a changed house, an absent neighbour, a grown child.",
-    "ending_open": "The family's real adjustment, however it actually goes, closes the film."
-  },
-  "position_hint": "middle: an intimate family story built on memory and return, not an Object 5 acquisition moment.",
-  "location": {
-    "requirements": [
-      "A family with a member returning from long-term work abroad, willing to be filmed",
-      "Access to both the journey and the home over enough time to observe real adjustment",
-      "Careful, ongoing consent from the whole family, including any children"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural village in the North Western or North Central Province",
-        "region": "North Western / North Central Province",
-        "why": "Regions with a long history of overseas labour migration and return.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific family and their willingness to be filmed over time are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Remembering a place and seeing it again are two different things: the remembered village has already gone, while the village in front of you is what stands there now. Coming home is partly the mind meeting its own past, and these texts say that is ordinary, not a failing.",
+  "what_must_be_real": "The family's real situation, and no reunion arranged or re-staged for a camera. The economics of migrant labour are part of the film and may not be traded for a sentimental arc. Consent is renegotiated with the whole household, including the children, as the weeks go on, and anyone may stop.",
+  "position_hint": "middle: it is the group's first turn from the five senses to the sixth door, and it belongs after the films about seeing and hearing and before the film about how long a single contact can echo. No location reasoning is involved.",
   "risks": [
-    "Pathos-driven framing of migrant labour and family separation",
-    "Intruding on a family's private emotional adjustment",
-    "Implying the family's story is a lesson rather than their own life"
+    "Pathos-driven framing of migrant labour and family separation.",
+    "Intruding on a household's private adjustment, or filming the children before they can meaningfully agree.",
+    "Implying the family's story is a lesson rather than their own life.",
+    "Moralising about memory, which the C047 digest says the source does not do.",
+    "Letting a disagreement about what changed be edited as though one person is remembering wrongly."
   ],
   "drop_if": [
-    "No family with a genuine, upcoming return is found",
-    "The family does not want their reunion and adjustment filmed",
-    "Access would require staging the return itself"
+    "No family with a genuine, upcoming return is found.",
+    "The family does not want the return and the adjustment filmed.",
+    "Access would require staging the arrival itself.",
+    "The film could only work by treating the returnee's memory as an error."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0079",
       "relation": "pairs with",
-      "note": "Both are about what the mind holds onto after contact has already ended, a place once seen, a sound once heard."
+      "note": "Both are about what a mind holds and reworks long after the contact has ended, one a place once seen and one a sound once struck."
+    },
+    {
+      "idea_id": "IDEA-0085",
+      "relation": "sits beside",
+      "note": "Two films about what a mind does with something after the sense has finished with it, one remembering and one learning."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0041, and the C046 and C035 digests both name a migrant worker's return as the situation for this material."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

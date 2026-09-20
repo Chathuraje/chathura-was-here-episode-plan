@@ -4,92 +4,80 @@
   "record_type": "idea",
   "title": "Held Up",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "A long-distance bus breaks down on a rural road. Passengers step out into the heat with nowhere to be but exactly here, and the mood of the group shifts, more than once, before it moves again.",
-  "human_question": "What does a group of strangers do with an hour nobody chose?",
-  "premise": {
-    "story": "An ordinary breakdown on a rural route: the driver and conductor under pressure to fix or replace the vehicle, passengers stepping out, phone calls home, complaints, small kindnesses between strangers, and the mood changing as the wait lengthens.",
-    "place": "A rural highway between provincial towns, wherever the bus happens to stop.",
-    "experience": "The viewer waits with the passengers in real time: heat, boredom, irritation, and the small, unplanned generosities that also show up in a stalled crowd."
+  "logline": "A long-distance bus stops where nobody meant to stop, and an hour nobody chose is shared out between the passengers who are refused their arrival and the two men standing in front of them who did not cause it.",
+  "human_question": "What does a group of strangers do with an hour nobody chose, and where does all of it land?",
+  "situation": {
+    "what_happens": "A full vehicle on a long route stops moving, and the reason is mechanical and not anybody's fault. What follows is a small, complete society with one problem: people step out, ring ahead, work out alternatives, and complain, and almost all of the complaining is addressed to the two people who work on the bus, because they are the only representatives of the situation available. Those two are also the ones actually trying to fix it, under watch, with a deadline they cannot meet. The mood does not move in one direction: it hardens, softens, hardens again, and somewhere in the middle people who have never met start sharing shade and water.",
+    "who_is_involved": "Passengers, each with somewhere they are now not going to be on time; the driver and the conductor, who receive the whole vehicle's frustration one person at a time although none of it is theirs, and who are simultaneously the only people working on the problem; whoever is sent out or flagged down to help; roadside sellers for whom the stop is unexpected trade; and the people waiting at the far end.",
+    "what_is_at_stake": "A connection missed, a day's wages, an appointment, a child to be collected, a return ticket that no longer works. For the crew, standing in front of a full bus and their position with whoever employs them. For the film, not making tired people into examples, and not treating a genuine hardship for someone in the vehicle as texture.",
+    "how_it_unfolds": "It starts with the ten optimistic minutes where everyone assumes it is nothing. It becomes real when the estimate is revised. The pressures are heat, time, money and the absence of anyone to hold responsible except the two people present. It ends with a repair, a replacement vehicle, passengers dispersing into whatever else is passing, or, most likely of all, with no such breakdown happening within any filming window at all. Reality decides completely here: this event cannot be arranged, delayed or timed, and it may simply never occur."
+  },
+  "concept_merge": {
+    "why_together": "C007 supplies the occasion in the plainest form the group can find: the sources list not getting what one wants among the ordinary causes of this state [C007-P:L49], and Margaya adds a request refused and a thing asked for and not given [C007-M:L17], while both hate-rooted minds always arrive with a painful mental feeling [C007-P:L25–L28]. C022 supplies what is underneath the whole hour: restlessness is one of the four factors present in every unwholesome moment, whatever else it contains [C022-P:L31]. Folded in from IDEA-0036, the pair also describes the position of the crew, who spend the hour receiving many separate people's refusals about something none of them caused.",
+    "what_it_reveals": "That this heat needs no wrong and no villain. A road is enough, and a mechanical fault that nobody chose produces the same state the group's angriest films produce. It also reveals something a single-mind scheme cannot show on its own: that the state travels. It arrives at the crew already formed, about something else, several dozen times in an hour, which is why the two people with the least responsibility carry the most of it."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "This is the group's question in its plainest, least dramatic form: life refusing what a whole group of people want, which is simply to arrive [C007-P:L49]. The displeasure is felt first by each waiting person alone, and only afterwards passed between them."
+      "why": "This is the group's question in its least dramatic form: life refusing a whole group of people the one thing they want, which is to arrive. Pradeepika names not getting what one wants among the occasions [C007-P:L49], and Margaya's list adds precisely the social form this takes, a request refused and a task not done [C007-M:L17] (the second of these folded in from IDEA-0036, whose whole subject was the person those requests land on). Both hate-rooted minds always carry a painful mental feeling [C007-P:L25–L28], so the displeasure is felt first inside each waiting person and only afterwards passed between them. The digest's bar on 'let it out, venting is healthy' applies directly: the sources treat this state as painful in itself and as the beginning of harsh speech, and give no account of it being safely discharged by expression [C007-P:L47]."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Restlessness, present in every state of this kind, is a mind that will not settle on what is in front of it [C022-P:L73; C022-M:L19]. A stranded crowd shows that same unsettling spread across many people and many different ways of passing the time."
+      "why": "Restlessness is one of the four both sources place in every unwholesome mind, whatever else is present [C022-P:L31; C022-M:L3], and a stalled crowd is that unsettledness spread thin across many people and many ways of passing time. The earlier version compared it to wind shaking the leaves of a tree; the digest lists the similes this source uses and that is not one of them, so the image has been removed. The same list also gives hate a wider range than 'anger', reaching to discontent, disgust and plain displeasure [C022-P:L121], which is the register almost everything in this hour actually sits in."
     }
   ],
-  "what_camera_could_observe": [
-    "The moment the bus stops and passengers realise something is wrong",
-    "The driver and conductor working the problem, under pressure and under watch",
-    "Passengers stepping out: phone calls, complaints, waiting in shade",
-    "Small kindnesses: shared water, shared shade, help with luggage or children",
-    "The bus moving again, or a replacement arriving, and how the mood changes"
-  ],
-  "what_must_be_real": "The breakdown must happen on its own; it cannot be arranged, delayed, or timed to suit the crew, and it may not happen at all when the crew is present. If it happens, all passengers filmed must consent.",
-  "possible_arc": {
-    "opening": "A bus at speed, ordinary and full, then slowing unexpectedly.",
-    "turn": "Time stretches and the group's mood turns, more than once, as the wait continues.",
-    "ending_open": "However the journey actually resumes, or does not, within the filming window, ends the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "A rural long-distance bus route where the crew can travel and wait without arranging events",
-      "A genuine, unplanned breakdown occurring during the filming window",
-      "Consent from the driver, conductor and passengers involved"
-    ],
-    "suggestions": [
-      {
-        "name": "A rural highway between provincial towns",
-        "region": "Uva Province, on the Passara–Monaragala road corridor",
-        "why": "A long hill-to-dry-zone route served by long-distance buses, offering real distance and time for a stop to matter to passengers.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "This is a plausible route type, not a confirmed filming plan; a specific service and willing operator must be found.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "Even a small, ordinary refusal, a vehicle that will not move, sets off displeasure, and each person feels it inside before anyone else sees it. The texts name not getting what one wants, and a request that is not granted, among the commonest times this happens. What a stalled hour adds is where it goes: it collects on whoever is standing in front of the crowd, who is usually the person who caused none of it.",
+  "what_must_be_real": "The breakdown must happen on its own. It cannot be arranged, prolonged, delayed or timed to suit anyone, and it may not happen at all while a crew is present, which the film must be able to accept as an outcome. Everyone filmed must consent, including the crew, who are the most exposed people in the situation and the least free to refuse. Nobody's worst five minutes may stand for them, and no genuine hardship in the vehicle may be used as atmosphere.",
+  "position_hint": "middle: it is the group's lowest-temperature film and its most public, and it works best between the private holding-back films and the argument that follows them. No location reasoning is involved.",
   "risks": [
-    "Mocking frustrated people or singling anyone out at their worst moment",
-    "The breakdown cannot be arranged and may simply never happen on schedule",
-    "Passenger safety and comfort in heat or heavy traffic during a real delay"
+    "Mocking frustrated people, or singling anyone out at their worst moment.",
+    "Making the crew into either villains or saints; they are simply the people standing there.",
+    "Reading the four constant factors as a description of a type of person rather than of a moment, which the digest rules out in as many words.",
+    "The event cannot be arranged, so a crew waiting for it is waiting for other people's bad day.",
+    "Passenger safety and comfort in heat or traffic during a real delay, and the pull to keep filming rather than help."
   ],
   "drop_if": [
-    "No genuine, unplanned breakdown occurs within the filming window",
-    "Passengers do not consent to being shown"
+    "No genuine, unplanned breakdown occurs within the filming window.",
+    "Passengers or the crew do not consent to being shown.",
+    "The only way to get the film would be to arrange, extend or simulate a delay."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0034",
-      "relation": "pairs with",
-      "note": "Both are bounded-time ensemble pieces where a delay tests a crowd's patience in public."
+      "idea_id": "IDEA-0036",
+      "relation": "absorbs",
+      "note": "Takes in the strand of a working day spent receiving other people's refusals, which the driver and conductor live in concentrated form for one hour."
     },
     {
-      "idea_id": "IDEA-0044",
-      "relation": "mirrors",
-      "note": "Two waiting rooms of different kinds, a road and an office counter, testing the same small patience."
+      "idea_id": "IDEA-0035",
+      "relation": "pairs with",
+      "note": "Two stretches of imposed waiting, one alone in the dark and one in a crowd in the heat."
+    },
+    {
+      "idea_id": "IDEA-0041",
+      "relation": "leads into",
+      "note": "From a crowd with nobody to blame to neighbours with a great deal to argue about."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [
+      "IDEA-0036"
+    ],
+    "superseded_by": null,
+    "reason": "Carries EPD-0023, and the merge gives it the one thing it lacked: somebody inside the situation on whom all of the displeasure actually lands."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

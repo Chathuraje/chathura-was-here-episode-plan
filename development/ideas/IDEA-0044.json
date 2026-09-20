@@ -4,92 +4,71 @@
   "record_type": "idea",
   "title": "The Number You're Given",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "A government office fills with people on a busy morning, each holding a number and a folder of papers. The queue barely moves. Small frustrations surface, and so, here and there, does an unplanned kindness between strangers.",
+  "logline": "A public office fills up on a busy morning, everyone holding a number and a folder, and the queue moves slowly enough that the room's mood becomes the only thing happening.",
   "human_question": "What does an ordinary wait, with nothing at stake but time, still manage to stir up in us?",
-  "premise": {
-    "story": "A single busy morning at a public office: people arriving, taking numbers, waiting, checking papers, a clerk's clipped replies, small disputes over queue order, and, among all of it, moments of people helping each other.",
-    "place": "A public office on a market-day morning, benches full, a number display on the wall.",
-    "experience": "The viewer waits with the room in something close to real time, and feels how small the group question's heat can be, and how ordinary."
+  "situation": {
+    "what_happens": "A room where nothing can be hurried collects people who all need one small thing signed, stamped or confirmed, and hands each of them a number instead of an answer. The wait is not dramatic and nobody is being wronged; the counter is working as fast as it can. What fills the morning is the small arithmetic of place-keeping, papers checked and re-checked, and the discovery halfway through that a document is missing and the morning was wasted. In the same room, and just as often, somebody helps a stranger fill in a form.",
+    "who_is_involved": "People who have taken a day off work to be there; the clerks at the counter, who receive every person's whole morning as a request and can only answer some of them; whoever is helping an older relative through the paperwork; and the people at home waiting to hear whether it went through.",
+    "what_is_at_stake": "A day of lost earnings for most people in the room, and for a few of them something that actually matters: a payment, a permission, a certificate without which something else cannot begin. For the clerks, being the visible face of a process they do not control. For the film, not mocking people waiting and not making officials into villains.",
+    "how_it_unfolds": "It begins full and thins slowly. The pressures are the clock, the discovery of missing papers, and the fact that nobody can tell how long anything will take. It ends with most people served, a few turned away to come back another day, and the room empty. Reality decides who is in it, and the mornings when nothing much happens are the normal ones."
+  },
+  "concept_merge": {
+    "why_together": "C022 supplies the constant: restlessness is one of the four factors present in every unwholesome mind, a mind that will not settle on what is in front of it [C022-P:L31]. C007 supplies the occasion in its smallest form, a request refused or simply not yet granted [C007-P:L49; C007-M:L17], with both hate-rooted minds always carrying a painful mental feeling [C007-P:L25–L28]. Together they describe the group's question at the lowest temperature it reaches anywhere: life refusing what people want, where what they want is only to be seen next.",
+    "what_it_reveals": "That nothing has to go wrong for this state to appear, and that the same room produces unprompted kindness at the same rate. Neither concept predicts the second half of that; only sitting in the room does."
   },
   "concept_links": [
     {
       "concept_id": "C022",
       "role": "primary",
-      "why": "Restlessness is one of the four factors the sources say are present in every state of this kind, a mind that will not settle on what is in front of it, compared to wind that keeps shaking the leaves of a tree [C022-P:L73; C022-M:L19]. A queue on a slow morning is restlessness in its smallest, least dramatic daily form."
+      "why": "Restlessness is one of the four factors both sources place in every unwholesome mind, present whatever else is [C022-P:L31; C022-M:L3]. A slow queue is that unsettledness in its smallest, least dramatic daily form. The wind-in-the-leaves comparison this link previously used is not among the similes the digest records for this source, and has been removed rather than re-attributed."
     },
     {
       "concept_id": "C007",
       "role": "supporting",
-      "why": "The group's question in miniature: life, in the form of a queue, refusing what everyone in the room wants, which is simply to be seen next [C007-P:L49]."
+      "why": "The group's question in miniature: not getting what one wants is named among the occasions [C007-P:L49], and Margaya's list includes a request not granted [C007-M:L17]. Here the thing wanted is only to be called next. The four constant factors describe every unwholesome moment in anyone, so nothing in this material may be used to characterise either the public or the clerks as a kind of person."
     }
   ],
-  "what_camera_could_observe": [
-    "People arriving, taking numbers, finding seats",
-    "The display board, or its absence, and how people track their place",
-    "Small complaints, checked papers, glances at the clock",
-    "A clerk's replies and the counter's own rhythm",
-    "An unplanned kindness: help with a form, a seat given up, directions offered"
-  ],
-  "what_must_be_real": "The office, its staff and its visitors must be filmed as they genuinely are on an ordinary day, with consent from the office and from anyone shown closely. No delay, dispute or kindness may be arranged for the camera.",
-  "possible_arc": {
-    "opening": "The office opening, the first numbers taken.",
-    "turn": "The queue barely moves, and the room's mood shifts through the morning.",
-    "ending_open": "Whoever is left, and whatever the room looks like by closing, ends the film."
-  },
-  "position_hint": "middle",
-  "location": {
-    "requirements": [
-      "Filming permission from a public office willing to be observed on a genuinely busy day",
-      "Consent from visitors shown closely or interviewed",
-      "An office known for high public footfall"
-    ],
-    "suggestions": [
-      {
-        "name": "A divisional secretariat or similar public office",
-        "region": "Kurunegala or Ratnapura town",
-        "why": "Busy provincial towns with high daily public-service footfall for a wide range of everyday needs.",
-        "season_notes": "",
-        "access_notes": "Filming inside government offices requires formal permission.",
-        "verify": "A specific office and its willingness to permit filming must be confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts name a request not granted among the commonest occasions for displeasure, and they count a mind that will not settle as present in every harmful moment. A slow morning at a counter is the smallest possible version of both, and it shows that this heat needs no wrongdoing at all, only a wait.",
+  "what_must_be_real": "The office, its staff and its visitors must be filmed as they genuinely are on an ordinary day, with permission from the office and consent from anyone shown closely. No delay, dispute or kindness may be arranged, and no member of the public may be filmed in a moment of real difficulty with their paperwork without their agreement afterwards.",
+  "position_hint": "middle, if it were used: the group's quietest version of its own question, best placed where the heat is lowest. No location reasoning is involved.",
   "risks": [
-    "Mocking members of the public shown frustrated or waiting",
-    "Portraying officials unfairly as the source of the frustration",
-    "Formal permission requirements for filming inside a government office"
+    "Mocking members of the public shown frustrated or waiting.",
+    "Portraying officials unfairly as the source of the frustration.",
+    "Formal permission requirements for filming inside a public office, and the pressure those create on what can be shown.",
+    "Reading the four constant factors as a description of a type of person rather than of a moment."
   ],
   "drop_if": [
-    "No office grants filming permission for a genuinely busy day",
-    "Visitors are unwilling to be shown"
+    "No office grants filming permission for a genuinely busy day.",
+    "Visitors are unwilling to be shown."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0036",
-      "relation": "leads into",
-      "note": "The workshop's small refusals of the day open into the queue's larger, slower version of the same wait."
+      "idea_id": "IDEA-0045",
+      "relation": "merges into",
+      "note": "Its counters, numbers and half-finished paperwork are folded into the household film, where the same waiting is what a long decision is actually made of."
     },
     {
       "idea_id": "IDEA-0038",
       "relation": "mirrors",
-      "note": "Two waiting rooms of different kinds, a road and an office counter, testing the same small patience."
+      "note": "Two waiting rooms, a roadside and a counter, testing the same small patience."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0045",
+    "reason": "Sound but slight on its own, and duplicative of IDEA-0038's public wait; its counter-and-number strand is folded into IDEA-0045, where the waiting has a decision attached to it."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

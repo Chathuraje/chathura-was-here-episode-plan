@@ -4,92 +4,71 @@
   "record_type": "idea",
   "title": "Third Gear",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-03",
-  "logline": "At a small roadside repair shop, broken vehicles arrive all day, each one carrying a customer who is already frustrated before they say a word. The mechanic fixes what is broken and, without quite trying to, absorbs what people bring with it.",
-  "human_question": "What happens to a day made entirely of other people's small refusals?",
-  "premise": {
-    "story": "A long working day at a three-wheeler or motorcycle repair shop: vehicles arriving broken, customers' first words, waiting, bargaining, repair, and the mechanic's own mood shifting as the hours pass.",
-    "place": "A small workshop on a provincial main road, tools and parts within arm's reach.",
-    "experience": "The viewer feels the accumulation of a day: each small breakdown a small refusal of someone's plan, and the workshop as the place all of those refusals pass through."
+  "logline": "At a small roadside repair shop every vehicle arrives with a customer already frustrated before they speak, and the person who fixes things spends the day absorbing what none of it is about.",
+  "human_question": "What happens to a person whose whole working day is made of other people's small refusals?",
+  "situation": {
+    "what_happens": "A repair trade is a place where other people's broken plans arrive one at a time. Nobody comes in pleased. Each customer brings a stalled day, a cost they had not budgeted for, and an estimate they want lower and sooner than it can be. The mechanic answers the same three questions all day and keeps working through them, and the person who caused none of this is the only one present when it lands. Late in the day the accumulation shows, in the mechanic and not in any single customer.",
+    "who_is_involved": "The person who does the repairs and whoever else works with them; customers whose day has been interrupted and who are counting money while they wait; the people the customers are late for, who are on the phone; and anyone waiting on a repair that keeps not being finished because urgent things keep arriving.",
+    "what_is_at_stake": "For customers, a day's earnings and a vehicle they work from. For the mechanic, a reputation built on being reasonable with people who are not being reasonable, and a day's takings that depend on it. For the film, not turning one long hard day into a portrait of a short-tempered trade.",
+    "how_it_unfolds": "It begins quietly and fills up. The pressure is not any one customer but the arithmetic of a day where every arrival is somebody else's emergency, and where the one job that needs concentration keeps being interrupted. It ends with the shutter down, with something unfinished, and with whatever the mechanic says about the day once nobody needs anything from them. Reality decides what kind of day it turns out to be; some days nothing goes wrong at all."
+  },
+  "concept_merge": {
+    "why_together": "C007 names the occasions directly: not getting what one wants, and, in Margaya's list, a request refused or a thing asked for not given [C007-P:L49; C007-M:L17], with both hate-rooted minds always carrying a painful mental feeling [C007-P:L25–L28]. C022 supplies the constant beneath the whole day: restlessness is one of the four present in every unwholesome moment [C022-P:L31]. Put together in a trade that receives other people's refusals for a living, they describe a room where one person is the stationary point for many separate small versions of the same state.",
+    "what_it_reveals": "That displeasure is contagious in a very specific way: it arrives already formed, about something else, and lands on whoever is in front of it. Neither concept shows that alone, because both describe a single mind at a time, and this situation is the traffic between many of them."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "'Not getting what one wants' and 'when what one asks for is not given' are named directly among the ordinary occasions for this state of mind [C007-P:L49; C007-M:L17]. A repair shop is where a whole day's worth of those small refusals arrive, one customer at a time."
+      "why": "'Not getting what one wants' is named among the occasions for this state [C007-P:L49], and Margaya adds the ordinary social forms of it, including a request that is refused and a task that is not done [C007-M:L17]. A repair shop is where a whole day of those small refusals arrives, one person at a time, and where the displeasure is visibly painful to the person holding it before it reaches anyone else [C007-P:L25–L28]. The digest's bar on 'venting is healthy' matters here: the sources treat this state as painful in itself and as the start of harmful speech, and offer no idea of discharging it safely by expressing it [C007-P:L47]."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Restlessness is one of the four factors present in every state of this kind, described as a mind that will not settle on what is in front of it [C022-P:L73; C022-M:L19]. A long day of interruptions and impatient customers is an everyday register of that same unsettling."
+      "why": "Restlessness is one of the four factors both sources place in every unwholesome mind, whatever the mind otherwise contains [C022-P:L31; C022-M:L3]. A day of interruptions is an ordinary register of that unsettledness. The wind-in-the-leaves comparison the earlier version used is not among the similes the digest records for this source and has been removed rather than re-attributed."
     }
   ],
-  "what_camera_could_observe": [
-    "Vehicles arriving broken, and the first words exchanged",
-    "The mechanic's hands at work, and the tools of the trade",
-    "Waiting customers: phones checked, small complaints, bargaining over price and time",
-    "The mechanic's own mood across the day, in quiet moments between jobs",
-    "The shop closing, and whatever is left unresolved"
-  ],
-  "what_must_be_real": "The shop, the mechanic and the customers' visits must all be genuine and unscripted. No breakdown, delay or disagreement may be arranged for the camera.",
-  "possible_arc": {
-    "opening": "The shop opening; the first vehicle of the day rolled in.",
-    "turn": "A difficult customer, or a difficult repair, tests the mechanic's patience in view of the camera.",
-    "ending_open": "However the day actually ends for the mechanic closes the film."
-  },
-  "position_hint": "opening candidate: a repair shop deals daily in objects marked by damage and mended by hand, which fits Object 3's symbolic hint directly, and a genuinely offered or discarded repaired part could be a natural acquisition moment",
-  "location": {
-    "requirements": [
-      "A working roadside repair shop with steady daily traffic",
-      "A mechanic willing to be filmed across a full working day",
-      "Customers willing to be shown and, where their words are used, to consent"
-    ],
-    "suggestions": [
-      {
-        "name": "A roadside repair shop on a provincial main road",
-        "region": "Kurunegala or Kegalle town, North Western or Sabaragamuwa Province",
-        "why": "Busy provincial towns on major road corridors with a steady flow of three-wheeler and motorcycle traffic and many small repair shops.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "A specific shop and mechanic willing to be filmed must be found and confirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The texts name a request refused and a thing not given among the commonest occasions for this kind of displeasure, and they say it is painful in itself to whoever holds it. Seen from behind a counter, it is also something people hand over: it arrives about something else entirely, and it lands on whoever happens to be standing there.",
+  "what_must_be_real": "The shop, the mechanic and the customers' visits must all be genuine and unscripted. No breakdown, delay or disagreement may be arranged, prompted or waited on as an event. Customers whose words are used must consent, and nobody's worst five minutes may stand for their character.",
+  "position_hint": "middle, if it were used: it is the group's most ordinary version of the state and works best where the heat is at its lowest. No location reasoning is involved.",
   "risks": [
-    "The temptation to provoke or wait for a confrontation rather than observe",
-    "Making an ordinary hard day look like a portrait of a short-tempered person",
-    "Customers' faces and words used without clear consent"
+    "The temptation to provoke or wait for a confrontation rather than observe.",
+    "Making an ordinary hard day look like a portrait of a short-tempered person or trade.",
+    "Customers' faces and words used without clear consent.",
+    "Implying that the mechanic's patience is a moral achievement being graded by the film."
   ],
   "drop_if": [
-    "No shop or mechanic will allow a full day's observation",
-    "The only usable material would require prompting a dispute"
+    "No shop or mechanic will allow a full day's observation.",
+    "The only usable material would require prompting a dispute."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0033",
-      "relation": "alternative to",
-      "note": "Both are opening candidates where Object 3's mark of repair could plausibly be acquired; only one should open the group."
+      "idea_id": "IDEA-0038",
+      "relation": "merges into",
+      "note": "Its real subject, the people on whom everyone else's refusal lands, is folded into the bus film, where a driver and conductor stand in exactly that position in front of a full vehicle."
     },
     {
-      "idea_id": "IDEA-0044",
-      "relation": "leads into",
-      "note": "The shop's small refusals of the day open into the queue's larger, slower version of the same wait."
+      "idea_id": "IDEA-0033",
+      "relation": "pairs with",
+      "note": "Two trades where damage is fixed by hand while the argument about it goes on overhead."
     }
   ],
+  "selection": {
+    "recommendation": "merge",
+    "merged_with": [],
+    "superseded_by": "IDEA-0038",
+    "reason": "Sound but duplicative: its occasions and its one distinctive strand, the person who receives other people's refusals all day, are folded into IDEA-0038, where the same position is occupied under real pressure."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

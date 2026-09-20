@@ -4,91 +4,72 @@
   "record_type": "idea",
   "title": "The Taster",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "A tea taster tells a whole estate's story through sight, smell, taste and touch, then gives it a grade: a name built entirely from the senses.",
+  "logline": "A tea taster reads a whole season through colour, smell, taste and touch in a few seconds, then writes down a grade that will decide what the crop is worth.",
   "human_question": "How much of what we 'know' about a thing is just what came in through our senses, gathered under a name?",
-  "premise": {
-    "story": "A day of tasting and grading, and the decisions and livelihoods that depend on it.",
-    "place": "A hill-country tea factory and its tasting room.",
-    "experience": "Mist, leaf, the loud slurp of tasting, an attention so sharp it becomes almost visible."
+  "situation": {
+    "what_happens": "A day of tasting and grading, in which every decision is made by the senses and every decision has a price attached. Rows of cups are prepared identically; the taster looks, smells, takes the liquor in with a loud draw of breath, holds it, spits, pauses, and gives a grade. The whole judgement takes seconds and is made on colour, aroma, body and taste, and nothing else, and it is written down and acted on. Nobody in the room treats this as subjective, and disagreements between tasters are resolved by tasting again rather than by discussion.",
+    "who_is_involved": "The taster, whose palate is the instrument; the factory people whose season is being judged; the pluckers and processors whose work produced the leaf and whose pay is affected by what it fetches; and the buyers at the other end who trust the grade.",
+    "what_is_at_stake": "The value of a season's work, measured in a few seconds of somebody's attention. For the taster, a reputation that rests on being consistent with other tasters and with himself. For the workers, wages that follow from prices that follow from grades.",
+    "how_it_unfolds": "It begins with leaf arriving and ends with a grade and a price; in between, the same sequence is repeated dozens of times a day until it looks automatic. The pressures are fatigue, a palate that dulls, weather that changed the crop, and a market that moves regardless. It can end with a good season confirmed, with a disputed grade, or with a judgement that costs somebody money. Reality decides, in the cups."
+  },
+  "concept_merge": {
+    "why_together": "C077 supplies the account of what is actually happening: experience sorted into twelve bases, six doors each paired with its own kind of object, where seeing or tasting arises when a sense meets its object, the way a sound happens when a stick meets a drum or a flame appears when one stick is rubbed against another [C077-M:L47; C077-P:L1337–L1345]. The sources add that the senses neither come from anywhere nor go anywhere and intend nothing, calling the inner senses a village with nobody living in it [C077-P:L1333–L1399]. C084 supplies the last step: the grade is a name-concept, and the sources describe how names stand in different relations to what they designate [C084-P:L47]. Together they cover the whole distance from a leaf to a price.",
+    "what_it_reveals": "That knowing is a meeting rather than a resident. C077 alone would be a classification; C084 alone would make the grade sound arbitrary. Together they show a name being assembled, in public, out of nothing but meetings at four sense doors, and then carrying the entire economic weight of a season. The sources also stop the obvious conclusion, which is what makes the pairing worth filming: the desirability of an object is not left to the beholder."
   },
   "concept_links": [
     {
       "concept_id": "C077",
       "role": "primary",
-      "why": "The sense bases and elements: seeing, smelling, tasting, touching as the doors through which a 'thing' is known."
+      "why": "The twelve bases give the plain account of what happens when something is known: a sensitive surface meets its own kind of object and knowing arises, as a sound arises when a stick meets a drum [C077-M:L47; C077-P:L1337–L1345], and the bases themselves neither plan nor intend, being described as a village with no one living in it [C077-P:L1333–L1399]. A tasting room is this account running at speed. The digest's sharpest limit belongs here and is easy to get backwards: the sources say the reverse of 'beauty is in the eye of the beholder', holding that whether an object is desirable is settled by the result-consciousness, measured by an average person, and cannot be deceived [C077-P:L193–L201]. The film must also keep the trade's grading ladder away from the sources' own inferior-and-superior aspect, which belongs to a cosmology of rebirth and a premodern social order [C077-P:L203–L207] and cannot be read off a price list."
     },
     {
       "concept_id": "C084",
       "role": "supporting",
-      "why": "Grades and names assembled from sense qualities."
+      "why": "A grade is a name-concept assigned to what the senses gathered, and the sources set out how names stand to what they designate depending on whether the name and its basis are ultimately existent [C084-P:L47; C084-P:L25]. The digest warns that these pairs are technical categories and not a scheme of true and false, which matters in a room where one word decides a price."
     }
   ],
-  "what_camera_could_observe": [
-    "Leaf in hand, withering, rolling",
-    "Rows of cups; the taster's ritual",
-    "Grades written, called, disputed",
-    "The estate at dawn"
-  ],
-  "what_must_be_real": "The actual tasting practice and its consequences for workers and sales.",
-  "possible_arc": {
-    "opening": "Leaf on the bush.",
-    "turn": "At the table, the leaf becomes a set of sensations, then a name.",
-    "ending_open": "The grade and what follows from it."
-  },
-  "position_hint": "middle; also foreshadows Group 5 (Slowing Down)",
-  "location": {
-    "requirements": [
-      "A working factory with a tasting practice",
-      "Permission from management and consent from workers"
-    ],
-    "suggestions": [
-      {
-        "name": "Tea country near Hunnasgiriya / the Knuckles foothills",
-        "region": "Kandy–Matale districts",
-        "why": "Continuity: the same hill road Chathura travels in Ep 1 and Ep 100.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Identify an active factory with tasting on site.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "Uva highlands (Haputale / Bandarawela)",
-        "region": "Badulla district",
-        "why": "Classic tea landscape and factories.",
-        "season_notes": "",
-        "access_notes": "",
-        "verify": "Access, permissions and current conditions are unverified.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That everything the taster knows about a tea arrives through the senses: its colour, its smell, its taste, its feel. The grade is a name gathered from those moments, and the texts describe every moment of knowing as a meeting between a sense and what it senses.",
+  "what_must_be_real": "The actual tasting practice, the actual grades given and the actual consequences for the people whose work is being graded. No tasting is repeated for the camera, no grade is announced twice, and nobody is asked to describe their palate in the film's terms. Working conditions on the estate are shown as they are, not as background.",
+  "position_hint": "middle: it turns the group from naming things to the doors through which anything is known at all, which the later films depend on. No location reasoning is involved.",
   "risks": [
-    "Estate labour conditions: must be honest, not decorative"
+    "Concluding, or letting a viewer conclude, that taste is subjective; the sources say the opposite.",
+    "Mapping the trade's grades onto the sources' inferior-and-superior ladder, which belongs to a rebirth cosmology.",
+    "Estate labour conditions used as scenery; they must be honest or absent.",
+    "The taster's ritual filmed as connoisseurship, with the people who picked the leaf offscreen.",
+    "Suggesting that the sights, smells and tastes themselves are unreal or a deception."
   ],
   "drop_if": [
-    "Tasting happens only in a city office with no link to the estate"
+    "The tasting turns out to happen only in a distant office with no connection to the people who produced the leaf.",
+    "Access is granted on condition that working conditions are not filmed."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0007",
       "relation": "pairs with",
-      "note": "Both show a map of experience learned through practice."
+      "note": "Two learned maps of experience: one chanted by children, one held in a practised palate."
+    },
+    {
+      "idea_id": "IDEA-0012",
+      "relation": "pairs with",
+      "note": "What arrives at a sense door, and what the mind adds to it."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries its episode and is the only kept idea that observes the sense doors themselves rather than a named whole."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

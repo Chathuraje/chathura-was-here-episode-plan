@@ -4,73 +4,72 @@
   "record_type": "idea",
   "title": "The First Letter",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "A family waits for the astrologer to tell them the first letter of their newborn's name: a person, named before they can know it.",
+  "logline": "A family waits to be told the first letter of a newborn's name, and then chooses a word that everyone will use for the rest of that person's life.",
   "human_question": "Where does a name come from, and what exactly does it attach to?",
-  "premise": {
-    "story": "The days around naming a newborn: the horoscope, the first letter, the choosing, the first time the name is called.",
-    "place": "A family home and the astrologer's room.",
-    "experience": "Quiet domestic time around a very small new person."
+  "situation": {
+    "what_happens": "In the days after a birth, a family follows the custom it has always followed to settle what the child will be called: a chart is drawn up, a letter is given, and then a name has to be found that begins with it and that everyone can live with. There are opinions from every side of the family, some of them about meaning, some about how the name will sound at school, some about a relative it would honour or offend. Then, at a particular moment, the name is used out loud for the first time, and after that it is simply the child's name and nobody can remember the alternatives.",
+    "who_is_involved": "The parents, who will decide; the grandparents and aunts and uncles, who have views and sometimes a claim; the person who draws up the chart and gives the letter; and the baby, who is the one participant who cannot consent to any of it.",
+    "what_is_at_stake": "For the parents, a first decision made on a new person's behalf that cannot be undone, and the family politics that come with it. For the wider family, whether their tradition is followed. For the film, the privacy of a newborn and of a household in its most vulnerable weeks, and the standing risk of making a custom look quaint.",
+    "how_it_unfolds": "It begins with a birth and a deadline set by custom, and moves through consultation, disagreement and compromise to a decision. The pressures are family expectation, the calendar, and how much any of it is believed in by the people doing it. It ends with a name in use, or with a compromise nobody quite wanted, or with two names, one for the records and one for the house. Reality decides."
+  },
+  "concept_merge": {
+    "why_together": "C084 supplies the category the sources list by name: the concept of a being, a person-concept resting on the five aggregates [C084-P:L27–L41], together with the name-concept placed on it [C084-P:L25]. C077 supplies what is underneath that: everything conditioned gathered into five heaps, each a gathering of countless moments of one kind, taught so that the places where 'I' and 'mine' settle can be noticed [C077-P:L996–L1010; C077-M:L24]. One naming puts the two side by side at the only moment when the name is visibly newer than what it names.",
+    "what_it_reveals": "That the name arrives from outside, before the person it is given to can have any relation to it, and that it will be indistinguishable from them within weeks. Neither concept alone gets that: C084 would be a definition, C077 an analysis of somebody already named."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "Being-concept (satta-paññatti) and name-concept: a name given to the five aggregates of a new life."
+      "why": "The sources list the being-concept among the meaning-concepts, a person-concept based on the aggregates, and separate it from the name-concept that conveys it [C084-P:L27–L41; C084-P:L25], adding that the spoken sound is ultimately real while the name it carries lives in the hearer's understanding [C084-M:L21]. A naming is the one occasion where that attachment can be watched being made. The digest's limit is absolute here: the film must never tell the family that the name they have chosen is wrong, nor treat the custom that produced the letter as an error."
     },
     {
       "concept_id": "C077",
       "role": "supporting",
-      "why": "What a 'person' is when analysed: form, feeling, perception, formations, consciousness."
+      "why": "The compendium takes a person apart into five heaps and states its reason: each heap is a place where a sense of self settles, and naming the five is a way of noticing where the word 'I' has been put [C077-P:L996–L1010; C077-M:L24]. The digest's first prohibition governs this idea more than any other in the group: 'you do not exist' and 'the self is an illusion' are not what the sources say, and a real child must never be used as a demonstration of no-self."
     }
   ],
-  "what_camera_could_observe": [
-    "The astrologer's charts",
-    "Family discussion of names",
-    "The name spoken to the baby",
-    "Relatives repeating it"
-  ],
-  "what_must_be_real": "The family's actual customs and choices.",
-  "possible_arc": {
-    "opening": "A baby without a name.",
-    "turn": "A letter, then a name.",
-    "ending_open": "The first time someone calls the child by it."
-  },
-  "position_hint": "middle or opening",
-  "location": {
-    "requirements": [
-      "A family with a newborn willing to share this",
-      "Respect for customs and privacy"
-    ],
-    "suggestions": [],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That a name is given from outside, before the person it names can know anything about it, and that within weeks it is inseparable from them; the texts call this kind of name a concept placed on a gathering of passing things, without suggesting that the child is any less real.",
+  "what_must_be_real": "The family's actual customs, actual disagreements and actual choice, with consent from both parents, renewable, and with the family holding the final say over what is published about a child who cannot consent. The astrological practice is filmed as the family treats it, neither endorsed nor mocked. Nothing is scheduled around the film.",
+  "position_hint": "opening or middle: it is the group's only situation in which a name is attached to a person rather than to a thing, and it would work anywhere the group needs that turn. No location reasoning is involved.",
   "risks": [
-    "Privacy of a newborn",
-    "Treating astrology as spectacle or mockery"
+    "The privacy of a newborn, and consent that only the parents can give on the child's behalf.",
+    "Treating the horoscope and the letter as spectacle, or as superstition to be gently exposed.",
+    "Using a real child as an illustration of no-self, which the digest rules out and the series' own rules forbid.",
+    "Family conflict about the choice becoming the film's entertainment."
   ],
   "drop_if": [
-    "Consent is not wholehearted"
+    "Consent is anything less than wholehearted, from both parents, before and after.",
+    "The custom is not actually followed in the family, so the naming would have to be arranged.",
+    "The family's privacy cannot be protected in the finished film."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0009",
       "relation": "mirrors",
-      "note": "Naming at the start of a life; unnaming at the end of a house."
+      "note": "Naming at the start of a life; un-naming at the end of a household."
+    },
+    {
+      "idea_id": "IDEA-0001",
+      "relation": "mirrors",
+      "note": "One place named by many communities, and one person named by one family."
     }
   ],
+  "selection": {
+    "recommendation": "hold",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Held: doctrinally the cleanest case of the being-concept in the group, and the only slate-ready idea that depends on no season, festival or event, so it is the standing replacement if an event-dependent film fails."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

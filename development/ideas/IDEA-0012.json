@@ -4,99 +4,78 @@
   "record_type": "idea",
   "title": "The Ring of Fire",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-01",
-  "logline": "At a night procession, a fire performer whirls a torch and the crowd sees a ring of fire. Up close there is only one flame, a pair of hands, and years of practice.",
+  "logline": "At a night procession a performer whirls a torch and a crowd sees a ring of fire; close up there is one flame, a pair of hands and years of practice.",
   "human_question": "How much of what we see is really there, and how much is made by speed, distance and our own seeing?",
-  "premise": {
-    "story": "A fire performer's night, from rehearsal and preparation to the procession and after, told through the performer's own practice and risks.",
-    "place": "A night procession (perahera) with fire performers.",
-    "experience": "Drums, heat, darkness and circles of light, then the single flame and the tired hands that made them."
+  "situation": {
+    "what_happens": "A fire performer works a night procession: preparing wicks and fuel in the afternoon, waiting for hours, and then performing in the dark in front of a crowd that has come to see exactly this. From where the crowd stands, unbroken circles and figures of fire hang in the air. From where the performer stands, there is one flame on a stick, a weight to control, heat close to the skin and a sequence that has to be kept up while walking. Afterwards there are burns to check, equipment to pack, and whatever the performer thinks about what the crowd believed they saw.",
+    "who_is_involved": "The performer, for whom this is skilled, dangerous, seasonal and usually badly paid work; whoever taught them and whoever they are teaching; the organisers who booked them; and the crowd, who are not spectators of an illusion but participants in a religious occasion.",
+    "what_is_at_stake": "For the performer: burns, a night's pay, a place in next year's procession, and a reputation built on not dropping anything. For the organisers: an occasion that many people care about deeply, which cannot be interrupted. For the film: the ring is the sources' own image, and the temptation to treat a religious event as a demonstration of it is constant.",
+    "how_it_unfolds": "It begins in daylight with preparation that nobody watches, and moves through hours of waiting into a few minutes that everyone has come for. The pressures are heat, fuel, fatigue, crowding and rain. It ends with the procession ending, and with an ordinary walk home carrying equipment. Reality decides whether it happens at all: weather, permission and whether the performer is well enough to work."
+  },
+  "concept_merge": {
+    "why_together": "C001 supplies the image and it is the sources' own: the Margaya says that things held to exist by mere notion are like the ring of fire seen when a torch is whirled, real to the onlooker and made only of speed [C001-M:L42; C001-M:L48]. C003 turns the same observation inward: mind is described not as one thing but as a stream of extremely brief moments, arising and ceasing so fast and so gaplessly that it passes for a single continuous mind [C003-P:L25]. C002 holds the frame: the ultimate realities are described as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3]. One night gives all three, because the same event is two different things depending on where you stand.",
+    "what_it_reveals": "That the joining is done by the seeing, not by the fire. C001 alone is a simile; C003 alone is a definition nobody can check. Put together at a procession, the viewer holds the crowd's view and the performer's view at once and notices their own seeing doing the work, which is the one honest way into the claim that the mind they are watching with is the same kind of stream."
   },
   "concept_links": [
     {
       "concept_id": "C001",
       "role": "primary",
-      "why": "The Margaya's own image of a concept: the ring of fire that exists only because a single flame moves fast [C001-M:L42]."
+      "why": "The Margaya's own image for paññatti: the ring of fire that exists because a single flame is moving quickly, used alongside the table to show that a name can be attached to an arrangement rather than to a separate thing [C001-M:L42; C001-M:L48]. This is the one film in the group whose central image is quoted rather than devised. The digest's limits are the whole risk here: the flattening of 'does not truly exist' into 'life is an illusion', and the treatment of a religious or ritual event as spectacle, which the digest names as this seed's own danger."
     },
     {
       "concept_id": "C003",
       "role": "supporting",
-      "why": "Mind as a stream of extremely brief moments that feels like one continuous mind: the ring of fire turned inward."
+      "why": "Mind is defined as the knowing of an object, arising only with an object and taking one at a time, and running as a stream of extremely brief moments that seems to be one continuous mind because of its speed and the absence of gaps [C003-P:L25]. The ring is the only image in the group that lets a viewer feel that claim rather than be told it. The digest's guard against 'be present' and 'multitasking is a myth' readings applies: this is a description of momentary knowing, not advice about attention."
     },
     {
       "concept_id": "C002",
       "role": "supporting",
-      "why": "What is actually there: heat, light and motion, not 'a ring'."
+      "why": "The sources describe the ultimate realities as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3]. The earlier draft's claim that what is actually there is 'heat, light and motion, not a ring' went beyond the digest twice over: it glosses the great elements, which the digest says the extract names without defining and which must not be filled in from popular assumptions, and it settles a disagreement the sources leave open, since the Pradeepika says the ultimates are not visible to the eye [C002-P:L34] while the Margaya says the colour element is [C002-M:L17]. The digest records that as unreconciled and flags it for expert reading, so the film does not resolve it and does not claim that the flame is the ultimate reality while the ring is not."
     }
   ],
-  "what_camera_could_observe": [
-    "Wide shots: unbroken rings and figures of fire",
-    "Close and high-frame-rate shots: one flame on a stick",
-    "The performer's hands, wicks, fuel, preparation and burns",
-    "The crowd's faces lit by rings that do not exist"
-  ],
-  "what_must_be_real": "The performer's real practice, pay, risk and pride. Nothing is performed only for the camera.",
-  "possible_arc": {
-    "opening": "Darkness, drums, a ring of fire appears.",
-    "turn": "The camera comes close and the ring becomes one flame, then one person.",
-    "ending_open": "After the procession: embers, and whatever the performer really says about what the crowd saw."
-  },
-  "position_hint": "opening candidate: the most cinematic way to open the question of what is really there; an Object 1 acquisition would be possible only if it really happens",
-  "location": {
-    "requirements": [
-      "A procession with fire performers during the filming window",
-      "Permission from organisers and performers",
-      "Safe camera positions near fire"
-    ],
-    "suggestions": [
-      {
-        "name": "Kandy Esala Perahera",
-        "region": "Central Province",
-        "why": "The best-known night procession, with fire performers among the dancers and drummers.",
-        "season_notes": "Esala (July–August)",
-        "access_notes": "Very crowded; filming positions need organiser permission",
-        "verify": "Performer access and filming permissions are unverified.",
-        "status": "ai_suggestion"
-      },
-      {
-        "name": "A village or regional perahera",
-        "region": "Any province",
-        "why": "A smaller procession allows closer access to one performer's whole night.",
-        "season_notes": "Varies by temple calendar",
-        "access_notes": "",
-        "verify": "A specific procession and performer must be found.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "That when a torch is whirled fast in the dark, people see a ring of fire although there is only one moving flame; the texts use this picture for how named things can seem whole, and describe the mind itself as a fast stream of moments that feels like one.",
+  "what_must_be_real": "The performer's real practice, pay, risk and pride, and the procession as the people holding it intend it. Nothing is performed again for the camera, no fire is lit outside the occasion, and no ritual is paused, repositioned or relit. The film does not present anyone's devotion as an example of being taken in by an appearance.",
+  "position_hint": "closing stretch of the group: it is the point at which the question stops being about names for things outside and turns toward the mind that is doing the looking. No location reasoning is involved.",
   "risks": [
-    "Spectacle footage with no person at the centre",
-    "Fire safety",
-    "Religious ceremony must be treated with respect"
+    "Spectacle footage with no person at the centre of it.",
+    "Fire safety, for the performer and for anyone filming close.",
+    "Treating a religious occasion as an illustration of a doctrinal image.",
+    "Sliding into 'nothing is real', which the digest specifically warns the Margaya's wording invites.",
+    "Presenting the sources' account as an anticipation of the physics of persistence of vision.",
+    "Settling, by implication, the sources' own unresolved disagreement about what is visible to the eye."
   ],
   "drop_if": [
-    "No performer will let the camera into their preparation and their night"
+    "No performer will allow the camera into the preparation and the ordinary part of the night.",
+    "Filming positions can only be obtained at the cost of intruding on the ritual."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0008",
+      "idea_id": "IDEA-0007",
       "relation": "pairs with",
-      "note": "Both show a whole that seems solid but is made of moments (a ring, a morning)."
+      "note": "A stream of moments recited in a classroom, and the same stream made visible by a moving flame."
+    },
+    {
+      "idea_id": "IDEA-0010",
+      "relation": "pairs with",
+      "note": "Something that exists only while the flame keeps moving, and something that exists only while its parts are held together."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Carries its episode and is the only kept idea whose central image is the sources' own."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

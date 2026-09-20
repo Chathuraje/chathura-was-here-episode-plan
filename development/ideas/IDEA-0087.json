@@ -4,93 +4,84 @@
   "record_type": "idea",
   "title": "Only Colour, Not Yet a Flower",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-19",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [],
   "group_id": "GRP-05",
-  "logline": "At a pre-dawn flower market, buyers sort marigold, jasmine and lotus by colour in the half-light, before the flowers' names or uses matter at all.",
+  "logline": "At a flower market before dawn, buyers sort and price by colour in the half-light, before the flowers' names or uses matter at all.",
   "human_question": "What does the eye actually take in, before a thing is named as a flower, the right one, or good enough?",
-  "premise": {
-    "story": "A dawn flower market supplying temples sees buyers and sellers sort, bundle and grade flowers largely by colour and freshness, working fast in low early light.",
-    "place": "A city or town flower market that supplies temples, working before dawn.",
-    "experience": "The viewer watches a market built on fast colour judgement in low light, and comes to notice the gap between the raw colour arriving at the eye and the naming and valuing that follows it."
+  "situation": {
+    "what_happens": "Flowers arrive before first light and have to be sorted, graded, bundled and sold within a couple of hours, because they are wanted the same morning and will not keep. The judging is done fast in light that is barely adequate, and it is done almost entirely on colour and freshness. Prices are settled in minutes and disputes about quality are settled the same way, by people who have been trading with each other for years and will again tomorrow.",
+    "who_is_involved": "The growers or their carriers, who have travelled overnight; the buyers, many of them supplying the same customers every day; whoever runs the market floor; and the customers at the far end, who will never know how fast the grading happened.",
+    "what_is_at_stake": "For a grower, a night's transport and a day's crop, which is worth nothing by afternoon. For a buyer, a margin on stock that must move within hours. For anyone who misjudges in the half-light, the loss lands the same morning.",
+    "how_it_unfolds": "Trading like this starts when the stock arrives and is over before the day properly begins. The pressures are volume, quality, the hour and the light. It ends with everything sold, a glut that clears at a loss, or a shortage that lifts prices for one morning, and none of that can be arranged."
+  },
+  "concept_merge": {
+    "why_together": "C036 contributes the claim: the eye meets only colour, a blend of the colours of many tiny clusters, never a flower and never a grade, and the naming and the valuing are added from what has been seen before. C035 contributes why the light matters so much, since what actually receives colour is a fine sensitivity inside the eye rather than the eye anyone can point to, and something has to strike it strongly enough to interrupt the resting mind. C009 contributes what that first strike is like: weak, carrying no verdict, and, because colour touches the sensitivity only lightly, arriving with neutral feeling, unlike touch, which the sources compare to a hammer striking through cotton onto an anvil. A market that grades by colour in bad light before names or prices are spoken is those three claims being used as a trade.",
+    "what_it_reveals": "Together they take a market apart into the two things it actually consists of: a great deal of colour arriving, and an enormous amount of added knowledge being applied to it within a second each. The sources' claim stops being sceptical and becomes practical. Nobody at the market is deceived; everybody is working fast on a narrow channel and adding the rest. And because C009's bare moment is neutral, the film can show that the excitement, the arguing and the money all belong to the part that comes afterwards."
   },
   "concept_links": [
     {
       "concept_id": "C036",
       "role": "primary",
-      "why": "The source insists that the eye meets only colour, a blend, not a flower or a lotus; naming and recognition are added from what has been seen before [C036-P:L41; C036-M:L9]. A flower market at first light, where buyers judge colour and freshness fast, makes this literally visible."
+      "why": "The digest states that the eye meets only colour, a blend of the colours of many tiny clusters, and that knowing 'I saw such-and-such a thing' comes from marks learned in earlier seeing [C036-P:L37-L41; C036-M:L9]. It also gives the source's three senses of 'present', the instant, the stretch it takes to recognise something, and a whole life [C036-P:L45-L57], which is a precise frame for work done in one-second judgements inside a two-hour market inside a whole working life. Two things are held to. The digest's guard that 'perception is an illusion' distorts the text: colour, sound and smell are real events for the source, and only the named thing assembled from them is a convention. And its note that the source calls the visible object 'unmixed' in one place and a mixture of many clusters' colours in another without reconciling them [C036-P:L61; C036-P:L41], which the film leaves open rather than resolving."
     },
     {
       "concept_id": "C035",
       "role": "supporting",
-      "why": "The source separates the visible organ from the fine sensitivity that actually registers colour, and low pre-dawn light is exactly the condition under which that fine threshold matters most."
+      "why": "The digest separates the visible organ from the fine sensitivity that actually registers colour, and says experience gets in only where something strikes that sensitivity strongly enough to interrupt the resting mind, so having eyes open is not yet seeing. Pre-dawn light is exactly the condition under which that threshold is the working problem of a trade. The digest's limits are carried: the sensitivity is not the retina, Margaya's 'size of a louse's head' is reported tradition and not anatomy [C035-M:L9], and the phrase 'doors of perception' is not used."
     },
     {
       "concept_id": "C009",
       "role": "supporting",
-      "why": "The bare, rootless moment of seeing colour, before any judgement of quality or price, is the sensing layer the source describes beneath every purchase that follows."
+      "why": "The digest describes the bare rootless moment of seeing as weak, needing a working eye, an object, a medium such as light and attention, and carrying only neutral feeling, because most senses meet their object softly, like cotton brushing cotton, while touch lands like a hammer striking through cotton onto an anvil and so carries pleasure or pain from the first instant [C009-P:L85-L98]. That is why the buyers' excitement belongs to a later stage than the seeing. Two guards are carried: the neutral feeling of seeing is a technical claim about a first instant and does not mean the world looks bland, and 'rootless' does not mean causeless [C009-M:L3]."
     }
   ],
-  "what_camera_could_observe": [
-    "Flowers arriving by bicycle, cart or lorry before dawn",
-    "Buyers sorting and judging in low light",
-    "Bundling, pricing and negotiation",
-    "The market emptying as flowers move toward temples for the day's offerings",
-    "Sellers' and buyers' own accounts of judging quality fast"
-  ],
-  "what_must_be_real": "The market's real economics and pace; no staged sorting for better light. Participants' own words about how they judge quality.",
-  "possible_arc": {
-    "opening": "Flowers arrive before first light; the market begins.",
-    "turn": "A difficult morning, poor quality stock, a shortage, a price dispute, tests buyers' fast judgement.",
-    "ending_open": "The market clears as flowers move on to temples, however the morning's trading actually went."
-  },
-  "position_hint": "middle: a fast, low-light urban film offering visual and tonal variety within the group.",
-  "location": {
-    "requirements": [
-      "An active pre-dawn flower market supplying temples",
-      "Low-light filming capability without disrupting the market's pace",
-      "Consent from sellers and buyers to film real trading"
-    ],
-    "suggestions": [
-      {
-        "name": "Kandy's flower market district",
-        "region": "Central Province",
-        "why": "Kandy's temple culture, especially around the Temple of the Tooth, sustains active daily flower trading.",
-        "season_notes": "Poya days would see higher volume and different pressures.",
-        "access_notes": "Very early morning filming would need vendor cooperation and safe low-light conditions.",
-        "verify": "A specific market location and willing traders are unconfirmed.",
-        "status": "ai_suggestion"
-      }
-    ],
-    "selected_location_id": null,
-    "selected_location_decision_id": null,
-    "selection_status": "awaiting_chathura",
-    "name_reveal_policy": "undecided"
-  },
+  "what_the_viewer_could_understand": "The eye does not see a flower; it meets colour, and the name, the kind and the value are added a moment later from what has been seen before. A buyer's fast judgement in the half-light starts with colour alone, and everything that makes it worth money was added after.",
+  "what_must_be_real": "The market's real economics and its real pace, with no sorting staged for better light and no bargain re-run. Participants describe in their own words how they judge quality fast. The sources' account of colour reaching the eye is never offered as optics.",
+  "position_hint": "middle: it follows the film about contact that never becomes experience and precedes the film about the turning-toward that comes before any judgement, because it is the point where a clear arrival is taken apart into what arrived and what was added. No location reasoning is involved.",
   "risks": [
-    "Reducing a working market to a pretty pre-dawn visual piece",
-    "Low light and crowded, fast conditions carry practical filming risk",
-    "Missing the market's real economics in favour of colour and mood"
+    "Reducing a working market to a pretty pre-dawn visual piece.",
+    "Low light and crowded, fast conditions carrying practical filming risk.",
+    "Missing the market's real economics in favour of colour and mood.",
+    "Reading the source's account of colour as early optics, or as a claim that perception is an illusion, both of which the digest rules out.",
+    "Filming growers and carriers at the end of an overnight journey, when refusing is hardest."
   ],
   "drop_if": [
-    "No market or traders allow filming of real, unstaged pre-dawn trading",
-    "Low-light conditions make filming impractical without disruptive lighting",
-    "The market's pace makes sustained, honest observation impossible"
+    "No market or traders allow real, unstaged pre-dawn trading to be filmed.",
+    "Low light makes filming impractical without disruptive lighting, which would remove the condition the film is about.",
+    "The pace makes sustained, honest observation impossible.",
+    "Traders do not want their fast judgements or their losses discussed."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0075",
       "relation": "mirrors",
-      "note": "Both watch a trained eye separate raw colour from a name and a value, one with stones and one with flowers."
+      "note": "Both watch a trained eye separate raw colour from a name and a value, one under a lamp and one in half-light."
+    },
+    {
+      "idea_id": "IDEA-0074",
+      "relation": "sits beside",
+      "note": "Two films about seeing at the edge of what the light allows, one where almost nothing arrives and one where a great deal does, fast."
+    },
+    {
+      "idea_id": "IDEA-0081",
+      "relation": "leads into",
+      "note": "Colour arrives before a name; a face arrives before a customer."
     }
   ],
+  "selection": {
+    "recommendation": "keep",
+    "merged_with": [],
+    "superseded_by": null,
+    "reason": "Used by EPD-0039, and the C036 digest's claim that the eye meets only colour is the whole working method of a market that grades by colour before anything is named."
+  },
   "source_doc": null,
   "unknowns": [
-    "No participant, access or event has been found or confirmed. Everything above is a research direction."
+    "No participant or event has been found or confirmed. Everything here is a research direction."
   ],
-  "evidence_class_note": "All content is editorial proposal. Location suggestions are AI suggestions only; selection belongs to Chathura."
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }
