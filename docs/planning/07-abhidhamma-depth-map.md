@@ -3,7 +3,7 @@
 Status: draft analysis for Chathura's Chronology v1 review  
 Date: 2026-09-19  
 Structured record: `development/analysis/abhidhamma-depth-map.json`  
-Dashboard: `/depth-map`
+Dashboard: `/concepts/depth-map`
 
 ## 1. Purpose
 

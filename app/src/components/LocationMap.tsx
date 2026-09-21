@@ -1,156 +1,165 @@
 "use client";
 
 import Link from "next/link";
-import { useRef, useState } from "react";
-import {
-  ISLAND_PATH,
-  LANDMARKS,
-  VIEW,
-  nearestLandmark,
-  project,
-  unproject,
-  type Coordinates,
-} from "@/lib/sri-lanka";
+import { useEffect, useRef, useState } from "react";
+import { SRI_LANKA_CENTRE, formatCoordinates, googleMapsUrl } from "@/lib/geo";
 import styles from "./LocationMap.module.css";
 
 export type MapPin = {
   id: string;
   name: string;
   region: string;
+  note: string;
   lat: number;
   lng: number;
-  ideaCount: number;
+  ideas: { id: string; title: string }[];
 };
 
-type Props = {
-  pins: MapPin[];
-  unplaced: { id: string; name: string }[];
-  createLocation: (formData: FormData) => Promise<void>;
-  placeLocation: (formData: FormData) => Promise<void>;
+type MapsGlobal = {
+  maps: {
+    Map: new (element: HTMLElement, options: Record<string, unknown>) => GoogleMap;
+    Marker: new (options: Record<string, unknown>) => GoogleMarker;
+    InfoWindow: new (options: Record<string, unknown>) => GoogleInfoWindow;
+    LatLngBounds: new () => GoogleBounds;
+  };
 };
+type GoogleMap = { fitBounds: (bounds: GoogleBounds, padding?: number) => void; setCenter: (p: unknown) => void; setZoom: (z: number) => void; panTo: (p: unknown) => void };
+type GoogleMarker = { addListener: (event: string, handler: () => void) => void; setMap: (map: GoogleMap | null) => void; getPosition: () => unknown };
+type GoogleInfoWindow = { setContent: (html: string) => void; open: (options: { map: GoogleMap; anchor: GoogleMarker }) => void; close: () => void };
+type GoogleBounds = { extend: (point: { lat: number; lng: number }) => void };
 
-export default function LocationMap({ pins, unplaced, createLocation, placeLocation }: Props) {
-  const svgRef = useRef<SVGSVGElement>(null);
-  const [picked, setPicked] = useState<Coordinates | null>(null);
-  const [active, setActive] = useState<string | null>(null);
+declare global {
+  interface Window { google?: MapsGlobal; __cwhMapsPromise?: Promise<void> }
+}
 
-  function pick(event: React.MouseEvent<SVGSVGElement>) {
-    const svg = svgRef.current;
-    if (!svg) return;
-    const box = svg.getBoundingClientRect();
-    const x = ((event.clientX - box.left) / box.width) * VIEW.width;
-    const y = ((event.clientY - box.top) / box.height) * VIEW.height;
-    setPicked(unproject(x, y));
+/** Loads the Google Maps JS API once per page, however many maps ask for it. */
+function loadMaps(apiKey: string): Promise<void> {
+  if (window.google?.maps) return Promise.resolve();
+  if (window.__cwhMapsPromise) return window.__cwhMapsPromise;
+  window.__cwhMapsPromise = new Promise<void>((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&v=weekly`;
+    script.async = true;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error("Google Maps failed to load"));
+    document.head.appendChild(script);
+  });
+  return window.__cwhMapsPromise;
+}
+
+function escapeHtml(value: string): string {
+  return value.replace(/[&<>"']/g, (character) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[character] as string));
+}
+
+export default function LocationMap({ pins, apiKey }: { pins: MapPin[]; apiKey: string }) {
+  const container = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<GoogleMap | null>(null);
+  const markersRef = useRef<Map<string, GoogleMarker>>(new Map());
+  const [error, setError] = useState<string | null>(null);
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    if (!apiKey || !container.current) return;
+    let cancelled = false;
+
+    loadMaps(apiKey)
+      .then(() => {
+        if (cancelled || !container.current || !window.google) return;
+        const maps = window.google.maps;
+        const map = new maps.Map(container.current, {
+          center: SRI_LANKA_CENTRE,
+          zoom: 7,
+          mapTypeId: "terrain",
+          mapTypeControl: true,
+          streetViewControl: false,
+        });
+        mapRef.current = map;
+        const info = new maps.InfoWindow({});
+        const bounds = new maps.LatLngBounds();
+
+        for (const pin of pins) {
+          const marker = new maps.Marker({ position: { lat: pin.lat, lng: pin.lng }, map, title: pin.name });
+          marker.addListener("click", () => {
+            info.setContent(`<div class="${styles.infoWindow}">
+              <strong>${escapeHtml(pin.name)}</strong>
+              ${pin.region ? `<div>${escapeHtml(pin.region)}</div>` : ""}
+              <div>${pin.ideas.map((idea) => `<a href="/ideas/${idea.id}">${escapeHtml(idea.id)}</a>`).join(" ")}</div>
+            </div>`);
+            info.open({ map, anchor: marker });
+          });
+          markersRef.current.set(pin.id, marker);
+          bounds.extend({ lat: pin.lat, lng: pin.lng });
+        }
+
+        if (pins.length > 1) map.fitBounds(bounds, 60);
+        else if (pins.length === 1) { map.setCenter({ lat: pins[0].lat, lng: pins[0].lng }); map.setZoom(11); }
+        setReady(true);
+      })
+      .catch(() => { if (!cancelled) setError("Google Maps could not be loaded. Check the API key and its referrer restrictions."); });
+
+    const markers = markersRef.current;
+    return () => {
+      cancelled = true;
+      for (const marker of markers.values()) marker.setMap(null);
+      markers.clear();
+    };
+  }, [apiKey, pins]);
+
+  function focus(pin: MapPin) {
+    const map = mapRef.current;
+    if (!map) return;
+    map.panTo({ lat: pin.lat, lng: pin.lng });
+    map.setZoom(12);
   }
 
-  const suggestion = picked ? nearestLandmark(picked) : null;
+  if (!apiKey) {
+    return (
+      <div className={styles.fallback}>
+        <h3>Map not configured</h3>
+        <p>
+          Set <code>NEXT_PUBLIC_GOOGLE_MAPS_API_KEY</code> in <code>app/.env.local</code> and restart the dev server to see
+          these places on a Google map. Everything below works without it.
+        </p>
+        <PinList pins={pins} />
+      </div>
+    );
+  }
 
   return (
     <div className={styles.layout}>
-      <figure className={styles.mapFigure}>
-        <svg
-          ref={svgRef}
-          className={styles.map}
-          viewBox={`0 0 ${VIEW.width} ${VIEW.height}`}
-          role="img"
-          aria-label={`Map of Sri Lanka with ${pins.length} saved location${pins.length === 1 ? "" : "s"}. Click the map to pick coordinates.`}
-          onClick={pick}
-        >
-          <path className={styles.island} d={ISLAND_PATH} />
-
-          {LANDMARKS.map((landmark) => {
-            const { x, y } = project(landmark);
-            return (
-              <g className={styles.landmark} key={landmark.name}>
-                <circle cx={x} cy={y} r={1.8} />
-                <text x={x + 4} y={y + 2.4}>{landmark.name}</text>
-              </g>
-            );
-          })}
-
-          {pins.map((pin) => {
-            const { x, y } = project(pin);
-            const isActive = active === pin.id;
-            return (
-              <g
-                className={styles.pin}
-                key={pin.id}
-                data-active={isActive || undefined}
-                onMouseEnter={() => setActive(pin.id)}
-                onMouseLeave={() => setActive((current) => (current === pin.id ? null : current))}
-              >
-                <circle cx={x} cy={y} r={isActive ? 7 : 5} />
-                <text x={x} y={y + 2.6}>{pin.ideaCount || ""}</text>
-                <title>{pin.name}{pin.region ? `, ${pin.region}` : ""} — {pin.ideaCount} idea{pin.ideaCount === 1 ? "" : "s"}</title>
-              </g>
-            );
-          })}
-
-          {picked && (
-            <g className={styles.picked}>
-              <circle cx={project(picked).x} cy={project(picked).y} r={6} />
-              <circle cx={project(picked).x} cy={project(picked).y} r={11} />
-            </g>
-          )}
-        </svg>
-        <figcaption className={styles.caption}>
-          Simplified outline for orientation only. It is not survey-accurate and verifies nothing about access or permissions.
-        </figcaption>
-      </figure>
-
+      <div className={styles.mapWrap}>
+        <div ref={container} className={styles.map} role="application" aria-label="Map of the saved locations" />
+        {error && <p className={styles.mapError}>{error}</p>}
+        {!ready && !error && <p className={styles.mapLoading}>Loading the map…</p>}
+      </div>
       <div className={styles.side}>
-        {pins.length > 0 && (
-          <section className={styles.panel}>
-            <h3>On the map</h3>
-            <ul className={styles.pinList}>
-              {pins.map((pin) => (
-                <li key={pin.id} data-active={active === pin.id || undefined} onMouseEnter={() => setActive(pin.id)} onMouseLeave={() => setActive(null)}>
-                  <Link href={`#${pin.id}`}>{pin.name}</Link>
-                  <small>{pin.region || "no region"} · {pin.ideaCount} idea{pin.ideaCount === 1 ? "" : "s"}</small>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        <section className={styles.panel}>
-          <h3>{picked ? "Pin dropped" : "Click the map"}</h3>
-          {picked ? (
-            <p className={styles.picked_readout}>
-              {picked.lat.toFixed(3)}° N, {picked.lng.toFixed(3)}° E
-              {suggestion ? <><br /><small>nearest landmark: {suggestion.name}</small></> : null}
-            </p>
-          ) : (
-            <p className="panel-note">Click anywhere on the island to pick coordinates, then save them as a new location or move an existing one there.</p>
-          )}
-
-          <form action={createLocation} className="location-form">
-            <input type="hidden" name="lat" value={picked?.lat ?? ""} />
-            <input type="hidden" name="lng" value={picked?.lng ?? ""} />
-            <label>Location name<input name="name" placeholder="e.g. Sri Pada / Adam&apos;s Peak" required /></label>
-            <label>Region or district<input name="region" defaultValue="" key={suggestion?.region ?? "none"} placeholder={suggestion ? suggestion.region : "e.g. Kandy"} /></label>
-            <label>Note<textarea name="note" rows={2} placeholder="Access, season, who to ask (optional)" /></label>
-            <button className="button primary" type="submit">
-              {picked ? "Save location here" : "Save location without a pin"}
-            </button>
-          </form>
-
-          {unplaced.length > 0 && picked && (
-            <form action={placeLocation} className="location-form">
-              <input type="hidden" name="lat" value={picked.lat} />
-              <input type="hidden" name="lng" value={picked.lng} />
-              <label>
-                Or move a saved location here
-                <select name="location_id" required defaultValue="">
-                  <option value="" disabled>Choose a location…</option>
-                  {unplaced.map((entry) => <option key={entry.id} value={entry.id}>{entry.name}</option>)}
-                </select>
-              </label>
-              <button className="button subtle" type="submit">Pin it here</button>
-            </form>
-          )}
-        </section>
+        <PinList pins={pins} onFocus={ready ? focus : undefined} />
       </div>
     </div>
+  );
+}
+
+function PinList({ pins, onFocus }: { pins: MapPin[]; onFocus?: (pin: MapPin) => void }) {
+  if (pins.length === 0) {
+    return <p className="panel-note">No location has coordinates yet. Add them on the idea that uses the place.</p>;
+  }
+  return (
+    <ul className={styles.pinList}>
+      {pins.map((pin) => (
+        <li key={pin.id}>
+          <div className={styles.pinHead}>
+            {onFocus
+              ? <button type="button" className={styles.pinButton} onClick={() => onFocus(pin)}>{pin.name}</button>
+              : <strong>{pin.name}</strong>}
+            <a href={googleMapsUrl(pin)} target="_blank" rel="noreferrer" className="small-link">open ↗</a>
+          </div>
+          <small>{pin.region || "no region"} · {formatCoordinates(pin)}</small>
+          <div className="chip-list">
+            {pin.ideas.map((idea) => <Link key={idea.id} href={`/ideas/${idea.id}`} title={idea.title}>{idea.id}</Link>)}
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 }

@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { REPO_DIR } from "./content";
+import type { Coordinates } from "./geo";
 
 export const DEVELOPMENT_DIR = path.join(REPO_DIR, "development");
 
@@ -305,14 +306,12 @@ export type Episode = Envelope & {
   lesson?: EpisodeLesson;
 };
 
-/** Where a place sits on the island. Null until it is pinned on the Locations map. */
-export type Coordinates = { lat: number; lng: number };
-
 export type Place = Envelope & {
   name: string;
   region: string;
   origin: "ai_suggestion_chosen_by_chathura" | "entered_by_chathura";
   note: string;
+  /** Typed in by hand on the idea that uses this place. Null until then. */
   coordinates: Coordinates | null;
   decision_id: string | null;
 };

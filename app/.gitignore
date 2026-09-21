@@ -1,4 +1,6 @@
 node_modules/
 .next/
+.next-stale-*/
 next-env.d.ts
 *.tsbuildinfo
+.env*.local

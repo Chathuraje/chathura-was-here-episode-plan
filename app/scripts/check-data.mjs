@@ -163,6 +163,17 @@ if (fs.existsSync(development)) {
   check("Locations are entered by Chathura and carry a name", places.every((place) => place.origin === "entered_by_chathura"
     && typeof place.title === "string" && place.title.trim()),
   places.filter((place) => place.origin !== "entered_by_chathura" || !place.title?.trim()).map((place) => place.id).join(", "));
+  const validPoint = (c) => Number.isFinite(c.lat) && Number.isFinite(c.lng)
+    && c.lat >= -90 && c.lat <= 90 && c.lng >= -180 && c.lng <= 180;
+  check("Location coordinates are valid or absent", places.every((place) => !place.coordinates || validPoint(place.coordinates)),
+    places.filter((place) => place.coordinates && !validPoint(place.coordinates)).map((place) => place.id).join(", "));
+  // A location exists only because an idea uses it, and an idea holds at most one.
+  const usedLocationIds = ideas.map((idea) => idea.location?.location_id).filter(Boolean);
+  check("Every location is used by at least one idea", places.every((place) => usedLocationIds.includes(place.id)),
+    places.filter((place) => !usedLocationIds.includes(place.id)).map((place) => place.id).join(", "));
+  check("Each idea holds at most one location", ideas.every((idea) => typeof idea.location?.location_id === "string"
+    || idea.location?.location_id === null || idea.location?.location_id === undefined),
+  ideas.filter((idea) => Array.isArray(idea.location?.location_id)).map((idea) => idea.id).join(", "));
   check("Idea locations point at saved location records", ideas.every((idea) => !idea.location?.location_id
     || placeIds.has(idea.location.location_id)),
   ideas.filter((idea) => idea.location?.location_id && !placeIds.has(idea.location.location_id)).map((idea) => idea.id).join(", "));

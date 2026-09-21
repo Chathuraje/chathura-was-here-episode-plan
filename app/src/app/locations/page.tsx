@@ -1,7 +1,7 @@
 import Link from "next/link";
 import LocationMap from "@/components/LocationMap";
-import { createLocation, deleteLocation, placeLocation, updateLocation } from "@/app/location-actions";
 import { getDevelopment, ideasAtLocation, orderedIdeas } from "@/lib/development";
+import { formatCoordinates, googleMapsUrl, isInSriLanka } from "@/lib/geo";
 
 export default async function LocationsPage() {
   const dev = await getDevelopment();
@@ -11,17 +11,18 @@ export default async function LocationsPage() {
   const confirmedWithout = ideas.filter((idea) => idea.review.status === "confirmed" && !idea.location.location_id);
   const regions = new Set(places.map((place) => place.region.trim()).filter(Boolean));
 
-  const pins = places
-    .filter((place) => place.coordinates)
-    .map((place) => ({
-      id: place.id,
-      name: place.name,
-      region: place.region,
-      lat: place.coordinates!.lat,
-      lng: place.coordinates!.lng,
-      ideaCount: ideasAtLocation(dev, place.id).length,
-    }));
-  const unpinned = places.filter((place) => !place.coordinates);
+  const withCoordinates = places.filter((place) => place.coordinates);
+  const withoutCoordinates = places.filter((place) => !place.coordinates);
+  const pins = withCoordinates.map((place) => ({
+    id: place.id,
+    name: place.name,
+    region: place.region,
+    note: place.note,
+    lat: place.coordinates!.lat,
+    lng: place.coordinates!.lng,
+    ideas: ideasAtLocation(dev, place.id).map((idea) => ({ id: idea.id, title: idea.title })),
+  }));
+  const outsideSriLanka = withCoordinates.filter((place) => !isInSriLanka(place.coordinates!));
 
   return (
     <>
@@ -29,51 +30,55 @@ export default async function LocationsPage() {
         <div className="eyebrow">05 / Chathura&apos;s decision</div>
         <h1>Locations</h1>
         <p>
-          Every place this series can be shot in, on one map. Add a place here or straight from an idea — either way it
-          shows up in both. Location choice belongs to Chathura alone: AI may describe requirements, but it never picks a
-          place, and pinning one verifies nothing about access, permissions or the people there.
+          Every place the confirmed ideas are set in, on one map. Places are created on the idea that uses them, never
+          here: an idea has one location, and a location exists only while at least one idea still points at it. Location
+          choice belongs to Chathura alone, and a pin verifies nothing about access, permissions or the people there.
         </p>
       </header>
 
       <section className="summary" aria-label="Location summary">
-        <div><strong>{places.length}</strong><span>locations saved</span></div>
-        <div><strong>{pins.length}</strong><span>pinned on the map</span></div>
+        <div><strong>{places.length}</strong><span>locations in use</span></div>
+        <div><strong>{withCoordinates.length}/{places.length}</strong><span>with coordinates</span></div>
         <div><strong>{placedIdeas.length}/{ideas.length}</strong><span>ideas with a location</span></div>
         <div><strong className={confirmedWithout.length ? "warn" : ""}>{confirmedWithout.length}</strong><span>confirmed ideas still waiting</span></div>
       </section>
-
-      <LocationMap
-        pins={pins}
-        unplaced={unpinned.map((place) => ({ id: place.id, name: place.name }))}
-        createLocation={createLocation}
-        placeLocation={placeLocation}
-      />
 
       {places.length === 0 ? (
         <div className="empty-state">
           <h2>No locations yet</h2>
           <p>
-            Click the island above to drop a pin and name the place, or add one from an idea page while you are reviewing.
-            Either way it appears here and in every idea&apos;s location list.
+            A location is added from the idea it belongs to. Open an idea, name the place and type its coordinates, and it
+            appears on this map.
           </p>
           <p><Link className="button primary" href="/ideas">Review ideas</Link></p>
         </div>
       ) : (
+        <LocationMap pins={pins} apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? ""} />
+      )}
+
+      {outsideSriLanka.length > 0 && (
+        <p className="notice warn">
+          {outsideSriLanka.map((place) => place.name).join(", ")} {outsideSriLanka.length === 1 ? "sits" : "sit"} outside
+          Sri Lanka. That may be deliberate — check the coordinates on the idea if it is not.
+        </p>
+      )}
+
+      {places.length > 0 && (
         <section className="concept-section">
           <div className="section-heading">
             <span>{String(places.length).padStart(2, "0")}</span>
-            <h2>Saved locations</h2>
-            <small>{regions.size} region{regions.size === 1 ? "" : "s"} · {placedIdeas.length} idea links</small>
+            <h2>Places in use</h2>
+            <small>{regions.size} region{regions.size === 1 ? "" : "s"} · {placedIdeas.length} idea link{placedIdeas.length === 1 ? "" : "s"}</small>
           </div>
-          {unpinned.length > 0 && (
+          {withoutCoordinates.length > 0 && (
             <p className="muted-note">
-              {unpinned.length} location{unpinned.length === 1 ? " has" : "s have"} no pin yet: {unpinned.map((place) => place.name).join(", ")}.
-              Click a spot on the map above and use &ldquo;move a saved location here&rdquo;.
+              {withoutCoordinates.length} place{withoutCoordinates.length === 1 ? " has" : "s have"} no coordinates yet, so
+              {withoutCoordinates.length === 1 ? " it is" : " they are"} missing from the map. Add them on the idea below.
             </p>
           )}
           <div className="table-wrap">
             <table className="location-table">
-              <thead><tr><th>Location</th><th>Note</th><th>Used by</th><th>Edit</th></tr></thead>
+              <thead><tr><th>Location</th><th>Coordinates</th><th>Note</th><th>Used by</th></tr></thead>
               <tbody>
                 {places.map((place) => {
                   const users = ideasAtLocation(dev, place.id);
@@ -81,40 +86,18 @@ export default async function LocationsPage() {
                     <tr key={place.id} id={place.id}>
                       <td>
                         <b>{place.name}</b><br />
-                        <small className="muted-note">
-                          {place.region || "no region set"} · {place.id}
-                          {place.coordinates
-                            ? ` · ${place.coordinates.lat.toFixed(3)}, ${place.coordinates.lng.toFixed(3)}`
-                            : " · not pinned"}
-                        </small>
+                        <small className="muted-note">{place.region || "no region set"} · {place.id}</small>
+                      </td>
+                      <td>
+                        {place.coordinates
+                          ? <a href={googleMapsUrl(place.coordinates)} target="_blank" rel="noreferrer">{formatCoordinates(place.coordinates)} ↗</a>
+                          : <span className="warn">not set</span>}
                       </td>
                       <td>{place.note || <span className="muted-note">—</span>}</td>
                       <td>
                         {users.length
                           ? <div className="chip-list">{users.map((idea) => <Link key={idea.id} href={`/ideas/${idea.id}`}>{idea.id}</Link>)}</div>
-                          : <span className="muted-note">no ideas yet</span>}
-                      </td>
-                      <td>
-                        <details>
-                          <summary className="small-link">Edit</summary>
-                          <form action={updateLocation} className="location-form">
-                            <input type="hidden" name="location_id" value={place.id} />
-                            <label>Name<input name="name" defaultValue={place.name} required /></label>
-                            <label>Region<input name="region" defaultValue={place.region} /></label>
-                            <label>Note<textarea name="note" rows={2} defaultValue={place.note} /></label>
-                            <button className="button primary" type="submit">Save changes</button>
-                            <small className="muted-note">The map pin is kept. Move it by clicking the map above.</small>
-                          </form>
-                          <form action={deleteLocation} className="location-form">
-                            <input type="hidden" name="location_id" value={place.id} />
-                            <button className="button subtle" type="submit">Delete location</button>
-                            <small className="muted-note">
-                              {users.length
-                                ? `This also clears the location on ${users.length} idea${users.length === 1 ? "" : "s"}.`
-                                : "Not attached to any idea."}
-                            </small>
-                          </form>
-                        </details>
+                          : <span className="muted-note">unused — it will be removed</span>}
                       </td>
                     </tr>
                   );
@@ -122,13 +105,17 @@ export default async function LocationsPage() {
               </tbody>
             </table>
           </div>
+          <p className="muted-note">
+            To rename a place, move its pin or drop it, open the idea that uses it. Editing happens there so the place and
+            the idea never drift apart.
+          </p>
         </section>
       )}
 
       {confirmedWithout.length > 0 && (
         <section className="concept-section">
           <div className="section-heading"><span>→</span><h2>Confirmed ideas without a location</h2><small>{confirmedWithout.length} ideas</small></div>
-          <p className="muted-note">These are the next ones to place. Open an idea and pick a place, or add a new one there.</p>
+          <p className="muted-note">These are the next ones to place.</p>
           <div className="chip-list">
             {confirmedWithout.map((idea) => <Link key={idea.id} href={`/ideas/${idea.id}`}>{idea.id} {idea.title}</Link>)}
           </div>

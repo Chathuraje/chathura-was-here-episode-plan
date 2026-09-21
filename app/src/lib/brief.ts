@@ -1,5 +1,6 @@
 import { getData, readDoc } from "./content";
 import { getDevelopment, latestStages, orderedIdeas, ownedObjectsAt, screenplayNextStage, type Digest, type ScreenplayVersion, type Episode, type Group, type Idea, type Place, type ScreenplayNextStage, type StoryObject } from "./development";
+import { formatCoordinates } from "./geo";
 import { citationsInText } from "./citation-utils.mjs";
 import { resolveBriefSourceIdeas } from "./brief-ideas.mjs";
 
@@ -322,11 +323,11 @@ ${ideaBlocks.join("\n\n")}`);
     const place = brief.place;
     out.push(`## 4. Location (Chathura selects)
 **Chosen location:** ${place
-      ? `${place.name}${place.region ? `, ${place.region}` : ""} (${place.id}, chosen by Chathura${idea.location.set_at ? ` on ${idea.location.set_at}` : ""}${idea.location.decision_id ? `, decision ${idea.location.decision_id}` : ""})${place.note ? `. Location note: ${place.note}` : ""}`
+      ? `${place.name}${place.region ? `, ${place.region}` : ""} (${place.id}, chosen by Chathura${idea.location.set_at ? ` on ${idea.location.set_at}` : ""}${idea.location.decision_id ? `, decision ${idea.location.decision_id}` : ""}). Coordinates: ${place.coordinates ? formatCoordinates(place.coordinates) : "not entered"}.${place.note ? ` Location note: ${place.note}` : ""}`
       : "none yet. Chathura has not chosen a place for this idea."}
 ${idea.location.note ? `**Note on this choice:** ${idea.location.note}` : ""}
 
-Choosing a place verifies nothing: access, participants, permissions and the documentary facts are all still unresearched. Do not select or change a location, and do not infer one from the text above.`);
+An idea holds exactly one location, entered by hand on its own page, and the place exists only while an idea points at it. Choosing a place verifies nothing: access, participants, permissions and the documentary facts are all still unresearched. Do not select or change a location, and do not infer one from the text above.`);
   }
 
   const location = ep?.episode.location;

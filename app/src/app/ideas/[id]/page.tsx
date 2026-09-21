@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CopyButton from "@/components/CopyButton";
-import { createLocationForIdea, setIdeaLocation, setIdeaReview } from "@/app/location-actions";
+import { createLocationForIdea, setIdeaLocation, setIdeaReview, updateLocation } from "@/app/location-actions";
 import { buildIdeaBrief, briefToMarkdown } from "@/lib/brief";
-import { getDevelopment, IDEA_REVIEW_STATUSES } from "@/lib/development";
+import { getDevelopment, ideasAtLocation, IDEA_REVIEW_STATUSES } from "@/lib/development";
+import { formatCoordinates, googleMapsUrl, isInSriLanka } from "@/lib/geo";
 
 const reviewBlurb: Record<string, string> = {
   confirmed: "Confirmed. Ready for a location.",
@@ -16,7 +17,9 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
   if (!brief) notFound();
   const { idea, group, object, place } = brief;
   const markdown = briefToMarkdown(brief);
+  // Places another idea already uses. A place exists only while an idea points at it.
   const places = [...dev.places.values()].sort((a, b) => a.name.localeCompare(b.name));
+  const sharedWith = place ? ideasAtLocation(dev, place.id).filter((entry) => entry.id !== idea.id) : [];
 
   return (
     <>
@@ -99,41 +102,96 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
 
           <section className="panel location-panel">
             <span className="layer-label">Location</span>
-            {place
-              ? <><h2>{place.name}</h2><p className="panel-note">{place.region || "no region set"} · {place.id}{idea.location.set_at ? ` · set ${idea.location.set_at}` : ""}</p>{place.note && <p className="panel-note">{place.note}</p>}</>
-              : <><h2>Not chosen</h2><p className="panel-note">No place picked for this idea yet.</p></>}
-            {idea.location.note && <p className="panel-note">Note: {idea.location.note}</p>}
-            {places.length > 0 && (
-              <form action={setIdeaLocation} className="location-form">
-                <input type="hidden" name="idea_id" value={idea.id} />
-                <label>
-                  Pick a saved place
-                  <select name="location_id" defaultValue={idea.location.location_id ?? ""}>
-                    <option value="">— none —</option>
-                    {places.map((entry) => (
-                      <option key={entry.id} value={entry.id}>{entry.name}{entry.region ? ` (${entry.region})` : ""}</option>
-                    ))}
-                  </select>
-                </label>
-                <textarea name="note" rows={2} placeholder="Note about this choice (optional)" defaultValue={idea.location.note} />
-                <button className="button primary" type="submit">Save location</button>
-              </form>
-            )}
+            {place ? (
+              <>
+                <h2>{place.name}</h2>
+                <p className="panel-note">
+                  {place.region || "no region set"} · {place.id}{idea.location.set_at ? ` · set ${idea.location.set_at}` : ""}
+                </p>
+                {place.coordinates ? (
+                  <p className="panel-note">
+                    <a href={googleMapsUrl(place.coordinates)} target="_blank" rel="noreferrer">{formatCoordinates(place.coordinates)} ↗</a>
+                    {!isInSriLanka(place.coordinates) && <span className="warn"> · outside Sri Lanka</span>}
+                  </p>
+                ) : <p className="panel-note warn">No coordinates yet, so it is missing from the map.</p>}
+                {place.note && <p className="panel-note">{place.note}</p>}
+                {idea.location.note && <p className="panel-note">Note on this choice: {idea.location.note}</p>}
+                {sharedWith.length > 0 && (
+                  <p className="panel-note">
+                    Also used by {sharedWith.map((entry) => <Link key={entry.id} href={`/ideas/${entry.id}`}>{entry.id} </Link>)}
+                  </p>
+                )}
 
-            <details className="new-location" open={places.length === 0}>
-              <summary className="small-link">＋ Add a new place</summary>
-              <form action={createLocationForIdea} className="location-form">
-                <input type="hidden" name="idea_id" value={idea.id} />
-                <label>Place name<input name="name" placeholder="e.g. Sri Pada / Adam&apos;s Peak" required /></label>
-                <label>Region or district<input name="region" placeholder="e.g. Ratnapura–Nuwara Eliya" /></label>
-                <label>About the place<textarea name="location_note" rows={2} placeholder="Access, season, who to ask (optional)" /></label>
-                <label>Note about this choice<textarea name="note" rows={2} placeholder="Why here, for this idea (optional)" /></label>
-                <button className="button primary" type="submit">Add and use for this idea</button>
-                <small className="muted-note">
-                  Saved to the <Link href="/locations">Locations</Link> tab straight away, where you can pin it on the map.
-                </small>
-              </form>
-            </details>
+                <details className="new-location">
+                  <summary className="small-link">Edit this place</summary>
+                  <form action={updateLocation} className="location-form">
+                    <input type="hidden" name="location_id" value={place.id} />
+                    <label>Place name<input name="name" defaultValue={place.name} required /></label>
+                    <label>Region or district<input name="region" defaultValue={place.region} /></label>
+                    <label>
+                      Coordinates
+                      <input name="coordinates" defaultValue={place.coordinates ? formatCoordinates(place.coordinates) : ""} placeholder="7.29060, 80.63370" />
+                    </label>
+                    <label>About the place<textarea name="location_note" rows={2} defaultValue={place.note} /></label>
+                    <button className="button primary" type="submit">Save place</button>
+                    <small className="muted-note">
+                      Paste &ldquo;lat, lng&rdquo; from Google Maps. Leaving it empty takes the place off the map.
+                      {sharedWith.length > 0 ? ` This place is shared with ${sharedWith.length} other idea${sharedWith.length === 1 ? "" : "s"}.` : ""}
+                    </small>
+                  </form>
+                </details>
+
+                <form action={setIdeaLocation} className="location-form">
+                  <input type="hidden" name="idea_id" value={idea.id} />
+                  <input type="hidden" name="location_id" value="" />
+                  <button className="button subtle" type="submit">Remove the location from this idea</button>
+                  <small className="muted-note">
+                    {sharedWith.length ? "Other ideas keep using the place." : "Nothing else uses this place, so the record goes with it."}
+                  </small>
+                </form>
+              </>
+            ) : (
+              <>
+                <h2>Not chosen</h2>
+                <p className="panel-note">This idea has no place yet. An idea holds one location, added here.</p>
+
+                <form action={createLocationForIdea} className="location-form">
+                  <input type="hidden" name="idea_id" value={idea.id} />
+                  <label>Place name<input name="name" placeholder="e.g. Sri Pada / Adam&apos;s Peak" required /></label>
+                  <label>Region or district<input name="region" placeholder="e.g. Ratnapura–Nuwara Eliya" /></label>
+                  <label>
+                    Coordinates
+                    <input name="coordinates" placeholder="7.29060, 80.63370" />
+                  </label>
+                  <label>About the place<textarea name="location_note" rows={2} placeholder="Access, season, who to ask (optional)" /></label>
+                  <label>Note about this choice<textarea name="note" rows={2} placeholder="Why here, for this idea (optional)" /></label>
+                  <button className="button primary" type="submit">Add this place</button>
+                  <small className="muted-note">
+                    Paste &ldquo;lat, lng&rdquo; from Google Maps to put it on the <Link href="/locations">Locations</Link> map.
+                  </small>
+                </form>
+
+                {places.length > 0 && (
+                  <details className="new-location">
+                    <summary className="small-link">Or reuse a place another idea already has</summary>
+                    <form action={setIdeaLocation} className="location-form">
+                      <input type="hidden" name="idea_id" value={idea.id} />
+                      <label>
+                        Place
+                        <select name="location_id" required defaultValue="">
+                          <option value="" disabled>Choose a place…</option>
+                          {places.map((entry) => (
+                            <option key={entry.id} value={entry.id}>{entry.name}{entry.region ? ` (${entry.region})` : ""}</option>
+                          ))}
+                        </select>
+                      </label>
+                      <textarea name="note" rows={2} placeholder="Note about this choice (optional)" />
+                      <button className="button primary" type="submit">Use this place</button>
+                    </form>
+                  </details>
+                )}
+              </>
+            )}
 
             <p className="panel-note">Choosing a place verifies nothing about access, participants or permissions.</p>
           </section>

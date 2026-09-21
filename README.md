@@ -32,7 +32,7 @@ Next human phase: **CHATHURA — CHRONOLOGY V1 REVIEW, GRP-01 → GRP-10**.
 
 ## Episode-development planning
 
-The dated Step 1 audit, consolidated current rules, historical data-model proposal, and Episode 1/100 continuity foundation are indexed in [`docs/planning/README.md`](docs/planning/README.md). The roadmap records both historical steps and current status. Review the draft slate at `/chronology`.
+The dated Step 1 audit, consolidated current rules, historical data-model proposal, and Episode 1/100 continuity foundation are indexed in [`docs/planning/README.md`](docs/planning/README.md). The roadmap records both historical steps and current status. Review the candidate ideas at `/ideas`, then place the confirmed ones at `/locations`. The chronology, learning path and earlier per-film location data have been cleared and are rebuilt from that work.
 
 ## Validate the content
 
