@@ -242,23 +242,42 @@ export type IdeaReview = {
   decided_by: string | null;
 };
 
-/** The place chosen for an idea, pointing at a record created in the Locations tab. */
-export type IdeaLocation = {
-  location_id: string | null;
-  decision_id?: string | null;
-  note: string;
-  set_at: string | null;
-  set_by: string | null;
+
+/**
+ * One proposed place, carried inside the idea. It has no verdict of its own: in the
+ * footage-led model the sequence is built from this place's own visuals, so rejecting the
+ * place means rewriting the idea. `idea.review` is the single verdict over both.
+ */
+export type SuggestedLocation = {
+  name: string;
+  also_known_as?: { name: string; meaning: string; used_by: string }[];
+  region: string;
+  coordinates: Coordinates;
+  elevation_m?: number;
+  why_here: string;
+  what_to_film: string[];
+  access: string;
+  best_time: string;
+  images: { caption: string; url: string; source: string; licence_note?: string }[];
+  sources?: string[];
+  research_note?: string;
+  proposed_by: string;
+  proposed_at?: string;
 };
 
 export type Idea = Envelope & {
   review: IdeaReview;
-  location: IdeaLocation;
+  suggested_location?: SuggestedLocation;
   aliases: string[];
   group_id: string;
   logline: string;
   human_question: string;
-  situation: { what_happens: string; who_is_involved: string; what_is_at_stake: string; how_it_unfolds: string };
+  /** The footage-led shape. Present once an idea has been rewritten. */
+  place?: { what_kind_of_place: string; why_it_is_worth_watching: string; what_moves_or_changes: string; when_it_looks_best: string };
+  two_layers?: { without_the_philosophy: string; with_the_philosophy: string };
+  sequence?: { on_screen: string; voice: string; concept_id?: string }[];
+  /** The legacy human-situation shape, on ideas not yet rewritten. */
+  situation?: { what_happens: string; who_is_involved: string; what_is_at_stake: string; how_it_unfolds: string };
   concept_merge: { why_together: string; what_it_reveals: string };
   concept_links: { concept_id: string; role: string; why: string }[];
   what_the_viewer_could_understand: string;
@@ -400,19 +419,11 @@ export async function getDevelopment(): Promise<Development> {
   ]);
   for (const idea of ideas) {
     const review = idea.review as Partial<IdeaReview> | undefined;
-    const location = idea.location as Partial<IdeaLocation> | undefined;
     idea.review = {
       status: review?.status ?? "pending",
       note: review?.note ?? "",
       decided_at: review?.decided_at ?? null,
       decided_by: review?.decided_by ?? null,
-    };
-    idea.location = {
-      location_id: location?.location_id ?? null,
-      decision_id: location?.decision_id ?? null,
-      note: location?.note ?? "",
-      set_at: location?.set_at ?? null,
-      set_by: location?.set_by ?? null,
     };
   }
   const [episodes, places, screenplays, decisions] = await Promise.all([
@@ -453,10 +464,6 @@ export function orderedIdeas(dev: Development): Idea[] {
     || a.id.localeCompare(b.id));
 }
 
-/** Ideas that reference a location record, in list order. */
-export function ideasAtLocation(dev: Development, locationId: string): Idea[] {
-  return orderedIdeas(dev).filter((idea) => idea.location.location_id === locationId);
-}
 
 /** Latest version of each screenplay stage for one episode. */
 export function latestStages(dev: Development, episodeId: string): Partial<Record<ScreenplayVersion["stage"], ScreenplayVersion>> {

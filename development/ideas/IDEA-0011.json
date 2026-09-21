@@ -2,87 +2,199 @@
   "schema_version": 1,
   "id": "IDEA-0011",
   "record_type": "idea",
-  "title": "The First Letter",
+  "title": "A Mountain You Can Lift",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The First Letter"
+  ],
   "group_id": "GRP-01",
-  "logline": "A family waits to be told the first letter of a newborn's name, and then chooses a word that everyone will use for the rest of that person's life.",
-  "human_question": "Where does a name come from, and what exactly does it attach to?",
-  "situation": {
-    "what_happens": "In the days after a birth, a family follows the custom it has always followed to settle what the child will be called: a chart is drawn up, a letter is given, and then a name has to be found that begins with it and that everyone can live with. There are opinions from every side of the family, some of them about meaning, some about how the name will sound at school, some about a relative it would honour or offend. Then, at a particular moment, the name is used out loud for the first time, and after that it is simply the child's name and nobody can remember the alternatives.",
-    "who_is_involved": "The parents, who will decide; the grandparents and aunts and uncles, who have views and sometimes a claim; the person who draws up the chart and gives the letter; and the baby, who is the one participant who cannot consent to any of it.",
-    "what_is_at_stake": "For the parents, a first decision made on a new person's behalf that cannot be undone, and the family politics that come with it. For the wider family, whether their tradition is followed. For the film, the privacy of a newborn and of a household in its most vulnerable weeks, and the standing risk of making a custom look quaint.",
-    "how_it_unfolds": "It begins with a birth and a deadline set by custom, and moves through consultation, disagreement and compromise to a decision. The pressures are family expectation, the calendar, and how much any of it is believed in by the people doing it. It ends with a name in use, or with a compromise nobody quite wanted, or with two names, one for the records and one for the house. Reality decides."
+  "logline": "Sea water is let through a gate into a field of shallow pans, is given a different name at every bund it crosses, and ends as white mountains that a man's boot goes straight through.",
+  "human_question": "If a mountain can pour through my fingers, how many of the solid things I name every day are a word laid over a crowd of small ones?",
+  "place": {
+    "what_kind_of_place": "A working solar saltern on the edge of a dry-zone coastal wetland. Sea water is admitted through a sluice into a descending series of very shallow pans, each one separated from the next by a low hand-built earth bund, and it is walked from pan to pan over weeks as it thickens. The last pans in the series are the crystallisers, where the floor goes white and hard. The salt is broken, raked and carried out in head-baskets by hand, because the operation deliberately runs on people rather than machines, and it is built into standing conical white mountains at the edge of the field. On two sides are lagoon and thorn scrub full of waders and flamingos; on the third is the sea the water came from.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. From the air the whole field is a ruled grid of rectangles laid on a lagoon, and every rectangle is a different colour, because brine changes colour as it concentrates: clear, then jade, then a rust-pink that can go nearly red, with birds standing in the shallow end of it by the thousand. On the ground there is the floor of a crystalliser, a hard white surface that looks like lake ice in thirty-three degrees of heat, cracking under a rake. And there are the mountains: clean white cones several metres high with small dark figures walking up them carrying baskets, and the slope running away under every step.",
+    "what_moves_or_changes": "Nothing here is staged and nothing is under the crew's control. Water crosses a bund when a board is lifted. Colour changes on its own timetable as the brine thickens. Crust forms and is broken. Birds arrive and leave with the light and the salinity. The mountains grow through the harvest and then disappear into lorries within days. The whole field is emptied and refilled once a year by the weather, and a wet year simply does not produce them.",
+    "when_it_looks_best": "The harvest months of the dry season, roughly May to September, when the pans are working and the cones are standing; outside that window the field is water and there is nothing white in it at all. First light and the last hour of the afternoon for the grid and for the mountains, when the cones throw shadows as long as themselves. The pink in the concentrating pans is strongest late in a cycle and reads best from directly overhead near the middle of the day, which is also the hardest hour to be standing in that field."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape and labour film with a clean shape: sea to crust to mountain, in colour and heat. A grid of coloured water seen from above, flamingos in the pink end of it, a white floor breaking under a rake, and people building white mountains by hand, one basket at a time, and then taking them away again. It resolves on its own terms, from open water at the start to open water at the end, and someone who never hears a word of the narration gets a complete piece with a build, a middle and a payoff.",
+    "with_the_philosophy": "The same footage becomes a demonstration rather than an argument. The voice never contradicts anything on screen; it points at what is already visible. One body of water that is given a different name in every rectangle it crosses, with the name telling the men with the boards what to do next. A floor that stops being a floor the moment a rake divides it, which is the sources' own test for whether a thing was ever one thing. And a mountain with a name, a shape and a weight that a boot goes straight through, because there is nothing in it but grains leaning on each other. Nobody on screen is told that they, or their work, or their mountain, is unreal."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light. Drone very high and pointing straight down. The whole field in one frame: a ruled grid of rectangles on a lagoon, each rectangle a different colour, the bunds between them as fine as pencil lines.",
+      "voice": "Every one of these rectangles has a number, and what is inside it has a name. It is all the same water. It came in through one gate at the far end and it is walking across this field, one rectangle at a time, and it will be called five or six different things before it gets out.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Ground level at a sluice. A wooden board is lifted by hand; water slides under it and spreads out over dry cracked mud in the next pan.",
+      "voice": "Nothing happened to the water when it crossed that line. It was one thing on that side and it is another thing on this side, and the only difference is the word. The texts are exact about words like this. A concept is both the thing that is made known and the means of making it known, and it is not the thing itself.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Slow drone drift across the concentrating pans: clear, then jade, then rust-pink. A line of flamingos standing in the pink, and two men walking a bund between colours with a spade.",
+      "voice": "The names are not decoration here. A name tells those two which gate to open next and how long to leave it. A whole field of work runs on words that everybody has agreed to use for water that is only getting thicker.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "A crystalliser at midday. The floor is white, hard and continuous. A long-handled rake goes in and the surface breaks into wet blocks, then the blocks break into grains.",
+      "voice": "Here is the test the books give you, and you can do it yourself. Take the thing apart. If what you were looking at disappears, it was never there as a separate thing. Pull a cloth to pieces and you have thread, and there was never a cloth anywhere among the threads. That was a floor until the rake went in.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Baskets going up a plank onto the top of a cone; salt tipped; the cone growing across an afternoon. Then the range of cones from a distance at low sun.",
+      "voice": "The word the texts use for what a person is made of is the plainest word in the language. Heap. Not a thing with parts inside it. A heap: everything of one kind, gathered into one by the mind, and then given a single word.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "Last light, drone low along the white range. A man walks up the flank of one cone and the whole slope slips away under every step and reforms behind him.",
+      "voice": "Watch what the mountain does when it is asked to hold still. It has a name. It has a shape you could draw and a weight somebody will pay for. There is nothing in it but grains leaning on each other, and the word is doing all of the holding.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Close and quiet: cracked hands, salt dried white along a forearm, sweat at a neckline, a basket set down. The sea behind, out of focus.",
+      "voice": "The compendium lists the same short set of elements twice over, once for the world and once for a body, and the two lists match. It is careful about what it is doing with that. It says the names, hair, skin, a hand, were laid on things that do not know they are being named. It does not say the person is not there.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "The cones going into lorries over two days until the ground where they stood is bare. Then the gate at the sea end opening, and clear water coming in over dry ground.",
+      "voice": "The reason for counting the heaps was never to prove that nobody is home. It was to notice where the word I has been put down, and to loosen its grip. The gate is open again. The water is coming back in, and it is collecting its names.",
+      "concept_id": "C077"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C084 supplies the category the sources list by name: the concept of a being, a person-concept resting on the five aggregates [C084-P:L27–L41], together with the name-concept placed on it [C084-P:L25]. C077 supplies what is underneath that: everything conditioned gathered into five heaps, each a gathering of countless moments of one kind, taught so that the places where 'I' and 'mine' settle can be noticed [C077-P:L996–L1010; C077-M:L24]. One naming puts the two side by side at the only moment when the name is visibly newer than what it names.",
-    "what_it_reveals": "That the name arrives from outside, before the person it is given to can have any relation to it, and that it will be indistinguishable from them within weeks. Neither concept alone gets that: C084 would be a definition, C077 an analysis of somebody already named."
+    "why_together": "Read fresh, the two digests do different jobs, and a salt field is the rare place that needs both. C084 supplies the machinery of naming: paññatti is both the thing made known and the means of making it known [C084-P:L25], and the Mārgaya gives the test that settles whether a thing was ever one thing, which is to divide it, because what disappears under division was never there, as the cloth is nowhere among the threads [C084-M:L7]. It then sorts the concepts the mind takes up into kinds, among them the shape, the collective whole, the being, the direction and the time [C084-M:L11–L19], and separates the spoken sound, which is ultimately real, from the name it carries, which is not [C084-M:L21]. C077 supplies the word for what division leaves behind: khandha, a heap, which the compendium glosses simply as a collection, everything of one kind, past and present and future, near and far, gross and subtle, pressed together by the mind into one and given a single word [C077-P:L36–L44; C077-P:L67–L77; C077-M:L10–L18]. Put on a saltern, the machinery and the word produce a film in which one body of water is renamed at every bund, a floor stops being a floor under a rake, and a mountain turns out to be a heap in the most literal sense the language allows.",
+    "what_it_reveals": "That the question is not whether the mountain is real but whether it is one thing, and that the answer here is physical and needs no belief. C084 on its own would make this a film about vocabulary. C077 on its own would be an analysis of a person nobody filmed. Together they put the sources' plainest word on the most beautiful object the place makes: a white cone with a name, a measurable weight and a drawable shape, which will not stay whole for a single footstep. C077 also supplies the limit that keeps the film honest, because the stated purpose of counting the heaps is to notice where 'this is mine, I am this' has settled so that the grip can loosen [C077-P:L996–L998; C077-P:L1006–L1010; C077-M:L24], not to announce that nobody is there."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "The sources list the being-concept among the meaning-concepts, a person-concept based on the aggregates, and separate it from the name-concept that conveys it [C084-P:L27–L41; C084-P:L25], adding that the spoken sound is ultimately real while the name it carries lives in the hearer's understanding [C084-M:L21]. A naming is the one occasion where that attachment can be watched being made. The digest's limit is absolute here: the film must never tell the family that the name they have chosen is wrong, nor treat the custom that produced the letter as an error."
+      "why": "The sources define paññatti as both the thing made known and the means of making it known [C084-P:L25], and the Mārgaya states the division test in its own words: what disappears when you take a thing apart was never there as a separate thing, because there is no cloth among the threads [C084-M:L7]. It then lists the kinds of concept the mind takes up, the shape, the collective whole, the being, the direction and the time [C084-M:L11–L19], and separates the sound of a word, which is ultimately real, from the name it conveys, which is not [C084-M:L21]. A saltern is a place where those distinctions are load-bearing rather than theoretical: one body of water carries a different name in every pan, the name is the working instruction, and the crystalliser floor performs the division test on camera. The digest's limits are written into the film rather than bolted on. No worker is told that the word they use for their own field is wrong. The existent and non-existent pairs are technical categories and are never rendered as true and false. And nothing here supports 'nothing is real', since the sources keep sound, colour and feeling fully real and treat conventional wholes as valid in their own domain."
     },
     {
       "concept_id": "C077",
       "role": "supporting",
-      "why": "The compendium takes a person apart into five heaps and states its reason: each heap is a place where a sense of self settles, and naming the five is a way of noticing where the word 'I' has been put [C077-P:L996–L1010; C077-M:L24]. The digest's first prohibition governs this idea more than any other in the group: 'you do not exist' and 'the self is an illusion' are not what the sources say, and a real child must never be used as a demonstration of no-self."
+      "why": "The compendium's word for each part of a person is khandha, which it glosses as a collection: all the phenomena of one kind, divided across eleven aspects including near and far and gross and subtle, gathered by the mind into a single heap and given one name [C077-P:L36–L44; C077-P:L67–L77; C077-M:L10–L18]. A hand-built salt cone is that word standing in a field, which is why this idea needs C077 and not only C084. The digest's first prohibition governs everything: 'you do not exist' and 'the self is an illusion' are not what the source says, and the reason it counts exactly five heaps is that a sense of 'this is mine, I am this, this is my self' settles on each of them and the counting is meant to loosen it [C077-P:L996–L998; C077-P:L1006–L1010; C077-M:L24]. Two further limits bear directly on beat 7. The inner and outer element lists do match, and the text's own refrain for the parts of a body is 'without a being, without life' [C077-P:L1499–L1503; C077-P:L1629–L1633], but the digest rules out reading that as 'we are all one with nature', because the point is that neither side contains a self. And the contemplation of the body's parts is placed inside monastic discipline, under a teacher and with preconditions [C077-P:L1493–L1497]; it is not a practice the film offers a viewer."
     }
   ],
-  "what_the_viewer_could_understand": "That a name is given from outside, before the person it names can know anything about it, and that within weeks it is inseparable from them; the texts call this kind of name a concept placed on a gathering of passing things, without suggesting that the child is any less real.",
-  "what_must_be_real": "The family's actual customs, actual disagreements and actual choice, with consent from both parents, renewable, and with the family holding the final say over what is published about a child who cannot consent. The astrological practice is filmed as the family treats it, neither endorsed nor mocked. Nothing is scheduled around the film.",
-  "position_hint": "opening or middle: it is the group's only situation in which a name is attached to a person rather than to a thing, and it would work anywhere the group needs that turn. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That a great deal of what looks solid is a word laid over a crowd of small things that happen to be resting against each other, and that noticing this takes nothing away from the thing or from the people who work with it. The proof needs no belief and is on screen: a mountain with a name, a shape and a price, that a man's boot goes straight through.",
+  "what_must_be_real": "The saltern's actual working year, its actual pay and its actual conditions, filmed as they are. No basket is carried again for the camera, no crust is re-raked, no cone is climbed to order and no salt is moved for a shot. Consent from the people filmed close and from whoever runs the field, renewable, and given in a language they use. No worker is used as an illustration of anything: the mountain carries the concept, and a person never does. If the work is hard, badly paid, seasonal or insecure, the film says so rather than photographing it as texture. The wetland's birds are not flushed for an aerial, and no flock is approached for a shot.",
+  "position_hint": "middle: it is the group's most literal demonstration, a whole that stops existing under division, and it sits best after a viewer has already watched a name come apart from a thing and before anything harder is asked of them. No location reasoning is involved.",
   "risks": [
-    "The privacy of a newborn, and consent that only the parents can give on the child's behalf.",
-    "Treating the horoscope and the letter as spectacle, or as superstition to be gently exposed.",
-    "Using a real child as an illustration of no-self, which the digest rules out and the series' own rules forbid.",
-    "Family conflict about the choice becoming the film's entertainment."
+    "Aestheticising hard, low-paid, seasonal labour. Salt work photographs beautifully and is punishing, and the digests' own seeds warn against using workers' bodies as illustrations of anything.",
+    "Overreaching into 'nothing is real': the sources keep sound, colour, feeling and mind fully real and treat conventional wholes as valid in their own domain.",
+    "'You do not exist' or 'the self is an illusion'. The C077 digest rules both out, and beat 8 exists to refuse them.",
+    "'We are all one with nature': the inner and outer element lists match, but the digest says the point is that neither side contains a self, not that a self joins a larger whole.",
+    "Offering the contemplation of the body's parts as something a viewer might try; the source places it inside monastic discipline, under a teacher.",
+    "Turning the grading of salt into a moral ladder. The sources' inferior-and-superior scale belongs to a cosmology of rebirth and a pre-modern social order and cannot be flattened into a line about status.",
+    "Treating the sources' existent and non-existent pairs as 'true' and 'false' names; they are technical categories.",
+    "Access to a commercial operation, and the pull towards a promotional film about a product, which this is not.",
+    "The payoff depends on cones standing and being worked by hand. Out of season there is nothing white in the field, a wet year can shorten or cancel the harvest, and a mechanised year would remove the baskets. None of it can be built for the camera.",
+    "Drone noise over a protected wetland carrying large flocks; an aerial that puts several thousand birds into the air is not worth having."
   ],
   "drop_if": [
-    "Consent is anything less than wholehearted, from both parents, before and after.",
-    "The custom is not actually followed in the family, so the naming would have to be arranged.",
-    "The family's privacy cannot be protected in the finished film."
+    "The harvest cannot be filmed without staging the carrying, the raking or the climbing.",
+    "Consent from the people working the pans is anything less than wholehearted, or access is offered only on condition that the work is shown as better than it is.",
+    "Filming cannot happen without disturbing the wetland's birds, or without putting people working in that heat at risk."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0009",
-      "relation": "mirrors",
-      "note": "Naming at the start of a life; un-naming at the end of a household."
-    },
-    {
       "idea_id": "IDEA-0001",
       "relation": "mirrors",
-      "note": "One place named by many communities, and one person named by one family."
+      "note": "A shape with a name that is made of interrupted light, and a whole with a name that is made of grains."
+    },
+    {
+      "idea_id": "IDEA-0012",
+      "relation": "pairs with",
+      "note": "A whole that stops existing when you divide it, and a whole that stops existing when you stop moving."
     }
   ],
   "selection": {
-    "recommendation": "hold",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Held: doctrinally the cleanest case of the being-concept in the group, and the only slate-ready idea that depends on no season, festival or event, so it is the standing replacement if an event-dependent film fails."
+    "reason": "Stands alone: the sources' division test and their word for a heap are both physically present in one field, and the payoff needs no event, only the season."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. The old situation, a family choosing a newborn's name, is deleted; no family and no named infant appears, and the naming is now carried by a place where naming is the working practice. New title, old one kept as an alias. New place, two_layers and an eight-beat sequence written to a working solar saltern. Both concept links re-tested against the digests and rewritten: C084 now leads on the Mārgaya's division test and the sound-versus-name distinction rather than on the being-concept, and C077 now leads on khandha as a collection gathered by the mind rather than on a person being analysed. Guards written in against 'you do not exist', 'we are all one with nature' and offering element contemplation as a technique. A proposed location added with coordinates, images and sources.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Bundala Lewaya, the saltern on the Bundala lagoons",
+    "also_known_as": [
+      {
+        "name": "Lewaya",
+        "meaning": "a salt lagoon or salt field",
+        "used_by": "Sinhala usage, and the name of every saltern on the island"
+      },
+      {
+        "name": "Singithi Lunu",
+        "meaning": "the name given to the fine salt this particular field produces",
+        "used_by": "the operating company and its export market"
+      }
+    ],
+    "region": "Southern Province, Hambantota District, on the coastal lagoon belt between Hambantota and Kirinda, inside a Ramsar wetland and UNESCO biosphere reserve",
+    "coordinates": {
+      "lat": 6.2139,
+      "lng": 81.225
+    },
+    "elevation_m": 3,
+    "why_here": "It is a small, little-visited saltern rather than a famous industrial one, and it happens to supply every element the film needs in one field. The operation is deliberately run on people rather than machines, so the salt is broken, raked, carried in baskets and built into cones by hand, which is what makes the payoff shot possible at all. The lagoons are shallow and the pans are laid out as a geometric grid on open water, which gives the aerial. The brine concentrates through visible colour changes and carries thousands of waders and greater flamingos, which gives the film its colour without any staging. And it is a seasonal place: through the dry months there are white mountains standing in it, and for the rest of the year there is nothing but water, which is the film's own shape handed over by the weather.",
+    "what_to_film": [
+      "The whole field from directly overhead at first light, high enough that the grid reads as ruled lines and the colour difference between pans is the only subject.",
+      "One sluice, at ground level and in one take: the board lifted, the water crossing the bund and spreading over dry ground on the other side. This is beat 2 and it must be an event that was going to happen anyway.",
+      "The colour sequence along the run of pans, clear to jade to rust-pink, filmed on one day so the change reads as a series rather than as weather.",
+      "The crystalliser floor before and during raking: the continuous white surface, then the rake going in, then the same frame full of grains. The division test, in one position.",
+      "The building of a cone across a working day: the plank, the baskets, the tipping, and the shape growing. Real time and time-lapse from the same tripod position.",
+      "The payoff: a low aerial or a long lens along the white range at last light with a man walking up a flank, wide enough to hold the whole cone and close enough that the slope running under his boot is unmistakable.",
+      "Hands, forearms, salt drying on skin, a basket set down, filmed close and quietly, with nobody asked to hold a pose.",
+      "The cones being loaded out, and the bare ground they leave, then the gate opening at the sea end onto dry cracked mud."
+    ],
+    "access": "By road from the main southern coastal highway, turning off between Hambantota and Tissamaharama; the field lies on the coastal side of the road among the lagoons. The wetland around it is a national park and biosphere reserve, so any filming inside the protected area needs wildlife authority permission, and the saltern itself is a commercial operation run by the state salt company, so access to the pans, the crystallisers and the cones needs the company's agreement as well as the workers'. Drone flight over both a protected wetland and an industrial site is a separate question again and should be assumed to be refused until it is not.",
+    "best_time": "The harvest, in the dry months of roughly May to September, when the crystallisers are being worked and the cones are standing. First light and the last hour for the grid and the cones. Outside the harvest the field is water and the film does not exist. Greater flamingos and migratory waders are on these lagoons in large numbers in the northern winter, which does not coincide with the harvest, so birds and salt may have to be filmed on separate trips.",
+    "images": [
+      {
+        "caption": "Sunrise over the Bundala lagoons: the light the grid and the cones would be filmed in.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise_at_Bundala.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Bundala.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The Bundala wetland and thorn-scrub country the salt field sits inside.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundala_Hambantota_Sri_lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundala_Hambantota_Sri_lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Salt works elsewhere in the same district, for the scale and the whiteness of worked salt.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hambantota_Salt_Factory.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Hambantota_Salt_Factory.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bundala_National_Park",
+      "https://lankasalt.lk/index.php/about/",
+      "https://www.themorning.lk/articles/IoKrcpsAHSZs2lhtx4ND"
+    ],
+    "research_note": "The lagoon system and which lagoons carry salt pans, the park's published coordinate, the dry season of May to September, the flamingo flocks and the existence of a small saltern at this site run with minimal machinery are from the sources above and are desk research only. The coordinate given is the protected area's published centre, not the gate of the salt field, which has to be fixed on the ground. Harvest dates in any given year, the current degree of mechanisation, whether cones are still built by basket, company and wildlife permissions and drone rules are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No access, permission or participant has been found or confirmed. Everything here is a research direction.",
+    "Whether the salt is still lifted and heaped by hand at this particular field in the current season, as against by loader, has not been checked on the ground, and the payoff shot depends entirely on it.",
+    "Whether drone flight is permitted over an internationally designated wetland and a state industrial site is unverified and may simply be refused.",
+    "Whether the harvest and the flamingo season can be reconciled in one visit, or whether the film needs two."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

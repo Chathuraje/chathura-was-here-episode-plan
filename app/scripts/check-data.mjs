@@ -139,10 +139,45 @@ if (fs.existsSync(development)) {
   check("Ideas carry no scene or shot decisions", ideas.every((idea) => !idea.what_camera_could_observe && !idea.possible_arc && !idea.premise),
     ideas.filter((idea) => idea.what_camera_could_observe || idea.possible_arc || idea.premise).map((idea) => idea.id).join(", "));
   const ideaShape = ["logline", "human_question", "what_the_viewer_could_understand", "what_must_be_real"];
-  check("Ideas describe a situation and a concept merge", ideas.every((idea) => ideaShape.every((field) => typeof idea[field] === "string" && idea[field].trim())
-    && idea.situation?.what_happens && idea.situation?.who_is_involved && idea.situation?.what_is_at_stake && idea.situation?.how_it_unfolds
+  // The footage-led shape: the place carries the film, and the narration is locked to what is on screen.
+  // The legacy human-situation shape is still accepted while the groups migrate across.
+  const hasPlaceShape = (idea) => idea.place?.what_kind_of_place && idea.place?.why_it_is_worth_watching
+    && idea.place?.what_moves_or_changes && idea.place?.when_it_looks_best
+    && idea.two_layers?.without_the_philosophy && idea.two_layers?.with_the_philosophy
+    && Array.isArray(idea.sequence) && idea.sequence.length
+    && idea.sequence.every((beat) => beat.on_screen?.trim() && beat.voice?.trim());
+  const hasLegacyShape = (idea) => idea.situation?.what_happens && idea.situation?.who_is_involved
+    && idea.situation?.what_is_at_stake && idea.situation?.how_it_unfolds;
+  check("Ideas describe a place or a situation, and a concept merge", ideas.every((idea) => ideaShape.every((field) => typeof idea[field] === "string" && idea[field].trim())
+    && (hasPlaceShape(idea) || hasLegacyShape(idea))
     && idea.concept_merge?.why_together && idea.concept_merge?.what_it_reveals),
-    ideas.filter((idea) => !idea.situation?.what_happens || !idea.concept_merge?.why_together).map((idea) => idea.id).join(", "));
+    ideas.filter((idea) => !(hasPlaceShape(idea) || hasLegacyShape(idea)) || !idea.concept_merge?.why_together).map((idea) => idea.id).join(", "));
+  check("Footage-led migration progress", true, `${ideas.filter(hasPlaceShape).length}/${ideas.length} ideas carry the footage-led shape`);
+  check("Every narration beat is anchored to something on screen", ideas.every((idea) => (idea.sequence ?? []).every((beat) => beat.on_screen?.trim() && beat.voice?.trim())),
+    ideas.filter((idea) => (idea.sequence ?? []).some((beat) => !beat.on_screen?.trim() || !beat.voice?.trim())).map((idea) => idea.id).join(", "));
+  check("Narration beats cite only concepts the idea links", ideas.every((idea) => (idea.sequence ?? []).every((beat) => !beat.concept_id
+    || idea.concept_links.some((link) => link.concept_id === beat.concept_id))),
+    ideas.filter((idea) => (idea.sequence ?? []).some((beat) => beat.concept_id && !idea.concept_links.some((link) => link.concept_id === beat.concept_id))).map((idea) => idea.id).join(", "));
+  check("A film works with the sound off and with the sound on", ideas.every((idea) => !hasPlaceShape(idea)
+    || (idea.two_layers.without_the_philosophy.trim() && idea.two_layers.with_the_philosophy.trim())),
+    ideas.filter((idea) => hasPlaceShape(idea) && !(idea.two_layers.without_the_philosophy.trim() && idea.two_layers.with_the_philosophy.trim())).map((idea) => idea.id).join(", "));
+  // One proposed location per idea, carried inside the idea and awaiting Chathura's verdict.
+  const validPointValue = (c) => Number.isFinite(c?.lat) && Number.isFinite(c?.lng)
+    && c.lat >= -90 && c.lat <= 90 && c.lng >= -180 && c.lng <= 180;
+  const suggestedShape = (spot) => spot.name?.trim() && spot.region?.trim() && spot.why_here?.trim()
+    && spot.access?.trim() && spot.best_time?.trim()
+    && validPointValue(spot.coordinates)
+    && Array.isArray(spot.what_to_film) && spot.what_to_film.length
+    && Array.isArray(spot.images) && spot.images.every((image) => image.url?.trim() && image.caption?.trim() && image.source?.trim());
+  check("A proposed location carries coordinates, framing notes and images", ideas.every((idea) => !idea.suggested_location || suggestedShape(idea.suggested_location)),
+    ideas.filter((idea) => idea.suggested_location && !suggestedShape(idea.suggested_location)).map((idea) => idea.id).join(", "));
+  // One verdict covers the idea and the place it proposes: idea.review.
+  check("A proposed location carries no verdict of its own", ideas.every((idea) => !idea.suggested_location?.confirmation),
+    ideas.filter((idea) => idea.suggested_location?.confirmation).map((idea) => idea.id).join(", "));
+  check("Location proposals are Claude's, never recorded as Chathura's own entry", ideas.every((idea) => !idea.suggested_location
+    || idea.suggested_location.proposed_by === "claude"),
+  ideas.filter((idea) => idea.suggested_location && idea.suggested_location.proposed_by !== "claude").map((idea) => idea.id).join(", "));
+  check("Proposed-location progress", true, `${ideas.filter((idea) => idea.suggested_location).length}/${ideas.length} ideas carry a proposed location`);
   const recommendations = new Set(["keep", "merge", "hold", "drop"]);
   check("Every idea carries a selection decision", ideas.every((idea) => recommendations.has(idea.selection?.recommendation)
     && (idea.selection.merged_with ?? []).every((id) => ideaIds.has(id))
@@ -152,6 +187,12 @@ if (fs.existsSync(development)) {
   const reviewStatuses = new Set(["confirmed", "pending", "rejected"]);
   check("Every idea carries a Chathura review status", ideas.every((idea) => reviewStatuses.has(idea.review?.status)),
     ideas.filter((idea) => !reviewStatuses.has(idea.review?.status)).map((idea) => idea.id).join(", "));
+  // A group makes a fixed number of films, so it can only ever confirm that many ideas.
+  const overQuota = groups.filter((group) => ideas.filter((idea) => idea.group_id === group.id
+    && idea.review?.status === "confirmed").length > group.draft_film_count);
+  check("No group confirms more ideas than it has films", overQuota.length === 0,
+    overQuota.map((group) => `${group.id}: ${ideas.filter((idea) => idea.group_id === group.id && idea.review?.status === "confirmed").length}/${group.draft_film_count}`).join(", "));
+  check("Confirmed-idea quota use", true, groups.map((group) => `${group.id} ${ideas.filter((idea) => idea.group_id === group.id && idea.review?.status === "confirmed").length}/${group.draft_film_count}`).join(", "));
   check("Recorded idea verdicts say when and by whom", ideas.every((idea) => idea.review?.status === "pending"
     || (idea.review?.decided_at && idea.review?.decided_by)),
   ideas.filter((idea) => idea.review?.status !== "pending" && !(idea.review?.decided_at && idea.review?.decided_by)).map((idea) => idea.id).join(", "));
@@ -167,19 +208,12 @@ if (fs.existsSync(development)) {
     && c.lat >= -90 && c.lat <= 90 && c.lng >= -180 && c.lng <= 180;
   check("Location coordinates are valid or absent", places.every((place) => !place.coordinates || validPoint(place.coordinates)),
     places.filter((place) => place.coordinates && !validPoint(place.coordinates)).map((place) => place.id).join(", "));
-  // A location exists only because an idea uses it, and an idea holds at most one.
-  const usedLocationIds = ideas.map((idea) => idea.location?.location_id).filter(Boolean);
-  check("Every location is used by at least one idea", places.every((place) => usedLocationIds.includes(place.id)),
-    places.filter((place) => !usedLocationIds.includes(place.id)).map((place) => place.id).join(", "));
-  check("Each idea holds at most one location", ideas.every((idea) => typeof idea.location?.location_id === "string"
-    || idea.location?.location_id === null || idea.location?.location_id === undefined),
-  ideas.filter((idea) => Array.isArray(idea.location?.location_id)).map((idea) => idea.id).join(", "));
-  check("Idea locations point at saved location records", ideas.every((idea) => !idea.location?.location_id
-    || placeIds.has(idea.location.location_id)),
-  ideas.filter((idea) => idea.location?.location_id && !placeIds.has(idea.location.location_id)).map((idea) => idea.id).join(", "));
-  check("Idea locations are attributed to Chathura", ideas.every((idea) => !idea.location?.location_id
-    || (idea.location.set_by === "chathura" && idea.location.decision_id)),
-  ideas.filter((idea) => idea.location?.location_id && !(idea.location.set_by === "chathura" && idea.location.decision_id)).map((idea) => idea.id).join(", "));
+  // Locations are no longer added as separate records: an idea proposes its own, and Chathura
+  // confirms or rejects it in place. Any surviving LOC record is kept valid but is not required.
+  check("A migrated idea has dropped the retired location-selection block", ideas.every((idea) => !idea.suggested_location
+    || (!idea.location && !idea.location_suggestions)),
+  ideas.filter((idea) => idea.suggested_location && (idea.location || idea.location_suggestions)).map((idea) => idea.id).join(", "));
+  check("Retired location-block migration progress", true, `${ideas.filter((idea) => idea.location || idea.location_suggestions).length}/${ideas.length} ideas still hold the old block`);
 
   const episodes = readJson("episodes").sort((a, b) => a.chronology.global_position - b.chronology.global_position);
   const decisions = readJson("decisions");

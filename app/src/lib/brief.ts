@@ -120,7 +120,7 @@ async function buildBrief(ideaIds: string[]): Promise<IdeaBrief | null> {
   const idea = ideas[0];
   const group = dev.groups.find((entry) => entry.id === idea.group_id) ?? null;
   const object = group ? dev.objects.get(group.object_id) ?? null : null;
-  const place = idea.location.location_id ? dev.places.get(idea.location.location_id) ?? null : null;
+  const place = null; // An idea carries its own proposed place; LOC records are retired.
   const ordered = orderedIdeas(dev);
   const index = ordered.findIndex((entry) => entry.id === idea.id);
   const neighbour = (offset: number) => {
@@ -285,12 +285,24 @@ Sources: ${lesson.sources.map((source) => `${source.concept_id} (${source.citati
 
 **Human question:** ${sourceIdea.human_question}
 
-**The situation**
+${sourceIdea.place ? `**The place**
+- What kind of place: ${sourceIdea.place.what_kind_of_place}
+- Why it is worth watching: ${sourceIdea.place.why_it_is_worth_watching}
+- What moves or changes: ${sourceIdea.place.what_moves_or_changes}
+- When it looks best: ${sourceIdea.place.when_it_looks_best}
+` : sourceIdea.situation ? `**The situation**
 - What happens: ${sourceIdea.situation.what_happens}
 - Who is involved: ${sourceIdea.situation.who_is_involved}
 - What is at stake: ${sourceIdea.situation.what_is_at_stake}
 - How it unfolds: ${sourceIdea.situation.how_it_unfolds}
-
+` : "_This idea has not been written yet._\n"}${sourceIdea.two_layers ? `
+**Two layers**
+- With the sound off: ${sourceIdea.two_layers.without_the_philosophy}
+- With the philosophy: ${sourceIdea.two_layers.with_the_philosophy}
+` : ""}${sourceIdea.sequence?.length ? `
+**Sequence**
+${sourceIdea.sequence.map((beat, beatIndex) => `${beatIndex + 1}. *On screen:* ${beat.on_screen}\n   *Voice:* "${beat.voice}"${beat.concept_id ? ` [${beat.concept_id}]` : ""}`).join("\n")}
+` : ""}
 **Why these concepts merge:** ${sourceIdea.concept_merge.why_together}
 **What the merge reveals:** ${sourceIdea.concept_merge.what_it_reveals}
 
@@ -320,14 +332,26 @@ _Ideas carry no scene or shot decisions. Those are chosen later._`;
 ${ideaBlocks.join("\n\n")}`);
 
   if (!ep) {
-    const place = brief.place;
-    out.push(`## 4. Location (Chathura selects)
-**Chosen location:** ${place
-      ? `${place.name}${place.region ? `, ${place.region}` : ""} (${place.id}, chosen by Chathura${idea.location.set_at ? ` on ${idea.location.set_at}` : ""}${idea.location.decision_id ? `, decision ${idea.location.decision_id}` : ""}). Coordinates: ${place.coordinates ? formatCoordinates(place.coordinates) : "not entered"}.${place.note ? ` Location note: ${place.note}` : ""}`
-      : "none yet. Chathura has not chosen a place for this idea."}
-${idea.location.note ? `**Note on this choice:** ${idea.location.note}` : ""}
+    const spot = idea.suggested_location;
+    out.push(`## 4. Location (proposed with the idea; Chathura confirms)
+**Proposed location:** ${spot
+      ? `${spot.name}${spot.region ? `, ${spot.region}` : ""}. Coordinates: ${formatCoordinates(spot.coordinates)}.${spot.elevation_m ? ` Elevation: ${spot.elevation_m} m.` : ""}`
+      : "none yet. This idea has not been rewritten, so no place has been proposed."}
+${spot ? `**Verdict:** the idea's own review status (${idea.review.status}) covers this place; there is no separate location verdict.
 
-An idea holds exactly one location, entered by hand on its own page, and the place exists only while an idea points at it. Choosing a place verifies nothing: access, participants, permissions and the documentary facts are all still unresearched. Do not select or change a location, and do not infer one from the text above.`);
+**Why here:** ${spot.why_here}
+
+**What to film:**
+${spot.what_to_film.map((item) => `- ${item}`).join("\n")}
+
+**Access:** ${spot.access}
+**Best time:** ${spot.best_time}${spot.also_known_as?.length ? `
+**Also known as:** ${spot.also_known_as.map((entry) => `${entry.name} (${entry.meaning}; ${entry.used_by})`).join("; ")}` : ""}${spot.research_note ? `
+
+**Research note:** ${spot.research_note}` : ""}${spot.sources?.length ? `
+**Sources:** ${spot.sources.join(", ")}` : ""}` : ""}
+
+The place is proposed by Claude from desk research and is confirmed or rejected together with the idea. Access, participants, permissions and the documentary facts are all still unresearched.`);
   }
 
   const location = ep?.episode.location;

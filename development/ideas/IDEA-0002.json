@@ -2,80 +2,197 @@
   "schema_version": 1,
   "id": "IDEA-0002",
   "record_type": "idea",
-  "title": "Thread",
+  "title": "Nothing But Thread",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Thread"
+  ],
   "group_id": "GRP-01",
-  "logline": "A weaver turns thread into cloth, and at some point during the work the thread stops being thread and starts being a thing with a name and a price.",
-  "human_question": "At what moment does a pile of thread become 'a cloth', and where does 'the cloth' go when it is taken apart?",
-  "situation": {
-    "what_happens": "One piece of cloth is made from beginning to end, on a loom that sets the pace of a household's day. It starts as spools with a cost, becomes warp and weft, and slowly becomes a thing people describe by its pattern rather than by its material. At some point in that process everybody, including the weaver, starts calling it by a name. Elsewhere in the same household, old cloth is going the other way: unpicked, cut down, reused as something else, until there is only thread again.",
-    "who_is_involved": "A weaver whose income depends on finishing; whoever else in the household prepares thread, dyes or sells; and the buyer who ordered the piece and has an opinion about what it should look like.",
-    "what_is_at_stake": "A commission, a price and a deadline, in a trade where the margin is thin and the work is slow. For the weaver, whether this kind of work can still support a household at all.",
-    "how_it_unfolds": "It begins with an order and a quantity of thread, and proceeds at the loom's speed, which cannot be hurried. The pressures are the cost of yarn, the buyer's expectations, eyesight, hands and the hours a body can work. It ends when the piece is finished and handed over, or when it is not, or when the buyer rejects it. Reality decides."
+  "logline": "A shallow brackish lagoon spends the best part of a year taking coconut husks to pieces, and then, in one afternoon on the lane beside it, two people walking slowly backwards put the pieces back together into something long enough to have a name and a price.",
+  "human_question": "If the rope is only fibre, and the fibre is only what the water did not take away, at what point did the thing in my hands start being a rope?",
+  "place": {
+    "what_kind_of_place": "A shallow brackish coastal lagoon lying a couple of kilometres inland behind a low ridge, fed by small streams and joined to the sea by a single narrow outlet that silts up for part of the year. Its shallows are fenced into rectangular pens of driven stakes, and inside each pen, weighted down out of sight, several months' worth of coconut husk is rotting on purpose. Mangrove fringes the edges, a handful of small wooded islands sit in the middle, and on the landward side the lanes, yards and house gardens are where the husk, once it is lifted, is beaten, washed, dried, graded and twisted. Nothing here is built for looking at. It is a working water and the working stops at the waterline only because the next part of the job is easier on land.",
+    "why_it_is_worth_watching": "Three things carry the film with the sound off. From the air the lagoon is a flat tea-coloured plane ruled into dark rectangles by lines of stakes, a deliberate-looking grid laid across water and mangrove, which turns out to be made of sticks and string. Then a colour change nobody has to be told about: the husk comes up black, sodden and rank, and a few days later the same material is spread across a yard as a pale gold sheet light enough to lift on the wind. And then the lane, at the end of the day, where two figures walk slowly backwards away from a wheel and pull a line out of a loose heap, and the line grows across the frame while the heap goes down.",
+    "what_moves_or_changes": "Two clocks run at once and neither of them belongs to the crew. The lagoon's clock is months long: husk goes under, nothing visible happens for most of a year, and when a pen is opened most of what went into it is simply not there any more. The yard's clock is minutes long: a beating, a shaking out, a twist, a coil. The film's one piece of luck is that the two clocks are within sight of each other, so the taking apart and the putting together can be held in the same place on the same day.",
+    "when_it_looks_best": "The dry months, when the yards are working and fibre can be spread and left out. The lagoon is flattest and emptiest in the first hour of light, and the rope lane throws its longest shadows in the last hour before dusk, which is also when the spinning is usually done. Opening a pen is not a daily event; it happens when the owner decides it is ready, and the film has to wait for it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about where an ordinary object comes from, told entirely in landscape and hands. Water, mangrove, a grid of stakes; a black dripping mass hauled out of the shallows into a boat; beating, washing, the colour turning; a field of gold fibre with someone walking through it; a rope growing down a lane at sunset; coils stacked against a wall and one of them thrown into a boat. It runs from one material to another and finishes on a finished thing, and a viewer who never hears a word gets a complete piece with a beginning, a change and an end.",
+    "with_the_philosophy": "The same footage becomes the sources' own test, running in both directions inside one place. The voice never asks anyone to imagine anything, because the water has already performed the division, taking the husk apart until only fibre is left, and the lane performs the assembly, gathering fibre until a different word becomes true. Nothing is called unreal at any point. The rope holds a boat, and the film shows it holding one. The only question the voice asks is where, in all of that, the rope was."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, drone, high and straight down: the whole lagoon flat and the colour of strong tea, ruled into dark rectangles by lines of driven stakes, mangrove along the edges, a few wooded islands sitting in the middle of the grid.",
+      "voice": "Under each of those squares there is about a year of somebody's work, sunk and weighted and out of sight. Nobody is doing anything to it. The water is doing something to it, very slowly, and what the water is doing is taking it apart.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Low over one pen. Two people standing waist deep, lifting black sodden husk out by hand and heaping it into a boat; the water clouding around them.",
+      "voice": "The oldest test in these books is this one. Divide the thing and see what is left. If what seemed to be there disappears when you divide it, then it was a concept and not a reality. The example the texts pick is cloth. Pull cloth apart and you have thread. There is no cloth in there besides the thread.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Ground level in the yard. A husk split open on a stone; beating; the rotted pith coming away in wet clods; a rinse in a tub; the fibre appearing dark and heavy under the water.",
+      "voice": "Here the water has already done the dividing for us. What went in was husk. What comes out is fibre and a great deal of rot. Nobody removed a thing called husk. Enough of it went away that the word stopped fitting.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Midday. The fibre spread across an open yard in a huge pale sheet to dry, someone walking through it turning it over with a rake, the colour lifting towards gold; a scale, and two piles being kept apart.",
+      "voice": "A heap is not a loose word in these texts. It means exactly this. A great many things of one kind, gathered. Long and short, coarse and fine, this morning's and last month's, the whole lot under one word, and the word is doing real work, because somebody is about to be paid by it.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "The lane in the last hour of light. Two people walking slowly backwards away from a hand-cranked wheel, fibre feeding out of a bundle at the hip, the twisted line lengthening between them, shadows running the length of the lane.",
+      "voice": "And now it runs the other way. Watch for the moment the word changes. At this end of the lane they are handling fibre. By that end of the lane they are handling rope. Nothing was added. The same material was arranged, and a different name became true of it.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Close on the finished line being coiled; then wide, on the sand, a rope taking the whole weight of a hull being dragged up the beach, the fibres visibly straining.",
+      "voice": "None of this makes the rope a trick. It holds. It is graded, sold, paid for, and it drags a boat up a beach. The texts are careful here. They are not calling the everyday thing false. They are saying where it lives. The rope is exactly as real as an arrangement of fibre can be, which turns out to be real enough for everything anyone asks of it.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Dusk. A frayed, sun-bleached old rope hanging on a post, half of it back to loose fibre; behind it the lagoon and the stake pens going dark.",
+      "voice": "The reason the books run this test is not to spoil the rope. It is practice for a harder case. Gather a whole back into its parts, they say, and the grip of 'mine' loosens a little. This evening it was only a rope. It is supposed to be easy.",
+      "concept_id": "C077"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C084 supplies the sources' own example, exactly: divide a thing, and if what seemed present disappears, as cloth disappears into thread, then it was a concept and not an ultimate [C084-M:L7]. C077 supplies the direction the method is eventually pointed in, the same taking-apart applied to a person in order to loosen 'I' and 'mine' [C077-M:L24]. A loom is the one place where the example can be watched running forwards and backwards in the same room.",
-    "what_it_reveals": "That the division test has a moment in it. Something becomes a named whole at a particular point in a week's work, and the weaver can usually say when, which makes the concept a thing with a history rather than a category."
+    "why_together": "Read fresh, the two digests barely overlap: one supplies the test and the other supplies the reason for running it. C084 carries the machinery. Paññatti is both what is made known and what makes it known [C084-P:L25]; among the meaning-concepts the sources list the collective whole, and the Margaya explains that a collective concept is felt on the basis of substances gathered and joined together [C084-P:L27–L41; C084-M:L11–L19]; and the Margaya then gives the test in these exact terms, that a thing should be divided, and that whatever disappears under division, as a cloth disappears into a heap of thread, is a concept and not an ultimate [C084-M:L7]. C077 supplies the word 'heap' and the purpose. The compendium is precise that khandha here means only heap or collection, and it explicitly sets aside the sense in which the word is merely a label [C077-P:L36–L42]; the Margaya says plainly that the whole five-way division exists to make it easier to take apart the perception of a self [C077-M:L24]. Put in one place where the water performs the division over most of a year and a lane performs the assembly in an afternoon, the machinery and the purpose produce a film in which the sources' own example is watched instead of explained, on material nobody is attached to.",
+    "what_it_reveals": "That the test has a direction and a moment, and that both of them can be filmed. C084 on its own would make this a clever demonstration about a rope. C077 on its own would make it a lesson about the self with no object in front of it. Together they show the same operation run forwards and backwards on material that costs money, and they show why the books rehearse it on something so ordinary: the taking-apart is taught as a practice aimed at 'I' and 'mine' [C077-M:L24], and a length of coir is the safest place in the world to practise it. The pairing also closes off the cheap ending, because fibre is not the bottom of anything; it is simply the next word down."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "The Margaya's own division test, given in these very terms: cloth pulled apart is thread, so cloth is a concept and thread the more basic reality [C084-M:L7], and the finished piece is a collective concept named for an arrangement. The digest's limit applies: conventional wholes are valid in their own domain, and the point is not that the cloth is unreal."
+      "why": "The Margaya states the division test in the terms this place happens to enact: divide a thing, and whatever disappears under division was a concept, cloth resolving into thread being the source's own example [C084-M:L7]. The Pradeepika supplies the category the finished object falls into, the collective concept, and the Margaya adds that a collective concept is felt on the basis of substances gathered and joined [C084-P:L27–L41; C084-M:L11–L19], which is what a rope is and what a graded lot of fibre is. The definition of paññatti as both the thing made known and the means of making it known [C084-P:L25] is what beat five is pointing at when the word changes half way down a lane. The digest's limits are load-bearing and are written into the film: the sources keep sound, colour and feeling fully real and treat conventional wholes as valid in their own domain, so the film must never say that the rope is unreal or that the trade rests on a mistake, and the existent and non-existent pairs are technical categories rather than a scheme of true and false names."
     },
     {
       "concept_id": "C077",
       "role": "supporting",
-      "why": "The compendium's method of gathering a whole into its parts is taught for a purpose, to loosen the sense of 'I' and 'mine' [C077-M:L24; C077-P:L996–L1010], and this idea is the mildest possible rehearsal of it, performed on a piece of cloth rather than on anybody."
+      "why": "The compendium is exact that khandha here carries only the sense of heap or collection, a gathering of many things of one kind, and it sets aside the reading in which the word is a mere label [C077-P:L36–L42]. That is precisely what a graded lot of fibre is, which lets the film use the word 'heap' with no metaphor in it. The Margaya then gives the reason the division is taught at all, to make it easier to take apart the perception of a self [C077-M:L24], and that single sentence is the whole of what the last beat claims. The digest's guards stop it going further. 'The self is an illusion' as a slogan is ruled out, and so is reading the analysis as a denial of responsibility. The sources' inferior and superior ladder belongs to a cosmology of rebirth and a pre-modern social order, so it must not be borrowed to narrate how a buyer grades a lot of fibre; the grading is filmed as a trade and as nothing else."
     }
   ],
-  "what_the_viewer_could_understand": "That a whole can appear from parts and vanish back into them, and that the name belongs to the arrangement rather than to the material, which is as true of a cloth as of anything else people give names to.",
-  "what_must_be_real": "The weaver's real work, real orders and real economics. No piece is started, finished or unpicked for the camera.",
-  "position_hint": "middle; its substance now sits inside IDEA-0005, where the same test is carried by a repair a family's income depends on.",
+  "what_the_viewer_could_understand": "That a whole thing can be dismantled by a lagoon over ten months and reassembled by two people walking backwards in an afternoon, and that the name belongs to the arrangement rather than to the material, without any of that making the rope less able to drag a boat up a beach.",
+  "what_must_be_real": "Real retting pens with real husk in them, opened when their owner would have opened them anyway. Real grading, real weights and real prices. Nobody spins a length of rope, lifts a pen or spreads a yard of fibre because a camera has arrived, and nobody enters the water or carries a load differently for a shot. If a pen is opened and the yield is poor, or the price is bad, that is what the film records. Consent from everyone whose hands, face, yard or lane appears, in the language they use, and no one is asked to explain their own work as an example of anything.",
+  "position_hint": "early middle: the plainest demonstration in the series, a whole taken apart and put back together on material that costs money and carries no feeling, before the same test is pointed anywhere it could sting. No location reasoning is involved.",
   "risks": [
-    "A craft showcase with no stake for the person doing the work.",
-    "Economic hardship filmed as texture.",
-    "Being a visual copy of a textbook example rather than a portrait of a trade."
+    "Using the workers as illustrations of a doctrine; the digest's own seed for this material warns that the film has to be worth making for the trade and the livelihood alone.",
+    "A heritage or dying-trade framing, in which badly paid work is filmed as picturesque continuity.",
+    "Overreaching into 'nothing is real' or 'language constructs reality'; the sources keep the ultimates fully real and the conventional whole valid in its own domain.",
+    "Treating the sources' existent and non-existent pairs as 'true' and 'false' names; they are technical categories.",
+    "Borrowing the sources' inferior and superior ladder to narrate commercial grading; the digest places that ladder inside a cosmology of rebirth and rules out flattening it into a comment about worth.",
+    "Letting the closing beat drift into 'the self is an illusion', which the digest blocks; the beat claims only that the exercise loosens 'I' and 'mine'.",
+    "Retting water is foul and the work in it is hard; filming that as texture while the people standing in it disappear from the film.",
+    "Depending on one unrepeatable event. A pen is opened on its owner's schedule, not the crew's, and missing it costs the middle of the film."
   ],
   "drop_if": [
-    "No weaver with a real commission during the window.",
-    "The only way to see a piece completed is to commission one for the film."
+    "Retting at this water has been replaced by mill processing elsewhere, so no pen is opened by hand during the window.",
+    "Access to the pens or the yards cannot be had without arranging work that would not otherwise have happened.",
+    "The rope lane has gone, and the only way to film spinning is to ask somebody to set it up for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0005",
-      "relation": "merged into",
-      "note": "Its division test and its question about the moment of naming now carry the boat film's doctrinal spine."
+      "relation": "pairs with",
+      "note": "Two films in which water separates one material out of everything around it, and a name attaches to whatever is left."
+    },
+    {
+      "idea_id": "IDEA-0011",
+      "relation": "pairs with",
+      "note": "A heap that is given a new name at every bund it crosses, and a heap that is given its name half way down a lane."
+    },
+    {
+      "idea_id": "IDEA-0001",
+      "relation": "mirrors",
+      "note": "One thing carrying four names at once, and one thing acquiring its first name part way through an afternoon."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0005",
-    "reason": "Its cloth-and-thread test is the exact repair IDEA-0005 needed, so its substance was folded there rather than run as a second film about parts and wholes."
+    "superseded_by": null,
+    "reason": "It is the only place in the series where the sources' own division test can be filmed running in both directions within sight of itself."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. The old weaver-and-commission situation is gone and the film is now carried by one working lagoon and the lane beside it: a place where the water takes husk apart over most of a year and two people put the fibre back together in an afternoon. New title, new place / two_layers / sequence, and both concept links rewritten against the digests read fresh. C084 now rests on the division test and the collective concept rather than on a generic naming point, and C077 is narrowed to two things the digest actually says, that khandha means a heap and that the division is taught to loosen 'I' and 'mine'. The digest's guards against 'nothing is real', against reading the existent and non-existent pairs as true and false, and against borrowing the inferior and superior ladder are written into the link and the risks. Location proposed and researched at desk level; every place name is kept inside suggested_location.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Ratgama Lake",
+    "also_known_as": [
+      {
+        "name": "Rathgama Lake",
+        "meaning": "the same lagoon in the commoner English spelling",
+        "used_by": "maps, signage and most local usage"
+      },
+      {
+        "name": "the Blue Lagoon",
+        "meaning": "a tourism name for the same water",
+        "used_by": "guesthouses and kayaking operators on the coast road"
+      }
+    ],
+    "region": "Galle District, Southern Province; about two kilometres inland of the coast between Hikkaduwa and Galle",
+    "coordinates": {
+      "lat": 6.11,
+      "lng": 80.135
+    },
+    "why_here": "It is one of the small number of lagoons on this coast where coconut husk is still retted in staked enclosures in the shallows rather than processed mechanically inland, and the villages along its landward edge do the beating, drying, spinning and rope making. That gives the film the whole of the sources' test in one place: months of division performed by brackish water on one side of a lane, and an afternoon of assembly performed by hand on the other. The lagoon is also the right shape for the camera. It is shallow, flat, mangrove-fringed and cut into rectangles by stake pens, so from the air it reads as a designed grid, which is exactly the point being made on the ground. Nothing about it is a monument and nobody goes there to look at it, which suits a film whose argument is that the ordinary case is the clearest one.",
+    "what_to_film": [
+      "The stake pens from directly overhead at first light, as flat graphic rectangles on still water, before any boat has disturbed the surface. This is the opening frame and it only exists in the first hour.",
+      "A pen being opened and the sunken husk lifted, on whatever day its owner decides it is ready; the weights, the mud, the smell that cannot be filmed and has to be carried by the faces.",
+      "The beating and washing at close range, so that the pith visibly leaves and the fibre visibly remains, without a cut that could be read as a sleight of hand.",
+      "A drying yard in full sun from low overhead: the sheet of pale fibre, the rake, one person crossing it.",
+      "The grading: weights, the separated piles, the conversation about price, filmed as commerce and not as ritual.",
+      "The rope lane in the last hour of light, from above and along, long enough in one take that the line is seen to grow. This is the payoff shot and everything else is built to reach it.",
+      "A finished coil under load: a rope dragging a hull, or taking the weight of a net, so the closing argument is visible rather than asserted.",
+      "The mangrove edges, the small wooded islands and the outlet, for the establishing and closing wides."
+    ],
+    "access": "Reached from the coast road between Hikkaduwa and Galle, with village lanes running down to the water on the landward side. The lagoon is shallow, on average about two metres, and is worked from small boats and by wading. There is no ticketed entrance and no facility; access to any particular pen or yard is a matter of asking the people who own them.",
+    "best_time": "The drier months, when fibre can be left out to dry and the yards are working; the south-west monsoon makes the drying stage impossible and the lanes unusable. First light for the overhead lagoon frames, late afternoon for the rope lane. Pens are opened on their owners' schedule and the trip has to be planned around one.",
+    "images": [
+      {
+        "caption": "The lagoon itself: shallow, mangrove-fringed brackish water worked from small craft, which is the film's opening and closing register.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rathgamalake.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Rathgamalake.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Coconut husk sunk and buried in water to ret, which is the division the film's first half is about. Photographed at another Sri Lankan retting site, not at this lagoon.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%AE%86%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%BF%E0%AE%B2%E0%AF%8D_%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%88%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%AE%E0%AF%8D_%E0%AE%89%E0%AE%B0%E0%AE%BF_%E0%AE%AE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%88%E0%AE%95%E0%AE%B3%E0%AF%8D_-_1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:%E0%AE%86%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%BF%E0%AE%B2%E0%AF%8D_%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%88%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%AE%E0%AF%8D_%E0%AE%89%E0%AE%B0%E0%AE%BF_%E0%AE%AE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%88%E0%AE%95%E0%AE%B3%E0%AF%8D_-_1.jpg",
+        "licence_note": "Wikimedia Commons, from a documentation project on Sri Lankan trades and crafts; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Coir rope being made by hand with long-established equipment: the assembly end of the film. Photographed elsewhere in Sri Lanka, not at this lagoon.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_worker_with_coconut_rope.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Traditional_worker_with_coconut_rope.jpg",
+        "licence_note": "Wikimedia Commons; the file page carries a personality-rights warning, so check licence, attribution and consent before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ratgama_Lake",
+      "https://fos.cmb.ac.lk/mbl/coir-fibre-production-using-microorganisms/",
+      "https://files01.core.ac.uk/download/pdf/52173696.pdf"
+    ],
+    "research_note": "Coordinates, depth, mangrove cover, islands, adjoining villages and the behaviour of the lagoon mouth are from the encyclopedia entry; the account of retting in staked enclosures at this and the neighbouring lagoon, and of this stretch of coast as a white-fibre area, is from the two coir sources. All of it is desk research. Whether pens are still worked by hand at this particular water, who owns them, whether any rope lane is still running, and drone and access permissions, are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No participant, owner, yard or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether husk is still retted by hand in staked pens at this lagoon, as against being trucked to a mill, has not been checked on the ground.",
+    "Whether any rope lane within sight of the water is still in regular commercial use is unverified; the trade has contracted sharply.",
+    "Drone permission over a lagoon with mangrove, small monastic islands and private yards on its edges is unverified and may be refused.",
+    "The encyclopedia entry's stated surface area does not sit consistently with its stated maximum width, so no area figure has been carried into this record."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and its supporting detail is desk research and unverified. No scene or shot is decided here; the sequence is a shape for the film, not a shot list."
 }

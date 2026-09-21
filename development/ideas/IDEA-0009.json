@@ -2,86 +2,189 @@
   "schema_version": 1,
   "id": "IDEA-0009",
   "record_type": "idea",
-  "title": "Clearing the House",
+  "title": "Everything Here Was Something Else",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Clearing the House"
+  ],
   "group_id": "GRP-01",
-  "logline": "A family empties an old house, and every object is somebody's chair or somebody's desk right up until the moment it becomes wood, cloth and a decision.",
-  "human_question": "When the story is taken away from an object, what is left, and where does the story go?",
-  "situation": {
-    "what_happens": "A house that has been in one family for generations has to be emptied, because it is being sold, divided or given up. Over several weeks everything in it is handled, argued over and sorted into what is kept, what is given away and what is left. Almost nothing is described by what it is made of: things are named after the people they belonged to. As the sorting goes on the names get used less, and by the end there are objects in a lorry and an empty house that the family still calls by its own name.",
-    "who_is_involved": "The family members doing the sorting, who do not agree about what matters; whoever is left of the generation the objects are named after; relatives who arrive with claims; and the people who take things away, for whom the objects are only furniture.",
-    "what_is_at_stake": "Money and inheritance, at the plainest level, and under that the question of who gets to decide what a family keeps. For an older member, watching a life's accumulation reduced to categories. For the film, a family's privacy at a moment when people say things they would not say at any other time.",
-    "how_it_unfolds": "It begins with a deadline nobody chose and proceeds room by room, faster as exhaustion arrives and the standards drop. The pressures are time, grief, money and the physical work of moving things. It ends with an empty house and a set of decisions that cannot be revisited. Reality decides how much is kept and how it ends, and whether the family can bear to be filmed doing it at all."
+  "logline": "A road of small brass foundries where broken lamps, cracked bells and worn-out pots are bought by weight, melted into a liquid that has no name at all, and poured back out as lamps and bells again before morning.",
+  "human_question": "When a thing stops being somebody's, what exactly has been taken away, and where did it go?",
+  "place": {
+    "what_kind_of_place": "An old main road running through a valley between two hill temples, with several hundred metres of it given over to one trade. At the front, shopfronts stacked floor to ceiling with finished brass: oil lamps, trays, bells, water vessels, door furniture. Behind them, in yards and tin-roofed sheds, the foundries that made it: charcoal and coke furnaces sunk into the floor, blowers, crucibles handled with long tongs, sand moulds packed in wooden boxes, wax patterns, and a bench of files, lathes and polishing mops. And behind that again, the scrap: the metal comes back in as objects, weighed on a platform scale in a dealer's yard, and goes out as objects.",
+    "why_it_is_worth_watching": "The place is built on one violent change of state, and it happens in the dark. For most of the day this is brown shade, dull yellow metal and the noise of a lathe. Then a crucible comes out of a furnace and for about forty seconds there is a white-orange liquid in the middle of a black shed, lighting everyone's faces from below, poured in a steady thread into a row of sand boxes. Either side of it the film has the quieter pleasures: a hundred lamps catching the first sun on a shelf at the same angle, a platform scale with a heap of broken brass on it, a bell sitting on a pile of hinges.",
+    "what_moves_or_changes": "Metal changes state and changes name, twice, in one working day. Objects arrive with histories and are weighed as a single commodity; they lose their edges in a crucible; the liquid is poured; the sand is broken open on rough shapes; filing, turning and polishing bring back a surface; and by the next morning there are new named objects on a shelf, made of whatever came in. Around that, the ordinary movement of a trade road: deliveries, shutters, bargaining, the seasonal surge before the festival months when lamps sell.",
+    "when_it_looks_best": "The pour needs low ambient light, so early morning before the sun is over the valley side, or dusk, or a night shift; in flat midday light the molten metal reads as nothing. The shopfront work wants first sun, low and along the shelves. Dry months are better for the sand and for working with the shed open."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night in a metal village. Dark sheds, a heap of broken things on a scale, a furnace opened, a liquid poured, sand boxes broken apart on rough grey shapes, files and mops, and by morning a shelf of finished lamps standing in daylight. It has a shape of its own, dull to incandescent to dull, and it pays off in the pour and again in the shelf. Someone who hears none of the narration gets a complete piece about a working trade.",
+    "with_the_philosophy": "The same footage runs the sources' own test, and the voice does not argue, it counts. Here are eleven objects, each with a name and a history. Here is one crucible. Here is a liquid that nobody in the trade has a word for. Here are four objects. The weight has not changed. What has gone is the arrangement, which is where the name was living all along; and by tomorrow the arrangement is back, on a different set of things, and nobody has been fooled at any point."
+  },
+  "sequence": [
+    {
+      "on_screen": "First sun along a road of shopfronts. Shutters going up; a hundred lamps, trays and bells on shelves all catching the light at the same angle. Drone lifts to show the road as a ribbon of workshops between two temple hills.",
+      "voice": "Every one of these was made in a shed within a few hundred metres of where it is standing. They have names. Lamp. Tray. Bell. Water pot. Hold on to the names, because before this day is out you are going to watch a few of them stop being true without anything being broken.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "A dealer's yard. A heap of old brass tipped out on a platform scale: a bent lamp, a tap, a fistful of hinges, a pot worn through at the base, a bell with a split in it. The needle swings and settles.",
+      "voice": "On this scale none of it has a name any more. There is one word here and the word is the metal. A lamp that stood in a house for forty years and a tap off a bathroom wall are the same item now, and the difference between them costs exactly nothing.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Close on the cracked bell in the heap. Someone picks it up, flicks it with a fingernail out of habit; it still rings, dully. He puts it back.",
+      "voice": "The books make a distinction right here that is easy to walk past. That sound is real. It is a physical event, it travels through the air, it arrives and it stops. The name is not; the name lives in whoever is listening. In an hour there will still be sound in this yard, and there will not be a bell.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "The furnace. The crucible packed and lowered in, the blower on. Through the glare the pieces soften, lose their edges and run together into one moving surface.",
+      "voice": "Divide a thing, the books say, and if what seemed to be there disappears, it was never a separate item to begin with. Cloth divided is thread, and there is no cloth besides the thread. What is happening in that pot is the same test, run with heat instead of with a knife.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "The pour. A dark shed; the crucible lifted out on long tongs, white-orange, the only light in the building; a steady thread of metal running into a row of sand boxes, faces lit from below, sparks going up.",
+      "voice": "Look at it now. Nobody in this trade has a word for what is in those tongs. It is not a lamp and it is not a bell and it is not scrap. It is the whole of the metal with none of the arrangements on it, and it is the most beautiful thing this road produces, and it lasts about forty seconds.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Morning. Sand boxes broken open on rough grey castings; sprues cut; filing, turning on a lathe, the polishing mop taking a surface up to a mirror.",
+      "voice": "And it goes straight back on. By tonight this is a lamp; by next month it is in somebody's house; in thirty years it is my mother's lamp, and that will be the truest thing anybody says about it. The books are not against one word of that. They say the Buddha taught in ordinary names on purpose, being, person, tree, mountain, river, so that people could follow him.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "The finished lamp set on a shelf among a hundred others in the same first light as the opening. Behind it, through the shop, the yard: a cold furnace, an empty crucible on its side, a swept floor.",
+      "voice": "Nothing was destroyed last night and nothing was shown to be false. Something that had a name was taken apart, and the metal never went anywhere at all. That is the whole claim, and it is smaller and stranger than it sounds. What is really here is not less than what we called it. It is only arranged, and it will be arranged again tonight.",
+      "concept_id": "C001"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C084 supplies the exact observation: a name can hang a real quality or a real history on a conventional whole, and the wholes here are objects named after people rather than after their materials [C084-P:L25; C084-P:L27–L41]. C001 supplies the second movement: the sources' own example of dividing a named whole until only pieces are left, with the name attached to an arrangement and not to an extra hidden thing [C001-M:L46; C001-M:L52–L56]. Together they give the least abstract version of the group's question, because the thing being taken apart is a household.",
-    "what_it_reveals": "That the name on an object is usually not about the object. Dismantle the arrangement and the wood is still wood, but the name was never in the wood, and the people sorting know this perfectly well while it is happening to them."
+    "why_together": "C084 supplies the test and the sharpest observation in the film. The sources define paññatti as both what is made known and what makes it known [C084-P:L25] and list the collective whole among the meaning-concepts [C084-P:L27–L41]; the Margaya gives the dividing test in its own words, that whatever disappears when you divide it is a concept, as cloth disappears into thread [C084-M:L7], and separates the spoken sound, which is ultimately real, from the name it conveys, which is not [C084-M:L21]. A foundry runs that test twice a day with heat, and it happens to make bells, so the sound and the name can be filmed coming apart. C001 supplies the second movement and the brake: the Margaya's own example is a table that is only an arrangement of wood, where putting the parts together makes a table and laying them out leaves nothing to call one [C001-M:L46; C001-M:L52–L56], and the Pradeepika insists that everyday naming was deliberate, chosen so that people could understand easily [C001-P:L51]. Together they give the group's question in its least abstract form, without a single household having to be filmed losing anything.",
+    "what_it_reveals": "That the un-naming has a middle. Most treatments of this idea go straight from the whole to the parts, and the parts are still things with names: legs, boards, thread. A crucible produces a state in between, where the material is entirely present, entirely valuable, and has no name in the trade at all, and it does it in the most photogenic forty seconds the location offers. It also reveals what the name was actually doing: it was carrying a person. The lamp was my mother's, the bell was the temple's, and the scale in beat 2 takes all of that off in one movement without touching the metal. C084 alone would make this a film about language; C001 alone would make it a film about parts and wholes. Together, over a trade that puts the arrangement straight back on again by morning, the film can say what is gone without ever suggesting that anything was lost."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "Names attached to conventional wholes, in the case where what the name records is a person rather than a material [C084-P:L25; C084-P:L27–L41]. The digest's caution that these categories are not a scheme of true and false is the whole ethical basis for filming this: nothing in the sources licenses telling a family that what they are holding is only wood."
+      "why": "The Margaya's dividing test is this location's daily process: whatever disappears under division was a concept, as cloth disappears into thread [C084-M:L7], and a lamp disappears into brass in a crucible. The sources' list of meaning-concepts puts the collective whole first [C084-P:L27–L41], and the definition of paññatti as both the thing made known and the means of making it known [C084-P:L25] is what the film can watch being taken off and put back on. The sixfold analysis of name-concepts matters here too [C084-P:L49–L71; C084-M:L23–L35], because the objects on the scale were named after the people who owned them, a real history carried by a name whose basis does not survive division; the digest's warning that these categories are technical rather than a scheme of true and false is written into the risks, and nothing in the film tells anyone that what they are holding is only metal. The separation of the ultimately real sound from the name it conveys [C084-M:L21] is beat 3, and it is the only place a film can show that distinction rather than assert it."
     },
     {
       "concept_id": "C001",
       "role": "supporting",
-      "why": "The Margaya's dividing test, in the form the digest's own story seed gives for exactly this situation: a named whole taken apart into its pieces, with nothing destroyed and no whole remaining [C001-M:L46; C001-M:L52–L56]. The digest attaches the guard that goes with it, that a family's loss must never be framed as a lesson that the house never really existed."
+      "why": "The Margaya's table is the same object as this film's lamp: an arrangement of material that is a table while the parts are together and is nothing to call a table when they are laid out, with nothing destroyed in between [C001-M:L46; C001-M:L52–L56]. The Pradeepika then supplies the permission the film needs in its last two beats, since everyday naming was chosen deliberately so that people could understand easily [C001-P:L51], which is why the new lamp becoming somebody's is not a relapse. The digest's guards are the reason this idea no longer follows a family emptying a house: it says plainly that a loss must never be framed as a lesson that the thing never really existed, and that the Margaya's flat wording is the easiest in the whole corpus to flatten into 'nothing is real', when the sources hold that the ultimate realities do not change from their own nature into another [C001-P:L53]. A foundry lets the film make the point on metal that is about to be a lamp again, which is the version that costs nobody anything."
     }
   ],
-  "what_the_viewer_could_understand": "That the names we give things are mostly names for the people and the arrangements behind them, and that when the arrangement goes the name goes with it, while what the thing was made of stays exactly what it was.",
-  "what_must_be_real": "A real family's decisions, feelings and timeline, with consent that can be withdrawn at any stage and afterwards. No object is handled, found or discussed for the camera, and no disagreement is provoked.",
-  "position_hint": "flexible; its substance now sits inside IDEA-0010, where a named whole is also assembled and then sorted back into materials, with far less exposure for the people involved.",
+  "what_the_viewer_could_understand": "That the name on a thing is a name for an arrangement, and usually for the people the arrangement passed through, and that when the arrangement goes the name goes with it while the material stays exactly what it was. The proof needs no belief and no argument: it is a heap of named objects, a scale, a crucible with no word for what is in it, and a shelf of named objects again by morning, all weighing the same.",
+  "what_must_be_real": "A working foundry's own metal, own orders and own timetable. No pour is staged, delayed or repeated for the camera, no scrap is arranged, added to or dressed for a shot, and no object is bought, broken or put into a crucible because the film wants it there. Nothing religious is melted on camera: no image, no object given for worship and no temple bell goes into a crucible in this film, whatever the trade's own practice is, and if a dealer's heap contains such a thing it is not filmed going in. The caste history of the trade is not used as colour and is not raised unless the people working there raise it. Heat, fumes, burns, hours and pay are part of what is recorded, and if there is child labour in a yard the film does not film that yard.",
+  "position_hint": "middle: it is the group's most physical demonstration and it wants to sit after at least one film has established that a name and a thing are separable, so that the crucible reads as a test rather than as a trick. No location reasoning is involved.",
   "risks": [
-    "Grief and privacy, in a situation where people are least able to judge what they want filmed.",
-    "Inheritance disputes recorded and then published.",
-    "Framing a loss as a demonstration that the named thing was never really there.",
-    "The oldest person in the house becoming an illustration rather than a participant."
+    "Becoming a craft showcase, in which the skill is the subject and the un-naming is a caption; the C084 digest's own story seeds flag exactly this failure for the weaving version of the idea.",
+    "Melting anything devotional on camera, or framing a religious object as raw material; the digest forbids telling anyone that the name they use is wrong, and this is the sharpest form that could take.",
+    "Overreaching into 'nothing is real' or 'labels are bad'; the sources keep the metal, the sound and the finished lamp fully real, and the Pradeepika calls everyday naming a deliberate method.",
+    "Reading the pour as destruction or as loss. Nothing is destroyed, the weight is unchanged, and beat 7 exists to refuse that reading.",
+    "Treating the sources' existent and non-existent pairs as 'true' and 'false' names.",
+    "Romanticising a hot, hazardous, low-margin trade, or turning a 'dying craft' frame over people who are simply working.",
+    "Safety and consent around furnaces, tongs, molten metal and children in a family yard; a crew that gets in the way of a pour is a danger, not an inconvenience.",
+    "Caste. The trade carries a caste history, and raising it, or being seen to file people under it, is not this film's business."
   ],
   "drop_if": [
-    "The family's privacy cannot be protected.",
-    "The clearance is contested, so filming would become evidence in a dispute."
+    "No foundry will allow filming of a pour on its own schedule, so the middle of the film can only be obtained by arranging it.",
+    "The metal turns out to arrive only as new ingot, so nothing arrives with a name and a history and the second beat does not exist.",
+    "Filming cannot be done without slowing or altering the work, or without putting a crew inside the working area of a furnace."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0010",
-      "relation": "merged into",
-      "note": "Its strand of objects named after people, and the feeling at the moment of un-naming, now sit in the closing film."
+      "idea_id": "IDEA-0008",
+      "relation": "pairs with",
+      "note": "A name with nothing under it but the position of the sun, and a name with nothing under it but the arrangement of some metal."
     },
     {
-      "idea_id": "IDEA-0011",
+      "idea_id": "IDEA-0010",
       "relation": "mirrors",
-      "note": "Un-naming at the end of a household; naming at the start of a life."
+      "note": "A name taken off a thing without changing the thing, and a name put on a thing without changing the thing."
+    },
+    {
+      "idea_id": "IDEA-0001",
+      "relation": "pairs with",
+      "note": "Several names alive on one thing at once, and one thing passing through a state that has no name at all."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0010",
-    "reason": "Its observation about objects named after people, and about what the dismantling feels like, strengthens the closing film at a fraction of the exposure to a grieving family."
+    "superseded_by": null,
+    "reason": "Under the footage-led model it stands alone: a place and a process that run the sources' dividing test twice a day, with no family's grief required."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten from the ground up. The family emptying an old house is gone entirely, and with it the exposure the old version required. The film is now one road of brass foundries where old objects are bought by weight, melted and recast: the same un-naming, carried by a visible physical process rather than by people's grief. New title, place, two-layer test, seven-beat sequence and a proposed location. Both concept links re-tested against the digests and rewritten; C084 now carries the Margaya's sound-and-name distinction, which the location can actually film, and C001 now carries the table example plus the digest's guard against framing loss as proof that the thing never existed. Selection changed from merge-into-IDEA-0010 to keep.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Pilimathalawa brass workshops",
+    "also_known_as": [
+      "Kalapuraya craft village, Pilimathalawa"
+    ],
+    "region": "Kandy District, Central Province, on the old Colombo–Kandy road",
+    "coordinates": {
+      "lat": 7.2672,
+      "lng": 80.5667
+    },
+    "why_here": "It is a whole trade concentrated into a few hundred metres of one road, which gives the film a single location containing the entire loop: dealers' scrap, furnaces, moulds, finishing benches and shopfronts full of the finished objects, all within sight of each other. The trade's product is lamps, trays and bells, which means the film can show a sound being real and a name not being real on the same object, and can stand a named object next to the liquid it is about to become. It is also a place where the work is done in small family yards rather than inside a closed plant, so a pour can be filmed in the dark at close range if the people there agree, and the valley and the two hill temples above the road give the drone something to open and close on.",
+    "what_to_film": [
+      "The road from the air at first light, as a ribbon of workshops in a valley, so the whole trade is established as one place.",
+      "Shopfronts opening and a hundred finished objects taking the first sun at the same angle.",
+      "A dealer's scrap heap tipped onto a platform scale, close enough to read individual objects in it, and the needle settling.",
+      "One recognisable object in the heap followed all the way through: on the scale, into the crucible, out as liquid, into the sand, and onto the bench.",
+      "A cracked bell struck once in the scrap yard, recorded properly, as the sound half of beat 3.",
+      "The furnace opened and the charge losing its edges, shot long so the moment of collapse is not cut around.",
+      "The pour, in low ambient light, wide enough to hold the shed and close enough to hold the thread of metal; this is the payoff and everything else is arranged around getting it safely.",
+      "Sand boxes broken open, sprues cut, filing, turning and the polishing mop bringing a surface back.",
+      "The finished object on a shelf in the same light as the opening, with the cold furnace visible behind it."
+    ],
+    "access": "On the A1 road between the capital and the hill capital, about ten to twelve kilometres short of the hill city, with workshops and shops fronting the road and yards behind them; ordinary public road access, but every yard is private and family-run, so filming inside one is a matter of the family's consent, not a permit. Two well-known fourteenth-century temples stand on the slopes immediately above the road and are a separate permission if they appear.",
+    "best_time": "Any dry month. Within the day, the pour needs low light, so before the sun clears the valley side, at dusk, or on a night shift; the shopfronts want first sun. Production rises before the festival months when oil lamps sell, which is also when a foundry is least able to stop for a camera.",
+    "images": [
+      {
+        "caption": "The trade road through the town, with the shopfronts the film opens and closes on.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/202312_Street_view_of_Pilimathalawa,_Kandy_01.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:202312_Street_view_of_Pilimathalawa,_Kandy_01.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same road, showing how tightly the workshops and shops are packed along it.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/202312_Street_view_of_Pilimathalawa,_Kandy_02.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:202312_Street_view_of_Pilimathalawa,_Kandy_02.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Street level in the town, for the ground texture the film sits in between the pours.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/202312_Street_view_of_Pilimathalawa,_Kandy_03.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:202312_Street_view_of_Pilimathalawa,_Kandy_03.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pilimathalawa",
+      "https://www.srilankabusiness.com/light-engineering/the-foundry-industry.html",
+      "https://tourgossips.com/brass-industry-in-sri-lanka/"
+    ],
+    "research_note": "Desk research only. Coordinates, district and the town's association with traditional brassware are from Wikipedia; that the foundry trade is hereditary here and at the adjoining craft village, and that the products are lamps, trays, vases and water vessels, are from the trade and export-board sources above. That the metal arrives as bought scrap and is weighed in, which beats 2 and 3 depend on, is a reasonable assumption about a small brass foundry trade and is NOT confirmed for this road; it is the first thing to check. Furnace type, casting methods, whether pours happen at night, working hours and any drone restriction over the road and the temples above it are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No foundry, family or permission has been found or approached. Everything here is a research direction.",
+    "Whether the metal genuinely comes in as scrap bought by weight, rather than as new ingot, is unverified and the second and third beats depend entirely on it.",
+    "Whether bells are still cast on this road, as against lamps and trays only, has not been checked; beat 3 needs one.",
+    "Whether pours happen at a time of day when they can be filmed in low light, and whether a crew can be safely close, is unknown.",
+    "What the trade itself does with devotional objects that arrive as scrap has not been established, and the film's own rule about them may not match local practice."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is a research suggestion awaiting Chathura's verdict, and its supporting detail is desk research and unverified. No scene or shot is decided here."
 }

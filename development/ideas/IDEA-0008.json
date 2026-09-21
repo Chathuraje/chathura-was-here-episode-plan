@@ -2,86 +2,186 @@
   "schema_version": 1,
   "id": "IDEA-0008",
   "record_type": "idea",
-  "title": "When Morning Begins",
+  "title": "What the Tide Brings and the Sun Takes",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "When Morning Begins"
+  ],
   "group_id": "GRP-01",
-  "logline": "In one small town 'morning' begins at four different hours, because four trades each need it to begin at a different one.",
-  "human_question": "Morning, east, today: are these things in the world, or agreements we make with the sun and the moon?",
-  "situation": {
-    "what_happens": "Several people in one town start their working day at hours that do not match, and each of them calls their own hour morning. The baker's morning is in the middle of the night, because the bread has to be at the door when other people's morning starts. A fisher's morning is set by the tide and the wind rather than by light. A drummer's is fixed by a ritual hour that cannot slip. A farmer's is whatever time the heat has not yet arrived. Through the same single night the light changes slowly and evenly, and four different mornings arrive inside it.",
-    "who_is_involved": "People whose trades define when their day begins: someone working an oven, a boat crew, someone who keeps a ritual hour, someone working a field; and around them the people whose mornings are set by theirs, a family woken by the oven, a market that waits for the catch, children who leave when the light does.",
-    "what_is_at_stake": "For each of them, something that fails if the hour is missed: bread that misses its customers, a boat that misses the wind, a rite that loses its hour, a field worked in heat instead of cool. For the film, the risk of turning working people into a montage of picturesque hours, or of romanticising knowledge that the people using it treat as ordinary competence.",
-    "how_it_unfolds": "It begins around midnight, with someone already at work while the town calls it night, and moves through the sequence of wakings that follow. The pressures are weather, tide, electricity, sleep and a clock measured against a sky. It can end with a sunrise nobody in particular notices, with one of the mornings failing, or with someone's hour changing because their work changed. Reality decides: the weather and the tide most of all."
+  "logline": "Several hundred acres of shallow fields beside a brackish lagoon, filled by the moon and emptied by the sun, where there is no clock anywhere in the landscape and the whole working day is read off the length of a shadow.",
+  "human_question": "Morning, noon, east, the season: are these things out in the world, or agreements we keep with a sun and a moon that never agreed to anything?",
+  "place": {
+    "what_kind_of_place": "A working saltern on the dry coast: a few hundred acres of shallow rectangular pans laid out on the flats between a town and a shallow, brackish lagoon, divided by low earth bunds a metre wide that double as the only paths. Lagoon water is let in at high water through timber sluices and then walked downhill by gravity through a chain of progressively shallower and saltier pans until the last ones crust over solid. A small crew works it with wooden rakes, baskets and barrows; the crust is broken, raked into long ridges and carried into conical heaps that stand along the bunds until the lorries come. There is no shade anywhere in it, no building taller than a tin store shed, and nothing in the whole landscape tall enough to cast a useful shadow except a person.",
+    "why_it_is_worth_watching": "The surfaces do the work. In the storage pans the water is dead still and the sky lies flat on it, so that at either end of the day there are two suns in the frame and no horizon between them. In the middle pans the brine goes pink, then orange, then rust as it thickens. In the last pans the floor is blinding white and the heat comes off it in a visible shake. The bunds make a geometry that only resolves from above, and the only moving verticals in it are people, so the whole place reads as a flat plan with a few tiny figures dragging forty metres of shadow behind them.",
+    "what_moves_or_changes": "Water moving down a chain of pans on a schedule that belongs to the tide and not to the working day; colour moving through the pans as the brine concentrates; the crust thickening until it will take a rake; shadows lengthening and shortening across a white floor; the crew going on and coming off the pans according to the heat; and, over the year, the whole operation switching on and off, because in the wet months the rain puts every gram of it back into solution.",
+    "when_it_looks_best": "In the dry months on that coast, roughly May to September, when the pans are actually in production; outside them there is standing rainwater and nothing to film. The first and last forty minutes of daylight for the mirror and the long shadows, and the middle of the day for the glare, the heat shake and the heaps. One heavy shower can take a crop back and there is nothing to be done about it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A day and a season in a landscape almost nobody has seen: mirrored water with the sky lying in it, brine turning pink and then rust, a blinding white floor, small figures raking, and white cones growing along the bunds until a lorry takes them away. It resolves on its own terms, water in at the top and salt out at the bottom, dark to glare to dark, and it has a beginning, a process and a payoff. Someone who hears none of the narration still gets a complete piece.",
+    "with_the_philosophy": "The same footage becomes a demonstration instead of an argument. The voice never contradicts the picture; it points at what is already there. Two movements run this place: a moon that lifts the water in and a sun that takes it out again. Everything anyone here calls a time or a direction is read off one or the other, and the instrument they read it with is a person's own shadow on a white floor. The viewer is not told that time is a shared agreement. They watch several hundred acres of industry running on nothing but where two objects happen to be in the sky, and producing something you can weigh."
+  },
+  "sequence": [
+    {
+      "on_screen": "Before sunrise. Drone high and level over the whole field. The pans are one continuous sheet of unbroken water with the sky lying flat on it, the bunds thin dark lines across it, and no horizon anywhere in the frame.",
+      "voice": "Nothing here has begun yet. The water came in during the night on a schedule that has nothing to do with the sun. In a few minutes the people who work this place will use the word for morning, and the only difference between now and then will be where one object is in the sky.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "The first hard edge of sun. Ground level, low and along a bund: a worker walks towards camera and his shadow runs out ahead of him across forty metres of still water.",
+      "voice": "The old books keep a short list of the things the mind takes up but cannot lift. A whole made of parts. A shape. A being. A direction. A time. And they are specific about the last two: direction and time arise with the turning of the sun and the moon as their basis. That is not a metaphor here. It is the plant.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "A timber sluice board lifted out of its slot. Lagoon water shoulders through the gap and spreads across the floor of the first pan, pushing a line of foam and twigs ahead of it.",
+      "voice": "This is the moon's half. The water only comes in when the lagoon is high, and the lagoon is high when the moon says so. Nobody standing on this bund is thinking about the moon. They are thinking about whether the board comes out in time.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Drone, straight down, tracking along the chain: pan after pan in sequence, grey, then green, then pink, then rust, then a white floor with a skin of crystal on it.",
+      "voice": "And this is the sun's half. The same water, walked downhill from pan to pan, losing a part of itself to the air at every step. Each pan has a name and every one of the names is about position in a line, not about the water. The water is not being renamed as it goes. We are renaming the place it happens to be standing in.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Mid-morning. Rakes working, shadows now short and hard-edged. A man stops, looks down at the shadow gathered around his own feet, says something, and the crew walks off the pans towards the shed.",
+      "voice": "There is no clock in this landscape and nothing tall enough to make one. When the shadow gets to about there, the work stops, because from there until the middle of the afternoon the floor is too hot to stand on. That is the whole instrument. A person, and the length of the dark patch they are standing in.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Afternoon. The crust broken with a bar, raked into long white ridges, shovelled into baskets, carried on a shoulder and tipped onto a cone that is already taller than the man adding to it.",
+      "voice": "What comes out of here is not a matter of opinion. You can weigh it, you can lose the lot of it in one shower of rain, it will be in somebody's food tonight. The books are careful on this point, and it is the point people usually get wrong about them. They are not saying nothing is there. They are saying that a heap of salt is there, and that ten o'clock is not there in the same way.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "Last light. The rakes are down, the field is empty, and a full storage pan has gone glassy. The drone descends and levels until the frame holds nothing but water and sky: one sun going down, one sun coming up to meet it, and no line at all between them.",
+      "voice": "Now point at east. It is in this frame twice and it is in this frame nowhere. East is not a place out there waiting; it is where a moving thing happens to be, agreed on by everyone who needs to find their way home. The books put direction and time on the same list and give them the same basis, and this field has been running on that basis all day without once being wrong.",
+      "concept_id": "C001"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C084 gives the exact category. The sources list time and direction among the meaning-concepts, and say plainly that these arise with the movement of the sun and the moon as their basis [C084-M:L9; C084-M:L11–L19], with dawn, evening and night given as examples [C084-P:L27–L41]. C001 gives the standing they have: everyday names of this kind were used deliberately, so that people could understand easily [C001-P:L51], which is why nobody in this film is making a mistake. Put together across one night, the concept and the people who live by it are visible at the same time.",
-    "what_it_reveals": "That a word can be indispensable, shared and completely unlocatable at once. C084 alone would make 'morning' sound like an illusion; C001 alone would leave it a harmless figure of speech. Together they show four people organising real work, real money and real risk around something that is not in the world in the way the sun is, and show that this costs them nothing."
+    "why_together": "Read fresh, the two digests do separate jobs and the saltern needs both. C084 supplies the machinery and, unusually, names this film's subject outright: paññatti is both what is made known and what makes it known [C084-P:L25], and among the meaning-concepts the sources list the collective whole, the shape, the being, the direction and the time, giving dawn, evening and night as the instances of the time-concept [C084-P:L27–L41]. The Margaya then says where direction and time get their footing: they are felt on the basis of the turning of the sun and the moon [C084-M:L11–L19]. C001 supplies the standing those words have: the Pradeepika says the Buddha deliberately taught in ordinary names so that listeners could understand easily [C001-P:L51], which is why nobody in this film is making a mistake. Laid over a saltern, the two movements the texts name as the basis turn out to be the two movements the place is built on, and the thing they produce between them is a substance you can weigh.",
+    "what_it_reveals": "That the sources' claim about time is not a claim about language and not a claim about culture. C084 alone could be heard as 'words make the world'; C001 alone would leave 'morning' a harmless figure of speech. Put together on one working field they show something harder and quieter: an entire operation, with wages and a season and a crop that can be destroyed by rain, organised around two positions in the sky, with the reading instrument being a person's own shadow. The pairing also blocks the cheap version of the ending, because the salt is not an illusion; C001 keeps the ultimate realities fully real [C001-P:L53], and what the film takes away is a clock, not a world."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "Time and direction are listed among the meaning-concepts and are said to arise with the movement of the sun and moon as their basis [C084-M:L9; C084-M:L11–L19], with dawn, evening and night named as instances [C084-P:L27–L41]. That is this film's whole subject, observed in the only place it can be observed, in the hours people actually keep. The digest's guard applies directly: this is not 'language constructs reality', and the film must not suggest that anyone's morning is the wrong one."
+      "why": "This is the one concept whose own examples are the film's subject. The sources define paññatti as both the thing made known and the means of making it known [C084-P:L25], list direction and time among the meaning-concepts with dawn, evening and night as the named instances [C084-P:L27–L41], and ground both in the turning of the sun and the moon [C084-M:L11–L19]. A saltern is a machine driven by exactly those two movements, and the hours its crew keeps are read off a shadow rather than a dial, so the basis the texts describe is visible in the picture rather than asserted in the voice. The digest's own limits are load-bearing and the film is built to respect them: nobody's hour is to be presented as the wrong one, this is not 'language constructs reality', and the sources' existent and non-existent pairs are technical categories rather than a scheme of true and false."
     },
     {
       "concept_id": "C001",
       "role": "supporting",
-      "why": "The Pradeepika says everyday names were chosen so people could understand easily [C001-P:L51], and treats conventional speech as a valid mode rather than a fault. The film needs that, because its subject is a convention that four households depend on. The digest also blocks the two slogans this situation invites: 'nothing is real', and the modern reading of the analysis as a claim about culture or social construction, which it explicitly says changes the meaning."
+      "why": "The Pradeepika treats teaching in everyday names as deliberate and legitimate, chosen so that listeners could understand easily [C001-P:L51], which is the ground on which this film can watch people organise real money and real risk around a word like morning without a trace of condescension. The digest then blocks the three moves the material invites. It warns that the Margaya's flat wording is easy to flatten into 'nothing is real', when in fact the ultimate realities stay fully real and do not change from their own nature into another [C001-P:L53]; it says explicitly that mapping the analysis onto culture or social construction changes its meaning, which is the reading a film about clocks and hours would slide into by default; and it refuses the 'it is only physics' move, since the Pradeepika places the final realities beyond ordinary human knowing [C001-P:L59]. Beat 6 exists to hold all three lines at once."
     }
   ],
-  "what_the_viewer_could_understand": "That 'morning' is not a thing you can point to. It is a shared agreement resting on the movement of the sun, and people use it to organise their lives, which is why the baker, the fisher, the drummer and the farmer can each have a morning that starts at a different hour.",
-  "what_must_be_real": "Real schedules and real routines. Nobody starts early or late for the camera, no hour is restaged, and no one is asked to describe their day in the language of the film's idea.",
-  "position_hint": "middle or early: it follows naturally from a film about many names for one thing, by turning to one name that everybody uses and nobody can locate. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That an hour is not a thing you can point at. It is a shared agreement resting on the movement of the sun, and a direction is a shared agreement resting on the same thing, and both of them are strong enough to run an industry. Nothing has to be believed for this: the instrument is on screen, it is a person's shadow on a white floor, and everyone watching has one.",
+  "what_must_be_real": "Real working hours, a real tide and a real season. No gate is opened, no pan is raked and no heap is built for the camera, no one is asked to start or stop early, and nobody is asked to describe their day in the film's language. Heat, wages and the length of the working day are treated as the conditions of a job rather than as atmosphere, and if the workers' account of their hours contradicts the film's neat version, the film follows them. Weather is recorded as it falls, including a shower that destroys a crop; no salt is moved, wetted or heaped to improve a shot.",
+  "position_hint": "early: it follows naturally from a film about many names for one visible thing, by turning to a single name that everyone uses, that organises a whole working landscape, and that nobody can point at. No location reasoning is involved.",
   "risks": [
-    "A montage of atmospheric hours with no single person to carry the night.",
-    "Romanticising working knowledge as traditional wisdom; the people using it treat it as competence.",
-    "Implying that time is fake or that one trade's morning is more real than another's.",
-    "Turning the idea into a social-construction argument, which the digest says changes the sources' meaning."
+    "Drifting into a landscape reel in which the colours carry the film and the hours are decoration.",
+    "Romanticising hard, hot, low-paid outdoor labour, or letting heat and glare become beauty without the cost being visible.",
+    "Turning the idea into a social-construction argument about time, which the C001 digest says explicitly changes the sources' meaning.",
+    "Overreaching into 'nothing is real'; the sources keep the ultimate realities fully real and the salt in this film is as real as anything in it.",
+    "Presenting the analysis as physics or astronomy, which the C001 digest rules out; the sun and the moon here are the basis of a concept, not the subject of an explanation.",
+    "Implying that any crew's or any trade's hour is the wrong one; the C084 digest forbids telling a participant that the name they use is wrong.",
+    "Treating the sources' existent and non-existent pairs as 'true' and 'false' names.",
+    "The mirror and the long-shadow work are both narrow windows at either end of the day, and a windy afternoon or a single shower can remove the pans, the reflection and the crop at once."
   ],
   "drop_if": [
-    "No person whose night the film can genuinely stay with.",
-    "The different hours turn out to be identical in practice, or exist only in how people talk."
+    "The pans are out of production, flooded with rainwater or abandoned for the year, so there is no process to film.",
+    "Access can only be had on terms that require the work to be staged or rescheduled.",
+    "Drone flight over the field cannot be permitted, since the geometry and the doubled sun exist only from the air."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0004",
-      "relation": "pairs with",
-      "note": "Two names with nothing under them: a stretch of time, and a hole in the ground."
-    },
-    {
       "idea_id": "IDEA-0001",
       "relation": "pairs with",
-      "note": "Many names for one thing, then one name for something nobody can point at."
+      "note": "Many names for one thing that is plainly there, and then one name everybody uses for something nobody can point at."
+    },
+    {
+      "idea_id": "IDEA-0009",
+      "relation": "pairs with",
+      "note": "A concept with nothing under it but the position of the sun, and a concept with nothing under it but the arrangement of some metal."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries its episode, and is the group's cleanest case of a concept the sources name directly."
+    "reason": "It is the group's cleanest case of a concept the sources name outright, and the location supplies the basis they name as well."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. The old four-trades human situation is gone; the film is now one working saltern, with the sun and the moon as the two movements the texts name as the basis of time and direction, and a person's shadow as the only clock in the landscape. New title, place, two-layer test, seven-beat sequence and a proposed location; both concept links re-tested against the digests and rewritten, with the C001 guards against 'nothing is real', social construction and 'it is only physics' written into the link and the risks.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Puttalam salterns (Palaviya salt pans), Puttalam lagoon",
+    "also_known_as": [
+      "Palaviya salterns",
+      "Puttalam saltern"
+    ],
+    "region": "Puttalam District, North Western Province, on the dry north-west coast",
+    "coordinates": {
+      "lat": 8.0205,
+      "lng": 79.8255
+    },
+    "why_here": "It is the only kind of place where the two movements the sources name as the basis of time and direction are the two movements the plant actually runs on. Brine enters from a shallow brackish lagoon on the high tide, which is the moon's, and leaves as crystal by solar evaporation, which is the sun's; the season exists only because this coast has months without rain. It is also flat, treeless and white, which means there is nothing in the landscape tall enough to cast a shadow except a person, so the reading instrument the film needs is a worker on a bund. This belt of salterns is entirely unvisited, is worked by hand and by small machinery rather than by a closed industrial plant, and sits beside an open lagoon with no national park, no sacred site and no port on top of it.",
+    "what_to_film": [
+      "The whole field from directly above at first and last light, when the storage pans are still and the bunds read as a drawn plan.",
+      "The sluice being opened on a high tide and the lagoon water moving into the first pan, filmed at water level and from above in the same session.",
+      "The chain of pans in colour order along its length, grey to green to pink to rust to white, as one continuous move if the geometry allows it.",
+      "Long shadows on a white crystalliser floor at both ends of the day, and the same workers with almost no shadow at all in the middle of it, so the instrument is legible without being pointed at.",
+      "The moment the crew comes off the pans because of the heat, filmed as the ordinary decision it is.",
+      "Breaking, raking, carrying and heaping the crust, including the weight of a full basket and what the salt does to hands and boots.",
+      "The payoff: a full storage pan at last light, from a low altitude, framed so that the sky and its reflection fill the picture with a sun at either end and no horizon between them.",
+      "Rain, if it falls, and what a shower does to a pan that was nearly ready."
+    ],
+    "access": "On the coastal flats immediately south and west of the district town, reached off the main coastal road; the town is on the A3 and the salterns lie between it and the lagoon, with bund paths as the only way into the field itself. Salt production here is operated commercially, so entry to the pans needs the operator's permission and the crew's, and the bunds are narrow, soft in places and unshaded.",
+    "best_time": "The dry season on this coast, roughly May to September, when the pans are in production; the north-east monsoon months put the field out of action. Within the day, the first and last forty minutes of light for the mirror and the long shadows, and around midday for the glare, the heat shake and the heaps.",
+    "images": [
+      {
+        "caption": "Salt pans on the peninsula that closes the same lagoon: the bunds, the shallow pans and the flat geometry the film is built on.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KalpitiyaSalzgarten.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:KalpitiyaSalzgarten.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The shallow brackish lagoon that feeds the pans on the high tide.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PuttalamLagoon01.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:PuttalamLagoon01.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The lagoon shore beside the town, looking across the flats where the salterns lie.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SL_Puttalam_asv2020-01_img4_Lagoon.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:SL_Puttalam_asv2020-01_img4_Lagoon.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Puttalam",
+      "https://en.wikipedia.org/wiki/Puttalam_Lagoon",
+      "https://www.themorning.lk/articles/IoKrcpsAHSZs2lhtx4ND",
+      "https://lankasalt.lk/index.php/about/",
+      "https://www.dailymirror.lk/news-features/Puttalams-salt-industry-threatened-by-adverse-climate-change/131-298447"
+    ],
+    "research_note": "Desk research only. The district town's coordinates (8.0342 N, 79.8353 E) and the lagoon's (8.100 N, 79.767 E) are from Wikipedia; the point given here is an approximate centre of the saltern flats between the two and has not been checked against a survey. That this is a main salt-producing area, that salterns here run to several hundred acres and that production is by solar evaporation of lagoon and sea water are from the trade and news sources above. The high-tide intake through sluices and the chain of reservoir, condenser and crystalliser pans are how solar salterns of this type are described generally and have not been confirmed for this field. Season months, current operating status, ownership, permissions and drone rules are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No operator, crew or permission has been found or approached. Everything here is a research direction.",
+    "Whether this particular field is currently in production, and on what months, has not been checked on the ground.",
+    "Whether the intake is genuinely tidal here, or pumped, needs checking; the moon's half of the film depends on it.",
+    "Whether the crew's working hours are actually set by heat and shadow, rather than by a shift written on a board, has not been verified and would change beat 5.",
+    "Drone permission over commercial salt works and near a coastal town is unverified and may be refused."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is a research suggestion awaiting Chathura's verdict, and its supporting detail is desk research and unverified. No scene or shot is decided here."
 }

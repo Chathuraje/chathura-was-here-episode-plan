@@ -2,26 +2,70 @@
   "schema_version": 1,
   "id": "IDEA-0001",
   "record_type": "idea",
-  "title": "One Mountain, Many Names",
+  "title": "A Shape Made of Nothing",
   "status": "draft",
-  "version": 3,
+  "version": 8,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "chathura",
-  "aliases": [],
+  "aliases": [
+    "One Mountain, Many Names",
+    "Four Names and a Shadow"
+  ],
   "group_id": "GRP-01",
-  "logline": "Pilgrims from several traditions climb through one night to a single summit that each of them calls by a different name, and the names travel up the path doing real work all the way.",
-  "human_question": "When many people call one thing by different names, what are they all looking at?",
-  "situation": {
-    "what_happens": "A high place held sacred by more than one community is climbed through the night by people who do not share a language or a religion. Every one of them has a word for it, and the words differ: the word a person uses carries who taught them to come, what they believe is at the top, and what they will do when they get there. The names are in constant practical use on the way up, in greetings, in chants, in telling a stranger how much further there is to go, and in the signs, tickets and announcements that organise the climb. Somewhere in the middle of the night the words thin out because everyone is simply cold and tired, and near the top they come back, because what people do at the summit differs by tradition. Almost nobody corrects anybody.",
-    "who_is_involved": "Pilgrims of several traditions climbing the same steps: families carrying small children, elderly people who may be making a last climb, first-timers, and people who have come every year for decades. The people who keep the path working through the night: those who sell tea, tend lamps, sweep steps and pick up what is dropped. People for whom the double naming is ordinary work rather than a wonder: someone giving directions, someone announcing a stop, someone writing the place down in a record or on a form. And a traveller climbing with all of them who belongs to none of the groups.",
-    "what_is_at_stake": "For the pilgrims: a vow kept or broken, a body that may not manage the climb, a child carried the whole way, an elder who wants to reach the top once more. For the people who work the path: a night's income that only exists because of the crowd. For the film: the standing risk of ranking faiths, or of appearing to decide which community's word for the place is the correct one, which the sources themselves refuse to do, since they treat everyday naming as a legitimate way of speaking.",
-    "how_it_unfolds": "It starts at dusk with the crowd assembling and the names at full volume, and moves through a long, slow, crowded night in which speech gradually gives way to breathing. The pressures are cold, altitude, queueing, injury and the weather, and they fall hardest on the oldest and the youngest. It can end with a dawn everyone sees, a dawn swallowed by cloud, a summit too crowded to reach, or a climb given up halfway and begun again another year. Reality decides which: the weather, the size of the crowd, and whether the people the film is with actually get to the top."
+  "logline": "One mountain that four traditions climb by four different names, and at sunrise it throws a shadow that has a shape, a name and a size, and is made of nothing at all.",
+  "human_question": "If a thing can have a name, a shape and a size and still be made of nothing, what else that I name every day is like that?",
+  "place": {
+    "what_kind_of_place": "A steep, near-conical peak that stands clear of everything around it and is held sacred by four separate religious traditions at once, each with its own name for it and its own account of the mark at the top. It is reached only on foot, by a stepped path that people climb through the night in order to be standing on the summit before the sun comes up. The summit itself is small, crowded and usually above the cloud line.",
+    "why_it_is_worth_watching": "Three things carry the film with the sound off. A thread of electric lights and lamps running all the way up the flank of a black mountain, which from the air reads as a single line of light climbing into the dark. A floor of cloud lying below the summit at first light, with the higher ridges standing out of it like islands. And then, for a few minutes after sunrise, the peak laying a clean, sharp-edged triangle across that cloud, a shape so regular that it looks manufactured, which narrows, slides away and is gone.",
+    "what_moves_or_changes": "Every change in the film is a change of light or of crowd, and none of it is under the crew's control. The line of lamps fills from dusk and empties after dawn. Cloud closes and opens over the valleys. The shadow arrives, shortens and disappears on the sun's schedule. The crowd goes from loud at the bottom to silent and slow near the top, and loud again at sunrise.",
+    "when_it_looks_best": "In season, when the path is lit and busy; out of season the climb is dark and empty and the line of lamps does not exist at all. A clear pre-dawn is needed for the cloud floor and is essential for the shadow, which lasts only a few minutes and only when the eastern horizon is open."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night-to-dawn mountain film. A line of lights climbing a black ridge, thousands of people going up steps in the cold, cloud filling the valleys below, and one of the rarest sunrise effects in the world arriving and vanishing inside a few minutes. It resolves on its own terms: dusk to dawn, bottom to top, dark to light. Someone who never hears a word of the narration still gets a complete piece with a build, a climb and a payoff.",
+    "with_the_philosophy": "The same footage becomes a demonstration rather than an argument. The voice never contradicts anything on screen; it points at what is already visible, four names for one mountain, signboards in several scripts, a hollow in the rock that four traditions read four ways, and finally a triangle on the cloud that anyone can see, that has a shape and a name and a measurable size, and that is not made of anything. The viewer is shown the difference between a name and a thing instead of being told it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Last light. Drone, high and wide: one peak standing alone above ridges that have already gone dark, the valleys around it turning blue.",
+      "voice": "In the villages below, people are setting out tonight to walk to the top of this mountain. They do not all call it the same thing. Four names are in use for the place they are all walking to, and each one comes with its own reason for going.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Full dark. The drone pulls back until the whole flank is in one frame: an unbroken thread of lights climbing it.",
+      "voice": "A name is not the thing it points at. The texts are exact about this. A name is what makes something known, and the thing made known is a separate item from the name. One mountain is being made known tonight in four ways at once, and none of them is getting in the way of the others.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Ground level, inside the crowd. Painted signboards, printed tickets, a loudspeaker announcement, distances written in more than one script, tea poured at a stall at two in the morning.",
+      "voice": "The sound of a word travels through the air and is real. You can hear it arrive and stop. What it means does not travel with it. That lives in whoever is listening. Everyone on these steps is hearing sounds and supplying meanings, and it is working perfectly.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "The middle of the night. Steps, breath, fog moving through torchlight, people resting against the handrail, a child asleep on a shoulder.",
+      "voice": "None of this is a mistake waiting to be corrected. The texts say the Buddha chose to teach in ordinary words, being, person, tree, mountain, river, so that people could follow him. Everyday names were the deliberate method, not a compromise he settled for.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "First light at the summit. A small crowded platform; the hollow in the rock at the top; several different observances happening within a few metres of each other.",
+      "voice": "Four traditions, one hollow in the rock, four accounts of whose it is. Nobody up here is correcting anybody. Each name carries where a person was taught to come from, and every one of them got its owner to the same place.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Sunrise. The drone turns away from the sun. Across the cloud floor below, the mountain lays down an enormous sharp-edged triangle.",
+      "voice": "And there it is. That triangle has a shape. It has a name. You could measure it. It is not made of anything. It is only where the mountain is standing between the sun and the cloud. You are looking straight at the difference between a name and a thing, and it is the most beautiful sight of the morning.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "The shadow narrows and slides away as the sun climbs. Within minutes the cloud below is plain white. The crowd starts back down the steps.",
+      "voice": "It goes as the sun rises. The mountain is still here, and so are the four names for it. Nothing was revealed by the light and nothing was taken away by it. There were only names, doing their work, all the way up and all the way back down.",
+      "concept_id": "C001"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C084 supplies the machinery. Paññatti covers both what is made known and what makes it known [C084-P:L25], so a name-concept and the thing the mind takes up are two different items, and the Margaya separates them further: the sound of a spoken word is ultimately real, while the name it carries lives in the understanding of whoever hears it [C084-M:L21]. C001 supplies the stakes. The Pradeepika says the Buddha deliberately taught in everyday names, being, person, tree, mountain, river, so that people could understand easily [C001-P:L51], which means the many names on the path are not a confusion to be tidied up. Put into one climb, the two give a film in which several name-concepts, in several languages, all work perfectly well at once.",
-    "what_it_reveals": "That 'which name is right?' is not the question the sources are asking. C084 on its own would make this a film about language; C001 on its own would make it a film about truth and error. Together they show names doing accurate, useful, incompatible work on the same path, and they also close off the easy ending: the quiet at the summit is not ultimate reality finally showing itself, because 'stone', 'wind' and 'light' are wholes with names on them too."
+    "why_together": "Read fresh, the two digests do different jobs. C084 is the machinery: paññatti is both what is made known and what makes it known [C084-P:L25], and the sources sort it into meaning-concepts and name-concepts, listing among the meaning-concepts the collective whole, the shape, the being, the direction and the time [C084-P:L27-L41]. The Margaya then separates the spoken sound, which is ultimately real, from the name it carries, which is not [C084-M:L21]. C001 supplies the permission: the Pradeepika says the Buddha deliberately taught in everyday names, being, person, tree, mountain, river, so that listeners could understand easily [C001-P:L51], which means the four names on this path are not an error to be tidied up. Put on one mountain, the machinery and the permission produce a film in which four name-concepts all work at once, and the mountain itself supplies the demonstration neither concept could stage: a shape-concept, visible to everyone, made of nothing.",
+    "what_it_reveals": "That 'which name is correct?' is not the question the sources are asking. C084 alone would make this a film about language. C001 alone would make it a film about truth and error. Together they turn the shadow into the argument: saṇṭhāna-paññatti, the concept of shape, is one of the meaning-concepts the sources list, and here it is at cinema scale, with edges and a size and a name, made of nothing but interrupted light. The pairing also closes off the cheap ending, because the quiet at the summit is not ultimate reality finally showing itself; stone, wind and light are wholes with names on them too."
   },
   "concept_links": [
     {
@@ -35,21 +79,23 @@
       "why": "The Pradeepika treats conventional teaching in everyday names as deliberate and legitimate, chosen so that listeners could understand easily [C001-P:L51], which is the ground on which this film can hold several religious vocabularies without ranking them. The film must not go further than that. Where the earlier draft had the names falling silent at dawn to leave what is really there, the digest blocks the move twice: it warns against flattening the analysis into 'nothing is real', and the Pradeepika says the final realities are known by omniscient knowledge rather than by ordinary human knowing [C001-P:L59]. Silence on a summit reveals no ultimate; it only leaves fewer words in the air."
     }
   ],
-  "what_the_viewer_could_understand": "That many names can point to one thing, and that each of them is useful to the people who use it. A name is a shared agreement rather than the thing itself, and underneath all the names every climber is meeting the same cold, the same wind and the same light — shared conditions rather than a glimpse of what is ultimately there, since those are names too.",
-  "what_must_be_real": "The pilgrims, their words and their reasons. No staged interfaith moment, no one asked to repeat a name for the camera, and no one asked to say another community's name for the place. No act of worship is interrupted, restarted or lit for filming. If the naming is genuinely disputed between communities, the film records that it is disputed and does not settle it, on screen or in narration.",
+  "what_the_viewer_could_understand": "That a name is a shared agreement rather than the thing it points at, and that plenty of what we name and measure and photograph turns out to be a shape rather than a substance. The proof is on screen and needs no belief: a triangle the size of a valley, made of nothing but a mountain standing in the way of the light.",
+  "what_must_be_real": "The pilgrims, their names for the mountain and their reasons for climbing. No staged interfaith moment, nobody asked to repeat a name for the camera, and nobody asked to say another community's name for the place. No act of worship is interrupted, restarted or lit for filming. The shadow is filmed on whatever morning it actually appears; it is never simulated, composited or graded into existence. If the naming is genuinely disputed between communities, the film records that it is disputed and does not settle it, on screen or in narration.",
   "position_hint": "opening candidate: the simplest possible first step for the whole series, a name and the thing it names coming apart in front of people who are not arguing about it, before anything harder is asked. No location reasoning is involved.",
   "risks": [
-    "Ranking, contrasting or harmonising faiths; the film has no interest in which name is older or more correct.",
+    "Ranking, contrasting or harmonising the four traditions; the film has no interest in which name is older or more correct, and the digest forbids telling anyone their name is wrong.",
     "Drifting into a travel film in which the climb is the subject and the naming is decoration.",
-    "Consent from people met briefly, at night, in a crowd, in languages the crew may not share.",
-    "Implying that dawn, silence or effort strips the world back to what is really there; the digest rules that reading out.",
-    "Treating the sources' existent and non-existent categories as 'true' and 'false' names.",
-    "Filming worship as spectacle, or treating a vow as an interesting custom."
+    "Consent for people filmed briefly, at night, in a crowd, in languages the crew may not share.",
+    "Implying that dawn, silence or altitude strips the world back to what is really there; the C001 digest rules that reading out, and beat 7 exists to refuse it.",
+    "Overreaching into 'nothing is real': the sources keep sound, colour, feeling and mind fully real, and treat conventional wholes as valid in their own domain.",
+    "Treating the sources' existent / non-existent pairs as 'true' and 'false' names; they are technical categories.",
+    "Filming worship as spectacle, or treating a vow as an interesting custom.",
+    "The shadow is a few-minute window on a clear morning and the whole payoff rests on it. There is no second take on the same trip, and a clouded eastern horizon means returning."
   ],
   "drop_if": [
-    "The different names turn out not to be used in practice, only recited for visitors.",
+    "The four names turn out not to be in everyday use, only recited for visitors.",
     "Filming cannot happen without disturbing worship or the safety of a crowded path.",
-    "The contrast of names can only be got by arranging it."
+    "The contrast of names can only be obtained by arranging it."
   ],
   "connections": [
     {
@@ -76,22 +122,87 @@
     "superseded_by": null,
     "reason": "Carries the opening episode, and absorbs IDEA-0003's account of names as instructions people act on."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "confirmed",
     "note": "",
-    "decided_at": "2026-09-20",
+    "decided_at": "2026-09-21",
     "decided_by": "chathura"
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Sri Pada / Adam's Peak",
+    "also_known_as": [
+      {
+        "name": "Sri Pada",
+        "meaning": "the sacred footprint",
+        "used_by": "Buddhist tradition"
+      },
+      {
+        "name": "Samanalakanda",
+        "meaning": "the mountain of butterflies, or of the deity Saman",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "Sivanolipaathamalai",
+        "meaning": "the mountain of Shiva's light",
+        "used_by": "Tamil Hindu tradition"
+      },
+      {
+        "name": "Adam's Peak",
+        "meaning": "the footprint of Adam, or of St Thomas",
+        "used_by": "Muslim and Christian tradition"
+      }
+    ],
+    "region": "Central highlands, on the Ratnapura / Nuwara Eliya district boundary",
+    "coordinates": {
+      "lat": 6.8094,
+      "lng": 80.4997
+    },
+    "elevation_m": 2243,
+    "why_here": "It is the only place that supplies the concept and the spectacle in the same frame. Four living traditions name one mountain and one hollow in its summit rock four different ways, in everyday use rather than in theory, which is C084's meaning-concept and name-concept distinction happening in public. And the peak is one of very few in the world that throws a true triangular shadow at sunrise, which hands the film a shape-concept at valley scale: something with edges, a name and a measurable size, made of nothing but interrupted light. No other candidate gives both.",
+    "what_to_film": [
+      "The four names in ordinary use, not recited for the camera: on signboards, tickets and painted distance markers, in a loudspeaker announcement, in how a stallholder or a fellow climber tells someone how much further there is to go.",
+      "The line of lights up the flank from the air, before moonrise if possible, as one continuous thread rather than as separate lamps.",
+      "The stepped path at three separate heights, so the change in the crowd is visible: loud at the bottom, silent near the top.",
+      "The hollow in the summit rock, filmed respectfully and without adjudicating whose footprint it is; the four readings belong in the voice, not in the framing.",
+      "Several traditions' observances happening side by side in the same few metres at first light.",
+      "The shadow, from a position looking away from the sun, wide enough to hold the whole triangle and the cloud floor it falls on. This is the payoff shot and everything else is built around getting it.",
+      "The shadow's retreat in real time as the sun climbs, then the plain white cloud after it has gone, which is beat 7's ending."
+    ],
+    "access": "On foot only. Several routes; the two main ones are the shorter and steeper climb from the Hatton side and the longer one from the Ratnapura side. The track is thousands of cement and rough stone steps. In season the trails are lit with electric light, which is what makes the night ascent and the line-of-lights shot possible at all.",
+    "best_time": "In season, roughly December to May, when the path is lit and busy. A clear pre-dawn is required. The shadow is reported at its best around April.",
+    "images": [
+      {
+        "caption": "The shadow of the peak at sunrise: the shape the film is built around.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shadow_of_the_peak_when_sun_rising.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Shadow_of_the_peak_when_sun_rising.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The peak's profile, showing the near-conical shape that makes the triangle.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri_Pada.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri_Pada.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The mountain above the reservoir and surrounding highland country, for the approach and wide establishing work.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maskeliya_01.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Maskeliya_01.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adam's_Peak",
+      "https://www.experiencetravelgroup.com/destinations/sri-lanka/experiences/adams-peak-sri-pada"
+    ],
+    "research_note": "Names, elevation, coordinates, season, routes, trail lighting and the shadow phenomenon are from the sources above and are desk research only. Access, permissions, current trail condition and drone rules are unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No participant, access or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether all four names are in genuine everyday use on the path, as against being known about, has not been checked on the ground.",
+    "Drone permissions over a sacred site and a crowded trail are unverified and may be refused."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Chathura's confirmed choice; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

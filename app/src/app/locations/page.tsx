@@ -1,28 +1,35 @@
 import Link from "next/link";
 import LocationMap from "@/components/LocationMap";
-import { getDevelopment, ideasAtLocation, orderedIdeas } from "@/lib/development";
+import { getDevelopment, orderedIdeas } from "@/lib/development";
 import { formatCoordinates, googleMapsUrl, isInSriLanka } from "@/lib/geo";
 
+/**
+ * The map of places the series is actually going to. A place earns a pin only once its idea
+ * is confirmed: an idea proposes its own location, and confirming the idea accepts the place
+ * with it, so an unconfirmed proposal is still a suggestion and does not belong here.
+ */
 export default async function LocationsPage() {
-  const dev = await getDevelopment();
-  const places = [...dev.places.values()].sort((a, b) => a.name.localeCompare(b.name));
-  const ideas = orderedIdeas(dev);
-  const placedIdeas = ideas.filter((idea) => idea.location.location_id);
-  const confirmedWithout = ideas.filter((idea) => idea.review.status === "confirmed" && !idea.location.location_id);
-  const regions = new Set(places.map((place) => place.region.trim()).filter(Boolean));
+  const ideas = orderedIdeas(await getDevelopment());
+  const confirmed = ideas
+    .filter((idea) => idea.review.status === "confirmed" && idea.suggested_location)
+    .sort((a, b) => a.suggested_location!.name.localeCompare(b.suggested_location!.name));
+  const awaitingVerdict = ideas.filter((idea) => idea.review.status !== "confirmed" && idea.suggested_location);
+  const confirmedWithout = ideas.filter((idea) => idea.review.status === "confirmed" && !idea.suggested_location);
+  const regions = new Set(confirmed.map((idea) => idea.suggested_location!.region.trim()).filter(Boolean));
 
-  const withCoordinates = places.filter((place) => place.coordinates);
-  const withoutCoordinates = places.filter((place) => !place.coordinates);
-  const pins = withCoordinates.map((place) => ({
-    id: place.id,
-    name: place.name,
-    region: place.region,
-    note: place.note,
-    lat: place.coordinates!.lat,
-    lng: place.coordinates!.lng,
-    ideas: ideasAtLocation(dev, place.id).map((idea) => ({ id: idea.id, title: idea.title })),
-  }));
-  const outsideSriLanka = withCoordinates.filter((place) => !isInSriLanka(place.coordinates!));
+  const pins = confirmed.map((idea) => {
+    const spot = idea.suggested_location!;
+    return {
+      id: idea.id,
+      name: spot.name,
+      region: spot.region,
+      note: spot.why_here,
+      lat: spot.coordinates.lat,
+      lng: spot.coordinates.lng,
+      ideas: [{ id: idea.id, title: idea.title }],
+    };
+  });
+  const outsideSriLanka = confirmed.filter((idea) => !isInSriLanka(idea.suggested_location!.coordinates));
 
   return (
     <>
@@ -30,25 +37,26 @@ export default async function LocationsPage() {
         <div className="eyebrow">05 / Chathura&apos;s decision</div>
         <h1>Locations</h1>
         <p>
-          Every place the confirmed ideas are set in, on one map. Places are created on the idea that uses them, never
-          here: an idea has one location, and a location exists only while at least one idea still points at it. Location
-          choice belongs to Chathura alone, and a pin verifies nothing about access, permissions or the people there.
+          Every place a confirmed idea is set in, on one map. A place is proposed on the idea it belongs to and comes
+          here only once that idea is confirmed, because confirming an idea accepts its place along with it. A pin
+          verifies nothing about access, permissions or the people there.
         </p>
       </header>
 
       <section className="summary" aria-label="Location summary">
-        <div><strong>{places.length}</strong><span>locations in use</span></div>
-        <div><strong>{withCoordinates.length}/{places.length}</strong><span>with coordinates</span></div>
-        <div><strong>{placedIdeas.length}/{ideas.length}</strong><span>ideas with a location</span></div>
-        <div><strong className={confirmedWithout.length ? "warn" : ""}>{confirmedWithout.length}</strong><span>confirmed ideas still waiting</span></div>
+        <div><strong>{confirmed.length}</strong><span>confirmed locations</span></div>
+        <div><strong>{regions.size}</strong><span>region{regions.size === 1 ? "" : "s"}</span></div>
+        <div><strong>{awaitingVerdict.length}</strong><span>proposed, awaiting a verdict</span></div>
+        <div><strong className={confirmedWithout.length ? "warn" : ""}>{confirmedWithout.length}</strong><span>confirmed ideas with no place</span></div>
       </section>
 
-      {places.length === 0 ? (
+      {confirmed.length === 0 ? (
         <div className="empty-state">
-          <h2>No locations yet</h2>
+          <h2>No confirmed locations yet</h2>
           <p>
-            A location is added from the idea it belongs to. Open an idea, name the place and type its coordinates, and it
-            appears on this map.
+            {awaitingVerdict.length
+              ? `${awaitingVerdict.length} idea${awaitingVerdict.length === 1 ? " proposes a place that is" : "s propose places that are"} still waiting on a verdict. Confirm the idea and its place appears here.`
+              : "A place arrives with the idea that proposes it. Once an idea is confirmed, its location is pinned here."}
           </p>
           <p><Link className="button primary" href="/ideas">Review ideas</Link></p>
         </div>
@@ -58,46 +66,39 @@ export default async function LocationsPage() {
 
       {outsideSriLanka.length > 0 && (
         <p className="notice warn">
-          {outsideSriLanka.map((place) => place.name).join(", ")} {outsideSriLanka.length === 1 ? "sits" : "sit"} outside
-          Sri Lanka. That may be deliberate — check the coordinates on the idea if it is not.
+          {outsideSriLanka.map((idea) => idea.suggested_location!.name).join(", ")}{" "}
+          {outsideSriLanka.length === 1 ? "sits" : "sit"} outside Sri Lanka. That may be deliberate — check the
+          coordinates on the idea if it is not.
         </p>
       )}
 
-      {places.length > 0 && (
+      {confirmed.length > 0 && (
         <section className="concept-section">
           <div className="section-heading">
-            <span>{String(places.length).padStart(2, "0")}</span>
+            <span>{String(confirmed.length).padStart(2, "0")}</span>
             <h2>Places in use</h2>
-            <small>{regions.size} region{regions.size === 1 ? "" : "s"} · {placedIdeas.length} idea link{placedIdeas.length === 1 ? "" : "s"}</small>
+            <small>{regions.size} region{regions.size === 1 ? "" : "s"}</small>
           </div>
-          {withoutCoordinates.length > 0 && (
-            <p className="muted-note">
-              {withoutCoordinates.length} place{withoutCoordinates.length === 1 ? " has" : "s have"} no coordinates yet, so
-              {withoutCoordinates.length === 1 ? " it is" : " they are"} missing from the map. Add them on the idea below.
-            </p>
-          )}
           <div className="table-wrap">
             <table className="location-table">
-              <thead><tr><th>Location</th><th>Coordinates</th><th>Note</th><th>Used by</th></tr></thead>
+              <thead><tr><th>Location</th><th>Coordinates</th><th>Best time</th><th>Idea</th></tr></thead>
               <tbody>
-                {places.map((place) => {
-                  const users = ideasAtLocation(dev, place.id);
+                {confirmed.map((idea) => {
+                  const spot = idea.suggested_location!;
                   return (
-                    <tr key={place.id} id={place.id}>
+                    <tr key={idea.id} id={idea.id}>
                       <td>
-                        <b>{place.name}</b><br />
-                        <small className="muted-note">{place.region || "no region set"} · {place.id}</small>
+                        <b>{spot.name}</b><br />
+                        <small className="muted-note">{spot.region || "no region set"}</small>
                       </td>
                       <td>
-                        {place.coordinates
-                          ? <a href={googleMapsUrl(place.coordinates)} target="_blank" rel="noreferrer">{formatCoordinates(place.coordinates)} ↗</a>
-                          : <span className="warn">not set</span>}
+                        <a href={googleMapsUrl(spot.coordinates)} target="_blank" rel="noreferrer">
+                          {formatCoordinates(spot.coordinates)} ↗
+                        </a>
                       </td>
-                      <td>{place.note || <span className="muted-note">—</span>}</td>
+                      <td>{spot.best_time || <span className="muted-note">—</span>}</td>
                       <td>
-                        {users.length
-                          ? <div className="chip-list">{users.map((idea) => <Link key={idea.id} href={`/ideas/${idea.id}`}>{idea.id}</Link>)}</div>
-                          : <span className="muted-note">unused — it will be removed</span>}
+                        <div className="chip-list"><Link href={`/ideas/${idea.id}`}>{idea.id} {idea.title}</Link></div>
                       </td>
                     </tr>
                   );
@@ -106,16 +107,28 @@ export default async function LocationsPage() {
             </table>
           </div>
           <p className="muted-note">
-            To rename a place, move its pin or drop it, open the idea that uses it. Editing happens there so the place and
-            the idea never drift apart.
+            To change a place, open the idea that proposes it. Editing happens there so the place and the idea never
+            drift apart.
           </p>
+        </section>
+      )}
+
+      {awaitingVerdict.length > 0 && (
+        <section className="concept-section">
+          <div className="section-heading"><span>→</span><h2>Proposed, awaiting a verdict</h2><small>{awaitingVerdict.length} ideas</small></div>
+          <p className="muted-note">These places are suggestions until their idea is confirmed, so they are not on the map.</p>
+          <div className="chip-list">
+            {awaitingVerdict.map((idea) => (
+              <Link key={idea.id} href={`/ideas/${idea.id}`}>{idea.id} {idea.suggested_location!.name}</Link>
+            ))}
+          </div>
         </section>
       )}
 
       {confirmedWithout.length > 0 && (
         <section className="concept-section">
-          <div className="section-heading"><span>→</span><h2>Confirmed ideas without a location</h2><small>{confirmedWithout.length} ideas</small></div>
-          <p className="muted-note">These are the next ones to place.</p>
+          <div className="section-heading"><span>→</span><h2>Confirmed ideas with no place</h2><small>{confirmedWithout.length} ideas</small></div>
+          <p className="muted-note">These have not been rewritten yet, so nothing has been proposed for them.</p>
           <div className="chip-list">
             {confirmedWithout.map((idea) => <Link key={idea.id} href={`/ideas/${idea.id}`}>{idea.id} {idea.title}</Link>)}
           </div>

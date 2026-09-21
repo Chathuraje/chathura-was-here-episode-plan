@@ -2,86 +2,197 @@
   "schema_version": 1,
   "id": "IDEA-0004",
   "record_type": "idea",
-  "title": "The Well",
+  "title": "A Hole Full of Sky",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Well"
+  ],
   "group_id": "GRP-01",
-  "logline": "A well-digger spends weeks making something that is only an empty space, and the household that paid for it names the space and lives off it.",
-  "human_question": "What are we making when what we make is an emptiness?",
-  "situation": {
-    "what_happens": "A household that has no reliable water pays for a well to be dug. Someone decides where, by whatever method is trusted locally, and then a digger and a helper spend weeks removing earth, bucket by bucket, from a shaft that gets deeper, darker and more dangerous as it goes. Nothing is built. The work consists entirely of taking away. At some point during the digging everybody stops calling it a hole and starts calling it the well, and after that the name is used as if it had always been there.",
-    "who_is_involved": "The digger and whoever works the rope above him; the household that has commissioned it and is paying by the foot or by the day; the person who chose the spot, whose judgement is on the line; and neighbours who will use the water if it comes.",
-    "what_is_at_stake": "For the household, a large sum and the whole question of whether they can go on living where they live without carrying water. For the digger, dangerous work paid by depth, in which the risk rises with every foot. For the person who chose the spot, a reputation that survives or does not.",
-    "how_it_unfolds": "It begins with a decision and a mark on the ground, and proceeds downward at a rate that slows as the shaft deepens. The pressures are cost, the season, the digger's safety, collapse, foul air and the simple possibility of nothing. It ends with water, with water that turns out to be brackish or too little, or with a shaft abandoned at a depth nobody can afford to go past. Reality decides, and it decides underground where nobody can see."
+  "logline": "A flat limestone peninsula with no rivers, where everything anybody eats is lifted out of a hole, and the largest hole of all is simply the place where the ground fell into the space it had been standing on.",
+  "human_question": "What exactly are we relying on, when the thing we rely on is a gap?",
+  "place": {
+    "what_kind_of_place": "A low, flat peninsula of soft marine limestone under a thin skin of red soil. No rivers, no hills worth the name, very little that runs off, and all the fresh water held underground in a lens floating on salt water beneath it. So the whole place is worked through holes. Square open wells are cut into the rock in the corner of almost every garden plot, hundreds of them across a few square kilometres, each a few metres across, lined with dressed stone, with a diesel pump or a pole and bucket over it. Scattered among them, where the roof of a dissolved cavern gave way at some point in the past, is one much larger opening in the ground, with steps cut down to standing water that has never been known to dry and that nobody has found the bottom of.",
+    "why_it_is_worth_watching": "It is a landscape with two levels in it and the camera can travel between them, which is unusual in flat country. On top, at low sun, red earth divided into small plots by palmyra-leaf fences, with banana and chilli and onion in tight rectangles, and scattered right through it squares of water lying perfectly flat and taking the colour of the sky, so that the ground appears to be perforated with pieces of sky. Underneath, in the collapse, a room of pale rock with a floor of black water, one shaft of daylight coming in through the broken roof, and steps going down into it. And between the two levels, the thing that joins them: a pump starting, an arc of water going out across dry red ground, and a whole plot changing colour in four minutes.",
+    "what_moves_or_changes": "The year is the only thing moving, and it moves in one direction and then back. Everything drops through the dry season until the pumps are running thin and the lower wells begin to taste of salt and some plots are simply not planted, and then the rains come, the lens refills, and the wells go sweet again. None of that is under the crew's control and the two ends of it are where the footage is. Inside a day, the only moving things are water leaving a pipe and the light crossing the bottom of a well.",
+    "when_it_looks_best": "The end of the dry season, when the wells are lowest and the difference between a plot with water and a plot without it is at its starkest, and again at the first heavy rain, which is the closing frame. For the perforated-ground shot, the first and the last hour of daylight, when the sun is low enough to be caught in the water and high enough to still reach the bottom of a well."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a dry place that grows food anyway. Red soil, palmyra fences, a thousand small plots, a machine that starts and a jet of water that turns a square of ground from grey to dark. Then the camera goes down, out of the heat, into a cool stone room with a lake in it that nobody has found the bottom of, and back up again into all that light. It has a shape of its own, from thirst through effort to rain, and a viewer who never hears a word gets a complete piece.",
+    "with_the_philosophy": "The same footage becomes the exact example the texts chose. Among the things they list as concepts rather than realities is space, and the examples they give are a well and a cave, things named after what is not in them. Here that example is a district's entire economy. The voice points only at what is on screen: the walls are what somebody cut, the water is what fell as rain, and the thing everybody calls the well, the thing that is owned and inherited and deepened and argued over and written on a deed, is the part that was carried away."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light. Drone, straight down over a few square kilometres of red earth cut into small rectangular plots by palmyra-leaf fences, with banana and onion and chilli in rows, and scattered all through it squares of flat water taking the colour of the sky, so that the ground looks perforated.",
+      "voice": "Every one of those bright squares is a hole. There is no river here and almost no rain for half the year. Everything growing in this picture is standing on a rock full of holes and is being fed out of them.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Ground level at one well. Dressed stone, a coping worn into deep grooves by rope, a pump starting, and an arc of water going out across dry soil that turns from grey to dark where it lands.",
+      "voice": "It has a name and an owner and a price. It is inherited, it is deepened, it is fought over, it is drawn on a deed and it decides whether a family stays. And it is a shape that somebody cut out of the rock and carried away in baskets.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "A slow track past a row of wells in neighbouring gardens, each with a different rim, a different rope, a different pump, a different amount of water in it.",
+      "voice": "These books keep a short list of things the mind treats as objects although nothing is present. A whole made of parts. A shape. A direction. An hour. And space, where the examples they choose are a well and a cave: things named after what is missing from them.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Steps cut down through the ground into a chamber of pale rock, a floor of black water, a single shaft of daylight coming through the broken roof; then the drone lifting vertically out of the opening until the whole perforated plain is back in frame.",
+      "voice": "This one nobody dug. The rock underneath was already hollow and one day the roof came down, and what was left is the oldest and deepest thing in the district. Divers have gone fifty metres into it and not reached the end.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Close on the cut face of the limestone: rain-worn flutes, dissolved pockets, fossil shell in the stone, water finding its way down a joint and dripping.",
+      "voice": "And the rock is going too. This is soft stone and the rain takes a little of it apart every year, which is where all the holes came from in the first place. The books describe matter in the same way. Not lumps of substance, but whatever gets struck and altered by opposing conditions, wet against dry, heat against cold. The hole and the wall are both things happening. They are only happening at different speeds.",
+      "concept_id": "C002"
+    },
+    {
+      "on_screen": "End of the dry season. A pump running thin and coughing air; someone tasting water from a cupped hand and tipping it out; a plot left unplanted with the fence still standing around it.",
+      "voice": "The fresh water here is a lens floating on salt. Pull too hard and the salt comes up to meet you, and a well that was worth a living becomes a hole with the wrong thing in it. The name stays exactly where it was. What it does stops.",
+      "concept_id": "C002"
+    },
+    {
+      "on_screen": "First heavy rain. The same overhead frame as the opening: red ground darkening, water standing between the rows, and every square in the picture full and moving.",
+      "voice": "Nothing here was built. A whole district lives off the parts that were taken away, and nobody is confused about it for a moment. A name does not need anything underneath it in order to be worth having. It only needs everyone to agree where it points.",
+      "concept_id": "C084"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C084 names the category outright. Among the meaning-concepts the sources list is the concept of space: a well or a cave, named by an emptiness rather than by anything present [C084-P:L27–L41; C084-M:L9]. C002 supplies what is actually going on around that emptiness: materiality defined as what is altered by opposing conditions such as cold and heat, with the ultimates described as momentary activities or forces rather than lumps of substance [C002-P:L34; C002-P:L40; C002-M:L17]. Put together in one shaft, a household's survival turns out to rest on a name given to a gap among things that will not hold still.",
-    "what_it_reveals": "That a name does not need anything underneath it in order to be indispensable. C084 alone would make the well a clever example; C002 alone would make the film about earth and water. Together they show weeks of hard, paid, dangerous labour whose entire product is an absence, and a household organising its life around that absence without any difficulty at all."
+    "why_together": "C084 names the category outright and hands the film its subject. Among the meaning-concepts the sources list is space, and the examples they print are a well and a cave [C084-P:L27–L41], with the Margaya defining a meaning-concept as what rises in the mind when the word is heard and is not to be found under analysis [C084-M:L9]. C002 supplies what is actually going on around the emptiness. Both its sources define materiality as precisely that which is struck and altered by opposing conditions such as cold and heat [C002-P:L40; C002-M:L17], and both refuse to treat the ultimates as substances: the Pradeepika calls them activities, particular forces rather than things counted as matter [C002-P:L34], and the Margaya is blunter still, saying they are not lumps like stones or clods but forces, and therefore have no length, shortness, roundness or squareness of their own [C002-M:L3]. On a plain of soluble limestone none of that is a metaphor. The rock is being dissolved by rainfall, the holes are the record of the dissolving, and the fresh water everything depends on is a temporary arrangement that salt will take back if it is pushed.",
+    "what_it_reveals": "That a name needs nothing underneath it in order to be indispensable, and that the thing which does have something underneath it is not standing still either. C084 alone would make the well a neat example and the film an illustration. C002 alone would make it a film about rock and water and drought. Together the film holds two kinds of impermanence in the same frame: a named absence doing all the work, and a solid-looking wall quietly going into solution around it. It also fixes the ending, because the rain does not reveal anything. It only refills the gaps."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "The sources list the concept of space among the meaning-concepts and give wells and caves as the example, named by what is not there [C084-P:L27–L41; C084-M:L9]. This film is that example, lived rather than illustrated. The digest's limits hold: the emptiness is not being called unreal, and the film must not tell the household that its name for the well is a mistake."
+      "why": "The Pradeepika lists space among the meaning-concepts and gives a well and a cave as its examples, things named by what is not in them [C084-P:L27–L41], and the Margaya defines a meaning-concept as what rises in the mind on hearing the word and is not found under analysis [C084-M:L9]. This place is that example at the scale of a district's living rather than as a line in a book, and the definition of paññatti as both the thing made known and the means of making it known [C084-P:L25] is what the film is looking at whenever a well is bought, inherited or deepened. The digest's limits are written into the film: the emptiness is not being called unreal, conventional wholes are valid in their own domain, the existent and non-existent pairs are technical categories rather than true and false, and nobody is to be told that the name they use for their own well is a mistake. The closing beat exists to hold that line."
     },
     {
       "concept_id": "C002",
       "role": "supporting",
-      "why": "Both sources define materiality as what is struck and altered by opposing conditions such as cold and heat [C002-P:L40; C002-M:L17], and describe the ultimate realities as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3]. The earlier draft's 'earth, water and heat as real qualities' went past what the sources say: the digest is explicit that the extract only names the four great elements without defining them, and that a film must not gloss them from popular assumptions about soil, water, flame and wind. The link is therefore to the definition of matter by alteration, not to the elements, and the film makes no claim that the soil and water in front of it are the texts' technical elements."
+      "why": "Both sources define materiality as what is struck and altered by opposing conditions such as cold and heat [C002-P:L40; C002-M:L17], and both refuse the picture of the ultimates as substances: activities and particular forces rather than things counted as matter [C002-P:L34], not lumps like stones or clods and therefore without shape of their own [C002-M:L3]. A plain of soluble limestone being taken apart by rainfall is about as close as a camera gets to that. The digest's guards are strict and they hold beat five in place. The extract only names the four great elements and does not define them, so the film must never point at soil, rain or the midday heat and call them earth, water and fire. 'Everything is energy' is ruled out: the forces-not-substances claim is a precise analytic point inside a fourfold scheme. 'Nothing is real' is ruled out too, since the sources explicitly call the ultimates true and existent. And the fourth ultimate stays off screen entirely and is never named in the narration, because everything a camera can show belongs to the made side."
     }
   ],
-  "what_the_viewer_could_understand": "That a well is named for what is not there: an empty space left where earth was taken out. A household gives that emptiness a name, depends on it, and draws water from it.",
-  "what_must_be_real": "An actual well being dug for an actual need, at the household's own pace and cost. Safety practice is filmed exactly as it is, neither improved nor made to look worse, and no descent, depth or risk is undertaken because a camera is present.",
-  "position_hint": "middle: it follows a film in which a whole comes apart into parts, by going one step further to a name with no parts under it at all. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That a name can be attached to nothing whatsoever and still be the most valuable thing a family owns, and that the solid-looking rock the name was cut into is itself on its way somewhere.",
+  "what_must_be_real": "Real wells in real use, filmed at whatever level they happen to be at. No well is deepened, cleaned, filled or pumped for the camera, and no crop is watered outside its own schedule. If the water has gone brackish, that is what the film records, and it records it as a working problem people are dealing with rather than as a ruin to look at. Nobody descends the collapse for a shot, and no observance, offering or ordinary use of the water is interrupted, restarted or lit for filming. Consent from every household whose garden, well or face appears, in the language they use, and nobody is asked to describe their own water as an example of anything.",
+  "position_hint": "middle: it follows a film in which a whole comes apart into its parts, by going one step further, to a name with no parts under it at all. No location reasoning is involved.",
   "risks": [
-    "Worker safety, and the pressure a camera puts on a man being paid by depth.",
-    "Poverty filmed as landscape.",
-    "Glossing soil, water and heat as the texts' four great elements, which the digest rules out.",
-    "Letting the emptiness become a poetic idea while the labour that made it disappears from the film."
+    "Glossing the red soil, the well water and the midday heat as the texts' four great elements. The digest rules this out explicitly, because the extract names those four and does not define them.",
+    "Overreaching into 'everything is energy'. The sources' description of the ultimates as forces rather than substances is a precise claim inside a fourfold scheme, not a statement about vibrations.",
+    "Overreaching into 'nothing is real'. The sources call the ultimates true and existent, and the conventional well is valid in its own domain.",
+    "Naming the fourth ultimate anywhere in the narration. The digest places it beyond what a camera can show and warns that it is easily misparaphrased.",
+    "Treating water scarcity and salinity as atmosphere rather than as a problem people are living inside and arguing about.",
+    "Filming in a part of the country with a long history of being photographed by outsiders during and after a war. A drone over private gardens is not a neutral object there and consent has to be real and local.",
+    "Letting the emptiness turn into a poetic idea while the cost, the labour and the electricity bill of keeping these wells working drop out of the film.",
+    "The whole middle of the film depends on a seasonal low and then a first rain, neither of which can be scheduled, and on being in the right place when the rain arrives."
   ],
   "drop_if": [
-    "No real dig within the window.",
-    "Access to the work would require staging any part of it, or would put anyone at additional risk."
+    "Aerial permission over the area cannot be obtained, since the opening and the closing frame are the film.",
+    "The wells in question have been superseded by a piped supply, so nothing is drawn by hand or by pump any more.",
+    "The collapse cannot be filmed without disturbing the people who use it, or without it being cleared or tidied for the camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0008",
+      "idea_id": "IDEA-0006",
       "relation": "pairs with",
-      "note": "Two names with nothing under them: an hour, and a hole."
+      "note": "A hollow in rock that the sea fills with noise, and a hollow in rock that a district fills its buckets from."
     },
     {
-      "idea_id": "IDEA-0005",
+      "idea_id": "IDEA-0008",
       "relation": "pairs with",
-      "note": "A whole divided into parts, and then a name with no parts at all."
+      "note": "Two names with nothing under them at all: an hour, and a hole."
+    },
+    {
+      "idea_id": "IDEA-0002",
+      "relation": "mirrors",
+      "note": "A whole divided until only its parts are left, and then a name that never had any parts to begin with."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries its episode and is the group's most literal case of a concept the sources name by this exact example."
+    "reason": "It is the group's most literal case: the sources name a well and a cave as their own example of a concept, and here that example is a whole district's water supply."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. The old situation, following a well-digger and the household paying him by the foot, is gone; the film is now carried by one limestone landscape whose water all lives in holes, with a collapsed cavern at its centre and a few square kilometres of garden wells around it. New title, new place / two_layers / sequence, and both concept links rewritten against the digests read fresh. C084 keeps the space-concept but now rests on the printed example and on the Margaya's definition of a meaning-concept, and C002 is narrowed to the two things its digest actually says, that materiality is what is altered by opposing conditions and that the ultimates are forces rather than lumps with shapes. Every guard the C002 digest raises is honoured: no glossing of soil, water and heat as the four great elements, no 'everything is energy', no 'nothing is real', and the fourth ultimate stays out of the narration. Location proposed and researched at desk level; every place name is kept inside suggested_location.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Nilavarai well and the well gardens around it",
+    "also_known_as": [
+      {
+        "name": "Nilavarai bottomless well",
+        "meaning": "the usual English name, from the belief that no bottom has been found",
+        "used_by": "signage, guidebooks and visitors"
+      },
+      {
+        "name": "நிலாவரை",
+        "meaning": "the Tamil form of the name",
+        "used_by": "everyday local usage"
+      }
+    ],
+    "region": "Puttur, Valikamam East division, Jaffna District, Northern Province",
+    "coordinates": {
+      "lat": 9.7544,
+      "lng": 80.0883
+    },
+    "why_here": "The peninsula is a slab of soft marine limestone with no rivers on it, so every drop of fresh water is held underground in a lens floating on salt and every drop that is used is lifted out of a hole. That makes the sources' own example, a well and a cave, into the region's whole agricultural economy rather than a sentence to be illustrated. The site itself supplies both ends of the film in one walk: a collapsed cavern with steps down to water nobody has found the bottom of, and, immediately around it, red-earth garden plots with an open square well in almost every corner. It also supplies C002 without any strain, because the rock making all these holes is being dissolved by rainfall and the fresh water in them turns saline when it is over-pumped. And it is not a monument. It is a hole in a field with a low wall round it, which is exactly the register the film wants.",
+    "what_to_film": [
+      "The garden plots from straight down in the first and last hour, low enough that the wells read as squares of sky in red ground and high enough that there are many of them. This is the opening and the closing frame.",
+      "One well at working distance: the dressed stone, the rope grooves in the coping, the pump starting, the arc of water hitting dry soil and the colour changing across a plot.",
+      "A row of neighbouring wells at the same hour, so that the differences in level, rim, rope and pump are visible without commentary.",
+      "The collapse: the steps, the chamber, the shaft of daylight, the black water, and then a single continuous rise out of the opening into the wide plain. The lift out is the shot the film is built around and it has to be one take.",
+      "The cut limestone at close range: rain-worn flutes, dissolved pockets, fossil shell, water finding a joint.",
+      "The end of the dry season honestly: a pump running thin, water tasted and tipped away, a fenced plot left unplanted.",
+      "The first heavy rain, from the same overhead position as the opening frame, which is the only way the closing beat works.",
+      "Palmyra-leaf fencing, tracks and the general texture of the plots, for the establishing material between the two levels."
+    ],
+    "access": "About fourteen kilometres from the district town by road, in ordinary farming country. The site is open, free and unstaffed, with a low surrounding wall, a flight of steps down to the water and a trilingual sign; there is no visitor infrastructure. The surrounding wells are in private gardens and access to any of them is a matter of asking the household. Aerial work in the north needs permissions beyond the civil aviation rules and should be assumed to be slow.",
+    "best_time": "The late dry season for the lowest water and the starkest contrast between plots, and the break of the rains for the closing frame, which means either two trips or a long stay. First and last hour of daylight for the overhead work; the middle of the day is the only time the sun reaches the water at the bottom of the collapse.",
+    "images": [
+      {
+        "caption": "The collapsed limestone cavern with steps down to standing water: the chamber the film descends into and rises out of.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nilavarai,_Jaffna.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Nilavarai,_Jaffna.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "An open well in the same limestone country during a drought, which is the condition the film's sixth beat needs. Photographed on one of the district's islands, not at the collapse itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Well,puguduthivu,srilanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Well,puguduthivu,srilanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A dug well of the district, for the rim, the stonework and the working scale of the hundreds of wells the film flies over.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaffna_Well.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Jaffna_Well.jpg",
+        "licence_note": "Wikimedia Commons, uploaded from Flickr; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/nilavarai-well/",
+      "https://www.showcaves.com/english/lk/springs/Nilavarai.html",
+      "https://en.wikipedia.org/wiki/Nilavarai"
+    ],
+    "research_note": "Coordinates, the dimensions of the opening, the flight of steps, the depth reached by a navy diving survey, the fresh water lying over saline water and the use of the water for irrigating neighbouring fields are from the sources above. The wider account of the peninsula as low-porosity Miocene limestone in which dissolution opens channels and cavities, and of rainfall forming freshwater lenses over saline groundwater, is from the same desk sources. One of them reports the site as poorly maintained, weedy and with stagnant water, which has to be checked before the descent is planned. Everything here is desk research: the state of the surrounding garden wells, whether they are still pumped, ownership, access and aerial permissions are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No household, owner or permission has been found or confirmed. Everything here is a research direction.",
+    "The condition of the collapse itself is reported as neglected and stagnant in one source and is unverified; if it is choked, the film loses its descent.",
+    "How many of the surrounding garden wells are still worked, as against abandoned for a piped supply, has not been checked on the ground.",
+    "Aerial permissions in the northern districts are a separate matter from ordinary civil aviation rules and are unverified; they may be refused outright.",
+    "Whether the salinity problem shows on camera in the window available, and how households would want it filmed, is unknown."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and its supporting detail is desk research and unverified. No scene or shot is decided here; the sequence is a shape for the film, not a shot list."
 }

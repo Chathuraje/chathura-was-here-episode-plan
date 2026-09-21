@@ -2,87 +2,185 @@
   "schema_version": 1,
   "id": "IDEA-0006",
   "record_type": "idea",
-  "title": "The Taster",
+  "title": "The Hollow That Answers",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Taster"
+  ],
   "group_id": "GRP-01",
-  "logline": "A tea taster reads a whole season through colour, smell, taste and touch in a few seconds, then writes down a grade that will decide what the crop is worth.",
-  "human_question": "How much of what we 'know' about a thing is just what came in through our senses, gathered under a name?",
-  "situation": {
-    "what_happens": "A day of tasting and grading, in which every decision is made by the senses and every decision has a price attached. Rows of cups are prepared identically; the taster looks, smells, takes the liquor in with a loud draw of breath, holds it, spits, pauses, and gives a grade. The whole judgement takes seconds and is made on colour, aroma, body and taste, and nothing else, and it is written down and acted on. Nobody in the room treats this as subjective, and disagreements between tasters are resolved by tasting again rather than by discussion.",
-    "who_is_involved": "The taster, whose palate is the instrument; the factory people whose season is being judged; the pluckers and processors whose work produced the leaf and whose pay is affected by what it fetches; and the buyers at the other end who trust the grade.",
-    "what_is_at_stake": "The value of a season's work, measured in a few seconds of somebody's attention. For the taster, a reputation that rests on being consistent with other tasters and with himself. For the workers, wages that follow from prices that follow from grades.",
-    "how_it_unfolds": "It begins with leaf arriving and ends with a grade and a price; in between, the same sequence is repeated dozens of times a day until it looks automatic. The pressures are fatigue, a palate that dulls, weather that changed the crop, and a market that moves regardless. It can end with a good season confirmed, with a disputed grade, or with a judgement that costs somebody money. Reality decides, in the cups."
+  "logline": "A hole in the top of a sea cliff that is empty and silent most of the time, and then the swell arrives underneath it and it throws a white column twenty-five metres into the air, and nothing that made that column was in the rock or in the sea a second earlier.",
+  "human_question": "When a sound or a sight is known, where was it the moment before?",
+  "place": {
+    "what_kind_of_place": "A low, broken headland of hard rock on a coast that takes the full weight of one monsoon, with a fishing village and a narrow, overcrowded harbour tucked into the shelter behind it. The sea has worked caves back into the base of the rock and then upward, and one of those shafts has broken through to the top of the headland, twenty-odd metres above the water, open to the sky. There is nothing at the top of it. A dark rectangle of hole in bare rock, salt crust, a railing, a worn path across the stone, a couple of vendors and a ticket hut. Everything that matters happens out of sight below and arrives through the hole.",
+    "why_it_is_worth_watching": "It is one of the few natural events on the island that performs on a timetable nobody sets and everybody waits for. The rock is quiet, then there is a thud you feel through your feet, then a column of white water stands up out of solid ground and hangs there, lit from behind, before it collapses into spray that drifts over everyone. From the air the headland, the lines of swell coming in and the plume are one frame. From the ground the hole is unremarkable to look at and impossible to look away from. Behind it, an inlet so tight with moored boats that you can walk across them.",
+    "what_moves_or_changes": "Everything is on the sea's schedule. The interval between spouts is set by the swell and the sets come in groups, so the rhythm is long waits and sudden clusters. The height changes with the tide and the size of the swell, from a few metres of slop to a full column. Wind decides where the spray lands and therefore where people stand. Over a season the crowd changes with the monsoon; over decades the rock itself is being cut back. Nothing here can be arranged, repeated or asked for.",
+    "when_it_looks_best": "The south-west monsoon, roughly May to August, with June and July the strongest; the feature is more or less dead in a flat sea. Within that, a big swell on a rising or high tide. Early morning for low light through the spray and for the boats going out; late afternoon for backlight through the top of the column. The payoff needs the sea to be working, which means the window has to be chosen and then waited out."
   },
+  "two_layers": {
+    "without_the_philosophy": "A monsoon sea film with a single spectacular event at the centre of it. Swell arriving from a long way away, a fishing village working in and around it, a rock that fires water into the sky every few minutes, spray and rainbows and people flinching and laughing at a railing, and then a tide that drops and takes the whole thing away for the day. It resolves on its own: quiet, build, event, aftermath, quiet. Somebody who never hears a word of the narration gets a complete piece.",
+    "with_the_philosophy": "The same footage turns into a demonstration of how anything is known at all. The voice points only at what is already visible: a hole that can only be named by what is not in it, a sea and a shaft that meet and produce something belonging to neither, four different senses each receiving their own separate arrival in the same second, and a name for the whole place that is an imitation of a noise. It never says the sea is unreal or that the experience is in anyone's head, because the sources say the opposite."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn from the air. A dark headland, long grey lines of swell arriving from the south-west, and behind the rock a narrow inlet packed gunwale to gunwale with fishing boats.",
+      "voice": "What people come here to look at is a hole. Not a rock, not a cliff, not a wave. A hole. The old lists have a category for exactly that: things named by what is not there, like a well, or a cave. You cannot point at one. You can only point at what is around it.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Ground level on top of the headland, between sets. A vertical shaft in bare rock. Dry salt crust around the rim, crabs, wind noise. Nothing happens for a long time.",
+      "voice": "Nothing is stored down there. Not the noise, not the water, not the height it is about to reach. The books say the same about an eye and an ear. They do not come from anywhere, they do not go anywhere, and they intend nothing. One of them calls the senses a village with nobody living in it.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "A set arrives. A thud under the rock, the shaft goes white, and a column stands up out of the headland and hangs there, backlit against open sea. The drone holds level with the top of it.",
+      "voice": "A sound happens when a stick meets a drum. It was not waiting inside the drum and it was not waiting inside the stick. This is the same event at a size you can see from a kilometre away. A sea and a hole in the rock meet, and something occurs that belonged to neither of them.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "The column comes down. Spray over the railing and across a vendor's plastic sheet. A child turns her head at the noise before there is anything to look at. Salt drying white on the front of the lens. People wiping their faces.",
+      "voice": "Count what just reached you, and count the arrivals separately. A shape. A roar. A coldness on the arm. Salt on the mouth. Six doors, the sources say, each with its own kind of thing turning up at it, and a knowing happening at each one where they meet. Not one experience. Several, very close together.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "Close on the rim as the shaft drains. Water falling back down the throat of it, a low rumble continuing after the white has gone.",
+      "voice": "The name people call this place by is an imitation of that rumble. Which is the distinction these books are most careful about. The sound itself is a real event in the air, and it is leaving right now. The name it carries is not a thing at all, and it stays.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Down at the inlet. Crews working the same swell that made the column, hauling, watching the mouth of the harbour, waiting for a lull to get out.",
+      "voice": "None of this says the sea is a trick, or that what you saw was in your head. These books keep the swell and the noise and the cold entirely real, and they say something a modern ear does not expect: whether a thing is fine or foul is not left to whoever is looking at it. What they take apart is smaller and stranger than the world. It is the idea that somebody is sitting behind the eyes receiving it.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "Dusk. The tide dropping. The columns get shorter and further apart and then stop. The hole is a dark shape in grey rock. The boats go out past the headland.",
+      "voice": "Tomorrow the swell will be different and so will the hole, because the rock is being cut back a little every year. Nothing is being kept here. Something arrived, something met it, and for a second and a half there was a noise with a name on it.",
+      "concept_id": "C084"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C077 supplies the account of what is actually happening: experience sorted into twelve bases, six doors each paired with its own kind of object, where seeing or tasting arises when a sense meets its object, the way a sound happens when a stick meets a drum or a flame appears when one stick is rubbed against another [C077-M:L47; C077-P:L1337–L1345]. The sources add that the senses neither come from anywhere nor go anywhere and intend nothing, calling the inner senses a village with nobody living in it [C077-P:L1333–L1399]. C084 supplies the last step: the grade is a name-concept, and the sources describe how names stand in different relations to what they designate [C084-P:L47]. Together they cover the whole distance from a leaf to a price.",
-    "what_it_reveals": "That knowing is a meeting rather than a resident. C077 alone would be a classification; C084 alone would make the grade sound arbitrary. Together they show a name being assembled, in public, out of nothing but meetings at four sense doors, and then carrying the entire economic weight of a season. The sources also stop the obvious conclusion, which is what makes the pairing worth filming: the desirability of an object is not left to the beholder."
+    "why_together": "C077's twelve bases give the plain account of what happens when anything is known: a sensitive surface meets its own kind of object and knowing arises, the way a sound arises when a stick meets a drum or a flame appears when one stick is rubbed on another [C077-M:L47; C077-P:L1337–L1345], with each of the six doors paired to its own kind of object [C077-P:L1315]. The same passages insist the bases neither come from anywhere nor go anywhere and intend nothing, calling the inner senses a village with nobody living in it [C077-P:L1333–L1399; C077-P:L1347–L1349]. C084 supplies two things the first concept cannot. It has the category for a thing that is a hole, the space-concept, named by emptiness, like a well or a cave, which it lists among the meaning-concepts [C084-P:L27–L41]; and it separates the spoken sound, which is ultimately real, from the name it conveys, which is not [C084-M:L21], with paññatti defined as both what is made known and the means of making it known [C084-P:L25]. A sea cave that has broken through to daylight, and that people have named after the noise it makes, holds both at once.",
+    "what_it_reveals": "That knowing is a meeting and not a resident, and that this can be watched rather than argued. C077 alone would produce a classification film. C084 alone would make it a film about words. Together they let the location's single best shot do both jobs: a column of white water standing out of solid rock, which is the most beautiful thing the place produces and also the exact statement of the concept, because nothing in that column was in the rock or in the sea a second earlier. The pairing also supplies the film's honesty about its own limits. The sources do not say the sea is unreal, they say the reverse of 'beauty is in the eye of the beholder', and they take apart the observer rather than the observed, which is a much odder and more interesting claim than the one a viewer expects."
   },
   "concept_links": [
     {
       "concept_id": "C077",
       "role": "primary",
-      "why": "The twelve bases give the plain account of what happens when something is known: a sensitive surface meets its own kind of object and knowing arises, as a sound arises when a stick meets a drum [C077-M:L47; C077-P:L1337–L1345], and the bases themselves neither plan nor intend, being described as a village with no one living in it [C077-P:L1333–L1399]. A tasting room is this account running at speed. The digest's sharpest limit belongs here and is easy to get backwards: the sources say the reverse of 'beauty is in the eye of the beholder', holding that whether an object is desirable is settled by the result-consciousness, measured by an average person, and cannot be deceived [C077-P:L193–L201]. The film must also keep the trade's grading ladder away from the sources' own inferior-and-superior aspect, which belongs to a cosmology of rebirth and a premodern social order [C077-P:L203–L207] and cannot be read off a price list."
+      "why": "The twelve bases are the sources' plain answer to how anything is known: a sensitive surface meets its own object and knowing arises, as a sound arises when a stick meets a drum and a flame when one stick is rubbed on another [C077-M:L47; C077-P:L1337–L1345], with six doors each paired to its own kind of object [C077-P:L1315]. The Pradeepika presses the point that the bases neither come nor go and plan nothing, and calls the inner senses a village with nobody living in it [C077-P:L1333–L1399], with the outer objects arriving at it like raiders [C077-P:L1347–L1349]. A blowhole is that account at a scale a drone can hold in one frame. Three of the digest's limits are load-bearing here and are written into beat 6 rather than hidden in the risks. The raider image is not a claim that sights and sounds are unreal; in this system they are real, momentary events. The sources say the reverse of 'beauty is in the eye of the beholder', holding that whether an object is desirable is settled by the result-consciousness, measured by an average person, and cannot be deceived [C077-P:L193–L201]. And the eighteen elements exist precisely to take apart 'you are not your thoughts, you are the observer' [C077-P:L1853], so the film must not leave a watcher standing where it removed a self."
     },
     {
       "concept_id": "C084",
       "role": "supporting",
-      "why": "A grade is a name-concept assigned to what the senses gathered, and the sources set out how names stand to what they designate depending on whether the name and its basis are ultimately existent [C084-P:L47; C084-P:L25]. The digest warns that these pairs are technical categories and not a scheme of true and false, which matters in a room where one word decides a price."
+      "why": "Two separate pieces of this concept are physically present at this location, which is why it is worth keeping rather than replacing. First, the space-concept: the sources list among the meaning-concepts things named by emptiness, a well or a cave [C084-P:L27–L41], and the subject of this film is a hole. Second, the name: the Margaya separates the spoken sound, which is ultimately real, from the name it conveys, which is not [C084-M:L21], and paññatti is both the thing made known and the means of making it known [C084-P:L25]. The place is named after the noise it makes, so the sound and the name it carries are in the same frame. The digest's guards travel with it. The existent and non-existent pairs are technical categories, not a scheme of true and false; conventional wholes remain valid in their own domain; and no participant is told the name they use is wrong."
     }
   ],
-  "what_the_viewer_could_understand": "That everything the taster knows about a tea arrives through the senses: its colour, its smell, its taste, its feel. The grade is a name gathered from those moments, and the texts describe every moment of knowing as a meeting between a sense and what it senses.",
-  "what_must_be_real": "The actual tasting practice, the actual grades given and the actual consequences for the people whose work is being graded. No tasting is repeated for the camera, no grade is announced twice, and nobody is asked to describe their palate in the film's terms. Working conditions on the estate are shown as they are, not as background.",
-  "position_hint": "middle: it turns the group from naming things to the doors through which anything is known at all, which the later films depend on. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That what we call knowing something is an event that happens where two things meet, and that it was not stored in either of them beforehand. The sea did not contain the roar and the rock did not contain the column. They met, and for a second and a half something existed that belonged to neither. Nothing about this requires believing anything.",
+  "what_must_be_real": "The sea, the swell and the event on whatever day it actually happens. The plume is never composited, speed-ramped into being, or cut together from separate spouts to look bigger than it was. The village and its harbour are filmed as they are, including the crowding and the working conditions, or not at all. Nobody is asked to stand at the railing, react, or be startled for the camera, and no vendor or ticket-seller is moved out of frame to make the headland look untouched. If the swell does not come, the film does not pretend it did.",
+  "position_hint": "middle: it turns the group from the names of things to the doors through which anything is known at all, which the later films depend on. No location reasoning is involved.",
   "risks": [
-    "Concluding, or letting a viewer conclude, that taste is subjective; the sources say the opposite.",
-    "Mapping the trade's grades onto the sources' inferior-and-superior ladder, which belongs to a rebirth cosmology.",
-    "Estate labour conditions used as scenery; they must be honest or absent.",
-    "The taster's ritual filmed as connoisseurship, with the people who picked the leaf offscreen.",
-    "Suggesting that the sights, smells and tastes themselves are unreal or a deception."
+    "Letting a viewer conclude that the experience is subjective or in the mind; the sources say the opposite and the film has to carry that without lecturing [C077-P:L193–L201].",
+    "Removing the self and leaving an observer in its place; the eighteen elements are taught to take apart exactly that idea [C077-P:L1853].",
+    "Implying that the sea, the noise or the spray are unreal or a deception; in this system they are real, momentary events, and the raiders image is about clinging, not about illusion [C077-P:L1347–L1349].",
+    "Safety: wet rock above a sea cave, spray on a drone, and a railing that people lean over. Nothing is filmed from a position the crew would not stand in without a camera.",
+    "Filming the site as a ticketed attraction rather than as a piece of coast, or filming the visitors as comic reactions.",
+    "The fishing harbour used as a picturesque backdrop while its crowding and its working conditions stay offscreen.",
+    "The whole payoff rests on a monsoon swell that cannot be booked. A flat week means the film has no third beat and no sixth, and there is no way to make one.",
+    "Telling anyone that the name they use for the place is only a noise; the digest forbids correcting a participant's usage."
   ],
   "drop_if": [
-    "The tasting turns out to happen only in a distant office with no connection to the people who produced the leaf.",
-    "Access is granted on condition that working conditions are not filmed."
+    "The sea is flat through the whole available window and the feature does not perform.",
+    "Access to the rock or the airspace cannot be had without closing the site to the people who use it.",
+    "Filming is only permitted as part of a promotional arrangement that keeps the village and the harbour out of frame."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0007",
       "relation": "pairs with",
-      "note": "Two learned maps of experience: one chanted by children, one held in a practised palate."
+      "note": "One film watches a single door receiving a single arrival; the other lays out the whole map that such arrivals are sorted into."
     },
     {
       "idea_id": "IDEA-0012",
       "relation": "pairs with",
-      "note": "What arrives at a sense door, and what the mind adds to it."
+      "note": "What arrives at a sense door, and what the mind adds to it afterwards."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries its episode and is the only kept idea that observes the sense doors themselves rather than a named whole."
+    "reason": "The only idea in the group that watches the sense doors themselves, and the location's best shot is the concept stated rather than illustrated."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. Dropped the old situation block built around a tea taster's working day, which made a person the subject. New location, a sea blowhole on a monsoon coast, chosen because the sources' own drum-and-stick simile for how knowing arises is physically performed there at a scale a drone can hold. Both concept links re-tested and rewritten: C077 kept as primary with the sense-door account and with three digest limits moved into the sequence itself, C084 kept as supporting on two grounds the location supplies directly, the space-concept for a thing that is a hole and the separation of a real sound from the name it carries, since the place is named after its own noise. New title; old title kept in aliases. Added place, two_layers, a seven-beat sequence and a suggested location with verified images.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Hummanaya blowhole",
+    "also_known_as": [
+      {
+        "name": "Kudawella blowhole",
+        "meaning": "named for the fishing village behind the headland",
+        "used_by": "local and travel usage"
+      }
+    ],
+    "region": "Southern Province, on the coast at Kudawella near Dickwella, between Matara and Tangalle",
+    "coordinates": {
+      "lat": 5.9779,
+      "lng": 80.7369
+    },
+    "elevation_m": 23,
+    "why_here": "It is the only place on the island where the sources' own simile for how knowing arises is staged by the sea itself, several times an hour, at a size worth flying a drone for. A sea cave has broken through the top of the headland, so the shaft is empty, dry and dull to look at between sets, and then a swell arrives underneath it and a column of white water stands out of solid rock. That single shot is both the most beautiful thing the location produces and the clearest statement of the concept, because nothing in that column was in the rock or in the sea a second earlier. The location also hands the film two more things no other candidate does. It is a thing that is a hole, which is the sources' space-concept, named by what is not there. And its name is an imitation of the noise it makes, which puts a real sound and the unreal name it carries in the same frame. Behind the headland there is a working fishing harbour living off the same swell, which keeps the film from becoming a scenic set piece.",
+    "what_to_film": [
+      "The headland from the air at first light with the swell lines running in and the packed inlet behind it, as one frame.",
+      "The shaft at ground level between sets, long enough to be boring: bare rock, salt crust, crabs, wind.",
+      "The spout from a position level with the top of the column, backlit, wide enough to hold the whole plume and the sea behind it. This is the payoff and the schedule is built around it.",
+      "The same spout from directly beside the rim, on a long lens, for the thud and the white filling the frame.",
+      "The arrivals at four separate senses in the same seconds: the shape, the noise reaching people before the water does, spray landing on skin and plastic sheeting, salt drying on faces and glass.",
+      "The shaft draining after a spout, with the rumble continuing after the white has gone.",
+      "The harbour and the crews working the same swell, including the crowding, without turning them into background.",
+      "The tide dropping at dusk until the spouts shorten and stop."
+    ],
+    "access": "By road from Dickwella towards the Kudawella fishing harbour, then a short walk over rock to a railed viewing point; the site is managed as a minor visitor attraction with a small entrance charge and an information hut. The harbour itself is a separate approach and a separate permission. Filming needs the sea state as much as the access, so the trip is planned around a swell forecast rather than a date.",
+    "best_time": "The south-west monsoon, roughly May to August, with June and July strongest; the feature is largely inactive in a calm sea. Within that, a large swell on a rising or high tide. Morning for light through the spray and for the boats; late afternoon for backlight through the column.",
+    "images": [
+      {
+        "caption": "The spout at full height above the headland: the shot the film is built around.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummanaya-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Hummanaya-1.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The headland and the shaft with a crowd at the railing, for the ground-level geography.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummanaya%28Blow%20hole%29%2C%20Kudawella%2C%20Sri%20Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Hummanaya(Blow_hole),_Kudawella,_Sri_Lanka.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The rock and the sea around the shaft, for the approach and the state of the coast.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudawella-blowhole-sri-lanka.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Kudawella-blowhole-sri-lanka.JPG",
+        "licence_note": "Wikimedia Commons, CC BY-SA 3.0 per the file page; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hummanaya",
+      "https://www.lankapradeepa.com/2022/03/hummanaya-blowhole.html"
+    ],
+    "research_note": "Coordinates, the height of the spout, the height of the outlet above sea level, the monsoon timing, the origin of the name in the noise the shaft makes, and the presence of a managed viewing point are from the sources above and are desk research only. Reported spout heights differ between sources and are not verified. Access, drone permissions over the coast and the harbour, safety on the wet rock and the current state of the viewing point are unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No access, permission or local contact has been found or confirmed. Everything here is a research direction.",
+    "Whether a drone can be flown over the headland and the harbour, and in salt spray, is unverified.",
+    "How reliable the spout is within a given week of monsoon swell, and how many usable columns a day yields, has not been checked on the ground."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

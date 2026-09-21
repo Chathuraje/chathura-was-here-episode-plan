@@ -2,94 +2,195 @@
   "schema_version": 1,
   "id": "IDEA-0007",
   "record_type": "idea",
-  "title": "Learning the Map",
+  "title": "The Whole Thing at Once",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Learning the Map"
+  ],
   "group_id": "GRP-01",
-  "logline": "Children ordained as novices learn a map of the mind with a hundred and twenty-one regions by heart, years before any of it means anything to them.",
-  "human_question": "What changes when you have a name for what is happening inside you?",
-  "situation": {
-    "what_happens": "At a monastic school, young novices spend a term committing to memory a classification of every kind of passing moment of awareness: chanting it, copying it, being tested on it aloud in front of the others. The text they are learning tells the student in so many words to learn the list by heart, because everything later depends on it. They can recite it long before they can explain it, and in between lessons they are children. Occasionally, and unpredictably, a term one of them has been reciting for months lands on something they have actually noticed in themselves.",
-    "who_is_involved": "Novices of different ages and very different aptitudes; a teacher who was taught the same way and has his own view of whether memorising before understanding works; the senior monk responsible for the school; and the families who sent the children, who have their own reasons and their own hopes.",
-    "what_is_at_stake": "For a novice: standing among the others, a teacher's approval, and a robe they may or may not keep. For the teacher: a method he has inherited and is being asked to defend by the simple fact of a camera watching it. For the film: these are children, some of them far from home, and nothing about the arrangement can be softened or made to look sadder than it is.",
-    "how_it_unfolds": "A term begins with a list nobody can say, and proceeds by repetition, testing, failure and gradual fluency. The pressures are memory, comparison between children, homesickness and the ordinary boredom of learning by rote. It ends with an examination of some kind and a term that closes, with some children fluent, some struggling, and possibly one for whom a word has landed. Reality decides whether that last thing happens at all, and the film cannot go looking for it."
+  "logline": "Two dozen small earth reservoirs strung down one set of shallow valleys, each catching what the one above it lets go, and the only way to see that they are a single thing is to get above them.",
+  "human_question": "What changes when you see the whole of something at once, instead of the part you happen to be standing in?",
+  "place": {
+    "what_kind_of_place": "Forty square kilometres of dry-zone country in which a branched chain of small village reservoirs has been strung down a set of shallow valleys and kept working for something like fifteen hundred years. Each link is an earth bund a few hundred metres long thrown across a shallow drainage line, with a stone sluice through it, a strip of paddy below, a belt of trees standing in the shallows at the upper end, and a village at one shoulder. Each one takes what the one above it lets go, and everything eventually drains into one large reservoir at the bottom of the chain. On the ground you can never see more than one of them at a time, and each looks like a lake with a horizon. From five hundred metres up it is obviously a single object with a shape.",
+    "why_it_is_worth_watching": "Two completely different countries occupy the same ground, and the film gets both. At the end of the dry months the chain is a run of cracked grey beds with a puddle at the deep end of each, buffalo standing in the puddles, and the tree belts still holding the shape of water that is not there. When the rain arrives the chain fills from the top down over days, tank by tank, each one spilling into the next through a stone cut, and from the air the valley turns into a run of linked silver. Birds arrive in thousands. And there is the plainest shot of all: one bund at dawn, mist on the water, a single dead tree standing in it, and nothing whatever to tell you that there are twenty-six more behind the camera.",
+    "what_moves_or_changes": "Water, on the year's schedule and nobody else's. The filling order is fixed by the ground: the top of the chain fills first and the bottom last, and after a big storm the separate sheets briefly run together and then separate again as they drain. Everything follows the water. Paddy goes in below each bund; cattle move up into the beds as they dry; egrets and open-bills work the shallows; elephants come down to the edges at dusk; sluices are opened and shut by people who carry the order of the chain in their heads because there is nowhere else it is written down in full.",
+    "when_it_looks_best": "Two windows, and the film needs both. Late in the dry season, roughly August into September, for the cracked and separated state. Then the inter-monsoon and the north-east monsoon, roughly October into January, for the filling and the spills. Dawn for low light along the bunds and for mist on the water; the middle of a clear morning for the high, wide frame that has to hold the whole chain without haze."
   },
+  "two_layers": {
+    "without_the_philosophy": "A water-country film with a clean shape: a land that is cracked and separated, and then a land that is full and joined, and the days in between when the change is actually happening. Birds, buffalo, paddy going in, a sluice opened by hand, elephants at the edge at last light, and a final aerial that shows what the first aerial promised. Someone who never hears a word of the narration gets a complete piece with an emptiness, a filling and a payoff.",
+    "with_the_philosophy": "The same footage becomes a demonstration of what a map is for and what it costs to have one. The voice uses only what is visible: a whole system in one frame, then the single tank you are actually standing at; a chain that looks like one continuous river and is a relay of separate holdings; and the same water counted as one system, or as twenty-seven, or as twenty-eight, with nothing added by counting more finely. The last beat marks the limit rather than claiming a summit."
+  },
+  "sequence": [
+    {
+      "on_screen": "The drone climbing at first light until the frame stops changing: a whole valley system in one image, two dozen separate sheets of water linked by a line you can trace with a finger from the top of the frame to the bottom.",
+      "voice": "Before you go down into it, look at the whole thing at once. Every piece of it is in this frame. Nothing is hidden and nothing is far away. You will not get another view like this, and the books that teach this material start the same way, with everything laid out on one page before anybody walks into any of it.",
+      "concept_id": "C018"
+    },
+    {
+      "on_screen": "Straight down to the bund of a single tank. Mist, one dead tree standing in the water, a heron. A flat horizon in every direction and no other tank visible anywhere.",
+      "voice": "And this is the only way it is ever actually experienced. One at a time. The old definition of a mind is almost as blunt as that: knowing, always of something, one thing at a time, and never arriving at all without something to know.",
+      "concept_id": "C003"
+    },
+    {
+      "on_screen": "A hand-drawn schematic of the chain on an office wall with chalked levels beside it; then, outside, somebody walking a bund and naming the tanks above and below in order without pausing.",
+      "voice": "The order has to be held whole or the system does not work. The textbook that lays out the same kind of map for the mind says exactly that to its student, in so many words: learn the list by heart, because everything that comes after depends on it. This is what that instruction looks like when it is about water instead.",
+      "concept_id": "C018"
+    },
+    {
+      "on_screen": "The dry end of the year. A cracked bed, plates of grey clay curled at the edges, heat shimmer, a buffalo wallow, the tree line still holding the shape of a lake that is not there.",
+      "voice": "These books define physical stuff by what happens to it. It is the kind of thing that gets knocked about and altered by heat and by cold. Not a substance sitting still and being itself. Something that is being done to. You are looking straight at the definition.",
+      "concept_id": "C002"
+    },
+    {
+      "on_screen": "The rain comes. Water going over a stone sluice into the tank below; then the same shot at the next one down, and the next; days compressed, each spill beginning hours after the one above it.",
+      "voice": "From up here it looks like one river running down a valley. It is not. It is a relay. Held, let go, held again, twenty-odd times. The texts say something very like this about a mind. What feels like one continuous thing is a run of extremely short separate ones, too quick and too gapless for anyone to catch the joins.",
+      "concept_id": "C003"
+    },
+    {
+      "on_screen": "Full. The high frame again, now silver from the top of the valley to the bottom, every link visible, the last and largest reservoir spilling at the bottom of the shot.",
+      "voice": "The map they hand the student comes with two different totals, and beginners think that is a mistake. It is not. It is the same set, counted at two levels of detail. Count this valley as one system and you are right. Count it as twenty-seven, or as twenty-eight, or as every pond and pit in it, and you are right. Nothing was added by counting more finely. You only looked more closely.",
+      "concept_id": "C018"
+    },
+    {
+      "on_screen": "Out past the last bund and the last channel. Scrub, rock, no water, the whole chain behind the camera and nothing ahead of it.",
+      "voice": "One last thing, and it is a limit rather than an ending. Three of the four things these books call real are made: they come together, they hold for a while, they come apart. Everything in this film is that kind of thing. The fourth is not made. It is also not this quiet empty land, and it is not the silence, and there is no shot of it anywhere. On the map it is only a name.",
+      "concept_id": "C002"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C018 is the object being learned: the whole classification laid out in one view, counted as eighty-nine or as a hundred and twenty-one depending on how finely the last group is divided [C018-P:L23–L27], and handed to the student with the instruction to memorise it because further study depends on it [C018-M:L125]. C003 is what the map is a map of: mind defined as the knowing of an object, arising only with an object, taking one at a time, running as a stream so fast and gapless that it passes for a single continuous thing [C003-P:L25]. C002 is the frame around both: the four ultimate realities into which everything the teaching describes is sorted, three of them conditioned and one not [C002-P:L34]. A classroom is where all three are physically present at once, in a chant.",
-    "what_it_reveals": "That this map is not information but inheritance: it is carried in the body by repetition long before it is carried in the mind by understanding. C018 alone is a list; C003 alone is a definition; C002 alone is a frame. Together, in front of a child who can recite a hundred and twenty-one kinds of a thing he has not yet noticed once, they show the gap between having a name for what happens inside you and seeing it, which is the gap the whole series is walking across."
+    "why_together": "C018 is a map laid out in one view: the Pradeepika gives the totals, eighty-one mundane plus eight making eighty-nine, or a hundred and twenty-one when the last group is counted by depth of absorption [C018-P:L23–L27], and closes the chapter with a full-page chart that gathers every type into a single frame [C018-P:L33–L56]; the Margaya lists them sphere by sphere [C018-M:L3] and tells the student to learn the list by heart because further study depends on it [C018-M:L125]. C003 is what the map is a map of: mind defined as the knowing of an object, arising only in dependence on an object, taking one object at a time, and running as a beginningless stream of extremely brief moments that appears to be one continuous thing [C003-P:L25; C003-P:L33; C003-P:L31]. C002 is the frame around both: everything falls into four ultimate realities described as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3], with materiality defined as what is altered by opposing conditions such as heat and cold [C002-P:L40; C002-M:L17], three of the four conditioned and one not [C002-M:L21]. A chain of reservoirs in dry-zone country is where all three are physically available at the same time, at two scales, in one year.",
+    "what_it_reveals": "That the value of a whole map is not the information in it but the change of scale it produces, and that the change of scale is exactly what cannot be had from inside. C018 alone is a list and, as its own digest warns, a film that dwells on the arithmetic becomes a lecture. C003 alone is a definition. C002 alone is a frame with nothing in it. Put on this landscape they let the film's best shot do the work: one frame holding a whole system whose parts, from the ground, are separate lakes with separate horizons. The counting problem stops being arithmetic and becomes something a viewer can see, because the same water genuinely is one system and genuinely is twenty-seven or twenty-eight tanks, and the difference is only how closely you looked. The trio also supplies the ending the film needs, which is a refusal: the last of the four realities is not on this map and nothing a camera can film belongs to it."
   },
   "concept_links": [
     {
       "concept_id": "C018",
       "role": "primary",
-      "why": "The Margaya lists every type sphere by sphere and tells the student to learn them by heart because what follows depends on it [C018-M:L125]; the Pradeepika gives the totals compactly, eighty-one mundane plus eight, or plus forty when the last group is counted by depth of absorption, making a hundred and twenty-one [C018-P:L23–L27]. The film observes that instruction being obeyed. Four of the digest's limits apply at once and are written into the risks: the types are kinds of momentary consciousness and not personality types, not a ladder of better and worse people, not states anyone switches on by technique, and the arithmetic is not the point. The digest also notes that the familiar sum of the four spheres is not actually printed in either source, so any chart the film shows is an assembled figure and must not be presented as a quotation."
+      "why": "This concept is the whole classification put in one view, which is what the film's first and sixth shots are: the Pradeepika's totals are eighty-one plus eight, or a hundred and twenty-one when the last group is counted by depth of absorption [C018-P:L23–L27], set out in a full-page chart that gathers everything at once [C018-P:L33–L56], while the Margaya lists the types sphere by sphere [C018-M:L3] and instructs the student to learn them by heart because what follows depends on it [C018-M:L125]. The instruction is the link to this place, because a cascade is a system whose order has to be carried whole by the people who operate it. Four of the digest's limits apply and are written into the risks: the types are kinds of momentary consciousness and not personality types, not a ranking of better and worse people, not states switched on by technique, and the arithmetic is not the point. One uncertainty is load-bearing and governs beat 6: the simple four-sphere sum is not printed in either source, so any table the film puts on screen is an assembled figure and must be marked as such rather than quoted."
     },
     {
       "concept_id": "C003",
       "role": "supporting",
-      "why": "Mind is defined as the knowing of an object: it arises only in dependence on an object, takes one object at a time, and runs as a beginningless stream of extremely brief moments that appears to be one continuous mind [C003-P:L25]. That is what the children are memorising a classification of. The two sources use 'one' in two different senses, the Margaya saying mind is one in its general nature and divided only for teaching [C003-M:L5], the Pradeepika saying a being has not one mind but a stream that merely seems to be one [C003-P:L25]; the digest says these are different senses that must not be merged, and the film keeps them apart. The author's argument that the mind rests on a physical base at the heart rather than the brain [C003-P:L59–L69] may well be in the curriculum being filmed; the digest says it must never be presented on screen as settled science."
+      "why": "Mind is defined as the knowing of an object: it arises only in dependence on an object, it takes one object at a time, and it runs as a beginningless stream of extremely brief moments that appears to be a single continuous mind [C003-P:L25; C003-P:L33; C003-P:L31]. That is beat 2 and beat 5 exactly, and it is what the map in beats 1 and 6 is a map of. The two sources use 'one' in two different senses and the digest says they must not be merged: the Margaya says mind is one in its general nature and is divided only for teaching [C003-M:L5], while the Pradeepika says a being has not one mind but a stream that merely seems to be one [C003-P:L25]. The film keeps them apart and never lets the aerial imply that the system is 'really' one thing. Two further guards from the digest apply here. The author's argument that the mind rests on a physical base at the heart rather than the brain [C003-P:L59–L69] is a commentarial position and must never be presented as settled science. And the digest's own warning about the ripening image bears directly on a farming landscape: a failed season must never be framed as anyone's deserts."
     },
     {
       "concept_id": "C002",
       "role": "supporting",
-      "why": "Everything the teaching describes falls into four ultimate realities, described not as substances but as momentary activities or forces [C002-P:L34; C002-M:L3], of which three are conditioned and the fourth is not [C002-M:L21]. The map the novices are learning covers only the first of the four, which is why this group can lay out the frame and walk through it later. The fourth can only be named as a horizon: the digest is explicit that it is not relaxation, not a calm mood and not simply death, and nothing a camera can film belongs to it."
+      "why": "Everything the teaching describes falls into four ultimate realities, described as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3], of which three are conditioned and the fourth is not [C002-M:L21]. Two things this concept says are directly filmable here. Materiality is defined by what is done to it, as what is struck and altered by opposing conditions such as heat and cold [C002-P:L40; C002-M:L17], which is a cracked tank bed in September and the same bed under water in December. And the map the film lays out covers only the made side, which is why the fourth reality can be named as a horizon and nothing more. The digest is explicit that it is not relaxation, not a calm mood, not simply death, and that it is realised only by noble ones through the supramundane path and great effort [C002-P:L46; C002-M:L21]. Beat 7 exists to refuse the reading that empty dry country or silence is it."
     }
   ],
-  "what_the_viewer_could_understand": "That teachers long ago drew up a detailed map of the mind, sorting every kind of passing moment of awareness into a hundred and twenty-one types, and that young novices still learn it by heart before they understand it. The map describes what we feel as one steady mind as a very fast stream of separate moments, each knowing one thing.",
-  "what_must_be_real": "The school's actual curriculum, its actual timetable and the novices' own words. Consent from guardians, teachers and the senior monk, and a child's own willingness to be filmed, renewable at any point. No lesson is staged, no recitation is performed for the camera, and no child is set up to fail a test on film. The film never suggests that any child is an example of any type of mind.",
-  "position_hint": "middle: it is the group's turn inward, and the only film in the slate where the map itself, rather than a single thing named, is the subject. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That there is a difference between being in a thing and seeing it, and that the second is not just the first with more information. From the ground this is a lake with a horizon. From the air it is one link in a chain that has a beginning, an order and an end. Nothing was added by going up. The same water was there all along, and counting it more finely does not make more of it.",
+  "what_must_be_real": "The system's actual condition, including the tanks that are silted, breached or abandoned, and the actual order in which the water arrives. The chain is never cut together to look fuller or more intact than it is, and no spill is filmed at one tank and passed off as another. The people who open and shut the sluices speak for their own work and are not asked to recite the order for the camera or to stand anywhere for a shot. Drought, encroachment and broken infrastructure are in the film or the film is not honest. No chart or diagram is shown as a quotation from a source if it is an assembled figure.",
+  "position_hint": "middle: it is the group's change of scale, and the only film in the slate where the map itself, rather than a single thing named, is the subject. No location reasoning is involved.",
   "risks": [
-    "Minors: consent, dignity, and the ease with which children reciting can be made to look either charming or pitiable.",
-    "Reading the hundred and twenty-one types as personality types, or as a ladder of better and worse people.",
-    "Letting the arithmetic become the film; the digest says a film that dwells on the counting becomes a lecture.",
-    "Presenting the author's heart-base argument, or his embryological figures, as established fact.",
-    "Presenting the deepest categories as peak experiences available to anyone with a technique.",
-    "Becoming a lecture in which the teaching is explained rather than watched."
+    "Letting the arithmetic become the film; the digest says plainly that a film which dwells on the counting turns into a lecture.",
+    "Putting an assembled table on screen as if it were quoted: the simple four-sphere sum is not printed in either source, so any chart has to be marked as assembled.",
+    "Reading the types as personality types, or as a ladder of better and worse people, or presenting the deepest categories as peak experiences available with a technique.",
+    "Implying moral causation about the year's water. A failed season here is rainfall, silt and maintenance, and it must never be framed as anyone's deserts.",
+    "Merging the two senses of 'one': one source says mind is one in its nature and is divided only for teaching, the other says a being has not one mind but a stream that seems to be one. The aerial must not be allowed to settle that for the sources.",
+    "Letting beat 7 imply that empty dry country, silence or stillness is the unconditioned; the digest rules that out and the beat is written to refuse it.",
+    "Presenting the heart-base argument, or any of the author's physiological claims, as established fact.",
+    "Romanticising the system as timeless heritage while the people maintaining it are dealing with drought, encroachment, silt and broken sluices.",
+    "Drone work over villages, over people fishing and over land where elephants and people are in conflict, without consent and without care."
   ],
   "drop_if": [
-    "Consent from guardians, teachers or the children themselves is anything less than wholehearted.",
-    "The film can only be made to work by explaining the doctrine in narration.",
-    "The school turns out not to teach this material at all, or to teach it only to adults."
+    "The chain cannot be held in a single frame at a legal and safe drone height, because the first and sixth beats are the film.",
+    "The rains fail inside the filming window and there is no filling to film, and no second window is available.",
+    "Access can only be arranged as an official tour that keeps the system's actual condition off camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0006",
       "relation": "pairs with",
-      "note": "Two learned maps of experience: one chanted by children, one held in a practised palate."
+      "note": "One film lays out the whole map at once; the other watches a single door receiving a single arrival."
     },
     {
       "idea_id": "IDEA-0012",
       "relation": "pairs with",
-      "note": "The stream of moments described in a classroom, and the same stream made visible by a moving flame."
+      "note": "A stream of separate brief holdings seen from above, and the same stream made visible by a moving flame."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries its episode and is the only kept idea in which the whole map, and the instruction to learn it, is the subject."
+    "reason": "The only idea in which the whole map, rather than one named thing, is the subject, and the landscape supplies both the single view and the two counts."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape and taken off children entirely. Dropped the old situation block about novices memorising the hundred and twenty-one types, which made minors the subject and put the film's best material out of reach. New location, an ancient branched chain of village reservoirs in the dry zone, chosen because it is a whole system that can only be seen whole from the air, because its order has to be carried by heart by the people who run it, and because the same water is genuinely counted two ways in the published literature, which is C018's own point about eighty-nine and a hundred and twenty-one. All three concept links re-tested against their digests and rewritten: C018 kept as primary with the uncertainty about the unprinted four-sphere sum promoted into the sequence's sixth beat and into the risks, C003 kept for the one-object-at-a-time definition and the stream that seems continuous with the two senses of 'one' held apart, C002 kept for materiality defined by what heat and cold do to it and for the fourth reality named only as a horizon. New title; old title kept in aliases. Added place, two_layers, a seven-beat sequence and a suggested location with verified images.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Mahakanumulla village tank cascade",
+    "also_known_as": [
+      {
+        "name": "ellangawa",
+        "meaning": "a chain or cascade of village tanks, each spilling into the next",
+        "used_by": "Sinhala usage for this kind of system"
+      }
+    ],
+    "region": "North Central Province, Anuradhapura District, in the Thirappane area, in the watershed of the large reservoir the chain drains into",
+    "coordinates": {
+      "lat": 8.1667,
+      "lng": 80.4583
+    },
+    "elevation_m": 100,
+    "why_here": "It is a studied, well-documented working example of exactly the thing the film needs: a branched chain of small village reservoirs spread over about forty square kilometres, hydrologically linked so that each takes what the one above it releases, ending in one large reservoir. That gives the film its two defining shots. From the air, the whole system in one frame, which is the concept's 'everything in one view' without any diagram. From a bund, a single sheet of water with a flat horizon and no sign that anything else exists, which is the supporting concept's one-object-at-a-time. It also hands the film the counting problem for free and honestly: the published literature on this same cascade gives its size as twenty-seven village tanks in one place and twenty-eight in another, which is the same set counted at two levels of detail rather than a disagreement about the water. And the whole thing runs on knowledge that has to be held whole, because the order of the chain and which sluice feeds which is carried by the people who operate it. The dry-zone year supplies the rest: cracked beds in September, a filling chain from October, birds, buffalo and elephants at the edges.",
+    "what_to_film": [
+      "The high, wide frame on a clear morning, high enough that the whole chain is in one image and the linking line can be traced from top to bottom. This is the first shot and the sixth, and the film is built around getting it twice, once empty and once full.",
+      "One bund at dawn with mist and a single standing dead tree, framed so that no other tank is visible anywhere in shot.",
+      "A cracked bed in the dry months: plates of clay curled at the edges, heat shimmer, a buffalo wallow at the deep end, the tree belt still holding the shape of the water.",
+      "A stone sluice being opened by hand, and the spill from one tank running down into the one below.",
+      "The filling in order, over days: the same spill shot repeated at successive tanks down the chain so the delay between them is visible.",
+      "The hand-drawn schematic of the system wherever one exists on a wall, with whatever is chalked beside it, filmed as an object rather than as a graphic.",
+      "The system's actual condition: silted tanks, a breached bund, an abandoned one, and paddy that did not go in this year.",
+      "The ground beyond the last channel, where nothing is irrigated and the chain simply stops. This is the last shot."
+    ],
+    "access": "By road from Anuradhapura towards Thirappane; the cascade is not a single site but a spread of village tanks across several village officer divisions, reached by minor and unsealed roads and by walking the bunds. The irrigation infrastructure is maintained by the state agrarian service, so filming the sluices and any schematic needs that permission, while filming a bund or a bed needs the village's. Elephant movement in this country is a real constraint on where and when a crew can stand at dusk.",
+    "best_time": "Two trips. Late dry season, roughly August into September, for the cracked and separated state. Then the inter-monsoon and north-east monsoon, roughly October into January, for the filling, the spills and the full chain. Dawn for mist and low light along the bunds; mid-morning on a clear day for the high frame, which needs the haze to have lifted.",
+    "images": [
+      {
+        "caption": "The large reservoir the cascade drains into, which is the last link in the chain and the bottom of the film's high frame.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nachchaduwa%20wewa%20%28Nachchaduwa%20Tank%29.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Nachchaduwa_wewa_(Nachchaduwa_Tank).jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same reservoir from the water's edge, for the flat horizon that a single tank gives from the ground.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nachchaduwa%20Tank5.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Nachchaduwa_Tank5.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Shallows and standing trees at the reservoir edge, for the tree belts and the bird life the upper tanks share.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nachchaduwa%20Tank3.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Nachchaduwa_Tank3.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.mdpi.com/2078-1547/12/2/24",
+      "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1084973/full",
+      "https://www.fao.org/giahs/giahs-around-the-world/sri-lanka-cascaded-tank-village-system/en",
+      "https://en.wikipedia.org/wiki/Tank_cascade_system",
+      "https://en.wikipedia.org/wiki/Nachchaduwa_wewa"
+    ],
+    "research_note": "The branched structure, the roughly forty square kilometre extent, the count of village tanks given variously as twenty-seven and twenty-eight, the administrative divisions it crosses, the terminal reservoir it drains into and the general working of a cascade are from the sources above and are desk research only. The coordinates are the approximate centre of the published extent of the cascade, not a surveyed point, and individual tank positions have not been checked. Access, drone permissions, road condition, elephant movement and the current state of any given bund or sluice are unverified. The images show the large terminal reservoir rather than the village tanks upstream, because no verifiable image of the upstream tanks was found.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No access, permission or local contact has been found or confirmed. Everything here is a research direction.",
+    "Whether the whole chain can be held in one frame at a legal drone height, and from which point, has not been worked out and decides whether the film exists.",
+    "The current working condition of the individual tanks, including which are silted, breached or abandoned, is unverified.",
+    "Whether a full hand-drawn schematic of the system exists anywhere on a wall, as beat 3 assumes, has not been checked."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

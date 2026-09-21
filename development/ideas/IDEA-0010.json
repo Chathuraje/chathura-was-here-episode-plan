@@ -2,96 +2,191 @@
   "schema_version": 1,
   "id": "IDEA-0010",
   "record_type": "idea",
-  "title": "The Lantern",
+  "title": "Everything in the Basket",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Lantern"
+  ],
   "group_id": "GRP-01",
-  "logline": "A neighbourhood spends weeks building an enormous festival lantern out of bamboo and paper, lights it for a few nights, and then takes it down.",
-  "human_question": "Why do we pour so much into something we know will be taken apart, and what is it while it lasts?",
-  "situation": {
-    "what_happens": "For Vesak, a neighbourhood builds a lantern far larger than anything one household could make: money is collected, a frame is tied, paper is cut and pasted, wiring is argued over, and the work runs late into several nights. Some of the material is new and some is inherited, kept from last year or from a relative's build, and carries names and histories of its own. For a few nights the thing is lit and people come. Then it is taken down, the parts are sorted into what can be kept and what cannot, and the name goes with the shape. What the builders feel at that point is the honest end of the film.",
-    "who_is_involved": "The neighbours who build it, who do not all agree about the design, the budget or who is in charge; the older people who have done this for decades and remember every previous one; children who are given the small jobs; and the crowds who come to look and who did not build anything.",
-    "what_is_at_stake": "Money that was collected from people who do not have much of it, and standing in a neighbourhood that will compare this year's with last year's and with the one down the road. For the builders, several weeks of unpaid work after their own working days. For the older ones, whether anybody younger will take it on next year.",
-    "how_it_unfolds": "It begins weeks early with a collection and a decision, and accelerates into nights of work that run right up to the deadline, because the date cannot move. The pressures are money, weather, electricity, rivalry and exhaustion. It ends with the lighting, then with the taking-apart, and the taking-apart is the part nobody photographs. Rain can end it early; a failure of wiring can end it on the first night. Reality decides."
+  "logline": "A dry-zone river valley that is being turned over by hand, a few basketfuls at a time, and washed in the river until one stone in a very large number of stones is lifted out with two fingers.",
+  "human_question": "If the thing I want is made of the same stuff as everything I am throwing back, where exactly is the wanting happening?",
+  "place": {
+    "what_kind_of_place": "A wide, hot river valley where an old buried riverbed lies a few metres under the paddy and the scrub, carrying a layer of gem-bearing gravel. Hundreds of small hand-dug pits go down through the overburden to reach it, each one square-mouthed, timbered with poles and roofed with a palm-frond lean-to, worked by a team of a handful of men with a hand winch, a lamp and baskets. The gravel comes up in baskets, goes to the river by barrow or on a shoulder, and is washed in a shallow conical wattle basket held in the current and spun; what settles is tipped out flat and gone over by eye. Around the pits, ordinary farming country carries on within a few metres of the spoil heaps.",
+    "why_it_is_worth_watching": "Two scales that could not be further apart, in one place. From the air, a green valley pocked with hundreds of small dark mouths and pale spoil heaps that only read as a pattern from above, with a brown river running through the middle of it and rows of men standing waist-deep in it holding baskets. On the ground, the single most concentrated image the country can offer: a shallow basket lifted clear of the water, the water ringing off it in a sheet, and then tipped flat into a perfect wet disc in which every stone in it is lit and, for about one second, every stone in it looks like treasure.",
+    "what_moves_or_changes": "Gravel goes up, gets washed, gets spread, gets looked at, and almost all of it goes back onto a heap beside the water that is a little bigger every evening than it was that morning. Water level in the river falls through the dry months until the washing can be done standing up and rises until it cannot. And occasionally, on a day that looks like every other day, a stone is picked out with two fingers, and everything about the year changes without anything about the stone changing.",
+    "when_it_looks_best": "The dry months, when the river is low enough to stand and wash in and the pits are not taking water. Early morning for the washing, when the light is along the river and the baskets are still going in; late afternoon and low sun across a wet basket for the disc; and the pits themselves need either full overhead light or lamplight, since a shaft at nine in the morning is simply black."
   },
+  "two_layers": {
+    "without_the_philosophy": "A complete piece about a valley being quietly turned over by hand: a landscape of small holes seen from above, a shaft, a rope, a basket coming up into daylight, twenty men standing in a brown river spinning baskets, heaps of washed stone growing along the bank, and once, the small commotion of something being found. It builds from the wide to the microscopic and back out again, and it pays off in the basket and in the find. Nobody needs a word of narration to follow it.",
+    "with_the_philosophy": "The same footage becomes the compendium's method, filmed rather than explained. The voice counts what is in front of it: a heap, which is the sources' own word; a sorting, whose purpose the sources state plainly; and then, at the moment the basket is tipped and everything in it glitters, the exact thing the four truths name as the cause, which is not the stone and is not an opinion about the stone, but a glad, clinging thirst that settles wherever something seems lovely. The viewer is invited to catch it starting in themselves, from a wet basket, in one second, rather than to be told about it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone high over a green valley: hundreds of small square pit-mouths and pale spoil heaps scattered through paddy and scrub, a brown river running across the middle of the frame.",
+      "voice": "Everything that has come out of this ground has been sorted into heaps. That is the word the old books use too. Not parts, and not components. Heaps. A heap is a gathering of one kind of thing from everywhere at once, past and present, yours and mine, the fine and the coarse, the near and the far.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "Down a shaft: poles, a ladder, a lamp, two men filling a basket in a cramped space at the bottom. The basket rises up the shaft on a rope into a disc of white daylight.",
+      "voice": "And the reason for sorting things into heaps, both books say outright, is not tidiness and it is not science. It is to make it harder to say I and mine about the pile.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "The river. Twenty men standing waist-deep in a line, each with a shallow conical basket held in the current, rocking and spinning it so the heavy material settles into the middle.",
+      "voice": "While it is in the basket, all of it has one name, and the name is gravel. That is a word for a collection, and the books list exactly this kind of word: the whole made of parts, the earth, the mountain, the river, the sea. Divide it and the collection is gone. There are only stones, and there were only ever stones.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Close and slow. The basket lifted clear of the river, water going off it in a ring, and then turned over onto a mat in one movement: a flat wet disc of gravel in which every single stone is lit and glittering.",
+      "voice": "For about a second, everything in there looks like treasure. The books do not argue with that, and they are oddly firm that loveliness is not simply a matter of opinion. What they point at is the next thing, the one happening inside the looking: a glad, clinging thirst that makes the ordinary look like a jewelled thing and settles wherever something seems lovely. Watch it start. It is the fastest thing in this film.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "Hands sweeping the wet gravel flat, spreading it thin, eyes going across it. Then nearly all of it swept off the edge of the mat onto a heap beside the water that is already waist-high.",
+      "voice": "Almost all of it goes back. It went into the basket as gravel and it comes out as gravel and nothing whatever happened to it in between. The thirst went down with the basket and came back up with it too, and it will go again with the next one.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "A find. Two fingers lift one stone out of the spread. Wet, dull, blue-grey, entirely unremarkable in the hand. People come over. Somebody holds it up against the sky.",
+      "voice": "That is the same mineral as a good deal of the heap it came out of. The books sort names by what survives being looked into and what does not, and they are careful that this is a technical sorting and not an accusation. The hardness is real. The colour is real. The word that has just been said over it, and the year that word has just paid for, live in everyone standing here.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Evening. The river empties of people. Heaps of washed gravel stand along the bank in a row, each beside its own pit. Lamps go on in the lean-tos. Drone lifts away over the valley as the pit-mouths go dark.",
+      "voice": "The heaps are bigger tonight than they were this morning. The books are careful about what they are and are not saying here. They do not say the stone is worthless, and they do not say that wanting anything is a sin. They say there is one particular thirst, that you can follow it back to a root the way you follow a vine back along the ground, and that nobody gets free of it by wishing, only by doing something about it, over and over, the way this is done.",
+      "concept_id": "C077"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C077 supplies both halves of the group's ending. The compendium gathers everything conditioned into heaps and says the division exists to take apart the habit of saying 'I' and 'mine' [C077-P:L984; C077-P:L996–L1010; C077-M:L24], and then places the whole analysis under four truths, naming a delight-laden craving, which takes what is pleasant as something to be had and held, as what keeps suffering going [C077-P:L2780–L2788; C077-M:L91]. C084 supplies what the lantern is: a collective and shape concept that exists only while its parts are arranged [C084-P:L27–L41; C084-M:L7], carrying, folded in from IDEA-0009, the further point that the parts themselves are named after people. Together they give a film in which something is assembled, named, loved and dismantled inside a few weeks.",
-    "what_it_reveals": "That the taking-apart is where the group's question finally costs something. C084 alone would make the lantern a neat example of a shape concept; C077 alone would be a doctrine with nothing in front of it. Together, at the moment the frame comes down and the name stops being used, a viewer can notice the wanting-it-to-stay in themselves rather than be told about it, which is exactly where this group hands on to the next."
+    "why_together": "C077 supplies both the method and the reason, and its own vocabulary is the location's. The compendium gathers everything conditioned into heaps, each one a collection of many passing items of a single kind gathered across eleven aspects [C077-P:L982–L984; C077-P:L996–L998], and both sources say plainly that the division exists to loosen the habit of saying I and mine [C077-P:L1006–L1010; C077-M:L24]. The four truths then name the cause with unusual precision: not desire in general, but a delight-laden craving that makes the ordinary look like treasure and settles wherever something seems lovely [C077-P:L2780–L2786], with the ending described as that thirst fading in the same places it used to arise [C077-M:L91] and the path described as something walked rather than wished for [C077-P:L2754–L2762]. C084 supplies what a basket of gravel is: a collective concept in the sources' own list, the earth, the mountain, the river, the sea [C084-P:L27–L41], which disappears under division as cloth disappears into thread [C084-M:L7], with the name a separate item from the thing it makes known [C084-P:L25; C084-P:L47]. A gem field runs both at once, all day, in water.",
+    "what_it_reveals": "That the thirst and the object can be separated on camera without anyone being told that what they want is worthless. C077 alone would be a doctrine with nothing in front of it; C084 alone would make this a tidy demonstration that gravel is a word. Together, at the second the basket is turned over and the whole disc glitters, the film can hold two things the sources hold together and that almost every popular version of them drops: that the loveliness is not an illusion and is not a private opinion, and that the clinging which starts where loveliness is, is the thing being pointed at. It also gives the group a clean ending, because the same heap is still there in the evening, larger, and the analysis has taken nothing away from anybody."
   },
   "concept_links": [
     {
       "concept_id": "C077",
       "role": "primary",
-      "why": "The compendium's method and its purpose: everything conditioned is gathered into heaps, each a collection of many passing moments of one kind, and the sources say plainly that the division is there to loosen 'I' and 'mine' [C077-P:L984; C077-P:L996–L1010; C077-M:L24]; the four truths then name craving, a glad, clinging thirst that makes the ordinary look like treasure and settles wherever something seems lovely, as the cause of suffering [C077-P:L2780–L2788; C077-M:L91]. The digest's limits are heavy here and all four are in the risks: 'life is suffering' distorts the sources, which say birth, ageing and death are grounds for suffering rather than suffering itself; 'just stop wanting things' misses the specific craving named; cessation is not annihilation, which the Margaya's phrase about the cessation of the aggregates could be misread as; and freedom is not obtained by wishing but by a path [C077-P:L2754–L2756]."
+      "why": "The sources' own word for the division is heap, a gathering of many items of one kind rather than a lasting object [C077-P:L982–L984; C077-P:L996–L998], and both books state that the reason for sorting is to take apart the habit of I and mine [C077-P:L1006–L1010; C077-M:L24]. A hand-worked gem field does nothing all day but gather, sort and re-heap, which lets the film use the word in its literal sense before it uses it in the sources' sense. The four truths then name the cause as a specific delight-laden thirst that makes the ordinary look like treasure and settles wherever something seems lovely [C077-P:L2780–L2786], which is precisely what a tipped basket produces in a viewer, once, in a second. The digest's limits govern the writing throughout and are all in the risks: 'life is suffering' distorts a source that says birth, ageing and death are grounds for suffering rather than suffering itself; 'just stop wanting things' misses the particular craving named; cessation is not annihilation, which the Margaya's wording about the cessation of the aggregates invites [C077-M:L95]; freedom is not obtained by wishing but by a path [C077-P:L2754–L2762]; and the film must never use 'no separate sufferer' to wave away real hardship on camera [C077-P:L2292–L2298]. One further guard shapes beat 4 directly: the digest says the sources hold that whether an object is desirable is not simply relative to the beholder [C077-P:L193–L201], so the narration must not say the stone is only lovely because people decide it is."
     },
     {
       "concept_id": "C084",
       "role": "supporting",
-      "why": "A lantern is a collective and shape concept in the sources' own list, a whole that exists only while its parts are arranged, and it disappears under division as cloth disappears into thread [C084-P:L27–L41; C084-M:L7]. Folded in from IDEA-0009: the parts are also named for people, so what comes down is not only a shape but a set of borrowed, inherited and remembered things going back to being bamboo, paper and wire. The digest's bar holds: nothing here says the lantern was not real, and no builder is told that their name for it is wrong."
+      "why": "A basketful of gravel is a collective concept of exactly the kind the sources list, alongside the earth, the mountain, the river and the sea [C084-P:L27–L41], and it vanishes under division as cloth vanishes into thread [C084-M:L7]; the name is a separate item from the thing it makes known [C084-P:L25; C084-P:L47]. That is what lets beat 3 and beat 6 work without argument: the same material is called gravel in the basket and something else in the hand, and the sources' sixfold sorting of names by what does and does not survive analysis [C084-P:L49–L71; C084-M:L23–L35] is the frame for the moment of the find. The digest's bar holds hard here and is written into the narration: those categories are technical, not a scheme of true and false, and nothing in this film may tell a miner that the word he has just used over a stone is wrong."
     }
   ],
-  "what_the_viewer_could_understand": "That a great lantern is bamboo, paper and light held in one shape for a few nights, and that when it is taken apart the name goes with it. The texts look at everything, even a person, in this way, and say that wherever something seems lovely, wanting quietly begins.",
-  "what_must_be_real": "The actual builders, the actual budget, the actual disagreements and the actual timeline, including the dismantling, which is the part that is normally not filmed. Nothing is rebuilt or relit for the camera, no one is asked to say what they feel at the end, and the collection of money is treated with the discretion the neighbours themselves use.",
-  "position_hint": "closing candidate: it is the only kept idea whose situation contains its own ending, and the feeling at the dismantling is what hands this group on to the next. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That the wanting is not in the stone. The stone is the same mineral as most of what goes back on the heap, and it is genuinely hard and genuinely coloured and genuinely worth something; what the texts point at is the thirst that starts where loveliness is, which the viewer can catch in themselves in the second a wet basket is turned over, and which nobody in the film has to be told about.",
+  "what_must_be_real": "A working pit's own team, own gravel and own day. Nothing is salted, nothing is planted in a basket, no wash is repeated for the camera and no find is arranged, re-enacted or implied to have happened when it did not. If a find is filmed, the film protects the people in it: no identifying the pit, the owner, the route the stone takes or what it is worth, because publishing any of that puts them at risk of robbery. Licences, ownership of the land and who gets which share are recorded as they are, not tidied. Nobody is asked what they felt or what they hope for. If there are children working in a yard, that yard is not filmed. Safety around an unshored shaft is not negotiable and no descent is made or asked for to get a shot.",
+  "position_hint": "closing candidate for the group: it is the only one of these films whose subject contains its own ending, and the moment the thirst is caught starting is what hands this group on to the next. No location reasoning is involved.",
   "risks": [
-    "Festival spectacle with no one to follow; the crowd is not the subject.",
-    "Reading the film as 'life is suffering', which the digest says distorts the sources.",
-    "Reading it as 'stop wanting things'; the sources name a particular clinging thirst, not every wish.",
-    "Suggesting that the ending means ceasing to exist, which the digest flags as the likeliest misreading of the Margaya's wording.",
-    "Treating devotion, or the money spent on it, as naive.",
-    "Filming the builders' exhaustion or disagreement as comedy."
+    "Reading the film as 'life is suffering', which the digest says distorts the sources; they treat birth, ageing and death as grounds for suffering, not as suffering itself.",
+    "Reading it as 'stop wanting things'; the sources name one particular clinging thirst, and the path they describe involves wholesome intention and effort.",
+    "Suggesting that the ending means ceasing to exist, which the digest flags as the likeliest modern misreading of the Margaya's wording about the cessation of the aggregates.",
+    "Saying, or implying, that the gem is only beautiful because people agree it is; the digest says the sources hold the opposite, and beat 4 is written to avoid it.",
+    "Using 'there is no separate sufferer' to make light of poverty, injury or debt in front of the camera; the digest says this reverses the teaching.",
+    "Treating hand mining as picturesque, or a hard and hazardous living as folklore.",
+    "Exposing a find. Naming a pit, an owner, a value or a route would create a real danger of robbery for people who have no protection.",
+    "Filming inside or over an unshored shaft, and the pressure to get closer than is safe once a basket is coming up.",
+    "Licensing and legality: some pits may be unlicensed, and filming could expose people to enforcement as well as to theft.",
+    "The find in beat 6 may simply not happen in the time available; the film has to work if it does not, and the tipped basket, not the find, is the payoff."
   ],
   "drop_if": [
-    "Only the finished lantern is accessible and no builder will share the weeks around it.",
-    "Access ends at the lighting, so the dismantling cannot be filmed.",
-    "Filming would require the build to be altered in any way."
+    "Filming cannot be done without staging a wash, a find or a descent.",
+    "The people working the pits cannot be filmed without exposing them to robbery or to enforcement.",
+    "Access is only available through a dealer or a showroom, so the film would become a trade promotion."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0009",
-      "relation": "absorbs",
-      "note": "Takes in the strand of objects named after the people they belonged to, and the feeling of a named whole being sorted back into materials."
+      "relation": "mirrors",
+      "note": "A name taken off a thing without changing the thing, and a name put on a thing without changing the thing."
     },
     {
-      "idea_id": "IDEA-0005",
+      "idea_id": "IDEA-0008",
       "relation": "pairs with",
-      "note": "A whole taken apart and rebuilt, and a whole taken apart for good."
+      "note": "A field where the whole day's value is scraped up by the tonne, and a field where a year's value is picked out with two fingers."
     },
     {
-      "idea_id": "IDEA-0012",
+      "idea_id": "IDEA-0001",
       "relation": "pairs with",
-      "note": "Something held together by speed, and something held together by bamboo and string."
+      "note": "A shape everyone can see that is made of nothing, and a stone everyone can hold that is made of the same thing as the heap it came from."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0009"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the closing episode, and absorbs IDEA-0009's strand of objects named after people and the feeling of un-naming."
+    "reason": "It carries the group's ending: the one location where the sources' word for the division and the moment they name as the cause are both visible in the same basket."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. The neighbourhood festival lantern is gone; the film is now one hand-worked gem field, where 'heap' is the sources' own word and the tipped washing basket is both the most beautiful shot the place produces and the clearest statement of the delight-laden craving the four truths name. New title, place, two-layer test, seven-beat sequence and a proposed location. Both concept links re-tested and rewritten, with C084 reduced to what it actually does here and C077 now carrying the digest's guard that desirability is not simply relative to the beholder, which changed how beat 4 is written. Selection changed from keep-with-IDEA-0009-merged-in to a film that stands alone.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Elahera gem field, Amban Ganga valley",
+    "also_known_as": [
+      "Elahera–Bakamuna gem fields"
+    ],
+    "region": "Elahera divisional area, Polonnaruwa District, North Central Province, in the dry zone north-east of the hill country",
+    "coordinates": {
+      "lat": 7.7831,
+      "lng": 80.8183
+    },
+    "why_here": "It is a working hand-mining landscape rather than a gem town: hundreds of small pits and surface excavations strung along twenty-five or thirty kilometres of one river valley, worked by teams of a handful of men, with the washing done in the river itself. That gives the film all three scales it needs in one place — a pocked valley from the air, a line of men in the water, and a basket in close-up — without a showroom, a museum pit or a demonstration anywhere in it. The field is alluvial, so the gravel really is a heap of assorted material out of an old riverbed rather than a seam, which is the whole point of the sorting the film watches. It is also far less visited than the island's better-known gem district, and the valley around it is ordinary farming country, which keeps the film in a place rather than in an industry.",
+    "what_to_film": [
+      "The valley from height at low sun, so the scatter of pit-mouths and spoil heaps reads as a pattern across farmland.",
+      "One pit from the top of the shaft: the winch, the rope, the basket coming up into daylight, and the tipping of it.",
+      "The line of men washing in the river from the bank and from just above the water, wide enough to hold the repetition.",
+      "The payoff: one basket lifted clear, the ring of water coming off it, and the turn onto the mat, filmed close, slow and more than once across different days so the best version exists.",
+      "The spread and the sweep: eyes going over a flat disc, and almost all of it going off the edge of the mat.",
+      "The growing heap beside the water, in the morning and again in the evening of the same day.",
+      "The ordinary business around the pits: a lean-to, a kettle, a bicycle, paddy a few metres away, so the mining sits inside a place and not on top of it.",
+      "A find only if one happens, only with the team's consent given at the time, and framed so that nothing in the shot identifies the pit or the people."
+    ],
+    "access": "Inland dry-zone country reached by road from the north-central towns; the field runs along a river valley and the pits are on private and leased land, so every one of them is a separate permission from the team and the landowner, and gem mining is a licensed activity with its own authority. The river washing sites are public in practice but the teams are not, and nothing here can be filmed by turning up.",
+    "best_time": "The dry months, when the river is low enough to wash in standing and the pits are not taking water; the wet months stop both. Early morning for the washing line, late afternoon for the basket, and the middle of the day if anything inside a shaft is needed.",
+    "images": [
+      {
+        "caption": "Washing gem gravel by hand in Sri Lanka: the basket, the water and the sorting the whole film is built around.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Man_delft_gems_in_Sri_Lanka.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Man_delft_gems_in_Sri_Lanka.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The dam at the head of the same river system, for the scale of the country the gem gravel was carried down from.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moragahakanda_Dam.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Moragahakanda_Dam.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The reservoir at the head of the valley, for the dry-zone country the pits sit in.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moragahakanda_reservoir_at_dam_construction_site.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Moragahakanda_reservoir_at_dam_construction_site.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bakamuna",
+      "https://www.gia.edu/gems-gemology/summer-1986-sri-lanka-gem-field-gunawardene",
+      "https://www.gia.edu/UK-EN/gia-news-research-sri-lanka-mining-part1"
+    ],
+    "research_note": "Desk research only. The coordinates given are those of the village at the centre of the field, from Wikipedia, which also places it in the Elahera divisional area of Polonnaruwa District and names the rivers that meet there; note that gemmological sources variously describe the field as lying in the neighbouring hill district, and the administrative boundary should be checked before anything is written down. That the deposits are alluvial gem gravels a few metres down, that mining is largely open-cast and by hand in shallow and deep pits, that teams are small, that material is hauled up in baskets and washed in river water, and that the field supplies a large share of the country's gem exports are from the gemmological sources above. Nothing about current activity, licensing, land ownership, access or drone rules has been verified, and the river's seasonal level has not been checked.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No team, pit, owner or permission has been found or approached. Everything here is a research direction.",
+    "Whether washing in the river is still the normal practice in this field, as against washing at the pit with pumped water, has not been checked and beats 3 to 5 depend on it.",
+    "Which months the river is low enough to work in, and whether the pits flood, is unverified.",
+    "The licensing position of the pits that could actually be filmed, and what filming would expose the people working them to, is unknown and is the first ethical question to settle.",
+    "Whether the administrative district is as recorded here needs checking; published sources disagree.",
+    "Drone permission over a licensed mining area and over private farmland is unverified."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is a research suggestion awaiting Chathura's verdict, and its supporting detail is desk research and unverified. No scene or shot is decided here."
 }

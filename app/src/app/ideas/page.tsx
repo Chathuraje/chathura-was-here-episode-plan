@@ -12,7 +12,7 @@ export default async function IdeasPage({ searchParams }: { searchParams: Promis
   const all = orderedIdeas(dev);
   const shown = filter ? all.filter((idea) => idea.review.status === filter) : all;
   const count = (status: IdeaReviewStatus) => all.filter((idea) => idea.review.status === status).length;
-  const placed = all.filter((idea) => idea.location.location_id).length;
+  const placed = all.filter((idea) => idea.suggested_location).length;
   const byGroup = dev.groups.map((group) => ({ group, ideas: shown.filter((idea) => idea.group_id === group.id) }));
 
   return (
@@ -55,7 +55,7 @@ export default async function IdeasPage({ searchParams }: { searchParams: Promis
             <h2><Link href={`/arc/${group.id}`}>{group.title}</Link></h2>
             <small>{ideas.length} ideas for {group.draft_film_count} films</small>
           </div>
-          {ideas.length ? <IdeaList ideas={ideas} places={dev.places} /> : <p className="muted-note">{filter ? `No ${filter} ideas in this group.` : "Not started yet."}</p>}
+          {ideas.length ? <IdeaList ideas={ideas} /> : <p className="muted-note">{filter ? `No ${filter} ideas in this group.` : "Not started yet."}</p>}
         </section>
       ))}
     </>

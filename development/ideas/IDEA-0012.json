@@ -2,93 +2,209 @@
   "schema_version": 1,
   "id": "IDEA-0012",
   "record_type": "idea",
-  "title": "The Ring of Fire",
+  "title": "A Circle Made of Speed",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Ring of Fire"
+  ],
   "group_id": "GRP-01",
-  "logline": "At a night procession a performer whirls a torch and a crowd sees a ring of fire; close up there is one flame, a pair of hands and years of practice.",
-  "human_question": "How much of what we see is really there, and how much is made by speed, distance and our own seeing?",
-  "situation": {
-    "what_happens": "A fire performer works a night procession: preparing wicks and fuel in the afternoon, waiting for hours, and then performing in the dark in front of a crowd that has come to see exactly this. From where the crowd stands, unbroken circles and figures of fire hang in the air. From where the performer stands, there is one flame on a stick, a weight to control, heat close to the skin and a sequence that has to be kept up while walking. Afterwards there are burns to check, equipment to pack, and whatever the performer thinks about what the crowd believed they saw.",
-    "who_is_involved": "The performer, for whom this is skilled, dangerous, seasonal and usually badly paid work; whoever taught them and whoever they are teaching; the organisers who booked them; and the crowd, who are not spectators of an illusion but participants in a religious occasion.",
-    "what_is_at_stake": "For the performer: burns, a night's pay, a place in next year's procession, and a reputation built on not dropping anything. For the organisers: an occasion that many people care about deeply, which cannot be interrupted. For the film: the ring is the sources' own image, and the temptation to treat a religious event as a demonstration of it is constant.",
-    "how_it_unfolds": "It begins in daylight with preparation that nobody watches, and moves through hours of waiting into a few minutes that everyone has come for. The pressures are heat, fuel, fatigue, crowding and rain. It ends with the procession ending, and with an ordinary walk home carrying equipment. Reality decides whether it happens at all: weather, permission and whether the performer is well enough to work."
+  "logline": "A small town at the end of a country, where a lamp on the headland has been turned into a flash by a rotating lens every night for more than a century, and where one night a year a man walks down the main street turning a torch until a solid ring of fire hangs in the dark.",
+  "human_question": "If a circle that a whole street can see turns out to be one small thing moving fast, what is the steady, continuous mind I am watching it with made of?",
+  "place": {
+    "what_kind_of_place": "The last town on a coast, at the southernmost point of an island, where the land runs out into a low rocky headland with a tall nineteenth-century stone lighthouse standing on it. Behind the point is an ordinary small town: one main road running down to the water, old carved stone lying about among houses and shops, shrine buildings, fishing boats, palms, a bus route. For most of the year it is a quiet place that people drive through on the way somewhere else. For about eight nights in the middle of the year the same road is closed and walked from end to end in the dark by drummers, whip-crackers, torch-bearers, dancers and men who turn fire, with the town standing shoulder to shoulder on both sides of it.",
+    "why_it_is_worth_watching": "Two turning lights within a kilometre of each other, one permanent and one annual. The lighthouse holds a single steady lamp inside a great glass lens that rotates, so a continuous flame becomes a flash on a fixed interval that charts name and ships steer by; from a boat at night it is the only thing on the horizon. And in the street, a man walks slowly forward while a torch goes round and round at arm's length, so that from twenty or thirty metres back there is no torch visible at all, only a bright unbroken hoop standing in the dark and travelling down the road. Around both of them: black water, a crowd of faces lit from underneath, and the last land before a very long way of sea.",
+    "what_moves_or_changes": "Nothing is staged and nothing is under the crew's control. The light turns on its own clock, all night, every night, and has done since the eighteen-eighties. The procession moves once, at its own pace, in one direction, and does not stop or go back for anybody. Crowd, weather and the sea decide the rest, and this is a wet, windy season on that coast.",
+    "when_it_looks_best": "The nights of the annual procession, which falls in the Esala month and therefore in July or August, running for about eight nights with the largest at the end. A dark night is essential for both the ring and the beam, so the nights furthest from the full moon inside that window are the ones to want, and since the procession's own calendar is tied to the moon the two have to be reconciled on the ground. It is the wet monsoon on that coast: rain is likely, and a wet road reflects fire, which helps."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night film about the end of a country. A beam sweeping out over black water on a fixed pulse; a small coastal town going from shuttered and empty to packed; drums, whips, torches and turning fire coming down one road in the dark; then the road swept and empty again at dawn with the same light still going round out on the point. It resolves on its own terms, from one light to many and back to one, and it needs no explanation at all to work.",
+    "with_the_philosophy": "The voice points at what everyone in the street is already looking at. The ring is the sources' own example, chosen by them to explain what a concept is: something that appears whole, that everybody present can see, that has a size and an edge, and that is not a thing, only one flame going fast. The lighthouse says the same thing a second time with nobody performing it: a steady lamp, a turning lens, a flash, and a name given to the rhythm which is good enough to navigate by. Then, once and carefully at the end, the voice turns the observation inward to the sources' claim that what feels like one continuous mind is a very fast run of separate moments of knowing."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dusk, from the air, far out over the water and looking back: the last of the land, the tower on the point, low roofs and palms behind it, and in front of the tower nothing but sea to the edge of frame.",
+      "voice": "This is where the country stops. Everything behind that tower is land, and everything in front of it is water for a very long way. It is a good place to ask what is actually there, and what is only being called something.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "Full dark, from a boat. The lighthouse across black water. The light arrives, holds a moment, goes. Arrives again. The interval never varies.",
+      "voice": "There is one lamp up there and it does not blink. It burns steadily all night. What you are watching is a lens going round it. Sailors do not call this a light; they call it a flash every five seconds, and by that name they know which coast they are on. A rhythm was given a name, and the name is enough to steer by.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "Inside the lantern room: the small lamp, the great ribbed glass around it, the slow silent rotation, the beam's edge crossing the water far below.",
+      "voice": "Nothing out there is flashing. The glass is turning and the light it is pointing at you arrives in pieces. Take away the turning and there is no flash at all, just a lamp that somebody has to keep lit.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "The road before the procession: shutters coming down, plastic chairs set out on verandahs, children lifted onto shoulders, the tarmac cleared and waiting in the dark.",
+      "voice": "Once a year this road is closed and walked from one end to the other. Everyone standing here has their own reason for coming, and none of it is this film's business to correct. The books being read here say the ordinary way of speaking was chosen deliberately, so that people could follow easily. It was the method, not a compromise.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "The head of the procession arrives: whip-crackers, then drums, close on sticks and hands and skins. Then a man with a torch, filmed close and at normal speed: one flame on a chain, two hands, the heat coming off it.",
+      "voice": "One of these books explains its whole subject with a drum. Strike it and a sound happens. Strike it again and another sound happens, and nothing was stored inside the drum in between. What is really there, it says, is closer to an activity than to a substance.",
+      "concept_id": "C002"
+    },
+    {
+      "on_screen": "The payoff. The same man from thirty metres down the road, on a long lens: no flame visible anywhere in frame, only a complete bright ring standing in the dark and coming slowly towards camera, with faces lit on both sides of it.",
+      "voice": "And there it is, in the street, the example the book uses itself. Things we hold to exist by mere notion, it says, are like the ring of fire you see when a torch is whirled. Everyone here can see it. It has a size. It has an edge. It is not a thing. It is made of speed.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "The man slows. The hoop thins, shivers, becomes a bright streak, becomes one flame on a chain, and stops. He walks on carrying it.",
+      "voice": "Watch it come apart. It does not break and nothing falls. It simply stops being made, because the only thing that was holding it together was the going round.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "Dawn. The road swept, wet and empty, shutters going back up, a dog. Out on the point the beam is still crossing the water on its five seconds, pale now against the sky.",
+      "voice": "Now the careful part. The same books describe a mind as a run of separate moments of knowing, one object at a time, so quick and with so little gap between them that it passes for one steady mind. That is a description and not a diagnosis. Nobody here was fooled by anything last night. The joining was simply being done by the seeing, as it is now.",
+      "concept_id": "C003"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C001 supplies the image and it is the sources' own: the Margaya says that things held to exist by mere notion are like the ring of fire seen when a torch is whirled, real to the onlooker and made only of speed [C001-M:L42; C001-M:L48]. C003 turns the same observation inward: mind is described not as one thing but as a stream of extremely brief moments, arising and ceasing so fast and so gaplessly that it passes for a single continuous mind [C003-P:L25]. C002 holds the frame: the ultimate realities are described as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3]. One night gives all three, because the same event is two different things depending on where you stand.",
-    "what_it_reveals": "That the joining is done by the seeing, not by the fire. C001 alone is a simile; C003 alone is a definition nobody can check. Put together at a procession, the viewer holds the crowd's view and the performer's view at once and notices their own seeing doing the work, which is the one honest way into the claim that the mind they are watching with is the same kind of stream."
+    "why_together": "Read fresh, the three digests fit one night in one town. C001 supplies the image, and it is the sources' own: the Mārgaya defines paññatti as the name for what is held to exist by mere notion though it does not truly exist [C001-M:L48], and its two examples are a table, which is only wood arranged in a particular way [C001-M:L46], and the ring of fire seen when a torch is whirled [C001-M:L42]. C001 also supplies the permission that keeps the film off the crowd's back, because the Pradīpikā says the Buddha deliberately taught in everyday names, being, person, tree, mountain, river, so that listeners could understand easily [C001-P:L51]. C003 turns the same observation inward: mind is the knowing of an object, arising only in dependence on an object, taking one object and one aspect at a time, and running as a stream of extremely brief moments that appears to be a single continuous mind because of its speed and the absence of gaps [C003-P:L25; C003-P:L31; C003-P:L33]. C002 holds the frame and stops the film over-claiming: the ultimate realities are described as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3], and the Mārgaya makes that concrete with a drum, where each meeting produces its own separate sound [C002-M:L9]. A headland with a turning lens and a street with a turning torch delivers all three in the same square kilometre, and the lighthouse delivers the concept with nobody performing it.",
+    "what_it_reveals": "That the joining is done by the seeing and not by the fire. C001 on its own is a simile read off a page. C003 on its own is a definition nobody can check. C002 on its own is a set of categories. Put on one night in one town, a viewer watches a ring assemble itself out of speed, watches it come apart the moment the speed stops, and is then told once, at the end, that the same books describe the mind they were watching with in the same terms. The lighthouse is what makes that bearable rather than clever, because it says the identical thing with no performer, no crowd and no devotion involved: a steady lamp, a turning lens, and a rhythm that was given a name and is trusted enough to steer a ship by."
   },
   "concept_links": [
     {
       "concept_id": "C001",
       "role": "primary",
-      "why": "The Margaya's own image for paññatti: the ring of fire that exists because a single flame is moving quickly, used alongside the table to show that a name can be attached to an arrangement rather than to a separate thing [C001-M:L42; C001-M:L48]. This is the one film in the group whose central image is quoted rather than devised. The digest's limits are the whole risk here: the flattening of 'does not truly exist' into 'life is an illusion', and the treatment of a religious or ritual event as spectacle, which the digest names as this seed's own danger."
+      "why": "This is the one film in the group whose central image is quoted rather than devised. The Mārgaya defines paññatti as the name for things held to exist by mere notion though not truly existing [C001-M:L48], gives the ring of fire that appears when a torch is whirled as its example alongside the table that is only an arrangement of wood [C001-M:L42; C001-M:L46], and says that dividing ends somewhere, in what cannot be split further [C001-M:L50–L52]. The Pradīpikā supplies the other half: everyday names were a deliberate teaching method chosen so that people could understand easily [C001-P:L51], which is the ground on which this film can stand in a crowd at a religious occasion without correcting anybody in it. The digest's limits are the whole risk here. 'Nothing is real' and 'life is an illusion' are named as the easiest misreading of the Mārgaya's own wording [C001-M:L44–L48]. 'It is all just atoms, science said this already' is ruled out, because the Pradīpikā describes the final realities as a non-substantial process known fully by omniscient knowledge [C001-P:L59], which is not a physics claim and must not be presented as one. And the digest names this seed's own danger by name: treating a religious or ritual event as spectacle."
     },
     {
       "concept_id": "C003",
       "role": "supporting",
-      "why": "Mind is defined as the knowing of an object, arising only with an object and taking one at a time, and running as a stream of extremely brief moments that seems to be one continuous mind because of its speed and the absence of gaps [C003-P:L25]. The ring is the only image in the group that lets a viewer feel that claim rather than be told it. The digest's guard against 'be present' and 'multitasking is a myth' readings applies: this is a description of momentary knowing, not advice about attention."
+      "why": "Mind is defined as the knowing of an object: it arises only in dependence on an object, it takes one object and one aspect of it at a time, and it runs as a beginningless stream of extremely brief moments that passes for a single continuous mind because of its speed and the absence of gaps [C003-P:L25; C003-P:L31; C003-P:L33]. The ring is the only image in the group that lets a viewer feel that claim instead of being told it, which is why C003 belongs here and belongs last, in a single beat, after the thing itself has been seen. The digest's guards are written into that beat. This is not 'be present', since the source has the life-continuum mind carrying an object over from the dying moments of a previous life [C003-P:L41–L45]. It is not 'multitasking is a myth', since one-object-at-a-time describes extremely brief moments of knowing and not a way of working. And the source's own quantities, minds beyond counting in a finger-snap [C003-P:L53], are reported as its teaching if they are used at all, never as measurement."
     },
     {
       "concept_id": "C002",
       "role": "supporting",
-      "why": "The sources describe the ultimate realities as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3]. The earlier draft's claim that what is actually there is 'heat, light and motion, not a ring' went beyond the digest twice over: it glosses the great elements, which the digest says the extract names without defining and which must not be filled in from popular assumptions, and it settles a disagreement the sources leave open, since the Pradeepika says the ultimates are not visible to the eye [C002-P:L34] while the Margaya says the colour element is [C002-M:L17]. The digest records that as unreconciled and flags it for expert reading, so the film does not resolve it and does not claim that the flame is the ultimate reality while the ring is not."
+      "why": "The sources describe the ultimate realities as momentary activities or forces rather than substances [C002-P:L34; C002-M:L3], and the Mārgaya makes that concrete with a drum: each meeting produces its own separate sound, and nothing was stored inside the drum [C002-M:L9]. That is the beat where the procession's drums arrive, so the concept lands on something already in frame. C002 is also the link that keeps the film from over-claiming. An earlier draft had it saying that what is actually there is heat, light and motion rather than a ring, and that goes beyond the digest twice over. It glosses the four great elements, which the extract names without defining [C002-P:L40] and which the digest says must not be filled in from popular assumptions. And it settles a disagreement the sources leave open, since the Pradīpikā says the ultimates are not visible to the eye [C002-P:L34] while the Mārgaya says the colour element is [C002-M:L17]. The digest records that as unreconciled and flags it for expert reading, so the film does not resolve it, and never says that the flame is what is really there while the ring is not."
     }
   ],
-  "what_the_viewer_could_understand": "That when a torch is whirled fast in the dark, people see a ring of fire although there is only one moving flame; the texts use this picture for how named things can seem whole, and describe the mind itself as a fast stream of moments that feels like one.",
-  "what_must_be_real": "The performer's real practice, pay, risk and pride, and the procession as the people holding it intend it. Nothing is performed again for the camera, no fire is lit outside the occasion, and no ritual is paused, repositioned or relit. The film does not present anyone's devotion as an example of being taken in by an appearance.",
-  "position_hint": "closing stretch of the group: it is the point at which the question stops being about names for things outside and turns toward the mind that is doing the looking. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That a shape a whole street can see, with a size and an edge, can be made of nothing but one small thing moving fast; that a steady lamp can be turned into a rhythm precise enough to be given a name and navigated by; and that the texts describe the mind doing the watching in the same terms, as a very fast run of separate moments of knowing rather than one continuous thing. Not that the night was an illusion, and not that anyone was fooled.",
+  "what_must_be_real": "The procession as the people holding it intend it. Nothing is performed again for the camera, no fire is lit outside the occasion, no route is altered and no part of the night is paused, repositioned or relit. Nobody's devotion is presented as being taken in by an appearance, and nobody in the street is told what they are really looking at. Consent from the performers filmed close and from the shrine's organisers, and filming positions that an ordinary person standing in that crowd could have occupied. The lighthouse is filmed with the agreement of whoever operates it, it is never shown in a way that could mislead a mariner, and its light is never simulated, composited or added in a grade.",
+  "position_hint": "closing stretch of the group: it is the point at which the question stops being about names for things outside and turns, once and carefully, toward the mind doing the looking. No location reasoning is involved.",
   "risks": [
-    "Spectacle footage with no person at the centre of it.",
-    "Fire safety, for the performer and for anyone filming close.",
-    "Treating a religious occasion as an illustration of a doctrinal image.",
-    "Sliding into 'nothing is real', which the digest specifically warns the Margaya's wording invites.",
-    "Presenting the sources' account as an anticipation of the physics of persistence of vision.",
-    "Settling, by implication, the sources' own unresolved disagreement about what is visible to the eye."
+    "Treating a religious occasion as an illustration of a doctrinal image; the C001 digest names this as this seed's own danger.",
+    "Sliding into 'nothing is real', which the digest says the Mārgaya's wording specifically invites.",
+    "Presenting the sources' account as an anticipation of the physics of persistence of vision, or as 'science already knew this'.",
+    "Settling, by implication, the sources' own unresolved disagreement about what is visible to the eye, or glossing the four great elements that the extract leaves undefined.",
+    "'Be present', or 'one object at a time, so stop multitasking': the C003 digest rules both out.",
+    "Fire and crowd safety, for the performers and for anyone filming close, on a wet road inside a packed crowd at night.",
+    "Drifting into a festival travelogue in which the procession is the subject and the ring is decoration.",
+    "A long lens taking faces in a crowd that their owners never offered, at an occasion people came to for their own reasons.",
+    "The payoff is one shot on one night. A complete ring needs distance, a long lens, a dark background and a performer working within reach of the camera, and rain, crowd and street lighting are all against it. There is no second take on the same trip.",
+    "Drone flight over a crowded street, a shrine and an operating lighthouse is a real constraint rather than a formality, and may simply be refused."
   ],
   "drop_if": [
-    "No performer will allow the camera into the preparation and the ordinary part of the night.",
-    "Filming positions can only be obtained at the cost of intruding on the ritual."
+    "Filming positions can only be obtained at the cost of intruding on the ritual, or on the safety of a crowded street.",
+    "The fire-turning is not part of the night as it is actually held, so it would have to be arranged or commissioned.",
+    "The shrine's organisers do not want the occasion filmed, or will allow it only on terms that decide what the film says."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0007",
+      "idea_id": "IDEA-0001",
       "relation": "pairs with",
-      "note": "A stream of moments recited in a classroom, and the same stream made visible by a moving flame."
+      "note": "A shape thrown by a mountain that lasts a few minutes at dawn, and a shape made by a hand that lasts exactly as long as the turning."
     },
     {
-      "idea_id": "IDEA-0010",
+      "idea_id": "IDEA-0011",
       "relation": "pairs with",
-      "note": "Something that exists only while the flame keeps moving, and something that exists only while its parts are held together."
+      "note": "A whole that stops existing when you divide it, and a whole that stops existing when you stop moving."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries its episode and is the only kept idea whose central image is the sources' own."
+    "reason": "Stands alone, and is the only idea in the group whose central image is the sources' own, with a second, permanent version of it turning on the same headland every night of the year."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. The old situation, a fire performer's working night, is deleted; no performer is followed as a character and the subject is now the place. New title, old one kept as an alias. New place, two_layers and an eight-beat sequence built around the Mārgaya's own ring of fire, with a headland lighthouse added as the same concept with nobody performing it: a steady lamp, a rotating lens, and a flash rhythm that carries a name. All three concept links re-tested against the digests and rewritten; none dropped and none added. C001 now carries the conventional-teaching permission as well as the ring, C003 is confined to the final beat, and C002 is anchored to the drums that are already in frame. A proposed location added with coordinates, images and sources.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Devinuwara: the town street and Dondra Head",
+    "also_known_as": [
+      {
+        "name": "Devinuwara",
+        "meaning": "the city of the god",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "Devundara",
+        "meaning": "the local spoken form of the same name",
+        "used_by": "the town itself"
+      },
+      {
+        "name": "Dondra Head",
+        "meaning": "the headland and its lighthouse",
+        "used_by": "English usage and marine charts"
+      }
+    ],
+    "region": "Southern Province, Matara District, about six kilometres south-east of Matara, at the southernmost point of Sri Lanka",
+    "coordinates": {
+      "lat": 5.9226,
+      "lng": 80.5931
+    },
+    "elevation_m": 10,
+    "why_here": "It gives the concept twice in the same square kilometre, once with a person and once without, which is exactly what this film needs. The town's annual procession runs for about eight nights along its own streets, is free and public with no ticketed seating, and carries torch-bearers and fire performers as a standing part of the night rather than as an attraction laid on for visitors, so the Mārgaya's own example, the ring made by a whirled torch, can be filmed as something that was going to happen anyway. At the end of the same road, on the headland, a stone tower from 1889 holds a single steady lamp inside a rotating hyperradiant Fresnel lens and turns it into a flash every five seconds, visible for twenty-eight nautical miles, which is the same idea with nobody performing it and is available every night of the year. It is also a small, ordinary town that people mostly drive through, not one of the island's famous processions, which is what the film wants: a road, not a stage. And it is the last land, which gives the opening and closing aerials a subject of their own.",
+    "what_to_film": [
+      "The headland at dusk from out over the water, wide enough to hold the tower, the town behind it and open sea in front, so the aerial says 'the end of the country' without narration.",
+      "The lighthouse from the sea after dark, held long enough for the interval between flashes to become obvious and countable.",
+      "The lantern room if permission allows: the lamp, the ribbed glass, the rotation, and the beam's edge moving across the water below.",
+      "The road in the hour before the procession: shutters, chairs, children on shoulders, an empty lit street.",
+      "The head of the procession arriving, with the drums filmed close enough that individual strikes are separate events.",
+      "One fire-turner at two distances on the same pass: close, where there is plainly one flame and two hands, and then from thirty metres on a long lens, where there is only the ring. These two shots are the film and everything else is built around getting both of them.",
+      "The ring coming apart in real time as the turner slows: hoop to streak to single flame.",
+      "The road at dawn, swept and empty, with the light still turning out on the point."
+    ],
+    "access": "By road from the nearest coastal city, about six kilometres, or from the capital in roughly three hours by the southern expressway; the coastal railway terminates at that city and the last stretch is a short local ride. The procession streets are public, free and unreserved, and people stand alongside local families. Dress and conduct rules apply at the shrine, and shoes are removed before entering it. The lighthouse stands at the end of the road on the point; it is an operating aid to navigation, so entry and any filming from the tower or lantern room would need permission from the authority that runs it.",
+    "best_time": "The procession falls in the Esala month, July or August, over about eight nights with the largest at the end; in 2026 it was announced for 23 July to 5 August. This is the south-west monsoon on that coast, so rain, humidity and rough seas should be expected and planned for rather than hoped away. Both the ring and the beam need a dark night, so within that window the nights furthest from the full moon are the ones to want, which has to be reconciled with the procession's own lunar calendar. The lighthouse can be filmed on any clear night of the year, which means the ending does not have to be got in the same week as the payoff.",
+    "images": [
+      {
+        "caption": "The lighthouse on the headland: the lamp, the lens and the flash the film ends on.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Devinuwara,_Dondra_Head_Lighthouse,_2025-08_CN-01.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Devinuwara,_Dondra_Head_Lighthouse,_2025-08_CN-01.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The shrine entrance in the town, on the road the procession walks.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dondra,_Temple_entrance_-_panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Dondra,_Temple_entrance_-_panoramio.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Last light at the headland, the southernmost point of the island: the opening aerial.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_at_Dondra_head.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Dondra_head.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dondra_Head",
+      "https://en.wikipedia.org/wiki/Dondra_Head_Lighthouse",
+      "https://www.srilankatrip.com.lk/blog/devinuwara-esala-perahera-2026-guide"
+    ],
+    "research_note": "Coordinates, the town's position at the southernmost point, the lighthouse's date, height, lens and five-second flash character, the procession's eight-night Esala run, its 2026 dates and route, its free and unticketed streets, and the presence of torch bearers and fire performers are from the sources above and are desk research only. Whether fire-turning of the kind the payoff needs happens on a given night, where it can be filmed from, drone rules over a shrine, a crowd and an operating lighthouse, and access to the lantern room are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No access, permission or participant has been found or confirmed. Everything here is a research direction.",
+    "Whether fire-turning that produces a complete ring is a standing part of this particular procession, rather than torch-carrying alone, has not been checked on the ground, and the payoff depends entirely on it.",
+    "Whether the lantern room can be entered and filmed, and whether the light can be filmed from the water at night without interfering with navigation.",
+    "Whether drone flight is permitted anywhere near the shrine, the crowd or the lighthouse, and whether a dark-moon night falls inside the procession's own dates in the year of filming."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

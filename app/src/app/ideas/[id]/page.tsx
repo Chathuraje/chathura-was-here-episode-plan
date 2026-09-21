@@ -1,25 +1,31 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CopyButton from "@/components/CopyButton";
-import { createLocationForIdea, setIdeaLocation, setIdeaReview, updateLocation } from "@/app/location-actions";
+import ImageCarousel from "@/components/ImageCarousel";
+import { groupQuota, setIdeaReview } from "@/app/idea-actions";
 import { buildIdeaBrief, briefToMarkdown } from "@/lib/brief";
-import { getDevelopment, ideasAtLocation, IDEA_REVIEW_STATUSES } from "@/lib/development";
+import { IDEA_REVIEW_STATUSES } from "@/lib/development";
 import { formatCoordinates, googleMapsUrl, isInSriLanka } from "@/lib/geo";
 
+// One verdict covers the idea and the place it proposes: the sequence is built from that
+// place's own visuals, so the two cannot be accepted or refused separately.
 const reviewBlurb: Record<string, string> = {
-  confirmed: "Confirmed. Ready for a location.",
-  pending: "Not decided yet.",
-  rejected: "Rejected. Kept on file so a replacement can be generated for this group.",
+  confirmed: "Confirmed, place included. Ready for the next step.",
+  pending: "Not decided yet. Confirming accepts the proposed place along with the idea.",
+  rejected: "Rejected. Kept on file so a replacement can be written for this group.",
 };
 
 export default async function IdeaPage({ params }: { params: Promise<{ id: string }> }) {
-  const [brief, dev] = await Promise.all([buildIdeaBrief((await params).id.toUpperCase()), getDevelopment()]);
+  const brief = await buildIdeaBrief((await params).id.toUpperCase());
   if (!brief) notFound();
-  const { idea, group, object, place } = brief;
+  const { idea, group, object } = brief;
   const markdown = briefToMarkdown(brief);
-  // Places another idea already uses. A place exists only while an idea points at it.
-  const places = [...dev.places.values()].sort((a, b) => a.name.localeCompare(b.name));
-  const sharedWith = place ? ideasAtLocation(dev, place.id).filter((entry) => entry.id !== idea.id) : [];
+  // A group makes a fixed number of films, so confirming is capped. An idea already confirmed
+  // is excluded from the count, so re-saving it never trips its own cap.
+  const quota = await groupQuota(idea.group_id, idea.id);
+  const alreadyIn = idea.review.status === "confirmed";
+  const quotaBlocks = quota.full && !alreadyIn;
+  const statuses = IDEA_REVIEW_STATUSES.filter((status) => status !== "confirmed" || !quotaBlocks);
 
   return (
     <>
@@ -39,14 +45,49 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
         <article className="source-stack">
           <section className="source-document">
             <p className="lead-question">{idea.human_question}</p>
-            <div className="layer-grid">
-              <div><span className="layer-label">What happens</span><p>{idea.situation.what_happens}</p></div>
-              <div><span className="layer-label">Who is involved</span><p>{idea.situation.who_is_involved}</p></div>
-              <div><span className="layer-label">What is at stake</span><p>{idea.situation.what_is_at_stake}</p></div>
-              <div><span className="layer-label">How it unfolds</span><p>{idea.situation.how_it_unfolds}</p></div>
-            </div>
+            {idea.place ? (
+              <div className="layer-grid">
+                <div><span className="layer-label">What kind of place</span><p>{idea.place.what_kind_of_place}</p></div>
+                <div><span className="layer-label">Why it is worth watching</span><p>{idea.place.why_it_is_worth_watching}</p></div>
+                <div><span className="layer-label">What moves or changes</span><p>{idea.place.what_moves_or_changes}</p></div>
+                <div><span className="layer-label">When it looks best</span><p>{idea.place.when_it_looks_best}</p></div>
+              </div>
+            ) : idea.situation ? (
+              <div className="layer-grid">
+                <div><span className="layer-label">What happens</span><p>{idea.situation.what_happens}</p></div>
+                <div><span className="layer-label">Who is involved</span><p>{idea.situation.who_is_involved}</p></div>
+                <div><span className="layer-label">What is at stake</span><p>{idea.situation.what_is_at_stake}</p></div>
+                <div><span className="layer-label">How it unfolds</span><p>{idea.situation.how_it_unfolds}</p></div>
+              </div>
+            ) : <p className="panel-note warn">This idea has not been written yet.</p>}
             <p className="panel-note">An idea carries no scene or shot decisions. Those come later.</p>
           </section>
+
+          {idea.two_layers && (
+            <section className="source-document">
+              <div className="source-document-head"><div><span>Two layers</span><h2>What each viewer gets</h2></div></div>
+              <div className="layer-grid">
+                <div><span className="layer-label">With the sound off</span><p>{idea.two_layers.without_the_philosophy}</p></div>
+                <div className="layer-depth"><span className="layer-label">With the philosophy</span><p>{idea.two_layers.with_the_philosophy}</p></div>
+              </div>
+            </section>
+          )}
+
+          {idea.sequence?.length ? (
+            <section className="source-document">
+              <div className="source-document-head"><div><span>Sequence</span><h2>What is seen, and what is said over it</h2></div></div>
+              {idea.sequence.map((beat, index) => (
+                <div className="idea-concept" key={`${index}-${beat.on_screen.slice(0, 24)}`}>
+                  <div>
+                    <span className="badge">{index + 1}</span>
+                    {beat.concept_id && <> <Link className="id-link" href={`/concepts/${beat.concept_id}`}>{beat.concept_id}</Link></>}
+                  </div>
+                  <p><b>On screen:</b> {beat.on_screen}</p>
+                  <p className="panel-note">&ldquo;{beat.voice}&rdquo;</p>
+                </div>
+              ))}
+            </section>
+          ) : null}
 
           <section className="source-document">
             <div className="source-document-head"><div><span>Concept merge</span><h2>Why these concepts belong together</h2></div></div>
@@ -91,109 +132,86 @@ export default async function IdeaPage({ params }: { params: Promise<{ id: strin
               <label>
                 Set status
                 <select name="status" defaultValue={idea.review.status}>
-                  {IDEA_REVIEW_STATUSES.map((status) => <option key={status} value={status}>{status}</option>)}
+                  {statuses.map((status) => <option key={status} value={status}>{status}</option>)}
                 </select>
               </label>
               <textarea name="note" rows={2} placeholder="Why (optional)" defaultValue={idea.review.note} />
               <button className="button primary" type="submit">Save status</button>
-              <small className="muted-note">Chathura&apos;s verdict. The AI recommendation below never changes it.</small>
+              <small className="muted-note">
+                Chathura&apos;s verdict, covering the proposed place as well. The AI recommendation below never changes it.
+              </small>
+              <p className={`panel-note${quotaBlocks ? " warn" : ""}`}>
+                {alreadyIn
+                  ? `This is one of ${idea.group_id}'s ${quota.cap} confirmed ideas (${quota.confirmed + 1}/${quota.cap} used). Setting it back to pending or rejected frees a slot.`
+                  : quotaBlocks
+                    ? `${idea.group_id} is full: all ${quota.cap} of its films are already confirmed. Release one from its own page before confirming this.`
+                    : `${idea.group_id} has ${quota.confirmed} of ${quota.cap} films confirmed, so ${quota.cap - quota.confirmed} slot${quota.cap - quota.confirmed === 1 ? "" : "s"} remain${quota.cap - quota.confirmed === 1 ? "s" : ""}.`}
+              </p>
             </form>
           </section>
 
           <section className="panel location-panel">
-            <span className="layer-label">Location</span>
-            {place ? (
+            <span className="layer-label">Proposed location</span>
+            {idea.suggested_location ? (
               <>
-                <h2>{place.name}</h2>
+                <h2>{idea.suggested_location.name}</h2>
                 <p className="panel-note">
-                  {place.region || "no region set"} · {place.id}{idea.location.set_at ? ` · set ${idea.location.set_at}` : ""}
+                  {idea.suggested_location.region}
+                  {idea.suggested_location.elevation_m ? ` · ${idea.suggested_location.elevation_m} m` : ""}
+                  {" · proposed by "}{idea.suggested_location.proposed_by}
                 </p>
-                {place.coordinates ? (
-                  <p className="panel-note">
-                    <a href={googleMapsUrl(place.coordinates)} target="_blank" rel="noreferrer">{formatCoordinates(place.coordinates)} ↗</a>
-                    {!isInSriLanka(place.coordinates) && <span className="warn"> · outside Sri Lanka</span>}
-                  </p>
-                ) : <p className="panel-note warn">No coordinates yet, so it is missing from the map.</p>}
-                {place.note && <p className="panel-note">{place.note}</p>}
-                {idea.location.note && <p className="panel-note">Note on this choice: {idea.location.note}</p>}
-                {sharedWith.length > 0 && (
-                  <p className="panel-note">
-                    Also used by {sharedWith.map((entry) => <Link key={entry.id} href={`/ideas/${entry.id}`}>{entry.id} </Link>)}
-                  </p>
+                <p className="panel-note">
+                  <a href={googleMapsUrl(idea.suggested_location.coordinates)} target="_blank" rel="noreferrer">
+                    {formatCoordinates(idea.suggested_location.coordinates)} ↗
+                  </a>
+                  {!isInSriLanka(idea.suggested_location.coordinates) && <span className="warn"> · outside Sri Lanka</span>}
+                </p>
+
+                <ImageCarousel images={idea.suggested_location.images} />
+
+                <p><b>Why here:</b> {idea.suggested_location.why_here}</p>
+                <div>
+                  <span className="layer-label">What to film</span>
+                  <ul className="plain-list">{idea.suggested_location.what_to_film.map((item) => <li key={item}>{item}</li>)}</ul>
+                </div>
+                <p className="panel-note"><b>Access:</b> {idea.suggested_location.access}</p>
+                <p className="panel-note"><b>Best time:</b> {idea.suggested_location.best_time}</p>
+                {idea.suggested_location.also_known_as?.length ? (
+                  <div>
+                    <span className="layer-label">Also known as</span>
+                    <ul className="plain-list">
+                      {idea.suggested_location.also_known_as.map((entry) => (
+                        <li key={entry.name}><b>{entry.name}</b> — {entry.meaning} ({entry.used_by})</li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
+                {idea.suggested_location.research_note && (
+                  <p className="panel-note warn">{idea.suggested_location.research_note}</p>
                 )}
-
-                <details className="new-location">
-                  <summary className="small-link">Edit this place</summary>
-                  <form action={updateLocation} className="location-form">
-                    <input type="hidden" name="location_id" value={place.id} />
-                    <label>Place name<input name="name" defaultValue={place.name} required /></label>
-                    <label>Region or district<input name="region" defaultValue={place.region} /></label>
-                    <label>
-                      Coordinates
-                      <input name="coordinates" defaultValue={place.coordinates ? formatCoordinates(place.coordinates) : ""} placeholder="7.29060, 80.63370" />
-                    </label>
-                    <label>About the place<textarea name="location_note" rows={2} defaultValue={place.note} /></label>
-                    <button className="button primary" type="submit">Save place</button>
-                    <small className="muted-note">
-                      Paste &ldquo;lat, lng&rdquo; from Google Maps. Leaving it empty takes the place off the map.
-                      {sharedWith.length > 0 ? ` This place is shared with ${sharedWith.length} other idea${sharedWith.length === 1 ? "" : "s"}.` : ""}
-                    </small>
-                  </form>
-                </details>
-
-                <form action={setIdeaLocation} className="location-form">
-                  <input type="hidden" name="idea_id" value={idea.id} />
-                  <input type="hidden" name="location_id" value="" />
-                  <button className="button subtle" type="submit">Remove the location from this idea</button>
-                  <small className="muted-note">
-                    {sharedWith.length ? "Other ideas keep using the place." : "Nothing else uses this place, so the record goes with it."}
-                  </small>
-                </form>
+                {idea.suggested_location.sources?.length ? (
+                  <p className="panel-note">
+                    Sources: {idea.suggested_location.sources.map((url) => (
+                      <a key={url} href={url} target="_blank" rel="noreferrer">{new URL(url).hostname} ↗ </a>
+                    ))}
+                  </p>
+                ) : null}
               </>
             ) : (
               <>
-                <h2>Not chosen</h2>
-                <p className="panel-note">This idea has no place yet. An idea holds one location, added here.</p>
-
-                <form action={createLocationForIdea} className="location-form">
-                  <input type="hidden" name="idea_id" value={idea.id} />
-                  <label>Place name<input name="name" placeholder="e.g. Sri Pada / Adam&apos;s Peak" required /></label>
-                  <label>Region or district<input name="region" placeholder="e.g. Ratnapura–Nuwara Eliya" /></label>
-                  <label>
-                    Coordinates
-                    <input name="coordinates" placeholder="7.29060, 80.63370" />
-                  </label>
-                  <label>About the place<textarea name="location_note" rows={2} placeholder="Access, season, who to ask (optional)" /></label>
-                  <label>Note about this choice<textarea name="note" rows={2} placeholder="Why here, for this idea (optional)" /></label>
-                  <button className="button primary" type="submit">Add this place</button>
-                  <small className="muted-note">
-                    Paste &ldquo;lat, lng&rdquo; from Google Maps to put it on the <Link href="/locations">Locations</Link> map.
-                  </small>
-                </form>
-
-                {places.length > 0 && (
-                  <details className="new-location">
-                    <summary className="small-link">Or reuse a place another idea already has</summary>
-                    <form action={setIdeaLocation} className="location-form">
-                      <input type="hidden" name="idea_id" value={idea.id} />
-                      <label>
-                        Place
-                        <select name="location_id" required defaultValue="">
-                          <option value="" disabled>Choose a place…</option>
-                          {places.map((entry) => (
-                            <option key={entry.id} value={entry.id}>{entry.name}{entry.region ? ` (${entry.region})` : ""}</option>
-                          ))}
-                        </select>
-                      </label>
-                      <textarea name="note" rows={2} placeholder="Note about this choice (optional)" />
-                      <button className="button primary" type="submit">Use this place</button>
-                    </form>
-                  </details>
-                )}
+                <h2>None proposed</h2>
+                <p className="panel-note">
+                  This idea has not been rewritten yet, so no place has been proposed for it. A location arrives with the
+                  rewrite, together with the reason it fits, and is confirmed or rejected here.
+                </p>
               </>
             )}
 
-            <p className="panel-note">Choosing a place verifies nothing about access, participants or permissions.</p>
+            <p className="panel-note">
+              Confirmed or rejected with the idea above, not separately. A proposed place verifies nothing
+              about access, participants or permissions.
+            </p>
           </section>
 
           <section className="panel">

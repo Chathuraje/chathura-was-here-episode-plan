@@ -87,10 +87,17 @@ export default async function EpisodePage({ params }: { params: Promise<{ id: st
           <section className="source-document">
             <p className="lead-question">{idea.human_question}</p>
             <div className="layer-grid">
-              <div><span className="layer-label">What happens</span><p>{idea.situation.what_happens}</p></div>
-              <div><span className="layer-label">Who is involved</span><p>{idea.situation.who_is_involved}</p></div>
-              <div><span className="layer-label">What is at stake</span><p>{idea.situation.what_is_at_stake}</p></div>
-              <div><span className="layer-label">How it unfolds</span><p>{idea.situation.how_it_unfolds}</p></div>
+              {idea.place ? <>
+                <div><span className="layer-label">What kind of place</span><p>{idea.place.what_kind_of_place}</p></div>
+                <div><span className="layer-label">Why it is worth watching</span><p>{idea.place.why_it_is_worth_watching}</p></div>
+                <div><span className="layer-label">What moves or changes</span><p>{idea.place.what_moves_or_changes}</p></div>
+                <div><span className="layer-label">When it looks best</span><p>{idea.place.when_it_looks_best}</p></div>
+              </> : idea.situation ? <>
+                <div><span className="layer-label">What happens</span><p>{idea.situation.what_happens}</p></div>
+                <div><span className="layer-label">Who is involved</span><p>{idea.situation.who_is_involved}</p></div>
+                <div><span className="layer-label">What is at stake</span><p>{idea.situation.what_is_at_stake}</p></div>
+                <div><span className="layer-label">How it unfolds</span><p>{idea.situation.how_it_unfolds}</p></div>
+              </> : null}
             </div>
             <p className="panel-note">Concepts: {brief.concepts.map((concept) => `${concept.id} (${concept.role})`).join(" · ")}</p>
           </section>

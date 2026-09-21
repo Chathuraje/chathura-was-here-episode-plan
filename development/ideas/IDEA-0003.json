@@ -2,77 +2,193 @@
   "schema_version": 1,
   "id": "IDEA-0003",
   "record_type": "idea",
-  "title": "The Name in Use",
+  "title": "Which Way Is Out",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [
+    "The Name in Use",
     "IDEA-P01-B"
   ],
   "group_id": "GRP-01",
-  "logline": "The same shared thing carries more than one name, and which name is used changes what people actually do next.",
-  "human_question": "What changes in people's actions and relationships when the same part of their shared world carries different names?",
-  "situation": {
-    "what_happens": "Something everybody depends on, a junction, a crossing, a stretch of water, a building, is known by more than one name, and the names are not interchangeable in practice. One is what the elders say, one is what is written on the signboard, one is what the paperwork requires, one is what a conductor calls out. People switch between them without thinking, choosing by who they are talking to. Occasionally the switch fails: a direction is misunderstood, a form is rejected, someone is corrected. The naming is not a curiosity here; it is the machinery by which people coordinate.",
-    "who_is_involved": "People who have to be understood in order to do their work: someone giving directions, someone calling stops, someone writing an address on a form, a teacher, a clerk. Elders who use the older word, younger people who use the newer one, and the person caught between them who has to translate.",
-    "what_is_at_stake": "Small, concrete things: a journey taken twice, a delivery that does not arrive, a document returned. Underneath them, sometimes, a history that one name records and another does not, which is why the switching is careful and why nobody involved treats it as trivial.",
-    "how_it_unfolds": "It starts as a practical need that moves through the place, and turns whenever a second name arrives and a different action follows. The pressures are time, paperwork and the feelings attached to the older or newer word. It can end with the names sitting side by side quite comfortably, or with a genuine difficulty, or with the finding that nobody minds at all. Reality decides, and 'the names cause no difficulty' is a real possible outcome that the film must be willing to report."
+  "logline": "A lagoon and the open sea lie a hundred metres apart with a bank of sand between them, and every direction anybody uses there is decided by which way the water happens to be going at that hour.",
+  "human_question": "If 'out' is only a word for the way the water is moving right now, how many of the directions I steer my life by are names for a passing arrangement?",
+  "place": {
+    "what_kind_of_place": "A pair of shallow brackish lagoons behind a barrier beach on a south-facing coast, joined to one another by a channel and to the sea by a single narrow outlet. Salt flats, drowned scrub and low mangrove around the edges; sheets of open water rarely more than an arm's length deep; and between the lagoon and the surf a long low bar of sand that closes the outlet for part of the year and is opened again, sometimes by a flood coming down from the landward side and sometimes by people with mammoties. Waders and terns all year, large numbers of migrating birds in season, a few fishing families, a scatter of coconut and one rounded rock hill. Almost nothing in it is more than two metres tall.",
+    "why_it_is_worth_watching": "It is a place with hardly any vertical information in it, which makes it a subject for a camera in the air rather than one on a tripod. From directly overhead the whole system reads as flat graphic bands: green sea, a white line of surf, a pale bar, brown water, grey salt flat, and one moving element, the channel. When the outlet is running hard, two colours meet inside it along a hard edge that travels; when it reverses, the same edge travels the other way. And because the coast faces south and there is water on three sides, the sun comes up out of water and goes down into water, so that on the right evenings the sun setting on one side and the moon already up on the other can be held in a single frame with the channel running between them.",
+    "what_moves_or_changes": "Everything in the film is on the moon's schedule or the season's and none of it can be arranged. The channel fills and empties. The bar builds until it shuts, and then goes, and the water behind it drops by a visible amount in a day. The lagoon runs from salt towards nearly fresh and back again, and the birds and the fishing follow it. Nets are set facing one way and hours later they are turned around. The only thing that stays where it is is the sand.",
+    "when_it_looks_best": "Around the days when the outlet is open and running hard, and at the two ends of the day, when low sun across flat water separates the bands of colour. The event the trip is timed to is a breach, either the closing build-up or the opening itself. Full and new moon give the strongest movement in the channel and the best chance of the sun and the moon in one frame."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet, graphic coastal film about a flat place with an enormous amount of sky, held together by one narrow channel that the sea fills and the land empties. A bar of sand closes; water piles up behind it; the bar goes, and the lagoon pours into the surf in a brown plume that spreads out into the green; birds arrive on the exposed mud; and by evening the whole thing is running the other way. Nothing is explained and nothing needs to be. It is strange and beautiful and it finishes where it started.",
+    "with_the_philosophy": "The same footage becomes the sources' plainest category, which is also their least discussed one. The voice points only at what the viewer has already seen: a channel that is 'the way out' for as long as it happens to be flowing that way, a bank of sand that changes its name the moment it is cut, and the two lights in the sky that every direction and every hour in the place is measured from. Nobody on screen is wrong about anything. The naming is working perfectly. The film only shows what it is made of."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light. Drone very high and straight down: sea, a line of surf, a pale bar of sand, brown lagoon, grey salt flat. No horizon in the frame and nothing to give scale, and one thin channel joining the top of the picture to the bottom.",
+      "voice": "Everybody who works here talks in directions. Out, in, up, down, the sea side, the land side. Not one of those words is a fact about the water. They are names for which way it is going at the moment somebody says them.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Ground level at the bar in the middle of the morning. A wall of sand with surf breaking on one side of it and standing water on the other, visibly higher than the sea, held back by a hundred metres of beach.",
+      "voice": "The books keep a short list of the things the mind assembles and then treats as objects. A whole made of parts. A shape. A being. A space. And two that this place is built out of: a direction, and a time.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "The bar goes. A narrow cut widens by itself as the sand collapses into it, and the lagoon pours through into the surf, a brown plume opening out into the green and drifting along the coast.",
+      "voice": "They also say where those two come from. Direction and time are read off the turning of the sun and the moon and from nothing else. So the water in front of you is moving because of the moon. The word for the way it is moving is ours.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Hours later, the identical frame. The channel is running the other way, and a hard edge of clear sea water is travelling inland along it into the brown.",
+      "voice": "Same channel. More or less the same water. An hour ago this was the way out, and now it is the way in, and nothing about it has changed except which side was higher.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Low over the channel and the flats: a stake net pulled and reset the other way round; a small outboard trimmed; someone wading with the current behind them instead of against it; a hand pointing across the water while giving directions.",
+      "voice": "None of this is a mistake anybody is making. A name is what makes a thing known, and it is doing its job. These words tell people where to stand, which way to face, when to go out and when to give up, and they work because everyone here has agreed on them.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "A voice calls across open water from one boat to another and is answered; then the flats, where a single word travels fifty metres and somebody turns around.",
+      "voice": "What crosses the water is a sound, and the sound is a real thing. It starts, it arrives, it stops. The meaning does not travel with it. That gets supplied at the far end, by somebody who was taught the same words. The sound is real. The name it carries is not the same kind of item at all.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "Last light, wide and low over the water: the sun going down into the sea on one side of the frame and the moon already up over the lagoon on the other, the channel still running between them.",
+      "voice": "There they are, both of them, in one picture. Between them these two settle every direction and every hour anybody here uses. Morning. Evening. The month the bar closes. The way out. Nothing in this place has a direction of its own. There is only water going somewhere, and two lights we have all agreed to measure it from.",
+      "concept_id": "C084"
+    }
+  ],
   "concept_merge": {
-    "why_together": "This idea carries C084 alone, and deliberately. It is the plainest possible case of the sources' distinction: a name-concept, the thing the mind takes up when it hears it [C084-P:L25], and the spoken sound that is ultimately real while the name it carries is not [C084-M:L21]. Because it is the plainest case, it is also the thinnest film, and its substance belongs inside a situation that supplies stakes of its own.",
-    "what_it_reveals": "That names are not labels sitting on top of a world that would carry on unchanged without them. They are instructions people act on, and a film can watch the acting rather than the naming."
+    "why_together": "This idea carries C084 alone, and now for a positive reason rather than a thin one. Read fresh, the digest's list of meaning-concepts is not a single undifferentiated point: it separates the collective whole, the shape, the being, the space, and then two items of a different kind, direction and time, which the Margaya says are felt with the turning of the sun and the moon as their basis [C084-P:L27–L41; C084-M:L11–L19]. That is a claim a camera can test, because it names the physical cause of the concept and puts it in the sky. A tidal outlet supplies the rest of the digest without any second concept being needed: paññatti as both what is made known and what makes it known [C084-P:L25], and the Margaya's separation of the spoken sound, which is ultimately real, from the name it conveys, which is not [C084-M:L21], which is audible here because people shout single words across open water and are understood.",
+    "what_it_reveals": "That direction is the easiest case in the whole list and the one nobody notices. A whole made of parts at least has parts. A direction has nothing at all: it is a relation between where the water is and where you are, and it reverses twice a day under a bank of sand that is also being renamed. The film can therefore make the sources' point without taking anything away from anybody, because there is no rival claim to settle and nobody's word to correct. The closing frame is the argument rather than an illustration of it: the sun and the moon, which the sources say direction and time are worked out from, in the same shot as the water they are being worked out on."
   },
   "concept_links": [
     {
       "concept_id": "C084",
       "role": "primary",
-      "why": "Conventional wholes, their names, the spoken sound and the meaning assigned to it, all in ordinary use [C084-P:L25; C084-M:L21]. The digest's limits govern this idea more tightly than any other in the group: a film must not tell a participant that the name they use is wrong, and where naming has a political history the film must not take a side or mock anyone's usage."
+      "why": "The Pradeepika lists direction and time among the meaning-concepts, alongside the collective whole, the shape, the being and the space [C084-P:L27–L41], and the Margaya grounds those two in particular, saying that the concepts of direction and of time are felt with the rotation of the sun and the moon as their basis [C084-M:L11–L19]. A tidal outlet is where that becomes visible rather than notional: the same channel is 'out' and then 'in' inside a few hours, and the cause is overhead. The general definition of paññatti as both the thing made known and the means of making it known [C084-P:L25] carries beat five, where the words are seen instructing people rather than describing anything, and the Margaya's distinction between the spoken sound, which is ultimately real, and the name it conveys, which is not [C084-M:L21], carries beat six, because a single word crossing fifty metres of water is the cleanest case of it available. The digest's limits are written into the film and into the risks: it must never tell anyone that the word they use is wrong; it must not overreach into 'language constructs reality', since the sources keep sound, colour, feeling and mind fully real and treat conventional wholes as valid in their own domain; and the existent and non-existent pairs are technical categories, never a scheme of true and false. No second concept is added, because nothing in the digest is left over that the place could carry better."
     }
   ],
-  "what_the_viewer_could_understand": "That a name is not decoration on top of a thing; it is a shared agreement that people act on, and the same thing can carry several of them at once without any of them being false.",
-  "what_must_be_real": "The terms actually used, by whom, and in which situation, checked with the people who use them. Nobody is prompted to use a name they would not otherwise use, and no naming dispute is opened up for the film's benefit.",
-  "position_hint": "flexible; its substance now sits inside IDEA-0001, where the same observation has a climb, a crowd and a night to carry it.",
+  "what_the_viewer_could_understand": "That a direction is not a property of anything, only a name for how two things currently stand to each other, and that it can reverse entirely without anything being taken away or anybody being mistaken.",
+  "what_must_be_real": "The tide, the breach and the reversal, all of them filmed on the days they actually happen. The bar is never cut, widened or helped for the camera, and if a breach does not come within the window the film either waits or is made without one. Nobody is asked to reset a net, take a boat out, or call across the water for a shot. The sun-and-moon frame is a real conjunction on a real evening and is never composited or graded into existence. Anybody working in the frame has agreed to be in it, in the language they use, and no one is asked to explain a direction they use without thinking.",
+  "position_hint": "flexible, and probably early: it is the simplest object in the group's list of concepts and it needs nothing explained before it. No location reasoning is involved.",
   "risks": [
-    "Declaring one community's term the correct one, in narration or by editing.",
-    "Exposing or inflaming a dispute that the people involved manage quietly.",
-    "Having no human stake at all, so that the film becomes an illustration of a distinction."
+    "Disturbing birds. This is a shallow wetland used by large numbers of waders and migrants, and a drone at low level over roosting or feeding flocks is a real harm, not a permitting formality.",
+    "Turning up at a breach as spectators. Opening a lagoon mouth affects salinity, fishing and cultivation, and it is sometimes disputed; the film records that it happened and does not stage, encourage or celebrate it.",
+    "Overreaching into 'language constructs reality' or 'nothing is real'; the digest rules both out and the sources keep the ultimates fully real.",
+    "Telling anybody on screen that their word for a direction, a season or a stretch of water is wrong, which the digest forbids outright.",
+    "Treating the sources' existent and non-existent pairs as 'true' and 'false' names; they are technical categories.",
+    "Filming a wetland whose salinity and fishery have been altered by upstream irrigation as though it were untouched nature.",
+    "A beautiful but static film. Everything that moves here moves slowly, and without a breach or a strong reversal the middle of the film has nothing in it.",
+    "The closing frame needs the sun and the moon in one shot on a clear evening within the window, and there is no second chance on the same trip."
   ],
   "drop_if": [
-    "The names turn out to be interchangeable synonyms with no consequence for anyone.",
-    "The only way to show the difference is to set it up."
+    "The outlet has been permanently fixed or engineered, so that the reversal is no longer something the place does on its own.",
+    "Filming cannot be done without disturbing birds or the people who fish there.",
+    "The only way to get a breach on camera is to ask for one, or to be present because one has been arranged."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0001",
-      "relation": "merged into",
-      "note": "Its observation, that a name is an instruction people act on, now lives in the opening film, where the naming has a night and a crowd around it."
+      "relation": "pairs with",
+      "note": "One thing carrying four names at once, and one thing whose name reverses twice a day without anybody disagreeing about it."
+    },
+    {
+      "idea_id": "IDEA-0008",
+      "relation": "pairs with",
+      "note": "The two items the sources ground in the turning of the sun and the moon, taken one each: a direction here, an hour there."
+    },
+    {
+      "idea_id": "IDEA-0011",
+      "relation": "mirrors",
+      "note": "Sea water let deliberately through a gate and renamed at every bund, and sea water arriving through a gap that opened by itself."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0001",
-    "reason": "The abstract form of IDEA-0001; folded into it so the same observation is carried by a situation with stakes."
+    "superseded_by": null,
+    "reason": "It is the group's only film on direction, the emptiest item in the sources' list of concepts, and a tidal outlet is where that item becomes visible."
   },
-  "source_doc": "docs/planning/pilot-01/idea-p01-b-the-name-in-use.md",
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. The old situation, about a shared thing carrying several names and the trouble that causes, is gone; that was the abstract form of the opening film and it duplicated it. Read fresh, the digest separates direction and time from the rest of its list and grounds them in the turning of the sun and the moon, so the film is now built on that: one lagoon outlet whose direction reverses under the moon, and a closing frame holding the sun and the moon and the water in one shot. New title, new place / two_layers / sequence, and the C084 link rewritten from the digest. No second concept was added; the note in the link says why. The digest's guards against correcting anybody's usage, against 'language constructs reality' and against reading the existent and non-existent pairs as true and false are carried in the link and the risks. Location proposed and researched at desk level; every place name is kept inside suggested_location.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Kalametiya lagoon and its outlet",
+    "also_known_as": [
+      {
+        "name": "Kalametiya Bird Sanctuary",
+        "meaning": "the protected area declared over the lagoon system",
+        "used_by": "the wildlife department and signage"
+      },
+      {
+        "name": "the Lunama–Kalametiya lagoons",
+        "meaning": "the paired lagoons treated as one wetland",
+        "used_by": "research and conservation literature"
+      }
+    ],
+    "region": "Hambantota District, Southern Province; on the coast between Tangalle and Hambantota",
+    "coordinates": {
+      "lat": 6.0833,
+      "lng": 80.9333
+    },
+    "why_here": "It is the rare case where the concept and the picture are the same object. The lagoon is separated from the sea by a narrow strip of beach and drains through one narrow outlet that periodically closes completely, so the film's whole argument, that 'out' is a name for a passing arrangement, is a thing the place does by itself several times a year. It is shallow, flat and almost featureless at ground level, which pushes the camera into the air and turns the coast into the bands of colour the film is composed from. It faces south with water on three sides, which is what makes the closing frame possible. And it is small, unglamorous and largely unvisited except by birdwatchers, which is what the film wants: the sources' point about direction is best made somewhere nobody has come to be impressed.",
+    "what_to_film": [
+      "The whole system from very high and straight down, at first light, as flat bands with one channel crossing them. This is the opening frame and it needs still air and no boats.",
+      "The bar when it is shut: the level difference between the standing lagoon and the sea, filmed from the beach so that both are in one shot and the viewer can see which side is higher.",
+      "A breach as it happens, or as soon after as possible: the cut widening, the plume opening into the green, the exposed mud behind.",
+      "The reversal, filmed from the identical position and framing as the outflow, so the two shots can be cut against each other without any other change.",
+      "The working detail at the channel: a stake net turned around, a boat trimmed the other way, somebody wading with and then against the current.",
+      "A word carrying across open water and being answered, recorded properly, for the sound-and-name beat.",
+      "The sun going down into water and the moon up over the lagoon in one frame, with the channel between them. This is the payoff shot and the trip is timed for it.",
+      "Waders and terns on the exposed mud after a breach, filmed from far enough away that nothing lifts."
+    ],
+    "access": "Reached from the main coast road between Tangalle and Hambantota, with village tracks running down to the lagoon edge. The water is shallow and is worked from small craft and rafts; guided lagoon trips operate there. It is a declared sanctuary, so filming and any aerial work need permission from the wildlife authority and not only from landowners.",
+    "best_time": "Timed to a breach, which follows rainfall and the state of the bar rather than a calendar, so it needs local watching. The migratory season brings the largest bird numbers and also the greatest disturbance risk. Within a day, the first and last hour; within a month, around full and new moon for the strongest movement in the channel.",
+    "images": [
+      {
+        "caption": "The lagoon: shallow open water, low scrub and salt flat, with almost nothing standing above two metres.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalametiya.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kalametiya.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Late light across the same water, which is the register the closing frame is looking for.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_in_the_Kalametiya_Bird_Sanctuary.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunset_in_the_Kalametiya_Bird_Sanctuary.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The flat lagoon landscape with a small craft on it, for scale and for the working-detail beats.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bird_Sanctuary_Landscape.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bird_Sanctuary_Landscape.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://news.mongabay.com/2023/07/photos-sri-lankas-kalametiya-lagoon-draws-tourists-to-see-native-and-migrant-birds/",
+      "https://portals.iucn.org/library/node/8774",
+      "https://www.kalametiyabirds.com/about.html"
+    ],
+    "research_note": "The narrow strip of beach, the single outlet that periodically closes, the paired lagoons, the sanctuary declaration and the bird interest are from the sources above. The coordinates are the commonly cited point for the sanctuary and are approximate to the lagoon system rather than to the outlet itself; the outlet's exact position moves. Tidal range on this coast is small, so how strongly and how often the channel actually reverses has not been verified and is the first thing to check on the ground. Reports that upstream irrigation has freshened the lagoon and changed its fishery are noted but unverified here. Drone and filming permissions inside a declared sanctuary are unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": "docs/planning/pilot-01/idea-p01-b-the-name-in-use.md",
+  "unknowns": [
+    "No permission, contact or fishing household has been found or confirmed. Everything here is a research direction.",
+    "How strongly the outlet reverses on an ordinary day, as against only at a breach, is unverified, and the middle of the film depends on it.",
+    "When breaches typically occur, whether they are natural or dug, and who decides, has not been established.",
+    "Filming and aerial permissions inside a declared sanctuary, and the disturbance rules that would apply during the migratory season, are unverified and may be refused.",
+    "The exact position of the outlet is not fixed and the coordinates given are for the lagoon system."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and its supporting detail is desk research and unverified. No scene or shot is decided here; the sequence is a shape for the film, not a shot list."
 }

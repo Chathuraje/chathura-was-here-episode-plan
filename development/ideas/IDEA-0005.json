@@ -2,64 +2,110 @@
   "schema_version": 1,
   "id": "IDEA-0005",
   "record_type": "idea",
-  "title": "The Same Boat",
+  "title": "What Will Not Wash Away",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Same Boat"
+  ],
   "group_id": "GRP-01",
-  "logline": "A working boat is hauled out and opened up, and for several weeks the thing everyone still calls by its one name is a stack of separate parts lying on the sand.",
-  "human_question": "If every part has changed, what is it that stays 'the same'?",
-  "situation": {
-    "what_happens": "A boat that has been repaired for years, to the point where little of the original hull remains, comes out of the water for a major repair. It is taken apart further than usual: planks prised off, ribs cut out, fastenings drawn, the good timber kept and the rotten burned or turned into something else. For a while there is no boat, only its parts and its name, and everyone on the beach goes on using the name for the heap. Then it is closed up again, the name is repainted on the bow, and it goes back to work. Somewhere in that sequence the parts became the boat again, and nobody can say exactly when.",
-    "who_is_involved": "The owner, whose income stops while the boat is out of the water; the carpenter doing the work, who knows which parts are original because he replaced the others; the crew who fish from it; and the people who take the discarded timber away for fences, firewood or a patched roof.",
-    "what_is_at_stake": "Money, directly: every week ashore is a week not fishing, and the cost of timber decides how much gets replaced and how much is patched again. For the carpenter, a judgement he will be blamed for if the repair fails at sea. For the older owner, the question of whether the boat outlasts him or he outlasts it.",
-    "how_it_unfolds": "It begins with a decision that the repair can no longer be postponed, and proceeds by discovery, since nobody knows how far the rot has gone until the hull is open. The pressures are weather, money, the availability of timber and the fishing season passing. It can end with a boat back at sea, with a repair that turns out to be uneconomic and a boat abandoned or sold, or with a hull that is quietly replaced rather than repaired. Reality decides, in the form of what is found inside the planks."
+  "logline": "A few hectares of coconut smallholding sit on top of a seam of gem-bearing clay, and the whole working day consists of bringing the ground up out of hand-dug shafts and then washing it away, until all that is left of a basket of earth is a heap and four wet pebbles.",
+  "human_question": "If you keep taking a thing apart until it stops coming apart, is what is left the thing you started with?",
+  "place": {
+    "what_kind_of_place": "A few hectares of ordinary low-country smallholding a short way inland from the sea: coconut, cinnamon, a few rubber trees, tiled houses along a single lane, and under all of it a shallow seam of gem-bearing clay. The seam is worked by hand, plot by family plot, so the surface is not a mine but a village with holes in it. Each plot has one or two rectangular shafts, roughly three metres by one and a half, cribbed to the top with coconut trunks and sawn beams, dropping through red laterite and pale clay to a gravel bed, with side tunnels driven off the bottom. At the head of each shaft there is a thatched shelter, a hand winch or a rope over a timber frame, a pump that runs all day, a growing pale heap of spoil, and a shallow washing place. Nothing that comes out of the ground is worth anything until it has been taken apart.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. From the air, a green canopy pocked with several dozen pale heaps that read as a scattering of light through the trees, each heap the inside of a hole laid out on the outside. At ground level, the vertical dark of a shaft mouth, a rope running down into it and a basket coming back up out of it, lit only by the sky. And then the washing: grey slurry worked in a wide wicker pan under running water, the mud leaving in a slow brown cloud that spreads and thins downstream, until the pan is bare and a few wet, entirely unremarkable pebbles are lying on the weave.",
+    "what_moves_or_changes": "One movement repeated all day: ground is brought up, ground is taken apart, and most of it is put down again somewhere else. The spoil heap grows hour by hour. The wash water runs cloudy in the morning and cloudier by afternoon. The pans come up empty far more often than not, and when they do not, the thing found is small, grey and easy to miss. Nothing needs staging, because the work itself is a division performed several hundred times a day and ending, almost every time, in nothing.",
+    "when_it_looks_best": "Working hours on a dry day, when the pumps are running and the wash is being done with drawn water rather than rain. Early morning for low light down the lane and raking across the heaps, and because the first hauls of the day come up cleanest. The drier months on this coast, roughly January to March and again around July, when the shafts are not flooding and the spoil is pale rather than sodden."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a piece of ground and what it takes to get something out of it. It has a shape of its own: down, up, apart, nothing, again, and once in a long while something. A viewer who never hears a word of the narration gets a complete day, a real trade, the physical facts of a hand-dug shaft, and one small quiet payoff at the end of it, on a coast where all of this is happening ten metres from a bus route and almost nobody knows.",
+    "with_the_philosophy": "The same footage becomes the sources' own method performed at working speed. The voice never contradicts what is on screen and never tells anyone they are mistaken; it points at what the work is already doing. A named whole is divided; the name is left with nothing to hold; four heaps stand where a seam used to be; and what will not divide any further is sitting on a wicker pan in daylight. The last beat then refuses the cheap ending, because the film is careful not to claim that the stone is one of the sources' ultimate realities."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from the air. A green smallholding canopy, houses along a lane, and scattered through the trees several dozen pale heaps, each with a dark rectangle beside it.",
+      "voice": "Everything you can see here is standing on something people want. Each of those pale heaps is the inside of a hole, brought up and left on the surface. Every basket of it will be taken apart before the day ends, and almost all of it will be thrown away again.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "A shaft mouth at ground level. Coconut-trunk cribbing, a rope over a timber frame, a pump hose, a man stepping into the basket and the light going off him as he drops.",
+      "voice": "The ground has a name here. People buy it, sell it and argue over it by that name, and the name is not for the mud. It is for an arrangement: a particular layer, at a particular depth, with a particular gravel in it. The old books have a word for that sort of name. It is both the thing that is made known and the means of making it known, at the same time.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "The basket comes up and is tipped out. A second man rakes it flat and pulls it apart: stones one side, clay another, sand another. By mid-morning there are four separate heaps at the shaft head and none of them is called by the name of the ground.",
+      "voice": "One of these compendiums gathers everything that happens to a person into five heaps, and it says plainly why it bothers: not to tidy the world up, but to loosen the habit of saying mine about each of them. It uses the plain word. A heap. A pile of the same kind of thing, with nothing extra hiding inside it.",
+      "concept_id": "C077"
+    },
+    {
+      "on_screen": "The wash. Slurry tipped into a wide wicker pan held in running water, the pan turned and turned and tilted, a brown cloud leaving downstream and thinning as it goes.",
+      "voice": "The test these books give is this one, and it is not a clever one. Divide a thing, and if what seemed to be there goes missing, it was never a separate item to begin with. Pull cloth apart and there is no cloth, only thread. Everything leaving in that brown cloud was, a minute ago, the ground.",
+      "concept_id": "C084"
+    },
+    {
+      "on_screen": "The pan comes clean. Nothing on the weave but a few wet pebbles the size of a thumbnail, grey and ordinary. A finger moves them apart, one at a time.",
+      "voice": "A table is legs and boards. Lay the pieces on the floor and there is no table left, and yet nothing has been destroyed. The dividing has to stop somewhere, and where it stops is the whole reason these books were written. This is what would not wash away.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "One stone held up against open sky and slowly tilted. A blue light gathers across it, slides, and goes out.",
+      "voice": "Look at what is left, though. Whirl a torch in the dark and you draw a ring of fire. There is no ring. There is one flame moving. That blue is not sitting anywhere on this stone either. It arrives when the light and the angle and the eye line up, and it leaves when they do not. We have divided the ground all day and come out holding something that still has a name on it.",
+      "concept_id": "C001"
+    },
+    {
+      "on_screen": "End of the day. The pumps stop. The heaps, the grassed-over scars of pits filled in years ago, gravel from this morning already spread as somebody's yard fill, a woman going past with a bucket, children on the lane.",
+      "voice": "The books are careful about two things here, and the film should be too. The bottom of this is not sawdust and not a small hard lump; they describe the last things as closer to happenings than to objects, and they say plainly that they are not seen by looking harder. And the everyday names were never a mistake. They were chosen on purpose, so that people could follow. Ground. Stone. Price. Lane. House. Every one of them worked perfectly today.",
+      "concept_id": "C001"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C001 gives the sources' own test, and it is a test of division, not of endurance. The Margaya says a table is legs and boards, that laying the pieces on the floor leaves no table although nothing was destroyed, and that what is left when dividing can go no further is what it calls ultimate [C001-M:L46; C001-M:L52–L56]. C084 gives the same test in its plainest form, folded in from IDEA-0002: divide a thing, and if what seemed to be there disappears, as cloth disappears into thread, it was a concept [C084-M:L7]. C077 gives the reason anyone bothers: the same taking-apart is what the sources turn on a person, gathering everything conditioned into heaps in order to loosen the habit of saying 'I' and 'mine' [C077-P:L984; C077-P:L996–L1010; C077-M:L24]. A boatyard is where the test can be performed on something a family's income depends on.",
-    "what_it_reveals": "That the interesting fact is not that the name survived the replacement of the parts, but that the name survived the parts being separated at all. The first is a puzzle about identity over time, which is not what these sources are discussing; the second is their actual claim. Seen together, a heap of timber that everyone calls a boat shows the concept doing its work with no boat present, and the same method, applied later to a person, stops being an abstraction."
+    "why_together": "Read fresh, C001 is neither a puzzle about identity over time nor an early form of atomism, and its digest rules both readings out by name. Its test is division. The Margaya says a table is legs and boards, that laying the pieces on the floor leaves no table although nothing was destroyed [C001-M:L46], gives paññatti as the name for what is held to exist by mere notion [C001-M:L48], and calls ultimate what truly exists and cannot be split further [C001-M:L50–L52; C001-M:L52–L56]. C084 supplies the same test in its plainest form, pull cloth apart and only thread is left [C084-M:L7], and the vocabulary this trade is already using without knowing it: paññatti is both what is made known and the means of making it known [C084-P:L25], and the sources' meaning-concepts include exactly the collective whole that a named seam of ground is [C084-P:L27–L41]. C077 supplies the word for what ends up on the surface: khandha in its plain sense of heap or collection, which the source is careful to separate from the merely labelling sense [C077-P:L36–L42], gathered in order to loosen the habit of 'I' and 'mine' [C077-P:L982–L984; C077-P:L996–L998; C077-M:L24]. A place where the entire working day is the division of ground until it stops dividing is where all three can be filmed instead of argued.",
+    "what_it_reveals": "That the event worth filming is not finding the stone. It is the disappearance of everything else. C001 on its own is too easily heard as 'it's all just particles', which its own digest forbids. C084 on its own makes a film about language. C077 on its own is a classification. Together they let one shot carry the whole thing: a wicker pan washed clean with four pebbles on it, a seam of named ground now lying in four heaps that nobody calls by its name, and a remainder that the film deliberately does not call ultimate. The pairing also closes the exit the earlier draft took, which was the Ship of Theseus; the interesting fact here is not that a name survives replacement, it is that the name cannot survive division at all."
   },
   "concept_links": [
     {
       "concept_id": "C001",
       "role": "primary",
-      "why": "The Margaya's table is the model: no leg and no board is the table, and apart from the pieces there is no table, so the name belongs to an arrangement and not to an extra hidden thing [C001-M:L46], with what remains when division ends called ultimate [C001-M:L52–L56]. The earlier draft grounded this film in the boat keeping its name while its parts changed, which is the Greek puzzle about identity over time and, as the digest warns in as many words, not this source's point; it concerns composites, not persistence. Re-grounded on division: the film's spine is the weeks in which the boat is in pieces. The digest also blocks the flattening of the Margaya's blunt 'does not truly exist' into 'nothing is real'."
+      "why": "The Margaya's table is the model and the method: no leg and no board is the table, and apart from the pieces there is no table, so the name belongs to an arrangement and not to an extra hidden thing [C001-M:L46]; what is held to exist only by a notion is given its own word [C001-M:L48]; and what remains when dividing can go no further is called ultimate [C001-M:L50–L52; C001-M:L52–L56]. A day of washing ground away is that test run several hundred times. Two of the digest's limits are load-bearing and are written into the sequence rather than left to the risks. The Margaya's blunt 'does not truly exist' must not be flattened into 'nothing is real'. And the wood-to-sawdust step must not be presented as early physics: the Pradeepika says the final realities are a non-substantial kind of process known by omniscient knowledge rather than by ordinary human knowing [C001-P:L59], which is why beat 6 refuses to let the stone stand as an ultimate. The Pradeepika's other line is the film's permission to end where it ends: the Buddha deliberately taught in everyday names so that listeners could understand easily [C001-P:L51]."
     },
     {
       "concept_id": "C084",
       "role": "supporting",
-      "why": "The Margaya's division test in its clearest form: pull cloth apart and only thread is left, so cloth is a concept and thread the more basic reality [C084-M:L7], and the boat is a collective concept of the same kind, named for an arrangement of parts. Folded in from IDEA-0002. The limit the digest attaches goes with it: conventional wholes remain useful and valid in their own domain, and the film must never tell the owner that the name he uses for his boat is wrong."
+      "why": "The Margaya's division test in its clearest form: pull cloth apart and only thread is left, so the cloth was a concept and the thread the more basic thing [C084-M:L7]. The named seam this village works is a collective concept of the same kind, and the sources list the collective whole among the meaning-concepts alongside shape, being, direction and time [C084-P:L27–L41], with paññatti defined as both what is made known and the means of making it known [C084-P:L25]. The digest's guards come with it and are absolute here: the sources keep conventional wholes useful and valid in their own domain, the existent and non-existent pairs are technical categories and not a scheme of true and false, and a film must never tell a participant that the name they use for the ground, the layer or the stone is wrong."
     },
     {
       "concept_id": "C077",
       "role": "supporting",
-      "why": "The compendium gathers everything conditioned into five heaps and says plainly why: the division exists to take apart the habit of saying 'I' and 'mine' about each of them [C077-P:L984; C077-P:L996–L1010; C077-M:L24]. This film performs that method on an object, which is the only place in the group it can be performed without using a person as a demonstration. The digest's bar is carried with it: the analysis is not the claim that you do not exist, and it is not a psychology of personality components."
+      "why": "The compendium's word for a gathered collection is the plain one, heap, and the source explicitly sets aside the merely labelling sense of the same word in favour of heap or portion [C077-P:L36–L42]; it then says what the gathering is for, which is to take apart the habit of saying 'I' and 'mine' about each heap [C077-P:L982–L984; C077-P:L996–L998; C077-M:L24]. This film performs that gathering on ground rather than on a person, which is the only way the group can show the method without using somebody as a demonstration. Two guards travel with it. The analysis is not the claim that you do not exist, and it is not a model of personality. And the trade's grading of what it finds must never be mapped onto the sources' inferior-and-superior aspect, which runs through a cosmology of rebirth and a pre-modern social order [C077-P:L203–L207] and cannot be read off a price."
     }
   ],
-  "what_the_viewer_could_understand": "That a boat can keep its name even when every plank has been replaced, because the name belongs to the way the parts are put together and to the shared story, not to any one piece of wood. Take the boat apart and what you find is planks, not 'a boat'.",
-  "what_must_be_real": "The boat's actual repair history as its owners tell it, the actual economics of the repair, and the carpenter's actual judgements. Nothing is dismantled further than the repair requires, nothing is taken apart for the camera, and no timber is moved or arranged to make the point clearer.",
-  "position_hint": "middle: it is the first film in the group where the test is performed rather than described, and it needs the earlier films' simpler naming behind it. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That a name can be attached to an arrangement rather than to a thing, and that you can test which you are dealing with by dividing it: if what seemed to be there goes missing, it was an arrangement. The proof needs no belief and no vocabulary. A basket of ground, a pan, running water, and at the end of it four pebbles and a heap.",
+  "what_must_be_real": "The actual working of the shafts, the actual economics of a day's haul, and the actual words the people here use for the ground, the layer and the stones. Nothing is dug, hauled or washed differently for the camera; no pan is re-washed for a better shot; no stone is placed. Safety, water and the state of the cribbing are shown as they are or not at all. Nobody is asked to describe their work in the film's terms, and no find is dramatised into a discovery it was not.",
+  "position_hint": "middle: it is the first film in the group where the test is performed rather than described, and it wants the earlier films' simpler naming behind it. No location reasoning is involved.",
   "risks": [
-    "Becoming a neat philosophy puzzle; the digest names the Ship of Theseus specifically as the wrong frame for these sources.",
-    "The owner's livelihood used as a setting for an argument rather than as the story.",
-    "Flattening the Margaya's blunt wording into 'nothing is real'.",
-    "Suggesting to the owner, or to the viewer on his behalf, that his boat's name is a mistake.",
-    "Filming a dangerous or poorly paid job as picturesque craft."
+    "Presenting the stone at the end as one of the sources' ultimate realities. It is not, the digest is explicit that the final realities are non-substantial and not reached by looking harder [C001-P:L59], and beat 6 exists to refuse the identification.",
+    "The reading the digest names in as many words: 'it's all just atoms, science already says this'. The wood-and-sawdust step invites it and the sources do not support it.",
+    "Flattening the Margaya's blunt 'does not truly exist' into 'nothing is real'; the sources keep sound, colour, feeling and mind fully real.",
+    "Suggesting to anyone here, or to a viewer on their behalf, that the name they use for the ground or the stone is a mistake.",
+    "Drifting into the Ship of Theseus, which the digest names specifically as the wrong frame for these sources; this film is about division, not about persistence.",
+    "Aestheticising dangerous, poorly paid work. These are hand-dug shafts with water in them and timber holding the walls up. If the conditions cannot be shown honestly they are not shown as scenery.",
+    "Mapping the trade's grading ladder onto the sources' inferior-and-superior aspect, which belongs to a rebirth cosmology and not to a price list [C077-P:L203–L207].",
+    "Becoming a gem-trade film: the cutting, polishing and selling end is not the subject and the showroom is not the location."
   ],
   "drop_if": [
-    "No substantial repair happens within the window, so the boat is never actually opened up.",
-    "The only available repair is cosmetic, leaving nothing to divide.",
-    "Access can only be had by asking for work to be done differently."
+    "Only mechanised extraction or a demonstration dig arranged for visitors is available, so no real division is happening on camera.",
+    "Filming can only be arranged by asking anyone to go down, haul or wash differently from how they would anyway.",
+    "Access is offered on condition that working conditions and safety are kept off camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0002",
-      "relation": "absorbs",
-      "note": "Takes in the cloth-and-thread division test, the sources' own example, and the question of the moment at which a heap of parts acquires its name."
+      "relation": "pairs with",
+      "note": "The cloth-and-thread division test, which is the sources' own example, seen once in a workshop and once in running water."
     },
     {
       "idea_id": "IDEA-0010",
@@ -69,28 +115,77 @@
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0002"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries its episode, re-grounded on the sources' division test, and strengthened by folding in IDEA-0002's cloth-and-thread example."
+    "reason": "A location where the sources' division test is the paid work of the day, with a payoff shot that states the concept rather than illustrating it."
   },
-  "source_doc": null,
-  "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
-  ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
   "review": {
     "status": "pending",
-    "note": "",
+    "note": "Rewritten into the footage-led shape. Dropped the old human-life situation block about a boat's repair and the Ship of Theseus framing the digest rules out. New location, a village of hand-dug gem shafts, chosen because a whole working day is literally a division of ground down to what will not divide. New title; old title kept in aliases. Every concept link re-tested against its digest and rewritten: C001 re-grounded on division rather than persistence and given the guard against reading the remaining stone as an ultimate reality, C084 kept for the collective and name concepts, C077 kept for the plain sense of heap and given the inferior-and-superior guard. Added place, two_layers, a seven-beat sequence and a suggested location with verified images.",
     "decided_at": null,
     "decided_by": null
   },
-  "location": {
-    "location_id": null,
-    "decision_id": null,
-    "note": "",
-    "set_at": null,
-    "set_by": null
-  }
+  "suggested_location": {
+    "name": "Meetiyagoda moonstone pits",
+    "also_known_as": [
+      {
+        "name": "Meetiyagoda–Domanwila",
+        "meaning": "the village and the adjoining hamlet the workings run through",
+        "used_by": "local and gem-trade usage"
+      }
+    ],
+    "region": "Galle District, Southern Province, inland of the coast road between Ambalangoda and Hikkaduwa",
+    "coordinates": {
+      "lat": 6.1983,
+      "lng": 80.0972
+    },
+    "elevation_m": 20,
+    "why_here": "It is a place where the sources' division test is not a metaphor but the job. The deposit lies under roughly six hectares of ordinary smallholding, and it is worked by hand, shaft by shaft, by small crews on family plots rather than by a company on a concession, so the whole cycle happens in the open within a few metres: the ground comes up in a basket, it is raked into heaps, it is washed in a pan, and what will not wash away is set aside. That gives the film the shot it is built around, a pan running clean with four pebbles left on it, which is the concept stated rather than illustrated. It also gives the second shot, a single stone tilted against the sky with a blue light moving across it and settling nowhere, which is the guard against the easy ending. And because the workings are scattered through a lived-in lane of houses and coconut, the surface reads from the air as a village with holes in it rather than as an industrial site, which keeps the film's scale human.",
+    "what_to_film": [
+      "The surface from the air at low sun: the canopy, the lane, and the pale spoil heaps scattered through the trees, each with its dark rectangle beside it.",
+      "One shaft mouth in full: the cribbing, the winch or rope frame, the pump hose, the basket going down and the light leaving the man in it.",
+      "The haul tipped out and raked apart into its separate heaps at the shaft head, with nobody narrating what they are doing.",
+      "The wash, from directly above the pan: the slurry going in, the turning, and the brown cloud leaving downstream and thinning. This is the middle of the film.",
+      "The pan running clean, in real time, down to a bare weave and a few pebbles. This is the payoff and everything else is built to reach it.",
+      "One stone held up against open sky and slowly tilted, long enough for the blue to arrive, cross and go.",
+      "The end of the day: pumps off, heaps, old pits grassed over, today's gravel already spread as yard fill, ordinary life going past on the lane."
+    ],
+    "access": "By road from the Ambalangoda–Elpitiya direction, a short way inland from the Colombo–Galle coast road; the workings are spread through a village rather than gathered behind one gate, so access is plot by plot and depends on the families and crews who hold each one. Part of the area is set up to receive visitors alongside a gem showroom, which is not the part of the site this film wants; the working shafts on smallholdings are, and they need separate permission. Descending a shaft is not proposed.",
+    "best_time": "Working hours on a dry day, with early morning best for light and for the cleanest hauls. The drier windows on this coast, roughly January to March and again around July, when the shafts are not flooding. Filming needs to follow the crews' own hours rather than set them.",
+    "images": [
+      {
+        "caption": "A hand-dug shaft at the workings, showing the timber cribbing and the surface arrangement the film is built around.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moonstone%20mine%202.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Moonstone_mine_2.jpg",
+        "licence_note": "Wikimedia Commons, marked public domain on the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A second view of the workings, for the scale of the shaft heads and the spoil.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moonstone%20mine%203.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Moonstone_mine_3.jpg",
+        "licence_note": "Wikimedia Commons, marked public domain on the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The surrounding smallholding country the shafts are scattered through, for the aerial establishing work.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meetiyagoda%2C%20Sri%20Lanka%20-%20panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Meetiyagoda,_Sri_Lanka_-_panoramio.jpg",
+        "licence_note": "Wikimedia Commons, CC BY 3.0 per the file page; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/moonstone-mines/",
+      "https://www.mindat.org/loc-28684.html",
+      "https://www.gemstonedetective.com/post/meetiyagoda-moonstone-mine-sri-lanka"
+    ],
+    "research_note": "Coordinates, the approximate six-hectare extent of the deposit, the hand-dug shaft method, the timber cribbing, the pumping and the washing and sieving sequence are from the sources above and are desk research only. Crew sizes and pay, the number of shafts currently worked, the drier windows, drone rules and whether any family will agree to be filmed are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
+  },
+  "source_doc": null,
+  "unknowns": [
+    "No plot, crew or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether the working shafts can be filmed separately from the visitor-facing part of the site is unverified.",
+    "Shaft safety, and therefore what can be filmed at the head of a shaft and from what distance, has not been assessed."
+  ],
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

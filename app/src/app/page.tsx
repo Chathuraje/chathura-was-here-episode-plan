@@ -9,7 +9,7 @@ export default async function Home() {
   const primarySources = data.docs.sources.filter((doc) => doc.kind === "primary-source").length;
   const ideas = orderedIdeas(dev);
   const confirmed = ideas.filter((idea) => idea.review.status === "confirmed").length;
-  const placedIdeas = ideas.filter((idea) => idea.location.location_id).length;
+  const placedIdeas = ideas.filter((idea) => idea.suggested_location).length;
 
   return (
     <div className="home">

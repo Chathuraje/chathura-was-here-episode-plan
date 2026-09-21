@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "REV-0006",
+  "record_type": "review_decision",
+  "reviewer_role": "chathura",
+  "created_at": "2026-09-21",
+  "decision_type": "idea_location_selection",
+  "target": {
+    "record_id": "IDEA-0001",
+    "version": 3
+  },
+  "outcome": {
+    "selected_location_id": "LOC-0001",
+    "name": "Sri Pada / Adam's Peak",
+    "region": "Rathnapura, Hatton",
+    "coordinates": {
+      "lat": 6.809643,
+      "lng": 80.499388
+    }
+  },
+  "note": ""
+}
