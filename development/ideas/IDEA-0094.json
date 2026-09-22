@@ -2,73 +2,179 @@
   "schema_version": 1,
   "id": "IDEA-0094",
   "record_type": "idea",
-  "title": "Tea From Both Hands",
+  "title": "Filled Again By Morning",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Tea From Both Hands"
+  ],
   "group_id": "GRP-06",
-  "logline": "A shopkeeper has given the same regular customer something small every day for years, more on some days and less on others, and neither of them has ever said why.",
-  "human_question": "When the same person gives you the same kind of thing every day, what actually changes from one day to the next?",
-  "situation": {
-    "what_happens": "A shopkeeper and a long-standing customer meet almost every day over a counter. Something small is always given, and it is never quite the same: more on a good day, less on a bad one, sometimes with a word and sometimes without. Neither of them treats it as charity and neither has ever named it. Watched over several weeks, the variation becomes visible even though the transaction looks identical each morning.",
-    "who_is_involved": "A shopkeeper who has run the same counter for a long time; a regular customer who has been coming for years; other customers whose presence changes what can be said aloud.",
-    "what_is_at_stake": "For the customer, dignity: being a person in a relationship rather than a case of need. For the shopkeeper, a private arrangement becoming public. For the viewer, whether repetition empties an act or quietly keeps it alive.",
-    "how_it_unfolds": "Arrangements like this usually start without being decided and continue without being discussed. They are pressured by money, by illness, by the arrival of anyone who might comment on them, and by the awkwardness of being asked about them. They end when one party moves, stops trading or dies. Reality decides whether either person will say anything about it at all, and whether being watched changes what is given."
+  "logline": "On a hot road through dry country, a clay pot of drinking water stands on a shelf under a tree with a long-handled dipper beside it, free to anyone who stops, and every evening somebody or other walks out with a bucket and fills it again.",
+  "human_question": "When the same small thing is given every single day, what is it that changes from one day to the next?",
+  "place": {
+    "what_kind_of_place": "A long stretch of road running through the dry interior: thorn scrub, cleared chena plots, rock outcrops, a few tanks, villages strung out at intervals with nothing much between them. Along it, at irregular distances, stand small water places. Each is a clay pot big enough to need two hands, set on a low stand or a shelf of boards, usually under a tree, usually with a scrap of roof over it, a lid, and a long-handled dipper hanging beside it. Anyone may drink. Nobody is stationed there. The pots are filled by whoever happens to live nearest, and they are not all filled on the same day or to the same level.",
+    "why_it_is_worth_watching": "It is the smallest possible piece of public generosity, set in the largest possible amount of empty country. From the air the road is a single line drawn across scrub to a horizon with heat standing on it, and the entire subject of the film is a thing the size of a football, under one tree, halfway along. On the ground it is all touch and temperature: sweat on unglazed clay, the dipper coming up streaming, water going into cupped hands, the change in the sound the pot makes as it empties through a day. The gap between the scale of the landscape and the scale of the gift is the film.",
+    "what_moves_or_changes": "The water level, the light, the traffic and the weather, none of them arranged by anybody. The pot goes down through the day at a rate that depends on who passes and how hot it is, and comes back up in one movement at dusk, or does not. Traffic changes character by the hour: schoolchildren early, buses and lorries through the middle of the day, cattle and bicycles at the end of it. In the driest weeks the pots matter most and are hardest to keep full.",
+    "when_it_looks_best": "The end of the dry season, when the scrub is grey, the heat shimmer is strongest on the road and the pots are actually being used. Within a day: the hour after sunrise for the low light down the length of the road, the middle of the day for the heat and for the drinking, and dusk for the refilling and for the road going quiet."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about heat, distance and water. A road going away into dry country, a tree, a pot, a dipper, hands, and the long stretches of nothing between one village and the next. It has a complete shape without a word over it: the cool early hour, the day building, the traffic, the level going down, the last of it poured out in the afternoon, the bucket at dusk, and the road empty and blue afterwards. Anyone who likes watching a landscape get hot and then let go has a whole piece here.",
+    "with_the_philosophy": "The same pot becomes the sources' own measuring instrument. The texts insist that goodness is counted in moments rather than in habits, and one of them puts the point as a small worked example: the same giver, giving to the same person, gives with a different strength of intention on one day than on another. A pot by a road is that example left outdoors for a year. The gift is identical every single time — a mouthful of water, free — and the act behind it is never once the same. The voice reads this off the arrangement, not off anybody's face, and no person who fills or drinks from it is offered as an example of anything."
+  },
+  "sequence": [
+    {
+      "on_screen": "Very high and wide at first light: a road drawn straight across grey scrub to a horizon, no vehicles on it, a few roofs a long way off. Descend slowly until one tree beside the road resolves, and under it a low stand with something on it.",
+      "voice": "There is a pot of drinking water on that shelf. Anybody may drink it. Nobody is sitting with it, nobody is thanked for it, and the nearest house is out of sight.",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "Ground level, close and patient: the unglazed clay sweating, the lid, the long-handled dipper on its nail, the boards of the shelf, the shade of the tree moving across all of it.",
+      "voice": "The old analysis says a mind never turns up on its own. It arrives with a set of companions that begin at the same instant, end at the same instant, are turned toward the same thing, and stand on the same support [C019-P:L33–L47]. Take the shade away, or the lid, or the ladle, and this stops being a gift and becomes a pot.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The day building. A cyclist stops, drinks, goes. A bus does not stop. Two children on the way to school. A lorry driver fills a bottle. Filmed at a distance, in wide frames, nobody held on.",
+      "voice": "The texts count eight ordinary good minds, sorted by three plain differences: glad, or level and unexcited; understanding what the act means, or simply doing what is done; arriving by itself, or only because somebody said something [C011-M:L3]. Every one of the eight is counted as fully good.",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "Afternoon. The water level low. The dipper scraping. The last of it going into somebody's hands. The pot standing empty with the lid off, and the road very bright behind it.",
+      "voice": "And here is the measurement the sources actually make. Not one giver against another, but one giver on two days: the same person, the same recipient, the same kind of mind, and a different weight of intention behind a coin and behind a note [C011-M:L26]. This pot is that comparison left out in the weather. The thing given never varies. The act does.",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "Dusk. Somebody comes down the verge with a bucket, filmed from far enough back and from behind that they are a figure rather than a person, fills the pot, puts the lid on, and walks away. Nobody watches them do it.",
+      "voice": "Tomorrow this may be done by somebody else, or by nobody. The sources are blunt about it: a day is not one long good mood. These minds come in moments, in the intervals when someone is actually attending to what they are doing, with other things running in between [C011-P:L111].",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "From the air again, travelling slowly down the road at low height: a second stand under another tree, then a third much further on, then a long stretch with nothing at all.",
+      "voice": "One source makes a point about the name. This kind of goodness is called great not because it is the highest sort but because it is common: it is everywhere, in ordinary people, in every place [C011-M:L16]. You can see the distribution from up here. It is not rare, and it is not even.",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "Night falling. The pot full again, sweating in the last light, the road empty in both directions, the dipper still. Held long.",
+      "voice": "A camera cannot show which state of mind filled this, and nothing here will claim to. Only the companions do the actual work, and a mind that holds one of them without the rest does not exist [C019-P:L29]. What is on the shelf is the part of all that which can be photographed.",
+      "concept_id": "C019"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C011 is the concept that grades the same good act by what is inside it, and its own example is one giver and one receiver on two different days. C019 explains why the days differ at all: the ordinary capacities that carry the act are reassembled each time and take the colour of that moment. Together they turn a transaction that looks unchanging into a sequence of distinct moments.",
-    "what_it_reveals": "That the unit the tradition cares about is the moment, not the habit; a relationship of years is made of mornings that are not equivalent to one another."
+    "why_together": "C011 supplies the measurement and the scale. Its eight wholesome minds are sorted by joy or level feeling, by understanding or habit, and by whether the act came on its own or after prompting, and all eight are fully good [C011-M:L3]; giving is named as one of the plain acts they arise in [C011-P:L51]; the Margaya's own illustration is one giver, one recipient, the same kind of mind and two different days [C011-M:L26]; and it explains that this goodness is called great because it is common to many rather than because it is elevated [C011-M:L16]. C019 supplies why the days differ at all. A mind never arrives alone, its companions begin and end together, take one object and rest on one base [C019-P:L33–L47], only those the work needs arrive [C019-P:L49], and the ordinary capacities take the whole quality of whatever they join, like a friend shaped by his company [C019-P:L61–L63]. Put on a water pot that is refilled by somebody different every evening, the two make an instrument: the gift is held constant so that the variation, which is all on the inside and cannot be filmed, can at least be pointed at honestly.",
+    "what_it_reveals": "That repetition does not empty an act, because in this account there is no single act to empty. A pot filled every day for years is not one long kindness; it is a few thousand separate assemblies, some strong and some barely there, some glad and some flat, some done freely and some because a neighbour mentioned it. C011 alone would tempt a film to grade somebody. C019 alone would be a list of parts. Together on an unattended roadside pot they let a viewer feel the difference between a gift and the giving of it, with nobody in frame being measured."
   },
   "concept_links": [
     {
       "concept_id": "C011",
       "role": "primary",
-      "why": "The Margaya's own illustration is one giver, one recipient and the same kind of mind on different days, where the strength of intention differs between a coin and a note [C011-M:L26]. The digest warns that this is a comparison within one giver, never a ranking of rich and poor givers."
+      "why": "The digest's own illustration is exactly this film's structure: one giver, one recipient, the same kind of mind, and a difference of intention between what is given on one day and on another [C011-M:L26]. Around it sit the eight kinds, made by joy or level feeling, knowledge or habit, spontaneity or prompting, all counted as genuinely good [C011-M:L3]; giving as one of the acts these minds arise in [C011-P:L51]; and the claim that this goodness is called great because it is common everywhere [C011-M:L16]. The digest's limits are honoured throughout. The film does not treat the fuller pot as the better act, because the comparison in the source is within one giver and is explicitly not a ranking of large givers against small ones [C011-M:L26]. It does not present the flat, unexcited filling as second-rate, since joy depends on conditions such as health and circumstance and its absence does not make the act less wholesome [C011-P:L57–L66]. It does not sneer at a pot filled only because somebody was asked to fill it [C011-M:L28]. It does not let 'understanding' be heard as schooling or cleverness, which the Pradeepika rejects outright [C011-P:L70]. And it keeps the source's own correction that a stretch of time is not a stretch of good mind, since these minds arise only in moments of attention with other things between them [C011-P:L111]."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "Ordinary capacities such as attention and effort are neither good nor bad in themselves and take the quality of the mind they serve, which is why a daily act is never quite identical [C019-P:L61-L63; C019-P:L49]."
+      "why": "The digest supplies the reason a daily act is never identical: the factors that carry it are reassembled every time, arising together, ceasing together, taking one object and resting on one base [C019-P:L33–L47], with only those the work requires turning up [C019-P:L49], and with the ethically variable ones taking the whole colour of the mind they join, like a friend who follows the company he keeps [C019-P:L61–L63]. The digest also gives the film its last line, that the mind leads but every function is carried out through the factors' power [C019-P:L29]. The corrections travel with the link. The parts are not persistent inner agents or sub-personalities. The fifty-two are a roster, not an attendance: at most thirty-six arrive at once [C019-P:L49], and the group's shorthand about the team that comes with every mind must be read that way. And the film does not present the practical skills involved as morally neutral tools, because the source holds that they take the full quality of the moment they serve."
     }
   ],
-  "what_the_viewer_could_understand": "An act repeated for years is not one long act: the texts measure goodness by the moment, and the same small gift carries a different weight of intention on different days.",
-  "what_must_be_real": "The two people's actual relationship and their own reasons for it. The recipient must be a full, consenting participant, never a stand-in for need, and nothing may be given because a film is present.",
-  "position_hint": "middle: the observation only works once repetition has already been established, so it sits after an opening rather than at one.",
+  "what_the_viewer_could_understand": "That a gift repeated for years is not one act repeated but thousands of separate ones, no two of them the same inside, and that the tradition measures goodness at that scale — the moment, not the habit — which is why an arrangement like this can be entirely ordinary and still be the kind of goodness the texts call great.",
+  "what_must_be_real": "The pots, the road and the actual practice, including the days the pot is empty and the places where the stand has been abandoned. Nothing is filled, refilled, cleaned, decorated or placed for the camera, and nobody is asked to drink. Whoever fills a pot is filmed only with their agreement and is never named, held on or presented as a benefactor; if they would rather not be filmed at all, the refilling is shown by its result. Nobody drinking is framed as needy. If the water is not safe to drink, the film says so rather than romanticising it.",
+  "position_hint": "early middle: it works best straight after the film about a giving structure built to last, because it is the same idea at the opposite scale and the opposite duration. It must come before the films about what a good mind is made of, since it is still about the outside of the act.",
   "risks": [
-    "Exposing the recipient's hardship for the camera",
-    "Turning a private, long-standing relationship into a demonstration",
-    "Implying that the size of a gift measures the giver's worth, which the source does not claim"
+    "Turning whoever fills the pot into the hero of the film, which is the exact failure this group has to avoid; a camera cannot show which factor is present, and the subject is the arrangement.",
+    "Treating people who stop to drink as figures of need rather than as passers-by.",
+    "Implying that the fuller pot or the bigger gift is the better act, when the source's comparison is within one giver on two days [C011-M:L26].",
+    "Suggesting that a gift given flatly, or only because somebody was asked, counts for less than a glad or spontaneous one [C011-P:L57–L66; C011-M:L28].",
+    "Reading 'understanding' as education or intelligence, which the Pradeepika explicitly refuses [C011-P:L70].",
+    "Letting the film become a water-access or public-health argument, which is a real and serious subject and not this one — while also not pretending the water is safe if it is not.",
+    "Aestheticising drought and distance, which are hardships for the people living along this road.",
+    "Describing the mental factors as a committee of small selves, or implying all fifty-two arrive at once [C019-P:L49]."
   ],
   "drop_if": [
-    "The recipient does not want to be filmed",
-    "The relationship turns out to be arranged rather than long-standing"
+    "The practice has died out along the road and the only pots left are dry or ornamental.",
+    "Nobody who maintains a pot is willing to have the refilling filmed in any form.",
+    "It can only be made by supplying, placing or filling a pot for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0093",
-      "relation": "folded into",
-      "note": "Its substance now lives inside IDEA-0093 as the repeat-recipient strand: the same giver and receiver, and the variation from one day to the next."
+      "relation": "pairs with",
+      "note": "Two giving arrangements at opposite scales and durations: one built once and left standing for centuries, one refilled by somebody different every evening."
+    },
+    {
+      "idea_id": "IDEA-0097",
+      "relation": "mirrors",
+      "note": "Repetition seen from outside here, as variation in an unchanging gift; seen from inside there, as a hand that has stopped hesitating."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0093",
-    "reason": "Same concepts and the same human act as IDEA-0093; its distinctive observation, day-to-day variation toward a recipient who returns, is stronger inside that film than as a second giving film."
+    "superseded_by": null,
+    "reason": "It is the only place in the group where the sources' own same-giver-two-days comparison can be filmed without anybody being measured on camera."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape, and un-merged from IDEA-0093, which no longer absorbs it. The old subject, a shopkeeper's daily gift to one regular customer, was dropped: it made two identifiable people into a study of a virtue and put the recipient's circumstances on camera, which this group's digests and the series' method both forbid. The concept kept, the pair replaced by the structure. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The roadside water pots on the interior road running north from Monaragala town toward Medagama",
+    "also_known_as": [
+      {
+        "name": "pinthaliya",
+        "meaning": "the pot of drinking water kept by a road for travellers, given as merit",
+        "used_by": "Sinhala usage, island-wide"
+      },
+      {
+        "name": "kenessa",
+        "meaning": "the long-handled dipper kept with the pot for lifting water out of it",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Monaragala District, Uva Province: dry chena, scrub and tank country in the interior south-east, along the road running north from the district town",
+    "coordinates": {
+      "lat": 7.0355,
+      "lng": 81.2757
+    },
+    "why_here": "The concept needs a gift small enough to be genuinely trivial and a landscape large enough to make it read, and this road provides both. It is one of the hottest and driest inland stretches in the country, thinly settled, with long gaps between villages, so a pot of water by the road is not decoration; and because the pots are kept by whoever lives nearest rather than by any authority, they are unevenly filled, which is precisely the variation the sources describe. The best shot the place produces is also the clearest statement of the idea: a road drawn across empty scrub to a horizon with heat standing on it, and one small pot under one tree, doing the whole of the work.",
+    "what_to_film": [
+      "The road from very high, early and late, long enough that the scale of the country registers before the pot is found in it.",
+      "A slow low-altitude travel along the verge, finding one stand, then another, then a long stretch with none.",
+      "The pot close and in real time: clay sweating, the lid, the dipper, the shade moving across the shelf through a morning.",
+      "A fixed frame on one pot from first light to dark, so the water level and the traffic tell the day without help.",
+      "People stopping, filmed wide and briefly, as passers-by and not as subjects: a cyclist, a bottle being filled, children.",
+      "The refilling at dusk, from far enough back that it is an event rather than a portrait, and only if the person agrees.",
+      "An abandoned or empty stand, which is part of the truth of the practice.",
+      "The country either side of the road in the last weeks before rain: scrub, chena clearings, rock, cattle, the heat itself."
+    ],
+    "access": "Public road, so the landscape and the pots are filmable without permission, but the pots belong to households whose agreement matters for anything closer than a wide shot, and drone flight over a public highway and over people's holdings needs the usual permissions and care. The practical constraint is heat and distance: nothing here happens on a schedule, and the film depends on being present for ordinary hours over days.",
+    "best_time": "The last weeks of the dry season, when the pots matter most and the country is at its most stripped. Within a day, the first hour after sunrise, the middle of the day for the heat and the drinking, and dusk for the refilling.",
+    "images": [
+      {
+        "caption": "Morning sky over the district. This is the surrounding country, not the road described and not any pot on it.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monaragala morning sky.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Monaragala morning sky.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/wataddara-gal-pinthaliya/",
+      "https://www.lankapradeepa.com/2021/11/wataddara-gal-pinthaliya.html",
+      "https://en.wikipedia.org/wiki/Monaragala_District"
+    ],
+    "research_note": "That the pinthaliya is a real and long-standing practice, that it consists of a water pot kept on a common route for travellers with a long-handled dipper beside it, that the pots are usually clay and sometimes cut from stone, and that some old stone examples are now protected monuments, are from the sources above and are desk research only. That the district is dry interior country in Uva Province is from the encyclopaedia entry. The coordinates are those of the village the road runs toward, given as a direction along that road, not a surveyed position of any pot; no particular pot, stand or household on this road has been found, seen or approached, and whether the practice is still kept up along this stretch is entirely unverified and is the first thing a recce would have to establish. No image of a roadside water pot could be confirmed on Wikimedia Commons, so the single image here is of the surrounding district landscape and its caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether roadside water pots are still kept along this particular road, and at what spacing, is unverified and decides whether the film exists.",
+    "Who actually fills them, and whether any of those households would agree to be filmed even anonymously, is unknown.",
+    "Whether the water in a working pot is drinkable by current public-health standards has not been checked, and the answer changes what the film can say.",
+    "Whether the road carries enough passing traffic on foot and by bicycle to make the drinking visible, as against traffic that never stops, has not been checked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

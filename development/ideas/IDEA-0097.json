@@ -2,78 +2,186 @@
   "schema_version": 1,
   "id": "IDEA-0097",
   "record_type": "idea",
-  "title": "Practised Hands",
+  "title": "Thirty Trees Before Noon",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Practised Hands"
+  ],
   "group_id": "GRP-06",
-  "logline": "At a stall handing out free food through a festival night, one volunteer's hands move without a wasted motion after twenty years; beside them, someone doing it for the first time can barely meet a stranger's eye.",
-  "human_question": "Does kindness get easier, or does it only start to look different once you have done it enough times?",
-  "situation": {
-    "what_happens": "A volunteer-run stall gives food and drink away through a long night to whoever passes. Two people work side by side at the same task: one who has done it for decades and one who has never done it before. The experienced volunteer's movements are economical and unhesitating; the newcomer is awkward, slow and visibly self-conscious about handing something to a stranger. By dawn the difference has either narrowed or it has not.",
-    "who_is_involved": "A long-serving volunteer; a genuine first-timer; the organisers who run the stall; the strangers who come through it, who are guests rather than recipients of charity.",
-    "what_is_at_stake": "For the newcomer, the small humiliation of being bad at something simple. For the veteran, years of unremarked work suddenly being looked at. For the viewer, whether ease is evidence of goodness or only of practice.",
-    "how_it_unfolds": "A night like this has its own curve: setting up, a slow start, a rush that leaves no room for self-consciousness, a long flat stretch, and an exhausted clearing away. Its pressures are crowd size, supplies running out, and tiredness. Reality decides whether the newcomer settles, whether the two volunteers speak to each other at all, and what either of them makes of the night afterwards."
+  "logline": "On a dry-zone plain of unbranched palms, a man goes twenty metres up a trunk that offers nothing to hold on to, twice a day, thirty or forty times a day, and the hardest thing in the frame is the thing that looks like nothing at all.",
+  "human_question": "Does difficulty disappear with practice, or only the look of it?",
+  "place": {
+    "what_kind_of_place": "An inland dry-zone plain in the north of the country, where one palm dominates everything: a straight, unbranched trunk fifteen to twenty metres high with a crown of stiff fans on top and no branch, fork or foothold anywhere between the ground and the top. The palms stand in loose stands around small villages, along field edges and old boundaries, and they supply the roofs, fences, fibre, mats, fruit and sap of the places underneath them. Twice a day, before first light and again before dark, a climber goes up each tapped tree in a rope loop with a knife and a set of clay pots, bruises and slices the flower stalk a little further, empties what has run, and comes down. The sap is boiled to treacle and jaggery or left to ferment. The men who do this are mostly old; the number of them falls every year.",
+    "why_it_is_worth_watching": "From height it is one of the stillest landscapes there is: a plain of identical crowns to the horizon, absolutely motionless, and then one small change in one fan as a man arrives at the top of a single tree. At ground level the first climb looks like an event and the eighth looks like nothing at all, which is the whole point of the place. The climb takes about twenty seconds and can be held in one unbroken shot from the feet leaving the sand to the hands reaching the crown. Nothing needs dramatising, because a camera held still on a man going twenty metres up a smooth trunk is already the strongest image the location makes, and it is also the exact statement of the concept.",
+    "what_moves_or_changes": "The sap, which runs on the tree's schedule and not on anyone's, and stops when the flowering season ends. The light across a plain with almost no relief in it. The wind in the fans, which is the only sound for long stretches. The pots, filling and emptying twice a day. And the trade itself, which is contracting: fewer climbers each season, and almost no young ones.",
+    "when_it_looks_best": "The flowering months, when the trees are actually in tap and every tree in a stand is being worked. Within a day, the hour before sunrise and the hour before dark, which are the working hours anyway, and which put a low sun right across the plain and the crowns in silhouette."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about a plain of palms and the two short hours a day when it is worked. Crowns against a pale sky, a figure going up and down, sap dripping into a limed pot, a fire under a wide pan, an old man sitting in shade with his rope beside him, and the plain going dark with the pots still hanging. Anyone who likes watching skilled work has a complete piece here, and nothing in it needs explaining.",
+    "with_the_philosophy": "The same climbs become the sources' account of one of the nineteen qualities that arrive together in any good mind: the one named for proficiency, which the texts describe not as virtue but as what repetition does. Someone used to giving finds giving easy and even sweet; someone who has never done it hesitates, feels shy or afraid. The voice never says the climber is a good man, because the texts describe moments of mind and a camera cannot see one. It says something narrower and stranger: that in this tradition goodness behaves like a craft, that ease is the far end of effort rather than the absence of it, and that what looks weightless here is not what the sources mean by lightness at all."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, very high and wide. A plain of fan crowns running to the horizon, all at roughly the same height, none of them moving. A few roofs and a sand track underneath. No people yet.",
+      "voice": "The texts do not describe a good mind as one virtue switched on. They say nineteen qualities arrive together, every time, in every mind that turns good at all [C023-P:L37]. Six of them are not about what a person does. They are about how the whole thing is running: calm, light, soft, ready, practised, straight.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "Ground level, one unbroken shot. A man loops a short rope around both ankles, tucks a knife in, sets his feet against the trunk and goes up. Twenty metres, about twenty seconds, no cut, no music. He reaches the crown and stops being visible.",
+      "voice": "One of the six is named for practice. The source describes it in the plainest domestic terms: someone used to giving finds giving easy, and even sweet, while someone who has never done it hesitates, feels shy, or is afraid [C023-P:L153–L157].",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "The same climb from above: trunk, figure, the fan opening below the camera, the plain flat behind it. Then a second climber on another tree, a third, a fourth, until the movement stops registering as remarkable.",
+      "voice": "Notice what the quality is named after. Not skill, and not goodness. It is named after the thing it replaces: the awkwardness of doing something for the first time [C023-P:L157]. The texts are not praising anybody here. They are describing the difference between the first time and the four thousandth.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "Close work in the crown: lime paste smeared inside a clay pot, a flower stalk sliced thin with two strokes, the pot tied on, yesterday's pot lifted down. Hands that do not look at what they are doing.",
+      "voice": "The same tradition is careful not to let that become a ranking of people. It counts eight ordinary good minds and lets them differ: done gladly or done flat, done because you wanted to or because somebody asked [C011-P:L57–L66]. The unpractised version, the prompted version, the joyless version are all fully counted. They are only generally placed below [C011-M:L28].",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "A wide pan over a wood fire, sap reducing, the surface changing, a stick stirring on its own rhythm; then the set jaggery turned out. Nobody speaks.",
+      "voice": "And the ease is not the whole story. The same source says an ordinary mind drifts the wrong way by itself, and that turning it toward the good is work against the current [C023-P:L109]. What looks effortless here is the far end of effort. It is not the absence of it.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "An older climber sitting in shade with the rope beside him, drinking. A younger man nearby who does not climb. Both filmed as people resting, not as a lesson.",
+      "voice": "One warning, and it matters. The word these texts use in this pair is not about bodies, and not about loads. It means the company a mind is keeping with itself [C023-P:L119]. Nothing visible from here tells you which quality is present in anybody. That is not a limit of this film. It is a limit of cameras.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "Last light. The plain again from height, pots hanging in thirty crowns, nobody in frame. The fans moving slightly. Dark.",
+      "voice": "This work is going out. There are fewer climbers every year and the ones left are old. What the plain still shows, while it shows it, is the shape the texts give to goodness: not a temperament somebody has, but something that gets lighter the more it is used, in whoever uses it [C011-M:L16].",
+      "concept_id": "C011"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C023 names proficiency (pāguññatā) among the nineteen factors of every good mind and describes it in exactly these terms: someone used to giving finds giving easy and even sweet, while someone who has never done it hesitates, feels shy or afraid. C011 supplies the guard-rail: the hesitant act and the practised one are both fully wholesome, and prompted or unpractised goodness is never called unreal. Together they let a film watch skill and virtue come apart.",
-    "what_it_reveals": "That the tradition treats kindness as closer to a skill than to a temperament — it gets lighter with use — without letting the beginner's clumsy version count for less."
+    "why_together": "C023 supplies the film and its exact claim. The sources count nineteen beautiful factors arising without exception in every one of the beautiful minds [C023-P:L37], and define each by the particular heaviness it lifts. The one this film is built on is proficiency, described in domestic terms: the practised giver finds giving easy and even sweet, the unpractised one hesitates, feels shy or afraid [C023-P:L153–L157; C023-P:L157]. The same source refuses to let that become a feel-good claim, saying the untended mind runs downhill and that turning it toward the good is work against a current [C023-P:L109]; and it warns that the term used in these pairs names a group of mental factors, not a physical body [C023-P:L119]. C011 supplies the guard-rail without which this would become a hierarchy of people: the sources count eight ordinary wholesome minds and separate them by joy, by understanding, and by whether they arose on their own or after prompting [C011-P:L57–L66], while insisting that the prompted and the joyless are fully wholesome and only generally ranked lower [C011-M:L28], and that this everyday goodness is called great because it is common and everywhere rather than because it is high [C011-M:L16]. Put on a plain where the same twenty-second act is performed forty times before noon by men who have done it for fifty years, the two together stop being a classification and become a description of what repetition does.",
+    "what_it_reveals": "That this tradition treats goodness as closer to a craft than to a character: something that gets lighter with use, that is awkward the first time for everybody, and that is entirely real while it is still awkward. C023 alone would tempt a film into admiring an expert. C011 alone would be a table of eight boxes. Together they make the harder point, which is also the group's rule: a film can show what repetition does to an action, and cannot show, and must not pretend to show, what is going on in the person doing it."
   },
   "concept_links": [
     {
       "concept_id": "C023",
       "role": "primary",
-      "why": "Proficiency makes practised good action easy and even sweet, and its absence brings hesitation and awkwardness at doing it for the first time [C023-P:L153-L157]. The digest adds the second sense the Pradeepika gives it, soundness or 'not being sick', which is not carried by this situation and should not be claimed for it."
+      "why": "The digest's core is that nineteen beautiful factors arise together in every beautiful mind [C023-P:L37] and that each is named for a particular heaviness it pushes down. Proficiency is the one this film carries, and the source's own illustration is practice rather than virtue: the accustomed giver gives easily and sweetly, the unaccustomed one hesitates, feels shy or afraid [C023-P:L153–L157; C023-P:L157]. Two of the digest's limits are load-bearing here and are spoken on screen rather than hidden. First, the source is explicit that 'kindness feels good' is only half of it, because the mind drifts toward the unwholesome by itself and has to be turned against that pull [C023-P:L109], so the film presents ease as the far end of effort. Second, the term rendered 'body' in these pairs means the group of accompanying mental factors and not the physical body [C023-P:L119], which is exactly why a film about a man climbing a tree has to say out loud that the lightness in the texts is not the weightlessness on screen. The digest's remaining warnings are respected by omission: faith is not carried in this film at all, moral shame's grounding in family and lineage is not touched, and the balancing factor is never offered as detachment."
     },
     {
       "concept_id": "C011",
       "role": "supporting",
-      "why": "The eight kinds include prompted and unpractised wholesome minds, and the digest is explicit that the sources never treat prompted or joyless goodness as fake, only as generally ranked below the unprompted [C011-P:L93-L109; C011-M:L28]."
+      "why": "The digest gives the eight ordinary wholesome minds and the features that produce them, including the conditions under which a good act is joyful rather than merely even-tempered [C011-P:L57–L66]. Two of its statements keep this film honest. Prompted and joyless goodness is never called fake, only generally ranked below the unprompted [C011-M:L28], which forbids the film from treating a beginner's clumsiness as a lesser grade of person. And this everyday goodness is called great because it is common to many, not because it is higher than anything else [C011-M:L16], which is the whole justification for filming a working plain instead of an exemplary individual. The digest's cautions are kept: the knowledge meant in this concept is not education or cleverness, so nobody's expertise is offered as understanding, and the source's insistence that good moments come interleaved with others rather than filling whole days is why the film never claims a good day, only a practised movement."
     }
   ],
-  "what_the_viewer_could_understand": "The texts treat goodness as something that becomes easier with repetition, like a skill, while still counting the awkward first attempt as fully good.",
-  "what_must_be_real": "Real volunteers giving a real night of their own time, and a first-timer who is actually a first-timer. No staged nerves, no recruited beginner, and no event convened so that it can be filmed.",
-  "position_hint": "middle: it depends on the viewer already accepting ordinary giving as goodness, and then complicates it with the question of practice.",
+  "what_the_viewer_could_understand": "That in this tradition a good quality can be named after the awkwardness it replaces, and that practice belongs to the definition rather than being a bonus: the same act is hard, shy and slow the first time for everyone, fully real while it is, and becomes almost weightless if it is done enough. And that what a camera gets of this is the outside of it only.",
+  "what_must_be_real": "The climbs are the climbs that were happening anyway, at the hours they happen. Nobody is asked to go up an extra tree, to repeat a climb, to climb faster, or to climb without the gear they normally use, and no shot is worth a fall; the risk in this work is real and people are killed and crippled by it every year. Nothing about the sap, the boiling or the selling is arranged for the camera. The film does not present any climber as a good or practised person in the tradition's sense, because the sources describe moments of mind and not kinds of people. It does not hide what the trade pays, what it costs a body, or the social standing historically attached to it, and it takes no position on what the sap is made into.",
+  "position_hint": "early in the group: it is the simplest statement of the group's doctrine, that goodness arrives as a team of qualities and that one of them is nothing more than practice, and it sets up the later films in which the required response is much harder to see.",
   "risks": [
-    "Performative generosity staged for the camera",
-    "Treating the people served as background rather than as people",
-    "Making the newcomer's awkwardness into comedy, or into a verdict on them"
+    "Presenting the climber as an example of a virtue. The sources describe moments of mind, a camera cannot show which factor is present, and this group's method is to film arrangements rather than exemplary people.",
+    "Letting weightlessness on screen be taken for the lightness in the texts. The digest is explicit that the term concerns the group of mental factors and not the physical body [C023-P:L119].",
+    "Letting the film say that kindness simply feels good. The same source says the untended mind runs the other way and that the turn toward good is work [C023-P:L109].",
+    "Romanticising dangerous, poorly paid work, or filming the height for its own sake. Falls kill climbers every year.",
+    "Turning the contraction of the trade into nostalgia, or implying that the young men who will not climb are lesser.",
+    "Ignoring the social history attached to this occupation, or, equally, making the film a report on caste when the people filmed have not chosen that subject.",
+    "Taking a position for or against what the sap is fermented into. It is not this film's subject and a judgement would be an intrusion."
   ],
   "drop_if": [
-    "No genuine first-time volunteer can be found",
-    "The event turns out to be organised specifically for filming"
+    "The season is wrong and the trees are not in tap, so there is no real work to film.",
+    "No climber will agree to be filmed working, or agreement in practice would mean asking somebody to climb for the camera.",
+    "The climb can only be made legible by putting a crew or a climber at additional height or risk."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0093",
-      "relation": "mirrors",
-      "note": "Both watch free giving to strangers become practised; IDEA-0093 holds the group's slot for that situation."
-    },
-    {
-      "idea_id": "IDEA-0095",
+      "idea_id": "IDEA-0100",
       "relation": "pairs with",
-      "note": "Both belong to the same set of six paired factors, this one to proficiency and that one to lightness."
+      "note": "Both watch long repetition against a fixed standard: one where the standard is invisible and lives in a body, one where it is written into a craft."
     }
   ],
   "selection": {
-    "recommendation": "hold",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Strong and well grounded, but the group's ten slots are filled and its leading concept would have to be added to the opening film's concept set to be carried; held for a later slot or as a second idea for that film."
+    "reason": "It carries proficiency as the sources actually define it, as the opposite of first-time awkwardness, on a place where the same act is repeated forty times before noon and nobody's virtue is on camera."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped the old subject entirely, a free-food stall with a veteran volunteer beside a first-timer: free-food giving is a banned archetype on this slate and is already held elsewhere, and the old version also turned two identifiable people into a demonstration of more and less practised kindness. C023 is kept in its exact sense, skill as effortlessness rather than as virtue, and moved to a place where long practice has made hard physical work look like nothing. Both digests re-read and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The palmyrah stands around Mallavi and Thunukkai, inland in the west of the district",
+    "also_known_as": [
+      {
+        "name": "panai maram",
+        "meaning": "the palmyrah palm",
+        "used_by": "Tamil usage across the north"
+      },
+      {
+        "name": "tal gaha",
+        "meaning": "the same palm",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Mullaitivu district, Northern Province: the inland dry-zone villages of the Thunukkai division, west of the main north road",
+    "coordinates": {
+      "lat": 9.1333,
+      "lng": 80.2833
+    },
+    "why_here": "The concept and the best shot are the same shot. A palmyrah has no branch, fork or foothold between the sand and the crown, so every ascent is the same twenty-second problem solved the same way, and a man who has solved it fifty thousand times solves it in a manner that reads as nothing happening. That is precisely the quality the source describes, and it can be held in one unbroken frame with no technique added. This district sits inside the belt where the palm is the working tree of ordinary life rather than a decorative one, the climbing trade is real and still worked twice a day in season, and the country around it is flat, sparse and uncluttered enough that a drone can show a plain of identical crowns with a single figure moving in one of them.",
+    "what_to_film": [
+      "The plain from height at first light and last light, wide enough that the crowns read as one surface and a climber reads as the only moving thing in it.",
+      "One entire ascent in a single unbroken shot from the ground to the crown, with no cut and no score, at the real speed.",
+      "The eighth, twelfth and twentieth ascents of the same morning, so the act stops being remarkable inside the film itself.",
+      "The work in the crown: liming a pot, slicing the flower stalk, tying on, lifting down.",
+      "The boiling: fire, wide pan, the sap changing, the jaggery turned out to set.",
+      "The unglamorous ground: rope, knife, bare feet, callus, the repair of gear, the walk between trees.",
+      "Rest in shade between rounds, filmed as rest and not as reflection.",
+      "The trees that are no longer worked, standing in the same stands as the ones that are."
+    ],
+    "access": "By road from the main north road to the inland villages, then on foot between stands. Everything depends on individual climbers agreeing, and on working to their two short daily rounds rather than to a crew's day. Trees are owned, leased or shared under local arrangements, so permission comes from more than one party. Drone flight in the north should be checked against current rules before anything is planned.",
+    "best_time": "The flowering and tapping season, when stands are actually in tap; outside it there is no work to film. Within a day, the two working rounds, before sunrise and before dark.",
+    "images": [
+      {
+        "caption": "The palmyrah palm itself, showing the unbranched trunk and fan crown the whole film depends on. This is the tree type, not a photograph of the district described.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Asian palmyra (Borassus flabellifer).JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Asian palmyra (Borassus flabellifer).JPG",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 4.0 on the file page; confirm licence and attribution before any use."
+      },
+      {
+        "caption": "A river and its surroundings in the district, for the flat dry-zone country the stands sit in. This is the surrounding landform, not the palmyrah belt itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mullaitivu Pali Aru.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mullaitivu Pali Aru.jpg",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 4.0 on the file page; confirm licence and attribution before any use."
+      },
+      {
+        "caption": "Dry-zone tree cover and light elsewhere in Sri Lanka, for the quality of shade and ground the film works in. Not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tree shades of the Dry Zone of Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Tree shades of the Dry Zone of Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; confirm licence and attribution on the file page before any use."
+      }
+    ],
+    "sources": [
+      "https://pdb.gov.lk/development-2/",
+      "https://www.sundaytimes.lk/260920/plus/time-to-harness-the-palmyrahs-potential-657141.html",
+      "https://exploresrilanka.lk/palmyrah-the-heavenly-palm/",
+      "https://en.wikipedia.org/wiki/Mallavi"
+    ],
+    "research_note": "That the country holds on the order of eleven million palmyrah palms, that the palm is the common working tree of the north, that a climber goes up each tapped tree twice a day and works thirty to fifty trees, that around twenty-five thousand families depend directly on the industry, and that the national board itself names the shrinking number of tappers as a principal obstacle, are from the sources above and are desk research only. The same board records palmyrah planting in this district in recent years, but no survey of which villages still have working climbers has been consulted. The coordinates are the town's, not a chosen stand. No climber, landowner or village has been approached, and nothing about access, consent, the season on the ground or drone permission in the north has been checked.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No climber, stand or village has been found or approached. Everything here is a research direction.",
+    "Whether enough working climbers remain in this particular district, as against the districts further north, to make the film without importing anybody, is unverified and decides the location.",
+    "Whether a full ascent can be filmed legibly and safely from the ground and from the air without altering how the climber works has not been tested.",
+    "The tapping season's exact months in this belt, and how many trees in a stand are in tap at once, are not established."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,84 +2,202 @@
   "schema_version": 1,
   "id": "IDEA-0103",
   "record_type": "idea",
-  "title": "The Society Book",
+  "title": "A Book Older Than Anyone In It",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Society Book"
+  ],
   "group_id": "GRP-06",
-  "logline": "A village savings and funeral-aid society, run from a handwritten ledger, decides together how to help a member through a bad year, and turns down the easier option of interest that would eventually take the family's land.",
-  "human_question": "What does a community actually choose, when it could profit from one of its own members' trouble instead?",
-  "situation": {
-    "what_happens": "A mutual-aid society that people pay into over years meets, as it does every month, and works through its ledger. One member is in difficulty. The society could lend on terms that would make the fund money and, in time, cost the family more than the loan. It could also carry the member. The decision is made in the open, among people who know each other's circumstances, and it is recorded in the book in handwriting.",
-    "who_is_involved": "The members, who are simultaneously contributors and potential claimants; the office-holders who keep the ledger; the member in difficulty and their household; and the lenders elsewhere whose terms are the alternative everyone knows about.",
-    "what_is_at_stake": "For the member, land, standing and privacy. For the society, its fund and the precedent it is setting. For the viewer, whether fairness at this scale is an achievement or merely a procedure.",
-    "how_it_unfolds": "Societies like this run on a monthly cycle and survive for decades or collapse over a single disputed decision. The pressures are arrears, favouritism, the cost of a funeral or an illness, and the fact that everyone will meet again next month. The decision may be generous, cautious, or deferred. Reality decides what the members choose, whether the member in difficulty wants any of it shown, and how it turns out over the following year."
+  "logline": "In a river valley under rubber and forest, every household pays a few rupees a month into a handwritten book kept in a shed with a padlock, and in return the valley owns, in common, everything a funeral needs and everything one costs.",
+  "human_question": "What does a good mind leave behind once it has stopped being anybody's?",
+  "place": {
+    "what_kind_of_place": "A single valley an hour inland from the coastal plain, where a fast brown river comes down out of forested ridges and the land either side is rubber, home garden and a little paddy on the flats. The houses are strung along the lanes rather than gathered, three or four hundred of them, each with jak and areca round it, and the valley's shared things are all in one place near the junction: a small hall with a tin roof and shutters that swing outward, a locked store beside it, a notice board, a standpipe. On the board, hand-painted, are a set of rules and a set of figures. In the store are poles, tarpaulins, rolls of white cloth, two hundred folding chairs, a tea urn, a generator, a bier frame, and a stack of tin lamps.",
+    "why_it_is_worth_watching": "It is an institution that is almost entirely made of objects, and the objects are beautiful. A ledger with sixty years of arithmetic in a dozen hands. Chairs stacked to the roof in the dark of a store. A hall that is empty for twenty-nine days a month and then holds the whole valley. And it has a catchment you can see: from the air the society's boundary is legible as the shape of the valley itself, because the valley is what it covers — the lanes, the roofs under the trees, the one road out, and, at the far edge under old trees, a small walled ground that belongs to everybody and is used by everybody exactly once.",
+    "what_moves_or_changes": "The month, which is the only clock: dues, minutes, arithmetic, a balance read out. The rain, which in this valley is enormous and constant, and which is the reason the store holds two hundred chairs and eight tarpaulins. The membership, which changes as households form and end, so that the list in the book is never twice the same. And the fund, which goes up in thin steady increments and down in sudden large ones, on a timetable nobody controls and nobody wants to.",
+    "when_it_looks_best": "A meeting month in the south-west monsoon, when the valley is loud with water and the hall has to be shuttered against the rain. Early morning for the valley from the air, when mist sits in the river bottom and the roofs come out of it one at a time; late afternoon indoors, when the low light comes flat through an open shutter onto a page."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet film about a valley and the things it owns together. Rain on a tin roof, a padlock, chairs coming down off a stack and going back up, a page of columns filled in by somebody's careful hand, a room of people doing arithmetic out loud, and a walled ground under old trees with nothing happening in it. It has a complete shape with nothing said over it: the valley waking, the hall opened, the book, the store, the hall shut, the valley at dusk.",
+    "with_the_philosophy": "The same valley becomes two of the sources' claims standing in one building. First, that the good thing being described is a refusal with something real to refuse: the texts' own example of a wrong way of earning is lending to a person in difficulty at unjust interest so as to take their land afterwards, which means an arrangement that deliberately does not do that is refusing a named wrong rather than merely being pleasant. Second, that what action produces is not a reward handed out by anybody. The voice is careful about where it stops. It never says that any household's trouble is explained by anything. It never promises that decency is repaid. It says what the sources say, and lets a book that will outlast everyone in it do the rest."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, very high. Mist in the river bottom, forested ridges above, roofs coming out of the trees along the lanes. One road in and out. The frame holds still long enough that the valley reads as one place with edges.",
+      "voice": "Every household you can see pays a few rupees a month into the same book. Nobody here calls it insurance and nobody here calls it charity. It is older than the road.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The hall: a padlock off, shutters pushed outward on their props, light crossing a concrete floor, a table carried to the middle, the book put down on it.",
+      "voice": "This is the entire apparatus. A room that is empty most of the month, a store next door, and a book.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "The book, very close. Ruled columns, names, dates, a running balance. Several decades of different handwriting. Faded ink giving way to biro. Names ruled through, names added beneath.",
+      "voice": "The old texts name a specific wrong way of getting a living, and they are unusually concrete about it: lending to somebody who is in difficulty at terms that will, in the end, take their land [C024-P:L47–L51]. They are equally clear that simply having a blameless occupation is not the good thing they are naming [C024-P:L45]. The good thing is the refusal, and a refusal needs something real to refuse.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "The store. A torch across it: poles, rolled tarpaulins, bolts of white cloth, chairs stacked to the roof, a tea urn, tin lamps, a bier frame under a sheet. Everything labelled in paint. Everything still.",
+      "voice": "What the book buys is all in here, and it is worth more than the fund is. Nobody in this valley can afford these things alone. Everybody in this valley owns them.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "The meeting: fifteen or twenty people on benches, a slate or a whiteboard, arithmetic being done out loud and checked, someone reading a balance, hands going up, the treasurer writing. Rain very loud on the tin.",
+      "voice": "The lists this series works from describe minds as small crews rather than single things. Qualities arise together, stop together, hold the same object between them, and each does one job that none of the others does [C019-P:L33–L47]. It is the only picture of a good mind in these books that also describes a committee.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "Outside, in the rain: the notice board, hand-painted rules and figures, a monthly due, a fine for missing the work, the number of members. Water running off the edge of it.",
+      "voice": "And only what the work needs turns up. The sources are firm that a mind takes the qualities its task requires and no more, somewhere between seven and thirty-six of them [C019-P:L49]. It is not a parade of every virtue. It is whoever the job calls for.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The walled ground at the valley's edge: old trees, wet leaves, a low gate, a few weathered markers, nothing happening. Held long, in flat light, entirely empty.",
+      "voice": "About what all this produces the texts say less than people expect. Results, in their account, are moments of experience that arise from a person's own earlier action, with nobody handing anything out and no one keeping score [C012-P:L34]. And everyone lives through the whole range of them, the pleasant and the unpleasant, because every past is mixed [C012-P:L52]. That is the end of what can honestly be said. It explains nobody's bad year.",
+      "concept_id": "C012"
+    },
+    {
+      "on_screen": "Late afternoon. Chairs going back onto the stack, the table carried out, the shutters swung to, the padlock. Then the valley from the air again as the light goes, the hall's tin roof a small bright rectangle among the trees.",
+      "voice": "The people who started this book are in that ground. The book is still being added to by people who never met them. There is a state the texts describe in which good acts are simply the fitting thing to do and store nothing up for later [C012-M:L22]. No one here is being claimed for it. But something in this valley is doing its work without anybody's name on it.",
+      "concept_id": "C012"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C024's own example of wrong livelihood is lending to someone in difficulty at unjust interest in order to take their land later, which makes a fair society the deliberate refusal of a named wrong rather than a generally nice institution. C012 describes what the tradition says action produces: resultant moments of experience arising from one's own earlier action, with no judge handing anything out, experienced by everyone because everyone's past is mixed. C019 keeps the scale right: one outcome carried by many people's small, distinct contributions, none of them the whole story. Together they show a refusal made collectively, and a tradition's account of consequence that refuses to explain anybody's hardship.",
-    "what_it_reveals": "That the abstinence the texts describe can be held by a group and written into a procedure, and that the doctrine of results, read honestly, says nothing about why this particular member is having a bad year."
+    "why_together": "C024 gives the film its named wrong and therefore its refusal. The sources' own examples of wrong livelihood include lending to a person in difficulty at unjust interest and taking their land afterwards [C024-P:L47–L51], and the same passage insists that a blameless occupation is not by itself this abstinence [C024-P:L45], with the second of its three depths being an undertaking kept even when keeping it costs [C024-P:L63; C024-M:L27] — which is precisely what a written rule and a monthly due are. C012 gives the film its restraint about consequences: resultant minds are moments of experience arising from a person's own earlier action, with no judge and no giver [C012-P:L34]; everyone, including the most realised, lives through the entire range of them because every past is mixed [C012-P:L52]; and the functional minds of those who have finished the path still bow, teach and listen while producing nothing further [C012-M:L22], which is the only honest way to speak about an institution that outlives its founders. C019 keeps the scale right: factors arise together, cease together, take one object and each do a single distinct job [C019-P:L33–L47], and only those the work requires arise at all [C019-P:L49]. Put in a hall where twenty people do one sum together, the three stop being doctrine and become a description of the room.",
+    "what_it_reveals": "That the good thing in these texts can be written down, locked in a store and handed on, and that this is not the same as anybody being good. C024 alone would make a film that praises a village. C012 alone would tempt the film into the one claim the digest forbids outright, that hardship is explained by a person's own past. C019 alone would be a diagram. Together, in this valley, they show generosity that has been turned into an arrangement, a refusal that has been written into a rule, and a doctrine of consequence that, read honestly, declines to account for anybody's trouble at all."
   },
   "concept_links": [
     {
       "concept_id": "C024",
       "role": "primary",
-      "why": "The source's own examples of wrong livelihood include lending to someone in difficulty at unjust interest and later seizing their land, and putting others at risk for a small profit [C024-P:L45; C024-P:L47-L51]; a society that refuses those terms is refusing the named wrong, which is what makes it the abstinence rather than merely decent behaviour."
+      "why": "The digest supplies both the named wrong and the shape of the refusal. Its own examples of wrong livelihood include fraud, flattery and lending to someone in difficulty at unjust interest so as to seize their land [C024-P:L47–L51], which is what makes an arrangement that deliberately will not do that a refusal of something specific rather than general decency; and the source states plainly that a naturally blameless way of earning is not this abstinence [C024-P:L45]. The second of the three depths, an undertaking kept even at cost [C024-P:L57–L67; C024-P:L63; C024-M:L27], is the one an institution can actually embody, and it is the one the film uses. The digest's limits are honoured. No person in frame is offered as an instance of a factor. No lender anywhere near this valley is implied to be a villain, since the digest's own story-seed risk names that danger explicitly and no evidence about any real lender is available to a camera. The compassion and sympathetic-joy material is not used here, because the digest classes feeling for one's own people as attachment rather than compassion [C024-P:L81] and a film about neighbours helping neighbours would fall straight into that, and because it also classes grief and weeping at another's suffering as a counterfeit [C024-P:L83–L87], which must never be turned on anybody's bereavement. The wisdom material is not used, and the claims about an innate seed of wisdom [C024-P:L103] are excluded outright."
     },
     {
       "concept_id": "C012",
       "role": "supporting",
-      "why": "Rewritten after the digest check. The sources describe resultant minds as moments of experience arising from a person's own earlier action, with no judge and no giver involved [C012-P:L34], and state that everyone, including the most realised, lives through the whole range of results because every past is mixed [C012-P:L52]. That is the honest form of the link: every member of the society is at once a giver and a receiver. It is emphatically not a claim that this member's bad year, or anyone's poverty, is the fruit of their own past action — the digest flags that claim as one that must never be used on camera — and not a promise that fair dealing is repaid."
+      "why": "The digest is used here for exactly two things and is fenced everywhere else. First, results are moments of experience arising from a person's own earlier action, with no judge and no giver involved [C012-P:L34], and everyone without exception lives through the full range of them, pleasant and unpleasant, because every past is mixed [C012-P:L52] — so every member of such a society is simultaneously a giver and a receiver, and no one stands outside the flow. Second, the functional minds of those who have finished the path still bow, still teach and still listen while producing nothing further [C012-M:L22], which gives the film its closing figure of good work that stores nothing up, without claiming anything whatever about any living person. Everything else is excluded on the digest's own instruction. The source's statement that poverty, disability and dullness follow from weak wholesome action [C012-P:L48] is never used, never implied and never gestured at, which the digest says would be harmful and would misrepresent the series' ethics; so the film never suggests that any household's difficulty is the fruit of anything. 'You get what you give' and 'good things happen to good people' are ruled out by the digest and by the source's own account of results across many lives from a mixed past [C012-P:L52]. And the remark about meditation harming those without the right conditions [C012-P:L44] is not touched."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "Factors arise together, cease together and take the same object, each with its own distinct function [C019-P:L33-L47], which is the shape of a decision that exists only because many people hold different parts of it at the same time; only the contributions the work requires are involved [C019-P:L49]."
+      "why": "The digest gives the film the only honest way to film a committee. Factors arise together with a mind, cease together with it, take the same object and rest on the same base, each with its own distinct function [C019-P:L33–L47], and only those a given task requires arise, as few as seven and as many as thirty-six, with opposed factors never sharing a moment [C019-P:L49]. A room in which a treasurer, a secretary, a chair and fifteen members hold different parts of one decision about one object is the nearest visible thing to that description, and the voice uses it as a picture rather than a proof. The digest's warnings are kept. The factors are not sub-personalities or standing inner agents [C019-P:L35–L37], so nobody in the room is narrated as embodying one. They are not a list of emotions. And the group's phrase about a whole team travelling with each mind is used in the digest's own sense of a roster rather than all of them present at once [C019-P:L49]."
     }
   ],
-  "what_the_viewer_could_understand": "Refusing to profit from a neighbour's trouble is, in the texts, a good act in its own right, and good action has results of its own that arise from what a person did, not from anyone handing out rewards.",
-  "what_must_be_real": "The society's actual practice and a real member's real situation, shown only with their full, informed and revocable consent. No reconstruction of a decision already taken, and no on-screen suggestion that anybody's hardship is explained by their past.",
-  "position_hint": "middle: it widens the group's restraint film from one trader to a community, and it is the natural place for the question of what action produces.",
+  "what_the_viewer_could_understand": "That the good thing these texts describe can be written into a rule, locked in a store and handed to people who never met the ones who started it — and that this is not a statement about how good anybody in the valley is. And that the tradition's account of what action produces, taken honestly, is far more modest than the version people carry around: results arise from a person's own earlier action, nobody hands them out, everybody's past is mixed, and none of it explains why this particular household is having this particular year.",
+  "what_must_be_real": "The society, the book, the store and the valley as they actually are, filmed on the society's own timetable and with the members' full, informed and revocable consent. No bereavement, no funeral and no particular death is filmed, referred to or reconstructed at any point: the ground at the valley's edge is filmed empty, and the equipment is filmed in store. No member's debt, arrears or hardship is shown or named. No decision already taken is re-enacted for the camera. Nothing on screen or in the voice suggests that anybody's difficulty is a consequence of anything they did, and no lender, shop or individual anywhere in the district is implied to be predatory.",
+  "position_hint": "late in the group: it is the widest of the three, taking a refusal that the earlier films hold for one morning or one night and showing it written down and outliving the people who wrote it. No location reasoning is involved.",
   "risks": [
-    "Exposing members' private debts and hardship without full consent",
-    "Implying that a real lender elsewhere in the community is a villain, without direct evidence",
-    "Letting the doctrine of results slide into 'good things happen to good people', which the digest rules out",
-    "Any implication, however oblique, that the member's difficulty is a consequence of their own past action"
+    "Filming anybody's bereavement, or any particular death. The film must be made entirely between funerals, and the equipment and the ground must be shown unused.",
+    "Exposing members' arrears, debts or private hardship. The book is filmed as an object and an arithmetic, never as a disclosure.",
+    "Any implication, however oblique, that a household's difficulty is the fruit of its own past action. The digest names this as harmful and it is excluded absolutely [C012-P:L48].",
+    "Letting the doctrine of results become 'good things happen to good people'. The source describes results over many lives from a mixed past, experienced by everyone [C012-P:L52].",
+    "Implying that a real lender, shop or individual in the district is predatory, when no such evidence is available.",
+    "Presenting any member, officer or elder as an example of a virtue. The sources describe moments of mind, not kinds of person.",
+    "Suggesting or implying that anybody here has attained anything, which the closing beat's material about good acts that store nothing up makes an easy mistake to fall into.",
+    "Reading the society as warm family feeling, when the digest classes attachment to one's own people as a different thing from the compassion it describes [C024-P:L81].",
+    "Narrating the mental factors as persistent parts of a person or as an inner committee [C019-P:L35–L37], when the committee on screen is a picture and not a model."
   ],
   "drop_if": [
-    "Members will not consent to being identified even partially",
-    "No real, current case is active and the film would have to reconstruct one"
+    "Members will not consent to the book, the store or the meeting being filmed.",
+    "The film can only be made around an actual death, which is the one thing it must not do.",
+    "The society's records or meetings cannot be filmed without exposing an individual household's arrears."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0102",
       "relation": "pairs with",
-      "note": "Both concern honest dealing chosen over an available and more profitable wrong, at the level of a trade and of a community."
+      "note": "A refusal held by a measure on a counter for one morning, and the same refusal held by a written rule for sixty years."
+    },
+    {
+      "idea_id": "IDEA-0101",
+      "relation": "pairs with",
+      "note": "Property left safe by an arrangement nobody administers, and property kept safe by one that keeps minutes."
     },
     {
       "idea_id": "IDEA-0093",
       "relation": "mirrors",
-      "note": "Both show goodness carried by a group of people rather than by a single decisive act."
+      "note": "Both show goodness carried by a structure rather than by a single decisive act."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and the group's only communal-scale film; its results link has been rewritten to what the digest actually supports."
+    "reason": "It is the group's only film in which generosity has become an institution that outlives its members, which is the clearest available answer to the group's trap: a structure rather than a person."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape, on a real valley, with the film built from the ledger, the store, the hall, the notice board and the catchment seen from the air. Dropped the old premise's centre — a named member in difficulty and a live decision about whether to carry them — because it turned a household's private hardship into the film's plot and made the concept depend on filming somebody's worst year. No bereavement and no particular death appears anywhere. Concepts re-read from the digests; the results link is held to exactly what C012 supports and the digest's prohibited claim about poverty and disability is excluded outright.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "A village funeral-aid society in the Kuda Ganga valley around Baduraliya and Athweltota",
+    "also_known_as": [
+      {
+        "name": "maranadhara samithiya",
+        "meaning": "death-aid society: a village mutual fund whose members pay monthly dues and which supplies the labour, equipment and money a funeral requires",
+        "used_by": "Sinhala village usage throughout the country"
+      },
+      {
+        "name": "samithi maduwa",
+        "meaning": "the society hall: the small shuttered building and locked store the fund owns",
+        "used_by": "Sinhala village usage"
+      }
+    ],
+    "region": "Kalutara district, Western Province: the inland south-east of the district, in the Palindanuwara division, where the Kuda Ganga comes down out of forested ridges into rubber and home-garden country",
+    "coordinates": {
+      "lat": 6.5167,
+      "lng": 80.2322
+    },
+    "why_here": "The film needs a society whose catchment you can see, and this valley gives one. It is inland, wet, hemmed in by forested ridge and river, with the settlement strung along lanes between rubber and home garden and a single road serving the whole of it, so from the air the area a society covers is simply the shape of the valley — which is the film's opening and closing image and also the point being made, that the institution is a place rather than a person. It is deep smallholder country a long way from any town, which is exactly where these societies matter most and where their stores of chairs, poles, cloth and lamps are the only such stock for miles. And it is genuinely little known: a junction, a hall, a store and a river.",
+    "what_to_film": [
+      "The valley from very high at first light, wide enough that the lanes, the roofs, the one road and the river read as a single catchment with edges.",
+      "The hall being opened: padlock, shutters pushed out on their props, the table carried to the middle.",
+      "The ledger at close range and at length — decades of hands, ruled columns, corrections, thumbprints, the running balance.",
+      "The store by torchlight: stacked chairs, poles, rolled tarpaulins, bolts of white cloth, the urn, the lamps, the bier frame under its sheet, everything labelled and everything unused.",
+      "A monthly meeting as it actually runs: dues counted, minutes read, arithmetic done aloud and checked, a balance announced.",
+      "The hand-painted notice board in the rain — the rules, the due, the fine, the member count — which is the society's constitution.",
+      "The walled ground at the valley's edge, filmed empty, in flat light, with nothing happening in it.",
+      "The hall shut and padlocked again, and the valley at dusk, to give the month its real proportion: twenty-nine days of nothing."
+    ],
+    "access": "By road inland from the coastal highway up the river valley, then on lanes. Everything here belongs to the society and to its members, so access is a matter of the committee agreeing, in a general meeting, and of individual members agreeing to appear. The timetable is the society's own monthly one. Filming must be arranged so that it can be stood down instantly if there is a death in the valley, because in that week the society is working and a crew has no business there.",
+    "best_time": "A meeting month in the south-west monsoon, roughly May to September, for the rain on the hall roof and the water in the river. First light for the valley from the air; late afternoon for the interiors.",
+    "images": [
+      {
+        "caption": "Cultivation at Baduraliya, in the valley described. This is the landscape rather than any society, hall or store.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Culivations in Baduraliya, Oct 2009.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Culivations in Baduraliya, Oct 2009.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "An inland town in the same district seen from a hilltop, for the way settlement here sits under trees along lanes. This is elsewhere in the district, not the valley described.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ingiriya Town.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Ingiriya Town.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Baduraliya",
+      "https://en.wikipedia.org/wiki/Palindanuwara_Divisional_Secretariat",
+      "https://www.tandfonline.com/doi/abs/10.1080/00856401.2026.2625560",
+      "https://en.wikipedia.org/wiki/Kalutara_District"
+    ],
+    "research_note": "That Baduraliya is in Kalutara district and is the seat of the Palindanuwara divisional secretariat, that it stands on the Kuda Ganga in forested inland country, and that village death-donation societies of this kind run on elected officers, written rules, membership registers and obligations of labour and money, are from the sources above and are desk research only; the academic study cited is of a village in North Central Province, not this one, and is used for the institution's general shape and nothing else. The coordinates are the town's, not a chosen village or hall. No society has been found, named or approached, no committee has been asked, and whether any society here keeps its records by hand, owns a store of the kind described, or would allow any of it to be filmed is entirely unverified. Both images are of the district's landscape and settlement rather than of a society, a hall or a store, and each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No society, committee, hall or store has been found or approached. Everything here is a research direction.",
+    "Whether any society in this valley still keeps a handwritten register rather than a spreadsheet, which the film's central object depends on.",
+    "Whether a committee would agree to a book that contains members' payment histories being filmed at all, and on what conditions.",
+    "How old any particular society here is, and therefore whether the film's claim that the book outlives its founders is true of the one that ends up being filmed."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

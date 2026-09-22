@@ -2,81 +2,199 @@
   "schema_version": 1,
   "id": "IDEA-0095",
   "record_type": "idea",
-  "title": "Setting the Load Down",
+  "title": "Where The Weight Stops",
   "status": "draft",
-  "version": 2,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Setting the Load Down"
+  ],
   "group_id": "GRP-06",
-  "logline": "Workers carry harvested leaf on their backs all morning, and the moment each basket reaches the weighing shed and comes off a back, something visibly changes in the body underneath it.",
-  "human_question": "What does relief actually look like on a body, and how much of goodness might be exactly that?",
-  "situation": {
-    "what_happens": "A gang of hand-harvest workers climbs to the day's ground with empty baskets, picks through the morning, and carries an accumulating weight back down to be weighed. The load grows heavier the longer it is carried. At the weighing point the basket comes off, the weight is recorded, and for a few seconds the body that carried it moves differently. Then the next round begins. The same day also contains the parts that are not picturesque: the pay the weight converts into, and what the work does to people over years.",
-    "who_is_involved": "The workers who carry, most of whom have done this for years; whoever runs the weighing and the records; the households the wage goes to. Where the situation is the kind of work that cannot be done alone at all — a crew hauling one net from both ends, a team lifting what no one can lift singly — the same observation is available with every person holding a distinct part of one effort.",
-    "what_is_at_stake": "For the workers, a wage measured in weight and a body that pays for it. For the film, the risk of borrowing hard, badly paid labour as a pretty illustration. For the viewer, the difference between a simile and the thing the simile is about.",
-    "how_it_unfolds": "A working day of this kind has a fixed shape: an early start, rounds that get heavier, a weighing that settles the day's earnings, and an end that arrives whether or not the target was met. Its pressures are weather, quotas, injury and pay disputes. Reality decides how heavy the day actually is, what the workers say about the work when asked, and whether the relief at the weighing point is visible at all or simply absorbed into the next round."
+  "logline": "All morning, men come up out of a big lowland river with baskets of wet sand on their heads, climb a cut bank that gets more slippery every time it is used, and tip the load out at the same six feet of ground beside a waiting lorry, and for about four seconds afterwards the body that carried it moves in a way it has not moved since the last one.",
+  "human_question": "What does relief actually look like from outside, and how much of goodness might be exactly that?",
+  "place": {
+    "what_kind_of_place": "A wide, slow, brown river in the low wet country inland of the coast, running between banks four or five metres high that are cut back into red earth and held together by roots. At a landing on the inside of a bend there is a beaten slope down to the water, a scatter of small flat-bottomed boats, a licence board on a post, a growing heap of wet sand at the top of the bank, a tipper backed up to it and a man with a tally book. The work begins before light. Divers go down from the boats with a bucket and fill it off the bed by hand, a few kilos at a time, surfacing to hand it up. When a boat is loaded it is poled in to the landing, and a second team empties it: basket onto the head or the shoulder, up the bank on cut footholds, out onto the flat, and the load goes onto the heap. The basket goes back down empty. It happens over and over for four or five hours, and then the quota is used up and the river is empty again.",
+    "why_it_is_worth_watching": "Two things the camera loves happen within thirty metres of each other. On the water it is all surface and light: mist sitting on a wide river before sunrise, lamps in boats, a body going under and the water closing, a bucket breaking the surface streaming. On the bank it is all weight and friction: a slope that has been climbed so many times it has its own worn staircase, and a person on it with twenty-odd kilos of wet sand on their head, going up. And the film's central event is small, physical and endlessly repeated: at the top, the basket comes off. Shoulders drop. The neck lengthens. The walk changes. It happens two or three hundred times in a morning, to a handful of bodies, in the same six feet of ground, and once you have seen it once you cannot stop seeing it.",
+    "what_moves_or_changes": "The river, which takes no instruction. Rain in the hills upstream puts the water up and the visibility down and stops the diving outright; a dry spell drops the level and lengthens the climb. The bank changes hour by hour as it is used, cut deeper and made slicker, and somebody re-cuts the footholds when it gets bad. Within a morning the light goes from a torch beam on black water to hard white sun on wet sand. The heap at the top grows, is driven away, and starts again. And the permitted number of loads is finite, so the morning ends at a number rather than at an hour.",
+    "when_it_looks_best": "A settled dry run of days, when the water is low and clear enough to work and mist still forms on the river overnight. Within a day: from about an hour before first light, for the lamps on the water and the first boats, through to late morning, when the last load goes up the bank and the shade at the top is the only comfortable place there is."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about weight, and about a river. Mist on wide water before sunrise, a boat with a lamp in it, a body going under and coming back, a bucket streaming, a bank climbed on cut footholds, and a heap of wet sand at the top that grows all morning. It has a complete shape said out loud by nobody: dark, water, lift, climb, set down, sit in the shade, go back down. Anyone who likes watching people work in a landscape has a whole piece here.",
+    "with_the_philosophy": "The same morning becomes the sources' own picture, performed by people who have never heard of it. The texts say that every good mind, without exception, comes with nineteen qualities at once, and that several of them describe not what the mind does but how it feels to be in it: calm, light, soft, workable, practised, straight. Their picture for lightness is a person putting down a load carried from a long way off. This bank is that sentence, a couple of hundred times a morning. The voice is careful about the borrowing: the texts mean a weight that is not physical at all, and say so in the same passage, and they also say that turning toward good is uphill work against a pull the other way, which here is not a figure of speech but the slope itself. So the film gets the relief and the effort from the same body, which is exactly what the sources claim."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dark. A lamp low on black water, moving. A shape going over the side of a boat and the surface closing. Then high above, just before light: a wide river under mist between two dark walls of trees, one pale bend, no sign that anybody is on it.",
+      "voice": "Work started here about two hours ago. From up here there is no evidence of it at all.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "Close, at the waterline. A bucket comes up out of the river full and streaming, is handed over a gunwale and tipped. Then the same thing again, and again, the boat sitting lower each time.",
+      "voice": "The old analysis will not let goodness be one thing. It says that the moment a mind turns good at all, nineteen qualities arrive together, in every single instance, with no exceptions [C023-P:L31–L35; C023-P:L37]. Not one virtue switching on. A crew.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "The loaded boat poled in to the landing. A basket filled with a shovel, lifted, felt, settled onto a head. The first steps out of the shallows onto the bottom of the slope.",
+      "voice": "The companions of a mind begin at the same instant, finish at the same instant, are turned toward the same thing and stand on the same support [C019-P:L33–L47]. And only the ones the work needs arrive at all, as few as seven and never more than thirty-six [C019-P:L49].",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The carry, held long and uncut: the climb, foothold by foothold, on a slope worn to a staircase and wet all the way up. The basket does not move on the head. The face does not perform anything. The height is real and so is the slipping.",
+      "voice": "The sources are not sentimental about this. They say an ordinary mind drifts toward the bad on its own, like a pot carried off by a current, and that turning it toward the good takes effort against that pull, and balance to hold it there [C023-P:L109]. Kindness feeling nice is only half of what they say about it.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "The top of the bank. The basket comes off onto the heap. Held, at real speed and then again slowed: the shoulders going down, the neck lengthening, one hand going to the back of the head, the first free breath. Then the tally book, the mark against a number, the lorry.",
+      "voice": "Their picture for one of the nineteen is exactly this. Lightness, they say, is like putting down a load you have carried from a long way off [C023-P:L137]. And in the same breath they close the door on the obvious misreading: the body they mean is not this one, it is the group of companions travelling with the mind [C023-P:L119], and the heaviness being lifted is dullness, not kilograms.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "Above the landing: shade, a water can, people sitting on their heels with their backs against a tree, the tally book open, the permitted figure, talk about the figure. No commentary on faces.",
+      "voice": "Another of the nineteen, calm, gets the same kind of picture: someone walking in the sun who reaches the shade of a tree [C023-P:L129]. These are not flourishes. They are how the texts choose to say that a good mind is one that has stopped being difficult to be in.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "Empty baskets going back down the footholds. The river again from above with the mist burned off, ordinary daylight, nothing visible happening. Last frame: the six feet of beaten ground at the top of the bank, empty.",
+      "voice": "The sources add one more thing that this place shows and no face could. Someone who has done a thing many times does it easily, almost sweetly; someone doing it for the first time hesitates and is embarrassed [C023-P:L157]. What a camera can see here is practice and weight. Which mind anybody was in this morning is not available to it, and this film does not guess.",
+      "concept_id": "C023"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C023 supplies the image: among the nineteen factors present in every good mind are the paired qualities of tranquillity and lightness, and the source's picture of lightness is a person setting down a load carried from far away. C019 supplies the structure: factors arise together, cease together, take the same object and rest on the same base, and only those the work requires arrive at all. Put together on real carried weight, the first says that goodness comes with ease rather than adding effort, and the second says that ease is not one quality switching on but a whole set beginning and ending at once.",
-    "what_it_reveals": "That the tradition's account of a good mind is built from bodily experience — weight, relief, coordination — while insisting the factor itself is mental; holding both at once is what the film has to do, and what a viewer can feel before they can explain."
+    "why_together": "C023 supplies the image and its corrections in the same passage. Nineteen beautiful factors arise together in every beautiful mind without exception [C023-P:L31–L35; C023-P:L37]; six of them come in pairs that describe the condition of the whole mind rather than any particular act; the picture for lightness is putting down a load carried from far away [C023-P:L137]; the picture for calm is a sun-struck traveller reaching tree shade [C023-P:L129]; the word translated as body in these pairs means the accompanying mental factors and not the physical body [C023-P:L119]; the source insists that turning toward the good is effortful against a natural pull the other way [C023-P:L109]; and it says that practice makes doing good easy while inexperience makes it awkward [C023-P:L157]. C019 supplies the grammar underneath: a mind never arrives alone, its companions begin and end together, take one object and rest on one base [C019-P:L33–L47], only those the work requires arrive [C019-P:L49], and the ethically variable capacities take the whole colour of whatever they serve [C019-P:L61–L63]. Put on a morning of carried weight ending at the top of a bank, the two produce the group's cleanest match: the single most photogenic event in the place is also the sources' own sentence, and the effort the source insists on is the slope itself.",
+    "what_it_reveals": "That the tradition's account of a good mind is built out of bodily experience — weight, effort, relief, shade — while insisting in the same paragraph that the weight is not a weight. Holding both at once is the whole discipline of the film. C023 alone would tempt a voice into telling a viewer that kindness feels lovely, which is half the source. C019 alone would be a parts list. Together on real carried sand, with real pay and real danger attached to it, they make the point the group needs: goodness is not one quality but a condition of the whole mind, and one of its names is relief."
   },
   "concept_links": [
     {
       "concept_id": "C023",
       "role": "primary",
-      "why": "Lightness (lahutā) is pictured as putting down a load carried from far away, and it is paired with tranquillity, so real ease belongs to every good mind [C023-P:L137]. Two corrections from the digest must travel with this link: in these six pairs the word 'body' means the group of accompanying mental factors, not the physical body [C023-P:L119], and the heaviness lightness opposes is the dullness of sloth and torpor, explicitly not the weight of any substance. The carried basket is how the simile is made felt; it is not itself the factor."
+      "why": "The digest's simile for lightness is precisely this film's central event — putting down a load carried from a long way off [C023-P:L137] — and it sits inside a set of nineteen factors that the sources say arise together in every beautiful mind without exception [C023-P:L31–L35; C023-P:L37], with calm given the neighbouring picture of a sun-struck traveller reaching tree shade [C023-P:L129] and proficiency explained as the ease of a practised hand against the hesitation of an unpractised one [C023-P:L157]. Every line in the digest's does-not-transfer list that bears on this film is honoured on screen rather than in a footnote. The passage's own definition of 'body' in these six pairs, the group of accompanying mental factors and not the physical body [C023-P:L119], is spoken in the same beat as the simile, and the heaviness lightness opposes is named as dullness rather than as substance. The claim that kindness simply feels good is refused with the source's own counterweight, that turning toward the good takes effort against a pull the other way [C023-P:L109]. Nothing on screen presents the balancing factor as indifference or detachment [C023-P:L115], and the digest's socially grounded account of moral shame [C023-P:L73] is not used at all, since its framing in family and lineage is exactly what a film must not carry."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "The four marks of association — arising together, ceasing together, one object, one base — describe a set of factors that begins and finishes as a unit, each with its own distinct job [C019-P:L33-L47; C019-M:L3-L17], which is why work that literally cannot be done by one person is a fair image of it. Only the factors a moment's work needs arise, and effort itself is neither good nor bad, taking the colour of what it serves [C019-P:L49; C019-P:L61-L63]."
+      "why": "The digest's four marks — arising together, ceasing together, one object, one base [C019-P:L33–L47] — are what stop the film from treating lightness as a single quality that switches on when a can comes off a head, and the rule that only the needed factors arrive, between seven and thirty-six [C019-P:L49], keeps the count honest. The image of the ethically variable capacities taking the colour of the company they keep [C019-P:L61–L63] matters here for a specific reason: the strength and endurance in this work are not virtues in this framework and the film must not praise them as such. The digest's corrections are kept. The factors are not persistent inner agents. The fifty-two are a roster and not an attendance, so the group's shorthand about the team that travels with each mind is used in that sense and no other."
     }
   ],
-  "what_the_viewer_could_understand": "The texts describe a good mind as a lighter one, and their picture for that lightness is someone setting down a load carried a long way, so kindness comes with a kind of relief.",
-  "what_must_be_real": "The workers' actual wages, conditions and choices about this work, and their own words about it. No staged relief, no performed exhaustion, and no edit that keeps the rhythm of the work while dropping what it pays.",
-  "position_hint": "middle: it explains a quality the whole group depends on, and it needs the viewer to have already seen ordinary goodness before being told what goodness feels like from the inside.",
+  "what_the_viewer_could_understand": "That the texts describe a good mind as a lighter one, and that their own picture for it is somebody setting down a load carried a long way — so kindness, in this account, comes with a kind of relief. And, in the same breath, that the weight being put down is not a physical weight, and that getting a mind to turn that way is uphill work.",
+  "what_must_be_real": "The workers' actual work, wages per load, hours and conditions, the real danger of the diving, and the legal standing of the site: who holds the permit, what it allows, and what happens when it runs out. Nothing is lifted, carried, climbed or set down for the camera, no climb is repeated for a better angle, and nobody is asked to look relieved. The film does not cut away from the parts that are not picturesque: the injuries, the drownings, what the bank and the river bed look like after years of this, and what the work does to necks and knees over decades. Anybody filmed close has agreed to it, and no one in frame is presented as an example of a virtue. Nothing unlicensed is filmed in a way that could expose anyone to prosecution, and if access can only be had on terms that exclude the unflattering parts, it is not taken.",
+  "position_hint": "middle: it is the group's plainest answer to what a good mind feels like from the inside, so it needs the viewer to have already met ordinary goodness from the outside. It should come before the film about a material being made workable, because it introduces the six pairs that the other one then narrows to a single factor.",
   "risks": [
-    "Romanticising hard, poorly paid labour",
-    "Aestheticising economic hardship into a metaphor",
-    "Letting the simile take over, so that a real body's tiredness is treated as a diagram of a mental factor",
-    "Presenting kindness as purely pleasant, when the same source says turning toward the good takes effort against a pull the other way"
+    "Romanticising hard, dangerous, poorly paid work by using it as a beautiful figure for a mental quality. The pay per load, the danger and the bodily cost must stay in the film.",
+    "Letting the simile take over, so that a real tired body is treated as a diagram. The sources say the body meant in these pairs is the set of mental companions, not the physical one [C023-P:L119], and the film says so out loud.",
+    "Presenting kindness as simply pleasant, when the same source says turning toward the good is effortful against a natural pull the other way [C023-P:L109].",
+    "Reading physical lightness as the factor. The heaviness lightness opposes is dullness and sluggishness, which the text is explicit is not physical weight.",
+    "Praising the workers' strength, endurance or skill as virtues; in this framework those capacities are ethically variable and take the colour of what they serve [C019-P:L61–L63].",
+    "Presenting anyone in frame as an instance of a beautiful factor, which no camera can show.",
+    "Turning it into a film about river damage, illegal extraction and enforcement, which is a real subject with its own obligations and would displace this one — while also not pretending the river is fine.",
+    "Filming anything that could identify an unlicensed operation or the people working it, which would put them at legal risk for the sake of a picture.",
+    "Using the digest's account of moral shame, which is partly grounded in family and lineage [C023-P:L73] and must not travel onto screen."
   ],
   "drop_if": [
-    "No workers are willing to be filmed honestly, including about conditions and pay",
-    "Access can only be had on terms that exclude the unflattering parts of the work"
+    "No licensed landing will be filmed on honest terms, including about permits, pay, danger and conditions.",
+    "The unloading has been mechanised at every accessible landing, by pump, conveyor or machine, so there is no load carried on a body.",
+    "The only places where the sand is still carried by hand are working outside the law, so that filming them would expose the people in frame.",
+    "It can only be made by asking somebody to carry a basket for the camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0104",
-      "relation": "absorbs",
-      "note": "IDEA-0104's collective haul is folded in here: work that exists only when several people begin and finish it together, which is what carries the four marks of association."
-    },
-    {
       "idea_id": "IDEA-0096",
       "relation": "pairs with",
-      "note": "Both take a real physical process as the direct image of a beautiful factor: lightness here, softness there."
+      "note": "Two of the six pairs given a physical event each: lightness here, as weight leaving a body; softness there, as a material that finally yields."
+    },
+    {
+      "idea_id": "IDEA-0104",
+      "relation": "mirrors",
+      "note": "The four marks of association shown two ways: here as a single load with a single destination, there as work that cannot begin or end except all at once."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0104"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode, and now the group's strongest carrier of the mental factors as a set, with IDEA-0104's collective-effort image folded in."
+    "reason": "The group's cleanest concept-to-image match: the sources' own simile for lightness happens here, physically, thirty or forty times a morning, with nobody being held up as good."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Relocated 2026-09-22 off rubber entirely. Two agents working in parallel both landed on smallholder latex collection, and IDEA-0102 keeps rubber because its concept is intrinsically about tapping — a cut that must stay true for twenty years and a density reading nobody double-checks — so this one moved rather than duplicate the same industry and the same kind of facility twenty-five kilometres away. The concept is commodity-agnostic and is untouched: C023 primary, C019 supporting, and the film's event is still the moment a carried load reaches a fixed point and is set down, repeated all morning. The structure, the two-layer logic and both concept links are kept as they were. What moved is only what depends on the place, which is now a licensed river-sand landing, where the load is heavier, the carry is a climb rather than a walk, and the effort the source insists on is literally uphill. The geographic requirement is honoured: it stays in the same district it was already in, which carries only this one location in the whole slate, and the district is named in the proposed location rather than here. Every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "A licensed river-sand landing on the south bank of the Kelani Ganga, on the lowland reach around Hanwella",
+    "also_known_as": [
+      {
+        "name": "wæli",
+        "meaning": "sand; the ordinary word for what is lifted off the river bed and sold",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "cube",
+        "meaning": "the volume unit in which river sand is permitted, counted at the landing and sold to the construction trade",
+        "used_by": "Sri Lankan sand and construction trade usage"
+      }
+    ],
+    "region": "Colombo District, Western Province: the inland, eastern end of the district, on the south bank of the Kelani Ganga where the river runs in its lowland reach around Hanwella, upstream of the city and below the hill country",
+    "coordinates": {
+      "lat": 6.9008,
+      "lng": 80.0952
+    },
+    "why_here": "It gives the concept its event and the camera its landscape inside the same thirty metres. On this reach the sand is still taken off the river bed by hand, by divers working from small boats with a bucket, and the boats are emptied at a landing by a second team who carry it up a high cut bank on their heads and shoulders and put it down at the top. That means the sources' own simile for lightness, putting down a load carried from far off, happens in one fixed spot a couple of hundred times a morning and can be filmed without arranging anything — and because the carry is a climb, the same source's insistence that turning toward the good is effort against a pull the other way is in the picture rather than only in the voice. The reach supplies the rest: a wide brown river with mist on it before sunrise, boats and lamps on black water, and a red cut bank worn into a staircase. And because the work is permitted in a counted number of loads, the morning has a natural end and a legible economics that fits in one tally book.",
+    "what_to_film": [
+      "The river from high above before and during sunrise, mist on it, the bend, no sign of anybody on the water.",
+      "The diving in the dark from a small boat: a lamp, a body going over the side, the surface closing, the bucket coming back up full and streaming.",
+      "A boat filling load by load, in real time, long enough to be boring, until it is sitting low.",
+      "The transfer at the landing: the boat poled in, the basket filled, lifted, felt, settled onto a head.",
+      "The climb, uncut and at full length, including the bad parts: the footholds, the wet, the slipping, the last step onto the flat.",
+      "The set-down at the top, repeated, from several distances, at real speed and slowed, with attention to what the shoulders and neck do in the four seconds afterwards.",
+      "The unglamorous machinery of the morning: the licence board, the tally book, the mark against a number, the heap, the tipper being loaded and driven off.",
+      "The shade above the landing, and the empty baskets going back down the bank.",
+      "The same reach on a high-water morning after rain upstream, when nobody can work at all."
+    ],
+    "access": "By road east out of the city along the river. Everything here depends on the agreement of whoever holds the permit and of every person who appears, and on working to a day that starts around two hours before light and finishes when the permitted number of loads is reached. The legal position has to be established before anything is filmed: only a licensed landing can be filmed at all, and it must be filmed in a way that puts no one at legal risk. Drone flight over a working river and over a road needs the usual permissions, and the bank itself is steep, wet and in constant use, so a crew on it is in the way of people being paid by the load.",
+    "best_time": "A settled dry run of days, when the water is low and clear enough to dive and mist still forms on the river overnight. Avoid the weeks after heavy rain in the hills, when the level and the turbidity stop the work. Within a day, from two hours before sunrise to late morning.",
+    "images": [
+      {
+        "caption": "The same river photographed far upstream in the hill country, for the water and the scale. This is not the lowland reach described and shows no part of the work.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelani Ganga looking upstream - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kelani Ganga looking upstream - panoramio.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same river again, also far upstream of the reach proposed. Landform and water only, not the landing.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelani Ganga - panoramio (3).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kelani Ganga - panoramio (3).jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Manual river-sand extraction, for the activity type only. This photograph was taken on a river in southern India, not in this country and not at this site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sand mining at river 1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sand mining at river 1.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kelani_River",
+      "https://en.wikipedia.org/wiki/Hanwella",
+      "https://www.gwp.org/en/we-act/change-and-impact/Impact-Stories/curbing-unregulated-river-sand-mining-in-sri-lanka/",
+      "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=144&Itemid=273&lang=en",
+      "https://gwpo-gwp.org/assets/legacy/contentassets/be8202e1313d4a64852b42e4b6212535/building-an-advocacy-coalition-for-river-sand-mining-affected-stakeholders.pdf"
+    ],
+    "research_note": "That sand is taken from this river by divers who go down from a boat and lift it to the surface in a bucket, and that a loaded boat is then brought to the bank and unloaded by a separate team, is from the encyclopaedia entry on the river and is the single fact the whole film rests on. That river sand mining in this country is licensed centrally by the mines bureau, that permits are written in a number of cubes per day and per month together with the routes the sand may travel, that a large share of the sand actually sold comes from unlicensed operations, and that this river is among those affected, are from the mines bureau's own licensing page and the two water-partnership items above. That the named town sits on this river at the inland edge of the district is from the entry on the town. All of this is desk research only. The coordinates are a point on the south bank of the reach described and are a direction, not a surveyed landing: no landing, permit holder or crew has been found, approached or verified. Whether the unloading on this reach is still done on the body rather than by pump or machine, and whether an accessible landing is licensed, are the first two things a recce must establish, and the second decides whether the film can be made at all. The three images are of the river far upstream and of the same kind of work in another country, and each caption says so; no confirmed photograph of a landing on this reach was found.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No landing, permit holder or working crew has been found or approached; everything here is a research direction.",
+    "Whether the sand on this reach is still carried up the bank on the body, or now goes up by pump, conveyor or machine, is unverified and decides the film.",
+    "Whether an accessible landing is licensed, and what its permit actually allows, is unverified and decides whether the film can be made at all.",
+    "Whether a set-down can be filmed repeatedly without the people doing it beginning to perform it is the practical question the whole film turns on.",
+    "Whether a crew can stand anywhere on a steep working bank without costing people who are paid by the load.",
+    "Drone flight over a working river in the low light of the hour that matters has not been checked for feasibility or permission.",
+    "What a load actually pays, and how many a person carries in a morning, has not been established, and the film cannot be made without it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

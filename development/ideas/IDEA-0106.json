@@ -2,84 +2,200 @@
   "schema_version": 1,
   "id": "IDEA-0106",
   "record_type": "idea",
-  "title": "Between Two Rounds",
+  "title": "Leave That One Alone",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Between Two Rounds"
+  ],
   "group_id": "GRP-06",
-  "logline": "At a small elders' home, the same two carers move within one hour from helping a resident through a hard, frightened moment to sitting with another whose grandchild has just visited with good news.",
-  "human_question": "Can the same person really be fully present for someone's pain and someone else's joy within the same hour?",
-  "situation": {
-    "what_happens": "Two carers work a shift in a small residential home for old people. The day is mostly routine: washing, feeding, medication, moving people, waiting. Inside it, the demands change completely from room to room. One resident is frightened or in pain and needs someone to stay. Another has had a visitor and wants to talk about it. A third wants nothing and is left alone. The carers move between these without any transition and without naming what they are doing.",
-    "who_is_involved": "Two carers on the same shift, probably underpaid and certainly under-staffed; residents with varying capacity to consent; families who visit, and families who do not; whoever runs the home.",
-    "what_is_at_stake": "For the residents, dignity and the right not to be looked at. For the carers, being judged on the hardest hour of their week. For the viewer, whether care is a mood a person has or a response they keep making.",
-    "how_it_unfolds": "A shift has a fixed frame and unpredictable contents. Its pressures are staffing, illness, deaths, family conflict, and the emotional cost of doing this for years. It ends with a handover and begins again. Reality decides what any single day contains, whether the good news arrives while anyone is there, and whether the carers will describe the switching for themselves."
+  "logline": "On two kilometres of dark sand, four different things are happening in the same hour, each of them needing something completely different done about it, and for one of them the only correct thing to do is stand still and do nothing at all.",
+  "human_question": "Is care one feeling you have, or a different answer to each thing actually in front of you?",
+  "place": {
+    "what_kind_of_place": "A shallow, south-facing bay on a coast road, with a wide beach that steepens into a short, heavy shore break, coconut and casuarina behind it, a lane of small houses and guest rooms inland of that, and a road whose lights reach the top of the sand. It is not a wilderness and not a resort strip. Through the months when the sea off this coast is calm, turtles haul out on it at night to lay, and the nests they leave behind sit in the sand for the better part of two months before anything happens. At any hour of any night in the season, the beach contains eggs at every stage: some laid an hour ago, some due to hatch, some already gone, some that will not make it.",
+    "why_it_is_worth_watching": "Because the whole subject is written on the sand every morning and readable only from above. At first light a drone sees the night's traffic as a graphic: broad tractor-tread tracks coming up out of the surf, turning, and going back down; the disturbed circle where a body turned; the small stippled fan of a hatch heading for the water; and the tracks that go the wrong way, inland, towards the road. On the ground, the film is darkness, red light, sand, sea noise and patience, and the discipline of not touching. The most beautiful shot the place produces — a single wide track curving out of the sea and back into it at dawn, with nothing else on the beach — is also the clearest statement of the idea: something came, something happened, and the correct response to nearly all of it was to keep away.",
+    "what_moves_or_changes": "Everything, on its own schedule and none of it arrangeable. The tide, which decides whether a nest is above the line or under it. The moon and the season. The animals, who come or do not come, and who abandon a dig for reasons nobody can see. The clutches underground, warming or not. And the beach's other life: dogs, monitors and crabs at the nests, the lights of the road, people walking at dawn, a boat going out.",
+    "when_it_looks_best": "The months when this coast is on the calm side of the monsoon and the sand is warm, which is roughly the turn of the year into the early part of it. Within a night: the hours around high water for anything hauling out, and the half hour before sunrise for what the sand has recorded. Moonlight decides whether anything can be filmed at all without adding light."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet night-and-dawn film about a piece of ordinary coast that turns out to be a maternity ward. Sea noise, dark sand, red light, patient waiting, the astonishing size of an animal arriving out of the surf, the graphic of tracks at first light, and the beach becoming a beach again by eight in the morning with people walking on it. It has a complete shape with nothing said over it.",
+    "with_the_philosophy": "The same night becomes the sources' four states, arranged not as a sequence of moods but as four different jobs that one hour can demand at once. The texts describe one care taking four shapes depending on what is in front of it: wanting a thing to thrive, wanting its pain to end, being glad it is doing well, and standing back when doing more would only get in the way. They are emphatic that the fourth is not indifference, and that it is the hardest. On this beach the fourth one is physical: a person is standing ten metres from an animal in obvious difficulty, and the right thing to do is nothing. The voice never says that anyone here has a good mind. It says that the beach demands, in one hour, exactly the four answers the sources describe, and that only one of them can be given at a time."
+  },
+  "sequence": [
+    {
+      "on_screen": "Last light, drone, high and wide: the curve of the bay, the sea going dark, the line of trees behind the sand, the road lights coming on behind that. Empty beach.",
+      "voice": "Under this sand tonight there are clutches of eggs at every stage, buried by animals that left immediately and will never come back to them. In the next few hours this beach will ask for four completely different things, and it will not ask for them one at a time.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "Night. Available light only. A very wide, still shot: a dark mass at the top of the beach, sand being thrown, and a person standing well back, not moving, doing nothing, for a long time.",
+      "voice": "Here is the one the texts put last and call the hardest. Not coldness — the sources are blunt that the failure that imitates it is plain ignorant indifference, not caring because you do not understand [C095-P4:L56–L60; C095-P4:L60]. It is built on the other three and comes after them [C095-P4:L493]. It is what care looks like when doing anything more would only make things worse.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "Later the same night, further along: a nest marked below the wrack line, the tide already at it. Hands moving eggs, quickly and carefully, a few metres up the slope. Sand smoothed. Red torchlight.",
+      "voice": "And here is a different job entirely. The texts separate compassion from grief very sharply: being flooded and weeping at another's suffering is called a counterfeit of it, even a form of aversion, while compassion itself is steady and aimed at relief [C024-P:L81–L87; C024-P:L83]. The difference is visible on a beach. One of them moves the eggs.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "First light. A nest that has been dug out by something: broken shell, crab holes, a mess of sand, a track that ends. Filmed plainly, held briefly, not lingered on.",
+      "voice": "This happens most nights and there is nothing to be done about it. The old story the sources tell about acting well is not about feelings at all: a man about to trap an animal saw that it had young, and stopped, on the spot, with no vow and no plan [C024-P:L61]. Restraint is not a mood either. It is something that happens once, about one thing.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "A hatch: the sand over a nest sinking, then boiling, then hatchlings coming out and going down the slope on their own. A shaded light held low and away. Nobody picks anything up.",
+      "voice": "This is the third one, gladness at something else's good luck, and it is a different job from the last two. The sources say these arrive one at a time, never together; a mind cannot be doing two of them in the same moment [C030-P:L39].",
+      "concept_id": "C030"
+    },
+    {
+      "on_screen": "Full daylight. The same beach: a man swimming, two people walking a dog, a boat going out, somebody raking leaves. The tracks from the night already half gone.",
+      "voice": "And most of the hours here are like this, which the texts also account for. An ordinary decent act — offering flowers, listening to something worth hearing, doing what is in front of you — carries nearly the whole set of good qualities without any of the dramatic ones [C030-P:L25; C030-P:L39]. What drops out is delight, when the thing is done calmly, and understanding, when it is done by habit [C030-P:L47–L51; C030-M:L5]. A plain good moment is not a thin one.",
+      "concept_id": "C030"
+    },
+    {
+      "on_screen": "Night again. The road lights above the trees. A hatchling going the wrong way, inland, up the slope toward the light. A hand shading a lamp; a torch turned off along the lane.",
+      "voice": "Nothing here gets treated better for being loved. The texts are severe about that: fondness for your own, and pride in your own family's good fortune, are classed as attachment rather than as these states, which are supposed to reach whoever is in front of you [C024-P:L81; C024-P:L91]. On a beach that is simple. Every nest gets the same.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "Dawn, drone, high: the whole beach and the night's tracks, one broad curve coming out of the sea and returning to it, and the light coming up over an empty bay.",
+      "voice": "Nobody on this beach is on camera as a good person; the texts describe moments, not kinds of person, and a camera cannot show which of these is present. What it can show is a place that demands four different answers in one hour and allows only one of them at a time — and that the hardest of them, the one that looks like doing nothing, is being done by somebody standing right there.",
+      "concept_id": "C095"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C030's ledger of which factors can join which minds carries the specific rule this film rests on: the occasional beautiful factors arrive one at a time, so compassion and gladness cannot fill the same moment. C095 gives the four shapes one care can take and names the failure of each, including the even-mindedness that remains when nothing more can be done. C024 adds that these two are the boundless factors, which are supposed to reach whoever is in front of you rather than the residents a carer happens to like. Together they describe the actual texture of care work as a rapid alternation rather than a temperament.",
-    "what_it_reveals": "That what looks like one continuous quality in a good carer is, in this account, a fast sequence of different responses, and that its discipline is impartiality rather than intensity."
+    "why_together": "C030 supplies the rule that makes the film a structure rather than a mood board. The sources count which factors can arise in which good minds, and hold that the occasional beautiful ones — the three abstinences, compassion and sympathetic joy — arrive one at a time, with ordinary acts such as offering flowers or listening carrying the plain core instead [C030-P:L39; C030-P:L25]; that joy drops out of a calm wholesome mind without making it any less wholesome [C030-P:L47–L51; C030-M:L5]; and that the moments in which we merely receive can neither restrain nor pity nor rejoice [C030-P:L33]. C095 supplies the four shapes themselves and, crucially, the last one: equanimity is placed after and built on the other three, its proximate cause is the recognition that beings go by their own conditions, and its failure is ignorant worldly indifference [C095-P4:L39; C095-P4:L493; C095-P4:L56–L60; C095-P4:L60]. C024 supplies the discipline: these states are boundless precisely because they do not depend on who the recipient is, fondness for one's own is classed as attachment rather than as compassion or gladness, and grief is a counterfeit of compassion rather than a deeper form of it [C024-P:L91; C024-P:L81; C024-P:L81–L87]. A nesting beach in season demands all four answers in one hour, from people who cannot choose which animal turns up, and makes the fourth answer physical: standing still.",
+    "what_it_reveals": "That what looks from outside like one continuous quality in someone who cares well is, in this account, a fast series of different answers, only one of which can be given at a time — and that the one which looks least like caring is the one the sources rank hardest and last. C030 alone would be a ledger. C095 alone would be a scheme of four states with four warnings. C024 alone would be a rule about favourites. Together, on a beach where the right response to the largest and most dramatic thing in the frame is to keep well away from it, they show the difference between care and the urge to intervene."
   },
   "concept_links": [
     {
       "concept_id": "C030",
       "role": "primary",
-      "why": "Compassion and sympathetic joy each need a specific person actually in view, and the occasional beautiful factors arise one at a time [C030-P:L25; C030-P:L39]. An honest note from the digest: the narrow point the film rests on, that compassion and gladness never share a moment, is supported in both sources [C027-M:L7], while the wider rule that only one of the five occasional beautiful factors arises at a time comes from one source and is flagged for expert check."
+      "why": "The digest's rule that this film is built on is Pradeepika's: only one of the five occasional beautiful factors arises in a mind at a time, and in ordinary acts such as giving, veneration or listening to teaching none of them does, leaving the plain core of thirty-three [C030-P:L39; C030-P:L25]. That is why a beach demanding four answers in one hour is a structure and not a mood: the answers come singly. The digest also supplies the film's most ordinary sequence — a calm wholesome mind has no joy in it and is not thereby any less wholesome [C030-P:L47–L51; C030-M:L5] — and the point that moments of merely receiving carry neither restraint nor compassion nor gladness [C030-P:L33]. The digest's honesty about its own evidence is carried here: the narrow claim that compassion and gladness never share a moment is supported in both sources, while the wider rule that only one of the five arises at a time comes from one source and is flagged for expert check, so the voice states it as what the texts say rather than as a settled fact. The digest's warnings are honoured: more factors does not mean a better person — the functional minds of the fully freed carry fewer than an ordinary person's first wholesome pair [C030-P:L76] — the maximum count is never presented as a single moment, and nothing on screen is graphed as thirty-eight qualities at once."
     },
     {
       "concept_id": "C095",
       "role": "supporting",
-      "why": "The four abidings include equanimity, described as what remains when there is nothing more to be done, and its failure is ignorant indifference, so stepping back is not the same as ceasing to care [C095-P4:L39; C095-P4:L60]."
+      "why": "The digest gives the four abidings as one care taking four shapes according to what the other needs, ending with the even-mindedness that is left when doing more would get in the way [C095-P4:L39], placed after and built on the other three [C095-P4:L493], with its proximate cause the recognition that beings go by their own actions and conditions, and its failure ignorant, household-based indifference [C095-P4:L56–L60; C095-P4:L60]. That is the film's spine, and the beach makes the last one literal. Three warnings from the digest bind the voice absolutely. Equanimity must never read as detachment or not caring, which is why the shot of someone standing still is narrated as the hardest of the four rather than as restraint from feeling. The equanimity reflection — that beings follow their own conditions and wishing alone does not change them [C095-P4:L497] — is a meditative stance and becomes victim-blaming the moment it is used as social commentary, so it is never applied to anybody's circumstances, and never to the poverty or hardship of anyone living behind this beach. And compassion is not feeling another's pain: sorrow is named as its failure [C095-P4:L51], which is exactly the register a film about animals in difficulty would otherwise fall into. The source's own compassion exercise takes a maimed beggar as its object [C095-P4:L459]; that can never be a filmmaking method, and nothing here is filmed as an object of pity."
     },
     {
       "concept_id": "C024",
       "role": "supporting",
-      "why": "Compassion and sympathetic joy are the two boundless factors, arising only when a suffering or a happy being is in view and meant to extend without favourites [C024-P:L81; C024-P:L91]. Here, among people who are not the carers' own kin, the source's demand for impartiality applies straightforwardly."
+      "why": "The digest supplies the impartiality that makes this a film about a structure rather than about anyone's warmth. Compassion and gladness are boundless because they are not supposed to depend on who the being is; fondness toward one's own family is classed as attachment, and so is pride in one's own children's success [C024-P:L81; C024-P:L91; C024-M:L17]. On a beach where nobody chooses which animal arrives, that rule is simply the working condition. The digest also separates compassion from grief with unusual force: being overwhelmed, weeping and wailing at another's suffering is described as a disguised form of aversion and as the enemy of compassion, which is steady and aimed at relief [C024-P:L81–L87; C024-P:L83]. That gives the film its tone for the nests that fail. The story of the man who was about to trap an animal and stopped on the spot when he saw it had young [C024-P:L61] is the digest's example of restraint arising in the moment with no vow behind it, and it is the one place the film lets a text speak about animals at all. Two limits are absolute. The digest's own warning that films must not imply that people who cry for others are doing something wrong is honoured. And the source's claim that animals lack the seed of wisdom [C024-P:L103] is never carried into a film in which animals are on screen, in any form, at any point."
     }
   ],
-  "what_the_viewer_could_understand": "Care is not one fixed mood: compassion arises toward someone who is suffering and gladness toward someone who is happy, each answering the person actually in front of you, so the same carer moves between them within an hour.",
-  "what_must_be_real": "Residents' own informed, ongoing consent, or their families' and guardians' where capacity is limited, with the right to withdraw at any time. No frailty shown for effect, no moment of distress filmed that the person has not agreed to, and no scheduling of care around the film.",
-  "position_hint": "closing candidate: it turns the group's warmth toward bodies that are failing, which is where the next stage begins.",
+  "what_the_viewer_could_understand": "That care is not one steady feeling a good person has but a set of different answers, each one belonging to whatever is actually in front of you, arriving one at a time — and that the answer the tradition ranks hardest and last is the one that looks from outside like doing nothing. Standing back is not the absence of care. It is what care becomes when anything more would only get in the way.",
+  "what_must_be_real": "Real animals on a real beach, doing what they do whether or not anyone is there. Nothing is handled, lifted, turned, uncovered, carried or released for the camera, no hatchling is put back or held, and no animal is lit: the film works in available light and red light and accepts that much of it will be barely visible, or it is not made. Nothing is filmed that changes what an animal does, and anyone working the beach does their work exactly as they would with no camera present, including on the nights when that means the crew stands still for hours. Filming happens under whatever rules the wildlife authority sets, and stops when asked. Nobody on the beach is presented as an example of a good mind or a virtue, and nobody, including anyone who takes eggs, is presented as a villain. The film is not made at, and does not endorse, a commercial hatchery.",
+  "position_hint": "late: it needs the viewer to have already accepted that goodness in this account is a set of separate jobs rather than one quality, because its whole argument is that the four jobs cannot be done at once and that one of them looks like nothing. It sits best just before the group's closing film. No location reasoning is involved.",
   "risks": [
-    "High: residents' dignity and their capacity to consent",
-    "Institutional and family permission may be withdrawn at any point",
-    "Exposing frailty for emotional effect",
-    "Implying that anybody's age, illness or dependence is explained by what they did earlier in life"
+    "Letting the standing-still read as coldness or detachment. The digest names ignorant indifference as the failure that imitates equanimity [C095-P4:L60], and the voice must carry the distinction every time the image appears.",
+    "Using the equanimity reflection — that beings follow their own actions and conditions [C095-P4:L497] — as social commentary about anybody's circumstances, which turns a meditative stance into victim-blaming.",
+    "Sliding into sorrow at a failed nest and calling it compassion, which the sources name as the counterfeit [C095-P4:L51; C024-P:L83], or implying that people who are moved to tears are doing something wrong.",
+    "Carrying the source's claim that animals lack the seed of wisdom [C024-P:L103] into a film about animals, in any form.",
+    "Suggesting that more factors makes a better person [C030-P:L76], or showing any graphic that puts thirty-eight qualities in one moment [C030-P:L39].",
+    "Making the people who walk this beach at night into heroes, or the people who take eggs into villains; both would replace a structure with a morality play.",
+    "Adding light. White light on a nesting animal or a hatch changes behaviour and is a known harm; no shot is worth it.",
+    "Filming at a commercial hatchery, or in any way that appears to endorse unregulated hatchery practice, which is a live conservation problem on this coast.",
+    "Turning a beach where people live and work into a wilderness by keeping them out of frame, or filming residents and visitors at night without their agreement.",
+    "Becoming a conservation film with a message about turtles, which is a real and worthwhile subject and is not this film's."
   ],
   "drop_if": [
-    "The home or its residents cannot give informed, ongoing consent",
-    "Filming would change how care is given"
+    "Night filming cannot be done without adding light that affects the animals.",
+    "The wildlife authority will not permit filming on a nesting beach, or the conditions it sets would change how the beach is worked.",
+    "The only way to film nests, eggs or hatchlings is at a hatchery, in which case this is a different film and not this one.",
+    "The season produces no nesting on this beach in the year available."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0105",
       "relation": "pairs with",
-      "note": "Both are closing candidates handing the group on to the body's fragility, one among the sick and one among the old."
+      "note": "One film about provision that never sees who receives it, one about care that must look at exactly what is in front of it."
     },
     {
       "idea_id": "IDEA-0098",
       "relation": "mirrors",
-      "note": "Both ask how one person's care changes shape for different people within the same day, one among kin and one among strangers."
+      "note": "The same four states on the same kind of shore: there spread across the ages of a wood, here compressed into a single night."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and the group's clearest carrier of the ledger of factors in ordinary good minds."
+    "reason": "It is the only place found where the fourth of the four states can be filmed as an action rather than described — a person standing still ten metres from something in difficulty because that is the correct thing to do."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped entirely: the elders' home and the two carers. The old film followed a shift in a small residential home for old people, moving from a resident's frightened moment to another resident's good news, and it cannot be made — it filmed people who may not be able to give meaningful consent, inside their home, at their most vulnerable, as illustrations of somebody else's virtue. The concept worth keeping is the real one, that the four sublime abidings are four different responses one hour can demand and that equanimity is not indifference, and it has been moved to a place where that rotation is structural and where the people in frame are not the subject. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The nesting beach of the bay at Talalla, on the coast road east of Matara",
+    "also_known_as": [
+      {
+        "name": "Thalalla",
+        "meaning": "an alternative transliteration of the village and bay name",
+        "used_by": "survey and academic sources"
+      }
+    ],
+    "region": "Matara district, Southern Province: a shallow south-facing bay on the coast between the headland at the island's southern tip and the next small town to the east, with the coast road and a lane of houses immediately behind the sand",
+    "coordinates": {
+      "lat": 5.944,
+      "lng": 80.625
+    },
+    "why_here": "It is a working nesting beach that is also an ordinary inhabited beach, which is exactly what the film needs. The bay is quiet, undeveloped by the standards of this coast and documented as a nesting site, so the four demands the film is about are made on the same two kilometres of sand in the same night — a female hauling out that must be left completely alone, a clutch below the tide line that must be moved, a nest already lost, and a hatch that must be allowed to walk itself down to the water. Because houses, a road and its lights sit directly behind the sand, the hardest of the four answers is visible against a background of people living normally, which keeps the film from becoming a wilderness film about virtue. The single best image, the night's tracks read from the air at first light, is also the clearest statement of the concept.",
+    "what_to_film": [
+      "The bay from very high at last light and again at first light, wide enough that the sea, the sand, the trees and the road behind them are one frame.",
+      "The night's tracks at dawn from directly above, read as a graphic: the haul up, the turn, the return, the fan of a hatch, and the tracks that go the wrong way.",
+      "A haul-out at night in available light only, from a great distance, held very long and without moving.",
+      "The relocation of a clutch below the tide line, filmed as careful ordinary work, in red light.",
+      "A nest that has been taken by a dog, a monitor or crabs, plainly and briefly.",
+      "A hatch and the walk down the slope, with no light added and nothing touched.",
+      "The lights of the road and houses seen from the sand at night, because they are part of what the beach is.",
+      "The beach in full daylight being used as a beach: swimmers, a dog, a boat, someone raking, the tracks already gone."
+    ],
+    "access": "By the coast road east of the district town, with the beach reached down lanes between houses. The sand is public and the land behind it is not, so anything filmed from a garden or a roof needs the household's agreement. Night work on a nesting beach is governed by the wildlife authority and by whoever runs nest protection locally, if anyone does; both decide what may be filmed, where a camera may stand and whether any light may be used. Everything depends on working to the animals' hours and the tide, not a crew's.",
+    "best_time": "The season when this coast is on the calm side of the monsoon and nesting on the south coast is at its heaviest, usually the turn of the year into the early months. Within a night, the hours around high water; and the half hour before sunrise for the tracks. Moonlit nights are the only ones on which anything can be filmed without adding light.",
+    "images": [
+      {
+        "caption": "The bay itself: the beach, the shore break and the trees behind it, photographed by day.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Talallabeach.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Talallabeach.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Sea turtles photographed elsewhere in Sri Lankan water: this is the animal, not this beach, and not a nesting animal.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mating seaturtles Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mating seaturtles Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Hatchlings photographed elsewhere in Sri Lanka: again the animal at that stage, not this beach, and not a photograph of a wild emergence.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baby turtles swimming Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Baby turtles swimming Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://link.springer.com/article/10.1007/s12601-024-00159-w",
+      "https://jnsfsl.sljol.info/articles/10.4038/jnsfsr.v50i4.10674",
+      "https://www.researchgate.net/publication/360384405_Unregulated_sea_turtle_hatcheries_and_management_practices_an_ongoing_concern_in_Sri_Lanka"
+    ],
+    "research_note": "That five species of marine turtle nest on this island, that the south and south-west coast carries its largest nesting beaches, that nesting on the south coast is heaviest through the calmer months around the turn of the year, that coastal construction, beach lighting and clearance of beach vegetation are the recognised threats, and that unregulated hatcheries are a continuing conservation problem here, are from the sources above and are desk research only. That this particular bay is a nesting beach is from a study reference to nesting at Talalla in the district and from travel accounts of hatching on it; the intensity of nesting, the species involved and whether any nest-protection work is done on it at all are unverified, and the film depends on them. The coordinates are a point on the bay taken from an open gazetteer entry for the village, offset to the shore, and are a direction rather than a surveyed position. No authority, household or local group has been approached and no permission has been sought. Of the three images, only the first is of this beach; the other two are of the animals photographed elsewhere in the country and their captions say so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether this bay carries enough nesting in a given season to build a film on has not been verified against any count.",
+    "Whether any nest-protection work happens on this beach, and who does it, is unknown; without it, two of the film's four answers have nobody to make them.",
+    "Whether the wildlife authority will permit night filming on a nesting beach at all, and under what light conditions, is unknown and decides the film.",
+    "Whether a haul-out or a hatch can actually be filmed in available light to a usable standard has not been tested, and no shot is worth adding light for.",
+    "Whether the households immediately behind the sand would agree to a crew working there at night is unasked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

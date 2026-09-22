@@ -2,79 +2,184 @@
   "schema_version": 1,
   "id": "IDEA-0098",
   "record_type": "idea",
-  "title": "Four Shapes of the Same Care",
+  "title": "Four Ages of One Shore",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Four Shapes of the Same Care"
+  ],
   "group_id": "GRP-06",
-  "logline": "A mother's day moves between a toddler who needs feeding, a sick teenager who needs medicine, a young adult leaving for a first job, and a grown child on the phone from far away who needs nothing from her at all.",
-  "human_question": "Is it the same love wearing different shapes, or four different things that happen to share a name?",
-  "situation": {
-    "what_happens": "In a household whose children are at very different stages of life, one person's attention changes shape several times in a day without anyone naming what it is doing. A small child is fed and kept close. An unwell older child is sat with, and what is wanted is simply for the discomfort to stop. A young adult leaving for work or study is watched with an unmistakable gladness that has nothing to do with need. A grown child at a distance is mostly listened to, because there is nothing left to do for them.",
-    "who_is_involved": "A parent whose children span a wide range of ages; the children themselves, including at least one who is unwell and at least one who has left; other adults in the household who take over when she cannot.",
-    "what_is_at_stake": "For the family, their private life becoming material, and an unwell child becoming a spectacle. For the film, the temptation to cast a household that fits a four-part scheme. For the viewer, whether care that steps back is still care.",
-    "how_it_unfolds": "Households like this move by their own rhythm: a day is shaped by who is ill, who is leaving, who has called. Over months the shapes rotate — the sick child recovers, the young adult leaves, the distant one comes home. The pressures are money, illness, distance and the exhaustion of the person doing most of it. Reality decides what any given day contains, whether the call from far away comes at all, and whether anyone in the family would describe what she does the way the film is tempted to."
+  "logline": "On one shallow arm of a great natural harbour, four stretches of mangrove stand at four different ages, and on any morning each of them is asking for something different: one to be watered, one to be defended, one only to be counted, and one to be left completely alone.",
+  "human_question": "Who decides what kind of care a thing needs, the person giving it or the thing in front of them?",
+  "place": {
+    "what_kind_of_place": "The inner, shallow arm of a very large natural harbour on the east coast, where the sea goes brackish, the shore is mud rather than sand, and the tide moves a long way in and out twice a day. Four things sit along a couple of kilometres of it. A nursery: shade frames over thousands of black bags of mud with a single propagule pushed into each one, watered by hand. A planting front: a stippling of green sticks pushed into open tidal mud, marked with tape, half of them chewed off by crabs. A block put in some years ago that has closed over into a thicket you cannot walk through. And behind all of it, old mangrove that nobody planted, dark, tall, tangled, entered only by the people who fish in it. Much of the original forest along this coast was cleared during the war, which is why three of the four ages are recent and one is not.",
+    "why_it_is_worth_watching": "Because the four ages are four distinct textures, laid side by side, and a drone can cross all of them in one unbroken move: a ruled grid of bags, then a scatter of sticks in shining mud, then a dense flat green, then a broken dark canopy. At low tide the mud is a mirror and the young plantings read as thousands of pins; at high tide half of it is simply water and the same plantings vanish. The single most beautiful shot the place produces, the slow move from the grid to the old forest, is also the clearest statement of the idea: four stages, four different right answers, in one continuous frame.",
+    "what_moves_or_changes": "The tide, twice a day, which decides what is even visible. The crabs, which cut the shoots. Birds working the exposed mud. The seasons, which decide when propagules can be collected and when planting is possible at all. And the survival rate, which is the one number nobody controls: a great many of the things planted do not live, and which ones lived is only known by going back and looking.",
+    "when_it_looks_best": "The planting season, when all four ages are in use on the same morning, and within that the two hours around low tide, when the mud is exposed and the young plantings are visible as objects rather than as water. Early light, low angle, no wind."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet film about a shore and a tide: bags being filled with mud, a seed pushed in by thumb, water carried, a line of people bent over in shining flats, crab holes, a heron, a thicket that has closed over, a dark old forest with fishing stakes in it, and the water coming back over all of it. It has its own shape without a word said: the smallest thing, the exposed thing, the thriving thing, the thing that needs nothing.",
+    "with_the_philosophy": "The same shore becomes the sources' four sublime abidings, laid out as a map instead of as a list. The texts describe four ways a good mind meets another: wishing well, wanting harm removed, being glad at something doing well, and standing back because nothing more should be done. What makes the shore useful is that nobody there chooses between them. The stage of the thing in front of you decides which one is called for, and getting it wrong in either direction, watering what should be left alone, or leaving alone what is being eaten, does damage. The voice is explicit that the sources aim these four at beings and not at trees, and that what this place lends is the shape of the thing, not the thing itself."
+  },
+  "sequence": [
+    {
+      "on_screen": "Low tide, first light, very high. One unbroken move across four textures in about forty seconds: the ruled grid of nursery bags, the stippled planting front on open mud, the closed green block, the dark old forest, and then the water beyond.",
+      "voice": "The old texts name four ways one mind can meet another. They are called sublime because they are said to be blameless and because, unlike almost everything else in the training, they are aimed at somebody else's welfare rather than your own [C095-P4:L33]. They are also called the immeasurables, because they are not supposed to stop anywhere [C095-P4:L43].",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "The nursery. Bags filled with wet mud by hand, a propagule pushed in with a thumb, rows straightened, water carried in cans and poured. Shade cloth, a tap, a tally on a board.",
+      "voice": "The first of the four is the simplest and also the most easily faked: the plain wish that a thing should do well. The source distinguishes it from the thing it turns into when it goes wrong, which is a clinging affection that has started to want something back [C095-P4:L45].",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "The planting front at low tide. Green sticks pushed into mud in lines; crab holes; a shoot cut through at the base; plastic sheeting snagged around a stem being cut free; gaps replanted.",
+      "voice": "The second is not sympathy. The texts describe it as not being able to bear the other thing's trouble, and they are severe about its counterfeit: sorrow, being overwhelmed and flooded by it, which the same source classes as a form of aversion and as the enemy of the real thing rather than a mild version of it [C095-P4:L47–L51; C024-P:L83]. The real thing is the hand that goes into the mud and cuts the plastic off.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "The block planted some years ago. Tape measure against a stem, a count read aloud, a phone photograph from a marked post, somebody pushing into a thicket that has become impossible to walk through. A species doing well that nobody expected.",
+      "voice": "The third one is gladness at something else doing well. The sources treat it as the direct opposite of envy and of the low, unsettled discontent that goes with it [C095-P4:L54; C024-P:L91]. The plainest version is in the other source, which frames it as a simple comparison: you are glad when you gain, so be glad when somebody else does [C024-M:L17].",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "Archive or observed: a mass planting morning. Two hundred people, matching caps, a photograph, a line of seedlings pushed in within an hour. Then the same ground on an ordinary day months later, with very little of it left.",
+      "voice": "And the texts warn that this one has a look-alike too, a worldly giddiness that feels identical from the inside [C095-P4:L54]. A shore is an unusually literal place to see the difference, because here the difference is a survival rate that somebody has to come back and count a year later.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "The old forest. Nobody enters. Fishing stakes standing in the channels, a boat going through, the canopy from above, unmoving. Held long.",
+      "voice": "The fourth is the hardest to film and the easiest to mistake. It is not indifference; the source names ignorant, worldly indifference as exactly the way this one fails [C095-P4:L56–L60]. It comes last, and it is built on the other three [C095-P4:L493]. Here it is simply the stretch that is doing the most good and needs nothing done to it, where the only right action is not to act.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "The tide turning. Water crossing the mud, covering the planting front, rising in the nursery channel. The four ages from height again, now half of them underwater.",
+      "voice": "The sources are talking about beings, not about trees, and this film does not pretend otherwise. What the shore lends is the shape: four different right answers in one place on one morning, and which one is called for is decided by what is in front of you, not by the person holding the watering can.",
+      "concept_id": "C024"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C095 gives the four sublime abidings and, as its own teaching image, a mother with sons at different stages: wishing the infant well, wanting the sick one's pain gone, being glad at the young adult's good years, and staying even-minded about the one busy with his own affairs. C024 gives the two boundless factors as they actually arise in ordinary minds, responding to who is in view rather than sitting there as a mood, and frames them by self-comparison: you do not want pain for yourself, so you do not want it for others. Held together, the source's image and the source's analysis let one day be read as four different responses rather than one feeling.",
-    "what_it_reveals": "That the fourth shape, stepping back, belongs to the same care as the first three and is not its withdrawal — and, just as importantly, that the sources do not agree about whether love inside a family is the model for this or the thing it has to grow out of."
+    "why_together": "C095 supplies the four and their precision. The digest gives them as sublime because blameless and directed at others' welfare [C095-P4:L33], as immeasurable because unbounded [C095-P4:L43], and defines each against the specific thing it collapses into: loving-kindness into clinging affection [C095-P4:L45], compassion into sorrow [C095-P4:L47–L51], gladness into a worldly giddiness [C095-P4:L54], and equanimity into an ignorant indifference [C095-P4:L56–L60], with equanimity placed last and resting on the other three [C095-P4:L493]. C024 supplies the structural fact that makes a place rather than a person the right subject: two of the four are not standing qualities of a good mind at all but arise only when circumstances call for them, and the digest frames both by simple comparison with oneself and insists that gladness confined to one's own people is attachment rather than the boundless factor [C024-P:L91; C024-M:L17]. It also supplies the sharpest line in either source, that being flooded and weeping at another's trouble is a disguised aversion and the enemy of compassion [C024-P:L83]. Put on a shore carrying four ages of the same forest within a kilometre, the two together stop being a list to be memorised and become a map: the stage of the thing decides the response, and the responses are not interchangeable.",
+    "what_it_reveals": "That these four are not four moods a good person cycles through but four different correct answers to four different situations, and that the error in each direction is real and visible. C095 alone would be a scheme, and schemes invite a film to cast a person who fits all four. C024 alone would be a note about which factors are always present and which are occasional. Together, on a shore where care is built into an arrangement rather than into anybody's character, they let a viewer see the least filmable of the four, the one that consists of not acting, as something other than neglect."
   },
   "concept_links": [
     {
       "concept_id": "C095",
       "role": "primary",
-      "why": "The source's own image for the four abidings is a mother with sons at different stages, and the sequence runs from wishing welfare to wanting suffering removed to gladness at success to even-mindedness because nothing more remains to be done [C095-P4:L39]. The digest is explicit that the failure of equanimity is ignorant indifference, so stepping back is not ceasing to care [C095-P4:L60]."
+      "why": "The digest gives the four abidings, their names, and the failure that imitates each one: clinging affection, sorrow, worldly giddiness and ignorant indifference [C095-P4:L45; C095-P4:L47–L51; C095-P4:L54; C095-P4:L56–L60], with the fourth placed last and built on the first three [C095-P4:L493]. It also supplies the reason they are called sublime and immeasurable [C095-P4:L33; C095-P4:L43]. The digest's does-not-transfer lines shape this film directly rather than sitting beside it. Compassion is not feeling another's pain, because the source names sorrow as its failure, so the film's compassion beat is a hand cutting plastic off a stem and not a face. Equanimity is not detachment or not caring, so the old forest is filmed as the stretch that is doing the most and needs least. The source's own teaching image for the four is a mother with sons at different stages, and this film deliberately does not use a family: the arrangement, not a person, carries the scheme. The eleven benefits, including the claims that fire, poison and weapons do not harm the practitioner, are not narrated in any form, and the meditation method's starting object, a maimed beggar, is expressly not a filming method here or anywhere in this series. The equanimity reflection that beings go by their own actions is not said over anything in this film."
     },
     {
       "concept_id": "C024",
       "role": "supporting",
-      "why": "The Margaya frames compassion and sympathetic joy by self-comparison, which is the form this situation actually shows [C024-M:L15; C024-M:L17], and the two are occasional factors that answer whoever is in view rather than a fixed mood [C024-P:L81; C024-P:L91]. The link must carry the tension, not hide it: in the same concept the Pradeepika classes tenderness and pride limited to one's own family as attachment rather than the boundless factors [C024-P:L81; C024-P:L91], while C095 uses a mother's love for her own children as its teaching image. The digest flags this as the author's own strong formulation. The film observes the four shapes; it must not tell this family that their love is attachment, and it must not present family feeling as the finished form of boundless compassion either."
+      "why": "The digest's contribution is structural. Of the four abidings, compassion and gladness are counted among the six beautiful factors that do not arise in every good mind but only when conditions call for them, which is precisely the claim this shore makes visible: the situation in front of you, not your temperament, decides which response is even possible. The digest defines gladness as the opposite of envy and is blunt that joy confined to one's own family is attachment rather than the boundless factor [C024-P:L91], and it frames both factors by comparison with oneself [C024-M:L17]. Its hardest line, that grief and weeping at another's suffering is a form of aversion and the enemy of compassion [C024-P:L83], is used on screen to separate acting from being overwhelmed. The digest's warnings are honoured: the film never implies that people who weep for others are doing something wrong, which is a real risk in handling that line; it does not present family feeling as the model of compassion, and since no family appears, the tension the sources hold on that point is left in the sources rather than settled on camera; and none of the concept's claims about innate wisdom or about beings lacking its seed are touched."
     }
   ],
-  "what_the_viewer_could_understand": "Care takes different shapes depending on who is in front of you — wishing a little one well, wanting a sick one's pain to end, gladness at a grown one's good start, and stepping back when nothing more is needed — and the texts use exactly this picture of a mother to explain four kinds of goodwill.",
-  "what_must_be_real": "The family's actual daily life and real circumstances, with full consent from everyone shown and from guardians of any minors. Illness is never staged and never treated as spectacle. No one is told what their feelings really are.",
-  "position_hint": "middle: it gathers the group's separate warm qualities into one scheme, which only pays off after several of them have been seen on their own.",
+  "what_the_viewer_could_understand": "That the tradition does not have one word for care. It has four, they are not interchangeable, and which of them is called for is decided by the state of whatever is in front of you. That the fourth, leaving alone, is the last and the hardest and is not the same as not caring. And that each of the four has a convincing imitation, so that being moved is not the same as being useful.",
+  "what_must_be_real": "The nursery, the planting, the counting and the old forest are real work on a real shore, filmed at the tide they happen at. No planting is arranged for the camera, no extra seedlings are put in to make a shot, and nothing is planted in a place where planting would be wrong. The survival rate is whatever it is, and a film that shows the planting must show the counting. Nobody on screen is presented as kind, compassionate, glad or equanimous; those are states of mind and a camera cannot see one. People who fish and gather in the old forest are participants with their own account of it, not scenery, and nothing in the film treats their use of it as damage without evidence. Where the work is funded by a company, an agency or a service, that is visible in the film rather than cropped out.",
+  "position_hint": "late in the group: it gathers into one place the separate warm qualities the earlier films take one at a time, and its last movement, the stretch that needs nothing done to it, only lands once the viewer has watched three films in which somebody is doing something.",
   "risks": [
-    "Staging illness or hardship for the camera",
-    "Casting a family to fit a four-part scheme rather than following one where the range is already present",
-    "Resolving a real disagreement between the sources by implying that family love is 'really' attachment, or by quietly dropping the objection",
-    "Letting the scheme narrate over what the family themselves say they are doing"
+    "Letting the four-part scheme drive the filming, so that a shore is edited to fit a list. If one of the four ages is not really there, the film says so.",
+    "Reading the old forest as neglect or as abandonment, which is exactly the failure of equanimity the source names [C095-P4:L56–L60].",
+    "Reading the compassion beat as sorrow, or cutting for the face of somebody moved by damage; the source treats being flooded as the enemy of compassion and not as a softer version of it [C024-P:L83].",
+    "Implying that people who grieve openly are doing something wrong. The digest flags that line as the author's own strong formulation and the film must not turn it on anybody.",
+    "Presenting anyone on screen as an instance of one of the four abidings. They are states of mind, the camera cannot see them, and this group's method forbids it.",
+    "Turning the film into an environmental campaign or a promotional piece for whoever pays for the planting. The arrangement is the subject; the sponsor is a fact, not a hero.",
+    "Making a spectacle of a mass planting day at the expense of the people in it. The source's warning is about a counterfeit of gladness, not about volunteers being foolish.",
+    "Narrating the traditional benefits of these practices, or the reflection that beings go by their own actions, as if either were a statement about this coast.",
+    "Filming the war history of this shore carelessly. That the forest was cleared for security reasons is a fact the film needs and not a subject it can handle in passing."
   ],
   "drop_if": [
-    "No family's real situation shows this range without being engineered for the film",
-    "Consent cannot be held for every person shown, including the unwell child"
+    "The four ages cannot in fact be found within filmable distance of each other, so the whole structure would have to be assembled from separate places.",
+    "The only access available depends on arranging a planting event for the camera.",
+    "Permission to film cannot be had from the people who work the shore and from the people who fish the old forest, or filming would interfere with either."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0099",
       "relation": "pairs with",
-      "note": "Both turn on gladness at someone else's good fortune, one inside a family and one between rivals."
-    },
-    {
-      "idea_id": "IDEA-0106",
-      "relation": "mirrors",
-      "note": "Both ask how one person's care changes shape for different people within the same day, one among kin and one among strangers."
+      "note": "Both carry the four abidings; this one lays all four out in a place, that one takes the hardest single member of the set and tests it between neighbours."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and carrying the source's own image for the four abidings; kept with the family-attachment tension made explicit rather than resolved."
+    "reason": "It carries the whole four-part scheme on an arrangement rather than on a household, and it is the only place found where the fourth abiding, doing nothing, is visibly the correct action."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rebuilt from nothing on 2026-09-22. The entire old subject is dropped: a mother's day in her own home, moving between a toddler who needs feeding, a sick teenager who needs medicine, a young adult leaving for work and a grown child on the phone. That film would have entered a real family's house, put an ill child on camera and made one woman's love the exhibit, which this group's method forbids and which no consent makes safe. What is kept is C095, the four sublime abidings as four different responses that a situation calls for at different moments, and it has been moved to a shore where four stages of the same forest require four different kinds of attention on the same morning, with no family and nobody ill in the film. C024 is kept because it supplies the structural reason two of the four arise only on occasion. Both digests re-read from scratch and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The mangrove shore of the inner harbour arm between Kappalthurai and Thampalakamam",
+    "also_known_as": [
+      {
+        "name": "Thambalagam Bay",
+        "meaning": "the shallow western arm of the great harbour",
+        "used_by": "common English and map usage"
+      },
+      {
+        "name": "kadolana",
+        "meaning": "mangrove",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Trincomalee district, Eastern Province: the shallow inner arm of the great natural harbour, on the road running south-west from the town toward the bay villages",
+    "coordinates": {
+      "lat": 8.5167,
+      "lng": 81.0833
+    },
+    "why_here": "This is a coast where mangrove was cleared at scale during the war and has been replanted at intervals since, which is the reason the four ages exist here side by side rather than blending into one continuous forest. A nursery, a planting front, a block old enough to have closed over and a remnant of old forest can therefore all sit within a short stretch of shallow, tidal, walkable shore. The bay is large, calm and very flat, so the drone move that the whole film depends on, one uncut pass from the nursery grid to the old canopy, is physically possible; and the tide gives the film its own clock, exposing and hiding the youngest planting twice a day without anybody arranging it. The place also supplies the honest complication the film needs, because these plantings are made by several different hands, community, state, service and company, and their survival rates are not all the same.",
+    "what_to_film": [
+      "The uncut pass at low tide from the nursery grid across the planting front and the closed block to the old forest, at first light.",
+      "The same stretch at high tide, when two of the four ages are simply water.",
+      "Nursery work at close range: mud into bags, a propagule set by thumb, watering by hand, the tally board.",
+      "The planting front on open mud: lines of sticks, crab holes, a cut shoot, plastic being pulled off a stem, gaps refilled.",
+      "The counting: tape against a stem, a photograph from a marked post, a number written down, and the walk out through a thicket that has become impassable.",
+      "The old forest from above and from a boat, and the fishing stakes and paths that show it is used.",
+      "A mass planting morning if one occurs, filmed straight, and the same ground months later.",
+      "The mud itself at low tide, as a surface: crabs, birds, water draining in fine channels."
+    ],
+    "access": "By road south-west from the town to the bay villages, then on foot onto the flats at low tide and by small boat for the channels and the old forest. Any planting or nursery site belongs to whoever runs it, which on this coast may be a community organisation, a state agency, a company or a naval unit, and each of those is a separate permission with separate constraints. Drone flight over a harbour of this kind is very likely to be restricted and must be checked before anything is planned.",
+    "best_time": "The planting season, when all four ages are in use in the same week. Within a day, the two hours either side of low tide, in early light.",
+    "images": [
+      {
+        "caption": "Mangrove forest in Sri Lanka, for the texture and the water line. This is mangrove of the kind described, not a photograph of this shore.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mangrove forest- Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mangrove forest- Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 4.0 on the file page; confirm licence and attribution before any use."
+      },
+      {
+        "caption": "Grey mangrove, one of the common species of these shallow brackish shores. A species photograph, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Avicennia marina (grey mangrove).JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Avicennia marina (grey mangrove).JPG",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 3.0 on the file page; confirm licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://tokyocement.com/mangrove-reforestation/",
+      "https://www.ft.lk/Environment/Tokyo-Cement-s-silent-mission-restores-mangrove-forests-in-Trincomalee/10519-696264",
+      "https://www.facebook.com/SLMEPA/videos/mangrove-plantation-kappalthurai-trincomalee/201457384686882/",
+      "https://en.wikipedia.org/wiki/Thampalakamam",
+      "https://en.wikipedia.org/wiki/Trincomalee_Bay"
+    ],
+    "research_note": "That most of the mangrove along this coast was cleared during the war for security reasons, that replanting around the bay has been running since about 2012 with tens of thousands of saplings put in, that a nursery on this coast holds on the order of ten thousand seedlings of seven native species at a time, and that a community-requested planting took place at Kappalthurai in November 2020, are from the sources above and are desk research only. Two of those sources are a company's own account of its programme and should be treated as such. No nursery, planting front or block has been located on the ground, no survival figures have been seen, and the coordinates are the inland town's rather than a chosen stretch of shore. Nothing about permissions, naval involvement, boat access or drone rules over a harbour has been checked. Both images are of mangrove generally and not of this shore, and each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No site, organisation or worker has been approached. Everything here is a research direction.",
+    "Whether all four ages actually exist within one filmable stretch of this shore is the question the whole film rests on, and it is unverified.",
+    "Whether drone flight is permitted anywhere over or near this harbour is doubtful and would remove the film's central shot if refused.",
+    "Who runs the nurseries and plantings on this coast now, and on what terms a crew could be present without becoming part of a sponsor's publicity, is unknown.",
+    "Survival rates for these plantings have not been seen, and the film's honesty depends on them being available."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

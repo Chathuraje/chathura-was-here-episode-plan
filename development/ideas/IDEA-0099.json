@@ -2,78 +2,185 @@
   "schema_version": 1,
   "id": "IDEA-0099",
   "record_type": "idea",
-  "title": "A Good Catch Day",
+  "title": "The Same Rain",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "A Good Catch Day"
+  ],
   "group_id": "GRP-06",
-  "logline": "One boat comes in low in the water with the best catch of the month; the others come in light. What happens in the next ten minutes says more than the weighing scale does.",
-  "human_question": "When someone else's luck is good, what actually happens in you?",
-  "situation": {
-    "what_happens": "Several crews who work the same water return within an hour of each other after a night out. One has done far better than the rest, and everybody can see it before anything is weighed. The unloading, the weighing and the selling make the difference public. Then comes the part that is not about fish: who walks over to help, who congratulates, who stays with their own nets, and what is said or shared afterwards.",
-    "who_is_involved": "The crew that had the good night; the crews that did not; the buyers and weighers whose numbers make the gap official; the families whose week depends on either result.",
-    "what_is_at_stake": "Real money, in a trade where one night can decide a month. For the crews, being filmed on a bad day. For the film, the risk of manufacturing rivalry. For the viewer, the difference between being pleased for someone and being pinched by their luck.",
-    "how_it_unfolds": "Uneven days occur constantly in this work and nobody arranges them. The morning has a fixed sequence: return, unload, weigh, sell, disperse. Pressure comes from debt, fuel costs and the knowledge that the same luck will reverse. Reality decides how uneven the morning is, what is actually said between crews, and whether anything is shared — including the possibility that nothing visible happens at all."
+  "logline": "A whole tract of rain-fed fields is cut in one week, and along a single earth ridge a hand's width across, the crop on one side is standing gold and the crop on the other is flat on the ground, sown in the same week, under the same sky, by two people who did the same things.",
+  "human_question": "When the luck falls on the next field and not on yours, what actually happens in you?",
+  "place": {
+    "what_kind_of_place": "A dry-zone farming tract in the north, a long way from any town, where the crop depends on rain that either comes in the right weeks or does not. The land is divided into plots of one to three acres, separated by low earth ridges a foot high and a foot wide, so that dozens of holdings sit edge to edge with no fence and no gap between them. Everything happens on nearly the same calendar: the tract is sown within a week or two, it ripens within a week or two, and it is cut within days, because the harvesters come round the district once and move on. What happens afterwards is public too. The loads go to the same few yards, are put on the same scale, tested on the same moisture meter, and priced by the same handful of buyers, most of them private, because the money is usually owed before the crop is cut.",
+    "why_it_is_worth_watching": "From the air, a tract like this is a single ruled mosaic in five or six colours: standing gold, cut stubble, a plot flattened by a late storm, a plot already burnt off, water lying where it should not be. It is beautiful in the way a map is beautiful, and it is legible: every rectangle is somebody's year, and the difference between rectangles is right there at the boundary. The single strongest shot is very simple, a slow low move along one earth ridge with standing crop on one side and flattened crop on the other, which happens to be the clearest statement the film can make, because the two plots had the same rain.",
+    "what_moves_or_changes": "The weather, which decides everything and which is the same for everybody. The machines, which come round once and work continuously for days, so the whole tract is cut in one short burst. The loads, which move from field edge to trailer to yard. The price, which moves during the week. And the light, which on a flat tract with no relief in it does most of the film's work.",
+    "when_it_looks_best": "The harvest week itself, which is the only week the film exists in, and inside it the first and last two hours of the day when the low sun rakes across a flat tract and the ridges throw lines. A year with an uneven season is the year to film; an even one has no film in it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about one week of a flat country: machines working through dust, sacks filling at a field edge, a tract cut from above in five colours, tractors queueing at a yard in the dark, a needle on a scale, chalk on a board, stubble burning at dusk. It is a complete piece of landscape and labour with nothing said over it, and it has a proper shape: the waiting, the burst, the weighing, the quiet afterwards.",
+    "with_the_philosophy": "The same week becomes the test the sources single out as the hardest of the four sublime abidings. Gladness at somebody else's good fortune is easy to say and nearly impossible to do at close range, and the texts name exactly what it is up against: envy, and the low unsettled discontent that comes with it. This tract is the purest available version of the problem, because the inputs were identical and the outcomes are not, and the two people concerned are standing thirty metres apart. The voice never suggests that anybody in frame is envious or glad; it says where the difficulty sits, and it refuses, out loud, to use the tradition's line about people reaping their own actions as an explanation of a ruined field."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, very high. A tract of small rectangles running to the horizon, five or six colours, ridges drawn between them. No machines yet. Dust haze low down.",
+      "voice": "This was all sown inside the same fortnight. It had the same rain, on the same days, in the same amounts. And it is about to be cut inside the same week, because the machines come round the district once.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "Low and slow along a single earth ridge, a foot wide. Standing gold on the left, crop flat on the ground on the right, for a hundred metres. No cut.",
+      "voice": "The sources list four ways one mind can meet another, and this one is the third. Gladness at somebody else's good fortune. They define it by what it is against: envy, and a kind of low discontent that will not settle [C095-P4:L54].",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "The machines. Dust, noise, a harvester turning at a boundary, grain going into sacks at the field edge, a man counting sacks aloud and marking a wall with chalk.",
+      "voice": "The other source puts it as a comparison rather than a virtue: you are glad when you gain, so be glad when somebody else does [C024-M:L17]. It also says the opposite thing more sharply than we expect. Gladness kept for your own people is not this factor at all; that is classed as attachment [C024-P:L91].",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "The yard after dark. Tractors queueing, headlights, a platform scale, a moisture meter pushed into a sack, a number called out, chalk on a board, cash counted. The same equipment for everyone in the line.",
+      "voice": "What makes this tract unusual is not the inequality. It is that the inequality is published. The same scale, the same meter, the same buyer, the same night. By morning every household here knows what every other household got.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "The flattened plot being cut anyway: the machine working very slowly, low to the ground, salvaging what it can, straw coming out in ropes. Nobody says anything.",
+      "voice": "There is a line in these texts made for a moment like this one, that beings go according to their own actions. The source gives it as a way of steadying a mind in meditation, not as an account of anybody's harvest [C095-M:L47]. Said out loud at the edge of this field it would be a cruelty, and this film will not say it.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "Evening. Two men at a roadside boutique with tea, plastic chairs, a radio. One of them had a good week and one did not. They talk about the machines. Nothing is made of it.",
+      "voice": "The texts are practical about how hard this is. When they teach gladness they say to begin with a cheerful close friend, somebody whose good fortune costs you nothing [C095-P4:L483]. The difficult case is not a stranger far away. It is the person whose field touches yours.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "Last light, very high again. The tract now almost all stubble, a few fires, smoke lying flat. The ridges still drawing the same rectangles.",
+      "voice": "A camera cannot see gladness, and it cannot see envy. What it can film is the arrangement that makes both of them likely: identical work, identical weather, published results, and a boundary you can step over.",
+      "concept_id": "C024"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C095 defines sympathetic joy as gladness at another's good fortune, names envy and discontent as its failure, and names a near-miss that looks like it: worldly, giddy excitement. C024 adds that this gladness is one of the two boundless factors, arising only when someone who is doing well is actually in view, and that it is supposed to reach anyone, including a rival. A morning of unequal results puts both to the only test that matters, between people whose livelihoods compete.",
-    "what_it_reveals": "That the hardest place for gladness is not far away but alongside, and that the tradition's demand is impartiality rather than warmth."
+    "why_together": "C095 supplies the concept and its difficulty. The digest defines sympathetic joy as gladness at others' success, sets it directly against envy and the unsettled discontent that accompanies it, and names its counterfeit as a worldly giddiness [C095-P4:L54]. It also supplies the method's honest admission that this is hard: the practice is told to begin with a cheerful close friend rather than with a rival [C095-P4:L483], and it works outward by degrees until the boundaries between dear, neutral and hostile stop holding [C095-P4:L263–L273]. And it supplies the line this film must refuse, the reflection that beings go according to their own actions, which the digest is explicit is a stance for steadying the mind and becomes victim-blaming the moment it is used as social commentary [C095-M:L47]. C024 supplies the reach. Gladness is one of the factors that arises only when somebody who is doing well is actually there, it is defined as the opposite of envy, and the digest states plainly that gladness confined to one's own is attachment rather than the boundless factor [C024-P:L91], with the everyday version framed as a comparison with oneself [C024-M:L17]. On a tract where the inputs were identical, the outcomes are not, and the numbers are read out in public on the same night, the two together stop being a definition and become a description of a specific evening in a specific week.",
+    "what_it_reveals": "That the hardest place for gladness is not far away but immediately next door, and that the tradition knows it: it starts the practice with somebody whose good fortune is free to you, and only then works toward the person at the boundary. It also reveals what the tradition will not let a film do. The same sources that ask for gladness contain a line about actions and their results that would explain a ruined crop as deserved, and the digest rules that use out. Saying so on screen is part of the film."
   },
   "concept_links": [
     {
       "concept_id": "C095",
       "role": "primary",
-      "why": "Sympathetic joy (muditā) is gladness at others' success, its function is not envying, and it settles discontent; the source also warns of its look-alike, worldly giddy excitement [C095-P4:L54]. The Margaya frames it by self-comparison: be glad at another's gain as you are at your own."
+      "why": "The digest gives sympathetic joy as gladness at others' success, opposed to envy and to the discontent that goes with it, with a worldly giddiness as its counterfeit [C095-P4:L54], and it gives the method's starting point, a cheerful close friend, which is the source's own admission that the near case is the hard one [C095-P4:L483]. The graded widening until the boundaries between self, dear, neutral and hostile break down [C095-P4:L263–L273] is why a film about neighbouring plots is the right test rather than a film about generosity to strangers. The digest's does-not-transfer lines govern the film rather than sitting beside it. The reflection that beings follow their own actions is a meditative stance and is explicitly not social commentary about unlucky people [C095-M:L47], so the film names that line and then declines to use it, on camera. The eleven benefits, including the traditional claims of protection from fire, poison and weapons, are not narrated. The compassion method's beggar as a starting object is not a filming method. And the near-enemy warning about giddy excitement is never turned into a licence to judge how anybody celebrates a good year."
     },
     {
       "concept_id": "C024",
       "role": "supporting",
-      "why": "Sympathetic joy is one of the two boundless factors, arising occasionally and only when a happy being is in view, and it is meant to extend without favourites — including to a rival, which is exactly what envy prevents [C024-P:L91]. The digest's own line applies here rather than to any family: gladness confined to one's own is classed as attachment."
+      "why": "The digest counts sympathetic joy among the six beautiful factors that arise only when conditions call for them, defines it as gladness at another's good fortune and the direct opposite of envy, and states that joy in one's own family's success is classed as attachment rather than the boundless factor [C024-P:L91]. The Margaya's everyday framing, that you are glad when you gain and so should be glad when another gains, is the version an ordinary week can actually carry [C024-M:L17]. This is what keeps the film from settling for warmth within a household or a farmers' organisation and pushes it to the boundary between two holdings, which is where the sources say the factor is tested. The digest's warnings are honoured: the film does not present family or community loyalty as the model of this gladness, it does not imply that anybody visibly pleased for a neighbour is thereby practising a mental factor, and none of the concept's claims about innate wisdom or its absence are touched."
     }
   ],
-  "what_the_viewer_could_understand": "When someone else has a lucky day, the gladness a person may feel is named as a quality of its own, the opposite of envy, and it is meant to reach anyone who is doing well.",
-  "what_must_be_real": "The actual results of the morning's work and the crews' actual reactions. Nobody's response is directed, suggested or re-run, and no one is edited into resentment they did not show.",
-  "position_hint": "middle: it is the group's clearest single-quality film and needs the viewer to have already met goodness as something ordinary.",
+  "what_the_viewer_could_understand": "That there is a named quality for being glad when somebody else does well, that the tradition treats it as the opposite of envy rather than as ordinary friendliness, and that it is hardest exactly where the comparison is closest. And that a teaching about actions and their results, which could be used to explain away a ruined field, is not what that teaching is for.",
+  "what_must_be_real": "The week is the real harvest week and the results are the real results. Nobody's reaction is directed, suggested, prompted by a question, or re-run, and nothing is edited to manufacture resentment or rivalry between neighbours. Prices, debts and who sells to whom are private matters and are only in the film if the people concerned put them there. No one is filmed at the worst hour of a bad year without having agreed to it again on the day. The film does not become an argument about farm-gate prices or state purchasing, which is a real and serious argument and belongs to somebody else's film. Machines, dust and night working are dangerous and nothing is filmed that gets in their way.",
+  "position_hint": "middle to late in the group: it takes one member of the four-part scheme and puts it under the maximum load, so it works best after the viewer has met the four together and seen goodness treated as ordinary.",
   "risks": [
-    "Editing could invent rivalry or sour feeling that is not there",
-    "Real livelihoods are in every frame; implying envy without evidence would be unfair",
-    "Mistaking the source's warning about giddy excitement for a licence to judge people's celebrations"
+    "Editing envy into existence. Real livelihoods are in every frame, a camera cannot see a mental state, and implying resentment without evidence would be a straightforward injustice to identifiable people.",
+    "Using the reflection that beings go by their own actions as an explanation of a failed crop. The digest is explicit that this is a meditative stance and that turning it into social commentary makes it victim-blaming [C095-M:L47].",
+    "Making beauty out of ruin. A flattened plot from the air is a good image and somebody's year, and the film must not let the first fact cover the second.",
+    "Turning the source's warning about giddy excitement into a judgement on how a household celebrates a good harvest.",
+    "Exposing debt, prices or private arrangements with buyers that the people filmed did not choose to make public.",
+    "Presenting anybody in frame as an example of gladness or of envy. This group's method forbids it and the sources describe moments of mind, not kinds of people.",
+    "Drifting into an agricultural policy film. The subject is a mental factor under load, not the purchasing price."
   ],
   "drop_if": [
-    "Crews are unwilling to be filmed on a genuinely uneven morning",
-    "The only access available depends on arranging who lands what"
+    "The season is even and there is no visible spread of outcomes within the tract, so the film's central fact does not exist that year.",
+    "Households are unwilling to be filmed through a genuinely uneven week, which would be an entirely reasonable position.",
+    "The only access available depends on somebody arranging who is filmed against whom."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0098",
       "relation": "pairs with",
-      "note": "Both turn on gladness at another's good fortune, one between competitors and one inside a family."
-    },
-    {
-      "idea_id": "IDEA-0106",
-      "relation": "leads into",
-      "note": "Gladness observed between equals here becomes gladness that has to alternate with compassion in the later care films."
+      "note": "That film lays all four sublime abidings out across a place; this one takes the third of them and tests it between two people standing thirty metres apart."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and the group's only situation that tests gladness against direct competition."
+    "reason": "It is the slate's only situation in which equal effort, identical conditions and unequal results are all public on the same day, which is the exact test the sources set for the hardest of the four abidings."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The concept is kept unchanged, sympathetic joy as the hardest of the four abidings, but the old situation is dropped: boats coming in heavy and light at a landing. Fish landings and auctions are a banned archetype on this slate. The test has been moved to a rain-fed harvest tract where the inputs really are identical, the plots touch, and the results are published on the same night at the same scale. A new beat has been added in which the film names the source's reflection about beings and their own actions and then refuses to apply it, because the digest rules that use out. Both digests re-read and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The rain-fed paddy tract around Nedunkerny, in the north of the district",
+    "also_known_as": [
+      {
+        "name": "niyara",
+        "meaning": "the low earth ridge that divides one plot from the next",
+        "used_by": "Sinhala farming usage"
+      },
+      {
+        "name": "maha",
+        "meaning": "the main cultivation season, which depends on the north-east monsoon",
+        "used_by": "general usage across the country"
+      }
+    ],
+    "region": "Vavuniya district, Northern Province: the dry-zone villages of the northern division, on the roads running east from the main north road toward the district boundary",
+    "coordinates": {
+      "lat": 9.0614,
+      "lng": 80.6609
+    },
+    "why_here": "Because here the film's central claim is a matter of record rather than of framing. This is a district where tens of thousands of acres are cultivated on one season's rain and where, in a bad year, thousands of those acres are destroyed by weather while the fields beside them are not, so equal effort and unequal outcome sit side by side inside a single aerial frame. The plots are small and abutting, divided only by ridges, so the boundary shot the film needs exists everywhere. The harvest is compressed into days because the machines circuit the district once. And the results are made public on the same night, because most households here sell to private collectors to clear the loans they took to plant, which puts every load on the same scale in front of the same queue. Nothing has to be arranged for any of that to be true.",
+    "what_to_film": [
+      "The tract from very high at first light, wide enough that the plot mosaic and its colours read as one surface.",
+      "The boundary shot: a slow low move along one earth ridge with standing crop on one side and flattened crop on the other.",
+      "The machines working, filmed as work: dust, the turn at a boundary, the sack filling, the count.",
+      "The trailer queue at the yard after dark, the scale, the moisture meter, the chalked number.",
+      "A flattened plot being salvaged, filmed slowly and without commentary.",
+      "The long stretches between: waiting for a machine, the road, tea, the radio, the tract simply sitting there.",
+      "The burn-off and the tract afterwards, from the air, when every rectangle is the same colour again."
+    ],
+    "access": "By road east from the main north road. Filming depends on individual households agreeing plot by plot, and on the agrarian service centre and farmers' organisations knowing what is happening, since a tract like this is a dense web of neighbours. The yards are private businesses and would have to agree separately. Drone flight in the north should be checked against current rules before anything is planned.",
+    "best_time": "The harvest weeks of the main rain-fed season. Within a day, the first and last two hours for the light, plus one night at a buying yard.",
+    "images": [
+      {
+        "caption": "A paddy harvest in Sri Lanka. This is harvest work of the kind described, photographed elsewhere in the country, not in the district named.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harvest 1234.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Harvest 1234.jpg",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 4.0 on the file page; confirm licence and attribution before any use."
+      },
+      {
+        "caption": "Rice being harvested in Sri Lanka, for the scale of a plot and the look of a cut field. Again, not the district named.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SriLanka - Moisson du riz.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:SriLanka - Moisson du riz.JPG",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 3.0 on the file page; confirm licence and attribution before any use."
+      },
+      {
+        "caption": "A threshing floor in a paddy field, for the ground where a crop becomes a measurable quantity. A photograph from elsewhere in the country.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamatha in paddy field.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kamatha in paddy field.jpg",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 4.0 on the file page; confirm licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.sundaytimes.lk/250209/news/govt-paddy-price-fails-to-help-vavuniya-farmers-many-forced-to-sell-to-private-collectors-587219.html",
+      "https://www.agrarianvav.lk/asc/nedunkerny/",
+      "https://en.wikipedia.org/wiki/Nedunkerny"
+    ],
+    "research_note": "That around sixty thousand acres of paddy were cultivated in this district in a recent main season, that some two and a half thousand acres of it were destroyed by weather while the harvest was under way, and that most households sell to private millers and collectors because loans have to be repaid, are from the newspaper report above and are desk research only. That the local agrarian service centre serves well over a thousand farm families across eleven divisions, with farmers' organisations attached, is from the centre's own page. The coordinates are the town's, not a chosen tract. No household, organisation, machine operator or buying yard has been approached, and nothing about the harvest calendar on the ground, the willingness of neighbours to be filmed in the same week, or drone permission in the north has been checked. All three images are of paddy harvesting elsewhere in Sri Lanka and each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, tract or buying yard has been found or approached. Everything here is a research direction.",
+    "Whether a season uneven enough to carry the film will occur in any given year is outside anybody's control and decides whether it can be made at all.",
+    "Whether neighbours whose results differ sharply would both agree to be filmed in the same week is the film's central practical risk and is unverified.",
+    "Whether a buying yard would allow filming of weighing and pricing, which is commercially sensitive, is unknown.",
+    "How far the harvest in this district is actually rain-fed rather than served by stored water has not been checked, and the film's premise depends on it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

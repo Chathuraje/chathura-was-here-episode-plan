@@ -2,72 +2,188 @@
   "schema_version": 1,
   "id": "IDEA-0101",
   "record_type": "idea",
-  "title": "Handed Back",
+  "title": "Everything Stays Where It Was Put",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Handed Back"
+  ],
   "group_id": "GRP-06",
-  "logline": "A driver finds an envelope of cash left in his cab after a delivery, and spends two days trying to find out whose it is instead of keeping it.",
-  "human_question": "What does it cost, in the moment, to give back something no one would ever know you kept?",
-  "situation": {
-    "what_happens": "Someone whose work puts other people's property in their hands finds money or valuables left behind. Nobody saw it, nobody is looking for it yet, and keeping it would carry no visible cost. Instead the finder starts asking: calls, enquiries, a detour, hours that are not paid for. Eventually the item is handed back, or it is not.",
-    "who_is_involved": "The finder, working a route or a job that brings them into other people's goods; the owner, who may not yet know anything is missing; the employer or depot whose rules and time are also involved.",
-    "what_is_at_stake": "For the finder, real money forgone and real hours lost. For the owner, something that may matter more than its value. For the viewer, the question of what restraint costs when nobody is watching.",
-    "how_it_unfolds": "These events are unplanned and short. They begin with a discovery, pass through the practical difficulty of finding an owner, and end in a handover, a dead end or a quiet decision not to pursue it. Reality decides whether such a thing happens at all during filming, and how the person behaves when it does; the moment cannot be reconstructed afterwards without destroying it."
+  "logline": "Every evening on a cold mountain road a thousand metres up, a few hundred sacks belonging to a few dozen households are stacked on the verge and left there in the dark for a lorry that comes at two in the morning, and by daylight the verge is empty and the money has not arrived yet.",
+  "human_question": "What is actually holding something in place when nobody at all is holding it?",
+  "place": {
+    "what_kind_of_place": "High, cold, steep smallholder farming country, well above the warm zone, where the hills are cut into narrow terraces of leeks, carrot, cabbage, beetroot and potato and the fields run from the stream in the valley bottom right up to the skyline. The settlements are strung along a single winding road with drops on one side. Every few kilometres there is a widening of the verge, or a roofed platform of poles and tin, which is where a hamlet's harvest is brought down to meet the road. There is nothing else there: no gate, no wall, no office, no light.",
+    "why_it_is_worth_watching": "It is a landscape that works at two completely different hours and looks like two different places. By day it is a vertical patchwork in twenty greens, with people small in it and cloud moving through the fields at eye level. At night it is black, and the only thing in the frame is a stack of pale sacks on a verge with the mountain behind it, and every twenty minutes a pair of headlights goes past without stopping. From the air at first light the whole hillside turns on at once as the terraces catch the sun in sequence, and the verge where a hamlet's entire year stood at midnight is a bare strip of gravel.",
+    "what_moves_or_changes": "The cloud, which comes up the valley in the afternoon and swallows everything, and the cold, which is the reason the harvest can stand out all night at all. Prices, which are decided hundreds of kilometres away and can halve between one week and the next, so that the same sacks are a good year or a ruinous one. The lorry, which comes when it comes. And the season, which fills the verge to the roof at one time of year and leaves it bare at another.",
+    "when_it_looks_best": "A harvest peak, when the stacks are deep and the lorries come nightly. Within a day: the last hour of light while the sacks are being carried down, then full dark for the verge itself, then the first fifteen minutes after sunrise, when the terraces light in sequence and the verge is already empty."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about a mountain road between dusk and dawn. Terraces going up into cloud, people coming down tracks with loads on their heads, a stack growing on a verge, the cold coming down, headlights, a long black middle, an engine, a tail light, and then a hillside catching the sun with nothing left on the gravel at all. It has a complete shape with nothing said over it: the carrying down, the standing in the dark, the taking away, the empty morning.",
+    "with_the_philosophy": "The same night becomes the sources' own distinction, laid out on a public road. The texts are unusually strict about what counts: a restraint exists only where a real wrong was there to be done and was actually declined, and they say plainly that simply being blameless is not the same thing. So this verge shows exactly what a camera can and cannot have. It can hold, all night, an arrangement in which a great deal of other people's property is left where anyone could take it. It cannot show a single moment in which anybody decided not to. The voice says so, and spends the film on the arrangement instead."
+  },
+  "sequence": [
+    {
+      "on_screen": "Last light, very high and wide. Terraced slopes running up into cloud, a single road threading across them, tracks coming down to it. Small figures descending with sacks.",
+      "voice": "What comes off these hills has to meet the road before dark, because the lorry will not climb the tracks. So for a few hours every evening, at thirty or forty places along this road, a hamlet's harvest is carried down and set on the gravel.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "Ground level, dusk. The stack going up: sacks tied with a twist of nylon, a name or a mark in chalk or marker on the hessian, crates, a tarpaulin dragged over the top. People walking away up the track without looking back.",
+      "voice": "A mark, and that is all. No lock, no receipt yet, no one left with it. It is worth several months of a household's work and it will stand here until about two in the morning.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "Full dark. The stack, static, in ambient light only. Headlights sweep across it and go on. Insects. A dog somewhere. The frame does not cut for a long time.",
+      "voice": "The old lists are strict about this. There is a factor they call abstaining, and it exists only where the wrong was genuinely available and was turned down. Being harmless by circumstance does not count; the sources say straight out that a naturally blameless way of going on is not this thing at all [C024-P:L45].",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "Still dark. Very slow move along the stack: the chalked names, the different handwriting, a torn corner, a bootprint in the mud beside it.",
+      "voice": "They set out three depths of it. The first is the one that arrives on the spot with no promise behind it. Their own example is a man with a snare in his hand who let the animal go when he thought about his own mother [C024-P:L61]. Nothing had been decided in advance. The second is an undertaking kept when keeping it costs something. The third is a change deep enough that the wrong no longer occurs to the person at all [C024-P:L57–L67].",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "Two in the morning. An engine, reversing lights, a tailgate. Loading: sacks swung up in a chain, a torch held in a mouth, a ledger on the bonnet, a carbon copy torn off and folded into a shirt pocket.",
+      "voice": "None of these people will see the market. The sacks go three hours down the mountain, are sold by somebody the household has never met, and the money comes back up days later through a book that nobody here keeps.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The lorry gone. The verge, bare, with a scatter of loose leaves and a flattened patch of grass. A dog crossing it.",
+      "voice": "And here is where the film has to be honest. These lists describe moments, not people. Only the qualities a moment's work actually calls for arise with it, somewhere between seven and thirty-six of them, and then they are gone [C019-P:L49]. They are not standing parts of anyone. They arise together and cease together, and nothing carries over but what happens next [C019-P:L35–L37].",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "First light from the air. The terraces lighting in sequence up the valley, cloud in the bottom, the road a thin grey line, the empty verge somewhere in it and completely unremarkable.",
+      "voice": "So this is not a film about honest people, and nobody on this road has been offered as one. It is a film about a place where the honest outcome is what the arrangement produces, night after night, whoever happens to be walking past.",
+      "concept_id": "C024"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C024 holds that an abstinence exists only where a real wrong was available and was refused, and distinguishes the restraint that arises in the moment with no prior vow from the restraint of an undertaking kept at cost. C019 adds that what is on show is one moment's assembly of factors, not proof of a lifelong character. Together they make a small, unwitnessed decision legible as an event rather than as evidence about a person.",
-    "what_it_reveals": "That the tradition locates goodness in the refusal itself, at the point where it could have gone the other way, and declines to turn that into a verdict on the person."
+    "why_together": "C024 supplies the film's claim and, in the same passage, the limit on it. The sources hold that abstaining exists only where a real wrong was available and was refused, and they say outright that a naturally blameless way of going on is not this abstinence [C024-P:L45]; they grade the refusal into three depths, the one that arises on the spot with no prior vow, the one carried by an undertaking kept at cost, and the one uprooted so the wrong no longer occurs [C024-P:L57–L67], and their own case for the first is a man releasing a trapped animal because he thought of his mother [C024-P:L61]. C019 supplies the honesty. Only those factors a moment's work requires arise with it, between seven and thirty-six, and they arise and cease with that single mind [C019-P:L49; C019-P:L35–L37], so nothing visible on a road at night is evidence of anybody's standing character. Put on a verge where a great deal of property stands untouched all night, the two make a film that can show the situation in full and still refuse to make a claim about a person.",
+    "what_it_reveals": "That the good thing the texts name is a refusal, that a refusal needs something real to refuse, and that none of it is a property of a person that a camera could find. C024 alone would become a film praising a community for being decent, which is the exact error its own source names. C019 alone would be a piece of classification. Together, on this road, they let the film hold a whole night of untaken property in frame and say plainly that what it is showing is an arrangement and not a virtue."
   },
   "concept_links": [
     {
       "concept_id": "C024",
       "role": "primary",
-      "why": "This is restraint in the moment (sampatta virati), arising with no prior vow, at the exact point where a wrong could be done and is not [C024-P:L61]; the source's three depths run from stopping because you suddenly see the harm, through keeping an undertaking even when it costs, to a change deep enough that the wrong no longer occurs."
+      "why": "The digest's core for this film is the abstinence and its condition. Restraint exists only where there was something real to refrain from, and the source states that a naturally blameless way of going on is not this abstinence at all [C024-P:L45]; the seven things to be refrained from are listed [C024-P:L27], three of them bodily, which is where taking what is not given sits; and the three depths run from restraint arising in the moment with no prior vow [C024-P:L61], through an undertaking kept even at cost [C024-P:L63; C024-M:L27], to a change so complete that the wrong no longer occurs [C024-P:L57–L67]. The digest's limits shape the voice throughout. The film never offers the place or its people as an ethical community, because that is the digest's named mistranslation of right livelihood into 'a decent job' [C024-P:L45]. It never presents a person in frame as an instance of a factor. It does not use the compassion or sympathetic-joy material, which belongs elsewhere in this group and carries the digest's hard line about family feeling [C024-P:L81]. It does not use the wisdom material, since wisdom here is not skill or know-how [C024-P:L119–L123]. And the claims about an innate seed of wisdom and about which beings lack it [C024-P:L103], which the digest flags as sensitive and needing ethical review, are excluded outright."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "Only the factors the moment's work requires arise with it, so what is visible is a single moment's roster, not a demonstration of standing virtue [C019-P:L49]."
+      "why": "The digest supplies the discipline that keeps this film from becoming a character reference. Factors arise together with a mind, cease together with it, take the same object and rest on the same base [C019-P:L33–L47], and only those a given mind's work requires arise with it, as few as seven and as many as thirty-six, with opposed factors never sharing a moment [C019-P:L49]. That is why the voice can describe what is on the verge and still decline to say anything about anybody's character: what the sources describe passes with the moment [C019-P:L35–L37]. The digest's warnings are honoured directly. The factors are not sub-personalities or persistent inner agents, so nothing on screen is narrated as a part of someone. They are not a set of emotions, so the voice does not translate them into feelings. And the group's phrase about a whole team travelling with each mind is used in the digest's own sense of a roster rather than a crowd all present at once [C019-P:L49]."
     }
   ],
-  "what_the_viewer_could_understand": "The texts put goodness in the refusal itself: the good act happens in the moment a real wrong was available and was turned down, and it says nothing about the rest of the person.",
-  "what_must_be_real": "A genuine find and a genuine return as they actually happen, never staged or re-enacted, with consent from the finder and from whoever the property belongs to.",
-  "position_hint": "middle: it is a single-moment film and sits naturally beside an ongoing practice of the same kind.",
+  "what_the_viewer_could_understand": "That in this account the good thing is not a quality somebody carries around but a refusal that needs a real opportunity to exist at all — and that a camera can film the opportunity, standing on a verge all night, without ever being able to film the refusal. Being blameless by circumstance is not the same as declining something, and the texts are unusually blunt about the difference.",
+  "what_must_be_real": "The harvest, the road, the hours and the risk are the ones these households actually live with. Nothing is staged: no stack is built for the camera, no sack is placed, moved or opened for a shot, nobody is asked to leave property out or to come back for it at a convenient hour, and no test of any kind is arranged. The film never says that this community is honest and never suggests that anywhere else is not; the sources describe moments of mind, and a camera cannot show which one is present. If filming on an unlit mountain road would endanger a crew, a household or a driver, or would delay a loading that has to finish before dawn, it does not happen.",
+  "position_hint": "middle: it is the group's plainest statement that goodness here is a refusal rather than an act, and it works best once the viewer has met the group's warmth and before the film that puts the same refusal inside an institution. No location reasoning is involved.",
   "risks": [
-    "The premise collapses entirely if staged or reconstructed",
-    "Legal complications around found property and its rightful owner",
-    "Turning one decision into a character reference for the person who made it"
+    "Turning the place into a parable of rural honesty. The digest's own warning is that being blamelessly situated is not this abstinence [C024-P:L45], and the film must describe an arrangement, not award a virtue.",
+    "Presenting any person in frame — a farmer, a loader, a driver — as an example of restraint. The sources describe moments, not kinds of person, and a camera cannot see which factor is present.",
+    "Implying by contrast that theft is normal somewhere else, or that any particular group is the risk being guarded against. That claim is unavailable and would be unfair.",
+    "Staging a temptation, a loss or a return, which would falsify the premise completely.",
+    "Narrating the factors as persistent parts of a person or as an inner committee, which the digest explicitly rules out [C019-P:L35–L37].",
+    "Aestheticising a genuinely precarious living. Prices here are decided far away and can wipe out a season, and that has to stay legible under the beauty.",
+    "Filming at night on a narrow mountain road in a way that endangers a crew, a household or a vehicle.",
+    "Identifying households by the marks on their sacks without their agreement."
   ],
   "drop_if": [
-    "No genuine, current instance can be filmed as it unfolds"
+    "The produce is not in practice left unattended, and the film's central situation does not exist.",
+    "Households will not agree to their loads, marks and hours being filmed.",
+    "It can only be made by arranging a test, a staged loss or a reconstruction."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0102",
-      "relation": "folded into",
-      "note": "Its substance now lives inside IDEA-0102 as the one-off form of the same refusal, alongside the trader's weekly one."
+      "relation": "pairs with",
+      "note": "Two arrangements that remove the need to trust anybody: one a measure nobody argues with, one a place where property is simply left out."
+    },
+    {
+      "idea_id": "IDEA-0103",
+      "relation": "leads into",
+      "note": "The same refusal held for one night by nobody in particular, and then held for decades by an institution with a book."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0102",
-    "reason": "Same concept and the same moral structure as IDEA-0102, and far less filmable; its distinctive contribution, restraint with no prior vow, is folded into that film."
+    "superseded_by": null,
+    "reason": "It is the only place found where the whole situation the concept needs — real property, really available, really untaken — can be held in one continuous frame without anyone being made an example of."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped the entire old premise: a named driver who finds an envelope of cash in his cab and spends two days returning it. That film makes an identifiable person's honesty into a test he passes on camera, which is exactly the exemplar problem this group has to avoid, and the money made it worse by attaching a figure to his restraint; it also could not have been made without waiting for or arranging a find. The concept is kept and moved to a place where property is left unattended as a matter of ordinary arrangement, so the situation is continuously present and belongs to nobody. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The roadside collecting points of the upcountry vegetable villages around Nildandahinna, in the Walapane hills",
+    "also_known_as": [
+      {
+        "name": "ekathu kireeme sthanaya",
+        "meaning": "collecting point: the widening of a verge, or a roofed platform, where a hamlet's harvest is brought down to meet the road",
+        "used_by": "Sinhala upcountry farming usage"
+      }
+    ],
+    "region": "Nuwara Eliya district, Central Province: the eastern Walapane hills above the Uma Oya, about a thousand metres up, a country of terraced smallholder vegetable plots rather than estates",
+    "coordinates": {
+      "lat": 7.0803,
+      "lng": 80.8933
+    },
+    "why_here": "It gives the concept a situation that is continuously present rather than an event that has to be waited for. This is dense upcountry vegetable country worked in household-sized terraces, high enough and cold enough that a harvest can stand out overnight without spoiling, and steep enough that lorries cannot reach the plots, so the produce must be brought down to the road and left there. That means the thing the concept needs — a real wrong genuinely available, on a public road, all night, at the scale of a whole hamlet's year — is not staged and is not rare; it is the standing arrangement. And it makes the film's two best images by itself: a stack of pale sacks alone on a black mountain verge, and the same verge bare at first light while the terraces above it light in sequence.",
+    "what_to_film": [
+      "The valley from very high in the last light, wide enough that the terraces, the single road and the tracks coming down to it read as one system.",
+      "The carrying down: loads on heads and backs coming off the tracks in the dusk, filmed as ordinary work and not as effort.",
+      "The stack being made, and specifically the marking of it — chalk, marker, a knotted tag — which is the only security there is.",
+      "The verge in full dark, held long and uncut, with headlights passing and not stopping. This is the centre of the film and it must be allowed to be boring.",
+      "The loading in the middle of the night: the tailgate, the chain of sacks, the torch, the ledger on the bonnet, the carbon copy.",
+      "The verge immediately afterwards, empty.",
+      "First light from the air, the terraces catching the sun in sequence and the bare verge somewhere in the frame, unremarkable.",
+      "The unglamorous rest of the chain as far as it exists in the village: the notebook, the phone call about a price, the money arriving days later."
+    ],
+    "access": "By road up from the Kandy or Mahiyanganaya side and then along mountain roads. The produce belongs to private households and the film depends entirely on their agreement and on the buyer's; the hours are the hours the trade actually keeps, which means dusk and the middle of the night. Night filming on a narrow upcountry road with drops on one side is the main practical constraint, and vehicle movements are decided by whoever is driving, not by a crew.",
+    "best_time": "A harvest peak, when the stacks are deep and collection is nightly. Within a day: the last hour of light, then full dark, then the quarter of an hour after sunrise.",
+    "images": [
+      {
+        "caption": "The Walapane hills. This is the surrounding landform and light rather than a collecting point.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WalapaneSrilanka-December2013-01.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:WalapaneSrilanka-December2013-01.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same hills from another angle, for the terraced slopes and the cloud. Again the landform, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WalapaneSrilanka-December2013-02.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:WalapaneSrilanka-December2013-02.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The mountain range that closes this country to the north, seen from about forty kilometres away. Context for the horizon, not the location itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WalapaneSrilanka-December2013-03.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:WalapaneSrilanka-December2013-03.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nildandahinna",
+      "https://www.sundaytimes.lk/220703/news/vegetables-and-fruits-rot-at-collection-points-markets-see-few-customers-vendors-487738.html",
+      "https://www.sundaytimes.lk/170212/news/we-may-have-to-give-up-farming-nuwara-eliya-farmers-228145.html",
+      "https://www.srilankabusiness.com/fruits-and-vegetables/agriculture-supply-chain.html",
+      "https://www.seu.ac.lk/seusljm/publication/volume4/no2/p3.pdf"
+    ],
+    "research_note": "That this town sits in Nuwara Eliya district under the Walapane divisional secretariat at about 1,060 metres, that the surrounding country is upcountry smallholder vegetable land, that village-level collecting points are part of how this produce moves, and that the chain between grower and market runs through collectors, transporters and commission agents rather than direct sale, are from the sources above and are desk research only. The coordinates are the town's, not a chosen collecting point. The specific practice this film is built on — that a hamlet's sacks stand unattended on the verge from dusk until a night lorry — is reported to us only as common upcountry knowledge and has not been verified in any source; it is the first thing to check on the ground, and if it is wrong the film does not exist. No household, buyer or driver has been approached. All three images are of the surrounding hills rather than a collecting point, and each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "The central premise — produce left unattended on the verge overnight — is unverified and decides whether the film can be made at all.",
+    "No household, hamlet, buyer or driver has been found or approached. Everything here is a research direction.",
+    "Whether a stack can be filmed at night without drawing attention to it, or altering what happens to it, is unresolved and is an ethical as well as a practical question.",
+    "Which weeks of the year the stacks are actually deep enough to read on camera is unverified, and the film depends on it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

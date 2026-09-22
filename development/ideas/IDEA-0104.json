@@ -2,71 +2,185 @@
   "schema_version": 1,
   "id": "IDEA-0104",
   "record_type": "idea",
-  "title": "The Whole Team",
+  "title": "The Same Instant",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Whole Team"
+  ],
   "group_id": "GRP-06",
-  "logline": "Before sunrise, a crew of a dozen people pulls a single net from two directions at once; no one could do any part of it alone, and the catch belongs to all of them the moment it is decided.",
-  "human_question": "When something can only be done by everyone at once, whose achievement is it?",
-  "situation": {
-    "what_happens": "A crew sets one end of a very long net out on the water while the rest hold the other end, and then the whole group hauls for as long as it takes. Every person has a different job and none of the jobs is the work. The pull begins together and finishes together. When the net closes, what is in it is divided by an arrangement the crew already knows.",
-    "who_is_involved": "A crew who work together habitually, including older members who no longer haul but still take a share; the households the shares go to.",
-    "what_is_at_stake": "A morning's income for everyone at once, and an arrangement about sharing that has to survive a bad haul. For the film, the risk of turning precarious labour into a pleasing shape.",
-    "how_it_unfolds": "The work has one long movement — setting, hauling, closing, dividing — and it either produces something or it does not. Its pressures are weather, declining stocks, equipment cost and the fairness of the split. Reality decides what comes up in the net and what is said while it is divided."
+  "logline": "Once a year a carved wooden tower several times the height of a man is set on solid timber wheels in a sand street, and it will not move a hand's width until several hundred people on two long ropes pull at exactly the same moment.",
+  "human_question": "When a thing can only happen if everybody moves at once, whose doing is it?",
+  "place": {
+    "what_kind_of_place": "A flat, hot village on the paddy side of a large lagoon in the east of the island, an hour by road from the district town and reached by one bridge. At the centre of it stands a very old temple, and in a store beside it a chariot: a tower of carved timber, tonnes of it, built up on a frame that runs on solid wooden wheels. For most of the year the street it travels is an ordinary village street of sand, shade trees, shops with their shutters half down and a few dozen motorcycles. For a fortnight each year the street is swept, the chariot is brought out, dressed and made ready, and on one day of it two ropes are laid out down the street and the thing is drawn along by hand, because there is no other way to move it.",
+    "why_it_is_worth_watching": "Because the whole film is one event that either happens or does not, and it is visible from a kilometre up. From the air, two ropes run away from the chariot down a sand street like a pair of antennae with several hundred people strung along them, and everything else in the frame — paddy, palms, tin roofs, the lagoon behind — is perfectly still. On the ground the interest is mechanical and physical: the grain of the wheels, the wedges, the timber levers, the ropes going from slack to bar-tight, the small lurch of the start, and the fact that a hundred people leaning is not enough and a hundred and fifty at the same instant is. The most beautiful shot the place produces is also the plainest statement of the idea: the moment the whole line drops together and the tower moves.",
+    "what_moves_or_changes": "Almost nothing, and then everything at once. The chariot advances a few tens of metres at a time and stands for long periods while the ropes are re-laid and the wheels chocked; the crowd thickens and thins around it through the day; the light moves down the street; dust rises and settles. Nobody controls the timing — it goes when enough people are on the ropes and the call goes up, and it stops when it stops.",
+    "when_it_looks_best": "The one day of the annual festival when the chariot is drawn, which sits in the second half of the year and is set by the temple's own calendar, not by a crew's. Within that day, the first two hours after sunrise, when the street is in long light and the ropes throw shadows across it, and the late afternoon, when the dust in the air makes the light visible."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about moving something enormous without machinery. Timber, rope, dust, wheels that are cut from single slabs, wedges hammered under a rim, the physics of inertia made visible at human scale, and the extraordinary sight from above of two straight lines of people attached to one object. It has a complete shape with nothing said over it: the still morning, the preparation, the failed first heave, the start, the long stands, the arrival, the ropes coiled, the street ordinary again by evening.",
+    "with_the_philosophy": "The same day becomes the sources' own definition, at full size and in the open. The texts define a mental factor not by what it feels like but by four marks: it arises with the mind, ceases with it, takes the same object and rests on the same base, each with its own separate job. That is a description of this street. Nothing on the ropes starts slightly before anything else; nothing keeps pulling after the rest have let go; every hand is on one object; and no two hands are doing the same job. The voice never says that anyone pulling has a good mind, because a camera cannot show that. It says that the shape of this hour is the shape the sources give to goodness: not one quality, but a set that only exists together."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, drone, very high. A village of tin and tile on a flat green plain, a lagoon behind it, a straight sand street through the middle, and a single tall wooden object standing still at one end of it. Nothing is moving.",
+      "voice": "In this account of the mind, awareness by itself does almost nothing. It takes hold of what is there, and that is all. Everything we would call feeling, recognising, wanting, weighing or caring is the work of a set of companions that arrive with it. The mind leads, and every function is carried out through their power [C019-P:L29; C019-M:L11].",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "Ground level, close. Two coir ropes being run out down the street and laid flat. Hands taking hold at intervals along them. Timber wedges stacked by a wheel. Men with levers standing at the axles. A wheel cut from a single slab of wood, taller than a child.",
+      "voice": "The texts do not define these companions by how they feel. They define them by four marks: they arise together with the mind, they cease together with it, they take the same object, and they rest on the same base [C019-P:L33–L47; C019-M:L3–L17]. Everything on this street in the next ten seconds will satisfy all four.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The first attempt. A call. A ragged pull that runs down the rope like a wave. The chariot does not move. Slack comes back into both ropes. Somebody walks the line, saying something, spacing people out.",
+      "voice": "A wave down the rope is not a pull. The weight here does not care how much effort there is in total; it cares whether the effort is simultaneous. Nothing arrives late to a moment of mind either. Whatever is not there at the start is not in that moment at all.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The start. Held in one unbroken shot, wide: a single call, several hundred backs dropping at the same instant, both ropes going bar-tight, and the tower beginning to move. Dust. The wheels turning for the first time.",
+      "voice": "Arising together. Not one after another, and not most of them. The sources are strict about this: a mind and its factors come up in the same instant, stand for the same instant and break up in the same instant [C019-P:L35–L37].",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The stop. The call changes, the ropes go slack all along their length at once, and wedges go under the wheels from both sides. People straighten up and step back. The street is suddenly a street again with a tower standing in it.",
+      "voice": "And ceasing together. The old commentary puts it as a rule about company: the members of one crew do not hang about after the others have gone [C019-M:L13]. A quality that outlasted the moment it belonged to would not be one of these at all.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "Different jobs in the same minute: a man at a lever under the axle; two people hammering a wedge; someone walking backwards ahead of the wheels watching the ground; the rope hands; a boy carrying water along the line. Then a high shot: all of it attached to one object.",
+      "voice": "Same object, same base, and every one of them doing a different job [C019-P:L33–L47]. There are fifty-two of these companions in the list, but only the ones a piece of work needs turn up for it — as few as seven, as many as thirty-six — and ones that contradict each other never come to the same moment at all [C019-P:L49; C019-M:L7–L9].",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "A long stand. The chariot straight in the street; someone checking a wheel that has begun to run out of line; the ropes re-laid a little wider apart. Nothing dramatic. People sitting on a wall in the shade.",
+      "voice": "One of the nineteen is nothing but this: the quality that keeps the rest in step, neither running ahead nor dragging. The old image for it is a driver holding two animals level so that the vehicle actually arrives [C023-P:L115]. It is easy to mistake for indifference. It is the opposite: it is what lets the others work.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "Evening. The chariot at rest at the far end. Ropes being coiled. The street returning to ordinary: shutters up, a motorcycle, someone sweeping. A last very wide shot as the light goes.",
+      "voice": "A camera cannot see which qualities were in anybody here, and this film does not guess. What it can show is the shape. In these texts goodness is never a single virtue switched on; the moment a mind turns good at all, nineteen qualities arrive together, including calm, lightness and ease [C023-P:L37; C023-P:L25]. Not one of them can do the work. None of them arrives alone.",
+      "concept_id": "C023"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C019's four marks of association — factors arise together, cease together, take the same object and rest on the same base, each with its own function — are almost exactly a crew that launches and lands as one; the digest itself reaches for a boat's crew as its image. C023 adds that the ease and coordination of a practised group is what workability and proficiency look like from outside.",
-    "what_it_reveals": "That the tradition's account of a mind is closer to a crew than to a person: distinct jobs, one object, one beginning and one end, and no member who is the work."
+    "why_together": "C019 supplies the film's entire structure and its test. The sources hold that mind and mental factors are inseparably mixed and are defined by four marks — arising together, ceasing together, taking one object, resting on one base — with each factor carrying out its own distinct function [C019-P:L33–L47; C019-M:L3–L17]; that only those a given piece of work requires arise, from seven to thirty-six, and that opposed factors never come together [C019-P:L49; C019-M:L7–L9]; and that the whole ensemble stands and breaks up in one instant [C019-P:L35–L37]. A haul that can only be started by simultaneous effort satisfies every clause of that definition in the open air, at a size a drone can hold in one frame. C023 supplies what the ensemble is like when it is good rather than merely coordinated: nineteen qualities present without exception in every good mind [C023-P:L37; C023-P:L25], among them the balancing quality that keeps co-workers level, pictured in the source as a driver holding two animals in step so the vehicle reaches its goal [C023-P:L115]. Put on one street on one day, the two stop being a taxonomy and become the plain mechanics of how anything gets moved.",
+    "what_it_reveals": "That the tradition's account of a good mind is closer to a haul than to a feeling. C019 alone would be a definition with four clauses and no picture. C023 alone would be a list of nineteen names. Together, on a street where a ragged pull moves nothing and a simultaneous one moves several tonnes, they show why the sources insist that goodness is a set and not a single quality — and they show it without asking the viewer to believe anything about the state of mind of any person in the frame."
   },
   "concept_links": [
     {
       "concept_id": "C019",
       "role": "primary",
-      "why": "The four marks describe factors that arise together, cease together, take the same object and depend on the same base, each with a distinct function [C019-P:L33-L47; C019-M:L3-L17]; the digest's own simile for this is a boat's crew that launches and lands together."
+      "why": "The digest's core is the four marks of association: the factors arise with the mind, cease with it, take the same object and depend on the same base, each with its own function [C019-P:L33–L47; C019-M:L3–L17], with the whole ensemble arising, standing and dissolving in one instant [C019-P:L35–L37], and only those a given mind's work needs arising at all — seven at the fewest, thirty-six at the most — while mutually opposed factors never share a moment [C019-P:L49; C019-M:L7–L9]. A pull that only works when it is simultaneous is that definition made physical. Every limit the digest sets is load-bearing here and is honoured. The factors are momentary qualities, not persistent agents, so the film must not offer the rope crew as a picture of inner sub-personalities or 'parts'. They are not fifty-two emotions; many are not emotions at all. The group's own phrase about the whole team travelling with each mind means the whole roster, not all of them present at once, so nothing on screen or in narration may suggest fifty-two pulling together. And the digest's note that the 'common' factors take the whole moral colour of the moment they join [C019-P:L61–L63] is the reason this film never reads coordination itself as goodness: the same simultaneity moves a chariot, a boat or a battering ram."
     },
     {
       "concept_id": "C023",
       "role": "supporting",
-      "why": "Workability and proficiency describe what repeated, shared effort makes possible, and the source's account of practice is that what is often done becomes easy [C023-P:L153-L157]."
+      "why": "The digest supplies what an ensemble looks like when it is good: nineteen beautiful factors present without exception in every good mind, among them tranquillity, lightness, softness, workability, proficiency and straightness of the whole group as well as of the mind [C023-P:L37; C023-P:L25], and the balancing quality whose image in the source is a driver keeping two animals level so that the vehicle arrives [C023-P:L115]. That image is why this concept belongs on this street rather than somewhere gentler. The digest's warnings hold the voice back in three specific places. The balancing factor is explicitly not indifference or detachment from people, and the narration says so where it is used. Faith in this framework is a clarifying confidence and emphatically not devotion to a person or a figure, which the source calls a false conviction [C023-P:L47–L51], so nothing filmed at a religious festival may be narrated as the faith factor. And the source's grounding of moral shame partly in family and lineage [C023-P:L73] is not carried into the film in any form, since on camera it would read as an endorsement of caste or status. The practical remark that what is often done becomes easy and even sweet, while the unpractised hesitate [C023-P:L157], is available for the crews who do this every year, but only as description of a skill, never as a verdict on anyone's character."
     }
   ],
-  "what_the_viewer_could_understand": "A mind, in this account, is never a single thing acting alone: it is a set of qualities that begin together, attend to the same thing and finish together, each doing a different job.",
-  "what_must_be_real": "The crew's actual livelihood, a real haul and a real division of what it produces. No repeat of the pull for the camera and no arranged catch.",
-  "position_hint": "middle: it is an explanatory film about how a mind is put together, which needs the viewer to have seen good minds in action first.",
+  "what_the_viewer_could_understand": "That in this account a mind is never a single thing acting: it is a set of qualities that begin in the same instant, attend to the same thing, rest on the same support and end together, each doing a different job, and that goodness in particular is a set of nineteen and not one virtue. Watching a load that moves only when the effort is simultaneous is the nearest thing to seeing that claim tested.",
+  "what_must_be_real": "A real festival on its own date, drawn by the people who draw it every year, for their own reasons. Nothing is arranged, re-run or re-staged: no pull is repeated for a better angle, nobody is placed on a rope, and no call is given for the camera. The film is made only with the agreement of the temple and the people who organise the day, and it stops filming whenever asked. The voice never explains anybody's religion to them and never presents the rite as an illustration of a doctrine from another tradition; what it describes is the mechanics of the haul. No person in frame is offered as an example of a good mind, a mental factor or a virtue, because a camera cannot show which factor is present. Safety comes before every shot: a moving chariot in a crowd is lethal, the crew never stands in the line of travel or in the way of the rope hands, and nothing is flown over a packed street without the organisers' agreement and a rule about where it may not go.",
+  "position_hint": "middle: it is the group's plainest statement that goodness arrives as a set rather than as one quality, so it works best after the viewer has met the group's warmth and before the films that ask what such a mind makes possible. No location reasoning is involved.",
   "risks": [
-    "Turning hard, precarious labour into a pretty metaphor",
-    "Letting visual composition lead instead of the crew's own livelihood and words"
+    "Using a living religious festival as an illustration of a doctrine from another tradition. The film is made with the temple's agreement or not at all, the voice stays on the physics of the haul, and nothing on screen is glossed as a devotional meaning it does not carry for the people doing it.",
+    "Presenting anyone on a rope as an instance of a beautiful factor or of a good mind. The sources describe moments of mind, not kinds of person, and a camera cannot show which factor is present.",
+    "Narrating what is filmed at a shrine as the faith factor, when the digest explicitly separates clarifying confidence from devotion to a person and calls the latter a false conviction [C023-P:L47–L51].",
+    "Suggesting, in narration or in any graphic, that all fifty-two factors arrive at once. At most thirty-six do [C019-P:L49; C019-M:L7–L9], and the group's 'whole team' means the roster.",
+    "Turning the factors into persistent inner agents or 'parts'. They arise and cease with each moment [C019-P:L35–L37].",
+    "Reading coordination itself as goodness. The ethically variable factors take the whole moral colour of whatever they serve [C019-P:L61–L63], and the same simultaneity serves any purpose at all.",
+    "Carrying the source's grounding of moral shame in family and lineage [C023-P:L73] onto the screen, where it would read as an endorsement of caste or status.",
+    "Letting the crowd become a mass ornament from the air, so that several hundred individuals read as a pattern rather than as people doing heavy work.",
+    "Any filming that gets in the way of a moving several-tonne load, or that puts a crew, a bystander or a rope hand at risk."
   ],
   "drop_if": [
-    "No crew is willing to have a real working morning filmed as it happens"
+    "The temple and the organisers of the day do not want a camera there, or withdraw agreement at any point.",
+    "Flight over a crowded street cannot be permitted or cannot be made safe, which removes the film's central image.",
+    "It can only be made by asking anyone to re-stage a start, re-lay a rope or hold a position for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0095",
-      "relation": "folded into",
-      "note": "Its substance now lives inside IDEA-0095: work that exists only when several people begin and finish it together, carrying the four marks of association."
+      "relation": "pairs with",
+      "note": "Two ways of filming work whose result belongs to no single person: one where the effort must be simultaneous, one where it accumulates."
+    },
+    {
+      "idea_id": "IDEA-0093",
+      "relation": "mirrors",
+      "note": "A structure that gives with nobody in it, and a structure that does nothing at all until several hundred people are."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0095",
-    "reason": "Shares both concepts with IDEA-0095 and duplicates it as physical-labour film; its four-marks image is stronger folded into that film than competing with it for a slot."
+    "superseded_by": null,
+    "reason": "It is the only place found where the four marks of association can be tested on camera rather than described: a load that moves on simultaneity alone."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The old subject, a dozen people hauling one net from two directions before sunrise, is dropped: fish landings and beach seines are a banned archetype in this slate, and the digest's own boat-crew seed carried the same problem. The concept is kept intact and moved to a haul that physically cannot be done except by many people pulling at the same instant. Concepts re-read from the digests and every citation re-verified against digest evidence; the selection verdict is changed from merge to keep because the film is no longer a duplicate of IDEA-0095.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Thaanthonreeswarar temple at Kokkaddicholai and the village street its chariot is drawn along",
+    "also_known_as": [
+      {
+        "name": "ther",
+        "meaning": "the temple chariot or temple car, a wheeled wooden tower drawn by hand",
+        "used_by": "Tamil usage in the east and north of the island"
+      },
+      {
+        "name": "Kokkadicholai",
+        "meaning": "an alternative transliteration of the village name",
+        "used_by": "encyclopaedia and travel sources"
+      }
+    ],
+    "region": "Batticaloa district, Eastern Province: the flat paddy and palmyrah country on the far side of the lagoon from the district town, about fifteen kilometres south-west of it and reached across the lagoon bridge",
+    "coordinates": {
+      "lat": 7.6167,
+      "lng": 81.7167
+    },
+    "why_here": "It is a place where the concept and the best image are the same thing. The temple is one of the oldest in the country and its annual festival is built around a chariot whose carved wooden sculptures are said to date from the eighteenth century, drawn by hand along a village street because there is no other way to move it. That makes the film's central event one that cannot be faked, cannot be done by a few people and cannot be done gradually: it either starts together or it does not start. The setting supplies the rest — a straight sand street on an open plain, a lagoon behind, and a crowd that from the air resolves into two lines attached to one object.",
+    "what_to_film": [
+      "The street and the standing chariot from very high before the day begins, wide enough that the village, the paddy and the lagoon sit in one frame.",
+      "The preparation as ordinary work: the store opened, the frame checked, wedges stacked, ropes carried out and run down the street.",
+      "The ropes going from slack to tight, filmed low and close, because the whole idea is in that transition.",
+      "A failed or ragged first heave, if one happens, uncut, and the re-spacing of the line afterwards.",
+      "The start, held in one unbroken wide shot from the air, long enough that the simultaneity is unmistakable.",
+      "The stop: slack running back down both ropes at once and wedges going under the wheels from both sides.",
+      "The separate jobs in one minute — lever, wedge, rope, the man walking backwards watching the ground, water carried along the line.",
+      "The long stands, which are most of the day, and the street returning to ordinary use in the evening."
+    ],
+    "access": "By road from the district town across the lagoon bridge, then on minor roads into the village. Everything here depends on the temple and the organisers of the festival agreeing, and on working to their day and their rules rather than a crew's. The one day the chariot is drawn is the whole film, so a refusal, a postponement or a change in the temple's calendar ends it. Any flight over a crowded street needs the organisers' agreement and a firm rule about where the aircraft may not go.",
+    "best_time": "The chariot day of the annual festival. Sources disagree about whether it falls in mid-August or in September, so the date has to be confirmed with the temple in the year of filming. Within the day, the first two hours after sunrise for long light down the street, and the late afternoon when the dust makes the light visible.",
+    "images": [
+      {
+        "caption": "The temple at the centre of the village: the site itself, photographed outside the festival.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kokkaddi Thanthonriswaram.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kokkaddi Thanthonriswaram.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kokkadicholai_Thaanthonreeswarar_Temple",
+      "https://www.lovesrilanka.org/kokkadicholai-thaanthonreeswarar-temple/",
+      "https://srilanka.tamilbusinessindex.com/events/kokkadicholai-thaanthonreeswarar-festival-2024/"
+    ],
+    "research_note": "That the temple stands at Kokkaddicholai about fifteen kilometres south-west of the district town, that it is among the oldest and most important in the country, that its annual chariot festival is preceded by about a fortnight of ritual and draws thousands of people, and that the carved wooden sculptures on one of the main chariots are said to date from the eighteenth century, are from the sources above and are desk research only. The sources disagree on timing: the encyclopaedia entry puts the chariot festival in September, a travel source in mid-August. The coordinates are a point in the village taken from an open street gazetteer, not a surveyed position on the temple, and should be treated as a direction. Nobody at the temple has been approached, no permission has been sought, and nothing about filming access, the actual mechanics of the haul at this particular temple, crowd management or flight over the street has been checked. Only one Commons image of the site was found and it shows the temple outside the festival; no confirmed image of this chariot being drawn was found, so none is offered.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the temple or to the organisers of the festival, and permission may simply be refused.",
+    "The date of the chariot day is not settled by the desk sources and must be confirmed with the temple for the year of filming.",
+    "How the haul actually works at this temple — rope lengths, number of ropes, how many people, how the chariot is braked and steered — is unverified, and the film depends on it.",
+    "Whether a drone can be flown over a crowd of that size at all, and under what conditions, is unknown and decides the film's central shot."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

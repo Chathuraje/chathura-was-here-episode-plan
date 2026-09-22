@@ -2,84 +2,203 @@
   "schema_version": 1,
   "id": "IDEA-0105",
   "record_type": "idea",
-  "title": "The Tea Round",
+  "title": "For Whoever Is Out There",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Tea Round"
+  ],
   "group_id": "GRP-06",
-  "logline": "Every night for years, a volunteer has taken tea to families who have not left the hospital in days; on the night a patient finally goes home, the same round gets walked a little faster.",
-  "human_question": "How do you stay useful to people's pain without either flinching from it or being flattened by it?",
-  "situation": {
-    "what_happens": "A volunteer makes the same round night after night, bringing tea to relatives keeping vigil while somebody they love is treated. Most of it is waiting: short exchanges, long silences, people who do not want to talk. The round does not change, but what it meets does. On some nights the news is bad. On one night somebody is discharged and goes home, and the volunteer's night is visibly different.",
-    "who_is_involved": "The volunteer, who has done this for years without being paid; the relatives waiting, who are exhausted and not at their best; staff whose work must not be interrupted; and patients, who are present only with their own explicit consent.",
-    "what_is_at_stake": "For the families, privacy at the worst time of their lives. For the volunteer, years of unremarked work suddenly being watched. For the film, the ever-present risk of using other people's fear as material. For the viewer, how a person keeps going.",
-    "how_it_unfolds": "A vigil has no fixed length. It runs until there is news, and the news can go either way. The volunteer's round has its own shape — preparation, circuit, refill, circuit — repeated until morning. The pressures are exhaustion, the volunteer's own life outside, and institutional permission that can be withdrawn at any time. Reality decides what happens to the family the film happens to follow, and whether the answer is good."
+  "logline": "Thirteen kilometres out in open sea, a granite tower stands on a reef that is under water half the time, and every night for a hundred and fifty years it has turned a light on for people it will never see.",
+  "human_question": "What happens to kindness once it has been built into something and left running?",
+  "place": {
+    "what_kind_of_place": "A reef in open ocean, out of sight of anything, off a dry coast where the land behind the beach is a protected wilderness rather than a town. There is no island: there is a shelf of rock that the sea covers and uncovers, and on it a cylindrical tower of dressed granite about thirty-seven metres high, landed and built block by block in the eighteen-seventies out of stone shipped from the other end of the world. It has a double balcony, a lantern room, an iron door set well above the waterline and a set of rungs up the outside. It is not lived in. It runs on sunlight and a lamp, and people come out to it by boat a few times a year to keep it working.",
+    "why_it_is_worth_watching": "It is one of the few man-made things in the country that stands entirely alone, with no context in the frame except water. From a kilometre up there is nothing in the picture but ocean, a pale ring of broken water where the reef is, and one vertical object; the shot has no scale until a boat enters it and then the scale is shocking. Down at sea level the film is swell against granite, spray running off cut stone, rust streaks, birds, and a door you can only reach in a calm. And there is the one image the place produces at dusk, which is also the whole argument: the lamp comes on for nobody, above an empty sea, at exactly the same interval it has kept since before anyone now alive was born.",
+    "what_moves_or_changes": "The sea, which decides everything and belongs to nobody: for most of the year it makes landing impossible and for a few weeks it lies almost flat. The tide across the reef, which appears and disappears. Light, weather and birds. A ship's lights crossing the horizon at night, at a distance where the tower is a fact to them and they are nothing to it. And, occasionally, a service boat: people on the rungs, panels wiped, a battery changed, a hatch shut.",
+    "when_it_looks_best": "The short calm season between the two monsoons, when the sea off this coast lies down enough for a boat to lie alongside and for anyone to get onto the rungs at all. Within a day: the half hour before the lamp starts and the half hour after it stops, when the tower is still legible against the sky and the light is doing its work in a sea that is not yet dark."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about one structure alone in the ocean. Granite, swell, weather, the mathematics of a flashing light, a boat coming out over deep water, a crew getting onto a wet ladder, and the long emptiness either side of that. It needs no commentary: the approach, the arrival, the work, the departure, the tower left standing as the light comes on and the sea goes black.",
+    "with_the_philosophy": "The same tower becomes the place where the sources' strictest rule about kindness can actually be seen. The texts insist that compassion is not a temperament: it arises only when a suffering being is actually in view, and gladness only when a happy one is, and the two never share a moment. By that rule this tower has none of it. It cannot see anybody. What it has is the thing kindness leaves behind when it is finished being a state of mind: an arrangement that keeps the promise on the nights when nobody out here feels anything at all. The voice never claims the tower is kind, and never suggests the crew who maintain it are saints. It uses the one case where provision and the person providing it have come completely apart."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, drone, extremely wide and high. Open water in every direction, a pale broken ring where the reef lies just under the surface, and one stone tower. No land, no boat, nothing else in frame. Held long.",
+      "voice": "Somebody decided this a hundred and fifty years ago, on paper, in an office, about a piece of sea they had probably never seen. Every night since then the decision has gone on being kept, by nobody in particular.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "Close, from a boat: the joints between granite blocks at the base, weed on the lower courses, the iron door above the water, rust streaks down the stone, the rungs. Swell rising and falling against it.",
+      "voice": "The sources call four states sublime, and they mean something exact by it: they are blameless, and unlike almost every other subject of practice they are aimed at somebody else's welfare rather than one's own [C095-P4:L33]. They are also called immeasurable, because they are not meant to stop at any particular person [C095-P4:L43].",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "The reef itself at low water: black rock showing, water draining off it in sheets, then the next swell covering it again. A long lens from the boat, the tower out of frame.",
+      "voice": "But the same texts are strict in the other direction. Compassion arises only when a suffering being is actually the object in front of the mind, and gladness only when a happy one is; they are two different jobs and they never occupy the same moment [C027-P:L47; C027-M:L21; C027-M:L7]. By that rule, nothing out here is compassionate. There is no one in view.",
+      "concept_id": "C027"
+    },
+    {
+      "on_screen": "A service visit, filmed as ordinary work: a boat holding station, a man judging the swell and going up the wet rungs, a hatch, panels wiped, a battery case, a bolt, a bag carried back down. Nobody says much.",
+      "voice": "This is the whole of the care, and it is unglamorous. The sources warn that compassion collapses easily into sorrow, which looks like it and is useless [C095-P4:L47–L51; C095-P4:L51]. Nothing collapses here, because nothing is being felt. A man is changing a battery in a swell.",
+      "concept_id": "C095"
+    },
+    {
+      "on_screen": "Dusk. The boat already a dot on the way in. The lantern starts: one flash, then dark, then one flash, on a fixed interval, above a sea with nothing on it.",
+      "voice": "So what is this thing? Not a state of mind, because it has none. It is what a state of mind can be converted into: a structure that goes on giving whether or not anyone standing near it happens to be good tonight, and gives the same to everybody, which is what the word immeasurable was reaching for.",
+      "concept_id": "C027"
+    },
+    {
+      "on_screen": "Full night. From the air, a long way off: the flash, and further out, the slow red and green of a ship crossing. The two never come near each other.",
+      "voice": "Nobody on that bridge will thank anyone. In this account that is the normal case. What comes back from an action is not handed over by a judge; it is a moment of experience arising later out of one's own earlier doing [C012-P:L34], sometimes a very long time later, and by then the two ends of it are strangers to each other [C012-M:L18].",
+      "concept_id": "C012"
+    },
+    {
+      "on_screen": "First light. The lamp stops. The tower is grey and ordinary again. A fishing boat crosses the frame far off, on its own business, paying it no attention at all.",
+      "voice": "And nobody here is only a giver. The texts say everybody lives through the whole mixed range of what comes back, pleasant and unpleasant, because everybody's past is mixed [C012-P:L52]. The men who keep this light are guided home by lights they did not build.",
+      "concept_id": "C012"
+    },
+    {
+      "on_screen": "Last shot: the tower and the horizon, from very high, the reef showing and disappearing under the swell. Nothing else.",
+      "voice": "The texts say that whenever a mind is good at all, nineteen qualities arrive with it, including ease and lightness, and that they are never in a mind that is not [C027-P:L35–L37]. A camera cannot see one of them, out here or anywhere. What it can show is an arrangement that keeps working on the nights when nobody feels anything, and does not ask who is out there.",
+      "concept_id": "C027"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C027 states the mechanism the film is built on: compassion arises when a suffering being is in view, gladness when a happy one is, they are two different jobs, and they cannot occupy the same moment. C095 supplies the wider frame, including the failures that imitate each one — sorrow imitating compassion, giddiness imitating gladness, indifference imitating equanimity. C012 keeps the account of results honest: the volunteer is not a benefactor standing outside the flow of consequence but someone who, like everyone, both gives and receives. Together they describe a person who is not in a fixed mood but is repeatedly met by whoever is in front of them.",
-    "what_it_reveals": "That endurance in this kind of work is not one sustained emotion but a rapid alternation, and that the tradition's test of compassion is whether it stays useful rather than whether it is felt strongly."
+    "why_together": "C027 gives the film its hard edge. The sources hold that compassion and sympathetic joy arise occasionally and separately, only when a suffering or a happy being is actually the object, and never in the same moment [C027-P:L47–L49; C027-M:L21; C027-M:L7]; that the nineteen beautiful universals are in every beautiful mind and in none of the others [C027-P:L35–L37]; and that many plainly good acts — giving, bowing, listening — involve no restraint at all [C027-M:L17]. A structure that provides for people it cannot see fails the first of those tests completely, and that failure is the film's argument: this is not kindness, it is what kindness can be turned into. C095 supplies what the four states are for and how they go wrong: they are called sublime because they are blameless and directed at others' welfare [C095-P4:L33], immeasurable because they are not meant to stop at anyone in particular [C095-P4:L43], and compassion's characteristic failure is sorrow, which imitates it and helps nobody [C095-P4:L47–L51; C095-P4:L51]. C012 keeps the accounting honest: results are moments of experience arising out of one's own earlier action, with no judge and no giver involved [C012-P:L34; C012-M:L18], and everyone lives through the whole mixed range of them, so nobody in this film stands outside the flow as a pure benefactor [C012-P:L52].",
+    "what_it_reveals": "That the useful question about kindness is not how much of it a person feels but what it has been built into. C027 alone would be a rule that sounds cold: nobody is compassionate all the time. C095 alone would be a scheme of four states and four counterfeits. C012 alone would be an account of consequences across time. Together, on a tower that gives the same thing to every ship in a thirty-mile circle and receives nothing back, they make the group's warmest claim in its least sentimental form: the test of care is whether it keeps arriving."
   },
   "concept_links": [
     {
       "concept_id": "C027",
       "role": "primary",
-      "why": "Compassion and sympathetic joy arise only when a suffering or a happy being is actually the object, they are two different jobs, and they never occupy the same mind at the same moment [C027-P:L47; C027-M:L21; C027-M:L7]."
+      "why": "The digest's usable core is a restriction, and the film is built on it: compassion and sympathetic joy are occasional companions, arising separately and only when a suffering or a happy being is the object [C027-P:L47–L49; C027-M:L21], never together in one moment [C027-M:L7], while the nineteen beautiful universals are present in every beautiful mind without exception and never in the thirty non-beautiful ones [C027-P:L35–L37]. The digest's own does-not-transfer list is what the film dramatises rather than violates: 'a compassionate person is compassionate all the time' is exactly the belief this tower disproves, and 'bittersweet empathy', feeling someone's pain and joy at once, is ruled out by the same line. The digest's other limits are honoured too. Being good is not the same as being restrained — giving, bowing and listening involve no abstinence at all [C027-M:L17] — so the film never makes provision look like self-denial. And nothing here is narrated as wisdom: in the sources wisdom is a fixed companion of the knowledge-associated minds, not something that comes and goes with circumstances."
     },
     {
       "concept_id": "C095",
       "role": "supporting",
-      "why": "The four abidings move from wishing someone's pain to end toward gladness at their good fortune [C095-P4:L39], and each has a failure that imitates it: sorrow for compassion, worldly giddiness for gladness [C095-P4:L47-L51]. The digest's warning is load-bearing here: the sources' own compassion exercise takes a maimed beggar as its object of contemplation, and that can never become a filmmaking method."
+      "why": "The digest gives the four sublime abidings their definition and, more usefully here, their failures. They are called sublime because they are excellent, blameless and directed at the welfare of others [C095-P4:L33], and immeasurable because they are meant to extend without stopping at particular people [C095-P4:L43]; compassion's near enemy is sorrow, in which one drowns in another's pain instead of relieving it [C095-P4:L47–L51; C095-P4:L51]. That gives the film its test for every shot of maintenance work: care that exhausts or entangles the carer has, by this account, tipped over. Four warnings from the digest bind the film. The eleven benefits, including the claims that fire, poison and weapons do not harm a practitioner and that deities protect them [C095-P4:L443], are traditional claims and are never narrated as fact or as a promise about anybody's safety at sea. The source's own compassion exercise takes a maimed beggar as its object [C095-P4:L459], and that can never become a filmmaking method, which is one reason this film has no vulnerable person in it at all. Beginning with oneself is only a comparison in the source, not self-care [C095-P4:L92–L98]. And universal kindness in the sources is a graded, disciplined practice with a specific goal, not a general warm feeling about humanity, so the voice never offers the light as a symbol of one."
     },
     {
       "concept_id": "C012",
       "role": "supporting",
-      "why": "Rewritten after the digest check. The earlier framing of this link, years of giving whose return is not the point, rested on a line about the functional minds of fully liberated people, which does not describe a volunteer. What the digest supports is narrower and better: results are moments of experience arising from one's own earlier action with no judge involved [C012-P:L34], and everyone lives through the whole mixed range of them [C012-P:L52], so no one in this film is only a giver. Nothing about any patient's or family's situation is to be explained by their past action; the digest flags that claim as unusable."
+      "why": "The digest supports a narrow and exact point, and the film uses only that. Results are moments of experience arising from one's own earlier action, with no judge and no one handing anything out [C012-P:L34; C012-M:L18]; they can arrive very long after the act, even in another life; and everyone, without exception, lives through the whole mixed range of them, so no one stands outside the flow as a pure benefactor [C012-P:L52]. On a structure where the doing and the receiving are separated by a century and an ocean, that is simply a description. The digest's limits are load-bearing and are honoured in the voice and in the risks. The source's statement that poor, disabled, dull or helpless people are born so through weak wholesome action [C012-P:L48] is never used, even implicitly, about anyone on screen or anyone at sea. 'You get what you give' and 'good things happen to good people' are not what the sources say, and the film does not let the image of a light repaying a builder stand in for that. And the passage about the functional minds of those who have finished the path, whose good acts produce nothing further [C012-M:L22], is not applied to any living person in the film, including the crew who maintain the light."
     }
   ],
-  "what_the_viewer_could_understand": "Compassion for someone's worry and gladness at someone's good news are two different responses that take turns, each rising for the person actually in view, so a person who serves night after night is not in one fixed mood.",
-  "what_must_be_real": "Explicit, informed, revocable consent from every patient and relative shown, and no identifying detail of anyone's condition without it. Nothing about the round is arranged, and no family is followed because their outcome would suit the film.",
-  "position_hint": "closing candidate: it hands the group on to the body's fragility, seen in the sick and in those keeping watch through the night, and it needs everything the group has already established about what a good mind is.",
+  "what_the_viewer_could_understand": "That in this account compassion is not a temperament somebody has but a response that needs a particular being in front of it, which means nobody can be compassionate continuously — and that this is not a counsel of despair, because a person's care can be converted into an arrangement that goes on giving to strangers at hours when nobody involved feels a thing. The test of kindness is not its intensity. It is whether it keeps arriving.",
+  "what_must_be_real": "The tower, the sea and the actual maintenance run. Nothing is switched on, switched off, delayed or repeated for the camera, no landing is attempted or extended for a shot, and the people who run the light decide when a boat goes and when anyone touches the rungs. If the sea says no for the whole season, the film is of a season in which nobody could get out there. No one on screen is offered as a good person or as an example of a mental factor; the crew are doing a job and are filmed as doing a job. The voice never claims that a structure has a mind, and never narrates the traditional protective benefits of these practices as fact.",
+  "position_hint": "closing candidate: it is the group's coldest-looking film and its warmest claim, and it only works once the viewer has watched kindness as something people do in company. Coming last, it asks what is left when nobody is there. No location reasoning is involved.",
   "risks": [
-    "High: the privacy and distress of people at a vulnerable time",
-    "Lingering on suffering for emotional effect, which the sources' own cautions rule out",
-    "Pointing a camera at sick or poor people as objects of pity, which the digest names as exactly what this series must not do",
-    "Institutional and personal consent may be withdrawn at any point, including after filming"
+    "Turning the maintenance crew into heroes or the light into a saint. The sources describe moments of mind, not kinds of person, and a camera cannot show a mental factor.",
+    "Narrating the eleven traditional benefits — that fire, poison and weapons do not harm a practitioner, that deities protect them [C095-P4:L443] — as fact, which would also be a claim about safety at sea.",
+    "Letting the film imply that a structure has a mind, or that being reliable is the same thing as being kind.",
+    "Sentimentality about shipwreck and rescue, which would turn other people's deaths into atmosphere.",
+    "Using the results teaching as 'you get what you give', or suggesting that keeping a light has earned anyone anything.",
+    "Carrying the source's claim that poor, disabled or helpless people are born so through weak past action [C012-P:L48] into the film in any form.",
+    "Implying that anyone on screen has finished the path or acts without consequence, which the digest flags as a serious misuse of the functional-mind passage [C012-M:L22].",
+    "Pointing the camera at anyone's hardship as an object of pity, which the sources' own compassion exercise [C095-P4:L459] makes tempting and which this series rules out.",
+    "Any filming that extends a landing, delays a departure or puts a boat, a crew or a maintenance team at risk in a sea that is dangerous for most of the year.",
+    "Becoming a heritage film about Victorian engineering, which is interesting and is not this film's subject."
   ],
   "drop_if": [
-    "Hospital administration or families will not consent",
-    "Filming would disrupt patient care in any way"
+    "The authority that owns and maintains the light will not permit filming, or will not have a crew accompanied.",
+    "The sea does not lie down in the season available, so there is no maintenance run and no approach to film.",
+    "It can only be made by arranging a special trip, a staged landing or a lamp switched on out of hours."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0094",
+      "relation": "pairs with",
+      "note": "Two arrangements that provide for strangers without anyone present: one small, daily and inland, one enormous, nightly and at sea."
+    },
+    {
       "idea_id": "IDEA-0106",
       "relation": "pairs with",
-      "note": "Both are closing candidates handing the group on to the body's fragility, one among the sick and one among the old."
+      "note": "One film about provision that never sees who receives it, one about care that must look at exactly what is in front of it."
     },
     {
       "idea_id": "IDEA-0100",
       "relation": "leads into",
-      "note": "Sustained attention to one held-in-mind good thing there becomes sustained attention to people here."
+      "note": "Sustained attention to one held-in-mind thing there becomes a structure holding one thing steady for a century here."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by the group's closing episode; kept with its results link rewritten and its consent and dignity limits made explicit."
+    "reason": "It carries the group's hardest claim — that nobody is kind continuously — in the one place where provision has come completely apart from the person providing it."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped entirely: the hospital and the volunteer. The old film followed a named volunteer taking tea each night to families keeping vigil outside wards, and it could not be made — it filmed people in medical crisis at the worst hours of their lives, in a place where they could not meaningfully refuse a camera, and it made one person's goodness the exhibit. The concept is kept and moved to a place where provision for strangers is a standing arrangement rather than anybody's virtue, and where there is no vulnerable person in the frame at all. Concepts re-read from the digests; the C012 link is rewritten again and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Great Basses Reef lighthouse, standing on the reef in open sea off the south-east corner of the island",
+    "also_known_as": [
+      {
+        "name": "Maha Ravana Kotuwa",
+        "meaning": "the local name for the great reef, 'the great fortress'",
+        "used_by": "south-coast usage for the Basses reefs"
+      }
+    ],
+    "region": "Hambantota district, Southern Province: open ocean about thirteen kilometres off the dry, uninhabited coast at the south-eastern corner of the island, beyond the shore of the national park, reached by boat from the fishing anchorage nearest the reef",
+    "coordinates": {
+      "lat": 6.1821,
+      "lng": 81.483
+    },
+    "why_here": "Nothing else in the country puts the concept and the image in one frame as completely. The tower is a thirty-seven-metre cylinder of Scottish granite built between 1870 and 1873 on a reef that the sea covers and uncovers, thirteen kilometres from a coast with nobody living on it. It is automated and solar-powered, so there is no keeper to make into a character and nobody in the frame whose mind could be guessed at: the provision is simply there, running, for shipping that never acknowledges it. That is the sources' rule about compassion needing a being in view, tested to destruction — and it produces the film's strongest shot without any help, which is a single lit object in an otherwise empty ocean at dusk.",
+    "what_to_film": [
+      "The tower from very high and very wide, with nothing in the frame but sea, the pale ring of the reef and one vertical object.",
+      "The approach by boat from sea level, so that the scale arrives suddenly rather than being explained.",
+      "The granite itself: joints, weed on the lower courses, rust streaks, the iron door above the waterline, the rungs.",
+      "The reef drying and covering, filmed long, because the thing the tower marks is only visible some of the time.",
+      "A maintenance visit as ordinary work: holding station, judging the swell, going up wet rungs, panels, a battery, a hatch shut.",
+      "The lamp starting at dusk and stopping at first light, both held in full, with the sea empty.",
+      "A ship's lights crossing at night at a great distance, with the flash in the same frame.",
+      "The long nothing either side of all of it, which is most of what is out there."
+    ],
+    "access": "By sea only, from the nearest fishing anchorage on the coast inside the reef, and only when the swell allows a boat to lie alongside. The light is owned and maintained by the national ports authority, so any approach, any landing and any flight in its airspace depend entirely on their permission and their safety rules, and realistically on going out with a scheduled maintenance run rather than alone. The coast behind is a protected area, which adds its own permissions for anything filmed from the shore.",
+    "best_time": "The short calm window between the two monsoons, which on this coast is usually a few weeks in March and April, when the sea is flat enough for a landing. Within a day, the half hour either side of the lamp starting and stopping.",
+    "images": [
+      {
+        "caption": "The tower on the reef: the site itself, photographed from the sea.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GreatBassesLighthouse-April2015.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:GreatBassesLighthouse-April2015.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same tower from another angle and another year, for the swell against the base and the ladder.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Greatbasses1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Greatbasses1.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The tower again, for the emptiness of the sea around it.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Greatbasses2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Greatbasses2.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Great_Basses_Reef_Lighthouse",
+      "https://amazinglanka.com/wp/great-basses-little-basses/",
+      "https://en.wikipedia.org/wiki/List_of_lighthouses_in_Sri_Lanka"
+    ],
+    "research_note": "That the tower is about thirty-seven metres high, built of Scottish granite between 1870 and 1873 at a cost of about sixty-three thousand pounds, that it stands about thirteen kilometres offshore beyond the national park coast, that it shows a single white flash every fifteen seconds with a range of about thirty-four nautical miles, that it is now solar-powered and automated under the national ports authority, and that it survived the 2004 tsunami with modest damage, are from the sources above and are desk research only. The coordinates are those given for the light by the encyclopaedia entry, converted to decimal, and should be treated as a position for the structure rather than a landing point. Nobody at the ports authority has been approached, no permission has been sought, and nothing about accompanying a maintenance run, landing conditions, drone flight over open water at that distance or the frequency of service visits has been checked. All three images are of the tower itself and are credited to Commons; none shows a maintenance visit.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the authority that owns the light, and a crew may simply not be taken out.",
+    "How often anyone actually goes out to the tower, and whether a visit can be filmed at all, is unverified and decides whether the film has any human work in it.",
+    "Whether a drone can be flown and recovered safely from a small boat thirteen kilometres offshore, in the swell that exists even in the calm season, is unknown and the film's best image depends on it.",
+    "Whether the calm window is reliable enough in a given year to plan a shoot around is unverified; the sea here is dangerous for most of the year."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

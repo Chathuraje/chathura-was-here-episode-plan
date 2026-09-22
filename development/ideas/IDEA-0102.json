@@ -2,80 +2,204 @@
   "schema_version": 1,
   "id": "IDEA-0102",
   "record_type": "idea",
-  "title": "Fair Measure",
+  "title": "A Line Around Every Tree",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Fair Measure"
+  ],
   "group_id": "GRP-06",
-  "logline": "At a weekly market, one trader's old balance scales are the only ones nobody double-checks, and a neighbouring stallholder's quiet suggestion to shave a little weight off gets a flat no.",
-  "human_question": "What does it look like to keep doing the harder, honest thing when the easier dishonest one is right there, unnoticed?",
-  "situation": {
-    "what_happens": "A trader works an ordinary market day: setting up, weighing, selling, arguing about price, packing away. Inside that rhythm the chance to take a little more than is owed is constantly available and almost never visible — a thumb, a weight, a rounding. On at least one occasion the shortcut is put to the trader directly, by a neighbour or by circumstance, and is turned down. Nothing about the day marks the moment as important.",
-    "who_is_involved": "A trader with an established position and regular customers; neighbouring stallholders whose practices differ; customers, some of whom check and some of whom do not; and anyone whose work puts other people's money or goods through their hands, where the same refusal happens once rather than weekly.",
-    "what_is_at_stake": "For the trader, margin that is genuinely thin, and a reputation that is the business. For the neighbours, being implied to be cheats. For the viewer, whether an honest trade is the same thing as the moment of refusing to cheat.",
-    "how_it_unfolds": "Market days repeat on a fixed cycle, and the pressures are price, spoilage, competition and a bad week. The refusals are unremarked and quickly over; they may happen several times in a day or not at all. The same shape appears in one-off form wherever somebody finds property that is not theirs and spends unpaid hours returning it. Reality decides whether a real test occurs while anyone is watching, and what the trader says about it afterwards, if anything."
+  "logline": "On a steep river valley in the wet hills, a few hundred smallholdings of rubber are worked before daylight by a single unbroken cut that must be true to within a millimetre, and the price of the morning's milk is settled by a glass float that nobody argues with.",
+  "human_question": "What has to be true, and visibly true, before people can stop checking each other?",
+  "place": {
+    "what_kind_of_place": "A narrow, very wet valley in the low hills, where a river runs fast over boulders and the slopes on either side are planted with rubber in lines that follow the contour. Almost none of it is estate land: it is a mosaic of smallholdings, half an acre to five acres, worked by the households that own them, with home gardens and jak trees between the blocks. Low down near the road stands a small open-sided shed with a concrete counter, a set of buckets, a tall glass cylinder and a book. Everything the valley earns passes across that counter in the two hours after daylight.",
+    "why_it_is_worth_watching": "It is a landscape made entirely of straight lines drawn by hand. Every tree carries one cut, a shallow spiral about thirty degrees off the horizontal, and that cut is lowered a fraction of a millimetre each working day for twenty or thirty years, so the whole slope is banded at the same height, and the bands step evenly down the trunks as the years pass. From the air before sunrise the valley is a grey-green corduroy under mist with points of headlamp light moving through it. From a metre away it is a knife following a line it cannot be allowed to leave, white liquid running down a spout into a cup, and a hillside of small white cups filling in the dark.",
+    "what_moves_or_changes": "The weather, which decides everything and belongs to nobody: rain in the night stops the day, and a wet bark means no cut. The light, which arrives after the work has already started. The liquid, which begins as milk and starts to set within hours, so nothing here can wait. The level of the cut, which moves down the tree by an amount too small to see in a day and is unmistakable across a decade. The float in the cylinder, which sits at a slightly different mark every single morning.",
+    "when_it_looks_best": "A dry spell inside the wet season, when the trees are in full yield and the valley is worked every morning. The hour before and the hour after first light, for the headlamps in the dark, the mist lying in the valley bottom, and the low side light that makes the banded cuts on the trunks read all the way up a slope."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape and craft film about an hour of the morning. Mist in a river valley, lamps moving between trees, a blade taking a curl of bark off a line, white liquid gathering in a cup, a hillside of cups, and then the walk down to a shed where the morning is poured out, measured and written down. It has a complete shape without a word of commentary: dark, work, light, the counter, the empty road by nine o'clock.",
+    "with_the_philosophy": "The same morning becomes the sources' own distinction, standing in a real trade. The texts are blunt that an honest occupation is not by itself the thing they are naming: a blameless way of earning is good, but the factor they call right livelihood exists only at the moment a wrong way of earning was actually available and was turned down. This valley shows both halves at once. The cut and the float are a standard that is public, physical and always true, and most of the morning contains no refusal at all; the refusal, when it happens, is one thing at one moment and is over. The voice never says that anyone here is honest, and never suggests that anyone elsewhere is not."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dark, from very high. A valley under mist, ridges either side, the river a paler line in the bottom. Small points of light are moving through the trees on both slopes, dozens of them, none of them together.",
+      "voice": "Everyone down there is doing the same thing at the same hour for the same reason, and none of them arranged it. The work has to be done before the sun, because the tree gives more in the cool, and stops giving once the day is warm.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "Very close, by headlamp. A gouge following the old cut around the trunk, taking a shaving of bark not much thicker than paper. A gauge held against the panel. The line it leaves is dead even.",
+      "voice": "The whole economy of this valley rests on a line. Too deep and the tree is scarred for good; too shallow and nothing runs; crooked and the years that follow have nothing to follow. The word the old lists use for this quality is straightness, and they mean it about minds the way a carpenter means it about wood.",
+      "concept_id": "C027"
+    },
+    {
+      "on_screen": "The cups. One filling, a drop at a time, on a spout. Then a slow move back, and a whole slope of small white cups in the half-light, hundreds of them, nobody near any of them.",
+      "voice": "The sources count nineteen qualities that are present in every good mind without exception, and straightness of body and of mind is among them [C027-P:L35–L37]. They are not an achievement. They are what any good moment is made of, the way this is simply what a working morning looks like.",
+      "concept_id": "C027"
+    },
+    {
+      "on_screen": "The shed. Buckets going up onto a concrete counter, liquid poured into a tall glass cylinder, and a slim weighted float dropped in. It bobs, settles, and stands perfectly upright with a number at the surface.",
+      "voice": "Now the morning has to be turned into money. Milk from a tree is mostly water, and how much of it is rubber changes from day to day and from slope to slope. So it is not argued about. It is floated.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "The reading. A finger at the waterline on the stem, the figure spoken aloud, the figure written into a ruled book in front of the person who brought the bucket. Nobody leans in to check.",
+      "voice": "This is where the texts get precise, and awkward. A blameless trade, they say, is not by itself the factor they are naming; right livelihood exists only where a wrong way of earning was actually there and was refused [C024-P:L45]. Most of this morning contains no refusal whatsoever, and that is not a criticism of it.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "The book. Columns of names and numbers going back through the season, some entries in pencil, some in two different hands. A thumbprint. The book closed and put on a shelf.",
+      "voice": "And when a refusal does happen, the sources say it is one thing at a time. In an ordinary mind these restraints arrive occasionally and separately, only while a particular wrong is being held back from, never all together [C027-P:L41; C027-M:L17]. There is no general condition of being restrained.",
+      "concept_id": "C027"
+    },
+    {
+      "on_screen": "Full daylight, from the air, moving slowly along a slope. The banded cuts read across hundreds of trunks at exactly the same height, stepping down the trees in even stages, twenty years of mornings visible at once.",
+      "voice": "The texts describe three depths of holding back: stopping in the moment because you suddenly see what the harm would be, keeping an undertaking you made even when it costs, and a change so complete that the wrong no longer occurs to you at all [C024-P:L57–L67]. Only the second of those leaves a mark you could photograph.",
+      "concept_id": "C024"
+    },
+    {
+      "on_screen": "Nine o'clock. The shed shuttered, the counter rinsed, the cylinder upside down to drain, the road empty, the valley loud with insects and completely ordinary.",
+      "voice": "A camera cannot see which of those was in anybody this morning, and this film does not pretend otherwise. What it can show is the arrangement: a line that has to be true, a float that cannot be talked to, and a number said out loud in front of the person it belongs to.",
+      "concept_id": "C027"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C024 makes the point the situation exists for: right livelihood is not 'having a decent job' but the actual refusal of a wrong way of earning, and the source says a naturally blameless trade is not this abstinence at all. C027 supplies the timing: in ordinary minds an abstinence arises occasionally and one at a time, only while a particular wrong is being held back from, and many good acts involve no restraint whatsoever. Together they locate the good moment precisely inside an otherwise unremarkable day.",
-    "what_it_reveals": "That honesty, in this account, is not a background trait a person has but a series of small refusals that happen and are over, and that most of a good person's day contains none of them."
+    "why_together": "C024 supplies the film's sharpest claim and its warning in the same breath. The sources hold that right livelihood is not a decent occupation but the actual refusal of a wrong way of earning, and they say outright that a naturally blameless trade is not this abstinence at all [C024-P:L45]; their own examples of wrong earning are fraud, flattery and lending against land [C024-P:L47–L51]; and they set out three depths of refusal, in the moment, by undertaking, and by uprooting [C024-P:L57–L67]. C027 supplies the proportions. In it the nineteen beautiful universals are present without exception in every good mind, straightness of body and mind among them [C027-P:L35–L37], while the abstinences are occasional guests that arrive one at a time and only while a specific wrong is actually being refrained from [C027-P:L41; C027-M:L5; C027-M:L17]. Put on a slope where a hand-drawn line must stay true for twenty years and a glass float settles every price, the two stop being a classification and become a description of a working morning: something always true underneath, and a refusal only now and then.",
+    "what_it_reveals": "That honesty is not a background temperament and not a job description. C024 alone would risk becoming a film that praises an honest trade, which is exactly what its own source refuses to do. C027 alone would be a table of which factors join which minds. Together, on this valley, they show a standard that is public, physical and does not need watching, and they show that most of a good morning contains no restraint at all, which is the sources' own view and is a much stranger idea than the one people expect."
   },
   "concept_links": [
     {
       "concept_id": "C024",
       "role": "primary",
-      "why": "Right livelihood is the conscious refusal of a specific wrong done for a living; the source states that naturally blameless trade on its own is not this abstinence [C024-P:L45]. It also distinguishes three depths: stopping in the moment with no prior vow because the harm is suddenly seen [C024-P:L61], keeping an undertaking even at cost, and a change deep enough that the wrong no longer arises."
+      "why": "The digest's usable core is a refusal, not an occupation. Right livelihood exists only where a wrong means of earning was available and was declined, and the source states explicitly that a naturally blameless trade is not this abstinence [C024-P:L45]; its own examples of the wrong it has in mind are fraud, flattery and lending against a person's land [C024-P:L47–L51]; and it grades the refusal into three depths, arising in the moment with no prior vow, held by an undertaking kept at cost, and uprooted so that the wrong no longer occurs [C024-P:L57–L67]. The digest's limits are load-bearing here and are honoured on screen. The film must not present its subject as an ethical career or a decent job, which is the digest's named mistranslation of this factor. It must not present anyone in frame as an instance of the factor, since the sources describe moments of mind and a camera cannot show which one is present. The digest's material on wisdom is not used, because wisdom in this source is not skill or expertise [C024-P:L119–L123] and a film about a craft would slide straight into that error. The claims about an innate seed of wisdom and about who lacks it [C024-P:L103] are excluded entirely, and so is anything from the compassion material, which belongs to other films in this group."
     },
     {
       "concept_id": "C027",
       "role": "supporting",
-      "why": "In the wholesome sense-sphere minds the abstinences arise only occasionally and separately, when a specific wrong is actually being refrained from, unlike the supramundane minds where all three are present together [C027-P:L41; C027-M:L17]; the digest adds that giving, bowing and listening involve no abstinence at all."
+      "why": "The digest gives this film its proportions and its title image. The nineteen beautiful universals are present without exception in every beautiful mind and never in the others, and among them stand the paired qualities of straightness of body and of mind [C027-P:L35–L37; C027-M:L3] — which is what allows a hand-cut line that must stay true for twenty years to state the concept rather than decorate it. Against that constant, the abstinences are occasional: in ordinary sense-sphere minds they arise separately and only while a particular wrong is actually being refrained from, unlike the supramundane minds where all three stand together [C027-P:L41; C027-M:L5; C027-M:L17]. Every warning that bears on the film is honoured. The digest is explicit that being good does not mean being restrained, since giving, bowing and listening involve no abstinence factor at all [C027-M:L17], so the voice says plainly that most of the morning contains no refusal. Wisdom is not treated as a guest that comes and goes with circumstance [C027-P:L78], and it is not used in this film at all. And the digest's open question — whether an abstinence and an illimitable can share one sense-sphere mind, which neither source settles — is simply not touched, so the film makes no claim about it."
     }
   ],
-  "what_the_viewer_could_understand": "Being honest is not only a background trait: the texts describe a specific good moment that happens when a person has a real chance to cheat and turns it down.",
-  "what_must_be_real": "An actual market day and the trader's actual, ongoing practice. No staged temptation, no arranged test, and no neighbour recruited to offer a shortcut.",
-  "position_hint": "middle, early: it follows plain giving with the first complication — that goodness can be a refusal rather than an act.",
+  "what_the_viewer_could_understand": "That in this account honesty is not a trait somebody has and not a category of job. A blameless trade is good and is still not the thing the texts are naming. The thing they name is a refusal, it happens to one wrong at a time, it is over as soon as it happens, and most of an honest morning contains none. What a place can show instead is the standard underneath: something true, public and physical enough that nobody has to be trusted.",
+  "what_must_be_real": "A real working morning on real smallholdings, at the hour the work actually happens, with the people whose trees and whose buckets they are. Nothing is staged: no cut is made for the camera outside the tapping round, no measurement is repeated for a better angle, no shortcut is suggested to anybody, and no test of any kind is arranged. The film never states or implies that this valley is honest or that any other place is not, and it never presents a named person as an example of a mental factor. If filming would delay a round, spoil a yield or cost a household a morning's earnings, it does not happen, and the household decides that, not a crew.",
+  "position_hint": "middle, early: it is the group's first complication, that goodness here can be a refusal rather than an act, and it sets up the harder communal version that follows. No location reasoning is involved.",
   "risks": [
-    "Implying that other traders cheat, which would be unfair without evidence",
-    "Staging a temptation, which would falsify the premise entirely",
-    "Treating one refusal as proof of a whole character, which the sources do not support"
+    "Turning the film into praise for an honest trade, which is precisely what the source refuses: it says a naturally blameless occupation is not this abstinence [C024-P:L45].",
+    "Implying that anyone adulterates, short-measures or cheats. The instrument exists because the quantity genuinely varies day to day, and no claim about anybody's conduct is available to a camera.",
+    "Presenting any person in frame as an example of restraint, uprightness or honesty. The sources describe moments, not kinds of person.",
+    "Staging a temptation or arranging a test of any kind, which would destroy the premise entirely.",
+    "Reading the craft as wisdom. The digest is explicit that wisdom in this source is not skill, learning or expertise [C024-P:L119–L123].",
+    "Suggesting that being good means being restrained, when the digest says giving, bowing and listening involve no abstinence at all [C027-M:L17].",
+    "Aestheticising thin and precarious earnings. Smallholder income here is small and weather-dependent, and that has to stay legible.",
+    "Making any claim about whether an abstinence and one of the illimitable states can arise together, which neither source settles and the digest flags as needing expert check."
   ],
   "drop_if": [
-    "No trader's real, ongoing practice can be observed without staging",
-    "No genuine refusal is observed and the film would have to imply one"
+    "No smallholding household will have a crew present during the tapping round, which is the whole film.",
+    "The measurement at the collecting point is not in practice done in the open in front of the person it concerns, in which case the film's central image does not exist.",
+    "It can only be made by arranging a temptation, a test or a re-measurement for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0101",
-      "relation": "absorbs",
-      "note": "IDEA-0101's found-and-returned property is folded in here as the one-off form of the same refusal, the restraint that arises with no prior vow."
+      "relation": "pairs with",
+      "note": "Two arrangements that remove the need to trust anybody: one a measure nobody argues with, one a place where property is simply left out."
     },
     {
       "idea_id": "IDEA-0103",
-      "relation": "pairs with",
-      "note": "Both concern honest dealing chosen over an available and more profitable wrong, at the level of a trade and of a community."
+      "relation": "leads into",
+      "note": "This film holds the refusal at the size of one counter and one morning; the next one holds it at the size of a village and a century."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0101"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and the more filmable of the two restraint situations; IDEA-0101's momentary restraint is folded in."
+    "reason": "It carries the sources' hardest distinction — that a blameless trade is not yet the abstinence — on a place whose most beautiful image, a line held true for twenty years, is also the clearest statement of the concept."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped the weekly market entirely: market days are a banned archetype in this slate, and the old premise turned on a neighbouring stallholder proposing a shortcut and being refused, which is a staged temptation and an exemplar in one. The concept is kept and moved to a place where the standard is a physical object rather than a person's character — a hand-cut tapping line that must stay true for decades, and a hydrometer floated in field latex in front of the person whose latex it is. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The rubber smallholdings and village latex collecting shed of the Bulathkohupitiya valley",
+    "also_known_as": [
+      {
+        "name": "metrolac",
+        "meaning": "the weighted glass hydrometer floated in field latex to read its dry rubber content, which sets the price paid",
+        "used_by": "Sri Lankan rubber trade and Rubber Research Institute usage"
+      },
+      {
+        "name": "kiri",
+        "meaning": "literally milk; the ordinary word for the field latex itself",
+        "used_by": "Sinhala smallholder usage"
+      }
+    ],
+    "region": "Kegalle district, Sabaragamuwa Province: the wet, steep country of the upper Kelani river valley in the south-east of the district, where rubber is grown almost entirely in household-sized blocks rather than estates",
+    "coordinates": {
+      "lat": 7.1055,
+      "lng": 80.3372
+    },
+    "why_here": "It puts the concept and the best image in the same frame. This is one of the country's oldest rubber districts and its holdings here are overwhelmingly small and family-worked, which means the whole chain the film needs — the cut, the cup, the bucket, the counter, the float, the book — happens inside one valley in about three hours, between households who see each other every day. The trade's central instrument is exactly what the concept asks for: a measure that is public, physical and trusted, read in the open in front of the person it pays. And the landscape states the same thing without help, because a tapping panel is a straight line that has to be held true for twenty or thirty years, so an entire hillside of trunks carries the record of that straightness at a single readable height.",
+    "what_to_film": [
+      "The valley from very high before sunrise, wide enough to hold both slopes, the river and the scattered headlamps, so the hour reads as an hour and not as one person's work.",
+      "A single tapping cut in full and uncut, close: the gouge following the old line, the shaving of bark coming away, the gauge, the first drop.",
+      "A slope of filling cups in the half-light, moving back far enough that no individual is the subject.",
+      "The collecting shed as ordinary work: buckets onto the counter, the pour into the cylinder, the float dropped, bobbing and settling upright.",
+      "The reading itself — the waterline on the stem, the number spoken, the number entered in the book — filmed as a plain transaction.",
+      "The book: old pages, different hands, thumbprints, a season's columns.",
+      "A slow move along a slope in full daylight where the banded panels read at the same height across hundreds of trunks, which is the film's single best shot.",
+      "The shed shut and rinsed by mid-morning, and the road empty, to give the day its real proportion."
+    ],
+    "access": "By road up the Kelani valley from the Avissawella side, then on minor roads and footpaths into the holdings. Everything here is private household land and the work starts in the dark, so the whole film depends on households agreeing and on working to their round rather than a crew's. The collecting shed is a commercial point of sale for people whose margins are thin; filming there needs the agreement of both the buyer and every supplier who appears.",
+    "best_time": "A dry run of mornings inside the south-west monsoon season, when yield is high and the round happens daily. Within a day, the hour before first light through to about nine, after which nothing is happening.",
+    "images": [
+      {
+        "caption": "Rubber tapping in Sri Lanka: the cut, the spout and the cup. This shows the practice, not this valley.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubber farmer in Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Rubber farmer in Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Latex being collected from a tapped trunk in Sri Lanka. Again the practice rather than this location; the photographer records it elsewhere on the island.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Récolte du latex au Sri lanka.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Récolte du latex au Sri lanka.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A Sri Lankan rubber planting, for the ranked trunks and the light under the canopy. This is a plantation elsewhere in the country, not the valley described.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lanka-Rubber plantation (8).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lanka-Rubber plantation (8).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The Kelani river, the water the valley drains into. This is the river, not the holdings.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelani River - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kelani River - panoramio.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bulathkohupitiya_Divisional_Secretariat",
+      "https://lirneasia.net/wp-content/uploads/2010/07/rubber.vc_.pdf",
+      "https://jrrisl.sljol.info/articles/10.4038/jrrisl.v94i0.1820",
+      "https://en.wikipedia.org/wiki/Rubber_production_in_Sri_Lanka",
+      "https://www.rrisl.gov.lk/"
+    ],
+    "research_note": "That this divisional area sits in Kegalle district on the upper Kelani, that Kegalle is one of the wet-zone districts where rubber is grown, that Sri Lankan rubber is dominated by smallholdings, that smallholders take field latex to collection centres, and that hydrometry with the metrolac is the standard way dry rubber content is determined in the Sri Lankan trade, with field latex usually running around thirty to forty per cent, are from the sources above and are desk research only. The coordinates are the point given for the divisional secretariat, not a surveyed holding or shed. No collecting shed has been found or visited, no household has been approached, and whether the reading is in practice done in the open in front of the supplier — which is the film's central image — is unverified and is the first thing that must be checked on the ground. All four images show the practice or the river rather than this valley, and each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No holding, household or collecting shed has been found or approached. Everything here is a research direction.",
+    "Whether the measurement is genuinely public at this scale, or is done out of sight, decides whether the film exists.",
+    "How many holdings in this valley are still tapped daily, given the documented contraction of rubber in the district, is unverified.",
+    "Whether a crew can be present in the dark on steep private land without slowing a round that has to finish before the day warms."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

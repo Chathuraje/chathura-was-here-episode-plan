@@ -2,78 +2,193 @@
   "schema_version": 1,
   "id": "IDEA-0096",
   "record_type": "idea",
-  "title": "The Softening",
+  "title": "Until It Gives",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Softening"
+  ],
   "group_id": "GRP-06",
-  "logline": "A drum-maker works a stiff, raw hide with oil and water for days until it can finally be stretched, tuned and played.",
-  "human_question": "What has to happen to something rigid before it can be made useful?",
-  "situation": {
-    "what_happens": "A maker prepares a drumhead from raw material that begins completely unusable: stiff, resistant and the wrong shape for anything. Over days it is soaked, worked, scraped and softened by hand until it will stretch. It is then fitted, tightened and tuned by ear, with small corrections repeated until the instrument speaks. Nothing about the process can be hurried, and the material decides how long it takes.",
-    "who_is_involved": "A maker working in a household trade, often one carried by a family for generations; whoever has ordered the instrument and will use it; apprentices or relatives who help and who cannot yet feel when the material is ready.",
-    "what_is_at_stake": "For the maker, a commission, a reputation and a craft whose economics may be failing. For the film, the risk of treating a living trade as an illustration. For the viewer, the difference between a thing that resists and a thing that can be used.",
-    "how_it_unfolds": "The work moves from raw material through preparation to tension and tuning, and its pressures are time, weather, the quality of the material and the cost of the labour. It can fail: material tears, tension is wrong, the sound never arrives. Reality decides how long the softening takes, whether the finished instrument satisfies the maker, and whether he says anything about it at all."
+  "logline": "In a low open shed in a valley of cinnamon, a cut stem that will not give up its bark is rubbed with a brass rod, for as long as it takes, until its own sap comes to the surface and the skin lets go in one piece.",
+  "human_question": "What has to happen to something rigid before it can be used at all?",
+  "place": {
+    "what_kind_of_place": "A valley of smallholder cinnamon in the wet south: steep, humid, cut by a river, planted in dense low coppice that is cut back to the stool every couple of years so it never becomes a wood. Among the plots stand open sheds with earth or board floors, a bench, a rack, and almost no equipment: a curved scraping knife, a small slitting knife, a rod of brass, a length of twine. Stems come in green in the morning, tied in bundles. They are scraped, rubbed, slit, peeled, fitted one inside another, trimmed and racked, and the pale tubes are left to dry until they harden and curl. The wood left behind is white and useless and goes on a heap outside.",
+    "why_it_is_worth_watching": "The whole subject is one repeated gesture and one moment of yielding. A worker draws a brass rod along a scraped stem, again and again, for minutes, with no visible change at all, until the stem's own sap comes up through the surface and the bark releases. Filmed close, it is one of the most legible transformations of state that a camera can get: nothing, nothing, nothing, then give. Around it the shed is a beautiful working place — low light, pale bark, a floor covered in shavings, hands that never stop — and above it the country is a dense green corrugation of ridge and valley with a river in the bottom and shed roofs showing through the canopy.",
+    "what_moves_or_changes": "Moisture, mostly. The work is dictated by rain, by how wet a stem is, by how long since it was cut, and by the humidity in the drying rack. A stem left too long will not release; one worked too hard is bruised and spoiled. Light changes in the shed through the day. Quills shrink and curl for days after they are made, so the racks are never the same twice. Nothing about the pace can be decided by anyone outside the work.",
+    "when_it_looks_best": "A break of dry days inside a wet season, when there is cutting in the morning and drying is possible in the afternoon. Within a day, the middle of the morning, when the shed is full and the light through the open sides is flat and even on pale bark, and the last hour of afternoon at the drying racks."
   },
+  "two_layers": {
+    "without_the_philosophy": "A craft film in the strictest sense: a green stick, a brass rod, two knives and a pair of hands, and everything that happens between a bundle coming in wet and a rack of pale tubes going out hard. Ridge and valley from above, a shed with no walls, shavings, the smell you cannot film but can see people not noticing any more, a thing that will not come apart and then does. It has a complete shape with nothing said over it.",
+    "with_the_philosophy": "The same shed becomes one sentence out of the old psychology, acted out at working speed. The texts hold that every good mind arrives with nineteen qualities at once, and that each of them is named by the particular stiffness it lifts. For one of them, softness, the picture they choose is a rough hide worked with oil and water until it can be used at all — and the stiffness it cures is not unkindness but rigidity: pride, and holding an opinion as though it were a fact. This shed runs the same operation on a different material, with the material's own oil doing the work, and it makes the claim physical: in this account the opposite of goodness is not cruelty, it is something that will not bend."
+  },
+  "sequence": [
+    {
+      "on_screen": "From high above at first light: ridge after ridge of dense low green with a river in the bottom and a few shed roofs showing through it. Then down among the plots: a bush cut back hard, new shoots, a man cutting stems and laying them in a bundle.",
+      "voice": "This is a plant that is grown to be taken apart. Everything the crop is worth is in a layer about as thick as paper, and the layer is not going to come off.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "The shed. Bundles set down wet. The bench, the rack, the curved knife, the small knife, the brass rod, the twine. Nothing else in the room.",
+      "voice": "The old analysis refuses to let goodness be one thing. It says that the moment a mind turns good at all, nineteen qualities arrive together, every time, with no exceptions [C023-P:L31–L35; C023-P:L37], and it names each one by the particular stiffness it lifts.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "The scraping: the rough outer skin taken off a stem with the curved knife, grey-brown going to pale, shavings falling. Repeated on stem after stem, faster than seems possible.",
+      "voice": "A mind never arrives on its own. Its companions begin at the same instant, end at the same instant, face the same thing and rest on the same support [C019-P:L33–L47], and only the ones the work needs arrive at all [C019-P:L49]. This is not a moral point. It is a description of how a job gets done.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "The rubbing. The brass rod drawn along a scraped stem, again and again, at length, in real time. Nothing appears to happen. Then sap comes up through the surface and the whole tone of the stem changes.",
+      "voice": "Their picture for one of the nineteen is nearly this exactly. Softness, they say, is a rough hide worked with oil and water until it becomes fit to use [C023-P:L141]. And they are precise about what it cures. Not unkindness. Pride, and holding a view as though it were a fact.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "The slit and the peel: the small knife run down the length, the bark coming away in one continuous sheet, the wood underneath left white and bare. Held long. The white stick thrown onto a heap outside.",
+      "voice": "Two things the texts are careful about, and the film has to be too. Softness here is not being easy-going about what you think is right. And the body being softened is not a body: in these six pairs, the word means the group of companions travelling with the mind, not flesh [C023-P:L119].",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "Quilling: sheets graded and fitted one inside another while they are still soft, rolled into a tube, trimmed to length, laid on a rack. Rows of pale tubes drying, curling as they harden, over days.",
+      "voice": "The next of the nineteen is readiness, and its picture is gold that has been refined so that it can be worked into anything [C023-P:L149; C023-M:L43]. The whole family of images is like this. A good mind, in this account, is not a strong feeling. It is a material that has become usable.",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "A stem that tears. A sheet that comes off in pieces. Hands stopping, the piece put aside, the next stem picked up without comment. Then the plots again from above, cut back and regrowing.",
+      "voice": "The sources will not let this sound easy. They say a mind drifts the wrong way on its own, and that turning it takes effort against the pull, and balance to keep it there [C023-P:L109]. Nobody in this shed is an illustration of a virtue, and a camera could not tell if they were. The material is the only thing here that shows what it is doing.",
+      "concept_id": "C023"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C023 names softness (mudutā) as one of the nineteen factors present in every good mind and pictures it exactly as this craft: a stiff hide worked with oil and water until it can be used, set against the hardness of pride and fixed views, which the source compares to a dry stick that cannot be bent. C019 explains that a specific ordinary skill is not good or bad in itself but takes the quality of what it serves. The craft carries the image; the second concept keeps the film from confusing the skill with the virtue.",
-    "what_it_reveals": "That the tradition's idea of a good mind is closer to a workable material than to a strong feeling, and that the opposite of goodness here is not cruelty but rigidity."
+    "why_together": "C023 supplies the image, its limit and its neighbours. Nineteen beautiful factors arise together in every beautiful mind [C023-P:L31–L35; C023-P:L37]; softness is pictured as a rough hide soaked with oil and water and worked until it is fit for use, and it is set against the hardness of wrong view and pride [C023-P:L141]; readiness is pictured as refined gold that can be worked into anything [C023-P:L149; C023-M:L43]; the 'body' in these six pairs is the set of accompanying mental factors, not flesh [C023-P:L119]; and the source insists that turning a mind toward the good takes effort against a natural pull the other way [C023-P:L109]. C019 supplies the guard rail. A mind never arrives alone, its companions arise and cease together on one object and one base [C019-P:L33–L47], only what the work needs arrives [C019-P:L49], and the ethically variable capacities take the whole colour of the mind they serve, like a friend shaped by his company [C019-P:L61–L63] — which is why the peeler's extraordinary skill is not itself the beautiful factor and is never presented as one. Put on a shed where a stem is rubbed until its own sap releases the bark, the two stop being definitions: the operation the texts describe is being run, at working speed, on a real material, with its own oil and water doing it.",
+    "what_it_reveals": "That the tradition's opposite of goodness, at this point in the analysis, is not cruelty but rigidity — and that this is a claim you can watch being tested on a stick. C023 alone would be a handsome simile. C019 alone would keep the film honest but give it nothing to look at. Together in a peeling shed they show that a mind described as good in these texts is closer to a workable material than to a warm feeling, and that getting there is slow, repetitive, skilled work in which most of the time nothing appears to be happening."
   },
   "concept_links": [
     {
       "concept_id": "C023",
       "role": "primary",
-      "why": "Softness is pictured as a rough hide soaked with oil and water and worked until it becomes soft, and it opposes the hardness of wrong view and pride [C023-P:L141]. The digest's caution travels with the link: this is softness against pride and fixed opinions, not flexibility about one's values."
+      "why": "The digest's simile for softness is a rough hide soaked with oil and water and worked until it becomes soft, opposing the hardness of wrong view and pride [C023-P:L141], and it sits among nineteen factors the sources say arrive together in every beautiful mind [C023-P:L31–L35; C023-P:L37], with readiness given the neighbouring picture of refined gold fit to be shaped [C023-P:L149; C023-M:L43]. The digest's cautions are carried on screen rather than in a note. Softness here is softness against pride and fixed views and is explicitly not flexibility about one's values, and the voice says so in the beat where the misreading would otherwise land. The word 'body' in these six pairs means the accompanying mental factors and not the physical body [C023-P:L119], which is stated aloud while a physical material is on screen. The claim that a good mind simply feels pleasant is refused with the source's own counterweight, that turning toward good takes effort against a pull the other way [C023-P:L109]. The digest's account of moral shame, which is grounded partly in family and lineage [C023-P:L73], is not used at all, and that matters here because the trade filmed has a hereditary and caste history that the film must not romanticise or endorse."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "Ordinary capacities are ethically variable and take the whole colour of the mind they join, like a friend who follows the company he keeps, so the maker's skill is not itself the beautiful factor [C019-P:L61-L63; C019-P:L63]."
+      "why": "The digest's point about the ethically variable capacities — that contact, attention, effort, interest and focus are neither good nor bad in themselves and take the whole colour of the mind they join, like a friend who follows the company he keeps [C019-P:L61–L63] — is the reason this film can show extraordinary manual skill without claiming it is the virtue under discussion. The four marks of association [C019-P:L33–L47] and the rule that only the needed factors arise, from seven to at most thirty-six [C019-P:L49], keep the account of the work accurate and keep the film from implying that all fifty-two turn up at once, which the digest explicitly corrects. The factors are not persistent inner agents or parts of a personality, and nothing in the voice treats them that way."
     }
   ],
-  "what_the_viewer_could_understand": "Every good mind includes a softness — pictured as a stiff hide worked until it can be used — that loosens pride and fixed opinions.",
-  "what_must_be_real": "The maker's actual craft, livelihood and working process, including its economics. Nothing done or repeated purely to serve the metaphor, and no instrument made only so that it can be filmed.",
-  "position_hint": "middle: it is one of two films that give a beautiful factor a physical image, and it works best once the viewer has seen plain goodness and is ready to be told what it is made of.",
+  "what_the_viewer_could_understand": "That every good mind, in this account, includes a softness, and that the sources' own picture of it is a stiff material worked with oil and water until it can finally be used — so that what goodness is opposed to here is not cruelty but rigidity: pride, and holding an opinion as though it were a fact.",
+  "what_must_be_real": "The work, its pace and its economics, including what a day's peeling actually pays, how much of the crop's value the labour accounts for, and what happens to hands over years. Nothing is cut, scraped, rubbed, peeled or rolled for the camera, and nothing is repeated for a better angle; if a stem will not release, that is the shot. The failures stay in. Nobody is presented as a master or as an example of a virtue, the trade's hereditary and caste history is neither used as colour nor quietly erased, and everyone filmed close has agreed to it. If access can only be had through a demonstration set up for visitors, the film is not made.",
+  "position_hint": "middle, after the film about a load being set down: that one introduces the six paired qualities and the idea that a good mind has a feel to it, and this one narrows to a single member of the set and gives it a material. It should not open the group, because it needs the viewer to already accept that goodness is not one thing.",
   "risks": [
-    "Animal-hide processing needs honest, careful handling and may disturb some viewers",
-    "Turning a living tradition into pure metaphor instead of letting the craft and the maker lead",
-    "Letting the image imply that flexibility about values is the virtue being described"
+    "Letting the image imply that the virtue is being flexible about one's values; the digest is explicit that softness here is against pride and fixed views, not against conviction.",
+    "Treating the physical material as the factor. The sources say the body meant in these pairs is the set of mental companions, not flesh or substance [C023-P:L119], and the film says so while the material is on screen.",
+    "Presenting the peeler's skill as the beautiful quality. In this framework such capacities are ethically variable and take the colour of what they serve [C019-P:L61–L63].",
+    "Making kindness sound easy or purely pleasant, when the same source says turning toward the good is effort against a natural pull [C023-P:L109].",
+    "Romanticising a hereditary caste trade, or carrying the digest's lineage-grounded account of moral shame [C023-P:L73] onto screen in any form.",
+    "Turning a living, economically pressed craft into a metaphor lecture, so that the work exists only to serve the voice.",
+    "Filming a demonstration staged for visitors and presenting it as a working day.",
+    "Implying that all fifty-two factors arrive at once, when the sources cap a single moment at thirty-six [C019-P:L49]."
   ],
   "drop_if": [
-    "No maker will show the full process over the time it actually takes",
-    "The only available work is a piece made for the film"
+    "No working shed will be filmed over the days the process actually takes, including its failures and its pay.",
+    "The only access available is a visitor demonstration rather than a working day.",
+    "The rubbing and release cannot in practice be filmed legibly at the distances and light the shed allows."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0095",
       "relation": "pairs with",
-      "note": "Both take a real physical process as the direct image of a beautiful factor: softness here, lightness there."
+      "note": "Two of the six paired qualities given a physical event each: lightness there, as weight leaving a body; softness here, as a material that finally yields."
     },
     {
       "idea_id": "IDEA-0100",
       "relation": "mirrors",
-      "note": "Both watch a maker's long attention turn resistant material into something usable, one toward sound and one toward a face."
+      "note": "Both watch long, repetitive attention turn resistant material into something usable, one toward a surface and one toward a face."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and the clearest available image of the source's own simile for softness."
+    "reason": "It is the clearest physical statement in the group that the opposite of goodness here is rigidity, and the release can be filmed as a single legible change of state."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The operation is kept exactly — a stiff material worked until it yields — but the material is changed. The old version was a drum-maker softening a hide, and the slate already carries a drum-making film at IDEA-0023, while the only verifiable hide-processing in the country is industrial tanning, which is neither beautiful nor tonally right for this group. Cinnamon peeling runs the same operation with the material's own sap and moisture doing the softening, and the voice names the sources' hide simile out loud over it rather than hiding the substitution. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "A smallholder cinnamon peeling shed in the Nilwala valley country inland of Kamburupitiya",
+    "also_known_as": [
+      {
+        "name": "kurundu",
+        "meaning": "cinnamon, and by extension the crop and the trade",
+        "used_by": "Sinhala usage in the southern cinnamon districts"
+      },
+      {
+        "name": "thalana kokeththa",
+        "meaning": "the small curved knife used to slit and lift the bark off a rubbed stem",
+        "used_by": "peelers' usage"
+      }
+    ],
+    "region": "Matara District, Southern Province: the humid inland ridge-and-valley country of the Nilwala basin, north of the coast and inland of the small town of Kamburupitiya",
+    "coordinates": {
+      "lat": 6.0833,
+      "lng": 80.5667
+    },
+    "why_here": "The concept needs one material that will not yield and one operation that makes it yield, and this district runs that operation thousands of times a day in open sheds a few metres from where the crop is cut. The rubbing of a scraped stem with a brass rod until its own sap rises and frees the bark is the most exact physical analogue of the sources' softness simile available anywhere in the country, and it is also the single most legible shot the place produces: minutes of nothing, then release. The landscape supplies the second layer, because cinnamon is grown as dense low coppice on steep ground, so from the air the district is an unbroken green corrugation with a river in it and shed roofs showing through — a crop that does not look like a plantation at all. And because it is smallholder country, the shed, the family and the economics are all in one frame.",
+    "what_to_film": [
+      "The valley from high above in early light, so the coppice reads as corrugation rather than as forest, with the river and the shed roofs in it.",
+      "Cutting at the stool: a bush taken back hard, the new shoots, stems laid into a bundle and carried in.",
+      "The scraping, repeated enough times that the speed of it registers as decades of practice rather than as flourish.",
+      "The rubbing with the brass rod, uncut and in real time, including the long stretch where nothing visibly changes, up to and through the moment the sap comes up and the bark lets go.",
+      "The slit and the peel, in one continuous take, and the white bare stick that is left.",
+      "Quilling: grading, fitting sheets one inside another while soft, rolling, trimming, racking.",
+      "The racks over several days, so the curling and hardening are visible as a change rather than described.",
+      "The failures: a torn sheet, a bruised stem, the waste heap, and the fact that nobody comments on them.",
+      "The shed itself as a room — floor, light through the open sides, tools laid down — with nobody in it."
+    ],
+    "access": "By road inland from the coast into the Nilwala valley. Sheds are private and family-run, so everything depends on a household agreeing, and on being present across several days because the process is not finished in one. Drone flight over private smallholdings and over a river valley needs the usual permissions. The practical difficulty is that the district also runs demonstrations for visitors, and this film needs a working shed on an ordinary day instead.",
+    "best_time": "A run of dry days inside a wet season, when there is cutting in the morning and drying is possible in the afternoon. Within a day, the middle of the morning for the flat even light on pale bark inside the shed, and the last hour of the afternoon at the racks.",
+    "images": [
+      {
+        "caption": "Cinnamon being peeled in the Southern Province. The craft and the region described, not a confirmed image of this valley or any particular shed.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lanka-Décorticage de la cannelle (1).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lanka-Décorticage de la cannelle (1).jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Peeling the bark off a cut stem, elsewhere in Sri Lanka. The operation, not the location proposed.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cinnamon farmers.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Cinnamon farmers.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Cinnamon growing as low coppice in the Southern Province, for the shape of the crop from the ground. The crop type, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lanka-Cinnamomum verum (1).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lanka-Cinnamomum verum (1).jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://cinnamon.gov.lk/about-cinnamon/post-harvest-technology/",
+      "https://www.srilankabusiness.com/blog/processing-of-ceylon-cinnamon.html",
+      "https://www.cylonies.com/news/the-art-of-making-ceylon-cinnamon-quills-the-traditional-way"
+    ],
+    "research_note": "That scraped stems are rubbed with a brass rod until the sap oozes and loosens the bark from the wood, that this is the most laborious step and takes years to learn because too much pressure bruises the layer beneath and too little releases nothing, that a small knife is then used to lift the outer sheaths at a width set by the grade, that the soft sheets are fitted one inside another into quills and air dried, and that peeling accounts for around sixty per cent of processing cost and is historically a hereditary trade, are from the sources above and are desk research only. That the district named is cinnamon country in the wet south is general knowledge of the crop's range and has not been checked against production figures for this valley. The coordinates are those of the small town named and are a direction, not a shed: no household, shed or plot has been found, seen or approached, and nothing about access, permission or drone rules has been checked. All three images are of the crop and the craft elsewhere in the same province or country, and each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No shed, household or plot has been found or approached; everything here is a research direction.",
+    "Whether the moment of release can be read on camera at the distance and in the light a working shed allows, rather than only felt by the person doing it, is the question the film depends on.",
+    "Whether a working family would accept a crew present across the several days the process actually takes is unknown.",
+    "What a day's peeling pays now, and how much of the crop's value reaches the shed, has not been established, and the film cannot be honest without it.",
+    "How to handle the trade's hereditary and caste history on screen, neither using it as colour nor pretending it is not there, is unresolved and needs advice before filming."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

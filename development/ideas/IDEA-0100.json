@@ -2,78 +2,188 @@
   "schema_version": 1,
   "id": "IDEA-0100",
   "record_type": "idea",
-  "title": "The Face Taking Shape",
+  "title": "The Eyes Come Last",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Face Taking Shape"
+  ],
   "group_id": "GRP-06",
-  "logline": "A sculptor has spent three weeks on the eyes of a Buddha image and still isn't satisfied; he won't say what he is looking for, only that he will know it when the face stops looking back.",
-  "human_question": "What is someone actually doing when they hold one thing in mind, in detail, for weeks?",
-  "situation": {
-    "what_happens": "A maker is finishing a Buddha image. The body has been done for some time; the face, and within it the eyes, takes far longer than anyone outside the trade expects. He works, stops, looks, checks proportion against memory or a reference, and adjusts again. He cannot say in advance what he is waiting for. The work is also a commission with a deadline and a price attached to it.",
-    "who_is_involved": "The maker, usually working within a household trade; whoever commissioned the image and will install it; the people who will eventually sit in front of it.",
-    "what_is_at_stake": "For the maker, a commission, his own standard, and the awkwardness of being asked about belief. For the film, the temptation to make him a devotional figure. For the viewer, the question of what sustained attention actually is.",
-    "how_it_unfolds": "Work of this kind moves from rough form through refinement to a final feature that decides everything, and it ends when the maker says it is finished, not when the schedule does. Its pressures are money, time, materials and the client's expectations. Reality decides how long the face takes, whether the maker will describe what he is doing in his own words, and whether he connects it to any practice at all."
+  "logline": "At a temple that has been building, painting and repainting images for two hundred and fifty years, every figure is made from the feet upward and finished at the eyes, and until the eyes are given the work is not counted as done.",
+  "human_question": "What is a person actually doing when they hold one thing in mind, in detail, for weeks?",
+  "place": {
+    "what_kind_of_place": "A low-country temple in the south that has accumulated image-making for a quarter of a millennium. There is an old image house with painted walls from the eighteenth century, a long hall of life-size modelled figures added much later, and, standing over everything, a seated image of about forty-nine metres built in the middle of the last century, the height of an eight-storey building, with a stair inside it and painted panels running up. The work is never quite finished, because plaster cracks, pigment fades in salt air and a figure that has been repainted six times is due a seventh. So there is almost always scaffolding somewhere, a bucket of lime wash, a small workshop with armatures, moulds, brushes and a face that is not yet a face.",
+    "why_it_is_worth_watching": "Because the place gives the film its central shot without being asked. A drone can rise in one unbroken move from the feet of the great image, up the folds, the hands, the chest, the shoulders, to stop level with the face, and that ascent is exactly the method one of the sources describes: attend to an image part by part until you can hold it with your eyes shut. The shot is the concept. Around it, the scale flips constantly: a man on a plank against a hand that is larger than he is, brushes the size of a finger against a mouth two metres across. And in the workshop the opposite scale, a face you could cup in both hands, with no eyes in it yet.",
+    "what_moves_or_changes": "Light on a very large painted surface through a day, which changes the face more than any camera move. The weather, which is what wears the work out. The slow progress of a repainting, measured in square metres a day. The people who come, who are there for reasons of their own and not for the film. And the small workshop work, which moves in millimetres.",
+    "when_it_looks_best": "A dry spell, when repainting and plaster work are actually possible, and the two ends of the day, when low light crosses the great image sideways and gives the face something that flat noon takes away. Festival days are the busiest and the least usable."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a very large made thing and the work of keeping it. Scaffolding against an enormous shoulder, lime being mixed, a brush moving along the edge of a robe, old wall paintings with their colours going, a modelled face drying in a shed, people arriving early and sitting, and light moving across forty-nine metres of plaster from one end of the day to the other. It is complete as a film about craft and scale, and needs no commentary at all.",
+    "with_the_philosophy": "The same work becomes the object of a practice described in the sources: a calm meditation in which a person keeps turning the mind to the qualities of the Buddha, and for which one of the two recommended ways in is an image, attended to part by part until it can be seen with the eyes closed. The film observes the making and the maintaining of the thing the practice uses, and the rules the making is held to, including the rule that the eyes are given last and that the image is not counted as a proper representation until they are. It does not claim that anybody on screen is doing the practice. The sources are strict that reciting or handling what you do not understand is not this meditation, and a camera cannot tell the difference from outside."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light. One unbroken drone ascent from the feet of a colossal seated image: the base, the folds of the robe, the hands, the chest, the shoulders, ending level with the face. Nothing else in frame. About fifty seconds.",
+      "voice": "One of the sources gives two ways into this practice. The second is this one: take an image you care about and attend to it carefully, part by part, from the feet upward, until you can see it with your eyes closed [C091-M:L7–L9].",
+      "concept_id": "C091"
+    },
+    {
+      "on_screen": "The workshop. An armature, wet clay or plaster, a face roughed in. A measuring stick laid against the head, then against the shoulders. A proportion checked, altered, checked again. No eyes in the face.",
+      "voice": "The work is not held to anybody's taste. Proportion here is a rule, worked in units taken from the figure's own face, and the maker's job is to meet it. The face is done at the end. And within the face, one thing is left.",
+      "concept_id": "C091"
+    },
+    {
+      "on_screen": "A rack of finished figures in a shed, robes painted, hands finished, all of them with blank faces. Dust on them. A cloth thrown over one.",
+      "voice": "Until the eyes are given, the tradition does not count the image as an adequate representation of what it represents. They are painted last, at a time chosen for it, as the final item of the work. Before that it is a very well made object.",
+      "concept_id": "C091"
+    },
+    {
+      "on_screen": "Scaffolding against the great image. Lime being mixed in a bucket. A brush working along an edge that is two metres long. The worker small, the surface enormous. Repeated over days: the same edge, further along.",
+      "voice": "The other source describes faith as a clarifying confidence, the way a gem dropped into muddy water settles the mud [C023-P:L41]. It is careful about the counterfeit in the same breath: devotion to people who do not merit it is not faith at all but a false conviction wearing its clothes [C023-P:L47–L51].",
+      "concept_id": "C023"
+    },
+    {
+      "on_screen": "The eighteenth-century image house. Old wall paintings, faded, a section where a later hand has plainly repainted over an earlier one. A torch moving across them. Somebody photographing a panel.",
+      "voice": "And the first source is blunt about what does not count. Learning lines by heart that you do not understand, and saying them, is not this meditation [C091-M:L25]. It tells you to take one quality you actually grasp and stay with that. The work is attention with meaning in it, not repetition.",
+      "concept_id": "C091"
+    },
+    {
+      "on_screen": "Early morning. People arriving, sitting in front of the great image, some for a long time, filmed from a distance and never in close-up. Then the image alone again as the light comes round.",
+      "voice": "The sources are also honest about the ceiling. They say this practice steadies a mind and brings it gladness and calm, but that it does not go all the way into the deepest stillness, because what it dwells on is too large and too various to settle on one point [C091-P4:L362].",
+      "concept_id": "C091"
+    },
+    {
+      "on_screen": "Last light crossing the face of the great image sideways. The scaffolding empty. A tarpaulin over the workshop. The building going dark from the bottom up.",
+      "voice": "Nothing in this film says that the people who made this, or who keep it, are doing the practice it is used for. That is not something a camera can find out. What can be filmed is the work, and the standard it is held to, and the fact that the last thing done to it is the eyes.",
+      "concept_id": "C023"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C091 describes recollection of the Buddha as a practice with two ways in: attending to an image part by part, from head to feet, until it can be held in the mind, or dwelling on a few qualities one genuinely understands — and it refuses to count reciting lines one does not understand. C023 supplies what is visibly happening in the workshop: faith as a clarifying confidence, and the pair of workability and proficiency by which long repetition makes a mind, like a material, usable. The film observes the making of the very object the practice uses, while the practice itself stays in the sources.",
-    "what_it_reveals": "That faith in this tradition is a kind of work — attention held on something specific until it can be carried — and that the object of it is made by hand, by someone with a deadline."
+    "why_together": "C091 supplies the film's object and its method. The digest gives recollection of the Buddha as a calm-meditation subject begun from steady confidence in a quiet place [C091-P4:L26], and it gives the simpler source's two ways in, of which the second is careful head-to-feet attention to an image until it can be held with the eyes closed [C091-M:L7–L9]. It supplies the two limits that keep the film from inflating: that reciting what one does not understand is not this practice [C091-M:L25], and that the practice reaches steadiness and gladness but not full absorption, because its object is too large and various [C091-P4:L362]. C023 supplies what faith is, in the same tradition, before any of that: a clarifying confidence that settles a mind the way a gem settles muddy water [C023-P:L41], together with the sharp distinction between it and a false conviction dressed as devotion [C023-P:L47–L51], and the craft language of workability and proficiency by which repetition makes a mind, like a material, usable [C023-P:L149; C023-P:L153–L157]. Put in a place where the object of the practice is itself being built, measured, painted and repainted under a fixed rule, the two together let the film watch the making of a devotional object without narrating anybody's devotion.",
+    "what_it_reveals": "That faith in this tradition is something worked at rather than something held, and that the object it works on is made by hand, by people with materials, weather and a schedule. It also reveals the rule at the centre, which no interview could produce and which a camera can simply record: the eyes come last, and until they are given the thing is not counted as what it represents. C091 alone would be a description of a practice nobody can be filmed doing. C023 alone would be a definition of confidence. Together, on a working site, they let the film stay outside the mind and inside the craft, which is the only honest place for it to be."
   },
   "concept_links": [
     {
       "concept_id": "C091",
       "role": "primary",
-      "why": "One of the two methods the Margaya gives is careful, head-to-feet attention to a beloved image until it can be seen with the eyes closed, and the same source rejects recitation without understanding [C091-M:L7; C091-M:L25]. The digest's cautions travel with the link: this is not 'think of your hero' or visualisation for wellbeing, and the film may not attribute the practice to the maker unless he claims it himself."
+      "why": "The digest's usable core for a film is the image method: careful attention to a beloved image, part by part, until it can be seen with the eyes closed [C091-M:L7–L9], which the film performs as a single uncut ascent of a colossal figure rather than as a claim about anybody's inner state. The digest's limits are load-bearing. The same source rejects reciting formulas one does not understand as not being this practice at all [C091-M:L25], and the film says so rather than letting devotional imagery do unearned work. The practice's stated ceiling, steadiness and gladness but not full absorption [C091-P4:L362], is narrated, because leaving it out would turn a defined meditation subject into a vague promise. The practice is begun from settled confidence in a quiet dwelling [C091-P4:L26], which is a condition the film does not attribute to anyone on camera. The digest's does-not-transfer lines are honoured directly: this is not 'think of your hero' and no admirable person is substituted for the object; it is not visualisation for wellbeing; the eleven benefits, the knowledges, the taming of nagas and yakkhas and the promise of a good rebirth are not narrated as fact; and the one benefit that modern audiences find congenial, feeling watched and therefore hesitating before wrongdoing, is not lifted out and turned into the point."
     },
     {
       "concept_id": "C023",
       "role": "supporting",
-      "why": "Faith is described as a clarifying confidence, like a gem that settles the mud in water [C023-P:L41], and workability and proficiency describe what long, repeated attention does to a mind, the same shape as a craft becoming usable [C023-P:L149; C023-P:L153-L157]. The digest warns that faith here is not loyalty to a person and that devotion to a flawed figure is named as false conviction rather than faith."
+      "why": "The digest defines faith as a clarifying confidence with the image of a gem settling muddy water [C023-P:L41], and immediately distinguishes it from a false conviction dressed as devotion, saying explicitly that devotion to flawed people is not faith [C023-P:L47–L51]. Both halves are spoken in the film, because a film shot inside a devotional site that quoted only the first half would be flattering its own subject. The digest's craft language does the rest of the work: workability described through gold purified until it can be shaped [C023-P:L149], and proficiency as what repetition does to an action [C023-P:L153–L157], which is the same shape as a material becoming usable under a practised hand. The digest's warnings are kept: faith here is not loyalty to a charismatic person, and the film attaches it to nobody on screen; mindfulness in this list is not ordinary attention or memory, so the makers' concentration is never called mindfulness; and the balancing factor is not offered as detachment."
     }
   ],
-  "what_the_viewer_could_understand": "Faith can be practised: holding a good thing in mind carefully, and with real understanding of it, settles the mind and turns it glad and calm.",
-  "what_must_be_real": "The maker's actual working method, his own account of it, and the commercial reality of the commission. He is never framed as performing a meditation he has not described himself as doing.",
-  "position_hint": "middle: faith belongs after the group has shown goodness as ordinary action, and before care turns toward the body.",
+  "what_the_viewer_could_understand": "That in this tradition faith is a practice with a method and a known ceiling rather than a feeling, that one of its two methods is patient, ordered attention to an image, and that the image itself is made by people under a rule, with the eyes left until last, so that the object of a very interior practice turns out to be an entirely material piece of work.",
+  "what_must_be_real": "The work is whatever work is actually happening: real repainting, real plaster, real measuring, at the pace it goes. Nothing is set up, nobody is asked to paint for the camera, and no unfinished image is uncovered or arranged for a shot. The ceremony in which the eyes are given is not filmed unless the temple decides it should be, on its own terms, and it is never treated as a reveal. Nobody on screen is presented as practising the meditation the concept describes unless they say so themselves, in their own words, and even then the film does not use them as proof of it. The commercial and practical side, what the materials cost, who pays, what the schedule is, stays in the film. People who come to the site are not filmed in close-up while they are there for their own reasons.",
+  "position_hint": "middle of the group: it comes after the films that show goodness as ordinary action, because it asks the viewer to accept that something as interior as faith has a method, and before the group's last movement.",
   "risks": [
-    "Implying the maker practises this specific meditation without his own confirmation",
-    "Editing out commercial pressure to keep a purely pious picture",
-    "Letting the religious object do emotional work the film has not earned"
+    "Implying that any maker, painter or caretaker practises this specific meditation. The film may not attribute it to anybody who has not claimed it, and even then must not use them as an illustration.",
+    "Treating the giving of the eyes as a reveal or a climax for the camera. It belongs to the temple and to the people whose rite it is, and it is filmed only if and as they decide.",
+    "Any hint of judgement about the practice, the imagery or popular devotion, including the modelled scenes of consequence that visitors find striking. This series does not comment on whether a practice is well founded.",
+    "Letting the religious object do emotional work the film has not earned, which is the standing danger of filming inside any devotional site.",
+    "Quoting only the flattering half of the faith passage. The same source names deluded devotion as a counterfeit of faith [C023-P:L47–L51], and the film carries both.",
+    "Narrating the traditional benefits of the practice, or its claims about rebirth and protection, as fact.",
+    "Editing out the money, the schedule and the weather to keep a purely pious picture of craft.",
+    "Flying a drone around a devotional structure or over people at prayer without the temple's explicit agreement, and treating the site as a spectacle for scale shots."
   ],
   "drop_if": [
-    "No workshop will allow the camera into the real working process over enough time to show patience rather than a summary",
-    "The maker does not want his beliefs discussed on camera and the film cannot work without assuming them"
+    "No image work of any kind is going on, so the film would have only a finished object and no making.",
+    "The temple does not want a camera inside the working areas, which is an entirely reasonable position.",
+    "The film can only be made by assuming the beliefs of the people who work there, or by asking them to demonstrate a practice."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0105",
-      "relation": "leads into",
-      "note": "Sustained attention to one held-in-mind good thing here leads into sustained attention to people in the harder, later film."
-    },
-    {
-      "idea_id": "IDEA-0096",
-      "relation": "mirrors",
-      "note": "Both watch a maker's long attention turn resistant material into something usable."
+      "idea_id": "IDEA-0097",
+      "relation": "pairs with",
+      "note": "Both watch long repetition against a fixed standard: there the standard lives silently in a body, here it is written into a craft and can be pointed at."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and the group's only carrier of faith as a practice."
+    "reason": "It is the group's only carrier of faith as a practice, and the one place where the single most beautiful available shot, an uncut ascent of a colossal figure from feet to eyes, is also the exact method the source describes."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The core is kept, because it was strong and largely filmable, but the sculptor is no longer a character: the old version turned on one maker's dissatisfaction with a pair of eyes and his refusal to sign, which made an identifiable person's inner standard the subject. The film now watches the work and the rule it is held to, in a place where image-making and repainting have been continuous for two and a half centuries, and it takes the tradition's own rule, that the eyes are given last and the image is not counted complete until then, as its structure. This touches religious image-making, so the risks and the rules of engagement are set out at length and the film takes no position on the practice. Both digests re-read and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The image house, workshops and colossal seated image of the old temple at Dikwella",
+    "also_known_as": [
+      {
+        "name": "Wewurukannala Viharaya",
+        "meaning": "the temple's usual name",
+        "used_by": "local and general usage"
+      },
+      {
+        "name": "netra pinkama",
+        "meaning": "the eye offering: the painting of an image's eyes as the last act of its making",
+        "used_by": "Sinhala Buddhist usage"
+      }
+    ],
+    "region": "Matara district, Southern Province: the coastal town about twenty-two kilometres east of the district capital, a short way inland from the sea",
+    "coordinates": {
+      "lat": 5.9667,
+      "lng": 80.6833
+    },
+    "why_here": "Because the concept's method and the site's best shot are the same thing. The source's second way into this practice is to attend to an image part by part, from the feet up, until it can be held in the mind, and this site carries a seated image of about forty-nine metres that a drone can climb in one unbroken move, ending at the face. Around that single shot the place supplies everything else the film needs in one compound: an eighteenth-century image house whose paintings show what two centuries of repainting look like, a long hall of modelled life-size figures, and the workshops and scaffolding that a complex of this size keeps busy more or less permanently. It is also a working temple rather than a ruin, which means the rule at the centre of the film, that the eyes are given last and that an image is not counted as an adequate representation until then, is a live rule and not a historical note.",
+    "what_to_film": [
+      "The uncut ascent of the great image from the feet to the face, at first light, with nothing else in frame.",
+      "The same face at four points in a day, from a fixed position, so that light does the work a camera move would spoil.",
+      "Workshop making at close range: armature, plaster or clay, the measuring stick, proportion being checked and altered.",
+      "Unfinished faces with no eyes in them, filmed plainly and without suspense.",
+      "Repainting: mixing, the brush along a two-metre edge, the same edge further along on three consecutive days.",
+      "The old image house: faded wall panels, an earlier hand under a later one, light from a door.",
+      "The scale flip: a person on a plank beside a hand larger than they are, then a face small enough to hold.",
+      "The compound at its emptiest hours, and the weather that is slowly taking the work apart."
+    ],
+    "access": "By road along the southern coast. Everything depends on the temple's agreement, which governs the working areas, the workshops, any filming of ritual, and any flight over the compound; a drone around a devotional structure and above people at prayer is not something a crew can decide for itself. The site also receives visitors, so filming needs to be arranged for hours when it does not intrude on anybody who came for their own reasons.",
+    "best_time": "A dry spell, when plaster and painting work can actually proceed. Early and late in the day for light across the great image. Festival periods are the busiest and least usable.",
+    "images": [
+      {
+        "caption": "The colossal seated image at the site, which the film's central shot ascends.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wewurukannala Vihara, Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wewurukannala Vihara, Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 3.0 on the file page; confirm licence and attribution before any use."
+      },
+      {
+        "caption": "The same image and the building beneath it, for scale and for the surfaces that are repainted.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wewurukannala Vihara (25275876344).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wewurukannala Vihara (25275876344).jpg",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 2.0 on the file page; confirm licence and attribution before any use."
+      },
+      {
+        "caption": "Another view within the same complex, for the modelled and painted work that fills it.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wewurukannala Vihara Dikwella 10.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Wewurukannala Vihara Dikwella 10.JPG",
+        "licence_note": "Wikimedia Commons, listed as CC BY-SA 3.0 on the file page; confirm licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/wewurukannala-viharaya/",
+      "https://en.wikipedia.org/wiki/Dikwella",
+      "https://www.accesstoinsight.org/lib/authors/kariyawasam/wheel402.html",
+      "https://dickwellaps.lk/thingstosee/vavrukannala-buddharaja-maha-vihara/"
+    ],
+    "research_note": "That the temple dates in part to the reign of Rajadhi Rajasinha in the late eighteenth century, that its oldest section is roughly two hundred and fifty years old, that the seated image is about forty-nine metres and was built in the nineteen-sixties and completed around 1970, that the complex holds mural panels of jataka stories and a long hall of life-size modelled figures, are from the sources above and are desk research only. That the painting of an image's eyes is performed as the last item of its construction at a chosen time, and that until then the image is not considered an adequate representation, is from the published account of Buddhist ceremonies listed above. The coordinates are the town's, not a surveyed point in the compound. Nobody at the temple has been approached; whether any image is being made or repainted at any given time, whether workshops are on the premises or elsewhere, and whether filming or drone flight would be permitted at all, are entirely unverified. The images are of this site.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the temple, and a working devotional site may simply refuse a crew, which would end the film.",
+    "Whether image-making or repainting is under way at any given time is unverified, and without live work there is only a finished object.",
+    "Whether the workshops that serve this complex are on the premises or in a separate trade workshop elsewhere in the district is unknown, and would change the location.",
+    "Whether drone flight over a devotional structure and its visitors could be permitted is doubtful and would remove the film's central shot.",
+    "How the giving of the eyes is handled here specifically, and whether it may be spoken about at all on camera, has not been asked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

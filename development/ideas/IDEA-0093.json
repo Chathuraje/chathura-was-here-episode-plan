@@ -2,82 +2,192 @@
   "schema_version": 1,
   "id": "IDEA-0093",
   "record_type": "idea",
-  "title": "The Free Table",
+  "title": "Nobody's Roof",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Free Table"
+  ],
   "group_id": "GRP-06",
-  "logline": "A household that has fed passing strangers free of charge for years hands a traveller a plate before he asks, and keeps insisting it was nothing.",
-  "human_question": "What does it cost to give the same thing away, every day, to people who will never come back?",
-  "situation": {
-    "what_happens": "A household cooks and serves food each day to travellers who stop, taking no fixed price and keeping no record of who paid and who did not. The pot goes on before first light, people arrive and leave, and anyone who tries to pay is waved off. Watched over weeks rather than once, the giving is never quite the same twice: some days there is more to give, some days the giver is tired or the day has gone badly, some days a familiar face comes back and is handed a little extra with nothing said about it. The household lives on what is left over.",
-    "who_is_involved": "The household that cooks and serves, including whoever started the practice and whoever now keeps it going; strangers who stop once and are never seen again; a few regulars recognised by face rather than by name; and the traveller who is handed a plate before he has asked for one.",
-    "what_is_at_stake": "For the household, a real livelihood made thinner by what it gives away, and the risk of being turned into somebody else's parable. For the people fed, the ordinary surprise of being looked after by someone with no claim on them and no way of being repaid. For the viewer, whether something this plain and this repetitive still deserves to be called goodness at all.",
-    "how_it_unfolds": "A practice like this usually begins with one person's decision and hardens into a routine nobody in the household questions any more. Its pressures are money, fatigue, illness and the day a giver is simply not glad to give. It can end quietly when the person who began it dies, when a road or a bus route changes, or when the cost stops being bearable; it can also outlive its founder by a generation. Reality decides whether anything is given to the traveller at all, whether the household ever explains itself or shrugs the question off, and whether the practice survives the year it is watched."
+  "logline": "An open wooden hall with no walls and no door stands at the edge of a farming village, raised on four stones, built three centuries ago by people nobody can name so that strangers walking a long road would have somewhere dry to sit, and it is still there, still open, and empty most of the day.",
+  "human_question": "What is left of a piece of goodness once everyone involved in it is gone?",
+  "place": {
+    "what_kind_of_place": "A small open-sided hall of timber at the edge of a village of coconut and paddy, where a narrow lane runs off toward the fields. It has no walls, no door and nothing inside it. It stands on four boulders set in from the corners, so that the wood never touches the ground. Nine short pillars inside are covered in carving; seventeen plainer columns stand around them; above, thirty-two rafters run up to meet at one wooden hub. Sawn beams laid across stone supports run round the inside and serve as benches. It was put up in the eighteenth century on a footpath between two old capitals, one of a chain of such halls set a few miles apart along the same route, each with a well somewhere near it. The path is a village road now. The hall belongs to no household, is locked to nobody, and was built for people who would pass once and never be seen again.",
+    "why_it_is_worth_watching": "It is a building whose whole subject is absence. There is nothing in it, and it is still the most carefully made thing for miles: a dancer, a wrestler, a bird, a coil of flower cut into pillars that hold up a roof over an empty floor. From straight above, the roof is a wheel: thirty-two lines converging on a single point, and the drone can sit over it and let the shot be exactly what it is. From the inside, because there are no walls, the building is made of light and the fields are visible through it in every direction. When rain comes it becomes the loudest place in the village for twenty minutes and then goes quiet again.",
+    "what_moves_or_changes": "Light, weather and whoever happens to be walking. The hall has no schedule of its own: it fills for the length of a shower, or for the half hour somebody waits out the middle of the day, and empties again. Around it the fields change through a season, from flooded to green to gold to stubble, and the lane carries different traffic at different hours. Nothing in the film can be arranged except the hour and the weather.",
+    "when_it_looks_best": "The first weeks of a monsoon, when showers arrive in the afternoon and the hall is actually used, and the fields around it are at their most saturated. Within a day: first light, when the carving is raking and the village is quiet; the vertical noon shot on the roof hub; and last light, when the building is a dark frame with fields showing through it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a small perfect building and the weather that goes through it. Wood, stone, rain, the light moving across carved pillars across a day, fields visible straight through the middle of a house, a roof seen from above as a wheel of thirty-two spokes, and the long stretches when there is nobody in it at all. Anyone who likes buildings, or likes watching weather arrive, has a complete piece here with nothing said over it.",
+    "with_the_philosophy": "The same hall becomes the sources' account of ordinary goodness, standing in a field. The texts hold that the kind of good mind most people actually have is called great not because it is lofty but because it is common: it is everywhere, in ordinary people, in every place. This building is that claim in timber. Nobody's name is on it. Nobody is being kind in it. It is an arrangement that gives shelter to whoever turns up, and goes on doing it long after everyone who made it is dead, which is the only way a camera can honestly look at generosity at all."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, very high and straight down. A village of coconut and paddy, a lane, water in the fields, and at the edge of it one small dark rectangle of roof with nothing built against it.",
+      "voice": "Somebody put this up about three hundred years ago beside a footpath, so that people walking a long way would have a roof. There is no record of who. There is nothing in it. It has never been anybody's.",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "Ground level, slow: the four boulders at the corners, the beams laid across stone, the feet of the pillars, the seventeen outer columns, the nine carved inner ones. Light coming through from every side because there are no walls.",
+      "voice": "The old analysis of mind says that awareness never arrives on its own. It comes with a small crew that starts at the same instant, finishes at the same instant, attends to the same thing and stands on the same support [C019-P:L33–L47]. Nothing here holds anything up by itself either.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "Drone directly overhead, descending onto the roof: thirty-two rafters running up to one wooden hub. Held long. Then inside, looking up at the same hub from below.",
+      "voice": "The texts are careful about the count. There are fifty-two of these companions on the list, and a given moment takes only the ones its work needs, as few as seven and never more than thirty-six [C019-P:L49]. A roof is not built out of every piece of timber in the world. It is built out of exactly what this roof requires.",
+      "concept_id": "C019"
+    },
+    {
+      "on_screen": "Rain arriving across the fields. Two or three people come in off the lane without hurrying, sit on the beams, wait. Nobody speaks much. Filmed wide and from behind, as weather rather than as portraiture. The rain stops and they go.",
+      "voice": "The sources count eight ordinary good minds, made by three simple differences: glad, or level and unexcited; understanding what you are doing, or just doing it because it is what is done; arriving by itself, or only after somebody asked. All eight are counted as fully good [C011-M:L3]. They rank the unprompted one a little higher, and then say plainly that this is a secondary matter [C011-M:L28].",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "The carving, close and in sequence: a dancer, a wrestler mid-hold, a bird, a coiled serpent, a flower repeating around a pillar. Then pull back to show that all this is holding up a roof over an empty floor.",
+      "voice": "One source makes a strange point about the name. This kind of goodness is called great not because it is the highest kind, but because it is common: it turns up everywhere, in ordinary people, in every place [C011-M:L16]. The rare and deep states belong to very few. The account of goodness starts in the doorway, not on the mountain.",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "The lane running away from the hall through the fields. An old well under trees. Ordinary traffic at different hours of one day, compressed: a bicycle, a tractor, schoolchildren, a man with a mammoty, nobody stopping.",
+      "voice": "Giving is one of the plain acts the sources say this mind arises in, along with keeping your word, helping, listening, teaching [C011-P:L51]. And they are strict about the unit. A good day is not one long good mood. These minds come in moments, in the intervals when someone is actually attending to what they are doing, with other things running in between [C011-P:L111].",
+      "concept_id": "C011"
+    },
+    {
+      "on_screen": "Last light. The empty hall from the lane, fields showing straight through it. Then dark, and the shape of the roof against a sky with some light left in it.",
+      "voice": "A camera cannot see which state of mind anybody was in, then or now, and this film does not claim to. What it can show is the arrangement: a roof, four stones, a bench, no door, and nobody to thank.",
+      "concept_id": "C019"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C011 sets out the eight kinds of everyday wholesome mind: glad or even-toned, with or without understanding of action and its results, arising on its own or after being prompted; and it explains that this goodness is called 'great' because it is common to many people everywhere, not because it stands above other kinds. C019 supplies the other half: a mind never arrives alone, only the factors a moment's work actually needs arise with it, and ordinary capacities such as effort and attention take the whole colour of the moment they join. Laid over a household that gives the same thing away every day, C011 says the act counts on the flat day as much as the glad one, and C019 says each of those days is a separate assembly rather than one long mood.",
-    "what_it_reveals": "That a practice which looks from outside like a single settled virtue is, in this account, a long run of separate moments with different strengths of intention inside them, and that the plainest of those moments is still fully good."
+    "why_together": "C011 supplies the claim and its scale. The sources teach eight ordinary wholesome minds, produced by three yes-or-no differences — joyful or evenly neutral, with or without the understanding of action and its results, arising by itself or only after being prompted [C011-M:L3] — and they list giving, helping, keeping precepts, listening and teaching as the plain acts these minds arise in [C011-P:L51]. Then comes the line the whole film is built on: this goodness is called great because it is common to many, everywhere, not because it stands above anything [C011-M:L16]. C019 supplies the structure that keeps the building from being a metaphor for a person. A mind never arrives alone; its companions begin together, end together, take one object and rest on one support [C019-P:L33–L47], and only as many of them arrive as the work requires, between seven and thirty-six [C019-P:L49]. Put on an open hall built for strangers, the two stop being doctrine and become a description of what is standing there: an assembly of parts, none of which does anything alone, arranged to give something away to people it will never meet.",
+    "what_it_reveals": "That generosity can be read off a structure instead of a face, and that this is not a compromise but the more accurate reading. C011 on its own would ask a camera to show which mind somebody was in, which no camera can do. C019 on its own would be an inventory. Together on a building whose only purpose is to shelter whoever turns up, they show that the tradition's 'great' goodness is exactly the unremarkable kind — so common it can be left by the road, unlocked, for three hundred years, and used without anybody noticing it is a gift."
   },
   "concept_links": [
     {
       "concept_id": "C011",
       "role": "primary",
-      "why": "The digest supports both halves of the situation directly: giving is one of the acts that produces the everyday wholesome mind, and the eight kinds cover the glad day and the flat one, the understood act and the purely habitual one, the plate offered unasked and the one somebody had to request [C011-P:L51; C011-M:L3]. The Margaya's coin-and-note example compares the same giver's strength of intention on two different days, which is the only comparison this situation can honestly make; the digest is explicit that it is not a comparison between a large giver and a small one [C011-M:L26]."
+      "why": "The digest gives eight ordinary wholesome minds produced by three differences, joyful or evenly neutral, with or without the understanding of action and its results, spontaneous or prompted, and counts all eight as genuinely good [C011-M:L3]; it lists giving and helping among the acts such a mind arises in [C011-P:L51]; and it carries the claim that makes this film possible, that this goodness is called great because it is common to many and everywhere, not because it is higher [C011-M:L16]. Every limit in the digest that bears on this film is honoured on screen. The film never suggests that a gift only counts if the giver was glad, since a mind accompanied by neutral feeling is fully wholesome and joy depends on conditions [C011-P:L57–L66]; it never suggests that having to be asked cancels the act, which the sources rank only as a secondary difference [C011-M:L28]; it never treats the size of a gift as the measure of a giver, because the sources' coin-and-note comparison is one giver on two days, not a rich giver against a poor one [C011-M:L26]; and it does not let 'understanding' slide into education or cleverness, which the Pradeepika explicitly rejects [C011-P:L70]. The warning that a devotional day is not one unbroken good mind, that these minds come only in moments of attention with other things between them [C011-P:L111], is spoken aloud rather than smoothed over."
     },
     {
       "concept_id": "C019",
       "role": "supporting",
-      "why": "A mind arises with only the factors its work requires, between seven and at most thirty-six, and the ethically variable capacities take the quality of the mind they join, so the household's giving is a roster assembled afresh each time rather than one standing quality [C019-P:L49; C019-P:L63]. The digest corrects the group's shorthand: the fifty-two are the roster, never all present at once."
+      "why": "The digest's four marks of association — arising together, ceasing together, one object, one base [C019-P:L33–L47] — are what let a building stand in for an assembly without becoming a diagram of a soul, and the rule that only the needed factors arise, from seven to at most thirty-six [C019-P:L49], is spoken over the one shot where the count is literally visible. The digest's corrections are load-bearing and are kept. The film never presents the parts as persistent agents or inner selves, because the factors arise and cease with each moment. It never says or implies that every good moment contains all fifty-two: the group's shorthand about the team that travels with each mind means the roster, not the attendance. And it does not treat craft skill as a morally neutral tool, since the source holds that the common factors take the whole quality of the mind they join, like a friend who follows the company he keeps [C019-P:L61–L63]."
     }
   ],
-  "what_the_viewer_could_understand": "Everyday giving is the kind of goodness the texts call 'great' because it is everywhere, not because it is lofty, and it counts whether it is done with a big smile or as a quiet daily habit.",
-  "what_must_be_real": "The household's actual practice and its actual economics, including what the giving costs them. No refusal of payment arranged for the film, no generosity performed on request, and nothing handed to the traveller that was not going to be handed to whoever turned up.",
-  "position_hint": "opening candidate: the group opens with something given freely, and this is the plainest and least ceremonious form of that. It can only open the group if the giving genuinely happens without being asked for.",
+  "what_the_viewer_could_understand": "That the goodness these texts call great is the ordinary kind, common everywhere, and that it can be built into an arrangement and left behind — so that what survives of a good act is not a reputation but a roof that anybody may sit under, made of parts none of which does anything on its own.",
+  "what_must_be_real": "The building as it actually stands, including its repairs, its modern fittings and whatever state of upkeep it is really in. Nobody is asked to walk in, sit down, shelter or leave for the camera, and nobody who does come in is presented as an example of anything; if the hall is empty for a week, the film is of an empty hall for a week. The carving is not lit or dressed to look older or finer than it is. No claim is made on camera about who built it or why, beyond what is actually known, which is very little. Filming inside a protected monument happens on the terms of whoever is responsible for it, and nothing is moved, cleaned or touched.",
+  "position_hint": "opening: it is the group's plainest statement that this goodness is the common kind, and it needs no other concept in place before it. It should come before the films that describe what a good mind is made of, because they all assume the claim this one makes.",
   "risks": [
-    "Staging or prompting generosity for the camera, which would falsify the whole premise",
-    "Reducing a precarious real business to a parable about kindness",
-    "Glossing over the household's own economic fragility to keep the picture warm",
-    "Implying that a larger gift means a better giver, which the sources do not claim",
-    "Treating the regulars who depend on the food as illustrations of need rather than as people"
+    "Turning the builders into unnamed saints. The sources describe moments of mind, not kinds of person, and nothing is known about whoever put this up.",
+    "Presenting anyone who shelters here as an illustration of goodness, or reading a state of mind off a face, which the digests say repeatedly cannot be done.",
+    "Implying that a larger or grander gift makes a better giver; the sources' comparison is one giver on two days, not one giver against another [C011-M:L26].",
+    "Letting 'understanding' be heard as education or cleverness, which the Pradeepika explicitly rejects [C011-P:L70].",
+    "Suggesting that giving reluctantly, or only after being asked, does not count [C011-M:L28].",
+    "Quietly dropping the sources' insistence that these minds are defined partly by their future results [C011-P:L51] and replacing it with wellbeing language, or going the other way and reducing kindness to a transaction.",
+    "Narrating the fifty-two factors as though all of them turn up at once, when the sources cap a single moment at thirty-six [C019-P:L49].",
+    "Making a heritage film about wood carving, which is a real and separate subject and would swallow this one."
   ],
   "drop_if": [
-    "No household is found that genuinely gives food away as an ongoing practice rather than as an occasion",
-    "The practice can only be observed by arranging it"
+    "The building is closed, under scaffolding or otherwise unfilmable during the window available.",
+    "Permission to film a protected monument, or to fly over it, cannot be had.",
+    "The only way to show it in use is to arrange for people to sit in it."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0094",
-      "relation": "absorbs",
-      "note": "IDEA-0094's daily shopkeeper-and-regular exchange is folded in here as the repeat-recipient strand: the same giver, the same receiver, and the day-to-day variation in what is given."
+      "relation": "pairs with",
+      "note": "Two giving arrangements at opposite scales: one built once and left standing for centuries, one refilled by somebody different every morning."
     },
     {
       "idea_id": "IDEA-0097",
       "relation": "mirrors",
-      "note": "Both watch giving become practised with repetition; IDEA-0097 is held and would carry proficiency as its leading concept."
+      "note": "This film watches giving after the givers are gone; that one watches it become practised in the hands of people still doing it."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0094"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by the group's opening episode and now the fullest statement of everyday wholesome giving, with IDEA-0094's repeat-recipient observation folded in."
+    "reason": "It carries the group's founding claim, that this goodness is great because it is common, on a structure that gives without anybody in frame being a benefactor."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The old subject, a household that feeds passing strangers, was dropped entirely: it made identifiable people into moral exemplars on camera, which this group's own digests forbid, and it also sat on the banned free-food archetype. The standing arrangement was kept and the film moved to a wayside hall built for strangers by people nobody can name. Concepts re-read from the digests and every citation re-verified against digest evidence. IDEA-0094 is no longer folded in here; it is now its own film on a different giving structure.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Panavitiya Ambalama, at the edge of Panavitiya village near Narammala",
+    "also_known_as": [
+      {
+        "name": "ambalama",
+        "meaning": "a wayside hall built so that travellers, pilgrims and traders have somewhere to rest",
+        "used_by": "Sinhala usage, island-wide"
+      },
+      {
+        "name": "madol kurupawa",
+        "meaning": "the central wooden hub at the apex of the roof, into which the rafters are fixed",
+        "used_by": "Sinhala carpentry usage"
+      }
+    ],
+    "region": "Kurunegala District, North Western Province: the coconut and paddy country a few kilometres off the Negombo–Kurunegala road, reached by a small road turning off before the town of Narammala",
+    "coordinates": {
+      "lat": 7.40697,
+      "lng": 80.17328
+    },
+    "why_here": "It puts the concept and the best image in one frame. The building exists for one reason: to shelter people who are passing through and will not be seen again, which is generosity built into a structure rather than performed by a person, and is the only form of it this series can honestly film. It is also the rare case where the most beautiful thing the place produces is the clearest statement of the idea: a roof of thirty-two rafters converging on a single hub, filmed straight down, over a floor with nothing and nobody on it. Nine carved pillars, seventeen plain ones and four corner boulders give the supporting concept its literal picture of an assembly in which no single part does anything alone. And because it was one of a chain of such halls spaced along a route, it is not a monument to a donor but a piece of public infrastructure for kindness.",
+    "what_to_film": [
+      "The hall from directly overhead at several heights, so the roof reads first as a small dark rectangle in farmland and then as a wheel of rafters.",
+      "The roof hub from above and from below in the same light, held long enough that the convergence stops being clever and becomes structural.",
+      "The four corner boulders, the beams on their stone supports, and the feet of the pillars: the parts that carry weight and are not decorated.",
+      "The carved pillars in raking morning light, one at a time, without treating them as a catalogue.",
+      "A shower arriving across the fields and the twenty minutes of noise it makes on the roof, filmed from inside with the fields visible through the open sides.",
+      "Whoever actually stops, filmed wide and unhurried as weather rather than as portraiture, and the emptiness before and after.",
+      "The lane and the old route running away from it through the fields, and any well or water source near it.",
+      "A full day compressed from first light to dark on one fixed frame, so the building's real occupancy, which is almost none, is visible."
+    ],
+    "access": "By road from the Negombo–Kurunegala road, turning off before the town and continuing about four kilometres on a small village road. The building is a conserved monument in the care of the national archaeology department, so filming inside it, lighting it, and flying anything above it depend on their permission and their rules, and the village lane around it is ordinary residential road that people live on.",
+    "best_time": "The first weeks of a monsoon, for showers in the afternoon and for standing water in the fields. Within a day, the first hour after sunrise for raking light on the carving, the middle of the day for the vertical roof shot, and last light for the hall as a frame with fields showing through it.",
+    "images": [
+      {
+        "caption": "The hall seen from the front: four corner stones, open sides, no door. An image of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/පනාවිටිය අම්බලම (ඉදිරිපසින්) 2019-11-09.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:පනාවිටිය අම්බලම (ඉදිරිපසින්) 2019-11-09.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same hall in its setting, wide. An image of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/පනාවිටිය අම්බලම (22).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:පනාවිටිය අම්බලම (22).jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A dancer carved into one of the inner pillars: the level of work put into a building with nothing in it. An image of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/-24 පනාවිටිය අම්බලම-ලී කණුවක කැටයම-නැට්ටුවා 2019-11-09.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:-24 පනාවිටිය අම්බලම-ලී කණුවක කැටයම-නැට්ටුවා 2019-11-09.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Panavitiya_Ambalama",
+      "https://amazinglanka.com/wp/panavitiya/",
+      "https://www.lankapradeepa.com/2019/12/panavitiya-ambalama.html",
+      "https://www.ft.lk/article/618059/Panavitiya--Ambalama--Showcasing-Sri-Lanka-s-indigenous-architecture"
+    ],
+    "research_note": "That the hall stands in this village in this district, that it is attributed to the eighteenth century, that it sits on boulders at its four corners, that it has nine carved inner pillars and seventeen plainer outer columns, that its roof is of thirty-two rafters meeting at a central wooden hub, that sawn beams on stone supports serve as benches, that it is believed to have stood on an old footpath between former capitals with such halls spaced a few kilometres apart, and that it is conserved by the national archaeology department, are all from the sources above and are desk research only. Counts of pillars differ slightly between sources, which is noted rather than resolved. The coordinates are the point the encyclopaedia entry gives and should be treated as a direction, not a survey. Nobody has been approached, no permission has been sought, and nothing about filming access, lighting inside a protected monument or drone rules over it has been checked. All three images are of the site itself.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the archaeology department, and a conserved monument may simply be closed to a crew or to a drone.",
+    "How much the hall is actually used today is unverified, and the film's fourth beat depends on it being used at least occasionally by people who are not tourists.",
+    "Whether the roof hub can be filmed cleanly from above, given the tree cover around the building, has not been checked.",
+    "Nothing is known about who built it or paid for it, and the film must be able to live with that rather than fill it in."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }
