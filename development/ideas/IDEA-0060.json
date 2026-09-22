@@ -2,68 +2,119 @@
   "schema_version": 1,
   "id": "IDEA-0060",
   "record_type": "idea",
-  "title": "Still Learning",
+  "title": "The Last Thing to Go Out",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Still Learning"
+  ],
   "group_id": "GRP-04",
-  "logline": "In a mask-carving workshop, apprentices at every stage work beside a carver of decades who decides one by one who is ready for what, and who still calls themselves a learner.",
-  "human_question": "If even the master is still learning, where does being lost end?",
-  "situation": {
-    "what_happens": "A workshop that still trains apprentices takes on a real commission, and the work is divided by what each person can currently do: the roughing out, the difficult face, the finishing, the paint. The youngest makes mistakes and has them corrected in a few words or a hand laid on the tool. Someone further along is given something slightly beyond them and either manages it or does not. The person who has done this for decades watches, allocates, sometimes simply asks what a learner finds easy, and says without false modesty that they are still learning.",
-    "who_is_involved": "An experienced carver who owns both the work and the teaching; apprentices at different stages, some family and some not; and the customer whose commission sets the deadline and the standard.",
-    "what_is_at_stake": "For an apprentice, whether they are trusted with more, and whether the craft becomes theirs. For the master, the commission, the workshop's name, and whether anyone will carry it on. For the craft, one more year of being passed on rather than performed.",
-    "how_it_unfolds": "It begins with an order and a block of wood and ends when the work leaves. The pressures are the deadline, the cost of a ruined piece, and the patience it takes to let someone learn slowly on a paying job. It can end with work that goes out, work quietly redone by the master, or an apprentice who leaves. Reality decides which, and the film cannot know in advance."
+  "logline": "In coconut country, shells are heaped into earth pits, lit, sealed under soil and left to burn down for a night and a day, and the burn ends the way the texts say confusion ends: the flames stop first, the smoke long after, and the last thing to leave is something you can barely see.",
+  "human_question": "If the loud trouble stops first and the quiet trouble outlasts it, how would you ever know you were finished?",
+  "place": {
+    "what_kind_of_place": "Small clearings in coconut smallholding country, each with one or more shallow earth pits in it. Shells left over from oil and copra work are carted in, broken down, heaped into a pit and lit; once the fire has taken, the pit is sealed with sheets, leaves and soil, leaving only a few vents. From that point the work is not stoking but starving: opening and closing vents by hand to keep the shells cooking without letting them burn away. After a night and a day the pit is closed completely, left to cool, and opened.",
+    "why_it_is_worth_watching": "It is a landscape that behaves like weather. From the air at first light, a stand of palms with several earth mounds under it, each leaking a slow vertical column into still air, and the columns visibly different from one another because the pits are at different hours of the same process. On the ground it is one of the few kinds of work where the whole skill is reading something almost invisible: the colour of smoke, the smell, a shimmer over the soil. And at the end, a pit is opened and the inside of it is black, glittering and completely unlike the country around it.",
+    "what_moves_or_changes": "The smoke, and nothing else, and it is on the fire's timetable rather than anyone's. It goes from flame and grey billow to dense white, then thin and blue, then to almost nothing but a shake in the air over the soil, and the pit is not finished while that is still there. Nobody can see inside at any point. A pit can be opened onto a good burn or onto ash, and that is decided hours earlier by judgements nobody can check.",
+    "when_it_looks_best": "Still, dry mornings, when the columns stand up instead of smearing sideways; and the hour of opening, when the black comes out into full daylight. The dry months, because rain through the seal ruins a pit."
   },
+  "two_layers": {
+    "without_the_philosophy": "A slow process film about fire under earth. Shells carted and broken, a pit filled and lit, a fire covered over until it is only smoke, a night of small adjustments by torchlight, and then the opening in the morning and the black, glittering inside of it going into sacks. It has its own shape without commentary: build, seal, wait, open. Anyone who likes watching skilled work done quietly has a complete piece here.",
+    "with_the_philosophy": "The same burn becomes the sources' own bookkeeping, laid out in smoke. The texts say the states that trouble a mind stop in a fixed order, that the dramatic ones go long before the quiet ones, and that the last thing to leave is a small flat restlessness. They also call everyone short of the very end a learner, still in training. The voice never says where anybody standing at the pit is, because the texts are describing something nobody can observe from outside, and the film says so."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from the air: palms, a clearing, three or four low earth mounds, each with a column of smoke standing straight up out of it, each column a different thickness and colour.",
+      "voice": "Each of these is the same fire at a different hour. Nobody standing down there can see inside any of them. The whole job is reading what comes out.",
+      "concept_id": "C049"
+    },
+    {
+      "on_screen": "Ground: shells tipped from a cart, broken down, heaped into the pit. Kindling, then flame, then a real fire, loud and fast.",
+      "voice": "It starts the way anything starts, and this part takes no skill at all. Anybody can light it. What comes after is the work.",
+      "concept_id": "C049"
+    },
+    {
+      "on_screen": "The fire being smothered: sheets, leaves, then soil shovelled on, and a hand closing vents down to a few holes. The flame gone in under a minute; thick grey-white smoke instead.",
+      "voice": "The sources have one word for everyone on the path short of its very end. Learner. Still in training. Only the last stage is called the one beyond training [C049-P:L55; C049-M:L11]. It is a humble arrangement, because almost everybody who has got anywhere at all is still being described as somebody learning.",
+      "concept_id": "C049"
+    },
+    {
+      "on_screen": "Night. Torchlight on the mound, a hand feeling the soil, a vent opened a finger's width and closed again. Long stillness. The column white and heavy against the dark.",
+      "voice": "The same passage then counts something out. As a mind gets clear, particular states stop happening, and they stop in a fixed order. Fixed opinions and deep doubt go first. Hatred goes much later. The small, flat unsettledness of a mind that will not stay put is the very last thing to leave [C049-P:L85; C049-P:L97; C049-P:L101]. The dramatic problems finish before the quiet ones do.",
+      "concept_id": "C049"
+    },
+    {
+      "on_screen": "Dawn. The smoke thinner and bluer, then thinner again. Finally almost nothing: a shake in the air over the soil that is only visible against a dark treeline.",
+      "voice": "That last state is not dramatic either. The texts describe it as a mind that cannot stay on anything, and they make a point of saying it feels neither good nor bad, because nothing has been taken in clearly enough to like or dislike [C008-P:L25–L30]. One of them says it is present in every harmful state there is [C008-P:L62]. You would not call it a problem. You would not notice it.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "The pit sealed completely. Hours of nothing: the mound in full daylight, heat haze, an empty clearing, a dog, the palms.",
+      "voice": "Whatever else these texts say about sorting people by what they were born with, this film leaves alone, and so should anybody else. The thing they are classifying is a moment at the beginning of a life that nobody has ever observed, and the sources are clear that every class of person can still do good [C049-P:L67; C049-P:L71]. Nothing about a person's body, their means or their difficulty tells you anything about it.",
+      "concept_id": "C049"
+    },
+    {
+      "on_screen": "The opening. Soil scraped back, the seal broken, and the inside of the pit coming into daylight: black, light, glittering, completely unlike the red earth around it. Hands sorting the good from the over-burnt ash.",
+      "voice": "It is opened once. Whoever has done this longest opens it the same way as whoever has done it least, which is without knowing. They will tell you as much, and they will tell you they are still learning it.",
+      "concept_id": "C049"
+    },
+    {
+      "on_screen": "Sacks filled and stacked, the emptied pit, the clearing with no smoke in it at all, and then the wide shot again from the air with one column fewer.",
+      "voice": "Nothing here is a spiritual attainment and the film is not pretending otherwise. A pit is a pit. What it lends is an order, and the order is the difficult part of the teaching: the fire stops being frightening long before it stops being a fire.",
+      "concept_id": "C049"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C049 supplies the distinction the film is named for: the sources call everyone short of the very end a learner, still in training, and only the final stage beyond learning, and they show specific states falling away in a fixed order, with the restless, unsettled mind the last to go [C049-P:L55; C049-P:L85; C049-P:L97]. C086 supplies how a guide actually works: not the same instruction for everyone, but looking closely at the person, or, when that is not possible, asking what comes easily to them and where their mind goes [C086-P4:L278; C086-M:L5]. A workshop shows both at once: a ladder with no top rung, climbed one person at a time.",
-    "what_it_reveals": "That being further along is not the same as being finished, and that good teaching is particular rather than general. C049 alone would abstract the stages; C086 alone would become a study of temperament. Together they show why a lifetime of practice can honestly be called still learning, and why the master's attention falls differently on each apprentice."
+    "why_together": "C049 is used on one strand only. The sources call everyone on the path short of its very end a learner, still in training, and reserve 'beyond training' for the last stage alone [C049-P:L55; C049-M:L3; C049-M:L11]; and they count out which states stop at which stage, with doubt going first, hatred much later and restlessness only at the end [C049-P:L85; C049-P:L97; C049-P:L101]. That is a structure a fire can carry without anybody being ranked, because the order belongs to the process and not to the people tending it. C008 supplies what that last state actually is, which C049 only names: the delusion-rooted mind that cannot stay on its object, always with neutral feeling because nothing has been grasped clearly enough to like or dislike, and arising unprompted [C008-P:L25–L30; C008-M:L3], and which one source says is in every unwholesome mind there is [C008-P:L62]. A pit whose flames die in a minute and whose last thread of haze takes another day is the plainest picture of that asymmetry anyone is likely to film.",
+    "what_it_reveals": "That finishing is not what it looks like from outside, and that the quiet residue outlasts the loud trouble by a long way. C049 alone is a set of numbers and a set of persons, and the persons half is the most dangerous material in the project. C008 alone is a description of a flat mood with no shape to hang it on. Put together on a covered fire, they produce the group's answer in its least flattering form: what stops us seeing clearly, at the end, is not a passion but a shimmer."
   },
   "concept_links": [
     {
       "concept_id": "C049",
       "role": "primary",
-      "why": "The digest keeps two things from this concept that a film can use: that everyone on the path short of its very end is a 'learner' still in training [C049-P:L55], and that specific states stop in a fixed order, doubt ending first and restlessness last [C049-P:L85; C049-P:L97]. The workshop makes that structure visible. The film uses only this strand and must never touch the concept's other half, the classification of persons by the roots present at birth, which the digest calls ethically sensitive and unverifiable and says must not be used in any film. Craft skill is not spiritual attainment and is not claimed to be."
+      "why": "Only the learner and beyond-learning strand is used, plus the order in which states stop. The sources call everyone short of the final stage a learner and the final stage alone beyond training [C049-P:L55; C049-M:L3; C049-M:L11], and they count doubt ending at the first stage, hatred at the third and restlessness only at the last [C049-P:L85; C049-P:L97; C049-P:L101]. Everything else in the concept is excluded, and the exclusion is the reason the subject changed. The digest states that the Pradeepika's examples of the rootless in a good destination are people blind or deaf from birth, people of weak intellect and people living by begging [C049-P:L43], and that this must never be used to describe real disabled or poor people, since presenting disability or poverty as spiritual deficiency would be harmful and goes far beyond what the source lets anyone verify. So no person in this film is placed anywhere in the scheme, and the voice says outright that the thing being classified is unobservable. The digest's other limits are kept too: the numbers are maximums [C049-M:L21], every class of ordinary person can still do good [C049-P:L67; C049-P:L71], the limit on deep attainment is stated for this existence only [C049-P:L73], two-rooted and three-rooted are not intelligence, talent, education or class, and the stages are not badges to display. The film carries no ladder of persons and no master deciding who is ready; the only ladder in it is a fire's."
     },
     {
-      "concept_id": "C086",
+      "concept_id": "C008",
       "role": "supporting",
-      "why": "The digest describes a teacher who cannot read a student's mind asking which states are frequent and which subject comes easily, then giving a practice that fits [C086-P4:L278], and says the whole purpose of the many subjects is to fit the person [C086-M:L5]. A master handing out tasks according to what they see in each apprentice, and sometimes simply asking, is the everyday form of that (folded in from IDEA-0062, with the learner's own account of where their attention goes)."
+      "why": "C049 names restlessness as the last thing to go but says almost nothing about what it is like. C008 does: two delusion-rooted minds, one that cannot settle on a decision and one that cannot stay on anything, both always with neutral feeling because a mind that has not grasped its object can neither enjoy nor dislike it, both arising unprompted [C008-P:L25–L30; C008-M:L3], with one source holding that restlessness is present in every unwholesome mind [C008-P:L62]. That flatness is exactly the register of a pit at its last hour and exactly the register this group is written in. The digest's limits are honoured: the doubt meant here is the specific stalling over the foundations of a path, not ordinary not-knowing, which the source says may not be a fault at all [C008-P:L36], so the film never suggests that questioning is the problem; the neutral feeling is not calm or equanimity and is never shown as peace; and restlessness is not offered as a productivity complaint to be fixed with a tip."
     }
   ],
-  "what_the_viewer_could_understand": "Even someone who has practised for decades can honestly call themselves a learner. The texts use that very word for everyone on the path until its very end, and say the restless, unsettled mind is among the last things to fall away.",
-  "what_must_be_real": "The workshop, the apprentices, the commission and the corrections. Nothing is taught for the camera's benefit, no task is reassigned to make a point, and no one is ranked.",
-  "position_hint": "middle, immediately before the close: the group stops describing what being lost is like and starts showing how people are actually helped out of it, one at a time.",
+  "what_the_viewer_could_understand": "That the order in which trouble leaves is the opposite of the order you would expect. The frightening part goes early. The small unsettledness that nobody would even call a problem is the last thing standing, and nobody watching from outside, including a camera, can tell when it has gone.",
+  "what_must_be_real": "The pits, the burn and the timings are the burners' own, and nothing is lit, opened, delayed or re-covered for the camera. No one in the film is placed anywhere in the sources' classification of persons, by voice, framing or cutting, and no one's skill is presented as spiritual attainment. The work is hot, smoky and hard on the lungs, and the film neither prettifies that nor makes a hardship story out of it. If the operation is not legal and permitted, it is not filmed.",
+  "position_hint": "late: the group's hardest and flattest statement, so it belongs after the films that establish the register and immediately before the close. It is also the group's only handling of the ordering of states, so nothing else can take its slot. No location reasoning is involved.",
   "risks": [
-    "Implying that craft mastery equals spiritual attainment, or treating the master as a finished person.",
-    "Ranking the apprentices against one another.",
-    "Any drift towards the concept's birth-root classification of persons, which the digest forbids in a film.",
-    "A craft showcase with no stake in it.",
-    "Presenting what the master notices in an apprentice as a diagnosis of their character (folded in from IDEA-0062)."
+    "Any drift at all towards the concept's classification of persons by the roots present at birth. The digest names people with congenital disabilities, people of weak intellect and people living by begging as the source's own examples [C049-P:L43] and rules the whole strand out of any film; nothing in the edit may invite the viewer to place anybody.",
+    "Implying that skill at the work, or age, or seniority, corresponds to anything in the scheme. Nobody is ranked, and the film has no master in it.",
+    "Letting the fire analogy harden into a claim that people finish in stages that can be seen. The sources define the stages by what no longer arises, not by anything visible.",
+    "Treating the flat last state as calm or serenity, which reverses the C008 digest's meaning, or treating restlessness as a modern attention problem.",
+    "Suggesting the sources condemn questioning; the ordinary not-knowing of something you cannot yet investigate is explicitly not the doubt meant [C008-P:L36].",
+    "A beautiful process film with nothing at stake, or the opposite, a hardship film that makes poverty the subject.",
+    "Filming in smoke and heat in a way that endangers a crew or gets in the way of vent work at a point where a pit can be lost."
   ],
   "drop_if": [
-    "No workshop is training apprentices during the development window.",
-    "The teaching would be performed for the camera rather than observed."
+    "The pits in the area have been replaced by closed metal or industrial kilns, so nothing is readable from outside and there is no smoke to film.",
+    "The operation cannot be filmed without implying a ranking of the people working it.",
+    "The burn cannot be filmed through the night without altering how the vents are worked."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0062",
       "relation": "absorbs",
-      "note": "Takes in the guide who asks rather than assumes, and the learner's own account of where attention goes."
+      "note": "Only the principle survives the subject change: that someone who cannot see inside has to ask rather than assume. The apprentice and teacher material does not survive and needs rehoming, because a film built on someone deciding who is ready would rank persons, which C049 forbids."
     },
     {
       "idea_id": "IDEA-0061",
-      "relation": "alternative to",
-      "note": "Two films about close attention inside a craft; only one belongs in this group."
+      "relation": "pairs with",
+      "note": "A flaw that shows only under load, and a state that is only found by what stops coming out."
     },
     {
       "idea_id": "IDEA-0059",
       "relation": "pairs with",
-      "note": "Leanings seen side by side in shared work, and then met one learner at a time."
+      "note": "What cannot be told about a person from the outside, and what cannot be told about a fire until it is opened."
     }
   ],
   "selection": {
@@ -72,17 +123,68 @@
       "IDEA-0062"
     ],
     "superseded_by": null,
-    "reason": "Carries the group's seventh episode, and folding in IDEA-0062 turns a craft film into a film about being taught as the particular person you are."
+    "reason": "The group's only handling of the order in which states fall away, rebuilt so that the order belongs to a fire and not to any person."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape, and the subject replaced. The old film had a master carver deciding one by one who was ready, which is a ranking of persons and is exactly what C049's digest forbids; the workshop, the apprentices and the master are gone. C086 is dropped, because with no teacher there is nothing for it to do, and C008 is linked instead, which is where the last-to-leave state is actually described. Only the learner and beyond-learning strand and the order of falling away are kept from C049, and the absorbed IDEA-0062 material largely does not survive, which is flagged in connections.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Coconut-shell charcoal pits in the smallholding country around Madampe",
+    "also_known_as": [
+      {
+        "name": "pit method",
+        "meaning": "the traditional open-earth burn, as against drum and gasifier methods",
+        "used_by": "the coconut shell charcoal trade"
+      }
+    ],
+    "region": "North Western Province, Puttalam District, in the inland coconut belt between the coast road and the Kurunegala District boundary",
+    "coordinates": {
+      "lat": 7.4989,
+      "lng": 79.8447
+    },
+    "why_here": "Shell charcoal is still burned in open earth pits in this belt as a cottage operation alongside oil and copra work, which is the only version of the process in which the whole burn is legible from outside as smoke. That is what the film needs, because the concept it carries is an order of things falling away, and an open pit gives that order as a visible sequence over about a day: flame, grey billow, dense white, thin blue, and finally a shimmer that is the last thing to stop. It also gives the single best shot of the place for free, which is several mounds under palms at first light each leaking a column of a different colour, and that shot is the concept.",
+    "what_to_film": [
+      "Several pits at different hours in one aerial frame at first light, so the whole sequence exists simultaneously in one image.",
+      "The build and the lighting, filmed as ordinary heavy work and not as ritual.",
+      "The smothering: sheets, leaves, soil, and the vents being cut down to a few holes.",
+      "The smoke itself at each stage, shot long and patiently against a dark treeline so the colour changes read.",
+      "Vent work at night by torchlight, which is almost all of the skill and almost none of the drama.",
+      "The last hours, when there is nothing to see but heat shake over soil.",
+      "The opening, and the black interior coming into daylight; then sorting, sacking and the emptied pit."
+    ],
+    "access": "Private smallholdings and yards, so everything depends on the operator agreeing and on the crew working to the burn's clock rather than its own. Charcoal burning is regulated and some production is not permitted; the legality of any specific operation has to be established before anything is filmed. Smoke and heat make close ground work genuinely unpleasant and occasionally unsafe.",
+    "best_time": "The dry months, because rain through a seal ruins a pit and there will be fewer burns. Still mornings for the aerial work.",
+    "images": [
+      {
+        "caption": "A coconut plantation in the same country, for the palms and the ground the pits sit in. A picture of the surrounding landscape, not of any charcoal pit.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Agriculture; a coconut tree plantation in Ceylon (Sri Lanka) Wellcome V0025715.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Agriculture; a coconut tree plantation in Ceylon (Sri Lanka) Wellcome V0025715.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "An earth-covered charcoal burn elsewhere in the world, included only to show what a sealed mound leaking smoke looks like. Not this place, not this country and not shell charcoal.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charcoal pile 05.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Charcoal pile 05.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.srilankabusiness.com/coconut/coconut-shell-products.html",
+      "https://en.wikipedia.org/wiki/Madampe,_Sri_Lanka"
+    ],
+    "research_note": "That shell charcoal is made by drum, pit and gasifier methods, that the pit method is the traditional cottage one, and that production sits in the inland coconut belt, is from the trade source above and is desk research only. No operator, clearing or pit has been found, and it is specifically unverified whether pit burning is still practised around these coordinates rather than having been replaced by drums; that question decides whether the film exists. The coordinates are the town's, not a chosen clearing. Commons returned no picture of shell charcoal burning in this country at all, so both images above are of something else and their captions say so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No operator, clearing or permission has been found or approached. Everything here is a research direction.",
+    "Whether open pit burning survives in this belt, or has been displaced by drum and gasifier methods, is unverified and is the question that decides the film.",
+    "The regulatory position of any particular burn, and whether a legal operation can be found that is willing to be filmed through a night, is unknown.",
+    "Whether the smoke stages are as cleanly readable on camera as they are described to be by people who work pits has not been checked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,61 +2,166 @@
   "schema_version": 1,
   "id": "IDEA-0040",
   "record_type": "idea",
-  "title": "Lamps on the Water",
+  "title": "Nobody Can See Inside",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Lamps on the Water"
+  ],
   "group_id": "GRP-03",
-  "logline": "Lamps are lit on still water at dusk and a crew works the same patient rhythm all night, not knowing until dawn whether the night was worth it.",
-  "human_question": "What does a whole night of patient, repeated effort feel like when the result is still not known?",
-  "situation": {
-    "what_happens": "A crew that fishes by light goes out at dusk, sets its lamps, and works a rhythm that does not change for eight or nine hours. Insects and fish gather to the light. Nothing about the night tells the crew how it is going until it is nearly over. At dawn the catch is counted and it is either a night that pays or a night that does not, and either way the same night happens again tomorrow.",
-    "who_is_involved": "The crew who work the lamps through the night; the households the night's takings belong to; whoever buys the catch at first light and sets its price.",
-    "what_is_at_stake": "One night's income against one night's fuel, lamps and sleep, repeated across a season in which the good nights have to pay for the bad ones.",
-    "how_it_unfolds": "It begins at dusk and it ends at dawn, and it is the same every time except for the amount at the end. The pressures are weather, fuel cost and the accumulation of nights that did not pay. It ends in a catch or in very little, and reality decides which."
+  "logline": "A season's worth of hand-moulded brick is stacked into a kiln built of itself, sealed under clay, lit at dusk beside a plain of flooded pits, and burned through the nights by people who cannot see what is happening inside it and will not know until it is cold enough to pull down.",
+  "human_question": "What does it feel like to do careful work all night for an answer that will not arrive until the thing is opened?",
+  "place": {
+    "what_kind_of_place": "A flat of grey river clay on a floodplain, dug out season after season until it is a country of shallow water: old pits filled with rain and seepage, bunds between them, and a level yard where hand-moulded bricks stand drying in long herringbone rows under coconut thatch. At one end is the kiln, which is not a building but a stack: the green bricks themselves laid up into a block the size of a small house, with fire tunnels left through the bottom and the whole outside plastered over with mud. It is lit, fed for several nights, sealed, left to cool, and then taken apart, so the kiln and the product are the same object.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. The drying yard in flat light, which from above is pure pattern, thousands of identical objects in rows with people moving down them. The kiln at night: a black block with a row of fire mouths burning along its foot, doubled in the still water of the flooded pits so that the fire appears twice, and a column of smoke standing straight up and going from grey to white as the nights pass. And then the opening, which is the only moment of colour in the film, when the stack is pulled down and every brick turns out to be a different shade depending on where in the fire it happened to be standing.",
+    "what_moves_or_changes": "Everything changes slowly and nothing can be hurried. The stack is built over days and then burns for several nights, each shift feeding the same mouths at the same interval. The smoke changes colour and the flame changes colour, and those are the only readings anyone has. Rain is the real antagonist: it can take a whole yard of unfired bricks back to mud in an hour. And at the end the water in the pits does not change at all, which is what makes it a mirror.",
+    "when_it_looks_best": "The dry months, which is when a yard fires at all, and within them the nights of a burn. Dusk for the lighting, the middle of the night for the fire doubled in the water, first light for the smoke column, and flat overcast daylight for the drying rows and the pull-down."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night film about fire and water and patience. Clay dug, moulded, dried in enormous patterned rows; a stack built out of the very things it is going to bake; a fire lit at dusk and fed all night by people working a rhythm that never changes; the same fire lying upside down in still water; men asleep in shifts on a mat a few metres from it; smoke going white at dawn. Then, days later, the stack comes down and the whole film pays off in colour. It needs no commentary at all.",
+    "with_the_philosophy": "The same night becomes the place where the sources correct two things almost everyone believes they teach. The lists do name doubt as an unwholesome factor, and both sources say in as many words that ordinary not-knowing about matters one has no way of knowing is not what is meant. They also name mental dullness, and both take care to separate it from the body's honest need for sleep. A whole night of not knowing, worked steadily by people taking turns to rest, is therefore not an illustration of a fault; it is an exact picture of what the sources went to the trouble of excluding. The voice never suggests that anyone at the fire is in any state at all, and it never uses the fire as a figure for anyone standing near it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Late afternoon from high above: a flat of shallow flooded pits, bunds between them, and a level yard where tens of thousands of hand-moulded bricks stand in herringbone rows. At one end, a newly built stack the size of a small house, plastered over with mud.",
+      "voice": "The kiln is made of the thing it bakes. The bricks are stacked into a block, tunnels are left through the bottom for the fire, and the outside is sealed over with clay. Once that is done, nobody looks inside it again until it is cold.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Dusk. Fire lit in a row of mouths along the foot of the stack. The flames come up, and the still water of the nearest pit takes them so the fire appears twice.",
+      "voice": "From here to the end of the burn, the people working will have three things to go on: the colour of the flame at the mouth, the colour of the smoke at the top, and how long it has been. Nothing else. Whether the work of a whole season has come good is inside, and it is sealed.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Deep night. Fuel going in at a steady interval, the same movement over and over. Two figures, no conversation, and the fire doubled in the water behind them.",
+      "voice": "The old lists name fourteen unwholesome mental factors, and doubt is one of them. But both sources stop and say plainly that ordinary uncertainty about things one has no way of knowing is not the fault they are naming [C022-P:L179; C022-M:L57]. Not knowing what is inside a sealed fire is not a defect of mind. It is the situation.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "A mat laid on the ground a few metres from the heat. One man asleep on his side, fully clothed, while another watches the mouths. Later, the other way round.",
+      "voice": "The lists also name a heaviness of mind, and here too the sources are careful. They separate the body's honest need for rest, which even the fully awakened have, from the mental dullness they count among the faults [C022-P:L171–L175]. Somebody sleeping his turn beside a fire he has to feed at two in the morning is not an example of anything.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Close on the fire mouth: a face lit from below, reading the flame, then closing the mouth and turning away. Wide again: the stack, the smoke, the water.",
+      "voice": "Of the fourteen, four are present in every unwholesome mind at all: the object not clearly seen, no shame, no dread of what follows, and a mind that will not settle [C022-P:L31; C026-P:L29]. It is worth noticing what unsettled means there. It is not not knowing. It is agitation that cannot stay on its object.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "First light. The smoke column standing straight up and turning from grey to almost white. The mouths being sealed one by one with wet clay. Everyone stops.",
+      "voice": "And the shorter source turns the whole scheme round into something hopeful. While the danger in an act is still visible, or shame and dread are awake, or the mind is resting on something good, the harmful state does not arise at all [C026-M:L15]. It is not a matter of willpower in the moment. It is a matter of which companions happen to be present.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Days later, flat daylight. The stack being taken down by hand from the top. The colours come out as it goes: dark, almost blue-grey where the fire ran, through red, to pale pink at the outer edges. Sound bricks stacked one way, spoiled ones thrown another.",
+      "voice": "The answer was in there the whole time. It was decided in the first hours and nobody could see it, and no amount of anxiety on the mat at three in the morning would have changed a single brick. A camera cannot show what was in anybody's mind during those nights, and this film does not claim to. It can show what they were working with, which was a sealed fire and an interval.",
+      "concept_id": "C026"
+    }
+  ],
   "concept_merge": {
-    "why_together": "No merge survives inspection, which is why this idea is dropped rather than repaired. The two links it carried were both supporting and neither held: a night's uncertain livelihood was read as an occasion for aversion although no aversion is claimed or observed anywhere in the situation, and a crew's steady, unbroken all-night rhythm was offered as an image of restlessness, which inverts the concept, since restlessness is agitation that will not settle on its object [C022-P:L31] and sustained attention is the opposite of it. The one thing in the digests this situation genuinely sits on is the compendium's image of the moth flying into the lamp flame because the flame looks pleasant [C022-P:L67], and the digest's own note on that image says in as many words that the crew must never be framed as the moths.",
-    "what_it_reveals": "Nothing this group needs that another film does not already carry better. The group's account of uncertainty and its account of unsettledness are both held live by kept ideas, with grounds the digests actually support."
+    "why_together": "C022 supplies the list and, more importantly, two of its own explicit exclusions: that ordinary uncertainty about unknown matters is not the doubt the lists mean [C022-P:L179; C022-M:L57], and that the body's need for rest is not the mental sluggishness they count [C022-P:L171–L175]. It also supplies restlessness, one of the four present in every unwholesome mind [C022-P:L31], with its definition as agitation that will not settle on its object. C026 supplies the architecture those exclusions sit in: the four are present in all twelve unwholesome minds [C026-P:L29; C026-M:L3–L11], doubt occurs in exactly one of them [C026-P:L27–L61], sloth and torpor only in the prompted ones [C026-P:L43], and the whole scheme turns round into the protective statement that while shame, dread or a wholesome object are present the unwholesome mind does not arise at all [C026-M:L15]. A sealed fire worked steadily through the night by people taking turns to sleep is the exact case both sources were at pains to rule out.",
+    "what_it_reveals": "That the lists are much more careful than their English reputation. A viewer who thinks this material condemns uncertainty and condemns sleep watches a night in which both are simply the conditions of the work, and hears the sources themselves say so. C022 alone would give the exclusions without anywhere to stand them. C026 alone would give a table of which factor sits in which mind. Together, on a burn, they produce something no argument can: a picture of patient not-knowing that the texts decline to call a fault, and a definition of unsettledness that a steady night quietly disproves itself against."
   },
-  "concept_links": [],
-  "what_the_viewer_could_understand": "Nothing is claimed. The concept links this idea carried were withdrawn rather than rewritten, so it makes no teaching claim at all in this state.",
-  "what_must_be_real": "If the idea were ever restored, the crew, their methods and their night's catch would have to be entirely genuine and unscripted, and no reading of the source's lamp-and-moth image could be laid over the people working the lamps.",
-  "position_hint": "none: the idea is dropped, and nothing in the group's arc depends on it. No location reasoning is involved.",
+  "concept_links": [
+    {
+      "concept_id": "C022",
+      "role": "primary",
+      "why": "The concept is the fourteen and their defining marks, and this film is built on three of them and on two of the digest's own limits. Doubt: both sources say ordinary uncertainty about unknown matters is not the unwholesome doubt meant, which is specifically about the teacher and the teaching [C022-P:L179; C022-M:L57], and the digest names 'questioning is a vice' as a reading that does not transfer; the film's entire subject is a night of unavoidable not-knowing, so the narration states the exclusion rather than leaving it to be inferred. Sloth and torpor: Pradeepika separates the body's honest need for rest from mental sluggishness [C022-P:L171–L175], and the digest names 'sleep is laziness' as a reading that does not transfer; the film shows people sleeping their turn and says so. Restlessness: one of the four present in every unwholesome mind, defined as agitation of mind [C022-P:L31], which a long steady rhythm is the opposite of, so the film never offers the crew's patience as an instance of it. One image from this digest is deliberately unused: the moth flying into the lamp flame because the flame looks pleasant [C022-P:L67]. The digest's own note on it says the crew of a night fire must never be framed as the moths, and there is fire and there are insects in every frame here, so the image is kept out of the film entirely rather than quoted and disclaimed."
+    },
+    {
+      "concept_id": "C026",
+      "role": "supporting",
+      "why": "The association scheme is what turns three separate definitions into one structure a film can hold. It places the four common factors in all twelve unwholesome minds [C026-P:L29; C026-M:L3–L11], doubt in exactly one [C026-P:L27–L61], and sloth and torpor only in the prompted minds, on grounds of unwieldiness [C026-P:L43], which is why heaviness in this material is a texture rather than a verdict. Margaya's converse is the line the film's dawn rests on: while one still sees the danger in an act, or shame and dread are awake, or the mind rests on something wholesome, the unwholesome mind does not arise [C026-M:L15]. The digest's first limit governs the whole idea and is written into the closing narration: this is a study scheme about single moments of mind, not a diagnostic tool, a camera cannot show which factor is present, and the film must not claim to. Its fifth limit is honoured too: nothing here suggests that a prompted or reluctant shift is less culpable than a willing one, because the film makes no claim about anybody's culpability at all."
+    }
+  ],
+  "what_the_viewer_could_understand": "That the old lists are far more precise than their reputation. They do name doubt and they do name mental heaviness, and they then explicitly exclude the two things a modern reader would assume they meant: ordinary not-knowing about matters one cannot know, and the body's real need for sleep. A night spent doing careful work for an answer that is sealed inside a fire is not a picture of a fault; it is a picture of what those exclusions were written for.",
+  "what_must_be_real": "The yard, the burn and the result must be genuine. Nothing is lit, stoked, sealed or opened for the camera, and no shift is repeated or restaged. The fire is not dressed and no additional light is placed on the stack. Everyone working consents, and children are not filmed working. The film does not use the fire, the insects around it or the water as a figure for the state of anybody standing there. If a burn goes wrong, that is the film; if filming it would slow anyone's response to it going wrong, the camera stops.",
+  "position_hint": "middle to late: it is the group's quiet film, and its job is to keep the group honest, because it is the one that says out loud what the sources refuse to condemn. It reads best after at least one film in which something has actually gone wrong. No location reasoning is involved.",
   "risks": [
-    "Turning a livelihood into a visual allegory that frames the crew as the moths, which the digest forbids by name.",
-    "Reading sustained, patient attention as the restlessness the sources describe, which reverses the concept.",
-    "Long night material with no human stake and no supported concept underneath it."
+    "Using the fire, or the insects around it, as a figure for the people working it; the digest forbids the lamp-and-moth reading being laid on a night crew by name [C022-P:L67].",
+    "Letting patient sustained attention be heard as the restlessness the sources describe, which inverts the concept [C022-P:L31].",
+    "Letting a viewer take the film as a lesson that uncertainty is a fault, when both sources exclude ordinary uncertainty by name [C022-P:L179; C022-M:L57].",
+    "Letting the sleeping shift read as an illustration of sloth, when Pradeepika separates the body's need for rest from mental dullness [C022-P:L171–L175].",
+    "Suggesting the film can tell which factor is present in anyone, which the digest rules out.",
+    "Making beautiful pictures of hard, hot and sometimes hazardous work without letting the conditions stay legible.",
+    "Filming close to a live kiln in a way that endangers a crew or gets in the way of the people working it."
   ],
   "drop_if": [
-    "Already dropped: no concept link in the group's four digests supports the situation as it stands."
+    "No yard is firing during the filming window, so there is no burn to follow from lighting to opening.",
+    "Consent cannot be had from everyone working the shifts, or children are part of the workforce and cannot be kept out of the film.",
+    "The material could only be cut into a film by reading the fire as an image of somebody's mind."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0035",
       "relation": "mirrors",
-      "note": "Two night vigils; only one of them has a state of mind in it that the sources actually describe."
+      "note": "Two films made of one night's watching: in one the dark holds something alive, in the other it holds only a sealed fire and an interval."
     }
   ],
   "selection": {
-    "recommendation": "drop",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Both its links failed the digests: the aversion link was loose, and the restlessness link inverted the concept it cited. Nothing is folded forward, because the only strand the digest supports here is the one it explicitly forbids applying to the crew."
+    "reason": "Rebuilt around the two exclusions the digests state in their own words, so the group gets the film that says what this material does not condemn."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21. The idea was previously recommended for dropping with an empty concept_links array; it has been given proper links from the C022 and C026 digests, built on the sources' own exclusions of ordinary uncertainty and of the body's need for rest, on the definition of restlessness and on the association scheme. The night-long, result-not-known-until-it-is-opened structure is kept, but it is no longer a fish landing: it is a sealed kiln burn beside flooded clay pits, and the forbidden lamp-and-moth reading is kept out of the film entirely.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The hand-brick clay flats and clamp kilns of the lower Deduru Oya basin, between Kuliyapitiya and Bingiriya",
+    "also_known_as": [
+      {
+        "name": "gadol",
+        "meaning": "the hand-moulded clay bricks and, by extension, the yards that make them",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "clamp kiln",
+        "meaning": "a temporary kiln built out of the unfired bricks themselves, fired and then taken down",
+        "used_by": "the standard English term for the method"
+      }
+    ],
+    "region": "North Western Province, in the low clay country inland of the coast, where the river's old floodplain has been dug for brick clay for generations",
+    "coordinates": {
+      "lat": 7.47,
+      "lng": 80.03
+    },
+    "why_here": "The province's clay flats are the country's brick and tile belt, and a working yard supplies the whole film in one place: the clay, the pits the clay leaves behind, the drying rows, the kiln and the opening. The geography does the concept's work by itself. A clamp is sealed, so the result is genuinely unavailable to everyone present until it is cold, and the borrow pits flood, so the one fire the film has is also two. The best shot the place can produce, a black stack with a line of fire at its foot lying upside down in still water, is the same shot that states the film's subject: a night of careful work carried out against something nobody can see.",
+    "what_to_film": [
+      "The flats from high above in flat light: flooded pits, bunds, and the drying yard as pure pattern.",
+      "Digging and moulding, and the long herringbone drying rows being turned and re-stacked.",
+      "The stack being built out of green bricks and plastered over with mud, so the viewer understands that the kiln is the product.",
+      "The lighting at dusk, and the first moment the fire appears in the water.",
+      "The unchanging night rhythm at the fire mouths, and the shifts sleeping on mats nearby.",
+      "The smoke column at first light, and the mouths being sealed with wet clay at the end of the burn.",
+      "The pull-down days later, filmed for colour: the graded shades by position in the stack, and what is set aside as spoiled."
+    ],
+    "access": "By road; the yards are private commercial workplaces on private or leased land, so everything depends on the owner and on every person working the shifts agreeing. Night filming around a live kiln needs the yard's own safety rules to lead, and drone work over a working site needs the owner's agreement as well as whatever permission applies locally.",
+    "best_time": "The dry months, when yards fire; within them, a single burn from the evening it is lit to the day it is taken down. Overcast daylight suits the yards, clear still nights suit the water.",
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brick_clamp",
+      "https://en.wikipedia.org/wiki/Brickworks",
+      "https://www.buildingconservation.com/articles/trad-brickwork/trad-brickwork.html",
+      "https://stumejournals.com/journals/mtm/2020/4/181.full.pdf"
+    ],
+    "research_note": "That a clamp is a temporary kiln built from the unfired bricks themselves, stacked with fuel and covered over, and that the bricks nearest the fire channels come out dark and over-fired while the outer edges come out pale and under-fired, are from the general accounts of clamp firing above and describe the method rather than this district; the graded colour at the opening is therefore expected but unverified here. That the North Western clay country is a brick, tile and ceramics belt is from the regional description and from a study of brick clays from this district. No yard has been found, named or approached, and the coordinates are the clay country between two small towns, not a chosen works. Whether local yards still fire clamps rather than permanent kilns, how many nights a burn runs, who works the shifts and whether any of them are children are all unverified, and the last of those decides whether the film can be made at all. Commons was searched through its search API for brick kilns in Sri Lanka and returned nothing usable, so images is deliberately empty rather than filled with a picture of somewhere else.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No yard, owner or crew has been found or approached. Everything here is a research direction.",
+    "Whether clamp firing rather than permanent kiln firing is still the normal method in this district, and how long a burn actually runs.",
+    "Whether children are part of the workforce at yards of this kind, which would end the idea rather than change it.",
+    "Whether a live burn can be filmed at night without getting in the way of the people working it, which is the question that decides whether the film can be made."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

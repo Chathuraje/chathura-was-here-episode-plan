@@ -2,79 +2,186 @@
   "schema_version": 1,
   "id": "IDEA-0020",
   "record_type": "idea",
-  "title": "One Hand Holds",
+  "title": "The Stone Inside",
   "status": "draft",
-  "version": 2,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "One Hand Holds"
+  ],
   "group_id": "GRP-02",
-  "logline": "A stone cutter grips a rough stone firmly in one hand while the other, for hours, does nothing but polish.",
-  "human_question": "What does patient, unglamorous effort feel like from the inside, when nobody is watching?",
-  "situation": {
-    "what_happens": "One piece of rough material is worked, over hours or days, into something finished and saleable. Most of that time is a single repeated motion, one hand holding and the other working, with pauses only to check. There is no visible progress for long stretches and then a change that only the worker saw coming. At the end the piece goes to somebody else and the next one begins.",
-    "who_is_involved": "A cutter or polisher who has done this for years, in all likelihood taught by a relative; whoever they work for, or the buyer waiting on the piece; the household the piece rate supports; younger people who are not taking the trade up.",
-    "what_is_at_stake": "For the worker, a piece that can be ruined in a second after hours of care, and a rate paid on the finished thing rather than on the hours. For the trade, a skill with fewer people entering it each year. For the film, the temptation to turn a person into the illustration of a simile, which would be a kind of theft.",
-    "how_it_unfolds": "Work like this moves at its own speed and cannot be hurried for anybody: a rough start, a long even stretch, a delicate finish where mistakes are expensive, and then it is out of the worker's hands. Whether the piece comes out well, whether it sells for what it should, and whether the worker says anything at all about any of it are not arrangeable."
+  "logline": "In an open-fronted room on a short street of workshops, a stone is cut by two hands doing opposite things: one draws a bow back and forth for hours to turn a wooden disc, the other holds the stone against it and never moves, and neither of them squeezes.",
+  "human_question": "If one hand has to hold firm and the other has to not hold at all, which of them am I doing when I want something?",
+  "place": {
+    "what_kind_of_place": "A short street of small open-fronted workshops near a river bridge, in a town whose whole economy is one mineral and has been for centuries. The rooms are narrow and give straight onto the street: a bench at window height, a stool, a bowl of water, a jar of grey paste made from burnt paddy husk and boiled rice, and on the bench a low wooden frame holding a vertical disc. The disc is not driven by a motor. It is turned by a bow, drawn back and forth by hand, one stroke at a time, all day. A hand presses more lightly than a machine does, and a lighter press takes less of the stone away, so this bench is kept for the stones nobody is willing to risk on a motor. The stone is stuck to the end of a short stick with resin and beeswax. One hand works the bow. The other holds the stick against the disc and does not move.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. At arm's length and closer: the disc turning, the stone held against it, and two hands within fifteen centimetres of each other doing entirely different jobs, one in constant motion and one perfectly still, held in frame for minutes at a time without anything else happening. The sound: a bow going back and forth, the note of it changing as the stone comes down, hours of it, which is most of what the middle of the film is made of. And the street: a row of open fronts with the same posture repeated in each one, and beyond it the ordinary business of the town, men with folded paper packets, torches held up to the light, a river the colour of the ground it runs through.",
+    "what_moves_or_changes": "One cycle, repeated, at a speed nobody can raise. A rough stone is turned under a light until its grain and its flaws are read; it is split along the grain; it is warmed onto the stick; then it is ground down one facet at a time and finally brought up with the paste and water. A single stone can take hours or days, and for most of that time nothing on screen changes except the light coming off one flat face. The work is finished in a second: the stone comes off the stick, goes into water, and is held up to the doorway.",
+    "when_it_looks_best": "Any working day, in the morning, when the light comes into an open front sideways and lands on the bench where the work actually is. The wet stage, with the paste and the water, for the surface of it. And the end of a stone, for the one moment in the whole film that arrives quickly."
   },
+  "two_layers": {
+    "without_the_philosophy": "A complete and unhurried account of how a stone is actually cut by hand in a small place: how a rough is read, how it is split, what the bow and the disc are, what the paste is made of, why a hand is still used when machines exist, how long a single stone takes, and what comes off the stick at the end. It has its own arc, rough to finished, and its own ending, a stone wrapped in a fold of paper and carried out into the street. Someone who never hears a word of narration gets a trade shown properly, at its own pace, in a room nobody photographs.",
+    "with_the_philosophy": "The same footage turns out to be a literal performance of the picture these books use for a mind at work: a man holding a vessel firmly in one hand while the other hand slowly rubs it over. The voice points at the two hands and says what the books say about them, and then does the one thing the footage alone cannot: it puts a floor under the long, undramatic middle of the film by saying that every moment of it carries a feeling, that the count of moments that are neither pleasant nor unpleasant is enormous, and that this is not the same as an absence. It never says what the person on screen is feeling."
+  },
+  "sequence": [
+    {
+      "on_screen": "A fold of paper opened on a bench. A dozen rough stones tipped out, dull and unremarkable. One of them turned slowly under a torch held close.",
+      "voice": "Not one of these exists for its own sake. Every one of them is here because somebody, somewhere, wants what is inside it. The old compendiums have a word for that: the wish to take a thing up and do it. They are careful to say it is not the same thing as clinging to it.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The bench in full for the first time: the wooden frame, the vertical disc, the bow lying across it, the jar of grey paste, the bowl of water, a stool.",
+      "voice": "These books list six things that come and go in a mind: aiming at something, going over it, making up your mind, pushing on, the lift you feel, and the wanting to do it. Then they insist that not one of the six is good or bad in itself. Each one takes the colour of whatever it is serving.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The stone split along its grain with a single tap, then warmed and pressed onto the end of a short stick with resin and beeswax, and the stick turned to check that it sits true.",
+      "voice": "The first of the six is the one that gets hold of a thing. The book's picture for it is a second man helping you raise onto your shoulder a load you could not have lifted alone. The book calls it the coarse one, the one you can actually see happening. Everything after it is finer than that.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The cutting, close and long and in real time: one hand drawing the bow back and forth, the disc turning under it, the other hand holding the stick against the disc, the stone barely moving, one facet coming down.",
+      "voice": "And here is the second one, in the book's own words. A man holds a metal vessel firmly in one hand, it says, and with the other hand he rubs it over, slowly. One hand raises the thing and grips it. The other goes across it and spreads out over it. The book adds a warning that matters here: the words make it sound like one and then the other. It is not one and then the other. They are two halves of the same instant.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The same shot, continuing. Nothing on screen changes for a long time except a single face of the stone. A face with no expression on it at all. The bow goes on.",
+      "voice": "Something has to be said about this stretch, because it looks like nothing. These books teach that every mind tastes whatever it has taken hold of, and that the taste comes in three ways with no fourth: pleasant, unpleasant, or neither one. Of the whole count of minds they list, fifty-five carry the neither. That is not an empty hour. It is an hour with a feeling in it, and the same feeling is counted in the most refined states they describe. Neither pleasant nor unpleasant does not mean numb.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "Hands and forearms at the end of a session. A back straightening on the stool. Eyes that have been fifteen centimetres from a turning disc for hours, and the fine grey dust on everything within reach of it.",
+      "voice": "The same books count the body and the mind apart. Plain bodily pain has one seat only, touch, and it is not the same item as being unhappy about it. They also separate the pains anyone can see from the ones nobody can know about without asking, which is the reason this film is not going to tell you what any of these hours felt like. Nobody here has been asked, on camera, to perform an answer.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The finishing: the grey paste worked onto the disc with water, the stone brought back against it, the note of the bow changing, and the first face that throws light instead of swallowing it.",
+      "voice": "The fourth of the six is effort, and the books describe it as the thing that does not turn back from a job until what was begun is finished. They are careful to say they mean the mental kind. Strength in the arms is a different item and is not what they are talking about. Cut across the grain and the stone is lost. Somebody has known that here for a very long time, and the knowing is the work.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The stone warmed off the stick, dropped into water, dried, held up in the doorway for a moment, then folded into a square of paper and carried out into the street.",
+      "voice": "Go back to the two hands one more time, because that is the whole of it. The wish to take a thing up is one item. The sticking that will not let it go is a different item, and these books give it different names. One hand had to hold, and the hand that did the actual work never once closed. Trained up, they say, the wish to take a thing up is what carries a person to the best they are capable of. Nothing here had to stop wanting for that to be true.",
+      "concept_id": "C021"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C021 contributes the image the source itself uses for sustained application: one hand gripping a vessel firmly while the other slowly polishes it, the mind staying with its object and working it over, alongside effort described as what does not turn back until a task is done and as mental rather than bodily strength. C032 contributes what such a stretch of time is actually like: the sources say every mind carries a feeling, in one of three ways with no fourth, and count neutral feeling in fifty-five of the one hundred and twenty-one minds, from the most ordinary to the most refined.",
-    "what_it_reveals": "That a long stretch of undramatic work is not an absence of feeling but a feeling in its own right, and that the sources' picture of a mind at work happens to be a literal description of what a pair of hands does. It also gives the group its plainest counter-example: sustained, absorbed effort that nobody is excited about and that is not wanting at all."
+    "why_together": "Read fresh, C021 hands this film its image and C032 keeps the film honest about the hours in between. The Pradeepika's picture for sustained application is not an analogy a film-maker has to construct: it is a man holding a vessel firmly in one hand while the other slowly rubs it over, set beside a bird that beats its wings to climb and then crosses the sky without beating them [C021-P:L41] [C021-P:L33]; effort is what does not turn back until the thing begun is finished, and is mental and not bodily strength [C021-M:L19]; and the six factors have no moral colour of their own [C021-P:L25]. C032 then answers the question the footage raises and cannot settle, which is what a long undramatic stretch of skilled work is made of. Feeling is present in every mind because every mind takes an object [C032-P:L43]; it comes in three ways and there is no fourth [C032-M:L5]; sixty-two of the minds counted carry gladness and fifty-five carry the neutral one [C032-M:L9] [C032-M:L13]; and the neutral one is not a poor relation, since it runs through the most refined states as well as the most ordinary. The books also count bodily pain and mental unhappiness as separate items, with bodily pain seated in touch alone [C032-P:L95–L97] [C032-P:L103], and they distinguish the pains anyone can see from the ones that cannot be known without asking [C032-P:L119–L121]. A bench where one pair of hands performs the source's own simile continuously for hours, at a distance a macro lens can hold, is where both can be filmed rather than argued.",
+    "what_it_reveals": "That the source's picture of a working mind is a description of a division of labour between two hands, and that the division is the point: one hand has to hold firm, and the hand doing the actual work must never close. That is the group's cleanest statement of the distinction it exists to make, and it is made by a body rather than by a sentence. C021 alone would leave the film's long middle looking like an absence of anything, which is the reading C032 forbids in as many words. C032 alone would be a classification with nowhere to stand. Together they also rule out the two easy endings: the film does not claim that patient craft is a calm and superior state of mind, and it does not turn a room in a hard trade into a place of serenity, and it does not claim to know what any of these hours felt like, because the sources themselves say that the hidden kind of pain cannot be known unless somebody is asked."
   },
   "concept_links": [
     {
       "concept_id": "C021",
       "role": "primary",
-      "why": "The source's own image for sustained application is a hand gripping a vessel firmly while the other slowly polishes it [C021-P:L41], and effort is defined as the mental quality that does not turn back from a task until it is done, explicitly not as bodily strength [C021-M:L19]. The sources also warn that the similes must not be read as a sequence: the factors arise together [C021-M:L11]."
+      "why": "The source's own image for sustained application is the thing this bench does all day, and it does it with abrasion, which is the simile's own verb: a man grips a metal vessel firmly with one hand and slowly rubs it over with the other, while initial application raises and takes hold of the object [C021-P:L41], with the bird that beats its wings to climb and then glides standing beside it [C021-P:L33]. Effort is defined as what does not turn back from the task until the thing begun is done, and the Margaya is explicit that the mental kind is meant and that bodily strength is a separate item [C021-M:L19]. The decisive line for this group, and the one the film ends on, is that desire-to-act is the wish to take the object and not the power that makes one stick to it, the sticking being given its own names [C021-P:L69]; the Margaya puts it as a wanting with none of greed's adhesion in it [C021-M:L27]; and developed, it is said to help subdue craving rather than feed it [C021-P:L75]. Three of the digest's limits are built into the sequence. The Margaya's warning that the similes make the two factors look consecutive when they arise in a single moment [C021-M:L11] is spoken in beat 4, because a bow stroke followed by a held stone is exactly the misreading this bench invites. The factors take the colour of the mind they join and are not virtues [C021-P:L25], so the film never implies that this work makes anyone good, and it does not offer patient labour as a moral example. And the digest's 'hard work is always virtuous' is refused directly: effort here is colourless and runs downhill as easily as up [C021-P:L53]."
     },
     {
       "concept_id": "C032",
       "role": "supporting",
-      "why": "The sources teach that feeling accompanies every mind and is experienced in three ways with no fourth, and both count neutral feeling in fifty-five minds, ordinary and refined alike [C032-M:L5] [C032-M:L13]. So hours without excitement are hours with a feeling in them. An earlier draft claimed the sources treat skilled, absorbed work as a home of neutral feeling and cited a passage the digest flags as possibly garbled and needing an expert check [C032-P:L75]; that claim has been removed, and the film should not assert what any worker is feeling."
+      "why": "It supplies the one thing the footage cannot, which is a floor under the long stretch in the middle of the film. Feeling accompanies every mind, because it is the tasting of whatever the mind has taken [C032-P:L43]; it is threefold by the way it is experienced and there is no fourth [C032-M:L5]; and the counts are large on both sides, sixty-two minds carrying gladness and fifty-five carrying the neutral feeling [C032-M:L9] [C032-M:L13]. The digest's own 'neutral means numb' warning is the reason beat 5 exists and is spoken almost verbatim: the same neutral feeling appears in greed-rooted minds and in the most refined meditative ones. Two further pieces are used and two are refused. The separation of bodily pain, which has touch as its single seat, from mental unhappiness [C032-P:L95–L97] [C032-P:L103], and the separation of open pain from the concealed kind that cannot be known unless someone is asked [C032-P:L119–L121], together give the film its rule about the worker: it does not state what anyone feels. Refused: the Pradeepika's own wording for the neutral object [C032-P:L75] is flagged in the digest as possibly garbled and needing an expert check, so the film uses the counts and the threefold scheme and not that definition; and the group's line that pleasant feeling is where wanting begins is an editorial compression that is not a sentence in these extracts, so it is never spoken. The earlier draft's claim that the sources treat absorbed skilled work as a home of neutral feeling stays deleted; the sources count feelings, they do not read minds."
     }
   ],
-  "what_the_viewer_could_understand": "Some effort is quiet: one hand holding steady while the other works, hour after hour, with nobody watching. The feeling that goes with it need not be excitement; it can be neither pleasant nor unpleasant, and that is still a feeling.",
-  "what_must_be_real": "The worker's actual work and actual pace. No piece finished faster than it really takes, and no stage of it repeated because the first time was not seen.",
-  "position_hint": "middle: the group's stillest film, placed where the difference between effort and wanting has to be felt rather than argued.",
+  "what_the_viewer_could_understand": "That the wish to do something and the grip that will not let go are two different things, and that a body can be caught doing both at once: one hand moving without stopping, the other holding perfectly still, fifteen centimetres apart, on the same stone. And that the hours in which nothing appears to be happening are not empty ones; they have a feeling in them, and it need not be excitement to count.",
+  "what_must_be_real": "The bench's actual work at its actual pace. No stage of a stone repeated because the first time was not covered, no stone finished faster than it really takes, no bench set up for the camera and no demonstration substituted for a working day. Rates, who owns the stone on the bench, and whether the hand work still pays against a machine are shown as they are or not at all. Nobody is asked to say what they feel about the work, and the narration never asserts it on their behalf; if anyone wants to say something about the trade, it is theirs, unprompted.",
+  "position_hint": "middle: the group's stillest film, and the one that has to come after the noisy pictures of wanting, so that a pair of hands doing two opposite things reads as an answer rather than as a pause. No location reasoning is involved.",
   "risks": [
-    "Reducing a craftsperson to a metaphor rather than a livelihood",
-    "A slow film with no human stake underneath it",
-    "Asserting what the worker feels; the sources count feelings, they do not read minds",
-    "Commercial sensitivity around piece rates and buyers"
+    "Reducing a working cutter to the illustration of a simile. Their livelihood and their skill are the subject; the simile is something the film notices, not something the person is there to perform.",
+    "Asserting what anyone on screen feels. The sources count feelings, they do not read minds, and they say outright that the hidden kind of pain cannot be known unless somebody is asked [C032-P:L119].",
+    "'Neutral means numb', which the digest rules out by name: the same neutral feeling runs through the most refined states in the whole scheme.",
+    "Presenting the group's line that pleasant feeling is where wanting begins as though the sources said it. The digest is explicit that this is editorial compression and not a sentence in these extracts.",
+    "Using the Pradeepika's wording for the neutral object [C032-P:L75], which the digest flags as possibly garbled and needing an expert check.",
+    "Offering patient craft as a moral example. The six factors take the colour of the mind they join and are not virtues [C021-P:L25].",
+    "A slow film with nothing underneath it. What the hand work is paid against a machine, who still learns it and who does not, and where the value in this trade actually settles are the human weight and cannot be left out to keep the film serene.",
+    "Filming an object of real value on somebody else's bench. A stone in a film can be identified, and so can its owner and its weight, which is a commercial and a safety matter for everyone in the room; nothing goes on screen that makes a particular stone traceable.",
+    "Accepting a demonstration laid on for visitors in place of a working day. This trade has a visitor-facing version and the film is not about that one.",
+    "Aestheticising dust, close work and hours at a disc. If the conditions of the room cannot be shown honestly they are not shown as atmosphere.",
+    "Turning the trade's wider world, and what is underneath it, into background colour. It is not this film's subject and it is not scenery."
   ],
   "drop_if": [
-    "No worker will let a full piece be followed from rough to finished",
-    "The work can only be shown by asking for parts of it to be redone"
+    "No cutter will let a single stone be followed from the rough to the finished face.",
+    "The work can only be shown by asking for stages of it to be repeated or slowed down.",
+    "Access is offered only through a demonstration set up for visitors rather than through a bench's ordinary working day.",
+    "Filming cannot be done without making a particular stone, its weight or its owner legible to the trade.",
+    "The hand-driven method is no longer in daily use at the bench and survives only as a thing shown to people."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0019",
       "relation": "pairs with",
-      "note": "Two pictures of the same pair of factors: the effortful lift there, the long sustained hold here."
+      "note": "The two halves of one pair of factors, filmed apart: the flapping climb there, and here the hand that grips while the other hand only rubs."
     },
     {
       "idea_id": "IDEA-0015",
       "relation": "pairs with",
-      "note": "One trade in shaping a stone, one in pricing it; the held idea keeps the other half."
+      "note": "One trade that works a thing by hand for days and one that prices a thing in a second; the wanting looks completely different at each end and is being given the same name."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "The source's own simile lived rather than illustrated, and the group's clearest instance of neutral feeling."
+    "reason": "The source's own simile performed by a real pair of hands, continuously and in close-up, with the group's plainest instance of a feeling that is neither pleasant nor unpleasant."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Relocated. The previous draft set this film among potter households behind an eastern lagoon, which collided with IDEA-0014, whose one wheel making a water pot and an ornament in the same morning is the aim-not-object test standing in the open; IDEA-0014 keeps the potters, and this idea has been moved off pottery entirely. Everything else stands: the concepts, the concept links, the two-layer logic and the digests' guards are unchanged in substance, and the title survives the move, since the stone in question is now the one inside the rough and the one on the end of the stick. The new craft is hand gem cutting on a bow-driven lap, chosen because the original image, and the best thing in this idea, is one hand holding firmly while the other does nothing but work for hours, and that division is the whole mechanism of this bench rather than one stage of it: one hand draws the bow all day, the other holds the stone against the disc and does not move, fifteen centimetres apart, at a distance a macro lens can hold for minutes. It also matches the Pradeepika's simile more closely than the previous site did, because the source's second hand rubs, and this is abrasion. C032's long neutral stretch is if anything stronger, since a single stone can take days and almost nothing on screen changes. Sequence, place, two_layers, risks, drop_if, connections and suggested_location rewritten for the new craft, with new risks added about identifiable stones and about visitor demonstrations. Images are empty: Wikimedia Commons holds photographs of gem cutting in the country, but the ones that exist are of motor-driven faceting in another town and not of this locality or this method, and an image of a different place is not written in. review.status stays pending.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The traditional gem-cutting workshops of Demuwawatha (Counsel Avenue), Ratnapura",
+    "also_known_as": [
+      {
+        "name": "Counsel Avenue",
+        "meaning": "the street's other name in English usage",
+        "used_by": "local and administrative usage"
+      },
+      {
+        "name": "Hanaporuwa",
+        "meaning": "the bow-driven cutting frame itself; also called pattale by cutters",
+        "used_by": "the trade"
+      }
+    ],
+    "region": "Ratnapura town, Ratnapura District, Sabaragamuwa Province; the street runs near the Kalu Ganga bridge, inside the gem district's main trading town",
+    "coordinates": {
+      "lat": 6.6778,
+      "lng": 80.4045
+    },
+    "elevation_m": 35,
+    "why_here": "It is a named street of traditional cutting workshops, reported as the place to see hand cutting of high-value stones still being done, inside a town where the whole trade lives and where a cutting bench is an ordinary working room rather than an attraction. The method is the point. The bow-driven frame was the main instrument of gemstone faceting in the country until the early 1970s and is kept in use alongside motors for exactly the stones that cannot be risked on one, because a hand presses more lightly and a lighter press leaves more of the stone; so the two-handed division the film is built on is not a survival being demonstrated but a commercial reason for doing the work this way. That division is real, continuous and readable at fifteen centimetres: one hand drawing a bow for hours, the other holding the stone against the disc and not moving. The stone is stuck onto its stick with resin and beeswax and brought up with a paste of burnt paddy husk and boiled rice, so the whole material world of the bench is small, tactile and close, which is the register the film needs. And the street is a row of open fronts, which lets the same posture be filmed repeating down a line of doorways without anybody being singled out.",
+    "what_to_film": [
+      "A fold of paper opened and rough stones tipped out; one of them read under a torch, turned slowly, for as long as it actually takes.",
+      "The split along the grain, and the stone warmed onto the end of the stick with resin and beeswax.",
+      "The bench in one unbroken take from an angle that holds both hands, the bow and the disc in the same frame. This is the shot the film exists for and it needs minutes, not seconds.",
+      "The same shot again, much closer, on the point of contact between the stone and the disc.",
+      "The sound recorded properly on its own: the bow, and the way its note changes as a facet comes down. It carries the middle of the film.",
+      "The paste being mixed and worked onto the disc with water, and the first face that throws light back.",
+      "The body of the work: forearms, the back straightening, the distance between an eye and a turning disc, and the dust on everything within reach of it.",
+      "The stone off the stick, into water, held up in the doorway, folded into paper.",
+      "The street: the same posture repeated down a row of open fronts, and the ordinary trade going past outside."
+    ],
+    "access": "The workshops are small private businesses on a public street in the town, so access is bench by bench and depends on the cutters and on whoever owns the stone being worked, which is very often not the cutter. No permit is involved beyond those permissions, though the industry's own authority is worth approaching first, and anything filmed of a stone will need the owner's agreement as well as the cutter's. The town also has a well-developed visitor-facing version of this trade, and a crew would have to be careful that what it is being shown is a working day and not a display.",
+    "best_time": "Any ordinary working day, in the morning, when light comes sideways into an open front and lands on the bench. Following one stone from rough to finished may take more than a day, since a single stone can run to several sessions, so filming has to sit with the bench rather than visit it.",
+    "images": [],
+    "sources": [
+      "https://gemnetsrilanka.wordpress.com/2018/10/03/ratnapura-demuwawatha-traditional-gem-cutting/",
+      "https://gemnetsrilanka.wordpress.com/2025/03/09/hanaporuwa-bow-cutting-machine-a-traditional-gem-cutting-technique-in-ancient-sri-lanka/",
+      "https://medium.com/justin-k-prim/the-modern-history-of-gemstone-faceting-in-sri-lanka-c394a5a504c3",
+      "https://en.wikipedia.org/wiki/Ratnapura"
+    ],
+    "research_note": "That this street near the river bridge is where traditional cutting of high-value sapphires and cat's-eye chrysoberyl can be seen, that the instrument is a bow-driven frame known as hanaporuwa or pattale, that it was the main faceting tool in the country until the early 1970s, that the cutter powers a vertical lap with a bow while orienting the stone by hand or on a handheld dop, that the stone is fixed with a mixture of resin and beeswax, that the polishing medium is a traditional paste of paddy-seed ash and boiled rice, and that hand cutting is preferred for large or high-value stones because the lighter pressure preserves weight, are all from the sources above and are desk research only. The coordinates are an open gazetteer point for the street, accurate to a few hundred metres, not a surveyed workshop door, and the elevation is approximate. How many benches still work this way rather than keeping a frame for occasional use, what the cutters are paid, who owns the stones on the benches, whether a crew would be allowed to sit with one stone for days, and whether the room can be filmed without a display being arranged instead, are all unverified. On images: Wikimedia Commons was searched for this locality, for the instrument and for gem cutting in the country generally. The only relevant photographs on Commons are of motor-driven faceting machines photographed in another town altogether, so nothing has been written in; an empty array is the honest result, and a re-check would be worth making against the Tamil and Sinhala Wikimedia craft-documentation projects, which have photographed other traditional trades on site.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No cutter, workshop, stone owner or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether the bow-driven frame is still in daily working use on this street, as against being kept for occasional stones or for showing to visitors, has not been checked on the ground.",
+    "Whether one stone can be followed from rough to finished within a filming visit, given that a single stone can take days, is unknown.",
+    "Who owns the stones on the benches, and whether they would agree to a camera on work of real value, is unknown and is likely to be the hardest part of the access.",
+    "What the hand work is paid against machine cutting, and who is still learning it, is unverified, and the film cannot carry its human weight without it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

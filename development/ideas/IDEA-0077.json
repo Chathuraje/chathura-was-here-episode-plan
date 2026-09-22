@@ -2,87 +2,189 @@
   "schema_version": 1,
   "id": "IDEA-0077",
   "record_type": "idea",
-  "title": "What Came Back Home",
+  "title": "Green All the Way Across",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What Came Back Home"
+  ],
   "group_id": "GRP-05",
-  "logline": "A woman returns to the village she grew up in after years of work abroad, naming places before they come into view, and finds that some of what she remembers is no longer there to be seen.",
-  "human_question": "When you remember a place, what exactly are you holding, if the place itself has already changed?",
-  "situation": {
-    "what_happens": "Someone who has worked abroad for years comes home for good, or for a long stay. On the last stretch of the journey she names what is coming before it appears, because she has been rehearsing it for years. Some of it is there and some of it is not: a house rebuilt, a shop gone, a neighbour dead, a child who was four and is now taller than she is. The adjustment that follows is not a single scene but weeks of small corrections, and the family is adjusting to her at the same rate she is adjusting to them.",
-    "who_is_involved": "The returning worker; the household that stayed, including whoever raised the children in her absence and now hands that role back, or does not; the children themselves, who remember her mostly as a voice and a remittance; neighbours whose own accounts of what changed do not always agree with hers.",
-    "what_is_at_stake": "Whether the family she has been paying for is the family she comes back to, and whether the years bought what they were meant to buy. For the person who stayed, the loss of an authority they held while she was away. For the children, a second rearrangement of who is in charge of them.",
-    "how_it_unfolds": "A return like this begins months before the journey, in plans and promises, and arrives all at once. The pressures are money that has stopped coming in, a role that has to be renegotiated without anyone saying so, and the difference between what was described on a call and what is actually standing there. It ends in settling back, in leaving again, or in a long unresolved middle, and only the family decides which."
+  "logline": "A shallow coastal lake has been taken over by a floating weed so complete that from the air it reads as a lawn, and the only thing that contradicts the eye is a canoe opening a black line across it that has closed again by afternoon.",
+  "human_question": "How much of what you see arrives through your eyes, and how much is supplied by you before you have finished looking?",
+  "place": {
+    "what_kind_of_place": "A large, shallow, slow-moving coastal lake a few kilometres inland of the sea, joined to the sea by a river mouth and to the farmed country behind it by a network of old canals and channels. It is fringed by coconut, mangrove scrub, small jetties, boatyards and the back gardens of a long ribbon of houses. Thousands of small-scale fishers work it with paddle canoes and small outboards. Over the last century two floating weeds introduced from elsewhere have settled into it, and through the wet months they knit into mats that cover whole bays and block the channels, so that large parts of the water surface are not, to look at, a water surface at all.",
+    "why_it_is_worth_watching": "From two hundred metres up on a still morning the lake is an unbroken green plane with a shoreline drawn round it, and every instinct in the eye reads it as ground: a lawn, a paddy sheet, a playing field with houses along the edge. The contradiction, when it comes, is very simple and very beautiful. A canoe pushes out from a bank and draws a black line across the green, the line widens behind the paddle and then slowly closes, and within a few hours the surface has healed and reads as ground again. At head height the same place is something else entirely: twenty centimetres of interlocked leaf and root over two metres of still black water, with a bird walking on it.",
+    "what_moves_or_changes": "The mat itself, which is not fixed to anything. A night of wind moves whole acres of it from one side of a bay to the other, so a jetty that stood in green yesterday stands in open water today and the open water of last week is green. Rain changes it again: a heavy flush pushes mats down the channels and out towards the river mouth, and opens lanes that close when the weather settles. Boats cut lines through it all day and the lines close behind them. Crews drag it out by hand and by rake where it blocks a landing, and it comes back.",
+    "when_it_looks_best": "The first hour after sunrise in the wetter half of the year, when the mats are at their greatest extent, the air is still, mist is lying on the lake and the light is flat enough that the green reads as a solid surface. The same place is worth filming again in the days after heavy rain, when open water has been torn back into it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet, strange and very beautiful landscape film about a lake that has stopped looking like a lake. Mist, a green plain, a heron walking on water, a canoe drawing a line that closes behind it, hands pulling wet weed out of a channel, the whole surface shifting overnight on the wind. It has a complete shape without a word said over it: a place, a plant, and the people who work through it. Anyone who likes looking at water and light has the whole film already.",
+    "with_the_philosophy": "The same footage becomes an exact demonstration of what the sources say happens when anything is seen. They hold that the eye meets nothing but colour, that the thing we believe we saw is assembled afterwards in several separate steps, that the naming of it comes late in that sequence, and that a name, once made, is not in time at all and does not change when the thing it names does. The lake stages all three at once, and stages them on a surface rather than on a person, so nobody in the frame is ever presented as the one who sees."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, very high. An unbroken green plain with mist lying on it, a shoreline of coconut and tiled roofs drawn round the edge, a jetty running out into the green. No movement at all. The shot is held long enough to be sure of what it is.",
+      "voice": "You have already decided what this is, and you decided it before the shot finished. Hold the decision for a moment, because it is the subject of this film.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "A heron steps three times across the green and stops. The drone drops until the surface resolves: leaves the size of a hand, interlocked, and between them, black water two metres deep.",
+      "voice": "The old texts are blunt about the eye. What meets it is colour, and nothing else; what a substance shows is a blend of the colour of many small things arriving together [C036-P:L41; C036-M:L9]. The eye never met a field. It met green.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "A canoe pushes out from a bank and starts across. Behind the paddle a black line opens, widens, and begins very slowly to close. Held from directly overhead.",
+      "voice": "Between the colour and the field there are steps. One of the manuals takes a single glance apart: the sight is replayed, then sorted as colour, then given its name, and only then does what the name refers to arrive [C046-P:L117-L151]. Recognition is the third of those, not the first. Everything you are sure you saw at the top of this film was added after the looking.",
+      "concept_id": "C046"
+    },
+    {
+      "on_screen": "Ground level. A rake being worked at a landing; wet weed hauled up in armfuls and heaped on the bank; a metre of open black water appearing behind it and starting to close within minutes.",
+      "voice": "Nothing here is deceiving anyone. The green is really green. The water is really water. What is not out on the lake is the word for it.",
+      "concept_id": "C046"
+    },
+    {
+      "on_screen": "A road sign, a painted board on a boat shed, a chart pinned inside a boatyard office: all of them use the name of the lake. Then the lake as it is, green from edge to edge.",
+      "voice": "The sources put a name in a different class from the thing. A name belongs to nothing in time; it does not arrive, age or cease with what it was given to [C036-M:L21]. That is why a word for open water sits comfortably on a board above a surface you could almost walk on.",
+      "concept_id": "C047"
+    },
+    {
+      "on_screen": "The same bay at two hours' distance: green from edge to edge, then, after a windy night, dark open water with the mat piled against the far shore. The jetty that stood in green now stands in water.",
+      "voice": "The manuals sort what comes to mind by how plainly it presents itself, clear or unclear, and they are precise that a thing seen and a thing remembered are two different objects with two different lives [C047-P:L35-L37; C047-M:L9]. What anyone here remembers of this bay ceased when it was seen. What is in front of them now is a separate event with the same name.",
+      "concept_id": "C047"
+    },
+    {
+      "on_screen": "Late afternoon, high again. Every black line drawn across the lake during the day has closed. The surface is unbroken green, and reads once more as ground.",
+      "voice": "The sequence will run again tomorrow, in the same order, in everyone who comes down to this water, and none of them will catch it doing so. The texts do not ask you to. They only say that the field you are looking at was never delivered to your eye. It was put together, in steps, after the light had already gone.",
+      "concept_id": "C046"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C047 contributes the sources' sharpest distinction, worked out through their own example of visiting a great monument: seeing it is one kind of event, remembering it at home is another whose object has already ceased and no longer exists, turning toward the real place from far away is a third, whose object is what stands there now, and the name of the place is a fourth thing again. C046 contributes the staged account of how recognition is actually assembled, the object replayed as past, then sorted, then named, then understood, with the weightiest response only at the last step. C036 contributes the hard limit underneath both, that the five senses can only meet what is present while the mind alone reaches into the past. A homecoming after years away is the one ordinary situation in which all four of C047's objects are present in the same hour and cannot be told apart by the person holding them.",
-    "what_it_reveals": "Separately these are classifications. Together, in a return, they explain why coming home is confusing in a way nobody expects: the village she has been holding is not an old version of the village in front of her, it is a different kind of object entirely, and the mind cannot help laying one over the other. C047's further distinction gives the film its second layer: remembering the place, remembering that she was there, and remembering how she felt there are three separate acts with three different objects, and most of what people call homesickness turns out to be the second and third kind."
+    "why_together": "C036 supplies the floor of the claim: the eye meets only colour, and what a substance shows is a blend arriving from many small sources at once [C036-P:L41; C036-M:L9], while the five senses can meet nothing but the present [C036-P:L25-L31]. C046 supplies the staircase built on that floor: one sight is followed by separate mind-door processes that replay it, sort it, name it and only then reach its meaning, with recognition arriving at the third step [C046-P:L117-L151]. C047 supplies the part that keeps the film from being a trick: it separates the thing seen, the thing remembered and the name, and puts the name outside time altogether [C047-M:L3-L25; C036-M:L21]. Laid over a weed-covered lake, the three become one continuous demonstration: colour arrives, ground is added, and the old word stays nailed to the board whatever the surface does.",
+    "what_it_reveals": "That the gap between what reaches the senses and what a person is certain they saw is not a rare failure but the ordinary construction of every moment of seeing, and that it can be shown without accusing anyone of being fooled. C036 alone is a statement about optics. C046 alone is a list of steps nobody can watch. C047 alone is a point about memory. Together on this water they let a viewer feel the divergence directly, in their own looking, in the first thirty seconds of the film and again at the end, with the only mistake in the room being the one they made themselves and can check against a canoe."
   },
   "concept_links": [
     {
       "concept_id": "C047",
       "role": "primary",
-      "why": "The digest teaches this concept through one worked example: seeing a great monument is an eye-door process; remembering it at home is a mind-door process whose object is something already seen, ceased and no longer existing; bowing toward the real place from far away takes present matter as object; its name is a concept; remembering that you saw it takes a past consciousness as object; and recalling the joy you felt there takes a mental factor [C047-M:L5-L23]. That is a long absence and a return, described in advance. The digest adds the point this film is really for, that remembering a place, remembering that you went and remembering how it felt are three different acts with three different objects, and that much of what we call memory is the second or third kind. Two limits are carried: the digest's own note that the source's example names a real monument and that this is source text only, never a location suggestion for the series; and its warning that 'living in the past is unhealthy' adds a judgement the source does not make, since the source only describes what remembering is."
+      "why": "The digest's whole teaching is a set of separations: what was seen is a mind-door object only once it has ceased, what is turned toward at a distance is present matter, and the name is a third thing again, time-free and belonging to neither [C047-M:L3-L25; C047-M:L9; C047-M:L11]. A lake whose surface has changed out of recognition while its name has not is that separation standing in the open, without a person's biography attached to it. The digest also gives the classification this film uses in its sixth beat, objects presented clearly or unclearly and processes divided by impulsion [C047-P:L35-L37], and states that the mind door is itself a particular mind-moment rather than a metaphor [C047-P:L25]. Its limits are honoured. The film never says that the past is unreal: the digest is explicit that past matter really existed and has ceased, and is a legitimate object. It never adds the judgement that living in the past is unhealthy, because the source only describes what remembering is. It makes no claim that turning toward a distant place connects anyone to it. And the digest's note that the source's worked example names a real monument, which is source text and never a location suggestion for the series, is observed: the film takes none of its locations from the example."
     },
     {
       "concept_id": "C046",
       "role": "supporting",
-      "why": "The digest describes how one sight is followed by several mind-door processes: the object replayed as past, then its colour, then its name or concept, which is the moment of recognition, then its meaning, and only in the last of these can the response be a full act of liking, anger, trust or confusion [C046-P:L117-L151]. That is why 'I saw the house and felt nothing for a second' is not strange but expected. The digest rules out the reading this film could easily slide into, that naming is the problem and one should stop labelling: the source treats naming as an ordinary step in knowing, and puts the moral weight on the response that follows. It also notes that Margaya's own follow-on account has three processes rather than four and records it as one teacher's view, so the two versions are kept apart rather than merged."
+      "why": "The digest's sharpest passage is the one the film is built on: one eye-door process is followed by four mind-door processes taking the object as past, then its colour, then its name or concept, which is the moment of recognition, then its meaning, and only in the last can the response be a full act of liking, anger, trust or confusion [C046-P:L117-L151]. That is exactly the divergence this lake produces, and it explains why the correction, when it comes, arrives a beat late. The digest's limits are carried in the writing. Naming is not treated as the problem, because the source treats it as an ordinary step in knowing and puts the moral weight on the response that follows; the voice therefore never tells anyone to stop labelling. No millisecond figures from popular science are offered as confirmation, since the digest warns that the counts of moments are doctrinal analysis. The film does not suggest that thought creates the lake or anything in it. And the technical sense of the mind door as a particular mind-moment [C046-P:L39] is respected: the phrase is never used to mean open-mindedness."
     },
     {
       "concept_id": "C036",
       "role": "supporting",
-      "why": "The digest states that the five senses meet only what is present, while the mind door takes objects of past, present and future and also timeless ones such as names and concepts [C036-P:L125-L161], and gives the source's three senses of 'present', the instant, the stretch it takes to recognise something, and a whole life [C036-P:L45-L57], which is a precise frame for a woman holding a village as an instant, as a recognition and as the whole of her childhood at once. The digest's own limit is observed: 'live in the present moment' is not the source's advice, and the mind's reach into past and future is treated as ordinary, not as a fault. The source's deathbed objects are not touched by this film."
+      "why": "The digest supplies the sentence that makes the opening shot work, that the eye does not meet a boat or a face but a blend of colour, and that recognition comes from what has been met before [C036-P:L41; C036-M:L9], together with the frame that the five sense doors take only present objects of their own kind while the mind door alone reaches past, future and time-free objects [C036-P:L25-L31; C036-M:L21]. It also gives the three sizes of the present, the instant, the stretch it takes to recognise something, and a whole life [C036-P:L45-L57], which is why the same lake can be cut as an instant, as a recognition and as a century of a plant's spread. The digest's limits govern the voice directly. The film never says perception is an illusion, because for the source colour is a real event and only the assembled named thing is a convention; the narration says so in as many words. It does not turn the claim into the advice to live in the present, which the digest rules out. It does not present the old account of how colour, sound and smell travel as physics. And it stays entirely clear of the deathbed objects, which belong to a teaching about rebirth and have no place in a film about a lake."
     }
   ],
-  "what_the_viewer_could_understand": "Remembering a place and seeing it again are two different things: the remembered village has already gone, while the village in front of you is what stands there now. Coming home is partly the mind meeting its own past, and these texts say that is ordinary, not a failing.",
-  "what_must_be_real": "The family's real situation, and no reunion arranged or re-staged for a camera. The economics of migrant labour are part of the film and may not be traded for a sentimental arc. Consent is renegotiated with the whole household, including the children, as the weeks go on, and anyone may stop.",
-  "position_hint": "middle: it is the group's first turn from the five senses to the sixth door, and it belongs after the films about seeing and hearing and before the film about how long a single contact can echo. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That seeing is not a single act of reception but a short sequence, and that the thing they are certain they saw was assembled in steps after the light reached them. The lake gives them the proof in their own eyes rather than on anyone's authority: they called it ground, it is water, nothing lied to them, and the word for it was supplied from their side.",
+  "what_must_be_real": "The weed, the work and the cost. This is an introduced plant that blocks landings, fouls engines, closes fishing grounds and takes hours of unpaid labour to clear, and the film may not turn it into a pretty carpet without letting that be visible and audible. Nothing is moved, cleared, cut or floated for the camera; no canoe is asked to make a line for a shot it would not otherwise make; no heap of weed is arranged. No person on screen is presented as the one who sees, or filmed so that their glance becomes the film's example, because that is the one thing the concepts deny. The fishers' own account of what the weed has done to their work is theirs and is not corrected or improved by the voice.",
+  "position_hint": "early in the group: it is the plainest available statement that seeing runs in stages, and it lands that on the viewer's own eye in the first shot, which sets up every later film about processes too fast to watch. No location reasoning is involved.",
   "risks": [
-    "Pathos-driven framing of migrant labour and family separation.",
-    "Intruding on a household's private adjustment, or filming the children before they can meaningfully agree.",
-    "Implying the family's story is a lesson rather than their own life.",
-    "Moralising about memory, which the C047 digest says the source does not do.",
-    "Letting a disagreement about what changed be edited as though one person is remembering wrongly."
+    "Letting the film become a demonstration that the viewer was fooled. The sources do not treat colour as an illusion; the green is real, and the film must say so out loud rather than enjoy a trick.",
+    "Sliding into the reading that naming is the problem and one should stop labelling, which the C046 digest rules out: the source treats naming as an ordinary step and places the moral weight on the response that follows.",
+    "Reaching for popular neuroscience figures about how fast a brain recognises an image. The digest warns that the sources' counts of moments are doctrinal analysis and must not be presented as confirmed by science.",
+    "Aestheticising an invasive weed that damages people's livelihoods, or filming a blocked landing as texture.",
+    "Framing any fisher, boatman or clearing worker as an instance of the process, or cutting to a face to supply the seer the concepts say is not there.",
+    "Adding the judgement that living in the past is unhealthy, or implying that what people remember of the open lake is false. The C047 digest is explicit that past matter really existed and ceased.",
+    "Turning the group's claim into the advice to live in the present moment, which the C036 digest explicitly rules out as a misreading."
   ],
   "drop_if": [
-    "No family with a genuine, upcoming return is found.",
-    "The family does not want the return and the adjustment filmed.",
-    "Access would require staging the arrival itself.",
-    "The film could only work by treating the returnee's memory as an error."
+    "A recce finds no continuous mat large enough to read as ground from the air on the district's side of the lake, which is the film's entire visual premise.",
+    "Drone flight over the lake and the settled shoreline cannot be permitted, or the households along the edge do not want a camera overhead.",
+    "It could only be made by clearing, arranging or steering weed for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0079",
       "relation": "pairs with",
-      "note": "Both are about what a mind holds and reworks long after the contact has ended, one a place once seen and one a sound once struck."
+      "note": "One film ends where the senses finish and the mind keeps working; this one stays at the moment of arrival and shows the steps before anything is recognised at all."
     },
     {
       "idea_id": "IDEA-0085",
       "relation": "sits beside",
-      "note": "Two films about what a mind does with something after the sense has finished with it, one remembering and one learning."
+      "note": "Two films about something that happens too fast to watch, one caught by slowing a sound down into syllables and one caught by a surface that keeps giving the wrong answer."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0041, and the C046 and C035 digests both name a migrant worker's return as the situation for this material."
+    "reason": "It puts the group's hardest claim in front of the viewer's own eye in the first shot, on a place rather than a person."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped entirely the old subject, a woman returning to her village after years of work abroad and naming places before they came into view, together with her household, the handing back of authority over her children, and the neighbours' disagreeing accounts: that was a real person's biography and it made one named individual the seer, which is the very thing these concepts deny. What is kept is the concept underneath it, recognition running ahead of the senses, moved onto a place where expectation and fact visibly diverge with nobody's life attached. Concepts re-read from the digests as a new reader; every citation re-verified against digest evidence; C036 kept and re-grounded on the eye-meets-only-colour passage rather than on the returning worker's naming.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The South Bolgoda basin and the Bolgoda Ganga channels, on the Kalutara side of the Bolgoda lake system",
+    "also_known_as": [
+      {
+        "name": "japan jabara",
+        "meaning": "the local name for the floating weed that mats the surface",
+        "used_by": "Sinhala usage in the western wet zone"
+      },
+      {
+        "name": "Bolgoda Ganga",
+        "meaning": "the narrow river reach joining the northern and southern basins",
+        "used_by": "local and map usage"
+      }
+    ],
+    "region": "Kalutara District, Western Province: the southern basin of the Bolgoda lake system, forming the western edge of Bandaragama and running down towards the Panadura river mouth",
+    "coordinates": {
+      "lat": 6.7711,
+      "lng": 79.9075
+    },
+    "why_here": "It is the place where the film's best image and its argument are the same object. The lake system is large, very shallow and slow, it carries two introduced floating weeds that knit into continuous mats through the wet months, and it is worked all day by small paddle canoes, so the green plane and the black line that contradicts it occur naturally and repeatedly without anything being arranged. The southern basin is the smaller and quieter of the two, it lies wholly in this district, and its old canal connections into the farmed country behind give the same phenomenon at two scales: a bay the size of a small town, and a channel the width of a boat.",
+    "what_to_film": [
+      "The mat from two hundred metres up on a still, misty morning, framed so that the shoreline reads as the edge of a field rather than of a lake.",
+      "A single canoe crossing, filmed from directly overhead for the whole crossing, so the line opens and begins to close inside one shot.",
+      "The same bay at a long interval: the line closed, then a windy night's worth of movement, with the mat piled on the far shore and open water where it was.",
+      "The surface at head height and below: leaf, root, the black water beneath, a bird walking across it.",
+      "Clearing work at a landing, by hand and by rake, including how quickly the opened water closes again.",
+      "Engines being cleared of weed, nets and traps lifted through it, and the ordinary cost of the plant to the people who work here.",
+      "The lake's name where it is written: road signs, a boat shed board, an office chart, filmed plainly against the green."
+    ],
+    "access": "By road from the Colombo–Galle and Horana directions to the landings around the southern basin and the connecting channels. Everything on the water depends on going out with the people who work it, in their boats and on their hours. The shoreline is settled and privately owned in long ribbons, so both ground filming and any drone work need the agreement of the households along the edge as well as the usual civil aviation clearance.",
+    "best_time": "The wetter half of the year, when the mats are at their fullest, and specifically the first hour after sunrise in still air; a second visit in the days after a heavy flush, when open water has been reopened, gives the contrast the film is built on.",
+    "images": [
+      {
+        "caption": "The Bolgoda lake system in open water. This is the lake as it looks without the weed mat, not the mat the film is about.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bolgoda Lake, Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bolgoda Lake, Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A wider view of the same lake system, again in open water; it shows the shoreline and scale rather than the weed.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BOLGODA.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:BOLGODA.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bolgoda_Lake",
+      "https://dl.lib.uom.lk/items/452e06e6-7b1e-4bac-bfc0-5278b5d59e02/full",
+      "https://www.sciencedirect.com/science/article/abs/pii/030437709290001Y"
+    ],
+    "research_note": "Desk research only. That the system has two basins of roughly 760 and 340 hectares joined by a narrow river reach, that the southern basin lies in this district, that thousands of small-scale fishers work the lake, and that the basin's canal network is affected by floating weed, are from the sources above. Published remote-sensing work mapping water hyacinth on this system covers the NORTHERN basin, which lies in the neighbouring district, and reports coverage peaking in the wet months; no source found documents mat extent on the southern basin or its channels, and no source confirms that canoes cut visible open lines through the mats here. Both are the film's visual premise and both are unverified. Water hyacinth is the likelier weed, since national biological control against salvinia is reported to have destroyed most of that infestation by 1990. The coordinates are the published centroid for the lake system as a whole, not a surveyed point in the southern basin; treat them as a direction rather than an address. The two images are of the lake in open water and are captioned as such, because no confirmed image of a weed mat on this system was found.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether continuous weed mats of the size the film needs actually form on this district's side of the system. The published mapping covers the northern basin only, and the southern basin is unverified.",
+    "Whether canoes working the lake cut lines that read as lines from the air, and how long such a line takes to close. Nothing found documents this.",
+    "Which of the two introduced weeds dominates here now, and in which months, which decides the shooting window.",
+    "Whether drone flight is permissible over a settled, privately owned shoreline with a yacht club and recreational traffic on the water, and what civil aviation clearance requires.",
+    "No fisher, landing, boatyard or household has been found or approached. Everything here is a research direction."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

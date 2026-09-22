@@ -2,79 +2,187 @@
   "schema_version": 1,
   "id": "IDEA-0018",
   "record_type": "idea",
-  "title": "Measured Twice",
+  "title": "Picked Before It Opens",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Measured Twice"
+  ],
   "group_id": "GRP-02",
-  "logline": "In the weeks before the New Year, a tailor takes orders from a student who fears being looked down on, a mother dressing her children to impress, and a man who just wants a decent shirt.",
-  "human_question": "Can you tell, from the outside, whether someone is dressing to be safe or dressing to be admired?",
-  "situation": {
-    "what_happens": "In the busiest weeks of a tailor's year, a run of customers order clothes for the same season and the same festival. The measuring, the chalking and the stitching are identical for each of them. What differs is what each person says, mostly unasked, about why they want it: to not be looked down on at a relative's house, to have children who are noticed, to own one shirt that is not falling apart. The tailor writes all of it down the same way and gets on with the work.",
-    "who_is_involved": "A tailor at the peak of a seasonal trade; the customers who pass through in a few weeks, among them a young person anxious about how they will be received, a parent dressing children for display, and someone simply replacing what has worn out; whoever helps in the shop.",
-    "what_is_at_stake": "For the customers, how they will be seen at an occasion they cannot skip, and money spent that is not spare money. For the tailor, a year's margin compressed into a few weeks, and promises that have to be kept. For the film, the standing risk of sorting living people into good wanting and bad wanting, which is exactly what it must not do.",
-    "how_it_unfolds": "A tailoring season builds to a wall: orders taken freely at first, then a backlog, then the last days when something has to give. It ends with garments collected, altered, or not finished in time. Which customers choose to say anything about their reasons, and whether a reason turns out to be simpler than it first looked, is decided by them."
+  "logline": "On a huge ancient reservoir on a dry northern plain, a few people float out before sunrise on truck inner tubes and come back with five hundred closed lotus buds each, and by the next morning every one of them has been opened by somebody two hundred kilometres away, for a reason nobody at the water will ever know.",
+  "human_question": "If two people do exactly the same thing for completely different reasons, is there anything anywhere in the world that shows the difference?",
+  "place": {
+    "what_kind_of_place": "A very large sixth-century reservoir on a flat, hot, thinly settled plain, rebuilt inside living memory as a settlement scheme, with a long earth bund, a rock outcrop serving as its spillway and paddy spread out below it. Along the shallow margins there are lotus beds. Picking them is not casual: the water is leased for a year by a farmers' organisation to whoever bids highest, and after that only the people the lease-holder names may take anything out of it. The picking is done before dawn from truck inner tubes, one person to a tube, because a tube goes where a boat cannot; a full tube carries its picker and about five hundred closed buds ringed around them. The buds are packed into gunny sacks and moved overnight so that they arrive somewhere else, open, in the morning.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. From the air at first light, a sheet of water the size of a small sea with pink laid along its edges, and one black tube moving slowly through it leaving a line of cleared water behind. At eye level, a hand closing on a bud that has not opened yet, and the tube filling until the picker is sitting inside a complete ring of flowers. And at the far end of the night, a sack cut open on a pavement at six in the morning with everything inside it already coming open at once.",
+    "what_moves_or_changes": "The water is different every month: the tank fills and draws down, the beds thicken and are cut back, the hyacinth moves across. The light that makes the film exists for about twenty minutes and then the day goes flat and hard. A tube fills at the speed of one pair of hands. The sacks go out on a fixed departure, whatever has been picked. And the demand at the far end climbs towards the full moon and drops away after it, so the same water is worked hard on some days and barely touched on others.",
+    "when_it_looks_best": "The twenty minutes either side of sunrise, on the water, which is also when the work actually happens. Flowering follows the rains, so the beds are at their fullest some months after the wet season rather than during it. Full-moon days for the trading end. The last beat wants the same water at dusk, when the beds close."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about an extraordinary job almost nobody has heard of: a man in a lorry tyre on a crocodile water before sunrise, picking flowers that have to be picked shut, in a place that was a frontier a generation ago. It has a complete shape of its own, one night long, from a tank in the dark to a pavement in the morning, and it answers a question anybody can feel the force of, which is where the flowers come from.",
+    "with_the_philosophy": "The same footage becomes the sources' distinction made watchable. The voice holds one object completely still while everything around it changes: at the bund it is a lease and a price, in the tube it is a count of five hundred, in the sack it is stock, on the pavement it is a transaction, and on a stone at the end it is an offering. The books sort acts by what they are for, not by what they look like, and this film is an hour of proof that what a thing is for is not stored anywhere in the thing. It then refuses the move that would ruin it, which is to sort the people at either end into the good kind and the bad kind."
+  },
+  "sequence": [
+    {
+      "on_screen": "Before sunrise, from the air. The bund, the plain, a sheet of still water, pink along the margins, and one black tube already out among it.",
+      "voice": "Nothing being picked here this morning is food. It is not medicine and it has no use. It is picked closed, because it has to travel, and because whoever opens it is not here and will not be told anything about this water.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "The bund at first light. A gate, a painted board, a handwritten list of names, somebody walking the shoreline path.",
+      "voice": "The right to take these flowers is sold once a year, by auction, to whoever bids the most, and after that only the people on a list may pick. So before it is picked, before it is even open, the flower is already a price. Earning and looking after money is on the same list of everyday occasions that these books make.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "In the water. Hands working fast among the leaves, each bud snapped and set into the ring of the tube. The ring closes. Five hundred.",
+      "voice": "Here is the line the books actually draw, and they draw it over and over: the same act, they say, is counted by what it is for. The same cooking, the same clothes, the same earning. Not by what it looks like from outside. Nothing in this hand tells you anything at all.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "Night. Sacks tied and loaded, a platform, a goods van, men sitting against the load, nobody talking.",
+      "voice": "The world these books count is this one, the one made of what gets seen and smelled and touched. And they say that the wanting in it turns up with delight in one person and as flat routine in another, which means nobody on this platform at midnight can be read either way. A camera has never filmed a mind.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Six in the morning at the far end. A sack cut open on a pavement, buds opening in a basin of water, counted into tens, money changing hands, a bus queue going past.",
+      "voice": "The books put flowers, good food, fine clothes, music and scent among the everyday occasions when wanting comes up, and they are honest that for most people most of a day runs on liking and reaching. Then they say the same things, done out of faith, or kindness, or a straightforward sense of what is useful, are not counted as a fault at all.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "A hand puts one flower down on stone and takes itself away. Around it, a few hundred already laid there, the earliest of them going brown at the edges.",
+      "voice": "Every one of these was bought in order to be let go of. Somewhere in the middle of this, between the tube and the stone, the same object stopped being a price and became something else, and there is no moment in the footage where you could point and say it happened. The books are careful here too. They say this kind of act is not counted a fault. They do not say what it is instead.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "The same water at dusk, two hundred kilometres back the other way. The beds closing for the night, a tube tied up on the bank, the plain going dark.",
+      "voice": "None of this is an instruction to stop buying flowers. The books do not ask for that anywhere. They are counting moments of mind, not days, and they are counting them in general and never in a particular person. Which leaves us where the water leaves us. Five hundred to a tube, every one of them identical, and not one of them carrying the reason it was picked.",
+      "concept_id": "C005"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C005 contributes the line the sources themselves draw: fine clothes are listed among the everyday occasions on which greed-rooted minds arise, and then the same act is separated by aim, so that dressing to look beautiful, to attract, or to seem superior is counted one way, while dressing to cover the body and keep off cold, heat and insects is not counted as unwholesome. C004 contributes what makes it a film rather than an argument: a finished garment is a thing seen as beautiful and reached for, and the reaching is what greed is named for, not the cloth.",
-    "what_it_reveals": "That the difference the sources care about is invisible from outside and audible only if a person chooses to speak it. Holding an identical act steady while the reasons vary is the only honest way to show that the act is not what is being judged, and it makes plain how little anyone watching can actually conclude about anyone else."
+    "why_together": "Read fresh, the load-bearing thing in C005 is not the list of occasions but the repeated separation by aim. The Margaya names the everyday occasions, fine clothes, tasty food, music, scent, earning and guarding wealth among them, and says frankly that for ordinary people most minds from waking to sleep are of that kind [C005-M:L7]; then it says four separate times that the same act done from faith, loving-kindness, compassion or a practical sense of usefulness is not counted unwholesome [C005-M:L9], with cooking and eating as its worked example [C005-M:L11] [C005-M:L13]. C004 supplies what that distinction is being drawn inside. The Margaya defines greed as the attaching that takes things and people to be good, beautiful or sweet [C004-M:L13], which puts the fault in the attaching and never in the object, and it says the same reaching arrives with joy in one person and with a flat middling feeling in another [C004-M:L17]; the Pradeepika frames the whole count as the world of what is seen, heard, smelled and tasted [C004-P:L25] and keeps twenty-four of its fifty-four minds on the 'beautiful' side [C004-P:L27], so the sense world is not written off. A supply chain that moves one identical object overnight from a lease to an offering is the place where that distinction can be filmed, because the object is constant and everything else about it changes.",
+    "what_it_reveals": "That the difference the sources care about is not stored anywhere in the world. Hold the object still and the whole argument becomes visible as an absence: five hundred identical buds, and nothing in any of them recording why it was picked, bought or put down. C005 on its own invites a film that sorts people into the reverent and the vain, which is exactly what its digest forbids. C004 on its own would make the flower the problem. Together they produce the film's discipline: the camera can follow an object all night and still arrive at the honest conclusion that it cannot tell, which is also the reason the earlier draft had to go, since that one proposed to find out by asking customers at a counter why they wanted what they were buying."
   },
   "concept_links": [
     {
       "concept_id": "C005",
       "role": "primary",
-      "why": "This is the digest's own example: the same order of clothes counted as greed-rooted when it is for beauty, attraction or seeming superior, and not counted as unwholesome when it is for cover and protection [C005-M:L15] [C005-M:L17] [C005-M:L19]. The digest flags one of those rulings, that wearing good clothes to escape others' contempt is not unwholesome, as notable and needing an expert check before any film leans on it, so the film may show a customer's fear of contempt but must not state the ruling as settled."
+      "why": "The film exists to stage the Margaya's own move: the same act counted by its aim rather than by its appearance, with faith, loving-kindness, compassion and practical usefulness named as the motives under which an ordinary act is not counted unwholesome [C005-M:L9], and with the everyday occasions, among them scent, flowers, food, clothes and the earning and guarding of wealth, named as where wanting ordinarily shows up [C005-M:L7]. Two limits from the digest are load-bearing and are in the sequence rather than the risks. The first is precision: most of these rulings say only that an act is 'not unwholesome' and do not say what it is instead, and only the kindly feeding of an animal is called wholesome outright [C005-M:L21], so the sixth beat stops exactly where the source stops and does not promote anyone on screen. The second is that this is not an 'only intentions matter' teaching, since the same passage still names theft, lying, divisive speech and misconduct as courses of harm carried out through wanting [C005-M:L3]. Two more guards shape the tone: the source does not preach deprivation or minimalism, so the film never suggests that buying a flower is a lapse; and it classifies minds rather than people, so no picker, lease-holder, seller or buyer is ever sorted. The claim that most of an ordinary day runs on greed-rooted minds [C005-M:L7] is the author's unquantified general statement and is voiced as that."
     },
     {
       "concept_id": "C004",
       "role": "supporting",
-      "why": "Greed is defined as the attaching that takes things to be good, beautiful or sweet [C004-M:L13], so a finished garment belongs to the sense-sphere world the sources are counting, and the film can show the object without the object being the fault."
+      "why": "C004 keeps the fault off the flower. Greed is defined as the attaching that takes things and people to be good, beautiful or sweet [C004-M:L13], so what is being described is a movement towards the object and never the object itself, which is what allows a film made almost entirely of a beautiful thing to carry this concept without becoming a warning about beauty. The same digest supplies the reason the footage cannot settle anything: this reaching comes with joy in one person and with a flat neutral feeling in another [C004-M:L17] and never with displeasure [C004-M:L15], so faces are not evidence, which the fourth beat says out loud. The Pradeepika's framing of the whole count as the sense world [C004-P:L25] is why an object moving through sight, smell and handling is the right vehicle. Its proportions are a guard the film needs: thirty minds are grouped as not beautiful and twenty-four as beautiful [C004-P:L27], so the sources plainly do not treat sense life as a trap, and a film about flowers must not imply they do. The digest's uncertainties are respected by omission: the listing of affection and love among the names of greed [C004-M:L13], and the account of the first mental process after conception [C004-P:L73], are both flagged for expert check and neither is used."
     }
   ],
-  "what_the_viewer_could_understand": "Two people can order the very same shirt for very different reasons, and what makes it wanting is the reason inside, not the shirt. From outside, the two are indistinguishable.",
-  "what_must_be_real": "The tailor's actual orders and customers' own reasons, given freely and never in answer to a question about doctrine. No customer recruited to represent a category.",
-  "position_hint": "middle: the pivot of the group, where wanting stops being told by what someone does and starts being told by why.",
+  "what_the_viewer_could_understand": "That the thing these books sort by is the aim, that the aim is not recorded in the object, in the price, in the hand or in the face, and that this is not a gap in the film but the point of it. Five hundred identical flowers in a tyre tube, and not one of them carrying the reason it was picked.",
+  "what_must_be_real": "The actual lease, the actual count, the actual pay for a tube of flowers and the actual hours the work takes. No picker asked to go further out, to pick faster, or to go back for a second run so the light is better. No sack opened early and no flower placed. If an offering is filmed it is filmed as it happens, never interrupted, restarted or repeated, and nobody is asked why they bought anything. The hazards of the water are shown as they are or not at all, and the film does not go out on the water if being out there changes what the pickers do.",
+  "position_hint": "middle: it is the pivot of the group, where wanting stops being told from what somebody does and starts being told from why, and it needs the earlier, plainer films behind it. No location reasoning is involved.",
   "risks": [
-    "Probing customers' motives, which is intrusive however gently it is done",
-    "Presenting poverty as virtue and comfort as vice",
-    "Sorting customers into good and bad wanting on screen",
-    "Stating the source's ruling on dressing to escape contempt as settled, when the digest flags it for expert check"
+    "Sorting the people at either end into the reverent and the vain. The film's whole argument is that this cannot be done, and one edit could undo it.",
+    "Filming an act of worship as spectacle, or interrupting, restarting or lighting an offering for the camera.",
+    "Reading 'only intentions matter' into the source, which still names particular acts as courses of harm [C005-M:L3].",
+    "Promoting anyone on screen to 'wholesome'. The source mostly says only that an act is not unwholesome, and the digest flags the gap [C005-M:L9].",
+    "Implying that the flower's beauty is the problem; the sources put the attaching, not the object, in the definition [C004-M:L13].",
+    "Suggesting that the sense world is a trap, when twenty-four of the fifty-four minds in this count are called beautiful [C004-P:L27].",
+    "Preaching deprivation by implication, when the source allows wealth earned and spent wisely.",
+    "Romanticising badly paid and genuinely hazardous work: open water before dawn, hyacinth, and crocodiles in these tanks.",
+    "Turning it into an exposé of the lease system, or into a postcard about it. Either is a different film and neither is verified here.",
+    "Crew safety and drone permission over a large open water and a settlement area, which may be refused."
   ],
   "drop_if": [
-    "No tailor or customers will speak candidly about their own reasons",
-    "Customers' reasons can only be got by leading them"
+    "The picking is no longer done by hand from tubes, or only a demonstration run can be arranged.",
+    "Access is conditional on not showing what a picker is paid or what the lease costs.",
+    "The far end of the chain cannot be filmed at all, leaving only the tank, which is half the argument."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0014",
+      "idea_id": "IDEA-0016",
       "relation": "pairs with",
-      "note": "Two garments for two occasions: one choice led by other people's wanting, one sorted by the customer's own stated reasons."
+      "note": "Two products with no practical use at all, each followed from the place it is taken out of to the hand that finally takes it."
     },
     {
       "idea_id": "IDEA-0017",
-      "relation": "pairs with",
-      "note": "Both hold one act steady and let the aim behind it vary; one in buying, one in giving."
+      "relation": "mirrors",
+      "note": "A thing bought in order to be put down and left, and a thing cooked in order to be handed away; both end with the object out of the giver's hands."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "The group's clearest statement that aim, not act, is what the sources sort by; grounded in the digest's own example."
+    "reason": "The group's clearest statement that the sources sort by aim and not by act, now made by holding one object steady through a whole supply chain instead of by asking people about their motives."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape. Dropped the old situation block entirely: it was built on a tailor's customers volunteering their private reasons, including a student who feared being looked down on, which is an interior state the camera cannot film and a person the film would have been using. New location: a large ancient reservoir whose lotus beds are leased by auction and picked before dawn from inner tubes, with the flowers moved overnight to sellers at the far end, chosen because one identical object passes through a lease, a count, a sack, a sale and an offering without anything in it recording why. New title, old title kept in aliases. Both concept links re-tested against their digests and rewritten: C005 re-grounded on the repeated aim line and on the digest's precision that most of these rulings say only 'not unwholesome', with the contempt ruling the old draft leaned on dropped, since the digest flags it for expert check and the new film has no clothing in it; C004 re-grounded on the definition that keeps the fault off the object and on joy-or-flat feeling as the reason faces prove nothing. Added place, two_layers, a seven-beat sequence and a proposed location. Connections re-pointed inside the group.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Padaviya tank",
+    "also_known_as": [
+      {
+        "name": "Dhanavapi, later Padavapi",
+        "meaning": "the reservoir's older names in the chronicles",
+        "used_by": "historical and archaeological usage"
+      }
+    ],
+    "region": "Padaviya Divisional Secretariat, northern Anuradhapura District, North Central Province, on the dry plain towards the east-coast boundary",
+    "coordinates": {
+      "lat": 8.799,
+      "lng": 80.7725
+    },
+    "why_here": "It is one of the waters named in reporting as a source of the lotus and water lily that reach city flower sellers, and it is the second-largest tank in its district, built in the sixth century and restored in living memory as a settlement scheme, which gives the aerial work a sheet of water on a flat plain with a long bund and a rock spillway and almost no visual clutter. The trade around it is a system rather than a hobby: the water is leased annually by a farmers' organisation to the highest bidder, only authorised pickers may work it, the picking is done from truck inner tubes before dawn with roughly five hundred buds to a tube, and the buds go out by night in gunny sacks to arrive open in the morning. That chain is what the film is, because it carries one unchanged object through five different meanings in twelve hours. It is also genuinely little known, a long way from any tourist route, and the film has no interest in the ancient monuments of the district.",
+    "what_to_film": [
+      "The water from the air in the twenty minutes before and after sunrise: the whole sheet, the pink along the margins, and one tube crossing it with a line of cleared water behind.",
+      "A tube being carried down and entered, filmed from the bank, and the picker working outward until the ring of buds around them is complete.",
+      "Hands at close range: a closed bud taken, snapped, turned and set into the ring, at the speed it actually happens.",
+      "The bund and the administration of it: the board, the list of names, the walk along the shoreline path, and whatever physically marks the lease.",
+      "The night movement: sacks tied, loaded and sat against, and the hours in which nothing happens.",
+      "The far end at first light: a sack opened on a pavement, buds coming open in water, being counted into tens and sold, with the ordinary street going on around it.",
+      "One flower being put down and left, filmed from a distance and without any approach to the person doing it, and the stone as it is by the middle of the day."
+    ],
+    "access": "By road from the district capital through Kebithigollewa, or from the east coast side; it is a long drive from anywhere with a crew base. The tank itself is public water, but the picking is controlled by the annual lease, so the working permission has to come from the lease-holder and from the pickers themselves rather than from a public authority. Going out on the water is not proposed unless the pickers say it is safe and it does not change how they work; crocodiles are reported in these tanks. The far end of the chain is a separate shoot in another part of the country and needs its own permissions.",
+    "best_time": "First light, which is both the light and the working hour. Some months after the wet season, when the beds are at their fullest rather than at their most flooded. Full-moon days for the trading end, when demand is highest. Dusk on the same water for the last beat.",
+    "images": [
+      {
+        "caption": "The tank itself, for the scale of the water and the flatness of the plain around it.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Padaviya_tanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Padaviya_tanka.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The approach to the tank, for the country the crew would be working in and the road in.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/On_the_way_to_padaviya_tank.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:On_the_way_to_padaviya_tank.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Lotus growing in open water in the same district, for the beds the film is built on; not this tank.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nelumbo_nucifera-1-annradhapura_road-Sri_Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Nelumbo_nucifera-1-annradhapura_road-Sri_Lanka.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.sundaytimes.lk/180107/plus/flower-power-276056.html",
+      "https://en.wikipedia.org/wiki/Padaviya",
+      "https://en.wikipedia.org/wiki/Nelumbo_nucifera"
+    ],
+    "research_note": "The picking method from inner tubes, the five hundred buds to a tube, the annual leasing of the waters by farmer organisations to the highest bidder with only authorised pickers allowed, the overnight movement in gunny sacks so the flowers arrive open, the poya-day peaks in demand and the hazards of hyacinth and crocodiles are all from the newspaper report above and are desk research only; that report names this tank's area among the sources of supply but does not describe this particular water. The tank's history, its rank in the district and its spillway are from the encyclopaedia entry, and the coordinates are from an open gazetteer lookup. Which beds are actually worked, who currently holds the lease, what a picker is paid, where this water's flowers are sold and whether drone flight is permitted are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No lease-holder, picker or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether this particular water is currently worked for flowers, as against others in the same district, is unverified and is the first thing to check.",
+    "Where this water's flowers actually go, and whether the selling end can be filmed at all, is unknown; the film is half an argument without it.",
+    "Safety on the water, for pickers and for any crew, has not been assessed, and crocodiles are reported in tanks of this kind."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

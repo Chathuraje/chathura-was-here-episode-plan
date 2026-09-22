@@ -2,89 +2,182 @@
   "schema_version": 1,
   "id": "IDEA-0033",
   "record_type": "idea",
-  "title": "The Mended Net",
+  "title": "Nothing to Strike Against",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Mended Net"
+  ],
   "group_id": "GRP-03",
-  "logline": "A working crew's main piece of gear comes back cut through by someone else's boat, and the days that follow are spent mending it by hand while the argument about who was in the wrong keeps surfacing and settling again.",
-  "human_question": "When someone stands between us and what we need, what does the wanting turn into, and who actually carries it?",
-  "situation": {
-    "what_happens": "A crew that shares inshore water with other crews finds its net cut clean through, and they are certain another boat did it. The damage is not abstract: until the net is whole again the boat does not fish, and the repair is days of unglamorous hand work in which the same few people sit together with nothing to do but talk. The talk keeps returning to the other crew and keeps being put down again, because the twine still has to be tied. Somewhere in those days the crew decides whether to answer it, report it, or let it go, and the decision is made by tired people who are also short of money.",
-    "who_is_involved": "The crew who work the net and the person who owns it and carries the loss; younger crew who want it answered and older ones who have seen where that goes; the households that eat from this boat; the other crew, present for most of the film only as an account given by people who are not neutral; and whoever the community uses to settle such things, a fishers' society or an elder whose word is normally accepted.",
-    "what_is_at_stake": "Days of income, the cost of twine and hands, and a season that does not pause while the net is ashore. Beyond that, the working relationship between two crews who will go on sharing one stretch of water whatever is decided, and the risk that answering it costs more than the net did. For the film, the stake is not ruling on who was right, and not making a live dispute worse by filming it.",
-    "how_it_unfolds": "It begins with damage found, and with an immediate certainty about who did it. The pressures are the tide, the money, the pull between the ones who want it answered and the ones who want it dropped, and the fact that a version of events is circulating on both sides. It can end in a repair and a quiet letting-go, in a complaint taken to whoever settles such things, in a confrontation, or in nothing being resolved at all and the boat simply going back out. Reality decides which, and the days after the heat are as much the film as the heat is: the same people are back at ordinary work beside each other long before the damage is paid for."
+  "logline": "A shallow brackish lagoon where fixed gear stands in water that everybody else has to cross in the dark, and a net torn open by a boat nobody can name is carried ashore and closed again over three days, one knot at a time.",
+  "human_question": "When something has been done to us and whoever did it is nowhere to be found, where does the pushing-back go?",
+  "place": {
+    "what_kind_of_place": "A shallow brackish lagoon of about thirty square kilometres, nowhere deeper than a few metres, shut off from the open sea by a sand bar that blocks its one narrow mouth for much of the year. Seagrass beds, mudflats, small stands of mangrove, oyster beds, and a rim of scrub, paddy and shifting cultivation behind it. It is worked from small fibreglass canoes and non-mechanised wooden boats by households of three different communities living around its edge, and the gear is of two incompatible kinds. Some of it stays where it is put: fyke nets and crab nets staked out on poles and pipes, set at dusk and left. The rest of it moves: gill nets shot from a drifting boat, and the boats themselves. Everything that moves has to pass around everything that is fixed, at night, in shallow water, with nothing drawn on the surface to say where anything is. Behind each hamlet there is a strip of dry ground under trees where nets are spread out, and that strip is where most of this film happens.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. From the air, a pale sheet of water with dark rows of stakes running out from the shore into it, a geometry drawn on water by people who cannot see each other working. At water level, a net coming up over the gunwale wet and heavy, with a long ragged mouth in it that opens and closes with the roll of the hull. And on shore, the net pulled out flat across fifteen metres of ground with low sun behind it, so the mesh separates into a grid and the damage reads as a plain hole in the grid, with two or three people sitting inside it for days closing it with a wooden needle.",
+    "what_moves_or_changes": "One thing, slowly: a hole gets smaller, and the change is measurable by eye between morning and evening. Everything around it keeps its own timetable. The bar opens or does not. Birds work the mudflat at low water. Boats go out at dusk and come back at first light, crabs are sorted and weighed, the lagoon goes from silver to grey to silver. The colour of the work changes too, because new twine never matches old, so the repair is visible from the first knot and stays visible for the rest of the net's life.",
+    "when_it_looks_best": "Low sun at either end of the day, when a net stretched between poles is backlit and the mesh comes apart into lines. The calmer months when the bar is closed and the lagoon lies flat enough to hold a reflection, for the aerial work over the stake rows. Mending happens whenever damaged gear is ashore rather than on any calendar, so the film has to follow the damage and not the season."
   },
+  "two_layers": {
+    "without_the_philosophy": "A patient film about the single piece of equipment a household's income depends on, broken and put right by hand. It has a shape of its own: damage found, gear carried up the beach, three days of one movement repeated many thousands of times, and the net going back over the side at dusk with a paler patch in it. Someone who never hears a word of the narration gets a complete working week on a lagoon almost nobody films, the physical facts of a trade, and the plain satisfaction of watching a hole close.",
+    "with_the_philosophy": "The same footage becomes a demonstration rather than an argument. The sources describe this state as the mind striking against its object, and this film is set in the days when there is nothing to strike. Whoever did the damage is not present, was probably not looking, and may not know. What is present is twine, a needle and a hole. The voice can point at the difference between the work the hands are doing and the work the mind keeps starting again, and it can do it without anybody on screen being an example of anything. The last beat refuses the tidy ending, because the mend shows: nothing here is erased, and nobody was answered."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn from the air. A flat pale lagoon closed off from the sea by a sand bar, and rows of stakes running out from the shore into water that carries no other line on it.",
+      "voice": "Everything standing in this water was put there by somebody. Everything else that works this lagoon has to move through it in the dark. Nothing is marked. Nobody who sets a fixed thing at dusk can see where a drifting thing will go at two in the morning.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Water level, first light. A net comes in over the side of a small boat, heavy and dragging. Halfway along it the mesh is open: a long ragged mouth that breathes with the roll of the hull.",
+      "voice": "The old books have a word for what happens next inside a person, and it is a physical word. Striking against. Something disliked arrives and the mind goes at it, wanting it gone. They are strict about one thing. This never comes without a pain of its own. You can want something and be happy while you want it. You cannot do this and feel pleasant at the same time.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "The net carried up the beach and spread on dry ground under trees. Two people walk it square. From directly overhead, a grid fifteen metres long with one hole in it.",
+      "voice": "One of these books lists the ordinary occasions for it. What you asked for was not given. Your word was not accepted. Somebody seems to have done wrong. That is most of the list, and not one entry on it requires anybody to be cruel. A boat crossed here in the dark. That is the whole of what is known.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Hands, a wooden needle, twine. The same knot, again. Wider: three people sitting inside the spread net, the light moving across the ground behind them as hours pass.",
+      "voice": "The books also say something less comfortable. They make no exception for being in the right. The hatred a person feels towards an enemy who has come to harm them is named as the fiercest form of the same thing, not as a better kind of it. Being wronged does not change what the state is. It only makes it easier to keep.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Mid-afternoon. The hole is half the size it was. Someone stands up out of the net, walks to the water's edge, looks at nothing, comes back and sits down again.",
+      "voice": "There is a list of fourteen of these things, and four of them are said to be in every unwholesome moment, whatever it looks like from outside. One of the four is restlessness. That is why the same facts get gone over again at four o'clock having been settled at eleven. Nothing new has arrived. The mind is simply not sitting still.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Evening. The gap is down to a hand's width. Close on the new twine lying against the old: a paler line running away through the mesh.",
+      "voice": "The same book is blunt about going over a wrong. Remembering it is not the fault. Grinding it is. It says that kind of regret makes the thing heavier instead of lighter, and that what is actually wanted is the energy to do some good now. Today that energy went into about nine thousand knots.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "First light. The net is folded into the boat and shot back out over the water. The paler patch goes over the side with the rest of it and disappears.",
+      "voice": "It will always show. The twine does not match, and the repair stays a different colour for as long as the net lasts. Nothing was undone here and nobody was answered. A hole was closed by the people who did not make it, which was the only part of this that was ever theirs to do.",
+      "concept_id": "C007"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C007 supplies the state itself: the sources define aversion by its object and its aim, a disliked object met and a mind that strikes against it and wants it gone [C007-P:L32–L34], and they insist that both hate-rooted minds always arrive with a painful mental feeling, never a pleasant one [C007-P:L25–L28]. Margaya's own list of when this happens reads like this situation written out in advance: when what one asks for is not given, when one's word is not accepted, when others seem to have done wrong [C007-M:L17]. C022 supplies what is in the state while it lasts: hate's family of forms, which the compendium extends to discontent, disgust, displeasure and the wish to strike back [C022-P:L121], and the four that are present in every unwholesome moment whatever it looks like from outside, among them restlessness [C022-P:L31]. One holds the turn, the other holds the anatomy.",
-    "what_it_reveals": "That the loss and the heat are two different things arriving at the same time, and that they run on different clocks. The net's damage lasts for days and costs money; the displeasure comes and goes several times inside one afternoon of mending, in the same people, over the same facts. Neither concept shows that alone. C007 on its own would make the film a study of one flare; C022 on its own would be an inventory with nothing at stake. Together they let a viewer see that the state is something that visits, not something anyone here is."
+    "why_together": "Read fresh, C007 supplies the definition and the occasion. Pradeepika defines this state by what it meets and what it wants, a disliked object arriving and the mind striking against it and wanting it destroyed [C007-P:L32–L34], and both sources insist the two hate-rooted minds always carry a painful mental feeling and are never pleasant [C007-P:L25–L28; C007-M:L3–L9]. Margaya explains the name paṭigha as striking against the object and widens the word to cover anger, grudge, fear, dislike and discontent [C007-M:L3], and its list of everyday occasions is this situation written out in advance: what one asks for is not given, one's word is not accepted, others are thought to have done wrong [C007-M:L17]. C022 supplies the anatomy of the days that follow. Both sources put discontent, disgust, displeasure and the wish for revenge inside the same factor rather than treating anger as one clean emotion [C022-P:L121; C022-M:L35]; Pradeepika names restlessness as one of the four present in every unwholesome mind [C022-P:L31]; and it gives the teaching this film ends on, that simply recalling a wrong is not the fault, that brooding over it makes the thing heavier, and that what is wanted is the energy to do good now [C022-P:L143]. One holds the turn, the other holds the three days after it.",
+    "what_it_reveals": "That the event worth filming is not the damage. It is the interval in which the object of the state is absent and the only available work is reconstructive. C007 on its own would push the film towards a flare, and there is no flare to film here, because the other boat is somewhere out on the same water and nobody knows which one it was. C022 on its own would be an inventory. Together they let one shot carry the whole thing: a net laid flat with a hole in it and people sitting inside the hole, closing it by hand, while the thing the mind wants to push against is not in the frame and never will be. The pairing also closes the exit the earlier draft took, which was the quarrel. The interesting fact is not who was right; it is that the state arrives and returns several times inside one afternoon over facts that have not changed."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "Pradeepika defines this state by what it meets and what it wants: a disliked object arrives and the mind strikes against it [C007-P:L32–L34], and both hate-rooted minds always carry a painful mental feeling [C007-P:L25–L28], so the displeasure is suffering in itself before it is anything else. Pradeepika names life's ordinary afflictions, including not getting what one wants, among the occasions [C007-P:L49], and Margaya adds the domestic and social ones this situation actually turns on: a request refused, one's word not accepted, others thought to have done wrong [C007-M:L17] (folded in from IDEA-0034). The film must not carry the sources' own example of a wish turning into the wish to destroy a living obstacle [C007-P:L59] into a dispute between two crews; that example belongs where the digest itself puts it, and importing it here would attribute to real people an intention they have not expressed. Two limits are load-bearing: Margaya says the hatred felt towards an enemy who comes to harm you is the fierce form of the same state [C007-M:L11], so the sources make no exception for a wronged crew's anger, and the film may not offer one either; and the sources' stress on the angry person's own suffering must never be used to make light of the damage actually done to this livelihood, since the same text says plainly that this state leads on to harming others [C007-P:L47; C007-P:L53]."
+      "why": "Pradeepika defines the state by its object and its aim, a disliked object met and a mind that strikes against it and wants it gone [C007-P:L32–L34], and both hate-rooted minds always arrive with a painful mental feeling and never a pleasant one [C007-P:L25–L28], so the displeasure is suffering before it is anything else. Margaya's account of the name is what makes this location legible at all: paṭigha is literally striking against the object [C007-M:L3], and this film is set in the days when the object is not there to be struck. Margaya's list of occasions is the situation itself, a request refused, a word not accepted, others thought to have done wrong [C007-M:L17], and Pradeepika adds life's plain afflictions including not getting what one wants [C007-P:L49]. Three limits are load-bearing and are written into the beats rather than left to the risks. Margaya says the hatred felt towards an enemy who comes to harm you is the fierce form of the same state [C007-M:L11], so the sources make no exception for a wronged crew and the film may not offer one either. The same sources say plainly that this state leads on to harming others [C007-P:L47; C007-P:L53], so its stress on the angry person's own suffering may never be used to make light of what the damage costs this household. And Pradeepika's example of a wish turning into the wish to remove a living obstacle [C007-P:L59] is not imported here; there is no living obstacle in this film, only a boat that went past in the dark, and carrying that example across would attribute to real people an intention nobody has expressed."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "In the list of fourteen, hate is given a wider range than the English word 'anger': both sources gather fear, discontent, disgust and displeasure under it, and Pradeepika adds the wish for revenge [C022-P:L121; C022-M:L35]. A crew deciding what to do about a cut net lives in exactly that range rather than in one flare. Pradeepika also names the four that are present in every unwholesome mind, restlessness among them [C022-P:L31], which is why the argument keeps starting again over facts that have not changed. The earlier version of this link read the contested fishing ground as āvāsa, one of the five things stinginess clings to; the digest glosses that kind as one's dwelling and does not extend it to shared working water, so the claim has been withdrawn rather than repaired. Nothing here may be stated as a reading of any crew member's mind: the scheme describes moments, and a camera cannot see which factor is present."
+      "why": "In the list of fourteen, hate is given a far wider range than the English word anger: both sources gather discontent, disgust, displeasure and fear under it, and Pradeepika adds the wish for revenge [C022-P:L121; C022-M:L35]. Three days of mending live in that whole range rather than in one flare. Pradeepika also names the four factors present in every unwholesome mind, restlessness among them [C022-P:L31; C022-M:L3], which is why an argument that was settled in the morning starts again in the afternoon over facts that have not moved. The last beat rests on the source's treatment of remorse, which is the least expected thing in the digest: recalling a wrong is explicitly not the fault, brooding on it makes the wrongdoing heavier rather than lighter, and the energy it drains is the energy to do good now [C022-P:L143]. The film must not invert that into an instruction to feel nothing, which the digest also rules out. Two claims are withdrawn rather than repaired. The earlier version read shared working water as one of the things stinginess clings to; the sources put stinginess on one's own possessions and list its kinds accordingly [C022-P:L133–L135; C022-M:L43–L45], and shared lagoon water is not among them. And nothing here may be stated as a reading of any person's mind, because the scheme describes single moments and a camera cannot see which factor is present in one."
     }
   ],
-  "what_the_viewer_could_understand": "Anger often begins as wanting: something is wanted, something blocks it, and the wanting turns on the block. The texts say this state always comes with pain, and that the first person it hurts is the one who feels it, which is visible here because the other boat is nowhere near the beach where all the displeasure is. What the film can also show is how quickly it passes and returns in the same people, which is why the texts treat it as a state that visits rather than a kind of person.",
-  "what_must_be_real": "The damage, the dispute and the repair must be real and already under way; nothing may be cut, arranged or provoked, and no confrontation may be encouraged, waited for as an opportunity, or timed to the crew's presence. Any account of the other crew is one side's account and must be presented as such. The other crew may not be filmed or named without their own consent. If the presence of a camera would raise the temperature of a live dispute, the film does not happen.",
-  "position_hint": "opening candidate: the group opens on something pushing back, and a piece of working gear damaged by someone else and mended by hand is the plainest form of that, with a long enough repair to hold the whole shape of the state rather than only its first minute. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That this state is named after a physical action, striking against something, and that it needs an object to strike. When the object is missing, what is left is the striking itself, going on inside a person who is sitting quietly in the sun tying knots. The texts say it never comes without pain of its own, and that being in the right changes nothing about what it is. And the proof is on screen and needs no belief: three days of work in which the only thing that ever gets smaller is a hole.",
+  "what_must_be_real": "The damage and the repair must be real and already under way. Nothing is cut, arranged, re-torn or re-mended for the camera, and no confrontation is encouraged, waited for as an opportunity, or timed to anyone's presence. Any account of how the damage happened is one side's account and is presented as such. The boat or crew held responsible is not named, identified or filmed, and nobody is asked on camera what they think of them. The mending is filmed at its real speed, including the hours in which nothing interesting happens. If a camera's presence would raise the temperature of a live dispute, the film does not happen.",
+  "position_hint": "opening candidate: the group opens on something pushing back, and a piece of working gear damaged by somebody who is not there is the plainest available form of that, with a repair long enough to hold the whole shape of the state rather than only its first minute. No location reasoning is involved.",
   "risks": [
-    "Taking one crew's side in a real, ongoing dispute, or letting the edit settle a question of fact the film cannot settle.",
-    "The 'righteous anger' reading: a wronged crew is precisely where a viewer supplies the exception the sources refuse to make [C007-M:L11], and the film must not appear to endorse it either.",
-    "Using 'anger only hurts the angry person' in a way that makes light of a real, costly loss to a working household; the sources also say this state leads to harming others [C007-P:L53].",
-    "Narrating the traditional bodily effects of anger [C007-P:L47] or the claim about such minds at the time of death [C007-P:L51] as fact; the digest marks both as doctrinal statements needing expert framing.",
-    "Editing a brief flare into a portrait of a bad-tempered crew, when the same people are working quietly beside each other an hour later (folded in from IDEA-0034).",
-    "Filming or naming the rival crew without their consent, or making the film itself a move in the dispute."
+    "Taking one side in a real dispute, or letting the edit settle a question of fact the film cannot settle.",
+    "The righteous-anger reading: a wronged household is exactly where a viewer supplies the exception the sources refuse to make [C007-M:L11], and the film must not appear to endorse it.",
+    "Using 'anger only hurts the angry person' in a way that makes light of a real and costly loss to a working household; the same sources say this state leads to harming others [C007-P:L47; C007-P:L53].",
+    "Narrating the traditional bodily effects of aversion [C007-P:L47], or the claim about such minds at the time of death [C007-P:L51], as observable or medical fact; the digest marks both as doctrinal statements needing expert framing.",
+    "Reversing the remorse teaching into 'never feel bad about anything'; the source separates recalling a wrong, which is not the fault, from brooding, which is [C022-P:L143].",
+    "Editing a brief flare into a portrait of bad-tempered people, when the same people are working quietly beside each other an hour later.",
+    "Filming or naming the other boat or crew without their consent, or letting the film itself become a move in the dispute.",
+    "Reading any person on screen as an instance of a named factor; the scheme describes moments of mind, and a camera cannot see which one is present.",
+    "Turning a lagoon that several communities fish into a story about which community is at fault."
   ],
   "drop_if": [
-    "No crew will discuss the dispute openly, or filming would inflame a live conflict.",
-    "The damage was not caused by a genuine dispute and would have to be invented or re-created.",
-    "The only usable heat would have to be provoked or waited for as an event."
+    "No household will discuss the damage openly, or filming would inflame a live conflict.",
+    "The only damaged gear available would have to be re-created, or a repair restaged after the fact.",
+    "Access to the mending is offered only on condition that the gear conflict itself is kept off camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0034",
-      "relation": "absorbs",
-      "note": "Takes in Margaya's own list of everyday occasions for this state, and the strand that matters most to the philosophy: what the people who were angriest are doing a few minutes later."
+      "relation": "pairs with",
+      "note": "Two places where a shared resource is physically divided: one where the division is gear standing in water nobody can see at night, one where it is a gate and a date."
     },
     {
       "idea_id": "IDEA-0035",
       "relation": "leads into",
-      "note": "From a rival who can be argued with to a threat that cannot: the same pushing-away, once the thing in the way is stronger than you are."
-    },
-    {
-      "idea_id": "IDEA-0042",
-      "relation": "mirrors",
-      "note": "Two crews and two nets: one marked by what was taken, the other by what is handed out."
+      "note": "From a cause that can in principle be argued with to one that cannot: the same pushing-away, once the thing in the way is stronger than you are."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0034"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's opening episode, and is re-grounded on the occasions Margaya actually lists plus IDEA-0034's aftermath strand, which is what keeps it from reading as a portrait of angry people."
+    "reason": "A location where the sources' own word for this state, striking against an object, is demonstrated by the days when the object is absent and the hands have only a knot."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape. Dropped the human-situation block and the quarrel; the film is now the repair, and the crew held responsible never appears. New location, a shallow brackish lagoon on a provincial boundary where fixed gear and drifting gear share unmarked water at night, chosen because the payoff shot, a net laid flat with a hole in it closing over three days, states the concept instead of illustrating it. New title; old title kept in aliases. Both links re-tested against their digests and rewritten: C007 re-grounded on paṭigha as striking against an absent object, with the no-exception line, the harm-to-others line and the refusal to import the living-obstacle example all made load-bearing; C022 kept for hate's wider range and the four constants, and given the remorse teaching as the film's closing move, with the earlier stinginess-of-dwelling claim left withdrawn. Added place, two_layers, a seven-beat sequence and a proposed location with one confirmed Commons image.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Kokkilai Lagoon",
+    "also_known_as": [
+      {
+        "name": "Kokilai",
+        "meaning": "the spelling used in most fisheries and project reporting",
+        "used_by": "fisheries research and development projects"
+      },
+      {
+        "name": "Kokkilai bay",
+        "meaning": "how people on its shores describe it",
+        "used_by": "local usage on both sides of the provincial boundary"
+      }
+    ],
+    "region": "On the Mullaitivu and Trincomalee district boundary, where the Northern and Eastern Provinces meet",
+    "coordinates": {
+      "lat": 9.0236,
+      "lng": 80.9319
+    },
+    "elevation_m": 0,
+    "why_here": "It is a place whose physical arrangement is friction, without anybody having to be filmed in a temper. The lagoon is about thirty square kilometres and no deeper than four metres, closed from the sea for much of the year by a sand bar across its only mouth, and it is worked by households from three communities living around its rim. Roughly a third of the craft use gill nets, roughly a third fyke nets and a fifth crab nets, which means fixed gear staked out on poles and pipes stands permanently in the water that drifting gear and boats have to cross in the dark, with nothing marked on the surface. Damage to somebody else's gear is therefore a structural feature of the place rather than an accusation the film has to make. It also supplies the two shots the film is built around: the stake rows from the air, a geometry drawn on water by people who cannot see each other's work, and a net laid flat on the shore strip with low sun behind it, so the mesh reads as a grid and the tear reads as a hole in it. And it is quiet, little filmed and genuinely beautiful, which is what the sound-off layer needs.",
+    "what_to_film": [
+      "The lagoon from the air at first light: the sheet of water, the sand bar closing the mouth, and the dark rows of stakes running out from the shore into water that carries no other line.",
+      "Fixed gear being set at dusk, and a drifting net being shot from a small boat in the same water, so the two incompatible kinds are seen doing their work before any damage is mentioned.",
+      "The damaged net coming in over the gunwale, wet and heavy, with the tear opening and closing on the roll of the hull.",
+      "The net carried up and pulled square on the shore strip, filmed from directly overhead, so the mesh becomes a grid and the hole becomes a hole in the grid. This is the frame the film is built on.",
+      "The mending itself at its real speed: the wooden needle, the twine, the same knot, and the long stretches where nothing happens but that.",
+      "The new twine against the old, close enough to see that the colours do not match and never will.",
+      "Ordinary lagoon life around all of it, which is what carries the sound-off layer: birds on the mudflat at low water, crabs sorted and weighed, boats leaving at dusk and returning at dawn.",
+      "The repaired net going back over the side, with the paler patch visible as it goes."
+    ],
+    "access": "By road from the coast road between the two districts; the lagoon is ringed by small fishing hamlets rather than gathered behind one gate, so access is hamlet by hamlet and household by household. The lagoon and its surroundings were declared a sanctuary in 1951, so wildlife permissions as well as fisheries permissions are likely to be involved, and drone flying over a bird sanctuary cannot be assumed. Boat work on the lagoon would be with the fishers' own craft, on their own trips, not on hired trips arranged for the camera.",
+    "best_time": "Low sun at either end of the day for the net on the shore, and a calm morning for the aerial over the stake rows, which needs the water flat. Mending follows damage rather than the calendar, so the shoot has to be able to move at short notice rather than to a booked week. The months when the bar is closed give the flattest water.",
+    "images": [
+      {
+        "caption": "The lagoon at sunset, for the flat water and the low light the film's aerial work depends on.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_in_Kokkilai_sanctuary.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunset_in_Kokkilai_sanctuary.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kokkilai_Lagoon",
+      "https://amazinglanka.com/wp/kokilai-sanctuary/",
+      "https://www.researchgate.net/publication/330760657_Socio-economic_aspects_of_Kokkilai_lagoon_fishery",
+      "https://cjmr.sljol.info/articles/69/files/650a71ea82bf6.pdf"
+    ],
+    "research_note": "Area, maximum depth, the sand bar across the mouth, the brackish and estuarine character, the seagrass, mangrove and mudflat habitats, the sanctuary declaration of 1951, the three communities fishing the lagoon and the rough shares of craft using gill nets, fyke nets and crab nets are from the sources above and are desk research only. The specific claim that stake-set gear damages the nets and boats of small-scale fishers comes from the northern-region destructive-fishing literature and has not been checked for this lagoon in particular. Coordinates are those published for the sanctuary. Whether any household currently has damaged gear ashore, whether anyone will agree to be filmed mending it, drone rules over a sanctuary, and access across the provincial boundary are all unverified. Commons holds almost nothing for this lagoon; one confirmed image was found and is listed, and no image of any other place has been substituted for it.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, crew or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether gear damage of this kind is frequent enough at this lagoon for a repair to be filmable within a reasonable window is unverified.",
+    "Drone permissions over a declared bird sanctuary are unverified and may be refused.",
+    "Whether the film can be made without the act of filming becoming part of a live dispute has not been assessed on the ground."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

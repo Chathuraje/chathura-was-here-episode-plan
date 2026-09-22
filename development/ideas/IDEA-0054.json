@@ -2,68 +2,121 @@
   "schema_version": 1,
   "id": "IDEA-0054",
   "record_type": "idea",
-  "title": "Which Way",
+  "title": "Nobody Here Is Wrong",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Which Way"
+  ],
   "group_id": "GRP-04",
-  "logline": "A traveller who genuinely does not know the way keeps stopping to ask, and every person points somewhere different, each answer arriving with a piece of a life.",
-  "human_question": "When everyone points a different way, how do you decide which road to take?",
-  "situation": {
-    "what_happens": "Someone is trying to reach a place along minor roads that carry no signs and no reliable phone signal, so the only maps available are the people met along the way. At each junction the traveller stops and asks, and each answer is given from where that person stands: by landmarks, by memory, by the road they themselves use. The answers accumulate and begin to contradict one another, and the turn has to be taken anyway. Nobody in this is wrong, and that is what makes it hard.",
-    "who_is_involved": "A traveller who does not know the route; the strangers met at junctions, each helping with what they know: someone minding a shop, someone working a field, children on bicycles, a conductor on a bus; and people met along the way who are themselves holding a decision that will not settle, where waiting or going costs them real money or real risk.",
-    "what_is_at_stake": "For the traveller: daylight, fuel, time and the small humiliation of turning back. For the people asked: almost nothing, which is part of the point, since they answer freely and carry none of the consequence. For anyone met who is holding a costly decision of their own, a day's income or a risk taken or avoided. For the film: never making helpful people look foolish.",
-    "how_it_unfolds": "It begins with a rough idea of the route and some confidence, and turns when the answers stop agreeing and each new one costs more than it gives. The pressures are falling light, heat, fuel and the growing sense of going round. It can end in arrival, in arrival somewhere else, in giving up, or in the destination mattering less than the people met on the way. Reality decides which: the roads, the weather and whoever happens to be standing at each junction."
+  "logline": "A coastal peat marsh with no landmark higher than a reed, crossed every day by three completely different ideas of how to get through it: a two-hundred-year-old cargo canal ruled dead straight, a fan of fishermen's channels that branch and close and open again, and an expressway on concrete legs that goes over the whole thing without touching it.",
+  "human_question": "When several people point different ways and every one of them is right, what exactly is it that you do not know?",
+  "place": {
+    "what_kind_of_place": "A large coastal peat marsh and lagoon system on a flat stretch of coast, wedged between a lagoon mouth at one end and a river at the other. It is a working place rather than an empty one: people fish it, set traps in it and move through it daily by small boat. Three routes cross it and none of them can see the others properly. The oldest is a colonial cargo canal cut straight through the peat two centuries ago and still holding its line. The commonest are the fishermen's channels, which are not engineered at all, which branch endlessly, and which silt up, grow over and reopen with the water level and the season. The newest is an expressway carried across the marsh on piers, at a height and a speed from which the marsh is scenery.",
+    "why_it_is_worth_watching": "It is the rare landscape that denies the camera the one thing a camera usually gives you for free, which is orientation. At boat height inside the reed channels there is no horizon, no landmark and nothing above head height: every frame looks like every other frame, and the only way to know you have turned is that the light has moved. Then the drone climbs forty metres and the same place becomes one of the most beautiful patterns in the country: a green labyrinth of water branching and rebranching with no centre and no edge, and cut across it, absolutely straight, a line of water somebody ruled with an instrument, and above that a grey concrete line on legs with traffic on it. Three answers to one question, in one frame, at three heights.",
+    "what_moves_or_changes": "The water, the reeds and the traffic, on three completely different clocks. The channels change with the tide twice a day and with the rains across a season: a route that worked last month is a wall of reed this month, and a wall of reed last year is a route now. The canal changes on the scale of decades and mostly by silting. The expressway does not change at all, and its traffic never stops. Birds lift off the marsh in numbers at dawn and again at dusk. Nothing here can be scheduled except the tide and the light.",
+    "when_it_looks_best": "The first hour after sunrise, when mist is still sitting on the channels and the water takes the sky, and the last hour before dark, when the straight canal goes silver and the expressway lights come on above a marsh that has gone black. A falling tide opens more channel and exposes more bank; the two monsoon shoulders give the most dramatic differences between one month's route and the next."
   },
+  "two_layers": {
+    "without_the_philosophy": "A wetland film built on a single visual joke that the landscape makes by itself: an enormous green maze with two straight lines drawn through it. It resolves without any commentary at all, from mist at dawn through a working day on the water to the expressway lights coming on over a black marsh. There is bird noise, boat noise, reed noise and traffic noise, and there are aerials that people will watch twice. Anyone who has no interest whatsoever in philosophy gets a complete piece.",
+    "with_the_philosophy": "The same marsh becomes a careful piece of argument that never accuses anyone. The sources describe a mind that cannot come to a decision about the thing in front of it, and they are unusually careful to separate that from the ordinary state of not knowing something you have no way of finding out yet, which one of them says may not be a fault at all. This place lets a film hold that distinction open rather than settle it, because here the not-knowing is genuinely in the ground: the marsh withholds direction from everybody equally, three different answers are all in daily use, and not one of them is a mistake. The voice reads the water and the reeds, and says plainly that it cannot see inside anybody."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, drone at boat height, moving slowly up a reed channel. Walls of reed on both sides, mist on the water, no horizon, nothing above head height. The shot runs long enough to become uncomfortable.",
+      "voice": "There is no landmark in here. Not a low one, not a distant one, none. The reeds are taller than a standing person and they are the same on all sides. You can be a hundred metres from a main channel or a kilometre, and the view is identical.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "The drone climbs hard out of the channel. The maze opens out: hundreds of branching waterways in green peat, no centre, no edge, going to the horizon.",
+      "voice": "From up here it is obvious that there is no single way through, because there are thousands. People who work this marsh every day will give you different routes, and the reason they differ is not that some of them are wrong. It is that each one learned the water at a different level, in a different month.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "The old canal, from directly above: a perfectly straight line of water running through the maze from edge of frame to edge of frame, ignoring every bend in the peat.",
+      "voice": "Two hundred years ago somebody decided the marsh should have an answer, and cut one. Straight, surveyed, for cargo. It is still here and it still works, and it still has nothing to say about any of the water on either side of it.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The expressway: concrete piers standing in marsh water, the deck above, traffic crossing at speed. Then the reverse angle from the water, looking up at the underside as a boat passes beneath.",
+      "voice": "And then the third answer, which solved the problem by refusing it. Nobody up there is navigating this marsh. They are going over it at a hundred kilometres an hour, and from that height the question does not exist.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "One high wide frame that holds all three at once: maze, ruled canal, elevated road, with a small boat working somewhere in the middle of it.",
+      "voice": "Three ways across one piece of ground, in use on the same morning, none of them a mistake. The texts have a careful line about this. The doubt they warn about is a specific thing, a stalling about eight matters of religion, and they say straight out that the ordinary state of not knowing something you cannot yet look into is not that, and may not be a fault at all [C008-P:L36; C074-P:L404]. They do not say how the two are related. Neither does this film, and neither does this marsh.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "A channel that simply ends: reed grown right across it, water going nowhere, a boat turning in its own length. Then a different channel, open this month, that was closed last year.",
+      "voice": "What the texts do describe is the shape of a mind that cannot land on its object [C008-P:L34], and they add something easy to miss about how it feels. It feels like nothing. Not bad, not good, flat, because you cannot like or dislike what you have not got hold of [C008-P:L30]. That is worth saying carefully. A flat feeling is not a peaceful one, and the sources are explicit that this greyness is not the calm of wisdom.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Working the marsh in ordinary daylight: traps lifted, a channel poled through, two boats meeting and passing, one crew calling something across to another.",
+      "voice": "The remedies the compendium lists against the states that cover the mind are not heroic. Be widely learned. Ask a great many questions. Keep the company of people who know more and talk with them at the right time [C074-P:L366–L380]. Asking the way is not the failure. In a place with no landmarks, asking the way is the whole method.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "Dusk. The marsh goes black, the straight canal holds the last silver light, the expressway lamps come on in a line above it. Birds going down into the reeds.",
+      "voice": "The marsh will not tell anyone which way to go. It has never told anyone. That is not a defect in the people crossing it, and this film makes no claim at all about what is in anyone's mind, because a camera cannot see that. It can only show a place that withholds, and three honest answers to it.",
+      "concept_id": "C074"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C008 supplies the state: of the two delusion-rooted minds, the one that cannot come to a decision about its object is the shape of a choice that will not land, and the sources say it is felt as flat rather than painful. C074 supplies the ordinary helps the compendium lists against the states that cover the mind: keeping good company, asking a great many questions, talking with people who know more, at the right time [C074-P:L404]. Put into one journey, the state and its remedy turn out to be the same activity.",
-    "what_it_reveals": "That being unable to decide and actively seeking help are not opposites. C008 alone would make the not-knowing look like a fault; C074 alone would make the asking look like a technique. Together they show a person stalled and resourceful at once, and let the film honour honest not-knowing, which the sources say is not the doubt they warn about at all [C008-P:L36]."
+    "why_together": "C008 supplies the state and, just as importantly, the limit on it. Its general description of doubt is a mind that cannot reach a decision about its object, which counts as a hindrance because it obstructs doing good [C008-P:L34]; it explains why such a mind always carries a flat, neutral feeling, since what has not been grasped can be neither enjoyed nor disliked [C008-P:L30]; and it then draws a hard line, saying the doubt it condemns is uncertainty about eight specific religious matters and that ordinary not-knowing about something one cannot yet investigate is not that doubt at all [C008-P:L36]. C074 confirms the line independently, naming the ordinary kind look-alike doubt and saying it may well not be unwholesome [C074-P:L404], and then supplies the remedies, which are flatly practical: be widely learned, ask many questions, keep the company of elders and talk about suitable things at the right time [C074-P:L366–L380]. Put on a marsh where direction is genuinely unavailable, the state and its remedy stop being a diagnosis and a technique and become the ordinary daily conduct of everyone working the water.",
+    "what_it_reveals": "That not knowing the way and asking the way are the same activity, and that a film can show the first without accusing anybody of the second. C008 on its own would make the not-knowing look like a fault the camera has caught. C074 on its own would make the asking look like a self-improvement tip. Together, and on this ground, they produce the group's most precise statement: the information is missing from the landscape, not from the people. And the place makes it visible at three scales at once, a maze that gives no direction, a ruled line that imposes one, and a road that declines the question, all inside a single frame."
   },
   "concept_links": [
     {
       "concept_id": "C008",
       "role": "primary",
-      "why": "The digest's general description of doubt is a mind that cannot come to a decision about its object, and it explains that such states always carry a flat, neutral feeling, because a mind that has not grasped its object can neither enjoy nor dislike it [C008-P:L34; C008-P:L30]. The film shows that everyday shape of being unable to land. It must not claim the harmful doubt of the sources, which the digest restricts to eight religious matters and separates explicitly from honest not-knowing [C008-P:L36]; the digest also flags as unresolved how the general and the restricted definitions relate, so the film asserts nothing about which this is."
+      "why": "The general description in the sources is a mind that, under a darkening that prevents knowing a matter as it is [C008-M:L3], cannot come to a decision about its object, and which counts as a hindrance because it blocks wholesome action [C008-P:L34]. The film shows the everyday shape of that, and nothing else: it shows a place that withholds direction. Two guards from the digest are load-bearing and are carried on screen rather than only in the notes. First, the harmful doubt the sources mean is restricted to eight named religious matters and is separated explicitly from the honest not-knowing of something one has no way to investigate [C008-P:L36]; the digest also records as unresolved how the general and the restricted definitions relate, so beat 5 states the restriction, states that the sources do not join the two, and asserts nothing about which kind anything on screen might be. Second, the neutral feeling these states carry is a dull greyness from failing to grasp the object and is not equanimity [C008-P:L30], which beat 6 says outright so that the film's own low, drifting tone cannot be mistaken for calm. The film also never presents anyone in frame as an instance of a state, because a camera cannot see which factor is present."
     },
     {
       "concept_id": "C074",
       "role": "supporting",
-      "why": "Among the practical helps the compendium lists against the states that cover the mind are good friends, asking many questions, and talking about suitable things with people older and wiser at the right time [C074-P:L404]. The journey is made of exactly that, so this link is to the remedy rather than to the defilement."
+      "why": "The compendium independently makes the same distinction, calling ordinary uncertainty about an unknown matter look-alike doubt and saying it may not be unwholesome at all, as against the hindrance-doubt about the eight matters [C074-P:L404], which is why this link is what lets the film be generous rather than diagnostic. It then supplies the helps listed against these covering states, which are entirely ordinary: wide learning, asking many questions, and keeping the company of elders and suitable conversation [C074-P:L366–L380]. This link is therefore to the remedy, not to the defilement. The digest's own limits are honoured: abandonment in these sources is staged and technical rather than a decision, so the film promises nobody a way out of the marsh; the stakes in the source are not stress or productivity, so no wellbeing language is used; and the corrected citation matters, since the earlier draft attached the remedies to the line that actually carries the look-alike-doubt distinction."
     }
   ],
-  "what_the_viewer_could_understand": "Not knowing which way to go is not a failing in itself, and the texts say honest not-knowing is a different thing from the doubt they warn about. But when the mind cannot settle on anything at all, it feels neither good nor bad, just flat and stalled, and the asking is not what is wrong with it.",
-  "what_must_be_real": "The journey and the not knowing must be genuine: the destination is one the traveller truly has to find. Everyone who appears is met by chance and consents. No answer is solicited twice for effect, no one is made to look foolish, and nobody's own real decision is hurried or delayed because a camera is there.",
-  "position_hint": "opening candidate: the most literal first film for a group about being lost, and it sets the group's flat, drifting tone before any heavier state arrives. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That not knowing which way to go is not in itself the thing the old texts warn about. They restrict that to a short list of religious questions and say in as many words that honest not-knowing about something you cannot yet find out is a different matter. What they do describe is the shape of a mind that cannot land on anything, and the odd fact that it feels like nothing at all, which is not the same as feeling calm. And the answer they give is not resolve or effort. It is ask, and keep company with people who know.",
+  "what_must_be_real": "The marsh, the channels, the canal and the road, and the work that goes on in the water. Nothing is arranged: no route is cleared, no channel is cut or blocked, no boat is asked to go somewhere it was not going, no one is asked to point or to give directions for the camera, and no one's day is lengthened by the filming. Nobody in frame is presented as lost, mistaken or confused, and no answer anyone gives is set against anyone else's to make one of them look foolish. The differences between routes are shown as facts about water levels and seasons, which is what they are. Birds and nesting are not disturbed for a shot.",
+  "position_hint": "opening candidate for the group: it is the plainest possible first step, a place that genuinely withholds direction, and it sets the low, drifting tone while establishing at the outset that the film is describing ground rather than judging people. No location reasoning is involved.",
   "risks": [
-    "Sliding into a staged metaphor or a travel vlog.",
-    "The traveller becoming the subject instead of the people met.",
-    "Consent from people filmed briefly in passing.",
-    "Treating helpful strangers as evidence of confusion, or presenting a considered hesitation as a flaw when it is often wisdom (folded in from IDEA-0056).",
-    "Reading the flat, undecided mood as calm; the digest is explicit that this neutrality is not equanimity."
+    "Making helpful, skilled people look foolish or lost, when the missing information is in the landscape and not in them.",
+    "Claiming the sources' harmful doubt for what is on screen. It is restricted to eight religious matters, the digest records the relation between the general and restricted definitions as unresolved, and the film must assert nothing about which kind of not-knowing it is showing.",
+    "Reading the flat, drifting mood as calm; the digest is explicit that the neutral feeling in these states is not equanimity, and this group's tone makes that an easy mistake.",
+    "Sliding into a staged metaphor, a travel piece or a boat tour, or letting a hired guide become a narrator in all but name.",
+    "Treating the expressway, the canal or the local channels as the right answer and the other two as errors; the whole film depends on all three being honest.",
+    "Consent from people working on the water who appear briefly and in passing, and the possibility that a crew's presence alters whether anyone offers help.",
+    "Disturbing birds or nesting in a protected wetland for an aerial shot, and drone restrictions near an expressway and an airport approach.",
+    "Aestheticising a wetland that is under real pressure from filling and encroachment without acknowledging it."
   ],
   "drop_if": [
-    "The route turns out to be easy to follow.",
-    "It can only work if set up, rather than genuinely lived."
+    "The channels turn out to be signed, mapped or otherwise easy to read, so the place no longer withholds anything.",
+    "The three routes cannot be held in one frame, which is the film's single strongest image.",
+    "Filming can only happen as a chartered tour with a guide performing the marsh for the camera.",
+    "Aerial permission over the wetland or near the expressway is refused."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0056",
       "relation": "absorbs",
-      "note": "Takes in the costly-decision strand and the guard that separates honest not-knowing from the doubt the sources warn about."
+      "note": "Takes in the costly-decision strand and the guard that separates honest not-knowing from the doubt the sources warn about, now carried by the place rather than by a person."
     },
     {
       "idea_id": "IDEA-0053",
       "relation": "sits beside",
-      "note": "Two shapes of the same disorientation at the start of the group: a traveller who has lost the way, and a place that has."
+      "note": "Two surfaces that withhold: one hides what is under it, the other hides which way to go."
     },
     {
       "idea_id": "IDEA-0057",
       "relation": "pairs with",
-      "note": "A decision that will not land, and a circle that cannot be left."
+      "note": "A route that will not resolve, and a circle that cannot be left."
     }
   ],
   "selection": {
@@ -72,17 +125,89 @@
       "IDEA-0056"
     ],
     "superseded_by": null,
-    "reason": "Carries the group's opening episode, and is strengthened by folding in IDEA-0056's costly-decision strand and its guard on honest not-knowing."
+    "reason": "Carries the group's opening by putting the not-knowing in the ground rather than in a person, and holds three honest answers to one question in a single frame."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape and rebuilt from the ground up. The old version followed a lost traveller asking strangers, which the no-protagonist rule forbids; the film now has no traveller at all and is set in a marsh that genuinely withholds direction, with three routes across it whose disagreement is a fact about water levels and seasons. Both digests re-read fresh: C074's remedies were re-cited from L366-L380, since the earlier draft had attached them to L404, which actually carries the look-alike-doubt distinction, and that distinction is now on screen in beat 5. The guard that this flat feeling is not equanimity is stated in the narration rather than only listed as a risk. A proposed location was added.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Muthurajawela marsh, the Hamilton Canal and the elevated crossing of the Colombo-Katunayake Expressway",
+    "also_known_as": [
+      {
+        "name": "Muthurajawela",
+        "meaning": "the marsh of royal treasure, or supreme field of pearls",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "the Dutch canal",
+        "meaning": "the older colonial canal line the British canal follows and widened",
+        "used_by": "local and tourist usage"
+      }
+    ],
+    "region": "The coastal strip of Gampaha district, Western Province, between the Negombo lagoon mouth and the Kelani river, just inland of the airport road",
+    "coordinates": {
+      "lat": 7.065,
+      "lng": 79.86
+    },
+    "why_here": "It is the only candidate found that supplies the concept and the spectacle in the same frame. At about 6,000 hectares it is one of the largest wetlands in the country and it is a genuine labyrinth: an intricate network of waterways, canals, lagoons and islands with no landmark above reed height, worked daily by fishing families who each know it by a different set of channels. Onto that exact piece of ground history has laid two entirely different ideas of a route, a colonial cargo canal cut dead straight through the peat and still navigated, and a modern expressway carried over the marsh on piers by people for whom the question of a route through it does not arise. Three answers, one place, all of them in use on the same morning, and they can be held in one aerial frame. That frame is both the best shot the location produces and the clearest statement the group's concepts have anywhere.",
+    "what_to_film": [
+      "A long slow move at boat height inside a reed channel, held far past comfort, with no horizon and nothing above head height, so the viewer loses orientation before the film says a word about it.",
+      "The climb out of that channel in one unbroken move, from no-orientation to the whole maze, which is the film's hinge.",
+      "The maze from directly overhead in first light, wide enough that it has no centre and no edge.",
+      "The old canal from above, running straight across the frame and ignoring every bend in the peat on either side of it.",
+      "The expressway from two positions: the deck at traffic speed, and the underside from a boat passing between the piers.",
+      "One high wide frame carrying all three routes at once with a working boat somewhere in it. Everything else is built around getting this.",
+      "A channel grown shut and a channel newly open, filmed the same morning, as the plain evidence that the routes genuinely differ by season.",
+      "Ordinary work on the water in flat daylight: traps lifted, a channel poled, two boats passing and one crew calling across to another.",
+      "Dusk: black marsh, silver canal, the expressway lamps coming on in a line above it, birds going down into the reeds."
+    ],
+    "access": "By road from the airport highway or the coast road, then by small boat. There is a visitor centre with boat access at the southern end and working boats go in from the fishing settlements along the lagoon; the film needs the second rather than the first, which means arranging with people who are going out anyway. The whole system is a declared wetland sanctuary, so filming and any aerial work will need wildlife-authority permission, and drone flight near an expressway and inside the approach corridor of an international airport is a separate and probably harder permission.",
+    "best_time": "The first hour after sunrise for mist on the channels, and the last hour before dark for the canal and the expressway lights. A falling tide opens the most channel. The two monsoon shoulders give the sharpest contrast between one month's routes and the next.",
+    "images": [
+      {
+        "caption": "The marsh and lagoon water: the reed and channel country the film is built in.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Negombo Lagoon (Muthurajawela marsh), Sri Lanka - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Negombo Lagoon (Muthurajawela marsh), Sri Lanka - panoramio.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The canal itself, for the ruled straight line through the peat.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamilton Canal (44502348191).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Hamilton Canal (44502348191).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "An elevated section of the expressway on piers. This is a picture of that road generally, not of the section that crosses the marsh.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elevated section of the CKE.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Elevated section of the CKE.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A bridge over the canal at its southern end, for the ground-level crossings of the old route.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamilton Bridge, Hendala.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Hamilton Bridge, Hendala.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hamilton_Canal",
+      "https://www.ceylonexpeditions.com/muthurajawela-wetland-sanctuary-boat-ride-sri-lanka",
+      "https://www.srilankabycar.com/Muthurajawela-Marsh-Fishing-Villages-Boat-Ride.html"
+    ],
+    "research_note": "That the marsh runs to about 6,000 hectares, that it is an intricate network of waterways, canals, lagoons and islands at the mouth of the lagoon, that it is fed by the river and the canal, that it is a declared wetland sanctuary with marsh, reed swamp, grassland, scrub and mangrove within it, and that the canal was cut by the British on an older Dutch line and is still travelled by boat, are from the sources above and are desk research only. That the expressway crosses the marsh on an elevated section is taken from published route descriptions and has not been checked on the ground; exactly where the three routes can be framed together is unverified and is the single thing a recce must settle. The coordinates are an approximate point inside the marsh, not a surveyed position. Wildlife-authority permission, boat access through working fishing settlements rather than a tour operator, drone rules over a sanctuary, and drone rules near an expressway and an airport approach are all entirely unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No boat, family or access has been found or approached. Everything here is a research direction.",
+    "Whether the maze, the canal and the elevated road can actually be held in one frame, at a legal and safe altitude, is unverified and decides whether the film has its central image.",
+    "Whether the channels genuinely change enough between seasons to show a route closed and a route opened is desk inference and needs checking with people who work the water.",
+    "Drone permission over a declared wetland sanctuary, near an expressway and inside an airport approach corridor is unverified and may be refused on any one of the three grounds.",
+    "How much of the marsh has been filled or encroached since the sanctuary was declared, and whether that changes what the film would honestly be showing."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

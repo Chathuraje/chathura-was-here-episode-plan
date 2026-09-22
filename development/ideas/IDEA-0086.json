@@ -2,87 +2,195 @@
   "schema_version": 1,
   "id": "IDEA-0086",
   "record_type": "idea",
-  "title": "Salt That Never Stops Forming",
+  "title": "Always the Same Heap",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Salt That Never Stops Forming"
+  ],
   "group_id": "GRP-05",
-  "logline": "In shallow coastal pans salt forms, is raked away and forms again within days, a heap that always looks the same because it is never the same crystal twice.",
+  "logline": "Inside a sugar mill in the dry south-east, a mountain of crushed cane fibre stands beside the boiler house at exactly the same height for five months, while every part of it is carried in, burned and replaced within hours.",
   "human_question": "What does it mean for something to look unchanged, when every part of it is quietly being replaced?",
-  "situation": {
-    "what_happens": "Workers flood shallow pans, let them evaporate, rake what forms and carry it to a heap, then start again. The cycle takes days and repeats through a season. The heap beside the pans stays roughly the same size for months while almost nothing in it is what was there before. The work is physically severe, the pay is tied to weight, and one unseasonal rain can dissolve a week of it.",
-    "who_is_involved": "The workers, usually paid by what they gather and working in sun, brine and glare; whoever holds the lease on the pans and sells the output; and buyers whose prices move with a season that everyone else is at the mercy of.",
-    "what_is_at_stake": "A season's earnings against weather nobody controls, and the physical cost of the work on the people doing it, which is cumulative and rarely discussed. For the operation, whether the season closes at a price worth the labour.",
-    "how_it_unfolds": "A season begins when the weather allows and ends when it stops allowing. The pressures are rain, heat, labour and the price. It ends with a harvest gathered, a harvest lost, or a season cut short, and the weather decides, not the film."
+  "place": {
+    "what_kind_of_place": "A sugar mill and the cane country it sits in, in the hot low interior between the last hills and the dry plain. Around it, several thousand hectares of cane on both company and smallholder land, cut in rotation so that the fields are never all at one stage. At the mill itself: a yard where trailers queue and are tipped, a crusher train, a boiling house under a permanent white plume, a boiler house, and beside it a pale mountain of crushed cane fibre that feeds the furnace. Conveyors run in one side of it and grabs work the other. Behind the whole arrangement, low hills and a very wide sky.",
+    "why_it_is_worth_watching": "Because the heap is a stable object made entirely of movement, and the camera can prove it in one shot. From the air it is a fixed pale mass beside the mill, the same shape at the start of a season and at the end of it. Get close and nothing in it is still: fibre pours onto one face while a grab feeds the other into a furnace, and the residence time of any given handful is hours. It is also, unusually, its own fuel: the crop supplies the mill with the heat to process the crop, so the plume above the boiling house comes from what was standing in a field last week. And the country it sits in is beautiful in a way that has nothing to do with the argument — tall cane moving in wind across a flat land, with the hills behind.",
+    "what_moves_or_changes": "The crushing season, which runs for a few months and then stops dead: for the rest of the year the yard is empty and the heap is gone. The cutting rotation, so that from the air the fields are a patchwork of tall, cut, burned, stubble and new shoots, and the patchwork shifts week by week. Rain, which stops cutting and stops the yard. The plume, which tells you from a long way off whether the mill is running. And the heap itself, which stands at the same height all season while everything in it is replaced.",
+    "when_it_looks_best": "Mid-season, when the mill is running continuously and the fields hold every stage at once. Within a day, the first hour of light across the cane and the hour after dark, when the boiler house and the yard lights are the only bright thing in a very dark landscape and the plume is lit from underneath."
   },
+  "two_layers": {
+    "without_the_philosophy": "An industrial landscape film in a part of the country that is usually filmed for its wildlife. Cane moving in wind across a flat land with hills behind, trailers on red roads at dawn, the noise and steam of a crushing floor, a pale mountain of fibre with machines working both ends of it, and a plume standing over the whole thing all night. It has its own shape without a word: the fields, the road, the yard, the crush, the fire, and the empty yard at the end of a season.",
+    "with_the_philosophy": "The same heap becomes the sources’ own picture, at a size that can be flown around. The texts explain why a wall or a hand appears to last for years although its smallest parts last almost no time at all: a thing is a cluster of countless tiny units that do not all break at once, and each one that goes is replaced in the same place [C039-M:L9]. Stability, on that account, is not stillness — it is replacement that keeps up. The voice never says the heap is made of those units, and never offers this as physics or biology. It says only that here is a full-sized object whose constancy is visibly made of nothing but its own turnover, and that this is the shape of the claim."
+  },
+  "sequence": [
+    {
+      "on_screen": "Very high, first light. Cane running away in every direction, a patchwork of tall, cut and burned blocks, the mill small in the middle of it under a single white plume. Slow move in.",
+      "voice": "A mill that runs on what it is milling. The cane comes in, the juice goes one way, and what is left of the stalk goes the other way, into the fire that boils the juice. Nothing here waits long.",
+      "concept_id": "C039"
+    },
+    {
+      "on_screen": "The heap from directly above: a pale mountain beside the boiler house, conveyors feeding one face, a grab working the other. Held still for a long time so that the outline reads as unchanging.",
+      "voice": "This is the same height it was in the first week of the season and it will be the same height in the last. Nothing in it is what was in it this morning.",
+      "concept_id": "C039"
+    },
+    {
+      "on_screen": "Close on the working faces: fibre pouring onto one side in a continuous fall; on the other, a grab lifting, swinging, dropping into a chute. Steam. The furnace mouth.",
+      "voice": "The old texts set out to explain something that looks like nothing at all: why a wall, a table or a hand seems to last for years when the smallest parts they are made of last almost no time. The answer is not that the parts are durable. It is that they do not all break at once, and each one that goes is replaced in the same place [C039-M:L9].",
+      "concept_id": "C039"
+    },
+    {
+      "on_screen": "The yard: trailers queuing, tipping, pulling out; the same movement repeating with different vehicles; an empty bay filled within a minute of being emptied.",
+      "voice": "Stability, on that account, is not stillness. It is renewal that keeps up. And this is not being offered as chemistry or cell turnover; the sources are not describing atoms, and their smallest units are not anything a microscope has ever been pointed at [C039-P:L31].",
+      "concept_id": "C039"
+    },
+    {
+      "on_screen": "Three separate things in three shots, each given a beginning, a middle and an end: a stalk entering the crusher; a trailer’s load rising, tipping, gone; a grab-load lifted, held in the air, dropped into the fire.",
+      "voice": "Everything in the texts has the same three beats — it comes up, it stays, it breaks. Mind and matter differ only in how long the middle beat lasts, and for a mind it is so short that the charts can only draw it as three dots on a page [C042-M:L3; C039-M:L3].",
+      "concept_id": "C042"
+    },
+    {
+      "on_screen": "A hand on a control lever; a shoulder; the back of someone walking a conveyor gantry. Nobody’s face is held. Then the plume at night, lit from below.",
+      "voice": "And the texts do not stop at walls and tables. They hold that for beings like us no moment of mind floats free — each one rests on a particular piece of living body [C037-P:L27]. Which means the support is made of the same kind of thing as the heap, and is being replaced underneath the thing it supports.",
+      "concept_id": "C037"
+    },
+    {
+      "on_screen": "Very wide, night. The mill lit, the fields black, the plume standing straight up. Then the same frame in daylight at the end of a season: yard empty, conveyors still, no heap at all.",
+      "voice": "The sources draw no lesson here and neither does this film. They are not telling anyone to let go of anything. They are describing a way of lasting, and the only surprising part of it is that it works.",
+      "concept_id": "C039"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C039 contributes the claim this film exists for: things look unchanged not because they are still but because their parts do not all break at once and each one that goes is replaced in the same place, so stability is constant, well-timed renewal. C037 contributes the join that makes the film more than a landscape, since the sources hold that every moment of mind rests on a piece of living matter, and that matter is made of exactly the stuff C039 has just described as constantly replaced. C042 contributes the three-beat shape both of them share, arising, standing and dissolving, which the charts draw as three dots because a mind's version of it is too fast to see. A salt pan is one of the few places where that three-beat shape happens slowly enough to be watched.",
-    "what_it_reveals": "On its own C039 is a claim about a scale nobody can reach. Set beside a heap that is rebuilt every few days by people whose bodies are wearing out at a slower version of the same rate, it becomes something a viewer can hold: the worker, the heap and the pan are the same kind of fact at three different speeds. What the pair must not be allowed to become is a lesson about impermanence, which the digest notes neither source draws here."
+    "why_together": "C039 supplies the claim the film exists for. The sources give matter a lifespan of seventeen mind-moments, or fifty-one sub-moments, with a long middle phase, and the Margaya then answers the obvious objection — why do things seem to last for months? — with the picture of a sand heap seen from a distance: countless tiny units that do not all break at once, each one replaced in the same spot [C039-M:L9; C039-M:L3]. The Pradeepika adds that twenty-two of the twenty-eight kinds of matter have that lifespan and six have less [C039-P:L31]. A mill’s fuel mountain is a full-sized working model of exactly that structure, and one that can be flown around. C037 supplies the join that lifts the film off the ground: for beings with both mind and body, no mental event floats free — each rests on a particular piece of living matter [C037-P:L27] — so whatever the heap is a picture of is also true of the support the mind is leaning on while it looks at the heap. C042 supplies the shared three-beat shape and the reason a notation was needed for it at all: each moment is drawn as three dots, arising, standing and dissolving, because its middle beat is far too short to watch [C042-M:L3]. A heap is one of the very few places where that middle beat is long enough to film.",
+    "what_it_reveals": "That constancy and change are not opposites, and that a thing can be entirely stable and entirely turnover at the same time. C039 alone is a claim about a scale nobody can reach. C037 alone is a doctrine about where minds sit. C042 alone is a notation. Together, on a mountain of fuel that is the same size every morning and made of different material every morning, they let a viewer hold the shape of the argument without being asked to accept any measurement, any biology, or any moral."
   },
   "concept_links": [
     {
       "concept_id": "C039",
       "role": "primary",
-      "why": "The digest gives the source's account of matter's lifespan, seventeen mind-moments or fifty-one sub-moments with a long standing phase, and Margaya's explanation of why objects still seem to last for months: like a sand heap seen from a distance, everything is a cluster of countless tiny units that do not all break at once, and each one that breaks is replaced in the same spot [C039-M:L9]. A season in a salt pan is a working match for that claim. The digest's limits are carried without exception: the clusters are not atoms, molecules or cells; seventeen mind-moments is not a duration in seconds and 'less than a hundred-thousandth of an eye-blink' is an image rather than a figure to quote as science; the source draws no moral about letting go here, and the film draws none either; and the replacement argument must never be paired with 'you are a new person every seven years'."
+      "why": "The digest gives the source’s account of how anything lasts. Every mind-moment has three phases, arising, standing and dissolving; material phenomena last seventeen mind-moments or fifty-one sub-moments with a long standing phase [C039-M:L3]; and the Margaya explains the appearance of durability with a heap seen from a distance — countless tiny units that do not all break at once, continually replaced in the same spot [C039-M:L9]. The Pradeepika adds that twenty-two of the twenty-eight kinds of matter have this lifespan and six have less [C039-P:L31]. A mill’s fuel heap is a working match at a size a camera can hold. Every limit in the digest is load-bearing here and is written into the film. The source’s statement is technical, not an exhortation to let go, and neither extract draws a moral, so the voice draws none either. The clusters are not atoms, molecules or cells, and the film says so rather than letting the machinery imply it. Seventeen mind-moments is not a duration in seconds, and the Margaya’s ‘less than a hundred-thousandth of an eye-blink’ is an image and is never quoted as a figure. ‘Live in the moment’ misreads it, since the moment here is far below anything a person could dwell in. And the replacement argument is never paired with the popular claim that a person is wholly new every seven years."
     },
     {
       "concept_id": "C037",
       "role": "supporting",
-      "why": "Re-grounded. The digest says that for beings with both mind and body no mental event floats free: each one happens somewhere and rests on a particular piece of living body, and when the body changes, what the mind can do changes with it [C037-P:L27]. The join with C039 is the point, and it is what this episode's lesson cites: the base a mind leans on is itself made of the material that C039 has just described as continuously replaced, so the support is being rebuilt underneath the thing it supports. The digest's prohibitions are carried: the heart-base is not cardiology and not 'follow your heart', 'beings with complete faculties' must never become a judgement about disabled people, and the digest's own candour that Margaya says this base cannot be found by medicine is stated plainly rather than smoothed over."
+      "why": "The digest says that for beings with both mind and body no mental event floats free: each one happens somewhere and rests on a particular piece of living matter, and when the body changes what the mind can do changes with it [C037-P:L27]. That is the join this film is built on, because the matter it rests on is the same matter C039 has just described as continuously replaced. The digest’s prohibitions are carried exactly. The heart-base is not the heart muscle and not a claim of cardiology, and the digest’s own candour — that the source says it cannot be seen, touched or found by medicine [C037-M:L11] — is stated plainly rather than smoothed over, which is why the film keeps its weight on matter that can be filmed. ‘Beings with complete faculties’ [C037-P:L45] is never turned into a judgement about disabled people and does not appear on screen. The account supports neither ‘the mind is just the brain’ nor ‘the mind is independent of the body’, and the voice offers neither."
     },
     {
       "concept_id": "C042",
       "role": "supporting",
-      "why": "Re-grounded. The previous reading treated the pans' work cycle as an echo of the sources' notation for a fast process, which the notation is not. What the digest actually supports is narrower and better: the charts draw every single moment as three dots, arising, standing and dissolving, because that rhythm is shared by mind and matter and differs only in how long the middle beat lasts [C042-M:L3]. A pan is the rare case where a material thing's arising, standing and dissolving runs slowly enough to be watched, so it is the scale analogue of what the charts stand in for. This is stated in the film as a comparison of scale, never as a claim that a salt pan shows mind-moments, and the digest's rule that the charts are not readouts and must not be animated as such is observed."
+      "why": "The narrow and correct use of this digest here is the notation’s reason for existing. Each mind-moment is drawn as three dots, for arising, standing and dissolving, with a letter naming the kind of mind, precisely because the sequence is invisible and very fast and has to be made holdable [C042-M:L3]. That is what a fuel heap gives back: the same three beats, with a middle beat long enough to watch a whole load through. The digest’s limits are kept. The charts are a traditional teaching notation and are never animated on screen as though they were measurements or readouts, so nothing chart-like is laid over the footage. ‘The mind is a machine’ is named in the digest as a misreading, which matters in a film set inside a factory, and the voice never lets the plant stand for a mind."
     }
   ],
-  "what_the_viewer_could_understand": "A heap of salt can look the same all season while every grain in it is new. These texts describe solid things the same way: countless tiny parts that each last a moment and are constantly replaced, so the whole seems not to change, and the body a mind rests on is made of the same replaced stuff.",
-  "what_must_be_real": "The workers' real pay, conditions and physical cost. No time-lapse or montage may aestheticise the labour away, and the season's real economics belong in the film alongside the cycle. The sources' figures are never offered as measurements or as science.",
-  "position_hint": "opening candidate for the group's early stretch: it establishes that the things the senses meet are brief and continuously replaced, which every later film in the group depends on, and it does so at the only speed a camera can actually hold. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That looking the same and staying the same are different things, and that some of what looks most solid is held in shape only by how fast it is being replaced. The claim is not that everything is falling apart; it is that constancy can be made entirely out of turnover, and that this is an ordinary arrangement rather than a sad one.",
+  "what_must_be_real": "The mill’s own season and its own rate. Nothing is tipped, crushed, fed or lit for the camera, and no shift is arranged around a shot; if the heap is worked at three in the morning, that is when it is filmed. No person on screen is presented as the one who sees or notices — the group’s concepts deny exactly that, and a camera cannot show a mind-moment — so people appear here as people at work and never as demonstrations. The voice never claims that the plant is a mind or that the heap is made of the units the sources describe. Safety around a working crusher train, a boiler house and a moving grab is decided by the people who run the mill, and nothing is filmed that interferes with the crush.",
+  "position_hint": "middle: it is the group’s plainest statement that constancy is made of replacement, and the later films about thresholds and the order of stages read better once a viewer has that. No location reasoning is involved.",
   "risks": [
-    "Time-lapse or montage treatment aestheticising the labour away.",
-    "Pay and conditions glossed over for a landscape film.",
-    "Weather dependency making a full cycle hard to film.",
-    "Presenting the source's replacement argument as cell turnover or physics, which the digest rules out.",
-    "Letting the film drift into a lesson about impermanence, which neither source draws here."
+    "Letting the film become a lesson about impermanence and letting go. The digest is explicit that neither source draws a moral here, and the voice must not supply one.",
+    "Presenting the sources’ units as atoms, molecules or cells, or the heap as an illustration of cell turnover or of physics. The digest rules all of that out.",
+    "Quoting ‘less than a hundred-thousandth of an eye-blink’ as a figure, or offering any duration in seconds for seventeen mind-moments.",
+    "Pairing the replacement argument with the popular claim that a person is entirely new every seven years, which the digest names and rejects.",
+    "Letting a factory stand for a mind. The C042 digest names ‘the mind is a machine’ as a misreading, and a film set inside heavy plant is where that would happen by accident.",
+    "Animating anything chart-like over the footage, when the digest says the charts are a teaching notation and never a readout.",
+    "Narrating the heart-base as anatomy, or smoothing over the source’s own statement that it cannot be found by medicine [C037-M:L11].",
+    "Letting ‘beings with complete faculties’ [C037-P:L45] reach the screen in any form that could read as a judgement about disabled people.",
+    "Presenting anyone in frame as the one who sees or decides, which is the exact thing this group’s concepts deny.",
+    "Becoming an argument about the sugar industry — land, smallholder prices, cane burning, air quality or the sector’s finances. Those are real arguments and none of them is this film’s subject, and the film must not use beautiful footage to settle them silently either way.",
+    "Treating hard, hot and hazardous work as scenery."
   ],
   "drop_if": [
-    "No operation allows filming across a real working cycle.",
-    "The workers do not want their economic situation shown alongside the visual cycle.",
-    "Weather or access make a full cycle impossible to film.",
-    "The only available version of the work is mechanised in a way that removes the human cost the film is partly about."
+    "The mill will not permit filming on the crushing floor or near the boiler house, so only the fields are available and the heap is lost.",
+    "The fuel is in practice fed straight from conveyor to furnace with no standing heap, so the film’s central object does not exist.",
+    "It can only be made by asking the mill to run, stop or load anything for the camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0075",
+      "idea_id": "IDEA-0083",
       "relation": "pairs with",
-      "note": "Both watch a material that seems constant and a trade built on judging it, one renewed every few days and one that has been there for an age."
+      "note": "Two films about a continuous stream at a plant: one about what is sorted out of it, one about what is constantly replaced within it."
     },
     {
-      "idea_id": "IDEA-0085",
-      "relation": "pairs with",
-      "note": "Two ways of holding something too fast to watch: a notation that stands in for it, and a material slow enough to watch instead."
+      "idea_id": "IDEA-0081",
+      "relation": "contrasts with",
+      "note": "One machine turning once, slowly, and watched all the way; one heap never still and never visibly changing."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0037, proposed by the C039 digest's own story seed, and now carrying re-grounded C037 and C042 links instead of the loose ones it had."
+    "reason": "It gives the group a full-sized object whose constancy is visibly nothing but its own turnover, which is the claim itself rather than an illustration of it."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The coastal salt pans are dropped entirely — the slate already carries two salterns, and a third would have been the same landscape for a third time. The concept is kept unchanged: a thing that re-forms as fast as it is removed, so that the object always looks the same and is never the same material. Moved to a sugar mill’s fuel heap, where the replacement is continuous rather than cyclical, the turnover is hours rather than days, and the object is visibly stable while being visibly worked at both ends. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Pelwatte sugar mill at Buttala and the cane country around it",
+    "also_known_as": [
+      {
+        "name": "bagasse",
+        "meaning": "the crushed cane fibre left after the juice is extracted, which is burned to fire the mill’s own boilers",
+        "used_by": "sugar industry usage"
+      }
+    ],
+    "region": "Monaragala district, Uva Province: the hot low interior south-east of the hills, where the cane blocks sit between dry-zone scrub and the last high ground",
+    "coordinates": {
+      "lat": 6.7475,
+      "lng": 81.1945
+    },
+    "why_here": "It produces the film’s single best image and its clearest statement in the same object. The mill is one of only two of its size in the country, it crushes a few thousand tonnes of cane a day through a season, and it burns the crushed fibre from that cane to raise the steam that processes the next of it — so the fuel mountain beside the boiler house is fed and emptied continuously and stands at the same height for months. That is the concept at full scale and in one frame, with machines visibly working both ends of a shape that does not change. The surrounding country gives the film its other half for nothing: several thousand hectares of cane cut in rotation, so that from the air the land is a shifting patchwork of tall, cut, burned and regrowing blocks, with hills behind and a very large sky over it.",
+    "what_to_film": [
+      "The heap from directly above, held long and still, so that the outline reads as fixed; then the same frame weeks later.",
+      "Both working faces at once where it can be framed: fibre pouring onto one side while a grab lifts from the other.",
+      "One load followed all the way through — a trailer tipped, the stalks into the crusher train, the fibre out, the furnace mouth — so the three beats of a single thing are visible once.",
+      "The cane country from the air across a whole season, wide enough that the rotation reads as a patchwork rather than a field.",
+      "The yard as a queue: trailers arriving, tipping and leaving, and the bays refilling within a minute.",
+      "Night: the lit mill and the plume in a black landscape, and the plume in daylight as the only sign from a distance that the mill is running.",
+      "The end of the season — empty yard, still conveyors, no heap — which is the proof that the heap was never an object.",
+      "The unglamorous middle: conveyors, gantries, steam, noise, and work that goes on around the clock."
+    ],
+    "access": "By road into the cane country south-east of the hills; the mill sits among its own estates. It is a working state-owned industrial plant, so ground access, anything close to the crusher train or the boiler house, and any flight over the site depend entirely on the company’s permission and its safety rules. The season is the constraint that cannot be negotiated: outside the crushing months there is nothing here to film.",
+    "best_time": "Mid-crushing-season, when the mill runs continuously and the surrounding blocks hold every stage of the rotation at once. Within a day, first light across the cane, and the hour after dark for the lit yard and the plume.",
+    "images": [
+      {
+        "caption": "Sugarcane planting at the country’s other sugar estate, in the same district. This is the crop and the region, not this mill.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sevanagala 01.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sevanagala 01.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Evening in the district’s main town, for the light and the shape of the country the mill sits in. This is the surrounding district, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evening view in monaragala playground.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Evening view in monaragala playground.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Crushed cane fibre heaped at a mill, photographed in China. This is the material type elsewhere, not this mill’s heap.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagasse in Hainan - 01.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bagasse in Hainan - 01.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pelwatte_Sugar_Industries",
+      "https://www.lankapradeepa.com/2022/07/pelwatta-sugar-factory.html",
+      "https://www.lankasugar.lk/pelwatte/index.php/13-about-us"
+    ],
+    "research_note": "That the mill stands at Pelwatte near Buttala in Monaragala district, that it was established in the mid-1980s, that it is now run by a state-owned sugar company, that it draws on roughly twelve thousand hectares of company and smallholder cane, and that its rated crushing capacity is in the region of three thousand tonnes of cane a day are from the sources above and are desk research only. The coordinates are an open mapping database point for the settlement the mill is named after and should be treated as a direction, not a surveyed position on the plant. That the mill burns its own crushed cane fibre and keeps a standing fuel heap is an inference from ordinary sugar-milling practice and is not confirmed for this plant by any source read; it is the first thing to check, and the film does not exist without it. Nobody at the company has been approached and no permission has been sought. None of the three images is of this mill: one is of cane at the other estate in the same district, one is of the district’s main town, and one is of crushed cane fibre at a mill in another country. Each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether this mill in fact keeps a standing fuel heap, rather than feeding fibre straight from conveyor to furnace, is unverified and decides the film.",
+    "No approach has been made to the company, and a state-owned industrial plant may refuse a crew outright or restrict filming to the estates.",
+    "Drone flight over an operating mill, especially near a boiler house and a plume, may be refused.",
+    "The exact crushing season dates vary year to year and have not been checked; outside them there is nothing to film.",
+    "Whether the heap is worked continuously enough for both faces to be legible in one frame has not been checked on the ground."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

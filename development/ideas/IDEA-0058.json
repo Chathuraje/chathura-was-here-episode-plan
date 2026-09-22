@@ -2,78 +2,195 @@
   "schema_version": 1,
   "id": "IDEA-0058",
   "record_type": "idea",
-  "title": "Among the Roots",
+  "title": "What Keeps It Standing",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Among the Roots"
+  ],
   "group_id": "GRP-04",
-  "logline": "Every turning in the mangrove channels looks the same to a stranger, but a lagoon fisher who grew up in them reads the roots like streets, and spends the low tides planting more.",
-  "human_question": "What holds us in place, and can we choose what grows there?",
-  "situation": {
-    "what_happens": "A tidal lagoon is threaded with narrow channels between mangroves, where the water moves twice a day and the banks are held together by roots. Someone who fishes there has learned the maze by small differences, a bent root or a gap in the canopy, and takes part in the replanting the community does at low tide, pushing seedlings into the mud and coming back later to see which took hold. The catch that feeds the household depends on those root systems, and so does the shore behind them. Anyone else entering the same channels cannot tell one from another.",
-    "who_is_involved": "A lagoon fisher or boat handler whose living comes out of the channels; the neighbours and the community group who replant; and outsiders who pass through without being able to read the place.",
-    "what_is_at_stake": "The crabs, shrimp and fish that depend on the roots, and with them a household's income; the shore's protection from the sea; and knowledge that may not pass to anyone younger.",
-    "how_it_unfolds": "The tide sets the clock: planting at low water, fishing at the turn. Seedlings are pushed in and then either hold or wash out, which takes weeks or a season to know. It can end with a stretch of bank visibly holding, with a planting lost, or with nothing conclusive at all. The tide, the salinity and the weather decide."
+  "logline": "A shallow lagoon behind a long sand bar, threaded with channels that branch and branch through mangrove until every turning is a copy of the last one, and where the banks are standing on nothing but roots.",
+  "human_question": "Is the useful question what started this, or what is keeping it exactly where it is?",
+  "place": {
+    "what_kind_of_place": "A long shallow brackish lagoon lying behind a bar of sand and dune, connected to the sea at one or two narrow points and to the land by a network of creeks. Away from the open water the lagoon becomes channels running back into stands of mangrove, and the mangrove is what holds the banks: pull the roots out and the bank is mud and stops being a bank. Small boats and dugouts work the channels for crab, prawn and small fish, and the whole system changes direction twice a day.",
+    "why_it_is_worth_watching": "Two shots, and they are the two halves of the idea. From high above, the channel network reads as one branching figure that repeats at every size, and it is immediately obvious why it cannot be learned from the inside: there is nothing in it to fix on that is not another instance of the same thing. From a boat at water level the world is a green corridor two or three metres high with an opening at each end and openings on both sides, and every opening is the same opening. And then, at low water, the thing that makes both of those true at once: the prop roots standing clear of the mud, arched, holding a bank up out of nothing at all.",
+    "what_moves_or_changes": "The tide, twice, and everything follows it. The current reverses in every channel; the roots go from submerged to fully exposed and back; mud flats appear and are covered; the fishing moves with it. Light comes through the canopy differently on every reach. None of it can be rescheduled, and the good half hour at low water is the same half hour for everybody.",
+    "when_it_looks_best": "Low water on a clear morning, when the prop roots are fully out and the mud is wet enough to hold a reflection. High water for running the channels, when a boat can get where it cannot get at other times. From the air in flat early light, when the channels are dark and the canopy is even, so the branching reads as a pattern instead of as shadow."
   },
+  "two_layers": {
+    "without_the_philosophy": "A slow water film with two completely different points of view in it. A maze seen whole from above, and a green corridor seen from inside it at the waterline, with a tide that turns halfway through and runs the other way. Roots, mud, birds, a small boat working, light coming down through leaves. It resolves on its own: low water to high water and back, out and in, and the light going across. Anyone who never hears a word of commentary gets a complete piece.",
+    "with_the_philosophy": "The same water is the sources' own simile, standing up out of the mud. Both of the books that this film draws on insist on one thing about the word root: it does not mean what started a thing. It means what keeps the thing standing, the way a tree's roots keep the tree up, and what it holds up is a mind, on whatever object it has taken. The film can then make the colder point these books make without raising its voice: of all the minds they count, the only two that stand on a single root, with nothing beside it, are the two that cannot see clearly."
+  },
+  "sequence": [
+    {
+      "on_screen": "Before sunrise, at the waterline from a boat: flat water, a wall of mangrove, one dark opening in it.",
+      "voice": "Every one of these channels goes somewhere. From down here, they are all the same channel.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "The drone rising straight up off that one opening until the whole network is in frame: creeks branching into creeks into creeks, out to the open lagoon and the bar beyond.",
+      "voice": "From above, the pattern repeats, and it repeats at every size, which is exactly why it cannot be learned from inside it. There is nothing here to fix on that is not another copy of the same thing. The books have a word for the quality of a mind in which a thing cannot be made out as it is. They call it a darkening, and they say it is running underneath every harmful state there is [C008-M:L3].",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Low water. Prop roots standing clear of the mud, arched, wet, a whole bank of them holding the earth and the trees above them.",
+      "voice": "This is what those books mean by a root, and they say it very plainly, in both of them. A root is not what caused a thing to start. It is what keeps it standing, the way a tree's roots keep the tree up, and what it is holding in place is a mind, on whatever it has taken as its object [C033-P:L27; C033-M:L5–L7].",
+      "concept_id": "C033"
+    },
+    {
+      "on_screen": "A stretch of bank with nothing holding it: a cut or a cleared edge, mud slumping into the channel, the water taking the shape out of it.",
+      "voice": "So the question they are asking is not where any of this began. It is what is holding it where it is now. That is a different question, and they are careful not to let it turn into the familiar one: they say outright that these are not the causes of a mind's arising [C033-P:L81; C033-M:L5].",
+      "concept_id": "C033"
+    },
+    {
+      "on_screen": "Waterline again, from the boat: a turning taken into a channel that is indistinguishable from the one before it, and then another, and then another.",
+      "voice": "They count six of these roots, and they come in two sets of three. Three that grip: wanting, pushing away, and not-seeing. And three that let go: open-handedness, goodwill, and understanding [C033-P:L29; C033-M:L3].",
+      "concept_id": "C033"
+    },
+    {
+      "on_screen": "The turn of the tide: the current stopping and then reversing in a channel, leaves and drifting weed all changing direction together, the water going the other way through every opening in frame.",
+      "voice": "Then they count the minds. Eighteen carry no root at all. Twenty-two carry two. Forty-seven carry all three of the good ones together. And exactly two stand on one root alone, with nothing beside it, and those two are the mind that cannot come to a decision and the mind that will not stay still [C033-P:L39–L65; C033-M:L9–L13]. Not-seeing is the only one of the six that can hold a mind up by itself.",
+      "concept_id": "C033"
+    },
+    {
+      "on_screen": "Full high water. The roots are gone under; the channels are wide and simple and the same; a boat lifting a crab pot and putting it back.",
+      "voice": "And one more sentence, which is the most hopeful in the chapter and is narrower than it sounds. The good roots are the stronger set, and each one undoes its own opposite [C033-P:L83]. Not a general promise that things come right. A particular claim, root by root, about what cancels what.",
+      "concept_id": "C033"
+    },
+    {
+      "on_screen": "Last light from high above: the whole branching system again, dark water and even canopy, the bar and the sea beyond it, no boat in frame.",
+      "voice": "Somebody who grew up in here can run these channels at night. That is skill, and the sources are explicit that skill is not the thing they are naming. The understanding they call a root is something inside a single moment of mind, not information, not education and not experience [C033-M:L3]. This place is not a test anyone passes. It is only held up, everywhere, by the same thing that makes it impossible to read.",
+      "concept_id": "C033"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C033 is the concept of holding: both sources insist the six roots are not what makes a mind arise but what keeps it standing on its object, as a tree's roots keep the tree up, and the digest adds that the wholesome roots are the stronger set [C033-P:L27; C033-M:L5; C033-P:L83]. C008 is the concept of not being able to take in what is in front of you [C008-M:L3]. A channel system where roots do the holding, and where a stranger cannot tell one turning from the next, puts both in the same water.",
-    "what_it_reveals": "That the useful question is not what started something but what is keeping it in place, and that the same question applies to the good as much as to the harmful. C033 alone stays an image of anchorage; C008 alone stays a mood of disorientation. Together they show a maze held together by exactly the thing that makes it hard to read."
+    "why_together": "C033 is the concept of holding. Both its sources deny that the six roots are what causes a mind to arise and say instead that they keep the mind and its companions standing firmly on their object, as a tree's roots keep the tree up [C033-P:L27; C033-P:L81; C033-M:L5–L7], and the tables then sort every mind by how many roots it carries: eighteen with none, two with one, twenty-two with two, forty-seven with all three of the wholesome ones [C033-P:L39–L65; C033-M:L9–L13]. C008 is the concept of not being able to take in what is in front of you: a darkening that stops the mind knowing a matter as it really is, present in every unwholesome mind and dominant in two of them [C008-M:L3]. The join is not thematic, it is arithmetical, and it is the reason these two belong in one film. The only two minds in the whole count that stand on a single root are precisely C008's two, doubt and restlessness, held up by not-seeing alone [C033-P:L45; C033-P:L53–L54; C033-M:L11]. A channel system where the roots do all the holding, and where a stranger cannot tell one turning from the next, puts the holding and the not-seeing in the same water at the same time.",
+    "what_it_reveals": "That the useful question is not what started something but what is keeping it in place, and that the question applies to the good as much as to the harmful. C033 alone is an image of anchorage and no more. C008 alone is a mood of disorientation with nothing under it. Together, in a place that is held together by exactly the thing that makes it unreadable, they show why confusion is not one problem among several but the ground the others stand on, and they let the film say plainly, once, that there are good roots too."
   },
   "concept_links": [
     {
       "concept_id": "C033",
       "role": "primary",
-      "why": "Both sources say plainly that a root is what holds the mind and its companions firmly on their object, not what caused the mind to arise, and both use the tree simile; the digest adds the claim that the wholesome roots can undo their opposites [C033-P:L27; C033-M:L5; C033-P:L83]. Roots anchoring against a running tide carry that sense directly. The digest's two limits are held: this is not modern root-cause analysis, and the roots classify moments of mind, never people."
+      "why": "Both sources state that a root holds the mind and its companions firmly on their object rather than causing the mind to arise, and both use the tree simile [C033-P:L27; C033-P:L81; C033-M:L5–L7]. They give six roots in two sets of three [C033-P:L29; C033-M:L3], sort the minds by how many roots each carries [C033-P:L39–L65; C033-M:L9–L13], and the Pradeepika adds that the wholesome roots are the stronger set and can destroy their counterparts [C033-P:L83]. Roots anchoring a bank against a running tide carry the first of those directly, and the tide carries the second. The digest's four limits are honoured, and two of them are spoken on screen rather than only respected off it. This is not modern root-cause analysis, and the voice says so when it says the question is not where anything began. Non-delusion is not education, information or expertise but the wisdom factor within a moment of mind [C033-M:L3], which is why the closing beat names local skill and then says explicitly that skill is not the concept. The roots classify moments of mind and never people, so nobody in the film is a type of anything. And the claim that the wholesome roots are stronger is about specific roots cancelling their specific opposites, not a general message that good wins, which is why the voice narrows it in the same breath."
     },
     {
       "concept_id": "C008",
       "role": "supporting",
-      "why": "The digest states that delusion is a darkening that stops the mind knowing a thing as it is, and that it is present in every unwholesome mind [C008-M:L3]. Channels that all look alike are the ordinary face of not being able to take in what is in front of you. The link is to that description and makes no claim about anyone in the film."
+      "why": "The Margaya states that delusion is a quality that darkens the mind so it cannot know a matter as it really is, that it is present in unwholesome minds and dominant in two of them [C008-M:L3], and those two are the doubt mind and the restlessness mind, which are exactly the two the root tables count as standing on one root alone. Channels where every turning is a copy of the last one are the ordinary face of not being able to make out what is in front of you, and the link is to that description only: the film makes no claim about anyone in it. The digest's guards are kept. The harmful doubt it describes is restricted to eight named religious matters and is separated from honest not-knowing, so the film asserts nothing about which kind anything on screen might be. And the neutral feeling in these states is explicitly not equanimity, so no flat, quiet stretch of this film is ever narrated as calm."
     }
   ],
-  "what_the_viewer_could_understand": "What keeps us stuck is not always what started it. The texts call greed, hatred and confusion roots because they hold the mind in place the way roots hold a tree up, and they name good roots too: letting go, goodwill and understanding.",
-  "what_must_be_real": "The fisher's knowledge, the catch and the replanting, which must already be happening. No planting is organised for the film, and no channel is made to look harder or easier to read than it is.",
-  "position_hint": "middle: the group turns here from images of being lost to the question of what holds anything in place, and this is the first film in which it says plainly that there are good roots too.",
+  "what_the_viewer_could_understand": "What keeps us stuck is not always what started it. The old texts call greed, aversion and confusion roots because they hold a mind in place the way roots hold a tree up, and they name three good roots as well: letting go, goodwill and understanding. And of all the minds they count, the only ones that stand on a single root are the two that cannot see clearly.",
+  "what_must_be_real": "The channels, the tide and the fishing, all of which must already be happening. No channel is cut, cleared, widened or marked for the camera, no mangrove is damaged to make a shot possible, and no seedling is planted for the film. Nobody is asked to get lost, to lead a camera astray, or to demonstrate knowing the way. The lagoon is somebody's working ground, so nobody's gear or grounds are filmed without their agreement, and the film does not turn a person's knowledge of the place into an exhibit.",
+  "position_hint": "Middle, and late in the middle: this is where the group turns from images of being lost to the question of what is keeping anything in place, and it is the only film in the group that says out loud that there are good roots too. Nothing in the placement depends on the location.",
   "risks": [
-    "Environmental messaging taking over the film.",
-    "Forcing doctrine onto conservation work.",
-    "Treating the fisher's local expertise as the texts' non-delusion; the digest is explicit that non-delusion is understanding within a moment of mind, not information or education.",
-    "Tourist-boat framing."
+    "Treating the local knowledge of the channels as the texts' non-delusion. The digest is explicit that non-delusion is the wisdom factor within a moment of mind, not information, education or expertise, and the film must say so rather than merely avoid the mistake.",
+    "Letting environmental messaging take over, or forcing the doctrine onto conservation work. The concept is not a conservation argument and the mangroves are not an illustration.",
+    "Sliding into modern root-cause analysis. Both sources deny outright that these roots cause a mind to arise, so no line may say that greed or anger is the root cause of anything in the everyday sense.",
+    "Tourist-boat framing, with a lagoon shot as scenery and the people in it as local colour.",
+    "Asserting which kind of not-knowing is on screen. The harmful doubt in the sources is restricted to eight named religious matters and is separated from honest not-knowing.",
+    "Narrating a quiet, flat stretch of water as calm of mind. The neutral feeling in these states is explicitly not equanimity.",
+    "Labelling anybody as a type from the roots. They classify moments of mind, not people.",
+    "Filming in a way that disturbs nesting or roosting birds, damages roots with a boat, or takes a camera where a working boat needs to be."
   ],
   "drop_if": [
-    "No replanting is active and no local person with a real stake in it can be found."
+    "The channel network is not actually hard to read, so the film's whole premise has to be manufactured in the edit.",
+    "No one who works the channels is willing to have their grounds filmed, or a camera in the boat.",
+    "It can only be made by staging a person getting lost, or by presenting somebody's knowledge of the place as wisdom."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0057",
       "relation": "mirrors",
-      "note": "Two ways of being held: a tether and a root."
+      "note": "Two ways of being held in place: a rope round a post, and a root under a bank."
     },
     {
-      "idea_id": "IDEA-0054",
+      "idea_id": "IDEA-0056",
       "relation": "pairs with",
-      "note": "Lost among roads and lost among channels, and the local knowledge that finds the way in both."
+      "note": "Water that reads two ways at once, and water in which every reading looks the same."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's fourth episode and is the group's only full treatment of the roots, including the wholesome ones."
+    "reason": "It is the group's only full treatment of the roots, including the wholesome ones, and its arithmetic joins the two concepts rather than merely pairing them."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The situation block is replaced by place, two_layers and an eight-beat sequence built on one lagoon's channel network; both digests were re-read fresh and every citation re-checked against the digests' own evidence. The merge is rebuilt on the fact that the two one-rooted minds in the root tables are exactly this group's doubt and restlessness minds, which the earlier draft did not use. The replanting strand has been cut back so the film is the legibility of the place and not a conservation story, and the digest's warning that non-delusion is not education or expertise is now spoken in the closing beat rather than only listed as a risk. A proposed location has been added.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The mangrove channels of the Chilaw lagoon complex at Pambala",
+    "also_known_as": [
+      {
+        "name": "kadolana",
+        "meaning": "mangrove; the stands that hold the lagoon's banks together",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "mas-athu danawa",
+        "meaning": "cutting mangrove branches and throwing them into the lagoon to draw small fish to a spot",
+        "used_by": "local fishing usage recorded for this lagoon"
+      }
+    ],
+    "region": "Puttalam District, North Western Province; a shallow lagoon lying behind a long sand bar on the west coast",
+    "coordinates": {
+      "lat": 7.54,
+      "lng": 79.8
+    },
+    "why_here": "It is the densest and most species-varied mangrove on this coast, with sixteen mangrove species recorded around the lagoon, which is what produces a channel network fine enough and repetitive enough to be genuinely unreadable from inside it while reading as a single clean branching figure from the air. The lagoon lies behind a long sand bar, so there is a hard outer edge to put the maze against in a wide shot. It is a working lagoon rather than a park: small-scale fishing, including the local practice of throwing cut mangrove branches into the water to draw fish, goes on in the same channels. And the banks here are visibly the roots and nothing else, with cut and eroding stretches next to intact ones, which gives the film its one necessary comparison without having to argue for it.",
+    "what_to_film": [
+      "The channel network from high above in flat early light, high enough for the branching to repeat within one frame.",
+      "The same channels from the waterline, held long, so that the sameness of the turnings becomes a fact rather than a claim.",
+      "Prop roots at dead low water, arched clear of the mud, with the bank and the trees standing on them.",
+      "A stretch of bank with nothing holding it, slumping into the channel, in the same light as the intact one.",
+      "The turn of the tide in a single locked frame: the current stopping, then running the other way through the same opening.",
+      "The ordinary fishing of the lagoon at its own pace, including the cut branches going into the water and being worked later.",
+      "The seaward edge: the bar, the dunes, and the narrow connection between the lagoon and the open sea."
+    ],
+    "access": "By road from the coast highway to the villages along the lagoon's landward edge; the channels themselves only by small boat, and only with someone who works them. The grounds, traps and branch-piles in the water belong to households, so nothing is filmed without their agreement. Drone flight over a lagoon with dwellings and a mangrove reserve along it is likely to need permission and should be assumed to be restricted until checked.",
+    "best_time": "Clear mornings at low water for the roots, high water for running the channels; the two are a few hours apart on the same day, which is what lets the film be one tide rather than several.",
+    "images": [
+      {
+        "caption": "The lagoon at the proposed site, with the bar of sand dividing it from the open sea. This shows the lagoon system, not the mangrove channels inside it.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ChilawLagoon.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:ChilawLagoon.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The sand spits, banks and dunes of the same nearshore lagoon system, where mangroves and grasses hold the banks together. The wider system, not the channels the film is about.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilaw Sand Spits, Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Chilaw Sand Spits, Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Mangrove at a lagoon elsewhere in the country, for the vegetation and the waterline it makes. Not the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake Koggala mangroves.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake Koggala mangroves.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://lankamangrovemuseum.lk/an-ecological-stronghold-mangroves-of-the-pambala-chillaw-lagoon/",
+      "https://serm.ulb.be/mmm3-meeting-on-mangrove-ecology-functioning-and-management/mmm3-pambala-chilaw-lagoon-workshop/",
+      "https://www.lovesrilanka.org/chilaw-lagoon/"
+    ],
+    "research_note": "That this lagoon complex carries one of the most species-diverse mangrove assemblages on the south-western and western coast, with sixteen mangrove species recorded, and that fishers there use the technique of cutting and throwing mangrove branches into the water to attract small fish, are from the sources above and are desk research only. The coordinates are an approximate point in the lagoon complex, not a chosen landing or channel mouth. Everything the film depends on is unverified: whether the channel network is in fact as fine and as repetitive as described, whether boats still work the inner channels, what the tidal range actually gives at low water, whether drone flight over the lagoon is permitted, and whether any household would agree to take a camera in. No fisher, boat or channel has been found or approached.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No fisher, boat or channel has been found or approached. Everything here is a research direction.",
+    "The tidal range on this coast is small, and whether low water actually exposes the prop roots enough for the film's central shot is unverified and would decide the film.",
+    "Whether the branch-throwing practice is still current, and whether it is something anyone would want filmed, is unchecked.",
+    "Drone flight over a lagoon with a mangrove reserve and dwellings along it is likely to need specific permission and may be refused."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

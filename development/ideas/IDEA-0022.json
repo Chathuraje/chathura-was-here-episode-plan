@@ -2,79 +2,173 @@
   "schema_version": 1,
   "id": "IDEA-0022",
   "record_type": "idea",
-  "title": "The Hundredth Piece",
+  "title": "A Flavour Made of Weather",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Hundredth Piece"
+  ],
   "group_id": "GRP-02",
-  "logline": "Before the New Year, a sweet-maker's hands move without looking, and a child's whole day depends on the first bite.",
-  "human_question": "Can the same taste mean everything to one person and almost nothing to another, in the same room?",
-  "situation": {
-    "what_happens": "A household spends several days making the sweets a festival requires, in quantities far past anything anyone would make for pleasure. The person doing most of the work has made hundreds and works by feel, tasting only to check. An older relative tastes slowly and judges. Children wait for the first batch to cool and then eat as though nothing else in the world is happening. The same sweet lands differently on every one of them.",
-    "who_is_involved": "Whoever in a household carries the festival cooking, usually taught by someone now older or gone; an elder whose judgement still settles what is right; children with no patience; the relatives and visitors the sweets are being made for.",
-    "what_is_at_stake": "For the maker, a standard to be met and a skill that will or will not pass on. For the elder, whether the thing still tastes the way it is supposed to. For the children, an ordinary and complete happiness. For the household, enough to last until the final visitor, made out of ingredients that cost more each year.",
-    "how_it_unfolds": "Festival cooking runs for days and ends in a rush: a trial batch, a long grind of repetition, tiredness setting in as the quantity climbs, and then a moment when it is over and the sweets belong to everybody else. Whether the maker still takes any pleasure in it, whether a child is disappointed, and whether there is enough at the end are not things that can be arranged in advance."
+  "logline": "For six or seven weeks a year a hot dry wind crosses one hill district, the rain stops, and the taste of the only crop grown there changes enough that buyers on the other side of the world pay more for it; the film watches a whole district's work organised around a flavour that is not kept anywhere.",
+  "human_question": "If the taste I am paying for is made by a wind that will stop next month, where exactly is it being kept until then?",
+  "place": {
+    "what_kind_of_place": "Steep, east-facing hill country in which nearly every acre for twenty kilometres in any direction is under one crop. It is worked in blocks by hand, picked twice a day, and carried within hours to small factories that then run all night. For six or seven weeks each year a hot dry wind comes over the ridge from the far side of the island, the rain stops, the days are hot and the nights cold, and the bushes are stressed enough that the leaf they make tastes different from the leaf they made in June. Nothing else about the place changes for those weeks: the same slopes, the same hands, the same hundred-year-old machinery. Only the weather, and what the weather does to a taste, and what people will pay for it.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. The wind is visible: it crosses the slope as a moving wave through waist-high bush, and from directly above, the whole hillside changes colour as it passes and changes back behind it. Cloud comes over the ridge in the early morning and pours down the eastern face like something spilled, then burns off in minutes, so the same valley is white, then green, then white again. And inside the factory there is a long bench in flat daylight with two rows of identical white cups on it, the liquor bright, steam standing off them, and a spoon going down the row faster than looks possible.",
+    "what_moves_or_changes": "Everything runs on a clock nobody in the film sets. The wind gets up late in the morning and drops at dusk. Leaf has to reach the factory the same day it is taken off the bush. The withering runs through the night in a building with the doors open and fans on, and the smell in it changes hour by hour as the firing starts. Across the six weeks the colour in the cups changes, and so does the number written beside them. Then the wind stops and the place goes back to being ordinary, at ordinary prices, without anything visible having happened.",
+    "when_it_looks_best": "The dry-wind weeks, roughly July into early September, which is the only window in which the film exists at all. Early morning for cloud on the eastern face and for the first leaf of the day; late afternoon for the wind at full strength and for low light raking the slope. The tasting bench wants flat north daylight, which is when it is genuinely used, so no light has to be brought in for it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A weather film about a hillside and a crop. It has a complete shape of its own: a wind arrives, everything sharpens and speeds up, a season is made out of six weeks, the wind goes. A viewer who never hears a word of the narration gets cloud pouring over a ridge, a visible wind, night work in a hot building, a smell they can nearly taste, and one very beautiful bench of cups in daylight at the end of it.",
+    "with_the_philosophy": "The same footage becomes the sources' account of feeling, performed at district scale by people who have never heard of it. The voice never contradicts the picture and never suggests that anybody's trade or pleasure is a mistake; it points at what is already on screen. A famous, expensive flavour turns out to be made of weather. The mouth that knows it best registers the least. Bodies ache while the people they belong to laugh. And when the wind stops, the flavour goes, although the hill, the bush and the leaf are exactly what they were."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from the air. A single crop running over every ridge and hollow to the skyline, cloud lying in the valleys below, one thread of smoke from a factory chimney.",
+      "voice": "Everything you can see was planted because of a taste. Not a staple, not a medicine, not anything anybody needs: a taste. The old compendiums this series reads have a name for the world that runs on things like this. The everyday world, the one made of what is seen and heard and smelled and tasted and touched. They do not dismiss it. They count it.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Late morning. From directly above, a wave of movement crossing the bushes, the colour of the slope changing as it goes and changing back behind it. Dust lifting off a track.",
+      "voice": "This is the thing the buyers are paying for, and you can watch it arrive. For six weeks a dry wind comes over that ridge, the rain stops, and the bush makes a leaf that tastes different. The books have a word for what happens when that leaf finally meets somebody, and the word they use is tasting. Feeling, they say, is the tasting of the flavour of whatever is in front of the mind, and it is in every mind, because there is always something in front of it.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The pluck. Hands moving faster than the eye at waist height, heat, a sack filling on someone's back, insects. Then the afternoon weigh-in: the hook, the tally, and a good deal of talk and laughing in the queue.",
+      "voice": "Two different things are being felt here and the books count them separately. What the body is getting, which they give one seat only, touch. And what the mind is doing on top of it, which is a separate item altogether. A back can be hurting while the person it belongs to is laughing in the queue. That is not bravery and it is not pretence. It is two feelings, in two places, at the same time.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "Night in the factory. Withering troughs a hundred feet long, fans, the floor above lit and the floor below dark, leaf going into the rollers, the smell of the firing changing as the hours pass.",
+      "voice": "Nothing arrives without a taste on it. Pleasant, unpleasant, or neither, and the sources are firm that there is no fourth way of getting anything at all. Neither is not an absence. It has its own name in their list, and by their own count almost as many moments carry it as carry gladness. Most of this night is being lived in it.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The tasting bench in flat daylight. Two rows of identical white cups, the liquor poured, the leaf beside each one. A spoon goes down the row, a mouth draws and spits, a number is written. No expression at any point.",
+      "voice": "That is the mouth in this district that knows the taste best, and it is the one getting least out of it. The books help here, in a way that is almost a relief. Wanting, they say, arrives either with gladness or with nothing much at all, and never with displeasure. So a flat face proves nothing about the cup, and a delighted face proves nothing either. Both are accurate reports of the same liquid.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Sacks graded, stencilled and stacked; a figure written on a board; a phone call taken in the yard with the wind still moving the trees behind the speaker.",
+      "voice": "A price is being set on weather, and nobody here pretends otherwise. They will tell you which fields caught the wind this week and which sat in the lee of a hill and missed it. What is being sold is not sitting in the leaf, and it is not sitting in anybody's mouth either. It is what happens when one meets the other, this month, in this wind, and not in June.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The wind has stopped. A still hillside in ordinary weather, cloud back in the valley, ordinary leaf going up the belt, the bench empty and the cups upside down on a cloth.",
+      "voice": "Then it stops. The hill is the same hill. The bush is the same bush. The flavour is gone until next year, and nothing you can point at has changed. The books are blunt about that: whatever feels good is standing on conditions, and it hurts when they move. It is not a verdict against pleasure. In their own count of this everyday world, twenty-four of the fifty-four kinds of moment they list are called beautiful. And the tidy line, that pleasure is where wanting begins, is ours. It is not a sentence in these books.",
+      "concept_id": "C004"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C032 contributes the central claim: feeling is the tasting of an object's flavour, present in every mind because every mind takes an object, experienced as pleasant, painful or neutral and in no fourth way, and varying with the one who meets the object rather than with the object alone. C004 contributes the setting in which that becomes visible: the ordinary sense-sphere day, where one and the same sweet is reached for by one person and handled with flat, practised skill by another.",
-    "what_it_reveals": "That the flavour people talk about is not waiting inside the food to be found. Put together, the two show that a neutral feeling is a feeling and not an absence, and that delight proves nothing about the sweet: the maker's flatness and the child's joy are both accurate reports of the same object."
+    "why_together": "Read fresh, C032 is not a theory of emotion and not a mood. It is a compendium of one factor: feeling is the tasting of an object's flavour, and it is in every mind because every mind has an object [C032-P:L43]. It is threefold by the way it is undergone, with no fourth way, and fivefold as a faculty, and that second list is where the film's spine is, because bodily pleasure and bodily pain get one seat only, touch, while gladness and distress are counted elsewhere [C032-P:L95–L97] [C032-P:L103] [C032-M:L5]. Its last movement is the sober one: conditioned feeling carries a cost because it rests on conditions and hurts when they turn [C032-P:L117], and much of what people undergo is concealed and unknowable without asking [C032-P:L119]. C004 supplies the world this happens in and the caution that keeps the film honest. Sight, smell and taste together are the everyday sense-sphere world the sources count [C004-P:L25]; the count is fifty-four, of which only twelve are unwholesome and twenty-four are called beautiful [C004-P:L27] [C004-P:L31]; and the Margaya's two flat statements do the work at the tasting bench: wanting never comes with displeasure [C004-M:L15], and the same object is met with gladness by one person and with nothing much by another [C004-M:L17]. A district whose entire year turns on a flavour that a wind makes and unmakes is where both can be filmed instead of asserted.",
+    "what_it_reveals": "That the flavour everyone in the trade can name, grade and price is not being stored anywhere. It is what happens when a particular leaf, made by a particular six weeks of weather, meets a particular person. C032 on its own would make a lecture about feeling. C004 on its own would make a film about desire and shopping. Together they produce a picture in which delight and flatness are both correct, a body's discomfort and a mind's gladness are two separate readings taken at the same moment, and the most valuable thing on the hillside is made of weather and goes when the weather does. The pairing also blocks the group's easiest ending. The sources do not say pleasure is the enemy: the same feeling runs through generous and concentrated minds, and the causal line from pleasure to craving is not in these extracts at all."
   },
   "concept_links": [
     {
       "concept_id": "C032",
       "role": "primary",
-      "why": "This is close to the digest's own story seed: the same sweet bringing delight to one person and flat, practised routine to another, which is feeling following the object and the person rather than the object alone [C032-P:L43], with the joyful greed-rooted minds counted among the pleasant-feeling ones [C032-P:L58]. The idea that pleasant feeling is where wanting begins is the group's editorial framing, not a claim stated in these extracts, and the film must not present it as source teaching."
+      "why": "The digest's core sentence is filmable here without staging anything: feeling is the tasting of the flavour of an object, present in every mind because every mind takes an object [C032-P:L43]. The faculty list gives the film its second and third beats, because bodily pleasure and bodily pain have a single seat in touch while gladness is counted separately and far more widely [C032-P:L95–L97] [C032-P:L103] [C032-M:L5], which is why a pluck in the heat and a loud, laughing weigh-in can sit in the same sequence without irony. The seventh beat rests on the suffering of change, where pleasant feeling is counted as costly precisely because it is conditioned and turns [C032-P:L117]. Four guards from the digest are load-bearing and are written into the beats rather than left in the risks. The film must not preach 'chase good vibes', since the sources count even pleasant feeling as conditioned. It must not treat neutral feeling as numbness, because neutral runs through the most refined minds as well as the dullest. It must not present the group's own line, that pleasant feeling is where wanting begins, as source teaching, because the digest says plainly that this is editorial compression and the causal link lies outside these extracts. And it must not let the threefold suffering read as pessimism. The digest also notes that the three kinds of suffering rest on the Pradeepika alone, which is why the voice attributes them as a reading rather than as the doctrine of the tradition."
     },
     {
       "concept_id": "C004",
       "role": "supporting",
-      "why": "Sight, smell and taste together make up the everyday sense-sphere world the sources are counting [C004-P:L25], and greed is defined there as attaching that arrives with joy in one person and flat feeling in another [C004-M:L17]. The sweets are a small, ordinary instance of that world, wanted keenly by some in the room and handled with skill by others."
+      "why": "C004 gives the film both its world and its refusal to accuse anyone. Sight, smell and taste together make up the ordinary sense-sphere world the sources count [C004-P:L25], and this district is that world with one crop in it. The Margaya's definition of the attaching that takes things to be good, beautiful or sweet [C004-M:L13] is what a price list is made of, but the two lines the film actually needs are the ones about feeling: wanting never arrives with displeasure [C004-M:L15], and the same object meets gladness in one person and nothing much in another [C004-M:L17]. That is the tasting bench exactly, and it is what stops the film from reading the taster as jaded or the buyer as greedy. Three of the digest's limits bear directly. 'The sense world is a trap' is ruled out by the sources' own count, in which twenty-four of the fifty-four everyday minds are called beautiful [C004-P:L27]. 'Follow your joy' is ruled out, since joy attends greed-rooted minds as readily as good ones. And the Pradeepika's own moral commentary on trades and pleasures is the author's argument rather than the core of the count, so no line of it is narrated over anybody working here."
     }
   ],
-  "what_the_viewer_could_understand": "Every taste arrives with a feeling already in it: pleasant, unpleasant, or neither. In one kitchen the same sweet can bring a child pure delight and bring the hands that made it almost nothing at all, and neither of them is mistaken.",
-  "what_must_be_real": "The household's actual preparations at their own pace, and their own account of who taught whom. No batch made a second time for the film, and no child prompted to react.",
-  "position_hint": "middle: the third beat, where the group turns from how wanting arrives to the feeling that comes with every experience, which is what makes the later distinctions of aim possible.",
+  "what_the_viewer_could_understand": "That a taste is not stored inside the thing you buy. It happens when something arrives in front of somebody, and it depends on conditions that can stop. The proof needs no belief and no vocabulary: a wind crosses a hillside for six weeks, a flavour exists and is paid for, the wind stops, and the flavour is gone while the field, the bush and the leaf stay exactly as they were.",
+  "what_must_be_real": "The actual working hours of the pluck, the factory and the bench, and the trade's own words for the season, the fields and the liquor. No cup is poured for the camera, no batch is re-tasted for a better shot, no light is brought into the tasting room, and nobody is asked to look delighted or unimpressed. Wages, piece rates and the conditions of the work are shown as they are or not at all, and nobody is asked to describe their day in the film's terms. The wind is filmed on the days it actually blows; it is never simulated and the grade is never pushed to make a season look better than it was.",
+  "position_hint": "middle: the group's feeling beat, where the film stops asking why people reach and looks instead at the taste that arrives with everything. It wants the group's simpler films about reaching behind it. No location reasoning is involved.",
   "risks": [
-    "Nostalgic, touristic imagery with no real household story underneath",
-    "Children in a home setting, which needs guardian consent that can be withdrawn at any point",
-    "Presenting the editorial line that pleasant feeling is where wanting begins as source teaching",
-    "Reading feelings onto faces and calling the reading doctrine"
+    "Romanticising estate labour. The digest names this risk on its own tea seed, and it is the largest risk in the film: this is hard, low-paid, mostly female work, and if the conditions and the pay cannot be shown honestly then the pluck is not used as scenery.",
+    "Letting the film become a tea-industry film, with grades, auction prices and export history taking over from the concept.",
+    "Presenting the group's line that pleasant feeling is where wanting begins as source teaching; the digest is explicit that it is an editorial compression and beat 7 exists to say so.",
+    "Reading feelings off faces and calling the reading doctrine. The film can show a flat mouth and a laughing queue; it cannot announce what anybody is feeling.",
+    "Treating neutral feeling as numbness or as a lesser state, which the digest rules out directly.",
+    "Letting the threefold suffering land as pessimism, or as a lecture that nobody should enjoy their tea.",
+    "Implying that the taster, the buyer or the trade is greedy. The film never calls anybody greedy, and the Pradeepika's own commentary on trades and pleasures stays out of the narration entirely.",
+    "The whole payoff depends on a six-week weather window that varies year to year and can fail. A wet season means no film that year.",
+    "Consent and power: access is usually granted by a company or a factory manager, not by the people who would be filmed, and their own agreement has to be obtained separately and be revocable."
   ],
   "drop_if": [
-    "No household will let the full stretch of preparation be included",
-    "Consent for children cannot be held throughout"
+    "Access is offered only on condition that pay, housing and working conditions stay off camera.",
+    "The tasting bench can only be filmed as a demonstration staged for visitors rather than as the day's actual work.",
+    "The seasonal wind fails, or the season is so poor that the price and the flavour it is built on do not materialise."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0017",
-      "relation": "mirrors",
-      "note": "Both turn on food given to someone else, and on whose pleasure the giving is really for."
+      "idea_id": "IDEA-0024",
+      "relation": "pairs with",
+      "note": "Two places whose whole economy rests on something that arrives with a season and leaves with it, one a flavour and one a settlement."
     },
     {
-      "idea_id": "IDEA-0021",
-      "relation": "pairs with",
-      "note": "Two rooms where the same food meets several different feelings at once."
+      "idea_id": "IDEA-0023",
+      "relation": "mirrors",
+      "note": "A taste that cannot be located in the leaf, and an aim that cannot be located in the movement."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "The group's feeling beat, resting on the digest's own seed and already carrying the editorial caveat the digest requires."
+    "reason": "A place where the sources' account of feeling is the working business of the year, with a payoff shot, a visible wind, that states the concept rather than illustrating it."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape. Dropped the old situation block, which was a household kitchen and a child's first bite, because it was built on people's inner lives and on children in a home. Replaced it with a hill district whose entire year is organised around a flavour that a seasonal wind makes and unmakes, so the concept can be read off the place rather than off a face. New title; old title kept in aliases. Both concept links re-tested against their digests and rewritten: C032 re-grounded on the tasting definition and the separate seats of bodily and mental feeling, with the suffering of change carrying the ending and the editorial 'pleasure is where wanting begins' explicitly refused on screen; C004 kept as the everyday sense world and as the guard that a flat face and a delighted face are both accurate. Added place, two_layers, a seven-beat sequence and a suggested location; the images array is left empty because no candidate image URL could be verified from here.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Passara–Lunugala tea country, eastern slopes of the Namunukula range",
+    "also_known_as": [
+      {
+        "name": "the eastern quality season",
+        "meaning": "the six or seven weeks when the dry wind changes the flavour and the price",
+        "used_by": "the tea trade"
+      },
+      {
+        "name": "kacchan",
+        "meaning": "the hot, desiccating seasonal wind that crosses the range",
+        "used_by": "local and trade usage"
+      }
+    ],
+    "region": "Badulla District, Uva Province, on the eastern slopes below the Namunukula range",
+    "coordinates": {
+      "lat": 6.9358,
+      "lng": 81.1579
+    },
+    "why_here": "This is the one kind of place where a taste is visibly manufactured by weather in front of the camera. For roughly six weeks from July the dry seasonal wind crosses this side of the range, rainfall drops away, days are hot and nights cold, and the leaf taken off these slopes acquires the character the trade prices separately from the rest of the year. That gives the film the shot it is built around, a wave of wind crossing a hillside seen from directly above, which is the concept stated rather than illustrated: the flavour is not in the leaf, it is what happens when conditions meet a mouth. It gives the second shot too, a bench of identical cups tasted and scored in seconds by somebody who registers nothing, which is the digest's point about a flat face and a delighted face both being accurate. And because the district is worked in small blocks feeding small factories rather than as one industrial site, the scale stays human and the whole cycle from bush to cup happens inside a few kilometres.",
+    "what_to_film": [
+      "The district from the air at first light: one crop to the skyline, cloud pouring over the ridge and down the eastern face, and burning off.",
+      "The wind itself from directly above, crossing the bush as a moving wave, with the colour of the slope changing as it passes. This is the payoff shot and everything else is built around getting it.",
+      "The pluck at working speed, at waist height and close, in the heat, without commentary.",
+      "The afternoon weigh-in: the hook, the tally, and the talk and laughing in the queue, kept in the same sequence as the heat of the pluck.",
+      "The factory through the night: withering troughs with the fans on, the rollers, the firing, and the smell changing as the hours pass, filmed as light and machinery rather than as a process explainer.",
+      "The tasting bench in flat daylight: the rows of identical cups, the pour, the spoon going down the line, the spit, the number written.",
+      "Grading, stencilling and loading, and a price being said out loud in the yard with the wind still in the trees.",
+      "The same hillside after the wind has dropped, in ordinary weather, with the bench empty and the cups upside down. This is beat 7 and the film ends on it."
+    ],
+    "access": "By road from Badulla, roughly eighteen kilometres along the highway that runs on towards the east coast; the district is a working landscape of estates, smallholdings and factories rather than a site with a gate. Access is plot by plot and factory by factory, through estate managements and, separately, through the people who would actually be filmed. Tasting rooms are ordinary working rooms and are not normally open to visitors. Nothing in the film requires access to a visitor-facing factory tour, which is a different kind of place from the one this film wants.",
+    "best_time": "The dry-wind weeks, roughly July into early September, which is the only window in which the film exists. Early morning for cloud and the first leaf; late afternoon for the wind at strength; flat daylight for the tasting bench, which is when it is genuinely used.",
+    "images": [],
+    "sources": [
+      "https://pmdtea.com/en-us/blogs/news/uva-season",
+      "https://teasrilanka.org/growing-regions",
+      "https://www.halpetea.com/ceylon-tea-guide-2/regions-of-tea-cultivation.html",
+      "https://en.wikipedia.org/wiki/Passara"
+    ],
+    "research_note": "The seasonal window, the dry wind and its effect on flavour, the elevation band of the district, the position of Passara and Lunugala on the slopes of the range, and the coordinates of the town are from the sources above and are desk research only. Which particular estates and factories catch the wind, whether any factory would allow night filming or filming at the tasting bench, current access and permissions, drone rules over estate land, and the pay and conditions of the crews are all unverified. Two or three Wikimedia Commons files covering this location were identified as candidates, but none of their Special:FilePath URLs could be confirmed as returning HTTP 200 from the machine used for this research, which was rate-limited throughout; rather than carry unverified links, the images array is left empty and the candidates should be re-checked and added later.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No estate, factory or crew has been found or confirmed. Everything here is a research direction.",
+    "Whether a working tasting bench can be filmed at all, and on whose permission, is unverified.",
+    "How reliably the seasonal wind arrives in any given year, and how visible it is on the slope from the air, has not been checked on the ground."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

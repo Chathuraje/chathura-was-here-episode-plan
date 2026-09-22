@@ -2,64 +2,110 @@
   "schema_version": 1,
   "id": "IDEA-0043",
   "record_type": "idea",
-  "title": "Willing Hands",
+  "title": "Everything Goes Up by Hand",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Willing Hands"
+  ],
   "group_id": "GRP-03",
-  "logline": "A community turns out to do a day of shared work, some because they wanted to and some because they were asked, and the two kinds of day move differently in the same bodies.",
-  "human_question": "Does it change the work when the hands doing it were pushed rather than willing?",
-  "situation": {
-    "what_happens": "A job too big for any household gets done by everybody at once, on a date somebody chose, with tools people bring themselves. Some of those present organised it. Some came because a neighbour came to the gate and asked, and saying no would have been remembered. By mid-morning the difference is not in what anyone says but in pace: who starts again first after the tea, who finds the job furthest from the middle, who leaves at noon with a reason. By the end the work is done anyway, which is the part that matters to everyone except the film.",
-    "who_is_involved": "The people who called the work day and carry the responsibility for it; those who came without being asked; those who came because being asked is not really a question; older people who do the lighter parts and the coordinating; and the households that benefit whether they came or not, who are also present in everyone's mind.",
-    "what_is_at_stake": "A piece of shared infrastructure that nobody owns and everybody needs. Underneath it, the standing of the people who called the day and the quiet accounting of who turned up, which will be remembered the next time. For the film, not marking anybody as the lazy one in a place where they still have to live.",
-    "how_it_unfolds": "It begins early, in good spirits, with more energy than the task needs. It thins in the heat. The pressures are the length of the job, the temperature, and the social arithmetic of leaving before other people do. It ends with the work finished, half-finished and deferred to another day, or finished by a much smaller group than started. Reality decides, and nothing about it can be arranged."
+  "logline": "Once a year a village turns out to make a small white dome on top of a rock white again, and because there is no road up, the lime, the water, the poles and the brushes all have to be carried by a chain of people who came for two different reasons.",
+  "human_question": "Does it change the work when the hands doing it were asked rather than willing?",
+  "place": {
+    "what_kind_of_place": "A rock rising out of green low country, with a working village temple built into and around it: caves closed off with front walls, stairways cut and fitted between boulders, shrines on several levels, and at the highest point a small white dome that can be seen from the road below and from a long way across the fields. It is not a ruin and not a monument; it is the temple of the villages beneath it, used every week, and once a year it is repaired and made white again by the people who use it.",
+    "why_it_is_worth_watching": "Because the absence of a road turns an ordinary work day into a visible structure. Everything the day needs has to go up the rock in somebody's hands, so the work arranges itself into a line on a stairway between boulders, and that line is the film: from the air, a thread of people on bare grey stone; from the ground, a bucket passing from one pair of hands to another, over and over, for hours. Then the lime goes on and the dome turns from grey-streaked to white in a single afternoon, which is one of the few things in this group of films that visibly finishes.",
+    "what_moves_or_changes": "The load, the heat and the colour. Early, there are more people than the job needs and the line moves fast. By midday the rock is too hot to stand on barefoot and the work is in the shade or not at all. Through the afternoon the dome changes colour from the bottom up, lime runs down it in streaks and dries, and the last coat goes on in the cooler light. The number of people changes too, all day, in both directions, and nothing about that can be arranged or predicted.",
+    "when_it_looks_best": "The days before the temple's own annual festival, when the work is actually done. First light and the last two hours give the rock its modelling and the wet lime its glare; the middle of the day is white, flat and furiously hot, which is also true and belongs in the film."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a day of work and a colour change. A grey rock in green country, a thread of people going up it with loads, tea in the shade, the long patient chain of buckets, and then a dome going white from the bottom up while the light drops. It ends with the thing finished and lit, seen from far off, which is a complete piece for anyone who never hears a word of the commentary.",
+    "with_the_philosophy": "The same day becomes a demonstration of one narrow, odd claim in the sources: heaviness and dullness belong only to states that had to be urged along, never to ones that spring up by themselves. On the rock that is a difference of texture in identical work, and the film is careful about what it is and is not allowed to say. The sources are describing harmful states of mind, not a village painting a dome, so the link is to the texture and not to a verdict. And the same sources close the door the analogy might open: being urged into something changes how it feels, not what it is worth."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone, dawn, wide: a bare grey rock standing out of green low country, a small white dome at the top of it, and a thin line of cut steps climbing between boulders. No people yet.",
+      "voice": "Once a year the dome up there is made white again. There is no road, no hoist and no water on the rock. Everything the job needs has to arrive in somebody's hands.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "The foot of the rock at first light: sacks of lime, drums of water, coconut-fibre brushes, poles, a stack of buckets. People arriving on foot and by motorbike, tying cloths, taking a load.",
+      "voice": "Some of the people here decided weeks ago to come. Some are here because last night somebody walked to their gate and asked. Nothing in this picture tells you which is which, and this film is not going to guess.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The chain on the stairway, filmed from above and then from inside it: a bucket going hand to hand between rocks, the same movement repeated by twenty people, a bare foot finding a worn step.",
+      "voice": "The old analysis makes a small, strange claim at this point. It says dullness and heaviness turn up only in states of mind that had to be urged along, never in ones that arise on their own, because what they do is make the mind unfit for the thing in front of it [C026-P:L43]. An act done eagerly is alert. The same act, done because it was asked for, is heavier.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Midday. The rock white with glare, shade the size of a doormat under an overhang, tea being poured, people sitting with their backs against stone, nobody moving. The work stopped.",
+      "voice": "That is not this, and the sources are the ones who say so. They separate the body's honest need for rest, which they say even the fully awakened have, from the mental sluggishness they count as a fault [C022-P:L171–L175]. Nobody sitting in that shade at two in the afternoon is an example of anything. They are people on a hot rock.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The whitewashing: lime slapped on with a fibre brush, running down the curve in streaks, splashing onto stone and onto arms, the dome going white from the bottom up.",
+      "voice": "And the sources shut the door the comparison might open. Being urged into something does not make it count for less. The texture changes; nothing else does [C026-P:L43]. Whatever brought each pair of hands here, the dome is the same dome, and it is being made white by all of them.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Late light, drone circling: the dome finished, wet lime glaring, long shadows on the rock, people going down the stairway with empty buckets.",
+      "voice": "There is one more line worth having here. While the harm in a state is still visible, and while shame and the dread of doing wrong are awake, the harmful state does not arise at all [C026-M:L15]. Not fought off. Not arisen. A day like this is mostly made of that, and it does not photograph as anything except people working.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Next morning, from a long way off across the fields: the rock, and the white point on top of it, catching the first sun.",
+      "voice": "None of this is a reading of anybody. The analysis is about single moments of mind, and a camera cannot see one. What a camera can see is a day of work that got done, and a white dome that can be seen from the road again.",
+      "concept_id": "C026"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C026 supplies the structural claim: dullness and heaviness occur only in unwholesome states that had to be urged along, never in ones that spring up on their own, because they make the mind unfit for what is in front of it [C026-P:L43–L47; C026-M:L21]. C022 supplies both the image and the boundary: the compendium's picture of a feather curling away from a flame [C022-P:L165], and its careful separation of the body's honest need for rest, which even the fully awakened have, from the mental sluggishness it counts as a fault [C022-P:L171–L175]. The second is what keeps the first from becoming an accusation on a hot afternoon.",
-    "what_it_reveals": "That the difference between willing and urged effort is real and visible, and that it is a difference of texture rather than of worth. Put together, the two concepts say something the day itself cannot: that being pushed does not make an act better or worse, only heavier, and that the heaviness a camera actually sees at two in the afternoon is mostly heat and a body, which the sources refuse to count as anything at all."
+    "why_together": "C026 supplies the structural claim: sloth and torpor occur only occasionally and only in the prompted unwholesome minds, never in spontaneous ones, because they leave the mind unwieldy and unfit for what is in front of it [C026-P:L43]. It also supplies both guards the film needs, the digest's flat refusal of 'being pushed excuses it', and its hopeful inversion, that while danger is seen and shame and dread are awake nothing unwholesome arises at all [C026-M:L15]. C022 supplies the boundary that keeps the claim off the participants: the same treatment separates the body's honest need for rest, which even the fully awakened have, from the mental sluggishness it counts as a fault [C022-P:L171–L175], and it counts restlessness among the four factors present in every unwholesome mind in anybody [C022-P:L31], which forbids sorting a work party into willing people and dull people.",
+    "what_it_reveals": "That the difference between willing and urged effort is real, observable and morally weightless. C026 alone would license exactly the reading the digest forbids, a film pointing at the slower half of a work party. C022 alone would be a caution with no subject. Together they produce a film that can look closely at the texture of effort all day and still be unable to say anything about anyone, which is the honest position and, on a rock with no road up it, also the beautiful one."
   },
   "concept_links": [
     {
       "concept_id": "C026",
       "role": "primary",
-      "why": "Sloth and torpor occur occasionally and only in the five prompted unwholesome minds, never in spontaneous ones, because they leave the mind unwieldy and unfit for the task at hand [C026-P:L43–L47; C026-M:L21]. A work day where some came freely and some were asked offers a real, everyday texture close to that distinction. The link is to the texture, not to a verdict: the sources are describing harmful states of mind, and a village repairing something together is not one, so nothing here implies that the people who were asked are doing wrong. The digest's own limit is the point that has to survive into the film: prompting changes the texture, not the moral quality, so 'being pushed excuses it' is not available either. The digest also records an unresolved question about how the delusion-rooted minds are classified by prompting [C026-P:L47], so the film does not present the prompted and spontaneous split as tidier than the sources leave it."
+      "why": "Sloth and torpor occur only occasionally and only in the prompted unwholesome minds, never in the spontaneous ones, because they leave the mind unwieldy and unfit for the task in front of it [C026-P:L43]. A day of shared work that some people came to freely and some came to because they were asked offers a real everyday texture close to that distinction, and the link is to the texture only: the sources are describing harmful states of mind, and a village repairing its own temple is not one, so nothing here implies that the people who were asked are doing wrong. The digest's own limit is the line that has to survive into the film, that prompting changes the texture and not the moral quality, which also means 'being pushed excuses it' is not available. The digest records an unresolved question about how the delusion-rooted minds are classified by prompting [C026-P:L47], so the film never presents the prompted and spontaneous split as tidier than the sources leave it. Two further limits are honoured on screen: this is a study scheme about single moments of mind rather than a way of reading people, and the constant factors describe every unwholesome moment in anyone rather than a type of person. C026's inversion [C026-M:L15] is used as the film's last movement, since a day of repair is mostly made of exactly the states the sources say leave no room for harm."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "This heaviness is given its own image in the compendium, a feather drawn near a flame and curling away from it [C022-P:L165], which describes shrinking from a task rather than being tired by it. The same treatment separates the body's honest need for rest, which the text says even the fully awakened have, from the dull sluggishness counted as unwholesome [C022-P:L171–L175]. The digest's bar on 'sleep is laziness' is load-bearing for a film about people working in heat: someone sitting in the shade at two in the afternoon is not an illustration of thīna-middha, and the film may not offer them as one."
+      "why": "The same treatment that names this heaviness separates the body's honest need for rest, which the text says even the fully awakened have, from the dull sluggishness counted as unwholesome [C022-P:L171–L175]. That separation is load-bearing for a film about people working on hot rock: the digest's bar on 'sleep is laziness' means somebody sitting in the shade in the afternoon is not an illustration of anything, and the film may not offer them as one. The same source counts restlessness among the four factors present in every unwholesome mind whoever it belongs to [C022-P:L31; C022-M:L3], which is the second reason the film cannot sort the people on the rock into two kinds."
     }
   ],
-  "what_the_viewer_could_understand": "The same job feels light or heavy depending on whether we chose it or were pushed into it. Describing unhelpful states of mind, the texts notice something similar: heaviness and dullness only show up where a mind had to be urged along. They are just as clear that this says nothing about whether the pushed act is worse, and that an honestly tired body is not what they are describing at all.",
-  "what_must_be_real": "The work day, the participants and their reasons for coming must be genuine, and the day cannot be convened, extended or re-run. Nobody may be asked to characterise themselves or anyone else as lazy or willing for the camera, and nobody's afternoon in the shade may be used to stand for them. The film observes texture, not verdicts, and anyone who does not want their pace filmed is not filmed.",
-  "position_hint": "middle, late: after the group's argument film, the same shared work seen from inside rather than fought over, and the last of the quiet films before the heat is looked at directly. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That the same job feels light or heavy depending on whether it was chosen or asked for, and that the old analysis noticed something similar: heaviness and dullness only turn up where a mind had to be urged along. Equally, that this says nothing about whether the urged act is worth less, that an honestly tired body in heat is not what the sources are describing at all, and that a day which passes without any of it is not an absence of drama but the thing the sources actually recommend.",
+  "what_must_be_real": "The work day must be the village's own, called for its own reasons, on its own date, and it cannot be convened, extended or repeated for a camera. Nobody may be asked why they came, nobody may be asked to characterise themselves or a neighbour as willing or reluctant, and no individual's slow hour may be cut to stand for the idea. The commentary's claim about texture is never attached to a person on screen. Anyone who does not want their pace filmed is not filmed, and the film is shown to the temple and the village before it is shown anywhere else.",
+  "position_hint": "middle, late: after the group's louder films, the quietest handling of the same family of states, and the one that ends with something finished. No location reasoning is involved.",
   "risks": [
-    "Implying that reluctant participants are wrongdoers; the source describes harmful states and the link here is to texture only.",
-    "Singling out individuals as lazy in the edit, in a place where they go on living.",
-    "Reading ordinary tiredness in heat as the sluggishness the sources count as a fault, which the digest rules out.",
-    "Letting the film imply the opposite error, that being pushed into something makes it count for less.",
-    "A quiet, low-event day may not sustain a film without a human throughline, and the throughline may not be there."
+    "Implying that the people who came because they were asked are wrongdoers, when the source describes harmful states and the link here is to texture only.",
+    "Singling out an identifiable person as the slow one, in a place where they go on living and worshipping.",
+    "Reading ordinary tiredness in heat as the sluggishness the sources count as a fault, which the digest explicitly rules out.",
+    "Letting the film imply the opposite error, that being urged into something makes it count for less; the digest says prompting changes texture, not moral quality.",
+    "Using the scheme as a way of reading the people in frame, when it is a study of single moments of mind that no camera can see.",
+    "Filming inside an active place of worship in a way the community or the resident monks would not choose, or treating a religious duty as raw material.",
+    "A day with no incident may not sustain a film, and on this material the absence of incident is the honest outcome rather than a failure to be fixed in the edit."
   ],
   "drop_if": [
-    "No genuine communal work day is scheduled during the filming window.",
-    "Participants are uncomfortable with the framing once it is explained to them.",
-    "The film would need someone identifiable to be the reluctant one."
+    "No genuine communal work day falls inside the filming window, so it would have to be convened.",
+    "The temple or the village is uncomfortable with the framing once it has been explained in plain language.",
+    "The film would need somebody identifiable to be the reluctant one.",
+    "Working alongside a chain of people on a stairway would slow or endanger the work."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0041",
-      "relation": "follows",
-      "note": "The same shared work seen twice: once as an argument about who gets it, once as a day of doing it."
+      "idea_id": "IDEA-0042",
+      "relation": "pairs with",
+      "note": "Shared work seen from both ends: the labour given before any rule applies, and the proceeds divided afterwards by one."
     },
     {
       "idea_id": "IDEA-0039",
       "relation": "mirrors",
-      "note": "Two studies of willingness: giving knowledge freely or not, and giving effort freely or not."
+      "note": "Two studies of what is given freely: knowledge handed on or withheld, and effort offered or asked for."
     },
     {
       "idea_id": "IDEA-0045",
@@ -71,17 +117,81 @@
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0025 and is the group's only look at the prompted and spontaneous split; kept with the analogy stated inside the link rather than left to a caution."
+    "reason": "It is the group's only look at the prompted and spontaneous split, and the absence of a road turns that abstract distinction into a line of people on a rock."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape: situation block replaced by place, two_layers and a seven-beat sequence built on a rock-top temple with no road, and a real location proposed. Concepts re-read from the digests; an unverifiable simile attributed to C022 in the previous version was removed rather than re-cited, the 'prompting changes texture not moral quality' limit now carries a beat of its own, and C026's inversion closes the film.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Sankapala Rajamaha Viharaya, on the rock south of Pallebedda",
+    "also_known_as": [
+      {
+        "name": "shramadana",
+        "meaning": "a gift of labour: a day of work given collectively and without payment",
+        "used_by": "Sinhala"
+      },
+      {
+        "name": "hunu gaanawa",
+        "meaning": "lime-washing: the annual whitening of a dome or wall",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Ratnapura District, Sabaragamuwa Province: the foothill country between Pallebedda and Embilipitiya, on the western edge of the rainforest belt",
+    "coordinates": {
+      "lat": 6.4361,
+      "lng": 80.7539
+    },
+    "why_here": "It is an active village temple rather than a monument, built into a rock with a labyrinth of stairways and caves and a small white stupa at the highest point, so the one thing the film needs, that every load has to be carried up by hand, is a fact of the place and not an arrangement. That single constraint produces both layers at once: the most beautiful shot the site can give is a thread of people on bare grey stone with a white dome above them, and that thread is also the clearest possible statement of the concept, since the loads are identical and what differs is only the furniture each person brought with them. The surrounding country, foothills looking towards the rainforest edge, gives the film its far shot, the white point visible from a long way off.",
+    "what_to_film": [
+      "The rock and the dome from the air at first light and again in the last hour, wide enough to hold the whole climb in one frame.",
+      "The materials waiting at the foot of the rock before anyone arrives: lime, water drums, brushes, poles, buckets.",
+      "The chain on the stairway, filmed from above as a line and from inside as a single pair of hands repeated.",
+      "The stairways and caves themselves, which are the reason the work has to take this shape.",
+      "Midday: the glare, the small shade, the stopped work, filmed without implication.",
+      "The dome changing colour from the bottom up, in long takes from one position.",
+      "The walk down at dusk with empty buckets.",
+      "The finished dome the next morning from a distance, with the fields and the road in the frame."
+    ],
+    "access": "Off the main road between the two towns, with a climb on cut steps to the upper levels. Filming is entirely at the discretion of the resident monks and the lay committee who call the work day, and the date is theirs. Nothing can be filmed on the upper levels that would narrow the stairway while loads are moving; drone work over an active place of worship needs explicit permission from the temple as well as whatever the aviation rules require.",
+    "best_time": "The days immediately before the temple's own annual festival, when the repair and lime-washing are actually done; early morning and late afternoon for the rock, with the heat of midday filmed as part of the day.",
+    "images": [
+      {
+        "caption": "The stupa at the top of the rock at this temple: the object of the work day.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Looking at the Stupa.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Looking at the Stupa.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A stairway between boulders at the same site: the reason every load has to go up in somebody's hands.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walkway Between rocks.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Walkway Between rocks.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The entrance to the temple complex, for the character of the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main Entrance To the temple.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Main Entrance To the temple.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.lanka-excursions-holidays.com/sankapala.html",
+      "https://en.wikipedia.org/wiki/Sarvodaya_Shramadana_Movement",
+      "https://www.sarvodaya.org/"
+    ],
+    "research_note": "That this is an active temple built into a rock, with a system of stairways and caves and a white stupa at its highest point in foothill country looking towards the rainforest edge, is from the first source above and is desk research only. That collective unpaid work days are an ordinary and widely organised way of getting such jobs done is from the second and third. What is not verified, and is the question the film depends on, is whether this particular temple's annual repair and lime-washing is done by a village work party rather than by paid workers or a contractor, and on what date. The coordinates are the site's as given by desk sources and have not been checked on the ground. No monk, committee or participant has been approached. The images are of this site, from its Commons files.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the annual repair here is done as a communal work day at all, or by paid labour, is unverified and decides the film.",
+    "No monk, lay committee, village or participant has been approached. Everything here is a research direction.",
+    "Permission to film inside an active temple, and to fly over it, is unknown and may be refused for good reasons.",
+    "Whether a crew can work on a narrow stairway without slowing or endangering the chain of people using it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

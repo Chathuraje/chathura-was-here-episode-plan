@@ -2,104 +2,188 @@
   "schema_version": 1,
   "id": "IDEA-0083",
   "record_type": "idea",
-  "title": "The Close Call",
+  "title": "Nothing Left Over",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Close Call"
+  ],
   "group_id": "GRP-05",
-  "logline": "In a local cricket match an umpire has a fraction of a second to end someone's innings, and the whole ground waits in silence for the gap between seeing and deciding to close.",
-  "human_question": "How much room is really there between something happening and a person's ruling on what it was?",
-  "situation": {
-    "what_happens": "A match runs through a tournament that matters to everyone playing in it. Most of it is routine. Several times in a match something happens too fast and too ambiguously to be certain about, an appeal goes up, and one person has to give an answer within about a second, in front of everybody, with no replay and nothing to revisit afterwards. The answer stands whatever it was, and the person who gave it has to keep standing there for the rest of the day among the people it went against.",
-    "who_is_involved": "The umpire, who is usually a local person known to both sides and not paid much; the players, for whom the tournament may be the largest thing in their year; the crowd, which has already decided; and the organisers, who have to keep the tournament running afterwards.",
-    "what_is_at_stake": "A player's innings, a team's match, and an umpire's standing in a place he still has to live in. In a tightly contested local tournament, real money and real grudges follow a bad decision.",
-    "how_it_unfolds": "A match begins and ends on a fixed day, and the difficult moments arrive unannounced and may not arrive at all. The pressures are the closeness of the game, the crowd, the light and what is riding on the result. It ends with a result, a dispute or a walk-off, and nobody, including the film, can arrange which."
+  "logline": "Inside a dry-zone mill, a curtain of rice falls past a lamp, and in the few thousandths of a second each grain is lit, a machine has to rule on it from one face, one angle and one light, or let it go by unjudged.",
+  "human_question": "What happens when a ruling has to be made before the thing being ruled on has finished arriving?",
+  "place": {
+    "what_kind_of_place": "A working mill on the edge of a dry-zone paddy town: a fenced yard of drying floors and stacked sacks, a corrugated shed with a tower of machinery inside it running from the ground to the roof, and a loading bay where tractors queue. Inside, the grain goes upward by elevator and comes down by gravity through one machine after another — cleaning, dehusking, separating, polishing — until the last of them, a cabinet with lamps and glass in it, where the rice falls in a thin vertical sheet past a row of cameras and a bank of tiny air jets fires single grains sideways out of the fall.",
+    "why_it_is_worth_watching": "Because the whole film is in one shot that nobody normally sees. The sorting chute is a lit curtain of falling grain, a few centimetres thick, brilliantly white against a dark cabinet, with jets firing into it in a fine rattling percussion; slowed right down it becomes one of the strangest and most beautiful images an industrial building can produce. And it is a shot with an argument inside it: every grain gets one pass, one face, one light and no second look, and a grain that is not different enough, or not lit long enough, is simply not acted on at all. The rest of the mill gives the scale and the dust and the heat that make the cabinet mean something.",
+    "what_moves_or_changes": "The harvest, which fills the yard for a few weeks and empties it for months. The moisture in the paddy, which decides everything downstream. The threshold the machine is set to, which is turned up and down through a shift as the crop changes. The dust, which is constant and which coats the lenses, so the machine's own seeing degrades through a day and has to be cleaned. And the queue of tractors outside, which sets the pace.",
+    "when_it_looks_best": "The weeks after a harvest is taken in, when the yard is full and the mill runs through the night. Inside the cabinet the light is the same at any hour. Outside, early morning, when the drying floors are being raked and the dust hangs in low sun."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a building that turns one thing into another. Tractors in a dusty yard, a mountain of paddy, the raking of drying floors, an elevator belt, the heat and noise of a mill floor, and then the astonishing quiet white sheet of falling rice inside a lit cabinet with jets picking single grains out of the air. Nothing needs to be said: the harvest comes in, it goes up, it falls through, it goes out in sacks.",
+    "with_the_philosophy": "The same cabinet becomes the sources' own account of what happens when something arrives weakly or late. The texts say that if an object reaches the sense only after some of its life is already gone, the run of mind that follows is cut short and nothing lingers afterwards; and that if too little time remains, no response is made at all — the mind simply repeats what is it, what is it, and drops back. That is the sorter's exact physics, at a size the camera can slow down, and nobody's judgement is on trial, because the ruling here is a threshold and not a person."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn from above: a mill on the edge of a small town, drying floors laid out like pale rectangles, a queue of tractors at the gate, dust already up. Then inside: the elevator, the dark of the shed, the tower of machinery.",
+      "voice": "Everything that comes into this building gets one pass. There is no second look built in anywhere, and nothing here is ever reconsidered.",
+      "concept_id": "C040"
+    },
+    {
+      "on_screen": "The chain of machines in order: the cleaner, the huller, the separator, the polisher. Grain falling from one into the next, each doing one thing to it.",
+      "voice": "The sources describe what they call the bare moments of sensing, and they are careful to say how little those moments carry. The seven basic factors, and nothing else: no effort in them, no resolve, no wish to do anything at all [C029-P:L31–L55].",
+      "concept_id": "C029"
+    },
+    {
+      "on_screen": "Inside the sorting cabinet. A thin vertical sheet of white rice falling past a lamp and a row of lenses. Air jets firing, a fine dry rattle. Filmed straight on, held.",
+      "voice": "The old analysis grades what arrives by how strongly it arrives: how big it is, how well lit, how near, and how late it strikes [C040-M:L3–L7]. The stronger the arrival, the further the mind goes with it. The faintest things barely disturb the resting mind at all [C040-M:L9].",
+      "concept_id": "C040"
+    },
+    {
+      "on_screen": "Very high speed, very close: a few grains crossing the light. One is pushed sideways out of the fall by a jet. The others carry on down and out of frame.",
+      "voice": "The texts list what a moment of seeing needs before it can happen at all: a sense that works, something there to be met, a medium such as light, and the turning toward it [C009-P:L85–L98]. Take any of them away and the arrival is weaker, and the run that follows is shorter.",
+      "concept_id": "C009"
+    },
+    {
+      "on_screen": "A hand adjusting a sensitivity dial on the cabinet's panel; the reject rate on a display climbing and then falling. Back inside the chute: the same curtain, now with far fewer jets firing.",
+      "voice": "And there is a threshold below which nothing happens. The sources are unusually firm about it. If too little is left of the thing, the mind does not make half a response. It goes on asking what is it, what is it, and then sinks back into rest, and no response is made at all [C044-M:L27–L66].",
+      "concept_id": "C044"
+    },
+    {
+      "on_screen": "Two streams leaving the machine: the accepted rice pouring into a hopper, the rejects into a smaller one. Both filmed the same way, without emphasis.",
+      "voice": "When something arrives late, the run is cut short at the other end instead. The response is still made, but the thing is already finished by the time it is over, so there is nothing to hold afterwards and nothing lingers [C044-P:L31–L33].",
+      "concept_id": "C044"
+    },
+    {
+      "on_screen": "End of a shift. The chute empties. The lamps stay on over a cabinet with nothing falling through it. Outside, the yard at night, sacks stacked, the gate shut.",
+      "voice": "None of this is a lesson about paying attention. The conditions the texts name are mostly not in anybody's gift: size, distance, light, and whether the thing is still there. Attention is one of four, and the other three belong to the world.",
+      "concept_id": "C025"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C044 contributes the exact case: when the object is small, distant or dimly lit, or the attention or the base is weaker, it strikes late and there is no time left for anything after the response, so the process simply ends there with nothing lingering. It also carries the sources' all-or-nothing rule, that where there is not enough time for a full response the mind does not give a half one; it keeps checking, 'what is it, what is it', and drops back. C040 contributes the grading that decides which case a given appeal is, by size, light, nearness and lateness. C025 contributes the rule that decision and doubt cannot occupy the same moment. C029 and C009, folded in from IDEA-0080, contribute what is underneath: bare seeing carries only the seven universals and no verdict; receiving and investigating add landing, staying and settling; determining adds effort for the first time; and not one of those steps contains any wish to act. An umpire is the one person in ordinary life required to convert all of this into a public answer on demand.",
-    "what_it_reveals": "Put together they describe the difference between a decision and a verdict. The sources say the process runs its course and simply stops, with nothing left over; an umpire's ruling has exactly that shape and then has to be lived with by everybody for the rest of the day. The folded-in material adds the part a sports film would never reach for: the moment before the ruling contains no wish to act at all, so whatever the crowd reads into an umpire's face in that second, the sources place nothing of the kind there."
+    "why_together": "C044 supplies the film's rule. Its sources describe what happens when the base, the object, the light or the attention is weaker, or the thing is small, far off or dimly lit: the object strikes late, the run has fifteen or fourteen moments left, and it ends without the lingering registration moments, so nothing is held afterwards [C044-P:L25–L27; C044-M:L3; C044-P:L31–L33]. Then comes the all-or-nothing rule the whole film is built around: where too little time remains, impulsion does not arise at all, determining simply repeats and the mind drops back [C044-M:L27–L66]. C040 supplies the grading behind it — objects sorted by prominence and by how late they strike, with the faintest doing no more than making the resting current waver [C040-M:L3–L7; C040-M:L9] — and the insistence that this sequence runs by a law of its own with nobody at the controls [C040-P:L23–L37]. C009 supplies the conditions each sensing needs: a working sense, an object, a medium such as light, and attention [C009-P:L85–L98]. C029 and C025 supply what is absent from all of it: the bare moments carry only the universals, no effort, no resolve and no wish to act [C029-P:L31–L55; C029-P:L29; C025-P:L59]. A machine that must rule on a falling grain from one face, one light and one pass makes every one of those a physical fact rather than a proposition.",
+    "what_it_reveals": "That a great deal of what reaches us is ruled on before it has finished arriving, on partial evidence, by a threshold — and that below that threshold nothing is ruled on at all, which is not a failure and not anyone's fault. C044 alone would be a set of moment-counts. C040 alone would be a grading scheme. C009, C029 and C025 alone would be lists of what is present and absent. Together in a lit chute they let a viewer watch an instantaneous, irreversible, incomplete judgement being made several thousand times a second, with nobody making it and nobody disappointed by it."
   },
   "concept_links": [
     {
       "concept_id": "C044",
       "role": "primary",
-      "why": "The digest describes the two great-object processes: when the base, the object, the light or the attention is weaker, or the object is small, distant or dim, the form strikes two or three moments late, and the process ends at the seventh moment of impulsion with no registration, so nothing lingers afterwards [C044-P:L27-L33; C044-M:L3-L9]. The digest's 'all or nothing' point belongs to this film directly: if there is not enough time left, the mind gives no half-response; determining simply repeats and the mind drops back. Two limits are carried: the moment-counts are not measurable delays and must not be dramatised as timings or reaction speeds, which rules out slow motion offered as a view of the moment; and 'if you didn't really notice it, you aren't responsible' is not what the source says, since the slight-object teaching is about whether impulsion arises and not about excuses."
-    },
-    {
-      "concept_id": "C025",
-      "role": "supporting",
-      "why": "The digest gives the source's own reason for one of its exclusions: decision and doubt are opposed, so where one is present the other is not [C025-P:L69]. The visible pause before a ruling is where a crowd watches that exclusion resolve. The digest's warning that energy and decisiveness are not virtues in this framework keeps the film from turning a decisive umpire into a good man and a hesitant one into a weak one."
+      "why": "The digest gives the two shapes this film needs. When the object strikes late because it is small, distant, dim, or the sense or attention is weak, the run is truncated: in one form the object has a single moment left after the seventh impulsion so no registration arises, and in the other it ceases with the seventh impulsion and the run simply stops [C044-P:L25–L27; C044-M:L3; C044-P:L31–L33; C044-M:L5–L9]. And then the rule that makes the film: where too little time remains for a full response, the mind gives no partial response at all but keeps asking what is it and drops back into rest [C044-M:L27–L66]. A sorting chute is that rule in metal. The digest's limits are honoured deliberately, because they are the ones the earlier version of this idea broke. The film does not moralise about distraction: the causes the source lists are mostly physical, with attention only one of four. It does not suggest that what was not properly noticed carries no responsibility; the slight-object teaching is about whether impulsion arises, not about excuses. The moment-counts are never dramatised as reaction times. And registration is never equated with memory, so the missing lingering moments are not narrated as forgetting."
     },
     {
       "concept_id": "C040",
       "role": "supporting",
-      "why": "The digest grades objects by prominence, which it gives as size, light and nearness, and by how late they strike [C040-M:L5; C040-M:L7], which is why some appeals are obvious and some are agonising. The digest corrects the tempting reading: 'pay more attention and you will see more' is not quite the source's claim, since the grade is largely set by the object's own prominence and timing."
-    },
-    {
-      "concept_id": "C029",
-      "role": "supporting",
-      "why": "Folded in with IDEA-0080, and the digest's own story seed for this concept is an umpire at a local tournament deciding a close call. It reads the table as a sequence: bare seeing carries only the seven universals; receiving and investigating add applied thought, sustained thought and decision; the determining moment adds effort for the first time; and none of these contains any wish to act, which only arrives once the machinery has finished [C029-P:L31-L55]. Its guards are carried: this is not 'we have no free will', and the factor counts are a student's analytical aid, never measurements."
+      "why": "The digest supplies the grading the sorter embodies: objects at the five doors ranked very great, great, slight and very slight by prominence — size, light, nearness — and by how many moments pass before they strike, with the stronger arrivals producing longer runs and the very slight doing no more than making the resting current waver [C040-M:L3–L7; C040-M:L9]. It also supplies the film's licence to have no protagonist: the Pradeepika insists the sequence runs by a law of mind with no doer, one of the five natural orders [C040-P:L23–L37]. The digest's cautions are kept. The voice does not turn the grading into pay-more-attention advice, because the source grades by the object's prominence and timing rather than by effort. No doer is not narrated as fatalism, since the same list of orders includes action and result. The traditional examples of the dhamma order are not set alongside weather and seeds as if they were natural science. And the mango simile, if it is used at all, is not played as a slow conscious routine."
     },
     {
       "concept_id": "C009",
       "role": "supporting",
-      "why": "Folded in with IDEA-0080. The digest describes the rootless sensing layer as weak, needing a working sense, an object, a medium such as light and attention, and carrying no verdict of its own [C009-P:L85-L98], and makes the point the whole group rests on, that the same arrival can be followed by entirely different responses in different people. Two of the players, the umpire and the crowd all receive the same instant and disagree completely about it, which is the digest's claim with a ground and a scoreboard around it. The digest's guard against reading anyone's misfortune as deserved applies to the player given out as much as to anyone."
+      "why": "The digest is concrete about what a moment of sensing requires — an intact sense, an object, a medium such as light or air, and attention — and notes that out of everything in front of us only what is turned toward is actually seen [C009-P:L85–L98]. That is the sorter's specification sheet: a clean lens, a lit grain, a background, a trigger. The digest also gives the point the film ends on, that the same bare arrival can be followed by entirely different responses, and that the difference belongs to a later stage and not to the sensing [C009-P:L94–L98]. Its prohibitions are absolute here and are honoured: the treatment of pleasant and unpleasant contact as the fruit of past action is never turned into people getting what they deserve, and the Pradeepika's doctrinal link between rebirth with blindness, deafness or muteness and very weak wholesome action [C009-P:L168–L172] is neither narrated nor alluded to. Rootless is also not narrated as uncaused; the Margaya is explicit that these minds have causes and only lack the six roots [C009-M:L3]."
+    },
+    {
+      "concept_id": "C029",
+      "role": "supporting",
+      "why": "The digest is the clearest place in the sources for what the early stages do not contain. The ten bare sense-consciousnesses carry only the seven universals; receiving and investigating add landing on the object, staying with it and settling; the determining moment adds effort for the first time; and none of them contains any wish to do anything, because desire-to-act never occurs in a rootless mind at all [C029-P:L31–L55; C029-P:L29; C029-M:L3]. That is exactly what lets a machine carry this material honestly: the sorter genuinely wants nothing, and the sources put the wanting somewhere else rather than nowhere. The digest's warnings hold the voice: the absence of wish in the early stages is not narrated as we have no free will or we are just machines, the factor counts are never given as measurements, and the fully freed person's smile is not offered as a model for anyone."
+    },
+    {
+      "concept_id": "C025",
+      "role": "supporting",
+      "why": "The digest supplies the reason behind the absence rather than the list of it: the exclusions follow from the weakness of the ten sense-consciousnesses, which cannot carry any of the six occasional factors at all [C025-P:L59], while the seven universals appear in every mind without exception [C025-P:L47]. The film uses this once, at the end, to keep the voice from turning the sources into advice about focus. Its limits are respected: drive and decisiveness are not presented as virtues, since the digest says they appear equally in harmful minds, and the memorisation numbers never appear on screen."
     }
   ],
-  "what_the_viewer_could_understand": "When something is small, far off or badly lit it reaches the mind late, and the run from noticing to responding has less time to play out, ending with nothing left over to revisit. These texts also say that making up one's mind and real doubt cannot happen in the same moment, and that the machinery before the ruling carries no wish to act at all.",
-  "what_must_be_real": "Real matches and real decisions, with no appeal re-enacted or re-run. The umpire's own account of how close calls are actually made must lead, and no slow motion may be used in a way that suggests the moment is something a person can consciously watch happen, which the sources deny. Nothing in the edit may turn a wrong call into a judgement on the person who made it.",
-  "position_hint": "middle to late: it follows the film about the neutral machinery and precedes the films about a response being formed, because it is the point where the machinery is forced to produce a public answer. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That a ruling often has to be made before the thing being ruled on has finished arriving, on one face of it, in one light, with no second look — and that below a certain strength of arrival nothing is ruled on at all. Neither of those is a fault in anybody. They are what the conditions allow.",
+  "what_must_be_real": "The mill, the crop and the settings. Nothing is fed, rejected, re-run or re-set for the camera; the threshold is whatever the operators set it to for the crop in front of them, and if a batch runs clean the film is of a clean batch. No worker is filmed as the one making the judgement, and nobody's speed, eye or competence is the subject — the whole point of the place is that the ruling is structural. The film makes no claim about the quality, the price or the trade in what is being milled, and takes no position in the long argument about millers and farmers; if the owners' business would be harmed or misrepresented by the footage, it does not get made. Dust, noise and moving machinery are the mill's hazards and the mill's rules govern them.",
+  "position_hint": "late middle: it needs the viewer to have already met the idea of a fixed run of steps, because its whole subject is what happens when that run cannot complete. It should come after the films about turning-toward and about order, and before the group's closing turn.",
   "risks": [
-    "Sports-highlight editing flattening the film into a reflexes showcase.",
-    "Slow motion suggesting that the moment is something a person can watch happen, which the sources deny.",
-    "Losing the umpire's own account of the work in favour of drama.",
-    "Treating a decisive ruling as evidence of character, which the C025 digest rules out.",
-    "Leaving an umpire exposed in his own community after a disputed call is broadcast."
+    "Moralising about attention. The digest says the causes of a weak arrival are mostly physical — size, distance, light and the state of the sense — with attention only one of four, and the film must not become advice about focus.",
+    "Suggesting that what was not properly noticed carries no responsibility. The slight-object teaching concerns whether impulsion arises in a given run; it is not a doctrine of excuses.",
+    "Dramatising the moment-counts as reaction times or milliseconds, or presenting any of the counts as measurement or neuroscience.",
+    "Equating the missing lingering moments with forgetting. Neither source makes registration the same thing as memory.",
+    "Letting the machine become a model of mind. The sources' process is not information processing and the film borrows a threshold, not a mechanism.",
+    "Making a worker the one who judges. The reason this location replaced the earlier one is that the ruling here is structural, and the moment a person is framed as the decider the concept is contradicted.",
+    "Narrating no doer as fatalism, when the same list of natural orders includes action and result.",
+    "Carrying, in any form, the Pradeepika's doctrinal link between rebirth with blindness, deafness or muteness and weak wholesome action [C009-P:L168–L172], or framing anyone's hardship as deserved.",
+    "Turning it into an industry film, or into a piece about what millers pay farmers, which is a real and bitter argument and not this film's subject."
   ],
   "drop_if": [
-    "No tournament or umpire allows genuine unscripted filming of real decisions.",
-    "The available matches are too low-stakes to carry real tension.",
-    "The umpire is unwilling to reflect on how close calls are actually made.",
-    "The film cannot protect him from consequences a broadcast dispute would bring."
+    "No mill will have a crew inside a working sorting cabinet, or will not allow the chute to be filmed at the speeds the shot needs.",
+    "The sorting stage turns out to be visually inaccessible — enclosed, unlit to the camera, or impossible to film without stopping the line.",
+    "It can only be made by asking the mill to run a batch, or change a setting, for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0080",
       "relation": "absorbs",
-      "note": "Takes in the doubt-into-decision strand and the C029 and C009 links: the neutral machinery beneath a public ruling, which carries no wish to act."
+      "note": "Takes in the strand about what the machinery contains before any response, and the links that carry it, now sited where no person is being judged."
     },
     {
       "idea_id": "IDEA-0074",
       "relation": "pairs with",
-      "note": "Both trace the line between something that barely registers and something that draws a full, decisive response."
+      "note": "Both are built on a threshold: one at the edge of what a lamp reaches, one at the edge of what a machine will act on."
     },
     {
       "idea_id": "IDEA-0082",
       "relation": "pairs with",
-      "note": "Two fast rulings with nothing to revisit, one continuous and private, one single and watched by a crowd."
+      "note": "One place where the fixed order always completes, and one where it completes only if the thing arrives strongly enough and in time."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0080"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0045, proposed by the C029 digest's own story seed, and strengthened by folding in IDEA-0080's account of the neutral machinery that carries no wish to act."
+    "reason": "It is the only way found to film an instantaneous ruling on incomplete evidence where the threshold is the subject and no person is being judged or disappointed."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped entirely the old subject — a cricket umpire ending a batter's innings in a fraction of a second, with the ground's silence and a player's disappointment as the emotional material — because it made an identifiable official's split-second judgement, and someone else's loss, the subject of a film whose concepts deny that there is a judge behind the judging. The concept of a ruling made on incomplete information in an instant is kept and moved to a place where the ruling is a threshold in a machine: a rice sorter, where every grain gets one face, one light and one pass. Concepts re-read from the digests, every citation re-verified, and the two range citations this record previously carried that do not resolve, one joining C044-P:L27 to L33 and one joining C044-M:L3 to L9, were removed and replaced with the attested C044-P:L25-L27, C044-P:L31-L33, C044-M:L3 and C044-M:L5-L9.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "A commercial paddy mill's optical sorting floor on the edge of Thambuttegama",
+    "also_known_as": [
+      {
+        "name": "hal mola",
+        "meaning": "the rice mill",
+        "used_by": "ordinary Sinhala usage in the paddy districts"
+      }
+    ],
+    "region": "Anuradhapura district, North Central Province: the northern dry-zone paddy country west of the city, in the belt of small and medium mills that serve the surrounding cultivation",
+    "coordinates": {
+      "lat": 8.145,
+      "lng": 80.317
+    },
+    "why_here": "It puts the concept inside the frame rather than beside it. A mill of this size runs a colour sorter as its last stage, and a colour sorter is a machine built entirely out of the conditions the sources name: a lit curtain of falling grain, a lens, a background, a threshold and an air jet that acts or does not act within a few thousandths of a second, on one face of one grain, with no second look and nothing held afterwards. That is not an illustration of the texts; it is the same arrangement in metal. The district is the right one because this is northern dry-zone paddy country with a working mill trade rather than a showpiece, and because a modest mill on a town edge gives the dust, the queue and the drying floors that make the cabinet legible, without any of it being a heritage set.",
+    "what_to_film": [
+      "The mill and its drying floors from above at first light, with the tractor queue at the gate and dust already in the air.",
+      "The chain of machines inside, in order, each doing one thing to the grain as it falls from the last one into the next.",
+      "The sorting chute straight on and held: the thin white curtain of falling rice, the lamp, the lenses, the jets.",
+      "The same chute at very high speed and very close, so that single grains and single jets separate out.",
+      "The sensitivity setting being changed for a different batch, and the reject rate moving with it.",
+      "The two streams leaving the machine, accepted and rejected, filmed identically so that neither is dramatised.",
+      "Lens cleaning, because the machine's own seeing degrades through a shift and has to be restored.",
+      "The empty chute at the end of a run, lamps still on, and the yard outside at night."
+    ],
+    "access": "By road from the Anuradhapura direction; mills of this kind sit on town edges along the main roads, and everything depends on an owner agreeing. A working mill floor is hot, very dusty and very loud, with moving belts and elevators, so filming inside means the mill's own rules on where a crew may stand. The sorting cabinet is usually closed while running, so any shot inside the chute depends on the mill allowing a camera at a sight glass or an inspection panel, which is the single thing on which the film stands or falls.",
+    "best_time": "The weeks after a harvest is taken in, when the yard is full and mills run into the night. Early morning outside for the drying floors and low light in the dust; inside the cabinet the light does not change with the hour.",
+    "images": [],
+    "sources": [
+      "https://iesl.lk/SLEN/64/Rice_milling_industry.php",
+      "https://en.wikipedia.org/wiki/Rice_color_sorting_machine",
+      "https://www.seu.ac.lk/jsc/publication/v1n2/manuscript1.pdf"
+    ],
+    "research_note": "That commercial mills are concentrated in the main paddy districts including Anuradhapura, and that rice is finished on a colour sorter in which grain travels by elevator into a hopper, falls past cameras and is ejected by air nozzles the moment a defect is detected, are from the sources above and are desk research only. No particular mill has been identified, named or approached; the coordinates are an approximate point for a paddy town in the district and are a direction, not an address. Whether a mill of this size in this district actually runs an optical sorter, and whether its chute can be seen and filmed at all while running, is entirely unverified and is the question that decides whether the film exists. Images are deliberately empty: no confirmed photograph of a Sri Lankan mill's sorting floor was found on Commons, and a generic picture of a paddy field would say nothing about this place.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No mill has been found or approached, and the whole film rests on one owner agreeing to a camera at a sorting cabinet.",
+    "Whether the sorting chute can be filmed at all while the machine runs, and at what frame rate, is unverified.",
+    "Whether a mill at this scale in this district runs an optical sorter rather than sending grain elsewhere for finishing has not been checked.",
+    "Whether the milling season falls inside the development window, and for how long, is unknown."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

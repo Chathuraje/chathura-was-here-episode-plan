@@ -2,74 +2,192 @@
   "schema_version": 1,
   "id": "IDEA-0014",
   "record_type": "idea",
-  "title": "Before the Wedding",
+  "title": "What the Pot Is For",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Before the Wedding"
+  ],
   "group_id": "GRP-02",
-  "logline": "Weeks before a wedding, a family spends a day choosing cloth, and a relative talks a hesitant bride into a colour she would not have picked herself.",
-  "human_question": "When does choosing for someone else stop being help and start being your own wanting?",
-  "situation": {
-    "what_happens": "A family sets aside a day to buy cloth for a wedding that is still weeks away. Bolt after bolt is unfolded and held up, opinions collide, and the person the clothes are for is the least certain of everyone in the room. One relative argues hard for a particular colour, and the bride, who had been drawn to another, agrees in the end. All the while the shop's assistant folds and refolds the same fabrics they have been handling all week, with no visible feeling about any of them.",
-    "who_is_involved": "A bride-to-be; her mother; an aunt or older relative with strong opinions and the standing to press them; whoever in the family is paying; a shop assistant partway through a long trading season.",
-    "what_is_at_stake": "For the bride, whether what she wears on the most looked-at day of her life is her own choice, and whether saying so is worth the friction. For the older relative, the family's standing and their own idea of what is beautiful. For the family, money that has to stretch further than is comfortable. For the assistant, a sale at the end of a long day and nothing else.",
-    "how_it_unfolds": "Days like this usually start warm and wide and narrow as they go: several shops, a shortlist, one colour that keeps returning, a disagreement that stays polite, and a decision made when everyone is tired. They end in a purchase, in a deferral to another day, or in a choice that is quietly regretted later. Whether the bride yields, holds out, or was never that sure to begin with is decided by the family, in their own time, and must not be steered."
+  "logline": "Clay is cut out of a low paddy field grey, heavy and shapeless, and within a week the same clay is standing in the sun in a thousand shapes, every one of which exists because somebody, somewhere, is expected to want it.",
+  "human_question": "When I call something beautiful, am I describing the thing, or describing what I am doing?",
+  "place": {
+    "what_kind_of_place": "A scatter of potters' households on a flat eastern coastal plain, between paddy, palmyra and a lagoon. It is not a factory and not a heritage site: it is a trade carried on at the back of houses. Clay is cut by hand from a low-lying field where it lies grey and stone-free, carried in, weathered, trodden and kneaded, and thrown on a wheel under a palm-thatch roof. Finished ware stands to harden in a shaded room and then in the open sun in long geometric ranks, is burnished, is fired in an open stack of straw, husk and firewood, and comes out red. What is made is everything the clay can be asked for at once: water pots meant to keep water cool, cooking pots, oil lamps, money boxes, small figures, ornamental ware. The same wheel makes all of it in the same morning.",
+    "why_it_is_worth_watching": "Four things carry it with the sound off. From the air: a flat green plain with hundreds of pots laid out in rows beside thatch roofs, a pattern nobody designed to be looked at from above. At the wheel: a lump of grey mud becoming a rim in about fifteen seconds, which is one of the oldest and most watchable things in the world and needs no explanation. At the firing: an open stack in the dusk, straw catching, smoke flattening across the plain, and in the morning a colour change from grey to red that the film does not have to point out. And at the roadside: rank after rank of finished ware standing where traffic passes, waiting to be wanted.",
+    "what_moves_or_changes": "The clay changes state four times in a week and the camera can follow every one: wet field, kneaded body, thrown and grey, sun-dried pale, fired red. Nothing else needs to move. The only other change in the film is at the point of sale, where the same clay, shaped by the same hands on the same morning, divides into what somebody bought to hold water and what somebody bought to look at.",
+    "when_it_looks_best": "The dry weeks, because sun-drying and open firing both depend on them and neither can be staged; on this coast that means avoiding the north-east monsoon months. Early morning for the wheel and for the aerial while the drying rows are still complete, and dusk for the firing."
   },
+  "two_layers": {
+    "without_the_philosophy": "A craft film with a clean line through it: a field, a wheel, a week of drying, a fire, a road. It resolves on its own terms, grey to red, ground to object and back to ground when a pot breaks, and it ends where it started. A viewer who never hears a word of the narration gets a real trade on a quiet plain, the pleasure of watching a shape come up out of nothing under two hands, and a fire at the end of it.",
+    "with_the_philosophy": "The same footage becomes the sources' own question, which is not what a thing is but what it is for. The voice never says anyone is greedy and never rules on any pot. It points at the one place the footage already splits: two pots off the same wheel, one that will keep a family's water cool and one that will stand on a shelf to be admired, and the sources sorting those by aim rather than by object. Then the film says out loud the thing that makes it honest, which is that a camera cannot see an aim, and stops there."
+  },
+  "sequence": [
+    {
+      "on_screen": "Aerial at first light. A flat plain, thatch and tin roofs among palmyra, and beside them long geometric ranks of pots drying in the open.",
+      "voice": "Everything in those rows was a field ten days ago. The old compendiums that this series is reading begin their count of the ordinary mind here, in exactly this world: what is seen, heard, smelled, tasted, touched and handled. They count fifty-four kinds of ordinary mind in it.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "A man standing in a low field cutting clay with a short spade, lifting it in flat grey slabs into a basket. It is the least interesting substance imaginable.",
+      "voice": "Nothing anybody is going to want is in this yet. The definition these books give for the attaching kind of mind is precise and worth holding on to for the next twenty minutes: it is the taking of a thing as good, as beautiful, as sweet. Not the thing. The taking.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "The wheel. The lump centres, opens, rises; a wide-bellied water pot comes up in one continuous movement and is cut off with a string.",
+      "voice": "That one is a water pot. It will sit in a corner of a kitchen and keep water cool in a part of the country where the afternoon is well over thirty degrees for most of the year. The compendium is direct about this sort of thing: food prepared to quiet hunger and keep a life going is not counted among the unwholesome minds at all.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "The same wheel, the same hands, the same morning: an oil lamp, a money box, a small figure, a fluted ornamental vase. They are set down in the same row as the water pot.",
+      "voice": "And the same book sorts the identical act the other way when the aim changes: prepared for the taste of it, or to be admired, or to seem a certain kind of person. The act is identical. The clay is identical. What differs is not in the row you are looking at.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "The drying room, then burnishing: a woman rubbing a pot's shoulder with a smooth stone until it takes a soft shine. Her face shows nothing at all. It is the hundredth pot this week.",
+      "voice": "Watch her face and not the shine. These books say this kind of mind arrives either with gladness or with a flat, middling feeling, and never with displeasure. Somebody will pick this pot up in four days and light up. She has handled a hundred of them. The beauty is not sitting on the pot, or it would be on her too.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Dusk. An open firing: pots stacked, covered with straw and husk, the straw catching, smoke flattening out low across the plain. Then morning, and the stack pulled apart: the ware is red.",
+      "voice": "One caution before the road, because this is the point where a film like this usually starts preaching. The same book that sorts by aim also says plainly that a good garment, even a costly one, worn so that you are not looked down on, is not counted among the unwholesome minds. It is not asking anyone to own less. It is asking a different question entirely.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "The roadside rank in full sun. A van slows, reverses, stops. A buyer walks the row, picks something up, puts it down, picks it up again. Further along, a seller calls out and holds something up to a passing motorcycle.",
+      "voice": "Two things are happening in this lay-by and the books separate them. Some of this reaching rises sharply, of itself, needing nobody. Some of it needs the push, somebody else urging it along. Both of them are the same reaching, and neither of the two people in front of you knows which they are having.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "End of day. Unsold ware carried back into shade. A cracked pot dropped on the spoil pile, shards trodden into the wet ground by children crossing to the field the clay came from.",
+      "voice": "The film cannot tell you why any of these pots was bought, and it is not going to pretend. That was always an inside question. What it can tell you is that the count these books make is not a warning about a trap: twenty-four of their fifty-four ordinary minds are the ones they call beautiful, and some of them were in this yard today.",
+      "concept_id": "C004"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C004 supplies the frame: the everyday sense-sphere mind living among things seen and reached for, with greed defined as the attaching that takes a thing to be good, beautiful or sweet, arriving with joy or with flat feeling but never with displeasure. C006 supplies the mechanism of this particular day: the same reaching can rise sharply on its own, or be urged along by another person, or by oneself coaxing a hesitating mind. A day spent choosing cloth for a wedding puts both in one room, because one person's eye lights up while another person's argument is doing the work.",
-    "what_it_reveals": "Together they show that persuasion does not make the wanting somebody else's. It makes it prompted wanting, which the sources still count as wanting, in the one persuaded and in the one persuading. And because a person who handles the same beautiful cloth all week shows no delight in it at all, it becomes visible that the beauty is not sitting in the cloth: the reaching is what is being described."
+    "why_together": "Read fresh, C004 is a count of the ordinary day rather than a warning about it: fifty-four kinds of sense-sphere mind [C004-P:L25], of which twenty-four are the beautiful ones [C004-P:L27], with the attaching defined as taking things and people to be good, beautiful or sweet [C004-M:L13], arriving with delight in one person and flat routine in another [C004-M:L17], never with displeasure [C004-M:L15], and sometimes spontaneous and sometimes urged [C004-M:L21]. C005 takes exactly that definition and makes it decidable by aim rather than by object: providing for a household out of faith, kindness or plain practical sense is not counted unwholesome [C005-M:L9], food prepared to quiet hunger and sustain life is not [C005-M:L13], food prepared for the taste of it is [C005-M:L11], clothes worn against cold, heat and insects are not [C005-M:L17], clothes worn to be admired or to seem superior are [C005-M:L15], and, crucially, a fine or costly garment worn to escape contempt is explicitly not [C005-M:L19]. C006 supplies the last distinction the roadside shows, between wanting that rises sharply of its own nature [C006-P:L44] and wanting urged along by somebody else [C006-M:L5]. A village where one wheel makes water pots and ornaments in the same morning puts all three in one frame, because the object cannot settle the question and everybody can see that.",
+    "what_it_reveals": "That the sources are not running an inventory of suspicious objects. C004 on its own can be misheard as a ranking of things. C005 on its own is a list of occasions. C006 on its own is a mechanism. Together they produce a film whose central shot is two pots side by side on the same drying rack, made by the same hands within ten minutes of each other, which the sources sort differently and the camera cannot sort at all. That is also the film's honesty: the pairing forces it to say out loud that aim is invisible, which stops it from reading motives off buyers' faces, and it forces the ending away from preaching, because C005 refuses minimalism in as many words."
   },
   "concept_links": [
     {
       "concept_id": "C004",
       "role": "primary",
-      "why": "The digest's own first story seed is a family choosing clothes before a wedding, and the source defines greed as the attaching that takes things to be good, beautiful or sweet, present with delight in one person and flat indifference in another [C004-M:L13] [C004-M:L17]. The film stays with that definition and does not touch the source's listing of affection and love among the names of greed, which the digest flags as unresolved and needing an expert check [C004-M:L13]."
+      "why": "The film is the count's own territory: the ordinary world of what is seen and handled [C004-P:L25], with greed given as the attaching that takes things to be good, beautiful or sweet [C004-M:L13] rather than as a property of any object, present with delight in a buyer and flat routine in a maker [C004-M:L17], never with displeasure [C004-M:L15], and arising either of itself or under someone's urging [C004-M:L21]. The ending is the digest's own guard: twenty-four of the fifty-four are the beautiful minds [C004-P:L27], so the sources do not treat sense life as simply bad. Two of the digest's limits are load-bearing and are honoured by omission. The Margaya lists affection and love among the names of greed [C004-M:L13]; the digest records that as a technical point about clinging, flags it as unresolved and needing an expert check, and warns that presenting it as a verdict on family love would be wrong, so the film never goes near a household's affections. And the Pradeepika's own contemporary moral commentary [C004-P:L55–L69] is that author's argument, not the taxonomy, and is not carried."
+    },
+    {
+      "concept_id": "C005",
+      "role": "supporting",
+      "why": "Added on this rewrite, because it is the only concept in the group that makes the difference between two identical pots sayable at all. The Margaya works the same act through several times and sorts it by aim, not by object: earning and providing from faith, kindness or practical sense is not unwholesome [C005-M:L9], nor is cooking to quiet hunger [C005-M:L13] or dressing against cold and insects [C005-M:L17], while cooking for the taste [C005-M:L11] and dressing to be admired or to seem superior [C005-M:L15] are counted greed-rooted. The digest's anti-minimalism line is quoted almost directly in beat 6, because the source itself allows a fine or valuable garment worn to escape contempt [C005-M:L19] and does not preach deprivation. The digest's other guards shape what the film refuses to do: it must not frame a household providing for its children as greedy, and it must not collapse into 'only intentions matter', since the source still names particular actions as harmful. And because the aim is interior, the film says so rather than reading it off a buyer."
     },
     {
       "concept_id": "C006",
       "role": "supporting",
-      "why": "The sources distinguish wanting that arises sharply of its own accord from wanting urged on by others or by one's own coaxing of a reluctant mind [C006-M:L5] [C006-P:L44]. A relative arguing a bride round, and the bride's own eye settling on something first, are that distinction as it actually happens. The sources rank the prompted kind as weaker but do not excuse it, so the film cannot let persuasion carry the whole weight."
+      "why": "Kept, and narrowed to the one distinction the roadside actually shows: the sources separate wanting that arises sharply of its own nature [C006-P:L44] from wanting urged on by another person [C006-M:L5], and add the self-urging of a mind that is hesitating [C006-P:L58–L62]. A buyer working along a rank of ware unprompted, and a seller holding something up to a passing motorcycle, are that distinction happening without anyone arranging it. The digest's limits hold here too: prompted wanting is ranked weaker but is not excused, the ranking of flat wanting above glad wanting [C006-M:L19] is unexplained in the extracts and is not asserted anywhere in this film, and the justifying-story dial [C006-P:L33] is interior and is left alone rather than guessed at from a haggle at a roadside."
     }
   ],
-  "what_the_viewer_could_understand": "Wanting is the ordinary pull of seeing something as beautiful and reaching for it, and it can rise in us on its own or be talked into us by someone else. Either way it is the same reaching, and what is beautiful is decided by the reaching rather than by the thing.",
-  "what_must_be_real": "The family's actual choosing and their own disagreements in their own words, and the assistant's real working week. No exchange prompted, replayed or resolved for the film, and nobody asked to make the decision again.",
-  "position_hint": "opening candidate: the group opens on something wanted badly and plainly, and this is wanting at its most ordinary and most legible, with room for the group's object to be acquired if a real exchange offers one.",
+  "what_the_viewer_could_understand": "That what makes something wanted is not a property of the thing. The same clay, the same hands and the same morning produce a pot to keep water cool and a pot to be admired, and nothing in the two objects tells you which is which. The question these books ask is not what you have. It is what it is for, and that is a question only the person holding it can answer.",
+  "what_must_be_real": "The actual trade: real clay from the field the potters use, the real firing, the real week, the real prices and the real difficulty of making a living from it. Nothing is thrown, dried, fired or sold differently for the camera, no pot is placed, and no buyer is prompted. The potters' own words are theirs; nobody is asked to describe their work in the film's terms or to say why anyone buys anything. No purchase is presented as vanity and no household's spending is used as an example.",
+  "position_hint": "opening candidate for the group: wanting at its most ordinary and most legible, with an object in shot the whole time and nobody's inner life on display, before anything harder is asked. No location reasoning is involved.",
   "risks": [
-    "Turning the family into a lesson about materialism",
-    "Making the insistent relative or the tired assistant a comic figure",
-    "Wedding pressure filmed as entertainment rather than as lived obligation",
-    "Letting the source's listing of affection and love under greed become a verdict on family love; the digest flags that classification as unresolved"
+    "Turning the trade into a lesson about materialism, or letting any buyer's purchase stand as an example of greed. The sources describe kinds of moment, not kinds of person, and the film never calls anyone greedy.",
+    "Claiming to see an aim. C005's whole distinction is interior; a camera cannot film it, and beat 8 exists so that the film says so instead of guessing.",
+    "Letting the Margaya's listing of affection and love among the names of greed [C004-M:L13] leak into a scene of a family buying something for a household. The digest flags that classification as unresolved and needing an expert check, and warns against turning it into a verdict on family love.",
+    "Preaching deprivation. The source explicitly allows a good or costly garment worn to escape contempt [C005-M:L19], and the film must not end up recommending minimalism.",
+    "Collapsing into 'only the intention matters'. The same source still names particular actions as harmful and does not dissolve everything into motive.",
+    "Carrying the Pradeepika's own contemporary moral commentary [C004-P:L55–L69] into the narration.",
+    "Ending on 'the sense world is a trap', which the count refuses, since twenty-four of the fifty-four are the beautiful minds [C004-P:L27].",
+    "Aestheticising hard, poorly paid work, or filming a declining hereditary trade as picturesque decline. The economics are shown honestly or not at all.",
+    "Filming inside people's homes and yards without a clear, repeated understanding of what the film is and where it will be seen, in a language the crew shares with them.",
+    "Making the potters into an illustration of a simile. Their craft and their livelihood are the film; the concept is read off the work, never imposed on the worker."
   ],
   "drop_if": [
-    "No family will let their real disagreements be part of the film",
-    "The decision can only be obtained by asking them to make it a second time"
+    "Only a demonstration workshop set up for visitors is available, so no real week of work is happening on camera.",
+    "The firing cannot be filmed as it is actually done, which would leave the film without its change of state.",
+    "Access is offered on condition that the trade's economics and working conditions stay off camera, or that particular households are presented as examples."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0018",
+      "idea_id": "IDEA-0013",
       "relation": "pairs with",
-      "note": "Two garments for two occasions: one choice led by other people's wanting, one sorted by the customer's own stated reasons."
+      "note": "Things made because they will be wanted, and then the day on which they are wanted; the two films could share a single object between them."
+    },
+    {
+      "idea_id": "IDEA-0015",
+      "relation": "mirrors",
+      "note": "A week in which what a thing is for is decided slowly by hand, and ninety minutes in which what a thing is worth is decided in public by shouting."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's opening beat and its two founding concepts, both grounded in the digests' own examples."
+    "reason": "A working place where the sources' own test, the aim rather than the object, is visible in two pots off one wheel, with no person's inner life on display."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape. Dropped the old situation block entirely, in which a hesitant bride was talked into a colour by a relative; it was built on a person's inner life and on somebody's quiet defeat, which this group cannot film. New location, a working pottery community on the eastern plain, chosen because one wheel makes a water pot and an ornament in the same morning, which is the sources' aim-not-object test standing in the open. New title; old title kept in aliases. Concept links re-tested against the digests and rewritten: C004 kept as primary but re-grounded on the count and on the attaching as a taking rather than a property, with the unresolved affection-and-love classification deliberately left untouched; C006 narrowed to the prompted and unprompted distinction that the roadside actually shows; C005 added, because it is the only concept that makes two identical pots sayable, and it brings the source's own refusal of minimalism. Added place, two_layers, an eight-beat sequence and a suggested location with verified images.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The potters' households of Porativu Pattu, around Kaluwanchikudy",
+    "also_known_as": [
+      {
+        "name": "Porativu",
+        "meaning": "the pattu, or division, the potters' settlements lie in",
+        "used_by": "local Tamil usage; the spelling on the field documentation is போரதீவு"
+      },
+      {
+        "name": "Kaluwanchikudy",
+        "meaning": "the nearest town and divisional centre",
+        "used_by": "administrative and everyday usage"
+      }
+    ],
+    "region": "Porativu Pattu Divisional Secretariat, Batticaloa District, Eastern Province; the coastal paddy plain south of the Batticaloa lagoon",
+    "coordinates": {
+      "lat": 7.5175,
+      "lng": 81.7871
+    },
+    "elevation_m": 5,
+    "why_here": "A documented, still-working hand pottery trade in a part of the country almost nobody films, carried on at household scale rather than in a workshop built for visitors. The field record made here covers the whole sequence the film needs and confirms it exists: clay dug and kneaded, the wheel, drying in a shaded room and in the sun, burnishing, traditional firing, and the sale. It also confirms the one thing the concept depends on, which is that the same hands make water vessels, cooking pots, oil lamps, money boxes, figures and ornamental ware, so the film's central frame, two pots off one wheel that the sources sort differently and the camera cannot, is a real morning's work rather than an arrangement. The flat plain, the palmyra and the long open drying rows give the aerial, and the open firing gives the film its one change of state.",
+    "what_to_film": [
+      "The clay being cut and carried from the field, in full, including how ordinary and unpromising it looks.",
+      "The kneading and preparing of the body, which is the slowest and least photographed part of the trade and sets the film's pace.",
+      "One complete throw at the wheel, uncut, from centring to the string: a water vessel, then, in the same session, a lamp or a small figure.",
+      "The two of them set down in the same drying rank, in one frame. This is the shot the film is built around.",
+      "The drying room and the sun rows from above, for the pattern the trade makes without meaning to.",
+      "Burnishing, close, long enough to see that the maker's face does not change.",
+      "A full traditional firing from stacking to the morning after, and the colour change pulled out of the ash.",
+      "The point of sale, wherever it actually happens, roadside or at a weekly market: someone working along the rank unprompted, and someone being called to."
+    ],
+    "access": "By road from Batticaloa southward along the coastal road towards Kalmunai, turning inland at Kaluwanchikudy; the potters' households are scattered rather than gathered behind one gate, so access is family by family and would need local introduction, most plausibly through the Tamil-language documentation work already done in the area. The exact settlements, and which of them still fire traditionally, must be established on the ground before anything is planned.",
+    "best_time": "The dry weeks, since sun-drying and open firing both depend on them; on this coast that means staying clear of the north-east monsoon, roughly November to January, and of heavy inter-monsoonal rain. Early morning for the wheel and for the aerial while the drying rows are full; dusk for a firing, whenever the household is actually firing rather than when the crew would like them to.",
+    "images": [
+      {
+        "caption": "Finished earthenware being sold, from the field documentation of this trade made in the area in April 2018.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%AE%AE%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D_%E0%AE%B5%E0%AE%BF%E0%AE%B1%E0%AF%8D%E0%AE%AA%E0%AE%A9%E0%AF%88_1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:%E0%AE%AE%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D_%E0%AE%B5%E0%AE%BF%E0%AE%B1%E0%AF%8D%E0%AE%AA%E0%AE%A9%E0%AF%88_1.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page, credited to the SL Trades and Crafts Documentation Project; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://commons.wikimedia.org/wiki/Category:Pottery_in_Sri_Lanka",
+      "https://asiainch.org/craft/earthenware/",
+      "https://en.wikipedia.org/wiki/Porativu_Pattu_Divisional_Secretariat"
+    ],
+    "research_note": "The existence and the full working sequence of this pottery trade are evidenced by a dated field documentation set made in the area in April 2018 and published under a free licence, which is also the source of the image below; the same set holds photographs and video of clay digging, kneading, the wheel, drying, burnishing and firing, but only one file could be confirmed to return HTTP 200 in this session, the rest of the endpoint being rate-limited, so only that one is written in. The whole set is in the Commons category listed above. Coordinates are those of the nearest town from an open gazetteer lookup, not of a specific potters' settlement, and the elevation is nominal for a coastal plain. The exact villages, how many households still work, whether firing is still done in the open, the sale arrangements, drone rules and whether any household would agree to be filmed are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, introduction or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether the trade is still worked at the scale the 2018 documentation shows, and in which settlements, is unverified.",
+    "Whether firing is still done traditionally in the open rather than in closed kilns, which the film's change of state depends on, is unknown.",
+    "Language: the trade here is Tamil-speaking, and nothing in this film can be agreed to or understood by the people in it without working in their language."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,86 +2,201 @@
   "schema_version": 1,
   "id": "IDEA-0076",
   "record_type": "idea",
-  "title": "Seven Doors of a Leaf",
+  "title": "The Smell Gets There First",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Seven Doors of a Leaf"
+  ],
   "group_id": "GRP-05",
-  "logline": "In a bark-peeling shed, quality is judged by smell, touch and sound as much as by sight, and a grade is settled before anyone speaks.",
-  "human_question": "When one judgement is made through several senses at once, what does each one actually contribute?",
-  "situation": {
-    "what_happens": "Workers strip, scrape, roll and grade bark through a working day, testing each piece by lifting it to the nose, working it between the fingers, tapping it and looking at it, in no fixed order and usually without comment. A grade is reached and the piece goes into a pile, and the pile is what the day is paid on. A difficult batch, an unfamiliar smell, an uneven texture, slows the whole shed and has to be argued out between people who each trust a different sense.",
-    "who_is_involved": "The peelers and graders, whose hands and noses are the whole of the skill and who are often paid by weight or by piece; whoever owns the shed and sets the grades; the buyer, who will re-grade everything and whose grade is the one that pays.",
-    "what_is_at_stake": "A day's pay tied directly to a grade that can be disputed, and the shed's standing with a buyer who can reject a batch. For an older worker, a sense that is no longer what it was, which the trade notices before they admit it.",
-    "how_it_unfolds": "A day begins when raw material arrives and ends when it is graded and bundled, or when it is not finished and holds over. The pressures are the quality of what came in, the weather, the buyer's grade and the piece rate. It ends with a batch accepted, argued over or refused, and the buyer decides that, not the shed and not the film."
+  "logline": "In a palm-sugar shed working through the night, one pan of sap is met by four separate channels that do not report the same thing: a smell that changes before the colour does, a pitch in the boil, a thread pulled between finger and thumb, and last of all a colour, and the grade is settled before anybody says a word.",
+  "human_question": "When one thing is judged through several senses at once, what does each of them actually bring?",
+  "place": {
+    "what_kind_of_place": "A low shed at the edge of a belt of fan palms, where the sap tapped from the palms is boiled down into sugar. A hearth of mud or brick with a wide shallow pan set into it, fired with palm wood and dried leaf stalk; a long-handled scraper; a shelf of coconut-shell or wooden moulds; a bench where the sap is strained on arrival. Outside in the yard, other things from the same palm are drying on racks and mats. The work runs from the afternoon collection through most of the night, because the sap will not keep, and a batch cannot be stopped once it is past a certain point.",
+    "why_it_is_worth_watching": "The palms give the film its wide shot and the shed gives it its close one, and they could not be less alike. From the air the belt is hundreds of identical fan crowns in rough rows, hard black shapes against pale sand and paddy and the sea, with one thread of smoke coming up out of it. Inside, the shed is a single orange source in the dark: steam coming off a pan the width of a person, firelight underneath, the surface of the boil changing its behaviour minute by minute, and everything happening through sound and smell long before there is anything to look at. The film is the journey between those two frames.",
+    "what_moves_or_changes": "The sap, which is different in the evening from the morning and will not wait. The boil, which goes through a fixed order of behaviours that cannot be skipped or reversed: loose and watery, then a fast rolling boil, then a heavier, slower, quieter one, then the point past which it is sugar and is nothing else. The fire, which is fed by hand. The smell in the shed, which changes before anything visible does and is the first thing to say the batch has turned. And the night, which is the only time this happens.",
+    "when_it_looks_best": "The tapping season, when the sheds are working every night. From late afternoon, when the sap comes in and the fire is lit, through to the pouring, which is when the shed is at its brightest and the smell at its strongest; and the following dawn in the yard, with the moulds turned out and the palms going grey to black against the light."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about fire, steam and a very old way of making something sweet. An aerial of a belt of fan palms with one thread of smoke in it, sap carried in and strained, a shed that is one orange source in a dark landscape, a pan going through its stages, a thread of syrup pulled between two fingers, the pour into the moulds, and the yard at dawn. Anyone who has ever cooked anything down understands the whole thing with the sound off.",
+    "with_the_philosophy": "The same shed becomes the group's plainest demonstration that experience arrives through separate channels. The sources count six doors, each admitting only its own kind of thing, and they insist that the door is not the organ you can point at but a fine sensitivity inside it, so that having eyes open is not yet seeing. In this shed that separation is not an idea, it is the method: the smell knows first, the sound knows next, the fingers settle it, and the colour, which is what most films would have led with, arrives last and confirms what the others already said."
+  },
+  "sequence": [
+    {
+      "on_screen": "Late afternoon from high above: a belt of fan palms in rough rows running to the sea, paddy and sand between them, one thread of smoke rising from somewhere inside it.",
+      "voice": "One shed, working tonight, in among several hundred trees that will each give a pot of sap and nothing else.",
+      "concept_id": "C035"
+    },
+    {
+      "on_screen": "Sap arriving in pots, poured through cloth into the pan. The fire lit underneath, leaf stalk catching, the first heat going into a flat grey liquid.",
+      "voice": "The old books call the places where anything can get in doors, and they count six [C035-P:L27]. Five of them are channels through the body and the sixth is not an organ at all. Everything that will happen in this shed tonight has to come in through one of them, and nothing comes in through two.",
+      "concept_id": "C035"
+    },
+    {
+      "on_screen": "Steam thickening. Nobody looks at the pan; somebody at the far end of the shed lifts their head. The surface at this point is still flat, pale and uninformative.",
+      "voice": "The books are exact about which channel carries what. Colour comes in one way and nothing else comes in that way; smell comes in another and arrives, like taste, as a mixture that is known by having been met before [C036-P:L25–L31; C036-P:L33–L121]. In this shed the smell changes several minutes before there is anything whatever to see.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "Close on the boil. It changes from a loose fast rattle to a heavier, slower, deeper sound. The picture barely changes at all. A hand feeds the fire without looking up.",
+      "voice": "The books separate the part of the body you can point at from a fine sensitivity inside it, and say the meeting happens at the sensitivity, not at the organ [C035-P:L43–L51]. Having eyes open is not yet seeing. Something has to strike hard enough to interrupt a mind that is resting, and then the episode is short and bounded and over [C035-P:L115–L119].",
+      "concept_id": "C035"
+    },
+    {
+      "on_screen": "A drop of syrup lifted on a stick, cooled a second, pulled between finger and thumb. It draws out into a thread and holds. Another drop goes into a bowl of water and is picked out as a bead.",
+      "voice": "The same matter that the books call a door, they call a base when they look at it from the other side: the place a knowing stands on [C037-P:L49–L53; C037-M:L15]. For beings with a body, they say, no mental event floats free of one. This batch is being decided by three fingers and a bowl of water.",
+      "concept_id": "C037"
+    },
+    {
+      "on_screen": "The pan lifted off. The pour: syrup going into rows of small moulds, the colour finally readable, the shed at its brightest and most crowded.",
+      "voice": "And here at last is the colour, which is what any film would have shown you first. It arrives at the end, and it confirms what the nose said twenty minutes ago and what the sound said ten minutes ago. It is not the senior channel. It is only the one that photographs.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "A quiet minute: the emptied pan, the fire dying, someone sitting down. No talk. A dog. Moths at the lamp.",
+      "voice": "The tradition puts the seat of most mental life not in the head but in the chest, in something it says medicine cannot find, cannot see or touch, and that is simply not there in the dead [C037-M:L11]. That is its claim and not a finding, and it is the point where it and modern anatomy part company. Better said plainly than smoothed over.",
+      "concept_id": "C037"
+    },
+    {
+      "on_screen": "Dawn from above: the belt of palms going from black to grey to green, the moulds turned out on a rack in the yard, the smoke gone.",
+      "voice": "The sixth door is not a piece of the body. The sources agree that it is a moment of mind, and they disagree about which moment [C035-P:L101; C035-M:L19]. Whatever it is, most of what shapes a night comes in through it, with no fresh sight or sound behind it at all. Four channels, one pan, and nobody standing behind them adding it up.",
+      "concept_id": "C035"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C035 contributes the six doors, each admitting only its own kind of object, and the sources' sharper point that the door is not the organ you can point at but a fine sensitivity inside it, so having eyes open is not yet seeing. C037 contributes what happens to that same matter when it is looked at from the other side: called a door where objects come in, it is called a base where the knowing arises, and for beings with a body no mental event floats free of it. C036 contributes what each door actually delivers, and in particular that smell and taste arrive as blends and are known as this or that only because they have been met before. A shed where a grade is assembled out of nose, fingers, ear and eye without a word spoken holds all three at once.",
-    "what_it_reveals": "Separately these are three lines in a table. Together, in a trade, they show that what feels like one act of knowing a good piece is several separate channels arriving and being added up, each resting on a different bit of a living body, and that the adding-up is not a sense at all. It also makes visible the thing the table cannot: that the channels are not equal for everyone, and that a worker knows which of their own senses to trust."
+    "why_together": "C035 supplies the frame: a door is where an object enters and the mind goes out to it, there are six, the first five are a fine sensitivity rather than the visible organ, and an arrival has to strike hard enough to interrupt a resting mind, after which the episode is short and bounded [C035-P:L27; C035-P:L43–L51; C035-P:L115–L119]. C037 supplies the same matter seen from the other side, called a base because the knowing arises on it, with the sources careful that what the form-realm beings lack is the sensitivities and not the organs [C037-P:L49–L53; C037-M:L15], and with the heart-base named as something the tradition itself admits medicine cannot detect [C037-M:L11]. C036 supplies what each channel actually delivers: colour through the one that carries colour, smell and taste as mixtures known by having met them before [C036-P:L25–L31; C036-P:L33–L121]. A sugar shed is the rare working place where all three are the method rather than the subject, because the grade genuinely is set by four channels reporting different things at different times about one pan.",
+    "what_it_reveals": "That experience is not one undifferentiated stream but several separate deliveries that do not arrive together and do not agree on timing, and that the one a film would naturally privilege, sight, is here demonstrably the last and least useful. C035 alone would be a classification. C037 alone would be a doctrinal claim about where the mind sits. C036 alone would be an account of objects. Together over a pan they let the viewer feel the separation from inside, because the film withholds the colour for as long as the work does."
   },
   "concept_links": [
     {
       "concept_id": "C035",
       "role": "primary",
-      "why": "The digest defines a door as where objects enter and the mind goes out to them, gives six, and separates the visible organ from the fine sensitive matter inside it, so that experience only gets in where something strikes that sensitivity strongly enough to interrupt the resting mind. Each door admits only its own kind of object: sight only colour, smell only scent, touch only the hard and the hot or cool. That is the shed's working method described from the inside. The digest's limits are carried: the sensitivity is not the retina, the eardrum or nerve endings, and Margaya's 'size of a louse's head' is reported tradition, not anatomy [C035-M:L9]; the mind-door is not the brain; and the phrase 'doors of perception', with its literary and psychedelic associations, is not to be used."
+      "why": "The digest's core is that a door is where objects enter a being and where the mind goes out to its objects, that there are six, that the first five are a fine sensitive matter which is not the visible organ, and that the sixth is itself a moment of mind rather than a piece of matter [C035-P:L27; C035-P:L43–L51]. It adds the point this film is shaped by: seeing is a short bounded episode that begins when an arrival disturbs a resting mind and ends when the arrival has run its course, so attention comes in separate bursts rather than as a steady beam [C035-P:L115–L119]. Every limit in the digest is honoured. The sensitivity is never presented as the retina, the eardrum or nerve endings, and the traditional image of a spot the size of a louse's head is reported by the source itself as tradition [C035-M:L9] and is not used as anatomy. The mind-door is never called the brain. The digest says the two sources give different identifications of the mind-door and that a script must not choose between them without advice, so the closing beat states the disagreement instead of resolving it [C035-P:L101; C035-M:L19]. The phrase doors of perception, with its literary and psychedelic freight, is avoided entirely. Nothing here is turned into a guard-your-senses or digital-detox message. And the door-free minds' carried-over object is a claim about past lives and is not recast as temperament or inheritance."
     },
     {
       "concept_id": "C037",
       "role": "supporting",
-      "why": "The digest says a base is the physical support on which a mind arises, that the five sense bases are the same matter already called doors, now named for the knowing that arises on them, and that for beings with both mind and body no mental event happens without some piece of living matter under it [C037-P:L27]. The sixth base is placed in the heart region, and the digest is candid that Margaya says it cannot be seen, touched or found by medicine and that this is a point where the tradition and modern physiology part ways, which should be said plainly rather than smoothed over. Two prohibitions from the digest are written into this film: the source's phrase 'beings with complete faculties' must never become a judgement about disabled people, and its claim that the first stage of awakening depends on hearing another person must never be presented as saying that deaf people are spiritually disadvantaged."
+      "why": "The digest gives the same five sensitivities now called bases because the corresponding consciousness arises on them, and a sixth support in the heart region on which nearly everything else stands, so that for beings with a body no mental event floats free [C037-P:L49–L53; C037-M:L15]. It also makes a point that decides how this film handles the tradition's weakest join: the source itself says the heart-base cannot be seen, touched or found by medicine and is absent in the dead [C037-M:L11], and the digest says plainly that this is where the tradition and modern anatomy part ways and that it should be said rather than smoothed over. So one beat says it, in the source's own terms, as a claim and not a finding. The digest's other limits are kept without exception. The heart-base is never presented as cardiology or as the follow-your-heart of ordinary speech. The form-realm beings' missing senses are a statement about rebirth, not a recommendation about food or touch. The phrase about beings with complete faculties is never turned into a judgement about disabled people, and the source's line about hearing and the first stage of awakening is never used to suggest anything at all about deaf people."
     },
     {
       "concept_id": "C036",
       "role": "supporting",
-      "why": "The digest states that the five sense doors take only present objects of their own kind, and that what arrives at the nose or tongue is a mixture known as jasmine or tamarind because it has been met before [C036-P:L95 area; C036-M:L9-L17], which is exactly how a grader works: not by consciously comparing memories but by meeting the thing. The digest's limit applies here more than anywhere in the group: 'live in the present moment' is not what the source says. It states as a fact that the senses can only meet the present, and gives no advice at all."
+      "why": "The digest gives six kinds of object matched to the six doors, with the five sense doors taking only present objects of their own kind [C036-P:L25–L31; C036-P:L125–L161], and a detailed account of each sense object in which smell and taste arrive as mixtures and are recognised because they have been met before [C036-P:L33–L121]. That is precisely the working knowledge a sugar shed runs on, and it is why the film can let the smell lead and hold the colour back. The digest's limits govern the voice. The source's account of sound and smell spreading through chains of material clusters is a traditional explanation and is never presented as acoustics or chemistry, which is the temptation a boiling pan creates. Perception is not called an illusion: for the source the smell and the colour are real events and only the assembled named thing is a convention. The senses' restriction to the present is stated as the source's fact rather than as advice to live in the moment. And the ranking of which minds take which objects is about kinds of mind, never a ranking of people."
     }
   ],
-  "what_the_viewer_could_understand": "Each sense brings in only its own kind of thing: the eye brings colour, the nose brings smell, the fingers bring hardness and warmth. A worker's quick sense that a piece is good is assembled from several separate channels, each resting on a part of the living body, and the assembling is not itself one of the senses.",
-  "what_must_be_real": "The workers' actual skill, pay and conditions, and the buyer's actual grading. No sensory close-up may be staged that misrepresents the ordinary rhythm of the work, and no worker's judgement may be re-performed. The traditional descriptions of the sense sensitivities are never offered as anatomy.",
-  "position_hint": "opening candidate: it is the group's plainest statement that experience arrives through separate channels, which every later film in the group takes apart further, and it is the one situation where the separation is a working method rather than an idea. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That what feels like one continuous impression of a thing is several separate deliveries arriving through separate channels at different moments, each carrying only its own kind of information, and that sight is not the senior one. A pan of boiling sap makes this concrete, because the smell has already settled the question by the time there is anything to look at.",
+  "what_must_be_real": "The boiling is a real batch that would have been boiled tonight, and the film works to its clock rather than the other way round. Nothing is re-boiled, re-poured or re-tested for a better angle, a batch that goes wrong is filmed as it went wrong, and no stage is held back or hurried for the camera. No person on screen is presented as the one who smells, hears or decides, and no face is cut in at the moment a judgement is made; the camera stays on the pan. The heat, the smoke and the hours are not made picturesque: this is night work next to an open fire, and the film says so. The trade's own economics and the seller's account of them are not corrected by the voice, and if a crew in the shed would slow the work at the point where it cannot be slowed, the crew is outside.",
+  "position_hint": "opening candidate: it is the group's plainest statement that experience arrives through separate channels, which every later film in the group takes further apart, and it is the one situation where the separation is a working method rather than an argument. No location reasoning is involved.",
   "risks": [
-    "Exoticising manual labour or reducing a trade to a sensory showcase.",
-    "Softening real economic pressure into a mood piece about craft.",
-    "Presenting the traditional descriptions of sense sensitivity as anatomy or as anticipated science.",
-    "Letting an older worker's fading sense be framed as loss or as doctrine rather than as something the trade and the person handle practically.",
-    "Reaching for the phrase 'doors of perception', which the digest rules out."
+    "Presenting the traditional sense-sensitivity as anatomy. The digest is explicit that it is not the retina, the eardrum or nerve endings, and that the louse's-head image is reported tradition rather than measurement [C035-M:L9].",
+    "Calling the mind-door the brain, or resolving on screen the disagreement between the two sources about which moment of mind it is [C035-P:L101; C035-M:L19].",
+    "Using the phrase 'doors of perception', which the digest rules out for its unrelated literary and psychedelic associations.",
+    "Letting the concept become a guard-your-senses or digital-detox message. The sources are classifying, not advising.",
+    "Presenting the heart-base as cardiology, as 'follow your heart', or as a finding rather than the tradition's own claim, which its own source says medicine cannot check [C037-M:L11].",
+    "Letting the source's language about beings with complete faculties, or its line about hearing and awakening, touch anything to do with disabled people. The digest forbids it outright.",
+    "Explaining how smell or sound travels in the sources' terms as though it were chemistry or acoustics, which a shed full of steam actively invites.",
+    "Presenting a worker as the one who smells or hears, which is the very thing the group's concepts deny.",
+    "Filming close to an open hearth and a pan of boiling syrup in a way that endangers anyone, or that gets in the way at the one point in the night when nothing can wait."
   ],
   "drop_if": [
-    "No shed will allow real, unstaged work to be filmed.",
-    "The economics of the trade cannot be shown honestly alongside the craft.",
-    "Workers do not want their own judgement process discussed on camera."
+    "The sheds have gone over to thermometers, gauges or a factory process, so the grade is no longer set by smell, sound and touch.",
+    "There is no tapping season inside the development window, so no shed is working.",
+    "It can only be made by asking for a batch to be boiled for the camera, or by holding up a stage that cannot be held up."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0084",
       "relation": "pairs with",
-      "note": "Both study the senses at work, one where several combine in a skilled trade and one where a household adapts as one of them weakens."
+      "note": "Both study the senses at work, one where several combine in a trade and one where a household adapts as one of them weakens."
     },
     {
       "idea_id": "IDEA-0087",
       "relation": "leads into",
       "note": "Several doors working together narrow to a single door under pressure: colour arriving before anything is named."
+    },
+    {
+      "idea_id": "IDEA-0075",
+      "relation": "contrasts with",
+      "note": "One film gives sight everything it needs and holds on a single bottle; this one withholds the colour until the end and lets the other channels settle the question first."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0036, and the C035 digest proposes a bark-peeling shed judged by smell, touch and sound as the situation for exactly this concept."
+    "reason": "It is the group's cleanest multi-door film, because the separation of the channels is the trade's actual working method rather than an idea laid over it."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape and moved to the Eastern Province. A bark-peeling shed belongs to the wet zone, so the situation is carried instead by a palm-sugar boiling shed, which sets grade by smell, sound and touch in a fixed order and lets the film withhold colour until the last beat. Concepts re-read from the digests and every citation re-verified. The C037 link now carries the digest's instruction to state the heart-base claim plainly as a claim, which is on screen in its own beat rather than buried in the risks."
+  },
+  "suggested_location": {
+    "name": "A palm-sugar boiling shed in the fan-palm belt behind the coast at Thirukkovil and Akkaraipattu",
+    "also_known_as": [
+      {
+        "name": "panang panai",
+        "meaning": "the fan palm the whole belt is made of, and the source of the sap",
+        "used_by": "Tamil usage in the eastern palm belt"
+      },
+      {
+        "name": "hakuru",
+        "meaning": "the hard palm sugar the batches are poured into moulds to make",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Eastern Province, Ampara district: the coastal strip and the sandy country immediately behind it in the south of the district, where the fan palms grow in belts between the villages and the paddy",
+    "coordinates": {
+      "lat": 7.1,
+      "lng": 81.84
+    },
+    "why_here": "The fan palm is the working tree of this coast, and the villages along this stretch are named in the craft surveys as places where the palm is still processed rather than only grown, which is the difference between a landscape and a film. The belt gives the aerial: hundreds of identical hard-edged crowns in rough rows against pale sand and water, with a single thread of smoke in it. The shed gives the concept: a batch that cannot be stopped, judged in a fixed order by smell, then sound, then touch, with colour arriving last. And the district is one the slate has never used.",
+    "what_to_film": [
+      "The palm belt from high above at last light and again at dawn, wide enough to hold the rows, the paddy, the sand and the sea, with the one smoke thread in it.",
+      "Sap arriving and being strained, in whatever light the shed has before the fire is up.",
+      "The fire being fed, from underneath, with palm wood and dried leaf stalk.",
+      "The boil at close range through its whole sequence of behaviours, recorded with the sound as the primary track rather than as an afterthought.",
+      "The thread test between finger and thumb, and the drop into water, both in full and without cutting away.",
+      "The pour into the moulds, which is the brightest and most crowded moment of the night.",
+      "The quiet stretch after, with the pan off and the fire dying.",
+      "The yard at dawn: moulds turned out, racks, and the palms coming back out of the dark."
+    ],
+    "access": "By road along the coast at the south end of the district, then into the villages behind it. The sheds are private and domestic, so everything depends on a household agreeing and on working to their night. The work is done next to an open hearth in a confined space, which sets a hard limit on how many people and how much equipment can be inside at once. Drone flight over villages needs its own agreement.",
+    "best_time": "The tapping season, when sheds are working nightly. From the afternoon collection through the pour, which is the heart of the film, and the following dawn in the yard.",
+    "images": [
+      {
+        "caption": "The fan palm itself, the tree the whole belt is made of and the source of the sap. This is the species, not the site or the shed.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Asian palmyra (Borassus flabellifer).JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Asian palmyra (Borassus flabellifer).JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Farmed country in the same district, for the ground the palm belts run between. The surrounding landform, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy field in Sammanthurai, Ampara, Sri Lanka.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Paddy field in Sammanthurai, Ampara, Sri Lanka.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Odiyal",
+      "https://www.globalinch.org/craft/mat-weaving-other-rush-ware-fibre-ware-leaf-crafts/",
+      "https://exploresrilanka.lk/palmyrah-the-heavenly-palm/",
+      "https://www.parliament.lk/uploads/documents/paperspresented/annual_report_palmyrah_development_board_2011.pdf"
+    ],
+    "research_note": "That the fan palm is worked as an industry across the north and east, that tens of thousands of families depend on it, that its products include sugar and treacle from the tapped sap as well as dried tuber, flour and fibre, and that the named villages in this district are among the places where the craft is practised rather than only the palm grown, are from the sources above and are desk research only. The order in which a boiling batch is judged, and the thread test, are the ordinary practice of palm-sugar boiling rather than a documented fact about any shed here, and that is the first thing to check on the ground. No shed, household or village has been located or approached. The coordinates are an approximate point on the coastal strip named and are a direction, not an address. Of the two images, one is of the palm species and one of farmed country in the same district; neither shows a shed, which both captions say.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No shed, household or village has been found or approached. Everything here is a research direction.",
+    "Whether sap is still boiled down at household scale along this stretch, and on what season and nightly timetable, is unverified and the film depends on it.",
+    "Whether the grade is in fact set by smell, sound and touch rather than by a thermometer or a brix reading is the central untested assumption.",
+    "Whether a camera and a light can work inside a small shed next to an open hearth without getting in the way, or changing how the batch is handled, is unknown.",
+    "The tapping trade sits alongside a licensed toddy trade with its own sensitivities, and how that affects filming has not been checked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

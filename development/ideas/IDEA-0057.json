@@ -2,79 +2,179 @@
   "schema_version": 1,
   "id": "IDEA-0057",
   "record_type": "idea",
-  "title": "The Tether",
+  "title": "The Length of the Rope",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Tether"
+  ],
   "group_id": "GRP-04",
-  "logline": "A herder moves tethered buffalo from stake to stake across harvested fields; each animal grazes a perfect circle it cannot leave, and the ones that pull free trail their ropes and come back at dusk anyway.",
-  "human_question": "What keeps us going round the same circle, even when the rope is long?",
-  "situation": {
-    "what_happens": "After harvest the fields are opened to grazing, and animals are tethered to stakes so that they feed without straying into anything still standing. Each morning the herder drives the stakes in, and by afternoon the stubble around each one is eaten down to a circle. The stakes are pulled and moved as the grazing is used up, day after day, through a season. Sometimes an animal works itself loose and wanders with the rope still trailing, and at dusk it is brought back and tied again.",
-    "who_is_involved": "A herder whose living is the animals; the family who share the work and the milk; the owners of the land whose stubble is grazed; and the animals, whose whole day the rope decides.",
-    "what_is_at_stake": "The condition of the animals and so a household's income; the goodwill of the people whose fields are used; and the herder's own days, which the same circuit takes.",
-    "how_it_unfolds": "It begins before light and repeats with small variations until the grazing or the season runs out. The pressures are heat, water, the length of the rope and a market the herder does not set. It ends when the fields are ploughed again, when animals are sold, or when the young in the family decide not to continue. Reality decides which of those comes first."
+  "logline": "After the harvest a dry-zone village opens its fields to grazing, and within two days the pale stubble is marked with dark circles, one to each stake, every one of them exactly as wide as a rope is long.",
+  "human_question": "If you can move freely everywhere inside the circle you are in, how would you ever find out you were tied?",
+  "place": {
+    "what_kind_of_place": "A dry-zone farming village lying under a small earth tank, in country where the fields go from standing crop to flat pale stubble in the space of a week and the grazing season follows the harvest. Buffalo and cattle are tethered to stakes driven into the ground, so that they feed where they are put and not into anything still standing or into a neighbour's plot. The stakes are pulled and moved as the grazing round each one is used up. The day runs from the first driving out before the heat, through the middle hours when the animals are taken down to water, to the evening tying up in the yard.",
+    "why_it_is_worth_watching": "One image, and the whole film is in it. From straight above, a harvested field is a single pale surface, and by the afternoon of the second day it is marked with dark, perfectly circular patches, each with an animal at the centre and one straight line of rope running from the centre to the edge. Nobody laid it out. The circle is simply the length of the rope, drawn by an animal eating. It is the most legible shape any landscape in the series produces, and it means exactly what it looks like. At ground level there is the other half of it: the bare, hard-packed patch under the animal's feet at the centre, the knot at the foot of the stake, and, in the late afternoon, one or two animals that have worked themselves free and are grazing out along the bund with the rope still on the neck, trailing through the stubble behind them.",
+    "what_moves_or_changes": "The circles. They open over hours, close up, and are left behind when the stakes are moved, so the field carries a record of the last week in overlapping rings long after the animals have gone. The heat moves everything to water in the middle of the day and back out again. The loose ones range much further than the tied ones and come back at dusk anyway, on their own, and are tied again. None of it is on anyone's schedule but the animals' and the sun's.",
+    "when_it_looks_best": "The weeks straight after a harvest, when the stubble is dry and pale and the grazing is on. Early and late, when the sun is low enough to put an edge on each circle and to lay the shadow of the rope across the ground as a line. From the air in the late afternoon of a second or third day, when the circles are cut but the field has not yet been fully grazed over."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet farming film in very strong light. A field going from crop to stubble to a pattern of circles, animals moving at the pace animals move, dust, water at midday, egrets, and a long walk home in the last of the light. It has a shape without a word of commentary: the stakes go in, the circles open, the animals are watered, the loose ones come back, the stakes are pulled. Anyone who likes looking at flat country in hard light gets a complete day.",
+    "with_the_philosophy": "The same field turns out to be the sources' own picture, standing in a real place, and the voice never has to reach for it. The texts explain what binds a life with precisely this: an animal on a long rope tied to a post, able to move but never once outside its circle, and then animals let off the post with the ropes still on them, ranging much further and still not free. Everything the argument needs is already out in the stubble, at the scale of a whole field, made by animals doing nothing but eating."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light on the ground. Stakes carried out across stubble, a mallet, a stake driven in, a rope run out and knotted round it.",
+      "voice": "The crop came off this field last week. Now it is opened for grazing, and the grazing is arranged with a stake and a rope.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "Mid-morning, drone low over the field: animals at their stakes, well spread out, the stubble still an even colour everywhere.",
+      "voice": "The rope is long. From up here it does not look like a constraint at all. The animal can walk, lie down, turn round, reach the shade at the edge of its own patch. Nothing about this morning looks like being held.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "Late afternoon, drone high and pointing straight down: the same field, now marked with dark circles, an animal at the centre of each and a rope laid out from centre to rim.",
+      "voice": "By afternoon the field has drawn the answer for us. Nobody set this out. Each circle is exactly as wide as a rope is long, and it was made by eating. This is the picture the old books use for whatever holds a life where it is: a cow on a long rope tied to a post, free to move, and never for one moment outside its circle [C074-P:L544; C074-P:L621–L623].",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "Ground level at the centre of one circle: bare hard-packed earth, the stake, the knot at its foot, the rope lying in a slack curve out towards the green edge.",
+      "voice": "There is a second word in these books, and it is for the post rather than the rope. A root, they say, is not what makes a thing start. It is what keeps it standing, the way a tree's roots keep the tree up, and what it holds in place is a mind, on whatever it has taken as its object [C033-P:L27; C033-M:L5–L7]. Not the beginning of anything. The holding.",
+      "concept_id": "C033"
+    },
+    {
+      "on_screen": "Late afternoon along the tank bund: one or two animals grazing loose, well away from the field, with ropes still round their necks trailing through the grass behind them.",
+      "voice": "And then the half of the image people forget. The same books go straight on: animals let off the post with the ropes still on them, ranging much wider, and still tied [C074-P:L621–L623; C074-M:L90]. The ties they are describing there are the fine ones. Pride. Unsettledness. And a fondness for the peaceful states themselves, which they count as a tie like any other.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "Dusk at the water. Animals standing in the tank, the loose ones walking back along the bund on their own, and then the tying up in the yard, done quickly, in near dark.",
+      "voice": "None of this is undone by deciding. The sources are unusually technical about it: some of these ties are cut at the first stage and some only at the last, and practice and deep concentration hold them down without taking them out. It is not a resolution anybody makes. It is staged work, and the stages have names.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The next morning from the air, low sun, the field empty of animals: rings everywhere, some fresh and dark, some from earlier stakes already greening at the edges, overlapping across the whole surface.",
+      "voice": "The circles stay in the field after the animals have been taken in, and you can read the week off the ground. Where the stake was. How long the rope was. How long they stood there. None of it is an accusation of anybody. It is only what a tie looks like once something has been eating inside it for a while.",
+      "concept_id": "C074"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C074 supplies the image the sources use themselves: the fetters are explained as a cow on a long rope tied to a post, able to move but never leaving its circle, and as cows loosed from the post with their ropes still attached, roaming further and still not free [C074-P:L544; C074-P:L621–L623; C074-M:L90]. C033 supplies what the rope is tied to: a root is what keeps a thing standing on its object [C033-M:L7]. One is the tie, the other is the holding.",
-    "what_it_reveals": "That freedom of movement and freedom are different things, and that the subtle tie outlasts the obvious one. C074 alone gives the picture, C033 alone gives the principle. Together they show why a long rope can feel like liberty, and why the sources describe cutting one as staged work rather than a decision."
+    "why_together": "C074 supplies the image, and it supplies both halves of it, which is the part that makes the film rather than the shot. The fetters are explained as a cow on a long rope tied to a post, able to move and never leaving its circle, and then as cows let loose from the post with their ropes still attached, roaming further and still bound [C074-P:L544; C074-P:L621–L623; C074-M:L90]. The compendium's whole method is this: nine overlapping lists that are really the same dozen or so factors named again under a different image, so that what changes between them is the feel of being stuck, not the contents. C033 supplies what the post is. Both of its sources go out of their way to deny that a root causes a mind to arise; a root is what keeps the mind and its companions standing on their object, as a tree's roots keep the tree up [C033-P:L27; C033-P:L81; C033-M:L5–L7]. Put on a harvested field, the rope and the post stop being similes and become the two things actually in the ground, and the difference between them is visible: one sets the size of the circle, the other is why there is a circle at all.",
+    "what_it_reveals": "That freedom of movement and freedom are not the same thing, and that the subtle tie outlasts the obvious one. C074 on its own gives a picture and no principle; C033 on its own gives a principle and no picture. Together they show why a long rope feels like liberty, why the animals that pull free are the harder case rather than the resolved one, and why the sources describe getting loose as staged technical work with named stages rather than as a decision anyone makes one afternoon."
   },
   "concept_links": [
     {
       "concept_id": "C074",
       "role": "primary",
-      "why": "The digest reports the sources' own simile for the fetters: a cow on a long rope round a post, and cows let loose from the post still dragging their ropes, roaming further but bound [C074-P:L544; C074-P:L621–L623; C074-M:L90]. It also records that these ties are undone in stages and that practice only suppresses them. The film uses the animals' real tethering; the doctrine is never spoken over it."
+      "why": "The compendium's own simile for the fetters is this film: a cow on a long rope round a post, moving freely and never leaving its circle, and cows let off the post still dragging their ropes, ranging much further and still bound, which is how it distinguishes the lower ties from the higher [C074-P:L544; C074-P:L621–L623; C074-M:L90]. It also supplies the reason the loose animals belong in the film rather than being a stray detail: the higher ties it names there are pride, unsettledness and attachment to refined and peaceful states. The digest's warnings are load-bearing and are honoured in the sequence and the risks. Abandonment is described as staged and technical, with some ties cut at the first stage and some only at the last, and practice and absorption only suppressing them, so the film must never resolve into let go of your attachments. Meditative calm is itself named a taint, a flood and a fetter, so the film cannot end on serenity. The stakes in the source are rebirth and the round of existence, not stress or wellbeing. And the warnings about rites and rituals concern views held as the path to liberation, and are never used on screen to judge or mock anybody's real religious or folk practice."
     },
     {
       "concept_id": "C033",
       "role": "supporting",
-      "why": "The digest's sense of a root as what holds a thing in place rather than what started it [C033-M:L7] is exactly what a stake does. It is supporting only: the film is about being tied, and the roots explain what tying means."
+      "why": "Both of this concept's sources say plainly that a root is not what causes a mind to arise but what holds the mind and its companions firmly on their object, as a tree's roots keep the tree standing [C033-P:L27; C033-P:L81; C033-M:L5–L7]. A stake driven into a field does exactly and only that, and the film can show the difference between the stake and the rope without a word of argument. It is supporting and stays supporting: the film is about being tied, and the root is what tying means. The digest's limits are kept. This is not modern root-cause analysis, and the voice never says that greed or anger is the root cause of anything in the everyday sense. And the roots classify moments of mind, never people, so nobody in the frame is a type of anything."
     }
   ],
-  "what_the_viewer_could_understand": "A long rope can feel like freedom. The texts picture what binds us as a rope tied to a post: the animal can move, but only round its circle, and one let loose while still trailing its rope is not yet free.",
-  "what_must_be_real": "The herder's work, animals and livelihood. No rope is arranged, no animal is released or restrained for the camera, and the circle is never staged or held on as a sermon.",
-  "position_hint": "middle: the group's plainest picture of being stuck, placed after the films about not seeing clearly and before the films about people differing from one another.",
+  "what_the_viewer_could_understand": "A long rope can feel exactly like freedom. The old texts picture what binds a life as a rope tied to a post: the animal can move, but only round its own circle, and one that gets loose while still trailing its rope has not arrived anywhere yet. And the post is not why the animal is here. It is only what keeps it where it is.",
+  "what_must_be_real": "The herding, the animals and the household's living. Tethering is filmed as the ordinary practice it already is, on animals already tethered for reasons that have nothing to do with a camera. No rope is lengthened, shortened, arranged or re-tied for a shot, no animal is released, driven, restrained or made to pull, and no circle is mown, watered, cut or dressed to read better from the air. The drone stays high enough and far enough away not to move stock. If any of it distresses an animal, it stops. Nobody in the film is shown as an example of a defilement, and the voice makes no claim about what is in anyone's mind.",
+  "position_hint": "Middle: it is the group's plainest picture of being held, so it works best after the films about failing to see clearly and before anything subtler. Nothing in the placement depends on the location.",
   "risks": [
-    "Heavy-handed symbolism if the image is cut too neatly.",
-    "Reducing the herder to a metaphor.",
-    "Sliding into 'just let go of your attachments'; the digest says the sources describe these ties as loosened in stages and uprooted only by path-knowledge, not chosen away.",
-    "Animal welfare: tethering must be shown as the herder's ordinary practice, not as cruelty and not as an argument.",
-    "Communities that have lived through conflict or displacement may read images of tethering very differently; the film must not lay its image over their history."
+    "Cutting the image too neatly, so the circle reads as a sermon rather than as something a field did on its own.",
+    "Reducing the herder and the household to a metaphor, or letting the film become about a rope instead of about a working day.",
+    "Sliding into just let go of your attachments. The digest is explicit that the sources describe these ties as loosened in stages and uprooted only by path-knowledge, and that practice and absorption merely suppress them.",
+    "Ending on calm. The sources count attachment to refined and peaceful states as a taint, a flood and a fetter, so serenity is not the resolution of this film.",
+    "Animal welfare: tethering must be shown as ordinary practice and not as cruelty, and equally the film must not argue that it is fine. It is not the film's subject.",
+    "Communities that have lived through conflict, displacement or the loss of grazing land may read images of tethering very differently, and the film must not lay its image over their history.",
+    "Using the sources' warnings about rites and rituals to judge or mock any real practice that appears in the frame.",
+    "Labelling anyone in the film as a greedy or angry type. The roots classify moments of mind, not people, and temperament is a separate teaching.",
+    "Restating the sources' stakes as stress, wellbeing or productivity."
   ],
   "drop_if": [
-    "Tethered grazing of this kind is not actually practised by a herder willing to be followed."
+    "Tethered grazing on harvested fields is not actually practised here in the season, so the circles would have to be made rather than found.",
+    "No household willing to be followed through an ordinary grazing day can be found.",
+    "It can only be filmed by arranging where an animal is tied, or by getting one loose."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0058",
       "relation": "mirrors",
-      "note": "Two ways of being held: a tether and a root."
+      "note": "Two ways of being held in place: a rope round a post, and a root under a bank."
     },
     {
-      "idea_id": "IDEA-0054",
+      "idea_id": "IDEA-0056",
       "relation": "pairs with",
-      "note": "A decision that will not land, and a circle that cannot be left."
+      "note": "A morning that will not resolve, and a field in which everything has already been settled by the length of a rope."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's fifth episode and holds the sources' own image for the fetters."
+    "reason": "It is the sources' own simile standing in a real field, and the single most legible image the group can produce."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The situation block is replaced by place, two_layers and a seven-beat sequence built on one harvested field; both digests were re-read fresh. The cow-and-post citations were re-verified against the digest's own evidence and hold [C074-P:L544; C074-P:L621–L623; C074-M:L90]; the earlier group pass's use of [C074-P:L404] for the compendium's practical remedies is wrong and that line is not used here, since it is the separation of hindrance-doubt from ordinary doubt. Two limits from the digests are now carried on screen and in the risks rather than only in the links: that the ties are undone in named stages and not by resolve, and that attachment to refined calm is itself counted a fetter, so the film cannot end on serenity. A proposed location has been added.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The harvested paddy and tank-bund grazing of the village tanks around Siyambalanduwa",
+    "region": "Monaragala District, Uva Province; dry-zone tank-and-paddy country inland from the eastern coastal plain",
+    "coordinates": {
+      "lat": 6.9167,
+      "lng": 81.55
+    },
+    "why_here": "The image needs three things at once and this country has all three. It needs wide, flat, single-colour stubble, which only a dry-zone harvest gives, because a circle only reads from the air against an even surface. It needs tethered grazing to be the normal arrangement rather than an exception, and the dry zone's usual system is exactly that: animals tethered out to graze by day on paddy land in the off-season and on tank beds and scrub, and brought in at night. And it needs water within walking distance for the middle of the day, which the village tank supplies, so the whole day closes on itself within one landscape and the film never has to travel. It is small working country, with no famous feature to distract the frame, and the tank bund gives the natural place to put the loose animals in a shot with the tied ones behind them.",
+    "what_to_film": [
+      "The field from straight above on consecutive afternoons, so the circles appear in the same frame over days rather than being explained.",
+      "A stake going in and a rope being knotted, filmed as the ordinary two-minute job it is.",
+      "The centre of one circle at ground level: bare packed earth, the knot, the rope's curve, and the green edge beyond the animal's reach.",
+      "Low sun across the stubble, when each circle has an edge and the rope lays a line on the ground.",
+      "The midday move to water and the animals standing in the tank.",
+      "Animals that have worked loose, grazing out along the bund with the rope trailing, and their own return at dusk.",
+      "The field after the animals have been taken in, with older grazed rings already greening among the fresh ones."
+    ],
+    "access": "By road from the main inland route. The fields, the animals and the yards are private, so everything depends on a household agreeing and on working to the animals' day rather than a crew's. Drone flight over stock needs the owner's agreement as well as height discipline, since a low drone will move a tethered animal.",
+    "best_time": "The weeks straight after a harvest, when the stubble is dry and pale and the fields are open for grazing. Clear days, early and late light.",
+    "images": [
+      {
+        "caption": "Water buffalo in Sri Lankan grazing country. This is the animal, photographed at a national park in another district, not the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uda Walawe Buffalo - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Uda Walawe Buffalo - panoramio.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A water buffalo at close range, for the animal itself. Photographed at a national park elsewhere in the country, not at the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Asian water buffalo (Bubalus bubalis) Yala.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Asian water buffalo (Bubalus bubalis) Yala.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A Sri Lankan paddy landscape of the kind that is opened to grazing once the crop is off. This is the field type, photographed elsewhere in the country, not the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy field by Sasangan.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Paddy field by Sasangan.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://journals.sta.uwi.edu/ojs/index.php/ta/article/view/2675",
+      "https://en.wikipedia.org/wiki/Livestock_in_Sri_Lanka",
+      "https://en.wikipedia.org/wiki/Siyambalanduwa_Divisional_Secretariat"
+    ],
+    "research_note": "That tethered grazing by day with stall feeding at night is the predominant management system for buffalo in the dry zone, and that paddy fields in the off-season, tank beds in the dry season and scrubland are the usual grazing grounds, are from the sources above and are desk research only. That Siyambalanduwa is a dry-zone divisional area of Monaragala District is from the third. The coordinates are the town's, not a chosen field. Everything specific to the film is unverified: which village, whether the circles actually form as described on a given stubble, how long a stake stays in one place, whether loose animals are a regular occurrence or a rare one, and whether any household would agree to be followed for a season. No herder, field or animal has been found or approached.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, field or animal has been found or approached. Everything here is a research direction.",
+    "Whether the grazed circles form cleanly enough, and hold long enough, to be filmed from the air over several days is the question the whole film rests on and is entirely unverified.",
+    "Whether a drone can be flown over tethered stock at a useful height without moving the animals needs testing before anything is planned.",
+    "Whether tethering is still the usual arrangement in this particular country, or has been displaced by fencing and herded grazing, is unchecked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

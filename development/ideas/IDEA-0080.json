@@ -2,85 +2,197 @@
   "schema_version": 1,
   "id": "IDEA-0080",
   "record_type": "idea",
-  "title": "The Bid",
+  "title": "Past the Last Place You Can Stop",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Bid"
+  ],
   "group_id": "GRP-05",
-  "logline": "On an auction floor hands rise and fall in seconds, and a trader has to make up their mind before doubt catches up with them.",
-  "human_question": "What does it take, in a moment of real money and real doubt, to actually make up your mind?",
-  "situation": {
-    "what_happens": "Lots come up fast and are sold in seconds each. A trader sees a lot, judges it, and either bids or does not, and there is no time to think it through; a hand that goes up late has already lost. Money changes hands on judgements made under open scrutiny, and the winners and losers of each lot are visible to everybody standing there. Afterwards traders talk about what they got and what they let go, which is the only place the hesitation gets described in words.",
-    "who_is_involved": "The traders, most of them regulars who know each other's habits; the auctioneer, whose pace sets everything; the producers whose goods are being sold and who may or may not be present; the carriers and small buyers whose day depends on the floor clearing quickly.",
-    "what_is_at_stake": "A margin on perishable goods that must be resold the same day, and in a bad hour, a real loss. For a producer, the whole worth of the work. For a trader who hesitates once too often, a standing that takes a long time to rebuild.",
-    "how_it_unfolds": "Trading like this starts when the goods arrive and is over fast because they spoil. The pressures are volume, quality, how many buyers turned up and how much cash each has. It ends with everything sold, with a lot unsold, or with a dispute, and nothing about which of those happens can be arranged."
+  "logline": "On a rainforest river a line of boats works a run of rapids all day, and on the smooth water above each drop there is a place, visible from the air, past which nothing can be reconsidered.",
+  "human_question": "Where exactly does making up your mind happen, if hesitating and deciding cannot be in the same moment?",
+  "place": {
+    "what_kind_of_place": "A wide, shallow, fast river coming out of the wet-zone foothills, running over bedrock between forested banks, with a village strung along one side of it and more than a thousand hectares of lowland rainforest on the other, reached only by dugout canoe or a suspension footbridge. A handful of small local outfits work the river: a put-in beside the road bridge, five or six kilometres of water with a run of named rapids in it, an hour and a half or two hours down, a calm pool at the bottom and a road shuttle back. The same water is a crossing, a bathing place, a fishery and a road for the people who live on it.",
+    "why_it_is_worth_watching": "Because the river draws the film's idea on its own surface. Above every drop there is a stretch of glassy water, then a seam where the smooth water gathers into a tongue, and from two hundred metres up that seam is a line you can see and follow with a camera. Above it, a boat can still be turned, held, ferried across, pulled into slack water. Below it, nothing anyone in the boat wants matters to the outcome in the same way. The single most beautiful shot the place produces, green water narrowing into white with a boat crossing a visible line, is also the exact statement the film is making.",
+    "what_moves_or_changes": "The river, which is the whole variable. A night of rain in the hills can put the run up a grade by morning or close it altogether; a dry week exposes rock and changes where every line goes. The light comes late into a gorge and leaves early. And the day itself has a shape: the same water run again and again by the same crews, so the film can watch one place on the river many times over rather than one boat once.",
+    "when_it_looks_best": "A settled spell in a wet season, with enough water for the rapids to be running properly and not so much that the river is unsafe or brown. Mid-morning, when light has reached the water but the mist has not entirely left the forest on the far bank."
   },
+  "two_layers": {
+    "without_the_philosophy": "A river film: bedrock, green water, rain forest standing over it, dugout canoes crossing on the flat, the run of drops from above and from inside, water in the face, the long quiet pool at the bottom, and the shuttle back up the road with the boats on a trailer. It is exciting and it is beautiful and it explains nothing, which is fine, because the river does the work.",
+    "with_the_philosophy": "The same footage becomes the clearest place in these sources to see a line they draw very precisely: that deciding and doubting cannot occupy the same moment, so where one of them is, the other is not. The texts also say that the bare moments of sensing carry none of the six occasional factors at all, no effort, no decision, no wish to do anything, and that the wanting only arrives once the machinery has finished. On this river that is not an abstraction. It is a seam in the surface with different rules on either side of it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Very high, straight down. A wide green river over pale bedrock, forest on one bank, roofs on the other. Smooth water for a long stretch, then a seam where it gathers and goes white. Nothing is moving on it yet.",
+      "voice": "There is a line across this river that nobody drew. It is the last place on it where anything can be reconsidered.",
+      "concept_id": "C025"
+    },
+    {
+      "on_screen": "Water level, from the bank: the tongue of the rapid at close range, the sound of it, the standing wave below. Then the flat, glassy water above the seam, filmed as long as the sound of the drop allows.",
+      "voice": "The old books count a small group of qualities that come and go in a mind: getting on to the thing, staying with it, making up your mind, effort, gladness, and wanting to do something. They are not virtues. They turn up in a rescue and in a grudge [C025-P:L51-L85].",
+      "concept_id": "C025"
+    },
+    {
+      "on_screen": "A boat crossing the seam, filmed from directly overhead and held: the approach on smooth water, the crossing, the drop, the white water, the recovery below. No cutting inside the shot.",
+      "voice": "And the books give the reason for one of their own exclusions in a single line: deciding cannot be in the same moment as doubting, so wherever one of them is, the other is not [C025-P:L69]. Above that seam both are possible, one after the other. Below it there is nothing left to doubt with.",
+      "concept_id": "C025"
+    },
+    {
+      "on_screen": "The same seam, over an hour: boat after boat coming down to it, some holding in the slack water at the side first, some ferrying across, some going straight. The line itself unchanged.",
+      "voice": "None of this says that nerve is a good quality or that hesitation is a fault. The sources are flat about it: the same drive appears in minds no one would admire [C025-M:L19-L25].",
+      "concept_id": "C025"
+    },
+    {
+      "on_screen": "Inside the rapid: water over the bow, spray on the lens, hands, the hull hitting, the horizon gone. Then the flat pool downstream, everyone soaked, the river quiet again.",
+      "voice": "The books separate the layers underneath all this very finely. The first bare instant of seeing or hearing carries almost nothing: no effort, no decision, and no wish to act at all [C029-P:L29; C029-P:L31-L55]. Only touch is different, because touch lands hard and arrives already painful or pleasant [C009-P:L29-L60; C009-P:L174-L176].",
+      "concept_id": "C029"
+    },
+    {
+      "on_screen": "The read: the water surface itself in close detail from above, the shapes in it, a rock under the surface, the eddy at the side, a raised hand, a boat turning. Filmed as river, not as person.",
+      "voice": "What the books call the sensing is the same for everyone in the boat. The same sight, they say, is followed by quite different things in different beings, and the difference belongs to what comes after, not to the seeing [C009-P:L85-L98].",
+      "concept_id": "C009"
+    },
+    {
+      "on_screen": "The take-out. Boats hauled up a bank, water tipped out, gear stacked, the shuttle loaded. Then the same seam upriver again from the air, empty, in late light.",
+      "voice": "Nothing on this river was ever decided in the place where it looked like it was being decided. By the time anyone is in the white water, the part the books are interested in is already several seconds old and upstream.",
+      "concept_id": "C025"
+    },
+    {
+      "on_screen": "Dusk. The rapid running with nothing on it, the forest closing, the village lights on the other bank.",
+      "voice": "It runs all night with nobody on it, exactly the same.",
+      "concept_id": "C009"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C025 contributes the sources' rule that decision and doubt cannot occupy the same moment, together with the wider point their tables make, that effort, decisiveness, joy and the wish to act are ethically neutral and turn up in harmful and generous minds alike. C029 contributes what the machinery underneath carries: the bare moment of seeing has only the seven universals, receiving and investigating add landing on the object, staying with it and settling, determining adds effort for the first time, and none of them contains any wish to act at all. C009 contributes the bare rootless seeing itself, which carries no verdict about price or quality. An auction floor is where the line between all of that and the response that follows has money on it.",
-    "what_it_reveals": "The sources' table says the wanting only arrives after the machinery has finished. A trading floor shows what that looks like when it costs something: the lot is seen by everyone in the same bare way, and what separates the traders is entirely what happens after. It also keeps the film from a moral about greed, because the digest is explicit that drive and decisiveness are not virtues here and appear equally in harmful minds."
+    "why_together": "C025 supplies the film's line in the water, since the sources give as their own reason for one exclusion that decision cannot coexist with doubt, so where one is present the other is not [C025-P:L69], and set out the six occasional factors that come and go and their absences [C025-P:L51-L85; C025-M:L19-L25]. C029 supplies what is underneath the line: the bare moment of sensing carries only the basics, receiving and examining add landing on the object and settling it, effort appears only at the step that fixes what the thing is, and not one of these stages contains any wish to do something [C029-P:L29; C029-P:L31-L55]. C009 supplies the layer the camera can actually see working, the weak rootless sensing that carries no verdict of its own and is the same for everyone, with touch as the one exception that arrives already painful or pleasant [C009-P:L29-L60; C009-P:L174-L176; C009-P:L85-L98]. A rapid needs all three: a place where the sensing is shared, the machinery is fast, and the commitment has a visible edge.",
+    "what_it_reveals": "That a decision is not a moment of drama but the end of a sequence, and that the place where it looks most dramatic is downstream of where it happened. C025 alone is a rule about two factors. C029 alone is a table. C009 alone is a description of bare sensing. Together, on a run of water with a seam in it, they show a commitment being made in the calm before anything looks decisive, and they show it without any claim about what a particular person in the boat was feeling."
   },
   "concept_links": [
     {
       "concept_id": "C025",
       "role": "primary",
-      "why": "The digest reports the source's reason for one of its exclusions directly: decision cannot coexist with doubt, so where one is present the other is not [C025-P:L69]. It also says the bare moments of seeing and hearing carry none of the six occasional factors, no effort, no wish, no decision. Two of the digest's limits are written in: energy, passion and decisiveness are not virtues in this framework and appear equally in harmful minds, so a film may not present drive as good in itself on the strength of this concept; and the counts, 55, 66, 78, 73, 51, 69, are a student's memorisation aid and must never appear as if they were measurements."
+      "why": "The digest's decisive sentence is the source's own reason for one of its exclusions, that decision cannot coexist with doubt, so where one is present the other is not [C025-P:L69], and around it the digest sets the six occasional factors, applied thought, sustained thought, decision, effort, joy and desire-to-act, with the minds they appear in and the reasoned gaps where they do not [C025-P:L51-L85; C025-P:L59-L87; C025-M:L19-L25]. That is this film exactly: a boundary on a river with doubt possible on one side of it and not on the other. The digest's limits are written into the narration rather than left to the edit. Energy, nerve and decisiveness are not presented as virtues, because the digest says plainly that they appear equally in harmful minds, and the fourth beat says so out loud. The counts the sources give, 55, 66, 78, 73, 51 and 69, are a student's memorisation aid and appear nowhere on screen or in the voice. The claim that applied thought and joy fall away in higher meditative states is not borrowed as a theory of skill or flow. And the absence of desire-to-act in weak minds is never turned into the idea that wanting is bad, since the digest notes it is present in wholesome minds too."
     },
     {
       "concept_id": "C029",
       "role": "supporting",
-      "why": "The digest reads the table as a small story: the bare moment of seeing carries only the seven basics; receiving and looking over add the capacity to land on the object, stay with it and settle on it; the step that fixes what the thing is adds effort for the first time; and not one of these steps contains any wish to do something, so the wanting only arrives after the machinery has finished [C029-P:L31-L55]. The digest's guard is carried: 'no wish-to-act in the early stages' is not 'we have no free will', and the factor counts are an analytical aid, not measurements of brain activity."
+      "why": "The digest reads the table of rootless factors as a small story that this film follows down a river: the bare moment of seeing carries only the seven basics, receiving and examining add landing on the object, staying with it and settling on it, the step that fixes what the thing is adds effort for the first time, and no stage among them contains any wish to do anything, so the wanting arrives only once the machinery has finished [C029-P:L29; C029-P:L31-L55; C029-M:L3]. That is why the film puts its decisive beat on flat water rather than in the white. The digest's guards are kept. The absence of a wish to act in the early stages is not turned into a claim that nobody has any say, because the source places wanting and moral quality in the later stage rather than nowhere; the voice never says the boat is driven. The factor counts are an analytical aid and are not narrated as measurements of anything. Rootless is not used to mean anybody is weak or passive. And the arahant's smile, the richest of these minds, is not offered as a model for anyone and does not appear."
     },
     {
       "concept_id": "C009",
       "role": "supporting",
-      "why": "The digest describes the rootless sensing layer as weak, carrying no verdict of its own and, for sight and hearing, only neutral feeling [C009-P:L29-L60]. The moment a lot comes into view, before any judgement of price or quality, is that layer. The digest's guard that the source's treatment of pleasant and unpleasant contact as the result of past action must never become 'people get what they deserve' applies to everyone on the floor, winners and losers alike."
+      "why": "The digest gives the eighteen rootless minds as the sensing machinery before any choice: weak, carrying no verdict of their own, neutral in feeling except for touch and one investigating mind [C009-P:L29-L60; C009-P:L174-L176], with the conditions each sense needs and the observation the film's sixth beat rests on, that the same sight is followed by entirely different responses in different beings and that the difference belongs to what follows rather than to the seeing [C009-P:L85-L98]. It also gives the one exception this river makes unmissable, that touch lands hard and arrives already painful or pleasant. The digest's limits are load-bearing here and are honoured. The source's treatment of pleasant and unpleasant contact as the result of past action is not narrated at all, and nobody's soaking, fright or hard day on the water is framed as anything owed. The Pradeepika's link between rebirth with blindness or deafness and very weak past action [C009-P:L168-L172] is neither narrated nor used as a hook. Rootless is not glossed as random, since the digest is explicit that these minds have causes. And the film never drifts into the slogan that a person chooses how they feel, because in the source the first feeling is neutral and the pain of touch arrives uninvited."
     }
   ],
-  "what_the_viewer_could_understand": "These texts say that making up your mind and real doubt cannot occupy the same moment, and that the machinery of noticing that runs before it carries no wish to act at all. On a trading floor that line is visible, and it costs money.",
-  "what_must_be_real": "Real lots, real money and real losses, with no bid staged or re-run. The livelihoods behind the goods may not be reduced to a setting for an idea about decisiveness, and no trader's bad hour may be edited into a character judgement.",
-  "position_hint": "middle: its substance now sits inside the group's film about a fast public ruling, and it belongs wherever that film belongs.",
+  "what_the_viewer_could_understand": "That deciding and hesitating cannot happen at the same instant, and therefore that the moment which looks like the decision is almost always downstream of it. What a viewer takes away is not advice about being decisive; it is a feel for where in a sequence the commitment actually sat, and how little of it was in the dramatic part.",
+  "what_must_be_real": "The river and the work. Nothing is run for the camera that would not have been run anyway, no line is taken to make a shot, no boat is asked to go back up and do it again, and no one goes on the water in conditions they would otherwise refuse. Safety decisions belong entirely to the people working the river and are never negotiated for footage. The film does not present any guide, crew member or passenger as the one who decides, and does not cut a face in to supply a chooser the concepts deny; the seam and the water carry the argument. The village's other uses of the river, crossing, washing, fishing, are shown as what they are and not as colour, and nothing is claimed about the river's grade, safety or season that the people who work it would not say themselves.",
+  "position_hint": "late in the group: it needs the earlier films to have established that seeing and hearing run in stages, because its whole point is where in such a sequence the commitment sits. No location reasoning is involved.",
   "risks": [
-    "Portraying traders as greedy rather than as people managing real risk.",
-    "Reducing the economics behind the goods to a metaphor for a mental-factor lesson.",
-    "Presenting drive and decisiveness as virtues, which this concept's digest explicitly rules out.",
-    "Fast, crowded conditions carrying real safety and equipment risk."
+    "Presenting nerve, drive or decisiveness as a virtue. The C025 digest states that these factors appear equally in harmful minds and are not virtues in this framework.",
+    "Making an adventure-sports film with a voice-over. The pleasure of the footage must not do the arguing, and the run must stay somebody's working day rather than a spectacle.",
+    "Putting a person in the frame as the decider, which would hand the film the separate chooser the group's concepts deny.",
+    "Letting the factor counts or the tables appear as though they were measurements of attention or reaction time.",
+    "Implying that the crew have no say in what happens, which the C029 digest explicitly rules out: the source places wanting and moral quality in a later stage, not nowhere.",
+    "Any use of the sources' treatment of pleasant and unpleasant contact as the fruit of past action, which must never become the suggestion that a bad day on the water was owed.",
+    "Influencing a real decision on a real river. If a crew runs a line, or runs at all, because a camera is there, the film has caused the thing it claims to observe.",
+    "Filming in high or rising water, or asking anyone to be in the water for a shot."
   ],
   "drop_if": [
-    "No auction allows real trading to be filmed.",
-    "Traders do not want their bidding and their losses shown.",
-    "The trading turns out to be too small or too irregular to sustain a film."
+    "The seam above a drop does not read as a line from the air, which is the film's whole visual premise.",
+    "The season inside the development window is either too low for the rapids to run or too high to be safe.",
+    "The operators will not have a camera on the water without altering how they work.",
+    "It could only be made by asking for a run, a line or a rescue to be repeated."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0083",
-      "relation": "merged into",
-      "note": "Its doubt-into-decision strand and its C029 and C009 links, the neutral machinery that carries no wish to act, now sit inside IDEA-0083."
+      "relation": "pairs with",
+      "note": "Two commitments that cannot be taken back, one made in silence on flat water before anything looks decisive and one made in front of a whole ground in a fraction of a second."
     },
     {
       "idea_id": "IDEA-0088",
       "relation": "leads into",
-      "note": "A fast public decision made under doubt leads into a harder decision made under real scarcity, with the stake on someone else."
+      "note": "A commitment whose whole cost falls on the person making it leads into one whose cost falls on somebody else in the queue."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0083",
-    "reason": "Folded into IDEA-0083, which holds the group's slot on a fast public ruling and now carries C029 and C009 and the doubt-cannot-share-a-moment material with real stakes attached."
+    "superseded_by": null,
+    "reason": "It is the only place found where the sources' line between doubting and deciding exists as a visible line in the world, and where the best shot and the argument are the same shot."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The auction floor is dropped entirely, setting and all, because the slate already carries two auction films; the money, the rising hands and the trader who has to make up their mind before doubt catches up have gone with it. What is kept is the concept, a commitment made before hesitation can close in, relocated to a place where the commitment is physical, fast, public and has a visible edge on the surface of the water. Concepts re-read from the digests as a new reader; every citation re-verified against digest evidence; the C009 link re-grounded on the bare sensing layer and the same-sight-different-response passage rather than on a lot coming into view.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Kelani River rapids at Kitulgala, between the road bridge and the pool below the run",
+    "also_known_as": [
+      {
+        "name": "Makandawa",
+        "meaning": "the lowland rainforest reserve standing over the far bank of the run",
+        "used_by": "local and Forest Department usage"
+      }
+    ],
+    "region": "Kegalle District, Sabaragamuwa Province: the Yatiyantota side of the district, on the Kelani about ninety kilometres inland from Colombo on the Avissawella–Hatton road",
+    "coordinates": {
+      "lat": 6.9972,
+      "lng": 80.4111
+    },
+    "why_here": "It is the country's one established run of working whitewater, and everything the film needs is concentrated into five or six kilometres of it. The rapids are graded two to three, commonly described as five major and four minor drops run in an hour and a half to two hours, worked by village-based outfits clustered at the bridge, so the same seam of water is approached again and again through a day by people for whom it is a job. The far bank carries more than a thousand hectares of lowland rainforest reached only by dugout canoe or a footbridge, which gives the gorge a wall of real forest rather than scenery, and the village's own crossings and bathing places keep the river in its ordinary life. Above all, the approach to each drop is smooth enough and wide enough that the commitment has a visible edge, which is the film.",
+    "what_to_film": [
+      "The approach and the seam above one chosen drop, from directly overhead, in a single held shot as a boat crosses it.",
+      "The same seam through a whole day, boat after boat, so that the line stays and everything else changes.",
+      "The smooth water above the drop at water level, long and quiet, with the sound of the rapid already in it.",
+      "Inside the rapid: water over the bow, the hull, spray, the horizon disappearing, and the flat pool afterwards.",
+      "The surface itself in close aerial detail: the tongue, a submerged rock, the slack water at the side.",
+      "The river's other life: dugout canoes crossing at the deep channel, the footbridge, washing, fishing, the forest bank.",
+      "The take-out, the tipping out of boats, the road shuttle back up with the boats on a trailer.",
+      "The run at dusk with nothing on it."
+    ],
+    "access": "By road on the Avissawella–Hatton road to the village, where the operators are clustered near the bridge; put-in at the river there, take-out downstream with a short road shuttle back. Everything on the water depends on going with an operating crew and on their safety judgement. The far bank is a Forest Department reserve and entry there is controlled. Drone flight over a river carrying working boats and over a forest reserve needs clearance and the agreement of the people on the water.",
+    "best_time": "A settled spell inside a wet season, when there is enough water for the drops to run properly and the river is neither in flood nor brown; mid-morning, once light has reached the water. Sources disagree sharply about which months are best, so the window has to be set locally rather than from the desk.",
+    "images": [
+      {
+        "caption": "Rafting on this stretch of river, showing the boats and the water the film is about.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KitulgalaRafting-March2013-01.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:KitulgalaRafting-March2013-01.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The river and the forested banks at the same village.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitulgala.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kitulgala.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Water in the rainforest above the same village. This is the surrounding country rather than the run itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stream in Kitulgala 2012 - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Stream in Kitulgala 2012 - panoramio.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kitulgala",
+      "https://www.reddottours.com/sri-lanka-activities/kitulgala-kelani-forest-reserve"
+    ],
+    "research_note": "Desk research only. That the rapids here are graded two to three and are commonly described as five major and four minor drops over roughly five to six and a half kilometres, run in about ninety minutes to two hours with a road shuttle back; that the put-in is at the river by the village bridge; that the river here is wide and shallow with a deeper channel towards the far bank which locals cross in outrigger dugout canoes; and that the far bank carries the Makandawa lowland rainforest reserve of over eleven hundred hectares reached only by canoe or a suspension footbridge, are from the sources above. The coordinates are the published position of the village; no published coordinate exists for the put-in or the take-out and none has been invented. Unverified and important: the gradient of the run and the geometry of the eddy lines above the drops, which is the film's visual premise, is documented nowhere found; sources disagree strongly about the best months; dedicated safety kayakers are not confirmed by any source; and whether any drop is visible from the road bridge or the footbridge is unknown.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the seam above a drop reads as a line from the air on this river, which the whole film depends on and which no source documents.",
+    "Which months actually give the right water, since published accounts contradict each other.",
+    "Whether operators would accept a camera on the water and in the air without changing how they run, and whether a fixed overhead position above one drop is possible at all.",
+    "Whether the far bank being a controlled forest reserve limits where a camera can be placed or flown.",
+    "No operator, guide or household has been found or approached. Everything here is a research direction."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

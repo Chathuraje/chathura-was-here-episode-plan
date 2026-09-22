@@ -2,86 +2,202 @@
   "schema_version": 1,
   "id": "IDEA-0079",
   "record_type": "idea",
-  "title": "One Strike, A Thousand Echoes",
+  "title": "Struck Once, Heard All Morning",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "One Strike, A Thousand Echoes"
+  ],
   "group_id": "GRP-05",
-  "logline": "A temple bell is struck once at dawn and its sound fades slowly across the valley below, the same way, the keeper says, one sight can set off a long private echo of thought.",
-  "human_question": "How much of what occupies a mind is not what is in front of it, but the long echo of something that has already happened?",
-  "situation": {
-    "what_happens": "Someone whose duty is to strike a bell at fixed hours lives around a small number of very short acts. The rest of the day is waiting, small maintenance, short sleep and whatever runs through a mind in the quiet. The bell's sound carries far further than the person who strikes it ever goes, and people below organise parts of their day by it without thinking about who struck it. The keeper's own account of what fills the hours between strikes is the only way into the film's real subject.",
-    "who_is_involved": "The keeper, whose role may be paid, voluntary or inherited; whoever else lives or works at the same place and shares the rhythm; and the households below, for whom the sound is a clock, a comfort, an irritation or nothing at all.",
-    "what_is_at_stake": "For the keeper, a duty that must not be missed and a great deal of unstructured time, which is harder than it looks. For the people below, very little, which is part of the point: one act reaches hundreds of people who are not thinking about it. For the film, the keeper's privacy, since almost everything interesting here is interior and only he can report it.",
-    "how_it_unfolds": "A day is fixed at both ends by the times of striking and empty in between. The pressures are the duty itself, weather, age, and long stretches alone. It ends as the day ends, and nothing about it resolves; the film has to be willing to end without an event."
+  "logline": "A bell is struck once at first light on a rock temple standing above a valley, and the film stays with that single impact all the way out: across the roofs, off the far cliff, down to the last second anyone can hear, and then through a morning that has been arranged around it.",
+  "human_question": "How much of what is in your mind right now is what is in front of you, and how much is the fading of something that already finished?",
+  "place": {
+    "what_kind_of_place": "A working rock temple built into a jumble of granite outcrops on a hillside above a narrow inland valley: caves under overhangs, whitewashed shrine fronts, stairways cut and built between boulders, a stupa on the highest ledge, an old manuscript room, and monks and lay helpers who keep the place and its hours. Below and around it the valley runs north and south, with a main road, a scatter of tiled roofs, home gardens, spice plots and paddy, and the far side rising into rock and forest.",
+    "why_it_is_worth_watching": "Because it produces one shot that is also one idea. The bell hangs where the rock ends and the valley begins, so a camera can hold the bronze, the hand, the drop and the whole inhabited valley in the same frame, and then leave with the sound. Everything the film needs after that is already there and repeats daily: a single measurable impact, a landscape wide enough to let it travel, a cliff opposite to return part of it, and a morning that goes on long after the sound has gone.",
+    "what_moves_or_changes": "The sound, which is the only thing in the film that is doing anything, and which is different every day: still air carries it to the far side of the valley, wind takes it away, mist holds it close, rain erases it. The light, which comes up the valley and arrives at the rock before it reaches the houses. And the hours of the place, which are fixed and older than anyone keeping them, so that the strike is not an event that has to be arranged for.",
+    "when_it_looks_best": "The last twenty minutes before sunrise and the first ten after it, on a still, clear, windless morning at the end of the dry season, when the valley is quiet enough that a bell carries and mist is lying low enough to show where the sound is going."
   },
+  "two_layers": {
+    "without_the_philosophy": "A sound film with a landscape in it. Dark, then bronze, then one strike, and after that a slow flight out over a waking valley while a single note thins to nothing: birds coming off a tree, a dog, a shutter, a bus, the first smoke. Then a whole morning in a place whose day was started by it. It works with no commentary at all, and it is the kind of piece people play again for the sound.",
+    "with_the_philosophy": "The same strike becomes the sources' own image. They compare a single sense contact to a bell struck once and left to fade, and say that after the contact has ceased it can go on setting off hundreds or thousands of further movements of mind, pulling related things in with it. The film gives that image its literal form first, so that when the voice turns it inward the viewer already has the measurement: this is how long one strike lasted out there, and this is how much longer it lasted in here."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dark. The valley below as a shape rather than a place, a few lights. The bell in the foreground, unlit, not moving. Held long. Insects, a dog a long way off.",
+      "voice": "Nothing has happened yet. In about a minute one thing will happen, and it will take less than a second.",
+      "concept_id": "C048"
+    },
+    {
+      "on_screen": "The strike, in one shot: the beam swung, the bronze taking it, the shiver in the metal, and the sound going out over the drop.",
+      "voice": "There. That is the whole of it. The cause is finished.",
+      "concept_id": "C048"
+    },
+    {
+      "on_screen": "The camera leaves the rock and travels out across the valley with the sound: roofs, a road, a river bend, mist in the low ground. Birds coming off a tree line below. A dog. A shutter going up.",
+      "voice": "The old manuals use exactly this. A bell struck once, they say, goes on sounding without a second strike; in the same way one contact through one sense, already over, can set off hundreds and even thousands of further movements of mind, drawing other things in as it goes [C048-M:L7-L9].",
+      "concept_id": "C048"
+    },
+    {
+      "on_screen": "Animals and objects, not faces: cattle lifting their heads in a yard, a flock turning, a bicycle slowing, a curtain moving. Then the returning sound off the far cliff, a beat late, filmed on the cliff itself.",
+      "voice": "The books are careful about that first movement. Something turns the mind toward what has arrived, and that turning cannot recognise anything at all; it only points. It carries nothing good or bad in it and belongs to nobody [C010-P:L29-L37; C010-M:L11-L15]. The hinge is not the person going through the door.",
+      "concept_id": "C010"
+    },
+    {
+      "on_screen": "Three fixed positions at increasing distance, cut in sequence, each holding until the note is gone: at the bell, on a roof halfway down, at the bottom of the valley. The last of them ends in ordinary morning noise.",
+      "voice": "Out here the fading can be timed. The source's list of what starts this kind of movement is plain and physical: something sensed, what someone said to you, something read, a question put to you, thinking, an upset in the body, hunger, thirst, pain, running into a friend or an enemy [C048-M:L3-L19]. Almost none of it is self-started.",
+      "concept_id": "C048"
+    },
+    {
+      "on_screen": "Full morning at the temple: sweeping, water carried, a flower tray, the manuscript room opened, a bus arriving below. The bell hanging, still, ignored.",
+      "voice": "And knowing that you heard it is a later thing again. The books say the sound alone does not give you that. First the thing itself, then its name, then what the name refers to, in separate steps, and the source is honest enough to record this as one teacher's account rather than the only one [C048-M:L23-L27].",
+      "concept_id": "C047"
+    },
+    {
+      "on_screen": "Late afternoon, then night: the valley dark again, the temple lamps, the shape of the rock. The bell in the last of the light, unmoving.",
+      "voice": "What was struck this morning ceased this morning. Whatever anyone in this valley still has of it is not the sound; it is a different event with the same name, and it is happening now [C047-M:L9; C047-M:L11].",
+      "concept_id": "C047"
+    },
+    {
+      "on_screen": "The following dawn. The same frame as the opening: bronze, valley, dark. Nothing has been struck yet.",
+      "voice": "None of this needed a listener who was separate from the hearing. It needed a bell, some air, and a morning.",
+      "concept_id": "C048"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C048 contributes the source's own image and its claim: like the long fading hum after one strike of a bell, a single sense contact can set off hundreds or thousands of later mind-door processes, and the source lists the ordinary things that set such processes going, what someone told us, something read, a question put to us, hunger and thirst, a bodily pain, meeting a friend or an enemy. C047 contributes the distinction that keeps the echo honest, since those later processes take as their object something already past, which the sources hold strictly apart from a present object. C010 contributes what happens at the far end of every one of those long quiet hours, the turning toward that occurs before anything is known and the settling that fixes what a thing is, both of which run in everyone, unbidden and hundreds of times an hour.",
-    "what_it_reveals": "A single sound and a life built around it turn out to be the same claim at two scales. One strike carries out over a valley and into hundreds of days; one contact carries into hundreds of later moments of thought. Between the strikes, C010's turning-toward keeps happening anyway, which is what makes the empty hours not empty. And C047's insistence that all of it is about something already gone gives the film its restraint: the echo is real, and it is not the bell."
+    "why_together": "C048 supplies the film's image and its claim in one line, since the source itself reaches for a bell struck once and left to fade in order to say that a single contact, already finished, can set off hundreds or thousands of mind-door processes and draw related things in with them [C048-M:L7-L9], and it supplies the ordinary causes of such movements, from what someone said to hunger and pain [C048-M:L3-L19], along with the further steps by which a person comes to know that they heard something [C048-M:L23-L27]. C010 supplies the very first beat of all that: a turning toward which cannot yet recognise anything, carries no good or bad, and is nobody's achievement [C010-P:L29-L37; C010-M:L11-L15]. C047 supplies the wall between the two halves of the film, since a thing heard and a thing remembered are different objects with different lives [C047-M:L9; C047-M:L11]. Together they let one strike carry the whole arc from arrival to long afterwards.",
+    "what_it_reveals": "That the difference between what is in front of a mind and what is merely still sounding in it is real, measurable in the first case and invisible in the second, and that the second is most of the day. C048 alone would be a simile. C010 alone is a hinge with nothing on it. C047 alone is a distinction. Put on one bell and one valley, they give a viewer a length they can hold: the sound lasted this long out there, and the film demonstrates without arguing that it lasted very much longer everywhere else."
   },
   "concept_links": [
     {
       "concept_id": "C048",
       "role": "primary",
-      "why": "The source's own image is a bell struck once, its sound fading without a second strike, used to say that after a single sight has come and gone it can reach the mind door and set off hundreds or even thousands of mind-door processes, drawing related objects in with it [C048-M:L7-L9]. The digest also lists the source's ordinary causes of such processes, sense contact, what others say, reading, a question, thinking, disturbance of the bodily elements, hunger and thirst, bodily pain, meeting friends or enemies [C048-M:L5], and treats falling asleep, waking and dreaming as mind-door events [C048-P:L25-L33], which is what a keeper's broken rest between duties is made of. Three limits are carried: the digest says dreams are not messages or predictions and the source only calls them weak; the source's passing mention of spirits giving objects to the mind is a traditional belief that a film should neither present as fact nor mock; and the digest notes that the source's list of causes is explicitly only 'a portion' of them."
+      "why": "The digest gives the source's own bell: struck once, fading without a second strike, and used to say that a single sense contact can set off hundreds or thousands of mind-door processes, pulling related objects in with them [C048-M:L7-L9]. It also gives the list of ordinary causes, sense contact and what is connected with it, what others say, reading, a question, thinking, disturbance of the bodily elements, hunger and thirst, bodily pains, and meeting friends or enemies [C048-M:L3-L19], and the account of how the knowledge that one heard something is assembled in further processes, which the source records as one teacher's view [C048-M:L23-L27]. The digest's limits are honoured in the writing. The list is narrated as a list of causes and never as a warning against overthinking, which the digest says adds a judgement the source does not make. The passing mention of spirits supplying objects to the mind [C048-M:L19] is neither presented as fact nor mocked; it is simply not used. Sleep and dreams, which the extract also covers, are left out rather than mixed with sleep science, and no dream in this film is treated as a message or a sign, since the source only calls such impulsions weak [C048-P:L33]. The traditional humoral cause is not translated into hormones or brain chemistry."
     },
     {
       "concept_id": "C047",
       "role": "supporting",
-      "why": "The digest keeps a present object and a past one strictly apart, and the source's worked example does the same: seeing a thing, remembering it later when it no longer exists, and turning toward the real thing from a distance are three different acts with three different objects [C047-M:L9-L11]. That is the difference between the sound crossing the valley and the long echo it leaves in anyone who heard it. The digest's note that the source's example names a real monument and that this is source text only, never a location suggestion, is observed here too."
+      "why": "The digest keeps three things strictly apart: a thing while it is being sensed, the same thing remembered once it has ceased, and the name, which belongs to no time at all [C047-M:L3-L25; C047-M:L9; C047-M:L11]. That separation is the difference between the first half of this film, which can be timed with a stopwatch, and the second, which cannot be filmed at all. The digest's note that the mind door is itself a particular mind-moment rather than a figure of speech [C047-P:L25] is respected in the narration. Its limits are carried: the film does not say the past is unreal, since the digest insists that past matter really existed and ceased and is a legitimate object; it adds no judgement about living in the past; it makes no claim that turning toward something distant connects anyone to it; and the digest's note that the source's worked example names a real monument, which is source text and never a location suggestion for this series, is observed, since the location here was chosen for a bell and a valley and takes nothing from the example."
     },
     {
       "concept_id": "C010",
       "role": "supporting",
-      "why": "Re-grounded. The digest describes the five-door adverting mind as a turning toward that cannot itself know anything and only points, the hinge on the door rather than the person walking through, and the mind-door adverting mind as doing the determining job that settles 'this object is such' just before any response, both of them neutral, both happening in everyone hundreds of times an hour. A duty made of waiting is made of exactly those two moments, and the digest's own story seed for this concept is a keeper who spends the day listening for something that will come. The previous reading of this link, which took the keeper's quiet stillness as an echo of the rootless functional layer, is dropped: the digest is explicit that the third of these minds is the arahant's smile and that no real person in a film may be framed as having it, since that would imply a claim about their spiritual attainment. The film may never suggest any attainment for the keeper. The digest also notes that adverting is not mindfulness or being present, and that the traditional placement of the mind door in the heart cavity is not something a modern audience should be asked to accept literally."
+      "why": "The digest describes the two adverting minds as the turning toward that everybody does hundreds of times an hour: a sound arrives and the mind swings to it before it has any idea what it is, and the source is precise that this moment cannot recognise anything and carries nothing good or bad of its own [C010-P:L29-L37; C010-M:L11-L15]. That is the fourth beat of this film, filmed on animals and objects rather than on anyone's face. The digest's limits are decisive here and are all kept. Adverting is not presented as mindfulness or presence, because it happens in everyone automatically with no quality of care attached. The arahant's quiet smile [C010-P:L41; C010-M:L19] is not used at all, and nobody in this temple is framed as having it, since that would be a claim about a real person's attainment. The classical grades of laughter and their link to undeveloped character [C010-M:L25] are not used to read anyone. And the traditional placement of the mind door in the heart cavity [C010-M:L11] is not asked of the audience as a literal fact."
     }
   ],
-  "what_the_viewer_could_understand": "One sight or sound can keep a mind busy long after it has gone, the way a bell struck once keeps humming. On this account much of what fills a day is that echo rather than what is actually in front of us, and the echo is about something that no longer exists.",
-  "what_must_be_real": "The keeper's actual duty and actual rhythm, and no villagers' reactions arranged. Any account of his private thoughts, his rest or his dreams comes from his own words and never from the film's inference, and he may refuse any part of it at any point. No suggestion of spiritual attainment may be made about him, by image, edit or narration.",
-  "position_hint": "middle to late: it comes after the group's first mind-door film and closes the stretch about what the mind does with things the senses have already finished with, before the films about how a response is formed. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That a single short event can occupy a mind for very much longer than it occupied the air, and that the two are not the same thing. After this film the difference between hearing a bell and going on hearing it is not an idea; it is something the viewer has just been made to sit through.",
+  "what_must_be_real": "The hour, the strike and the people whose place this is. The bell is struck when it is struck, once, as part of the temple's own morning; it is not struck again for a better angle, not struck early, and not struck for the camera at all. Recording levels and positions are arranged around the temple's routine rather than the reverse. Nobody in or below the temple is presented as the one who hears, and no face is used to supply a listener the concepts deny; the turning belongs to the valley. Devotion is not treated as decoration, and the film does not enter shrine spaces or the manuscript room without permission, or film people at prayer who have not agreed to it.",
+  "position_hint": "middle to late: it comes after the films about what arrives at the senses and about processes with visible stages, and it closes the stretch of the group concerned with what a mind keeps doing once the senses have finished. No location reasoning is involved.",
   "risks": [
-    "Turning the keeper into a symbol rather than a person.",
-    "Implying spiritual attainment for a real person on the strength of the sources' account of the arahant's smile, which the digest forbids outright.",
-    "Over-illustrating a doctrinal simile literally instead of letting the person and the duty carry the film.",
-    "Presenting the source's remarks about dreams, or its passing mention of spirits, as claims about how minds work.",
-    "Filming a solitary person's private hours in a way that leaves him exposed after the film is over."
+    "Turning a working temple's morning into a set. The strike belongs to the place's day, and any request to repeat it would destroy the film's only real subject.",
+    "Framing a monk, a keeper or a villager as the one who hears, which is precisely the thing the group's concepts deny.",
+    "Letting the adverting moment be dressed up as mindfulness or presence. The C010 digest is explicit that it happens automatically in everyone with no quality of care attached.",
+    "Any suggestion that a person on screen has the quiet smile the sources reserve for a fully liberated person, or any reading of people by how they laugh [C010-M:L19; C010-M:L25].",
+    "Adding the judgement that dwelling on things is unhealthy. The C048 digest says the source's list of causes is descriptive and makes no such claim.",
+    "Bringing dreams in as messages or signs, or setting the source's claims about sleep beside sleep science as though they agreed.",
+    "Translating the traditional humoral cause of mental disturbance into modern claims about hormones or brain chemistry.",
+    "A sound track rebuilt in post. If the decay is sweetened, extended or layered, the film's one measurable fact has been falsified."
   ],
   "drop_if": [
-    "No keeper is found who is willing to have both duty and rest filmed.",
-    "The keeper does not want his private thoughts or his sleep discussed on camera.",
-    "The bell's role turns out to be occasional or ceremonial only, with no real daily rhythm."
+    "There is no single dawn strike at the site, or the bell is rung as a peal, which would remove the film's premise.",
+    "The temple does not want a camera present at its morning, or the manuscript and shrine spaces cannot be filmed with consent.",
+    "Drone flight over a protected archaeological site and the valley below cannot be permitted, which removes the travelling shot the film is built on.",
+    "It could only be made by asking for the bell to be struck for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0077",
       "relation": "pairs with",
-      "note": "Both are about what a mind holds and reworks long after a single contact has ended."
+      "note": "One film stays at the moment of arrival and shows what is added to it; this one starts after the arrival is over and follows what is left."
     },
     {
       "idea_id": "IDEA-0081",
       "relation": "pairs with",
-      "note": "The same turning-toward moment in two opposite lives, one where it happens hundreds of times an hour and one where it happens rarely and matters when it does."
+      "note": "The same turning-toward in two settings: one where it happens hundreds of times an hour among people, and one where a whole valley does it at once, to a sound, before anyone knows what it is."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0042; the bell is the source's own image for this concept, and the C010 link has been re-grounded on adverting and determining after the previous reading strayed into the arahant's smile."
+    "reason": "It is the source's own image standing in a real landscape, and it gives a viewer a measured length for something the sources say cannot be watched."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape and rebuilt around a single impact and its decay, which is what the concept actually is. The keeper's broken rest and the sleep and dream material are dropped: they moved the film onto a person's inner life and pulled the C048 extract's weakest, most easily misread passage into the foreground. The turning-toward beat is moved onto animals and objects so that no person is presented as the one who hears. Concepts re-read from the digests as a new reader; every citation re-verified against digest evidence; C010 re-grounded on the two adverting minds rather than on the smile, which the digest forbids attributing to anyone on camera.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Aluvihare Rock Temple and the valley below it, north of Matale",
+    "also_known_as": [
+      {
+        "name": "Alu Viharaya",
+        "meaning": "the rock temple in the ash-coloured rocks",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "Matale Aluviharaya",
+        "meaning": "the same site named by its district town",
+        "used_by": "local and signboard usage"
+      }
+    ],
+    "region": "Matale District, Central Province: in the granite outcrops on the west side of the valley on the Matale–Dambulla road, about three kilometres north of Matale town",
+    "coordinates": {
+      "lat": 7.4972,
+      "lng": 80.6219
+    },
+    "why_here": "It gives the film a bell at the edge of a drop with an inhabited valley under it, which is the whole requirement. The temple is a working one built into thirteen rock caves in a jumble of outcrops, with stairways between boulders, a stupa on an upper ledge and a manuscript room, and it stands high enough above the valley floor for a camera to leave the rock and travel out with a sound over roofs, road and gardens to rock and forest on the far side. It is also a place whose hours are its own and very old, so the strike the film needs is part of the day rather than an event to be arranged.",
+    "what_to_film": [
+      "The bell and the drop in one frame, in the dark, before anything happens, held long enough for the silence to be the subject.",
+      "The strike itself in a single unbroken shot: the swing, the bronze, the shiver in the metal, the sound leaving.",
+      "One continuous travelling shot out over the valley with the sound, from the rock to the far side.",
+      "The valley answering: birds off a tree line, cattle, a dog, a shutter, a bicycle, filmed on animals and objects rather than faces.",
+      "The return of the sound off the far rock face, recorded on the far side.",
+      "Three fixed sound positions at increasing distance, each held until the note is completely gone.",
+      "The ordinary morning that follows at the temple: sweeping, water, flowers, the manuscript room, the first bus below.",
+      "The bell in the middle of the day and at dusk, still and ignored."
+    ],
+    "access": "By road from Matale on the Dambulla road, then steps and built stairways between the outcrops. This is a functioning temple and an Archaeological Protected Monument, so everything depends on the incumbent monks' agreement and on the Department of Archaeology; a dawn call means being in position the night before. Drone flight over a protected monument needs specific permission and may simply be refused.",
+    "best_time": "The end of the dry season, on a still, clear, windless morning, in the twenty minutes before sunrise and the ten after it. A second morning is needed for the far-side and valley-floor sound positions.",
+    "images": [
+      {
+        "caption": "The rock outcrops and cave shrines of the temple itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aluvihare Cave Temple-Sri Lanka (3).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Aluvihare Cave Temple-Sri Lanka (3).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A general view of the same site among its boulders.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matale aluviharaya.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Matale aluviharaya.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Temple bells hung in a frame at a different Sri Lankan temple. This is the object type, not the bell at this site, which has not been photographed in any source found.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kandy-campana1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kandy-campana1.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aluvihare_Rock_Temple",
+      "https://amazinglanka.com/wp/alu-viharaya/"
+    ],
+    "research_note": "Desk research only. That the temple is built into thirteen rock caves in granite outcrops about three kilometres north of Matale town on the Dambulla road, that it holds cave shrines with Jataka murals, inscriptions and an ola-leaf manuscript library, that it is traditionally the place where the Pali canon was first committed to writing, and that it has been an Archaeological Protected Monument since 1974, are from the sources above. The coordinates are the published position of the temple. Crucially unverified: no source found confirms that a bell is struck once at dawn here, or that there is a bell hung where the rock meets the drop; a morning bell is an ordinary feature of Sri Lankan temple practice but it is an assumption at this site and must be checked before anything else. Also unverified: how open the valley below is and how far a bell actually carries in it, whether the far side gives a usable return, and whether any drone flight is possible over a protected monument.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether a single bell is struck at dawn at this temple at all. Nothing found confirms it, and the whole film rests on it.",
+    "Whether the bell, if there is one, hangs where the rock and the valley can be held in one frame.",
+    "How far the sound carries down the valley in still air, and whether the far rock face returns a usable reflection.",
+    "Whether the Department of Archaeology and the incumbent monks would permit a dawn crew, and whether drone flight over a protected monument can be cleared.",
+    "No monk, keeper or household in the valley has been approached. Everything here is a research direction."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

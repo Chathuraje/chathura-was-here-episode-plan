@@ -2,74 +2,169 @@
   "schema_version": 1,
   "id": "IDEA-0024",
   "record_type": "idea",
-  "title": "What the Bank Took",
+  "title": "Ten Months on Borrowed Sand",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Bank Took"
+  ],
   "group_id": "GRP-02",
-  "logline": "A family watches an agent drive away the one vehicle they scrimped years to buy, and no argument brings it back.",
-  "human_question": "What happens to wanting when the thing you finally got is taken away again?",
-  "situation": {
-    "what_happens": "A family that saved for years and borrowed the rest falls behind on repayments, and the lender sends somebody to take the vehicle back. The paperwork is correct and the agent is neither cruel nor interested. There is arguing, then pleading, then nothing. The next morning the family's whole routine has to be rebuilt around the space where it used to be.",
-    "who_is_involved": "A family whose livelihood or schooling depended on the vehicle; the agent doing a job; the lender, who is not present; neighbours who gather and have opinions.",
-    "what_is_at_stake": "For the family, a loss that is financial, practical and public all at once, and shame that will outlast the loss. For the agent, an ordinary day. For the film, the plain danger of trading on a family's worst morning, which no editorial value can justify.",
-    "how_it_unfolds": "Repossessions are preceded by months of warnings and arrive on a day nobody chooses. They end with the thing gone, occasionally with a last-minute reprieve, and always with a household rearranged around the gap. Nothing about it can be arranged or delayed for anyone, and it should not be sought out."
+  "logline": "A sixteen-kilometre thread of sand in open sea, seven hundred metres wide, carries a full working settlement for most of the year, every plank and pot and roof of which was brought out by boat because of what people on the mainland want; and when the season turns, all of it is taken apart and carried back, and the sand is bare again.",
+  "human_question": "If everything I have was carried in and will be carried out again, what exactly am I holding on to?",
+  "place": {
+    "what_kind_of_place": "A long, narrow sand island with no permanent population: scrub, dunes, mangrove at the edges, no roads and no wells worth the name, and sandy footpaths threaded between houses. For most of the year it is fully inhabited by people who come out from mainland towns for the season, with their families, and build the settlement again out of timber, thatch, tarpaulin and sheeting brought by boat. Drinking water arrives in containers. The rest of it is work: boats, nets, ice, racks of fish drying in a flat glare, crates going back on the ferry, a price agreed with somebody on the other shore. Nothing on the island produces anything by itself. Every object on it is there because of an appetite somewhere else.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. From the air, the shape of the place: a bright thread of sand between two blues, with a village strung along it that from a thousand feet looks like something set down rather than built. At ground level, the material texture of a settlement that is all surfaces brought from elsewhere, thatch, rope, blue tarpaulin, boat paint, drying racks in hard light. And then the reverse of it, at the end of the season, when roofs come off, frames come down, everything is carried to the water in armfuls, and the same aerial frame shows bare sand with rectangles of flattened scrub where a street was.",
+    "what_moves_or_changes": "The island assembles itself, works, and takes itself apart, on a schedule set by wind and weather rather than by anybody's decision. Inside a day, the tide, the ice, the boats and the ferry. Across the season, the settlement thickens: more shelters, more racks, a shop, a school running while the children are there. Then the wind changes, and within a couple of weeks a village becomes a beach. Nothing has to be staged, because the whole place is an annual demonstration of building for a season and giving the ground back.",
+    "when_it_looks_best": "Two windows, and the film needs both. The settled middle of the season, when the place is fully inhabited and working, for light on the racks and the paths and for the aerial of a village on a sandbar. And the fortnight when it is dismantled and the boats go, which is the film's ending and cannot be recreated. Early morning and the last hour of light for the aerials; midday, unflatteringly bright, is what the drying racks actually look like and the film should not pretend otherwise."
   },
+  "two_layers": {
+    "without_the_philosophy": "An island film about a place most people on the mainland have never seen: a working village on a sand bar, its trade, its water problem, its children's school, its weather, and the extraordinary sight of the whole thing being folded up and carried away at the end of a season. It resolves on its own terms, arrival to departure, full to empty, and a viewer who never hears a word of the narration gets a complete piece with a real ending.",
+    "with_the_philosophy": "The same footage becomes the sources' count of the ordinary mind, read off a place instead of a person. The voice never accuses anybody of anything, never calls any trade or any appetite a fault, and never suggests that the people who do this work are an example of wanting. It points at the arithmetic that is already on screen: a settlement made entirely of things somebody wanted, most of whose day is simply receiving whatever arrives, held on conditions that will turn, and given back on time without anybody being wronged."
+  },
+  "sequence": [
+    {
+      "on_screen": "From high up, early: a bright thread of sand between two blues, running further than the frame, with a village strung along it. No road reaches it from anywhere.",
+      "voice": "Nothing here grows. Not the timber, not the thatch, not the water. Every single object on this sand came out by boat, because of something people on the other shore want. The old compendiums this series reads call this the everyday world, the world of things seen and heard and smelled and tasted and touched, and this is that world with the packaging left on.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Ground level. Sandy paths between shelters, blue tarpaulin, a water container being carried, a shop counter, a school class in a shed, racks of fish in a flat glare.",
+      "voice": "It would be easy to make this an illustration of wanting, and the books do not let you. They count the kinds of moment an ordinary mind has in an ordinary day, and the total is fifty-four. Twelve of them are the unwholesome ones. Twenty-four are called beautiful, in as many words. And eighteen are barely anything at all: seeing what is in front of you, hearing what arrives. Most of this morning is those.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "The working hour. Crates, ice, a hook, a weighing scale, a price said into a phone with the sea behind it. Two transactions side by side: one man talked into a number, another agreeing in silence without being asked twice.",
+      "voice": "The books do say something exact about the reaching itself. It never arrives with unhappiness in it: it comes either with gladness or with nothing much at all. So a flat face here is not innocence and a pleased one is not proof of anything. They also notice that some reaching starts on its own and some has to be talked up, by somebody else or by yourself, and you have just watched both.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Late afternoon into evening: lamps, a radio, a meal on the sand, children in the shallows, nets being mended, somebody asleep in a boat.",
+      "voice": "Every one of those arrives with a taste on it. The books are strict about the list: pleasant, unpleasant, or neither, and no fourth way of receiving anything. And they separate what the body is getting, which they give one seat only, from the gladness the mind makes around it, which they count in more than sixty kinds of moment. Most of what we call enjoying an evening is the second one.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The wind changes. Boats loaded gunwale-deep. Roofs coming off in sheets, frames pulled apart, rope coiled, a pot passed hand to hand down to the water, a drying rack stripped to its poles.",
+      "voice": "Now the season turns, and everything comes down. Nobody is being evicted and nobody has failed; this is the arrangement, and it is how the place is held. The books' sober line fits it exactly: anything that feels good is standing on conditions, and it hurts when the conditions move. They call that the suffering of change, and they do not mean anything dramatic by it.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The last boat. A family sitting on their own roof sheets on the deck. The island going small behind them.",
+      "voice": "What nobody watching can see is what any of this costs the people doing it. The books make that distinction themselves, between the pain everyone can see and the pain nobody knows about unless they ask. This film does not know, and it is not going to guess from a face on a boat deck.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The same aerial frame as the opening: bare sand, a few rectangles of flattened scrub where a street was, the sea working quietly at the edge of it.",
+      "voice": "One last thing the books insist on, and this film holds to it. Their long lists of trades and pleasures are one author's argument about his own society, not the teaching, and nobody who works out here is an example of anything. What is left is the arithmetic: a whole village of wanted things, carried out, used, and carried back, on time, by agreement, with nobody in the wrong. All of it will be carried back out when the season comes round.",
+      "concept_id": "C004"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C004 contributes the attaching itself: greed is defined as taking a thing to be good and holding to it, and the same object can be held with everything by one person and handled with complete indifference by another. C032 contributes the cost built into it: the sources count even pleasant feeling as a kind of suffering because it rests on conditions, rises and falls, and hurts when it turns.",
-    "what_it_reveals": "That the sources' suffering of change is not an abstraction but a morning like this one, and that the indifference on the other side of the exchange is not cruelty. Together they show a thing wanted, got, held, and then simply gone, with nobody in the wrong."
+    "why_together": "Read fresh, C004 is a count rather than an accusation. It tallies the minds of the everyday sense world at fifty-four, sorts them into thirty 'not beautiful' and twenty-four 'beautiful', and puts eighteen rootless minds, the bare receiving of what arrives, in the middle of the tally [C004-P:L25] [C004-P:L27] [C004-P:L31]. Its definition of greed is the attaching that takes things and people to be good, beautiful or sweet [C004-M:L13], and its two most filmable observations are that this reaching never comes with displeasure [C004-M:L15], arriving instead with gladness in one person and flatness in another [C004-M:L17], and that it is sometimes spontaneous and sometimes talked up, by others or by oneself [C004-M:L21]. C032 supplies what that reaching costs and what cannot be seen. Feeling is the tasting of the object's flavour and it is in every mind [C032-P:L43]; it comes three ways with no fourth; bodily feeling has a single seat while gladness is counted in more than sixty minds [C032-P:L103] [C032-M:L9] [C032-M:L5]; and pleasant feeling is counted as costly because it rests on conditions and hurts when they turn [C032-P:L117], with the pains that are concealed set apart from the ones anybody can see [C032-P:L119]. A settlement that is carried out to a sandbar, lived in for a season and carried back is where all of that can be filmed as arithmetic rather than as anybody's misfortune.",
+    "what_it_reveals": "That holding something and being wronged when it goes are two different events, and only the first one is on screen here. C004 alone risks becoming a film that points at people and calls their appetite a fault, which its own digest forbids. C032 alone becomes a mood piece about impermanence. Together they give the group its ending without using anybody's bad day: a whole world of wanted things, assembled on borrowed ground, given back on schedule, by agreement, with nobody in the wrong, and the largest part of what it cost invisible to the camera by the sources' own account. The pairing also lets the film state, out loud, that the people working here are not an example of wanting, which is the only way this concept can be filmed at all."
   },
   "concept_links": [
     {
       "concept_id": "C004",
       "role": "primary",
-      "why": "Greed is defined as the attaching that takes things to be good, beautiful or sweet, present with feeling in one person and with none in another [C004-M:L13] [C004-M:L17]. The digest's own seed of a family object being valued and let go is close to this, and it insists that hardship must never be framed as greed."
+      "why": "The digest's count is the film's structure. Sight, smell and taste together make the everyday sense-sphere world the sources tally [C004-P:L25]; the tally is fifty-four, thirty of them 'not beautiful' and twenty-four 'beautiful' [C004-P:L27], with eighteen rootless minds of bare receiving inside it [C004-P:L31], which is beat 2 and is the film's defence against its own subject. The Margaya's definition of the attaching that takes things to be good, beautiful or sweet [C004-M:L13] describes a settlement made entirely of brought objects; its ruling that this reaching never comes with displeasure [C004-M:L15] and arrives with gladness in one and flatness in another [C004-M:L17] is beat 3, and the prompted and unprompted distinction [C004-M:L21] is the two transactions in the same shot. Three of the digest's limits are load-bearing and one of them decides the whole treatment. The Pradeepika's commentary on meat, fishing, gambling, drink and other faiths is the author's own moral argument about his society, not the core of the count, and turning it into a judgment on the people on screen would be preaching and could wound; the film therefore never narrates it over anybody working here, and beat 7 says so on the record. 'The sense world is a trap' is refused by the sources' own twenty-four beautiful minds. 'Follow your joy' is refused, since joy attends greed-rooted minds as readily as good ones. The digest's caution about affection and love being listed among the names of greed also bears: nothing about the families on this island is presented as a fault."
     },
     {
       "concept_id": "C032",
       "role": "supporting",
-      "why": "The sources teach that pleasant feeling carries a cost because it is conditioned and hurts when it changes, the suffering of change [C032-P:L117], and they separate concealed suffering, which nobody knows about unless they ask, from open suffering that everybody can see [C032-P:L119]. Both are present on a morning like this. The digest notes this material rests on one source alone."
+      "why": "C032 supplies the ending and the film's refusal to read faces. Feeling is the tasting of an object's flavour and is in every mind [C032-P:L43], threefold with no fourth way, and the faculty scheme separates the single seat of bodily feeling from the gladness the mind makes, which is counted in more than sixty minds [C032-P:L103] [C032-M:L9] [C032-M:L5]; that is beat 4, an evening on the sand. The dismantling rests on the suffering of change, where pleasant feeling is counted as costly because it is conditioned and hurts when it turns [C032-P:L117], and the last boat rests on the separation of concealed suffering, which nobody knows about unless they ask, from the open kind everybody can see [C032-P:L119]. That distinction is what licenses the film to stop rather than to guess. Four guards travel with it. 'Chase good vibes' is refused by the source itself. 'Neutral means numb' is refused. The group's line that pleasant feeling is where wanting begins is an editorial compression and is not said on screen. And the threefold suffering must not land as pessimism: the digest notes that this material rests on the Pradeepika alone, so the voice gives it as a reading, not as the tradition's verdict on anybody's life."
     }
   ],
-  "what_the_viewer_could_understand": "A thing can be wanted for years, got, and then simply taken, with nobody behaving badly at any point. What hurts is not the taking but the change, and much of that hurt is never visible to anyone who does not ask.",
-  "what_must_be_real": "A genuine event, with the family's full and continuing understanding of what being part of a film means during a legally sensitive loss. No dispute arranged, prolonged or resolved for the film.",
-  "position_hint": "closing candidate in kind, but not for this group: it is a heavier refusal than this group's ending needs, and it points forward to what blocked wanting turns into.",
+  "what_the_viewer_could_understand": "That most of what anyone holds is held on terms, and that giving it back on time is not the same as losing it. A whole village of wanted things is carried out to a sandbar, lived in, and carried back, with nobody wronged at any point; what hurts in a thing ending is not that somebody took it, and most of that hurt is never visible to anyone who does not ask.",
+  "what_must_be_real": "The settlement's own year, the people's own reasons for coming out and their own account of the season. Nothing is built, dismantled, loaded or timed differently for the camera, and the departure is filmed when it happens or not at all. Consent is given by the households themselves, not by a boat owner, a buyer or an official, and it is revocable at any point. Water scarcity, housing and earnings are shown as they are or not at all, and neither the hardship nor the sunset is used to make a point. Nobody is asked to describe their work in the film's terms, no trade is presented as an example of anything, and no child is identified.",
+  "position_hint": "closing candidate for the group: the film where what was wanted is given back, which needs every earlier film about reaching behind it, and which hands on to whatever comes after wanting is blocked. No location reasoning is involved.",
   "risks": [
-    "High sensitivity: financial hardship and shame must never be traded on",
-    "Legal complexity around a live dispute",
-    "The family's dignity and understanding must outrank the story at every point",
-    "Being present could itself change what the agent or the lender does"
+    "The central hazard: a film about wanting, shot in a fishing settlement, could be heard as calling these people greedy or their livelihood a fault. The C004 digest forbids exactly that, the voice never does it, and beat 7 states the refusal out loud. If the edit cannot hold that line, the film is not made.",
+    "Aestheticising hardship. There is a water problem here, the housing is temporary by design, and the light is beautiful. If the conditions cannot be shown honestly they are not shown as scenery.",
+    "Turning the film into a climate or erosion story. The island's future is a real and serious matter and it is not this film's subject; borrowing it for an ending would be dishonest.",
+    "Making the departure look like an eviction or a defeat. It is the arrangement, and the film says so before the roofs come off.",
+    "Reading feelings off faces on the last boat, which beat 6 exists to refuse.",
+    "Filming a community that owns nothing permanent as a moral demonstration for viewers who own a great deal.",
+    "Consent that is really somebody else's: access here runs through boat owners and buyers, and the households' own agreement has to be obtained separately and held.",
+    "Children are present for part of the season; guardian consent is required, revocable, and nobody is identified.",
+    "Practical: a long boat crossing, no infrastructure, salt and wind on equipment, and a dismantling window that will not wait for a second trip.",
+    "Permissions in a maritime area where navy and fisheries authorities both have a say, and drone rules that may simply refuse."
   ],
   "drop_if": [
-    "No family experiencing this freely and fully consents, and can withdraw at any point",
-    "Being filmed would worsen the family's legal or financial position"
+    "The households will not consent, or consent can only be obtained through a buyer, an owner or an official rather than from them.",
+    "Filming would require the departure or the building to be timed, staged or repeated for the camera.",
+    "Access is offered on condition that water, housing or earnings stay off camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0026",
-      "relation": "mirrors",
-      "note": "One family loses what it finally had; the other loses what it never quite got."
+      "idea_id": "IDEA-0022",
+      "relation": "pairs with",
+      "note": "Two places whose whole economy rests on something that arrives with a season and leaves with it, one a flavour and one a settlement."
+    },
+    {
+      "idea_id": "IDEA-0023",
+      "relation": "pairs with",
+      "note": "Two places that assemble themselves for a season: one to perform, one to work, and both taken apart afterwards."
     }
   ],
   "selection": {
-    "recommendation": "hold",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Held, not merged: the group's two refusals are already carried by IDEA-0025 and IDEA-0026 at a scale that does not require filming a family's worst morning, and this idea's real home is a later stage on loss and on what blocked wanting turns into, if a real and freely consenting situation is ever found."
+    "reason": "The group's ending, where what was wanted is visibly given back, on a place that performs it annually by agreement instead of on anybody's worst day."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Subject replaced entirely and rewritten into the footage-led shape. Dropped the repossession: the old idea filmed an identifiable family watching an agent take away the vehicle they had saved years for, which is a real household's worst day and cannot be made under this series' rules at any framing. Kept the concept pair and found a place where something wanted is visibly taken back without it being anyone's misfortune: a seasonal island settlement that is carried out by boat, lived in for most of the year, and dismantled and carried home when the season turns, by agreement and on schedule. New title; old title kept in aliases. Both links re-tested against their digests and rewritten: C004 rebuilt on the count itself, including the twenty-four beautiful and eighteen rootless minds that stop the film accusing anybody, plus the rulings that reaching never comes with displeasure and is sometimes prompted; C032 re-grounded on the three ways of feeling, the separate seats of bodily and mental feeling, the suffering of change for the dismantling and concealed suffering for the last boat. The digest's line that the Pradeepika's commentary on fishing and other trades is the author's own argument is honoured both in the link and out loud in beat 7. Added place, two_layers, a seven-beat sequence and a suggested location; the images array is left empty because no candidate image URL could be verified from here. Selection changed from hold to keep.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Baththalangunduwa island",
+    "also_known_as": [
+      {
+        "name": "Bathalangunduwa",
+        "meaning": "the same island, spelled as the boatmen and the ferry lists give it",
+        "used_by": "local and fisheries usage"
+      }
+    ],
+    "region": "Puttalam District, North Western Province, in Portugal Bay north-west of the Kalpitiya peninsula",
+    "coordinates": {
+      "lat": 8.5064,
+      "lng": 79.7826
+    },
+    "why_here": "It is a whole inhabited place that exists on the same terms as the concept. The island is a sand bar roughly sixteen kilometres long and about seven hundred metres wide, with no permanent residents at all: the people who live and work there come out from mainland towns for the season, with their families, and build the settlement out of what they bring. That gives the film its opening and closing shot in the same frame, a village strung along a thread of sand and then bare sand with the rectangles where it stood, which is the concept stated rather than illustrated. It gives the middle of the film too, because everything on the island, down to the drinking water, is an object somebody wanted enough to carry across open sea. And it gives the group an ending in which something wanted is plainly taken back without a single person in the frame being wronged, which is the only way this pairing can be filmed honestly.",
+    "what_to_film": [
+      "The island from high up, early and late: the thread of sand between two blues, and the settlement strung along it with no road reaching it.",
+      "The settlement's material at ground level: thatch, rope, tarpaulin, boat paint, sheeting, and sandy footpaths between shelters, all of it brought from somewhere else.",
+      "Water arriving and being carried, filmed as fact rather than as hardship or as picturesque detail.",
+      "The working hour at the landing: crates, ice, the scale, a price said into a phone, and if it happens in one frame, one trade talked up and one agreed without a word.",
+      "An ordinary evening: lamps, a radio, a meal on the sand, nets mended, the shallows.",
+      "The turn of the season: roofs off, frames down, rope coiled, everything carried to the water in armfuls, boats loaded deep.",
+      "The last boat out, from the deck, with the island going small; no close-ups hunting for grief.",
+      "The opening aerial frame repeated over bare sand, with the flattened rectangles where the street was. This is the payoff shot and the film ends on it."
+    ],
+    "access": "Only by sea, from Kalpitiya. A passenger boat runs most days except Sunday, leaving in the morning and returning early in the afternoon; sources disagree on the crossing, giving anything from about an hour to three hours, and only boats licensed from that side work the route. There is no road, no hotel and no reliable fresh water, so a crew has to arrive self-sufficient and stay. Permission is needed from the households themselves and, separately, is likely to involve fisheries and naval authorities for a maritime area of this kind. Nothing in the film requires going out with a boat on a fishing trip.",
+    "best_time": "Two windows. The settled middle of the season, when the island is fully inhabited and working, for the aerials and the ordinary days. And the fortnight when the settlement is taken apart and the boats leave, which is the ending and happens once a year. Early morning and the last hour of light for the aerials; the drying racks are a midday subject and should look it.",
+    "images": [],
+    "sources": [
+      "https://icsf.net/newss/sri-lanka-baththalangunduwa-fishing-and-religion-rule-their-lives/",
+      "https://www.lankapradeepa.com/2022/01/baththalangunduwa-island.html",
+      "https://world-islands.net/details/baththalangunduwa/"
+    ],
+    "research_note": "The island's dimensions, its lack of permanent residents, the migrant seasonal settlement from mainland towns, the thatched shelters and drying racks, the water scarcity, the ferry from Kalpitiya and the coordinates are from the sources above and are desk research only. The sources disagree on the crossing time and give the months of occupation only loosely, as about ten months of the year, so the exact weeks when the settlement is built and dismantled, which is the film's ending, are unverified and are the first thing to establish. Current population, permissions, drone rules in a maritime area, and whether any household would agree to be filmed are all unverified. Two or three Wikimedia Commons files covering this location were identified as candidates, but none of their Special:FilePath URLs could be confirmed as returning HTTP 200 from the machine used for this research, which was rate-limited throughout; rather than carry unverified links, the images array is left empty and the candidates should be re-checked and added later.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, boat or permission has been found or confirmed. Everything here is a research direction.",
+    "The exact weeks in which the settlement is built and taken apart, which the whole film depends on, are unverified and may vary year to year.",
+    "Whether a crew can stay on the island at all, given water and shelter, and whether filming a dismantling would be welcome rather than intrusive, has not been assessed.",
+    "Whether drone flying is permitted in this maritime area, and from whom permission would come, is unknown."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

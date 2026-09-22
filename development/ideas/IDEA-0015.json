@@ -2,79 +2,186 @@
   "schema_version": 1,
   "id": "IDEA-0015",
   "record_type": "idea",
-  "title": "The Weighing Hour",
+  "title": "Nothing in the Room",
   "status": "draft",
-  "version": 2,
+  "version": 5,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Weighing Hour",
+    "The Hour the Price Moves"
+  ],
   "group_id": "GRP-02",
-  "logline": "A dealer's flat, expert glance under a loupe meets a family who has carried one stone a long way, hoping.",
-  "human_question": "Why does the calm, unexcited offer sometimes carry more weight than the hopeful one?",
-  "situation": {
-    "what_happens": "A family brings a single find to people who buy such things for a living and have seen thousands of them. The examination is short and gives nothing away. A price is named, argued over, and either taken or refused, after which the family either goes home with money or carries the same stone to the next buyer. Everything the family has riding on it is visible; almost nothing the buyer has riding on it is.",
-    "who_is_involved": "A family whose year may turn on one find, and who do not know what it is worth; dealers who appraise all day and will see another tomorrow; the middlemen and relatives who came along to advise.",
-    "what_is_at_stake": "For the family, a sum that is either transforming or disappointing, and no way of knowing which offer was fair. For the dealer, one of many small margins and a reputation in a trade that runs on trust. For the film, the risk of making dealers into villains, which would be defamatory in effect and untrue.",
-    "how_it_unfolds": "These exchanges are short and repeat: an appraisal, a silence, a number, a counter, and a decision made with incomplete information on one side. They end in a sale, a refusal, or a slow walk to the next buyer, and the family usually never learns what the thing was really worth. Nothing about the price can be arranged, and the outcome belongs to the trade."
+  "logline": "For about ninety minutes on one morning a week, in a strip-lit government hall with a hammer on the desk at one end, a few dozen people price several million coconuts a hundred rupees at a time, and not one of the coconuts is in the room.",
+  "human_question": "Is the wanting the problem, or only the part of it that sticks?",
+  "place": {
+    "what_kind_of_place": "A hall inside a state authority's building in the capital, with strip lighting, a tiled floor, stacking chairs in rows, a raised desk at one end and a hammer on it. Once a week it fills, mid-morning, with brokers and buyers in shirtsleeves holding the same photocopied catalogue. Every line of that catalogue is a grower somewhere in the coconut country inland and to the north, a quantity of nuts lying under the trees waiting to be collected, a picking date and a grade. The bidding is in rupees per thousand nuts and moves in steps of a hundred. Each lot ends with the hammer. Anyone who wants to may go and look at a lot before the sale, at the place where it is lying, on any working day between nine and five; almost nothing else about the thing being sold is present in the room at all.",
+    "why_it_is_worth_watching": "Four things carry it with the sound off. The object itself, filmed before the sale where it actually is: several thousand nuts in a heap under palms, being counted in hundreds by two men with a tally, in the heat, with nobody in a hurry. The catalogue: the same sheets of paper in forty pairs of hands, being marked and re-marked, which is the only place the sale exists. The room as a shape, which is stranger than it sounds, because the people who bid hardest are usually standing at the back near the door and not sitting at all, and a whole room turns its head to the same corner and then back. And the end of it: an empty hall at half past eleven, chairs pushed out of line, paper on the floor, the hammer left on the desk, and the week's price for a national staple now a fact.",
+    "what_moves_or_changes": "The only thing that changes is the number, and it is never still. Every lot resets it, and what the previous lot fetched changes what the next one is worth, so the morning is a line that climbs and drops without ever settling. A seller who does not like the highest bid can decline it, and the lot comes off. The catalogue is worked from its first line to its last without a break. And then the room empties inside about five minutes, which is a change of state as complete as anything on the screen.",
+    "when_it_looks_best": "The sale morning, in real time, which is the whole film and cannot be picked up later in the day. Around it, two other days: the day the catalogue is issued, and a day before the sale at a lot lying for collection, which is the only way to put the thing being priced on screen. A season when the crop is moving, and one of the weeks when the price is visibly doing something, which the trade knows in advance and a crew would have to be told."
   },
+  "two_layers": {
+    "without_the_philosophy": "Ninety minutes of a real trade at full speed, in a room almost nobody has ever been shown, with the thing being traded filmed where it actually lies. It has its own beginning and end and needs no explanation: paper, a hammer, a number that will decide what a nut costs everywhere in the country that week, and an empty hall at the end of it. A viewer who never hears a word of the narration gets the machinery behind an ordinary price, which most people never think of as having machinery at all.",
+    "with_the_philosophy": "The same footage becomes the sources' account of how a wanting mind is assembled, watched at the one hour of the week when a whole trade is doing it out loud, in public, on a schedule. The voice never says anyone is greedy and never rules on anybody's business. It points at what is already visible: a bidder who comes in the instant a lot opens and one who lowers his catalogue, argues himself round and comes in higher; a hammer falling with complete certainty on a thing nobody in the room has seen; clerks and an auctioneer who do not stop until the last line of the catalogue is gone; and, at the end, the distinction the sources are most careful about, which is that wanting to do something is not the same as the sticking that grips it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Two days before the sale. A heap of several thousand nuts under palms, being counted in hundreds by two men with a tally stick, heat shimmer, nobody hurrying.",
+      "voice": "Nothing in this heap will change between now and the hammer. It is grown, it is picked, it is lying here. Everything about what it is worth is about to be decided by a few dozen people in a room fifty miles away, and none of it is in the nuts.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "The hall filling. Chairs scraped into rows, the same photocopied catalogue opened in forty pairs of hands, a hammer set down on the raised desk, somebody testing a microphone.",
+      "voice": "These books treat wanting as one force with a few settings on it, and the first is simply warmth. It can arrive glowing, when the thing in front of you is one you like. It can arrive completely flat. Both are the same reaching. Over the next ninety minutes you will see the two of them within a metre of each other.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "The first lot opens. The calling starts. A man standing at the back by the door bids the instant the number is said, before anyone has sat forward. Then the calling tightens, repeats, leans on the room, and two more come in.",
+      "voice": "The second setting is the push. Some of this rises sharply, of its own nature, needing nobody: that is the man at the back, in before the sentence is finished. Some of it is urged on by another person, which is exactly what a caller's voice is built to do, and is the oldest job in the room.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Beside him, a man who raises his catalogue, stops, lowers it, turns half away, looks at his own marked page for perhaps fifteen seconds, then puts it up again a hundred higher than he had stopped.",
+      "voice": "And the third is the one everyone recognises. Not urged by anybody. Urged by yourself, talking round a mind that had already decided to stop. The texts say this kind comes with a heaviness in it that the sharp kind does not have. You have just watched fifteen seconds of it.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "The last bid. A catalogue stays up, the calling stops, the hammer comes down, a clerk writes. Nothing else in the room moves.",
+      "voice": "That was not the wanting. That was a different working part, and these books give it its own name: the one that settles firmly on a thing, that makes the mind stop swinging and hold. They are blunt about it. It settles just as firmly when it is wrong. And look at what it has settled on. It is not in this room. It is lying under trees, un-husked, counted by somebody nobody here has met.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The middle of the sale, filmed as a block: lot after lot after lot, the caller's mouth, the clerk's pen, pages turned in unison, forty minutes of it without a pause.",
+      "voice": "And there is another part, and it is the one nobody thinks to be suspicious of. The books describe it as what does not turn back until the thing is finished. They also say, flatly, that it has no colour of its own. The same push carries a boat down a current or carries a load up a hill; where it goes depends on the slope it is put on, not on itself. The catalogue will be worked to its last line, whatever the last line fetches.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "Faces in one frame in a back row: a young buyer grinning and nudging the man next to him after a lot, and beside them a man in his sixties who has bought the same size of lot every week for thirty years and whose face does not move at all.",
+      "voice": "Be careful here, because this is where a film like this usually starts accusing people. These books are sorting kinds of moment, not kinds of man, and nothing they say licenses anyone to look at a face and pronounce on it. One of the two compendiums does rank the flat kind above the glad kind in weight, which is the opposite of what most people expect, and it gives no reason for it that we have found. So: look at the two faces. We are not going to tell you what they weigh.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Half past eleven. An empty hall, chairs out of line, catalogues on the floor, the hammer left on the desk. Then, weeks later, the same heap: husked, sacked, counted out and carried to a lorry by people who were never in the room.",
+      "voice": "One last distinction, and it is the one these books are most careful about. The wish to do a thing is not the sticking that grips it. They say the wish can feed the grip, and that it can work against it, and that trained, it is what carries a person all the way to the far end of what they are capable of. Not all of that hour was the problem. Only the part that stuck.",
+      "concept_id": "C021"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C006 contributes the contrast the exchange is built on: the sources sort greed-rooted minds by joyful or flat feeling, and rank the flat, unexcited kind as stronger than the joyful one, which is the reverse of what most people would expect. C021 contributes the appraiser's side: decision, which settles firmly on something whether or not it is right, and effort, which carries on until a task is finished, neither of them good or bad in itself.",
-    "what_it_reveals": "That the quieter party in a hopeful exchange is not the less involved one, and that calm is not evidence of detachment. Where the film could not go is the ranking itself: the digest records it as unexplained in the sources and needing an expert check, so it could only ever have been shown, never stated."
+    "why_together": "Read fresh, C006 is a description of settings rather than a verdict: gladness or flat feeling [C006-P:L25] [C006-P:L74]; arising sharply of its own nature [C006-P:L44] or urged on by others or by one's own coaxing of a hesitating mind [C006-M:L5] [C006-P:L58–L62], the pushed kind carrying a sluggishness the sharp kind does not [C006-P:L62]; and a third dial, the justifying story, which is interior [C006-P:L33]. An open-cry auction is the only ordinary place where the first two happen in public, out loud, within a metre of each other, on a schedule. C021 supplies what the sources say is going on around the wanting rather than inside it: decision, which settles firmly on its object whether or not it is right [C021-P:L45]; effort, which does not turn back until the task is done [C021-M:L19] and which is pictured as a current that carries a boat downstream or a load that has to be taken uphill [C021-P:L53]; and the wish to act, which both sources insist is not the sticking, can oppose it as readily as feed it, and developed leads to the highest good [C021-M:L27] [C021-P:L75]. Put in a room where the thing being bought is fifty miles away, the pair gives a film that can watch a wanting mind being assembled without ever having to accuse the people assembling it, and it sharpens the decision beat to a point, because certainty here is certainty about something absent.",
+    "what_it_reveals": "That the interesting thing in a bargain is not who was greedy. C006 alone would make this a film about buyers. C021 alone would make it a film about work. Together they take the most dramatic second in the room, the fall of the hammer, and hand it to the wrong faculty on purpose: that moment is decision, not desire, and the sources say decision is just as firm when it is wrong, which turns the room's confidence into something a viewer can feel rather than be told, because what it has closed on is not there to be checked. And they give the film an ending it could not otherwise have. C021 refuses the sermon the whole group is in danger of: wanting to do something is not the problem, and a catalogue worked from its first line to its last without a pause is the proof that the sources needed a separate word for it."
   },
   "concept_links": [
     {
       "concept_id": "C006",
       "role": "primary",
-      "why": "The digest's own story seed is a trading street where practised dealers and first-time sellers meet, and it ties the calm-beside-hopeful contrast to the sources' sorting of greed-rooted minds by joyful and neutral feeling, and to their ranking of neutral above joyful [C006-P:L74] [C006-M:L19]. The digest flags that ranking as unexplained and needing an expert check, and warns that portraying dealers as predatory would be defamatory in effect."
+      "why": "An open-cry auction is the sources' first two settings happening in public and on a timetable. Wanting that arises sharply, of its own nature, needing no push [C006-P:L44], stands next to wanting urged on by another, which is exactly what a caller's voice is for [C006-M:L5], and next to the third case, a person urging round their own hesitating mind, which the sources say carries a sluggishness the sharp kind does not [C006-P:L58–L62] [C006-P:L62]; and the same reaching is sorted again by gladness or flat feeling [C006-P:L25] [C006-P:L74]. The digest's limits are inside the sequence, not parked in the risks. The Margaya's ranking of flat above glad [C006-M:L19] is recorded as unexplained and needing an expert check, so beat 7 shows the two faces and refuses to weigh them. The justifying-story dial [C006-P:L33] is interior and is never read off a bidder. The digest's warning about the trading-street seed is absolute here: a film that makes practised buyers into predators would be defamatory in effect and would also be untrue, and it would be especially tempting in this room, because the person who grew the thing is not in it. Absence is not evidence of exploitation, and the film does not treat it as though it were."
     },
     {
       "concept_id": "C021",
       "role": "supporting",
-      "why": "Decision is described as the mind settling firmly on an object, rightly or wrongly, and effort as what does not turn back until a task is done [C021-P:L45] [C021-M:L19]. A practised appraisal is a plain instance of both, and they carry no moral colour of their own."
+      "why": "Kept, and rebuilt on what the digest actually says. Decision is the factor that settles firmly on its object, and the sources are explicit that it settles just as firmly when it is wrong [C021-P:L45], which is what the hammer at the end of the calling is: certainty, not knowledge, and here certainty about an object nobody in the room can see. Effort is what does not turn back until the task is finished [C021-M:L19], and the digest's own line is that it has no colour of its own, pictured as a boat carried by a current or a load taken uphill [C021-P:L53]. Most importantly, both sources draw a hard line between the wish to do a thing and the sticking that grips it: the wish can feed grasping, can work against it, and developed leads to the highest good [C021-M:L27] [C021-P:L75]. That line is the film's ending, and it is the one thing in this group that stops the series moralising about work. The digest's guards travel with it: 'follow your passion' and 'hard work is virtuous' are both readings the source refuses, and the traditional physiology of rapture [C021-P:L61] is not used."
     }
   ],
-  "what_the_viewer_could_understand": "The person who looks calm in a bargain is not wanting less than the person who looks hopeful. Flat, unexcited wanting is still wanting, and it is the harder kind to notice.",
-  "what_must_be_real": "A real find, a real family's stake and a real trade. No price, appraisal or negotiation arranged, and no dealer's livelihood risked by what is shown.",
-  "position_hint": "middle, if ever revived: it belongs with the group's joyless-wanting beat rather than with its refusals.",
+  "what_the_viewer_could_understand": "That the confident moment in any bargain is not the wanting; it is a separate thing, the settling of a mind on an object, and it feels identical whether it is right or wrong, and it can close just as hard on something that is not even in the room. And that not all of the drive in a selling hour is grasping: the sources keep a separate word for the wish to do something, and say it can pull the other way.",
+  "what_must_be_real": "The real sale, on its real morning, at its real speed, and a real lot followed from where it lies to the hammer and back to where it is collected. No bid, hesitation, price or gesture is arranged, repeated or re-staged, and no individual buyer, broker or grower is identified with a figure. Published market prices are public; what any one party pays, holds or makes is not, and is not made legible to their competitors. Nobody is filmed in order to lose, and no one's bad morning becomes the film's ending. The work at the collection end, done by people who never see the room, is shown honestly or not at all, and it is not used as a reproach to the people in the room unless the film can actually show that it is one.",
+  "position_hint": "middle, late: the group's hardest look at how a wanting mind is put together, and the film that lets the group end on the distinction between wanting to do and grasping. It wants the plainer films behind it. No location reasoning is involved.",
   "risks": [
-    "Portraying dealers as predatory, which would be defamatory in effect",
-    "Exposing a family's financial hardship without full understanding on their part",
-    "Real prices carry commercial sensitivity for everyone involved",
-    "Asserting the sources' ranking of flat over joyful wanting, which the digest flags for expert check"
+    "Portraying buyers or brokers as predatory, which the digest names as defamatory in effect and which the film has no evidence for. The temptation is strong here precisely because the grower is not in the room, and the film must not let absence stand in for proof.",
+    "Calling anybody greedy. The sources describe kinds of moment, not kinds of person, and beat 7 says so on screen before the narration goes anywhere near a face.",
+    "Asserting the Margaya's ranking of flat wanting above glad wanting [C006-M:L19], which the digest records as unexplained in the extracts and needing an expert check.",
+    "Letting an Abhidhamma narration over a working trade imply that the people in it hold a wrong view, or that their business is a fault. The Pradeepika's example of wrong view [C006-P:L33] is the passage the digest flags as sensitive, and the film neither uses it nor gestures at it.",
+    "Mapping 'wrong view' onto anyone's faith or community, which the digest forbids outright.",
+    "Building the film on a bad week. Nobody appears here in order to lose, and a lot that was withdrawn or fetched little is not the film's ending.",
+    "Making any individual's position or margins legible to their competitors, in a room where everyone present is everyone else's counterparty.",
+    "Letting 'he was talked into it' read as an excuse; prompted wanting is ranked weaker in the sources and is not absolved by them.",
+    "Reading 'follow your passion' or 'hard work is virtuous' off the effort beat; the digest names both as readings the source refuses.",
+    "Filming inside a state institution on terms that turn the film into an account of the institution's performance, which is not what this is and which the concepts have nothing to say about.",
+    "Treating the counting, husking and carrying at the collection end as picturesque, or as silent reproach. If the conditions and the rates there cannot be shown straight, they are not shown as atmosphere."
   ],
   "drop_if": [
-    "No dealer will allow real appraisals and prices to be part of the film",
-    "A family's hardship cannot be shown with dignity and full understanding"
+    "The sale is conducted online, by telephone or by sealed bid rather than live and out loud in a room, so there is no calling and no hammer to film.",
+    "Filming can only be arranged by asking anyone to bid, hesitate or call differently from how they would anyway.",
+    "One catalogue line cannot be followed from the place the nuts are lying, to the hammer, and back to the collection, which is the film's whole spine.",
+    "Access is offered on condition that the trade's ordinary failures, or the conditions at the collection end, stay off camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0013",
-      "relation": "merged into",
-      "note": "Its substance now sits inside IDEA-0013: the practised, unexcited half of a hopeful exchange, and the sources' ranking of flat wanting above joyful."
+      "relation": "mirrors",
+      "note": "Two kinds of buying, one where the seller calls to a stranger at speed and one where the buyers call a price at a seller who is not in the room."
     },
     {
-      "idea_id": "IDEA-0020",
+      "idea_id": "IDEA-0014",
       "relation": "pairs with",
-      "note": "One trade in pricing a stone, one in shaping it."
+      "note": "What a thing is for, decided slowly by hand over a week, and what a thing is worth, decided in public in ninety seconds by people who have never touched it."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0013",
-    "reason": "Its contrast between a hopeful seller and a practised, unexcited buyer, and the sources' ranking of flat wanting above joyful, are folded into IDEA-0013, which carries the same pairing in a daily trade at far lower cost to the people in it."
+    "superseded_by": null,
+    "reason": "An open-cry sale of an object that is nowhere near the room: it films a wanting system in public without anyone's disappointment in it, it puts the sources' line about decision that settles firmly when it is wrong into a single second, and it carries the group's ending about wanting to do rather than grasping."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Relocated. The previous draft set this film at a fish auction in a working harbour, which collided with IDEA-0026, whose ring of buyers closing and opening around each catch is that idea's entire film; IDEA-0026 keeps the auction, and this idea has been moved off fish auctions entirely. Everything else stands: the concepts, the concept links, the two-layer logic and the digests' guards are unchanged in substance. The new location is a weekly open-cry produce auction held in a state authority's hall, chosen because the idea needs wanting declared out loud and competitively on a fixed schedule, and because this particular sale sharpens C021's central line rather than merely illustrating it: the object is not in the room at all, so the decision that 'settles just as firmly when it is wrong' is filmed closing on a heap of nuts lying under trees fifty miles away. C006's three settings survive intact, with the caller's chant as the prompting, the instant bidder as the spontaneous case and the man who lowers his catalogue and comes back higher as the self-urging one. New title, because the old one described a harbour hour; the old title is kept in aliases. Sequence, place, two_layers, risks, drop_if, connections and suggested_location rewritten for the new site, with a new risk added that the film must not treat the grower's absence from the room as evidence of anything. Images are empty, because Wikimedia Commons holds nothing of this trade or this hall. review.status stays pending.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Colombo Fresh Coconut Auction, Coconut Development Authority, Narahenpita, Colombo 5",
+    "also_known_as": [
+      {
+        "name": "Fresh Coconut Auction",
+        "meaning": "the authority's own name for the weekly sale",
+        "used_by": "Coconut Development Authority and the trade"
+      },
+      {
+        "name": "Pol vendesiya",
+        "meaning": "'the coconut auction' in ordinary Sinhala",
+        "used_by": "local usage"
+      }
+    ],
+    "region": "Narahenpita, Colombo District, Western Province; the authority's head office in the capital, with the lots themselves lying on estates in the coconut-growing country of the north-west",
+    "coordinates": {
+      "lat": 6.8924,
+      "lng": 79.877
+    },
+    "elevation_m": 10,
+    "why_here": "It is a weekly, live, open-cry sale of an ordinary staple, conducted by a public authority in a plain room, and it gives the two concepts in one second of footage. The bidding is out loud, competitive and in fixed steps of a hundred rupees per thousand nuts, which is C006's prompting and spontaneity happening on a timetable and within a metre of each other. And the object is absent: the catalogue describes nuts lying under trees on somebody's estate, the buyer has at most walked round the heap on an earlier working day, and the sale closes with a hammer. That is C021's decision, the factor that settles firmly on its object and settles just as firmly when it is wrong, made visible without anyone having to say it. The trade is also honest about the group's subject and free of its worst trap: nothing in the room is anybody's misfortune, the sellers can and do refuse the highest bid, and the scale is small enough that the film is a room and a heap rather than an industry. Finally it is almost never filmed, and it is the machinery behind a price that everybody in the country pays and nobody thinks about.",
+    "what_to_film": [
+      "A lot where it is lying, on an earlier day: several thousand nuts heaped under palms, counted in hundreds with a tally, which is the only way the thing being priced gets on screen at all.",
+      "The catalogue: its issue, and then the same sheets in forty pairs of hands, marked and re-marked, which is where the sale actually exists.",
+      "The hall filling, in real time, with nothing explained.",
+      "One lot from open to hammer, in a single unbroken take, with the caller's voice carried straight.",
+      "A bidder who comes in the instant a lot opens, and, if the morning gives it, one who lowers his catalogue, works on himself, and comes back in higher. It cannot be arranged and is worth several sale mornings of waiting.",
+      "The hammer itself, close, and the clerk's pen immediately after it.",
+      "Forty minutes of the middle of the sale filmed as one block, so that the effort beat is earned rather than asserted.",
+      "The empty hall at the end: chairs out of line, catalogues on the floor, the hammer left on the desk.",
+      "The same lot weeks later, at the collection: husked, sacked, counted out and loaded by people who were never in the room."
+    ],
+    "access": "The sale is held by a statutory authority and is open to registered buyers, sellers and brokers, so filming would need the authority's permission and then the agreement of the people in the room, who are each other's competitors and will reasonably want to know what is being recorded. Following one catalogue line to its collection needs a grower's and a buyer's separate consent. The auction calendar, the day and the venue are set by the authority and published in advance and must be confirmed before anything is planned, because the day of the week has been changed more than once.",
+    "best_time": "A sale morning in a season when the crop is moving, with the catalogue day two days before it and a collection-end day either side. The sale itself is roughly ninety minutes and cannot be picked up later. A week in which the price is visibly moving is worth asking the trade about in advance.",
+    "images": [],
+    "sources": [
+      "https://www.cda.gov.lk/web/index.php?option=com_content&view=article&id=22&Itemid=135&lang=en",
+      "https://www.cda.gov.lk/web/images/pdf/auctions/new_auction_rules.doc",
+      "https://economynext.com/sri-lanka-coconut-auctions-go-online-69908/",
+      "https://www.cda.gov.lk/web/index.php?lang=en"
+    ],
+    "research_note": "That the Coconut Development Authority runs a fresh coconut auction, that it is held weekly in the morning, that it is conducted by officers of the authority or a licensed auctioneer, that lots are catalogued in advance from sellers' declarations, that coconut parcels are sold by competitive bidding to the highest bid the supplier accepts, that bids are in rupees per thousand nuts with a minimum step of a hundred rupees, that the sale is 'concluded by fall of the hammer', that intending buyers may inspect a lot at the place where it is lying on any working day between nine and five, and that husking and removal follow within five weeks, are all taken from the authority's own published auction rules and auction page, which is desk research and has not been checked by attending a sale. The coordinates are a gazetteer point for the authority's head-office neighbourhood in the capital, not a surveyed door, and the venue for any given sale is fixed by the authority's own calendar. One thing has to be checked before anything else: the auctions were moved online in 2020, and although the authority's current page describes a weekly sale conducted by its officers or an auctioneer, whether it is now held live in a room, with calling and a hammer, or electronically, is unverified, and the film does not exist if it is electronic. A second sale in the coconut country outside the capital is also referred to in the reporting and may be the better room. On images: Wikimedia Commons was searched for this auction, for the authority and for the trade, and returned nothing usable at all, so the images array is empty rather than filled with a photograph of somewhere else. Checked again on 2026-09-21: the auction is live and in person, held at 10am each Wednesday as of May 2026, conducted by officers of the authority or a licensed auctioneer, with bids rising in steps of one hundred rupees per thousand nuts. It was run online during a curfew period and has since returned to the room, so the open-cry format the film depends on is current but has a precedent for being suspended. Access and filming permission are unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No buyer, broker, grower, official or permission has been found or confirmed. Everything here is a research direction.",
+    "The day, hour and venue are set by the authority's own calendar and have been changed before; they must be confirmed for the week in question.",
+    "Whether one catalogue line can be followed from the estate to the hammer and back to the collection, with everyone's consent, is unknown, and the film's spine depends on it.",
+    "What the work at the collection end actually looks like, who does it and on what terms has not been checked, and it cannot be put on screen on assumption.",
+    "The auction was confirmed live and in person for 2026, but it has been moved online before, so the format must be re-checked close to filming."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

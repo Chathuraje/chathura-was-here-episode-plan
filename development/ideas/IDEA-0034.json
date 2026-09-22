@@ -2,79 +2,167 @@
   "schema_version": 1,
   "id": "IDEA-0034",
   "record_type": "idea",
-  "title": "Match Point",
+  "title": "Where the Water Stops",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Match Point"
+  ],
   "group_id": "GRP-03",
-  "logline": "A close local tournament match stops dead on a decision nobody accepts, and for several long minutes nobody is playing and everybody has an opinion.",
-  "human_question": "In the minutes after a ruling nobody accepts, what does a crowd actually do with its own displeasure?",
-  "situation": {
-    "what_happens": "A closely fought match between teams who all know each other reaches a decision that one side will not take. Play stops. The protest is public and immediate, and it involves people who have no part in the game at all, because everyone watching also has a view. Someone has to get the match moving again, which means somebody's word has to be accepted by people who do not want to accept it. Then play resumes, and the same people who were loudest a moment ago are back inside the ordinary business of the game.",
-    "who_is_involved": "The players on both sides; the official whose word is being refused; the organisers who have to restart the match and keep the tournament running; spectators who know every player by name and have money, pride or family in the result; and whoever steps in from outside the argument to calm it.",
-    "what_is_at_stake": "A result, a small trophy, and a good deal of standing in a place where everyone will meet again next week. For the official, being obeyed at all. For the film, not turning ordinary people having an ordinary sporting row into evidence of bad character.",
-    "how_it_unfolds": "It begins with a tight game and a decision that goes one way. The pressures are the crowd's closeness, the fact that the ruling cannot be reviewed, and the minutes passing with nothing happening. It can end with the ruling standing, with it being reversed, with the match abandoned, or with an apology nobody asked for. Reality decides, and so does whether any such moment happens at all during the days a crew is present; it cannot be arranged."
+  "logline": "A shallow tank on a flat dry plain is opened on a decided day, and the water runs out along a straight channel for tens of kilometres until it stops, leaving a line across the plain that is green on one side and grey on the other.",
+  "human_question": "What arrives in a person at the moment they find out that what was promised ran out before it reached them?",
+  "place": {
+    "what_kind_of_place": "A very large, very shallow tank on a flat semi-arid plain near the north-western coast, restored a century ago on top of a far older work. Its bund runs about seven kilometres and stands only a few metres high, so from the ground it barely reads as a dam at all; it is a low line across a plain that has almost nothing else straight in it. The tank does not live on its own catchment. It is fed by a long inlet channel from a river that is turned aside many miles upstream at a causeway of cut granite hundreds of metres long. Seven sluices let water out of it into a main channel and its branches, which run for tens of kilometres, hand water on to a large number of smaller village tanks, and irrigate about eleven thousand hectares of paddy. In a bad year the tank bed is dry except for one stream down the middle of it, and the channels are still expected to deliver. Every part of the place is an arrangement for moving water from where it is to where people need it, and every part of that arrangement is a decision about who gets it and when.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. The geometry: a dead straight bund and dead straight channels ruled across a plain of scrub and paddy, with water birds standing along the bund line at first light and the tank behind it going from silver to nothing as the season runs down. The causeway, where one river arrives and leaves as two, part of it carrying on downstream and part of it turning off into a canal dug for the purpose. And the wetting front: water arriving over cracked grey earth and moving across it at walking pace, then slower, then stopping, filmed low and raking so every crack is visible, and again from directly above, where the advancing edge is a dark shape growing into a pale field.",
+    "what_moves_or_changes": "Water, on a schedule that is decided before the season starts. Gates are wound up and the channel fills; gates are wound down and within minutes the level drops and what was moving becomes still. Over weeks the plain changes colour from grey to green, and then, in patches nobody could name at the start, back to grey. The tank falls all season. The channels silt and are cleared by hand. Nothing in the film needs staging, because the whole place is one very slow mechanism operating in the open.",
+    "when_it_looks_best": "During an actual water issue, which is the only time the channels run. First light for the bund, the birds and the long straight lines. The wetting front needs sun low enough to rake across dry soil, so early morning or late afternoon. The wide aerial that the film ends on needs the crop far enough along for the colour difference between watered and unwatered ground to be unmistakable, which is late in the season. The tank at its emptiest, near the end of a dry year, is a shot of its own."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about the oldest machine on a plain and the season it runs. It resolves on its own terms: a river turned aside, a tank filled, a gate opened, water walking out across dry ground, a crop coming up, and the water running out somewhere short of the end. Someone who never hears a word of the narration gets the scale of an ancient irrigation work seen from the air, the precision of its engineering seen from a few centimetres, and one of the most satisfying pieces of movement anywhere in agriculture, which is the moment water first crosses ground that has been dry for months.",
+    "with_the_philosophy": "The same footage becomes a demonstration. The sources say this state arises on meeting a disliked object, and they list its ordinary occasions: what you asked for was not given, your word was not accepted, somebody seems to have done wrong. A plain built to deliver what people asked for is also a plain built to refuse it, in a place you can point to from the air. The voice never accuses anybody and never reads a mind. It reads the geography: a line where a promise ran out, with a crop on one side of it and none on the other, and it says what the books say about what that line does to the people who live at either end of it."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from the air. A low dead-straight bund running for kilometres across a flat plain, water birds standing along it, and behind it a sheet of shallow water with a tree line on the far side.",
+      "voice": "This is a machine, and it is about fifteen centuries old. It does one thing. It takes water from where it happens to be and puts it where people need it. Everything you can see here was built so that a promise could be made about water, which is the sort of promise that can be kept exactly and still not reach everybody.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "The causeway of cut stone across the river, far upstream. Water sheets over it. On one side the river carries on; on the other it turns off into a canal dug to take it.",
+      "voice": "It starts here, where a river is divided. Nothing is taken from anybody at this point. The water simply leaves one bed and enters another, and from now on where it goes is a decision, made by people, for a season, in advance.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "A sluice. The gate is wound up by hand. The channel below fills, brown and fast, and runs away in a straight line to the edge of frame.",
+      "voice": "The books that this series is reading list the ordinary occasions when a certain state of mind arrives in a person. What one asked for was not given. One's word was not accepted. Others seem to have done wrong. They are not describing a battlefield. They are describing a day when something everybody agreed about did not happen.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Ground level, raking light. Water arrives over grey cracked earth and moves across it at walking pace. Overhead: a dark edge growing across a pale field, slowing.",
+      "voice": "The definition they give is exact. Something disliked arrives, and the mind strikes against it and wants it gone. And they are firm that it never comes without a painful feeling of its own. You can want something and be happy while you want it. Nobody has ever done this and felt pleasant.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "The gate is wound back down. Within a minute the channel level drops and the moving surface goes still. Cut to the same channel later: dry, cracked, cattle standing in it.",
+      "voice": "One of the books gives an example of how wanting turns into this. A person wants something, a living thing is in the way, and at the moment the wish becomes remove it, the state has changed. That example needs somebody to be in the way. Here there is nobody in the way. There is a gate, a date and a quantity.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "The wide aerial the film has been waiting for. The channel runs dead straight across the plain. Beside it the crop is green, and then, at a point, it is not: grey-brown ground running on to the horizon.",
+      "voice": "The books put envy next to anger rather than next to wanting, and they say what it takes as its object: other people, and specifically their good fortune, felt as something done to us. This line is not evidence of that in anybody. Nobody down there is an example of anything. It is only the place where the difference became visible.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "End of season. The tank bed almost dry with one stream through the middle of it. People walking the channels with mammoties, cutting silt out of the bed for next year.",
+      "voice": "There is no exception in these books for being in the right. They say the hatred felt towards someone who has actually come to harm you is the fiercest form of the same thing, not a better kind of it. They also say that four things sit in every one of these moments, and one of the four is restlessness, which is why the same arithmetic gets done again after it has already been done. Next season the gate opens again on a decided day.",
+      "concept_id": "C022"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C007 supplies the occasion in the sources' own words: Margaya lists a request refused, one's word not accepted, and others seeming to have done wrong among the everyday causes of this state [C007-M:L17], and both hate-rooted minds always carry a painful mental feeling [C007-P:L25–L28]. C022 supplies the constant floor beneath it: restlessness is one of the four present in every unwholesome moment [C022-P:L31], which is what a stopped match looks like from the boundary. Together, an occasion and its contents, at the volume a village ground gives them.",
-    "what_it_reveals": "That the state is public and brief at the same time. A whole ground can hold it at once, and a few minutes later the same ground is holding something else entirely, which is precisely what the scheme claims: these are moments, not people."
+    "why_together": "C007 supplies the occasion in the sources' own words. Margaya lists a request refused, one's word not accepted, and others thought to have done wrong among the everyday occasions for this state [C007-M:L17], and Pradeepika stresses life's afflictions, including not getting what one wants [C007-P:L49]. Its definition gives the shape: a disliked object arrives, the mind strikes against it and wants it gone [C007-P:L32–L34], and both hate-rooted minds always carry a painful mental feeling [C007-P:L25–L28; C007-M:L3–L9]. C022 supplies two things C007 cannot. First the constant floor: restlessness is one of the four factors present in every unwholesome mind whatever else is there [C022-P:L31; C022-M:L3], which is what a season of recalculating looks like. Second the fine distinction the place actually needs, because Pradeepika separates envy, which takes other people and their good fortune as its object, from stinginess, which takes one's own things [C022-P:L129; C022-P:L133], and places both with aversion rather than with desire [C022-P:L121]. A scheme whose geography is literally a sequence of people in a queue for one resource is where that distinction can be shown as landscape rather than asserted about anybody.",
+    "what_it_reveals": "That the occasions the sources list are not dramatic and do not need a villain. What a large irrigation work produces, every season, is a line: a place where a promise that was correctly made and correctly kept nevertheless ran out. C007 alone would send the film looking for a row, and a row cannot be filmed here without singling somebody out. C022 alone would be a classification with nothing at stake. Together they turn one aerial frame into the argument: a straight channel with a crop beside it that simply stops, which is the disliked object arriving, drawn at the scale of a plain, with nobody in frame who can be made an example of."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "Margaya names 'when one's word is not accepted' and 'when others seem to do wrong, or are thought to have done wrong' among the ordinary daily occasions for this state of mind [C007-M:L17], and Pradeepika's account gives its shape: a disliked object met, and a mind that strikes against it [C007-P:L32–L34], always with a painful mental feeling [C007-P:L25–L28]. A disputed ruling is that occasion in its most public and least private form. The film may not use the sources' insistence that even laughing harm is hate-rooted [C007-M:L11] to read anyone's behaviour on a sports field, and may not narrate the traditional bodily effects [C007-P:L47] as observable fact."
+      "why": "Margaya names 'when what one asks for is not given' and 'when one's word is not accepted' and 'when others seem to have done wrong' among the ordinary daily occasions for this state [C007-M:L17], and Pradeepika puts not getting what one wants among life's standing afflictions [C007-P:L49]. A scheme that issues water on a decided date, in a decided quantity, along a channel with a first field and a last field is that list built in earth. Pradeepika's account supplies the shape the voice reads off the place: a disliked object is met and the mind strikes against it, wanting it destroyed [C007-P:L32–L34], always with a painful mental feeling [C007-P:L25–L28], which Margaya explains through the name paṭigha, striking against [C007-M:L3]. Three limits are load-bearing. Pradeepika's example of a wish becoming the wish to remove a living obstacle [C007-P:L59] is used in beat 5 only to say that it does not apply here, because what stands in the way is a gate and a date, not a person; the film may not turn head-end cultivators into the obstacle in that example. Margaya's refusal to exempt hatred towards someone who has genuinely harmed you [C007-M:L11] means the film neither excuses nor condemns a tail-end cultivator's anger. And the traditional bodily effects [C007-P:L47] and the claim about such minds at the time of death [C007-P:L51] are doctrinal and are never narrated as observable fact."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Restlessness is one of the four factors both sources place in every unwholesome mind, whatever else is present [C022-P:L31; C022-M:L3]. A stoppage is that unsettledness spread across a whole ground rather than held by one arguing player. The earlier version of this link compared restlessness to wind shaking the leaves of a tree; the digest records the compendium's similes and that is not among them, so the image has been dropped rather than attributed."
+      "why": "Pradeepika names the four factors present in every unwholesome mind, restlessness among them [C022-P:L31; C022-M:L3], which is the floor under a season spent recalculating an arithmetic that has not changed. Both sources also place discontent, disgust, displeasure and the wish for revenge inside the same factor as anger [C022-P:L121; C022-M:L35], which is the register this place is actually in; there is no flare here, only a long low displeasure with a schedule. The distinction the film leans on is Pradeepika's: envy takes other people as its object and cannot bear their good fortune, while stinginess takes one's own things and its kinds are counted accordingly [C022-P:L129; C022-P:L133–L135; C022-M:L43–L45]. Beat 6 uses the first and explicitly refuses to attach it to anybody in the frame, and the film does not use the second at all, because water running in a common channel is not among the things the sources list stinginess as clinging to and mapping it there would be an invention. The earlier version of this link compared restlessness to wind in the leaves of a tree; the digest records the compendium's similes and that is not among them, so the image stays dropped. Nothing may be stated as a reading of anyone's mind: the scheme describes single moments and a camera cannot see which factor is present."
     }
   ],
-  "what_the_viewer_could_understand": "The texts name having your word refused, and thinking someone else has done wrong, among the commonest reasons this heat arrives at all; and they say it never arrives without pain. A ground full of people can hold it together and lose it together in the space of a few minutes, which is a plain way of seeing that it is a state passing through people rather than a description of them.",
-  "what_must_be_real": "The match, the dispute and its resolution must be a real, unstaged local event. No decision, appeal or reaction may be prompted or restaged, and no moment may be waited for as an opportunity. Anyone shown at their angriest must consent to being shown that way, and the aftermath must be filmed with the same weight as the flare.",
-  "position_hint": "middle, if it were used: it is the group's most public and least intimate version of the same state, and it works best after the state has been introduced somewhere quieter. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That the commonest occasions for this state, in the texts' own list, are undramatic: you asked and did not get, your word was not taken, someone appears to have done wrong. And that the last of those three is the dangerous one, because from the far end of a channel a shortage and a wrong look identical. The texts say the state never arrives without pain, and that being genuinely at the wrong end of something buys no exemption from what it is. All of this is visible without anybody being filmed at their worst: it is a line on a plain.",
+  "what_must_be_real": "The scheme, the season, the issue dates and the shortfall must be real and observed as they happen. No gate is opened, closed or re-opened for the camera, and no water is moved for a shot. Nobody is asked to describe their situation in the film's terms, nobody is filmed in a dispute, and no individual cultivator, official or gate-keeper is set up as the person responsible for where the water stopped. Any account of who took what is one party's account and is presented as such. The state of the channels and the fields is shown as it is or not at all, and the film does not settle a question of allocation that it is in no position to settle.",
+  "position_hint": "middle: it is the group's largest and least personal version of the same state, and it works best once the state has been seen at the scale of a pair of hands. No location reasoning is involved.",
   "risks": [
-    "Editing could make ordinary players look like people with a permanent bad temper, which is exactly the reading the scheme forbids.",
-    "Consent from spectators shown reacting strongly.",
-    "Exaggerating a brief stoppage into more drama than it actually was.",
-    "The event cannot be arranged, so waiting for it turns a crew into people hoping a community falls out."
+    "Making the film an intervention in a live allocation dispute, or letting the edit imply that a particular group upstream took what belonged to somebody downstream.",
+    "Attributing envy, or any other named factor, to identifiable people on the strength of where they farm; the scheme describes moments of mind and a camera cannot see one.",
+    "The righteous-anger reading, which a tail-end field invites more strongly than almost anything; the sources make no exception for anger at a real wrong [C007-M:L11].",
+    "Importing the sources' example of removing a living obstacle [C007-P:L59] into a landscape where the obstacle is a gate and a date, which would turn neighbours into the obstacle.",
+    "Narrating the traditional bodily effects of aversion [C007-P:L47] or the claim about such minds at the time of death [C007-P:L51] as fact.",
+    "Mapping the sources' stinginess onto the sharing of water in a common channel; its five kinds are about one's own things [C022-P:L133–L135] and shared irrigation water is not among them.",
+    "Drifting into an engineering documentary in which the antiquity of the works is the subject and the concept is decoration.",
+    "Filming in a district where irrigation and land are politically charged, without the local understanding to know what a shot is being read as."
   ],
   "drop_if": [
-    "No disputed or tense moment happens during a filming window without being provoked.",
-    "Participants do not want the moment shown."
+    "No water issue falls within a filming window, so the channels are dry throughout and the film's central movement does not exist.",
+    "The shortfall can only be shown by naming or filming the people held responsible for it.",
+    "Aerial work over the scheme cannot be permitted, which removes the shot the whole film is built to reach."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0033",
-      "relation": "merges into",
-      "note": "Its occasions list and its aftermath strand are folded into the mended net, where a longer repair can hold both the flare and what follows it."
+      "relation": "pairs with",
+      "note": "Two places where a shared resource is physically divided: one where the division is gear standing in water nobody can see at night, one where it is a gate and a date."
     },
     {
-      "idea_id": "IDEA-0038",
-      "relation": "pairs with",
-      "note": "Two crowds held in one place by something they did not choose."
+      "idea_id": "IDEA-0035",
+      "relation": "leads into",
+      "note": "Water that stops short of a field, and then the weeks in which whatever the water did reach has to be guarded all night."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0033",
-    "reason": "Its philosophy is sound and is the digest's own leading example for C007, but it depends on an event nobody can schedule; its substance is folded into IDEA-0033, which holds the same occasions over days instead of minutes."
+    "superseded_by": null,
+    "reason": "Relocated out of sport, which could not survive the no-protagonist rule, into a place where the stoppage and the disputed boundary are physical, repeated and visible from the air."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape, and moved. The disputed tournament decision has been dropped outright: the old film depended on an unschedulable flare, and the only way to film a crowd's anger is to single out individuals at their worst, which the digests forbid and which the no-protagonist rule makes impossible. What was kept is the structure the digest actually supplies, a stoppage and a disputed boundary, and both have been rebuilt as geography: a large restored tank whose sluices are opened on decided dates, a main channel running for tens of kilometres, and the line, visible from the air, where the water stopped and the crop stops with it. Nobody is filmed in a dispute. New title; old title kept in aliases. Both links re-tested and rewritten: C007 re-grounded on Margaya's occasions list with the living-obstacle example used only to rule itself out, and C022 kept for the four constants and for the envy-and-stinginess distinction, with the stinginess half explicitly not applied to shared water and the wind-in-the-leaves simile left dropped. Added place, two_layers, a seven-beat sequence and a proposed location. Commons holds no usable image of this tank, so images is empty and the research note says so.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Giant's Tank",
+    "also_known_as": [
+      {
+        "name": "Yoda Wewa",
+        "meaning": "the giant's tank",
+        "used_by": "Sinhala usage, and the name used on most Sri Lankan sources"
+      }
+    ],
+    "region": "Mannar District, Northern Province, about 25 km south-east of the district town, on the road in from the east",
+    "coordinates": {
+      "lat": 8.8756,
+      "lng": 80.0333
+    },
+    "why_here": "It gives the concept and the spectacle in the same frame, at a scale nothing smaller can reach. The bund runs about seven kilometres and is only a few metres high, so the whole work reads from the air as a line ruled across an otherwise unruled plain. The tank holds no useful catchment of its own: it is fed through an inlet channel roughly nineteen kilometres long from a river turned aside at a granite causeway hundreds of metres long, which means the film can show, in one shot, the exact place where water stops being weather and becomes a decision. Seven sluices then feed a main channel and branch channels of comparable length, which hand water on to well over a hundred smaller tanks and about eleven thousand hectares of paddy. That is a queue with a first field and a last field in it, physically, for tens of kilometres. It is also a place that empties: in a bad year the bed is dry but for one stream, and the channels are still expected to deliver, which is the shortage the film is about, without the film having to say that anybody caused it. And the plain is flat, bright, bird-filled and almost never filmed.",
+    "what_to_film": [
+      "The bund at first light from the air: the straight line across the plain, the water behind it, and the birds standing along it.",
+      "The granite causeway upstream where the river divides, with water sheeting over the stone and one part of it turning off into the canal.",
+      "The inlet channel running the long distance from the causeway to the tank, filmed as a single line from height.",
+      "A sluice being wound open by hand, and the channel below filling and running away straight to the edge of frame.",
+      "The wetting front on dry ground twice: at a few centimetres in raking light, so the cracks are visible, and from directly overhead, so the advancing edge is a shape.",
+      "The gate being wound closed, and the minute afterwards in which the channel level drops and the moving surface goes still. The same channel dry, later.",
+      "The wide aerial the film is built to reach: the straight channel, green crop beside it, and the point where the green stops and grey ground runs on. Nothing else in the film matters as much as getting this frame.",
+      "The tank at its emptiest, and the hand-clearing of silt out of the channels between seasons."
+    ],
+    "access": "By road from the Medawachchiya–Mannar road, which runs past the scheme; the bund, the sluices and the channels are Irrigation Department works and filming them will need departmental permission, as will any aerial work in a northern district. The causeway upstream is a separate site on the river and a separate journey. Field access is through the cultivators and their farmer organisations rather than through the department, and the two permissions are not the same permission.",
+    "best_time": "Inside an actual water issue, which is the only time the channels run; in this district cultivation follows the north-east monsoon, so the season broadly runs from the last months of the year into the first months of the next. Early morning and late afternoon for the wetting front and the bund. The closing aerial needs a crop far enough along for the colour break to be unmistakable, which is near the end of the season. A dry year gives the emptiest tank and the clearest shortfall; a wet one may give neither.",
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Giant's_Tank",
+      "https://amazinglanka.com/wp/yoda-wewa-mannar/",
+      "https://www.ft.lk/Columnists/drought-driest-mannar-produces-best-paddy-harvest/4-601680"
+    ],
+    "research_note": "Coordinates, the roughly seven-kilometre bund, its low height, the seven sluices, the granite causeway on the river, the inlet channel and the main and branch channels of roughly comparable length, the number of downstream tanks fed, the approximate eleven thousand hectares irrigated, the 1902 restoration and the reported state of the bed in a drought year are from the sources above and are desk research only. Sources differ on the number of downstream tanks, giving figures from just over a hundred to over a hundred and sixty, and the figure is not used precisely here. No documented dispute over allocation at this particular scheme was found; the head-end and tail-end structure described is a general feature of large Sri Lankan irrigation schemes and has not been verified for this one, which is why the film treats the line on the plain as geography rather than as a grievance. Issue dates, the state of the channels, farmer organisation arrangements, departmental filming permission and drone rules in this district are all unverified. A Commons search returned no photograph of this tank or its works, so images is empty rather than filled with an image of somewhere else.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No cultivator, official or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether a shortfall of the kind the film is built around will occur in any given season is unknowable in advance, and in a good year the closing aerial may not exist.",
+    "Departmental permission to film irrigation works, and aerial permission in this district, are unverified and may be refused.",
+    "Whether the film can show the tail end of a scheme without being read locally as taking a side has not been assessed on the ground."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

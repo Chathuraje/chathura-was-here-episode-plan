@@ -2,87 +2,186 @@
   "schema_version": 1,
   "id": "IDEA-0082",
   "record_type": "idea",
-  "title": "No One at the Wheel",
+  "title": "The Order Is Not Anyone's",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "No One at the Wheel"
+  ],
   "group_id": "GRP-05",
-  "logline": "On a mountain road thick with blind bends a driver responds to whatever appears, faster than thought, with nobody, he says, deciding in advance what he will do.",
-  "human_question": "If so much of what we do happens faster than we can think about it, where does our own part in it actually lie?",
-  "situation": {
-    "what_happens": "A driver works a road of steep grades and blind bends with a vehicle full of people who are not related to him and who have handed him their safety for a few hours. Each bend delivers something he could not have known about, and he responds continuously, without any separate act of deciding, for the length of a shift. He can describe almost none of it afterwards except in general terms, and he is entirely aware that he is responsible for all of it.",
-    "who_is_involved": "The driver; the conductor or assistant, who reads the road with him; the passengers, whose trust is complete and mostly unspoken; the operator who sets the timetable, which is the main pressure on how fast the road is taken; and other drivers on the same road, who are part of every decision he makes.",
-    "what_is_at_stake": "Everyone's safety, continuously. A timetable that penalises slowness. A licence and a livelihood that end with one serious error. And a question the driver himself is usually the first to raise: how much of what keeps the vehicle on the road is him.",
-    "how_it_unfolds": "A shift begins at a scheduled time and ends at another, and in between the road decides everything. The pressures are weather, visibility, the timetable, other traffic and fatigue. It ends with an ordinary arrival, which is what almost always happens, or it does not, and no film may wait for the second."
+  "logline": "A single track runs dead straight across a flat northern plain, and twice a day a fixed, gapless sequence runs down it — lever, lock, signal, bell, gate, train — in an order that nobody in it is free to change.",
+  "human_question": "If what we call deciding turns out to be a sequence that runs itself, where does our own part in it actually lie?",
+  "place": {
+    "what_kind_of_place": "A small station on a long single-track line across a flat inland plain in the far north: two low platforms, a name board, a footbridge or a barrow crossing, a room with a block instrument and a row of levers, and a rodded set of points running out from it under the ballast. The line was closed for over two decades and rebuilt; the rails are newer than the country around them. Beyond the platform ends there is nothing but scrub, palmyrah, paddy and a road that crosses the track on the level, with gates and a bell. For most of the day there is no train and nothing to do.",
+    "why_it_is_worth_watching": "Because it is a place where an order can actually be seen. The plain is so flat and the track so straight that a train is visible as a point on the horizon for several minutes before it arrives, which means the whole sequence — the line accepted from the station behind, the lever pulled, the points locked, the signal cleared, the bell, the gates — can be filmed running ahead of the thing that causes it. Then the train passes in seven seconds and the whole apparatus goes back the way it came, in reverse, and the plain returns to itself. It is the most legible instance of a fixed order that a camera could hope to stand in front of.",
+    "what_moves_or_changes": "Very little, and then everything at once. Heat haze, which makes the far rails swim and then resolve. The light across an enormous sky with no relief under it. The timetable, which is the only clock here and which is not always kept. The levers, the signal arms, the gates, the bell, and the long silence between. Nothing on this line can be brought forward or held back for a camera.",
+    "when_it_looks_best": "The dry months, for the haze on a straight track and for clean light on bare ground. Within a day: very early, when the rails hold the first sun and the plain is still cold, and the last half hour of light, when a headlamp starts to read against a sky that has not gone yet."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet film about a straight line across an empty country. Rails, ballast, a name board, heat shimmer, a room with levers in it, gates, long waiting, then a train — and then the waiting again. It is a landscape film about distance and patience, and it is complete without a word: the plain, the apparatus, the arrival, the departure, the plain.",
+    "with_the_philosophy": "The same line becomes the sources' own description of what happens when anything at all reaches us. The texts hold that seeing is not one act but a gapless run of moments in a fixed order, each released by the one before it, and — the part that matters most — that nobody arranges the sequence: not a person by effort, not a god. This film does not claim a railway is a mind. It claims that here is a real place where an order runs which nobody in it may reorder, where each step is only possible because the previous step happened, and where the whole thing ends the moment the thing that started it has gone."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, very high. A single track ruled dead straight across a flat plain of scrub and paddy, running to a horizon with nothing on it. No train. Held long.",
+      "voice": "The sources call a run of mind-moments a street, because the moments come down it one after another, in order, with no gap [C038-P:L29]. Nothing about the street decides what will come along it.",
+      "concept_id": "C038"
+    },
+    {
+      "on_screen": "The station room. A block instrument, a row of levers, a register, a lamp. Then outside: the rodding running away under the ballast, a point blade, a signal arm at danger.",
+      "voice": "The same books are blunt about what cannot be done with a single moment of mind. Knowing properly what the eye has met, understanding a word somebody says, lifting a hand, walking, giving, taking — not one of these happens in one moment. Each needs a whole series, in order [C038-M:L3].",
+      "concept_id": "C038"
+    },
+    {
+      "on_screen": "The sequence starts. A bell code. A lever pulled over. Rodding moving. A point blade closing and locking. A signal arm dropping. Each shot held until the next thing happens, so the order reads as an order.",
+      "voice": "For the fullest kind of seeing, the texts say, four things have to be strong together: a working eye, something to see, light, and the turning toward it. Then the sequence runs: the resting mind disturbed, the turning, the bare flash of seeing, receiving, examining, settling what it is, seven beats of response, and a short lingering [C041-P:L29–L48].",
+      "concept_id": "C041"
+    },
+    {
+      "on_screen": "The road crossing. The bell starts. Gates come down. Motorcycles stop. Far off, at the end of the straight, a point appears in the haze and does not seem to grow.",
+      "voice": "Seventeen moments, in one fixed order, and not one of them may be taken out of turn [C041-P:L25]. The thing seen lasts exactly that long and no longer, and when it ends the run ends with it [C041-M:L7].",
+      "concept_id": "C041"
+    },
+    {
+      "on_screen": "The train. Seven or eight seconds of it, very close, filling the frame, and gone. Dust settling. The gates going back up. Somebody wheeling a motorcycle forward.",
+      "voice": "Here is the part the sources are strictest about. No person brings this sequence about by effort, and no god arranges it. Each moment arises by the force of the one before, the way a seed makes a tree and a tree flowers in its season [C043-M:L3].",
+      "concept_id": "C043"
+    },
+    {
+      "on_screen": "The apparatus going back, in reverse order: signal arm up, lever back, points released, the register written up, the lamp turned down. The room empty again.",
+      "voice": "And only one stretch of that run carries any weight. Everything before it receives and sorts. In the seven beats of response, and only there, the thing is met with grasping, or hostility, or clearly [C043-P:L75–L89]. What decides which is not what arrived. It is how it was taken in.",
+      "concept_id": "C043"
+    },
+    {
+      "on_screen": "The plain again from very high, exactly the framing of the first shot, and the track empty. Then ground level: rails ticking as they cool, heat going out of the ballast, nothing coming.",
+      "voice": "None of this is a picture of a mind. The books say the mind is the one thing that cannot be put in front of us to be tested, because it is the instrument doing the testing — a knife that cuts everything except itself — so even careful students know these processes only by working backwards [C038-M:L5]. What a place like this can show is an order. What it cannot show is a seer, and the sources say there is not one to show.",
+      "concept_id": "C041"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C043 contributes the strongest claim in the group: this whole sequence of noticing and responding is not brought about by anyone's effort, our own or a god's, and each moment arises by the force of the one before, which the old teachers called the order of mind. C041 contributes the shape of what that unarranged sequence runs through, seventeen moments from a disturbed resting mind to a short lingering, with a burst of engagement near the end that the sources call wholesome, unwholesome or merely functional. C038 contributes the plain claim that no single moment accomplishes an act like steering or braking, and the sources' own frankness that none of it can be observed, only inferred. A driver on a road that gives him no time to deliberate is the clearest ordinary form of a process the sources say has no arranger.",
-    "what_it_reveals": "What the concepts reveal together is the thing that makes this film difficult and worth making: the absence of a deliberating chooser and the presence of real responsibility are not in conflict in a life. The driver is not deciding at each bend and is entirely answerable for every one of them. The sources agree on both halves, since the same list of natural orders that denies a controller also contains the order of action and result."
+    "why_together": "C043 supplies the engine and the film's hardest claim. The Pradeepika walks one eye-door process from the striking of the object through adverting, seeing, receiving, investigating, determining, seven impulsions and two registrations [C043-P:L25–L89], and then sets out the fixed orders that govern which moment may follow which [C043-P:L93–L312]; the Margaya adds the sentence the film is built on, that no person by their own effort and no god arranges this, each moment arising by the force of the one before [C043-M:L3]. C041 supplies the count and the closing rule: for a very great object the run is exactly seventeen moments in one order, the object lives exactly that long, and the process ends when it ends [C041-P:L29–L48; C041-M:L7]. C038 supplies neither of those. What it supplies is the frame and the honesty: the word for such a run is a street [C038-P:L29], nothing a person does — seeing properly, understanding a word, lifting a hand, giving, taking — happens in a single moment [C038-M:L3], and the mind cannot be examined because it is the instrument of examination [C038-M:L5]. Set on a single-track line where the order is interlocked and the sequence ends when the train has gone, the three become one description with nothing added.",
+    "what_it_reveals": "That the thing we experience as a single act is a series in a fixed order, that the order is not anybody's to set, and — separately, and from the right sources — that no seer stands behind the series doing the seeing. C043 alone would be mechanism without proportion. C041 alone would be a count. C038 alone would be a warning against overclaiming. Together they let the film say the strong thing and stay inside the sources while saying it: the seeing really happens, and what is denied is a separate somebody behind it."
   },
   "concept_links": [
     {
       "concept_id": "C043",
       "role": "primary",
-      "why": "The digest reports Margaya's claim plainly: the chain of mind-moments in seeing cannot be brought about by a person's own effort or by any god, and no one directs it; each moment arises by the force of the ones before [C043-M:L3-L5]. It also says how vividly something registers depends on four things lining up, a working sense, enough light, a strong enough object and attention, so vividness is a matter of circumstances rather than will. Four limits are carried. 'Just pause before you react' misreads the source, since the gap it describes lies inside a process far too fast to feel. 'Mind over matter' and 'you control your mind' contradict it outright. 'No doer' is not fatalism, because the same list of natural orders includes the order of action and result. And the source's physiological gloss about nerves and an unconscious person not reacting to injury is the author's own illustration, not doctrine and not medicine."
+      "why": "The digest carries both halves this film needs. The Pradeepika gives the whole run of an eye-door process, from the object striking the sense-base to the two closing registration moments [C043-P:L25–L89], and the four fixed orders that decide which moment may follow which [C043-P:L93–L312]; the Margaya states flatly that no person brings the sequence about by effort and no god arranges it, each moment arising by the force of the one before [C043-M:L3]. The digest also locates the only stretch that carries weight, the seven beats of response, and says what decides their quality is how the object is attended to rather than what the object is [C043-P:L75–L89]. Its warnings govern the voice throughout. The film does not offer a pause you could insert on purpose; the digest says the gap lies inside a process too fast to feel. It does not say you create your own reality, since the source puts the pleasant or unpleasant character of what arrives outside the person. It does not say you control your mind, which the Margaya contradicts outright. The seventeen moments and the counts of impulsions are doctrinal analysis and are never dressed as measured timings or as neuroscience, and the Pradeepika's own physiological illustration is not narrated as physiology."
     },
     {
       "concept_id": "C041",
       "role": "supporting",
-      "why": "The digest gives the seventeen-moment order and says that only one stage in it, the seven-beat impulsion, carries any quality, generous or grasping, kind or hostile, or simply functional, while everything before it receives and sorts [C041-P:L46]. The digest is equally clear that the text never uses the word choice and that 'the pause between stimulus and response is where your freedom lies' is a modern slogan it rules out. The series' reading of impulsion as the place a response is chosen is named in the film as the series' own interpretation, never as the sources' wording. The seventeen moments are not offered as a timing and are never mapped to reaction speeds."
+      "why": "The digest gives the exact shape the film borrows: when eye, object, light and attention are all strong, the process runs one past life-continuum moment, a wavering, an arrest, adverting, eye-consciousness, receiving, investigating, determining, seven impulsions and two registrations, seventeen in all, after which the resting current resumes [C041-P:L29–L48; C041-P:L25]; and the object lives exactly seventeen moments, so the run ends when the object does [C041-M:L7]. This is also the digest that states the group's central claim correctly, and in the careful form the film uses: seeing really happens, and what is denied is a separate seer standing behind it. The digest's other limits are honoured. The seventeen moments are never given as milliseconds or mapped onto anything anatomical. The self-help line about freedom living in the pause is not used, and the word choice is not put in the sources' mouth, since the digest says the text itself does not use it. And receiving, investigating and determining are never played as slow, deliberate steps, which is why on screen they are interlocking metal rather than anybody thinking."
     },
     {
       "concept_id": "C038",
       "role": "supporting",
-      "why": "The digest reports Margaya's claim that no act, including moving a limb, is accomplished by one mind-moment, and gives the knife simile for why the mind is the hardest thing to study, so that even students know these processes only by inference [C038-M:L3-L5]. It also makes a correction that matters most at this episode, whose title says 'no one at the wheel': the digest states that the group's framing 'no separate seer behind it' is not made in these extracts at all and must be sourced elsewhere. The film therefore attributes that denial to C041 and C043, where the digests do support it, and never to C038."
+      "why": "Corrected attribution. An earlier version of this record leaned the group's 'no separate seer' framing on C038; the digest says in as many words that this framing is not stated in its two extracts and that any stronger no-self claim should be sourced elsewhere. It is therefore sourced here from C041 and C043, and C038 is used only for what it actually carries: the name and image of the run itself, a street down which moments come in order with no gap [C038-P:L29]; the insistence that nothing a person does — knowing what the eye has met, understanding a word, lifting a limb, giving, taking — happens in a single mind-moment, each needing a whole series [C038-M:L3]; and the frankness that the mind cannot be caught for examination because it is itself the instrument of examination, so that ordinary people never notice these runs and even students know them by inference only [C038-M:L5]. The digest's other limits hold too: this is not an invitation to slow down and watch thoughts arise, it is not stream of consciousness in the literary sense, and it is not information processing, so the film's rails and levers carry an order and never a mechanism of mind."
     }
   ],
-  "what_the_viewer_could_understand": "Much of what we do happens too fast to plan, and these texts describe the whole run from noticing to responding as unfolding in order by itself, with nobody arranging it. They also say the quality of the response depends on how the thing is attended to, so an unarranged process is not an excused one.",
-  "what_must_be_real": "The road's real risk and the driver's real skill. No near miss may be staged or manufactured, and a moving-vehicle shoot may never distract the driver or add risk for passengers who did not choose to be filmed. The no-doer claim may not be offered as fatalism, and the driver's own care for the people behind him must be as visible as his reflexes.",
-  "position_hint": "closing candidate: it is the group's last film before the one about response, and it hands off directly to the claim that within an unarranged process something can still be chosen. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That what feels like one act — looking at something and knowing what it is — is a run of separate steps in a fixed order, that each step is released by the one before rather than chosen, and that nobody is standing behind the run doing it. The seeing is real. The seer is what the sources say is not there.",
+  "what_must_be_real": "The line, the sequence and the waiting. Nothing is signalled, gated, delayed or run for the camera; no train movement is arranged, repeated or re-staged, and if the service is cancelled the film is of a cancelled day. Nobody at the station is presented as the one who sees, judges or reacts — the film's method is that the order belongs to the apparatus and to nobody in it — and no staff member's competence, attention or working conditions are put on trial. Safety at a live crossing and on an operating railway is decided by the railway, not by a crew, and nothing is filmed from or near the track without it. The film does not claim that a railway is a model of a mind.",
+  "position_hint": "middle: it needs the group's first film to have established that a turning comes before recognition, and it sets up the later films about thresholds and doors. It is also the group's clearest statement of the central claim, so it should not come last.",
   "risks": [
-    "Real safety risk to crew, driver and passengers from filming inside a moving vehicle.",
-    "Dramatising near misses, which would be both dishonest and dangerous.",
-    "The no-doer framing read as fatalism if the driver's real care and skill are not equally shown.",
-    "Attributing the 'no separate seer' claim to a source that the digest says does not make it.",
-    "Passengers filmed without a real chance to decline."
+    "Repeating the earlier error and attributing the 'no separate seer' framing to C038. The digest states that the framing is not in its extracts; the claim belongs to C041 and C043 and must be cited there.",
+    "Turning the film into 'pause before you react'. The digest says the gap lies inside a process too fast to feel and that the response depends on the quality of attention already in place, not on an inserted pause.",
+    "Presenting the seventeen moments or the impulsion counts as timings, milliseconds or neuroscience. They are doctrinal analysis.",
+    "Letting the interlocking become a claim that the mind is a machine or an information processor. The digests rule out both; what the railway supplies is a fixed order, nothing more.",
+    "Making any member of station staff the subject, or implying anything about their attention, speed or judgement. That is the person-as-seer error the group exists to avoid.",
+    "Inviting the viewer to slow down and watch their own mind work. The sources say people do not notice these runs at all and that even students know them only by inference.",
+    "Filming in a way that interferes with a live movement or with a road crossing, or that puts a crew or anyone else on or near the track.",
+    "Narrating the Pradeepika's accounts of results ripening in this life or the next, or its miracles, as things the film can show.",
+    "Making it a film about the war and the line's long closure. That history is real and is not this film's subject; it may be present in the place, but the voice does not use it."
   ],
   "drop_if": [
-    "No operator or driver will allow in-vehicle filming without compromising safety.",
-    "The route is too routine to show genuine continuous response.",
-    "The film cannot show the driver's care for his passengers alongside his reactions.",
-    "Passengers cannot meaningfully consent."
+    "The railway will not permit filming on or beside an operating single-track line, or at a crossing.",
+    "The service is too sparse or too irregular within the development window for the sequence to be filmed more than once.",
+    "It can only be made by arranging a movement, a signal or a crossing for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0088",
       "relation": "leads into",
-      "note": "Instant unowned reaction hands off to the closing film's slower, more consequential test of the same gap."
+      "note": "A fixed order that ends the moment its cause is gone, handing on to the closing film's slower and more consequential version of the same gap."
     },
     {
       "idea_id": "IDEA-0083",
       "relation": "pairs with",
-      "note": "Two fast rulings with nothing to revisit, one continuous and private, one single and watched by a crowd."
+      "note": "Two places built around a fixed order: one where the sequence always completes, and one where it only completes if the thing arrives strongly enough and in time."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0046; both the C041 and C043 digests propose a driver on a hill road as the situation for the no-arranger claim."
+    "reason": "A straight single-track line on a flat plain is the most legible fixed order a camera can stand in front of, and it carries the group's central claim without putting anyone's mind on screen."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Two things were corrected. First, the attribution: the previous record hung the group's 'no separate seer' framing on C038, whose digest says outright that this framing is not stated in its extracts and that any stronger no-self claim must be sourced elsewhere; the claim is now carried by C041 and C043, and C038 is used only for the street image, the rule that no act happens in a single mind-moment, and the knife-cannot-cut-itself honesty. The unresolvable range citation that joined C038-M:L3 to C038-M:L5 was removed and replaced by the two lines separately, each of which is attested in the digest evidence. Second, the subject: the old idea made a driver on blind mountain bends the character, which both personified the seer and required reading his responses on camera; the film is now of the road itself, in a form the northern plain actually offers, and nobody in it is profiled. Every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Kilinochchi station and the single-track Northern Line across the Kilinochchi plain",
+    "also_known_as": [
+      {
+        "name": "Kiḷinochchi",
+        "meaning": "commonly given as the parrot's beak, from the Tamil",
+        "used_by": "local Tamil usage"
+      }
+    ],
+    "region": "Kilinochchi district, Northern Province: the flat inland plain between the Jaffna lagoon and the Vanni, on the line between Omanthai and the peninsula",
+    "coordinates": {
+      "lat": 9.3904,
+      "lng": 80.4066
+    },
+    "why_here": "It gives the concept and the image in one frame, and it is the only kind of country in which this film works. The plain here is flat enough and the alignment straight enough that a train is a point on the horizon for minutes before it arrives, so the whole ordered sequence can be filmed running ahead of its own cause — which is precisely the sources' claim, that each moment is released by the one before rather than by the thing itself being present. The line through this district was out of use for over twenty years and was rebuilt and reopened in 2013, so the station and the track are newer than everything around them, which gives the place a plainness on camera that an older station would not have. And the district has nothing else claimed on the slate, so nothing here competes with another film.",
+    "what_to_film": [
+      "The track from very high, ruled straight across the plain to an empty horizon, held long enough that the emptiness becomes the subject.",
+      "The station room in working order: block instrument, levers, register, lamp — filmed as apparatus rather than as anybody's workplace.",
+      "The mechanical sequence in full and in order: bell code, lever, rodding, point blade closing and locking, signal arm dropping. Each held until the next thing moves.",
+      "The road crossing from the road side: bell, gates coming down, traffic stopping, the long wait with nothing yet visible.",
+      "The far end of the straight in heat haze, where the train appears as a point and takes a very long time to become a train.",
+      "The passage itself, close and brief, and the dust settling afterwards.",
+      "The whole apparatus going back in reverse order, and the empty room.",
+      "The rails at the end of a hot day, and the plain in exactly the framing of the opening shot."
+    ],
+    "access": "By road on the A9, which runs through the town; the station is on the line between Omanthai and the peninsula and is served by through trains. Everything here depends on the national railway, which controls access to platforms, to the signalling room, to the track and to the crossing, and on their safety rules; a live single-track railway is not a place a crew may improvise. Drone flight over railway land and over a main road crossing will need separate permission.",
+    "best_time": "The dry months, for haze on the straight and hard light on bare ground. Within a day: first light, when the rails hold the sun and the plain is still cold; and the last half hour, when a headlamp reads against a sky that has not gone dark.",
+    "images": [
+      {
+        "caption": "The station itself, rebuilt after the line reopened.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilinochchi Railway Station - Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kilinochchi Railway Station - Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A station further down the same line, for the kind of platform and track this line carries. This is not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vavuniya Railway Station - Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Vavuniya Railway Station - Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kilinochchi_railway_station",
+      "https://en.wikipedia.org/wiki/Northern_line_(Sri_Lanka)",
+      "https://www.ft.lk/Special-Report/ircon-completes-omanthai-kilinochchi-railway-line/22-190122"
+    ],
+    "research_note": "That the station sits on the Northern Line, that it was out of service between 1990 and 2013, that the Omanthai to Kilinochchi section was rebuilt and reopened on 14 September 2013, and that the town lies on the A9 are from the sources above and are desk research only. The coordinates are those given for the station by the encyclopaedia entry. Nothing about the signalling actually in use on this section has been verified: the film's sequence of block instrument, levers, rodding and semaphore arms is written from the general practice of single-track lines and must be checked against what this line actually operates before it can be relied on, since a colour-light and token-less installation would change the shots without changing the concept. No railway officer has been approached and no permission sought. The second image is of a different station on the same line and its caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "What signalling equipment this section actually uses is unverified, and the whole visible sequence of the film depends on it.",
+    "No railway officer has been approached; access to a signalling room, a platform or a crossing on an operating line may be refused.",
+    "How many trains pass in a day within the development window, and how reliably, has not been checked.",
+    "Whether drone flight over railway land and a main-road crossing can be permitted is unknown, and the opening and closing shots depend on it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

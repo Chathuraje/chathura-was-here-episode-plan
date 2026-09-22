@@ -2,79 +2,173 @@
   "schema_version": 1,
   "id": "IDEA-0036",
   "record_type": "idea",
-  "title": "Third Gear",
+  "title": "Nothing Arrives Here Whole",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Third Gear"
+  ],
   "group_id": "GRP-03",
-  "logline": "At a small roadside repair shop every vehicle arrives with a customer already frustrated before they speak, and the person who fixes things spends the day absorbing what none of it is about.",
-  "human_question": "What happens to a person whose whole working day is made of other people's small refusals?",
-  "situation": {
-    "what_happens": "A repair trade is a place where other people's broken plans arrive one at a time. Nobody comes in pleased. Each customer brings a stalled day, a cost they had not budgeted for, and an estimate they want lower and sooner than it can be. The mechanic answers the same three questions all day and keeps working through them, and the person who caused none of this is the only one present when it lands. Late in the day the accumulation shows, in the mechanic and not in any single customer.",
-    "who_is_involved": "The person who does the repairs and whoever else works with them; customers whose day has been interrupted and who are counting money while they wait; the people the customers are late for, who are on the phone; and anyone waiting on a repair that keeps not being finished because urgent things keep arriving.",
-    "what_is_at_stake": "For customers, a day's earnings and a vehicle they work from. For the mechanic, a reputation built on being reasonable with people who are not being reasonable, and a day's takings that depend on it. For the film, not turning one long hard day into a portrait of a short-tempered trade.",
-    "how_it_unfolds": "It begins quietly and fills up. The pressure is not any one customer but the arithmetic of a day where every arrival is somebody else's emergency, and where the one job that needs concentration keeps being interrupted. It ends with the shutter down, with something unfinished, and with whatever the mechanic says about the day once nobody needs anything from them. Reality decides what kind of day it turns out to be; some days nothing goes wrong at all."
+  "logline": "Twenty-five acres of yard hold the state bus fleet's dead and smashed vehicles in rows, and everything that comes through the gate arrives already broken, so the whole place is a queue of damage waiting on slow, unhurried hands.",
+  "human_question": "What is it like to spend every working day at the end of other people's bad luck?",
+  "place": {
+    "what_kind_of_place": "A walled works of about twenty-five acres beside a provincial main road in an old industrial belt, where the state bus fleet's ruined vehicles are collected and rebuilt. Two kinds of bus come through the gate and no third kind. There are the worn-out ones, withdrawn by depots after years of service and driven or towed in with the fleet numbers still on them. And there are the accident buses, brought in on a low-bed after one night on a road somewhere else, folded at the front or opened down one side. Behind the yard are the sheds where a bus is taken back to its chassis and built up again: frames, panelling, wiring, paint. Nothing that is working is ever sent here. The place has no other purpose and no other kind of arrival.",
+    "why_it_is_worth_watching": "It is a landscape of repetition and difference, which is exactly what a drone is for. From above it is a grid: identical vehicles, in ranks, each one broken in a way that is entirely its own. Same shape, same paint, forty different injuries. Walk into it at ground level and the grid becomes a street of shells with grass coming up through the floors and birds in the roofs. Then the sheds, where the noise is small and the pace is slow, and a single person spends a whole morning on one panel. The single best image the place produces is also the plainest statement of the idea: a long row of the same vehicle, each of them stopped, waiting for somebody's hands.",
+    "what_moves_or_changes": "The rows shuffle, on nobody's timetable. Something arrives on a low-bed, backwards, with a man walking beside it. Something else comes out of the far shed painted and idling, and it is impossible at first to tell it from a new one. In between, a bus sits for a season because the part has not come. The work itself moves at the speed of hands: sanding, tacking, measuring, waiting for paint to harden. Over a week the yard looks unchanged and is not.",
+    "when_it_looks_best": "The first hour after sunrise, when the light comes down the rows sideways and every gap in the grid reads. Again in the half hour after rain, when the wet paint of the finished ones separates them from the dull rows of the waiting. Overcast days are better for the sheds than hard sun."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet industrial film about a yard full of broken buses and the slow craft of bringing them back. It resolves on its own: the grid from the air, the arrival of a new wreck, the taking-apart, the long patient work in the sheds, and one vehicle going out of the gate under its own power looking exactly like the ones that will come back in five years. Anyone who likes machines, hands and the texture of worn paint has a complete piece here, with a beginning, a middle and an ending, and does not need a word of it explained.",
+    "with_the_philosophy": "The same yard becomes a picture of something the sources say about the mind. The texts name the commonest occasions for displeasure and they are almost all of them refusals: not getting what one wants, a request not granted, a thing asked for and not given. This is a place built entirely out of those refusals, arriving one vehicle at a time, none of them the fault of anyone inside the gate. The voice never suggests that anybody here is angry; it points at the arrangement, which is that the displeasure is formed somewhere else, on a road at night or in a depot's accounts, and is delivered here in metal, and then somebody works on it slowly until it is finished."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone, high and straight down. A grid of buses in ranks across a walled yard: the same vehicle over and over, the same paint, all of them stopped.",
+      "voice": "Nothing that is working is ever sent here. Every vehicle inside this wall either wore out after years of service or was broken in one night on a road somewhere else. There is no third way in.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Descending along one row at head height. Grass through a floor. A bird going in through a window frame. Fleet numbers still legible on the sides.",
+      "voice": "The old texts list the occasions when displeasure arises, and most of them are refusals. Not getting what one wants. A request that is not granted. A thing asked for and not given [C007-P:L49; C007-M:L17]. A place like this is a yard full of those, translated into metal and delivered by lorry.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "A low-bed reversing in through the gate with an accident bus on it, folded at the front. Chocks, chains coming off, a man walking backwards guiding it.",
+      "voice": "The same texts are careful about one thing. This state of mind never arrives pleasantly. Wanting can feel good while it lasts; this cannot. Both of the minds they class under it always come with a painful mental feeling, and they differ only in whether they arise by themselves or after urging [C007-P:L25–L28]. Whatever happened on that road was already unpleasant before it got here.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Inside the shed. A bus stripped to its chassis, panels off, the frame bare. Hands working: measuring, tacking, sanding. Long takes, small sounds, nobody hurrying.",
+      "voice": "Under every unwholesome state, the sources say, one of four things always present is a restlessness, a mind that will not settle [C022-P:L31; C022-M:L3]. It is worth looking at what unsettledness is not, for a moment. This is not calm as an achievement. It is only work at the speed the work goes.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Detail: a part number checked against a list, a shelf, a shaking head. Back outside to a bus sitting in the rank with a tarpaulin over its engine bay, clearly there for months.",
+      "voice": "The word the texts use is wider than anger. It reaches down through dislike and discontent to plain displeasure, the ordinary low register of not wanting what is in front of you [C007-M:L3; C022-P:L121]. Most of a day sits in that register. So does most of a wait for a part.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The paint shop. Masking, a coat going on, colour coming up on a panel that was grey filler an hour ago.",
+      "voice": "There is a popular idea that displeasure is best let out, that expressing it discharges it. The sources do not offer that. They describe this state as painful in itself and as where harsh speech begins, and they give no account of it being safely got rid of by being expressed [C007-P:L47]. They also make no exception for the anger anyone thinks is deserved [C007-M:L11].",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "A finished bus idling at the gate, indistinguishable from a new one, then pulling out onto the main road. Cut back to the grid from the air, one space now empty in the rank.",
+      "voice": "A camera cannot see which state of mind anybody here is in, and this film does not claim to. What it can show is the arrangement: a place at the end of other people's bad luck, where everything arrives broken and nobody inside the wall caused any of it. One goes out today. Something else is already on a road tonight.",
+      "concept_id": "C007"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C007 names the occasions directly: not getting what one wants, and, in Margaya's list, a request refused or a thing asked for not given [C007-P:L49; C007-M:L17], with both hate-rooted minds always carrying a painful mental feeling [C007-P:L25–L28]. C022 supplies the constant beneath the whole day: restlessness is one of the four present in every unwholesome moment [C022-P:L31]. Put together in a trade that receives other people's refusals for a living, they describe a room where one person is the stationary point for many separate small versions of the same state.",
-    "what_it_reveals": "That displeasure is contagious in a very specific way: it arrives already formed, about something else, and lands on whoever is in front of it. Neither concept shows that alone, because both describe a single mind at a time, and this situation is the traffic between many of them."
+    "why_together": "C007 supplies the occasion in its plainest daily form. The sources name not getting what one wants among the conditions for this state [C007-P:L49], and the shorter text adds the ordinary social shapes it takes, a request refused and a thing asked for and not given [C007-M:L17], while insisting that both hate-rooted minds always carry a painful mental feeling [C007-P:L25–L28] and that the word covers dislike and discontent as well as anger [C007-M:L3]. C022 supplies what sits underneath any of it: restlessness is one of the four factors present in every unwholesome moment, whatever else the moment contains [C022-P:L31; C022-M:L3], and it widens hate's range down to discontent and plain displeasure [C022-P:L121]. Put on a yard whose entire stock is other people's broken plans, the two stop being a list of definitions and become a description of what is parked outside.",
+    "what_it_reveals": "That displeasure is a thing that travels. C007 alone describes a single mind; C022 alone describes what is always in one. Neither can show what a repair yard shows, which is the traffic: the state is formed somewhere else, about something else, and it arrives here already finished, in the shape of a vehicle, dozens of times a year, at a place whose only work is to undo it slowly. And it reveals the low register the sources insist on, because almost nothing here is dramatic. It is a long, flat, ordinary displeasure that has been handed on until it reached somebody's hands."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "'Not getting what one wants' is named among the occasions for this state [C007-P:L49], and Margaya adds the ordinary social forms of it, including a request that is refused and a task that is not done [C007-M:L17]. A repair shop is where a whole day of those small refusals arrives, one person at a time, and where the displeasure is visibly painful to the person holding it before it reaches anyone else [C007-P:L25–L28]. The digest's bar on 'venting is healthy' matters here: the sources treat this state as painful in itself and as the start of harmful speech, and offer no idea of discharging it safely by expressing it [C007-P:L47]."
+      "why": "The sources teach exactly two hate-rooted minds, both always with a painful mental feeling and with aversion, differing only in whether they arise spontaneously or after urging [C007-P:L25–L28], and they name the occasions: not getting what one wants stands at the head of the list [C007-P:L49], with the shorter text adding a request refused and a thing asked for and not given, and widening the word itself to cover dislike, discontent, fear and sorrow [C007-M:L17; C007-M:L3]. A works whose entire intake is other people's refusals, arriving as metal, carries that list without a word of commentary. The digest's limits are load-bearing and are honoured on screen rather than left outside the film. The sources make no exception for justified anger, so nothing here may be offered as the acceptable kind [C007-M:L11]. They give no account of displeasure being safely discharged by expressing it, so the film must not slide into 'let it out' [C007-P:L47]. The bodily signs listed in the same passage, and the claim about where such a mind at death leads, are traditional teaching rather than observable fact and are not narrated [C007-P:L47; C007-P:L51]. And nobody in frame is an instance of a defilement: a camera cannot show which factor is present, and the film does not claim to."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Restlessness is one of the four factors both sources place in every unwholesome mind, whatever the mind otherwise contains [C022-P:L31; C022-M:L3]. A day of interruptions is an ordinary register of that unsettledness. The wind-in-the-leaves comparison the earlier version used is not among the similes the digest records for this source and has been removed rather than re-attributed."
+      "why": "Among the fourteen unwholesome factors, four are present in every unwholesome mind whatever else it holds, and one of those four is restlessness, an agitation that will not settle [C022-P:L31; C022-M:L3]. That is the constant under a place of interruptions, missing parts and open-ended waits. The same list also gives hate a much wider range than the English word anger, reaching through fear and disgust down to discontent and plain displeasure [C022-P:L121], which is the register almost everything at a repair yard actually sits in, and it is why this film can be quiet and still be about the group's subject. Two of the digest's warnings apply directly. The four constants describe moments, not kinds of person, so they may never be used to read anyone on screen. And not all fear is a fault: the dread of doing wrong is a different factor altogether, and the sources praise it through the harm its absence does [C022-P:L63]."
     }
   ],
-  "what_the_viewer_could_understand": "The texts name a request refused and a thing not given among the commonest occasions for this kind of displeasure, and they say it is painful in itself to whoever holds it. Seen from behind a counter, it is also something people hand over: it arrives about something else entirely, and it lands on whoever happens to be standing there.",
-  "what_must_be_real": "The shop, the mechanic and the customers' visits must all be genuine and unscripted. No breakdown, delay or disagreement may be arranged, prompted or waited on as an event. Customers whose words are used must consent, and nobody's worst five minutes may stand for their character.",
-  "position_hint": "middle, if it were used: it is the group's most ordinary version of the state and works best where the heat is at its lowest. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That the texts put refusal at the head of their list of occasions for displeasure, and that most of those refusals are small: something asked for and not given, something wanted and not got. Seen in a yard where everything arrives broken, the same displeasure turns out to be portable. It is made somewhere else, about something else, and it lands as work on whoever is standing at the end of the line, who caused none of it.",
+  "what_must_be_real": "The yard, the vehicles and the work are the real ones, on the works' own schedule. No wreck is moved, arranged, lit or staged for a frame, and no arrival is waited for as an event to be caught. Nobody who works there is presented as an example of a state of mind, and no one's tired afternoon stands for their character. Everyone identifiable consents, and the film is made around the work rather than the work around the film. Where a vehicle's damage is tied to a real accident in which people were hurt, that is not used as texture and nothing identifying it is shown.",
+  "position_hint": "early to middle: it is the coolest and most ordinary statement of the group's subject and the least dramatic place in it, so it works best before the films where the heat is visible. No location reasoning is involved.",
   "risks": [
-    "The temptation to provoke or wait for a confrontation rather than observe.",
-    "Making an ordinary hard day look like a portrait of a short-tempered person or trade.",
-    "Customers' faces and words used without clear consent.",
-    "Implying that the mechanic's patience is a moral achievement being graded by the film."
+    "Presenting anyone on screen as an example of a defilement. The sources describe moments of mind, not kinds of person, and a camera cannot show which factor is present.",
+    "Sliding into 'let it out, venting is healthy', which the digest rules out: the sources treat this state as painful in itself and as where harsh speech begins, and give no account of discharging it by expression.",
+    "Offering any displeasure in the film as the justified kind; the sources make no exception for justified anger.",
+    "Narrating the traditional bodily signs of this state, or its consequences at death, as observable or medical fact.",
+    "Treating all fear as a fault, when the sources praise the dread of doing wrong as a different factor entirely.",
+    "Turning skilled, dignified trade work into a metaphor, so that the people doing it become illustrations rather than workers.",
+    "Using a vehicle's accident damage as atmosphere when real people were hurt in it."
   ],
   "drop_if": [
-    "No shop or mechanic will allow a full day's observation.",
-    "The only usable material would require prompting a dispute."
+    "The works will not allow sustained observation on its own terms, or filming would interrupt production.",
+    "Consent cannot be had from the people whose hands and faces carry the film.",
+    "The only usable material would require arranging an arrival or staging a repair."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0038",
-      "relation": "merges into",
-      "note": "Its real subject, the people on whom everyone else's refusal lands, is folded into the bus film, where a driver and conductor stand in exactly that position in front of a full vehicle."
+      "relation": "pairs with",
+      "note": "Two places made of delay: one where the broken thing is worked on slowly, and one where nothing can be done but wait."
     },
     {
       "idea_id": "IDEA-0033",
       "relation": "pairs with",
-      "note": "Two trades where damage is fixed by hand while the argument about it goes on overhead."
+      "note": "Damage arriving from somewhere else, and hands that have to deal with it either way."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0038",
-    "reason": "Sound but duplicative: its occasions and its one distinctive strand, the person who receives other people's refusals all day, are folded into IDEA-0038, where the same position is occupied under real pressure."
+    "superseded_by": null,
+    "reason": "Rebuilt as a place rather than a situation, it now carries the group's quietest register on a location whose whole stock is other people's refusals, and no longer duplicates IDEA-0038."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape. The old roadside-workshop situation, whose subject was a mechanic absorbing customers' tempers, was dropped because it required filming identifiable people as angry; the film is now a bus rebuilding works with no customers at all, where the queue of damage is the image and nobody in frame is an instance of a defilement. C007 and C022 re-read from the digests and both links rewritten; the digest's bars on venting, on justified anger, on narrating the bodily signs and the death claim, and on treating all fear as a fault are now carried in the links and the risks.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The state bus rebuilding works in the industrial zone at Ekala",
+    "also_known_as": [
+      {
+        "name": "Lakdiva Engineering",
+        "meaning": "the state company that now operates the works",
+        "used_by": "official and press usage"
+      }
+    ],
+    "region": "Gampaha District, in the Ja-Ela and Ekala industrial belt north of Colombo",
+    "coordinates": {
+      "lat": 7.1069,
+      "lng": 79.8975
+    },
+    "why_here": "It is the one place where the concept is the site's actual intake policy. Depots send their worn-out buses here when they are done with them, and long-distance buses that have been in accidents are brought in for major repair, so nothing arrives under its own power in working order. That gives the film its picture without any staging: a walled yard of about twenty-five acres holding rank after rank of the same vehicle, each one damaged differently, waiting on hands that work at their own speed. The sources' list of occasions for displeasure is almost entirely refusals, and this is a yard of refusals parked in rows. It is also, usefully, a place with no customers in it, so there is no one for the camera to catch at their worst.",
+    "what_to_film": [
+      "The yard straight down from height at first light, wide enough that the grid of identical vehicles and the difference between them both read in one frame.",
+      "A single row at head height, slowly, end to end: grass through floors, birds in roof panels, fleet numbers still on the sides.",
+      "An arrival: a low-bed reversing in with an accident bus, the chains coming off, the walk-round.",
+      "A bus stripped to its chassis in the shed, and the same bus over several visits as the frame is built up again.",
+      "Hands at the speed the work actually goes: measuring, tacking, sanding, waiting for paint.",
+      "The stores and the part that has not come, and the vehicle that has been standing because of it.",
+      "A finished bus idling at the gate and pulling out, cut against the yard from the air with the gap where it stood."
+    ],
+    "access": "By road, on the industrial belt north of the capital. It is a state-owned works, so everything depends on written permission from the operating company and the transport ministry, on site safety rules in the sheds, and on the workforce agreeing. Drone flight over an enclosed industrial site will need its own clearance.",
+    "best_time": "The first hour after sunrise for the yard, and overcast days or the half hour after rain for the rows. Inside the sheds the work runs on the normal working day, so no season is required.",
+    "images": [
+      {
+        "caption": "A bus of the state fleet at a depot elsewhere in the country. It is not the works and is included only to show the vehicle type that fills the yard.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/23 ශ්‍රී 9179 ISUZU bus SL.T.B Katubedda Depot 01.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:23 ශ්‍රී 9179 ISUZU bus SL.T.B Katubedda Depot 01.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.dailymirror.lk/metro/Lakdiva-Engineering-at-Ekala-SLTB-Workshop-brings-buses-back-to-life/347-173108",
+      "https://www.transport.gov.lk/web/index.php?option=com_content&view=article&id=30&Itemid=150&lang=en",
+      "https://www.newswire.lk/2025/04/16/govt-revives-lakdiva-engineering-65-buses-repaired-in-4-months/",
+      "https://archives1.dailynews.lk/2019/02/25/local/178427/lakdiva-engineering-overhauls-six-dilapidated-buses"
+    ],
+    "research_note": "That the works covers about twenty-five acres, that its intake is buses set aside by depots after long service plus accident-damaged long-distance buses, and that it has been rebuilding and returning vehicles to the fleet in recent years, are from the press and ministry pages listed above and are desk research only. The coordinates are those of the Ekala industrial area, not a surveyed gate. Wikimedia Commons holds nothing of this works: a search returned only pictures of buses of the same fleet photographed at other depots, and the single image listed is one of those, captioned as such. Nothing has been verified on the ground, including whether the yard currently holds the rows the film depends on, and permission, safety rules and drone clearance are all unknown.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the works or to anyone who runs it. Everything here is a research direction.",
+    "Whether the yard at any given time actually holds the ranks of waiting vehicles the film is built on is unverified.",
+    "Permission to film inside a state industrial site, and to fly a drone over it, may be slow or refused.",
+    "Whether any part of the site is restricted, or whether filming would interfere with production, is unknown."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

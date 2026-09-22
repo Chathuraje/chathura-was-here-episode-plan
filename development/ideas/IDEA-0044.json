@@ -2,79 +2,197 @@
   "schema_version": 1,
   "id": "IDEA-0044",
   "record_type": "idea",
-  "title": "The Number You're Given",
+  "title": "Everything Waits for the Boat",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Number You're Given"
+  ],
   "group_id": "GRP-03",
-  "logline": "A public office fills up on a busy morning, everyone holding a number and a folder, and the queue moves slowly enough that the room's mood becomes the only thing happening.",
+  "logline": "On a low island where every piece of official business happens in one building and the only way on or off is a boat that runs a few times a day, a morning at the counter is shaped from end to end by two things nobody in the room controls: a number and a timetable.",
   "human_question": "What does an ordinary wait, with nothing at stake but time, still manage to stir up in us?",
-  "situation": {
-    "what_happens": "A room where nothing can be hurried collects people who all need one small thing signed, stamped or confirmed, and hands each of them a number instead of an answer. The wait is not dramatic and nobody is being wronged; the counter is working as fast as it can. What fills the morning is the small arithmetic of place-keeping, papers checked and re-checked, and the discovery halfway through that a document is missing and the morning was wasted. In the same room, and just as often, somebody helps a stranger fill in a form.",
-    "who_is_involved": "People who have taken a day off work to be there; the clerks at the counter, who receive every person's whole morning as a request and can only answer some of them; whoever is helping an older relative through the paperwork; and the people at home waiting to hear whether it went through.",
-    "what_is_at_stake": "A day of lost earnings for most people in the room, and for a few of them something that actually matters: a payment, a permission, a certificate without which something else cannot begin. For the clerks, being the visible face of a process they do not control. For the film, not mocking people waiting and not making officials into villains.",
-    "how_it_unfolds": "It begins full and thins slowly. The pressures are the clock, the discovery of missing papers, and the fact that nobody can tell how long anything will take. It ends with most people served, a few turned away to come back another day, and the room empty. Reality decides who is in it, and the mornings when nothing much happens are the normal ones."
+  "place": {
+    "what_kind_of_place": "A flat coral island of palmyra, thorn scrub, grazing land and walls built out of blocks of dead reef, ringed by water so shallow and clear that the shoals show from the air. A few thousand people live on it. It has one administrative office, and everything a person needs signed, stamped, registered or confirmed happens in that building or does not happen at all. The office is a low building with numbered counters, a bench, a fan, and light coming in through grilles onto a tiled floor.",
+    "why_it_is_worth_watching": "Because the whole geometry of waiting is visible for once, at two scales that rhyme. Outside there is a crossing that runs to a fixed timetable, with more people than seats and residents given priority, so the island's business is bounded at both ends by a boat. Inside there is a slip of paper with a number on it and a row of counters, which is the same arrangement made small. The most beautiful thing the place produces, a single boat crossing very shallow water seen from a great height, is also the plainest statement of the idea: a whole morning of hundreds of small wants, all of them queued behind one thing arriving and one thing leaving.",
+    "what_moves_or_changes": "The tide, the light and the numbers. The office fills from the morning boat and empties towards the afternoon one, so the room has a shape that the people in it did not choose. The shadow of the grille crosses the floor. Papers are checked and re-checked. Somebody discovers a document is missing and the crossing was wasted; somebody else finishes in four minutes. Out on the water the colour changes hour by hour with the light and the depth.",
+    "when_it_looks_best": "An ordinary working morning early in the week, from the first crossing until the office thins. First light on the water and the flat land for the wide shots; mid-morning for the interior, when the light through the grilles is hard and the shadows have edges."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet island film. Shallow bright water, palmyra, coral walls, ponies on open grazing, a boat crossing, a low building with a fan turning, a bench, a shadow moving across a tiled floor, and the boat going back. Nothing happens and it is very beautiful, which is the point: it is a portrait of a place organised entirely around one arrival and one departure.",
+    "with_the_philosophy": "The same morning becomes the group's question at the lowest temperature it ever reaches. The sources count a mind that will not settle among the four factors present in every unwholesome moment, in anybody; and they name, among the commonest occasions for displeasure, simply not getting what one wants and having a request not granted. Here what is wanted is only to be called next. Nothing has gone wrong, nobody has been wronged, and the state the whole group of films is about is nonetheless available to everyone in the room, including the people behind the counter, and the film says so without ever pointing at one of them."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone at first light, very high: a flat island in a great field of pale shallow water, one boat crossing towards it, its wake the only line in the picture.",
+      "voice": "Everything official on this island happens in one building. The building can be reached only when the boat runs, and the boat runs a few times a day. Almost everyone on board this morning is carrying a folder.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "On the water and then the landing: folders in plastic bags, a bundle of papers held flat against the wind, people stepping ashore, bicycles and a three-wheeler waiting.",
+      "voice": "A certificate. A pension paper. A permission. A signature that has to be in somebody's hand before something else can start. Ordinary things, the kind that decide a week.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "The office interior, wide and still: numbered counters, a printed number on a slip of paper, a row of chairs, a ceiling fan, the shadow of a window grille laid across the tiles.",
+      "voice": "The arrangement is simple and nobody in the room invented it. A number, a counter, an order, and a clock that does not belong to anyone here.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Waiting, filmed as architecture rather than as faces: a bench from behind, feet on tiles, a folder on a knee, the fan, the shadow a foot further across the floor than it was.",
+      "voice": "The old analysis counts a mind that will not settle among four things present in every unwholesome moment, whoever it belongs to [C022-P:L31; C022-M:L3]. That last phrase is the whole warning. It is not a description of a kind of person, and nobody in this room is an example of it. It is a description of moments, which a camera cannot photograph.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Close, procedural, nobody identifiable: a form filled in and re-read, a photocopy, a rubber stamp, a page turned back to the beginning. A stranger leaning over to show somebody where to sign.",
+      "voice": "And the occasions the sources list for displeasure are as small as this. Not getting what one wants, plainly stated [C007-P:L49]. A request not granted [C007-M:L17]. Here what is wanted is only to be seen next. They also insist that this state never arrives without a painful feeling in the person holding it [C007-P:L25–L28], which is why a wait can cost something even when nothing has gone wrong.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "A counter from the public side, mid-transaction, hands and papers only; then the same counter from further back with the room around it.",
+      "voice": "Not knowing whether your papers are right is not a fault in this analysis, and the sources say so directly: ordinary uncertainty about things one does not know is not the doubt they are talking about [C022-P:L179; C022-M:L57]. The person behind the counter is not the obstacle either. They are receiving the whole morning of everybody in the room, one at a time, at the speed the process allows.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Early afternoon: the empty chairs, a slip of paper on the floor, shutters going across, the shadow of the grille now on the far wall.",
+      "voice": "Some people leave with the thing they came for. Some leave with a list of what to bring next time. Both of them have to catch the same boat.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Drone again, from very high: the boat going back out across the shallows, the island flat and pale behind it, the water changing colour under the light.",
+      "voice": "Nothing was refused here and nobody behaved badly. That is the point the group keeps arriving at. This state does not need a villain or an injustice. It only needs a wait, and something you want on the other side of it.",
+      "concept_id": "C007"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C022 supplies the constant: restlessness is one of the four factors present in every unwholesome mind, a mind that will not settle on what is in front of it [C022-P:L31]. C007 supplies the occasion in its smallest form, a request refused or simply not yet granted [C007-P:L49; C007-M:L17], with both hate-rooted minds always carrying a painful mental feeling [C007-P:L25–L28]. Together they describe the group's question at the lowest temperature it reaches anywhere: life refusing what people want, where what they want is only to be seen next.",
-    "what_it_reveals": "That nothing has to go wrong for this state to appear, and that the same room produces unprompted kindness at the same rate. Neither concept predicts the second half of that; only sitting in the room does."
+    "why_together": "C022 supplies the constant: restlessness is one of the four factors both sources place in every unwholesome mind, present whatever else is present [C022-P:L31; C022-M:L3]. It also supplies the protection the film needs while filming procedure, since it says plainly that ordinary uncertainty about matters one does not know is not the unwholesome doubt meant [C022-P:L179; C022-M:L57], which keeps a room full of people unsure about their paperwork from being read as a room full of a defilement. C007 supplies the occasion at its smallest: not getting what one wants is named among the commonest [C007-P:L49], a request not granted is on the other source's list [C007-M:L17], and both hate-rooted minds always carry a painful mental feeling [C007-P:L25–L28]. Put in a room where the only thing anybody wants is to be seen next, the two together describe the group's whole subject at its lowest possible temperature.",
+    "what_it_reveals": "That nothing has to go wrong for this family of states to be available, and that the same room produces unasked-for kindness at about the same rate. C007 alone would look for a flashpoint in a place where there is none. C022 alone would be a taxonomy with nothing to point at. Together they justify a film in which the camera never looks for a face at its worst, because the concepts are satisfied by the furniture, the numbers, the timetable and the light, and satisfied better by them than by any person."
   },
   "concept_links": [
     {
       "concept_id": "C022",
       "role": "primary",
-      "why": "Restlessness is one of the four factors both sources place in every unwholesome mind, present whatever else is [C022-P:L31; C022-M:L3]. A slow queue is that unsettledness in its smallest, least dramatic daily form. The wind-in-the-leaves comparison this link previously used is not among the similes the digest records for this source, and has been removed rather than re-attributed."
+      "why": "Restlessness is one of the four factors both sources place in every unwholesome mind, present whatever else is [C022-P:L31; C022-M:L3]. A slow morning under a number is that unsettledness in its smallest and least dramatic daily form, and because the factor is constant across every unwholesome moment in anyone, it is also the source's own reason why nobody in the room may be characterised as a type. Two of the digest's limits are doing real work here rather than sitting in a caution. The source says ordinary uncertainty about unknown matters is not the doubt it counts as a fault [C022-P:L179; C022-M:L57], so the people checking and re-checking papers are not being shown as an illustration of doubt; and the healthy dread of doing wrong is praised through the fault of its absence [C022-P:L63], so nothing in the film treats all unease as a defect. A simile attributed to this source in an earlier version of this record is not among those the digest records, and has been removed rather than re-attributed."
     },
     {
       "concept_id": "C007",
       "role": "supporting",
-      "why": "The group's question in miniature: not getting what one wants is named among the occasions [C007-P:L49], and Margaya's list includes a request not granted [C007-M:L17]. Here the thing wanted is only to be called next. The four constant factors describe every unwholesome moment in anyone, so nothing in this material may be used to characterise either the public or the clerks as a kind of person."
+      "why": "The group's question in miniature. Pradeepika names not getting what one wants among the occasions for this state [C007-P:L49] and Margaya's list of everyday occasions includes a request not granted [C007-M:L17]; here the thing wanted is only to be called next. Both sources hold that the two hate-rooted minds always arrive with a painful mental feeling [C007-P:L25–L28], which is what makes an uneventful wait worth filming at all: the cost is real and is paid first by the person waiting. The digest's limits are honoured: the sources make no exception for justified irritation, so the film offers nobody's impatience as the reasonable kind, and the bodily signs and the claims about such minds at death are traditional teaching rather than observable fact and are not narrated."
     }
   ],
-  "what_the_viewer_could_understand": "The texts name a request not granted among the commonest occasions for displeasure, and they count a mind that will not settle as present in every harmful moment. A slow morning at a counter is the smallest possible version of both, and it shows that this heat needs no wrongdoing at all, only a wait.",
-  "what_must_be_real": "The office, its staff and its visitors must be filmed as they genuinely are on an ordinary day, with permission from the office and consent from anyone shown closely. No delay, dispute or kindness may be arranged, and no member of the public may be filmed in a moment of real difficulty with their paperwork without their agreement afterwards.",
-  "position_hint": "middle, if it were used: the group's quietest version of its own question, best placed where the heat is lowest. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That the old analysis names a request not granted among the commonest occasions for displeasure, and counts a mind that will not settle as present in every harmful moment in anybody. A slow morning at a counter is the smallest possible version of both, and it shows that this heat needs no wrongdoing to start it, only a wait and something wanted on the other side. It should also leave a viewer certain that neither the people waiting nor the people working are being offered as examples of anything.",
+  "what_must_be_real": "The office, its staff and its visitors are filmed as they genuinely are on an ordinary day, under written permission from the office and with the consent of anyone shown closely. No delay, no difficulty and no act of kindness may be arranged, provoked or waited for. Nobody is filmed at the moment their business fails without their agreement afterwards, no document, name or number is legible on screen, and no member of staff is framed as the cause of anybody's morning. Nothing in the edit may make the institution or the process look absurd, and the cut is shown to the office before it goes anywhere else.",
+  "position_hint": "middle to late: the group's quietest and coolest handling of its own question, best placed after the louder films so that its lack of incident reads as a claim rather than as a gap. No location reasoning is involved.",
   "risks": [
-    "Mocking members of the public shown frustrated or waiting.",
-    "Portraying officials unfairly as the source of the frustration.",
-    "Formal permission requirements for filming inside a public office, and the pressure those create on what can be shown.",
-    "Reading the four constant factors as a description of a type of person rather than of a moment."
+    "Mocking a real institution and its staff, which is the standing danger of this subject and the reason the film is built on the architecture of waiting rather than on people's faces.",
+    "Framing an official as the obstacle, or a member of the public as a nuisance.",
+    "Filming somebody at the moment their paperwork fails, in a small community where they will be recognised.",
+    "Reading the four constant factors as a description of a type of person rather than of a moment, which the digest forbids and which no camera could support.",
+    "Treating the uncertainty of people unsure whether their papers are correct as the unwholesome doubt, which the sources explicitly exclude.",
+    "Formal permission requirements for filming inside a public office, and the pressure those create on what can be shown; a film that can only be made by agreeing to show a flattering picture is a different film.",
+    "Making a remote community's dependence on a timetable look picturesque when for the people living with it the boat is a constraint."
   ],
   "drop_if": [
-    "No office grants filming permission for a genuinely busy day.",
-    "Visitors are unwilling to be shown."
+    "No office grants permission for a genuinely ordinary busy morning, or permission comes with conditions that make the film dishonest.",
+    "Visitors are unwilling to be shown, or cannot be asked properly in their own language.",
+    "The only available shape would require somebody's bad morning to be the story.",
+    "Filming would slow the counter or take anyone's place in the queue."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0045",
-      "relation": "merges into",
-      "note": "Its counters, numbers and half-finished paperwork are folded into the household film, where the same waiting is what a long decision is actually made of."
-    },
-    {
       "idea_id": "IDEA-0038",
       "relation": "mirrors",
-      "note": "Two waiting rooms, a roadside and a counter, testing the same small patience."
+      "note": "Two waits with nothing wrong in either: one on a roadside, one under a number."
+    },
+    {
+      "idea_id": "IDEA-0045",
+      "relation": "pairs with",
+      "note": "The same counters and half-finished paperwork seen from the other side: a morning of it here, years of it there."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0045",
-    "reason": "Sound but slight on its own, and duplicative of IDEA-0038's public wait; its counter-and-number strand is folded into IDEA-0045, where the waiting has a decision attached to it."
+    "superseded_by": null,
+    "reason": "Rebuilt on a place where the queue is doubled by a boat timetable, it now carries the group's question at its coolest with a landscape strong enough to hold it without a face."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape: situation block replaced by place, two_layers and an eight-beat sequence, and a real location proposed where a numbered queue is bracketed by a boat timetable, so the film can be built on the architecture of waiting rather than on anyone's face. Concepts re-read from the digests; an unattributable simile was dropped from the C022 link, the 'ordinary uncertainty is not the fault' limit now has a beat of its own, and the selection changed from merge to keep because the location gives the idea a spine it did not have.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Divisional Secretariat on Delft island",
+    "also_known_as": [
+      {
+        "name": "Neduntheevu",
+        "meaning": "'long island', the island's Tamil name",
+        "used_by": "Tamil"
+      },
+      {
+        "name": "kachcheri",
+        "meaning": "the general word for a government administrative office",
+        "used_by": "Sri Lankan English, Sinhala and Tamil usage"
+      }
+    ],
+    "region": "Jaffna District, Northern Province: the outermost of the inhabited islands west of the peninsula, reached by ferry from the Kurikadduwan jetty",
+    "coordinates": {
+      "lat": 9.5167,
+      "lng": 79.6833
+    },
+    "why_here": "Because it doubles the queue. Every island has administration; this one has a single office and a ferry that runs a few times a day with more passengers than seats and priority given to residents, so the morning's business is bracketed by an arrival and a departure that nobody in the room controls. That turns an interior subject into a landscape: the film can state its whole idea in one aerial shot of a boat crossing very shallow, very clear water, and then find the same shape again indoors in a numbered slip and a row of counters. The island itself, flat coral, palmyra, walls of dead reef block and open grazing, gives the sound-off layer a complete piece with no need of the counter at all.",
+    "what_to_film": [
+      "The crossing from a great height, both ways, with the shoals and the shallows giving the water its colour.",
+      "The jetty at both ends: folders in plastic bags, the boarding, the timetable as a physical constraint.",
+      "The office from outside in early light, and the walk or ride to it from the landing.",
+      "The interior as architecture: numbered counters, the bench, the fan, the grille shadow crossing the floor across the morning.",
+      "The number itself, printed, folded, held, put down on a knee.",
+      "Procedure in close-up with nothing identifiable: a form, a stamp, a photocopy, a page turned back.",
+      "The island between the two boats: coral walls, palmyra, grazing land, the flatness that makes the boat matter.",
+      "The room emptying, and the afternoon crossing going back out."
+    ],
+    "access": "By ferry from the jetty on the neighbouring island, which runs to a published timetable with limited seats and priority for residents, so the crew's day is governed by exactly the constraint the film is about. Filming inside a government office requires written permission through the proper channels, and filming in the Northern Province may involve additional approvals; work in Tamil, with consent asked in Tamil, is not optional here.",
+    "best_time": "An ordinary weekday morning outside any pension or payment rush, from the first crossing to the early afternoon one; dry season for reliable sailings and for the water's colour.",
+    "images": [
+      {
+        "caption": "The island itself, for the landscape the film sits in. This is not the office.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Neduntheevu (Delft Island).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Neduntheevu (Delft Island).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Evening light and palmyra on the same island. Landscape only; not the office or the queue.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Delft evening.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Delft evening.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Ruins of the old fort on the island, for the look of coral-block building. Not the office.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient fort, Delf island Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Ancient fort, Delf island Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/delft-island/",
+      "https://www.jetwinghotels.com/jetwingjaffna/things-to-do-in-jaffna/neduntivu-delft-island/",
+      "https://srilankatravelguide.lk/transportation/ferry"
+    ],
+    "research_note": "That the island is reached only by ferry from the Kurikadduwan jetty, that the service runs a small fixed number of sailings a day with limited seats, and that residents are given boarding priority, are from the sources above and are desk research only; timetables change and were not verified with any authority. That the island has its own divisional administration follows from it being a divisional secretariat division, but the office building, its location, its hours and whether it issues numbered tokens at all have not been verified, and the film's interior depends on that being true or being replaced by whatever the office actually does. The coordinates are the island's, not the office's. No official, resident or authority has been approached. The images are of the island and not of the office, as their captions say.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the office uses numbered tokens, and what its actual procedure and busy days are, is unverified; the film's interior shape depends on it.",
+    "Whether written permission to film inside a public office would be given, and on what conditions, and whether those conditions would leave an honest film.",
+    "Current ferry sailings, capacity and priority rules, which govern both the subject and the crew's working day.",
+    "Whether drone flight is permitted over the island and the crossing, which may need specific clearance in this province.",
+    "No official, resident or community representative has been approached. Everything here is a research direction."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

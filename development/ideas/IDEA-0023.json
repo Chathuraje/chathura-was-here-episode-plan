@@ -2,73 +2,160 @@
   "schema_version": 1,
   "id": "IDEA-0023",
   "record_type": "idea",
-  "title": "Before the Selection",
+  "title": "Identical From Outside",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Before the Selection"
+  ],
   "group_id": "GRP-02",
-  "logline": "In the grey light before school, young cricketers bat and bowl at practice, some dreaming of a national shirt and some just loving the game.",
-  "human_question": "Can you tell, by watching someone practise, whether they love the game or want what the game might give them?",
-  "situation": {
-    "what_happens": "A group of young players trains before the school day starts, through the same drills they did yesterday. A coach pushes them and corrects them. Between rounds the talk turns to heroes, trials, money and who might be selected. When practice ends most of them leave, and one stays on and keeps going.",
-    "who_is_involved": "Young players of mixed ability and mixed reasons; a coach who may be paid little or nothing; parents whose expectations are in the background of every session; the one player who stays behind.",
-    "what_is_at_stake": "For the players, a narrow path with very few places on it, and a childhood spent on it either way. For the coach, other people's children's hopes. For the film, the standing danger of framing a child's ambition as greed, which the digest warns against directly.",
-    "how_it_unfolds": "Seasons of practice lead to trials that almost everyone fails, and the failing is ordinary rather than dramatic. Some stop, some keep going for the pleasure of it, and a very few go on. Nothing about who is selected can be influenced, and no child should be asked to perform an ambition."
+  "logline": "In the weeks before the procession season a village that has made drums and taught dance for generations runs on repetition: a log hollowed and a skin drawn over it, and on an open ground at dusk forty people doing the same eight bars four hundred times, in which the only thing that differs between any two of them is the thing no camera can see.",
+  "human_question": "If two people make exactly the same movement with exactly the same effort, is there anything at all to look at that would tell you what each of them is doing it for?",
+  "place": {
+    "what_kind_of_place": "An ordinary-looking village of lanes, small houses and jak trees, in which an unusual number of households make their living from one thing: the drums, the ornaments, the costumes and the dancing that a season of processions, temple nights, weddings and hotel floors requires. Work happens in yards rather than factories. A jak log is hollowed with an adze, a skin is cured and drawn and laced up with cord, and a drum is tuned by tightening it a little at a time. On an open ground at the edge of the village, in the evenings before the season, troupes rehearse: rows of people, the same eight bars again, a drummer at the end of the line, and a teacher walking through the rows and correcting one wrist at a time.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. The making: an adze taking curls out of a log, a wet skin going on, a drum coming up to pitch under somebody's thumb. The rehearsal from directly above at dusk, when rows of bodies hit the same beat and the whole ground pulses like one thing, which is the most beautiful shot the place produces. And the night the costumes come out, when everything that has been practised flat and half-dressed for six weeks is suddenly silver, white and lit, and bodies leave the ground.",
+    "what_moves_or_changes": "Repetition, and the season closing in. The same eight bars, several hundred times an evening, faster as the weeks pass. Drums in the yards go from log to skin to pitch. Bookings fill up. At the end of each evening the ground empties and is marked all over with feet, and the drums go under cloth. Nothing has to be arranged, because a rehearsal ground before a season is already a place doing one thing over and over in public.",
+    "when_it_looks_best": "The weeks before the season, when rehearsal is nightly and the drums are being finished. Late afternoon into dusk for the ground, when the light is low and flat across it and the rows are still readable from the air. Mid-morning in the yards, when the adze work and the lacing are done. The performance nights themselves are the last week and are not the subject, only the destination."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a village that makes drums and teaches dancing, and about the six weeks of repetition before its busiest season. It resolves on its own terms: raw material, work, repetition, the season arriving, an empty ground afterwards. A viewer who never hears a word of the narration gets craft close up, a genuinely thrilling aerial shot of rows of dancers hitting one beat, and a night in which everything practised finally happens.",
+    "with_the_philosophy": "The same footage becomes the sources' anatomy of a purposeful moment, performed by people who are simply working. The voice never contradicts the picture, never tells anyone their reasons are wrong, and never calls anybody greedy. A first strike and a ring become the two jobs a mind does with anything it takes up. Effort becomes something with no colour of its own. And the closing shot says the thing the whole group is circling: forty people doing an identical movement, and the only difference between any two of them is invisible from any height."
+  },
+  "sequence": [
+    {
+      "on_screen": "Late afternoon from the air: lanes, jak trees, tin roofs, and at the edge of it an open ground with figures already forming into rows. In three separate yards below, work is going on at three things that only the season connects.",
+      "voice": "Almost everything made in this village is made because a season is coming and people will want it. Drums, ornaments, costumes, and the dancing itself. The old compendiums this series reads have a long, frank list of the everyday occasions on which wanting shows up, and music and dance are on it, because of the enjoyment in them. The same books do not condemn the arts, and neither does this film.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "A yard in mid-morning. An adze taking long curls out of a jak log; the hollow deepening. A cured skin soaked, drawn over the rim and laced. A thumb on the head, a cord tightened, a strike, and a long ring afterwards.",
+      "voice": "Listen to that, because the books use it. When they want to explain how a mind takes hold of something, they use a struck bell: there is the stroke that lands on it, and there is the hum that stays with it afterwards. They treat those as two separate jobs. Arriving on a thing, and staying with it. Everything anybody does deliberately, all day, is built out of those two.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The ground at dusk. The same eight bars, again and again. A wrist corrected. Water passed along the line. Sweat, dust, the drummer at the end of the row watching feet rather than faces.",
+      "voice": "This is the part they call effort, and they are careful to say it is mental rather than muscular. It has no colour of its own. In a mind already leaning the wrong way it runs like a boat carried by the current, easily and fast. Doing something good with it is described as carrying a load uphill. Effort is not a virtue. It goes wherever the slope is.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "A disagreement over a step. Two versions demonstrated. A teacher settles it; the rows adjust and go again, all of them now doing the settled version.",
+      "voice": "And that is the next part: the one that settles. The books describe it as a force that comes down firmly on something, and they add, without any softening, that it is very often wrong while being perfectly firm. Feeling certain and being right are two different events. The rows will now do it this way four hundred times.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "Night, full dress. Silver and white, oil lamps and floodlight, the drums together, bodies leaving the ground, someone laughing in the middle of it, an arm covered in gooseflesh in close-up.",
+      "voice": "The books get physical here. The gladness that comes up in a moment like this is described as something that happens in the body: waves breaking over it, a lift, the hair standing. They count five kinds of it, and they name laughing and dancing as the things it does to people. That is not a metaphor they invented for this. It is on the page.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The season at work: the same troupe at a temple procession, at a house on a wedding morning, and on a hotel floor at seven in the evening. An envelope handed over in a car park afterwards and counted quickly.",
+      "voice": "Three nights, one set of movements, three quite different reasons for being there. The books are interested in exactly this and nothing else: not the act, the aim. They separate the same cooking, the same clothes and the same earning into what is done out of need, kindness or plain practical sense, and what is done for the taste, the display or the having. The act looks the same in both columns. It always does.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "Straight down from the air, at the last of the light: forty people on one beat, moving as a single figure. Then the ground empty, covered in footmarks, and the drums going under cloth.",
+      "voice": "From up here they are identical. The books draw a hard line through the middle of what those forty people are doing, and they insist on it: the wish to do a thing is not the same as the sticking that makes it grasping. The wish can feed the sticking, or it can work against it, and trained, they say, it is what carries someone as far as a person can go. Same movement, same beat, same effort. The only part that differs is the part that was never going to be visible from any height at all.",
+      "concept_id": "C021"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C021 contributes the distinction at the heart of it: desire-to-act is the wish to do something, held apart from greed's sticking, and the sources say it can run towards the love of doing or towards craving reward while looking identical from outside. C005 contributes the guard rail: sport itself is not treated as a fault in the sources, so what is being described is how and why somebody plays, never the playing.",
-    "what_it_reveals": "That the one thing worth knowing about a person's effort is the one thing no observer can see. Only the person practising can say which way their wish runs, and a film can do no more than ask and wait."
+    "why_together": "Read fresh, C021 is not a theory of motivation. It is a list of six parts that show up in some minds and not others, and its repeated claim is that none of them is good or bad in itself: each takes the colour of the mind it joins [C021-P:L25]. Its similes are physical and film themselves in a drum yard and on a rehearsal ground: the struck bell, with the stroke that lands and the hum that follows, for the two jobs of arriving at an object and staying with it [C021-P:L33] [C021-P:L41] [C021-M:L11]; effort as a boat on a downstream current, against the uphill carry of doing good [C021-P:L53], and effort described as mental rather than bodily [C021-M:L19]; the settling factor that is firm and frequently wrong [C021-P:L45]; and gladness as something that moves through the body, with laughter and dancing named as its expressions [C021-P:L61] [C021-P:L63]. The whole thing lands on the distinction the group needs: desire-to-act is explicitly not greed, it can support greed or oppose it, and developed it becomes a base of success [C021-P:L69] [C021-P:L75] [C021-M:L27]. C005 supplies the frame that keeps this off anybody's back. Its long list of everyday occasions includes music and dance because of the enjoying mind, and its real teaching is the separation of aim from act: the same cooking, dressing and earning fall on either side depending on why [C005-M:L7] [C005-M:L11] [C005-M:L13] [C005-M:L15–L19] [C005-M:L17]. A village where one movement is repeated several hundred times an evening by people with different reasons, and then performed for three different kinds of payer in one week, is where both can be filmed instead of argued.",
+    "what_it_reveals": "That the interesting fact about effort is not how much of it there is. C021 alone would make a film about craft and concentration. C005 alone would make a film about motives, which cannot be filmed and should not be interrogated. Together they produce a single shot that carries the whole group's problem: an aerial of forty people performing an identical movement on an identical beat, where the sources say the decisive difference lies, and where the camera can demonstrate its own limit. The pairing also closes off two cheap endings. It refuses 'follow your passion', because the sources say the same wish inside a greed-rooted mind strengthens it. And it refuses any suggestion that performing for money is the fallen version of performing for love, because the sources allow earning and good clothes their place and judge only by aim, which nobody on screen is asked to declare."
   },
   "concept_links": [
     {
       "concept_id": "C021",
       "role": "primary",
-      "why": "This is close to the digest's own story seed. Desire-to-act can run either towards the love of doing something or towards craving reward and recognition, and the sources are explicit that the two are not the same drive even when they look identical [C021-P:L75] [C021-M:L27]."
+      "why": "The digest gives this film its spine and most of its images. The occasional factors are ethically variable and take the colour of the mind they join [C021-P:L25], which is why the film can show enormous effort without praising or condemning it. The bell simile, with a stroke and the hum that follows, is the sources' own picture for initial and sustained application [C021-P:L33] [C021-P:L41] [C021-M:L11], and a drum being tuned in a yard is that simile happening by itself. Effort is mental rather than muscular [C021-M:L19] and flows the way the ground slopes, downstream in a harmful mind and uphill in a good one [C021-P:L53]. The settling factor is firm and often wrong [C021-P:L45], which is beat 4. Rapture is described bodily, with five kinds, and with laughter and dancing named as what it does [C021-P:L61] [C021-P:L63]. The load-bearing claim is the last one: desire-to-act is explicitly distinguished from greed, supports it in a greed-rooted mind, opposes it in a wholesome one, and developed becomes a base of success [C021-P:L69] [C021-P:L75] [C021-M:L27]. Four of the digest's limits are written into the beats. The film must not preach 'follow your passion', since drive inside a greed-rooted mind guarantees nothing. It must not say 'desire is the enemy', because on desire-to-act the sources say the opposite. It must not treat hard work as virtuous in itself. And it must not present certainty as evidence. The digest also flags the traditional physiology behind rapture moving through the air element and the claim about a sound audible to the divine ear; neither is narrated."
     },
     {
       "concept_id": "C005",
       "role": "supporting",
-      "why": "Games appear in the source's list of everyday occasions for greed-rooted minds because of the enjoying mind, and the digest states plainly that the arts and sport are not condemned [C005-M:L5]; this matters for a situation in which children must never be shown as greedy for wanting to succeed."
+      "why": "C005 is what makes it safe and accurate to build this film around performers. The Margaya's list of everyday occasions for greed-rooted minds includes music, dance, fine clothes and the earning and guarding of wealth, and it says frankly that for most people most of a day runs on liking and reaching [C005-M:L7]. Its actual teaching, though, is the separation of aim from act, worked through three times over: cooking and eating for hunger against for the taste [C005-M:L11] [C005-M:L13]; dressing for cover, decency or to escape contempt against dressing to attract or to look superior [C005-M:L15–L19]; earning from care or practical sense against earning to possess [C005-M:L17]. Beat 6 is that page, filmed. The digest's guards travel with it and are absolute here. 'Art and sport are sinful' is named and refused: music and dance appear because of the enjoying mind, not because the arts are condemned, and a film about performers must not imply otherwise. 'Minimalism' and 'self-denial is virtue' are refused too, since the sources allow good clothes and wealth wisely earned, so nobody's fee, costume or hotel booking is filmed as a fall from grace. And because the analysis turns entirely on aim, no performer is asked on camera to declare theirs, and the film never sorts the people on the ground into columns."
     }
   ],
-  "what_the_viewer_could_understand": "Two people can do exactly the same practice for completely different reasons, and the wish to do something well is not the same as craving what it might bring. Watching cannot tell you which is which.",
-  "what_must_be_real": "The players' actual practice and their own freely given words. Guardian consent held throughout and revocable, and no child asked to describe an ambition they have not volunteered.",
-  "position_hint": "middle, if ever revived: it belongs with the group's desire-to-act beat, where its question is already being asked.",
+  "what_the_viewer_could_understand": "That the wish to do something is not the same as the wanting that sticks to what it gets, and that the two look exactly alike from outside. Effort is not evidence of anything by itself; it goes where it is pointed. The proof is the last shot: forty people, one movement, one beat, and the only difference that matters nowhere in the frame.",
+  "what_must_be_real": "The rehearsals and the drum work as they actually happen, at the village's own pace and hours. No performance is commissioned for the film, no ritual is begun, interrupted or restarted for the camera, and no troupe is asked to dance anything they were not already going to dance. Young people learn here and appear as part of the place; none is named or identified, none is asked about ambition, and nothing in the film turns on who is chosen for anything. Nobody is asked to say why they dance unless they offer it, and no answer is contradicted. Fees are shown as the ordinary facts of a working week or not at all. The hereditary basis of the tradition is not used as a frame for anybody's character.",
+  "position_hint": "middle: the group's turn from reaching towards things to the plain wish to do, which needs the earlier, simpler films about wanting behind it, and which sets up everything later about aim. No location reasoning is involved.",
   "risks": [
-    "It involves minors, so guardian consent is essential and must remain revocable",
-    "Framing any child's ambition as greed",
-    "Selection anxiety and family pressure handled carelessly"
+    "Caste. This tradition is carried by particular hereditary communities, and a careless film could turn a living craft into a caste story or expose people to a framing they did not choose. It is not the film's subject, and nothing is narrated about it.",
+    "Treating ritual arts as spectacle, or filming devotional performance as colour. Where a rehearsal belongs to a religious observance it is either filmed with the community's terms accepted in full or not filmed.",
+    "Imposing 'rapture' on performers, and announcing from the outside what anyone on the ground is feeling. The digest's own seed names this risk directly.",
+    "Framing any performer's fee, or the hotel bookings, as the corrupt version of the art. The C005 digest rules that reading out, and beat 6 exists to refuse it.",
+    "'Follow your passion' as a takeaway, which the digest names as the exact misreading of this material.",
+    "Young trainees. Guardian consent is required, must be revocable, and no child may be identified or made a character.",
+    "Turning the film into a heritage-decline piece about a vanishing art, which is a different film and would flatten the working present into nostalgia.",
+    "Access granted by a school, a temple or a troupe leader is not the same as consent from the people in the rows, which has to be obtained separately."
   ],
   "drop_if": [
-    "Guardian consent cannot be obtained and held for everyone shown",
-    "No coach or team will speak candidly about motives"
+    "Only performances arranged for visitors are available, so no real rehearsal is happening on camera.",
+    "Filming can only be arranged by asking a troupe to dance, drum or rehearse differently from how they would anyway.",
+    "Consent for the young people in the rows cannot be obtained and held throughout."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0019",
-      "relation": "merged into",
-      "note": "Its substance now sits inside IDEA-0019: practice whose aim only the practitioner knows, and the rule that a young person's ambition is never framed as greed."
+      "idea_id": "IDEA-0022",
+      "relation": "mirrors",
+      "note": "An aim that cannot be located in the movement, and a taste that cannot be located in the leaf."
+    },
+    {
+      "idea_id": "IDEA-0024",
+      "relation": "pairs with",
+      "note": "Two places that assemble themselves for a season: one to perform, one to work, and both taken apart afterwards."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0019",
-    "reason": "It asks the same question IDEA-0019 already asks, on the same concept and the same digest seed, but with children and the consent burden that brings; the question and its guard rail are folded into IDEA-0019 instead."
+    "superseded_by": null,
+    "reason": "A working place where the sources' anatomy of a purposeful moment is the evening's actual business, ending on one shot that states the concept and admits the camera's limit."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape, and the subject replaced. Dropped the old situation block entirely: it filmed children at cricket practice and turned on whether a child would be selected, which cannot be made under this series' rules. The new film is a village that makes drums and teaches dance in the weeks before its season, where the same movement is repeated several hundred times an evening and then performed for three different kinds of payer in one week. Young people appear as part of the place, are never identified, and nothing turns on anybody's selection. New title; old title kept in aliases. Both links re-tested against their digests and rewritten: C021 rebuilt on the sources' own similes, the bell's stroke and hum, effort's slope, the firm and often wrong decision, bodily rapture, and the explicit separation of desire-to-act from greed; C005 re-grounded on the separation of aim from act, carrying the digest's refusal to treat the arts, earning or good clothes as faults. Added place, two_layers, a seven-beat sequence and a suggested location; the images array is left empty because no candidate image URL could be verified from here. Selection changed from merge into IDEA-0019 to keep, since the film is no longer the same film.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Amunugama, on the Lewella–Amunugama–Madawala road",
+    "region": "Kandy District, Central Province, in the valley north-east of Kandy",
+    "coordinates": {
+      "lat": 7.3162,
+      "lng": 80.6765
+    },
+    "why_here": "It is a village whose name is the name of a dance and drumming lineage, with teaching institutions that have run since the middle of the last century and households that still supply drums, ornaments and dancers to a season of processions, temple nights and weddings across the district. That gives the film all three of its layers inside a few lanes: a drum being made from log to pitch, which is the sources' bell simile happening without anyone saying so; a nightly rehearsal ground where the same eight bars are repeated several hundred times by people of every age and every reason; and, within the same weeks, the three destinations that let the film show one movement paid for in three different ways. The ground itself is the reason for the location. It is open, flat and filmable from directly above at dusk, which is where the payoff shot lives: forty people on one beat, identical from the air, with the only difference that matters invisible.",
+    "what_to_film": [
+      "The village from the air in late afternoon: lanes, jak trees, working yards, and the open ground with rows already forming.",
+      "A drum made from the beginning: the adze on the jak log, the hollow deepening, the skin soaked and drawn, the lacing, and the tuning by thumb until the ring is right.",
+      "The rehearsal at ground level and inside the rows: the same eight bars, the corrections, the water passed along, the drummer watching feet.",
+      "The moment a disputed step is settled and everybody changes to the settled version.",
+      "A dressed night: silver and white, lamps, the drums together, bodies leaving the ground, and close enough to see gooseflesh on an arm.",
+      "The three destinations in one week, filmed identically and without comment: a temple procession, a wedding house in the morning, a hotel floor at seven.",
+      "Straight down from the air at the last of the light, wide enough to hold all the rows at once. This is the payoff shot and the film ends on it.",
+      "The ground empty afterwards, covered in footmarks, and the drums going under cloth."
+    ],
+    "access": "By road from Kandy, a few kilometres north-east through Lewella towards Madawala; the village is ordinary lanes and yards, not a site with a gate. Access is household by household and troupe by troupe, and separately through whichever teaching institution's ground is being used. Performance nights during the season are arranged by whoever is paying for them, so filming those requires permission from the hosts as well as the troupe. No access to a visitor-facing cultural show is wanted; that is a different kind of place from the one this film needs.",
+    "best_time": "The weeks before the district's procession season, when rehearsal is nightly and drums are being finished, which locally means the build-up through the middle of the year. Late afternoon into dusk for the ground and the aerial, mid-morning for the yards. The season's own performance nights are the last week of filming and are the destination rather than the subject.",
+    "images": [],
+    "sources": [
+      "https://www.sundaytimes.lk/210815/plus/from-the-spiritual-to-performance-452129.html",
+      "https://en.wikipedia.org/wiki/Kandyan_dance",
+      "https://roadsandkingdoms.com/2018/the-vanishing-dance/",
+      "https://ceylontoday.lk/2025/05/16/sri-lankan-kandyan-wes-dance-and-drumming-aesthetics-of-the-male-body/"
+    ],
+    "research_note": "The village's association with a hereditary dancing and drumming lineage, the presence of teaching in the locality, the drum used and the district's procession season are from the sources above and are desk research only. The coordinates are taken from the road and locality of that name in the district and are approximate to the village rather than to any household or ground. Which teaching institutions are actually in this village rather than in the nearby city, whether drums are still made here rather than bought in, whether any troupe rehearses on open ground suitable for an overhead shot, the exact rehearsal weeks, drone permissions and whether any household or school would agree to be filmed are all unverified. Two or three Wikimedia Commons files covering this location were identified as candidates, but none of their Special:FilePath URLs could be confirmed as returning HTTP 200 from the machine used for this research, which was rate-limited throughout; rather than carry unverified links, the images array is left empty and the candidates should be re-checked and added later.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, troupe, school or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether drum-making and rehearsal can both be filmed in the same village, or whether the film would have to travel between two places, is unverified.",
+    "Whether an overhead shot of a full rehearsal is possible at all, given the ground, the light at dusk and drone rules near a populated area, has not been checked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

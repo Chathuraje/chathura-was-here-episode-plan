@@ -2,82 +2,180 @@
   "schema_version": 1,
   "id": "IDEA-0221",
   "record_type": "idea",
-  "title": "What Cannot Be Undone",
+  "title": "The Reef Is in the Walls",
   "status": "draft",
-  "version": 1,
+  "version": 2,
   "created_at": "2026-09-19",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What Cannot Be Undone"
+  ],
   "group_id": "GRP-03",
-  "logline": "An older person goes back to a place tied to something they did when they were young, and what they do when they get there is not talk about it.",
-  "human_question": "When a wrong cannot be undone, what is the difference between carrying it and going over it?",
-  "situation": {
-    "what_happens": "Someone decides, late, to return to a place connected with something they did decades ago and have never stopped thinking about. The decision is their own and has been coming for a long time. What they do when they arrive is practical and small: a repair, a gift, a debt settled, a visit to someone still living, or simply standing there and going home again. The gap between the size of the thing done and the size of the thing remembered is the whole subject. Most of the actual film is travel, arrangements and ordinary talk, because that is what such a journey consists of.",
-    "who_is_involved": "The person making the journey; whoever travels with them, usually a son, daughter or friend who knows some of it; people still living at the far end who may or may not remember, and who are approached only if the traveller has already approached them; and the family at home, who have lived with this for years without it being named.",
-    "what_is_at_stake": "For the traveller, whether doing something now changes anything, and the risk that it does not. For anyone at the far end, being made part of somebody else's resolution without having asked for it. For the family, hearing something said aloud that has always been half-known. For the film, never extracting a confession and never turning another person's harm into this person's story.",
-    "how_it_unfolds": "It begins with a decision already made, because a film may not prompt one. The pressures are age, distance, the possibility that the place or the people are gone, and the traveller's own second thoughts on the way. It can end with something done and nothing changed, with something done and a real change, with the traveller stopping short, or with the journey never being made at all. Reality decides, and the honest likelihood is a small act and an unresolved feeling."
+  "logline": "For generations the living reef off one stretch of coast was cut, carried up the beach and burned into lime, so that it now stands in the plaster of the houses behind the beach, while out in front of them the sea arrives over a flat where the reef used to break it.",
+  "human_question": "When the thing you did cannot be put back, what is worth doing now?",
+  "place": {
+    "what_kind_of_place": "A few kilometres of low, densely lived-on coast where a fringing reef once ran parallel to the shore a couple of hundred metres out. Coral was taken from it by hand and by crowbar for generations, and older, fossil reef was dug out of the ground just inland; both were burned in kilns along the shore and slaked into lime for plaster, whitewash and mortar. The sea mining was outlawed in the early nineteen-eighties and the shoreline kilns in the early nineteen-nineties, and enforcement has been uneven ever since, because it was for most people the only work there was. What is left is a coast with three layers: a dead, quarried shelf under shallow water; a shoreline with no natural breakwater in front of it, now held with rock armour and concrete; and a village whose walls are made out of the reef. Offshore, small steel frames of nursery-grown coral are being fixed to the old dead rock by people who say plainly that it is not a restoration.",
+    "why_it_is_worth_watching": "The subject is legible from the air in a way it is not from anywhere else. At low tide, in flat morning light, the quarried shelf reads as a pale shape with straight, wrong edges in it: the outline of a reef that is not there, and the marks of where it was taken. Then the same aerial holds all three layers in one frame, the shelf, the armoured shore and the white village behind it, which is the film's whole argument without a word. Underwater it is a bare, bright, almost geometric landscape, rubble and dead rock and then a small grid of nursery frames with new colour on them. And on land there is white: lime dust, whitewashed walls, and the flat glare of the beach.",
+    "what_moves_or_changes": "Tide, swell and season, none of them arranged. Twice a day the shelf surfaces and submerges and the whole reading of the coast changes with it. Between monsoons the water is clear enough to film in and the swell is small; in the rough season the same shore takes a beating and the armour is what stands between the sea and the road. The nursery frames change over months, which is longer than a film, so that growth has to be shown by returning rather than by waiting. The village does not stop for any of it.",
+    "when_it_looks_best": "The calm season, on a spring low tide in the first hours after sunrise: the water at its clearest for both the aerial and the underwater work, and the shelf uncovered. One deliberate return in the rough season, for the sea arriving on an unprotected shore, gives the film its other weather."
   },
+  "two_layers": {
+    "without_the_philosophy": "A coastal film with a hard, clear structure that needs no commentary: the shape under the water, the shore that has to be held up with rock, the white village, the kilns, and the people who go out in the morning to tie fragments of coral onto frames. It moves from an absence you can see from the air to a small, patient, present-tense act done by hand underwater. Anybody who watches it with the sound off gets a complete piece about a coast and the people who live on it.",
+    "with_the_philosophy": "The same footage becomes the sources' own distinction, which is sharper than the one most people carry. The voice never accuses anyone in frame, and never says the sea took anything back. It points at the shelf and says that remembering what was done there is not the fault the texts name; the fault they name is the churning that goes over it and over it, which they say makes a small wrong heavier and uses up the strength that could do some good now. Then the camera is already looking at the good that is being done now, and at how small it is, and at how many hands it takes."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, very high, spring low tide. A pale shelf two hundred metres offshore with straight, quarried edges in it, the water over it barely moving, the village a white line behind the beach.",
+      "voice": "There is a shape under the water here that you can only read from this height. It is the outline of a reef, and the reef is gone. It was cut out by hand, a piece at a time, over about three generations.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "On land: the low mounds of old shoreline kilns; lime dust white on the ground; a whitewashed wall in raking sun; a hand flat against plaster.",
+      "voice": "It was carried up this beach, burned in kilns along it, and slaked into lime. It is in the plaster of the houses behind us, in the mortar, in the whitewash. That is not a figure of speech. The reef is in the walls.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The shore in the rough season: swell arriving over the flat without breaking until it reaches the beach, a wall undercut, coconut palms standing in the water, a revetment of quarried rock, a road behind it.",
+      "voice": "The reef was also what broke the sea before it got here. Now that job is done with rock, and it is done again every year. Nothing that could be done to this coast would put back what stood out there. That is simply true of some things people do, and it is where the old books start.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Inland, quiet: water-filled pits among coconut palms where older buried reef was dug out, still and green, a bicycle track past them, nobody about.",
+      "voice": "The older book's own example of regret is exactly the kind of thing this coast has: a wrong done in the pride of youth and remembered in old age [C022-P:L141]. And then it says something most people do not expect. Simply remembering is not the fault. What it calls the fault is the churning that goes over it again and again, which it says makes a small wrong heavier, while brooding over good that was left undone does nothing at all except drain the energy to do good now [C022-P:L143].",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Underwater. Bare dead rock and rubble, then a grid of small frames with fragments tied on, a diver checking knots and clearing algae by hand, fish already over the new growth.",
+      "voice": "This is what is being done now, and nobody doing it calls it a restoration. It is a few hundred square metres against a reef that took centuries. The shorter book puts the same teaching from the other side: a mind that is resting in something good is not a mind this state can occupy at all [C026-M:L15].",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "The boat at the surface: six or seven people, frames passed hand to hand, tanks, a tally in a notebook, tea afterwards on the sand with the shelf behind them.",
+      "voice": "The books also say that this kind of regret, when it is strong, is not usually something a person gets out of by themselves; it takes good company. And they are careful about where the state lives: it rides on displeasure, it comes only now and then, and it never shares a moment with envy or with meanness, which each arrive on their own [C026-P:L39].",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Dusk. The white walls of the village going warm, then grey; the shelf offshore invisible now under a flat sea; a single light over a doorway.",
+      "voice": "So the books are not saying that feeling bad about it cleanses anybody; they say the opposite. And they are not saying that nobody should feel anything, either. They separate remembering, which they leave alone, from grinding, which they say makes the thing heavier and takes the strength out of the hands that could do something today. A camera cannot see which of those is happening in anyone here. It can see the walls, and the shelf, and the frames.",
+      "concept_id": "C022"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C022 supplies the teaching that makes the journey a concept rather than a portrait: the compendium's own example of remorse is a wrong done in youthful pride and recalled in old age [C022-P:L141], and it separates two things ordinary language runs together, simply remembering a wrong, which it does not treat as the fault, from the churning self-punishment that goes over it again and again, which it says makes the wrong heavier rather than lighter [C022-P:L143]. C026 supplies where that state lives: remorse arises only in the two hate-rooted minds, only on some occasions, and never together with envy or stinginess, which come one at a time [C026-P:L39], and Margaya names the conditions under which such a mind cannot arise at all, among them a mind already set on something good [C026-M:L15].",
-    "what_it_reveals": "That the alternative to brooding, on these sources' own account, is not forgetting and not forgiving oneself but doing something now, and that this is a claim about what a mind can hold rather than a piece of advice. Neither concept shows it alone: C022 gives the diagnosis and the surprising verdict that guilt does not cleanse, and C026 gives the mechanism, that the state cannot occupy a mind that is occupied otherwise. A journey made to do one small thing is the shape of both at once."
+    "why_together": "C022 supplies the teaching and its surprise. Pradeepika's principal example of remorse is a wrong done in youthful pride and recalled in old age [C022-P:L141], and it then separates two things ordinary language runs together: simply recalling a wrong, which it does not treat as the fault, from the self-punishing churning that goes over it again and again, which it says makes a small wrong heavier and drains the energy to do good now [C022-P:L143]. C026 supplies where that state can and cannot live: remorse arises only in the two hate-rooted minds, only occasionally, and never in the same moment as envy or stinginess, which each arise alone [C026-P:L39]; and Margaya names the conditions under which such a mind cannot arise at all, among them a mind resting in something good [C026-M:L15]. Put on a coast where the thing done is literally in the walls of the houses and in the shape of the sea floor, the diagnosis and the mechanism stop being doctrine and become a description of what the camera is already looking at.",
+    "what_it_reveals": "That the alternative to brooding, on these sources' own account, is neither forgetting nor absolution but doing something now, and that this is a claim about what a mind can hold rather than a piece of comfort. C022 alone would be an argument with no ground under it. C026 alone would be a classification. Together, on a shore where an irreversible thing was done for wages and a small, admittedly insufficient thing is being done now by many hands, they let a viewer feel the exact distinction the sources draw, and feel it without any real person being asked to confess anything."
   },
   "concept_links": [
     {
       "concept_id": "C022",
       "role": "primary",
-      "why": "Remorse is one of the fourteen, and Pradeepika's principal example of it is precisely this situation: wrongs done in the pride of youth, recalled in old age [C022-P:L141]. Its most surprising teaching is the one the film is built on: simply recalling a past wrong is not the fault, while brooding over it makes a small wrong heavier and brooding over good left undone does no good at all, because it drains the energy to do good now [C022-P:L143]. The digest is explicit that both popular slogans distort this: 'guilt is good for you, remorse purifies' is rejected by the source itself, and 'never feel bad about what you did' distorts it in the other direction. One claim in this material is deliberately not used. The digest flags as needing expert checking the statement that strong remorse can be overcome only with the help of Buddhas, paccekabuddhas or arahants [C022-P:L151], so the film makes no claim about what can or cannot lift this person's regret, and in particular does not present their journey as a method."
+      "why": "Remorse is one of the fourteen, and Pradeepika's principal example of it is a wrong done in the pride of youth and recalled in old age [C022-P:L141]. The teaching the film is built on is the one the digest calls the most surprising: simply recalling a past wrong is not the fault, while brooding over it makes a small wrong heavier, and brooding over good left undone does no good at all, because it drains the energy to do good now [C022-P:L143]. Both of the digest's does-not-transfer readings are refused on screen in the same breath, which is why the closing narration states them together: 'guilt is good for you, remorse purifies' is rejected by the source itself, and 'never feel bad about what you did' distorts it in the other direction, since the source separates recalling from brooding and points towards present action. One claim is deliberately left unnarrated: the digest flags as needing expert checking the statement that strong remorse can be overcome only with the help of Buddhas, paccekabuddhas or arahants [C022-P:L151], so the film makes no claim about what does or does not lift anybody's regret, does not present coral planting as a method or a penance, and says only the general thing the digest itself states, that strong remorse is usually not lifted alone and needs good companions. The film also never applies the word to a named person: the sources describe moments of mind, not kinds of people."
     },
     {
       "concept_id": "C026",
       "role": "supporting",
-      "why": "Remorse belongs to the hate tetrad: it arises only in the two hate-rooted minds, only occasionally, and never in the same moment as envy or stinginess, which each arise alone [C026-P:L39]. Margaya alone gives the conditions under which such minds cannot arise: while one sees the danger in the act, while shame and dread are awake, or while the mind rests in something good [C026-M:L15], which is the sources' own ground for preferring a small act now to another year of going over it. The digest's first limit governs the film: this is a study scheme about single moments of mind, not a way of reading a person, and the camera cannot show which factor is present."
+      "why": "Remorse belongs to the hate tetrad: it arises only in the two hate-rooted minds, only occasionally, and never in the same moment as envy or stinginess, which each arise alone [C026-P:L39]. Margaya alone gives the conditions under which such minds cannot arise: while one sees the danger in the act, while shame and dread are awake, or while the mind rests in something good [C026-M:L15]. That is the sources' own ground for preferring a small act now to another year of going over it, and it is what the nursery sequence is for. The digest's first limit governs the whole film and is written into the closing narration: this is a study scheme about single moments of mind, not a way of reading a person, and a camera cannot show which factor is present. Its second limit matters here too, since the four constant factors describe every unwholesome moment in anyone and do not describe a type of person, so nobody on this coast may be filmed as an example of one."
     }
   ],
-  "what_the_viewer_could_understand": "The texts make a distinction most of us do not: remembering a wrong is not the problem, and going over it again and again is, because it makes the thing heavier and uses up the energy that could do some good now. They do not say guilt cleanses anybody, and they do not say a person should stop caring. They say the state cannot occupy a mind that is occupied by something good.",
-  "what_must_be_real": "The journey must be the person's own idea and already decided before a camera is involved; no return, meeting or apology may be arranged, suggested or paid for. Nothing may be re-visited for a second take. Third parties from the past are not sought out, named or contacted by the film, and are approached only where the traveller has already done so and they have consented on their own account. The person leads what is disclosed and may withdraw any of it, and the film may not require them to say what they did.",
-  "position_hint": "closing candidate if it were ever slated: it is a film about what is left when the heat has burned out and only the account remains, which is the group's own handover. Held rather than placed, so its position is a question for whoever finds a slot. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "The texts draw a line most of us do not. Remembering a wrong is not the problem; going over it again and again is, because they say it makes the thing heavier and uses up the strength that could do some good today. They do not say guilt cleanses anybody, and they do not say a person should stop caring. They say the state cannot occupy a mind that is occupied by something good, and that when it is strong it is usually not shifted alone.",
+  "what_must_be_real": "The damage, the lime, the shoreline works and the restoration attempt must all be the real standing condition of the place, and every figure in the film must be doing their actual work. Nothing is reconstructed: no coral is cut, lifted, burned or handled for the camera under any circumstances, no kiln is lit for a shot, and no disused practice is re-enacted. Nobody is identified as having mined coral, nobody is asked to account for it, and no confession is sought, filmed or implied; the work was legal for most of the period in question and was for many people the only work available. The film makes no claim, direct or implied, that any later disaster on this coast was a consequence of what was taken from it. Claims about what the restoration achieves come only from the people doing it, in their own words, and the film does not present it as a remedy the sources endorse. Diving and drone work happen only where they are permitted and where they do no damage to what is left.",
+  "position_hint": "closing candidate: it is the group's film about what is left once the heat has burned out and only the account remains, and it ends on present action rather than on resolution. No location reasoning is involved.",
   "risks": [
-    "Extracting a confession, or making disclosure the price of the film.",
-    "Exposing people who were harmed, or making them into material for someone else's resolution.",
-    "Presenting the journey as a remedy the sources endorse, when the digest flags the source's own claim about what lifts strong remorse as needing expert checking.",
-    "Letting the film say that guilt cleansed this person, which is the reading the source itself rejects.",
-    "The opposite drift, a film that tells an old person they should stop feeling bad.",
-    "A journey with a small act at the end of it may not carry a film, and the smallness is the point, which is a real editorial tension."
+    "Letting the film say that guilt cleansed anybody, which is the reading the source itself rejects.",
+    "The opposite drift: a film that tells people they should stop feeling anything about what was done, when the sources separate recalling from brooding rather than dismissing both.",
+    "Presenting the restoration work as a remedy the sources prescribe, when the digest flags the source's own claim about what lifts strong remorse as needing expert checking.",
+    "Framing anyone in frame as an example of a defilement, when the scheme describes single moments of mind and a camera cannot show which factor is present.",
+    "Moralising about a livelihood: coral was cut for wages, under law for much of the period, by people with no other work, and the film must not turn that into a parable about greedy villagers.",
+    "Implying that a later catastrophe on this coast was a punishment or a consequence, which the film must not suggest in image, edit or narration.",
+    "Beauty swallowing the subject: a bright, clean underwater landscape can read as health rather than as what is left after removal, and the edit has to keep the absence legible.",
+    "Overstating what the nursery work achieves, or understating it, when the honest scale is a few hundred square metres against centuries."
   ],
   "drop_if": [
-    "No person is already planning such a return of their own accord.",
-    "The story cannot be told without identifying people who have not consented.",
-    "The film would be the reason the journey happens."
+    "The quarried shelf can no longer be read from the air or underwater, so the film's central image does not exist.",
+    "No restoration or reef work is genuinely active, leaving the film with an absence and no present-tense act beside it.",
+    "It can only be made by asking people to describe or re-enact what they took."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0037",
       "relation": "pairs with",
-      "note": "Two people living with what they did: one who works among others daily, one who goes back once."
+      "note": "Two places living with what was done: one where the mark is on people, one where it is in the ground and the walls."
     },
     {
       "idea_id": "IDEA-0045",
       "relation": "alternative to",
-      "note": "Two ways for the group to end: a decision that will not land, and a wrong that cannot be undone."
+      "note": "Two ways for the group to end: a crossing that will not open, and a reef that cannot be put back."
     }
   ],
   "selection": {
-    "recommendation": "hold",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Created to close a factor-level gap: remorse is named in the group's own depth and lesson, is one of the four readings the C022 digest gives at length, and is carried by no kept idea. There is no slot in the nine episodes, so it is held for a slate revision or for the group that takes up what is left after the heat."
+    "reason": "Remorse is the only concept in the group carried by no other film, and this place carries it in its own material, so the distinction between remembering and brooding can be shown without anyone being asked to confess."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape, and the recommendation moved from hold to keep. The old subject, an older person returning to the scene of something they did when young, is dropped entirely: it required a real person with a real past wrong, filmed at the scene, which cannot be made under these rules and would have made disclosure the price of the film. The concept is kept and rehoused in a landscape that carries what cannot be undone in its own material, a coast whose reef was quarried into the lime of its own houses. The film's ending is moved from a private act to a collective present-tense one, which is where the digest itself points.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The coral-mined coast between Akurala and Kahawa, with the lime kiln shore and the inland pits behind it",
+    "also_known_as": [
+      {
+        "name": "hunu",
+        "meaning": "burnt lime, the product the reef was turned into",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "The south-western coast of the Galle District, on the belt between Ambalangoda and Hikkaduwa in the Southern Province",
+    "coordinates": {
+      "lat": 6.2167,
+      "lng": 80.0667
+    },
+    "why_here": "This is the stretch the literature names first. Surveys of reef destruction in the country put the most heavily mined ancient fringing reefs on the belt running from this village down to the next big town, and in the southern district beyond it; sea mining was outlawed in 1983 and the shoreline lime kilns in the early nineteen-nineties, and both have been hard to stop because there was no other steady work. So the irreversible thing here is not an incident but the material the place is made of: the reef is in the walls, and the shape of what was removed is still readable on the sea floor. Against that the coast now has rock armour holding the shore and, on this stretch of the south-west, active coral nursery and transplanting work whose practitioners are the first to say it is not a restoration. A film needs both halves, and this belt has them a few hundred metres apart.",
+    "what_to_film": [
+      "The high aerial at spring low tide: the quarried shelf, the armoured shore and the white village in one frame.",
+      "The shelf underwater: bare rock, rubble, the straight edges where coral was taken, and the fish that are there anyway.",
+      "The nursery work as work: frames made up on the beach, carried out by boat, fixed and cleaned by hand, checked again weeks later.",
+      "Lime on land: the remains of shoreline kilns, lime dust, plastered and whitewashed walls, and the ordinary maintenance of them.",
+      "The inland ground where older buried reef was dug out, if pits of that kind are present on this stretch.",
+      "The rough season on an unprotected shore: swell crossing the flat, the revetment taking it, the road behind.",
+      "The same framing at low and high tide, so the shelf's appearance and disappearance reads without narration."
+    ],
+    "access": "By road along the coastal belt, which is continuously settled, with the shore itself in public use. Anything filmed in the water needs the agreement of the people running the reef work and of whichever authority licenses diving on a degraded reef; filming near or inside any declared marine sanctuary on this coast needs its own permission. Households would have to agree to any filming of their walls or ground.",
+    "best_time": "The calm months between monsoons, on a spring low tide in the first hours of daylight, for both the aerial and the underwater material. One deliberate return in the rough monsoon season for the shore under swell.",
+    "images": [
+      {
+        "caption": "A beach on the same southern coral belt. The file is titled for a village of this name and the exact stretch is not confirmed, so this is included as the coast type, not as a photograph of the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matara Akurala beach, SriLanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Matara Akurala beach, SriLanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Underwater on the surviving protected reef a few kilometres down the same coast, included to show the reef type the quarried shelf was cut from, not the shelf itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hikkaduwa under water.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Hikkaduwa under water.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.fao.org/4/x5627e/x5627e09.htm",
+      "https://efl.lk/wp-content/uploads/2022/03/Coral-Reefs-of-sri-lanka-extent-condition-and-management.pdf",
+      "https://mepa.gov.lk/client/restoration-of-coral-reefs-east-and-south-coast-of-sri-lanka/",
+      "https://www.researchgate.net/publication/236593095_Environmental_economics_of_coral_reef_destruction_in_Sri_Lanka"
+    ],
+    "research_note": "That the most heavily exploited ancient fringing reefs lie on the coastal belt from this village towards the next town and in the southern district, that coral was mined for lime and burned in shoreline kilns, that sea mining was banned in 1983 and the kilns in the early nineteen-nineties, that enforcement has been weak because of the lack of alternative work, and that transplanting is used to speed recovery of degraded reefs, are from the sources above and are desk research only. The coordinates are the village area, not a surveyed standpoint. Whether the quarried shelf is still legible from the air here, whether inland pits of the kind described exist on this exact stretch, whether any nursery or transplant work is currently active on this belt rather than elsewhere on the coast, and what permissions ground, air and underwater filming would need, are all unverified. No image of the proposed stretch itself was found on Commons, so the two images here are of the coast type and the reef type and say so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No village, household, diver or organisation has been found or approached. Everything here is a research direction.",
+    "Whether an active reef nursery exists on this particular belt, which the film's second half depends on, is unverified; if it is elsewhere on the coast the location moves with it.",
+    "Whether the quarried shelf still reads from the air after four decades of storm and regrowth is the question that decides whether the film's central image exists.",
+    "Whether the subject can be filmed on this coast at all without the 2004 wave dominating how a local audience reads it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

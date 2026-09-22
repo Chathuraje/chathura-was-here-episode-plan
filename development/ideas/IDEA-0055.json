@@ -2,50 +2,99 @@
   "schema_version": 1,
   "id": "IDEA-0055",
   "record_type": "idea",
-  "title": "Four O'Clock Prices",
+  "title": "Everything Arrives at Once",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Four O'Clock Prices"
+  ],
   "group_id": "GRP-04",
-  "logline": "Before dawn at a wholesale vegetable market the lorries all arrive at once, prices move by the minute, and a trader holds buyers, a phone and a scale together until the rush breaks into sudden quiet.",
-  "human_question": "What happens to our attention when everything arrives at once?",
-  "situation": {
-    "what_happens": "Produce comes in overnight from many growing areas and has to be sold before it loses value, so a whole day's trade is compressed into a few hours in the dark. A trader takes delivery, sets and resets prices as supply shifts, weighs, argues, answers a phone and keeps a running account of who owes what, all at the same time. Counts are lost and started again and sentences are left unfinished. Then the last sacks go and the noise stops all at once.",
-    "who_is_involved": "A trader who carries the stall's risk; the drivers and loaders who set the pace; the buyers, who can always walk to the next stall; and the growers, absent, whose season is settled by the prices agreed here.",
-    "what_is_at_stake": "Money that is immediate and real: spoilage, a price agreed a minute too late, a debt owed to a grower, the next planting. For a trader's household a single night can decide a month.",
-    "how_it_unfolds": "It begins in the dark with arrival and ends in daylight on an empty floor. The pressure peaks when supply and buyers coincide, and something is usually nearly missed. It ends in exhaustion, a cup of tea, a count reconciled or left. Reality decides how heavy the night is: how much came in, what the weather did to the crop that week, who turned up to buy."
+  "logline": "A national wholesale terminal in the middle of the dry zone, where every road in the country delivers its lorries into one lit shed complex in the same two hours of the night, and the price the whole island will pay tomorrow is settled before it gets light.",
+  "human_question": "What happens to attention when everything arrives at the same moment, and whose fault is that?",
+  "place": {
+    "what_kind_of_place": "A purpose-built wholesale terminal on a main junction in the dry zone: a grid of long open-sided sheds with numbered stalls, a lorry apron around it and main roads feeding it from four directions. It is not a fair and not an auction room. It is a transfer point working at volume, where produce from the hill country, the northern peninsula and the dry-zone farms is unloaded, re-sorted, re-sacked and sent out again, mostly within hours. The rhythm is nocturnal: the sheds fill from late evening, the heavy arrivals land in the small hours, and by full daylight the floor is swept and half empty.",
+    "why_it_is_worth_watching": "Because it is a system that becomes visible only from the air and only at night. From height the terminal is a rectangle of sodium light on an otherwise black plain, and every road running into it is a moving string of headlights converging on the same box at the same hour. Drop to the floor and it is the opposite of legible: sacks passing, boards being wiped and rewritten, a scale, a hand, a torch, a trolley, and no shot lasting long enough to finish. Then it ends. By mid-morning the same sheds are empty, swept and silent, with the light coming in sideways through a hundred metres of open bays, and the change between those two states is the whole film.",
+    "what_moves_or_changes": "Volume and price, and neither is under anyone's control. What arrives depends on what ripened, what the weather did to it a week ago in three different climates, and which lorries got through. The price follows, and it moves while the night is happening: a board written at one and rewritten at three. The light moves too, from sodium and headlight to grey to flat morning sun. The one thing that can be relied on is the shape of the night itself, which fills, peaks and empties on the same curve.",
+    "when_it_looks_best": "From about midnight to first light, which is when the arrivals stack up and the sheds are lit against a black plain; the aerials want a clear, moonless night so the road-strings read. Then the same frames again at nine in the morning, on an empty floor, with low sun through the open bays. Harvest peaks give the heaviest nights; a festival week gives the heaviest of all."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night-to-morning film about a machine made of lorries. It has a complete shape with no commentary at all: black country, four strings of headlights converging, a lit grid, two hours of sustained sensory overload at floor level, then a grey exhale, then a hundred metres of empty swept concrete in morning light. It is loud, it is beautiful from the air, and it finishes on its own terms. Anyone with no interest in philosophy gets a full piece.",
+    "with_the_philosophy": "The same night becomes the sources' own list of conditions, standing in a real building. One of the texts names the occasions on which the unsettled mind tends to arise and they are not moral failings: sudden matters, doing many things at once, and working fast. The other supplies the image, a water surface shaken by wind. This film points the camera at the wind and never at anybody's face. It shows the conditions arriving, all of them, at once, by design and by timetable, and lets the viewer's own attention do the demonstrating. It then refuses the obvious ending, because the quiet at nine in the morning is exhaustion and an empty floor, and the sources are explicit that this kind of flatness is not calm."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone, very high, midnight. Black dry-zone country with almost nothing lit in it, and in the middle one rectangle of sodium light. Hold long.",
+      "voice": "In the dark around this building there is nothing much for thirty kilometres. Inside it, before this night is over, the price of most of the vegetables in the country will be decided.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Still high, but wider. Four roads run in from four directions and each one is a moving string of headlights, all pointed at the same rectangle.",
+      "voice": "None of these lorries agreed to arrive together. They are coming from the hills, from the far north, from the dry-zone farms, and they are all aimed at the same hour, because that is the hour the buying happens. The pile-up is not anyone's decision. It is the design.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Floor level, the peak. Sacks off a tailboard in a chain, a scale, a chalked board wiped and rewritten, a trolley cutting through, a phone against a shoulder, a torch beam across a load. Cuts come before anything finishes.",
+      "voice": "One of the texts lists the occasions when the unsettled mind tends to come up, and the list is flat and practical. Sudden matters. Doing many things at the same time. Working fast [C008-M:L20]. That is not a description of a person. It is a description of a night like this one.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "A single unbroken handheld take, two or three minutes, walking the length of one shed at the busiest moment, passing forty stalls, never settling on any of them.",
+      "voice": "The other text has an image for it that is worth having. A surface of water shaken by the wind; or a heap of ash that somebody has thrown a stone into [C074-P:L348–L358]. Both images are about something being acted on. Neither of them is about the water or the ash being at fault.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "Close, slow, on the one thing in the building that holds still: a price board, with the old number half-wiped under the new one. Then another board. Then another.",
+      "voice": "The mechanism the texts describe is precise. When a mind takes up something, the power that keeps it there until the mind ends is one-pointedness. Agitation weakens that power, and then everything else in the mind is thrown off with it and cannot take the object properly [C008-P:L62]. At that point, they say, a person cannot think steadily about a matter [C008-P:L64]. The sources place it among the things that cover the mind and stop it settling, and set it directly against calm [C074-P:L322; C074-P:L360].",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "First grey light. The rush visibly breaking: fewer lorries, gaps opening in the chain, a man sitting down on a stack of empty crates, a broom starting at one end of a shed.",
+      "voice": "This is also the weakest of the states the texts describe, not the heaviest [C008-M:L16]. They are careful about that. Missing footing, they call it, rather than wrongdoing. And a camera cannot see which state anybody here was in at three in the morning. This one does not claim to.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Nine in the morning. The same shed from the same position as beat 4: empty, swept, low sun coming sideways through a hundred metres of open bays. Almost no sound.",
+      "voice": "It would be easy to call this peace. The texts will not allow it. They say that the feeling in these states is neither pleasant nor painful, flat, because a mind that has not got hold of its object can neither enjoy it nor dislike it [C008-P:L30], and they are explicit that this greyness is not the calm of wisdom. Nothing has been solved here. The wind has dropped, that is all, and tomorrow night the lorries come again.",
+      "concept_id": "C008"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C008 gives the mechanism: restlessness is the loss of one-pointedness, the mind's power to stay with a single object, and when that power breaks the mind's other faculties are thrown off with it [C008-P:L62]; the sources tie it to sudden situations, to doing many things at once and to working in a hurry [C008-M:L16–L20]. C074 gives the image and the frame: the compendium counts restlessness among the states that cover the mind, likens it to water ruffled by the wind, and answers it with plain practical helps rather than effort [C074-P:L348–L358]. Together they let a working night show a state rather than a failing.",
-    "what_it_reveals": "That scattered attention is made by conditions before it is made by character. C008 alone would put the fault inside the trader; C074 alone would leave the state a category. Together the viewer feels the scattering in their own attention, then the stillness after it, and understands that it is the wind that ruffles the water."
+    "why_together": "C008 supplies both the mechanism and the conditions, which is unusual and is why it leads. The mechanism: one-pointedness is the real power that holds a mind on its object until that mind ends, and when agitation breaks it the other factors arising with the mind are thrown off too, so that the object cannot be taken properly [C008-P:L62], with the result that a person cannot think steadily about anything [C008-P:L64]. The conditions: the second source names them as sudden matters, doing many things at once, and working quickly [C008-M:L20], and adds that these are the weakest of the unwholesome minds, a matter of missing footing rather than of wrongdoing [C008-M:L16]. C074 then supplies the image and the frame: the unsettled mind is like a water surface shaken by wind or a heap of ash struck by a stone [C074-P:L348–L358], it belongs among the states that cover the mind, it stands opposed to calm, and it is said to grow out of turning over past misfortunes [C074-P:L322; C074-P:L360]. Put in a terminal that is engineered to make everything arrive at once, the mechanism, the conditions and the image stop being a classification and become a timetable.",
+    "what_it_reveals": "That scattering is produced by conditions before it is produced by anyone's character, and that the conditions here were built on purpose by nobody in particular. C008 alone would put the fault inside whoever happened to be in frame. C074 alone would leave a category and a simile. Together they let the film aim at the wind instead of the water: the roads, the hour, the volume and the clock. And the pairing earns the ending it must not spoil, because the empty floor at nine in the morning is the exact place where a film like this would normally reach for serenity, and both digests forbid it."
   },
   "concept_links": [
     {
       "concept_id": "C008",
       "role": "primary",
-      "why": "The digest ties the restless mind to sudden situations, to doing many things at once and to working in a hurry, and explains it as the breaking of the mind's power to stay with one object, which throws the rest of the mind off course [C008-M:L16–L20; C008-P:L62]. The market shows those conditions and nothing about anyone's inner state. The digest's warning is carried in the film's design: restlessness is not a productivity problem with a mindfulness tip for an answer."
+      "why": "The sources explain the restless mind as the breaking of one-pointedness, the power by which a mind holds its object until it ends; when it weakens, the states arising with that mind are thrown off course and the object cannot be taken properly [C008-P:L62], so that steady thinking about a matter becomes impossible [C008-P:L64]. The second source names the occasions plainly as sudden matters, many tasks at once and working fast [C008-M:L20], and calls these the weakest of the unwholesome minds [C008-M:L16]. This film shows those conditions and nothing about anyone's inner state. Three limits from the digest are load-bearing and are built into the design rather than only noted. Restlessness is not a productivity problem to be answered with a mindfulness tip, since the sources hold it present in every unwholesome mind, so the film offers no advice and no fix. Weak does not mean harmless, so the night is not played as charming chaos. And the neutral feeling here is a dull greyness from failing to grasp the object rather than equanimity [C008-P:L30], which is why the last beat refuses to hear the empty shed as peace."
     },
     {
       "concept_id": "C074",
       "role": "supporting",
-      "why": "The compendium's image for restlessness is a surface of water ruffled by the wind, and it places the state among those that cover the mind and stop it settling [C074-P:L348–L358]. The film can hold the rush and the calm after it without naming anything."
+      "why": "The compendium supplies the image and the placement: the unsettled mind is unsteadiness like a surface of water shaken by the wind, or a heap of ash struck by a stone [C074-P:L348–L358]; it is counted among the states that cover the mind and stop it settling, is paired with remorse, is set directly against calm, and is said to arise from going over past misfortunes [C074-P:L322; C074-P:L360]. Both images describe something being acted on from outside, which is the whole reason this link exists: it lets the film point at the conditions rather than at the people inside them. The digest's limits are honoured. Abandonment in these sources is staged and technical, not a decision, so no beat suggests that slowing down would settle anything. The stakes in the source are not stress or wellbeing, so no wellbeing language is used anywhere in the narration. And the helps the text lists against these states are ordinary and unheroic, which is a further reason the film gives no instruction at all."
     }
   ],
-  "what_the_viewer_could_understand": "When everything arrives at once, attention scatters. The texts compare this restlessness to water ruffled by the wind, and name rushing and doing many things at once as the moments when it tends to arise.",
-  "what_must_be_real": "The trader's work, prices, debts and pressures. Nothing is arranged, slowed or repeated; no rush is manufactured and no quiet is requested.",
-  "position_hint": "middle: the group's second face of confusion, the mind that cannot stay, set against the mind that cannot settle. It also earns the closing turn by giving the viewer something to slow down from.",
+  "what_the_viewer_could_understand": "That a scattered mind is made by conditions as much as by anybody, and that the old texts name those conditions without blaming anyone: sudden things, many things at once, working fast. Their image for it is a surface of water shaken by wind, which is a description of what the wind does and not of what is wrong with the water. And the quiet afterwards is not a reward. The texts say that flatness is not calm.",
+  "what_must_be_real": "The night, the volume, the arrivals and the prices. Nothing is arranged, slowed, restaged or repeated: no rush is manufactured, no quiet is requested, no board is rewritten for a shot, no lorry is asked to arrive or to wait, and nobody is asked to do their work again on camera. No person is filmed in a way that offers them as harried, scattered or deficient, no face is held long enough to become a character study of stress, and no individual trader, driver or loader is framed as the subject; the subject is the system and the hour. Nobody's trade is delayed by a crew standing where a trolley needs to be. If the film cannot be shot without getting in the way of the work, it does not happen.",
+  "position_hint": "middle, late in the group: it is the group's second face of not-seeing, the mind that cannot stay set against the mind that cannot settle, and it earns the group's closing turn by giving the viewer something to come down from. No location reasoning is involved.",
   "risks": [
-    "Making busy working people look like an illustration of a mental flaw.",
-    "Chaos footage with no person at its centre.",
-    "Reading the quiet afterwards as equanimity; the digest says the flat neutrality of these states is not peace.",
-    "Safety in a crowded working space."
+    "Offering working people as an illustration of a mental flaw. The sources describe moments of mind, not kinds of person, and a camera cannot show which factor is present in anyone.",
+    "Reducing the concept to a tip about multitasking; the digest is explicit that restlessness is not a productivity problem with a mindfulness answer, since the sources hold it present in every unwholesome mind.",
+    "Hearing the empty floor at the end as equanimity. The digest says the flat neutrality of these states is not peace, and this is the film's most likely single mistake.",
+    "Playing the night as charming chaos. Weak, in the sources, does not mean harmless.",
+    "Slipping into self-help or wellbeing language, when the stakes in the source are nothing of the kind.",
+    "Turning the film into a piece about margins, middlemen and who is exploiting whom. That is a real and serious subject and it is not this film's, and taking it up would put an accusation on identifiable people.",
+    "Chaos footage with nothing holding it: the aerials and the morning emptiness are what stop the middle section becoming noise.",
+    "Physical safety in a crowded working space at night, with lorries reversing, and the real chance that a crew slows somebody's trade."
   ],
   "drop_if": [
-    "No trader will let the camera stay with them through the whole rush."
+    "The terminal cannot be filmed without standing in the way of the work.",
+    "Aerial permission over the site and the approach roads at night cannot be had, which would cost the film its establishing image and its whole argument about conditions.",
+    "The only way to get the rush is to ask for one."
   ],
   "connections": [
     {
@@ -63,17 +112,59 @@
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's third episode and is the only idea that shows restlessness as something conditions produce."
+    "reason": "The only idea in the group that shows scattering as something conditions produce on a timetable, and the only one whose best image, four roads of headlights converging on one lit box, is itself the statement."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Situation block replaced by place, two_layers and a seven-beat sequence. Both digests re-read fresh and every citation re-tested: the C074 restlessness image is now cited at L348-L358 with the covering-and-opposed-to-calm material at L322 and L360, and C008's mechanism is split correctly between L62 and L64. Per the group brief the film was moved off a single trader entirely, so no person is the subject and the camera is aimed at the system, the roads and the hour; the location is a night wholesale terminal working at volume rather than a fair or an auction. A proposed location was added.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Dambulla Dedicated Economic Centre",
+    "also_known_as": [
+      {
+        "name": "Dambulla economic centre",
+        "meaning": "the ordinary name in trade and price reporting",
+        "used_by": "Sri Lankan usage"
+      }
+    ],
+    "region": "On the junction at Dambulla, Matale district, Central Province, where the roads from Kandy, Anuradhapura, Trincomalee and Kurunegala meet",
+    "coordinates": {
+      "lat": 7.8627,
+      "lng": 80.6513
+    },
+    "why_here": "It is the country's largest wholesale market for vegetables and fruit, opened in 1999 with 144 stalls, and it is visibly a different kind of place from a weekly fair or an auction room: a permanent terminal on a national junction, working at volume, through the night, for the whole island. The concept does not have to be staged here because the building is an engine for making everything arrive at once. It sits where four main roads meet, so produce converges on it from the hill country, the northern peninsula and the dry-zone farms on the same clock; reporting describes the silence being broken around four in the morning by lorries rolling in; and the prices agreed here set what the rest of the country pays. That gives the film its best image and its clearest statement in the same frame: from height, four strings of headlights on four roads across black country, all converging on one lit rectangle, at the same hour, because the hour is the design.",
+    "what_to_film": [
+      "The very high, very wide night aerial: black dry-zone country with one lit rectangle in it, held long before anything else happens.",
+      "The four approach roads from the air as moving strings of headlights converging, which needs a clear moonless night to read.",
+      "The lorry apron from above as the heavy arrivals stack up, so the pile-up is seen as a shape rather than felt as noise.",
+      "The peak on the floor, cut so that nothing finishes: sacks off a tailboard, a scale, a trolley, a torch, a phone, a board being wiped.",
+      "One unbroken walking take down the full length of a shed at the busiest moment, past dozens of stalls, settling on none of them.",
+      "The price boards close and slow, with the old figure still showing under the new one, filmed at intervals through the night.",
+      "The break: fewer lorries, gaps in the chain, a broom starting at one end, the sky going grey.",
+      "The same shed from the same camera position at nine in the morning, swept and empty, with low sun through the open bays. This is the closing frame and the middle section is built to earn it."
+    ],
+    "access": "On a main national junction, so the site itself is easy to reach by road and the surrounding roads are public. Filming inside the sheds needs the permission of the centre's management and, stall by stall, of the traders whose floor it is; the working assumption is a crew small enough to stay out of the way of trolleys and tailboards at the peak. Night aerial work over the site and its approach roads is a separate permission and is the one the film cannot do without.",
+    "best_time": "Midnight to first light on a clear, moonless night, with the same positions revisited at about nine the same morning. Harvest peaks give the heaviest nights and a festival week the heaviest of all; a glut, when wholesale prices fall hard in a matter of days, gives the sharpest movement on the boards.",
+    "images": [],
+    "sources": [
+      "https://exploresrilanka.lk/the-market-that-never-sleeps/",
+      "https://dambulladec.com/",
+      "https://www.lovesrilanka.org/dambulla-produce-market/",
+      "https://www.freshplaza.com/europe/article/9499739/big-drop-in-wholesale-prices-of-fruit-and-vegetables-at-dambulla-economic-centre/"
+    ],
+    "research_note": "That the centre opened on 1 April 1999 with 144 stalls, that it is the country's largest wholesale vegetable and fruit market, that lorries roll in around four in the morning carrying produce from the far north and elsewhere, that it sits about 175 km from Colombo and 72 km north of Kandy near the junction, and that wholesale prices there move sharply within days and are published daily, are all from the sources above and are desk research only. The coordinates are the Dambulla junction area rather than a surveyed position on the centre's apron and should be fixed on the ground. No usable image of this market was found on Wikimedia Commons: searches for the centre, for Sri Lankan wholesale markets and for Sri Lankan vegetable markets returned only cave-temple pictures, retail stalls elsewhere in the country and unrelated scanned documents, so rather than illustrate a night wholesale terminal with a picture of a retail stall, the images list is left empty. Management permission, trader consent, night access and drone rules over the site and its approach roads are entirely unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No trader, manager or access has been found or approached. Everything here is a research direction.",
+    "Whether a crew can be present through the peak without slowing anybody's trade is the question that decides whether this film can be made at all, and it is unverified.",
+    "Night drone permission over a commercial site and its approach roads is unverified, and the film's establishing image and its central argument both depend on it.",
+    "Whether the four approach roads actually read as converging strings of light from a legal altitude on a clear night is untested.",
+    "How much of the trade now happens away from the floor, by phone and by pre-arrangement, which would change what the sheds at night actually show."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

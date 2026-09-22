@@ -2,65 +2,115 @@
   "schema_version": 1,
   "id": "IDEA-0074",
   "record_type": "idea",
-  "title": "What the Net Cannot See",
+  "title": "Only What the Lamp Reaches",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Net Cannot See"
+  ],
   "group_id": "GRP-05",
-  "logline": "Night after night a small crew fishes by lamplight in shallow water, where most of what reaches them never becomes a catch: a flicker at the edge of sight, a sound not quite placed, and only a few signals ever become a strike.",
-  "human_question": "How much of what happens around us is ever actually noticed, and what decides which faint signal becomes an act?",
-  "situation": {
-    "what_happens": "A small crew fishes at night in shallow water by lamp and starlight. For hours almost nothing happens: the lamp moves, the water shifts, a sound arrives from somewhere that cannot be placed. A few times in a night something registers strongly enough that someone acts on it, and most of those come to nothing either. The night's earnings are decided by a handful of instants out of thousands that never became anything at all.",
-    "who_is_involved": "The crew, usually a few people who have worked together long enough to read each other without speaking; whoever owns the boat and the gear, who is often not one of the people in it; the buyer at first light who settles what the night was worth.",
-    "what_is_at_stake": "A night's earnings against fuel, gear and the wear of working in the dark, and real safety risk on water at night. For a crew paid by the catch, the difference between a night that covered its costs and one that did not.",
-    "how_it_unfolds": "Work like this begins when the boat goes out and ends at first light, whatever has or has not happened in between. The pressures are weather, moon, water clarity and how tired people are by the small hours. It ends in a good catch, a poor one, or nothing, and the crew's own account is the only record of what was noticed and missed. Nobody can arrange which it will be."
+  "logline": "For a few hours either side of midnight, a wide shallow lagoon is worked on foot by lamplight, where a mesh of a fixed size and a lamp of a fixed reach settle in advance almost everything that can possibly be caught, and nearly all of what passes through the light passes on.",
+  "human_question": "How much of what happens around us is ever actually noticed at all?",
+  "place": {
+    "what_kind_of_place": "A long brackish lagoon lying behind a barrier of sand, shallow enough over most of its width to be walked: knee to waist deep over sand, weed beds and soft mud, with deeper channels where the tide moves. Small crews go out on foot after dark with a lamp and a hand net, or set short stake nets across a run and work back along them. There are no boats to speak of in the shallows, no jetty, no shed; the whole working is a few people, a light each, and water. Behind the shore is a strip of coconut and scrub and a road with almost nothing on it at that hour.",
+    "why_it_is_worth_watching": "It is a landscape that only exists between the lamps going on and the lamps going off. From the air the lagoon is black glass with a scatter of small bright discs on it, each disc a person standing in their own private circle of lit water, the rest of a very large surface giving back nothing at all. From the water it is the opposite scale: a metre of illuminated sand with weed moving in it, eyes turning red at the edge of the beam, and then a hard black wall in every direction. The film's whole subject is that boundary, which is sharp, physical, and made every night out of nothing but a lamp.",
+    "what_moves_or_changes": "The tide, which decides whether the shallows can be walked and which way things run. The moon, which either flattens the lamps or leaves them the only light there is. The wind, which either gives a readable surface or takes it away. And the catch, which is mostly not there: long stretches of nothing punctuated by a few seconds of a decision. Nothing in the film can be scheduled except the hour and, roughly, the tide.",
+    "when_it_looks_best": "Dark of the moon, on a calm night with a rising tide after dusk, so the lamps are the only light on the water and the surface is flat enough to hold them. The first twenty minutes after the lamps go on, when the discs are separating out across the lagoon, and the last grey half hour when they go out one by one and the whole surface comes back."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night film about shallow water. Lamps lit on a shore, people wading out until they are only lights, an aerial of a black lagoon with bright coins scattered on it, a metre of lit sand with something moving in it, hours of almost nothing, a few fast seconds when something is caught, and the grey return of a very ordinary stretch of water at dawn. Anyone who likes looking at water at night has the whole thing without a word said over it.",
+    "with_the_philosophy": "The same night becomes the sources' least consoling claim, standing in real water. The texts hold that most of what touches a sense never becomes an experience at all: it arrives too faint or too late in its own short life, the mind barely stirs, and nothing is known, nothing is felt, nothing follows. They grade what arrives by how big it is, how well lit and how near. A lamp, a mesh and an arm's reach are those three conditions made of brass and nylon, and the lagoon is full of what does not meet them."
+  },
+  "sequence": [
+    {
+      "on_screen": "Last light from high above. A long shallow lagoon, the barrier strip and the sea beyond it, the water going from silver to lead. Nobody in frame yet.",
+      "voice": "There is more in this water than anyone will ever take out of it. In a few minutes a dozen people will walk into it with a lamp each, and between them they will bring back what a lamp can reach.",
+      "concept_id": "C040"
+    },
+    {
+      "on_screen": "Lamps lit on the shore, one after another, and carried out into the water. From the air the discs separate and drift apart across the black surface.",
+      "voice": "The old books grade what arrives at a sense by three plain things: how big it is, how well lit, and how near [C040-M:L3–L7]. Nothing mystical about the list. Tonight those three are a mesh, a lamp and the length of an arm.",
+      "concept_id": "C040"
+    },
+    {
+      "on_screen": "Inside one disc of light. A metre of lit sand, weed shifting, a shrimp's eyes turning red, a small fish crossing and gone. Beyond the edge of the beam, nothing.",
+      "voice": "The sources are concrete about what a sense needs before anything at all can happen. A working organ, something there to meet it, a medium for it to come through, and attention turned that way [C009-P:L85–L98]. You cannot see in the dark. That is not a figure of speech in these texts, it is a condition in a list.",
+      "concept_id": "C009"
+    },
+    {
+      "on_screen": "A long stretch of nothing: the lamp swinging slowly, water, sand, a stick of weed, the black wall. Held far longer than is comfortable.",
+      "voice": "The books describe a whole category of contact in which nothing whatever happens. Something arrives so late in its own short life that the resting mind only shivers twice and settles again, and no moment of knowing arises at all. They call these empty rounds, and they are blunt that they are of no use whatsoever [C045-P:L65–L83; C045-M:L20]. Most of this lagoon, most of tonight, is that.",
+      "concept_id": "C045"
+    },
+    {
+      "on_screen": "Something at the edge of the beam. The lamp swings across; the water is empty. The beam swings back. Nothing.",
+      "voice": "And there is a middle band. Enough arrives to be sorted, the mind settles on it two or three times, and then it stops, with no response and nothing following from it [C045-P:L25–L61]. The books' own words for that grade are seen and not seen, heard and not heard, as if in a dream [C045-M:L20]. It is not a message from below. Nothing was signalled and nothing was missed.",
+      "concept_id": "C045"
+    },
+    {
+      "on_screen": "A strike. The net goes down and comes up in one movement, water pouring off it, a hand going in. Four seconds, from a standstill to a standstill.",
+      "voice": "When something does arrive strongly, the books say the whole run goes through, all the way to the short holding-on at the end that only the strongest arrivals get [C040-M:L9; C040-P:L23–L37]. What decides is the strength of the thing, not a decision to pay better attention.",
+      "concept_id": "C040"
+    },
+    {
+      "on_screen": "What the net holds, tipped out and sorted by hand in the lamp: a few of one thing kept, weed thrown, a small crab put back, and everything under the mesh already gone before it was seen.",
+      "voice": "A net admits its own kind and nothing else, and what is under the mesh was never a candidate. The books say something similar about an eye, and then something harder: whether what arrives arrives as agreeable or not is settled by the thing itself, by ordinary common sense and not by anybody's taste [C045-M:L30–L32]. What you then do with it is a separate matter and is yours.",
+      "concept_id": "C045"
+    },
+    {
+      "on_screen": "Grey. The lamps going out one by one across the lagoon, people walking back in, and then the whole surface at dawn: flat, ordinary, and with everything still in it.",
+      "voice": "Every one of these runs, the sources say, rises out of a resting mind that nobody notices and falls back into it, and it runs by an order of its own, with nobody at the controls [C040-M:L13–L17; C040-P:L23–L37]. Nothing out here was hiding. It simply never arrived.",
+      "concept_id": "C040"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C045 contributes the sources' most unsentimental claim: when something arrives too weak or too late, the process is cut short or never begins, so nothing is known and nothing follows. The sources call the emptiest kind futile rounds, and describe the grade just above it as 'seen, not seen', 'heard, not heard', like something in a dream [C045-M:L20]. C040 contributes the grading that decides which it will be: how prominent a thing is by size, light and nearness, and how late in its own short life it strikes. C009 contributes the layer underneath both, the bare rootless moment of seeing or hearing that carries no verdict, needs a working sense, an object, a medium such as light and attention, and can be identical in two beings whose responses then differ completely. A night spent watching dark water is all three running for hours with almost nothing to show.",
-    "what_it_reveals": "Put together they turn a fisher's night from a story about patience into a description of a threshold. The sources are not saying the crew should pay better attention: the digest is explicit that an object's grade is set mostly by its own prominence and timing, with attention only one condition among several. So the film can hold the thing the crew already knows and the sources also say, that whether a signal was worth acting on is a fact about the signal, while what a person did with it is a separate matter [C045-M:L28-L34]. That separation is the whole group's argument, arriving here in its plainest form."
+    "why_together": "C045 supplies the floor of the whole group: six processes for slight objects in which the mind sorts a thing two or three times and stops, producing no response and no consequence [C045-P:L25–L61], and six for very slight ones in which the resting mind only vibrates twice and no knowing arises at all, which the source calls empty rounds [C045-P:L65–L83], with the Margaya's description of the grade above them as seen-and-not-seen, as if in a dream [C045-M:L20]. C040 supplies what decides which of those will happen: a grading of objects by prominence, size, light and nearness, and by how late they strike [C040-M:L3–L7], with the stronger object drawing the longer run [C040-M:L9], every run rising out of an unnoticed background mind [C040-M:L13–L17] and the whole thing proceeding by an order of its own with no one directing it [C040-P:L23–L37]. C009 supplies the layer underneath both: the bare rootless sensing minds, weak, mostly neutral, and the conditions each of them needs before anything can register, including a medium such as light [C009-P:L29–L60; C009-P:L85–L98]. A lamp in shallow water at night makes all three physical at once: the condition is a lamp, the grading is a mesh and a reach, and the empty rounds are most of the night.",
+    "what_it_reveals": "That noticing is not a virtue and not-noticing is not a failure. The three concepts together say that the run a thing gets depends on how it arrives rather than on how hard anyone tries, that most contact produces nothing at all, and that even the faint half-registered kind leads nowhere. C045 alone would be a film about absence with nothing to point at. C040 alone would be a grading scheme. C009 alone would be a list of conditions. Put on a lagoon where a brass lamp is visibly the condition that decides what exists for the next four hours, the claim becomes something the viewer can watch being true at the edge of a beam."
   },
   "concept_links": [
     {
       "concept_id": "C045",
       "role": "primary",
-      "why": "The digest describes six processes for objects that strike too late to be taken up. In the slight kind the determining moment simply repeats two or three times, impulsion never arises, and the sources say no action and no consequence follow [C045-P:L61]. In the very slight kind no cognitive moment arises at all, the resting mind only shakes, and the sources call these empty or futile rounds [C045-P:L81]. Margaya's description of the middle grade as dream-like knowing, 'seen, not seen', 'heard, not heard' [C045-M:L20], is close to a documentary truth about hours of watching dark water. Two of the digest's limits are written into the film: the counts, six processes, seventy-five across five doors, ten to fifteen moments, are a formal classification and not measurements of reaction time or thresholds of perception, and nothing here supports the idea that faint contacts shape a person subliminally, since the digest says they produce nothing at all."
+      "why": "The digest's core is that when base, object, light and attention are weak the object strikes late in its own life and the process is cut short: the slight-object processes have no room for a response and generate nothing [C045-P:L25–L61], and the very slight ones produce no cognitive moment at all and are called empty or futile rounds [C045-P:L65–L83], while the Margaya gives the grade between them as a feeble, dream-like knowing, seen and not seen [C045-M:L20]. This film is built on those two grades rather than on the full one, which is why most of it is a lamp moving over empty sand. Every limit the digest sets is honoured in the voice. There is no suggestion that faint contacts shape anyone below awareness: the source says they produce nothing whatsoever [C045-M:L20]. There is no suggestion that more attention would catch more, because the source ties vividness to conditions rather than effort. The numbers are a formal classification and are never offered as reaction times or perceptual thresholds, so no count of moments is narrated. And the digest's flat contradiction of beauty being in the eye of the beholder is kept as the source has it: what arrives is agreeable or not by ordinary standards, and only the response belongs to the person [C045-M:L30–L32]."
     },
     {
       "concept_id": "C040",
       "role": "supporting",
-      "why": "The digest grades what meets the senses as very great, great, slight or very slight, by prominence, which it gives as size, light and nearness, and by how many mind-moments pass before the object strikes [C040-M:L5; C040-M:L7], and says that the stronger the object the further the process runs [C040-M:L9]. That is what separates the flicker nobody takes up from the one that is acted on. The digest corrects the reading this idea previously leaned on: 'pay more attention and you will see more' is not quite the claim, because the grade is set by the object's own prominence and timing and attention is only one condition. The film therefore never presents an unnoticed signal as a lapse by anyone."
+      "why": "The digest gives the four grades of sense object defined by prominence, by size, light and nearness, and by how many moments pass before the object strikes [C040-M:L3–L7], with the stronger object drawing more process-minds and the weakest only making the resting mind waver [C040-M:L9], fifteen possible processes at each door, all of them rising out of the unnoticed background mind [C040-M:L13–L17], and the Pradeepika's insistence that the sequence runs by an order of its own with no one inside directing it [C040-P:L23–L37]. That is the exact grammar of a lamp: size is the mesh, light is the lamp, nearness is the reach. The digest's limits are kept. The film never says that paying more attention would produce more, because the source grades by prominence and timing and not by effort. The absence of a controller is never turned into fatalism, since the same list of natural orders includes the order of act and result. The traditional religious examples in that list are not used. And the mango simile, which the digest says maps a single extremely brief moment, is not laid over the slow rhythm of the night as though the night were the simile."
     },
     {
       "concept_id": "C009",
       "role": "supporting",
-      "why": "The digest describes the rootless sensing layer that carries no verdict of its own, and lists what each sense-consciousness needs: an intact sense organ, an object, a medium such as light or moving air, and attention [C009-P:L85-L98]. It also states the point this whole group turns on, that the same sight can be followed by completely different responses in different beings because the sensing is shared and the response comes later. Two guards from the digest are held here. 'Rootless' does not mean causeless, only that none of the six root factors is present [C009-M:L3]. And the source's treatment of pleasant and unpleasant contact as the result of past action must never become 'people get what they deserve', so nothing about a bad night, a lost season or anyone's poverty may be framed as payback."
+      "why": "The digest gives the eighteen rootless minds as the sensing machinery that runs before any liking or disliking: weak, carrying neutral feeling except at touch, and dependent on plain listed conditions, an intact organ, an object, a medium such as light or air, and attention turned that way [C009-P:L29–L60; C009-P:L85–L98]. On a black lagoon the medium is a thing someone carries and switches on, which is why this concept belongs here rather than anywhere brighter. The digest's limits are load-bearing and are honoured. Rootless does not mean uncaused, and the voice never suggests that anything out here happens for no reason [C009-M:L3]. The source's treatment of pleasant and unpleasant sense contact as the result of past action is never turned into anyone deserving their night's work or their catch. The Pradeepika's doctrinal line connecting rebirth with blindness or deafness [C009-P:L168–L172] is not used in any form. And the film does not slide into 'you choose how you feel': in the source the first moment at eye or ear is neutral, and anything chosen belongs to a later stage than this film claims to show."
     }
   ],
-  "what_the_viewer_could_understand": "Most of what touches our senses never becomes an experience at all: it arrives too faintly or too late and simply fades, and on this account nothing follows from it. Only the strongest arrivals get the mind's full run and a response, and how strong an arrival is depends mostly on the thing itself, not on how hard anyone is trying.",
-  "what_must_be_real": "The crew's actual livelihood and the actual darkness. No extra light may be added for the camera, since light is one of the very conditions the film is about, and no strike or near miss may be dramatised. Participants describe what they noticed in their own words, unprompted. The sources' counts are never offered as thresholds of human perception.",
-  "position_hint": "opening candidate for the group's early stretch: it sets the floor the later films build from, that most contact never becomes experience at all, before any film shows a single clear sight being taken apart. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That most of what reaches a sense never becomes an experience, that what decides is how the thing arrives rather than how hard anyone is trying, and that the faint half-caught flicker at the edge of the light is not a message that was nearly received. A lamp in black water makes the boundary visible: what exists tonight is what the light, the mesh and an arm's length allow, and the rest of the lagoon is still there.",
+  "what_must_be_real": "The fishing is a real night's fishing for the people doing it, at their hour and their tide, and the film works to that rather than to a schedule. Nothing is baited, lit, released or thrown back for the camera, no extra light is added to the water to make a shot, and the long empty stretches are kept because they are the film's subject rather than cut for pace. This is a film about water and light: there is no landing, no market, no auction and no shed in it, and it ends when the lamps go out. No person on screen is presented as the one who sees, and nobody's income, licence or catch is misrepresented to make the point. Species that are protected or undersized are not handled for the camera, and if the crew's safety or the crew's night is affected by the filming, the filming stops.",
+  "position_hint": "opening candidate for the group: it establishes the floor everything else in the group is built on, that most contact never becomes experience at all, before any film takes a single clear sight apart. No location reasoning is involved.",
   "risks": [
-    "Low light tempting the crew to add light for the camera, which would change the very conditions being observed.",
-    "Dramatising a catch or a near miss, or cutting the hours of nothing out of the film that is about them.",
-    "Romanticising dangerous night work without showing its real economics.",
-    "Presenting the sources' counts as thresholds of human perception or as reaction times, which the digest rules out.",
-    "Letting a signal that went unnoticed read as a failure of attention, which the C040 digest says is not the sources' claim."
+    "Drifting into the banned shape: a landing, a sorting on a beach, a market or an auction. The film stays in the water and the light and stops when the lamps do.",
+    "Making the empty hours into suspense. The point is that nothing is coming, and an edit that promises otherwise reverses the concept.",
+    "Implying that faint, half-noticed things work on people below awareness. The digest is explicit that the source says they produce nothing at all [C045-M:L20].",
+    "Implying that better attention would catch more. The source grades objects by prominence and timing, not by effort.",
+    "Romanticising night work in water that is genuinely dangerous, or filming in a way that puts a crew or a fisher in a channel after dark.",
+    "Framing anyone's catch or hardship as deserved. The source's talk of pleasant and unpleasant contact as a result of past action must never be turned on a person in frame.",
+    "Adding light for the camera, which would change the one condition the whole film is about.",
+    "Presenting a fisher as the one who sees, or cutting to a face at the moment of a strike."
   ],
   "drop_if": [
-    "No crew will allow a camera through an ordinary night without extra light or performance.",
-    "The work cannot be filmed safely at night.",
-    "Nothing distinguishes a noticed from an unnoticed signal in a way the film can show honestly.",
-    "The crew's economics cannot be shown alongside the waiting."
+    "No crew will have a camera with them on a working night, or the only way to film is to arrange a night that would not otherwise happen.",
+    "The fishery in the shallows has been closed, mechanised or moved into boats, so the thing that carries the film no longer exists.",
+    "Filming cannot be done without adding light to the water."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0083",
       "relation": "pairs with",
-      "note": "Both trace the line between something that barely registers and something that draws a full, decisive response, one over hours of nothing and one in a fraction of a second."
+      "note": "Both trace the line between something that barely registers and something that draws a full decisive response, one over hours of nothing and one in a fraction of a second."
     },
     {
       "idea_id": "IDEA-0087",
@@ -72,17 +122,75 @@
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0038, and both the C045 and C009 digests independently propose a night fishing crew by lamplight as the situation for this exact material."
+    "reason": "It is the only situation found in which the conditions the sources list are physical objects a viewer can watch being carried into the dark and switched on."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape and sited in the Eastern Province. The film is now built on the water and the lamp alone, with no landing and no sorting ashore, because the brief's banned archetypes and the concept both point the same way. Concepts re-read from the digests, every citation re-verified, and the digest's refusal of subliminal influence and of beauty-in-the-eye-of-the-beholder written into the voice rather than only into the risks."
+  },
+  "suggested_location": {
+    "name": "The shallow upper reaches of the Batticaloa lagoon, on the Eravur and Kiran side",
+    "also_known_as": [
+      {
+        "name": "Madakalapuwa",
+        "meaning": "the muddy lagoon, and the old name of the town on it",
+        "used_by": "Sinhala and Tamil usage for the lagoon and district"
+      }
+    ],
+    "region": "Eastern Province, Batticaloa district: the wide shallow northern arm of the lagoon behind the coast strip, between the town and the upper end",
+    "coordinates": {
+      "lat": 7.8,
+      "lng": 81.58
+    },
+    "why_here": "The lagoon runs for tens of kilometres behind a barrier strip and is shallow and walkable over great stretches of its width, which is the one condition this film cannot do without: the work has to happen on foot, in water, in the dark, with a light that a person carries. Its upper reaches are quiet, unbuilt and far from the harbour side of the district, so a night there is lamps and water and nothing else, and it gives the film its best image without any arrangement at all, an aerial of black glass with a scatter of lit discs on it. It is also in the province the slate has almost entirely missed.",
+    "what_to_film": [
+      "The lagoon from high above at last light and again in full dark, wide enough that the lit discs read as a scatter across a very large black surface.",
+      "Lamps being lit and carried out from the shore, and the moment the walkers become only lights.",
+      "A single disc of lit water at close range: sand, weed, eyes at the edge of the beam, and the hard boundary where the light stops.",
+      "Long uncut stretches in which nothing is caught, because that is the film's subject.",
+      "One strike, filmed whole: the net down, the lift, the water coming off it.",
+      "The sorting in the lamp, in the water, including what goes back.",
+      "The lamps going out one by one at first grey, and the walk in.",
+      "The same water in flat daylight, ordinary and unremarkable, with everything still in it."
+    ],
+    "access": "By road from the town up either shore, then on foot into the shallows with whoever is working. Everything depends on a crew agreeing to be accompanied on an ordinary working night, and on working to their tide rather than a crew's call sheet. Night filming in water needs its own safety arrangements, and drone flight over a lagoon at night has its own permissions and limits.",
+    "best_time": "The dark of the moon on a calm night with a rising evening tide, in a month when the shallows are being worked. The hour after the lamps go on and the half hour before they go out.",
+    "images": [
+      {
+        "caption": "The lagoon itself in daylight, showing the width and shallowness the film depends on. Not the night fishery.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Batticaloa Lagoon.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Batticaloa Lagoon.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same lagoon at sunset, for the light the film begins in. Not the night fishery and not the stretch proposed.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Batticaloa lagoon, sunset.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Batticaloa lagoon, sunset.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Small craft on the same lagoon, for the scale of the working there. This is daytime boat fishing, not the shallow-water lamp fishing the film is about.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Batticaloa lagoon, fishing boats.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Batticaloa lagoon, fishing boats.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Batticaloa_Lagoon",
+      "https://en.wikipedia.org/wiki/Batticaloa_District",
+      "https://www.wondersofceylon.com/batticaloa-lagoon/"
+    ],
+    "research_note": "That this lagoon is long, shallow and brackish, that it runs behind a barrier strip for tens of kilometres, and that prawn, crab and small lagoon fish are taken from it by small-scale fishers, are from the sources above and are desk research only. That wading at night with a light and a hand net is a widespread shallow-water method is general knowledge rather than a documented fact about this lagoon, and it is the thing that most needs checking on the ground. No crew, village or stretch of shore has been located or approached. The coordinates are an approximate point in the upper lagoon and are a direction, not an address. The three images are of the lagoon in daylight and none of them shows the fishery this film is about, which each caption says.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No crew, village or stretch of the lagoon has been found or approached. Everything here is a research direction.",
+    "Whether lamp-and-net wading is still practised on this lagoon, at what season and in which reaches, is the central unverified fact and decides whether the film exists.",
+    "Whether a drone can be flown over the lagoon at night, and whether an aerial can hold the lamps at all at that light level, has not been tested.",
+    "Licensing of the shallow-water fishery, and whether filming would expose anyone to trouble over it, is unknown.",
+    "Whether the night can be filmed without adding any light to the water, which the concept requires absolutely, is unproven."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

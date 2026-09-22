@@ -2,77 +2,194 @@
   "schema_version": 1,
   "id": "IDEA-0061",
   "record_type": "idea",
-  "title": "The Weeping Pot",
+  "title": "Only When It Is Full",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Weeping Pot"
+  ],
   "group_id": "GRP-04",
-  "logline": "A potter lifts newly fired pots from the kiln, taps each one and listens, then fills it with water and waits for the slow dark bead that shows a crack no eye could find.",
-  "human_question": "How do you find a flaw that cannot be seen until something is poured in?",
-  "situation": {
-    "what_happens": "A firing takes days of shaping and drying and one long night at the kiln, and comes out as a batch of pots that all look alike. Some of them are cracked in ways that do not show. The potter tests them the way the trade has always tested them, tapping and listening for a dull note, filling and waiting for seepage, because a pot that fails in a customer's house costs more than the pot. The sound ones go to the stall and the failures are set aside or broken.",
-    "who_is_involved": "A potter and the family who work the clay with them; the buyers who will carry the pots home and trust them; and whoever sells at the roadside stall.",
-    "what_is_at_stake": "A whole firing's income, and a reputation that one leaking pot can damage. Behind that, the slow question of whether the trade is worth continuing.",
-    "how_it_unfolds": "It begins with clay and ends at the stall. The pressure is the kiln, which cannot be undone, and then the testing, which is the only moment at which the hidden becomes visible. It ends with a batch mostly sound or with a firing largely lost. Reality decides how many crack."
+  "logline": "Hundreds of identical fired clay pots arrive at a curd house, are struck once each and listened to, scalded, filled with hot milk and set out in rows overnight, and by morning a few of them have a slow dark bead on the base that nothing before could have found.",
+  "human_question": "How do you find a flaw that will not show itself until something has been poured in and left there?",
+  "place": {
+    "what_kind_of_place": "A small dry-zone curd house: a yard, a shed with a long fire, a tiled or cemented floor and racks. Unglazed fired clay pots come in by the hundred from elsewhere, stacked in the open. Milk comes in by can. The pots are checked, scalded, filled with milk that has been boiled down, covered and tied, and left in rows to set overnight. In the morning the set pots are checked again, loaded and taken out to roadside stalls and shops. The people who do this did not make the pots and cannot see what is wrong with one until it is full.",
+    "why_it_is_worth_watching": "It is a place built entirely out of repetition and one small revelation. From above, a yard of several hundred identical pots in stacks and rows is a pattern that does not look man-made, and it changes twice a day. At close range it is all sound and surface: a knuckle on a rim, a held breath, a pot turned in the light, the white paper tops going on one after another, and then, on two or three out of hundreds, a dark stain creeping down the outside of the clay while everything around it stays dry.",
+    "what_moves_or_changes": "Milk, heat and time, none of them adjustable. Pots arrive in loads and the quality of a load is whatever the firing gave it. The filling is a fixed sequence that cannot be hurried because the milk has to be at the right heat. Then there is a long wait in which nothing happens at all, and the film has to sit in it, because that wait is the concept. In the morning the count of failures is whatever it is.",
+    "when_it_looks_best": "The filling itself, which is late in the day, with low light across a floor of white-topped pots; and first light the next morning, when the failures are visible and the loading starts. A dry, hot spell, when the contrast between a dry pot and a weeping one is sharpest."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet workshop film in three movements: hundreds of identical objects checked one at a time, then filled, then left alone all night, then opened. It resolves on its own without a word said: the sound of a knuckle on clay, steam, paper and string, a dark floor of white circles, a night, and a morning in which a few of them have failed. Anyone who likes watching careful hands do the same thing four hundred times has a complete piece.",
+    "with_the_philosophy": "The same evening becomes the sources' own image standing in a real yard. The compendium's word for the deepest kind of stuckness is built on the picture of liquid oozing from a cracked pot and seeping out through doors left unguarded. It also insists these forces are usually invisible and only wake when the right occasion arrives, so not reacting today proves very little. A pot that passed the tap and failed the milk is not a metaphor the film invented; it is the image the texts chose, with milk in it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone, straight down, late afternoon: a yard of several hundred unglazed pots in stacks and rows, all the same shape, the shadows long. Then lower: the same field of pots at eye level, going back further than it looked.",
+      "voice": "None of these were made here. They came in on a lorry from a firing nobody here watched. They all look the same, and some of them are already finished.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "One pair of hands, close: a pot lifted, turned, struck once on the rim with a knuckle, held still, set down on one side or the other. Again. Again. The sound is the whole shot.",
+      "voice": "The test is a knuckle and a second of listening. A sound pot answers one way and a pot with something wrong in it answers flatter, and that is the only way anybody here can sort them before the milk goes in.",
+      "concept_id": "C033"
+    },
+    {
+      "on_screen": "The pots that passed, being scalded: steam, water thrown, a rack of them upside down and running.",
+      "voice": "The oldest word in this vocabulary is built on a picture. Something that has fermented quietly inside and oozes out, the way water works out of a cracked pot, or the way a wound runs, through doors that were left unguarded [C074-P:L79; C074-M:L20–L22]. Not a storm. A seep.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The filling. Boiled-down milk ladled into pot after pot down a long line. Paper laid over each one and tied. The floor filling up with white circles until there is nowhere to walk.",
+      "voice": "Now every one of them is under load for the first time. Until this moment the difference between a good pot and a ruined one was not a difference anybody could reach.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The listening again, in flashback cutaway: the knuckle, the ear, the pause. Then the dark shed at night, rows of white tops, nothing moving.",
+      "voice": "The texts are careful about what that listening is. Seeing a thing as it is, in their sense, is not knowing more about pots. It is a quality inside the moment of attention itself, not information, and it is the thing that keeps the mind on what it is actually looking at rather than on what it expects [C033-M:L3; C033-P:L27; C033-M:L5]. The question they put is not what started this. It is what is keeping hold.",
+      "concept_id": "C033"
+    },
+    {
+      "on_screen": "Night, static, very long: one wide of the full floor by a single bulb, and one very close of a pot's base with nothing happening to it.",
+      "voice": "The same compendium says these things usually lie low and are not visible at all, and rise up only when something suitable comes along [C074-P:L474]. It gives the example of people living far from anything that could tempt them, who fall the moment the right sight arrives [C074-M:L71; C074-M:L75]. Holding something down is not the same as not having it. Not failing today proves very little.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "First light. A walk along the rows. Almost everything dry. Then a pot with a dark bead low on the outside, and the stain spread out under it on the floor. Two more further along.",
+      "voice": "Three, out of four hundred. Each of them passed the knuckle last night. The flaw was in them the whole time, put there by a fire in another village, and the only thing that could find it was being filled and left alone.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The failures set aside; the rest loaded into crates and taken out. The yard by mid-morning: wet patches drying, empty racks, and the next lorry of pots being stacked.",
+      "voice": "The sound ones go out today and nobody thinks about them again. The rest of the stack is out there in the sun, waiting to be filled, and looking exactly like the ones that worked.",
+      "concept_id": "C074"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C074 supplies the sources' own image for the taints: something that ferments inside and leaks out through unguarded doors, with the flaw invisible until the vessel is filled [C074-P:L79]. C033 supplies the counterpart: non-delusion is the wisdom factor within a moment of mind, not information [C033-M:L3]. Testing a pot is where the two meet, in a flaw only a particular kind of attention can find.",
-    "what_it_reveals": "That some things can only be known by being put under load, and that the person who can tell is not the one who knows the most but the one who attends most closely. The image without the attention is a diagram; the attention without the image has nothing to find."
+    "why_together": "C074 supplies the image and the warning in one. The Pradeepika explains the taints partly as liquid oozing out of a cracked pot and pus running from a wound, through doors left unguarded, and as something long fermented and intoxicating [C074-P:L79; C074-M:L20–L22]; and under the latent tendencies it says these forces lie hidden and rise only when a suitable object appears [C074-P:L474], with the Margaya's example of hermits far from any temptation who fall the moment the right sight arrives [C074-M:L71; C074-M:L75]. A vessel that only fails once it is full and left alone is not an illustration of that, it is that. C033 supplies the counterpart the film would otherwise leave unnamed, which is what the finding actually consists of. Both sources say the roots are not called roots because they cause a mind to arise, but because they hold the mind on its object as a tree's roots hold it up [C033-P:L27; C033-M:L5; C033-P:L81], and the Margaya identifies non-delusion with the wisdom factor inside a moment of mind rather than with knowledge [C033-M:L3]. So the potter's listening can stand for attention without the film claiming it is insight.",
+    "what_it_reveals": "That some things are only knowable under load, and that the person who finds them is not the one who knows the most but the one whose attention stays on what is actually in front of them. C074 alone gives a vivid image and then a film with nothing happening in it, because the whole point of a latent thing is that there is nothing to shoot. C033 alone gives an account of attention with nothing for it to find. Together, on a floor of four hundred filled pots at three in the morning, they make the group's question concrete: what stops us seeing clearly is partly that the thing is not showing yet."
   },
   "concept_links": [
     {
       "concept_id": "C074",
       "role": "primary",
-      "why": "The digest gives the taints under the image of something fermenting and leaking out through unguarded doors [C074-P:L79], and stresses that these forces are usually invisible, so that not reacting today proves little. A crack that shows only when the pot is filled carries that precisely."
+      "why": "The concept's own governing image is this film. The Pradeepika derives the taints partly from liquid oozing out of a cracked pot and from pus running from a wound through unguarded doors, and from long-fermented liquor, and the Margaya gives the same two pictures [C074-P:L79; C074-M:L20–L22]. Under the latent tendencies both sources hold that such forces lie low, are not present as active states, and rise when a suitable object appears [C074-P:L474; C074-M:L71; C074-M:L75], which is why the digest says plainly that not reacting today proves little and that holding something down is not the same as being free of it. The digest's limits are kept. Abandoning is staged and technical in the source, so the film never offers letting go as a decision anybody could simply take. The stakes in the source are not stress or wellbeing, so no self-help reading is invited. The warnings about rites and 'this alone is true' concern views held as the path to liberation and may not be used to judge or mock anybody's practice, and nothing of that kind appears here. The source's distinction between hindrance-doubt and ordinary not-knowing [C074-P:L404] is respected by never treating the workers' uncertainty about a pot as a fault, and the digest's own flag that grouping pride with aversion is loose [C074-P:L514–L518] keeps that material out of the voice."
     },
     {
       "concept_id": "C033",
       "role": "supporting",
-      "why": "The digest identifies non-delusion with the wisdom factor inside a moment of mind and warns that it is not education or information [C033-M:L3]. The potter's listening is the ordinary human face of seeing a thing as it is, and the film must not upgrade it into the sources' meaning."
+      "why": "The digest is emphatic that non-delusion is the wisdom factor within a moment of mind and not education, information or intelligence [C033-M:L3], and that both sources deny the roots are causes of a mind arising, calling them roots because they hold the mind and its companions on their object as a tree's roots hold the tree [C033-P:L27; C033-M:L5; C033-P:L81]. That is exactly the discipline this film needs, because the temptation is to turn a skilled worker's ear into a picture of insight. The voice keeps the two apart: the listening is the ordinary human face of attention staying where it is, and it is never upgraded into the sources' meaning. The digest's further limits are kept: the roots classify moments of mind and not people, so nobody here is a type; the claim that the wholesome roots are stronger concerns specific roots cancelling their opposites [C033-P:L83] and is not narrated as optimism; and the film avoids the modern sense of root cause entirely. The one thing it does carry across is the observation that delusion runs through every unwholesome state [C033-P:L45; C033-P:L53–L54], which is the group's whole subject."
     }
   ],
-  "what_the_viewer_could_understand": "Some flaws appear only under load. The texts describe what troubles us as often hidden rather than gone, and treat finding it as a matter of close attention rather than of knowing more.",
-  "what_must_be_real": "The potter's work, testing practice and market. The testing method must be the potter's own, nothing is invented for the image, and no pot is cracked or rejected for the camera.",
-  "position_hint": "closing candidate, currently unplaced: it does what a closing film for this group has to do, which is to stop and attend closely to one small thing.",
+  "what_the_viewer_could_understand": "That a flaw can be complete, present and entirely undetectable until the thing is put under load and left there, and that the finding of it is a matter of attention staying where it is rather than of knowing more. Also the uncomfortable half of it: everything in the stack outside looks exactly like the ones that worked.",
+  "what_must_be_real": "The pots, the milk, the testing and the failures. The test has to be the workers' own, whatever it turns out to be, and if they do not tap and listen then the film changes to what they actually do rather than inventing the shot. No pot is cracked, chosen, swapped or rejected for the camera, no milk is wasted for a frame, and the number that fail on the night is whatever it is, including none. The people are workers and not metaphors; the film does not make a craft parable out of somebody's paid job, and does not photograph a thin margin as picturesque.",
+  "position_hint": "closing candidate: it does the thing a last film in this group has to do, which is to stop moving and attend to one small object for a long time, and it ends on the unresolved image rather than on a conclusion. No location reasoning is involved.",
   "risks": [
-    "Turning a craftsperson into a walking metaphor.",
-    "Inventing claims about the tradition.",
-    "Picturesque framing of economic hardship."
+    "Turning workers into a walking metaphor, which is the standing danger of the whole idea.",
+    "Upgrading a skilled ear into the sources' meaning of seeing things as they are; the digest is explicit that non-delusion is not knowledge or skill [C033-M:L3].",
+    "Reading the failed pots as failed people, which would invert the concept; the sources describe states, and the digest says the roots classify moments of mind rather than persons.",
+    "Sliding into 'just let go of your attachments', which the C074 digest names as a misreading; abandoning in the source is staged and technical.",
+    "Making a self-help film about hidden emotions, when the source's stakes are nothing of the kind.",
+    "Inventing a testing tradition, or attributing to the trade a method the crew has read about rather than seen.",
+    "Photographing a small operation's margin as atmosphere, and filming a bad night's losses as a good night's footage.",
+    "Food safety and livelihood: a crew in a milk room is a contamination risk, and a ruined setting is somebody's money."
   ],
   "drop_if": [
-    "Potters do not test in a way that can be observed at all."
+    "The pots are checked in a way that is not observable, or are not checked at all because failures are simply absorbed.",
+    "Filming in the milk room cannot be done without risking the product.",
+    "The only way to get the weeping pot is to arrange one."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0063",
       "relation": "alternative to",
-      "note": "Two ways to close the group on close attention; the mist film holds the slot."
+      "note": "Two ways to close the group on close attention; whichever film gets access holds the slot."
     },
     {
       "idea_id": "IDEA-0060",
-      "relation": "alternative to",
-      "note": "Two craft films about looking closely; only one belongs in this group."
+      "relation": "pairs with",
+      "note": "A flaw that shows only under load, and a state that is only found by what stops coming out."
+    },
+    {
+      "idea_id": "IDEA-0059",
+      "relation": "pairs with",
+      "note": "A crowd that cannot be read from outside, and a single vessel that can only be read by being filled."
     }
   ],
   "selection": {
-    "recommendation": "hold",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Held as the standing alternative closing film if access to the mist film fails, and as the only place the compendium's cracked-pot image of the taints is carried."
+    "reason": "The only place in the slate that carries the compendium's own cracked-pot image, and the group's best closing film."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The subject is unchanged and deliberately so, since the cracked-pot image is the compendium's own, but the place has moved off a potters' village, which is used twice elsewhere in the slate, to a curd house that buys fired pots it did not make and discovers the failures by filling them. That move also improves the concept, because the flaw now arrives from a firing nobody present watched and only shows under load. The relation to IDEA-0060 is changed from alternative to pairs with, since the two films no longer compete for one craft slot.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Buffalo curd setting houses in the dry-zone villages around Angunakolapelessa",
+    "also_known_as": [
+      {
+        "name": "mee kiri",
+        "meaning": "buffalo curd",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "kiri hatti",
+        "meaning": "the unglazed fired clay pot the curd is set in",
+        "used_by": "the curd trade"
+      }
+    ],
+    "region": "Southern Province, Hambantota District, in the inland dry-zone villages north of the coast road",
+    "coordinates": {
+      "lat": 6.1833,
+      "lng": 80.8667
+    },
+    "why_here": "It puts the concept's exact mechanism in a working room. Curd is set in unglazed fired clay pots whose porousness is part of how the product works, the pots are bought in by the hundred from potters elsewhere, and the people filling them did not fire them and cannot see what is wrong with one until milk has been in it overnight. So the film gets a vessel test performed by someone who is not the maker, on a flaw made by a fire they never saw, revealed only under load and only after a wait. It also gives the two images the film is built on without any arranging: a yard of several hundred identical pots from above, and a single dark bead on a base at first light. Moving off a potters' village matters editorially as well, since two other films in the slate already stand in one.",
+    "what_to_film": [
+      "The pot yard from directly above in low light, so several hundred identical objects read as one pattern.",
+      "The incoming load: pots handled off a lorry and stacked, by people who did not make them.",
+      "Whatever the real check is, at very close range and with the sound carrying it: the knuckle, the pause, the two piles.",
+      "Scalding and the long filling run, shot as an unbroken sequence rather than as cutaways.",
+      "Paper and string going on, and the floor filling until there is nowhere to stand.",
+      "The night: two or three very long static shots in which nothing happens, which the film needs and must not cut around.",
+      "First light along the rows, the dry bases and the wet one, and the stain on the floor under it.",
+      "The loading out, and the stack in the yard waiting for tomorrow."
+    ],
+    "access": "Small private operations, so it depends entirely on one family agreeing, and on the crew accepting a milk room's hygiene rules, which may simply exclude a camera from the filling. The working hours are late afternoon through to first light. Nothing here requires a permit beyond the household's consent, but the drone work over a yard needs the neighbours' agreement too.",
+    "best_time": "A dry, hot spell, when a weeping pot shows most sharply against dry clay, and on a day with a large enough setting to make the yard shot. Avoid the monsoon weeks, when everything is damp and the contrast is lost.",
+    "images": [
+      {
+        "caption": "Curd served in its unglazed clay pot with treacle. A picture of the product and the vessel type, not of any setting house or of this district.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Curd and treacle.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Curd and treacle.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same product again, for the shape and surface of the pot. Again the object type rather than the location.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lankan curd and honey.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lankan curd and honey.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://roadsandkingdoms.com/2017/sri-lanka-breakfast-curd/",
+      "https://archive.roar.media/english/life/culture-identities/heres-how-buffalo-curd-is-made"
+    ],
+    "research_note": "That buffalo curd is set in unglazed fired clay pots, that the porousness of the pot is part of how it works, that the milk is boiled down before filling and the pots are covered and left overnight, and that the trade's historic centre is the inland Hambantota district, are from the sources above and are desk research only. Whether setting houses test incoming pots by tapping and listening is not attested in any source read and is the single most important thing to check before this film is developed; what is certain is that pots are filled and that failures appear, and if the test turns out to be something else the film follows the real method. No household has been found. The coordinates are the town's and are approximate, not a chosen yard. Commons returned pictures of the product but none of a setting house, so both captions say what they are.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, yard or permission has been found or approached. Everything here is a research direction.",
+    "Whether pots are tested by tapping and listening before filling, or by some other method, or not at all, is unverified and decides the shape of two beats.",
+    "How many pots typically fail in a setting, and whether failures are common enough to be filmed on any given night, is unknown.",
+    "Whether a camera can be in the room during filling at all, given milk hygiene, is unresolved."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

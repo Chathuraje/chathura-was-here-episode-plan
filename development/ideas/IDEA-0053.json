@@ -2,57 +2,104 @@
   "schema_version": 1,
   "id": "IDEA-0053",
   "record_type": "idea",
-  "title": "The Drowned Town",
+  "title": "What the Water Was Holding",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Drowned Town"
+  ],
   "group_id": "GRP-04",
-  "logline": "A dry year drops the water behind a dam far enough for the streets of a town drowned decades ago to come back into the air, and the people who grew up there walk out across the mud looking for houses that are no longer where they remember.",
-  "human_question": "When the map we carry no longer matches the ground, how do we find our way?",
-  "situation": {
-    "what_happens": "A settlement was flooded when a reservoir was built, and its people were resettled a generation or more ago. In a severe dry year the water falls far enough to expose foundations, steps, wells and thresholds, and word travels among the former residents that the town is briefly back. They walk out across the cracked bed and try to match what they remember against what is in front of them, often disagreeing about which ruin was whose. Then the rain comes and the water closes over it again.",
-    "who_is_involved": "Former residents and their grown children, who are the only people able to read the ground; younger family members who have only ever heard about the place; and, at a distance, the authority that manages the water and the access.",
-    "what_is_at_stake": "For the former residents, a memory either confirmed or quietly lost, and a loss long since settled being reopened for a few weeks. For their children, a story either becoming a place or staying a story. For the film, the danger of turning other people's displacement into a spectacle.",
-    "how_it_unfolds": "It begins with a rumour and a water level, moves through days of walking, pacing out streets and arguing gently, and is ended by the weather rather than by anyone's decision. Some people find what they came for, some find that they cannot, and some choose not to come at all. Reality decides whether there is a drawdown, how much it exposes, and when it goes under again."
+  "logline": "A reservoir built across a mountain valley drowned dozens of villages and their temples, and in a hard dry year the water falls far enough that the foundations, the wells and the steps of one of them stand up out of the mud again, exactly where they always were.",
+  "human_question": "If something can be out of sight for thirty years and come back unchanged, what does it mean to say it has gone?",
+  "place": {
+    "what_kind_of_place": "A large hydroelectric reservoir filling a steep mountain valley, made by damming a river some decades ago. Filling it put a long list of villages, estates and old temples under water, and their people were moved to new settlements on the slopes above the shoreline. For most of the reservoir's life the water sits high and the valley reads as a lake with wooded ridges falling into it. In a severe dry year the level drops tens of metres, and a wide belt of cracked, pale, dead ground appears between the trees and the water, with the tops of buildings standing in it.",
+    "why_it_is_worth_watching": "A reservoir at low water is one of the strangest landscapes anywhere: a lake with a bathtub ring, and below the ring a country nobody has walked on since the year it was flooded. From the air the shoreline reads as a tide line drawn round a whole valley, and inside it the geometry of a settlement comes back as pale rectangles in grey silt, with a road going down into the water and not coming out. At ground level the surfaces are the story. Plaster that has been under water for decades is still plaster. Steps still have their edges. A brick wall still has its courses. Nothing has been worn away; it has only been out of view.",
+    "what_moves_or_changes": "Only the water, and only on the weather's terms. The level falls through a long dry spell, holds for a few weeks, and then the first heavy rain in the catchment takes the whole thing back in days. The exposure is not annual and not predictable: in more than thirty years the ruins have been reported above water only a handful of times. Within a single day the light changes the exposed ground completely, from white glare at noon to a long raking shadow across every threshold at the end of the afternoon.",
+    "when_it_looks_best": "Late in a genuine drought, when the drawdown is at its deepest, which in practice has meant the first months of the year. Early morning for mist on the remaining water and for the ridges above the tide line; the last hour of light for the exposed foundations, when low sun makes every step and every wall base throw a shadow and the plan of the place becomes readable from the air."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about a lake that goes down. It has a full shape on its own: a wooded valley with a still sheet of water in it, then a widening band of pale cracked ground, then a settlement standing up out of the silt, then the same frames again with the water back over them. The textures alone carry it, mud that dries into plates, a wall that has kept its corners, a road that walks into the water. Anyone who never hears a word of it gets a complete piece with a fall, a revelation and a closing over.",
+    "with_the_philosophy": "The same drawdown becomes the sources' own image standing in a real valley. One of the two texts explains a whole class of unwholesome states as a great mass of water going over fields, gardens and villages, and another explains a different class as things that lie hidden, holding on, with the strength to rise again whenever a suitable occasion turns up. Here both are one place, and neither has to be argued: a valley genuinely under a flood, and a town that was never destroyed, only covered. The voice reads the water and the mud, never anybody's face, and makes no claim at all about what is in anyone's mind."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone, very high, early morning. A long reservoir filling a steep valley, mist lying on it, wooded ridges going down into it on both sides. Nothing unusual at all.",
+      "voice": "This valley had villages in it, and tea land, and a long list of old temples. Then a dam was finished downstream and the river was asked to stop. Everything below a certain line went under and the people who lived there were moved uphill. That was more than a working lifetime ago.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The same water at the surface: flat, grey-green, giving nothing back. A boat wake crossing it and closing again.",
+      "voice": "One of the old texts has a word for a whole family of these states, and its image for them is water. Not a pool: a current. Something that falls into a river is taken by the eddy and carried to the floor of the sea. The other text puts it as a flood going over fields, gardens and villages [C074-P:L112–L114; C074-M:L27–L31]. That is a simile everywhere else. Here it is the survey map.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "A dry season, weeks in. Aerial: the water has pulled back and a wide pale band of cracked silt now rings the whole valley, with the green stopping at a level line far above it.",
+      "voice": "A bad dry year takes the level down a long way. What comes out from under it is not new ground. It is old ground, that has been there the entire time, at the same elevation, in the same order.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "Walking speed across the exposed bed: dried mud in plates, bleached tree stumps still rooted where they grew, a metalled road running down the slope and continuing straight into the water.",
+      "voice": "The texts describe some of these states as lying hidden, not showing themselves, keeping hold of the stream of mind until they are cut, and having the strength to come up again whenever a suitable occasion is found [C074-P:L474]. The same texts set out three stages: lying low, rising into the mind, and moving the body and the voice [C074-P:L486–L498; C074-M:L73–L79]. Only the last one can be photographed.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The settlement itself. Foundations in a grid, doorsteps, a well with its rim intact, a temple platform with its statues still in place, silt to the ankles. Late low sun: every edge throws a shadow.",
+      "voice": "None of this was destroyed. It was covered. The steps still have their edges. The wall still has its courses. Thirty years of being out of sight did not take one thing away from it, and the texts are blunt about what follows from that: holding something down is not the same as being done with it. The one is a level. The other is a change in the ground.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "Back on the water at dusk, once it has begun to rise again. Flat light, no wind, an unbroken grey surface. Nothing visible below it.",
+      "voice": "The other text in this group says that when the mind is darkened it cannot take a matter as it really is [C008-M:L3], and it describes a mind that cannot come to a decision about the thing in front of it [C008-P:L34]. It also says something easy to miss: a mind in that state feels neither good nor bad, because you cannot like or dislike what you have not got hold of [C008-P:L30]. A flat surface is not a calm one. It is a surface you cannot see through.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "After the first heavy rain in the catchment. The same aerial as beat 3, days later: the pale band gone, the water back at the tree line, the valley reading again as an ordinary lake.",
+      "voice": "It takes one wet week to put it all back. The film has no opinion about anybody who lived here and makes no claim about anybody's mind; a camera cannot see that and this one does not pretend to. It only shows the arrangement. Nothing under there has changed. The level has.",
+      "concept_id": "C074"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C074 brings the compendium's account of what lies dormant: states that lie asleep in the mind-stream and rise again when a suitable object appears, so that not reacting today proves very little [C074-P:L474; C074-P:L486–L498; C074-M:L75]. C008 brings the everyday face of a mind that cannot take in what is in front of it [C008-P:L34]. The town under the water gives the first its image; the people standing on the foundations give the second its human weight.",
-    "what_it_reveals": "That hiddenness is not absence, and that finding this out is disorienting rather than dramatic. C074 alone would be a diagram. C008 alone would be a mood. Together they show why what lies low is so easily mistaken for what is finished."
+    "why_together": "Read fresh, C074 does almost all the work and does it twice over. Its flood image is not decoration here: the texts explain that family of states as a current that takes whatever falls in down to the sea floor, and the second source as a great mass of water going over fields, gardens and villages [C074-P:L112–L114; C074-M:L27–L31], which is a literal description of what was done to this valley. Its latent tendencies then supply the second half: states that lie hidden and keep the strength to rise whenever a suitable occasion appears [C074-P:L474], set out in three stages of which only the last is visible in body or speech [C074-P:L486–L498; C074-M:L73–L79]. C008 supplies the group's question and the reason the film has anything to do with not-seeing at all: delusion is described as what darkens the mind so a matter cannot be known as it is [C008-M:L3], and the full reservoir is exactly that, a surface that withholds. Put on one drawdown, the flood, the thing lying low and the surface that hides it are the same body of water at three different levels.",
+    "what_it_reveals": "That hiddenness is not absence, and that finding this out is quiet rather than dramatic. C074 alone would be a diagram with two similes in it. C008 alone would be a mood over grey water. Together they make the one point the place can prove without asking anyone to believe anything: what was covered is still the size and shape it was, in the same position, and the only thing that ever changed was how much was standing over it. The pairing also blocks the sentimental ending, because the return of the ruins is not a recovery. It is a level, and the level goes back up."
   },
   "concept_links": [
     {
       "concept_id": "C074",
       "role": "primary",
-      "why": "The digest describes latent tendencies as lying asleep until something wakes them, and reports the sources' example of hermits far from temptation who still fall when the right object meets them [C074-P:L474; C074-P:L486–L498; C074-M:L75]. The drowned town is an image of what lies low until conditions change. It is not a picture of anyone's mind: the residents' memories and grief are not defilements, and the digest also rules out the reading that the mind is pure underneath."
+      "why": "Two of the compendium's nine lists land on this place directly. The floods are explained as a current that drags whatever falls into the river down to the floor of the sea, and by the second source as a great water going over fields, gardens and villages, with escape from it very hard [C074-P:L112–L114; C074-M:L27–L31]. The latent tendencies are explained as unwholesome states that keep hold of the mind-stream unseen until path-knowledge cuts them, with the power to arise again whenever a suitable object is met [C074-P:L474], and both books set out the three stages of lying low, surfacing in the mind, and breaking out into act and speech [C074-P:L486–L498; C074-M:L73–L79]. The digest's limits are load-bearing and are honoured on screen. Abandonment is staged and technical, not a lifestyle decision, so the returning water is not offered as relapse and the drawdown is not offered as release: beat 5 says only that suppression and uprooting are different. 'Your mind is pure underneath' does not follow from anything here and is never implied by the image of clean ground under water. The stakes in the source are not stress or wellbeing, so no well-being language is used. And the warnings about rites and rituals concern views held as the path to liberation and cannot be turned on anyone's practice, which matters because one of the exposed buildings is a temple that people come to when it appears."
     },
     {
       "concept_id": "C008",
       "role": "supporting",
-      "why": "The digest reads the two delusion-rooted minds as the everyday experience of being lost, stuck at a fork or running in circles, and describes doubt generally as a mind that cannot decide about its object [C008-P:L34]. People standing on a foundation unable to agree where they are carry that description. The link reaches no further: the sources' harmful doubt is restricted to eight religious matters, and a disagreement about a remembered street is not it."
+      "why": "Delusion is described as the quality that darkens the mind so that a matter cannot be known as it really is, present in all unwholesome minds [C008-M:L3]; the doubt built on it is a mind unable to reach a decision about its object [C008-P:L34]. A full reservoir is a surface that gives no information about what is under it, which is what this film can actually observe. The digest's two guards are kept. The harmful doubt it means is restricted to eight specifically religious matters and is separated explicitly from ordinary not-knowing about something one cannot yet investigate [C008-P:L36], so the film asserts nothing about which kind of not-seeing is in play; it describes water. And the neutral feeling that comes with these states is a dull greyness from failing to grasp the object, not equanimity [C008-P:L30], which is why beat 6 refuses to read the flat evening surface as peace."
     }
   ],
-  "what_the_viewer_could_understand": "Something you cannot see is not necessarily gone. The texts describe some states of mind as lying hidden, like a town under water, and rising again when conditions change.",
-  "what_must_be_real": "The drought, the drawdown and the returning residents. No one is brought to the site for the camera, no memory is scripted, no grief is asked for, and the resettlement history is not flattened into a story with a villain.",
-  "position_hint": "middle, sitting early in the group: it follows the opening by moving from not knowing the way to not being able to trust what one already knows, and it makes the group's plainest statement that what is covered has not gone.",
+  "what_the_viewer_could_understand": "That something out of sight is not the same as something gone. A settlement can be under water for thirty years and come back with its steps, its walls and its street plan intact, because nothing was ever taken away from it. The texts describe some states of mind in exactly those terms, and they are careful to add that holding a thing down and being finished with it are not the same operation.",
+  "what_must_be_real": "The drought, the drawdown and the reservoir. The exposure is filmed on whatever weeks it actually happens and is never simulated, composited or graded into existence, and the water level is never described as lower or higher than it was. No former resident is brought to the site for the camera, asked to point out a house, asked to remember on cue, or filmed in grief; if people come of their own accord the film treats them as it treats anyone in a public place, and a resettlement history that is still painful is not flattened into a story with a villain or offered as an illustration of anything. No object is moved, cleaned, uncovered, lifted or arranged on the exposed ground, and anything at the temple is left exactly as found. If the bed is not safe to walk, it is filmed from the air only.",
+  "position_hint": "middle, sitting early in the group: it makes the group's plainest statement, that what is covered has not gone, and it gives the viewer a physical fact to hold before the harder films about direction and speed. No location reasoning is involved.",
   "risks": [
-    "Grief and displacement filmed as spectacle; the resettlement history is painful and may be politically sensitive.",
-    "Presenting the residents' memory, or their disagreement, as confusion or as a defilement.",
-    "The image doing the work that the people should do.",
-    "Exposed reservoir ground may not be safe to stand on."
+    "Turning displacement into spectacle. The resettlement is recent enough to be living memory and may be politically sensitive; the film stays on the place and the water and does not reopen anyone's loss for footage.",
+    "Presenting any person on screen, or their memory, or their disagreement, as an instance of a defilement or as confusion. The sources describe moments of mind, and a camera cannot show which factor is present.",
+    "Using the digest's warnings about rites and rituals against the people who come to the exposed temple. Those warnings concern views taken as the path to liberation and cannot be turned on anyone's practice.",
+    "Implying that the clean ground under the water shows a pure mind underneath. The digest rules that reading out explicitly.",
+    "Reading the flat grey surface as calm or the drawdown as release; the digest is explicit that the neutral feeling in these states is not equanimity, and that suppression is not uprooting.",
+    "Self-help framing. The stakes in the source are not stress, wellbeing or letting go of baggage.",
+    "Exposed reservoir ground that looks solid and is not, plus dam-authority restrictions and drone rules over infrastructure."
   ],
   "drop_if": [
-    "No drawdown exposes the remains during the development window.",
-    "Former residents do not wish to return with a camera."
+    "No drawdown deep enough to expose the remains occurs during the development window, and the film would have to be built from archive.",
+    "Access to the exposed bed cannot be had safely or lawfully.",
+    "It can only be made by bringing former residents back to the site for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0054",
       "relation": "sits beside",
-      "note": "A place that has lost its bearings, and a traveller who has."
+      "note": "A surface that hides what is under it, and a surface that hides which way to go."
     },
     {
       "idea_id": "IDEA-0063",
@@ -64,18 +111,75 @@
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's second episode and is the only idea that shows a thing lying hidden and returning when conditions change."
+    "reason": "The only idea in the group that shows a thing lying hidden and returning unchanged when conditions change, with the sources' own flood image standing in the actual landscape."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Situation block replaced by place, two_layers and a seven-beat sequence; both digests re-read from scratch and the film rebuilt around C074's own flood simile and its account of what lies low, with C008 demoted to the surface that withholds. Per the group brief the film was moved off returning residents entirely and onto the water and the ground, and a proposed location was added.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Kadadora Viharaya and the drawdown zone of the Kotmale Reservoir",
+    "also_known_as": [
+      {
+        "name": "Pratibimbarama",
+        "meaning": "the monastery of the reflection; the older name the site is believed to carry",
+        "used_by": "local and antiquarian usage"
+      }
+    ],
+    "region": "The Kotmale valley, Nuwara Eliya district, central highlands, upstream of the Kotmale dam and reached from the Gampola side",
+    "coordinates": {
+      "lat": 7.0389,
+      "lng": 80.6222
+    },
+    "why_here": "It puts the concept and the spectacle in one frame and nowhere else does. Filling this reservoir in the early 1980s put an estimated fifty-seven villages, fourteen estates and around fifty-four old temples under water, so the second source's image for the floods, a great mass of water going over fields, gardens and villages, is not a simile here but the engineering history of the valley. And because the drawdown is rare rather than seasonal, reported above water only a handful of times in more than thirty years, the return of the ruins is genuinely an occasion rather than a yearly event, which is exactly the texts' point about something that lies low until conditions suit it. The best image the place produces, a temple platform with its statues standing in grey silt below a tide line drawn round a whole valley, is also the clearest statement of the concept.",
+    "what_to_film": [
+      "The full reservoir first, high and wide from the air, so the film establishes a surface that tells the viewer nothing.",
+      "The tide line round the whole valley once the level drops: green stopping dead at a level, and a pale band of cracked silt below it.",
+      "The exposed street plan from directly overhead in low sun, when every foundation and threshold throws a shadow and the settlement reads as a plan.",
+      "Surfaces in close-up at walking speed: plaster that has kept its face, brick courses, a well rim, steps with their edges intact, mud drying into plates.",
+      "The metalled road that runs down the slope and continues into the water, filmed from both the land and the air.",
+      "The temple platform and its statues, filmed as found, without moving, cleaning or lighting anything, and without adjudicating anybody's practice there.",
+      "The same aerial frames again after the first heavy rain in the catchment, once the water is back, cut hard against the drawdown frames."
+    ],
+    "access": "By road from Kandy through Gampola, roughly 38 km to the Kotmale side, then down to whichever shoreline the level has opened. Access to the exposed bed depends entirely on the drawdown and on the reservoir authority, and the whole film depends on being able to move within days of a level being reached. Drone work over a dam and its reservoir is infrastructure filming and will need specific permission.",
+    "best_time": "Only in a genuine drought year, at the deepest point of the drawdown; past exposures have been reported in the first months of the year, around March and April. Early morning for mist and the ridges, the last hour of light for the foundations.",
+    "images": [
+      {
+        "caption": "The temple standing out of the reservoir during a dry season: the film's central image.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kadadora Temple emerged in dry season Kotmale, Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kadadora Temple emerged in dry season Kotmale, Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same site exposed by a low water level, showing the silt and the surrounding drawdown ground.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/During the dry season this temple is visible - due to the Kotmale dam project most of the time is under the water.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:During the dry season this temple is visible - due to the Kotmale dam project most of the time is under the water.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The reservoir at a normal level, for the opening frames in which the surface gives nothing away. This is a picture of the reservoir generally, not of the submerged site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kotmale Reservoir 03.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Kotmale Reservoir 03.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/kadadora-viharaya/",
+      "https://www.lanka-excursions-holidays.com/kadadora.html",
+      "https://premiumtravelog.com/kadadora-viharaya-rising-from-the-water/"
+    ],
+    "research_note": "That the reservoir submerged roughly 57 villages, 14 estates and around 54 temples, that the ruins re-emerged in 2009 after about thirty years and again during the 2016 and 2019 dry spells, that exposure has happened only a handful of times, that it falls around March and April in a drought year, and that the site is about 38 km from Kandy via Gampola, are all from the sources above and are desk research only. The coordinates are an approximate point on the Kadadora arm of the reservoir taken from the published route descriptions, not a surveyed position, and should be fixed on the ground. Access to the exposed bed, its safety, reservoir-authority permission and drone rules over dam infrastructure are entirely unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction.",
-    "Whether any submerged settlement has re-emerged recently, and when it might again, is unconfirmed."
+    "No drawdown is forecast and none can be arranged; whether the ruins will be exposed inside the production window is the single question the film depends on, and it is unanswerable in advance.",
+    "Whether the exposed bed can be walked safely, and how close a crew may get to the structures, is unverified.",
+    "Permission to fly a drone over a dam and its reservoir is unverified and may be refused outright.",
+    "Whether filming at the exposed temple would interfere with anyone's observance there has not been checked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

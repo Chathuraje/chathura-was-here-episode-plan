@@ -2,81 +2,199 @@
   "schema_version": 1,
   "id": "IDEA-0042",
   "record_type": "idea",
-  "title": "The Even Share",
+  "title": "One Heap Becomes Many",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Even Share"
+  ],
   "group_id": "GRP-03",
-  "logline": "At first light a crew hauls in what they worked all night for and divides it on the spot by a share system everyone present knows by heart, and every division is a small, quick test of what will and will not be held back.",
-  "human_question": "When something has been worked for together, what makes sharing it easy, and what makes it hard?",
-  "situation": {
-    "what_happens": "A catch belongs to nobody until it is divided, and the dividing happens in the open, in front of everyone whose share it is, within an hour of the work ending. The system is old and nobody invented it, which is what makes it interesting: it removes almost all of the deciding, and what remains is a series of very small moments where a person can be exact, generous or reluctant, and where everybody sees which. There are also shares for people who did not pull: the owner of the gear, someone too old to work, whoever was sick that week. Some mornings the whole thing takes ten minutes and nobody speaks. Some mornings it does not.",
-    "who_is_involved": "The crew who did the work; whoever owns the gear and takes a share for it; the older or absent people whose claim the system recognises without their being present; the buyers waiting to take it away at a price nobody controls; and the families the shares are actually for.",
-    "what_is_at_stake": "One morning's money, which in a lean week is the week. Beyond that, a system that only works because people keep accepting it, so every division is also a small vote on whether the system still holds. For the film, not making a crew look petty on a morning when what the camera actually sees is likely to be fairness.",
-    "how_it_unfolds": "It begins with work that is genuinely shared and ends with a value that has to be split. The pressures are the size of the catch, the price that morning, and whoever has a particular need that week. It ends in an easy division, in an argument, or in an adjustment made quietly for somebody who needed it. Reality decides, and a poor catch is an ordinary outcome rather than a failure."
+  "logline": "At the end of a harvest a whole season's work stands as one gold heap on a swept clay floor, and in the space of a morning a measure that everybody present can count turns it into a dozen smaller heaps with names on them.",
+  "human_question": "When something has been worked for together, what makes handing it out easy, and what makes it hard?",
+  "place": {
+    "what_kind_of_place": "A threshing floor in rain-fed paddy country: a circle of beaten earth, sealed with clay and dung until it rings hard, cut into the middle of the fields it serves and used for a few weeks a year. Around it are the reaped fields with their straw still lying in rows, a field hut, a tank bund with trees on it, and the low hills that hold the whole tract. The floor belongs to nobody in particular and is used by everybody in turn, which is why the year's accounting happens on it.",
+    "why_it_is_worth_watching": "Because a rule that is normally invisible becomes a physical object for about two hours. The grain arrives as one mass and leaves as a set of separate shares, and every step between is done in the open, in the middle of a field, with the people whose shares they are sitting round the edge watching the measure being filled and levelled. From the air it is close to a diagram: a pale circle in a landscape of stubble, a heap at the centre, and the heap dividing. On the ground it is dust, light through dust, the sound of grain falling on grain, and almost no talking.",
+    "what_moves_or_changes": "The heap itself, which is the whole drama: it stands at its biggest at the start and is gone by the end. Around it, the straw is stacked, the floor is swept twice, the wind is waited for when anything has to be winnowed, and the light goes from flat early gold to hard white. The size of the heap is decided months earlier by rain, so the film cannot know in advance whether it is watching a good year or a thin one, and the thin one is just as true.",
+    "when_it_looks_best": "The last mornings of a harvest, from first light until the heat comes. Early sun rakes across the stubble and lights the dust over the floor; a little wind helps the work and helps the picture. A thin year still gives the same shapes at a smaller scale."
   },
+  "two_layers": {
+    "without_the_philosophy": "A harvest film with a shape of its own: a landscape emptied of its crop, a swept circle, one enormous heap, and then the slow patient arithmetic of turning it into many. Dust in low sun, hands, sacks, straw stacks going up, a tractor waiting at the edge, children counting along with the adults, and an empty floor by noon. Anybody who has never heard of any of this gets a complete piece about a year of work being handed out.",
+    "with_the_philosophy": "The same morning becomes a test the sources describe exactly. They put the holding-back of one's own things next to anger rather than next to wanting, because what it consists of is displeasure at those things being shared. A public division by a known rule is the only arrangement in which such a thing would ever have to act in the open, on a deadline, in front of the people it concerns. And the sources' hopeful line lands on the same floor: while the danger in a state is seen, and while shame and dread are awake, that state cannot arise at all. A rule everybody can count along with is what that protection looks like from outside."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, drone, very high: a tract of reaped fields with straw lying in rows, and set among them a pale swept circle with a single heap at its centre and a few small figures around the edge.",
+      "voice": "Everything grown on this tract for six months is now in one pile. In about two hours it will not exist. It will be eight or nine piles, each with somebody's name on it, and nobody here will have had to decide anything.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Ground level, low and close: the floor being swept, the heap shaped up with a flat board, a wooden measure set on top of it. People arriving, sitting along the bank in the shade, tea being poured.",
+      "voice": "So many measures to whoever owns the field. So many to the ones who cut it. So many to whoever brought the machine, and a share set aside for a household that could not come. The system is older than anyone sitting here and nobody invented it, which is exactly what makes it worth filming: the arguing was done long ago, and what is left is the doing.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The measure filled, struck level with the flat of a hand, lifted, tipped out. A second heap starting beside the first. A child counting out loud with the adults.",
+      "voice": "The sources are unusually specific about what people hold on to. They count five kinds of this holding-back, and one of them is gain: not bearing one's own gain to be shared with another, or matched by another [C022-P:L133–L135]. They separate it from envy by which way it faces. Envy looks at other people's good fortune. This one looks at your own [C022-P:L133].",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Very close: the levelling stroke, the small avalanche of grain off the rim, dust hanging in the light. Hands only, nobody's face read for anything.",
+      "voice": "And here is the strange classification the whole morning rests on. This holding-back grows out of attachment to what is ours, and yet the texts say it arrives as displeasure, not as pleasure, so they file it with aversion and not with wanting at all [C026-M:L19]. Clutching is felt as irritation. That is why it sits in the same family as anger rather than next to greed.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "The shares going into sacks, sacks carried to a trailer, one share left standing on the floor under a cloth. The straw being stacked. The floor swept again.",
+      "voice": "The same sources are strict about how little this licenses. It appears only sometimes, only in certain moments, and never alongside envy or regret, which come one at a time [C026-P:L39]. It is an account of single moments of mind, not a way of reading a person, and a camera cannot see which factor is present in anybody. This film is not looking for a mean face and would not know one.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Drone again, mid-morning: where there was one heap there are now many, spaced out on the pale circle, with people and sacks between them.",
+      "voice": "What the morning is most likely to contain is fairness, done quickly and without comment. The texts have a line for that too, and it is the hopeful one. While the danger in a state is still visible, while shame and dread are awake, that state cannot arise at all [C026-M:L15]. Not resisted. Not arisen.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Noon. The floor empty and swept, the straw stacks throwing short shadows, the trailer gone, a dog asleep on the clay.",
+      "voice": "A rule counted out loud, in daylight, in front of everyone it concerns, is what that protection looks like from outside. It is not virtue and nobody here would call it that. It is an arrangement, kept up by people who go on using it.",
+      "concept_id": "C022"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C026 supplies the fine distinction the whole film rests on: this holding-back springs from attachment to one's own things, yet it shows itself as displeasure at their being shared, so the sources group it with aversion and not with wanting [C026-M:L19]. C022 supplies its objects and its boundary: both sources give five kinds, gain among them, and Pradeepika separates it from envy by where each looks, envy at other people and this at one's own [C022-P:L133–L135; C022-M:L43–L45]. Dividing a catch is where an inward-facing state has to act outwardly, in public, on a deadline.",
-    "what_it_reveals": "That the moment of sharing is the only moment where this state is visible at all, and that it is visible as a flicker of displeasure rather than as a grab. Neither concept shows that on its own: C022 lists what people hold on to, C026 explains why the holding feels the way it does, and only together do they predict that a generous crew and a reluctant one will look almost identical except for a half-second at the moment of handing over. They also predict what the film is most likely to find, which is that the system works and nobody minds."
+    "why_together": "C026 supplies the fine distinction the whole film rests on: this holding-back springs from attachment to one's own things, yet it shows itself as displeasure at their being shared, so the sources group it with aversion and not with wanting [C026-M:L19]. C026 also supplies the limits and the hope in one breath, that the factor is occasional, confined to the hate-rooted minds and never doubled with envy or remorse [C026-P:L39], and that while danger is seen and shame and dread are awake no unwholesome state arises at all [C026-M:L15]. C022 supplies its objects and its boundary: five kinds, gain among them, and the separation from envy by which way each faces [C022-P:L133–L135]. Dividing a heap in the open is where an inward-facing state would have to act outwardly, in public, on a deadline.",
+    "what_it_reveals": "That the moment of handing over is the only moment where this state could show at all, and that what it would look like is a flicker of displeasure rather than a grab. C022 alone lists what people hold on to; C026 alone explains why the holding feels the way it does. Together they predict something a camera can actually be pointed at: a generous division and a reluctant one look identical except in a half-second, which is precisely why the film must not claim to tell them apart. They also predict what the morning will really contain, which is a rule working, and C026's inversion is what makes that ordinary outcome the strongest thing in the film rather than an anticlimax."
   },
   "concept_links": [
     {
       "concept_id": "C026",
       "role": "primary",
-      "why": "Margaya explains why this factor sits where it does: although it springs from attachment to one's own things, it arises with aversion, never with greed, because what it consists of is displeasure at those things being shared [C026-M:L19]. Pradeepika adds that it occurs only in the two hate-rooted minds, only on some occasions, and never together with envy or remorse, which come one at a time [C026-P:L39]. The moment of dividing a catch is exactly where that displeasure, or its plain absence, would have to show. Two of the digest's limits belong in the link: 'stinginess is greed' is the English equation the source refuses, and the scheme is not a way of reading people, since a camera cannot show which factor is present in anyone and the film must not claim it can."
+      "why": "Margaya explains why this factor sits where it does: although it springs from attachment to one's own things, it arises with aversion and never with greed, because what it consists of is displeasure at those things being shared [C026-M:L19]. Pradeepika adds that it occurs only in the two hate-rooted minds, only on some occasions, and never together with envy or remorse, which come one at a time [C026-P:L39]. A division by measure in front of the people it concerns is exactly where that displeasure, or its plain absence, would have to show. Three of the digest's limits are load-bearing and are honoured on screen: the English equation 'stinginess is greed' is the one the source refuses; the scheme is a study of single moments of mind and not a diagnostic tool, so no person in frame is offered as an instance of anything; and the four constant factors describe every unwholesome moment in anyone, so nothing here supports a picture of mean people and generous people. The digest's hopeful inversion, that while the danger is seen and shame and dread are awake the state cannot arise at all [C026-M:L15], is what the public rule illustrates and is narrated as description rather than praise."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Both sources give five kinds of this holding-back, and gain is one of them: not bearing one's own gain to be shared with or matched by another [C022-P:L133–L135; C022-M:L43–L45]. A catch divided in view of the whole crew is a daily test of exactly that. Pradeepika's separation of envy from it is what keeps the film honest about which concept it is looking at: envy takes other people's good fortune as its object, this takes one's own things [C022-P:L133]. The digest flags one of the four aspects as textually unsettled, Margaya's 'indicating' against Pradeepika's 'not bearing others to know of it' [C022-M:L43], so the film does not rest anything on that aspect."
+      "why": "Both sources give five kinds of this holding-back, and gain is one of them: not bearing one's own gain to be shared with or matched by another [C022-P:L133–L135; C022-M:L43–L45]. A harvest measured out in view of everyone whose share it is tests exactly that, once a season, in public. Pradeepika's separation of envy from it is what keeps the film honest about which concept it is looking at, since envy takes other people's good fortune as its object while this takes one's own [C022-P:L133]. The digest flags one aspect as textually unsettled, Margaya's 'indicating' against Pradeepika's 'not bearing others to know of it' [C022-M:L43], so nothing in the film rests on that aspect; and the source's own placement of both envy and this factor with displeasure rather than enjoyment is the reason the film can stay in the group at all."
     }
   ],
-  "what_the_viewer_could_understand": "Holding on to what is ours can feel less like enjoying it and more like a small sting when it has to be handed over. The texts notice that, and group that kind of holding back with aversion rather than with wanting. They are equally clear that nobody's mind can be read from outside, and that easy fairness is just as likely to be what a morning of dividing actually contains.",
-  "what_must_be_real": "The crew, the haul and the division must be an ordinary working morning. No dispute and no act of generosity may be prompted, re-done or waited on. The crew may not be shown as either petty or virtuous beyond what actually happens, and a small catch must be filmed as the ordinary working reality it is rather than as a disappointment the film needed.",
-  "position_hint": "middle, and early in the middle: it is the first film in which the state is not obviously hot, which is what lets the group move from anger to the quieter members of the same family. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That holding on to what is ours can feel less like enjoying it and more like a small sting when it has to be handed over, and that the old texts noticed this and grouped that kind of holding back with aversion rather than with wanting. Equally, that no mind can be read from outside, that easy fairness is the likeliest thing a morning of dividing contains, and that a rule counted out in the open is one of the arrangements under which the unpleasant state has no room to start.",
+  "what_must_be_real": "The crew, the harvest and the division must be an ordinary working morning at the end of a real season. No dispute and no act of generosity may be prompted, re-staged or waited for, and no share may be altered for the camera. The people dividing may not be presented as either petty or saintly beyond what the morning actually contains, a thin harvest must be filmed as the ordinary working reality it is rather than as a disappointment the film needed, and nobody's hesitation may be cut to imply a state of mind. If the households would rather the amounts were not legible on screen, the amounts are not filmed.",
+  "position_hint": "middle, and early in the middle: it is the first film in the group where the state is not obviously hot, which is what lets the run move from anger and fear to the quieter members of the same family. No location reasoning is involved.",
   "risks": [
-    "Implying the crew is petty when generosity and fairness are just as likely to be what the camera sees; the digest's own note on this situation says exactly that.",
-    "Turning a livelihood into an illustration rather than reporting what actually happens on the morning filmed.",
-    "Filming a low catch as failure rather than an ordinary working reality.",
-    "Letting a viewer hear 'stinginess' as greed, which is the equation the sources explicitly refuse.",
-    "Suggesting that a half-second of hesitation at a handover shows a state of mind, which no camera can show."
+    "Implying that the people dividing are petty, when fairness is the likeliest thing the camera will see; the digest's own note on this kind of situation says exactly that.",
+    "Letting a viewer hear this factor as greed, which is the equation the sources explicitly refuse [C026-M:L19].",
+    "Suggesting that a pause or a hesitation at a handover shows which factor is present, which no camera can show and which the digest rules out as a use of the scheme.",
+    "Reading the scheme as a description of kinds of people rather than of moments, when the constant factors describe every unwholesome moment in anyone.",
+    "Filming a poor harvest as failure rather than as an ordinary outcome of the weather.",
+    "Turning a household's year of income into an illustration, or making the amounts public in a way the people involved would not choose."
   ],
   "drop_if": [
-    "No crew still uses a traditional, visible share system.",
-    "The crew does not want the division itself filmed.",
-    "The only way to give the film a turning point would be to provoke a dispute over shares."
+    "No crew in the district still divides a harvest on the floor by a visible measure, so the rule would have to be re-enacted.",
+    "The households do not want the division itself filmed, or do not want the amounts legible.",
+    "The only way to give the film a turning point would be to provoke or wait for a dispute over shares."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0039",
       "relation": "pairs with",
-      "note": "Two tests of what is handed over: a catch divided in the open in one morning, a skill divided in private across years."
+      "note": "Two tests of what gets handed over: a season's grain divided in the open in one morning, a skill divided in private across years."
     },
     {
-      "idea_id": "IDEA-0033",
-      "relation": "mirrors",
-      "note": "Two crews and two nets: one marked by what was taken, the other by what is handed out."
+      "idea_id": "IDEA-0043",
+      "relation": "pairs with",
+      "note": "Shared work seen from both ends: the proceeds divided by a rule, and the labour given before any rule applies."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0021; its primary link is the digest's own explanation of why this factor belongs with aversion, and the situation is the one place that explanation becomes observable."
+    "reason": "It is the one place where an inward-facing factor has to act in public, on a deadline, and the division makes the rule itself the film's best image."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape: situation block replaced by place, two_layers and a seven-beat sequence; the fish-landing archetype dropped for a harvest threshing floor and a real location proposed; both concept links re-tested against the digests, C026's hopeful inversion added as the film's closing movement, and the 'not a way of reading people' limit carried into the links, the sequence and the risks.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The village threshing floors of the Wellassa paddy country around Bibile",
+    "also_known_as": [
+      {
+        "name": "kamatha",
+        "meaning": "the threshing floor: a circle of earth sealed with clay and dung, where the harvest is stacked, threshed and divided",
+        "used_by": "Sinhala farming usage"
+      },
+      {
+        "name": "kamathe bhashawa",
+        "meaning": "the separate vocabulary traditionally used for speaking on the threshing floor",
+        "used_by": "Sinhala farming usage"
+      },
+      {
+        "name": "laha, kuruniya",
+        "meaning": "the wooden grain measures by which shares are counted out",
+        "used_by": "Sinhala farming usage"
+      },
+      {
+        "name": "Wellassa",
+        "meaning": "'a hundred thousand paddy fields', the old name of this country",
+        "used_by": "Sinhala"
+      }
+    ],
+    "region": "Moneragala District, Uva Province: the rain-fed and small-tank paddy tracts of the Wellassa country in and around the town of Bibile",
+    "coordinates": {
+      "lat": 7.162,
+      "lng": 81.223
+    },
+    "why_here": "The concept needs a rule made physical, in the open, on a deadline, and this is a country whose old name is literally an inventory of paddy fields. Threshing floors here are still communal objects rather than machinery: a swept clay circle in the middle of the fields it serves, used by several households in turn at the end of a harvest, with measures and a dividing custom that everybody present can count along with. That gives the film both of the things it must have in one frame, the single most beautiful shot the place produces, which is one gold heap on a pale circle in an emptied landscape, and the clearest statement of the concept, which is that same heap becoming many under a rule nobody in shot invented.",
+    "what_to_film": [
+      "The floor from directly overhead at first light, wide enough to hold the circle, the stubble and the straw rows, so the division reads as a diagram.",
+      "The preparation: sweeping, sealing or patching the clay, shaping the heap, setting the measure on top.",
+      "The measure itself, filled, struck level and tipped out, in very close shots that stay on hands and grain.",
+      "The heap shrinking and the smaller heaps appearing, returned to from the air two or three times across the morning.",
+      "Straw being stacked, and the stacks going up around the floor as the heap goes down.",
+      "The share that is set aside for somebody who is not present, filmed without commentary.",
+      "The sacks leaving, the floor swept, and the empty circle at noon.",
+      "The same floor out of season, bare and unremarkable, for the film's first or last frame."
+    ],
+    "access": "By road from the main Uva roads to the villages of the tract; the floors themselves sit inside private holdings and are reached on foot across the fields. Everything depends on the households agreeing, on arriving at the end of a harvest rather than on a crew's calendar, and on working to a morning that has to be finished before the heat. Drone work over occupied fields needs the agreement of the people below it.",
+    "best_time": "The closing days of a harvest, from first light to mid-morning, in either of the two cropping seasons; a little wind helps both the work and the dust in the light.",
+    "images": [
+      {
+        "caption": "A field hut at a threshing floor in Sri Lankan paddy country. This is the object type, not the tract proposed here.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamatha in paddy field.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kamatha in paddy field.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Straw being collected after a harvest: the material that stacks up around the floor while the heap goes down. Not the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Collecting Straws at paddy field.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Collecting Straws at paddy field.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The town at the centre of this country, for the look of the district. This is the town, not the fields or any threshing floor.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibile Town, Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bibile Town, Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.dilmahconservation.org/arboretum/traditional-agriculture/threshing-floor-kamatha--8705d4103f717260dddce8b3e5257874.html",
+      "https://www.dilmahconservation.org/arboretum/traditional-agriculture/the-paddy-field-kumbura--9efdbda3f4ea423817f0b89f95e6f499.html",
+      "https://ceylonrusticguide.com/threshing-floor-kamatha/"
+    ],
+    "research_note": "That the threshing floor is a prepared circle of earth sealed with clay and dung, that it carries its own vocabulary and customs, and that the harvest is measured out with wooden measures and shares allocated to those who worked in the production, are from the sources above and are desk research only. How much of that division still happens on the floor rather than at a mill or by cash settlement is not verified, and is the single question that decides whether this film exists. The coordinates are the district town's, not a chosen floor: no tract, floor or household has been identified or approached, and the images are of the object type and the district rather than of the proposed site, as their captions say.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No tract, threshing floor, crew or household has been found or approached. Everything here is a research direction.",
+    "Whether a traditional measured division still happens in the open in this district, or has moved to a mill, a weighbridge or a cash settlement, is unverified.",
+    "Whether households would accept a camera at the moment the amounts become visible, which is the moment the film is built on.",
+    "Drone permissions over farmland and the local rules that apply to them."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

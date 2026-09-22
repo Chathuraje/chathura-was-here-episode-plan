@@ -2,87 +2,178 @@
   "schema_version": 1,
   "id": "IDEA-0035",
   "record_type": "idea",
-  "title": "The Watch Hut",
+  "title": "Both Sides Are Hungry",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Obstacle Is Alive",
+    "The Watch Hut"
+  ],
   "group_id": "GRP-03",
-  "logline": "A farmer keeps a night watch over a ripening crop against the animals that come for it, holding fear, anger and plain exhaustion in the same body through the same hours.",
-  "human_question": "When something we cannot control threatens what we have worked for, what comes first, the fear or the anger, and how far apart are they?",
-  "situation": {
-    "what_happens": "A crop that took a season to grow becomes worth raiding in the few weeks before it is cut, and somebody has to be awake near it every night until then. The watch is mostly nothing: heat, insects, small noises that turn out to be nothing. Then there is a sound that is not nothing, and the body answers before any decision is made. What the watcher can actually do is limited and mostly noise, light and distance. At first light the field is walked and counted, and the arithmetic of the season changes or it does not.",
-    "who_is_involved": "The farmer who keeps the watch and the household whose year is in the field; neighbours who keep their own watches on adjoining land and share warnings; officials who are called when damage is serious and who may or may not come; and the animals, which are a living pressure on the situation and not adversaries in any moral sense.",
-    "what_is_at_stake": "A season's food and income, with no insurance behind it. The watcher's sleep for weeks, and their safety in the dark. The animals' safety, which is why nothing about this can be provoked. And for the film, never portraying a farmer as cruel, or an animal as a villain, or a night of real danger as atmosphere.",
-    "how_it_unfolds": "It begins when the crop becomes worth taking and ends when it is cut, so the situation has a fixed length and an uncertain content. The pressures are tiredness that accumulates across weeks, the unpredictability of whether anything comes at all, and the fact that the damage of one night can undo the work of months. It ends in a harvest, a partial loss, or a ruined field. Reality decides, including the real possibility that a crew spends every night there and nothing happens."
+  "logline": "Along the boundary of a wildlife park, a few hundred people climb into tree platforms every night to keep the animals out of a ripening crop, and a line of light separates two kinds of hunger until dawn.",
+  "human_question": "When the only thing standing between you and what you need is alive, what happens in you?",
+  "place": {
+    "what_kind_of_place": "The boundary between a large protected forest and the farmed land pressed up against it. On one side is a park holding several hundred wild elephants; on the other, a belt of villages whose paddy and other crops ripen on a fixed calendar. Between them runs an electrified fence, and scattered back through the fields stand rough platforms built up in trees, one to a holding, which are occupied from dusk to first light through the weeks when the crop is worth taking.",
+    "why_it_is_worth_watching": "It is a landscape that only exists at night and only reads from the air. From height, the fence is a single lit thread drawn across the dark with forest on one side and a scatter of small lamps on the other, each lamp a platform with someone in it. At ground level it is a film of tiny sounds in a very large darkness: a tin beaten, a firecracker, a torch swung, then nothing for an hour. At dawn the whole arrangement becomes ordinary again and the damage, or the absence of damage, is counted in flat daylight.",
+    "what_moves_or_changes": "The light, the crop and the animals, none of them under anyone's control. The lamps come on down the fence line at dusk and go out along it at dawn. The crop ripens on its own schedule and the pressure rises with it, so the same fields are quiet for months and then watched every night for weeks. The fence is repaired, pushed over and repaired again. Nothing in the film can be scheduled except the hour.",
+    "when_it_looks_best": "The last weeks before a harvest, when the crop is worth defending and the platforms are occupied every night. A clear night with a little moon gives the fields shape; the fence line reads best from the air in the half hour after the lamps come on and again just before they go out."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night landscape film. A thread of light drawn across a dark country, hundreds of small lamps scattered behind it, a forest edge that gives nothing away, and the long patient hours of people sitting up in trees listening. It has its own shape without a word of commentary: dusk, the lamps, the waiting, the sounds in the dark, the grey return of the land at dawn and the walk out to see what happened. Anyone who likes looking at country at night has a complete piece here.",
+    "with_the_philosophy": "The same night becomes the sources' own example, standing in a real field. The texts describe a precise turning point: someone wants something, the only thing in the way is alive, and at the moment the wish becomes remove what is in the way, wanting has turned into its opposite. That is this fence, every night, at the scale of a whole district. The voice never accuses anybody on either side of it; it points at the structure, and lets the viewer notice that the structure is not anyone's fault."
+  },
+  "sequence": [
+    {
+      "on_screen": "Last light. Drone, very high and wide: unbroken forest on one side of a straight line, and on the other a worked mosaic of small fields running away to villages. The line itself is just posts and wire, too thin to see properly yet.",
+      "voice": "On one side of this line there is a forest with several hundred wild elephants in it. On the other side there is a crop, three weeks from harvest, that several hundred families will live on. The line was drawn by people. Nothing on either side of it agreed to the arrangement.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Dusk on the ground. People climbing rough ladders into platforms built up in trees, carrying a torch, a tin, a flask. Lamps coming on one after another across the dark fields.",
+      "voice": "They will sit up there until it gets light. Not to work, and not to sleep. Only to be awake in case something comes.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Full dark, from the air. The fence is now a single lit thread across black country, with small scattered lamps behind it.",
+      "voice": "We have one word for anger and another for fear, and we treat them as opposites, one that advances and one that runs. The old texts put them in the same family. Both are the mind pushing away what is in front of it. Dislike, discontent, the wish to be somewhere else: the same movement, at different strengths [C007-M:L3].",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Sounds in the dark, mostly unseen: a tin struck, a string of firecrackers, a shout passed from one platform to the next, a torch beam swung along a treeline. Then a long stretch of nothing.",
+      "voice": "The texts are exact about the difference. Fear, they say, is that same pushing-away once the mind has judged the thing too strong to face, and wants distance from it instead [C022-P:L121]. It is not the opposite of anger. It is anger that has done the arithmetic.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Close work: a fence post pushed flat, wire on the ground, a wide trampled lane through standing crop, tracks filling with water.",
+      "voice": "And here is the turn the texts describe, which they set out as plainly as a worked example. A person wants something. The only thing standing in the way is alive. At the moment the wish becomes get that out of my way, the state of mind has changed into a different thing altogether. That is not a verdict on anybody sitting in a tree tonight. It is a description of a movement, and the fence is where you can see it.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "First grey light. People coming down from the platforms, stiff, walking out into the fields to see. Some rows untouched, some flattened.",
+      "voice": "Whatever else the texts say about this state, they insist on one thing: it never arrives without pain. You can want something and feel perfectly well while you want it. This one is felt first by whoever is holding it [C007-P:L25–L28]. Nobody up there enjoyed the night.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Full daylight. The fence line again, ordinary now, a maintenance crew re-tensioning wire. Forest on one side, the crop on the other, both perfectly still.",
+      "voice": "A camera cannot see which state anybody was in, and this film does not claim to. What it can show is the arrangement. Both sides of this line are hungry. Neither side is wrong to be. And the line has to be walked again tonight.",
+      "concept_id": "C022"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C007 puts anger and fear in one family in the sources' own vocabulary: Margaya gathers anger, grudge, fear, dislike and discontent under the single word, and explains paṭigha as the mind striking against its object [C007-M:L3]. It also supplies the turn the situation is built on, a wish meeting something living in its way [C007-P:L59]. C022 supplies the finer distinction the night actually needs: fear is aversion that, judging the disliked object too strong, wants to move away from it [C022-P:L121], and, separately, the sources set the body's honest need for rest apart from the dull heaviness they count as a fault [C022-P:L171–L175]. Without C022 the film would have only one word for everything in the hut.",
-    "what_it_reveals": "That anger and fear are not opposites but two directions of the same refusal, chosen by the mind's estimate of what it is facing: push it away, or get away from it. And that the night contains a third thing neither of them covers, which the sources are careful to exclude from blame: a tired body at three in the morning is not an example of anything."
+    "why_together": "C007 supplies the mechanism and its one precise case. The sources hold that there are exactly two hate-rooted states, that both always arrive with painful mental feeling and with aversion, and that they differ only in whether they come by themselves or after urging [C007-P:L25–L28]. The Margaya then widens the word we translate as hate to cover fear, dislike, discontent and sorrow [C007-M:L3], which is what lets one night carry anger and fear as one movement rather than two. C022 supplies the exact hinge between them: fear is that same aversion once the mind judges the disliked thing too strong, and wants away from it instead of at it [C022-P:L121]. Put on a fence line at night, the mechanism and the hinge stop being a classification and become the plain description of what everyone there is doing.",
+    "what_it_reveals": "That anger and fear are not opposites, which is nearly impossible to believe until you watch a place where both are required of the same person in the same hour. C007 alone would make a film about a state of mind nobody can photograph. C022 alone would make a film about a taxonomy. Together, on this line, they show a structure rather than a fault: a wish, an obstacle that happens to be alive, and the turn between them, arranged here at the scale of a district and not chosen by anyone standing in it."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "Margaya widens the word 'hate' to include anger, grudge, fear, dislike and discontent, and names paṭigha for the mind's striking against its object [C007-M:L3], which is why anger and fear belong to one stage of this journey rather than two. Pradeepika's own example is the shape of this situation: something is wanted, a living creature stands between the wanting and its object, and the state changes at the moment the wish becomes 'remove the obstacle' [C007-P:L59]. That example is the reason the digest places a night watch under this concept, and it is also the reason the film must be exact: it describes a turn inside a mind, and the film may never suggest that any real farmer wants an animal destroyed, may never film or encourage harm to an animal, and may never present deterrence as the example's conclusion. Margaya's refusal to exempt the hatred felt towards a threat that comes to harm you [C007-M:L11] cuts both ways here: the film neither excuses the farmer's anger as justified nor holds it against them."
+      "why": "The sources teach exactly two hate-rooted states, both always with painful mental feeling and with aversion, differing only in whether they arise by themselves or after urging [C007-P:L25–L28], and the Margaya widens the term to include fear, dislike, discontent and sorrow, listing everyday occasions for it [C007-M:L3; C007-M:L11–L23]. That width is why one night of guarding can carry the whole concept. The digest's limits are load-bearing here and are honoured on screen: the sources make no exception for justified anger, so the film must not offer the farmers' anger as the acceptable kind, and equally must never present any person in frame as an instance of a defilement. The Pradeepika's bodily signs and its claim about what such a mind at death leads to are traditional teaching rather than observable fact, and are not narrated."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Both sources count fear among the forms of hate, and Pradeepika describes it precisely: the aversion that judges its object too strong and wants to get away from it, listed beside anger, disgust and discontent [C022-P:L121; C022-M:L35]. The same list separates two things this night puts side by side: the mental sluggishness counted as unwholesome, and the body's honest need for rest, which the text says even the fully awakened have [C022-P:L171–L175]. Two of the digest's limits are load-bearing here. 'Fear is healthy survival instinct' does not map onto this material, and neither does its opposite: the source counts fear as recoil among the forms of aversion, while the dread of wrongdoing praised elsewhere is a different word entirely [C022-P:L63]. And 'sleep is laziness' is the reading the digest rules out, so a watcher nodding off at four is not an illustration of thīna-middha."
+      "why": "Among the fourteen unwholesome factors the sources count fear as a form of aversion, explaining it as the mind recoiling once it judges the disliked thing too strong to meet [C022-P:L121; C022-M:L35]. That single line is what joins the two halves of this night, the driving-off and the sitting still in the dark, into one state rather than two. The digest's warning is kept: the healthy dread of doing wrong is a different factor entirely and is praised, so the film never treats all fear as a fault."
     }
   ],
-  "what_the_viewer_could_understand": "Fear and anger are closer than they look. The texts put them under one word: anger is the mind pushing against what it does not want, and fear is the same pushing-away once the thing seems too strong to face. Nothing in that judges a person for being afraid of something genuinely dangerous, and nothing in it counts honest tiredness as a fault.",
-  "what_must_be_real": "The watch, the farmer and the season's real stakes must be genuine. No animal encounter may be provoked, baited, lit for or waited on as an event, and no harm to any animal may be filmed or encouraged. The farmer's fear may not be played up, and their own words, not narration, carry what the night felt like. Crew safety and the animals' safety govern every decision, including the decision to stop.",
-  "position_hint": "middle, and early: it is the film that widens the group's first word into its family, so it works best immediately after the state has been seen in its ordinary form, and before the group turns to what people hold back. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That anger and fear are the same movement of mind, going in opposite directions, and that the old texts describe the exact moment one becomes the other: when the thing you want is blocked by something alive. Seeing that structure is not the same as blaming anyone standing inside it.",
+  "what_must_be_real": "The watch is a real watch over a real crop, and the risk is the one those families actually live with. Nothing is staged: no animal is provoked, baited, driven or lit for the camera, no firecracker is set off for a shot, and no one is asked to repeat a night's work. The film never suggests that the people in the platforms are hateful, and never suggests that the animals are malicious. If filming would put a crew, a household or an animal in danger, or would slow a response on a bad night, it does not happen.",
+  "position_hint": "middle: it is the clearest statement in the group of anger and fear as one family, so it works best once the viewer has met the group's tone and before the subtler factors. No location reasoning is involved.",
   "risks": [
-    "Human–wildlife conflict is a charged subject; the film must not enter it with a doctrinal frame.",
-    "Farmers being portrayed as cruel, or the sources' example of removing a living obstacle being heard as a description of what this farmer wants.",
-    "Implying the texts license a 'justified' fear or anger at a real threat; they make no such exception [C007-M:L11].",
-    "Implying a tired watcher is slothful in the sources' sense, when the digest separates honest rest from that fault [C022-P:L171–L175].",
-    "Genuine danger at night for farmer and crew, and the pressure to stay too long for a sound.",
-    "Narrating the traditional bodily effects of aversion [C007-P:L47] as physiology."
+    "Presenting anyone on either side as an example of a defilement. The sources describe moments of mind, not kinds of person, and a camera cannot show which factor is present.",
+    "Offering the farmers' anger as the justified exception; the digest is explicit that the sources make no exception for justified anger, and the film must describe rather than absolve or accuse.",
+    "Turning a serious conflict in which both people and animals are killed into a beautiful night sequence. The stakes must stay legible.",
+    "Filming a live encounter in a way that endangers a crew, a household or an animal, or that delays anyone's response.",
+    "Narrating the traditional bodily signs of this state, or its consequences at death, as observable fact.",
+    "Treating all fear as a fault, when the sources praise the dread of doing wrong as a different factor entirely."
   ],
   "drop_if": [
-    "No farmer currently keeps this kind of watch, or filming would require prompting an encounter.",
-    "Safety conditions for people or animals cannot be met.",
-    "The only way to give the film an event would be to wait for, or to help cause, an incident."
+    "The season shifts and the platforms are not occupied, so there is no real watch to film.",
+    "Consent cannot be had from the households whose fields and nights are involved.",
+    "It can only be made by arranging an encounter."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0033",
-      "relation": "follows",
-      "note": "From a rival who can be argued with to a pressure that cannot: the same refusal, once the thing in the way is stronger than you are."
-    },
-    {
-      "idea_id": "IDEA-0038",
       "relation": "pairs with",
-      "note": "Two stretches of imposed waiting, one alone in the dark and one in a crowd in the heat."
-    },
-    {
-      "idea_id": "IDEA-0037",
-      "relation": "leads into",
-      "note": "A body that answers a sound before any decision is made, and a body that has learned to wait through the same moment."
+      "note": "Damage done by something that cannot be argued with, and damage done by someone who can."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0020 and is the one film in the group that holds anger and fear in the same hours; its primary link is where the digest itself places this situation."
+    "reason": "Carries the group's central claim, that anger and fear are one movement, on a place where both are required of the same person in the same hour."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape; concepts re-read from the digests and the film rebuilt around the sources' own wanting-becomes-hating case.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The watch platforms and boundary fence of Wasgamuwa National Park",
+    "also_known_as": [
+      {
+        "name": "pela",
+        "meaning": "the rough watch hut, usually built up in a tree",
+        "used_by": "Sinhala farming usage"
+      }
+    ],
+    "region": "On the park boundary where Matale, Polonnaruwa and Kandy districts meet, in the belt of farming villages pressed against the protected forest",
+    "coordinates": {
+      "lat": 7.7167,
+      "lng": 80.9333
+    },
+    "why_here": "It puts the concept and the spectacle in one frame, at a scale nothing smaller reaches. The park holds several hundred wild elephants, every village around it is ringed with an electric fence, and through the weeks before a harvest the fields behind that fence are watched all night from platforms built up in trees. So the sources' worked example, a wish blocked by something alive, is not an illustration here; it is the standing nightly arrangement of a whole district, and it produces the film's best image on its own: a single lit line across black country with a scatter of small lamps behind it.",
+    "what_to_film": [
+      "The boundary from high above at dusk and again at dawn, wide enough to hold forest, fence and fields in one frame, so the line reads as a line.",
+      "The lamps coming on in sequence down the fence line, and going out in sequence at first light.",
+      "A platform being climbed into and occupied, filmed as ordinary work rather than as vigil.",
+      "The long empty stretches of the night, which are most of it, and the small sounds that break them.",
+      "Fence maintenance in daylight: tensioning, replacing posts, the repair of a section that was pushed over.",
+      "The morning walk out into the crop, and whatever is or is not there, filmed without commentary.",
+      "The forest side of the line in full daylight, giving nothing away."
+    ],
+    "access": "By road to the villages on the park boundary. The platforms are private, on people's own holdings, so everything here depends on the households agreeing and on working to their night rather than a crew's. Night filming at a fence line needs the agreement of whoever maintains it as well.",
+    "best_time": "The last weeks before a harvest, which is when the crop is worth defending and the platforms are occupied nightly. Dry, clear nights with some moon.",
+    "images": [
+      {
+        "caption": "An electrified elephant fence of the kind that runs along the boundary: the line the whole film is built on.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Electric fence for Elephants B-294 Sri Lanka.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Electric fence for Elephants B-294 Sri Lanka.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The river and forest inside the park, for the far side of the line.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The Mahaweli River at Wasgamuwa National Park.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:The Mahaweli River at Wasgamuwa National Park.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "An elephant inside the park, for scale: what the fence is asked to hold.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wasgamuwa elephant.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wasgamuwa elephant.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.brentstirton.com/asian-elephants-culture-conflict-and-coexistence",
+      "https://www.noemamag.com/how-to-live-with-elephants-in-the-backyard/",
+      "https://www.dilmahconservation.org/arboretum/traditional-agriculture/the-paddy-field-kumbura--9efdbda3f4ea423817f0b89f95e6f499.html"
+    ],
+    "research_note": "That farmers keep night watch from rough huts called pela, that tree platforms are ordinary across farmed country, that the park holds several hundred wild elephants, and that the villages around it are ringed with electric fences which elephants sometimes defeat, are from the sources above and are desk research only. The coordinates are the park's, not a chosen village: which boundary village, and whether any household would agree to be filmed, is entirely unverified, as are access, permits and drone rules over a protected area.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, platform or village has been found or approached. Everything here is a research direction.",
+    "Drone flight near or over a protected area is likely to need specific permission and may be refused.",
+    "Whether a night can be filmed without affecting how people respond to an actual encounter is unverified, and is the question that decides whether this film can be made at all."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

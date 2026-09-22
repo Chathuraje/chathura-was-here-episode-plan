@@ -2,78 +2,190 @@
   "schema_version": 1,
   "id": "IDEA-0062",
   "record_type": "idea",
-  "title": "Where the Mind Goes",
+  "title": "Everything Here Got the Same Rain",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Where the Mind Goes"
+  ],
   "group_id": "GRP-04",
-  "logline": "Newcomers arrive at a forest meditation centre and try to sit still, and on the first evening a teacher asks each of them one question: where does your mind go?",
-  "human_question": "Why do we each lose our way differently, and what brings each of us back?",
-  "situation": {
-    "what_happens": "A centre that takes lay newcomers admits a handful of people for their first retreat. They sit, fidget, walk, sleep, and discover within hours how little of their attention they command. A teacher who cannot read anyone's mind does what the sources describe: asks each person what comes easily and where the mind runs, then gives a practice that fits. Over a few days something small shifts, or nothing does.",
-    "who_is_involved": "First-time lay meditators; a teacher whose whole job is to fit a practice to a person; and the community of the centre, whose rules and rhythm hold the days together.",
-    "what_is_at_stake": "For a newcomer, whether any of this is for them, and what they find out about their own mind in the meantime. For the teacher, the risk of giving the wrong practice to the wrong person. For the centre, its quiet, which visitors and cameras both disturb.",
-    "how_it_unfolds": "It begins with arrival and noise in the head, and turns on the first conversation. Days pass with very little visible happening. It ends with people leaving, slightly changed or not at all, and nobody can say in advance which. Reality decides, and nothing here can be arranged."
+  "logline": "A few thousand seedlings of forty-odd montane species go into one cleared highland slope in a single week, under one soil and one rain, and a few years on the hillside has become a mosaic in which no two of them have made the same thing of the same conditions.",
+  "human_question": "Why does the same instruction take in one person and slide straight off the next?",
+  "place": {
+    "what_kind_of_place": "A high grassland ridge on the wet flank of an inland mountain range, between roughly 1,200 and 1,600 metres, where cloud comes over from one side most afternoons and the natural forest now survives only in the folds and gullies. The open ground between was cleared generations ago and has carried nothing since but coarse grass, bracken and a few fire-hardened shrubs. On the lower slope a forest station raises seedlings of the native montane trees in a shaded nursery, collected as seed and as wildlings from under the surviving forest, and plants them out into the grassland block by block as the rains allow. The hillside therefore carries plots of every age at once, from this season's stakes in the grass to blocks fifteen years old that have closed over into something that is beginning to look like forest again.",
+    "why_it_is_worth_watching": "From the air the slope is a record of an experiment nobody set up as a spectacle. Each block went in during one week, with the same mixture, into the same ground, under the same weather; from height they read as patches of entirely different texture and colour, because inside each one some species have made a canopy, some are still knee-deep in the grass, and some have simply gone. At ground level the same fact is a metre wide: two numbered stakes side by side, a tree over one and nothing over the other. The nursery is the other half of it, a few hundred square metres of identical black bags in identical rows under one net, holding things that behave nothing like each other.",
+    "what_moves_or_changes": "Cloud, which arrives and clears several times a day and turns the hill from a green thing into a white one and back. The planting calendar, which is set by the rains and by nobody. Germination, which runs over months and cannot be hurried: some species are up in a fortnight, some sit in the bag through a whole season, some never come at all. And underneath all of it the slow, unwatchable business of one block after another going from grass to thicket to shade.",
+    "when_it_looks_best": "The first weeks of the rains, because that is when the planting actually happens and the grass is green and the people are on the hill. And the hour after sunrise on any clear morning, when cloud is still lying in the valleys and low sun rakes across the slope so that the difference in height between one block and the next reads as shadow."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet film about a hillside being put back. Seed picked up off wet ground under old forest, hands filling bags and pricking out and sorting, a line of people walking uphill in rain with seedlings in cut-down sacks, the slope from the air in low light, and the long undramatic evidence of which of it worked. None of that needs a word said over it. Anyone who has ever planted anything already has the whole film.",
+    "with_the_philosophy": "The same hillside becomes the sources' own reason for there being not one practice but forty. The texts hold that people lean differently, that there are recognisably different ways of going astray, that what suits one leaning is exactly wrong for the next, and — the part that matters most to a camera — that a leaning is genuinely hard to make out from outside, because everyone is carrying all of them. The slope carries all of that without one person being read, because here the variety is a fact about the world rather than a verdict on anybody in the frame."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, very high: a long ridge of open grassland with dark forest surviving only in the gullies, cloud lying in the valleys below and starting to climb. Rectangles of different texture are visible across the grass. The film does not yet say what they are.",
+      "voice": "This slope was forest, then it was not, and for about fifteen years now people have been putting it back a block at a time. Each block went in over a single week, with the same mixture of species, into the same ground, and was then left to the same weather.",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "The nursery in rain. Several thousand identical black bags in rows under shade net. Seed sorted on a tray, a thumb pressing one into soil, a tag written in pencil and pushed in beside it.",
+      "voice": "The old meditation manuals count forty subjects. Not forty stages — forty alternatives. The reason given is not that some are better than others. It is that people are not the same, and the whole purpose of having many is that each one fits somebody [C086-M:L5].",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "The same bench, weeks apart. One tray already crowded and green. The tray beside it still bare soil with the tags standing in it. A worker counting along a row, writing a number on a board, moving on.",
+      "voice": "The same books sort people six ways, by what leads them: wanting, disliking, confusion, trust, understanding, or turning things over [C086-P4:L26–L33]. And then they take the sorting back almost at once. Everyone has all six in them. Which one is on top is very hard to tell [C086-M:L7].",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "Planting. People coming up the slope in rain with seedlings in cut-down sacks. A pit opened in grass and a seedling set out in the full open. Twenty metres on, another being tucked in under the lee of an existing shrub.",
+      "voice": "What suits one does not suit the next, and the books are specific about it: open, unobstructed lodgings for one kind of mind, and for another a cave with forest standing in front of it [C086-P4:L127; C086-P4:L191]. Those are directions about where to put a person who is trying to sit still. They are also, almost word for word, how you plant a hillside.",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "A five-year block at eye level. Two numbered stakes a metre apart: over one a tree three times the height of a person, over the other grass and a dead stub. Then the same thing at walking pace along a whole row, stake after stake.",
+      "voice": "Nobody standing here will tell you why. Same soil, same day, same rain.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Cloud comes over the ridge and takes the slope in about four minutes, until only the two nearest stakes are left. The work carries on inside it: a measuring pole, a notebook going soft, someone counting aloud. Then the cloud passes and the block is back.",
+      "voice": "The texts have a word for the state in which a mind cannot make out what is actually in front of it. They are careful to say that this is not the same thing as simply not knowing something yet [C008-P:L36]. This film makes no claim about which of the two it is looking at. It only says that a person holding a bag of seed does not know what is inside it, and is right not to.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Late light. The drone climbs off the slope and the whole hillside opens out: fifteen years of blocks, each a different texture, old forest still holding the gullies, cloud coming back up the valley from below.",
+      "voice": "A teacher in these books cannot read anybody's mind either. What the books tell them to do instead is ask: what comes easily to you, and where does your mind go [C086-P4:L278]. Then hand over the one practice out of forty that might take. This hill is the honest version of that. You put everything in, under the same rain, and you find out afterwards.",
+      "concept_id": "C086"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C086 says the many meditation subjects exist because people differ, and describes a teacher who cannot read minds asking the student which states are frequent and which subject comes easily, then giving a fitting practice [C086-P4:L278; C086-M:L5]. C008 supplies what the newcomer is actually meeting: restlessness as the loss of the power to stay with one object, which scatters the rest of the mind with it [C008-P:L62]. One is the difficulty, the other is how it is met person by person.",
-    "what_it_reveals": "That the answer to being scattered is not a single method but a particular one, chosen after someone has looked or asked. C086 alone becomes a typology; C008 alone becomes a complaint about attention."
+    "why_together": "C086 supplies the claim and, unusually, its own restraint. The sources name six leanings and say each is suited to particular subjects and conditions [C086-P4:L26–L33; C086-P4:L252–L256], and then insist that everyone has all of them and that which one dominates is very hard to identify [C086-M:L7]. A film that only had the first half would be a typology; the second half is what makes it filmable, because it tells the camera to stop short of any person. C008 supplies exactly the stop. It gives the darkening in which a mind cannot know a matter as it really is [C008-M:L3], and then rules out of that the honest state of not knowing something and not yet being able to find out [C008-P:L36]. Put together on a planted slope, the pair say: things differ, what suits them differs, you cannot tell which is which by looking, and not being able to tell is not itself a fault.",
+    "what_it_reveals": "That the multiplicity of practices is not indecision on the tradition's part but a consequence of an honest observation, and that the observation cuts both ways: it also forbids the confident reading of any particular person. C086 on its own drifts towards a quiz. C008 on its own is a film about fog. Together, on ground where the variety belongs to plants and not to anybody in frame, they let the viewer feel the difference between knowing that people differ and claiming to know how a given person differs."
   },
   "concept_links": [
     {
       "concept_id": "C086",
       "role": "primary",
-      "why": "The digest carries this as one of its own story seeds and describes exactly this conversation: a teacher who cannot read minds asks which states are frequent and which subject feels easy, then gives a practice that fits [C086-P4:L278], and the whole point of the many subjects is to fit the person [C086-M:L5]. Its warnings apply directly: this is not a personality test and the teacher's advice may never be presented as a diagnosis."
+      "why": "The digest's core is that the many meditation subjects exist because people lean differently, that each leaning has its own suitable and unsuitable conditions, and that a teacher who cannot read minds simply asks the student what comes easily and where the mind goes [C086-M:L5; C086-P4:L252–L256; C086-P4:L278]. Against that sits the sentence the digest treats as decisive: everyone has all these qualities, so temperament is very hard to identify [C086-M:L7]. This film is built on that second sentence rather than the first, which is why it carries no people to be sorted. Every does_not_transfer line that bears on it is honoured by construction. It is not a personality test, because nothing on screen is tested except plants. The traditional signs in gait, sleeping posture and food preference [C086-P4:L39–L41; C086-P4:L79–L83; C086-P4:L107–L111] are guidance for a teacher with a long-term student, not a method for profiling people on camera, and they are neither filmed nor narrated. The Pradeepika's explanations by past-life deeds and the balance of physical elements [C086-P4:L37; C086-P4:L81; C086-P4:L105] are doctrinal claims and are not offered as accounts of anyone. The suitable conditions are carried by where seedlings are put, never as advice about who deserves comfort. And the digest's own reminder that the intelligent leaning is still a leaning [C086-P4:L169] keeps the voice from treating any of the six as an achievement."
     },
     {
       "concept_id": "C008",
       "role": "supporting",
-      "why": "The digest describes restlessness as the loss of one-pointedness, which sends the whole mind astray [C008-P:L62]. A first retreat is where people meet that directly and describe it in their own words, which is the only form in which the film should carry it."
+      "why": "The digest gives delusion as the quality that darkens a mind so it cannot know a matter as it really is, present in all unwholesome minds and dominant in two of them [C008-M:L3], and then draws the line this film needs: the doubt the sources warn about is a stalling over eight specific religious matters, and the ordinary state of not knowing something and being unable to investigate it is expressly excluded [C008-P:L36; C008-P:L36–L38]. A nursery worker who cannot say which bag will come up is in the excluded state, so the voice asserts nothing about which kind it is showing. The digest's other warning governs how the mist is used: the neutral feeling in these states is not equanimity, and a flat, cloud-bound hour must never be read as serenity [C008-P:L30]. Restlessness, the loss of the power to stay with one object [C008-P:L62], is present here only as the reason the group's other films exist; this one does not claim to show it."
     }
   ],
-  "what_the_viewer_could_understand": "The many practices exist because people differ; a good guide does not hand everyone the same instruction but looks closely, or simply asks. Whatever scatters your attention, meeting it starts with someone finding out what yours actually does.",
-  "what_must_be_real": "The centre, the newcomers and every word they say. No one performs meditation for the camera, the teacher's advice is never presented as a diagnosis, and the centre's rules come before the film.",
-  "position_hint": "middle, if ever used on its own: wherever a group needs the moment when being lost stops being general and is met one person at a time.",
+  "what_the_viewer_could_understand": "That the reason there are many practices rather than one is that people genuinely lean in different directions, and that the same tradition which says so also says you cannot reliably tell, from outside, which way a given person leans. Difference is real; diagnosis is not available. A hillside where everything got the same rain and nothing did the same thing with it makes both halves of that visible at once.",
+  "what_must_be_real": "The nursery, the planting, the blocks and the failures. Nothing is planted, moved, replaced or tidied for the camera, no seedling is put somewhere it would not have gone, and a block that did badly is filmed exactly as it stands. No person on screen is described, edited or framed as an example of a leaning, a type or a temperament; the film's whole method is that the variety belongs to the plants. The workers' own reasoning about why one species took and another did not is theirs and is not corrected by the voice, and no claim is made about restoration outcomes that has not been checked with the people doing the work.",
+  "position_hint": "middle: it answers the question the group's earlier films raise, which is why being lost looks different in different people, and it answers it without putting anyone in the dock. It should come after the group has established its tone and before the closing turn towards looking closely.",
   "risks": [
-    "Disrupting a retreat; the centre's rules come first.",
-    "Turning a person's inner struggle into spectacle or into a lesson.",
-    "Temperament presented as a personality test.",
-    "Reading a newcomer's difficulty as a statement about the kind of person they are, which is the reading the C049 digest forbids."
+    "Turning the six leanings into a typology quiz. The digest is explicit that this is not a personality test and that everyone has all the qualities [C086-M:L7]; the film must never invite the viewer to place themselves or anyone else.",
+    "Reading any person on screen — a nursery worker, a planter, an officer — as an instance of a temperament. The traditional signs in gait, sleeping posture and food preference are guidance for a teacher with a student over time, not a method for profiling people on camera [C086-P4:L39–L41; C086-P4:L79–L83; C086-P4:L107–L111].",
+    "Narrating the doctrinal explanations of temperament by past-life deeds or the balance of physical elements [C086-P4:L37; C086-P4:L81; C086-P4:L105] as though they described real individuals.",
+    "Using the suitable and unsuitable conditions as lifestyle advice, or as a suggestion that some people deserve rough surroundings and others comfortable ones. In the sources they concern meditation practice only.",
+    "Reading the flat, cloud-bound hours on the hill as calm. The digest says the neutral feeling in these states is not equanimity, and presenting a dull, undecided greyness as serenity would reverse the source [C008-P:L30].",
+    "Implying that the sources condemn questioning. The Pradeepika explicitly excludes the honest doubt of not knowing something and being unable to investigate it [C008-P:L36], and the not-knowing in this film is that kind.",
+    "Letting the plants become a sermon. If the cutting makes each seedling stand for a type, the film has done the one thing the concept forbids.",
+    "Becoming a conservation advocacy film, or making claims about ecological outcomes that the people doing the work would not make."
   ],
   "drop_if": [
-    "The centre does not allow the filming of newcomers or of a teacher's conversation."
+    "The forest station will not have a crew in a working nursery, or drone flight over a conservation forest cannot be permitted.",
+    "There is no planting season inside the development window, so the only material would be static plots.",
+    "It can only be made by staging a planting, or by placing seedlings for the camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0060",
-      "relation": "merged into",
-      "note": "Its guide who asks rather than assumes, and the learner's own account of where attention goes, now live inside the workshop film."
-    },
-    {
       "idea_id": "IDEA-0059",
       "relation": "pairs with",
-      "note": "Leanings seen in a family's shared work, then met one by one by someone teaching."
+      "note": "The same teaching twice: leanings seen in a family at shared work, where the film must be careful, and leanings seen in a planted slope, where there is nobody to be careful about."
+    },
+    {
+      "idea_id": "IDEA-0060",
+      "relation": "contrasts with",
+      "note": "One film watches a master decide what a particular apprentice is ready for; this one watches what happens when nobody can decide and everything is given the same conditions."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0060",
-    "reason": "Folded into IDEA-0060, which gains the guide who asks rather than assumes and the learner's own account of where attention goes."
+    "superseded_by": null,
+    "reason": "It is the only way found to carry the six temperaments on camera without reading a single person, because on this slope the variety is a fact about the world."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped entirely the old subject — newcomers at a meditation centre being asked by a teacher where their minds go, and the sorting that followed — because the C086 digest forbids exactly that: temperament is not a personality test, everyone has all six qualities, it is very hard to identify, and the traditional signs are guidance for a teacher reading a long-term student rather than a method for profiling people on camera. It also filmed people at their most exposed. The concept is kept and moved to a montane restoration nursery and its planted slopes, where the same conditions visibly produce different results in different subjects and no person is diagnosed. Concepts re-read from the digests; every citation re-verified; C049 dropped from the risks, where it had been cited without being linked.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The montane restoration plots and forest-station seedling nursery on the Dothalugala slopes, Knuckles conservation forest",
+    "also_known_as": [
+      {
+        "name": "Dumbara Kanduvetiya",
+        "meaning": "the mist-laden mountain range",
+        "used_by": "the Sinhala name for the whole range"
+      },
+      {
+        "name": "patana",
+        "meaning": "the open upland grassland that covers the cleared slopes",
+        "used_by": "Sinhala hill-country usage"
+      }
+    ],
+    "region": "The south-western side of the Knuckles conservation forest, inland from Kandy, on the Deanston approach in Matale district",
+    "coordinates": {
+      "lat": 7.4,
+      "lng": 80.76
+    },
+    "why_here": "It puts the concept and the best image in the same frame. These slopes are the documented centre of montane restoration work in the range: degraded, fire-maintained grassland on one side of a line and sub-montane forest on the other, with native seedlings raised nearby and planted out season by season, some into the open and some under nurse cover, because the species demand opposite things. So the sources' claim that what suits one does not suit the next is not an illustration here; it is the standing method of the hillside. And the slope produces the film's strongest shot by itself: an aerial in low sun of fifteen years of plantings side by side, each block given the same soil and the same rain in the same week, and none of them the same.",
+    "what_to_film": [
+      "The whole slope from high above in raking early light, wide enough that the planted blocks of different ages read as one mosaic against the grassland and the surviving forest in the gullies.",
+      "Seed and wildling collection under the old forest: wet ground, bent backs, a basket, the difference between what is picked up and what is left.",
+      "The nursery in rain and in sun: the rows of identical bags, filling and pricking out, the hand-written tags, the daily counting along a bench.",
+      "Two trays side by side weeks after sowing, one crowded and one bare, filmed plainly and without comment.",
+      "A planting day: carrying uphill, pits opened in grass, one seedling set in the full open and another placed under existing cover, and whoever decides which goes where saying why in their own words.",
+      "A single row of a five-year block at eye level, walking stake to stake past what took and what did not.",
+      "Cloud arriving and clearing across the plots, including the minutes when nothing more than the nearest stake is visible and the work carries on anyway."
+    ],
+    "access": "By road from Kandy through Hunnasgiriya and Deanston, then on foot. The conservation forest is protected and entry is controlled by the Forest Department, so both ground filming and any drone flight depend on their permission and on working to the staff's calendar rather than a crew's. Planting happens in rain, at altitude, on steep ground.",
+    "best_time": "The opening weeks of the north-east rains, when planting is actually under way; and clear mornings shortly after sunrise at any season, when cloud is still below the ridge and the low sun separates the blocks.",
+    "images": [
+      {
+        "caption": "The Knuckles range under cloud. This is the surrounding landform, not the restoration plots or the nursery.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Strangers in the mist.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Strangers in the mist.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Open upland grassland with forest surviving in the folds, in the same range. General landform, not the planted slope itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View the heights of Knuckles Mountain Range.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:View the heights of Knuckles Mountain Range.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A peak of the same range for scale and height. Again the landform, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Knuckles Mountain.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Knuckles Mountain.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://sci.pdn.ac.lk/news/extra/saving-the-next-generation-sept-2017.pdf",
+      "https://cjs.sljol.info/articles/10.4038/cjs.v46i4.7471",
+      "https://en.wikipedia.org/wiki/Knuckles_Mountain_Range"
+    ],
+    "research_note": "That degraded sub-montane and upper-montane sites on these slopes have been the subject of restoration work, that native seedlings are raised in nurseries and planted out into man-made grassland, that nurse plants are used to create shade for species that will not take in the open, and that invasive scrub competes with natural regeneration here, are from the sources above and are desk research only. No nursery, plot, officer or planting season has been located or approached. The coordinates are an approximate point for the Dothalugala area above Deanston on the south-western side of the range; they are not a surveyed nursery position and should be treated as a direction, not an address. The three images are of the surrounding range and not of the restoration site, which is stated in each caption because no confirmed image of the site was found.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No nursery, plot or forest officer has been found or approached. Everything here is a research direction.",
+    "Whether planting is still active on these slopes within the development window, and on what calendar, is unverified.",
+    "Drone flight over a protected conservation forest is likely to need specific permission and may simply be refused, which would remove the film's strongest image.",
+    "Whether blocks of contrasting age sit close enough together to read as one mosaic from the air, which is the whole visual premise, has not been checked against the ground."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

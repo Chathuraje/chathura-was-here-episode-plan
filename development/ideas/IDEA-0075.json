@@ -2,85 +2,190 @@
   "schema_version": 1,
   "id": "IDEA-0075",
   "record_type": "idea",
-  "title": "The Weight of a Stone",
+  "title": "Hold It Against the Lamp",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Weight of a Stone"
+  ],
   "group_id": "GRP-05",
-  "logline": "A cutter turns a rough stone once under a lamp and says in a second what it is worth, a judgement that took a lifetime to become instant.",
-  "human_question": "What has to happen, in an instant, for someone to simply know what they are looking at?",
-  "situation": {
-    "what_happens": "Rough and cut stones pass through a working day and each one has to be judged: tilted to the light, turned in the fingers, bought, rejected, or assigned a way of cutting that cannot be undone once the wheel touches it. The judgements are made in about a second each, and the money in them is large relative to everything else in the trade. Sometimes two people who both know the work disagree about the same stone, and the disagreement has to be settled by somebody paying.",
-    "who_is_involved": "The cutter or sorter whose eye the trade pays for; a buyer with their own opinion and their own money; whoever dug or washed the stone, who is usually furthest from the price; and a learner who can see that a verdict was reached but not how.",
-    "what_is_at_stake": "The value of a single stone, which can be a large part of a month. A reputation that exists only as a record of having been right quickly. And for the learner, whether a judgement that lives entirely inside someone else's eye can be passed on at all.",
-    "how_it_unfolds": "A stone arrives, is judged, and is bought, refused or cut, usually the same day. The pressures are the light, the buyer's own view, the money already committed and the irreversibility of cutting. It ends in a stone worth more than it was, worth less, or ruined, and the trade, not the film, decides which."
+  "logline": "At a forest-edge buying room lit by one bulb, bottles of honey are taken in one at a time: a bottle is lifted into the light, turned once, the bubble allowed to climb, and a price is said before it comes back down.",
+  "human_question": "What has to line up, in a single second, for something simply to be seen?",
+  "place": {
+    "what_kind_of_place": "A village on the boundary between dry lowland forest and cleared ground, where honey is one of the things the forest edge produces and where somebody buys it. The buying happens in a small room off a house or a shop: a bench, a set of scales, a funnel, a stack of reused bottles of every shape, a drum or two, and a bare bulb on a flex. Honey arrives in the late afternoon and the evening in whatever container the person who brought it had, and is bought, or is not, one container at a time. Outside are home gardens, scrub, the tall flowering trees the bees work, and a forest edge that goes on past the last house.",
+    "why_it_is_worth_watching": "The whole film turns on one shot that costs nothing to make: a bottle of honey lifted into a bare bulb. Light goes into it and comes out the other side changed, and for two or three seconds the entire frame is a single colour with something slowly moving in it. Around that shot is a place made almost entirely of light: low sun through dry forest in the morning, a doorway of yellow light in the dark at night, and a thousand small containers on a bench each holding a different tone of the same amber. It is one of the rare subjects that is both a landscape and a close-up, and the close-up is the more astonishing of the two.",
+    "what_moves_or_changes": "The season, which decides whether there is any honey at all: it comes in a rush when certain trees flower and then stops. The light, which is the only thing that changes inside the room and is entirely under someone's hand. And the honey itself, which is the slowest-moving thing anyone will put in front of a camera: a bubble takes seconds to cross a bottle, a rope of it takes a long time to stop pouring, and a drum settles for days.",
+    "when_it_looks_best": "The weeks of the main flowering, when honey is actually coming in. Late afternoon into the first part of the night, when the buying happens and the bulb is the only light in the room; and early morning outside, with the sun low through the forest edge and the flowering trees lit from the side."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about light and a very slow liquid. Dry forest at dawn, flowering crowns, the walk in, mismatched bottles on a bench, a bulb coming on, honey going through a funnel, a rope of it falling into a drum and taking its time about stopping, and a doorway of yellow light with the forest black behind it. It has a complete shape with nothing said over it, and the best thirty seconds in it are of a bottle being turned.",
+    "with_the_philosophy": "The same bottle becomes the sources' fullest account of what seeing is. They say the complete kind of seeing needs four things strong at the same time, a working eye, something to see, light, and the mind turning that way, and then they set out the whole thing as a relay of seventeen moments with no one standing behind it. In this room three of those four conditions are objects you can point at, and one of them has to be carried in and switched on. The voice reads the sequence off the bench."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from above: dry forest running to the horizon, the cleared edge, a few roofs, tall trees standing out of the canopy with the sun just reaching their crowns.",
+      "voice": "Everything this film is about comes out of that edge in bottles that used to hold something else.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "Dusk inside the buying room. A hand pulls a flex and a bare bulb comes on. Bottles of every shape appear on a bench, each a slightly different colour.",
+      "voice": "For the fullest kind of seeing, the old books ask for four things strong at once: a working eye, something there to be seen, light, and the mind turned that way [C041-P:L25; C041-M:L3]. Three of those are in this room already. The third one had to be carried in and plugged into a wall.",
+      "concept_id": "C041"
+    },
+    {
+      "on_screen": "A bottle lifted into the beam and turned through one slow revolution. The whole frame goes amber. Sediment lifts and settles. A bubble starts up through it.",
+      "voice": "The books are strict about what that eye is handed. Not honey, not a grade, not a price. A blend of colour, arriving through the one channel that carries colour and nothing else [C036-P:L41; C036-P:L25–L31]. Everything else in this second comes from what has been met before.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "Unbroken hold on the bubble crossing the bottle, slowly, top to bottom of the frame. No cut.",
+      "voice": "The same books measure how long the world is willing to hold still. A material thing, they say, lives about seventeen moments of mind, and a moment of mind is the shorter by far [C039-P:L31; C039-M:L5]. The world stays put for roughly as long as it takes to be noticed once, and not a great deal longer.",
+      "concept_id": "C039"
+    },
+    {
+      "on_screen": "The bottle comes down onto the bench. A number is said. It goes onto the scales; a figure is written in a notebook; notes are counted out.",
+      "voice": "And here is the whole of what the books call seeing, which they set out as a relay rather than an act. The resting mind wavers and is stopped, something turns toward the door, there is one bare flash of seeing, then receiving, then checking, then settling what it is, then seven beats of full engagement, and two of holding on afterwards [C041-P:L29–L48; C041-M:L5–L11]. Each step hands over and is gone. None of those is a slow deliberate step, and none of them is this person's decision about a price.",
+      "concept_id": "C041"
+    },
+    {
+      "on_screen": "Bottles emptied through a funnel into a drum. A rope of honey falling, thinning, refusing to break, and going on long after the bottle is upright again.",
+      "voice": "Three beats in everything, the books say: it comes up, it stands, it breaks. Mind and matter share the rhythm and differ only in how long the middle beat runs [C039-M:L3–L13]. What looks like one steady thing is countless small ones, not all going at once, each replaced in the same place. Stability is not stillness. It is very well-timed replacement.",
+      "concept_id": "C039"
+    },
+    {
+      "on_screen": "Outside, full night. The doorway a rectangle of yellow with moths crossing it, the forest black beyond, somebody walking away down the road with an empty bag.",
+      "voice": "Take the light out of this room and nothing in the last ten minutes could have happened. That is not a lesson about paying attention. It is a list of conditions, and one of them was a bulb. What the books deny is not the seeing. It is anybody standing behind it, doing it.",
+      "concept_id": "C041"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C041 contributes the fullest form of the sources' process, the one that runs when the sense, the object, the light and the attention are all strong together: the resting mind is disturbed, turns toward, bare seeing occurs, then receiving, investigating and determining, then a burst of full engagement and a short lingering. C036 contributes what the eye is actually given in that run, a blend of colour and never the ruby, the flaw or the price. C039 contributes why such a judgement has to be fast or not at all, since matter's own lifespan is short and the whole process is built to fit inside it. A verdict given under a lamp in one second is the one everyday situation where all four of C041's conditions are deliberately arranged by the worker.",
-    "what_it_reveals": "Together they show that the practised eye is not seeing more than anyone else. It is receiving the same bare colour and adding a lifetime of naming to it, inside a window the sources say is fixed by the material rather than by the person. The trained verdict looks like insight and is described by the sources as a relay."
+    "why_together": "C041 supplies the fullest form of the process and the conditions it needs: eye sensitivity, object, light and attention all strong together [C041-P:L25; C041-M:L3], and then seventeen moments in a fixed order from the wavering of the resting mind to the two moments of registration [C041-P:L29–L48; C041-M:L5–L11], with the object living exactly as long as the process takes and ceasing at its end [C041-P:L56; C041-M:L7]. C036 supplies what is actually handed over in that run: a blend of colour and nothing else, through the one channel that carries colour [C036-P:L41; C036-P:L25–L31], with the senses touching only what is present [C036-P:L125–L161]. C039 supplies the clock both of them run on: three phases in everything, matter lasting seventeen mind-moments to a mind's one, and the reason a thing looks stable when its parts do not last [C039-P:L31; C039-M:L5; C039-M:L3–L13]. A bottle held against a bulb puts all three in one frame, because the material is transparent, the light is a physical object with a switch, and the slowest thing in the room is the one the film holds longest on.",
+    "what_it_reveals": "That the conditions for an ordinary act of seeing are external, listable and unremarkable, and that the thing which feels most like a single indivisible act, simply knowing what you are looking at, is on this account a sequence in a fixed order with no one behind it. C041 on its own is a diagram. C036 on its own is a claim about colour. C039 on its own is an odd piece of arithmetic. Together in a room where somebody has to carry the light in, they let a viewer watch the fourth condition being switched on, and understand why the sources spend so long on something that takes less than a second."
   },
   "concept_links": [
     {
       "concept_id": "C041",
       "role": "primary",
-      "why": "The digest sets out the fullest eye-door process and names its four conditions, a strong eye-sensitivity, a strong visible object, strong light and strong attention, all present together [C041-P:L25], followed by the seventeen-moment order of adverting, seeing, receiving, investigating, determining, seven moments of impulsion and two of registration [C041-P:L29-L48]. A lamp held close over a stone is a worker deliberately arranging those conditions. The digest's limits are held: the seventeen moments are not a neuroscience timing and may not be presented as milliseconds; 'the pause between stimulus and response is where your freedom lies' is a modern slogan the digest rules out by name; and the concluding burst is called wholesome, unwholesome or merely functional by the sources, never 'choice', which is the series' own reading."
+      "why": "The digest gives the full eye-door process: four conditions strong together, then seventeen moments in a fixed order, then the resting mind again, and the visible object ceasing exactly as the process ends [C041-P:L25; C041-M:L3; C041-P:L29–L48; C041-M:L5–L11; C041-P:L56; C041-M:L7], with the same shape at the other four doors [C041-P:L52–L54]. The film is built on the conditions rather than the count, which is what keeps it honest, because the digest's limits are severe and all of them are honoured. The seventeen moments are not neuroscience and no duration in seconds or milliseconds is ever given. The series' own hinge language about a pause between stimulus and response is refused, because the source describes the responding stage as arising by the order of mind with no separate chooser and never uses the word choice. The denial in the source is of a separate seer, not of seeing, so the closing beat says exactly that and nothing stronger. And receiving, investigating and determining are not slow conscious steps, so the voice explicitly declines to map them onto the buyer weighing a price, which is the mistake this situation invites."
     },
     {
       "concept_id": "C036",
       "role": "supporting",
-      "why": "The digest is explicit that the eye meets only colour, a blend of the colours of many clusters, not a stone and not a flaw, and that recognition comes from marks learned in earlier seeing [C036-P:L37-L41; C036-M:L9]. A snap verdict on a stone is built entirely in that gap. The digest also notes an unresolved tension in the source, which calls the visible object 'unmixed' in one place and a mixture of many clusters' colours in another [C036-P:L61; C036-P:L41]; the film does not choose between them."
+      "why": "The digest holds that objects are of six kinds matched to six doors, that the five sense doors take only present objects of their own kind [C036-P:L25–L31; C036-P:L125–L161], and, in the line this film needs, that the colour of any substance is a mixture of the colours of many clusters, so what the eye meets is a blend and the name comes from having met it before [C036-P:L41]. Honey against a bulb is the clearest case of that gap that a camera can get, because the material is literally nothing but transmitted colour. The digest's limits govern the voice. Perception is not called an illusion: colour is a real event for the source and only the assembled named thing is a convention, so the film never suggests the honey is not there. Live-in-the-present is refused, since the source states the senses' restriction to the present as a fact rather than as advice. The traditional account of how sense objects travel through chains of material clusters is not presented as optics. The rebirth teaching about deathbed objects is not used. And the digest's flagged tension over whether the visible object is unmixed [C036-P:L61; C036-P:L115] or a mixture [C036-P:L41] is left open rather than resolved on screen."
     },
     {
       "concept_id": "C039",
       "role": "supporting",
-      "why": "The digest gives matter a lifespan of seventeen mind-moments against the mind's one, and says in plain terms that the world holds still for about as long as it takes to be noticed once [C039-M:L5; C039-P:L31]. That is the sources' own reason why a full judgement happens fast or not at all. The digest's guards apply: the clusters are not atoms, molecules or cells, and 'less than a hundred-thousandth of an eye-blink' is a traditional image and not a figure to quote as science."
+      "why": "The digest gives every mind three phases, arising, standing and dissolving, with material things lasting seventeen mind-moments and a stretched standing phase, and explains apparent stability as continual replacement of countless tiny units that do not all break together [C039-P:L31; C039-M:L5; C039-M:L3–L13]. In a room whose subject is the slowest liquid anyone films, that supplies the one thing the other two concepts lack, a sense of how long the world consents to hold still, and the digest's own phrasing, that matter lingers just long enough for one full pass of perceiving to catch it, is the film's best single sentence. The digest's limits are kept. No moral about impermanence and letting go is drawn, because neither source draws one. The clusters are not called atoms or cells, and the hundred-thousandth of a blink is treated as an image rather than a figure, so it is not quoted as a measurement. Live in the moment is refused, since the moment here is far below anything anyone can dwell in."
     }
   ],
-  "what_the_viewer_could_understand": "A judgement that looks instantaneous is, on these texts' account, a short relay of separate steps, and what the eye contributes to it is only colour. Everything that makes the verdict valuable, the name, the grade and the price, was added from what the person had already seen thousands of times before.",
-  "what_must_be_real": "Real stones, real money and the trade's real secrecy. No verdict staged or repeated for the camera, and nothing filmed that would expose confidential pricing, sourcing or a participant's security. The cutter's own account of what a first look tells them, and what only a second look does, must lead.",
-  "position_hint": "middle: its substance now sits inside the group's film about skilled work rather than holding a slot of its own, and it belongs wherever that film belongs.",
+  "what_the_viewer_could_understand": "That what feels like simply knowing what you are looking at is, on this account, a fixed sequence of very fast steps standing on four ordinary conditions, one of which somebody has to carry into the room and switch on. And that when the sources deny a seer, they are not denying the seeing: the bottle is there, the colour is real, and there is no one behind the looking.",
+  "what_must_be_real": "The honey, the buying and the prices. Nothing is decanted, sorted, relit or repeated for a better take, no bottle is turned on a cue, and no price is agreed differently because a camera is present. Where the honey comes from is not romanticised: if any of it is taken from inside a protected forest, the film does not film that and does not imply it. No person on screen is presented as the one who sees, as an expert being tested, or as an instance of any stage of the process; the voice describes the sequence and the camera stays on the bottle. Nobody's income or trade is misrepresented, and the seller's own account of the season is theirs and is not corrected by the voice.",
+  "position_hint": "middle to late: it is the group's fullest statement of the process, so it works best after the films that show how little arrives and how a judgement is built from marks, and it should not open the group because it assumes the viewer already accepts that a single glance has parts. No location reasoning is involved.",
   "risks": [
-    "Glamorising a high-value trade without the labour and the mining behind it.",
-    "Implying valuations or trade secrets on camera in ways that put someone at risk.",
-    "Presenting a seventeen-moment count as a measured reaction time.",
-    "Treating a trained verdict as intuition or a sixth sense rather than as accumulated recognition."
+    "Mapping the sources' receiving, investigating and determining onto a buyer's visible deliberation over a price. The digest says those are automatic and extremely brief, and the resemblance is the trap this situation sets.",
+    "Turning the seventeen moments into a timing claim, a count of milliseconds, or anything that sounds like neuroscience.",
+    "Using the series' 'pause between stimulus and response' language, which the digest names as a modern slogan the source does not support.",
+    "Overstating the denial: the source denies a separate seer, not seeing, and a line like 'nothing is really seen' would reverse it.",
+    "Quoting the hundred-thousandth of an eye-blink as a measurement. The digest says it is an image.",
+    "Drawing a let-go moral out of impermanence, which neither source draws here.",
+    "Filming or implying honey taken illegally from a protected forest, or exposing a collector to consequences over where a comb came from.",
+    "Presenting the buyer as the one who sees, or cutting to a face at the moment the price is said."
   ],
   "drop_if": [
-    "No trader or cutter will allow real transactions to be filmed.",
-    "Security around valuable stones makes honest filming impossible.",
-    "The work cannot be shown without exposing confidential pricing or sourcing."
+    "There is no flowering season inside the development window, so no honey is coming in and there is nothing to film but an empty bench.",
+    "The buying cannot be filmed without changing what is paid, or the people involved will not have a camera in the room.",
+    "The honey trade at the site turns out to depend on taking combs from inside a protected forest, which the film will not film."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0073",
-      "relation": "merged into",
-      "note": "Its instant-verdict situation and its C036 link on colour arriving before any name now sit inside IDEA-0073, which needed a real trade to be about."
+      "relation": "pairs with",
+      "note": "Two films about a judgement made in about a second: one where the material carries the marks of every earlier judgement, and one where the material is transparent and the light has to be carried in and switched on."
     },
     {
       "idea_id": "IDEA-0087",
       "relation": "mirrors",
-      "note": "Both watch a trained eye separate raw colour from a name and a value, one under a lamp and one in half-light."
+      "note": "Both watch colour separated from a name and a value, one under a bulb with all four conditions strong and one in half-light with them weak."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0073",
-    "reason": "Folded into IDEA-0073, whose situation was abstract and which now carries this film's instant judgement, its years of accumulated recognition and its C036 link."
+    "superseded_by": null,
+    "reason": "A transparent material held against a bare bulb is the only situation found where three of the sources' four conditions for seeing are objects in the frame and the fourth has a switch."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape and un-merged from IDEA-0073, which now has a material and a place of its own. The gem cutter is gone: gem sites are already used three times across the slate, and the concept asked only for something graded at a glance under a lamp. Honey does the work better, because it is transparent, because the light is visibly the condition being supplied, and because the slowest shot in the film is also the clearest statement of the lifespan concept. Concepts re-read from the digests and every citation re-verified."
+  },
+  "suggested_location": {
+    "name": "A forest-edge honey buying room in the villages along the Lahugala and Pottuvil road, between the lowland forest and the coast plain",
+    "also_known_as": [
+      {
+        "name": "mee pani",
+        "meaning": "bee honey, as distinct from the palm treacles it is sold beside",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Eastern Province, Ampara district: the strip of villages between the dry lowland forest and the coast road at the southern end of the district",
+    "coordinates": {
+      "lat": 6.89,
+      "lng": 81.72
+    },
+    "why_here": "This is one of the few stretches of the country where dry lowland forest comes right up to the road and the villages along it sell what the forest edge yields, honey among it, out of reused bottles on benches. The film needs three things together: a real trade in a transparent material, a room where the light is one bulb, and a landscape worth flying over at dawn, and this corner of the district has all three within a few hundred metres of each other. It is also in a district the slate has never once used, and at the opposite end of the province from the other films proposed here.",
+    "what_to_film": [
+      "The forest edge from high above at first light, with the flowering crowns standing out of the canopy and the cleared ground beginning.",
+      "The tall flowering trees at ground level, and bees working them, filmed without going near a nest.",
+      "The bench of mismatched reused bottles before the bulb is switched on, in whatever daylight the room has.",
+      "The bulb coming on, and the room changing.",
+      "One bottle lifted into the beam and turned through a full slow revolution, held long, with the frame entirely filled by the colour.",
+      "A bubble crossing a bottle in one unbroken take.",
+      "Decanting: a funnel, a drum, and a rope of honey that will not break.",
+      "The lit doorway from outside in full dark, with the forest behind it."
+    ],
+    "access": "By road along the main coast route at the south end of the district; the villages are on it. Everything depends on a buyer and a seller agreeing to be filmed during an ordinary transaction, which is a financially sensitive moment and needs care. The adjoining forest is protected in places, so any filming inside it, and any drone flight over it, needs specific permission and may be refused.",
+    "best_time": "The weeks of the main flowering, when honey is actually being brought in. Late afternoon into early night for the buying, and the first hour of daylight for the forest edge.",
+    "images": [
+      {
+        "caption": "Lowland forest and open plain in the same corner of the district, for the country the honey comes out of. This is the surrounding landform, not the buying room.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lahugala Kitulana National Park.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Lahugala Kitulana National Park.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same stretch of country at ground level, showing the forest edge and the cleared ground. Again the landform, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lahugala Sri lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Lahugala Sri lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A stream in the same district, for the dry-zone light and vegetation. Surrounding country, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hulanda oya Ampara.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Hulanda oya Ampara.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lahugala",
+      "https://en.wikipedia.org/wiki/Lahugala_Kitulana_National_Park",
+      "https://bushguide101.com/collecting-honey-from-dammar-bees-in-sri-lanka/"
+    ],
+    "research_note": "That this is a strip of small villages between dry lowland forest and the coast plain in the named district, and that forest honey is collected and traded in this part of the country, are from the sources above and are desk research only. That honey is bought bottle by bottle in a back room under a bulb is the ordinary shape of the small honey trade rather than a documented fact about any particular village here, and it is the first thing that needs checking on the ground. No buyer, seller or room has been located or approached. The coordinates are an approximate point on the road through the area and are a direction, not an address. The three images are of the surrounding country in the same district and none of them shows a buying room, which each caption says.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No buyer, seller or room has been found or approached. Everything here is a research direction.",
+    "Whether honey is graded here by eye at all, rather than by taste, weight or a refractometer, is unverified and the film depends on it entirely.",
+    "The legality of the honey's origin, and whether any of it comes from inside protected forest, is unknown and has to be settled before filming.",
+    "Whether there is a flowering season inside the development window in which honey is actually coming in.",
+    "Drone flight over adjoining protected forest is likely to need specific permission and may be refused."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

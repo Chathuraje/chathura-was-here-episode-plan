@@ -161,6 +161,24 @@ if (fs.existsSync(development)) {
   check("A film works with the sound off and with the sound on", ideas.every((idea) => !hasPlaceShape(idea)
     || (idea.two_layers.without_the_philosophy.trim() && idea.two_layers.with_the_philosophy.trim())),
     ideas.filter((idea) => hasPlaceShape(idea) && !(idea.two_layers.without_the_philosophy.trim() && idea.two_layers.with_the_philosophy.trim())).map((idea) => idea.id).join(", "));
+  // Every source citation an idea makes must resolve against its concept's digest evidence,
+  // using the same range-aware rule the lesson citations are held to. This catches invented
+  // line numbers; it cannot catch a real line attached to the wrong claim.
+  const citationPattern = /C\d{3}-[PM]\d*:L\d+(?:[\u2013-]L?\d+)?/g;
+  const badIdeaCitations = ideas.filter(hasPlaceShape).flatMap((idea) => {
+    const text = JSON.stringify(idea);
+    return [...new Set(text.match(citationPattern) ?? [])]
+      .filter((value) => validateLessonCitation(value.slice(0, 4), value) !== null)
+      .map((value) => `${idea.id}:${value}`);
+  });
+  check("Idea citations resolve against their concept's digest", badIdeaCitations.length === 0,
+    badIdeaCitations.slice(0, 12).join(", "));
+  // Ideas still on the legacy shape are not gated, but their bad citations are reported so the
+  // debt is visible and can be cleared as each group is rewritten.
+  const legacyBadCitations = ideas.filter((idea) => !hasPlaceShape(idea)).flatMap((idea) => [...new Set(JSON.stringify(idea).match(citationPattern) ?? [])]
+    .filter((value) => validateLessonCitation(value.slice(0, 4), value) !== null).map((value) => `${idea.id}:${value}`));
+  check("Legacy-shape citation debt", true, legacyBadCitations.length ? legacyBadCitations.join(", ") : "none");
+
   // One proposed location per idea, carried inside the idea and awaiting Chathura's verdict.
   const validPointValue = (c) => Number.isFinite(c?.lat) && Number.isFinite(c?.lng)
     && c.lat >= -90 && c.lat <= 90 && c.lng >= -180 && c.lng <= 180;

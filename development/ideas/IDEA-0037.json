@@ -2,87 +2,181 @@
   "schema_version": 1,
   "id": "IDEA-0037",
   "record_type": "idea",
-  "title": "What the Body Remembers",
+  "title": "The Same Machinery",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Body Remembers"
+  ],
   "group_id": "GRP-03",
-  "logline": "Someone once known for a violent temper now spends their days working patiently with other people, and still recognises the moment where the old reaction used to begin.",
-  "human_question": "When the heat is gone, what is actually left in its place?",
-  "situation": {
-    "what_happens": "A person whose old reputation is common knowledge where they live now does work that consists almost entirely of other people getting things wrong in front of them: teaching, coaching, or training someone into a trade. Corrections are given all day, mistakes are repeated, and the work is slow. The change in them is not an event that can be filmed; it shows as an absence, a moment where something used to happen and now does not, and it is only legible because the person says, in their own words and on their own terms, what used to be there.",
-    "who_is_involved": "The person themselves; the people they work with day to day, some of whom know the old story and some of whom do not, and their guardians where they are young; family and long-standing friends who remember the earlier years; and people who were harmed, who are not sought out, not named and not approached.",
-    "what_is_at_stake": "For the person, their present standing weighed against a past they cannot take back, and the risk of being reduced on film to their worst years. For anyone once harmed, being identified or made into material. For the people around them now, being used as evidence of somebody else's progress. For the film, describing a change that is not finished without either celebrating it or doubting it.",
-    "how_it_unfolds": "A change like this is a long, uneven practice rather than a conversion; it can go backwards, and the person knows that better than the film does. The pressures are the ordinary ones of the work, plus the exposure of speaking about it at all. It can end with the person saying more than they meant to, with them deciding partway through to say nothing, or with weeks of perfectly ordinary patient days in which nothing visible happens at all. Reality decides, and the last of those is the most likely."
+  "logline": "On a line of open ridges above a river valley, the grass hides the slag of hundreds of furnaces that were built to face the monsoon and use the wind itself as their bellows, and the wind still arrives on time with nothing left to blow on.",
+  "human_question": "If the thing that burns is intelligent, well made and patiently fed, what exactly is it that makes it destructive?",
+  "place": {
+    "what_kind_of_place": "A series of open, west-facing ridges above a deep river valley in the hill country, now under grass, scrub and scattered planting. There is nothing standing on them. What is there is underfoot: dark, heavy, glassy slag, in deposits that spread downslope from a line a little below each summit, marking where furnaces were built into the hillside, packed, lit, run and abandoned. They were not blown by bellows or by anyone's lungs. They were set on the exposed western slopes so that the seasonal wind coming up the valley would drive the air through them, and that is the whole of their engineering: a hill, a wind and a row of clay tubes. There is no visitor centre, no signboard and no path. Most of it is ordinary grazing and gardens.",
+    "why_it_is_worth_watching": "Because the machine is still half here, and it is made of weather. In the season when the wind runs hard up the valley, it arrives on those same slopes at the same hours of the afternoon, lays the grass over in one direction, and pours cloud across the ridge line from the west, and the film can watch the moving half of a device whose fixed half has been out for a thousand years. It is a landscape that can be filmed in one continuous ascending move: valley floor, slope, the level where the slag begins, the ridge line, and then out into moving cloud. That single shot is also the whole statement of the concept, because what it climbs is a furnace, and what it climbs into is the engine.",
+    "what_moves_or_changes": "Almost everything except the ground. The wind switches on and off with the season and the hour, and it can be seen in the grass and in the cloud long before it is felt. The valley below holds a reservoir that rises and falls. Light moves fast across open slopes with cloud coming over them. In the dry months the hillsides burn and green again. The only still thing in the film is the slag, which has not moved at all.",
+    "when_it_looks_best": "The south-west monsoon months, in the afternoons, when the wind is strongest on the west-facing slopes and the cloud is running. Early mornings at the other end of the year give the opposite film: the valley full of still mist and the ridges clear above it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape and weather film about a hillside that used to be a machine. It builds by itself: a valley in the morning, a climb up an open slope, a hand turning over a piece of black glass in the grass, the wind arriving in the afternoon and taking the whole hill in one direction, cloud pouring over a ridge, and last light going off the far side. It is about wind, grass, stone and scale, and it needs no commentary at all to be complete. Anyone who likes weather on high ground has a finished piece here.",
+    "with_the_philosophy": "The same hillside becomes the sources' most surprising claim, standing outside. The texts count what is present in every unwholesome mind, and the list is not what anyone expects: along with the blindness and the restlessness, there is applied thought, sustained examination and effort. Harm is never lazy and never thoughtless; it runs on the same components as good work, which take their colour from the mind they join. So the film stands on a piece of excellent, patient, intelligent engineering, and the voice points out that the intelligence in it settles nothing at all about what it is for. Then it turns to the one thing the sources say heat like this never has, which is any delight in it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Low over the valley floor at first light, then a slow continuous climb up an open west-facing slope, grass and scrub, the ground rising away.",
+      "voice": "There is nothing to see here and nothing to visit. What is under this grass is the waste of hundreds of furnaces, built into these slopes, all of them facing the same way, all of them abandoned a very long time ago.",
+      "concept_id": "C028"
+    },
+    {
+      "on_screen": "The climb stops at a level a little below the ridge. Ground detail: dark, heavy, glassy slag lying loose in the turf, a piece turned over in a hand.",
+      "voice": "They were not blown by bellows. They were placed where the wind would do it: on the exposed western side of each ridge, so that the season's wind coming up the valley drove the air through a row of clay tubes in the front wall. A hill, a wind and some clay. That is the entire engine.",
+      "concept_id": "C028"
+    },
+    {
+      "on_screen": "The ridge line from the air, following it laterally. The same level of slag appearing again and again below successive summits, all on the same side.",
+      "voice": "Here is the part of the old lists that surprises people. Counting what is present in every unwholesome state of mind, the sources include the blindness and the unsettledness you would expect, and then, in the same breath, applied thought, sustained examination and effort [C028-P:L27; C028-M:L5]. Harm is never lazy and never thoughtless.",
+      "concept_id": "C028"
+    },
+    {
+      "on_screen": "Afternoon. The wind arriving: grass laid over in one direction across a whole slope, cloud beginning to pour across the ridge from the west.",
+      "voice": "Those three are not faults. They are among the components that take on the quality of whatever mind they join, and the same three are in good work [C028-P:L25–L27]. Which is why a destructive thing can be careful, energetic and beautifully organised, and be exactly what it is. The organisation decides nothing.",
+      "concept_id": "C028"
+    },
+    {
+      "on_screen": "Full cloud running over the ridge line, the camera holding still inside it, visibility opening and closing.",
+      "voice": "The texts describe aversion as the mind striking against something it has met and does not want, and wanting it gone [C007-P:L32]. They list where it comes from, and not getting what one wants is at the head of the list [C007-P:L49]. It is a heat that gets fed, and it is fed by something specific.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Late light along the ridge. The slag level again, picked out in low sun. Nothing moving but the grass.",
+      "voice": "And here is the one thing the sources are flat about. Wanting can come with delight; there is a lift in getting what you want. These states cannot. Both of the minds they class as hate-rooted are counted with no joy in them at all [C028-P:L31], and both always with a painful mental feeling [C007-P:L25–L28]. That is said of a single moment of mind, not of anybody's character or life, and the film says it about a hillside and not about a person.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "The far side of the ridge going into shadow, the valley filling. A last wide frame: the whole slope, cold, green, ordinary.",
+      "voice": "The old text ends its section on this state not with a verdict but with advice: to live watchfully, because ordinary people meet these minds often [C007-P:L65]. Everything that was burned here was burned on purpose, by people who knew exactly what they were doing. The wind still comes up at the same hour. There is nothing left for it to blow on.",
+      "concept_id": "C007"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C007 supplies the description the person is effectively confirming from the inside: Pradeepika sets out what this state does to the one who holds it before it touches anyone else, and closes by advising a watchful way of living precisely because ordinary people meet these states often [C007-P:L47; C007-P:L65]. C028 supplies the structural claim underneath it: both hate-rooted minds are counted entirely without joy, unlike the greed-rooted ones, which can carry delight [C028-P:L31]. That is the reason the sources give for why there was never anything to be got from the old temper, and it is a claim about the state, not about the man.",
-    "what_it_reveals": "Two things that pull against each other, which is why they need each other. Put together, they say that the anger was never the pleasure it seemed to be at the time, and, in the same breath, that none of this describes a person: the absence of joy is stated of a single moment of mind, not of anyone's character or life. That second point is exactly what the film's subject is asking to be believed about themselves, and the sources, read carefully, grant it."
+    "why_together": "C028 supplies the structural surprise. Counting the factors in each unwholesome mind, the sources find fourteen present in every one of them, and among those fourteen are applied thought, sustained examination and effort [C028-P:L27; C028-M:L5], all of which are ethically variable components that take on the quality of the mind they join [C028-P:L25–L27]. Harm therefore runs on the same machinery as good work. The same concept supplies the other half: unlike the greed-rooted minds, which can carry delight, both hate-rooted minds are counted with no joy in them at all [C028-P:L31]. C007 supplies what that heat actually is and where it comes from: aversion meets a disliked object and wants it destroyed [C007-P:L32], its occasions begin with not getting what one wants [C007-P:L49], both such minds always carry a painful mental feeling [C007-P:L25–L28], and the section closes by advising a watchful life rather than a verdict [C007-P:L65].",
+    "what_it_reveals": "That the question 'was it well done?' and the question 'what was it?' are two different questions, which is nearly impossible to hold onto while watching skilled work. A ridge full of wind furnaces is a superb piece of engineering, and its excellence settles nothing about what it consumed. Put beside the sources' claim that the same effort and thought are in every unwholesome mind, it becomes possible to say the hard thing plainly: a destructive process can be intelligent, patient and well organised, and being those things is not a defence. C007 alone would make a film about a state nobody can photograph. C028 alone would make a film about a table of counts. Together, on a hillside where an organised heat was fed and has been out for a thousand years, they make a description that needs no person in frame at all."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "Pradeepika describes what aversion does to the person who holds it before anyone else is touched: they cannot tell right from wrong while it lasts, and the mind keeps burning [C007-P:L47]; the section closes by urging a mindful, watchful way of living because ordinary people meet these states so often [C007-P:L65]. This is a film about someone who reached that conclusion by another road. Three limits are written into the film rather than left outside it. The bodily effects listed at L47, such as dryness and a change of complexion, are traditional teaching and may not be narrated as medical or observable fact. The claim that such minds arising at the time of death lead to the lower realms [C007-P:L51] is a doctrinal statement the digest says needs expert framing, and it stays out. And the slogan 'anger only hurts yourself' must never be used here, because the same text says plainly that this state leads to killing and harming others [C007-P:L53]; whatever harm was actually done was done to other people."
+      "why": "The sources teach exactly two hate-rooted minds, both always accompanied by a painful mental feeling and by aversion, differing only in whether they arise spontaneously or after urging [C007-P:L25–L28]. Aversion is described as the mind meeting something it dislikes and wanting it destroyed [C007-P:L32], its occasions are listed with not getting what one wants at the head [C007-P:L49], and the section ends by urging a watchful way of living precisely because ordinary people meet these states often [C007-P:L65]. A hillside built to burn is where that description can be shown without being pinned to anybody. Three limits from the digest are honoured inside the film rather than outside it. The sources make no exception for justified anger, so nothing here is offered as the deserved kind [C007-M:L11]. The bodily signs listed at L47 and the claim about where such a mind at death leads are traditional teaching, not observable or medical fact, and are not narrated [C007-P:L47; C007-P:L51]. And the slogan that anger only hurts the angry person is barred, because the same text says plainly that this state leads to killing and harming others [C007-P:L53]; a film about a furnace must not let the harm become interior decoration."
     },
     {
       "concept_id": "C028",
       "role": "supporting",
-      "why": "Both hate-rooted minds are counted without joy at all, unlike greed-rooted minds, which can come with delight [C028-P:L31]. That is the sources' structural reason why this state never feels good even when it feels deserved. The earlier version of this link added that these are 'the most crowded' states on the list, which reads the factor counts as a severity score; the digest rules that out in as many words, so the count has been dropped and only the absence of joy is claimed. Two further limits belong in the link itself: the absence of joy is stated of a single mind-moment and not of anyone's character or life, which is the whole difference between this film and a verdict on a man; and the sources put effort and thought in every unwholesome mind [C028-P:L27], so the old temper may not be presented as a loss of control that excuses it, nor as a simple weakness."
+      "why": "Fourteen factors are present in every unwholesome mind, and three of them are applied thought, sustained examination and effort [C028-P:L27; C028-M:L5]. Those three are drawn from the ethically variable set, which takes on the quality of whatever mind it joins, so the same components are in wholesome minds too [C028-P:L25–L27]. That is the whole reason this location can carry the concept: a wind-driven furnace is patient, ingenious, well organised work, and the sources' point is that being those things decides nothing about what a state is. The same concept also supplies the group's structural claim that greed-rooted minds can carry delight and hate-rooted minds carry none at all [C028-P:L31]. Three of the digest's bars are written into the film. The counts are not a severity score, so the earlier version's claim that these are 'the most crowded' states has been dropped outright. The absence of joy is stated of a single mind-moment, not of anyone's character or life, and the film says it of a hillside. And 'effort is bad' or 'thinking leads to harm' is exactly the misreading this place invites, so the voice states the ethically variable point on screen rather than leaving it to be inferred."
     }
   ],
-  "what_the_viewer_could_understand": "The texts say anger never comes with real delight, even when it feels deserved, and that it burns the person holding it first, which is why they advise living watchfully rather than waiting to be provoked less often. They also say this of single moments of mind, not of people, so nothing in it fixes anybody as an angry person, and nothing in it cancels the harm that was actually done to others.",
-  "what_must_be_real": "The person's history and their account of the change must be entirely their own, led by what they choose to disclose and revisable by them at any point. No past incident may be re-enacted, and no past victim may be named, sought out or exposed, whatever they might be willing to add to the film. Young people shown must consent, with their guardians where required. Nothing about the old temper may be staged, and no situation may be arranged to test the person's patience.",
-  "position_hint": "closing candidate: a person who is already past the group's heat is how the group hands its question on, because what replaced the temper is, in their own honest account, not certainty but something quieter and harder to name. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That the old lists put effort, applied thought and sustained examination inside every harmful state of mind, so harm is never lazy or thoughtless and runs on the same components as good work; and that those components take their character from the mind they join, so nothing is settled by how well a thing is done. And, set against that, the one thing the sources say this kind of heat never has: any delight in it. Both are said of moments of mind, not of people, and the film says them over a hillside.",
+  "what_must_be_real": "The ground, the slag and the weather are the real ones, and nothing is added to the hill. No fire is lit, no furnace is rebuilt or reconstructed for the camera, and nothing is dug, moved or collected: these are archaeological deposits on land that people live and work on. Where the ridges are someone's grazing, garden or planting, the film is made with their agreement and shows their use of the land as the ordinary thing it is. The people who built and ran these furnaces are not characters, are not reconstructed, and are never implied to have been doing harm: the concept link is to the structure of organised, effortful work, not to any wrongdoing by them, and the voice says so.",
+  "position_hint": "closing candidate for the group: it is the only film in the set with no person in frame and no heat left in it, and it hands the group's question on as a structural question rather than a human one. No location reasoning is involved.",
   "risks": [
-    "Sliding into a redemption cliché rather than an honest, unfinished account.",
-    "Confessional exploitation; the person must lead what is disclosed and be able to withdraw it.",
-    "Past victims or incidents being identified, contacted or exposed.",
-    "Reading the sources' 'no joy in these minds' as a claim about a person's whole life, which the digest explicitly forbids.",
-    "Presenting anger as a physiology or an illness by narrating the traditional bodily effects as fact.",
-    "Letting the film's sympathy for the person imply that the harm done mattered mainly because of what it cost him."
+    "Implying that the people who built and ran these furnaces were doing harm. They were making iron. The link is to the shape of organised, effortful work, and the film must say so out loud or it slanders the dead.",
+    "Reading the factor counts as a severity score, which the digest rules out in as many words; no count is quoted as a measure of how bad a state is.",
+    "Letting 'no joy in these minds' become a claim about a person's character or life, when the sources state it of a single moment of mind.",
+    "Inviting the opposite misreading, that effort and thought are themselves faults, when the sources class them as components that take the quality of the mind they join.",
+    "Narrating the traditional bodily signs of this state, or its consequences at death, as observable fact.",
+    "Offering any anger in the film as the justified kind; the sources make no exception for it.",
+    "Letting the beauty of the landscape do the film's arguing, so that a claim about destruction is carried by a pretty ridge and never actually made.",
+    "Damage to, or removal of, archaeological material, and filming on people's land without their agreement."
   ],
   "drop_if": [
-    "No such person can be found who is willing to be filmed on these terms.",
-    "The account cannot be told without naming or implicating others who have not consented.",
-    "The only way to show the change would be to arrange a situation that tests it."
+    "Access to the ridges cannot be had from the people who own or use the land.",
+    "Filming or flying would risk disturbing archaeological deposits, or is refused by the antiquities authority.",
+    "The wind and cloud the film depends on cannot be caught within any workable window, leaving only a hillside with nothing happening on it."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0035",
+      "relation": "pairs with",
+      "note": "One film where the heat is alive and nightly, and one where it went out a thousand years ago and the machine is still standing."
+    },
+    {
       "idea_id": "IDEA-0045",
       "relation": "pairs with",
-      "note": "Two endings for the group: heat that has already cooled, and a fog that has not lifted."
-    },
-    {
-      "idea_id": "IDEA-0035",
-      "relation": "follows",
-      "note": "A body that answers a sound before any decision is made, and a body that has learned to stay inside that same moment."
-    },
-    {
-      "idea_id": "IDEA-0033",
-      "relation": "answers",
-      "note": "The group opens on a flare filmed from outside; this looks at the same state from inside somebody who lived years of it."
+      "note": "Two ways for the group to end without a verdict: a heat that has cooled, and a question that has not resolved."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0026 and is the only place in the group where the state is described from inside a life; its C028 link is now grounded on the absence of joy alone, not on the factor counts."
+    "reason": "It is the only place in the group that can state the sources' hardest structural claim, that harm runs on the same machinery as good work, with nobody in frame to be judged."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape, and rebuilt from the ground up. What was dropped: the entire previous subject, a real person once known for a violent temper who now works patiently with others. That was a biography, it invited the camera to treat an identifiable individual as a reformed offender and the people around him as evidence of his progress, and it cannot be made under the group's rule that nobody in frame is an instance of a defilement. Also dropped with it: the human_question about what is left when the heat is gone, the connections to IDEA-0033 and to IDEA-0035 that depended on the person, and the consent and confessional-exploitation machinery that only existed because of him. The concept pair is kept, C007 primary and C028 supporting, and moved onto C028's filmable claim that harm uses the same machinery as good work, on a landscape that also carries a mark of past heat that has since cooled. Both links re-read from the digests and rewritten; the bars on the counts as a severity score, on the absence of joy as a claim about a life, on 'effort is bad', on justified anger, and on narrating the bodily signs and the death claim are carried in the links and the risks.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The west-facing iron-smelting ridges above the Walawe valley at Samanalawewa",
+    "also_known_as": [
+      {
+        "name": "the west-facing sites",
+        "meaning": "the ridge-top furnace sites placed on western slopes to catch the monsoon wind",
+        "used_by": "the archaeological survey of the Samanalawewa area"
+      }
+    ],
+    "region": "The Walawe valley above the Samanalawewa reservoir, in the Balangoda area of Ratnapura District, on the southern edge of the hill country",
+    "coordinates": {
+      "lat": 6.7,
+      "lng": 80.82
+    },
+    "why_here": "Because the concept is the geography. Survey work in this valley recorded well over a hundred ironworking sites across roughly sixty square kilometres, and a large share of them share one feature: they sit on the western margins of hills and ridges, a little below the summits, where the south-west monsoon strikes hardest, with the slag spread downslope from that line. The furnaces were open-topped and built into the slope, with a row of tapered clay tubes through the front wall, and they used the wind itself as the air supply rather than bellows or natural draught. That is a piece of engineering whose thinking is entirely legible from the air, because the thinking is the placement, and the placement is visible in the landform. It also gives the film exactly the two things the concept needs: an organised, intelligent, energetic process, and a mark of heat that has been cold for a very long time.",
+    "what_to_film": [
+      "One continuous ascending move from the valley floor up an open west-facing slope, through the level where the slag begins, to the ridge line and out into cloud.",
+      "The ridge system laterally from the air, so that the same slag level appearing below successive summits, always on the same side, reads as a pattern rather than an accident.",
+      "Ground detail at that level: dark glassy slag loose in the turf, in situ and untouched, and the turf itself.",
+      "The wind arriving in the afternoon, seen first in the grass and then in the cloud coming over the ridge from the west.",
+      "Inside the cloud on the ridge line, held still, with visibility opening and closing.",
+      "The reservoir and the valley below through the day, for the scale of what the wind runs up.",
+      "The same slope at the two ends of the year: running cloud in the monsoon, and still morning mist in the valley at the other season."
+    ],
+    "access": "By road to the Balangoda side of the valley and then on foot up open slopes. The ridges are ordinary land, much of it grazing, gardens and planting, so access is a matter of asking the people who use it. Anything to do with the deposits themselves is an antiquities matter and needs the Department of Archaeology; drone flight over a reservoir and its catchment may need separate clearance.",
+    "best_time": "The south-west monsoon months, in the afternoons, when the wind on the western slopes is strongest and the cloud is running. Early mornings outside that season for the still, mist-filled version of the same valley.",
+    "images": [
+      {
+        "caption": "The reservoir in the valley below the ridges, which is the scale the wind runs up.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samanalawewa Dam and Reservoir.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Samanalawewa Dam and Reservoir.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The dam and the surrounding hill country, for the landform of the valley the furnaces faced across.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/UG-LK Photowalk - 2018-03-25 - Samanala Dam (1).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:UG-LK Photowalk - 2018-03-25 - Samanala Dam (1).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.nature.com/articles/379060a0",
+      "https://archive.archaeology.org/9609/newsbriefs/srilanka.html",
+      "https://www.csmonitor.com/1996/0116/16032.html",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0305440305000099"
+    ],
+    "research_note": "That the furnaces sit on the western margins of hills and ridges where the monsoon strikes, that the slag spreads downslope from a little below the summits, that they were open-topped and built into the slope with a row of tapered clay tubes through the front wall, that they used a wind-based air supply distinct from forced or natural draught, and that the survey recorded well over a hundred ironworking sites across roughly sixty square kilometres in this valley, are from the published accounts listed above and are desk research only. The coordinates are those of the reservoir in the valley, not of any furnace site: no individual ridge has been identified here, and none should be published without the antiquities authority's view. Wikimedia Commons has nothing at all of the smelting sites, and a search returned only pictures of the dam and reservoir in the same valley; those are what is listed, captioned as the valley and not as the ridges. Land ownership, access and every permission are unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No ridge, landowner or authority has been approached. Everything here is a research direction.",
+    "Whether the slag is visible enough at ground level, in the seasons when the wind is right, to carry close work on camera.",
+    "Whether the antiquities authority would permit filming at recorded sites, and on what terms, including whether their locations may be shown at all.",
+    "Whether drone flight is allowed over the reservoir, its catchment and the ridges above it.",
+    "Whether current land use on the ridges, including planting and grazing, has altered or buried the deposits the film depends on."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

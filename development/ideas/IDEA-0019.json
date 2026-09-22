@@ -2,62 +2,111 @@
   "schema_version": 1,
   "id": "IDEA-0019",
   "record_type": "idea",
-  "title": "Catching the Wind",
+  "title": "Until It Holds Itself",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Catching the Wind"
+  ],
   "group_id": "GRP-02",
-  "logline": "Kite makers fight for an hour to get a huge kite airborne, and then, for a few minutes, barely touch the line at all.",
-  "human_question": "What is the difference between wanting to make something fly and wanting it to be seen flying?",
-  "situation": {
-    "what_happens": "People who build large kites bring them out in the season when the wind will carry them. Getting one up is heavy, repetitive work that mostly fails: running, hauling, resetting, arguing about the frame. When it finally catches, the work almost stops, the kite holds itself, and the maker's hands go quiet. Around them other makers are doing the same thing and watching each other do it. Some of them talk about the kite, and some talk about who is watching.",
-    "who_is_involved": "Makers who build their own kites, usually taught by someone older; the helpers a large kite needs at launch; rivals who are also friends. The same question sits over anyone who practises something hard for years and is the only one who knows why they do it, a young player at a dawn practice as much as a maker on a windy afternoon.",
-    "what_is_at_stake": "For the maker, months of building tested in an afternoon of weather nobody controls, in front of people who know exactly how hard it is. For a rival, the same. For anyone else watching, nothing at all, which is precisely what makes the maker's own reason the only real question in the film.",
-    "how_it_unfolds": "A flying day is governed by wind that nobody schedules: long stretches of nothing, sudden windows, a launch that works or does not, and an ending that can be a kite holding for an hour, a broken frame, or a day called off. Over a season there are rivalries, borrowed parts and one or two days people remember. Whether a maker keeps going after the third failed launch, and what they say when asked why they bother, is theirs alone."
+  "logline": "For one day in the middle of January a small northern town carries objects the size of rooms down onto an open beach, spends an hour at a time running, hauling and re-tying to get them off the sand, and then stands almost perfectly still with two fingers on a line.",
+  "human_question": "What is the difference between the force that gets a thing off the ground and the grip that will not let it go?",
+  "place": {
+    "what_kind_of_place": "A long, straight, north-facing beach on a coral-limestone coast at the top of the island, backed by a road, a line of low houses and palmyrah, and fronted by shallow water and a steady onshore wind that blows most of the day through the dry months. It belongs to a small seafaring town that has built boats and sailed them for as long as anyone has kept a record, and for one day in the middle of January the beach is given over entirely to kites. Not toys. Frames of split cane and cloth that take three or four people to carry, with tails long enough to lie across the width of the sand, and rigs built to turn, to flap, or to change shape once they are up. Families build them at home over weeks and bring them down on the day, and a few hundred people come to watch them try.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. From the air, a two-kilometre beach with several dozen coloured objects hanging over it at different heights, each tethered by a line too thin to register on camera to a very small figure on the sand, so that the whole sky appears to be held up by nothing. At ground level, the launch: the running, the shouting, a kite pitching over and driving into the sand nose first, a spar splitting, the same four people carrying it back up the beach to start again. And then the third thing, which is a stillness rather than an event: the running stops mid-stride, the crew sits down, and a thing the size of a room stays exactly where it is on a line one person is holding with two fingers.",
+    "what_moves_or_changes": "Everything is set by wind nobody controls. The morning goes on tying and re-tying frames that were finished at home and still do not fly. Through the day the number of things in the air climbs and the amount of human effort per airborne kite falls to almost nothing, until the ratio has inverted completely: the beach is at its loudest in the late morning with nothing up, and at its quietest in the late afternoon with everything up. Then the wind drops, it all comes down, and the frames go home along the road on people's shoulders.",
+    "when_it_looks_best": "The one festival day in the middle of January, when the crews and the crowd are both there; on ordinary days the beach has the wind but no kites on it. Late morning for the fighting, mid to late afternoon for the held sky, and the last hour of light for the lines, which only become visible at all against a low sun."
   },
+  "two_layers": {
+    "without_the_philosophy": "A single-day film about enormous handmade objects and the physical business of getting them into the air. It has a shape of its own: nothing flying, then everything flying, then nothing again, with a whole town's worth of skill, argument and failure in the middle. Someone who never hears a word of the narration gets a complete piece with a build, a payoff and an ending, on a coast that almost nobody outside the district has seen.",
+    "with_the_philosophy": "The same footage turns into the sources' own working drawing of a purposeful mind, because the pictures they chose are already lying about on the sand: a bird beating its wings to climb, the same bird crossing the sky without beating them, a second person putting onto your shoulder a load you could not have lifted alone, and a drive that does not turn back until the thing started is finished. The voice never contradicts what is on screen and never tells anyone what they are feeling. It points at the one fact the beach demonstrates by itself: the force that gets a thing up is not the grip that holds on to it, and at the moment the kite holds, every hand on the beach opens."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light. Drone, high and slow, over an empty beach: hard wet sand, a road behind it, palmyrah, and along the road people carrying frames taller than they are down towards the water.",
+      "voice": "Nobody is paid to be here. Every one of these was built at home, in the evenings, out of split cane and cloth, by people who will get nothing back for it except an afternoon. The old compendiums have a word for that: the wish to take a thing up and do it. They are careful to say it is not the same as wanting to keep something.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "Spread out on the sand: cane split and bent, cloth stretched over a frame, a bridle knotted and unknotted and knotted again, a line paid out and measured against a man's arm span, a tail laid along thirty metres of beach.",
+      "voice": "These books list six things that come and go in a mind. Aiming at something. Going over it. Making up your mind. Pushing on. The lift you feel. And the wanting to do it. Then they insist that not one of the six is good or bad in itself. Each takes the colour of whatever it happens to be serving. The same drive that builds a boat will steal one.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "A launch. Four people run the kite out along the sand; it lifts, stalls, yaws over and goes in nose first. A spar has split. They carry it back up the beach and do the whole thing again.",
+      "voice": "The first of the six is the one that gets a thing off the ground, and the book's picture for it is a bird beating its wings hard to climb, or a second man helping to raise onto your shoulder a load you could never have lifted by yourself. Beside it sits effort, which the book describes as what does not turn back until the thing begun is finished, and which it goes out of its way to say is mental, not strength in the arms.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "The fifth attempt by the same crew. Someone has walked off and come back. Two of them are arguing about the bridle. A third stands with the line in his hands, talking, mostly to himself, then picks it up and runs again.",
+      "voice": "There is a separate catalogue in these books for wanting that sticks, and it sorts that wanting by three things: whether it came glowing or came flat, whether it arrived with a story that excused it, and whether it rose on its own or had to be pushed, including the push you give yourself when part of you has had enough. Watch the fifth run. The push is perfectly real. What is being pushed is not in that catalogue at all.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "It holds. The running stops mid-stride. The drone climbs and turns to hang level with the kite, a hundred metres up, the line falling away out of frame to a crew who have sat down on the sand.",
+      "voice": "And there is the second of the six. The same bird, high now, going across the sky without moving its wings. The other picture the book gives for it is a man holding a metal pot firmly in one hand while the other hand slowly rubs it over. Nothing has been switched off. The effort has stopped needing to look like effort, and the book warns that the two were never one after the other in the first place.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "Late afternoon from the air. Thirty or forty kites up at different heights over two kilometres of beach, and underneath them almost nobody moving. Lines run down through the frame to people sitting, lying, holding on with two fingers.",
+      "voice": "This is the distinction the whole thing turns on, and you are looking straight at it. The wanting to take a thing up is one item. The sticking that will not let it go is a different item, and these books give it different names. Out here the first one is doing all the work and the second one is not needed for any of it. Every hand on this beach is open.",
+      "concept_id": "C021"
+    },
+    {
+      "on_screen": "Last light. The kites come down, most of them steadily, one of them broken. Frames go back along the road on shoulders, past houses, past people eating. The sand empties.",
+      "voice": "The books say that this wish, trained up, becomes something they call a base for getting things done, and that it works against craving rather than for it. They never say the drive decides that by itself. A boat on a current already running downhill needs no effort at all. Carrying a load uphill, you have to put the effort in. It is the slope that settles it, not the wanting. Tomorrow this is a beach again.",
+      "concept_id": "C021"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C021 contributes the two motions the sources use to picture a working mind: initial application as a bird beating its wings to rise and sustained application as the same bird gliding without moving them, effort as what does not turn back until a thing is done, and desire-to-act as a wish that can run towards the love of doing something or towards craving what the doing might bring, the sources being explicit that these are not the same drive. C006 contributes the push: wanting that rises sharply on its own, and wanting that arrives because someone else urged it, or because the person coaxed their own reluctant mind into one more attempt.",
-    "what_it_reveals": "That effort and the wish to do are not the wanting the group has been following, and that they can serve either side. Beside the group's greed-rooted minds, the strain of a launch shows a drive with no moral colour of its own, and the single thing that would settle its colour, whether the person wants the kite up or wants to be seen with it up, cannot be observed and has to be said out loud by them."
+    "why_together": "Read fresh, these two digests are not two views of one thing; one is a catalogue and the other is the item deliberately left out of it. C006 is the sources' anatomy of wanting that sticks, set by three dials: it comes with gladness when the object pleases [C006-P:L25] and flat when the object is neutral [C006-P:L74]; it comes with or without a view that denies consequences or excuses the act [C006-P:L33]; and it either rises sharply of its own nature [C006-P:L44] or has to be urged, by other people or by the person talking their own hesitating mind round [C006-M:L5]. C021 then names the drive the sources keep out of that anatomy: desire-to-act is the wish to take the object and not the power that makes one stick to it, and the sticking is given its own separate names [C021-P:L69], which the Margaya repeats as a wanting with none of greed's adhesion in it [C021-M:L27]. In a wholesome mind that wish works against greed rather than for it [C021-P:L75]. A beach where several dozen crews spend an hour of visible, self-urged effort on something that then holds itself up is the one place the two can be set side by side without accusing anybody, because the film can show the prompting and the straining in full and still say, out loud, that what is being prompted is not in the other book's list.",
+    "what_it_reveals": "That the thing worth filming is not that people want things. It is that the effort stops. C021 on its own would be a lecture on six mental factors. C006 on its own, pointed at these crews, would be a slander. Put together on one afternoon they produce the series' cleanest physical statement of a distinction that is otherwise pure theory: an object the size of a room, staying up, on a line that nobody is pulling. The pairing also closes the two exits the digests name. It is not 'follow your passion', because the sources say the same wish inside a greed-rooted mind simply strengthens the greed. And it is not 'hard work is virtuous', because the sources make effort colourless and give it a downstream boat for a picture."
   },
   "concept_links": [
     {
       "concept_id": "C021",
       "role": "primary",
-      "why": "The sources picture initial application as a bird beating its wings to rise and sustained application as the same bird gliding, insisting the two arise together rather than in sequence [C021-P:L33] [C021-P:L41] [C021-M:L11]; effort is what does not turn back until the task is done [C021-M:L19]; and desire-to-act can run either towards the love of doing or towards craving reward, which is the film's question [C021-P:L75] [C021-M:L27]. The digest's account of gladness moving the body is traditional physiology and must not be read onto anyone's face."
+      "why": "The Pradeepika's similes are already the physical facts of this beach. Initial application is a bird beating its wings hard to climb, and a second man helping to raise onto your shoulder a burden you could not lift alone [C021-P:L33]; sustained application is the same bird gone up and crossing the sky without beating its wings, and a man gripping a metal vessel firmly in one hand while the other slowly rubs it over [C021-P:L41]. Effort is what does not turn back until the thing begun is finished, and the Margaya is explicit that the mental kind is meant and that bodily strength is a separate item altogether [C021-M:L19]. The load-bearing line is the one the group's record leans on and this film is built to show: the wish to take an object is not the power that makes one stick to it, and that adhesion has other names [C021-P:L69] [C021-M:L27]. Four of the digest's limits are written into the film rather than left to the risks. The six factors have no colour of their own and take the colour of the mind they join [C021-P:L25], which beat 2 says out loud so that nobody is called good for trying hard. Effort is not a virtue in itself: in a mind already sloping towards harm it runs like a boat on a downstream current, while doing good is the same load carried uphill [C021-P:L53], which is beat 7 and the film's ending. The Margaya's warning that the bell simile makes the two factors look consecutive when they arise in a single moment [C021-M:L11] is spoken in beat 5, because a launch followed by a glide is precisely the misreading this location invites. And the account of gladness shaking and lifting the body through the air element is traditional physiology [C021-P:L61] [C021-P:L63], so no face and no body on this beach is described in the narration as rapture."
     },
     {
       "concept_id": "C006",
       "role": "supporting",
-      "why": "The sources define prompting to include self-prompting: a person urging their own hesitating mind on, as well as being urged by others [C006-M:L5] [C006-P:L44] [C006-P:L58]. A maker who has failed three launches and talks themselves into a fourth, and rivals goading each other on, are that distinction in ordinary life. An earlier draft instead read the source's background conditions for spontaneous arising, among them health, habit and suitable weather [C006-P:L46-L52], onto the kite's flight, which confuses a condition of a mind with a condition of the air; the link has been re-grounded."
+      "why": "Kept, but narrowed to the one thing the digest genuinely supplies here, and used with the category refused out loud. Prompted wanting is defined to include both being urged by others and urging one's own hesitating mind on [C006-M:L5], while the unprompted kind is said to arise sharply, of its own nature [C006-P:L44]. A crew on its fifth failed launch, talking itself into a sixth, is that machinery in the open air. But everything C006 classifies is a greed-rooted mind, and nobody on this sand is being put into one, which is why beat 4 names the catalogue and then says the drive in front of it is not in that catalogue. Three of the digest's guards bear directly. Prompting does not absolve: the Margaya ranks prompted wanting weaker without excusing it [C006-M:L19], so the film never suggests that someone urged on by a crowd is less the author of what they do. The conditions the Pradeepika lists as favouring spontaneous arising, among them temperament, health, patience, habit, company, suitable weather and food [C006-P:L46–L52], describe tendencies and not fate, do not map onto modern genetics, and are conditions of a mind rather than of the air; the earlier draft's error of reading them onto the kite's flight is not repeated. And the wrong-view dial [C006-P:L33] is dropped from this film entirely, because the digest forbids mapping wrong view onto any community's faith and a festival day that carries religious and commemorative weight for the people holding it is the last place to try."
     }
   ],
-  "what_the_viewer_could_understand": "Getting something off the ground takes a hard, flapping effort, and keeping it there takes only a light, steady touch. The wish to do something is not the same as clinging to it, and from outside nobody can tell which one they are watching.",
-  "what_must_be_real": "The makers' actual rivalry, skill and failures, and their own words about why they do it. No wind, launch or outcome arranged, and nothing repeated for a better version of itself.",
-  "position_hint": "middle: it follows the group's first look at desire-to-act and gives it a whole film, so that effort is clearly established as separate from wanting before wanting meets refusal.",
+  "what_the_viewer_could_understand": "That there is a difference between wanting to do a thing and wanting to hold on to it, and that the difference can be watched rather than taken on trust: an hour of running, and then a hand that opens. And that the drive on its own settles nothing, because the same energy would have gone just as willingly into something worse.",
+  "what_must_be_real": "The crews' own kites, their own launches and their own failures. No kite carried back up the beach for the camera, no launch re-run because the first one was not covered, and nobody asked to try once more. The day's wind is whatever it is, and a day on which little flies is that day's film. Nobody is asked to explain what they feel, and no face is described in the narration as glad, rapt or driven. What the day means to the town that holds it is theirs to say or not to say, and the film puts no meaning on it from outside.",
+  "position_hint": "middle: the group's counterweight. It wants the group's first looks at ordinary wanting already behind it, so that a drive with no stickiness in it reads as a real distinction rather than as an exception being made. No location reasoning is involved.",
   "risks": [
-    "Being a pretty metaphor with no real stakes",
-    "Rivalry escalating past what consent covers",
-    "Reading rapture or any other doctrinal state onto people's faces",
-    "Framing anyone's ambition, least of all a young person's, as greed"
+    "Letting the film imply that anyone on this beach is greedy. Everything the supporting digest classifies is a greed-rooted mind, and nobody here is being placed in that list; beat 4 exists to say so on the record.",
+    "'Follow your passion', which the digest rules out by name: the same wish inside a greed-rooted mind strengthens the greed, so drive on its own guarantees nothing.",
+    "'Hard work is always virtuous.' Effort in these sources is morally colourless and runs downhill as readily as up [C021-P:L53].",
+    "Reading rapture, or any other doctrinal state, onto a face. The sources' account of gladness shaking the body through the air element is traditional physiology [C021-P:L61] and is not a description of anybody on camera.",
+    "Treating the day as folklore or as scenery. The festival carries religious, commemorative and political weight for the town that holds it, and a film that borrows it as a backdrop for a philosophical point has taken something it was not given.",
+    "Children, of whom there will be many, filmed without guardians' consent.",
+    "Drone permission over a coastal town in a district with a heavy security presence, and over a crowd, is not a formality and may be refused outright.",
+    "A one-day event with a single wind. A flat calm or a squall means there is no film that year, and there is no second take.",
+    "Turning it into a competition film. Who wins is not the subject, and nobody in frame should be there in order to lose."
   ],
   "drop_if": [
-    "No maker with a real stake can be found and followed across a full season of flying",
-    "The makers' own reasons can only be got by putting words in their mouths"
+    "The day cannot be filmed without asking crews to launch, re-launch or wait for the camera.",
+    "Drone work over the beach and the crowd cannot be permitted, since the held sky from the air is the whole payoff.",
+    "Access is offered only on condition that the day is presented as an organised event rather than as what actually happens on the sand."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0023",
       "relation": "absorbs",
-      "note": "Folded in: practice whose aim only the practitioner knows, and the rule that a young person's ambition is never to be framed as greed."
+      "note": "Folded in: effort whose point is known only to the person making it, and the rule that nobody's ambition, least of all a young person's, is framed as greed."
     },
     {
       "idea_id": "IDEA-0020",
       "relation": "pairs with",
-      "note": "Two pictures of the same pair of factors: the effortful lift here, the long sustained hold there."
+      "note": "The two halves of one pair of factors, filmed apart: the flapping climb here, and there the hand that grips while the other hand only rubs."
     }
   ],
   "selection": {
@@ -66,17 +115,83 @@
       "IDEA-0023"
     ],
     "superseded_by": null,
-    "reason": "Carries the group's effort-and-desire-to-act beat on the digest's own simile, and now also the ambition question folded in from IDEA-0023."
+    "reason": "The group's clearest physical demonstration that desire-to-act is not greed, on a location whose best shot is also its plainest statement of the concept."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape. Dropped the old situation block, which was built on a maker's inner life, a rivalry and a question only the maker could answer. New location: the one-day kite gathering on a northern coastal town's beach, chosen because a whole field of crews visibly stops working the instant each kite holds, which is the concept stated rather than illustrated. New title; old title kept in aliases. Both concept links re-tested against their digests and rewritten. C021 re-grounded on the Pradeepika's own similes and given the guards on colourless effort, the downstream boat, the simile-as-sequence warning and the air-element physiology. C006 kept but narrowed to the prompting machinery and used with its category refused out loud, since everything it classifies is a greed-rooted mind; the wrong-view dial dropped entirely, and the earlier draft's reading of the conditions list onto the weather removed. Added place, two_layers, a seven-beat sequence and a suggested location with verified images.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Valvettithurai kite festival beach (Uthayasooriyan beach)",
+    "also_known_as": [
+      {
+        "name": "Valvai",
+        "meaning": "the town's short local name",
+        "used_by": "local Tamil usage"
+      },
+      {
+        "name": "VVT",
+        "meaning": "the town's initials, in everyday and administrative use",
+        "used_by": "island-wide usage"
+      }
+    ],
+    "region": "Vadamarachchi coast, Jaffna District, Northern Province; on the Point Pedro–Kankesanthurai road",
+    "coordinates": {
+      "lat": 9.8167,
+      "lng": 80.1667
+    },
+    "elevation_m": 3,
+    "why_here": "It is the one place found where a whole population of makers, a reliable onshore wind and kites large enough to need a crew all arrive on the same stretch of sand on the same day. The annual gathering here is a genuine local institution rather than a tourist event: the kites are built at home over weeks and include rigs that turn, flap and change configuration in the air, which means launching them is a real fight and not a formality. That gives the film the shot it is built around, which is not a kite but a stillness: the moment several dozen crews all stop moving and a sky full of enormous objects stays up on lines nobody is pulling. The beach is long, straight and open enough for a drone to hold one kite and its crew in the same frame at a hundred metres, and the town behind it is a working fishing and boatbuilding place rather than a resort, so the day reads as something a community does rather than something staged for visitors.",
+    "what_to_film": [
+      "The road down to the beach at first light, frames and rolled cloth being carried on shoulders, before anything is in the air.",
+      "One crew's whole morning: the frame on the sand, the bridle tied and retied, the line measured, and three or four failed launches in full, including the walk back up the beach.",
+      "A launch from behind and low, at running height, so that the pitch-over and the strike into the sand read as the physical events they are.",
+      "The moment of holding, filmed as one continuous take from the ground: the running stops, the crew sits, the line goes quiet. This is the payoff and everything else is built to reach it.",
+      "The same moment from the air: the drone level with a kite at height, the line running down out of frame to a seated figure.",
+      "The whole beach from above in the late afternoon, wide enough to hold thirty or forty kites at different heights and the near-total stillness underneath them.",
+      "The lines against a low sun in the last hour, which is the only light in which they exist on camera.",
+      "The end: the kites brought down, the frames carried home along the road, the sand empty."
+    ],
+    "access": "By road along the northern coast of the peninsula, between the two main north-coast towns; the beach lies directly off the coast road and needs no walk-in. The district still carries a substantial security presence and the coastline is sensitive, so aerial work will need permission arranged well in advance and may be refused. The day itself is organised by local community associations, and access to the crews is a matter of asking them rather than of buying a pass.",
+    "best_time": "The annual kite festival day, held on the Thai Pongal holiday in mid-January, which is also when the north-east wind is steady and dry. Late morning for the launches, mid to late afternoon for the held sky, and the last hour of daylight for the lines.",
+    "images": [
+      {
+        "caption": "The kite festival on the town's beach: the gathering the film is built around.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%AE%B5%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%88%20%E0%AE%89%E0%AE%A4%E0%AE%AF%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AF%82%E0%AE%B0%E0%AE%BF%E0%AE%AF%E0%AE%A9%E0%AF%8D%20%E0%AE%95%E0%AE%9F%E0%AE%B1%E0%AF%8D%E0%AE%95%E0%AE%B0%E0%AF%88.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:%E0%AE%B5%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%88_%E0%AE%89%E0%AE%A4%E0%AE%AF%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AF%82%E0%AE%B0%E0%AE%BF%E0%AE%AF%E0%AE%A9%E0%AF%8D_%E0%AE%95%E0%AE%9F%E0%AE%B1%E0%AF%8D%E0%AE%95%E0%AE%B0%E0%AF%88.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A box kite from the same day, for the scale and construction of what has to be got airborne.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%AE%95%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%B2%E0%AF%88%E0%AE%AA%E0%AF%8D%20%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:%E0%AE%95%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%B2%E0%AF%88%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A bird-form kite from the same day, showing the kind of rig that needs a crew to launch.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%AE%AA%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:%E0%AE%AA%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.sundayobserver.lk/2025/01/12/news/42575/kite-festival-in-valvettithurai/",
+      "https://www.tamilguardian.com/content/vvt-kite-festival-parades-tamil-culture-and-resistance",
+      "https://tourismnorth.lk/festivals/kite-festival-annual-event-",
+      "https://en.wikipedia.org/wiki/Valvettithurai"
+    ],
+    "research_note": "The festival, its date on the Thai Pongal holiday, its beach, the community associations that organise it and the presence of large multi-part kites are from the sources above and are desk research only. The coordinates are the town's, not a surveyed point on the beach. Crew numbers, kite dimensions, wind reliability on any given year, drone permissions and whether any crew will agree to be filmed through a failed morning are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No crew, organiser or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether the launches genuinely take the better part of an hour, as the film assumes, has not been checked on the ground.",
+    "Drone permissions over a sensitive northern coastline and over a crowd are unverified and may be refused.",
+    "What the day means to the community that holds it, and what they would want a film to say or not say about it, is unknown and is theirs to decide."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

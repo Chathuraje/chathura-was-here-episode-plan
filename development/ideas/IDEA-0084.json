@@ -2,87 +2,187 @@
   "schema_version": 1,
   "id": "IDEA-0084",
   "record_type": "idea",
-  "title": "What the Body Still Carries",
+  "title": "The Long Part After the Sound",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Body Still Carries"
+  ],
   "group_id": "GRP-05",
-  "logline": "As an elder's hearing fades, a household finds new ways to reach her, and everyone relearns together how she now takes in the world.",
-  "human_question": "When one of the senses weakens, how does a person's whole way of taking the world in, and a family's way of reaching them, actually change?",
-  "situation": {
-    "what_happens": "In a household of several generations, an elder's hearing has been going for years. Nobody announced it and nobody made a plan. Instead the household has quietly rebuilt its habits around it: people turn to face her before speaking, a grandchild writes things down, the loudest room is avoided, jokes are repeated once and then let go. Some of this works and some of it fails, and the failures are ordinary and often funny. She has her own view of how much of it she needs, and it does not always match theirs.",
-    "who_is_involved": "The elder, whose consent is the first and most important one and is separate from the family's; the adult children who carry most of the adaptation; the grandchildren, who learn it as normal and do it best; and neighbours and workmates who do not adapt at all, which is part of the story.",
-    "what_is_at_stake": "For the elder, how much of the household's life she is still inside, and whether the help offered is help or management. For the family, the work of adapting and the tiredness in it that nobody says out loud. For the film, her dignity, which comes before every other consideration in it.",
-    "how_it_unfolds": "A change like this has no beginning that anyone can name and no ending. The pressures are money, the household's other demands, and the difference between what she wants and what her family thinks she needs. It ends where the film stops, not where the situation does, and it should say so."
+  "logline": "In thorn country where a herd of two hundred animals can stand thirty metres away and be completely invisible, everything that matters arrives by ear: a bell, once, a long way off, and then the much longer stretch of listening that follows it.",
+  "human_question": "What actually reaches us through one sense, and how much of what we then think we know was never in the sound at all?",
+  "place": {
+    "what_kind_of_place": "Flat, hot scrub country in the interior of the far north: thorn, palu and weera, palmyrah standing over it, old cleared land gone back to bush, sand tracks cut through it, and open patches of grass where the ground holds water for part of the year. Cattle are kept here the extensive way, grazing loose over a very large area through the day and brought in to a fenced post at night, in herds that can run from twenty to three hundred animals. The bush is dense at head height and open above it, so the country reads as empty from the ground and as a huge grey-green mosaic from the air, and the only reliable way to know where several hundred animals are is to stand still and listen.",
+    "why_it_is_worth_watching": "It is a place where the eye is almost useless and the ear does everything, and the camera can make that reversal felt rather than explained. A wide frame with nothing visible in it and a bell in it somewhere is more tense than any close-up. And there is a single image the place produces on its own: from a long way up at first light, an enormous flat scrub plain with one thin line of dust moving through it, and on the soundtrack a sound that arrived several seconds before the dust did. Sound here has distance, direction and a decay you can hear the whole of, because there is nothing to cover it.",
+    "what_moves_or_changes": "The animals, who choose their own route through the day and are found rather than directed. The season: after the rains the ground is green and the herd stays close, and in the dry months it scatters much further and the listening gets harder. Heat, which silences the middle of the day almost completely. First light and last light, when everything that makes a sound makes it. And the wind, which decides how far a bell carries and from which direction it seems to come.",
+    "when_it_looks_best": "The dry months, when the herd ranges widest and the air is clearest, so that sound carries and the dust reads. Within a day, the hour after first light, when the animals are let out and the country is still cool enough to be quiet, and the hour before dark, when they come back in."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about an almost empty country and the animals in it. Thorn scrub at first light, dust, the grey backs of cattle moving through bush too thick to see them in, a sand track, the long flat heat of the middle of the day, and the herd coming back in at dusk. It is a landscape and animal film with a shape of its own — out, away, out of reach, back — and it does not need a word said over it.",
+    "with_the_philosophy": "The same country becomes the sources' own account of a door. The texts say that each sense is a channel that admits one kind of thing and nothing else, that the part of the body you can point at is not the door, and that a heard thing is a short, bounded event rather than an open window. They also give the film its exact image: like the long fading hum after one strike of a bell, a single contact can set off hundreds of further movements of mind. That is what this country does to anybody standing in it. The sound arrives, and then comes the much longer part: locating it, naming it, deciding whose it is, and the whole of that happened after the sound was over."
+  },
+  "sequence": [
+    {
+      "on_screen": "Before sunrise, very high: a flat grey-green scrub plain to every horizon, palmyrah standing out of it, one sand track through it. Nothing moving. Held for a long time. On the soundtrack, once, a bell, a long way off.",
+      "voice": "There is nothing to see here. Everything that will happen in the next minute has already arrived, and it arrived through one channel only.",
+      "concept_id": "C035"
+    },
+    {
+      "on_screen": "Ground level inside the thorn. Visibility of a few metres in any direction. Leaves, light, dust. Nothing else. Then the bell again, nearer, and still nothing visible.",
+      "voice": "The sources separate the part of the body you can point at from a fine sensitivity inside it. The ear you can touch is not the door. Something has to strike the sensitive part strongly enough to interrupt the mind's resting state, and until it does, having ears is not hearing [C035-P:L29–L39].",
+      "concept_id": "C035"
+    },
+    {
+      "on_screen": "The herd arriving through the bush: grey backs, horns, dust rising through low sun, bells overlapping into a single broken rattle. They pass close and the frame is full of them.",
+      "voice": "Each door admits one kind of thing and nothing else. Sight comes in only as colour, sound only as sound [C035-P:L43–L49]. Nothing about whose animal this is, or where it has been, came in through the ear. Only the sound did.",
+      "concept_id": "C035"
+    },
+    {
+      "on_screen": "A long shot down the sand track: the herd receding, the bells thinning out, the dust settling, and then the very slow return of an enormous silence. Held well past the point where anything is happening.",
+      "voice": "The texts use exactly this. Like the long fading hum after one strike of a bell, they say, a single contact can set off hundreds or thousands of further movements of mind [C048-M:L7–L9]. What occupies us is usually not what is in front of us. It is the echo of something already finished.",
+      "concept_id": "C048"
+    },
+    {
+      "on_screen": "The middle of the day. Total heat. The track empty, the bush motionless, no sound at all except insects. A water point with no animals at it. Nothing happens for a long time.",
+      "voice": "And the list of what sets the mind running is strikingly ordinary: what somebody told you, something you read, a question put to you, hunger, thirst, an ache in the body, running into a friend or an enemy [C048-M:L3–L19]. The inner life is seldom self-starting. It is prompted, from outside and from inside.",
+      "concept_id": "C048"
+    },
+    {
+      "on_screen": "Last light. Standing still in the open, listening. Nothing. Then a bell, from a direction that turns out to be wrong, and then from the right one. The herd appearing as shapes against a low sun.",
+      "voice": "Hearing something is not yet knowing what you heard. The sources say that takes several more beats after the sound: the mind goes back over what arrived, puts a name to it, and takes hold of what the name means, and only then is there the sense I heard such-and-such [C048-M:L23–L27]. They are candid that the old teachers described that sequence differently.",
+      "concept_id": "C048"
+    },
+    {
+      "on_screen": "Night at the post. The animals in, the bells settling one by one until there is one, and then none. A lamp. The bush outside, entirely black.",
+      "voice": "For beings like us, the texts say, no moment of mind floats free; each one rests on some particular piece of living body [C037-P:L27; C037-P:L29–L39]. Where they put that support in the body is where this tradition and modern medicine part company, and the old books say so themselves — it cannot be seen, or touched, or found by a physician [C037-M:L7]. This film does not settle that. It only stands in a place where you can hear how much of a night arrives through one narrow channel, and how much of what you then know was added afterwards.",
+      "concept_id": "C037"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C037 contributes the claim that for beings with both mind and body no mental event floats free: each one rests on a particular piece of living matter, and when the body changes, what the mind can do changes with it. C035 contributes the precision that makes this about a threshold rather than an ear, since the door is a fine sensitivity inside the organ and not the organ itself, and experience gets in only where something strikes that sensitivity strongly enough. C048 contributes what is lost further downstream: the sources list hearing what others say among the ordinary things that set a person's inner life going at all, so a narrowing channel is not only a loss of information. Together they describe what a household is actually rebuilding.",
-    "what_it_reveals": "Separately these are a classification of bases and doors. Together, in a household, they show that adapting to a sense that has weakened is not a matter of volume but of rebuilding the routes by which anything reaches anyone at all, and that a family doing this without being asked has worked out the same structure the sources set out. The film's honesty depends on holding one line firmly: the sources' own statements about faculties and rebirth are about doctrine and must never be turned toward the person in the room."
+    "why_together": "C037 supplies the ground: a base is the piece of living matter a mind rests on, the five sense-sensitivities are both doors and bases, and no mental event in beings like us floats free of one [C037-P:L27; C037-P:L29–L39]. It also supplies the honesty the film needs, because the Margaya says plainly that the support it places in the chest cannot be seen, touched or found by medicine [C037-M:L7], which is where the tradition and modern anatomy part, and the voice says so rather than smoothing it over. C035 supplies the door itself, and the two sentences that make this country filmable: the part of the body you can point at is not the door, and having ears open does not mean hearing is happening [C035-P:L29–L39]; and each channel admits one kind of thing and nothing else, sight only colour and sound only sound [C035-P:L43–L49]. C048 supplies the shape of the film: the image of the long fading hum after one strike of a bell, in which one contact sets off hundreds of further movements [C048-M:L7–L9]; the ordinary list of what sets those movements going [C048-M:L3–L19]; and the point that a bare sense contact does not yet give the knowledge I heard such-and-such, which takes follow-on processes for the object, its name and its meaning [C048-M:L23–L27]. Put in thorn country where a herd is found by ear alone, the three stop being a classification and become a plain description of standing still and listening.",
+    "what_it_reveals": "That a sense is a narrow channel, that it admits one kind of thing and nothing more, and that almost everything we think we heard was assembled after the sound had already stopped. C037 alone would be doctrine about supports. C035 alone would be a table of which minds arise at which door. C048 alone would be a list of prompts. Together in a place where the eye is useless they let a viewer feel the gap between a sound arriving and knowing what it was, and feel how much longer the second part is than the first."
   },
   "concept_links": [
     {
       "concept_id": "C037",
       "role": "primary",
-      "why": "The digest holds that mental life, for beings like us, always depends on a physical base, a working sense sensitivity for each sense and a further base for most other mental activity [C037-P:L27], and says in plain words that when the body changes, what the mind can do changes with it. The digest's own story seed for this concept is a family finding new ways to reach an elder who has gradually lost their hearing. Two prohibitions from the digest are load-bearing here and are written into the film rather than left implied: the source's phrase 'beings with complete faculties' must never become a judgement about disabled people, and Margaya's claim that the first stage of awakening depends on hearing another person is a doctrinal point about the formless realms and must never be presented as saying that deaf or hard-of-hearing people are spiritually disadvantaged. The heart-base is likewise not cardiology and not 'follow your heart'."
+      "why": "The digest holds that for beings with both mind and body every mental event rests on a particular piece of living matter, that the five sense-sensitivities are the same matter already called doors, now named bases because the corresponding consciousness arises on them, and that almost everything else rests on a subtle support in the chest [C037-P:L27; C037-P:L29–L39]. The film uses the first half and states the second half as the tradition's own position rather than as fact, because the digest insists this is where the sources and modern medicine part and that it should be said plainly, not smoothed over; the Margaya itself concedes the support cannot be seen, touched or found by a physician [C037-M:L7]. Every limit that bears on this film is honoured, and two of them are the reason the idea was rebuilt from scratch. The heart-base is not narrated as cardiology or as the heart of popular sayings. The material is used to support neither the mind is just the brain nor the mind is independent of the body. The phrase about beings with complete faculties is never turned into a judgement about disabled people. And the doctrinal claim that the first stage of awakening depends on hearing is not used at all, because the digest is explicit that it must never be presented as deaf people being spiritually disadvantaged — which is precisely the reading the previous version of this idea risked inviting."
     },
     {
       "concept_id": "C035",
       "role": "supporting",
-      "why": "The digest separates the visible organ from the fine sensitivity inside it, and says experience only gets in where something strikes that sensitivity strongly enough to interrupt the resting mind, so having eyes open is not yet seeing. That frames hearing loss as a threshold rather than a broken part, which is closer to how the household actually deals with it. The digest's limit applies: the sensitivity is not the eardrum or nerve endings, and the traditional descriptions of it are not anatomy."
+      "why": "The digest gives the two sentences the film is built on. A door is fine sensitive matter lodged in the organ and is not the same thing as the visible organ, so experience only gets in where something strikes that sensitivity strongly enough to interrupt the resting mind — having eyes open does not mean seeing is happening [C035-P:L29–L39]. And each door carries its own kind of material only: sight comes in as colour, sound as sound [C035-P:L43–L49]. It also gives the shape of a single event: a glance, or a sound, is a brief bounded episode that begins when an arrival disturbs the resting mind and ends when what arrived has run its course, with weaker arrivals producing shorter episodes. The digest's warnings are kept. The sensitivity is not narrated as the eardrum or as nerve endings; the mind-door is not the brain; the material is not turned into a guard-your-senses or digital-detox message, since these extracts are classification and not advice; the phrase doors of perception, with its literary and psychedelic baggage, is not used anywhere; and the door-free minds' carried-over object is not recast as temperament, genetics or inherited trauma."
     },
     {
       "concept_id": "C048",
       "role": "supporting",
-      "why": "The digest lists the ordinary things the source says set mind-door processes going: sense contact, hearing what others say, reading, a question put to us, thinking, hunger and thirst, bodily pain, meeting friends or enemies [C048-M:L5]. The digest's own gloss is that the inner life is seldom self-starting and is prompted from outside by people and words. Watching a household invent new prompts when one of those channels narrows is that claim from the other side. The digest notes the source's list is explicitly only a portion of the causes, so the film does not present it as complete."
+      "why": "The digest supplies the film's title image and its structure. One strike of a bell is followed by a long fading hum, and in the same way one contact can set off hundreds or thousands of mind-door processes [C048-M:L7–L9]; the causes of those processes are strikingly ordinary — what someone said, what was read, a question, hunger, thirst, a pain in the body, meeting a friend or an enemy [C048-M:L3–L19]; and a sense process on its own does not yield the knowledge I heard such-and-such, which requires follow-on processes taking the past object, then its name, then its meaning, recorded as one teacher's view [C048-M:L23–L27]. That last point is the whole reason this film can be about listening without being about anybody's ability to listen: the gap it shows is between a sound and knowing what it was, and that gap is in everyone. The digest's limits hold: the Margaya's passing mention of spirits [C048-M:L19] is neither presented as fact nor mocked and is simply not used; the traditional humoral physiology is not translated into hormones or brain chemistry; no judgement about overthinking is added, since the list is descriptive; and the sleep and dream material [C048-P:L25–L33] is doctrinal and is not set beside sleep science."
     }
   ],
-  "what_the_viewer_could_understand": "These texts say that for beings with a body, every moment of mind rests on a piece of living matter, and that what reaches us at all depends on a fine threshold inside the organ rather than the organ we can point to. A household quietly rebuilding how it reaches one of its own is that structure being handled by people who have never read a word of it.",
-  "what_must_be_real": "The elder's own clear, separate and ongoing consent, which outranks the family's and may be withdrawn at any point, including after filming. No framing may turn her hearing loss into a moral lesson, and no part of the sources' teaching about faculties, rebirth or spiritual capacity may be brought anywhere near her.",
-  "position_hint": "held rather than placed: it belongs beside the group's film about several senses working together, as its counterpart, and would sit wherever that film sits if a slot opened.",
+  "what_the_viewer_could_understand": "That a sense is a narrow channel which lets in one kind of thing and nothing else, that hearing something is not yet knowing what you heard, and that the part which feels instantaneous — recognising, locating, naming — all happened after the sound had already finished. Most of what we call hearing is the echo.",
+  "what_must_be_real": "The herd, the country and the listening. Nothing is driven, called, startled or held for the camera, no animal is made to move for a shot, and the day runs to the herd's route and the herders' hours rather than a crew's. No person's hearing, or any other capacity of any person, is the subject, referred to, or implied anywhere in this film: the concepts are carried by distance, scrub and sound, and by nothing about anybody's body. Nobody on screen is presented as the one who hears, recognises or decides. The herders' own knowledge of their animals is theirs and is not corrected or romanticised by the voice, and nothing is filmed that would expose a household's stock, grazing or movements in a way they would not want.",
+  "position_hint": "closing: it is the group's quietest film and the one that best leaves the viewer with the gap still open, because it ends on how much of what we know arrived after the thing that was known had stopped. It should come after the films about turning-toward, order and thresholds.",
   "risks": [
-    "Pity-framing a vulnerable elder instead of showing her own agency and her own view of what she needs.",
-    "The family's consent being allowed to stand in for hers.",
-    "Any implication of a link between hearing loss and the sources' doctrinal claims about faculties or spiritual capacity, which the C037 and C009 digests both forbid.",
-    "Turning a household's ordinary adaptation into an inspirational arc.",
-    "Filming a household over months and leaving them with the consequences of a broadcast."
+    "Any suggestion at all that this is a film about hearing loss, or that anyone in it hears poorly. The project's digests are emphatic that disability must never be used to illustrate doctrine, and the concepts here are carried by distance and vegetation, never by a body.",
+    "Using the sources' claim that the first stage of awakening depends on hearing. The digest says explicitly that it must never be presented as deaf people being spiritually disadvantaged, and the film does not use it in any form.",
+    "Turning the phrase about beings with complete faculties into a judgement about disabled people.",
+    "Narrating the heart-base as cardiology, or as the heart of popular sayings, or using the material to argue that the mind either is or is not the brain.",
+    "Presenting the sense-sensitivity as the eardrum or nerve endings, or the mind-door as the brain.",
+    "Letting the film become a guard-your-senses or a quiet-life message. These extracts are a classification of which minds arise at which door, not advice, and the phrase doors of perception is not used.",
+    "Presenting any person on screen as the one who hears and recognises. A camera cannot show a mind-moment and the group's subject is that there is no separate hearer behind the hearing.",
+    "Adding a judgement that dwelling on things is bad. The sources' list of what sets the mind going is descriptive.",
+    "Romanticising a hard livelihood into a meditative mood, or filming in a way that exposes where a household's animals graze and sleep.",
+    "Distressing or moving animals for a shot, or filming close enough to change the herd's route."
   ],
   "drop_if": [
-    "The elder does not clearly and separately consent, even if the family agrees.",
-    "The family does not want their adaptation shown.",
-    "The story cannot be told without exploiting a vulnerable person's condition.",
-    "The doctrinal frame cannot be kept entirely away from the person on screen."
+    "No herding household will have a crew with them through a working day, or would be put at risk by having their grazing filmed.",
+    "The animals here turn out not to be belled, so the sound the whole film rests on does not exist in this country.",
+    "It can only be made by driving or calling the herd for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0076",
       "relation": "pairs with",
-      "note": "Both study the senses at work, one where several combine in a skilled trade and one where a household adapts as one of them weakens."
+      "note": "Both study a sense at work: one where several are combined in a trade, and one where a whole country can only be known through a single channel."
     },
     {
       "idea_id": "IDEA-0074",
       "relation": "sits beside",
-      "note": "Both are about a threshold below which nothing arrives, one at the edge of a lamp's reach and one inside a person's own hearing."
+      "note": "Both are about a threshold below which nothing arrives, one at the edge of a lamp's reach and one at the edge of what a sound can still cross."
     }
   ],
   "selection": {
-    "recommendation": "hold",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Strong and proposed by the C037 and C045 digests' own story seeds, but the group's twelve slots are filled, and its concept ground is already carried live by other films. Held rather than folded into a kept idea, because a real person's hearing loss should not be carried into a film whose doctrinal frame the digests prohibit applying to it."
+    "reason": "It carries the ear-door, the object and the long echo in a place where the eye is genuinely useless, so the concepts are held by distance and scrub rather than by anything about a person's body."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The old idea was dropped in full and deliberately: it filmed a named, identifiable elder's fading hearing inside her own family, with the household's adaptations to her as the material, and this project's digests are emphatic that disability must never be used to illustrate doctrine and that the sources' own claims linking hearing to spiritual progress must never be read as deaf people being disadvantaged. Nothing of that subject survives here — no person's hearing, and no person's capacity of any kind, appears anywhere in the film. The concepts are kept: the ear-door, the object that comes through it, and how a sound arrives and decays, now carried by a country where a herd of several hundred animals can be thirty metres away and completely invisible, so that everything arrives by ear and nothing arrives from a body. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The open grazing scrub and night cattle posts of the Oddusuddan country",
+    "also_known_as": [
+      {
+        "name": "the Vanni",
+        "meaning": "the dry interior forest and scrub country of the north, between the peninsula and the North Central plain",
+        "used_by": "general Sinhala and Tamil usage"
+      }
+    ],
+    "region": "Mullaitivu district, Northern Province: the flat inland thorn-scrub country of the interior, inland from the coast and east of the Vavuniya road",
+    "coordinates": {
+      "lat": 9.19,
+      "lng": 80.54
+    },
+    "why_here": "It is a country in which the concept is a physical condition rather than a comparison. Cattle here are kept the extensive way, ranging loose over very large areas of thorn scrub through the day and coming in to a fenced post at night, in herds that can run into the hundreds; the bush is dense at head height, so an animal thirty metres off is invisible, and the only practical way to know where a herd is, is to stand still and listen for it. That makes hearing the working sense of the place and gives the film its whole method without a person's body being involved in it at all. It also gives the strongest shot the place produces: an enormous flat plain from a long way up at first light, one thin line of dust moving through it, and a sound on the track that arrived several seconds before the dust did.",
+    "what_to_film": [
+      "The plain from very high before sunrise, empty to every horizon, held long, with a distant bell as the only event.",
+      "Inside the thorn at ground level, where visibility is a few metres and the herd can be close and entirely unseen.",
+      "The herd passing at close range in low sun: backs, horns, dust, and the bells overlapping into one broken rattle.",
+      "A long shot down a sand track as the herd recedes, filmed and recorded well past the point where anything is happening, so the decay of the sound is the shot.",
+      "The middle of the day: empty track, motionless bush, a water point with nothing at it, and as close to silence as the country gets.",
+      "Standing still and listening at last light, including the moment a sound seems to come from the wrong direction.",
+      "The night post: animals in, bells settling one at a time, a lamp, and the black bush outside the fence.",
+      "Sound recorded as carefully as picture, at several distances from the same herd, because the film is finally an audio film with pictures."
+    ],
+    "access": "By road inland from the main north road and then on sand tracks, which are passable in the dry months and much less so after rain. Everything depends on a herding household agreeing to be followed through a working day, and on working to the animals' hours, which are first light and dusk. This is country where wild elephants move, so anything filmed at night or away from a track needs local advice, and drone flight over private grazing and over animals needs the household's agreement and must not move the herd.",
+    "best_time": "The dry months, when the herd ranges widest, the air is clearest and sound carries furthest. Within a day, the hour after first light and the hour before dark, when the animals are moving and the country is quiet enough to hear them.",
+    "images": [
+      {
+        "caption": "A river and its surrounding country in the same district. This is the general landform, not the grazing scrub or any cattle post.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mullaitivu Pali Aru.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mullaitivu Pali Aru.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Dry-zone tree cover of the kind that makes this country unreadable at head height. General vegetation type, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tree shades of the Dry Zone of Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Tree shades of the Dry Zone of Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://reliefweb.int/report/sri-lanka/sri-lanka-stray-cattle-threaten-livelihoods-north",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13500395/",
+      "https://en.wikipedia.org/wiki/Cowbell"
+    ],
+    "research_note": "That free-grazing cattle herds are ordinary in the north, that normal herds run from about twenty to a hundred animals and sometimes as many as three hundred, and that extensive management with a heavy dependence on grazing over abandoned land is one of the systems used in the Kilinochchi and Mullaitivu districts, are from the sources above and are desk research only. That animals in this particular country wear neck bells is not verified: belling free-roaming stock so that herders can locate them by sound when they are grazing out of sight is a general practice, described in the third source as the ordinary purpose of a cowbell, but no source found confirms it for these herds, and the film rests entirely on it. The coordinates are an approximate point for the Oddusuddan area of the district and are a direction, not an address. No household, herd or grazing area has been located or approached. Both images are of the district's general landform and vegetation rather than of the site, which is stated in each caption because no confirmed image of this country's grazing land was found.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the herds in this country are belled at all is unverified, and the film cannot be made if they are not.",
+    "No herding household has been found or approached, and following a herd through a working day depends entirely on one agreeing.",
+    "Whether a herd can be recorded at several distances without the recording itself changing the animals' behaviour has not been tested.",
+    "Access, elephant movement and night safety in this country are unchecked, and they govern whether the dusk and night material is possible at all."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

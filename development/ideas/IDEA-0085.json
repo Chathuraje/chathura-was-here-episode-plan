@@ -2,99 +2,210 @@
   "schema_version": 1,
   "id": "IDEA-0085",
   "record_type": "idea",
-  "title": "The Score for a Vanishing Sound",
+  "title": "Said Before It Is Struck",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Score for a Vanishing Sound"
+  ],
   "group_id": "GRP-05",
-  "logline": "A drumming teacher passes on a rhythm as spoken syllables before letting a student near the drum, a way of writing down, in sound, something that happens too fast to watch.",
+  "logline": "In a small dry-zone town in the north, a temple keeps time with a double-headed drum and a long reed pipe, and every pattern the drum will play exists first as a row of spoken syllables in somebody’s mouth.",
   "human_question": "How do you hand on something that happens faster than it can be watched?",
-  "situation": {
-    "what_happens": "A teacher teaches a rhythm by saying it. The student repeats the syllables, gets them wrong, repeats them again, and is not allowed near the instrument until the pattern is secure in the mouth. Only then do the hands take it over, badly at first, and then, after weeks or months, without any deliberate steering at all. The teacher corrects by making the sound again rather than by explaining, because the thing being taught cannot be described, only produced.",
-    "who_is_involved": "The teacher, often carrying a tradition that came to them the same way; the student, who may be a family member, may be paying, and may not last; and whoever will eventually be on the receiving end of the rhythm when it is used for real, which is the reason it has to be exact.",
-    "what_is_at_stake": "For the student, whether the pattern will ever be theirs. For the teacher, whether something that exists only in living practice survives another generation, and whether this particular student is the one. For a tradition with few teachers left, more than either of them says.",
-    "how_it_unfolds": "Teaching like this runs over months and is measured in a student's failures. The pressures are time, money, the student's other obligations and the teacher's patience. It ends with the rhythm secure, the rhythm half-learned, or the student gone, and no film can hurry it or promise which."
+  "place": {
+    "what_kind_of_place": "A Hindu temple in the middle of a flat, hot inland town at the top of the country: a tall painted gateway tower crowded with figures, a walled courtyard of swept sand and stone, an inner shrine, a lamp stand, and an open hall on one side of the court where the instruments are kept. The instruments are two: a barrel drum with a head at each end, laced and wedged and tuned with a heated stone, and a long reed pipe with a flared bell. Outside the wall the town is low and dusty, a junction of roads with the dry-zone scrub beginning almost immediately behind the last houses.",
+    "why_it_is_worth_watching": "Because for most of the day the temple is a set of hard, bright, almost motionless surfaces — painted stone, swept sand, brass, heat — and then, at the hours the day is cut into, a sound starts that fills the whole enclosure and the street outside it. The double drum is struck faster than a hand can be followed. But before any of it is struck, the pattern is said. A row of nonsense-looking syllables is spoken out loud, at speed, in the same rhythm the hands will use, and only afterwards does it exist as sound in leather. The most photographable object in the place — the drum, laced, wedged, hot in the sun — is also the place where the film’s whole argument sits: the pattern was complete before it arrived there.",
+    "what_moves_or_changes": "The temple day, which is not negotiable: the hours at which the doors open and close, the lamp, the bell, and the music that marks each of them. The heat, which is what the drumheads are tuned against, so the instrument’s pitch drifts through a day and is brought back with a warmed stone. The festival calendar, which turns a quiet courtyard into a street full of people and light for a few nights a year. And the light itself, which comes across a flat town from one horizon to the other with nothing in the way.",
+    "when_it_looks_best": "The nights of the temple’s annual festival, when the courtyard and the street are lit and the playing runs long. Outside that, the first and last services of an ordinary day: at first light the painted tower is grey and then suddenly coloured, and at dusk the lamps go on while the sky behind the tower is still bright."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a temple in a hot small town and the sound it makes. Painted stone against a white sky, swept sand, the slow business of tuning a drum with a heated stone, a reed pipe warming up, and then a long stretch of playing that fills a courtyard and spills into the street. It has a complete shape with nothing said over it: a quiet enclosure, the instruments prepared, the sound arriving, the town outside going on as usual, and the lamps at the end of it.",
+    "with_the_philosophy": "The same courtyard becomes the sources’ own teaching problem, solved out loud. The texts had to hand on a sequence that passes faster than any blink, so they drew it: three dots for each beat, a letter above each one naming what that beat does, a row of seventeen across a page, to be pointed at and recited until it is held [C042-M:L3; C042-M:L25–L40]. That is exactly what is happening here before the hands move. A pattern too fast to watch is carried first in a medium slow enough to be corrected — the mouth — and only then handed to the one where it will vanish. The voice never says the drum is a mind. It says that a tradition which cannot show you a thing can still hand it on by scoring it, and that this is what the charts are."
+  },
+  "sequence": [
+    {
+      "on_screen": "Very high, first light. A flat inland town with a painted gateway tower standing above its roofs, scrub beginning just beyond the last street. Nothing is moving. Slow descent until the figures on the tower separate out.",
+      "voice": "The old teachers had a problem that cannot be solved. The thing they were describing passes faster than a blink, and it cannot be watched, not even by the person it is happening in. So they drew it instead.",
+      "concept_id": "C042"
+    },
+    {
+      "on_screen": "The drum in the open hall, not yet played: laced, wedged, one head pale and one dark, a small heated stone held against the skin. A hand tests it, an ear listens, the stone goes back.",
+      "voice": "Each beat is set down as three dots — it comes up, it stays, it breaks — and above the dots a single letter names what that beat does. Seventeen of them go across a page, numbered, so that a student can point at the run with a finger and say it [C042-M:L3; C042-M:L25–L40]. One book gives twenty-six such letters in its key [C042-P:L23–L39].",
+      "concept_id": "C042"
+    },
+    {
+      "on_screen": "Close on a mouth, then away from it immediately: syllables being said out loud, fast, in strict rhythm, hands resting on the drumheads and not moving. Cut wide to the empty courtyard while the syllables continue over it.",
+      "voice": "Here the same solution is in use, out loud, and nobody in this courtyard has heard of the books. The pattern is said before it is struck. It exists as a row of sounds in a mouth, where it can be slowed and repeated and corrected, before it exists as a row of blows on a skin, where it cannot.",
+      "concept_id": "C042"
+    },
+    {
+      "on_screen": "The playing itself: the drum struck faster than the hands can be followed, the reed pipe over it, the courtyard filling with sound. Held long, in wide shot, from across the sand.",
+      "voice": "The sources are blunt about why the drawing is needed. Nothing a person does, they say, happens in one moment — not seeing properly, not moving a limb, not understanding a single word somebody else has said. Each of those needs a whole ordered run [C038-M:L3].",
+      "concept_id": "C038"
+    },
+    {
+      "on_screen": "Two players side by side in the same frame, each doing only their own part: the drum’s right hand, the pipe’s breath, neither looking at the other. Then the bell, then the lamp, then the doors, each on its own cue.",
+      "voice": "And in the old chart each beat is credited with knowing only its own job [C042-M:L25–L40]. The one that turns toward the thing does not see it. The one that sees does not judge it. Nobody in the row has the whole picture, and the whole picture still comes about.",
+      "concept_id": "C042"
+    },
+    {
+      "on_screen": "The street outside the wall during a festival night: light, a crowd, the same sound from further off, heard through houses and trees.",
+      "voice": "The order is fixed and it is not anyone’s. Turning toward, the bare sensing, receiving, examining, settling what it is, then the short burst where anything is actually done, then a brief lingering [C041-P:L29–L48; C041-M:L5–L11]. The books say the same shape runs at the ear as at the eye [C041-P:L52–L54], which is convenient here, because this film is mostly ear.",
+      "concept_id": "C041"
+    },
+    {
+      "on_screen": "A long hold on the reed pipe’s bell, then on the drumhead, both silent. Then the syllables again, spoken quietly to nobody, over the empty court.",
+      "voice": "One book takes a single moment apart further still: after the flash of it, the mind runs it again as something past, then as bare colour, then as a name, and only in the fourth pass does it get at what the thing meant — and only there can the response be a whole act of anything [C046-P:L117–L151]. Naming is late. Meaning is later.",
+      "concept_id": "C046"
+    },
+    {
+      "on_screen": "Last light. The painted tower against a bright sky, lamps coming on below it, the town flat and dark all around. No sound but the town.",
+      "voice": "The sources are honest that none of this was ever watched. The mind is the hardest thing to study, they say, because it is the thing doing the studying — a knife that can cut anything except itself — and even careful students know these runs only by working backwards [C038-M:L5]. What you have been looking at is not the process. It is the score.",
+      "concept_id": "C038"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C042 contributes the sources' answer to an impossible teaching problem: draw the thing. Each mind-moment is set down as three dots for arising, standing and dissolving, with a letter naming what that beat does, so that something faster than a blink becomes a row a student can point at and recite. C038 contributes what the notation is for, the claim that nothing a person does happens in one moment, and the source's own frankness that the mind cannot examine itself, like a knife that cannot cut itself, so even students know these processes only by inference. C046, folded in with IDEA-0078, contributes what happens in the student between hearing and doing: the sound replayed as past, then named, and only then understood well enough to be produced. C041 contributes the particular sequence the charts were built for. A teacher reciting a pattern before any hand touches the instrument is doing, in sound, exactly what the charts do on a page.",
-    "what_it_reveals": "Alone, the charts look like a study aid. Beside a teacher who cannot describe what she is teaching and therefore sings it, they become the more interesting thing: a whole tradition's answer to the problem of handing on something that cannot be observed. The C038 material, folded in from the interpreter idea, gives the film its honesty. The sources' own example of what needs a whole series is understanding another person's words, and a lesson conducted entirely in syllables is that example running in both directions at once."
+    "why_together": "C042 supplies the film’s whole method. The sources needed to hand on a sequence nobody can observe, so they notated it: three dots per beat for arising, standing and dissolving, a letter above naming the beat’s job, a numbered row across a page to be pointed at and recited [C042-M:L3; C042-M:L25–L40], with a fuller key of twenty-six symbols in the other book [C042-P:L23–L39]. It also supplies the film’s best single line: each beat knows only its own task, so nobody in the row holds the whole picture and the whole picture still comes about [C042-M:L25–L40]. C038 supplies why a score is needed at all — nothing a person does, including understanding a word somebody has just said, happens in one moment [C038-M:L3] — and the candour that keeps the film truthful: the mind cannot examine itself, and even students know these runs by inference only [C038-M:L5]. C041 supplies the fixed order the notation is a notation of, and the fact that it runs the same way at the ear as at the eye [C041-P:L29–L48; C041-M:L5–L11; C041-P:L52–L54]. C046 supplies the late arrival of naming and of meaning, which is what a recited pattern is doing in reverse: the name comes first here precisely because the thing itself will be too fast [C046-P:L117–L151]. Put in a courtyard where a rhythm is said before it is struck, the four stop being a set of tables and become one plain observation about how a tradition hands on the unobservable.",
+    "what_it_reveals": "That a score is not the thing. A viewer who watches a pattern exist twice — once slowly in a mouth, once too fast in a pair of hands — has the exact relation the charts have to the mind they chart, and has it without being asked to believe anything. C042 alone is a teaching aid. C038 alone is a disclaimer. C041 alone is an order of events. C046 alone is a sequence of passes. Together in this courtyard they make the group’s hardest point sayable: what is being described was never seen by anyone, and the drawing of it is an honest admission of that, not a picture of it."
   },
   "concept_links": [
     {
       "concept_id": "C042",
       "role": "primary",
-      "why": "The digest says process charts exist to make an invisible, very fast sequence easy to hold in mind, that each mind-moment is drawn as three dots for arising, standing and dissolving with a letter above naming the kind of mind, and that the chart is not the experience but a score for it, the way written music is not the sound [C042-M:L3-L23]. It adds Margaya's point that each step in the chain knows only its own job, so that nobody in the relay has the whole picture and the whole picture still comes about. The digest's limits are carried: the charts are a traditional teaching notation and must never be animated as though they were brain scans or measurements; and Margaya's aside that registration is 'not very useful' is a teacher's remark to beginners, not a rule that lingering is worthless."
+      "why": "The digest is the source of the film’s form. Process charts exist to make an invisible, very fast sequence easy to hold in mind; each mind-moment is drawn as three dots for arising, standing and dissolving with a letter naming the kind of mind [C042-M:L3], the Margaya numbers a seventeen-beat row and says each mind in it knows nothing beyond its own function [C042-M:L25–L40], and the Pradeepika gives a key of twenty-six letter-symbols [C042-P:L23–L39]. A rhythm spoken before it is played is the same device in another medium, and the digest’s own reading of the chart as a score rather than the experience is the line the film is built on. The digest’s limits are load-bearing. The charts are a traditional teaching notation and are never animated on screen as though they were brain scans or measurements. The digest warns that ‘the mind is a machine’ misreads the text, since the moments are counted as minds and moral weight is placed at the impulsion stage, so the film borrows a notation, never a mechanism. And the Margaya’s aside that registration is ‘not very useful’ [C042-M:L34] is a teacher’s remark to beginners and is not carried on screen as a rule that lingering is worthless."
     },
     {
       "concept_id": "C038",
       "role": "supporting",
-      "why": "Strengthened by the fold-in of IDEA-0078. The digest reports Margaya's claim that nothing a person does, including properly seeing, understanding another person's words, moving a limb, giving or taking, happens in a single mind-moment; each needs a whole ordered series [C038-M:L3]. Understanding another's words is the source's own example, which is what a lesson conducted in spoken syllables is. The digest also gives the knife simile: the mind is the hardest thing to study because it is the thing doing the studying, and even careful students know these processes only by inference, never by watching [C038-M:L5]. Two limits follow. This is not 'slow down and you will see your thoughts arise', which the digest rules out by name. And the digest states plainly that the group's framing 'no separate seer behind it' is not made in these extracts, so this film does not attribute it to C038."
-    },
-    {
-      "concept_id": "C046",
-      "role": "supporting",
-      "why": "Folded in with IDEA-0078. The digest gives the source's staged account of what follows a single arrival at a sense door: the object replayed as past, then sorted, then given its name or concept, which is the moment of recognition, and only then understood, with the full response possible only at that last step [C046-P:L117-L151]. A student who has heard a pattern, holds it, names it and only later can produce it is that sequence spread over weeks instead of moments, which is exactly the analogy of scale a film can honestly make and must flag as one. The digest's guard against 'labels are the problem, stop labelling' matters here, since naming is the whole method of the teaching."
+      "why": "The digest reports the Margaya’s claim that nothing a person does — seeing properly, moving a limb, giving, taking, or understanding the meaning of another person’s words — happens in a single mind-moment; each needs a whole ordered series [C038-M:L3]. A pattern handed over in syllables and then played is that claim twice over, in a place where both halves are audible. The digest also gives the knife simile and the admission that even students know these processes only by inference [C038-M:L5], which is why this film shows a score and not a process. The Pradeepika’s six questions that locate any mind in a process — what it rests on, which channel, what about, what kind of knowing, which sequence, how strongly [C038-P:L33–L51] — are the reason the film can stay descriptive. Two limits are honoured exactly. This is not ‘slow down and you will see your thoughts arise’, which the digest rules out by name, so the viewer is never invited to watch their own mind. And the digest states plainly that the group’s framing ‘no separate seer behind it’ is not made in these extracts, so this film does not attribute that claim to C038; it takes it, where it takes it at all, from C041."
     },
     {
       "concept_id": "C041",
       "role": "supporting",
-      "why": "The digest sets out the seventeen-moment sequence the charts were made to hold, from a disturbed resting mind through adverting, seeing, receiving, investigating and determining to seven moments of impulsion and two of registration [C041-P:L29-L48], and names the four conditions that have to be strong together for it. That is the content of the score, and it is why this episode's lesson can cite it. The digest's limits are carried: seventeen moments is not a timing in milliseconds, and the sources never call the impulsion stage a choice."
+      "why": "The digest gives the fixed order a chart is a chart of: past life-continuum, wavering, arrest, adverting, the bare sense-consciousness, receiving, investigating, determining, seven beats of impulsion, two of registration [C041-P:L29–L48; C041-M:L5–L11], and says the same pattern runs at the ear, nose, tongue and body doors as at the eye [C041-P:L52–L54], which is what licenses a film made almost entirely of sound. The digest’s reading that the seeing is the relay and no watcher stands behind it is the group’s claim, and it is sourced here rather than from C038. Its warnings are carried. The seventeen moments are not a neuroscience timing and no figure in milliseconds is offered. The slogan that freedom lives in the pause between stimulus and response is not used; the digest notes the text says only that impulsion is wholesome, unwholesome or functional [C041-P:L46] and never uses the word choice. Receiving, investigating and determining are never played as slow deliberate steps. And ‘there is no self, so nothing is really seen’ is explicitly not the claim: sound really happens here, and what is denied is a separate hearer behind it."
+    },
+    {
+      "concept_id": "C046",
+      "role": "supporting",
+      "why": "The digest reports the Pradeepika’s taking apart of one ordinary moment: a single sense-door process is followed by four mind-door processes, the first taking the object as past, the second its colour, the third its name or concept, and the fourth its meaning, with only the fourth able to complete a full wholesome or unwholesome deed [C046-P:L117–L151]. That is the film’s last turn, and it is the exact inverse of what the courtyard does: here the name is issued first, out loud, precisely because the thing itself will be too fast to name while it happens. The digest’s note that registration takes only sense-sphere objects, so the clear process has a narrower range than the unclear one [C046-M:L52–L54], is the reason the film does not claim that everything lingers. Its warnings are honoured: no popular neuroscience figures about how fast a brain recognises anything are offered as confirmation; naming is treated as an ordinary step in knowing rather than as the problem, so no part of the film suggests that labelling is a fault; and ‘mind door’ is kept as a technical term and never used to mean open-mindedness."
     }
   ],
-  "what_the_viewer_could_understand": "Some things happen too fast to watch, so people learn them by setting them down in another form. These texts do exactly that for a single act of seeing, charting it as a row of beats, because on their account no act happens in one moment, and because they are frank that the mind cannot watch itself at all.",
-  "what_must_be_real": "The teacher's real method and the student's real pace, with no montage compressing months into an impression of fast progress. A living tradition is filmed on its own terms and with its keepers' agreement about what may be shown, and the charts are never presented as diagrams of brain activity.",
-  "position_hint": "middle: it follows the group's films about single moments and gives the group its one film about how this material is actually taught, which is what the group itself is doing. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That when something cannot be shown, a tradition can still hand it on by scoring it — and that a score is not the thing. What we call one act of hearing is an ordered run of separate beats, each doing one job, none of them holding the whole; and the only honest way to pass that on is the way this courtyard passes on a rhythm, by saying it slowly first and admitting that the fast version was never watched by anyone.",
+  "what_must_be_real": "The temple’s own hours and its own calendar. Nothing is played, tuned, lit or processed for the camera, and no service is moved to a convenient time; if the good sound happens once a day for ten minutes, the film is built out of ten minutes a day. The syllables are the tradition’s own and are recorded as they are actually used, with the players’ account of what they are for taken as authoritative over anything the film wants them to mean. No person on screen is presented as the one who hears, notices or decides — that is precisely what the group’s concepts deny, and no camera can show a mind-moment. The voice never claims the drum, the pattern or the ensemble is a mind. Filming inside an active place of worship happens only where and when the temple permits it, including all limits on footwear, on the inner shrine and on any flight above the enclosure.",
+  "position_hint": "late: it is the group’s account of its own method, so it lands best once the viewer has watched several films take a fast thing apart. It should come after the films that show the order and before whatever closes the group.",
   "risks": [
-    "Treating a living hereditary art form as an illustration of doctrine rather than valuing it on its own terms.",
-    "Exoticising a traditional teaching method for outside audiences.",
-    "Compressing real learning time into a misleadingly fast montage.",
-    "Animating process charts as if they were measurements, which the digest rules out.",
-    "Letting the analogy between a lesson and a mind-moment be taken as an identity rather than a comparison of scale."
+    "Turning the charts into graphics. The digest is explicit that they are a traditional teaching notation and must never be animated as though they were brain scans or measurements, so nothing chart-like is superimposed on the footage.",
+    "Letting the notation imply that the mind is a machine, which the digest names as a misreading; the film borrows a way of writing something down, never a mechanism.",
+    "Following a teacher and a student as characters, so that the film becomes a story about whether one person learns. The subject is the place and the practice, not anyone’s progress.",
+    "Presenting any player or worshipper as the one who hears. A camera cannot show a mind-moment, and the group’s whole claim is that no separate hearer stands behind the hearing.",
+    "Offering the sequence as something a viewer could slow down and observe in themselves, which the digest rules out by name and which the knife simile [C038-M:L5] forbids.",
+    "Attributing the group’s ‘no separate seer’ framing to C038, which the digest says is not stated in those extracts.",
+    "Quoting popular neuroscience timings alongside the sources’ counts of moments, which the C046 digest warns against, or offering any figure in milliseconds for the seventeen moments.",
+    "Carrying the Margaya’s aside that registration is ‘not very useful’ [C042-M:L34] on screen as a general rule about lingering, when the digest calls it a beginner’s evaluative remark.",
+    "Using the language of choice for the burst of response, when the digest says neither extract uses it and the text says only wholesome, unwholesome or functional [C041-P:L46].",
+    "Treating a living religious practice and a hereditary musical tradition as exotic material, or as an illustration of doctrine belonging to a different religion. The temple’s own account of what it is doing comes first.",
+    "Filming in a way that intrudes on worship, or flying over an enclosure where people are at prayer."
   ],
   "drop_if": [
-    "No teacher and student are willing to be filmed over real lessons.",
-    "The teaching method turns out not to use a spoken, syllable-based approach.",
-    "The tradition's keepers do not want it filmed or explained on camera.",
-    "The student leaves early and there is no honest film in what remains."
+    "The temple does not want a camera in its courtyard, or will permit it only on terms that make the sound unusable.",
+    "The spoken-before-played step turns out not to be in live use at this temple, and can only be produced by asking someone to demonstrate it.",
+    "It can only be made by staging a lesson, or by building the film around one student’s progress."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0078",
-      "relation": "absorbs",
-      "note": "Takes in the C038 grounding, the sources' own example of understanding another person's words, the knife simile, and a C046 link on naming and meaning as separate later steps."
-    },
-    {
-      "idea_id": "IDEA-0077",
-      "relation": "sits beside",
-      "note": "Two films about what a mind does with something after the sense has finished with it, one remembering and one learning."
-    },
-    {
-      "idea_id": "IDEA-0086",
+      "idea_id": "IDEA-0079",
       "relation": "pairs with",
-      "note": "Two ways of holding something too fast or too small to watch: a notation that stands in for it, and a material slow enough to watch instead."
+      "note": "One film about a single struck sound and its long tail; this one about the pattern that existed before any sound was struck at all."
+    },
+    {
+      "idea_id": "IDEA-0082",
+      "relation": "pairs with",
+      "note": "Both are about a fixed order that belongs to nobody: one written into a working timetable, one carried in a mouth."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0078"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0044, proposed by the C042 digest's own story seed, and strengthened by folding in IDEA-0078's C038 grounding and its C046 naming-then-meaning strand."
+    "reason": "It is the only film in the group that shows the sources’ own method rather than their subject, and it does it with an object that is beautiful on its own."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The concept is kept — a pattern carried in one medium before it exists in another — but the teacher-and-student framing is dropped, because a film that follows two people learning becomes a story about them and quietly reinstates the separate knower this group denies. Moved to a Tamil temple ensemble in the far north so that it is visibly a different place and a different practice from the slate’s existing drum-making and rehearsal film. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Kandasamy Kovil in the middle of Vavuniya town, and the streets immediately around it",
+    "also_known_as": [
+      {
+        "name": "thavil and nadaswaram",
+        "meaning": "the barrel drum and the long reed pipe that are played together at temple services and processions",
+        "used_by": "Tamil temple usage across the north and east"
+      },
+      {
+        "name": "solkattu",
+        "meaning": "the spoken drum syllables in which a rhythm is recited before it is played",
+        "used_by": "Tamil and South Indian percussion teaching"
+      }
+    ],
+    "region": "Vavuniya district, Northern Province: the flat, hot inland junction town where the dry-zone scrub begins at the edge of the last street",
+    "coordinates": {
+      "lat": 8.7514,
+      "lng": 80.5022
+    },
+    "why_here": "It puts the concept and the best image in the same object. The temple stands near the centre of a small inland town and is a working one, with a painted gateway tower, a walled sand courtyard and a year of services and festivals that are marked by two instruments and nothing else. The drum is laced, wedged and tuned against the heat with a warmed stone, which makes it photographable while it is still silent; and the tradition that plays it hands its patterns over as spoken syllables first, so the thing the film is about happens out loud, in the open, before a single blow lands. It is also visibly unlike anything else on the slate: a Hindu temple in the far north, a Tamil ensemble, a hard bright dry-zone town, and a practice with no workshop and no craft object in it.",
+    "what_to_film": [
+      "The painted gateway tower from high above at first light and again at dusk, wide enough to hold the tower, the courtyard and the flat town around it in one frame.",
+      "The drum alone and silent: the lacing, the wedges, the two unlike heads, a heated stone held against the skin, a hand testing and an ear listening.",
+      "The pattern being spoken — recorded properly, at length, and without a face filling the frame — and then the same pattern played.",
+      "A full service from the courtyard in wide shot, uncut, so that the sound is a place rather than a performance.",
+      "Two players in one frame each doing only their own part, neither watching the other.",
+      "The festival nights: the street outside the wall, the light, the same sound arriving from further away through houses and trees.",
+      "The ordinary temple day between services, which is most of it: swept sand, heat, shadow moving across painted stone, almost nothing happening.",
+      "The town at the edges — the junction, the last street, the scrub starting — so the enclosure has something to be an enclosure inside."
+    ],
+    "access": "By road; the temple is near the centre of the town and reached on foot. It is an active place of worship, so everything depends on the temple authorities: whether a camera is allowed in the courtyard at all, where it may stand, what may be filmed of the inner shrine, when, and on which days. Any flight over the enclosure, and any recording during a festival when the street is full, needs their permission and the town’s. The musicians are the temple’s own and nothing can be filmed without their agreement.",
+    "best_time": "The temple’s annual festival nights, when the playing runs long and the street is lit. Outside that, the first and last services of an ordinary day, for the low light across a flat town and for the quiet on either side of the sound.",
+    "images": [
+      {
+        "caption": "The town itself: the flat, hot inland junction the temple stands in. This is the town, not the temple.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vavuniya City.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Vavuniya City.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A Hindu festival procession in the same district, for the light and the crowd of a festival night. This is a procession in the district, not confirmed as this temple.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vavuniya Kavadi.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Vavuniya Kavadi.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Players of the barrel drum that this film is built around. This is the instrument type and its players elsewhere, not this temple’s ensemble.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional tamil thavil players.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Traditional tamil thavil players.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.lonelyplanet.com/sri-lanka/jaffna-and-the-north/vavuniya/attractions/kandasamy-kovil/a/poi-sig/1195248/357447",
+      "https://hisrilankatravel.com/kandasamy-kovil-in-vavuniya/",
+      "https://www.holidify.com/places/vavuniya/kandasamy-kovil-sightseeing-1265736.html"
+    ],
+    "research_note": "That the temple is dedicated to Murugan, stands near the centre of the town, has an ornate gateway tower and a gold-clad image in its sanctum, and holds observances through the year is from the sources above and is desk research only. The coordinates come from an open mapping database entry for the road the temple stands on and should be treated as a direction, not a surveyed point. That this particular temple keeps a drum and reed-pipe ensemble, and that its players recite patterns as syllables before playing them, is an assumption from the general practice of Tamil temple music in the north and east and has not been verified for this temple; it is the first thing to check, and the film does not exist if it is wrong. Nobody at the temple has been approached and no permission has been sought. None of the three images is of this temple: one is of the town, one of a festival procession in the district, and one of the instrument and its players elsewhere. Each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether this temple in fact uses a drum and reed-pipe ensemble, and whether its players recite patterns before playing them, is unverified and decides whether the film exists.",
+    "No approach has been made to the temple, and an active place of worship may refuse a camera in the courtyard or restrict it to the outer enclosure.",
+    "Whether the spoken step happens anywhere a camera could be present, rather than only in private teaching, has not been checked.",
+    "Festival dates, and whether filming is possible at all when the street is full, are unknown.",
+    "How much usable quiet there is around the sound in a town this busy is unverified, and the film depends on the contrast."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,98 +2,195 @@
   "schema_version": 1,
   "id": "IDEA-0073",
   "record_type": "idea",
-  "title": "The Work Between Moments",
+  "title": "The Stone Keeps Every Mark",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [
+    "The Work Between Moments",
     "IDEA-P01-A"
   ],
   "group_id": "GRP-05",
-  "logline": "A skilled worker judges a raw material in about a second, commits to a cut that cannot be taken back, and works it to a finish that reality alone decides.",
-  "human_question": "When a whole trade rests on judgements made faster than anyone can explain them, what is actually happening inside each of those moments?",
-  "situation": {
-    "what_happens": "A worker receives a piece of raw material that has to be read before anything can be done to it. The first judgement is made in about a second and decides what the piece will become, what it will be worth, and whether the day's labour is wasted; the worker cannot fully say how it was made. Then comes the working itself, a sequence of steps most of which cannot be undone, carrying dozens of smaller judgements of the same kind: a check, a correction, a pause, a decision to stop. At the end the piece is right or it is not, and the difference is money.",
-    "who_is_involved": "The worker whose judgement the trade actually pays for; whoever is learning the trade beside them and does not yet see what they see; the person who supplied the raw material and the person waiting for the finished piece, both of whom have money riding on a judgement neither of them can check.",
-    "what_is_at_stake": "For the worker, the value of the piece and a reputation built entirely on being right quickly. For the learner, whether a skill its own holder cannot explain can be handed on at all. For the supplier and the buyer, real money. For the film, the obligation never to present a person's face as evidence of what is happening in their mind.",
-    "how_it_unfolds": "Work like this begins when a piece arrives and ends when it is finished, sold or spoiled, usually within a day or a few days. The pressures are the material itself, the light available to see it by, the time it takes and what has been promised to somebody else. It can end with a piece worth more than the material, a piece worth less, or a piece ruined by one wrong move, and which of those happens is decided by the material and the hand, not by the film."
+  "logline": "A low grey outcrop in dry scrub is being taken apart for building stone, one block at a time: a line is read off the rock in about a second, holes are cut along it, wedges are driven in sequence, and the stone parts along a plane that nobody can put back.",
+  "human_question": "What is actually happening in the second before a judgement that cannot be taken back?",
+  "place": {
+    "what_kind_of_place": "A small building-stone quarry on a low dome of banded gneiss standing a few tens of metres out of dry-zone scrub. A crew of a handful of people works one or two faces at a time. The rock is read for its natural banding and for the hairline partings already in it; a line is marked; a row of holes is cut along that line with hand steel or a small compressor drill; flat wedges are set in the holes and struck in turn until the block parts. What comes off is squared on the spot into building blocks or is broken down for rubble and road metal. Around the working face are the benches and floors of everything taken out in previous years, an apron of waste, a stack of finished blocks under a tin roof, and older workings that have filled with rainwater.",
+    "why_it_is_worth_watching": "From the air it is a rounded natural dome with straight lines cut into it, which is a thing a camera rarely gets: geometry laid over geology, and every straight edge in the frame the record of a decision made in about a second. Freshly split planes are pale and almost mirror-flat and hold low sun like water; the weathered rock beside them is dark and rounded. On the ground the whole event is audible before it is visible: the drill's rhythm, the chink of wedges struck in order down a line, the sound of the rock changing as it takes the strain, and then a crack with nothing dramatic about it, after which a face that never existed is standing in the open air.",
+    "what_moves_or_changes": "The face retreats a few metres a year, so the place is a slow-motion subtraction and the shape of the hill is being edited. Light moves across the split planes and shows a different set of them every hour. A new split is bright and within weeks begins to dull, so the age of every face is readable as a tone. Water stands and dries in the old workings. The waste apron grows. None of it can be scheduled except the hour of the day, and a split either comes clean or it does not.",
+    "when_it_looks_best": "The dry months, when the floor is workable and the dust hangs in low sun. First light and last light, raking along the split planes so the cut faces separate from the weathered rock; and the few minutes immediately after a block comes away, when the new face is still bright and the dust is still in the air."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about rock, hands, weight and the geometry of taking something apart. Drone over a grey dome with straight lines cut into it, the long patient drilling, the row of wedges going in, the split, the squaring, the loading, and the light moving over faces of every age at once. It has a complete shape with no words over it at all: something very old and very slow being worked on by something small and fast, and a hill getting smaller.",
+    "with_the_philosophy": "The same quarry becomes a place where a claim about the mind can be read off a surface. The sources say every moment of experience, however small, has the same seven parts, and that recognising works by leaving marks: each act of recognising deposits a mark, the next recognises by that mark, and over years recognition becomes firm without ever becoming explainable. A quarry face is that sentence made physical. It is covered in the marks left by everyone who ever read it, and each of those marks is what the next reading uses. The voice never claims to know what is in anybody's mind, and never presents a person as the one who sees."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, very high. A rounded grey dome in dry scrub, tank country and a village road beyond. One flank of the dome has been cut into straight lines and flat planes, pale against the weathered rock. No people yet.",
+      "voice": "Every straight line you can see in this hill was decided in about a second, and then could not be undecided. The curved part is what the weather did. The flat part is what somebody saw.",
+      "concept_id": "C020"
+    },
+    {
+      "on_screen": "Ground level at the face. Banding in the rock, a hairline parting, a wet palm print drying off the surface, a line scratched along the stone with a nail.",
+      "voice": "The old books are strict about what an eye is actually handed. Not a flaw, not a block, not a price. A blend of colour, and nothing else [C036-P:L41]. Each of the six channels carries only its own kind of thing, and colour is all this one carries [C036-P:L25–L31]. The line on this rock is not in the colour. It comes from everything that has been seen before.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "The drilling. A row of holes going in along the marked line, one after another, over a long time. Dust cones. The older faces behind, covered in the half-holes of splits made years ago.",
+      "voice": "The sources describe recognising as a thing that works by marks: each act of recognising leaves a mark behind, and the next one recognises by that mark, until the recognising is firm and can no longer be explained by whoever does it [C020-P:L33–L109; C020-M:L9–L37]. That is not a metaphor here. The wall this crew is reading is made of the marks left by every earlier reading of it.",
+      "concept_id": "C020"
+    },
+    {
+      "on_screen": "Wedges set into the line of holes and struck in sequence, back and forth along the row. The sound tightening. Then the crack, and a hairline opening the length of the block.",
+      "voice": "Seven things, the books say, are in every single moment of mind, the small ones as much as the great: something touches, it feels like something, it is recognised, there is a push behind the next move, the mind rests on one part of it, the moment is held open long enough to happen, and attention is pointed [C020-P:L27–L29; C020-M:L3–L5]. The push is in the striking, and it is in the looking too. The books put it in seeing and walking and eating, not only in the big decisions [C020-P:L75–L79].",
+      "concept_id": "C020"
+    },
+    {
+      "on_screen": "Two blocks apart. One split dead flat, a plane you could rule a line on. Cut to another face where a split wandered, stepped, and left a block worth only rubble. No commentary from anyone on either.",
+      "voice": "Nothing tastes of nothing, the books say. Every moment arrives pleasant, unpleasant, or neither, and there is no fourth way for it to arrive [C032-M:L5]. A good split and a bad split both have a flavour, and the flavour came with the moment rather than being added to it afterwards.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "Hands. A block rolled, levered, walked on a bar. Grit, a split fingernail, the jar of a hammer travelling up an arm, water drunk out of a bottle in the shade.",
+      "voice": "Of all the kinds of mind the sources count, plain bodily pleasure sits in exactly one, and plain bodily pain in exactly one, and both of them are touch [C032-M:L7; C032-P:L99; C032-P:L103]. Everything else that we call pleasure is something the mind makes around a sensation. This work is done through the one door where it lands directly.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The waste apron: blocks that failed, stacked or tipped. Beyond it an old working, flooded, still, holding the sky. A squaring hammer going on somewhere out of frame.",
+      "voice": "One more thing the books are careful about. The turning-toward, the pointing of the mind at one thing out of everything in front of it, is in every mind there is, including the worst ones, and it cannot by itself decide whether what it picked up is good or bad [C020-P:L109]. Turning toward something is not yet deciding anything about it.",
+      "concept_id": "C020"
+    },
+    {
+      "on_screen": "Last light, climbing away. The whole dome: split planes of every age catching the sun at different strengths, the working face, the stack of finished blocks, the road out. The hill smaller than it was and no way to tell by looking.",
+      "voice": "A camera can film the rock, the line, the wedge and the hand. It cannot film anyone seeing, and this film does not pretend to. On these books' account there is nobody standing behind the seeing to be filmed. There is a sequence of very fast parts, and then a hill with a flat side.",
+      "concept_id": "C020"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C020 contributes the claim that every moment of experience, however small, carries the same seven parts: something touches the mind, it feels like something, it is recognised, there is a push behind the next move, the mind rests on one aspect of it, the moment is sustained, and attention is pointed. Its account of recognition is what this film is about: each act of recognising leaves a mark, the next recognises by that mark, and over time recognition becomes firm, which is why a craftsperson sees a flaw at a glance and cannot say how. C036 contributes the limit on what the eye actually receives, a blend of colour and never the thing itself, so the name, the grade and the price are added afterwards from everything seen before. C032 contributes the claim that no moment is ever flavourless: each one arrives pleasant, painful or neither, and the sources say there is no fourth way. In a trade built on instant judgement all three run inside a single second of work.",
-    "what_it_reveals": "On its own C020 is a list to be memorised. Set inside work where a judgement is worth money, it becomes an account of how a skill is actually built, not by insight but by years of marks laid down on top of one another, and it explains the thing skilled people always say, that they know but cannot tell you how. Adding C036 shows that the instant verdict is not a deeper kind of seeing but the same bare colour everyone gets, with a lifetime of naming attached to it. And because C032 insists every such moment has a tone, the film can hold the fact that one second was both a technical judgement and something that felt like something, including, as the digest notes, pain nobody knows about unless they ask."
+    "why_together": "C020 supplies the mechanism: seven factors in every mind whatever its quality [C020-P:L27–L29; C020-M:L3–L5], among them a recognising that works by depositing marks and reading by them until it is firm and no longer explainable, and a push present in every act however small [C020-P:L33–L109; C020-P:L75–L79]. C036 supplies the limit on what the eye is ever handed: colour, a blend of it, and never the flaw or the grade or the value [C036-P:L41], each channel carrying only its own kind of object [C036-P:L25–L31]. C032 supplies the tone that comes with every one of those moments, threefold with no fourth [C032-M:L5], and the fact that of all the kinds of mind counted, plain bodily pleasure and plain bodily pain each occupy exactly one, and that one is touch [C032-M:L7; C032-P:L99; C032-P:L103]. On a quarry face the three stop being a classification. What arrives is colour; what decides is marks left by earlier arrivals; what the work costs lands through the one door that cannot stay neutral.",
+    "what_it_reveals": "That a judgement which looks like a single indivisible act of insight is, on this account, an assembly of parts none of which is insight, and that the record of it is not in anybody's head but on a wall. C020 alone would be a film about seven things nobody can photograph. C036 alone would be an argument about colour. C032 alone would be a lecture on feeling. Together on a rock face they let the viewer watch the whole claim from outside: the marks are visible, the split is irreversible, the cost is in the hands, and at no point is a person presented as the one doing the seeing."
   },
   "concept_links": [
     {
       "concept_id": "C020",
       "role": "primary",
-      "why": "The digest gives the seven factors as present in every single mind without exception, contact, feeling, perception, volition, one-pointedness, the mental life-faculty and attention, and adds that in the weakest minds, the ten sense-consciousnesses, these seven are the only factors present [C020-P:L27-L29; C020-P:L111]. Its account of perception carries this film: recognising works by marks, each recognition leaves a mark for the next, recognition grows firm over time, and perception knows 'red' without knowing why it is red. Four of the digest's limits are held to. Attention here is not mindfulness in the modern sense: it is present in angry and greedy minds too and cannot by itself choose good over bad [C020-P:L109]. Volition as kamma is not 'intention is what counts'; the source ties it to every act, even eating or walking, and to results that follow like a debt [C020-P:L75-L79]. The life-faculty is not a soul or 'life energy', a misreading the digest warns against by name [C020-P:L97]. One-pointedness is not productivity focus; it is present even in a restless mind, which the source compares to a jolting chariot that still carries its passenger [C020-P:L89]. The seven are a way of attending to real work, never a seven-step structure for the film and never a diagnosis of anyone's mind."
+      "why": "The digest's core is that seven factors arise with every single type of mind, wholesome or not, and that in the weakest minds of all they are the only factors present [C020-P:L27–L29; C020-M:L3–L5; C020-P:L111]. Two of the seven carry this film. Recognising works by leaving a mark and reading by it, which is the digest's own account of why a craft sense becomes firm and stays unexplainable; and volition is the push in every act, which the sources place in seeing and walking as much as in deciding [C020-P:L33–L109; C020-M:L9–L37; C020-P:L75–L79]. The digest's limits are honoured on screen. Attention here is not mindfulness in the wellness sense: it is in every mind including greedy and angry ones, and on its own cannot choose good over bad [C020-P:L109], so the voice says exactly that rather than praising anyone's concentration. One-pointedness is not productivity focus, and the film never compliments the crew on theirs. The life-faculty is not a soul or a life force and is not narrated at all [C020-P:L97]. Volition as kamma is not 'intention is what matters', so nothing in the voice turns the crew's care into a moral score."
     },
     {
       "concept_id": "C036",
       "role": "supporting",
-      "why": "Folded in with IDEA-0075. The digest insists the eye meets only colour, a blend of the colours of many tiny clusters, and that knowing 'I saw such-and-such a thing' comes from marks learned in earlier seeing [C036-P:L37-L41; C036-M:L9]. A trade in which a material's worth is settled by eye in about a second is that gap made economic: what arrives is colour, and the grade, the name and the price are added from experience. The digest's guard applies without exception: 'perception is an illusion' distorts the source, for which colour is a real event and only the assembled, named thing is a convention."
+      "why": "The digest gives six kinds of object matched to six doors, each door taking only its own kind and only what is present [C036-P:L25–L31; C036-P:L125–L161], and, in the reading this film needs, the colour of any substance as a mixture of the colours of many clusters, so what the eye meets is a blend and the naming comes from what has been met before [C036-P:L41]. That is the whole gap this film is built in: colour arrives, a line does not. The digest's limits govern the voice. 'Perception is an illusion' is refused, because for the source colour is a real event and only the assembled named thing is a convention, so the film never suggests the rock is not there. The source's account of how sound and smell travel through chains of material clusters is a traditional explanation and is not presented as physics. The deathbed objects and the rebirth teaching attached to them are not used. And the digest's flagged tension between calling the visible object unmixed [C036-P:L61; C036-P:L115] and calling it a mixture [C036-P:L41] is left to the experts rather than resolved on screen."
     },
     {
       "concept_id": "C032",
       "role": "supporting",
-      "why": "The digest states that feeling is present in every mind, that by the way it is experienced it is threefold, pleasant, painful or neutral, and that the sources say outright there is no fourth way [C032-M:L5; C032-P:L43]. That keeps the film from flattening a long, difficult working day into one mood. The digest also separates hidden pain, a toothache or a mind burning with worry that nobody knows about unless they ask, from the open kind, which is exactly why this film may never attribute a feeling from a face alone and must wait for the participant's own words. C032 belongs to another group's concept set and is carried here because this episode's lesson teaches it; nothing in this idea extends it past what that lesson cites."
+      "why": "The digest holds that feeling tastes the flavour of whatever the mind takes, that it is therefore in every mind, that it is threefold by the way it is experienced with no fourth way [C032-M:L5], and that when all the kinds of mind are sorted, plain bodily pleasure and plain bodily pain each occur in exactly one of them, touch [C032-M:L7; C032-P:L99; C032-P:L103]. In a place where the work is levering, striking and carrying, that count is the honest thing to say about what the day costs, and it keeps the film from treating hard labour as picturesque. The digest's limits are kept. 'Chase good vibes' is refused. 'Neutral means numb' is refused, so the long undramatic stretches are not read as emptiness. The threefold suffering teaching and the three kinds of it rest on the Pradeepika alone and the digest flags them as standing on one source [C032-P:L111], so the voice does not build on them and never says anything like 'life is suffering' over people at work. The digest's own note that the group gloss about pleasant feeling being where wanting begins is editorial rather than sourced is respected by leaving that claim out entirely."
     }
   ],
-  "what_the_viewer_could_understand": "Every moment of real work, easy or hard, is made of the same few parts: something is touched, it feels a certain way, it is recognised, there is a push behind the next move, and attention points somewhere. A skilled worker's instant judgement is not a gift but thousands of earlier recognitions stacked on each other, which is why they are right and cannot tell you how.",
-  "what_must_be_real": "The material, the money and the consequence must be real, and no judgement may be re-made for the camera. The edit may never offer a face alone as evidence of an inner state: comfort, pain, recognition and decision are described by the participant in their own words and never supplied by an interviewer. The seven factors are not to be narrated over the work as though they could be watched happening, which the digests say plainly they cannot.",
-  "position_hint": "middle: a close study of ordinary skilled work, placed after the films about what a single sense receives and before the films about how a sequence too fast to watch is taught and charted. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That an instant judgement is not a single act but an assembly of very fast parts, that what an eye is handed is colour rather than meaning, and that the reason a trained reading of a material is unexplainable is that it is built out of marks left by earlier readings rather than out of reasons. And that seeing this does not require anyone to be looked into: the evidence is on the wall, not in a face.",
+  "what_must_be_real": "The rock, the line, the split and the failures. No block is split for the camera that would not have been split, no line is marked twice for a better angle, and a split that wanders is filmed exactly as it happened rather than replaced with a clean one. No person on screen is framed, cut or narrated as the one who sees, as an example of skill, or as an instance of any mental factor; the voice describes a process and points at a surface. The crew's pay, their safety gear or its absence, and the legality of the working are not tidied out of frame, and nothing in the film turns hard and badly paid work into scenery. If filming would slow a lift, crowd a face, or put anyone within reach of a block, it does not happen.",
+  "position_hint": "middle: it is the group's plainest demonstration that a judgement which feels like one act is made of parts, and it should sit after the film that establishes how little of what arrives is registered at all and before the films that take a single clear sight apart moment by moment. No location reasoning is involved.",
   "risks": [
-    "Drifting into passive observation of a task with nothing genuinely at stake.",
-    "Over-attributing inner feeling to facial expression rather than to what a participant actually says.",
-    "Narrating the seven factors over the work as a checklist, which the digest's warnings about attention, volition and one-pointedness rule out.",
-    "Glamorising a trade whose product can be worth a great deal while the labour behind it is not, or exposing prices, sourcing or trade confidences that could put a participant at risk (folded in from IDEA-0075).",
-    "Treating an instant judgement as mystical skill rather than as accumulated recognition, which is what the sources actually describe."
+    "Presenting a worker as the one who sees. The group's whole claim is that there is no separate seer, and a reaction shot of a face reading a rock would deny it in one cut.",
+    "Turning dangerous, dusty and often informally regulated work into a beautiful sequence. The cost of the work must stay legible, and the digest's own reading of hidden versus open suffering is a warning not to let a wide shot answer for it.",
+    "Narrating the three kinds of suffering, or any 'all conditioned feeling is suffering' line, over people at work. The digest notes that this teaching rests on one of the two sources [C032-P:L111] and the film does not build on it.",
+    "Reading the long undramatic stretches of drilling as calm or as emptiness. The digest is explicit that neutral feeling is not numbness.",
+    "Letting attention or one-pointedness drift into the modern language of focus and mindfulness. Both are present in every mind including the worst, and attention on its own cannot decide anything [C020-P:L109].",
+    "Presenting the sources' account of how colour arrives as physics or optics, or suggesting that because the eye meets only colour the rock is somehow not real.",
+    "Filming a split from anywhere a fragment can reach, or asking for a wedge to be struck on a cue."
   ],
   "drop_if": [
-    "The work has no independent human stake beyond illustrating the concepts.",
-    "Access would require staging actions or disrupting a livelihood.",
-    "Participants do not want inner experience discussed, so the film could only infer it from images.",
-    "The judgements turn out to be freely revisable, so nothing is actually risked in the moment.",
-    "Research shows the framework distorts how the participants understand their own work."
+    "No working face can be filmed safely at the distance the shot needs, or the only way to get the split is to ask for one.",
+    "The working cannot show its permits, or filming would expose the crew to consequences they have not agreed to.",
+    "Drone flight over the outcrop cannot be permitted, which removes the shot the whole film is built on."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0075",
-      "relation": "absorbs",
-      "note": "Takes in the instant-verdict strand: a material judged by eye in about a second, the years behind that second, and the gap between raw colour and a trained name and price."
+      "relation": "pairs with",
+      "note": "Two films about a judgement made in about a second: one where the material records every judgement ever made on it, and one where the material is transparent and the light has to be carried in."
     },
     {
       "idea_id": "IDEA-0081",
       "relation": "mirrors",
-      "note": "Both are built from repeated small acts of noticing and response across an ordinary working day, one over a material and one over a street."
+      "note": "Both are built from many small acts of noticing and response across an ordinary working day, one over a material and one over a street."
     },
     {
       "idea_id": "IDEA-0087",
       "relation": "pairs with",
-      "note": "One watches colour judged fast in poor light with no time to check, the other a judgement that is checked and then made irreversible by a tool."
+      "note": "One watches colour judged fast in poor light with no time to check, the other a judgement checked and then made irreversible by a tool."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0075"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0043, and is no longer an abstract 'any real task': IDEA-0075's instant-verdict situation and its C036 link give it a real trade to be about."
+    "reason": "It is the group's clearest case of an instant judgement whose whole history is legible on the material rather than in a person."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape and moved to the Eastern Province. The old abstract 'a worker and a raw material' situation is gone; the film is now a stone quarry, where the marks left by earlier readings are physically on the wall the next reading uses, and where the irreversibility is a plane of rock rather than a claim about a trade. Concepts re-read from the digests and every citation re-verified; the merge with IDEA-0075 is undone, because that idea now has a material and a place of its own."
+  },
+  "suggested_location": {
+    "name": "A small building-stone quarry on the low gneiss outcrops inland of Kinniya, in the dry-zone interior of Trincomalee district",
+    "also_known_as": [
+      {
+        "name": "gal wala",
+        "meaning": "the stone pit: the ordinary Sinhala name for a working of this kind",
+        "used_by": "Sinhala building-trade usage"
+      }
+    ],
+    "region": "Eastern Province, Trincomalee district: the scrub and tank country behind the Kinniya and Thampalakamam side of the inner bay, inland of the coast road",
+    "coordinates": {
+      "lat": 8.48,
+      "lng": 81.16
+    },
+    "why_here": "The dry-zone interior of this district is bare banded gneiss with a thin skin of scrub over it, and low outcrops of exactly this kind are what the whole eastern building trade cuts its blocks from. A quarry here is small, ordinary and entirely unglamorous, which is what the film needs: nobody is performing, and the only thing to look at is rock that has been decided on. It also puts the concept and the best image in one frame, because the single most beautiful shot the place produces, a dome of weathered grey with mirror-flat planes cut into one flank catching low sun, is the same thing as the concept: a surface covered in the marks of every judgement made on it. And the district is one of the two in the country's east that the slate has not touched at all.",
+    "what_to_film": [
+      "The outcrop from high above at first and last light, wide enough to hold the whole dome, the cut flank and the scrub around it, so the straight lines read against the curve.",
+      "The working face at eye level: banding, hairline partings, the wet mark of a palm, a line scratched along the rock.",
+      "The full length of the drilling, uncut, so the viewer feels how much time goes into a line that will be used once.",
+      "Wedges being set and struck in sequence along the row, with the sound of the rock changing, and then the split, filmed from a safe distance on a long lens.",
+      "A new face in the first minutes after it opens, while it is still bright, and the same kind of face at one year and at ten.",
+      "The waste apron and the failed blocks, filmed as plainly as the good ones.",
+      "Older workings filled with rainwater, still, holding the sky, with the cut walls going down into it.",
+      "Loading and the road out, so the film ends with the hill a little smaller and nothing to show for it in frame."
+    ],
+    "access": "By road inland from the coast road; the last stretch to any working of this kind is a track made by the lorries. Every quarry is somebody's licensed working, so both ground filming and any drone flight depend on the operator's agreement and on whatever the district permits require for blasting or splitting sites. Work stops in heavy rain and starts very early.",
+    "best_time": "The dry months of the year, when the floor is workable. First light and the hour before sunset, when the sun rakes along the split planes; and whatever day a block is due to come off the face.",
+    "images": [
+      {
+        "caption": "Dry-zone country in the same district, with the scrub and the light this film would be shot in. This is the surrounding landform, not the quarry.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Solo tree in Kantale.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Solo tree in Kantale.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Farmed country in the interior of the same district, for the ground the quarry road runs out through. Again the surrounding landform, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy field pankulam.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Paddy field pankulam.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Trincomalee_District",
+      "https://www.srilankabusiness.com/blog/mineral-resources-from-sri-lanka.html",
+      "https://www.researchgate.net/publication/308127906_An_Ethnoarchaeological_Study_of_Stone_Quarrying_Techniques_in_Historical_Anuradhapura",
+      "https://refubium.fu-berlin.de/bitstream/handle/fub188/11383/Dissertation_Wagalawatta_2016.pdf?sequence=1&isAllowed=y"
+    ],
+    "research_note": "That the island's building stone is gneiss and related metamorphic rock and that it is quarried across the dry zone, and that stone has long been split here by cutting a line of holes and driving wedges along it so that the fracture runs straight, are from the sources above and are desk research only. No individual quarry, operator or crew has been located or approached. The coordinates are an approximate point in the interior of the named district and are a direction, not an address. The two images are of dry-zone country in the same district and not of any quarry, which each caption says. Whether hand splitting rather than blasting is still normal at the scale this film needs, and what the district's permit position is, are unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": "docs/planning/pilot-01/idea-p01-a-the-work-between-moments.md",
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction.",
-    "C084 was read during the pilot phase and deliberately left unattached; this idea does not need it."
+    "No quarry, operator or crew has been found or approached. Everything here is a research direction.",
+    "Whether a working of this size still splits by hand and wedge rather than by blasting, which the film depends on entirely, is unverified.",
+    "Drone flight over an active quarry, and filming anywhere near a split, may be refused outright on safety grounds.",
+    "The employment and safety conditions at any particular working are unknown, and they decide whether this film can be made honestly at all.",
+    "The digest's unresolved tension over whether the visible object is 'unmixed' or a mixture [C036-P:L61; C036-P:L115; C036-P:L41] needs an expert view before the voice states it as flatly as the second beat does."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

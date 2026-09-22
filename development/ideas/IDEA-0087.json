@@ -2,92 +2,196 @@
   "schema_version": 1,
   "id": "IDEA-0087",
   "record_type": "idea",
-  "title": "Only Colour, Not Yet a Flower",
+  "title": "Before It Has a Name",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Only Colour, Not Yet a Flower"
+  ],
   "group_id": "GRP-05",
-  "logline": "At a flower market before dawn, buyers sort and price by colour in the half-light, before the flowers' names or uses matter at all.",
-  "human_question": "What does the eye actually take in, before a thing is named as a flower, the right one, or good enough?",
-  "situation": {
-    "what_happens": "Flowers arrive before first light and have to be sorted, graded, bundled and sold within a couple of hours, because they are wanted the same morning and will not keep. The judging is done fast in light that is barely adequate, and it is done almost entirely on colour and freshness. Prices are settled in minutes and disputes about quality are settled the same way, by people who have been trading with each other for years and will again tomorrow.",
-    "who_is_involved": "The growers or their carriers, who have travelled overnight; the buyers, many of them supplying the same customers every day; whoever runs the market floor; and the customers at the far end, who will never know how fast the grading happened.",
-    "what_is_at_stake": "For a grower, a night's transport and a day's crop, which is worth nothing by afternoon. For a buyer, a margin on stock that must move within hours. For anyone who misjudges in the half-light, the loss lands the same morning.",
-    "how_it_unfolds": "Trading like this starts when the stock arrives and is over before the day properly begins. The pressures are volume, quality, the hour and the light. It ends with everything sold, a glut that clears at a loss, or a shortage that lifts prices for one morning, and none of that can be arranged."
+  "logline": "In coconut country an hour inland from the sea, flowers grown for export are cut in the dark and graded under bulbs, and for about twenty minutes each morning the whole belt of shade houses turns from grey to colour before anything in it can be told apart.",
+  "human_question": "What does the eye actually take in, before a thing is named at all?",
+  "place": {
+    "what_kind_of_place": "A belt of small growing places scattered through coconut smallholdings and low wet country an hour inland from the west coast: not one farm but dozens of them, a few hundred square metres each, tucked between houses and palms. Black shade netting stretched on poles, beds of anthurium and foliage underneath it, orchid benches, tanks and drip lines, a concrete-floored packing room with a bare bulb, boxes, sleeves, rubber bands, and a van that leaves before the roads fill. Outside the netting the country is coconut, scrub, a canal, a tar road, and more netting a few hundred metres further on.",
+    "why_it_is_worth_watching": "Because the best twenty minutes here are the ones where nothing can be identified. Before light there is a landscape of black net and grey shapes. Then colour arrives — not object by object, but everywhere at once, filling the whole frame while the individual flowers are still a mass — and only afterwards does anything become a particular thing. From the air the belt is a scatter of dark rectangles in coconut, which is an odd and beautiful pattern in its own right; and on the ground it is a place organised entirely around colour, where stock is put in lanes by shade long before anyone says a name out loud, and the names arrive last, printed on a carton.",
+    "what_moves_or_changes": "Light, which is the whole subject and which arrives on its own schedule. The dispatch hour, which is fixed by a flight or a lorry and so pulls the whole morning earlier than anyone would choose. Weather, because shade netting is a way of arguing with the sun and rain settles what can be cut. Season and demand abroad, which decide what is in the beds at all. And the beds themselves, which are replanted, so a house that is solid colour one year is bare benches the next.",
+    "when_it_looks_best": "The half hour on either side of first light, which is the film. A clear morning after rain, when the netting drips and the air is clean. Across the year, the weeks running up to whichever distant holiday the belt is packing for, when the houses are full and the packing room runs longest."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about light arriving in a place built to control it. Black netting in coconut country before dawn, torches, the sound of cutting, grey beds that become violently coloured over twenty minutes, hands under a bulb sorting by shade, boxes filling, a van leaving on an empty road, and the same country in full daylight looking like nothing in particular. It has a complete shape with nothing said over it: dark, arrival, colour, order, departure.",
+    "with_the_philosophy": "The same twenty minutes become the sources’ plainest claim about seeing. The texts say the eye never meets a flower. It meets colour — a blend of the colours of many tiny clusters — and the knowing of it as this or that thing comes from marks laid down in earlier seeing [C036-P:L37–L41; C036-M:L9]. Here that order is not an argument; it is the working sequence of a morning. Colour arrives before anything is identifiable, the trade sorts by colour before it speaks a name, and the name itself turns up last, printed on the side of a box going somewhere else. The voice never claims that anyone here is deceived, and never says perception is an illusion — the sources are clear that colour is a real event, and only the assembled thing is a convention."
+  },
+  "sequence": [
+    {
+      "on_screen": "Total dark, very high. A torch moving under netting, then two, then a scatter of them across the belt. Nothing has a colour.",
+      "voice": "Nothing is getting in yet. The old texts are precise about this: the sensitive spot where sight actually lands is not the eye anybody can point to, and unless something strikes it hard enough to interrupt the mind’s resting state, there is no seeing at all [C035-P:L27].",
+      "concept_id": "C035"
+    },
+    {
+      "on_screen": "The twenty minutes, held in one rising shot: the belt of shade houses going from grey to colour, everywhere at once, while individual flowers are still a mass.",
+      "voice": "Watch what arrives, and in what order. Colour is here before anything is anything.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "Inside a house at the moment colour separates: beds resolving into reds, whites, greens; still no shape you could name at this distance.",
+      "voice": "The sources say the eye never meets a flower. It meets colour — on one account a blend of the colours of many tiny clusters — and the knowing of it as such-and-such a thing is added from marks laid down in earlier seeing [C036-P:L37–L41; C036-M:L9]. That is not a claim that you are being fooled. The colour is a real event. The flower is a convention laid over it.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "A packing room under one bulb: cut stems going into lanes by shade, hands moving fast, not a word spoken. Then sleeves, rubber bands, boxes.",
+      "voice": "And the first moment of it carries no verdict. The sources call these bare sensing moments weak, needing an intact sensitivity, something to see, a medium such as light, and attention turned that way — and, for sight, they say the first feeling in it is neutral [C009-P:L85–L98; C009-P:L174–L176].",
+      "concept_id": "C009"
+    },
+    {
+      "on_screen": "A label printed and stuck on a carton: a variety name, a grade, a destination. The box closed. Stacked with others.",
+      "voice": "The name arrives last, and it arrives from outside. Everything that happens after the colour — the grade, the price, the argument about the grade — belongs to a later part of the morning than the part the eye did.",
+      "concept_id": "C036"
+    },
+    {
+      "on_screen": "The van on an empty tar road in early light, then gone. Cut back to the belt from above in full daylight: dark rectangles in coconut, ordinary.",
+      "voice": "The sources also say that the same sight can be identical for very different beings, and that the difference is entirely in what comes afterwards [C009-P:L85–L98]. What the eye did this morning was the same for everyone standing in that room.",
+      "concept_id": "C009"
+    },
+    {
+      "on_screen": "One flower, very close, in flat midday light, held far longer than is comfortable, until it stops looking like a flower.",
+      "voice": "The old books give three sizes of now: the flash of a single event, the slightly longer stretch it takes to recognise something, and a whole life [C036-P:L45–L57]. This film has been about the second of those, and it lasted about twenty minutes.",
+      "concept_id": "C036"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C036 contributes the claim: the eye meets only colour, a blend of the colours of many tiny clusters, never a flower and never a grade, and the naming and the valuing are added from what has been seen before. C035 contributes why the light matters so much, since what actually receives colour is a fine sensitivity inside the eye rather than the eye anyone can point to, and something has to strike it strongly enough to interrupt the resting mind. C009 contributes what that first strike is like: weak, carrying no verdict, and, because colour touches the sensitivity only lightly, arriving with neutral feeling, unlike touch, which the sources compare to a hammer striking through cotton onto an anvil. A market that grades by colour in bad light before names or prices are spoken is those three claims being used as a trade.",
-    "what_it_reveals": "Together they take a market apart into the two things it actually consists of: a great deal of colour arriving, and an enormous amount of added knowledge being applied to it within a second each. The sources' claim stops being sceptical and becomes practical. Nobody at the market is deceived; everybody is working fast on a narrow channel and adding the rest. And because C009's bare moment is neutral, the film can show that the excitement, the arguing and the money all belong to the part that comes afterwards."
+    "why_together": "C036 supplies the claim. Objects are of six kinds matched to the six doors, and the five sense doors take only present objects of their own kind [C036-P:L25–L31; C036-M:L5–L7]; the eye meets only colour, and the knowing of ‘I saw such-and-such a thing’ comes from marks learned in earlier seeing [C036-P:L37–L41; C036-M:L9]. It also supplies the film’s frame, the source’s three senses of ‘present’: the instant, the stretch it takes to recognise something, and a whole life [C036-P:L45–L57]. C035 supplies the threshold that makes the hour before dawn the subject rather than the setting: a door is not the visible organ but a fine sensitivity lodged in it, and nothing is experienced unless something strikes that sensitivity strongly enough to interrupt the resting mind [C035-P:L27]. C009 supplies what that first strike is like and what it is not: the bare sensing moments are weak, they need an intact sensitivity, an object, a medium such as light and attention, the same sight can be followed by completely different reactions in different beings, and for sight the first feeling is neutral [C009-P:L85–L98; C009-P:L174–L176]. A belt of growing houses where colour arrives before identity, and where a trade sorts by colour before it says a word, is those three claims running as a working morning.",
+    "what_it_reveals": "That the order we assume — see the thing, then notice its colour — is the wrong way round, and that a place exists where the true order is visible for about twenty minutes a day. C036 alone is a claim about what the eye touches. C035 alone is a claim about a threshold. C009 alone is a set of conditions and an absence of verdict. Together they let a viewer watch colour arrive with nothing attached to it, and then watch the names turn up afterwards, printed, from somewhere else — which is exactly the shape of the sources’ account and needs no one on screen to be a demonstration of anything."
   },
   "concept_links": [
     {
       "concept_id": "C036",
       "role": "primary",
-      "why": "The digest states that the eye meets only colour, a blend of the colours of many tiny clusters, and that knowing 'I saw such-and-such a thing' comes from marks learned in earlier seeing [C036-P:L37-L41; C036-M:L9]. It also gives the source's three senses of 'present', the instant, the stretch it takes to recognise something, and a whole life [C036-P:L45-L57], which is a precise frame for work done in one-second judgements inside a two-hour market inside a whole working life. Two things are held to. The digest's guard that 'perception is an illusion' distorts the text: colour, sound and smell are real events for the source, and only the named thing assembled from them is a convention. And its note that the source calls the visible object 'unmixed' in one place and a mixture of many clusters' colours in another without reconciling them [C036-P:L61; C036-P:L41], which the film leaves open rather than resolving."
+      "why": "The digest gives the film its central claim: an object is whatever a mind takes hold of, the six kinds are matched to the six doors, and the five sense doors take only present objects of their own kind [C036-P:L25–L31; C036-M:L5–L7], while the eye meets only colour and the knowing of it as a particular thing comes from marks learned in earlier seeing [C036-P:L37–L41; C036-M:L9]. The three senses of ‘present’ — the instant, the stretch it takes to recognise something, and a whole life [C036-P:L45–L57] — give the film its shape and its last beat. Two things in the digest are held to exactly. Its guard that ‘perception is an illusion’ distorts the text is written into the voice: colour is a real event for the source, and only the assembled, named thing is a convention. And the digest’s note that the Pradeepika calls the visible object ‘unmixed’ in one place [C036-P:L61] and a blend of many clusters’ colours in another [C036-P:L41] without reconciling them is left open on screen rather than resolved. The digest’s other limits are simply kept off the film: no ‘live in the present moment’ advice, since the source states a fact about the senses rather than giving counsel; no presentation of the traditional account of how sound and smell travel as acoustics or physics; nothing from the deathbed-object teaching; and no use of the ranking of which minds take which objects as any kind of measure of people."
     },
     {
       "concept_id": "C035",
       "role": "supporting",
-      "why": "The digest separates the visible organ from the fine sensitivity that actually registers colour, and says experience gets in only where something strikes that sensitivity strongly enough to interrupt the resting mind, so having eyes open is not yet seeing. Pre-dawn light is exactly the condition under which that threshold is the working problem of a trade. The digest's limits are carried: the sensitivity is not the retina, Margaya's 'size of a louse's head' is reported tradition and not anatomy [C035-M:L9], and the phrase 'doors of perception' is not used."
+      "why": "The digest separates the organ you can point to from the fine sensitivity lodged in it, and says experience only gets in where something strikes that sensitivity strongly enough to interrupt the mind’s resting state, so having eyes open is not yet seeing [C035-P:L27]. The hour before light in a place whose whole business is colour is the condition under which that threshold is the working problem of a trade rather than a doctrine. The digest’s limits are carried without exception. The sensitivity is not the retina and is never narrated as anatomy; the Margaya’s ‘size of a louse’s head’ spot where images fall [C035-M:L9] is reported tradition and does not appear as fact. The mind-door is a moment of mind and not the brain. The extracts are a descriptive classification and not a ‘guard your senses’ slogan, so the film gives no advice about what to look at. And the phrase ‘doors of perception’, with its literary and psychedelic freight, is not used anywhere."
     },
     {
       "concept_id": "C009",
       "role": "supporting",
-      "why": "The digest describes the bare rootless moment of seeing as weak, needing a working eye, an object, a medium such as light and attention, and carrying only neutral feeling, because most senses meet their object softly, like cotton brushing cotton, while touch lands like a hammer striking through cotton onto an anvil and so carries pleasure or pain from the first instant [C009-P:L85-L98]. That is why the buyers' excitement belongs to a later stage than the seeing. Two guards are carried: the neutral feeling of seeing is a technical claim about a first instant and does not mean the world looks bland, and 'rootless' does not mean causeless [C009-M:L3]."
+      "why": "The digest describes the bare rootless moments of sensing as weak, sets out the conditions each one needs — an intact sensitivity, an object, a medium such as light or air, and attention turned that way — and shows that the same sight can be followed by quite different reactions in different beings, reactions that belong to a later stage [C009-P:L85–L98]; it also records that except for touch these moments carry only neutral feeling [C009-P:L174–L176]. That is why this film can put a whole trade’s excitement, money and argument on the far side of the bare arrival of colour. The digest’s prohibitions are load-bearing. ‘Rootless’ is not ‘uncaused’ [C009-M:L3], and the voice never suggests the morning happens for no reason. The source’s treatment of pleasant and unpleasant contact as the result of past action is never turned into anyone on camera deserving what they have. The Pradeepika’s link between very weak wholesome action and rebirth with blindness or deafness [C009-P:L168–L172] is a doctrinal claim about rebirth and is kept out of the film in every form. The neutral first feeling is not the modern line that a person chooses how they feel, and it does not mean the world looks bland — a film made of violent colour is the right place to say so."
     }
   ],
-  "what_the_viewer_could_understand": "The eye does not see a flower; it meets colour, and the name, the kind and the value are added a moment later from what has been seen before. A buyer's fast judgement in the half-light starts with colour alone, and everything that makes it worth money was added after.",
-  "what_must_be_real": "The market's real economics and its real pace, with no sorting staged for better light and no bargain re-run. Participants describe in their own words how they judge quality fast. The sources' account of colour reaching the eye is never offered as optics.",
-  "position_hint": "middle: it follows the film about contact that never becomes experience and precedes the film about the turning-toward that comes before any judgement, because it is the point where a clear arrival is taken apart into what arrived and what was added. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That colour arrives before identity does, and that the naming, the grading and the valuing are all added afterwards from what has been seen before. Nobody is being fooled by this and nothing is an illusion; it is simply that the part we credit to the eye is much smaller and much earlier than it feels, and almost everything we think we saw was supplied from somewhere else.",
+  "what_must_be_real": "The growers’ own hour. Nothing is cut, lit, sorted or packed for the camera, and the dispatch is not delayed for a shot; if the light is wrong on the morning the crew is there, that is the morning they have. No artificial light is added to the beds and no colour is pushed in the grade, because the film’s only claim is about what the light actually does. No person on screen is presented as the one who sees or judges — that is the precise thing this group’s concepts deny, and the grading here is shown as hands, lanes and boxes rather than as anybody’s perception. These are small private holdings beside people’s houses, so every house filmed is filmed by agreement, and no grower’s prices, buyers or yields go on screen without their consent.",
+  "position_hint": "early: it is the group’s cleanest statement that bare sensing comes before naming, and the later films about order, response and lingering assume it. It should come after the film about turning toward and before the ones about what happens further down the line.",
   "risks": [
-    "Reducing a working market to a pretty pre-dawn visual piece.",
-    "Low light and crowded, fast conditions carrying practical filming risk.",
-    "Missing the market's real economics in favour of colour and mood.",
-    "Reading the source's account of colour as early optics, or as a claim that perception is an illusion, both of which the digest rules out.",
-    "Filming growers and carriers at the end of an overnight journey, when refusing is hardest."
+    "Letting the film say that perception is an illusion, which the digest names as a distortion: colour, sound and smell are real events for the source, and only the named thing is a convention.",
+    "Turning the sources’ statement that the senses meet only the present into ‘live in the present moment’ advice. The digest is explicit that the text describes rather than counsels.",
+    "Narrating the sense-sensitivity as the retina, or the Margaya’s ‘size of a louse’s head’ spot [C035-M:L9] as anatomy.",
+    "Using the phrase ‘doors of perception’, which the digest tells the series to avoid, or letting the film become a ‘guard your senses’ argument.",
+    "Presenting a grower or grader as the one who sees, or reading a decision off somebody’s face. A camera cannot show a mind-moment and the group denies a separate seer.",
+    "Treating ‘rootless’ as ‘random’ or ‘uncaused’, which the digest corrects directly [C009-M:L3].",
+    "Letting the source’s account of pleasant and unpleasant contact as a result of past action reach the screen as anyone deserving their circumstances.",
+    "Carrying the Pradeepika’s link between weak wholesome action and rebirth with blindness or deafness [C009-P:L168–L172] into the film in any form.",
+    "Letting the neutral first feeling be heard as either ‘you choose how you feel’ or ‘the world is bland’, when it is a technical claim about a first instant.",
+    "Quietly resolving the source’s own unreconciled description of the visible object as ‘unmixed’ in one place [C036-P:L61] and as a blend of many clusters’ colours in another [C036-P:L41]. The film leaves it open.",
+    "Becoming an export-industry film, or a piece about cut-flower economics, chemical use or air freight. Those are real subjects and none of them is this one.",
+    "Adding light, grading the colour up, or shooting the arrival of colour in a way that is achieved in post rather than by the morning."
   ],
   "drop_if": [
-    "No market or traders allow real, unstaged pre-dawn trading to be filmed.",
-    "Low light makes filming impractical without disruptive lighting, which would remove the condition the film is about.",
-    "The pace makes sustained, honest observation impossible.",
-    "Traders do not want their fast judgements or their losses discussed."
+    "The growers will not have a crew in their houses before dawn, which is a reasonable thing to refuse.",
+    "Cutting and grading turn out to happen entirely under artificial light in closed rooms, so the arrival of colour is never the working condition and the film has no subject.",
+    "It can only be made by asking anyone to cut, sort or pack at a time that suits the camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0075",
-      "relation": "mirrors",
-      "note": "Both watch a trained eye separate raw colour from a name and a value, one under a lamp and one in half-light."
-    },
-    {
       "idea_id": "IDEA-0074",
-      "relation": "sits beside",
-      "note": "Two films about seeing at the edge of what the light allows, one where almost nothing arrives and one where a great deal does, fast."
+      "relation": "pairs with",
+      "note": "Two films about a threshold of light: one where a lamp decides how far the world extends, one where dawn decides when colour begins."
     },
     {
-      "idea_id": "IDEA-0081",
-      "relation": "leads into",
-      "note": "Colour arrives before a name; a face arrives before a customer."
+      "idea_id": "IDEA-0076",
+      "relation": "pairs with",
+      "note": "The same claim at two doors: what arrives as bare smell before it is named, and what arrives as bare colour before it is named."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0039, and the C036 digest's claim that the eye meets only colour is the whole working method of a market that grades by colour before anything is named."
+    "reason": "It is the group’s clearest case of bare sensing preceding the name, and the twenty minutes that carry the argument are also the most beautiful footage the place produces."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The market is dropped: the slate already carries a night wholesale terminal and a weekly fair, and a third trading floor would have repeated both. The concept is kept exactly — bare colour arriving before the name does — and moved to the growing and gathering end, where the arrival of colour is a daily physical event rather than a metaphor for one, and where the name genuinely turns up last, printed on a carton. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The floriculture smallholdings around Divulapitiya, in the coconut country of the northern Gampaha district",
+    "also_known_as": [
+      {
+        "name": "cut foliage",
+        "meaning": "leaves and stems grown and exported for their shape and colour rather than for flowers",
+        "used_by": "Sri Lankan floriculture export usage"
+      }
+    ],
+    "region": "Gampaha district, Western Province: the low, wet coconut country inland of the coast road and north of the Kelani valley",
+    "coordinates": {
+      "lat": 7.2245,
+      "lng": 80.0194
+    },
+    "why_here": "It is a whole working belt rather than one farm, it is organised entirely around colour, and it is not a market. Floriculture in this country is concentrated in this district, and this town in particular is a recognised centre of it, with over a hundred people in the trade and an export-orientated flower village arranged around them. That means dozens of small shade-net houses scattered through coconut smallholdings, all cutting in the same hour for the same dispatch — which gives the film both its aerial pattern and its one unrepeatable shot, the twenty minutes in which a landscape of grey netting turns to solid colour before anything in it can be told apart. And because it is the growing end and not the selling end, the names really do arrive last, printed on a box.",
+    "what_to_film": [
+      "The arrival of colour, in one unbroken rising shot over the belt, from black netting to full colour, timed so that nothing is identifiable for as long as possible.",
+      "The same twenty minutes from inside one house at bed level, so that the colour separates out around the camera rather than below it.",
+      "The belt from high above in flat daylight: dark rectangles scattered through coconut, an odd and legible pattern.",
+      "Cutting in the dark by torch — sound, hands, stems — with almost nothing visible.",
+      "A packing room under one bulb: stock going into lanes by shade, fast, with no names spoken.",
+      "The label: printed, stuck, the box closed and stacked. The first time a word appears in the film.",
+      "The van leaving on an empty road, and the roads filling behind it.",
+      "One flower held very close in flat midday light for much longer than is comfortable."
+    ],
+    "access": "By road; the belt is spread through ordinary village and smallholding country and the houses sit beside people’s homes. Everything depends on individual growers agreeing, and on being there at their hour rather than asking them to move it. Low-light flight before dawn over inhabited smallholdings needs both the growers’ agreement and whatever permissions apply locally, and is the part of the plan most likely to fail.",
+    "best_time": "The half hour either side of first light, which is the whole film. A clear morning after overnight rain. Across the year, the run-up to whichever export holiday the belt is packing for, when the houses are fullest and the packing rooms run longest.",
+    "images": [
+      {
+        "caption": "Evening in a village in this district, for the light and the shape of the coconut country the shade houses sit in. This is the surrounding district, not a growing site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evening at Kosovita, Gampaha,Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Evening at Kosovita, Gampaha,Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The district’s ordinary country, for the roads and the palms. Again the district, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gampaha, Sri Lanka - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Gampaha, Sri Lanka - panoramio.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "An anthurium, one of the crops this belt grows for export. This photograph was taken elsewhere in the country and is of the flower type, not of a plant at this location.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lankan anthurium flower.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lankan anthurium flower.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.intracen.org/blog/Sri-Lanka-floriculture-development-in-Gampaha-district/",
+      "https://www.ft.lk/Business/special-attention-towards-floriculture-development-in-gampaha-district/34-287334",
+      "https://www.srilankabusiness.com/floriculture/"
+    ],
+    "research_note": "That floriculture in this country is concentrated in the Western Province with this district in the forefront, that over five hundred hectares are under it there, that this particular town is a recognised centre with more than a hundred people engaged in the trade and an export-orientated flower village arranged for it, and that the export range runs to orchids, anthurium, gerbera, chrysanthemum and cut foliage sent to Europe, Japan and the Gulf are from the sources above and are desk research only. The coordinates are an open mapping database point for the town, not for any grower. No specific holding has been identified, nobody has been approached, and the working pattern assumed here — cutting in the dark, grading under a bulb, dispatch before the roads fill — is inferred from the perishability of the crop and the export schedule rather than confirmed for this belt. None of the three images is of a growing site: two are of the surrounding district and one is of the flower type photographed elsewhere in the country. Each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether cutting and grading here actually happen before dawn, or whether the crop is cut later in the day, is unverified and decides whether the film exists.",
+    "No grower has been identified or approached, and the belt is made of private holdings beside people’s houses.",
+    "Whether the houses are close enough together for the belt to read as a pattern from the air has not been checked.",
+    "Low-light drone flight over inhabited smallholdings before dawn may not be permissible, and it carries the film’s single most important shot.",
+    "Whether enough of the grading happens in daylight or open-sided rooms for the arrival of colour to be the real working condition, rather than a closed room under a bulb, is unknown."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

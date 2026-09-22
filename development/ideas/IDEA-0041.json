@@ -2,87 +2,195 @@
   "schema_version": 1,
   "id": "IDEA-0041",
   "record_type": "idea",
-  "title": "Which Word Carries the Water",
+  "title": "The Water Is Already Spoken For",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Which Word Carries the Water"
+  ],
   "group_id": "GRP-03",
-  "logline": "Farmers meet to decide how a season's water will be shared, and the argument keeps sliding between what is true about the water and who is owed respect.",
-  "human_question": "In an argument that matters, when does a person stop arguing the facts and start arguing their own standing?",
-  "situation": {
-    "what_happens": "A shared water supply has to be allocated before cultivation, and the people it feeds decide it among themselves in a meeting that everyone attends because everyone is affected. The arguments are technical at first: how much there is, how long it has to last, which land gets it and when. Then the meeting changes register without anyone announcing it, and what is being asserted is no longer a fact about the water but a claim about the speaker: how long they have farmed, what they did last year, whose father built what. Both kinds of claim are made by the same people, sometimes in consecutive sentences, and both are sincere. A decision has to come out of it anyway.",
-    "who_is_involved": "Every household with land under the same water; the office-holders of the farmers' organisation who have to chair it and then live with the result; people farming the tail end who always get least and know it; people who have held the same position for decades; and newer farmers whose claim rests on results rather than on years.",
-    "what_is_at_stake": "A season's harvest for every household in the room, decided in an afternoon by people who will meet at a funeral next month. For the office-holders, the authority to make anyone accept a decision at all. For the film, not taking a side in a live allocation dispute and not appearing to grade anyone's arguments.",
-    "how_it_unfolds": "It begins with a quantity that is smaller than what everyone needs, which is what makes it an argument rather than an announcement. The pressures are the calendar, the fact that the previous decision is the precedent for this one, and the presence of everybody's neighbours. It ends in a decision, a deferral, a decision that is then quietly ignored in practice, or a walk-out. Reality decides, including whether a meeting happens during any filming window at all."
+  "logline": "In a dry country, one reservoir's water is let out on a written rotation, and every gate, notch and painted gauge down a hundred kilometres of canal is a decision, taken in advance, about whose fields get it this week and whose wait.",
+  "human_question": "When the thing everyone needs is finite and the sharing of it has to be decided in a room, what is actually being argued about?",
+  "place": {
+    "what_kind_of_place": "A dry-zone irrigation system that carries two ages in one landscape. At the top is a modern reservoir with gated sluices. Below it the river runs a few kilometres and then meets a low anicut of ancient origin that splits it: part of the flow goes on down the river bed, part is turned into old channels that fill a chain of tanks built more than two thousand years ago. Out of the reservoir itself run two main canals, dead straight across flat country, dividing and dividing again into branch canals, distributaries and field channels, each junction fitted with a gate, a screw wheel and a painted staff gauge. At the far end are the tail fields, which are last in every order and know it.",
+    "why_it_is_worth_watching": "From the air, the whole thing reads as one drawing, which is very rare. A reservoir, a straight line ruled across scrub and paddy for kilometres, and then a branching diagram that gets finer and finer until it disappears into individual fields, with the green ending in an exact line where the water stops. On the ground it is a film of small, precise, physical objects: a wheel turned a counted number of times, a gate lifted to a mark, a scratched figure in a notebook, a padlock. And an old stone anicut, worn smooth, doing exactly what it was built to do: dividing a river in two in front of you.",
+    "what_moves_or_changes": "The water level and the calendar, and neither is negotiable. The reservoir falls through the season. The rotation moves down the system in turns, so the same channel is full one week and dry the next, and the landscape changes colour in bands as it goes. In a bad year the amount available is announced before cultivation and the command area is cut: some land is simply not given water that season, and the map of what is green changes shape.",
+    "when_it_looks_best": "Early in a season when the rotation is running and the contrast between a channel in turn and a channel out of turn is at its sharpest; and again at the end of a dry season when the reservoir is low, the drawdown lines are exposed and the canal bed is visible. Dawn for the long straight lines, and the hour after a gate is opened, when the water front is actually moving down a dry channel."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a piece of engineering and the country it made. Water leaves a reservoir, splits at an old stone weir, runs a ruled line across a dry plain, divides and divides again, and arrives at the last field as a hand's depth of muddy water moving along a channel that was dust an hour before. The best sequences are the front of the water travelling, the branching read from the air, and the exact edge where the green stops. No commentary is needed for any of it.",
+    "with_the_philosophy": "The same system becomes a picture of what the old lists actually claim about a mind holding on. Two of the fourteen are grips, and the sources hold that they never occupy one moment: grasping how things are, and grasping where one stands. Two others are displeasures, and the sources separate them by direction: one looks outward at what someone else has, one looks inward at one's own and at its being shared. All four become legible when the thing in question is finite and the division of it is a physical object you can photograph. The voice makes no claim whatsoever about any person on screen, and says so; the concepts are demonstrated on the geography, which cannot be libelled."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn from very high: a reservoir with its bund and gated sluices, and out of it a canal ruled dead straight across flat dry country until it goes out of frame.",
+      "voice": "There is one reservoir and there is more land under it than the reservoir can fill. That single fact is what turns water into a question, and the question has to be answered before anything is planted.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The old anicut: a low worn stone weir across a river, water going over it and down the bed, and the same water turning at the side into a cut channel and running away in a different direction.",
+      "voice": "Here the river is divided in front of you, by a structure two thousand years older than the reservoir. Part of it carries on down the bed. Part of it turns off and fills a chain of old tanks. Nothing about this is hidden, and nobody has to be interviewed for you to see it.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "A branch gate: a screw wheel being turned a counted number of turns, a painted staff gauge, a padlock, a figure written into a notebook, and the timetable for the season fixed to a board.",
+      "voice": "The lists name fourteen unwholesome mental factors, and two of them are grips rather than feelings: taking things to be other than they are, and mis-measuring where one stands, which the sources set out in three directions, better than, equal to, and worse than others [C022-P:L103–L111; C022-M:L31].",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "A seasonal meeting of the people farming under the system: a hall or a shaded yard, filmed wide and from behind, the room as a whole, no one singled out, no words attributed.",
+      "voice": "Both sources say these two never occupy the same moment of mind, and they give different reasons. One says each is too strong to share the space; the other says they are simply different kinds of holding on, one at how things are, one at where one ranks [C026-P:L35; C026-M:L17]. The film leaves that disagreement standing. It also says now, once, what it will not do: it will not tell you which of these is present in anybody in this room. That cannot be filmed and the sources do not license it.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "The water front moving: a dry channel, then a lip of brown water travelling along it, then a field filling. Elsewhere in the same system, a channel with nothing in it and cracked mud in the bed.",
+      "voice": "Two more of the fourteen belong here, and the sources separate them by which way they face. One looks outward, at what somebody else has [C022-P:L129]. The other looks inward, at one's own, and at its being shared, used, matched, or even known about [C022-P:L133]. They are near neighbours and they are not the same state.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The tail of the system from the air: the branching diagram thinning out, and an exact line where the green stops and scrub begins. A tail-end field channel with a hand's depth of water in it.",
+      "voice": "And the placement that surprises everyone. Neither of those is filed with wanting. Holding back springs from attachment to one's own, but what it consists of is displeasure at the thing being shared, so it is grouped with aversion [C026-M:L19]; and they arise only occasionally, and only one at a time [C026-P:L39]. Clutching is not a pleasure. It is an irritation.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "A gate wound shut. The water in the channel stops moving, then drops, then drains, leaving wet mud. Wide from above: the same system, a different set of fields wet, as the turn moves on.",
+      "voice": "Nothing in any of this says that asking for a fair share is a fault, and one line in the sources could be made to say so if it were lifted out of its setting. It is not about how water should be divided. It is about how a person measures themselves. Down here the measuring is done with a wheel, a mark on a gauge and a date, and the water has to go somewhere tonight.",
+      "concept_id": "C022"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C022 supplies the two grips: wrong view, grasping things otherwise than they are, and conceit, the mis-measuring of oneself as better, equal or worse than others [C022-P:L103–L111; C022-M:L31]. C026 supplies the rule that makes them worth filming together: both sources agree the two never occupy one moment, though they disagree about why. Pradeepika says conceit is as strong an unwholesome state as wrong view; Margaya says they are simply different modes of grasping, one about how things are and one about where one stands [C026-P:L35; C026-M:L17]. A meeting where both kinds of claim are made by the same mouths within a minute of each other is where that distinction stops being a list and becomes something a viewer can hear.",
-    "what_it_reveals": "That a single argument is made of two different activities that sound alike. Neither concept shows this alone: the list alone gives two names, and the association rule alone is an abstract exclusion. Together they let a viewer follow one speaker moving between a claim about water and a claim about themselves, and notice that the second kind never settles anything, because nothing about the water is being asserted. The film does not say which is present in anyone at any moment; it could not, and the sources do not license it to."
+    "why_together": "C022 supplies four of the fourteen and the distinctions that separate them: wrong view as grasping things otherwise than they are and conceit as mis-measuring one's own standing, given in three directions [C022-P:L103–L111; C022-M:L31]; and envy, which takes other people as its object [C022-P:L129], against holding-back, which takes one's own [C022-P:L133]. C026 supplies the rules of combination that make those distinctions worth building a film on rather than listing: view and conceit never occupy one moment, and the two sources disagree about why [C026-P:L35; C026-M:L17]; envy, holding-back and remorse ride on displeasure, occur only occasionally, and never two at once [C026-P:L39]; and holding-back, though born of attachment, shows itself as aversion to sharing [C026-M:L19]. A system in which a finite quantity is divided by physical objects on a published timetable is the one kind of place where all four can be pointed at without pointing at a person.",
+    "what_it_reveals": "That the sharpest thing in this material is not its condemnation but its carefulness: four states that English lumps together as selfishness are held apart here by direction, by object and by what they can coexist with. And that the sources' own association rules make the film safe, because a scheme in which factors arise one at a time, occasionally, in single moments of mind is by construction unable to describe a person; it can only describe a moment nobody can photograph. C022 alone would give four definitions and an invitation to misuse them on the people in the room. C026 alone would be a table of exclusions. Together, on a canal, they let a viewer understand the distinctions from the geography and be told plainly that the distinctions stop at the edge of the frame."
   },
   "concept_links": [
     {
       "concept_id": "C022",
       "role": "primary",
-      "why": "Among the fourteen, wrong view is grasping things otherwise than they are, and conceit is wrongly measuring one's own standing, which both sources give in three directions: better than, equal to and worse than others [C022-P:L103–L111; C022-M:L31]. A heated allocation meeting is a real place to watch speakers move between these two kinds of claim. The digest puts two readings of this exact material out of bounds, and both of them sit directly in this situation's path. First, 'I am inferior' is counted here as a form of conceit, and the digest says this must never be used to moralise about modern low self-worth or depression, which the sources do not discuss; the tail-end farmer who says he always comes last is not an illustration of anything. Second, and more serious for this film, Pradeepika's description of equal-conceit includes egalitarian-sounding statements such as 'we are all equal in every respect' [C022-P:L109], and the digest says plainly that the source is about how a person measures themselves, not a teaching against social equality, and that quoting it out of context would badly mislead. In a film about people arguing for an equal share of water, that line could be made to say that claiming an equal share is a fault. The digest additionally flags L109 as needing expert confirmation before any public use. The film therefore uses only the general distinction between the two grips, never the sub-kinds of birth, virtue and merit [C022-P:L107], and never applies equal-conceit to anybody's claim."
+      "why": "Four of the fourteen are used and all four are defined in this digest. Wrong view is grasping things otherwise than they are and conceit is wrongly measuring one's own standing, which both sources give as better than, equal to and worse than others [C022-P:L103–L111; C022-M:L31]. Envy takes other people and their good fortune as its object [C022-P:L129]; holding-back takes one's own things and their being shared [C022-P:L133]. Both of the latter are classed with aversion rather than with wanting, which is the whole surprise of this part of the list. The digest puts three readings of exactly this material out of bounds and each of them sits in this film's path. First, 'I am inferior' is counted here as a form of conceit, and the digest says it must never be used to moralise about modern low self-worth or depression; a farmer at the tail of a system who says he always comes last is describing a fact about a canal, and the film treats it as one. Second, Pradeepika's description of equal-conceit contains egalitarian-sounding statements [C022-P:L109] and the digest says plainly that the source is about self-measurement, not a teaching against social equality, and that quoting it out of context would badly mislead; it additionally flags that line as needing expert confirmation before any public use. In a film about people needing an equal share of water that line could be made to say that asking for an equal share is a fault, so it is never quoted, the sub-kinds of birth, virtue and merit are never used [C022-P:L107], and the closing narration states the correction in the open. Third, nobody in frame is presented as an instance of any of the four."
     },
     {
       "concept_id": "C026",
       "role": "supporting",
-      "why": "Both sources agree that wrong view and conceit never arise in the same moment of mind, and they give different reasons for it: Pradeepika because conceit is as strong an unwholesome state as wrong view [C026-P:L35], Margaya because both grow with attachment but grasp differently, one at permanence and the like and one at superiority [C026-M:L17]. The film leaves that disagreement standing rather than choosing a side. The digest's first limit governs the whole idea: this is a study scheme about single moments of mind, not a diagnostic tool, a camera cannot show which factor is present, and the film must not claim to."
+      "why": "The association scheme supplies the structure and, more usefully here, the safety rail. It holds that wrong view and conceit never arise in the same moment, with Pradeepika giving strength as the reason and Margaya giving two different kinds of grasping [C026-P:L35; C026-M:L17]; the film leaves that disagreement standing rather than picking a side. It holds that envy, holding-back and remorse occur only in the two hate-rooted minds, only occasionally, and one at a time [C026-P:L39], and that holding-back, although born of attachment, arises with aversion and not with greed [C026-M:L19], which is the placement the film's last third rests on. The digest's first limit governs everything: this is a study scheme about single moments of mind, not a psychological formula for reading people, a camera cannot show which factor is present, and the film must not claim to. Its second limit matters just as much in a film about a dispute over a shared resource: the common factors describe every unwholesome moment in anyone and do not describe a type of person [C026-M:L15]."
     }
   ],
-  "what_the_viewer_could_understand": "In a heated argument, holding on to a view and holding on to one's own standing are two different grips, and the texts say they never share a moment, which is why a person can switch between them without noticing and why an argument can go round for an hour without anything about the subject being settled. None of this tells you which is happening in anyone; the texts describe moments of mind, not the people in front of you.",
-  "what_must_be_real": "The meeting, the dispute and its outcome must be genuine and unscripted, with every participant's consent, including those who lose. Nothing may be re-said for the camera and no speaker may be asked to characterise another. Every side is shown as it argued, the film takes no position on who was right, and nothing in the edit may line up one group of speakers with one concept and another group with the other.",
-  "position_hint": "middle: the group's argument film, and it needs to come after the state itself has been established, because its subject is not the heat but the different ways a mind grips while the heat is on. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That four states English rolls into one word are held carefully apart in the old lists: two grips that never share a moment, one about how things are and one about where one stands; and two displeasures separated by direction, one looking outward at somebody else's good fortune and one looking inward at one's own and at its being shared. And that because the scheme describes single moments of mind and not people, nothing in it can be used to judge anybody arguing for water they need.",
+  "what_must_be_real": "The system, the rotation and the season's outcome must be genuine, and no dispute may be staged, prompted or provoked. Nothing is re-said for the camera, nobody is asked to characterise anybody else, and no speaker is set against another in the edit. If a meeting is filmed it is filmed whole and with everyone's consent, including the consent of those who will lose the argument, and the film takes no position on who was right. Nothing in the cut may line up one group of people with one concept and another group with another, and no shot may identify an individual in a way that damages their standing or their relationships after the film is finished.",
+  "position_hint": "middle to late in the group: it is the film about how a mind grips rather than how hot it is, so it needs the group's plainer statements of this family of states to have come first. No location reasoning is involved.",
   "risks": [
-    "Sorting the room by generation, so that older speakers illustrate one grip and younger speakers the other; the earlier logline did exactly that and has been rewritten.",
-    "Allowing the source's equal-conceit description to be heard as a judgement on anyone claiming an equal share of a shared resource [C022-P:L109].",
-    "Using 'I am inferior is a form of conceit' anywhere near a person describing real disadvantage.",
-    "Turning a real dispute over livelihoods into a morality play, or appearing to take a side in an argument that will still be live after the film.",
-    "Identifying individuals in ways that damage their standing or their relationships afterwards.",
-    "Suggesting the film can tell which factor is present in any speaker, which the digest rules out."
+    "Allowing the source's equal-conceit description to be heard as a judgement on anyone asking for an equal share of a shared resource; the digest says the passage is about self-measurement, not social equality, and flags the line as needing expert confirmation before public use [C022-P:L109].",
+    "Using 'I am inferior is a form of conceit' anywhere near a person describing real disadvantage at the tail of a system [C022-P:L111].",
+    "Sorting the people on screen into the concepts, by generation, by position on the canal, or by any other visible feature.",
+    "Staging, prompting or sharpening a dispute, or appearing to take a side in an allocation that will still be live after the film.",
+    "Suggesting the film can tell which factor is present in any speaker, which both digests rule out.",
+    "Identifying individuals in ways that damage their standing or their relationships afterwards, in a place where everyone will meet again next season.",
+    "Filming at gates or structures in a way that interferes with an issue of water on which a season's crop depends."
   ],
   "drop_if": [
-    "No genuine allocation meeting occurs during the filming window.",
-    "Participants are unwilling to have a real dispute filmed, or consent is not freely given by the people likely to lose.",
-    "The material could only be cut into a film by assigning the two grips to identifiable people."
+    "No rotation is running during the filming window, so there is nothing to watch being divided.",
+    "Consent cannot be had freely from the people most likely to lose by the season's allocation.",
+    "The material could only be cut into a film by assigning the concepts to identifiable people."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0038",
       "relation": "follows",
-      "note": "From a crowd with nobody to blame to neighbours with a great deal to argue about."
+      "note": "From a crowd with nobody to blame to a country where the division is written down in advance."
     },
     {
       "idea_id": "IDEA-0043",
       "relation": "leads into",
-      "note": "The same shared work seen twice: once as an argument about who gets it, once as a day of doing it."
+      "note": "The same shared work seen twice: once as the question of who gets it, once as a day of doing it."
     },
     {
       "idea_id": "IDEA-0039",
-      "relation": "alternative to",
-      "note": "Two studies of standing and possession; a slate might choose one over the other to avoid repetition."
+      "relation": "pairs with",
+      "note": "Two finite things that have to be divided between people who all need them: a season's water and a skill."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0024 and is the only film in the group about how a mind holds on rather than how hot it is; kept with the digest's equal-conceit warning written into the link, the risks and the logline."
+    "reason": "It is the group's film about how a mind holds on rather than how hot it is, and a canal lets all four factors be pointed at without pointing at a person."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 from the old situation shape into the footage-led shape. The film is now the irrigation system itself rather than a meeting: a reservoir, an ancient dividing anicut, a gated rotation and a tail end, with the meeting present as one wide beat and nobody singled out. Both concepts re-read from the digests; the view-and-conceit pair is kept and the envy-and-holding-back pair added, with the equal-conceit warning and the 'I am inferior' warning written into the link, the risks and the closing narration.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Kirindi Oya system: the Lunugamvehera reservoir sluices, the Ellagala anicut and the right-bank main canal down to the old tanks",
+    "also_known_as": [
+      {
+        "name": "Ellegala Amuna",
+        "meaning": "the ancient anicut across the Kirindi Oya that turns water into the old channels",
+        "used_by": "Sinhala usage and the archaeological literature"
+      },
+      {
+        "name": "amuna",
+        "meaning": "a weir or anicut thrown across a river to divert part of its flow",
+        "used_by": "Sinhala irrigation usage"
+      },
+      {
+        "name": "kanna meeting",
+        "meaning": "the pre-season meeting at which the coming season's cultivation and water issues are settled",
+        "used_by": "Sri Lankan irrigation usage"
+      }
+    ],
+    "region": "Hambantota district, the dry south-east, from the reservoir on the Moneragala boundary down to the ancient tanks near the coast",
+    "coordinates": {
+      "lat": 6.35,
+      "lng": 81.21
+    },
+    "why_here": "It is a system doing something visibly different from a tank cascade or a single great tank: it divides. Two ages of engineering sit in one valley, so the film gets a modern gated reservoir, an ancient stone anicut that splits a river in front of the camera, two main canals ruled across flat dry country, and a chain of tanks more than two thousand years old being filled by a channel. The scheme has run rotational water issues since water ran short, and inequity between the head and the tail of it is the documented, ordinary condition rather than a scandal, which is exactly what the film needs: a finite quantity, divided by procedure, with the procedure itself photographable. The best shot the place produces, the branching read from the air with an exact line where the green stops, is also the film's clearest statement.",
+    "what_to_film": [
+      "The reservoir at dawn from height, with the drawdown lines exposed and the canals leaving it in straight lines.",
+      "The ancient anicut at close range: the river going two ways at once over and beside one worn structure.",
+      "A branch gate being worked: the wheel, the counted turns, the painted gauge, the notebook, the padlock, the season's timetable on a board.",
+      "The front of the water travelling down a dry channel and reaching a field, in one unbroken shot if it can be held.",
+      "The same system in and out of turn: a full channel and, kilometres away on the same day, a cracked empty one.",
+      "The branching from the air at the tail of the system, down to the exact line where the green stops.",
+      "A pre-season meeting, if one falls in the window and everyone consents: filmed wide, as a room, with nobody singled out and nothing attributed."
+    ],
+    "access": "By road along the canal system from the coastal town at the tail up to the reservoir. Reservoir structures, gates and regulators are irrigation department property and filming at them needs permission; drone flight over water infrastructure is likely to need specific clearance and may be refused. A meeting can only be filmed by invitation of the farmers' organisation that holds it, and everyone in the room has to agree.",
+    "best_time": "Early in a cultivation season, when the rotation is running and the difference between a channel in turn and out of turn is sharpest; and the end of a dry season for the low reservoir and the exposed bed. Dawn for the long lines.",
+    "images": [
+      {
+        "caption": "One of the ancient tanks at the tail of this system, which the old channels fill. This is not the anicut or the canal the film is about.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tissa Wewa.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Tissa Wewa.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Another tank in the same dry south-eastern country, for the landform and the light. Not the works proposed here.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Weerawila Tank.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Weerawila Tank.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/ellegala-amuna/",
+      "https://www.lankapradeepa.com/2021/10/lunugamvehera-reservoir.html",
+      "https://www.sundayobserver.lk/2023/10/08/spectrum/5955/hydraulic-heritage-kirindi-oya/",
+      "https://www.academia.edu/8014659/Water_scarcity_and_managing_seasonal_water_crisis_lessons_from_the_Kirindi_Oya_Project_in_Sri_Lanka",
+      "http://irrigationmin.gov.lk/irrigation-management-division/"
+    ],
+    "research_note": "That the reservoir has several sluices and a left-bank and right-bank canal system, that an ancient anicut across the river turns water into channels feeding the old tanks near the coast, that rotational water supply was introduced in a dry season when the reservoir could not meet the command, and that the head of the system takes water before the tail does, are from the sources above and are desk research only. The coordinates are approximate: they are derived from the anicut being described as about eleven kilometres from the nearest town, and no structure position has been verified. Which branch canal, which farmers' organisation and which season's rotation would carry the film are entirely unverified, as are permits for filming at irrigation structures and any drone clearance. Commons was searched through its search API and returned nothing of the canal, the anicut or the reservoir; the two images used are of tanks in the same command and the same country, and their captions say so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No farmers' organisation, canal branch or meeting has been found or approached. Everything here is a research direction.",
+    "Whether a rotation will be running, or a season's allocation will be cut, during any filming window.",
+    "Whether filming at gates, regulators and reservoir structures can be permitted, and whether a drone can be flown over water infrastructure at all.",
+    "Whether a real allocation can be observed without the presence of a camera changing how it is settled, which is the question that decides whether the film can be made."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

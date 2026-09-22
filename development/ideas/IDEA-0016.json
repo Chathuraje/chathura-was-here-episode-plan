@@ -2,72 +2,193 @@
   "schema_version": 1,
   "id": "IDEA-0016",
   "record_type": "idea",
-  "title": "What the Regulars Order",
+  "title": "Forty Feet Above a Taste",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Regulars Order"
+  ],
   "group_id": "GRP-02",
-  "logline": "At a roadside food stall at dusk, a regular orders without looking up, and a friend talks a first-timer into trying the hottest thing on the griddle.",
-  "human_question": "How much of what we crave is the food, and how much is the ritual of ordering it?",
-  "situation": {
-    "what_happens": "A food stall opens for the evening and works until the trade dies. Regulars order the same thing every night without discussion, some of them barely speaking. A group arrives with somebody who has never eaten there, and the others push them into trying the strongest thing on offer. The vendor cooks through all of it at one unvarying pace, and closes up when it is over.",
-    "who_is_involved": "A vendor and whoever helps them, working a long standing shift; regulars for whom this is part of the day rather than an event; a first-timer and the friends enjoying their reaction.",
-    "what_is_at_stake": "For the vendor, a night's takings and a trade that depends on regulars who will come in any weather. For the regulars, very little, which is exactly what makes it interesting. For the first-timer, a small social test.",
-    "how_it_unfolds": "An evening's trade rises, peaks and falls, and the same shape repeats nightly until something interrupts it: weather, illness, a licence, a road. Whether the first-timer enjoys it, and whether the regulars say anything at all about why they come, is not arrangeable."
+  "logline": "A village at the closed end of a mountain valley lashes bamboo up the trunks of palms, climbs forty feet before the mist lifts to bring down a pot of clear sap, and then burns wood all night to boil most of it away, so that something nobody needs can leave the valley tasting sweet.",
+  "human_question": "If you followed one sweet thing all the way back to where it came from, how much of the world would you find standing there holding it up?",
+  "place": {
+    "what_kind_of_place": "A village of a little over a hundred families at the head of a steep valley, with one rough track in over a gap and nothing beyond it but forest and a wall of rock. Paddy and pepper feed the place; what leaves it is sweetness. The palm it comes from grows forty to fifty feet, takes about ten years before it can be tapped at all, and is climbed on a ladder of bamboo lashed to the trunk to a platform built in the crown. Up there the flower stalk is cut back and dressed with a household mixture of chillies, pepper, cumin, fennel and garlic, the exact recipe of which is a family's own, and worked for days before it will give anything. Then it bleeds into a pot, twice a day, for weeks. Downhill is the other half of the trade: wide pans over wood fires, hours of boiling, and rows of half coconut shells set out to take the last of it as it thickens and sets.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. A figure standing in the crown of a palm at first light, above a valley filled with cloud, with a rock face behind him and nothing under him but bamboo. The night boiling: firelight under a wide pan, steam going up into the dark, faces lit from below, and a thin clear liquid turning first amber and then almost black. And the road out, where the whole of a month's work sits in jars and blocks on a plank table at the top of a pass, and a hand comes out of a stopped car window to take one.",
+    "what_moves_or_changes": "Everything in the film is on the tree's schedule rather than the crew's. Sap arrives twice a day whether or not anyone is ready for it, and stops when the stalk is spent. A pot fills by inches. A fire runs all evening and what went in as many litres of something thin and almost tasteless comes out as a black inch in the bottom of the pan. The trees are worked in turn, so the climb moves around the village through the week. The weather decides whether the track out is passable at all, which decides whether anything can be sold.",
+    "when_it_looks_best": "First light for the climb, when the valley holds cloud and the crowns stand above it, and because the night's sap comes down then. Evening and full dark for the boiling, which is when the fires are the only light in the village. The drier spells, because the track in is the whole logistics of the film and heavy rain closes it. Tapping itself runs through the year, so the season is chosen for access and light rather than for the work."
   },
+  "two_layers": {
+    "without_the_philosophy": "A mountain film about a hard, high, old trade at the end of a road: up before light, forty feet of bamboo, a pot, a fire, a night, a jar, a road, a stranger's hand. It resolves on its own terms, from a tree to a taste, and it has a real physical argument in it, which is how much work stands behind something small. A viewer who never hears a word of the narration still gets a complete day, a skill almost nobody has seen, and one of the last shots in the country that is genuinely vertigo-inducing and entirely real.",
+    "with_the_philosophy": "The same footage becomes the sources' definition read out over the thing it defines. The voice never contradicts what is on screen and never accuses anyone. It points out that the word the books use for wanting is defined as the attaching that takes a thing to be good, beautiful or sweet, and that the third word in that list is what this entire valley is manufacturing. It then does the harder thing: it keeps the fault off the sap, off the tree, off the trade and off every face in the film, because what the sources count is a moment of mind, which no camera has ever filmed."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from the air. A valley of cloud with a rock wall at the head of it, forest, a scatter of tiled roofs, and a dozen tall palms standing clear above the canopy.",
+      "voice": "Nothing that leaves this valley is food that anybody needs. There is rice here, and pepper, and everything a household eats. What goes out on the road is a taste. It takes ten years before one of these trees can give it, and a morning like this one to fetch it down.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "The climb. Bamboo lashed to the trunk as footholds, a platform in the crown, the cut flower stalk being worked by hand, the pot unhooked and swung across.",
+      "voice": "The old compendium that counts the ordinary mind defines wanting in one line: the attaching that takes things and people to be good, beautiful or sweet. Sweet is in the definition. Everything he is doing forty feet up is so that one word in that sentence can exist down here.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "The pot carried down, tipped through a cloth, poured off. Close: the liquid is thin, colourless, unremarkable.",
+      "voice": "Look at it before the fire. It is water with almost nothing in it. The books are counting a world exactly like this one, made of what gets seen, smelled, heard and tasted, and they are counting it as it is, not as a trick. Nothing has been hidden inside this pot.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Night. A wide pan over a wood fire, steam, a woman skimming, the colour going amber and then dark. Rows of half coconut shells waiting.",
+      "voice": "This same book gives a list of the ordinary occasions when wanting shows up, and a good meal is on it, along with music, clothes, a trip away, earning and looking after money. It is not a charge sheet. Two lines later it says that eating to quiet hunger is not counted as a fault at all, and it never asks anyone to give anything up.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "Morning at the top of a pass. A plank table of jars and dark blocks. A seller lifts one to a slowing windscreen. A hand comes out, money goes in, the car pulls away.",
+      "voice": "The same book splits wanting by something you cannot see from here. Some reaching starts by itself. Some of it starts because another person put it in front of you, or because you talked yourself into it. Both are counted. Neither is the worse one. That is the whole of the difference, and it is invisible from the roadside.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Faces, in order and without comment: a child's face at a first taste; the seller's face, entirely flat, while she makes change; a tapper eating a corner of a block standing up, looking at nothing.",
+      "voice": "One line in the book closes off the easy reading. This kind of wanting never arrives with displeasure. It comes either lit up or with nothing much at all. So the bright face is not the guilty one and the flat face is not the innocent one. Delight proves nothing here, in either direction.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Dusk again. The fires out, the pans upside down, the shells stacked, the track empty, cloud coming back up the valley.",
+      "voice": "The count all of this comes from has fifty-four ordinary minds in it. Twelve are the harmful kinds. Twenty-four are called beautiful. The rest are just receiving whatever turns up. One day in one valley holds all of them, and not one word of it has been said about anybody in particular. These books count moments, not people.",
+      "concept_id": "C004"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C004 contributes the everyday sense-sphere world itself, where sight, smell, sound and taste arrive together and are reached for, with delight in one person and flat habit in another. C005 contributes the reminder that ordinary appetite is one of the many occasions on which greed-rooted minds are said to arise, and that eating to quiet hunger is not counted as unwholesome, so nobody at the stall is being accused of anything.",
-    "what_it_reveals": "That habit is the quietest form of reaching, and that urging a friend into something is the same reaching arriving by another route. The everyday register makes both visible without any occasion to dress them up."
+    "why_together": "Read fresh, C004 is a census and not a warning. Both sources count the sense-sphere minds at fifty-four, with only twelve of them unwholesome and twenty-four of them called beautiful [C004-P:L27] [C004-M:L3], which rules out treating ordinary sense life as a trap. Inside that census the Margaya gives the definition the film is built on: greed is the attaching that takes things and people to be good, beautiful or sweet [C004-M:L13]; it never arrives with displeased feeling [C004-M:L15]; and the eight greed-rooted minds are built by three plain distinctions, joy or a flat middling feeling [C004-M:L17], with or without wrong view [C004-M:L19], and arising by itself or under prompting, which may come from another person or from oneself [C004-M:L21]. C005 supplies the everyday occasions, tasty food among them, and the honest scale of the claim, that for most people most of a day runs on liking and reaching [C005-M:L7]; then it draws the line by aim, so that food for the taste of it sits on one side [C005-M:L11] and food to quiet hunger sits on the other and is not counted unwholesome at all [C005-M:L13], with faith, kindness, compassion and plain usefulness named as the motives that keep an ordinary act clear [C005-M:L9]. A trade whose entire output is a flavour lets the definition be filmed word for word instead of asserted.",
+    "what_it_reveals": "That the word 'sweet' is inside the sources' own definition of wanting, and that the definition puts the fault in the attaching and never in the thing attached to. C004 on its own is a taxonomy and would make a lecture. C005 on its own reads like a list of forbidden pleasures, which its own digest says it is not. Together they let the film do the only honest thing available to it: show an entire mountain's labour aimed at one taste, at real physical cost, and decline to call a single person on screen greedy, because what is being counted is a moment of mind and the camera has never filmed one. The pairing also closes the exit the earlier draft took, which was to read a regular customer's habit as a small moral specimen; the sources' flat, joyless wanting is not a verdict on the customer, it is a note about how ordinary wanting feels."
   },
   "concept_links": [
     {
       "concept_id": "C004",
       "role": "primary",
-      "why": "This is the digest's own story seed: an evening roadside stall with regulars and first-timers, where sight, smell, sound and taste make up the ordinary sense-sphere world [C004-P:L25] and wanting shows up with joy in some and flat habit in others [C004-M:L17]."
+      "why": "The Margaya's one-line definition is the film's spine: greed is the attaching that takes things and people to be good, beautiful or sweet [C004-M:L13], and a place whose whole product is sweetness can hold that sentence up against the thing itself. Three further lines are load-bearing and are written into the sequence rather than left to the risks. Wanting never comes with displeased feeling [C004-M:L15] and arrives either with joy or with a flat middling feeling [C004-M:L17], which is why beat 6 refuses to read a bright face as guilt or a tired face as innocence. Prompting may come from another person or from oneself [C004-M:L21], which is what beat 5 points at without claiming to know which is happening. The Pradeepika supplies the frame, a world counted as what is seen, heard, smelled and tasted [C004-P:L25], and the proportion that stops the film moralising, thirty minds grouped as not beautiful against twenty-four called beautiful [C004-P:L27]. The digest's limits come with all of it. The sense world is not a trap, because twenty-four of the fifty-four are beautiful minds. Joy is no evidence that something is good. The Pradeepika's own commentary on meat, drink, gambling and other faiths is named in the digest as the author's moral argument rather than the teaching [C004-P:L55–L69], and it must never be turned on anyone here, which matters at this location because the same sap also ferments. The Margaya's listing of affection and love among the names of greed [C004-M:L13] is flagged in the digest as needing an expert check, and this film does not go near it. Nor does it use the claim about the first mental process after conception [C004-P:L73], which the digest marks as a traditional doctrinal claim requiring expert check."
     },
     {
       "concept_id": "C005",
       "role": "supporting",
-      "why": "Tasty food is among the source's everyday occasions of greed-rooted minds, while eating to relieve hunger is explicitly not counted as unwholesome [C005-M:L5] [C005-M:L13]; the digest warns against turning ordinary appetite into a moral specimen."
+      "why": "The Margaya's list of everyday occasions puts tasty food beside music, clothes, sport, earning and looking after money, and says that for ordinary people most minds from waking to sleep are of this kind [C005-M:L7]. That is the scale this location is working at, and it is also the line the film must handle most carefully, because the digest records it as the author's own general statement and notes that it is not quantified. The source then draws its real distinction by aim: cooking and eating for the pleasure of the taste on one side [C005-M:L11], eating to relieve hunger on the other and explicitly not counted as unwholesome [C005-M:L13], with faith, kindness, compassion and a practical sense of usefulness named as the motives that leave an ordinary act clear [C005-M:L9]. Three guards from the digest travel with it and are honoured on screen. The source is not preaching minimalism or deprivation; it allows wealth earned and spent wisely and good clothes worn for good reasons. It does not dissolve everything into motive either, because it still names theft, lying and misconduct as courses of harm carried out through wanting [C005-M:L3]. And it classifies minds, never persons, so no tapper, seller or buyer in this film is ever described as greedy."
     }
   ],
-  "what_the_viewer_could_understand": "Most wanting is not an event. It is an order placed without looking up, and it can also arrive because a friend pushed you into it, and both are the same reaching.",
-  "what_must_be_real": "The vendor's actual trade and the customers' own words about why they come. No dialogue written for anyone and nobody urged to order for the film.",
-  "position_hint": "middle, if ever revived: it belongs beside the group's beats on habitual and prompted wanting rather than on its own.",
+  "what_the_viewer_could_understand": "That what these books are pointing at is not the sap, the tree, the trade or the pleasure, but a movement of mind that can be lit up or completely flat, its own idea or somebody else's suggestion. And that an entire mountain's work can stand behind one small taste without anyone in it having done anything wrong.",
+  "what_must_be_real": "The actual tapping, the actual hours, the actual price a jar fetches at the roadside and what is left of it after the trip down. No climb staged for the camera, no tree cut, dressed or bled early or late to suit a shot, no jar or block arranged on a table it would not have been on. A family's spice recipe is theirs, and stays off camera if they want it to. Safety, the state of the bamboo and the condition of the track are shown as they are or not at all. Nobody is asked to explain the work in the film's terms, and nobody is asked to look pleased.",
+  "position_hint": "opening candidate for the group: it introduces wanting at its widest and least blameworthy, one ordinary taste and the work standing behind it, before any later film asks about aim. No location reasoning is involved.",
   "risks": [
-    "Turning ordinary appetite into a moral specimen",
-    "Food-tourism framing that flattens the vendor's working life",
-    "Filming on a busy public road"
+    "Turning ordinary appetite into a moral specimen, which is the risk the digest attaches to this material by name.",
+    "Using the Pradeepika's commentary on drink, meat and gambling against anyone on screen. The same sap is also fermented, and the digest is explicit that this stretch is the author's own moral argument and not the teaching [C004-P:L55–L69].",
+    "Aestheticising dangerous work. This is a bamboo ladder forty feet up a wet palm with no line on it. If the conditions cannot be shown honestly they are not shown as scenery.",
+    "Implying that the world of the senses is a trap; twenty-four of the fifty-four minds in this count are called beautiful [C004-P:L27].",
+    "Reading delight as guilt or flatness as innocence. The sources say this wanting never comes with displeasure and can be either bright or blank [C004-M:L15] [C004-M:L17].",
+    "Saying or implying that anyone in the film is greedy. The count is of minds, not of people, and no participant is a specimen.",
+    "Poverty shown as virtue, or a remote village shown as picturesque simplicity, when what is on screen is a skilled export trade with a hard road out.",
+    "Reducing the tapper to a simile for something the voice wants to say. His livelihood and skill are the subject of the footage.",
+    "Touching the source's listing of affection and love among the names of greed [C004-M:L13], which the digest flags for expert check.",
+    "Drone work in a narrow valley, over a conservation forest, and over people working at height who cannot move out of the way."
   ],
   "drop_if": [
-    "No vendor will let a full evening's trade be part of the film"
+    "The only climb available is one arranged for visitors rather than one that was happening anyway.",
+    "Filming can only be done by asking anyone to tap, boil or travel outside their own schedule.",
+    "Access is offered on condition that pay, safety or the state of the road are kept off camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0021",
-      "relation": "merged into",
-      "note": "Its substance now sits inside IDEA-0021: appetite in its plain everyday form, ordered without a word and eaten without ceremony."
+      "idea_id": "IDEA-0017",
+      "relation": "pairs with",
+      "note": "Food made at cost and sold for a taste, and food made at cost and given away; the same work, the arrow pointing two ways."
+    },
+    {
+      "idea_id": "IDEA-0018",
+      "relation": "pairs with",
+      "note": "Two things with no use at all, followed from the place they are taken out of to the hand that finally takes them."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0021",
-    "reason": "It repeats the prompted-and-unprompted eating beat that IDEA-0021 already carries on the sources' own example; its everyday, unceremonious register is folded into that idea instead."
+    "superseded_by": null,
+    "reason": "Rebuilt as a place rather than a person: a trade whose entire product is a flavour, where the sources' one-line definition of wanting can be filmed instead of asserted."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape. Dropped the old situation block about a food stall's regulars and first-timers, which was built on people's inner lives and on one customer's habit as a specimen. New location: a remote valley village whose cash trade is palm sap boiled into treacle and jaggery, chosen because the whole physical rhythm of the place exists to produce one taste, and because the sources define wanting with the word sweet inside the definition. New title, old title kept in aliases. Both concept links re-tested against their digests and rewritten: C004 re-grounded on the Margaya's definition and on the joy-or-flat and prompted-or-unprompted distinctions, with the digest's guards on the author's social commentary, on the affection-and-love listing and on the conception claim written in; C005 re-grounded on the occasions list and the aim line, with the guards against preaching deprivation and against reducing the teaching to motive alone. Added place, two_layers, a seven-beat sequence and a proposed location. Selection changed from merge into IDEA-0021 to keep, since the idea is no longer the eating beat it was folded in for, and connections re-pointed inside the group.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Meemure",
+    "also_known_as": [
+      {
+        "name": "Knuckles range",
+        "meaning": "the English name for the ridge line that closes the valley",
+        "used_by": "maps and hikers"
+      },
+      {
+        "name": "Dumbara Kanduvetiya",
+        "meaning": "the misty mountains",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Kandy District, Central Province; the far eastern side of the Knuckles range, beyond Corbett's Gap, under the rock face of Lakegala",
+    "coordinates": {
+      "lat": 7.4415,
+      "lng": 80.8442
+    },
+    "why_here": "It is a working village of about a hundred and twenty families at the end of one rough road, where paddy and pepper are eaten and palm sap is what actually leaves the valley as income, boiled down into treacle and jaggery. That gives the film a place whose entire outward economy is a flavour, which is the sources' definition of wanting standing up in physical form. The tapping method itself is documented and was inscribed by UNESCO in 2025, so the film is not inventing a craft: bamboo lashed to a forty- to fifty-foot trunk, a platform in the crown, a cut inflorescence dressed with a household spice mixture and worked for days before it gives sap, then collection twice a day and hours of boiling into moulds. The rock wall above the village and the cloud that fills the valley at dawn give the aerial work its scale, and the road out over the gap, with roadside stalls selling treacle and jaggery to passing vehicles, supplies the buying end of the film without leaving the district.",
+    "what_to_film": [
+      "The valley from the air at first light: cloud in the bottom, the rock face at the head of it, and the crowns of the palms standing clear above the canopy.",
+      "One climb in full, from the ground: the bamboo lashed to the trunk, the platform, the working of the cut stalk, the pot unhooked and brought down. Filmed from a distance that does not put anyone at risk, and only with the tapper's agreement.",
+      "The sap as it arrives, before anything is done to it: thin, clear, almost tasteless, poured through cloth.",
+      "The night boiling: the wide pan, the fire, the skimming, the colour changing, and the half coconut shells filled and left to set.",
+      "The volume of it: what goes into the pan against what comes out, filmed as one continuous stretch rather than cut for effect.",
+      "The road out over the gap, and a roadside table of jars and blocks with vehicles stopping, filmed long enough to catch both a buyer who has clearly stopped on purpose and one who is talked into it at the window.",
+      "Faces at the moment of tasting, taken as found and never directed: the first taste of a child, the flat working face of a seller, a tapper eating a corner of his own product standing up."
+    ],
+    "access": "By road from the Kandy–Mahiyanganaya highway at Hunnasgiriya, then a B-grade climb to Corbett's Gap and a rough track beyond it that needs a high-clearance vehicle and is the first thing to fail in heavy rain. The village has homestays and receives some walkers, so filming permission is a matter of agreement with individual families rather than a single gate. Climbing a palm is not proposed for the crew under any circumstances.",
+    "best_time": "Early morning for the cloud in the valley and the first collection of the day; evening and night for the boiling. Drier spells for the track. Tapping runs through the year, so the timing is chosen for access and light rather than for a season of work.",
+    "images": [
+      {
+        "caption": "The village in its valley, for the scale of the place and the canopy the palms stand above.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meemure_Village_Sri_Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Meemure_Village_Sri_Lanka.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 3.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The palm the trade is built on, showing the height a tapper climbs.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri_Lanka-Kitul_tree_%281%29.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri_Lanka-Kitul_tree_%281%29.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 3.0 per the file page; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The product at the end of the boiling, for what a night's fire reduces the sap to.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kithul_treacle.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kithul_treacle.jpg",
+        "licence_note": "Wikimedia Commons, CC BY-SA 4.0 per the file page; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://ich.unesco.org/en/RL/kithul-madeema-kithul-kapeema-an-ancient-indigenous-technology-for-tapping-kithul-in-sri-lanka-02318",
+      "https://www.sundaytimes.lk/121118/plus/meemure-stepping-into-the-dim-mists-of-time-20636.html",
+      "https://www.srilankabusiness.com/blog/jaggery-palm-from-sri-lanka.html",
+      "https://www.lanka-excursions-holidays.com/blog/hunnasgiriya-gateway-to-knuckles-range"
+    ],
+    "research_note": "The number of families, the access route over the gap, the livelihood mix of paddy, pepper and palm sap, the height and maturity of the palm, the bamboo climbing frame and platform, the spice dressing of the cut inflorescence, the boiling into treacle and jaggery and the coconut-shell moulds, and the 2025 UNESCO inscription of the tapping method are all from the sources above and are desk research only. Coordinates are from an open gazetteer lookup. How many households in this particular village still tap, current prices, where the product is actually sold, drone rules over a conservation forest and whether any family will agree to be filmed are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No family, tapper or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether tapping is active in the months the film could be made, and how many trees are in bearing at once, is unverified.",
+    "Whether the roadside selling end can be filmed at the same time as the making end, or whether it happens on a different road entirely, has not been checked.",
+    "Drone permissions over a conservation forest range and over people working at height are unverified and may be refused."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

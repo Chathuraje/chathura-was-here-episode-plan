@@ -2,59 +2,104 @@
   "schema_version": 1,
   "id": "IDEA-0039",
   "record_type": "idea",
-  "title": "The Closed Hand",
+  "title": "Nothing Comes Down Yet",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Closed Hand"
+  ],
   "group_id": "GRP-03",
-  "logline": "A family workshop teaches its craft to an apprentice from outside the family, openly for most of the day and never for the part that the craft's reputation actually rests on.",
-  "human_question": "What is the difference between a skill you protect and a skill you keep to yourself?",
-  "situation": {
-    "what_happens": "A trade that has passed inside one family for generations takes on a learner who is not family, because there is nobody left inside it who wants the work. The teaching is real and generous for most of what there is to teach. But there are steps that are done after the apprentice goes home, and both sides know it without either having to say so. Over months the apprentice gets good enough to notice exactly what is missing, and the family has to decide something they have never had to decide before, in front of someone whose livelihood now depends on the answer.",
-    "who_is_involved": "The family who hold the craft, who do not agree among themselves about how much to pass on; the apprentice, who is learning a trade and also auditioning for trust; the older members for whom the withheld part is the family's only real asset; customers who buy the work without knowing whose hands finished it; and whoever else in the trade would be affected if the method travelled.",
-    "what_is_at_stake": "For the family, the one thing that makes their work worth more than anyone else's, and therefore their income after they can no longer work. For the apprentice, years of labour that may end without the thing they came for. For the craft, whether it survives a generation at all, since withholding it perfectly is also how it dies. For the film, never exposing what the family wishes to keep private and never framing a family's protection of its living as a moral failing.",
-    "how_it_unfolds": "It begins with a teaching relationship that is going well and a subject nobody raises. The pressure is time: the apprentice gets better, the older hands get older, and each month makes the unspoken thing louder. It can end with the method being handed over, with the apprentice leaving to work with what they have, with a partial transfer on conditions, or with nothing being decided at all and the question staying open for years. Reality decides, and the honest likelihood is that the film ends before the family does."
+  "logline": "On a forested ridge, men climb twenty metres of lashed ladder to palms that will give nothing for weeks, and the work that decides whether they give anything at all is done alone, before anyone else is on the hill.",
+  "human_question": "When someone teaches you everything except one thing, what is it that they are holding?",
+  "place": {
+    "what_kind_of_place": "Steep, wet forest-edge country where a tall feather palm grows wild through the home gardens and the rainforest margin, and a scatter of households live off it. Each palm throws a single great flowering stalk out of its crown, then another below it, working downwards; the stalks are tapped one after another for sap, and when the lowest is finished the tree dies. The working parts of the place are a ladder of split poles lashed up a trunk, a clay or plastic pot hung at the height of the stalk, a wet path down, and a shed at the bottom with a long pan over a wood fire.",
+    "why_it_is_worth_watching": "It is a vertical craft in a landscape built for a camera that can climb. From the air at first light the ridges are islands in mist and the palm crowns stand clear of the canopy, each with its stalk hanging out of it like a rope. The drone can go up the trunk beside a man on a ladder with a pot in one hand, and arrive with him in a place no ground camera reaches: a small working platform of fronds twenty metres up, with cloud underneath. And at the bottom of the hill the same day ends in a shed full of steam and firelight, where water-clear sap darkens to amber over hours.",
+    "what_moves_or_changes": "Almost nothing is on a schedule the crew can set. The mist fills and clears twice a day. The stalk is worked on for days or weeks before a drop comes, and then runs twice a day until it stops. The palm itself changes over the years of the film's subject: crown green and flowering at the start of its tapped life, brown and finished at the end. Rain decides how many days are climbable, and the fire in the shed decides when the boiling ends, not the clock.",
+    "when_it_looks_best": "The weeks when a new stalk is being prepared and nothing is yet coming down, because that is the part of the work the film is about. Mornings, for the mist and for the light coming level across the crowns; and after dark in the boiling shed, which is the only lit interior the place has."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a tree and the people who live off it. A man goes up a ladder into mist, does something patient and precise at the top of it, comes down with nothing, and does it again. Weeks later the same stalk runs and the sap goes down the hill to a fire. Water turns to amber, amber sets into a block, and the palm that gave it is visibly dying. Anyone who never hears a word of narration has a complete piece: height, mist, fire, colour, and a tree with one life in it.",
+    "with_the_philosophy": "The same footage becomes a demonstration of something the old lists say that most people have never heard: that a thing you know is held in exactly the way a thing you own is held, and that the holding is not a form of wanting at all. The voice never says that anybody on this hill is holding anything back. It points at the shape of the work, which is genuinely shaped that way — nearly all of it taught in the open, one step done alone — and lets the viewer feel how thin the line is between protecting a living and the state the sources describe, and how completely a camera fails to tell them apart."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from above a forested ridge. Mist lying in the valleys. Standing clear of the canopy, the crowns of tall feather palms, each with one great flowering stalk hanging out of it.",
+      "voice": "This palm flowers once. One stalk comes out at the top, then another below it, working down the tree, and when the lowest is finished the tree dies. Everything a household earns from it, it earns in those few years.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "A ladder of split poles lashed to a trunk, twenty metres of it. A man going up with a pot and a knife. Below him, a younger one waiting, then following.",
+      "voice": "The climb is taught. The ladder is taught, and the knife, and how to hang the pot, and how long to leave it. Nearly all of it is taught in the open, to anyone willing to learn, because there are not many willing.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Earlier light, and only one person in the frame: high on the ladder, the flower stalk being bound with vine, bruised along its length, worked at and left, over days.",
+      "voice": "Before a single drop comes down, the stalk has to be brought on: bound, beaten, treated, for days or for weeks. Whether the tree gives anything at all is decided here. This is the part that is done alone.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Full daylight. The learner arriving at a stalk that is already prepared, and the first sap running into the pot.",
+      "voice": "The old lists name fourteen unwholesome mental factors, and one of them is a holding-back with five things it can fasten on: a dwelling, a following, a gain, praise, and knowledge. A thing you know, counted among the things you own [C022-P:L133–L135; C022-M:L43–L45].",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The descent. The pot carried down a wet path in both hands. The sap poured through cloth into a larger vessel.",
+      "voice": "The sources take trouble to separate it from the factor next to it in the list. Envy looks outward, at what somebody else has [C022-P:L129]. This one looks inward, at one's own, and at the prospect of it being shared [C022-P:L133]. They are near neighbours and they are not the same thing.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The shed after dark. A long pan over a wood fire, the sap reducing, steam, the colour going from water to amber, hands turning and skimming.",
+      "voice": "And then a placement that is hard to credit until you hear the reason for it. This holding-back is not filed with wanting. It grows out of attachment to one's own, but what it actually consists of is displeasure at the thing being shared, so the sources group it with aversion [C026-M:L19]. Clutching is felt as irritation, not as pleasure.",
+      "concept_id": "C026"
+    },
+    {
+      "on_screen": "Late afternoon. Set treacle in a jar, catching the light. Then a palm further along the ridge whose last stalk is finished, crown gone brown, an empty ladder still lashed to the trunk.",
+      "voice": "A camera cannot see which state a mind is in, and this film does not claim to. A household that keeps one step to itself may be doing nothing the texts describe; it may simply be keeping the only thing it has that is worth money. What can be filmed is the shape of the work: a craft with a door in it, and a tree that gives for a few years and then stops.",
+      "concept_id": "C026"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C022 supplies the fact that makes the situation a concept at all: both sources count knowledge or teaching among the five things this holding-back clings to, alongside a dwelling, a family, a gain and praise [C022-P:L133–L135; C022-M:L43–L45]. Without that, a workshop is only a workshop. C026 supplies the strange part: the same sources place this holding-back with aversion rather than with wanting, because although it springs from attachment to one's own, it shows itself as displeasure at their being shared [C026-M:L19], and it arises only in the two hate-rooted minds, only sometimes, and never alongside envy or remorse [C026-P:L39].",
-    "what_it_reveals": "That the thing being described is not greed for a secret but a small recoil at the moment of parting with it, which is why the film has to watch the moment of teaching rather than interview anyone about their intentions. It also reveals the limit of the whole exercise: protecting a livelihood and the state the sources describe look identical from outside, and neither concept licenses anyone to tell them apart in a real family. C022 alone would make the film an accusation; C026 alone would have nothing to look at."
+    "why_together": "C022 supplies the fact that makes a working hillside into a concept at all: both sources count knowledge among the five things this holding-back fastens on, alongside a dwelling, a following, a gain and praise [C022-P:L133–L135; C022-M:L43–L45]. Without that line, a craft with a closed step is only a craft with a closed step. C022 also draws the boundary that keeps the film from drifting into the neighbouring factor: envy takes other people as its object, this takes one's own [C022-P:L129; C022-P:L133]. C026 supplies the part that is genuinely strange and that no viewer would guess: although it springs from attachment to one's own, it arises with aversion and never with greed, because what it consists of is displeasure at sharing [C026-M:L19]; and it occurs only in the two hate-rooted minds, only occasionally, and never in the same moment as envy or remorse [C026-P:L39].",
+    "what_it_reveals": "That what the sources are describing is not a greed for secrets but a small recoil at the moment of parting with something, which is why the film watches the practice of a craft and not anybody's face. It also shows the limit of the whole exercise in the plainest possible way: protecting a livelihood and the state the sources name look identical from outside, and neither concept gives anyone the standing to tell them apart in a real family. C022 on its own would make the film an accusation. C026 on its own would have nothing to point at."
   },
   "concept_links": [
     {
       "concept_id": "C022",
       "role": "primary",
-      "why": "Both sources count knowledge and teaching (dhamma) among the five kinds of this holding-back, so a skill one knows is as much a possible object of it as a house, a following, a gain or a reputation [C022-P:L133–L135; C022-M:L43–L45]. Pradeepika also draws the line that keeps this film from drifting into the wrong concept: envy takes other people as its object, while this takes one's own things [C022-P:L133]. One point is deliberately not built on. The digest flags that Margaya's fourth aspect reads as 'indicating' one's own attainments where Pradeepika has 'not bearing others to know of it' [C022-M:L43], and says it may be an OCR error needing checking against the print, so the film does not rest anything on the 'cannot bear it to be known' aspect even though the situation appears to offer it."
+      "why": "Both sources count knowledge and teaching among the five kinds of this holding-back, so a skill one knows is as much a possible object of it as a house, a following, a gain or a reputation [C022-P:L133–L135; C022-M:L43–L45]. That is the whole reason a craft can carry this concept. Pradeepika also draws the line that keeps the film from sliding into the factor beside it: envy takes other people as its object [C022-P:L129], while this takes one's own things [C022-P:L133], and both are classed with aversion rather than with wanting. One point is deliberately not built on. The digest flags that Margaya's fourth aspect reads as 'indicating' one's own attainments where Pradeepika has 'not bearing others to know of it' [C022-M:L43], and says it may be an OCR error that needs checking against the print; so the film rests nothing on the 'cannot bear it to be known' aspect, even though a closed step in a craft appears to offer it on a plate. The digest's other limits are honoured on screen: nobody in frame is offered as an instance of a defilement, and the narration never treats a household's protection of its living as a verdict about that household."
     },
     {
       "concept_id": "C026",
       "role": "supporting",
-      "why": "Margaya explains the part that is genuinely counter-intuitive: although this state springs from attachment to one's own things, it arises with aversion and never with greed, because what it actually consists of is displeasure at sharing [C026-M:L19]. Pradeepika adds that it occurs only in the two hate-rooted minds, only occasionally, and never together with envy or remorse, which arise one at a time [C026-P:L39]. Two of the digest's limits are written into the film: 'stinginess is greed' is exactly the English equation this material rules out, and the scheme is a study of single moments, not a way of reading people, so nothing on camera can show which factor is present in anyone."
+      "why": "Margaya explains the counter-intuitive placement that the film's last third rests on: although this state springs from attachment to one's own things, it arises with aversion and never with greed, because what it actually is, is displeasure at sharing [C026-M:L19]. Pradeepika adds that it occurs only in the two hate-rooted minds, only occasionally, and never together with envy or remorse, which arise one at a time [C026-P:L39]. Two of the digest's limits are written into the film rather than left in a note. 'Stinginess is greed' is exactly the English equation this material rules out, so the voice states the correction plainly. And the scheme is a study of single moments of mind, not a way of reading people, so nothing on camera can show which factor is present in anyone, and the closing narration says so."
     }
   ],
-  "what_the_viewer_could_understand": "People can be possessive about a skill exactly as they are about money or land; the texts count knowledge among the things a mind holds back. What is surprising is where they place it: not with wanting but with aversion, because what it consists of is a small displeasure at sharing. And they are equally clear that none of this can be read off anyone from outside, which is why a family protecting its living may be doing nothing the texts describe at all.",
-  "what_must_be_real": "The workshop, the family and the teaching relationship must be genuine and already under way; no lesson, withholding or conversation may be arranged. Methods the family wishes to keep private stay private, including from the film: the subject is the relationship, never the secret. The apprentice must be able to speak or not speak without it costing them their place, and the family must be able to see and refuse anything that would identify the method.",
-  "position_hint": "middle: it is the group's slowest and most private study of holding back, and it needs the group to have already established that this displeasure is what the sources are describing. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That people can hold a skill exactly as they hold money or land, because the old lists count knowledge among the things a mind holds back. That the sources file this not with wanting but with aversion, since what it consists of is a small displeasure at sharing. And that none of this can be read off anyone from outside, which is why a family protecting the one step its living depends on may be doing nothing the texts describe at all.",
+  "what_must_be_real": "The palms, the households and the teaching must be genuine and already under way; no lesson, no withholding and no conversation may be arranged for the camera. Whatever any household treats as its own method stays its own, including from the film: the subject is the shape of the work, never the method itself, and no shot may be composed so that a practised viewer could reconstruct it. Anyone learning the craft must be able to speak or stay silent without it costing them their place. Climbing shots are filmed only in conditions the climbers themselves would climb in, and the presence of a crew or a drone must never change how anyone goes up or comes down.",
+  "position_hint": "middle: it is the group's slowest and most private study of holding back, and it works best once the group has already established that this family of states is displeasure rather than desire. No location reasoning is involved.",
   "risks": [
-    "Framing a family's protection of its livelihood as a moral failing, when the digest forbids reading any state off anyone.",
-    "Exposing trade methods the family wishes to keep private, or making them identifiable by accident.",
-    "The apprentice being exposed, or their position damaged, by speaking honestly about what is withheld.",
-    "Letting a viewer hear 'stinginess' as greed, which is the one equation the sources explicitly refuse.",
-    "Building on the disputed fourth aspect of this factor, which the digest flags as possibly an OCR error."
+    "Framing a household's protection of its livelihood as a moral failing, when the digest forbids reading any state off anyone.",
+    "Filming a method a household wishes to keep private, or shooting it in a way that makes it reconstructable by accident.",
+    "Exposing a learner, or damaging their position, by putting what is withheld into their mouth on camera.",
+    "Letting a viewer hear this factor as greed, which is precisely the equation the sources refuse [C026-M:L19].",
+    "Building anything on the disputed fourth aspect of this factor, which the digest flags as possibly an OCR error needing checking against the print [C022-M:L43].",
+    "Sliding from this factor into envy, which takes other people's fortune as its object and is a different thing [C022-P:L129].",
+    "Putting a crew or a climber at height for a shot, or altering how anyone climbs because a camera is present."
   ],
   "drop_if": [
-    "No workshop is currently training a non-family apprentice.",
-    "The family is unwilling to have the teaching relationship itself observed.",
-    "The film could only work by getting the withheld method on camera."
+    "No household is currently bringing anyone into the craft who is not already inside it, so there is no teaching to observe.",
+    "Households are unwilling to have the ordinary working day observed at all.",
+    "The film could only work by getting the closed step itself on camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0042",
       "relation": "pairs with",
-      "note": "Two tests of what is handed over: a catch divided in the open in one morning, a skill divided in private across years."
+      "note": "Two tests of what is handed over; this one is handed over out of sight and across years."
     },
     {
       "idea_id": "IDEA-0043",
@@ -66,17 +111,85 @@
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0022; its primary link is one of the digest's own five kinds, and it is the group's clearest case of a state the camera can approach only through a relationship."
+    "reason": "It is the only film in the group where the concept is the physical shape of the working day: a craft taught in the open with one step done alone."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 from the old situation shape into the footage-led shape: a real closed craft on a real hillside, a seven-beat sequence locked to what is on screen, both concepts re-read from the digests, and the disputed fourth aspect of the factor kept out of the film's load-bearing structure.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The kitul slopes of the western Sinharaja buffer zone, around Kalawana",
+    "also_known_as": [
+      {
+        "name": "kitul",
+        "meaning": "the fishtail or jaggery palm, Caryota urens",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "kithul madeema / kithul kapeema",
+        "meaning": "the tapping of the palm for sap",
+        "used_by": "the name under which the practice was inscribed by UNESCO in 2025"
+      },
+      {
+        "name": "hakuru / kithul pani",
+        "meaning": "the jaggery and the treacle boiled from the sap",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Ratnapura district, on the wet western margin of the Sinharaja rainforest, in the ridge villages above the Kalu and Gin headwaters",
+    "coordinates": {
+      "lat": 6.43,
+      "lng": 80.42
+    },
+    "why_here": "It puts the concept and the best available footage on the same hillside. The palm grows wild through the forest margin and the home gardens here, the wet zone gives the mist and the vertical relief the film needs, and the craft is hereditary and learned informally at home, which is the transmission the whole film is about. The single most beautiful shot the place can produce, a man at the top of a twenty-metre lashed ladder with cloud below the crowns, is also the clearest statement of the concept, because that is where the one step nobody else watches is done.",
+    "what_to_film": [
+      "The ridges at first light from high above, with the palm crowns and their flowering stalks standing clear of the canopy and mist in the valleys.",
+      "A climb, from the ground and then alongside, up the lashed pole ladder to the working height.",
+      "The preparation of a stalk that is not yet giving anything: the binding, the working over, the coming back day after day to nothing.",
+      "A day's collection: the pot unhooked, the descent, the walk down a wet path, the filtering.",
+      "The boiling shed after dark: the long pan, the fire, the steam, the colour changing over hours, the setting into blocks.",
+      "The household's ordinary teaching of whoever is learning, filmed as work and not as ceremony.",
+      "A palm at the end of its tapped life, crown brown, last stalk finished, ladder still on the trunk."
+    ],
+    "access": "By road from the nearest small town and then on foot up the ridges; the palms are on people's own land or on the forest margin, so everything depends on the households agreeing and on working their hours rather than a crew's. Drone work near a reserve boundary is likely to need permission, and height filming needs the climbers' agreement on every ascent.",
+    "best_time": "The weeks when a new stalk is being brought on and nothing is coming down yet. Early morning for the mist and the level light; the drier inter-monsoon spells for climbable days.",
+    "images": [
+      {
+        "caption": "The palm itself, in Sri Lanka. This is the tree the craft is built on, not the slopes proposed here.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lanka-Kitul tree (1).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lanka-Kitul tree (1).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A tapped palm with the flowering stalk worked for sap; the object type, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KITHUL.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:KITHUL.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A tapped palm in its setting, showing the height a ladder has to reach. The tree and the terrain type, not the slopes proposed here.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lanka-Kitul tree (2).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lanka-Kitul tree (2).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://ich.unesco.org/en/RL/kithul-madeema-kithul-kapeema-an-ancient-indigenous-technology-for-tapping-kithul-in-sri-lanka-02318",
+      "https://www.unesco.org/en/articles/kithul-tapping-inscribed-unescos-representative-list-intangible-cultural-heritage-humanity",
+      "https://en.wikipedia.org/wiki/Caryota_urens"
+    ],
+    "research_note": "That the practice is spread across many districts, that tappers climb by ladder, wrap the flower stalk and cut it with a knife, that the sap is filtered and boiled for hours into treacle, that men collect and women process, and that most learning happens informally at home, are from the UNESCO inscription and are desk research only. That the palm flowers once and dies after its last stalk is from the species account. The one thing the film turns on, that the bringing-on of a stalk before it yields is treated as household knowledge and done alone, is reported in popular accounts and is NOT confirmed by either source read here; it is the first thing a researcher would have to establish on the ground, and if it is not true the film does not exist. The coordinates are the western forest margin, not a chosen village or household; no household has been found or approached, and access, permits and drone rules near a reserve boundary are unverified. The images were found through the Commons search API and confirmed to exist; they show the palm itself, not the slopes proposed.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, palm or village has been found or approached. Everything here is a research direction.",
+    "Whether any step of the craft is in fact held back, and by whom, is unverified, and the film's entire premise depends on it.",
+    "Drone flight and filming at height near a forest reserve boundary are likely to need specific permission and may be refused.",
+    "Whether the craft is still being taught to anyone outside the households that hold it, in this area, during any filming window."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

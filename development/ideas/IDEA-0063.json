@@ -2,84 +2,191 @@
   "schema_version": 1,
   "id": "IDEA-0063",
   "record_type": "idea",
-  "title": "Slow Through the Mist",
+  "title": "As Far as the Next Post",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Slow Through the Mist"
+  ],
   "group_id": "GRP-04",
-  "logline": "Fog comes down on a mountain railway until a driver and a signalman can see only a few metres of track, and the only way through is to slow to a walking pace and look.",
-  "human_question": "When you cannot see where you are going, what does it take to keep moving safely?",
-  "situation": {
-    "what_happens": "On a steep mountain line cloud settles for hours at a time and visibility falls to a few metres. The staff have a procedure for exactly this: the train is taken at a crawl, the signalman works by token, bell and lamp instead of by sight, and each step is confirmed rather than assumed. Passengers see nothing but white through the windows. The fog lifts or it does not, and the work goes on either way.",
-    "who_is_involved": "A signalman at a mountain station, a driver and crew, the passengers carried through it, and the supervisors whose rules make the crawl compulsory.",
-    "what_is_at_stake": "Lives, plainly. Also the timetable, and the long patience of people whose work is to move something heavy through what cannot be seen.",
-    "how_it_unfolds": "It begins when the cloud arrives, continues through hours of slow confirmed steps, and ends when the weather changes or the shift does. The pressures are delay, cold, radio and telephone traffic, and the temptation to go faster. It ends with the valley appearing, or with the fog simply staying. Reality decides, and the film has to accept either."
+  "logline": "A single-track mountain line runs along the crest of a ridge at sixteen hundred metres with the ground falling away on both sides, and when the cloud comes over the gap the crew can see one post ahead and the only way forward is at the speed of a walking man.",
+  "human_question": "When you can honestly only see this far, what is the right speed to go?",
+  "place": {
+    "what_kind_of_place": "A small station on a knife-edge ridge near the top of a hill railway, about 1,600 metres up, reached by the line and by a footpath and by almost nothing else. There is a platform, a signal cabin, a water tap, a row of railway quarters and a garden the staff keep in front of them. On one side the land falls into a deep interior basin; on the other it drops away towards the plains, and the ridge is the seam between two weathers. Cloud from the plains side comes over the gap and pours down into the basin, several times a day for much of the year. The sections either side are a chain of tunnels and rock cuttings with no road access worth the name.",
+    "why_it_is_worth_watching": "It is one of the few places where you can film weather arriving as a physical object. From above the ridge on a good morning, the crest is in clear sun and both valleys are full of cloud to the brim, with the line and its telegraph posts running away along the top of the world. Then the cloud climbs the near side, comes over the gap at about walking pace, and the whole thing — line, station, ridge — is gone in under five minutes. On the ground, the same event is a white wall that arrives, a lamp that suddenly makes no distance at all, and a man leaning out of a cab who can see exactly one post ahead.",
+    "what_moves_or_changes": "The cloud, which is on nobody's schedule and can come back four times in a morning. The light, which at this height changes the ridge completely between one pass and the next. The trains, a small number a day in each direction, which have to be worked through whatever the weather does. And the speed, which is the only thing in the whole arrangement anyone actually controls.",
+    "when_it_looks_best": "The months when cloud sits on this ridge most reliably, which the staff can name better than any forecast. The first hours after dawn, when the crest is clear and the valleys are full, give the aerial; the late afternoon, when the cloud comes over and stays, gives the work."
   },
+  "two_layers": {
+    "without_the_philosophy": "A mountain railway film that needs no help at all: a line along a ridge above two seas of cloud, a station garden in the wind, lamps being trimmed and lit, a locomotive coming out of a white wall at the pace of a person walking, and a valley that appears all at once when the weather tears off. It has a shape without commentary — clear, then blind, then clear — and the shape is the weather's, not a film-maker's.",
+    "with_the_philosophy": "The same hours become a working demonstration of what the sources actually say about a covered mind, and of what they say to do about it. The texts describe a darkening in which a thing cannot be known as it is; they give a set of states that sit over the mind like a lid; and the helps they list against them are startlingly plain — open air, a light to think of, good company, asking, talking about suitable things at the right time. Everyone on this ridge already works that list. The voice never says the fog is a defilement, and never says the crew have solved anything. It says: here is what people do when they can only see this far."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn from high above the crest. The ridge in clear sun, both valleys filled to the brim with cloud, the single line and its telegraph posts running away along the top. No train yet.",
+      "voice": "The line runs along the top of a ridge for several miles here. On one side the ground falls into a basin, on the other towards the plains. Most days the weather on the two sides is not the same weather, and the ridge is where they meet.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "From the air: cloud climbing the near flank, reaching the gap and coming over it, spilling down the far side. It crosses the line at roughly the pace of a walking person. Within minutes the ridge is white and the drone is inside it.",
+      "voice": "The old commentaries have a single word for the thing that darkens a mind so that it cannot know what is actually in front of it. They say it is present in every unwholesome state and that it runs two of them outright [C008-M:L3]. It is not an emotion. It is a loss of range.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "In the cab. White glass. The driver leaning out into it with his cap turned. The headlamp burning into cloud and lighting nothing beyond a few metres. A hand easing the brake. The speedometer at almost nothing.",
+      "voice": "The rule for this is not complicated and is not new. You may go at whatever speed lets you stop inside the distance you can actually see. Today that is the speed of a man walking.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "The cabin. A lamp taken down, wick trimmed, glass wiped, lit and hung. A hand signal made unusually large and slow to a shape that is barely there. A bell answered. Detonators in a tin. Nothing hurried.",
+      "voice": "The same books gather the states that cover the mind and give them one image: a lid put over it [C074-P:L236]. Then, instead of a method, they list helps, and the list is almost embarrassingly ordinary. Get into the open air. Bring a light to mind. Keep good company. Ask. Talk about suitable things, at the right time [C074-P:L326–L340].",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The train in the cloud, taken from beside the track: it arrives out of white at a walking pace, passes, and is gone into white. Then the far cabin, a man with his hand on the lever, not moving it, waiting for a word that has not come yet.",
+      "voice": "Nothing here is timidity. The books are careful about this in their own way: they separate a stalling over the deepest questions, which they treat as a hindrance, from the ordinary state of not knowing something you are not yet in a position to find out, which they say need not be a fault at all [C008-P:L36]. A crew that will not move until the next step is confirmed is in the second case. They are not hesitating. They are declining to guess.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "The station in full cloud. Flat white beyond the platform edge. No sound but water dripping off the awning. A clock. Tea going cold on a ledge. A man sitting, not doing anything in particular.",
+      "voice": "The texts say something strange about a mind that cannot make out its object: it feels neither good nor bad. Just flat [C008-P:L30]. And they are careful that this flatness is not peace. It is the blankness of not having arrived anywhere. Which is worth remembering about an hour like this one, because it photographs exactly like calm and is not.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "The cloud tears off the ridge in under a minute and the whole basin opens below, sunlit, miles of it. The train going away along the crest in clear light, small. Then, at the edge of frame, more cloud already coming up the far flank.",
+      "voice": "None of this clears anything. The books are flat about that: what actually uproots the darkening is a knowledge nobody on this ridge is claiming, and everything short of it only holds the thing down for a while. The rest was never promised to be more than practical. Open air, a light, somebody older to ask, and a speed you can stop inside. It lifts, or it does not, and the work is the same either way.",
+      "concept_id": "C074"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C008 gives the state the whole group rests on: delusion is described as a quality that darkens the mind so it cannot know a thing as it is, and it is what both delusion-rooted minds share [C008-M:L3]; restlessness, the inability to hold one object, is the other half of the group's problem [C008-P:L62]. C074 gives the answer in the sources' own idiom: the states that cover the mind are met with strikingly ordinary helps, open air, the recollection of light, and calm [C074-P:L236; C074-P:L360; C074-P:L430–L436]. A crew whose real procedure is to slow down and confirm each step holds the state and the help in the same hour.",
-    "what_it_reveals": "That the answer to not seeing is not certainty but pace. C008 alone would leave the group in the fog; C074 alone would make the helps sound like advice. Together they show that people already do this, and that moving carefully through what cannot be seen is an ordinary competence rather than a spiritual achievement."
+    "why_together": "C008 supplies the state and its two most easily misread features. Delusion is the darkening that stops a mind knowing a matter as it really is [C008-M:L3]; the feeling in these states is neutral, and the digest insists that this neutrality is not equanimity [C008-P:L30]; and the harmful doubt is restricted to eight specific religious matters, with ordinary not-yet-knowing expressly excluded [C008-P:L36]. C074 supplies the answer in the sources' own idiom rather than a modern one: the covering states are given as a lid over the mind [C074-P:L236], and what is offered against them is a list of plain, external, unheroic helps — open air, the recollection of light, good company, asking, suitable talk at the right time [C074-P:L326–L340]. A crew whose actual safety procedure is to slow to a walking pace, hang lamps and confirm each step is doing that list for reasons of its own, which is exactly why it can carry it without the film preaching.",
+    "what_it_reveals": "That the honest response to not seeing is not certainty but pace — and that declining to guess is a competence, not a failure of nerve. C008 alone would leave the group sitting in the fog and would risk photographing a blank hour as serenity. C074 alone would turn a list of helps into advice. Together, on a ridge where the weather decides and people simply adjust their speed to what they can verify, they show the difference between a mind that cannot see and a person who knows how far they can see."
   },
   "concept_links": [
     {
       "concept_id": "C008",
       "role": "primary",
-      "why": "The digest gives delusion as the darkening that stops a mind knowing a thing as it is, present in all unwholesome minds and dominant in the two this group is built on [C008-M:L3], and gives restlessness as the loss of the power to stay with one object [C008-P:L62]. The fog is an image of that darkening and nothing more. The film is about the workers' real practice, and the digest's caution holds: slowing down is their safety procedure, not a technique the sources promise will clear delusion, which they say only path-knowledge uproots."
+      "why": "The digest gives delusion as the quality that darkens the mind so that it cannot know a matter as it really is, present throughout the unwholesome and dominant in the two minds this group is built on [C008-M:L3], and gives restlessness as the loss of the power to stay with one object [C008-P:L62], arising in sudden situations and in work done at speed [C008-M:L20]. The cloud is an image for that darkening and is offered as nothing more. Three of the digest's limits do real work here and are honoured on screen. First, the harmful doubt is restricted to eight specifically religious matters and is separated from the honest state of not knowing something one cannot yet investigate [C008-P:L36; C008-P:L36–L38], so the film asserts nothing about which kind it is showing and never presents the crew's careful hesitation as a defect. Second, the neutral feeling in these states is not equanimity [C008-P:L30], so a flat, drifting, fog-bound hour is never read as calm; the voice says so in as many words at the point where the picture is most likely to suggest otherwise. Third, slowing down is these workers' safety rule, not a technique the sources promise will clear anything, and the film does not borrow their competence as a spiritual claim."
     },
     {
       "concept_id": "C074",
       "role": "supporting",
-      "why": "The compendium describes the hindrances as a lid over the mind and lists plain, practical helps against them: going out into the open air, recollecting light, keeping to what is calm and to good company [C074-P:L236; C074-P:L360; C074-P:L430–L436]. Signal lamps and slow, confirmed work can carry that without a word being said."
+      "why": "The compendium gathers the always-unwholesome states into overlapping lists, of which the hindrances are the ones that sit over a mind as a cover and stop it settling or seeing clearly [C074-P:L236], and the helps it sets against them are conspicuously practical and external: moderate eating, changing posture, going out into the open air, recollecting light, good friends, asking questions, the company of older and wiser people, suitable talk at the right time [C074-P:L326–L340]. Lamps, open doors, a mate on the other end of a bell and a supervisor to ask can carry that list without a word being said over them. Two of the digest's limits govern this film directly. The compendium's warnings about rites and rituals concern views held as the path to liberation, and can never be used on screen to judge or mock real religious or folk practice — which matters here, because a shrine, a lamp or a word said before a bad run is entirely likely on a mountain section and will be filmed with respect or not at all. And abandonment in these texts is staged and technical: practice and absorption only suppress, and only path-knowledge uproots, so the film must never suggest that going slowly clears the fog of the mind."
     }
   ],
-  "what_the_viewer_could_understand": "When you cannot see far, the way through is to slow down and look carefully at what is right in front of you. The texts describe confusion as something that darkens the mind, and name calm as the opposite of restlessness.",
-  "what_must_be_real": "The fog, the procedures and the journey. Nothing is slowed, repeated or arranged for the camera, and safety rules come before every shot.",
-  "position_hint": "closing candidate: the group's closing line made literal, and the hand-off to what follows, which asks what we actually find when we look closely at a single moment.",
+  "what_the_viewer_could_understand": "That when you cannot see far, the answer is not to become more certain but to go at a speed you can stop inside, and to confirm rather than assume. The texts describe confusion as a darkening that reduces a mind's range, and they are clear that the flat, unbothered feeling that comes with it is not peace. They are equally clear that not knowing something you are not yet able to find out is a different thing entirely, and may be no fault at all.",
+  "what_must_be_real": "The cloud, the procedures and the journey. Nothing is slowed, repeated, re-lit or arranged for the camera; no signal, lamp or hand sign is made for a shot; no train movement is requested. Safety rules and the staff's instructions come before every frame, and filming stops the moment it could distract anyone working a section in poor visibility. Any observance the staff keep — a lamp, a shrine, a word before a run — is filmed as their practice and never as an example of anything, and the voice does not comment on it. The film does not present the crew as spiritually accomplished, or their speed restriction as a technique for the mind.",
+  "position_hint": "closing: it is the group's turn made literal, from being lost to slowing down and confirming what is actually in front of you, and it hands off cleanly to whatever asks the viewer to look closely at a single moment. It also needs to come last because it is the one film in the group that is allowed to be beautiful without qualification.",
   "risks": [
-    "Scenic footage becoming a travel film.",
-    "The fog metaphor becoming too neat, and the workers becoming its illustration.",
-    "Suggesting that slowing down clears confusion; the sources say only path-knowledge uproots it.",
-    "Safety in poor visibility around moving trains."
+    "Scenic footage taking over and the piece becoming a travel film about a famous train ride.",
+    "The fog metaphor becoming too neat, so that the staff turn into its illustration rather than people doing a job they know better than the film does.",
+    "Photographing the flat, blank hours in cloud as serenity. The digest is explicit that the neutral feeling in these states is not equanimity [C008-P:L30].",
+    "Presenting careful hesitation as a defect. The sources restrict the harmful doubt to eight specifically religious matters and expressly exclude the honest state of not knowing something one cannot yet investigate [C008-P:L36]; a crew confirming each step is prudent, not deluded.",
+    "Suggesting that slowing down clears confusion. In the sources abandonment is staged: practice and absorption suppress, and only path-knowledge uproots.",
+    "Using the compendium's warnings about rites and rituals to judge or mock any observance the staff keep. Those warnings concern views held as the path to liberation and have no bearing on a lamp lit at a mountain station.",
+    "Safety: working near a moving train in poor visibility, at altitude, on a ridge with no road access, and the possibility that a crew's presence distracts someone at exactly the wrong moment.",
+    "Duplicating the group's other single-line railway film, which is about two trains having to meet. This one is about how far anyone can see and must stay there."
   ],
   "drop_if": [
-    "Close filming of the work cannot be permitted.",
-    "No fog days fall within the development window."
+    "Close filming of the work cannot be permitted, or a crew cannot be present during actual poor-visibility working.",
+    "No usable cloud days fall within the development window.",
+    "It can only be made by asking for a movement, a signal or a speed that would not otherwise have happened."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0053",
       "relation": "mirrors",
-      "note": "The group opens on something covered by water and closes on something covered by cloud."
+      "note": "The group opens on something hidden by water and closes on something hidden by cloud; one uncovers, the other covers."
     },
     {
       "idea_id": "IDEA-0055",
       "relation": "leads into",
-      "note": "The scattered rush of the market resolves into work that can only be done slowly."
+      "note": "Everything arriving at once, then work that can only be done one confirmed step at a time."
     },
     {
       "idea_id": "IDEA-0061",
       "relation": "alternative to",
-      "note": "Two ways to close the group on close attention; one is held in reserve."
+      "note": "Two ways to close the group on close attention: listening to a pot for a flaw, or going at a speed you can stop inside. One is held in reserve."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's closing episode and turns the group from being lost to slowing down and looking."
+    "reason": "It carries the group's closing turn, from being lost to going at a speed you can verify, on a ridge where the weather supplies the whole structure for free."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The subject is unchanged — cloud closing on a mountain line until only a few metres of track are visible — and has been built out into a place-led film on a named ridge section, with the situation block replaced by place, two_layers and a seven-beat sequence. Concepts re-read from the digests and every citation re-verified. Three guards were made load-bearing rather than incidental: the harmful doubt is separated from honest not-knowing so the film asserts nothing about which it shows and never treats prudence as a defect; the neutral feeling is stated on screen not to be calm, at the moment the picture most invites that reading; and the compendium's warnings about rites and rituals are ruled out of any observance the railway staff keep. Also noted the separation from the group's other single-line railway film, which is about scheduling rather than visibility.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Idalgashinna station and the ridge section of the upcountry main line between Haputale and Ohiya",
+    "also_known_as": [
+      {
+        "name": "the Uva gap",
+        "meaning": "the saddle in the ridge where cloud from the southern plains crosses into the interior",
+        "used_by": "local and railway usage"
+      }
+    ],
+    "region": "The Uva highlands, Badulla district, about eight kilometres west of Haputale",
+    "coordinates": {
+      "lat": 6.779413,
+      "lng": 80.896857
+    },
+    "why_here": "The station sits at about 1,615 metres on a jutting ridgeline that separates the southern and eastern sides of the island, and cloud crosses it constantly: the place is reported as being enveloped and instantly clear again, several times over, especially in the afternoons. That makes visibility itself the event, which is exactly the film's subject, and it supplies the single most beautiful shot the location can give — a clear crest with both valleys full of cloud and the line running away along the top — which is also the clearest possible statement of a mind whose range has collapsed to the next post. It is small, has no significant road, and is not the kind of station anyone stops at, so the work can be watched without a crowd. The section on to Ohiya carries more tunnels between two stations than any other in the country, so the line is repeatedly swallowed and returned by the mountain as well as by the weather.",
+    "what_to_film": [
+      "The ridge from high above at first light, wide enough to hold the crest in sun and both valleys full of cloud in one frame.",
+      "Cloud crossing the gap in real time, from the air and from the ground, including the four or five minutes in which the line disappears.",
+      "The cab in poor visibility: the driver leaning out, the headlamp making no distance, the brake, the speed.",
+      "The cabin as a working room: lamps trimmed, cleaned, lit and hung; the bell; hand signals made deliberately large; the tin of detonators; the telephone.",
+      "The train arriving out of white at a walking pace and going back into white, filmed from a safe position beside the track.",
+      "The flat, quiet waiting hours when the station is inside cloud and nothing is moving, filmed long enough to be honest about how they actually feel.",
+      "The moment the cloud tears off the ridge and the basin below opens all at once.",
+      "The station itself as a place people live: the quarters, the garden the staff keep, the footpath in, the weather coming at it from two sides."
+    ],
+    "access": "By train from Haputale or Ohiya, or on foot along the track and the path; there is no useful road. Everything here needs Sri Lanka Railways permission, a safety briefing and someone from the department present, and a drone at a ridge station over an operating line will need its own clearance. Altitude, cold, wind and wet make long days hard on equipment.",
+    "best_time": "The months when cloud sits on the ridge most reliably, which the station staff will know better than any forecast; the afternoons, when the mist is reported as heaviest, for the work, and the first hour after dawn on a clear morning for the aerial.",
+    "images": [
+      {
+        "caption": "The station itself inside mist — the condition the whole film is built on.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Idalgashinna Station in Mist - Hill Country Train Line - Sri Lanka (13944407418).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Idalgashinna Station in Mist - Hill Country Train Line - Sri Lanka (13944407418).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The station and its platform in clear weather, for the scale of the place.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Idalgashinna railway station 2017.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Idalgashinna railway station 2017.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Morning from the ridge, with cloud lying below the crest.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Idalgashinna morning view 2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Idalgashinna morning view 2.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Idalgashinna_railway_station",
+      "https://www.bluelankatours.com/blog/discover-a-true-railroad-experience-at-the-idalgashinna-railway-station",
+      "https://www.lovesrilanka.org/idalgashinna-railway-station/"
+    ],
+    "research_note": "That the station stands at about 1,615 metres and is the fifth highest on the network, that it lies eight kilometres west of Haputale between Haputale and Ohiya, that it sits on a jutting ridgeline dividing the southern and eastern sides of the country so that the weather is constantly foggy and instantly clear, that it is thickly enveloped in mist in the late afternoons and evenings, and that the section on to Ohiya has fourteen tunnels, more than between any other pair of stations in the country, are from the sources above and are desk research only. The coordinates are those published for the station. Nothing about the actual working procedure in poor visibility on this section has been verified with Sri Lanka Railways, and the film's whole premise — that a speed restriction and step-by-step confirmation are the real response here — must be checked with the department before it is relied on. Permits, access for a crew and drone clearance over an operating line are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No railway officer, station master or crew has been found or approached. Everything here is a research direction.",
+    "The actual rule and practice for working this section in poor visibility is unverified, and the film depends on it being close to what is assumed.",
+    "Whether a crew can be present in a cab or a cabin at all, and whether a drone can be flown at a ridge station over an operating line, are both open and either could be refused.",
+    "How reliably cloud crosses the gap within any given filming window, and whether the clear-crest aerial and the blind-working footage can be had in the same trip."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,78 +2,177 @@
   "schema_version": 1,
   "id": "IDEA-0056",
   "record_type": "idea",
-  "title": "Mixed Signs",
+  "title": "Two Honest Readings",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Mixed Signs"
+  ],
   "group_id": "GRP-04",
-  "logline": "At first light a fishing crew stands between a sea that looks calm and a forecast that says otherwise, with the boat half-ready and the conversation going round again.",
-  "human_question": "How do you decide when the signs will not agree?",
-  "situation": {
-    "what_happens": "At the turn of a season a crew has to decide each morning whether to put out. They read the sky, the swell and the wind, and they also read forecasts on phones and radios that do not always agree with what they can see, or with each other. Staying ashore costs a day's income; going out in the wrong weather can cost far more. The boat is made half ready while the decision is still open, and then it is either pushed out or left.",
-    "who_is_involved": "A crew who share the risk and the catch; the owner of the boat, who may not be aboard; the families whose week depends on the day; and the buyers waiting on the shore.",
-    "what_is_at_stake": "Income, gear and lives. Also standing: a skipper who stays ashore too often, or who goes out once too many times, is judged by everyone watching.",
-    "how_it_unfolds": "It begins before light with the reading of the sea, stays open while the signs contradict one another, and closes when the light or the tide decides for them. It ends at sea, or ashore with the nets from the last rough night to untangle. Reality decides both the weather and whether anyone turns out to have been right."
+  "logline": "On an open surf coast with no harbour, a sea that reads as glass from the beach and a swell that stands up and breaks a hundred metres out give two true and opposite accounts of the same water at the same minute, and whether anyone goes out waits on the difference.",
+  "human_question": "When two honest sources of information disagree, what is the right thing to do with the gap between them?",
+  "place": {
+    "what_kind_of_place": "An open beach at the far southern end of a long exposed coast, the last village on the road before an unbroken stretch of protected wilderness. There is no harbour here, no breakwater and nothing to tie up to: boats are drawn up on the sand above the tide line and pushed out through whatever the sea happens to be doing that morning. Behind the dune runs a river mouth and a strip of flat brackish water; in front of it there is nothing but open ocean for a very long way. Whether anyone goes out is settled on the sand before it is light, by reading the water and by listening to a forecast, and the two do not always say the same thing.",
+    "why_it_is_worth_watching": "The swell does the work. A long swell in deep water is nearly invisible; the surface lies down over it and reads as oil. It only turns into information where the bottom comes up, standing on end and breaking in lines. So at first light the same body of water is flat calm at the horizon and plainly serious a hundred metres offshore, and both readings are correct. From twenty metres up the swell shows as long parallel bands marching in, a thing nobody standing on the sand can see at all. Later, at the turn of the season, squalls build over the hills inland and come out across the water with an edge on them you can watch approach for half an hour.",
+    "what_moves_or_changes": "Everything in the film is weather and light, and none of it can be arranged. The dark goes off the water. The swell lines come in at their own interval. The land breeze drops and the sea breeze arrives mid-morning and puts a texture on everything. A forecast is refreshed and says something slightly different. And the decision itself happens once, cannot be rehearsed, and is not the crew's to repeat for a camera.",
+    "when_it_looks_best": "The weeks when the coast is changing over from one monsoon's weather to the other, which is when the signs disagree most often. The half hour before sunrise, glassy, with a long-period swell running. From the air just after sunrise, when the sun is low enough behind the shoulder of the camera to put a shadow on every band of swell."
   },
+  "two_layers": {
+    "without_the_philosophy": "A dawn sea film. Dark water going pale, a line of boats on sand, a horizon like glass and a wall of white standing up where the bottom shallows, people walking to the edge of the water and looking at it, and the light coming up on a coast with almost nothing built on it. It resolves on its own terms: dark to light, still to moving, and either the boats go or they do not. Anyone who never hears a word of commentary gets a complete morning with a build and an outcome.",
+    "with_the_philosophy": "The same morning becomes an exact test of what the sources actually claim. They give a general description of a mind that cannot come to a decision about the thing in front of it, and they say something unexpected about how that feels. Then, just as carefully, in two separate books, they fence that description off from honest not-knowing about a matter you cannot yet find out. The film keeps the fence standing. It lets the sea be genuinely hard to read, and it never once says which of the two things is happening on the sand."
+  },
+  "sequence": [
+    {
+      "on_screen": "Pre-dawn, low and close on the ground: a line of boats drawn up on wet sand, the sea beyond almost without texture, the sky going from grey to colour behind them.",
+      "voice": "There is no harbour on this coast. No wall to get behind, nothing to tie up to, and the nearest shelter is a long way off. So the same question is settled here on the sand every morning before it is light. Is the water safe to go out into, or is it not.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "The horizon at eye level from the beach: an oily, unmarked calm all the way out to the edge of sight.",
+      "voice": "From here the answer looks obvious. It is flat. A long swell in deep water barely shows; the surface lies down over the top of it and reads as glass.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Drone, low, moving out over the same water: long parallel bands of swell marching in, one after another, completely invisible from the beach.",
+      "voice": "From twenty metres up it is a different sea. Same water, same minute, and now the swell is the most obvious thing in the frame. Neither view is lying to us. They are two honest readings, and they disagree.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Where the bottom comes up: the swell stands on end and breaks in long lines over the shallows, then lies down again flat beyond.",
+      "voice": "The sources have a general description for a mind that cannot come to a decision about the thing in front of it [C008-P:L34]. They add something you would not guess: a mind in that state feels neither pleasant nor unpleasant. It is flat, because you cannot enjoy or dislike what you have not properly taken hold of [C008-P:L25–L30; C008-M:L7–L9]. Flat is not the same thing as calm, and nothing on this beach should be read as peace.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "A phone and a handheld radio on a gunwale, a wind reading, a tide note in pencil on the inside of a hatch; eyes going from a screen back out to the horizon and back again.",
+      "voice": "And here the sources put up a fence that almost every conversation about doubt knocks straight down. The doubt they warn about is a narrow, specific thing, a stalling over eight religious matters that they name one at a time [C008-P:L36–L38]. Honest not-knowing about a matter you cannot yet investigate is explicitly not that [C008-P:L36], and a second book, compiling the same list from scratch, says it separately and in its own words [C074-P:L404]. Nobody on this beach is in the state those texts describe merely because the signs will not agree.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Full sunrise. Nothing has resolved: an engine not started, a net half loaded and left, someone walking back up the sand, small jobs going on around the boats, the light becoming ordinary.",
+      "voice": "The second of the two states in these books is not stalling but scatter: the loss of the power to stay with one thing, which takes the rest of the mind off course with it [C008-P:L62–L64]. The conditions listed for it are very plain. Something sudden. Several things at once. Working in a hurry [C008-M:L20]. A beach at first light has all three most mornings, and none of that tells a camera what is going on in anybody.",
+      "concept_id": "C008"
+    },
+    {
+      "on_screen": "Mid-morning. Either the beach is empty and the boats are specks, or they are still on the sand and the wind has come up and the sea is now plainly rough to everyone. Either way the glass is gone from the horizon.",
+      "voice": "By now the water agrees with itself again, and whichever way it went, somebody was right for reasons nobody could have had at four in the morning. The older of the two books, going through the things that cover a mind one by one, lists the helps, and they are startlingly ordinary: eat moderately, change your posture, think of light, stay out in the open air, keep good company, and talk about suitable things at the right time [C074-P:L326–L340]. Most of that is already happening here. It always was.",
+      "concept_id": "C074"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C008 describes a mind that cannot come to a decision about its object, felt as flat rather than painful [C008-P:L34; C008-P:L30], and the digest is careful that honest uncertainty about something not yet knowable is a different thing [C008-P:L36]. C074 adds the knot, which ties today to tomorrow and is undone by patient work rather than force. A morning in which money and risk hang on signs that will not agree holds both: an unsettled decision, and the slow work that fills the waiting.",
-    "what_it_reveals": "That hesitation in front of genuinely mixed evidence is not the state the sources warn about, and may be the most skilful thing available. Put together, the two concepts mark a boundary that most talk about doubt erases."
+    "why_together": "C008 supplies the state and, in the same breath, the limit on it. The sources hold that there are exactly two delusion-rooted minds, that both always come with neutral feeling because a mind that cannot grasp its object can neither enjoy nor dislike it, and that both arise unprompted [C008-P:L25–L30; C008-M:L7–L9; C008-P:L70]. They give a general description of doubt as the inability to decide about the object [C008-P:L34] and then restrict the harmful kind to eight named religious matters, separating it from ordinary not-knowing of what one cannot yet investigate [C008-P:L36; C008-P:L36–L38]. C074 matters here because it is a second compilation, made on its own terms, that draws the same line independently: it sets hindrance-doubt apart from look-alike doubt, ordinary uncertainty about an unknown thing, and says the second may not be unwholesome at all [C074-P:L404]. Two books agreeing separately is what makes the film's central refusal safe. Set on a beach where the water itself gives two true and opposite readings, the state and the limit stop being a distinction in a commentary and become the plain shape of a morning.",
+    "what_it_reveals": "That standing still in front of evidence that genuinely disagrees is not the thing the texts warn about, and may be the most skilful thing available. C008 alone would make a film about an inner state no camera can see, and would tempt anyone making it into filming a face and calling it confusion. C074 alone would make a film about a taxonomy. Together, on a sea that is honestly readable two ways at once, they show where the disagreement actually lives: not in anybody, but between two sources of information that are both telling the truth."
   },
   "concept_links": [
     {
       "concept_id": "C008",
       "role": "primary",
-      "why": "The digest gives the general description of doubt as an inability to decide about the object [C008-P:L34] and in the same breath separates it from honest not-knowing of what one cannot yet investigate, which the sources say may not be unwholesome at all [C008-P:L36]. This idea exists mainly to hold that boundary: a crew weighing a doubtful forecast is not deluded, and a film may never say they are."
+      "why": "The sources describe two delusion-rooted minds, both always accompanied by neutral feeling, both arising without prompting [C008-P:L25–L30; C008-M:L7–L9; C008-P:L70], and they define doubt generally as an inability to come to a decision about the object [C008-P:L34] before restricting the harmful form to eight religious matters and setting honest not-knowing aside from it [C008-P:L36; C008-P:L36–L38]. Restlessness they explain as the loss of the power to stay with one thing, which throws the rest of the mind off with it [C008-P:L62–L64], and they name its ordinary occasions: something sudden, several things at once, working in a hurry [C008-M:L20]. The digest's limits are load-bearing and are honoured on screen and in the risks. It records that the sources do not spell out how the general and the restricted definitions relate, and that this needs expert checking before any film says what counts as harmful doubt, so this film asserts nothing about which kind it is showing. It states that the neutral feeling in these minds is not equanimity or calm, so no flat mood in the footage is ever narrated as peace. And it warns that this is not an argument against questioning, so nothing on this beach is offered as a fault."
     },
     {
       "concept_id": "C074",
       "role": "supporting",
-      "why": "Among the compendium's images is the knot that ties the present to what follows and takes patient work to undo. If the crew stays ashore, the tangled nets from the last rough night are the day's real work, and the image is left where it lies."
+      "why": "The compendium is a second, independent pass over the same material, and it is here for two lines it supplies that C008 does not. It separates hindrance-doubt from look-alike doubt, ordinary uncertainty about something one simply does not know yet, and says the second may not be unwholesome [C074-P:L404]. That is the exact hinge the film turns on, and it is the citation an earlier draft of this idea got wrong: the practical remedies are elsewhere, in the run of aids listed hindrance by hindrance, of which the set for dullness and drowsiness is eat moderately, change posture, recollect light, stay in the open air, keep good company and talk about suitable things [C074-P:L326–L340]. The digest's warnings are kept. The stakes in the source are rebirth and the round of existence, not stress, wellbeing or productivity, so the voice never reframes them as coping. The warnings about rites and rituals concern views taken as the path to liberation and are never used on screen to judge or mock anybody's real practice, and nothing in this film goes near them."
     }
   ],
-  "what_the_viewer_could_understand": "The texts separate the doubt they warn about from ordinary not-knowing. Standing still in front of signs that genuinely disagree can be the wise thing, not the confused one.",
-  "what_must_be_real": "The crew, the weather and the decision. No decision is prompted, delayed or reversed for the camera, and no one goes to sea because a film is being made.",
-  "position_hint": "middle, if ever used on its own: it belongs wherever a group needs to mark the difference between confusion and a considered refusal to decide.",
+  "what_the_viewer_could_understand": "The old texts draw a line most people rub out. The doubt they warn about is a narrow, named thing; honest not-knowing about something you cannot yet find out is explicitly not it. Standing still in front of two sources that genuinely disagree is not confusion, and the flat feeling that comes with real uncertainty is not calm either.",
+  "what_must_be_real": "The crew, the weather and the decision. No decision is prompted, delayed, reversed, explained or repeated for the camera, and nobody goes to sea because a film is being made. No launch or landing is used as a set piece. If a crew is going out, the crew's judgement about whether a camera can come is final and is not argued with. No identifiable person is shown in a way that presents them as confused, hesitant or deficient, and the voice makes no claim at all about what is happening in anyone's mind.",
+  "position_hint": "Opening or near it: the group's question is about not seeing clearly, and this is the film that sets the boundary the rest of the group needs, between an honest gap in the evidence and the state the sources actually warn about. Nothing in the placement depends on the location.",
   "risks": [
-    "Presenting hesitation as a flaw when it is often wisdom.",
-    "Danger to the crew and to anyone filming at sea.",
-    "Net-mending as documentary cliché with no real person at its centre.",
-    "A working crew reduced to an illustration of a mental state."
+    "Claiming which kind of doubt is on screen. The digest records that the sources do not spell out how the general description and the restriction to eight matters relate, and that this needs expert checking, so the film must assert nothing.",
+    "Reading the flat, undecided mood of an unresolved morning as serenity or equanimity. The digest says flatly that the neutral feeling in these states is not calm, and that reversing this reverses the source.",
+    "Presenting hesitation in front of genuinely mixed evidence as a flaw, or a sensible weather judgement as delusion. It would be wrong and disrespectful, and the sources do not say it.",
+    "Showing an identifiable person as an instance of a defilement. These are moments of mind, not kinds of person, and a camera cannot see which factor is present.",
+    "Endangering a crew or a camera operator at sea or in the surf, or filming in a way that slows, sways or delays a real decision.",
+    "Making a dangerous sea look purely beautiful, so the stakes stop being legible.",
+    "Restating the sources' stakes as stress, wellbeing or productivity, which the digest names as a self-help reframing the text does not make.",
+    "Falling back on nets and rope as documentary furniture, with nothing real at the centre of the frame."
   ],
   "drop_if": [
-    "The weather simply decides for everyone, leaving no open decision."
+    "The season is settled and there is no morning on which the water and the forecast honestly disagree, so there is nothing to film but a routine.",
+    "Consent cannot be had from the crews whose beach, boats and decision this is.",
+    "It can only be made by asking somebody to wait, to go, or to explain themselves for the camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0054",
-      "relation": "merged into",
-      "note": "Its costly-decision strand and its guard on honest not-knowing now live inside the opening film."
-    },
-    {
       "idea_id": "IDEA-0057",
       "relation": "pairs with",
-      "note": "Knots in nets and ropes on stakes: two images of being tied that belong to people's real work."
+      "note": "A morning in which nothing can be settled, and a field in which everything already is."
+    },
+    {
+      "idea_id": "IDEA-0058",
+      "relation": "pairs with",
+      "note": "Two places where the information a person needs is in the water and will not hold still."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0054",
-    "reason": "Folded into IDEA-0054, which gains its costly-decision strand and its guard separating honest not-knowing from the doubt the sources warn about."
+    "superseded_by": null,
+    "reason": "It is the only film in the group that can hold the sources' own boundary between honest not-knowing and the doubt they warn about, and it holds it on a sea that reads two ways at once."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The situation block is replaced by place, two_layers and a seven-beat sequence built on one open surf coast; both digests were re-read fresh and every citation re-checked against the digests' own evidence. The earlier pass's [C074-P:L404] was attached to the compendium's practical remedies; that line is in fact the separation of hindrance-doubt from look-alike ordinary doubt, and it is now used for that, with the remedies cited to [C074-P:L326–L340]. The fish-landing framing is gone: the film is the disagreement between two true readings of the same water, not a landing and not an auction. A proposed location has been added.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The open beach and roadstead at Panama, at the southern end of the east coast",
+    "also_known_as": [
+      {
+        "name": "Panao, Panova, Paneme",
+        "meaning": "the forms the village's name takes on Portuguese and Dutch period maps",
+        "used_by": "colonial-era cartography"
+      }
+    ],
+    "region": "Ampara District, Eastern Province; the last populated settlement on the coast before the protected country to the south",
+    "coordinates": {
+      "lat": 6.75,
+      "lng": 81.8
+    },
+    "why_here": "It removes every alternative the film would otherwise have to explain away. There is no harbour, no breakwater and no sheltered water on the sea side, so the decision is the whole of the morning and there is nothing else for it to hide behind. The coast faces a very long fetch of open ocean, which is what produces the long swell that reads as glass from the sand and stands up in lines where the bottom shallows, and that is the film's central image and its central argument in the same frame. It sits at the changeover of the two monsoon regimes, which is when the water and a forecast are most likely to disagree honestly. And it is small and quiet: the last village on the road, with wilderness beginning immediately to the south, so the frame is water, sand, boats and weather, and nothing else.",
+    "what_to_film": [
+      "The horizon from beach level before sunrise, long enough for the flatness to register as a fact and not as a shot.",
+      "The same water from the air at the same minute, low, looking down the line of the swell so the bands read.",
+      "The break over the shallows in a long lens from the sand, with the flat sea behind it in the same frame.",
+      "The instruments of the second reading as they are actually used: a phone, a handheld radio, a written note, and eyes going back and forth between a screen and the sea.",
+      "The squall line building inland over the hills and coming out over the water, from high enough to see the edge of it.",
+      "Boats on the sand for a whole morning in one locked frame, so that going or not going is visible as a change in the picture rather than as an announcement.",
+      "The sea breeze arriving: the moment the water loses its glass and takes texture everywhere at once."
+    ],
+    "access": "By the coast road south, past the last of the surf places. The beach, the boats and the gear belong to the households who work them, so everything depends on their agreement and on working to their hours rather than a crew's. Drone flying over a working beach and over water where people are launching needs their agreement as well as whatever permission the coast and the nearby protected area require.",
+    "best_time": "The weeks of the changeover between monsoon regimes, when the sea and the forecast disagree most often. Clear mornings with a long-period swell running; the half hour either side of sunrise.",
+    "images": [
+      {
+        "caption": "Boats on the beach at the proposed site, with the open surf coast behind them.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panama, Beach, 2025-07 CN-03.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Panama, Beach, 2025-07 CN-03.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The river mouth and the beach at the proposed site, showing the flat water behind the dune and the open sea in front of it.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panama, Beach, 2025-07 CN-07.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Panama, Beach, 2025-07 CN-07.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Panama,_Sri_Lanka"
+    ],
+    "research_note": "That this is a small coastal village in Ampara District, the last populated settlement before the protected country to the south, and that its name appears on colonial maps as Panao, Panova and Paneme, are from the page above. The coordinates are the village's, not a surveyed point on the beach. Everything else here is desk reasoning and is unverified: whether boats are beach-launched from this particular stretch, whether the fleet's go-or-stay decision is made in the way described, how the swell actually behaves at the changeover of the monsoons, what the wilderness boundary means for drone flying, and whether any household would agree to be filmed. No crew, boat or morning has been found or approached.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No crew, boat or household has been found or approached. Everything here is a research direction.",
+    "Whether a morning on which the water and the forecast honestly disagree can be waited for, rather than hoped for, is unverified and decides how long a shoot would have to be.",
+    "Drone flight over a working beach and near a protected area is likely to need specific permission and may be refused.",
+    "Whether a camera on the sand changes how a decision is made or talked about is the question that decides whether this film can be made at all."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,84 +2,177 @@
   "schema_version": 1,
   "id": "IDEA-0059",
   "record_type": "idea",
-  "title": "The Almsgiving",
+  "title": "You Cannot Tell From Here",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Almsgiving"
+  ],
   "group_id": "GRP-04",
-  "logline": "A family has been up since before dawn cooking for the monks: one arranges every plate beautifully, one checks for mistakes, one waits to be told, one keeps drifting off to talk, and one quietly wonders whether any of it matters.",
-  "human_question": "Why do people who share the same work find their way through it so differently?",
-  "situation": {
-    "what_happens": "A household undertakes to feed monks on a chosen day, usually as merit for someone living or dead, and the work starts the night before. Cooking, borrowing plates, sweeping, arranging and receiving relatives all have to converge on a fixed arrival time. Everyone is doing the same work, and each person does it in a recognisably different way. When the monks have eaten and gone, the family finally sits down to what is left.",
-    "who_is_involved": "The household that has undertaken the offering, usually across three generations; relatives and neighbours who come to help or to be fed; the monks who are invited; and, in some families, one member who is not sure the whole thing does what it is said to do.",
-    "what_is_at_stake": "The family's standing among neighbours and their own sense of having done it properly; the cost, which for many households is significant; the memory of whoever the merit is for; and, for the doubting member, whether to say anything at all.",
-    "how_it_unfolds": "It begins with a decision and a date, builds through a night of work to a narrow window in the morning, and breaks the moment the monks leave. The pressures are time, money, heat and relatives with opinions. It ends in satisfaction, in exhaustion, in a small quarrel, or in all three. Reality decides whether any disagreement surfaces at all, and the film has no business making it."
+  "logline": "For one night a year a straight road across dry country is lined on both verges, for kilometres, with stalls that give food and drink away free to anyone passing, hundreds of them doing the same thing and no two of them doing it the same way.",
+  "human_question": "If you watched a thousand strangers do the same kind thing, what could you honestly say you knew about any of them?",
+  "place": {
+    "what_kind_of_place": "A straight, flat road running out of an old pilgrimage town across dry-zone scrub to a low rock hill with a white stupa on it. For most of the year it is an ordinary bus road with a few tea shops on it. On one full-moon night, and the nights either side of it, families, workplaces, bus crews, shops, school groups and village societies take over both verges with temporary stalls built of poles, tarpaulin and borrowed fluorescent tube, and give food and drink away free to whoever is walking or driving past. Nothing anywhere on that road is for sale, which is the whole point of it.",
+    "why_it_is_worth_watching": "From the air after dark it is one of the strangest lit objects in the country: two unbroken lines of light running to the horizon, with a crawling river of vehicles and walkers between them, and a floodlit rock standing up at the far end. From the ground it is a hundred versions of one gesture inside a few hundred metres, which is exactly the shot the film needs: one stall with its plates laid out in rows and its plastic sheet wiped between each handout; the next with a loudspeaker and a banner; the next copying whatever the stall opposite is doing; the next just a table, a pot and somebody holding out a cup without saying anything. Nobody has to be introduced for any of that to read.",
+    "what_moves_or_changes": "Everything on the road is on somebody else's schedule. The stalls go up through the afternoon and are lit at dusk. The crowd thickens towards the hill and thins again after midnight. Stalls run out of food and simply stop, sometimes hours before the rest. The vehicles never get above walking pace. By first light the verges are being swept, the frames are coming down, and by mid-morning the road is a bus road again with nothing on it.",
+    "when_it_looks_best": "The full-moon night itself and the night before it, when the road is fullest and every stall is lit. The half hour after the lights come on and the hour before dawn are the two that read from the air; the middle of the night is the ground film."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night film about a road. Poles going up in the afternoon heat, tarpaulins tied, cauldrons filled, tube lights strung and switched on; then a country road turned into a corridor of light with tens of thousands of people moving slowly along it, being handed things by strangers, all night; then grey light, brooms, stacked frames and an empty road. It has a complete shape without a word of commentary, and the generosity of it needs no explanation to anybody.",
+    "with_the_philosophy": "The same road becomes the sources' own caution, at scale. The texts do count six leanings and do describe recognisable habits that go with each, and then say the thing that makes profiling impossible: everyone has all of them, and which one is on top is very hard to tell. The voice uses the road to show why the counting exists at all, which is not to sort people but to fit what helps to the person it has to help. It names no one on screen as anything."
+  },
+  "sequence": [
+    {
+      "on_screen": "Late afternoon, drone high and straight down the road: a grey line across scrub with a rock and a white stupa at the far end, and along both verges the first frames of poles and tarpaulin going up in the heat.",
+      "voice": "Tomorrow this is a bus road. Tonight, for about fifteen kilometres of it, nothing will be sold. Every one of these stalls exists to hand something to a stranger and take nothing back.",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "Full dark, from the air. Two unbroken lines of fluorescent light running to the horizon with a slow river of headlights and walkers between them.",
+      "voice": "The old manuals sort people into six leanings: towards wanting, towards finding fault, towards confusion, towards faith, towards working things out, towards turning things over and over [C086-P4:L26–L33]. Then they say the sentence that spoils it as a game. Everyone has all six. Which one is on top in a given person is very hard to tell [C086-M:L7].",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "Ground level, one continuous handheld move past five or six stalls in a row. One has everything laid out in straight lines and wipes the table between each handout. One is checking the pot and sending something back. One keeps glancing across at what the stall opposite is doing. One is mostly talking. One is just a hand and a cup.",
+      "voice": "The habits the texts describe are all here and anybody can see them: doing the thing beautifully, noticing what is wrong with it, waiting to be told, talking through it, drifting from one job to the next [C086-M:L9–L19]. That is a description of one evening's work. It is not a description of any of these people, and the sources are the ones who say so.",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "Slower, closer, in one stall: hands working, faces mostly out of frame or turned away, the ladle, the plate, the bag, the next person, the next person.",
+      "voice": "The kindest thing in the whole teaching is that every troublesome leaning stands next door to a good one that looks like it. Whoever cannot let go of what is pleasant is next door to whoever cannot let go of what is good. The one who sees every fault is next door to the one who sees clearly. The unsettled are next door to the ones who think everything through [C086-P4:L37; C086-P4:L77; C086-P4:L103; C086-M:L15–L19]. From outside, you cannot separate them.",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "A big stall with a lit banner, a generator, a loudspeaker and a queue, twenty metres from a small one with a folding table and no sign.",
+      "voice": "The compendium of what keeps people stuck is blunt about this occasion in particular. It says pride, envy and meanness surface inside merit-making itself, in the wish that your offering should look better than your neighbour's [C074-P:L512]. It is not an accusation, and this film is not making one. It is a note that these things lie low and wake up when an occasion arrives [C074-P:L474], and a night like this is an occasion.",
+      "concept_id": "C074"
+    },
+    {
+      "on_screen": "The receiving side, in wides: the crowd choosing. Somebody walks past twenty stalls and stops at the twenty-first. A child takes only the sweet. A family stops at the one with the shortest queue. A man refuses everything and keeps walking.",
+      "voice": "There is a reason the manuals list forty different subjects to practise on. It is not richness for its own sake. It is that no one thing suits everybody, and what helps a person very often runs against the grain of how they already are [C086-M:L5; C086-M:L41–L57]. On this road that arrangement makes itself. Nobody is handing out the same thing, and nobody is taking the same thing.",
+      "concept_id": "C086"
+    },
+    {
+      "on_screen": "First grey light. Brooms, stacked poles, a lorry loading frames, a dog in the middle of the empty carriageway. The hill and its stupa coming up out of the dark behind.",
+      "voice": "A camera on a road at night cannot tell you what state anybody was in. Neither can the texts, which say that a teacher who has watched somebody for years still often has to give up looking and simply ask them what comes easily and where their mind goes [C086-P4:L278]. This film asked nobody, and knows nothing about anybody who stood here. What it can show is that one plain act had a few hundred shapes, and that not one of them was a diagnosis.",
+      "concept_id": "C086"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C086 says everyone has all six leanings and each person tilts, that the tilt is very hard to identify, and that each troublesome leaning sits close to a good one: greed near faith, hatred near clear thinking, delusion near speculation [C086-M:L7; C086-P4:L37; C086-P4:L77]. C008 adds that doubt about whether good deeds bear fruit weakens the good done with it [C008-M:L16]. C074 adds the compendium's observation that pride can slip into generosity itself, wanting one's own offering to look better than a neighbour's. One shared act of merit-making holds all three at the same hour.",
-    "what_it_reveals": "That difference inside a family is not disagreement about the good but different ways of reaching for it, and that the flaw and the virtue are usually the same movement. C086 alone risks a typology; C008 alone singles out the doubter; C074 alone singles out the proud one. Together they hold everyone in the same frame, including whoever is filming."
+    "why_together": "C086 supplies the whole structure and, more importantly, its own brake. The sources set out six leanings [C086-P4:L26–L33] and a set of everyday habits that go with them [C086-M:L9–L19], then state that everyone has all six qualities and that temperament is very hard to identify [C086-M:L7]; and they pair each troublesome leaning with a wholesome one that resembles it [C086-P4:L37; C086-P4:L77; C086-P4:L103; C086-M:L15–L19]. The practical purpose is not sorting but fitting: forty subjects exist because no one thing suits everybody, and a teacher who cannot read a mind asks instead [C086-M:L5; C086-M:L41–L57; C086-P4:L278]. C074 supplies one hard, specific observation the road will produce whether the film wants it or not: the compendium says pride, envy and meanness come up inside merit-making itself, in the wish that one's own offering should outdo the neighbour's [C074-P:L512], and that such things lie low and wake when the occasion arrives [C074-P:L474]. Together they let a film point at the variety on one road and then refuse, out loud and on the sources' own authority, to say what it means about anyone standing there.",
+    "what_it_reveals": "That the six are a description of movements, not a set of boxes with people in them, and that a camera is exactly the wrong instrument for the job people would want to use it for. C086 alone, on a family, becomes a typology quiz with real relatives in it, which the digest forbids. C074 alone becomes a film that accuses a generous crowd of vanity. Held together on a road where the same act is repeated a few hundred times by people the film never meets, the variety becomes a fact about the work rather than a verdict on anybody, and the group's question, what stops us seeing clearly, gets its flattest possible answer: from out here, nothing is legible at all."
   },
   "concept_links": [
     {
       "concept_id": "C086",
       "role": "primary",
-      "why": "The digest carries this exact situation as one of its own story seeds, and its everyday traits, doing things beautifully, noticing faults, following what others say, talking a lot and drifting between tasks, are described as recognisable within one shared effort [C086-M:L9–L19; C086-M:L7]. Its warnings are load-bearing here: this is not a personality test, everyone has all these qualities, the tilt is very hard to identify, and the sources' signs of temperament are guidance for a meditation teacher rather than a way to profile people on camera."
-    },
-    {
-      "concept_id": "C008",
-      "role": "supporting",
-      "why": "The sources name doubt about the results of good deeds and about what follows death, and say that good done while doubting is not strong good [C008-M:L16]. This may only be observed if a family member genuinely voices it; the film must not make a fault of it or turn the believers into models, and the digest warns against flattening the teaching into either 'just trust' or 'question everything'."
+      "why": "The sources give six leanings [C086-P4:L26–L33], a set of recognisable everyday habits [C086-M:L9–L19], and the pairing of each troublesome leaning with a good one that resembles it [C086-P4:L37; C086-P4:L77; C086-P4:L103; C086-M:L15–L19]; the whole apparatus exists in order to fit a practice to a person, which is why there are forty subjects rather than one [C086-M:L5; C086-M:L41–L57]. Every one of the digest's limits is load-bearing here and each is honoured by the choice of place. This is not a personality test and temperament is very hard to identify [C086-M:L7], so the film films a crowd and not a cast, and nobody on screen is offered as an example of anything. The traditional signs in gait, sleeping posture and food preference [C086-P4:L39–L41; C086-P4:L79–L83; C086-P4:L107–L111] are guidance for a teacher reading a long-term student, not a method for profiling strangers, so they are never used as a reading key on anyone in frame. The Pradeepika's explanations by past-life deeds and by the balance of the physical elements [C086-P4:L37; C086-P4:L81; C086-P4:L105] are doctrinal claims and are not narrated as accounts of real individuals. The suitable and unsuitable conditions belong to meditation practice and are not lifestyle advice, and the intelligent leaning is not a better sort of person [C086-P4:L169]. What the film keeps from the concept is the one thing a camera can actually support: that a teacher who cannot read a mind has to ask [C086-P4:L278]."
     },
     {
       "concept_id": "C074",
       "role": "supporting",
-      "why": "The compendium notes pride slipping into generosity itself, wanting one's offering to look better than the neighbour's, which the digest calls a stuckness a camera could catch without anyone naming it. The same digest is explicit that the sources' warnings about rites and rituals may never be used on screen to judge or mock the real religious practice of real people."
+      "why": "The compendium names the exact occasion this film is standing in. Under the latent tendencies it observes that pride, envy and meanness surface during merit-making, in wanting one's own offering to look better than the neighbour's [C074-P:L512], and it treats such states as lying low and waking only when a fitting occasion appears [C074-P:L474]. That is why a night of mass giving is not a soft subject, and why the film says it in the voice rather than implying it in the cutting. The digest's limits are kept: the sources' warnings about rites and rituals concern views held as the path to liberation and may never be used on screen to judge or mock the real religious practice of real people, so no stall and no observance is framed as foolish; and the stakes in the source are not stress or wellbeing, so the film makes no self-help claim. The digest also notes that the grouping of pride under aversion is loose and needs expert checking [C074-P:L514–L518], so the voice says only what the text plainly says."
     }
   ],
-  "what_the_viewer_could_understand": "People doing the same work go about it in very different ways. The texts say everyone has every leaning, with each person tilting a little one way, and that each troublesome leaning sits close to a good one.",
-  "what_must_be_real": "The family, the almsgiving and every word said in it. Doubt, disagreement or pride are never prompted, and no one is edited into a caricature or matched to a type.",
-  "position_hint": "middle: the group's turn from states to persons, and the first film in which being lost differs from one human being to the next.",
+  "what_the_viewer_could_understand": "That the old descriptions of how people differ are descriptions of movements rather than labels for persons, that everyone carries all of them, and that the honest position from outside somebody else is not to know. A road where one act is done a few hundred different ways in one night makes the variety obvious and the reading impossible at the same time.",
+  "what_must_be_real": "The night, the stalls and the giving. No stall is built, funded, lit, arranged or restocked for the camera, and no one is asked to repeat a handout. Nobody in the film is described, framed, cut or captioned as an instance of a temperament, and the traditional signs of temperament are not applied to anybody on screen. Consent is taken for anyone identifiable in close work, and people who decline are not filmed; the film does not need faces to work. It does not compare one stall's offering with another's in the cutting, and it never suggests that anyone's generosity is a performance.",
+  "position_hint": "middle: the group's turn from states of mind to the people carrying them, and the point at which the series says plainly that it cannot read anybody. It should sit after the group has established its low, uncertain register and before the two films that look closely at one small thing. No location reasoning is involved.",
   "risks": [
-    "Presenting a doubting relative as the villain, or the believers as models.",
-    "Mapping family members onto the six temperaments; the digest says everyone has all of them and the tilt is very hard to identify.",
-    "Judging or mocking a real family's religious practice.",
-    "Filming a household at its most exposed, and the cost of the offering being read as display."
+    "Mapping anyone on screen onto one of the six, in the voice, the framing or the cutting. The digest is explicit that everyone has all six and that temperament is very hard to identify [C086-M:L7].",
+    "Using the traditional signs in gait, posture or food preference to read strangers, which the digest rules out; they are guidance for a teacher with a long-term student.",
+    "Narrating the sources' explanations of temperament by past-life deeds or by the balance of the elements as if they accounted for real individuals in frame.",
+    "Turning the C074 observation about pride in merit-making into an accusation against a generous crowd, or cutting a large stall against a small one so that the edit makes the accusation the voice refuses to make.",
+    "Judging or mocking anyone's religious practice, which the C074 digest forbids outright.",
+    "Treating the 'intelligent' leaning as the good one; the sources pair it with aversion and call it a leaning like the others [C086-P4:L169; C086-P4:L77].",
+    "Filming a crowd at night where consent is hard to obtain and people are recognisable, and filming people at the moment they accept food, which is a moment of need.",
+    "Making a warm festival film that loses the group's question. The road is beautiful; the point is that it tells you nothing about anyone on it."
   ],
   "drop_if": [
-    "The family is uncomfortable with any disagreement being filmed.",
-    "The offering would be made differently, or at all, because of the camera."
+    "The stalls turn out to be organised centrally enough that the variety is arranged rather than real.",
+    "Filming cannot be done without obstructing a road that is already at walking pace, or without getting in the way of people handing out food.",
+    "The only way to show the variety is to select and follow named individuals."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0055",
-      "relation": "mirrors",
-      "note": "A private, devotional rush against a public, commercial one."
+      "idea_id": "IDEA-0061",
+      "relation": "pairs with",
+      "note": "A crowd that cannot be read from outside, and a single vessel that can only be read by being filled."
     },
     {
       "idea_id": "IDEA-0060",
       "relation": "pairs with",
-      "note": "Leanings seen side by side in one family's shared work, and then met one learner at a time by someone teaching."
+      "note": "What cannot be told about a person from the outside, and what cannot be told about a fire until it is opened."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's sixth episode and is the only idea that shows the six leanings inside a single shared act."
+    "reason": "The only film in the group that can carry the six leanings without turning anybody on screen into an example of one."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape, and the subject replaced. The old film mapped named members of one real family onto temperament types while they cooked for an almsgiving, which is precisely what the C086 digest rules out. That whole situation is gone, along with the doubting relative that carried C008, which is dropped. The concept now sits on a crowd doing one task in a few hundred visibly different ways, so the variety is a fact about the night and not a diagnosis of anybody. C074 is kept and re-argued on the compendium's own note about pride inside merit-making.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Poson dansala road between Anuradhapura and Mihintale",
+    "also_known_as": [
+      {
+        "name": "dansala",
+        "meaning": "a stall at which food or drink is given away free, as an act of merit",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "North Central Province, Anuradhapura District: the road running east from the old city to the rock at Mihintale",
+    "coordinates": {
+      "lat": 8.35,
+      "lng": 80.5167
+    },
+    "why_here": "It is the largest place in the country where one identical act is performed simultaneously by hundreds of unrelated groups, in public, at night, for free. That gives the film exactly what the concept needs and nothing it must not have: variety that is a fact about the occasion rather than a claim about any person, hundreds of versions of one gesture inside a few hundred metres, and no requirement to follow, name or characterise a single human being. It also hands the film its best image on its own, which is a fifteen-kilometre double line of light across dark scrub with a lit rock at the end of it, an image that is beautiful with the sound off and is the concept's clearest statement with the sound on.",
+    "what_to_film": [
+      "The whole road from high above after the lights come on, wide enough that the two lines of stalls read as two continuous lines rather than as separate lamps.",
+      "One continuous ground move past six or eight consecutive stalls, so the differences read in a single unbroken shot and nobody has been selected.",
+      "The build in the afternoon heat: poles, tarpaulin, borrowed tube lights, cauldrons, a generator started.",
+      "Hands and ladles and plates at close range, with faces out of frame, for the beats where the film must not identify anyone.",
+      "The receiving side: people passing twenty stalls and stopping at one, and people taking nothing.",
+      "A stall that has run out and shut, hours before the others.",
+      "First light: sweeping, stacked frames, a lorry loading, and the road returning to being a road."
+    ],
+    "access": "Public road, so the filming is not on anyone's private ground, but every stall belongs to a group that has to agree before it is filmed closely. Night work on a road carrying very heavy slow traffic needs police agreement, and drone flight near a major religious site and a dense crowd at night almost certainly needs specific permission and may well be refused.",
+    "best_time": "The Poson full-moon night in June and the night before it, which is when the road is fullest. Off that weekend the subject does not exist at all.",
+    "images": [
+      {
+        "caption": "The rock and stupa at the far end of the road, which is the destination the whole night is pointed at. A picture of the site above the road, not of the stalls.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mihintale Rock view.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mihintale Rock view.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The stupa on the hill in daylight, for the establishing work at either end of the night. Again the landmark, not the road itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mihintale Dagoba.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mihintale Dagoba.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mihintale",
+      "https://en.wikipedia.org/wiki/Poson"
+    ],
+    "research_note": "That the Poson full moon draws very large numbers to this hill, and that free food stalls line the approach roads in quantity on that weekend, is desk research only, from the sources above and general reporting. No count of stalls, no stretch of road and no group running one has been verified, and the coordinates are the hill's rather than a chosen stretch of the road. The two images found on Commons are of the hill and its stupa, not of the stalls; a search for pictures of the stalls themselves returned nothing usable, which is noted here rather than papered over. Access, police agreement and drone permission are entirely unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No stretch of road, no group running a stall and no permission has been found or approached. Everything here is a research direction.",
+    "Whether the variety between stalls is as visible on the ground as it appears in reporting, or whether the stalls are more standardised than expected, has not been checked.",
+    "Whether a crowd this size can be filmed with usable consent, and whether a drone can be flown near a major religious site at night, are both unresolved and either could end the film."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

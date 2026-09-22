@@ -2,64 +2,116 @@
   "schema_version": 1,
   "id": "IDEA-0038",
   "record_type": "idea",
-  "title": "Held Up",
+  "title": "One Track, Both Ways",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Held Up"
+  ],
   "group_id": "GRP-03",
-  "logline": "A long-distance bus stops where nobody meant to stop, and an hour nobody chose is shared out between the passengers who are refused their arrival and the two men standing in front of them who did not cause it.",
-  "human_question": "What does a group of strangers do with an hour nobody chose, and where does all of it land?",
-  "situation": {
-    "what_happens": "A full vehicle on a long route stops moving, and the reason is mechanical and not anybody's fault. What follows is a small, complete society with one problem: people step out, ring ahead, work out alternatives, and complain, and almost all of the complaining is addressed to the two people who work on the bus, because they are the only representatives of the situation available. Those two are also the ones actually trying to fix it, under watch, with a deadline they cannot meet. The mood does not move in one direction: it hardens, softens, hardens again, and somewhere in the middle people who have never met start sharing shade and water.",
-    "who_is_involved": "Passengers, each with somewhere they are now not going to be on time; the driver and the conductor, who receive the whole vehicle's frustration one person at a time although none of it is theirs, and who are simultaneously the only people working on the problem; whoever is sent out or flagged down to help; roadside sellers for whom the stop is unexpected trade; and the people waiting at the far end.",
-    "what_is_at_stake": "A connection missed, a day's wages, an appointment, a child to be collected, a return ticket that no longer works. For the crew, standing in front of a full bus and their position with whoever employs them. For the film, not making tired people into examples, and not treating a genuine hardship for someone in the vehicle as texture.",
-    "how_it_unfolds": "It starts with the ten optimistic minutes where everyone assumes it is nothing. It becomes real when the estimate is revised. The pressures are heat, time, money and the absence of anyone to hold responsible except the two people present. It ends with a repair, a replacement vehicle, passengers dispersing into whatever else is passing, or, most likely of all, with no such breakdown happening within any filming window at all. Reality decides completely here: this event cannot be arranged, delayed or timed, and it may simply never occur."
+  "logline": "A small station in flat dry country has a second length of rail beside the first, and because the line is single the whole way, two trains going opposite ways have to meet here, and several hundred people spend an hour in the heat that nobody chose and nobody caused.",
+  "human_question": "What does a crowd of strangers do with an hour that was taken from them by geometry, when there is nobody at all to blame for it?",
+  "place": {
+    "what_kind_of_place": "A small station on a single-track line across flat, hot, scrubby country between a river plain and the coast. There is one through line and a loop beside it, a short platform, a name board, a couple of rooms, a few trees and then nothing in every direction. Because the line is single the whole way, trains in opposite directions cannot pass except where a loop exists, so at a handful of places like this one, one train has to stand and wait for the other to arrive. The wait is written into the timetable and then extended by whatever the other train is doing, which nobody at this station controls and nobody in the train can find out.",
+    "why_it_is_worth_watching": "It is a place where a very large landscape and a very small, dense crowd sit inside the same frame, and the whole event is two steel lines meeting for ninety seconds. From the air, one silver line runs dead straight to the horizon in both directions, and on it a long train is standing absolutely still with people spilled out along the ballast beside it, like something that has broken and hasn't. On the ground it is a crowded, slow, sociable hour: shade competed for, tea, phones held up for signal, children on the rails, a man asleep on a bag. Then a horn a long way off, a movement in the crowd, the other train comes through, and within two minutes the platform is empty and the rails are silent again.",
+    "what_moves_or_changes": "Heat, shade and the crowd. The shade under the trees and along the train's flank moves round through the morning, and the crowd moves with it. The train itself does nothing at all, which is what makes the people movement legible. Nothing else can be scheduled: when the other train actually arrives is not known to anyone present until it is heard, and the length of the hour is therefore unfixed from the inside.",
+    "when_it_looks_best": "Late morning, when the heat is up and the haze is on the rails, so that the far end of the line dissolves and the waiting has a physical cost that is visible. The last hour of daylight gives the other version: long shadows straight down the track and a crowd in silhouette along the ballast."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about stillness on a railway. A single line to the horizon, a train that has stopped in the middle of nothing, a slow sociable hour in the heat, and then the sudden ninety seconds where two trains stand side by side on the only two rails for miles before both are gone and the place is empty again. It has its own shape without any commentary: arrival, stillness, heat, the sound in the distance, the meeting, the emptiness. Anyone who likes trains, heat haze and crowds has a complete piece here.",
+    "with_the_philosophy": "The same hour becomes the group's question in its least dramatic and most honest form. Everyone on that train wants one thing, which is to arrive, and it is refused; and the thing refusing it is not a person, a policy or a fault, but the fact that there is one track. The sources put not getting what one wants at the head of their list of occasions for displeasure, and they add the social forms of it: a request not granted, a thing asked for and not given. Here there is nobody to ask. The voice never says that any of these people are angry; it points at a refusal with no author in it, and lets the viewer notice how little a refusal needs in order to work."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone, very high. A single line of rail running dead straight to the horizon in both directions across flat scrub. One long train standing motionless on it, people spilled out along the ballast.",
+      "voice": "There is one track. It goes both ways. Two trains going opposite directions cannot pass each other except in the few places where somebody once laid a second length of rail, and this is one of them. So one of them stops here, and waits, and everybody on it waits with it.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "On the ground. People getting down onto the ballast, finding the shade under the train's flank and under the trees. Bags put down. Phones held up. A tea seller working the length of it.",
+      "voice": "Every person here wants exactly one thing, which is to arrive. The old texts put not getting what one wants at the head of their list of the occasions when displeasure arises [C007-P:L49], and the shorter text adds the ordinary social shapes of it: a request that is not granted, a thing asked for and not given [C007-M:L17].",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "The empty far end of the line, shimmering in heat haze. Held long. A name board. Nobody on the platform who can answer anything.",
+      "voice": "Except that here there is nobody to ask. Nothing has been refused by anyone. The refusal is a fact about the track, and there is no author in it at all.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "Faces of waiting, filmed wide and without singling anyone out: a man asleep on a bag, children walking the rail, a woman moving twice as the shade moves, somebody checking a phone and putting it away.",
+      "voice": "Underneath every unwholesome state, the sources say, there are four things always present, and one of them is a restlessness, a mind that will not settle [C022-P:L31; C022-M:L3]. They describe moments, not people, and a camera cannot see which of them is present in anybody. What a camera can see is an hour with nothing in it.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Small kindnesses, unremarked: water passed along, a bag moved for somebody, two strangers sitting on the same rail and talking. The shade thinning as the sun comes over.",
+      "voice": "The word the texts use is wider than anger. The same family holds dislike, disgust, discontent and plain displeasure, and it holds fear, which the older text explains as the same aversion once the mind has judged the thing too strong to face and wants distance from it instead [C007-M:L3; C022-P:L121]. Almost nothing in this hour is anger. Almost all of it is the low end of that range.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "A horn a long way off. Heads turning. The crowd starting to move back towards the doors before anything is visible.",
+      "voice": "The sources also refuse two easy ways out of this. There is no exception in them for the anger anybody thinks is deserved [C007-M:L11], and there is no account of displeasure being safely discharged by being expressed; they describe it as painful in itself, and as where harsh speech begins [C007-P:L47].",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "The other train arriving and running through, the two standing side by side on the only two rails for miles. Ninety seconds. Then movement, doors, and the platform emptying.",
+      "voice": "Both of the minds the texts class here always arrive with a painful mental feeling; there is no pleasant version [C007-P:L25–L28]. Which is the plainest thing this place has to say. The hour cost everybody something, before anyone said a word, and nobody did it to them.",
+      "concept_id": "C007"
+    },
+    {
+      "on_screen": "From the air again. Empty rails, an empty platform, the heat still on the line, nothing moving in any direction.",
+      "voice": "It will happen here again this afternoon, and tomorrow, and it is nobody's fault then either.",
+      "concept_id": "C007"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C007 supplies the occasion in the plainest form the group can find: the sources list not getting what one wants among the ordinary causes of this state [C007-P:L49], and Margaya adds a request refused and a thing asked for and not given [C007-M:L17], while both hate-rooted minds always arrive with a painful mental feeling [C007-P:L25–L28]. C022 supplies what is underneath the whole hour: restlessness is one of the four factors present in every unwholesome moment, whatever else it contains [C022-P:L31]. Folded in from IDEA-0036, the pair also describes the position of the crew, who spend the hour receiving many separate people's refusals about something none of them caused.",
-    "what_it_reveals": "That this heat needs no wrong and no villain. A road is enough, and a mechanical fault that nobody chose produces the same state the group's angriest films produce. It also reveals something a single-mind scheme cannot show on its own: that the state travels. It arrives at the crew already formed, about something else, several dozen times in an hour, which is why the two people with the least responsibility carry the most of it."
+    "why_together": "C007 supplies the occasion stripped of everybody. The sources name not getting what one wants at the head of the occasions for this state [C007-P:L49], the shorter text adds a request refused and a thing asked for and not given [C007-M:L17], both hate-rooted minds always arrive with a painful mental feeling [C007-P:L25–L28], and the word itself is widened to cover fear, dislike, discontent and sorrow [C007-M:L3]. C022 supplies what is underneath the whole hour and what sets its register: restlessness is one of the four factors present in every unwholesome moment whatever else it holds [C022-P:L31; C022-M:L3], and hate's range runs down through disgust and discontent to plain displeasure, with fear explained as the same aversion once the mind judges the thing too strong to meet [C022-P:L121].",
+    "what_it_reveals": "That this state needs no wrong and no villain, which is very hard to believe until it is watched. A single track is enough. C007 alone would leave the viewer looking for whose fault it was; C022 alone would leave a taxonomy. Together, on a stopped train in the heat, they show that a refusal with no author in it produces exactly the same movement of mind as one with an author, and that most of what it produces sits far below anger, in the flat register the texts are careful to include."
   },
   "concept_links": [
     {
       "concept_id": "C007",
       "role": "primary",
-      "why": "This is the group's question in its least dramatic form: life refusing a whole group of people the one thing they want, which is to arrive. Pradeepika names not getting what one wants among the occasions [C007-P:L49], and Margaya's list adds precisely the social form this takes, a request refused and a task not done [C007-M:L17] (the second of these folded in from IDEA-0036, whose whole subject was the person those requests land on). Both hate-rooted minds always carry a painful mental feeling [C007-P:L25–L28], so the displeasure is felt first inside each waiting person and only afterwards passed between them. The digest's bar on 'let it out, venting is healthy' applies directly: the sources treat this state as painful in itself and as the beginning of harsh speech, and give no account of it being safely discharged by expression [C007-P:L47]."
+      "why": "This is the group's question in its least dramatic form: a whole crowd refused the one thing they want, which is to arrive. The sources name not getting what one wants among the occasions [C007-P:L49], and the shorter text adds precisely the social shape it usually takes, a request refused and a thing asked for and not given [C007-M:L17], which matters here by its absence, because there is nobody present to ask. Both hate-rooted minds always carry a painful mental feeling and aversion, and differ only in whether they arise spontaneously or after urging [C007-P:L25–L28], so the cost is paid inside each waiting person before anyone else sees it. The digest's limits are carried in the film. There is no exception for justified anger [C007-M:L11]. There is no endorsement of venting: the sources call this state painful in itself and the beginning of harsh speech, and offer no safe discharge of it by expression [C007-P:L47]. The bodily signs and the claim about death are traditional teaching, not fact, and are not narrated [C007-P:L47; C007-P:L51]. And nobody in frame is an instance of a defilement; a camera cannot show which factor is present."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Restlessness is one of the four both sources place in every unwholesome mind, whatever else is present [C022-P:L31; C022-M:L3], and a stalled crowd is that unsettledness spread thin across many people and many ways of passing time. The earlier version compared it to wind shaking the leaves of a tree; the digest lists the similes this source uses and that is not one of them, so the image has been removed. The same list also gives hate a wider range than 'anger', reaching to discontent, disgust and plain displeasure [C022-P:L121], which is the register almost everything in this hour actually sits in."
+      "why": "Of the fourteen unwholesome factors, four are present in every unwholesome mind whatever else it holds, and one of the four is restlessness, an agitation that will not settle [C022-P:L31; C022-M:L3]. A stalled crowd is that unsettledness spread thin across several hundred people and as many ways of passing an hour. The same list gives hate a far wider range than the English word anger, reaching through fear and disgust down to discontent and plain displeasure, and explains fear as that same aversion once the mind has judged the disliked thing too strong to meet and wants distance instead [C022-P:L121]. That range is what lets this film stay quiet and still be about the group's subject. Two of the digest's warnings are kept. The four constants describe moments and not kinds of person, so they are never used to read anyone on screen. And not all fear is a fault: the dread of doing wrong is a different factor entirely, and the sources praise it through the harm its absence does [C022-P:L63]."
     }
   ],
-  "what_the_viewer_could_understand": "Even a small, ordinary refusal, a vehicle that will not move, sets off displeasure, and each person feels it inside before anyone else sees it. The texts name not getting what one wants, and a request that is not granted, among the commonest times this happens. What a stalled hour adds is where it goes: it collects on whoever is standing in front of the crowd, who is usually the person who caused none of it.",
-  "what_must_be_real": "The breakdown must happen on its own. It cannot be arranged, prolonged, delayed or timed to suit anyone, and it may not happen at all while a crew is present, which the film must be able to accept as an outcome. Everyone filmed must consent, including the crew, who are the most exposed people in the situation and the least free to refuse. Nobody's worst five minutes may stand for them, and no genuine hardship in the vehicle may be used as atmosphere.",
-  "position_hint": "middle: it is the group's lowest-temperature film and its most public, and it works best between the private holding-back films and the argument that follows them. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That the texts put refusal at the head of their occasions for displeasure, and that a refusal does not need anybody to make it. One track is enough. It also shows how wide the word is in the sources: almost nothing in an hour like this is anger, and almost all of it is the flat lower register of dislike and discontent, which the texts count in the same family, and which is felt inside each person before it reaches anyone else.",
+  "what_must_be_real": "The wait is the railway's own and is never arranged, extended, delayed or timed for the film, and the crew's presence must not hold up a train, a passenger or a member of staff by a single minute. Filming is done from where it is permitted and never on a live running line. Everyone identifiable consents, including the staff, who are the most exposed people present and the least free to refuse; nobody's worst five minutes stands for them; and any real hardship in the crowd, a missed connection that costs somebody a day's wages or a medical appointment, is not used as atmosphere. If the film cannot be made without making somebody's bad hour worse, it is not made.",
+  "position_hint": "middle: it is the group's lowest-temperature and most public film, and it works best after the quieter private pieces and before anything with an argument in it. No location reasoning is involved.",
   "risks": [
-    "Mocking frustrated people, or singling anyone out at their worst moment.",
-    "Making the crew into either villains or saints; they are simply the people standing there.",
-    "Reading the four constant factors as a description of a type of person rather than of a moment, which the digest rules out in as many words.",
-    "The event cannot be arranged, so a crew waiting for it is waiting for other people's bad day.",
-    "Passenger safety and comfort in heat or traffic during a real delay, and the pull to keep filming rather than help."
+    "Mocking tired people, or singling anybody out at their worst moment.",
+    "Presenting anyone on screen, passenger or staff, as an example of a defilement. The sources describe moments of mind, not kinds of person, and a camera cannot show which factor is present.",
+    "Making the railway staff into either villains or saints; they are the people standing there, and they did not lay the track.",
+    "Sliding into 'let it out, venting is healthy', which the digest rules out.",
+    "Offering anyone's frustration as the justified kind; the sources make no exception for justified anger.",
+    "Treating all fear as a fault, when the sources praise the dread of doing wrong as a different factor entirely.",
+    "Narrating the traditional bodily signs of this state, or its consequences at death, as observable fact.",
+    "Working anywhere near a live running line, and the pull to keep filming rather than get out of the way.",
+    "Using a genuine hardship, a missed connection or a lost day's pay, as texture."
   ],
   "drop_if": [
-    "No genuine, unplanned breakdown occurs within the filming window.",
-    "Passengers or the crew do not consent to being shown.",
-    "The only way to get the film would be to arrange, extend or simulate a delay."
+    "The railway will not permit filming on and around a working station, or a drone over the line.",
+    "Passengers and staff do not consent to being shown.",
+    "The only way to get the film would be to arrange, extend or simulate a delay, or to hold anybody up."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0036",
-      "relation": "absorbs",
-      "note": "Takes in the strand of a working day spent receiving other people's refusals, which the driver and conductor live in concentrated form for one hour."
+      "relation": "pairs with",
+      "note": "Two places made of delay: one where the broken thing is worked on slowly, and one where nothing can be done but wait."
     },
     {
       "idea_id": "IDEA-0035",
       "relation": "pairs with",
-      "note": "Two stretches of imposed waiting, one alone in the dark and one in a crowd in the heat."
+      "note": "Two stretches of imposed waiting, one alone in the dark with everything at stake, and one in a crowd in the heat with nothing at stake but the hour."
     },
     {
       "idea_id": "IDEA-0041",
@@ -69,21 +121,67 @@
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0036"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0023, and the merge gives it the one thing it lacked: somebody inside the situation on whom all of the displeasure actually lands."
+    "reason": "It states the group's central claim in its cleanest possible form, a refusal with no author in it, on a place where the refusal is literally the geometry of the track."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape. The old idea waited for an unplanned bus breakdown, which cannot be found, scheduled or filmed without waiting on somebody's bad day, and whose whole subject was a driver and conductor absorbing a full vehicle's frustration, that is, identifiable people filmed as angry. Both were dropped. The place is now a single-track crossing loop, where the same hour happens on a timetable, the refusal has no author at all, and no one in frame is an instance of anything. The merge with IDEA-0036 has been undone, since that idea has been rebuilt as its own place. C007 and C022 re-read from the digests and both links rewritten; the digest's bars on venting, on justified anger, on reading the four constants as a type of person, on treating all fear as a fault, and on narrating the bodily signs and the death claim are carried in the links and the risks.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Punanai railway station on the single-track Batticaloa line",
+    "also_known_as": [
+      {
+        "name": "Punani",
+        "meaning": "the more common spelling of the same place",
+        "used_by": "ordinary usage and road signage"
+      }
+    ],
+    "region": "Eastern dry zone, on the line between the Polonnaruwa river plain and the east coast, in the scrub country west of Valaichchenai",
+    "coordinates": {
+      "lat": 7.9637,
+      "lng": 81.3873
+    },
+    "why_here": "Because the concept is the track plan. The line is single all the way, so opposing trains can only pass where a loop exists, and at a small station like this one the consequence is that a full long-distance train stops in the middle of flat scrub country and stands there until the other one appears. That produces the film's best image on its own, and it happens to be the clearest statement of the idea: one silver line running dead straight to the horizon in both directions, with a long train stopped on it and several hundred people spread along the ballast beside it. It is also a place with no one to blame in it, which is exactly what the group needs and what a road breakdown could never guarantee, since nothing here has gone wrong at all.",
+    "what_to_film": [
+      "The stopped train from directly above and from a long way up, wide enough that the single line reaches the horizon in both directions in one frame.",
+      "The doors opening and the crowd coming down onto the ballast, filmed as an ordinary habit rather than as an incident.",
+      "The shade moving through the hour, under the trees and along the train's flank, and the crowd moving with it.",
+      "The empty far end of the line in heat haze, held long enough to be uncomfortable.",
+      "The sociable middle of the hour, wide and unsingled: tea, sleep, children on the rail, strangers talking on the same length of steel.",
+      "The moment the distant horn is heard, seen in the crowd rather than in the track.",
+      "The two trains side by side, and the platform two minutes later with nothing on it.",
+      "The same place with no train in it at all, at both ends of the day."
+    ],
+    "access": "By road through the eastern dry zone, or on the line itself. Everything depends on Sri Lanka Railways: permission to film on and around a working station, rules about the running line, and separate clearance for a drone over railway property. Nothing may be done that holds up an operating service.",
+    "best_time": "Late morning for the heat haze on the rails, and the last hour of daylight for the long shadows down the track. Dry-season months, when the haze and the shade both do their work; the timetable decides the hour, not the crew.",
+    "images": [
+      {
+        "caption": "The road near Punanai, for the flat dry-zone country the line runs across. It is the surrounding landscape, not the station.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Batticaloa - Polonnaruwa Road (near Punanai).JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Batticaloa - Polonnaruwa Road (near Punanai).JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Punanai_railway_station",
+      "https://en.wikipedia.org/wiki/Batticaloa_line",
+      "https://slrailwayforum.com/welikanda-railway-station/"
+    ],
+    "research_note": "That the station exists and is functioning, that it lies between Welikanda and Valaichchenai on the line, and that the line is single track, are from the pages listed above and are desk research only, as are the coordinates, which are the station's as published. What has not been verified is the thing the film depends on: whether this particular station is one of the places where opposing trains are booked to cross, how long such a wait usually runs, and whether passengers habitually get down during it. Any of the small stations along this line could turn out to be the right one, and the choice should be made from a working timetable and a site visit rather than from a desk. Wikimedia Commons has nothing of the station or of the line here; a search returned one picture of the road near the village, which is what is listed, captioned as the surrounding country and not as the station.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the railway or to anyone at the station. Everything here is a research direction.",
+    "Whether opposing trains actually cross at this station, and for how long, is unverified and decides whether the film exists.",
+    "Whether passengers get down during such a wait, which the whole middle of the film assumes.",
+    "Whether filming on and around a working station, and flying a drone over railway property, would be permitted at all.",
+    "Whether the crossing can be filmed without the crew's presence affecting the station's own work or a passenger's hour."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

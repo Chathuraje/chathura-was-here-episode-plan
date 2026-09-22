@@ -2,85 +2,197 @@
   "schema_version": 1,
   "id": "IDEA-0078",
   "record_type": "idea",
-  "title": "The Interpreter's Pause",
+  "title": "The Water Arrives Later",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Interpreter's Pause"
+  ],
   "group_id": "GRP-05",
-  "logline": "An interpreter listens, pauses, and only then speaks, and in that pause an understanding is assembled from nothing, one piece at a time.",
-  "human_question": "What actually has to happen, step by step, for one person's words to become understanding in someone else's mind?",
-  "situation": {
-    "what_happens": "An interpreter works between two languages for people who depend on being understood: a patient describing a symptom, a witness answering a question, someone filling in a form that decides something. Each exchange is a listening, a pause, a rendering, and often a correction. The pause is short and always visible, and everyone in the room waits inside it. A word with no equivalent stops the whole proceeding until the interpreter decides what to do about it.",
-    "who_is_involved": "The interpreter; the two parties who cannot speak to each other and are usually unequal in power; the official or professional running the proceeding, who owns the clock; and, behind all of them, whatever institution's rules decide what may be recorded.",
-    "what_is_at_stake": "For the person being interpreted for, a diagnosis, a ruling, an entitlement, or a case lost on a word. For the interpreter, professional standing, and the quiet knowledge that a choice made in a second can change someone's life. For the institution, a record that has to stand.",
-    "how_it_unfolds": "A day is a queue of exchanges, most routine, some not. The pressures are time, unequal power in the room, and terms that do not cross. It ends with the day's matters settled or adjourned, and almost none of the outcomes are things a film can influence or predict."
+  "logline": "A famous waterfall on a highland river now falls only because a gate two kilometres upstream is opened for a fixed number of hours a day, so the drop that looks like the most self-evident thing in the landscape is in fact the last step of a chain that began somewhere else, minutes earlier.",
+  "human_question": "When something answers you, where did the answer actually begin?",
+  "place": {
+    "what_kind_of_place": "A highland river coming off the central escarpment, and the two kilometres of it that matter: a dam and intake built across the river where the valley narrows, a long two-tier waterfall below, and between them a reach of bare rock that is wet or dry depending entirely on what is happening at the gate. Most of the river no longer goes over the fall at all. It goes into a tunnel driven for more than twelve kilometres through the mountain to a power station in another valley, and what falls is a release made under an obligation: a fixed volume of water, run for a fixed number of hours, between sunrise and sunset.",
+    "why_it_is_worth_watching": "Because the most beautiful thing in the frame is also the most misleading one, and the film can prove it inside a single shot. A big two-tier fall in a gorge looks like the one thing in a landscape that is simply itself, unarguable, older than anybody. It is now an output. It starts, it runs, it thins and it stops, and none of that is decided at the fall. From the air the whole arrangement can be held in one frame: a reservoir, a gate, a wet rock face, a dry rock face, and the line of the mountain under which the rest of the water is travelling in the dark towards a machine hall on the other side.",
+    "what_moves_or_changes": "The release, which has a clock in it: the fall runs through the daylight hours and is not the same thing outside them. The weather, which fills or does not fill the reservoir and decides how much there is to divide. The season, since in heavy rain the structure spills and the argument the film is making is briefly suspended, and in drought the fall thins to a stain on the rock. And the delay itself, which is the film's subject: the interval between a gate moving and the water reaching the lip, and the far longer interval before the water that did not go over the lip does its work in the other valley.",
+    "when_it_looks_best": "The first hour of a clear morning, when the release has begun and low sun is across the gorge, so the falling water and the dry rock beside it are both legible. The end of the day is the other shot: the same frame as the run ends. The dry months make the argument visible; the wet months make the fall look like itself again and are worth filming for exactly that contrast."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about a great waterfall and the engineering that has quietly taken it over. Mist, black rock, a huge drop, a dam, a tunnel mouth, a river that is in two places at once, and the plain visual fact of a famous thing in the country now running to a timetable. Nothing in it needs explaining. Anyone who likes water and mountains has a whole piece, with a small shock in the middle of it.",
+    "with_the_philosophy": "The same footage becomes the sources' own claim about what any act is made of. They say that nothing a person does, not seeing properly, not hearing, not understanding a word spoken to them, not so much as moving a hand, happens in a single moment; each of these requires a whole series, and each moment in the series does exactly one job and then hands on. That is unfilmable in a mind and perfectly filmable in this gorge, where the chain is two kilometres long and the interval between the cause and the answer is measured in minutes."
+  },
+  "sequence": [
+    {
+      "on_screen": "The fall in full flow from the opposite side of the gorge, wide and high, water in two tiers, spray drifting. A long, unhurried, completely conventional shot of a great waterfall.",
+      "voice": "This is the least complicated thing in the landscape. Water finds an edge and goes over it. Nobody has to be involved.",
+      "concept_id": "C038"
+    },
+    {
+      "on_screen": "Cut two kilometres upstream: a concrete gate structure across the narrows, the reservoir behind it flat and dark, an intake mouth, and beneath the structure a wide expanse of bare, dry rock in the riverbed.",
+      "voice": "Except that it does. Most of this river now turns off here, into a tunnel more than twelve kilometres long, and comes out under a machine hall in the next valley. What goes over the edge downstream is a release, made for a set number of hours a day, between sunrise and sunset.",
+      "concept_id": "C038"
+    },
+    {
+      "on_screen": "The gate at the start of a run. Machinery, a needle moving, water beginning to pass. Then the dry reach below, filmed at walking pace as the water comes down it: a tongue advancing over dry stone, filling hollows, darkening the rock.",
+      "voice": "The old manuals make a claim that sounds pedantic until you watch it happen in a riverbed. Nothing anybody does, they say, takes place in one moment. Seeing properly, hearing, understanding what someone has just said to you, moving a limb, handing something over: every one of them needs a whole run of separate moments to complete [C038-M:L3; C038-M:L5].",
+      "concept_id": "C038"
+    },
+    {
+      "on_screen": "The lip of the fall, from directly above, in the minutes before and after the water arrives: the rock lip dark and empty, then wet, then carrying the whole flow.",
+      "voice": "And each moment in the run does one job only. The books count fourteen jobs a moment of mind can do, and they are firm that a moment does one of them and hands on [C034-P:L25; C034-M:L7]. Nothing in a chain like this does two things at once, and nothing in it is in charge of the rest.",
+      "concept_id": "C034"
+    },
+    {
+      "on_screen": "The same wide shot of the fall as at the opening, now understood differently. Then the far side of the mountain: the transmission line leaving the hill, a switchyard, a road, an ordinary lit house at dusk.",
+      "voice": "The water that did not come over the edge is under the mountain while you watch this, in the dark, doing nothing that can be seen, and it will arrive as something else entirely and much later. One river, two answers, two different delays.",
+      "concept_id": "C038"
+    },
+    {
+      "on_screen": "Detail: a gauge board in the riverbed, a staff gauge at the intake, a logged reading, a clock. No faces; instruments and water.",
+      "voice": "The manuals are honest about the limit here. They say the mind cannot be examined the way a river can, because it is the instrument doing the examining, and that even careful students know these sequences only by working backwards from what they can see [C038-M:L3]. This gorge is not a picture of a mind. It is the one thing a camera can do instead: a process that looks instantaneous, slowed down until its stages are two kilometres apart.",
+      "concept_id": "C038"
+    },
+    {
+      "on_screen": "End of the run. The flow at the lip thinning, the fall narrowing to threads, then the rock face wet but silent. Light going off the gorge.",
+      "voice": "There is a further step the books insist on, which is that a name and a meaning are added after the event rather than during it [C046-P:L117-L151]. A waterfall is a name. What was here twenty minutes ago was a release, and before that a reading, and before that rain, and none of those steps is the waterfall, and the waterfall is not any of them.",
+      "concept_id": "C046"
+    },
+    {
+      "on_screen": "Dawn the next day, very high. The reservoir, the gate, the dry reach, the fall not yet running, the whole arrangement in one frame in flat early light.",
+      "voice": "In a few minutes this will start again, in the same order, and it will look, from the road, like water finding an edge.",
+      "concept_id": "C038"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C038 contributes the sources' plainest claim, that nothing a person does happens in a single mind-moment and that understanding another person's words in particular requires a whole ordered series. C034 contributes the fourteen named jobs that series is made of, each done by one moment and only one. C046 contributes the sources' own two-step account inside the mind door, where what was heard is replayed, then named, and only then understood. An interpreter is the one worker whose job makes that series audible, because the pause is the series and everyone in the room is waiting for it.",
-    "what_it_reveals": "The sources say the process can never be watched, only inferred. An interpreter does not show the process either, but she externalises its shape: everyone in the room can hear that understanding a sentence takes time and is not one act. It also makes visible the thing the tables cannot, that this work costs something, and that where the languages do not match the interpreter has to decide, in public, in a second."
+    "why_together": "C038 supplies the claim and this film's whole spine: nothing a person does happens in a single mind-moment, and seeing, hearing, understanding another person's words, moving a limb, giving and taking each require a whole series [C038-M:L3; C038-M:L5]. It also supplies the honesty the film needs, that the mind cannot be examined directly because it is the instrument doing the examining, so these sequences are known by inference rather than by observation [C038-M:L3]. C034 supplies the grain inside the claim: fourteen jobs, one to a moment, handed on in order [C034-P:L25; C034-M:L7], which is what turns a vague chain into an arrangement with stages. C046 supplies the last and most useful step, that the name and the meaning of a thing arrive after the event, in separate later processes [C046-P:L117-L151], which is exactly what happens when a scheduled release is seen from the road and called a waterfall.",
+    "what_it_reveals": "That the feeling of immediacy is a feature of the ending of a process rather than evidence about its length. C038 alone is an assertion no camera can test. C034 alone is a list. C046 alone is a point about naming. Together, on two kilometres of river where the stages have been pulled physically apart and given clocks, they let a viewer watch a thing that looks self-evident turn out to be the last step of something that began elsewhere, without any person in the frame being offered as the one doing it."
   },
   "concept_links": [
     {
       "concept_id": "C038",
       "role": "primary",
-      "why": "The digest reports Margaya's claim directly: nothing a person does, whether properly seeing, hearing, understanding someone's words, moving a limb, giving or taking, happens in a single mind-moment; each needs a whole series [C038-M:L3]. Understanding another person's words is one of the source's own examples. The digest also gives the frankest thing in the group, that the mind is the hardest thing to study because it is the very thing doing the studying, like a knife that cannot cut itself, so even students know these processes only by inference. Two limits are carried: the digest says this is not 'slow down and you will see your thoughts arise', since the source says people never notice these processes at all; and it states plainly that the group's framing 'no separate seer behind it' is not made in these extracts and must be sourced elsewhere."
+      "why": "The digest's central report is the Margaya's flat claim that nothing a person does happens in a single mind-moment, and that properly seeing, hearing, understanding someone's words, moving a limb, giving and taking each need a whole series [C038-M:L3; C038-M:L5]; the Pradeepika then supplies the six sixes by which any moment in a process is located and the division into five-door and mind-door processes. The film is built on the first of those and on the digest's frankest passage, that the mind is the hardest thing to study because it is the very tool doing the studying, so even students know the processes only by inference [C038-M:L3]. That sentence is spoken in the sixth beat, because it is the only honest answer to the obvious objection that a gorge is not a mind. The digest's limits are carried exactly. The film never suggests that slowing down will let anyone watch their own moments arise, since the source says people do not notice these processes at all. It does not present the series as information processing or as a stream of consciousness. And it does not put the group's framing, that there is no separate seer behind the seeing, into this concept's mouth: the digest states plainly that the extracts do not make that claim, so the narration here keeps to what the source does say, which is that an act is a series of hand-offs with no step that performs the whole act."
     },
     {
       "concept_id": "C034",
       "role": "supporting",
-      "why": "The digest names the fourteen jobs a mind-moment can do and stresses that each moment does exactly one, so what feels like one smooth act of looking, understanding and replying is a stitched-together result of many hand-offs. The digest's limits apply: it is not a mindfulness technique of watching each step, since the source says countless moments pass in a finger-snap; the impulsion stage is not described as a conscious pause for weighing options, and the slogan about the gap between stimulus and response borrows the shape and adds a claim the source does not make; and the source's link between weak rebirth-producing action and being born blind or deaf must never be carried into any judgement about a real person [C034-P:L47]."
+      "why": "The digest gives the fourteen functions and the rule the film's fourth beat depends on, that every mind-moment does exactly one job and that a mind does only one job at a time [C034-P:L25; C034-M:L7]; the digest's own image for it is a relay rather than a watcher. That is what a gate, a reach of rock, a lip and a tunnel are: stages that cannot do each other's work. The digest's limits are honoured. This is not offered as a technique for watching each step, since the source says countless moments pass in a finger-snap. The background current is not described as a subconscious or a hidden self, and it is not narrated here at all. The impulsion stage is never presented as a conscious pause in which options are weighed, and the popular slogan about a gap between stimulus and response is deliberately avoided even though this film is about an interval, because the digest says the slogan borrows the shape and adds a claim the source does not make. The source's link between weak rebirth-producing action and being born blind or deaf [C034-P:L47] is not narrated and is not carried into any judgement about any person."
     },
     {
       "concept_id": "C046",
       "role": "supporting",
-      "why": "The digest gives the source's own staged account: the sense catches only the bare object, the mind replays it, sorts it, puts a name to it, and only at the last step grasps what the name refers to, which is where a full response can be made [C046-P:L117-L151]. An interpreter's work is that sequence performed out loud, catching what was said, then finding what it means in another language. The digest's guard against 'labels are the problem, stop labelling' matters here, since the source treats naming as an ordinary and necessary step in knowing anything at all."
+      "why": "The digest's account of the four mind-door processes that follow a single sight, taking the object as past, then its colour, then its name or concept, then its meaning, with a full wholesome or unwholesome response possible only in the last [C046-P:L117-L151], is what the closing beat uses: the word waterfall arrives after the event it names, and arrives at whoever is standing on the road rather than at the river. The digest's limits are kept. Naming is not treated as an error to be given up, because the source treats it as an ordinary step in knowing. No popular figures for recognition speed are offered as corroboration. The mind door is used only in its technical sense as a particular mind-moment [C046-P:L39], never as a metaphor for openness. And the registration step, which the digest notes takes only sense-sphere objects [C046-M:L52-L54], is not stretched into a claim about lingering impressions of scenery."
     }
   ],
-  "what_the_viewer_could_understand": "Understanding a single sentence is not one act. On these texts' account it is a short series of separate steps, the words caught first, named next, and understood last, and an interpreter's pause is the only place in ordinary life where that series is something a room can hear.",
-  "what_must_be_real": "Legal, medical and administrative confidentiality comes before the film, and anyone whose matter is being interpreted must consent separately from the institution. Filming real proceedings may prove impossible, and if so the film works with training and practice sessions and says so rather than reconstructing a case. The interpreter's own account of how she hears before she translates must lead.",
-  "position_hint": "middle: its substance now sits inside the group's film about teaching something too fast to watch, and it belongs wherever that film belongs.",
+  "what_the_viewer_could_understand": "That the immediacy of an experience is not evidence that it happened all at once. Something can feel like a single unarguable fact and still be the last stage of an ordered series that started elsewhere and took time to arrive; and the name we give the whole thing attaches to the end of the chain, not to any of the steps that made it.",
+  "what_must_be_real": "The scheme, the schedule and the loss. The reduction of the fall is a real change to a real river with consequences for the people, water users and habitat below it, and the film may not treat it as a clever visual conceit; what is said about volumes, hours and obligations must be what the operator and the record actually say, not what makes a better sentence. Nothing is released, held back or timed for the camera, and no request is made to alter a run. No operator, engineer or gatekeeper is filmed as the one who decides, or cut so that a person becomes the mind in the analogy; the stages are the subject. If the fall cannot be filmed safely from the gorge side, it is not filmed from there.",
+  "position_hint": "middle: it is the group's clearest demonstration that a single apparent act is a series with intervals in it, so it works best after the opening film about what arrives at the senses and before the films about how fast a response is formed. No location reasoning is involved.",
   "risks": [
-    "Confidentiality that cannot be protected for the people being interpreted for.",
-    "Reducing a skilled professional to an illustration of doctrine.",
-    "Presenting the pause as a demonstration of a doctrinal sequence, when the sources say the sequence cannot be observed at all.",
-    "Filming people at a moment when they have very little power to refuse."
+    "Presenting the gorge as a picture of a mind. The C038 digest is explicit that the mind cannot be watched directly and is known only by inference; the film must say so rather than let the analogy pass as evidence.",
+    "Sliding into the slogan about a gap between stimulus and response where freedom lies. The C034 digest names this as a borrowed shape that adds a claim the source does not make.",
+    "Suggesting that anyone can slow down and observe their own mind-moments, which both digests rule out.",
+    "Letting the film become an advocacy piece for or against the diversion, or making claims about flows, obligations or damage that the operator and the record would not support.",
+    "Framing any worker at the headworks as the decider, or building the chain around a person so that the film supplies the single doer the concepts deny.",
+    "Turning a dewatered river into a purely beautiful object, with no sense of what the change cost downstream.",
+    "Carrying the source's link between weak past action and being born blind or deaf into the film in any form [C034-P:L47].",
+    "Becoming a tea-country film by default. The surrounding slopes are planted, and the series already has films in that landscape; the framing must stay on the river, the rock and the structure."
   ],
   "drop_if": [
-    "No institution will permit filming, even of training or practice.",
-    "Confidentiality concerns cannot be resolved.",
-    "The interpreter's own account cannot carry the film without real case context."
+    "The release schedule turns out not to be observable, or the fall runs the same way whatever the gate does, which would remove the film's only argument.",
+    "Neither the headworks nor the gorge can be filmed, or drone clearance over the dam and the reserve is refused.",
+    "It could only be made by asking for a release to be started, stopped or altered for the camera."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0085",
-      "relation": "merged into",
-      "note": "Its C038 grounding, the sources' own example of understanding another person's words, the knife simile about a mind that cannot examine itself, and its C046 naming-then-meaning strand now sit inside IDEA-0085."
+      "relation": "pairs with",
+      "note": "Two ways of getting at something too fast to watch: one slows a rhythm into spoken syllables, the other finds a process whose stages are already two kilometres apart."
     },
     {
       "idea_id": "IDEA-0082",
-      "relation": "pairs with",
-      "note": "Two kinds of work done inside a gap too short to think in, one where the gap is audible and one where it is not."
+      "relation": "contrasts with",
+      "note": "One film is about a response so fast that nobody can find a decision inside it; this one is about a response whose steps have been pulled far enough apart to be timed."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0085",
-    "reason": "Folded into IDEA-0085, which holds the group's slot on a sequence too fast to watch and now carries C038's own example of understanding another's words, the knife simile and a C046 link."
+    "superseded_by": null,
+    "reason": "It is the only place found where a chain that normally feels instantaneous has been physically stretched out, given a clock, and left visible in one aerial frame."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The old subject, an interpreter followed through the pause between hearing and speaking, is dropped: it made one person the assembler of an understanding, which is what these concepts deny, and the pause itself is unfilmable. The concept is kept and moved to a place where the gap between receiving and responding is structural, scheduled and visible from the air. A railway token exchange was considered and rejected because the slate already carries two railway films. Concepts re-read from the digests as a new reader; every citation re-verified against digest evidence; the earlier merged-into relation with IDEA-0085 is replaced by a pairing, since this is again a standalone film.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "St Clair's Falls and the Upper Kotmale headworks on the Kotmale Oya at Talawakele",
+    "also_known_as": [
+      {
+        "name": "the little Niagara of Sri Lanka",
+        "meaning": "the tourist name the fall has carried for a century",
+        "used_by": "guidebook and roadside usage"
+      }
+    ],
+    "region": "Nuwara Eliya District, Central Province: the Kotmale Oya where it comes off the escarpment near Talawakele, between Hatton and Nuwara Eliya",
+    "coordinates": {
+      "lat": 6.9511,
+      "lng": 80.6478
+    },
+    "why_here": "It is the only site found where the film's argument is also its most beautiful shot. A large two-tier fall sits about two kilometres below a dam whose intake sends most of the river into a headrace tunnel of more than twelve kilometres to a power station in another valley, and the fall's flow is therefore a scheduled release rather than a fact of the landscape: the reported obligation is a set volume run for ten and a half hours a day between sunrise and sunset. So the stages of a process that would elsewhere be instantaneous are laid out along two kilometres of river with a clock attached, and an aerial can hold reservoir, gate, dry reach and falling water in one frame. Comparison photographs before and after the scheme are published, which gives the film its before and after without staging anything.",
+    "what_to_film": [
+      "The fall in full release from the far side of the gorge, filmed conventionally and at length, so that the later revelation lands against it.",
+      "The headworks: the gate structure across the narrows, the intake mouth, the reservoir surface, and the bare riverbed immediately below.",
+      "The start of a run, followed downstream: the tongue of water advancing over dry rock, filling hollows and darkening stone.",
+      "The lip of the fall from directly overhead in the minutes before, during and after the arrival of the flow.",
+      "The end of a run: the flow thinning, the threads breaking, the wet silent rock face.",
+      "One aerial that holds reservoir, gate, dry reach and fall together, in raking light.",
+      "The other end of the chain in the next valley: the tunnel's outfall works, the switchyard, the line leaving the hill.",
+      "Instruments rather than people: gauge boards, staff gauges, a logged reading, a clock."
+    ],
+    "access": "The fall is visible from the Hatton–Talawakele road with a short walk down towards the viewpoint; the headworks sit above Talawakele on the same river. Ground filming at the dam and any access to operating structures depends on the electricity authority, and drone flight requires both defence clearance and civil aviation permission, with dams and power stations likely to fall inside restricted areas. The gorge itself is steep and wet and should not be entered for a shot.",
+    "best_time": "The drier months, when the diversion is most visible and the released flow is what the fall is made of; a clear early morning after a release has begun, and the same frame again at the end of the day's run. One visit in heavy rain, when the structure spills and the fall briefly becomes its old self, is worth having for contrast.",
+    "images": [
+      {
+        "caption": "The two-tier fall itself, photographed from the usual roadside viewpoint.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St. Clair's Falls - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:St. Clair's Falls - panoramio.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same fall in another year and another flow, which is the film's subject in a single comparison.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St. Clair's Waterfall, Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:St. Clair's Waterfall, Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The dam upstream, here spilling in high water; this is the structure that decides what the fall does, not the fall itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spilling Upper Kotmale Dam.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Spilling Upper Kotmale Dam.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St._Clair%27s_Falls",
+      "https://en.wikipedia.org/wiki/Upper_Kotmale_Dam",
+      "https://amazinglanka.com/wp/st-clairs-falls/"
+    ],
+    "research_note": "Desk research only. That the dam stands about two kilometres upstream of the fall, that it was commissioned in 2012, that its headrace tunnel is close to thirteen kilometres long and feeds a power station of two 75 MW machines in another valley, and that the operator is obliged to maintain a flow over the fall of 47,250 cubic metres over ten and a half hours daily between sunrise and sunset, are reported by the sources above; published photographs from before and after the scheme are used there to show the loss of volume. Note for the reader: this is the UPPER Kotmale structure at Talawakele, a separate dam some distance upstream of the Kotmale reservoir whose drawdown zone is already taken elsewhere on the slate; the two should not be confused. The coordinates are the published position of the fall, not of the dam, which sits upstream at approximately 6.9467, 80.6581. Unverified: whether the mandated release is in fact run to that schedule today, how long water takes to travel from gate to lip, whether the start and end of a run are as legible on the rock as the film assumes, and whether any of it can be flown over.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the daily release actually happens as reported, and on what clock, which decides whether the film exists at all.",
+    "The travel time between the gate and the lip of the fall, which is the interval the film is built on. Nothing found documents it.",
+    "Whether the electricity authority will allow filming at the headworks, and whether defence and civil aviation clearance for drone flight over a dam and a gorge is obtainable.",
+    "How much of the surrounding slope is planted estate, and whether the film can be framed to stay off it.",
+    "No operator, officer or resident has been found or approached. Everything here is a research direction."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage."
 }

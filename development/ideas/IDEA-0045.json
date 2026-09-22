@@ -2,89 +2,196 @@
   "schema_version": 1,
   "id": "IDEA-0045",
   "record_type": "idea",
-  "title": "Not Yet Decided",
+  "title": "The Line Stops at the Water",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Not Yet Decided"
+  ],
   "group_id": "GRP-03",
-  "logline": "A household has been going back and forth for months over whether one of them should go abroad for work, and nobody in the house can say what has actually been decided.",
-  "human_question": "When a decision keeps not getting made, what does the waiting itself do to a family?",
-  "situation": {
-    "what_happens": "A family is living inside a decision that has not been made. It is not being avoided: there are agency visits, forms begun, documents gathered, medicals discussed, and a sum of money that would have to be borrowed before anything could start. Each step is taken and then not followed by the next one. Meanwhile ordinary life carries on at full volume around it, and the undecided thing sits in the middle of the house being referred to obliquely. Much of the year is spent at counters, holding numbers, waiting for offices to confirm things that could be reversed a week later, which is its own kind of not deciding (folded in from IDEA-0044).",
-    "who_is_involved": "The person who would go, whose reasons change depending on who is asking; the partner or parent who would stay and run everything alone; children who understand more than they are told; older relatives with a firm view; the agency staff who need an answer and a fee; and neighbours whose households already went one way or the other and who are treated as evidence.",
-    "what_is_at_stake": "Years of a family's life and a large debt taken on in advance of any earnings. On the other side, a household that stays together and stays where it is financially. For the person who would go, the question of whether the version of the family they come back to will be the one they left. For the film, never becoming a pressure on the decision, and never suggesting that a hard choice is a failing.",
-    "how_it_unfolds": "It begins with a reason that is real, usually a debt or a cost that cannot be met from here. The pressures are an agency's timetable, a document that expires, a relative's opinion, and the slow cost of staying in the same position. It can end with a departure, with a decision not to go, with the question being deferred for another year, or with the choice being taken out of the family's hands by a deadline or a rejection. Reality decides entirely, and the film has to be able to end unresolved, because that is a likely and honest outcome."
+  "logline": "A railway line runs dead straight across forty kilometres of sand and thorn scrub, arrives at the sea, and continues as a rusted iron pier that stops in two metres of water, and beyond it a chain of pale sandbanks reaches most of the way to another country's coast.",
+  "human_question": "What does a place look like when leaving has been about to happen for forty years?",
+  "place": {
+    "what_kind_of_place": "The far tip of a long, low sand spit at the north-western end of the island, where a branch railway line built for one purpose ends. The purpose was a boat: passengers came down the line, walked out along an iron pier and boarded a steamer for a coast about thirty kilometres away. A cyclone wrecked both piers in the nineteen-sixties, the sailings finished for good in the nineteen-eighties, and the line itself was destroyed in the war years and then rebuilt, track, platform, station building and all, back to within sight of the sea. The pier was not rebuilt. It stands where it stood, rails still on it, going out into shallow water and stopping. Beyond it, on the same line as the pier, lies a chain of limestone shoals and sandbanks running away towards the other coast: too shallow for a ship, too broken to walk, and visible from the air as a dotted white line on flat turquoise. A fishing hamlet, a lighthouse, palmyra palms, a navy presence and a daily train are the rest of it.",
+    "why_it_is_worth_watching": "It is a landscape built entirely out of one unfinished geometry, and the geometry only reads from the air. A perfectly straight steel line crossing pale scrub; a platform with a roof and a name board and nobody on it; then the same line continuing out into the water on iron legs and simply ending; and then, on exactly that heading, the shoals carrying the line on in dashes to a horizon where a coastline is sometimes faintly visible in clear weather. Everything points one way and nothing goes there. At ground level it is small and mild: sand blowing over rails, goats, a bicycle on the platform, shallow green water you can wade in, rust that flakes in the hand.",
+    "what_moves_or_changes": "Almost nothing under anyone's control. The tide uncovers and covers the bar around the pier legs twice a day and changes the colour of the whole shot. The sandbanks move between monsoons, so the dotted line is never the same shape two seasons running. The one scheduled event is the daily train, which arrives, stands, reverses and goes back inland; it is the only thing here that completes anything. Light does the rest: the water is only clear enough to read the shoals for a few hours around the middle of a calm morning.",
+    "when_it_looks_best": "The calm season between the monsoons, when the sea is flat and clear and the shoals show their shape; high aerials in the late morning for the water, low sun at either end of the day for the pier, which is at its best as a silhouette with the lighthouse starting up behind it. A rough sea hides the sandbanks completely and takes the film's main image away."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet end-of-the-line film with one extraordinary picture in it. A rail line crossing an empty spit, a small rebuilt station, a derelict pier standing in clear shallow water, and then the aerial that the whole film exists for: the pier and the sandbanks beyond it forming a broken line across a turquoise strait towards a coast nobody here can reach. Anyone who never hears a word of commentary gets a complete piece with a shape: inland to shore, shore to pier, pier to the shoals, and a day of tide and light over all of it.",
+    "with_the_philosophy": "The same footage becomes the sources' description of a mind that cannot land. The voice does not accuse the place or anyone in it. It points at what is already on screen: a route that has been on the point of reopening for forty years, surveyed, costed, announced and left; a line with no decision at the end of it and no push towards one. Then it does the thing the group needs and states the limit out loud, because the sources state it themselves: the doubt they count as a fault is a specific one about the teacher and the teaching, not ordinary not-knowing about a journey, a job or a life. The place lends its texture and is let off the verdict."
+  },
+  "sequence": [
+    {
+      "on_screen": "Dawn, very high. A single steel line crossing pale scrub and sand dead straight towards the sea, with no settlement on either side of it for kilometres.",
+      "voice": "This line was built to go further than this. At the end of it there was a pier, and at the end of the pier there was a boat, and the boat took people to a coast about thirty kilometres away. The last sailing was in the nineteen-eighties. The line was destroyed in a war and then rebuilt, all of it, right back to here.",
+      "concept_id": "C028"
+    },
+    {
+      "on_screen": "Ground level. The rebuilt terminus: swept platform, a roof, a name board, a bench, a clock. A man wheels a bicycle along it. The daily train comes in, stands, and reverses out.",
+      "voice": "The old lists say something odd about what is present in every unsettled state of mind. Along with the blindness and the agitation there is always effort, and there is always thinking [C028-P:L27]. Nothing here has been neglected. The track was relaid, the station rebuilt, the sailing surveyed and costed and announced more than once.",
+      "concept_id": "C028"
+    },
+    {
+      "on_screen": "The pier from just above the water: rails still bedded in the deck, planks missing, iron legs standing in clear green shallows, the line of the structure ending in mid-water with nothing after it.",
+      "voice": "Those lists also count the parts of each such state, and one of them is the sparest on the whole scheme. It has no decision in it, no push towards doing anything, and no pleasure either. It only circles [C028-P:L33; C028-M:L29–L31]. It is not the heaviest state on the list; it is the emptiest.",
+      "concept_id": "C028"
+    },
+    {
+      "on_screen": "The film's main image. Very high, late morning, flat clear water: the pier, and then on exactly the same heading a chain of pale sandbanks and shoals running out in dashes towards a far horizon.",
+      "voice": "The strait out there is shallow almost all the way across, and this broken line of sand stands up out of it like a road somebody stopped building. It is too shallow for a ship and too broken to walk. For as long as anybody can remember it has been almost a crossing.",
+      "concept_id": "C028"
+    },
+    {
+      "on_screen": "Ground. Fishing boats drawn up on the sand below the pier, nets being cleared, a family walking in the shallows, a patrol boat far out. Ordinary midday life with the pier behind it.",
+      "voice": "The older book has a picture for the state it means: a traveller who reaches a crossroads for the first time and is worn out by not knowing which road to take. And then both books stop and say plainly that ordinary not-knowing about an unknown matter is not the fault they are describing [C022-P:L179; C022-M:L57]. What they mean is narrower and is about the teaching itself. It is not about ferries, and it is not about anybody's plans.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "The platform in the flat heat of early afternoon: the empty bench, a timetable, a fan turning, sand drifted over the far end of the track, a goat in the shade of the name board.",
+      "voice": "One factor is in every one of these states without exception, and it is the one this place is made of: a mind that will not sit still [C022-P:L31]. It is not drama. It is the feeling of a room where something is always about to be settled.",
+      "concept_id": "C022"
+    },
+    {
+      "on_screen": "Dusk. The pier in silhouette against a low orange sea, the lighthouse beam starting up, the last light on the rails. Then black, with only the beam turning.",
+      "voice": "A camera cannot see which state anybody is in, and this film does not claim to. What it can show is a place that has been on the point of leaving for forty years, and the sources' own description of a mind that circles without landing: no decision, no drive, and no joy in it. Whose fault that is, here, is not a question this film asks. The books that describe the circling are the ones that insist not knowing is not the fault.",
+      "concept_id": "C028"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C028 supplies a very precise description of a mind that cannot land: the doubting state is the sparest on the sources' whole list, lacking decision and the desire to act, and the restless state that sits beside it also lacks the desire to act, so neither drives towards anything at all [C028-P:L33; C028-M:L29–L31]. C022 supplies the boundary that makes the film usable: both sources say plainly that ordinary uncertainty about unknown matters is not the unwholesome doubt they mean, which concerns the teacher and the teaching specifically [C022-P:L179; C022-M:L57], and it supplies the source's own image for that doubt, someone arriving at a crossroads for the first time and worn out by not knowing which road to take [C022-P:L179]. The concepts are put together here as a description and its disclaimer, and the disclaimer is half the point.",
-    "what_it_reveals": "That the texture the sources describe and the texture of a real, honest, unresolved family decision look the same from outside and are not the same thing. Put together, the two concepts let the film say something a viewer can use, that a mind circling without landing is exhausting in a specific way, while refusing the judgement that would normally come attached to it. It also carries the group's handover: after the heat, what is left is not calm but a fog, and the sources are careful to say the fog is not a fault."
+    "why_together": "C028 supplies the description and C022 supplies the fence around it. The counting concept says that fourteen factors are present in every unwholesome mind, among them effort and applied thought [C028-P:L27], so nothing in such a state is lazy or thoughtless; and that the doubting state is the sparest of the twelve, lacking decision and the desire to act, with no joy in it, so that it simply circles [C028-P:L33; C028-M:L29–L31]. That is an exact description of a place where a great deal of work has been done and nothing has landed. C022 then supplies the boundary the film cannot do without: both sources say in as many words that ordinary uncertainty about unknown matters is not the unwholesome doubt they mean, which is specifically about the teacher and the teaching [C022-P:L179; C022-M:L57], and the same passage gives the sources' own image of a traveller at a crossroads. C022 also supplies restlessness, one of the four present in every unwholesome moment [C022-P:L31], which is the register of a platform where something has been about to be decided for decades.",
+    "what_it_reveals": "That the texture of circling and the fault the sources name are two different things, and that a film can show the first while refusing the second. C028 alone would be a diagram: counts of factors nobody can photograph. C022 alone would be a disclaimer with nothing to disclaim. Together, on a line that ends in the water, they let the viewer feel exactly what the sources mean by a state with no decision and no drive in it, and hear the sources themselves rule out the judgement a viewer would otherwise attach to it. It also carries the group's handover: after the heat of anger and fear, what is left is not calm but a stall, and the stall is described without being condemned."
   },
   "concept_links": [
     {
       "concept_id": "C028",
       "role": "primary",
-      "why": "The doubting mind is the sparest of the twelve: it lacks decision (adhimokkha), it lacks the desire to act (chanda), and it has no joy, so it simply circles [C028-P:L33]. Margaya lists the same exclusions [C028-M:L29–L31], and the digest adds that the restless mind beside it also lacks the desire to act, so neither of them drives at anything. That is offered here strictly as an analogy for the lived texture of a long, unresolved decision. The digest puts the matter beyond doubt: 'indecision is a sin' is not the teaching, and the doubt counted in these lists is the unwholesome doubt of Concept 22, about the teacher and the teaching, not ordinary indecision about life choices. The film says that, and never equates the two. The same digest also warns that factor counts are not a severity score and that no fixed recipe of factors may be quoted for any real person's state, which rules out any narration that inventories what is present in this household."
+      "why": "The doubting state is the sparest on the whole scheme: it lacks decision, it lacks the desire to act, and it has no joy, so it neither advances nor enjoys, it only fails to settle [C028-P:L33], and Margaya lists the same exclusions [C028-M:L29–L31]. The concept's other striking claim is used on screen: effort and applied thought are present in every unwholesome mind [C028-P:L27], which is why a place can be full of work, surveys and rebuilt track and still be stalled, and why the film never suggests that a stall means neglect. The digest's limits are honoured in the film rather than only recorded here. The counts are not a severity score, so the film never says this state is worse or milder than another. Effort and thought are ethically variable and occur in wholesome minds too, so the voice never says thinking causes harm. Counts including the occasional factors are maxima, so no fixed recipe of factors is narrated over anybody. And the flat bar in the digest is the film's spine: 'indecision is a sin' is not the teaching, because the doubt counted here is the unwholesome doubt of Concept 22, about the teacher and the teaching, not ordinary indecision about life choices."
     },
     {
       "concept_id": "C022",
       "role": "supporting",
-      "why": "Both sources state that ordinary uncertainty about unknown or undecided matters is not the unwholesome doubt they describe, which is specifically about the teacher and the teaching [C022-P:L179; C022-M:L57]. This film sits entirely inside that ordinary kind, so the concept is linked as a boundary to respect rather than a label to apply, and the digest's 'questioning is a vice' bar is the reading it exists to prevent. Pradeepika's own image for the doubt it does mean is someone reaching a crossroads for the first time, worn out by not knowing which way to go [C022-P:L179], which the film may use for its picture of exhaustion without importing the classification that comes with it. Folded in from IDEA-0044: restlessness, one of the four present in every unwholesome moment [C022-P:L31], is the register of the waiting rooms and counters this decision is largely made of. One limit is technical: the digest notes that L179 mentions eight objects of doubt without listing them, so the film cannot state what they are."
+      "why": "Both sources state that ordinary uncertainty about unknown or undecided matters is not the unwholesome doubt they list, which is specifically about the teacher and the teaching [C022-P:L179; C022-M:L57], and the digest names 'questioning is a vice' as the reading this line exists to prevent. The film therefore links the concept as a boundary to respect, not a label to apply, and says the boundary out loud in the narration. The same passage gives Pradeepika's own image for the doubt it does mean, a traveller reaching a crossroads for the first time and worn out by not knowing which way to go [C022-P:L179], which the film may use as a picture of tiredness without importing the classification. Restlessness, one of the four factors present in every unwholesome mind [C022-P:L31], is the standing texture of a terminus where a decision has been pending for forty years. One technical limit: the digest notes that L179 mentions eight objects of doubt without listing them, so the film cannot state what they are."
     }
   ],
-  "what_the_viewer_could_understand": "A choice that keeps circling without landing wears down a whole household, and the texts describe a mind that cannot settle very precisely: no decision in it, no push towards anything, no pleasure either. They are also plain that ordinary uncertainty about an unknown future is not the doubt they warn about, which is about the teaching. So the tiredness is real and it is not a fault.",
-  "what_must_be_real": "The decision, its timeline and the family's circumstances must be entirely their own and genuinely unresolved when filming begins. No deadline, appointment or conversation may be arranged, and nothing the film does may push the household towards either answer or make either answer harder. Every member shown consents, including the children's guardians, and anyone may stop. The film must be able to end with nothing decided.",
-  "position_hint": "closing candidate: the group's arc ends in a fog rather than in calm, and a household that genuinely cannot settle a real decision is the most direct human form of that, handing on to the next stage's question of which way to go. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "The old texts describe a state of mind that has no decision in it, no push towards doing anything and no pleasure either, so that it does not advance and does not rest, it only circles, and they place it among states that are nevertheless full of effort and thought. And the same texts are careful to say that ordinary not-knowing about an unknown matter is not the fault they are naming. So a viewer can recognise the exhaustion of a thing that will not land without being told that anyone who cannot decide is at fault.",
+  "what_must_be_real": "The suspension must be the real, standing, public condition of the place and not a mood arranged for the camera. Nothing is staged: no train, boat or crossing is arranged, no ruin is dressed, and nobody is asked to stand on the platform or look out to sea for a shot. The film does not campaign for or against a service being restored, and takes no position on a maritime boundary or on who should be allowed to cross it. Nobody who lives or works there is presented as an example of a state of mind, and no individual's hesitation about their own life is filmed or implied. Filming near a naval area and a protected marine zone happens only with whatever permission is genuinely required, and stops where it is refused.",
+  "position_hint": "closing candidate: the group's arc ends in a stall rather than in calm, and a landscape that has been on the point of departing for forty years is the clearest form of that, handing on to the next stage's question of which way to go. No location reasoning is involved.",
   "risks": [
-    "Exploiting real economic hardship for drama, or letting a family's debt become the film's tension.",
-    "Implying an honest, difficult life decision is a moral failing, or that the sources' doubt is what this household has.",
-    "The story may not resolve within the filming window, which the film must hold as its own true ending rather than manufacturing one.",
-    "Becoming a participant in the decision: a camera present at every agency visit is a pressure of its own.",
-    "Narrating an inventory of mental factors over a real family, which the digest rules out in as many words.",
-    "Children being shown understanding more than the adults have told them."
+    "Turning a real hesitation of real people into the film's subject, when the digest is explicit that ordinary indecision about life choices is not the doubt these sources count.",
+    "Letting the film be read as a verdict on a public decision, a government or a neighbouring country, which would be an accusation the sources do not license and the film cannot support.",
+    "Narrating an inventory of mental factors over a place or a person, when counts including the occasional factors are maxima and no fixed recipe may be quoted for any real state.",
+    "Using the factor counts as a severity score, as though a state with fewer parts were milder or worse.",
+    "Implying that effort or thinking is itself the fault, when both are ethically variable and are present in wholesome minds too.",
+    "Romanticising a broken connection that has real consequences for people who live at the end of it, whose livelihoods are not a metaphor.",
+    "Stating the eight objects of doubt, which the digest notes are mentioned but not listed in the source extract."
   ],
   "drop_if": [
-    "No family in a genuinely unresolved position is willing to be filmed.",
-    "The family reaches a firm decision before filming can begin, removing the open question at the centre of the film.",
-    "Filming would measurably affect what the family decides."
+    "Access to the pier, the shoreline or the air above them cannot be had lawfully, or a naval or marine-park restriction makes the one aerial the film is built on impossible.",
+    "The crossing reopens and the place stops being a suspended one before filming, which would be a good outcome and the end of this film.",
+    "It can only be made by asking people who live there to perform waiting."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0044",
-      "relation": "absorbs",
-      "note": "Takes in the counters, the numbers and the half-finished paperwork, which turn out to be what a long decision is actually made of."
+      "relation": "pairs with",
+      "note": "Two places whose tempo is set by a boat: one where the boat comes and everything waits for it, one where it has not come for forty years."
     },
     {
       "idea_id": "IDEA-0037",
       "relation": "pairs with",
-      "note": "Two endings for the group: heat that has already cooled, and a fog that has not lifted."
+      "note": "Two endings for the group: heat that has already cooled, and a departure that has never left."
     },
     {
-      "idea_id": "IDEA-0043",
-      "relation": "follows",
-      "note": "The heaviness of a task some were urged into, and the deeper stall of a decision nobody can make at all."
+      "idea_id": "IDEA-0221",
+      "relation": "alternative to",
+      "note": "Two ways for the group to end: a crossing that will not open, and a reef that cannot be put back."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0044"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries EPD-0027 and the group's handover; the merge gives it the waiting rooms that a deferred decision is actually spent in, and a grounded restlessness strand beside the doubt analogy."
+    "reason": "Carries the group's handover on a landscape where suspended departure is a standing public fact, so the concept can be shown without any real person's hesitation being filmed."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-21 into the footage-led shape. The old subject, a household deciding for months whether one of them should go abroad, is dropped entirely: a real family's unresolved decision cannot be filmed under these rules and the digest forbids calling ordinary indecision a fault. The concept is kept and rehoused in a place where suspended departure is public and collective, a railway line ending on a derelict pier with a broken chain of sandbanks beyond it. The absorbed IDEA-0044 material, counters and queues, is released, since IDEA-0044 now stands on its own place, and the connection is rewritten as a pairing.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The derelict pier and rebuilt terminus at the end of the northern railway line at Talaimannar, with the chain of shoals beyond it",
+    "also_known_as": [
+      {
+        "name": "Adam's Bridge, Rama Setu",
+        "meaning": "the chain of limestone shoals and sandbanks running from this shore towards the Indian coast",
+        "used_by": "English, Tamil and Sinhala usage for the same feature"
+      }
+    ],
+    "region": "The western tip of Mannar Island, Mannar District, Northern Province, at the end of the branch line from Medawachchiya",
+    "coordinates": {
+      "lat": 9.0917,
+      "lng": 79.725
+    },
+    "why_here": "It puts the concept and the film's best image in the same frame. The line was built for a ferry; the piers on both sides were wrecked by a cyclone in the mid-1960s and the service was finally discontinued in 1984; the railway was destroyed in the war and then rebuilt and reopened all the way to a pier station that still has no boat; and a restored sailing has been announced, trialled and dropped more than once since. So the suspension is a standing public fact, not one household's dilemma, and nobody in frame has to represent it. Then the geometry does the work for the camera: straight line, stopped pier, and beyond it a thirty-kilometre chain of shoals lying on the same heading towards a coast that cannot be reached, which from the air is a broken line drawn across clear shallow water. The sparest state on the sources' list, no decision, no drive, no joy, has an exact landscape here.",
+    "what_to_film": [
+      "The high aerial the film exists for: pier, water and the dotted chain of shoals on one heading, in calm clear conditions.",
+      "The straight run of the line across the spit, from high enough that there is nothing else in the frame.",
+      "The rebuilt terminus through an ordinary day: the daily train arriving, standing, reversing out, and the platform between trains.",
+      "The pier itself at close range, rails in the deck, missing planks, iron legs in clear water, and the point where it simply stops.",
+      "Ordinary life along the shore beneath it: boats, nets, children in the shallows, goats, the lighthouse.",
+      "Tide over the bar at the pier legs, filmed twice at the same framing so the change reads.",
+      "Dusk silhouettes of the pier with the lighthouse beam starting, and full dark with only the beam."
+    ],
+    "access": "By road along the spit, or on the branch line itself to the pier station. The shoreline and pier are in a sensitive maritime border zone with a naval presence, and the shoals beyond are within a declared marine national park, so both ground access to the pier structure and any flight over the water are likely to need specific permission from more than one authority. The fishing hamlet's agreement matters for anything filmed among the boats.",
+    "best_time": "The calm season between monsoons, when the strait is flat and clear enough for the shoals to read from the air. Late morning for the water, low sun for the pier. A rough sea removes the film's main image.",
+    "images": [
+      {
+        "caption": "The derelict pier itself, rails still on the deck, standing in shallow water.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Talaimannar pier.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Talaimannar pier.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The chain of shoals off this shore, photographed at sea level from a boat rather than from the pier: the feature the film's main aerial would cover.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam's Bridge - Mannar - Sri Lanka (28606539637).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Adam's Bridge - Mannar - Sri Lanka (28606539637).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A satellite image of the whole shoal chain between the two coasts, included to show the geometry, not as a photograph of the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam's Bridge, India-Sri Lanka (ASTER).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Adam's Bridge, India-Sri Lanka (ASTER).jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The lighthouse on this shore, for the dusk material.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lighthouse, Talaimannar.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Lighthouse, Talaimannar.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Talaimannar",
+      "https://en.wikipedia.org/wiki/Mannar_line",
+      "https://www.lankapradeepa.com/2019/07/talaimannar-pier-and-railway-station.html",
+      "https://www.sundaytimes.lk/130519/plus/adams-bridgestepping-stone-to-untapped-adventure-44918.html"
+    ],
+    "research_note": "That the branch line was built to meet a steamer, that the piers on both sides were wrecked by a cyclone in the mid-1960s (the sources read here differ on the year), that the ferry ended in 1984, that the line was destroyed and later rebuilt and reopened to the pier station, and that a chain of limestone shoals runs from this shore towards the Indian coast across shallow water, are from the sources above and are desk research only. The coordinates are the pier area, not a surveyed standpoint. Whether the daily service still runs to the pier station, the current state of the pier structure, whether any sailing has since been restored, and what naval and marine-park permissions ground filming and flight would need, are all unverified.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No permission, contact or operator has been approached. Everything here is a research direction.",
+    "Flight over a declared marine national park and near a naval zone on a maritime border may simply be refused, and the film's main image depends on it.",
+    "Whether the current condition of the pier is safe to film on or around at close range is unknown.",
+    "Whether a ferry service has been restored since the last reporting read here, which would change what the place is."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

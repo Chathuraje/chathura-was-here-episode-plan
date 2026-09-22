@@ -2,97 +2,191 @@
   "schema_version": 1,
   "id": "IDEA-0088",
   "record_type": "idea",
-  "title": "What's Left When It Runs Out",
+  "title": "Nearly All of It Is Waiting",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What’s Left When It Runs Out"
+  ],
   "group_id": "GRP-05",
-  "logline": "At a roadside free-food stall on a festival day, volunteers watch the queue grow longer than the food will stretch, and in a few seconds, again and again, someone has to decide how to share what is left.",
-  "human_question": "In the small, repeated moment when there is not enough to go round, what actually decides what a person does?",
-  "situation": {
-    "what_happens": "Volunteers run a free food stall on a day when travellers pass in large numbers. Supply is finite and was estimated in advance. At some point the queue visibly outruns what is left, and from then on every single serving is a small decision made in a few seconds, in front of the person receiving it: full portion or smaller, this person or the family behind them, keep going or close. Nobody has time to think it through and everybody keeps going anyway. The same shortage produces visibly different responses from different volunteers standing side by side.",
-    "who_is_involved": "The volunteers, who have nothing to gain and have usually paid for the food themselves; whoever organised and funded the stall; the people in the queue, some of whom have travelled a long way and are hungry, and some of whom are not; and the volunteers' own families, who are often serving alongside them.",
-    "what_is_at_stake": "For those in the queue, a meal on a long day. For the volunteers, the difference between an act of generosity and an hour of rationing strangers, which is not a difference anyone can see from outside. For the stall, whether it ends well or ends badly, in front of everyone.",
-    "how_it_unfolds": "A stall opens in the morning and runs until the food does. The pressures are the number of travellers, the weather, what was budgeted and who turned up to help. It ends with supply lasting, with supply running out, or with the shortage absorbed by some real decision nobody planned, and only the day decides which."
+  "logline": "In a dry-season division of the north-central plain, coloured plastic pots stand in a line along a red road for most of a day, and everything the day is about happens in the four minutes after a tanker stops.",
+  "human_question": "In the short, repeated moment when there is not enough to go round, what part of what happens is actually a response — and how much of the day was never that at all?",
+  "place": {
+    "what_kind_of_place": "Scattered villages on a very flat, very dry stretch of the north-central plain, near the edge of the eastern lowland: scrub, thorn, harvested paddy gone to stubble, laterite roads the colour of brick dust, and the cracked bed of a village reservoir that has nothing in it by the middle of a bad dry season. The houses are strung along the roads rather than gathered. At intervals there is a hard standing, or simply a wide place on the verge, where a tanker stops on its round; beside it, set out early, a line of plastic pots and cans in every colour there is, waiting with nobody standing over them.",
+    "why_it_is_worth_watching": "Because it is a landscape that is almost entirely empty and then, for four minutes, is not. The line of pots is the most photogenic thing in the district and it is made of absence: forty containers, all colours, all sizes, standing in a row beside an empty road in heat haze, with nobody in the frame. Then the sound of a vehicle arrives before the vehicle does, everything happens at once, and then the road is empty again and stays empty for a day and a half. It is also a place where scale is honest — the plain is huge, the supply is a few thousand litres, and both facts are visible in one aerial frame.",
+    "what_moves_or_changes": "The season, which decides everything and belongs to nobody: some years the round does not run at all, and some years it runs for months. The round itself, which reaches different places on different days, so a village is either a day the tanker comes or a day it does not. The tank bed, which goes from water to mud to cracked clay over weeks. The heat, which moves people and animals into shade at the same hours. And the line of pots, which lengthens through a morning without anyone appearing to add to it.",
+    "when_it_looks_best": "Deep in a failed dry season, which is the only time any of this exists. Within a day, the early morning while the line is forming and the light is still low across the stubble, and the middle of the day for the heat haze and the emptiness on either side of the four minutes."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about heat, distance and waiting. A flat brick-red country with almost nothing standing up in it, a line of coloured pots beside an empty road, a dry reservoir bed, shade, animals, a very large sky, and then a short burst of noise and movement that is over almost before it registers. It has a complete shape with no words on it: the empty road, the line forming, the wait, the arrival, the rush, and the empty road again.",
+    "with_the_philosophy": "The same road becomes the sources’ own proportions. The texts name fourteen jobs a moment of mind can do and insist each moment does exactly one of them, in a fixed order [C034-P:L27–L29]; they put every response, and all the weight it carries, in one short burst near the end [C034-M:L41]; and they say that between these bursts a quiet current keeps running and is never noticed [C034-P:L73]. That is the shape of this day at a scale a camera can hold. Almost nothing is happening almost all of the time, the arrival is short, and the part that matters is over quickly. The voice never says the tanker is a mind or reads anyone’s decision off their face."
+  },
+  "sequence": [
+    {
+      "on_screen": "Very high, mid-morning. A flat brick-red plain, scrub and stubble, one straight road across it. Nothing is moving anywhere in the frame. Held far too long.",
+      "voice": "This is most of it. The texts say that between one episode and the next a quiet current keeps going, always present and never noticed [C034-P:L73]. Nearly everything is that. It is the part nobody films.",
+      "concept_id": "C034"
+    },
+    {
+      "on_screen": "Ground level: the line of pots. Forty containers, every colour, every size, in a row on a verge. Nobody in frame. Heat haze. A dog crosses.",
+      "voice": "These have been here since early. The supply that will meet them is decided somewhere else and is not large. Nothing in this shot is deciding anything.",
+      "concept_id": "C029"
+    },
+    {
+      "on_screen": "Details along the line, unhurried: a cracked lid, a rope handle, a number painted on a side, a can with a stone on top of it. Then the dry reservoir bed, cracked into plates.",
+      "voice": "The old analysis is strict about order. Turning toward, the bare sensing, receiving, examining, settling what the thing is, and only then the burst where anything is actually done [C041-P:L29–L48; C041-M:L5–L11]. Every step does one job. None of them does two.",
+      "concept_id": "C041"
+    },
+    {
+      "on_screen": "The sound of a heavy vehicle arriving before the vehicle is visible. Dust on the road. People appearing from everywhere at once, from houses that looked empty.",
+      "voice": "And the early steps want nothing. The sources say these bare moments carry none of the occasional factors at all — no effort, no resolve, no wish to act — because they are too weak to hold them [C025-P:L59]; the seven that run under every mind are all they have [C025-P:L47].",
+      "concept_id": "C025"
+    },
+    {
+      "on_screen": "The four minutes, in one unbroken wide shot from a distance: the tanker stopped, the line collapsing into a crowd, hoses, pots filling, pots carried away, all of it at once.",
+      "voice": "Everything is in here. The texts put the doing of an action, and all of its weight, in the short run of moments after the thing has been settled [C034-M:L41]. Not in the waiting. Not in the seeing. Here, in the part that is over quickly.",
+      "concept_id": "C034"
+    },
+    {
+      "on_screen": "The end of it: the last containers, the hose lifted, water on the ground drying visibly, the tanker pulling out. Some pots going away full; some going away as they came.",
+      "voice": "The sources describe five different groupings of these early moments, and the differences between them are tiny — a factor added here, one there [C029-P:L31–L55]. None of them contains a wish to act at all [C029-P:L29]. Whatever separates one person at this road from another belongs to a later stage than anything a camera caught.",
+      "concept_id": "C029"
+    },
+    {
+      "on_screen": "The road empty again, in late light. Wet patches gone. A single pot left behind on the verge. Then the plain from high above, as at the start, with nothing moving.",
+      "voice": "The books say countless of these pass in the time it takes to snap a finger [C034-P:L37], so nobody could watch one, and this film is not asking anyone to try. It is only proposing a proportion: a very long wait, a short arrival, and a few minutes that carry the whole day.",
+      "concept_id": "C034"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C034 contributes the placing: of fourteen named jobs a mind-moment can do, exactly one carries the doing of action and of merit or its absence, the few running moments that follow once the object has been determined. C029 contributes what is underneath it, and it is the clearest statement in the whole group: bare seeing carries only the seven universals, receiving and investigating add landing on the object, staying with it and settling, determining adds effort for the first time, and not one of those steps contains any wish to act, so the wanting only arrives once the machinery has finished. C025 contributes the neutral workforce that then shows up, effort, decisiveness and the wish to act, which the sources say are not virtues and appear equally in harmful minds. C041 contributes the burst's shape, fast, complete, and over. A stall running short is where all of this stops being a table and becomes a person handing a plate to somebody.",
-    "what_it_reveals": "Together they locate something the group has been circling for eleven films: everything before the response is the same in everyone and carries no wish at all, so the differences between two volunteers standing shoulder to shoulder belong entirely to a stage that lasts a few beats. That is the group's whole argument delivered on a plate, and it is also its limit, because the sources never call that stage a choice and describe no chooser behind it. The film says both."
+    "why_together": "C034 supplies the proportion the film is built on. Every mind-moment does exactly one job, the sources name fourteen of them and fix their order [C034-P:L27–L29]; the doing of an action and its merit or its absence sits in the short run of impulsion moments after the object has been determined [C034-M:L41]; and between episodes a quiet background current keeps running and is never noticed [C034-P:L73]. C029 supplies what is underneath that, and it is the sharpest thing in the group: the rootless minds contain only ethically variable factors and never a desire to act at all [C029-P:L29], and read as a sequence the five groupings show the machinery getting only very slightly richer at each step — the bare sensing with its seven, receiving and examining adding landing, staying and settling, the determining moment adding effort for the first time [C029-P:L31–L55; C029-M:L5–L9]. C025 supplies the reason for the emptiness and the warning that goes with it: the ten sense-consciousnesses are too weak to carry any of the six occasional factors [C025-P:L59], while the seven universals run under every mind without exception [C025-P:L47], and effort, decision and drive are not virtues — they appear equally in harmful minds. C041 supplies the burst’s shape, fast, complete and over, and the sources’ refusal to call it a choice [C041-P:L29–L48; C041-P:L46]. A road where a finite supply meets an arriving demand, after most of a day of nothing, is all four running at once at a scale that can be flown.",
+    "what_it_reveals": "That almost all of any day is the background, that the part which carries weight is short, and that everything leading up to it is the same in everyone. C034 alone is a table of jobs. C029 alone is a table of factors. C025 alone is a map of where six neutral qualities turn up. C041 alone is an order of events. Together on this road they give the group its plainest proportion and its own limit in the same breath: the sources place the weight in the burst, and they describe no chooser standing behind it. The film says both, and does not decide between them."
   },
   "concept_links": [
     {
       "concept_id": "C034",
       "role": "primary",
-      "why": "The digest names the fourteen functions a mind-moment can perform and places the doing of action, and of merit and demerit, in impulsion, the few running moments after the object has been determined [C034-P:L173; C034-M:L41]. It also says a mind performs only one job at a time, so a single act of serving is a relay and not a decision made by a watcher. Three of the digest's limits are written into this film. It is not a mindfulness technique of watching each step, since the source says countless moments pass in a finger-snap and the background moments are never felt. The slogan about the gap between stimulus and response being where freedom lies borrows this shape and adds a claim the source does not make. And the source's link between weak rebirth-producing action and being born blind or deaf [C034-P:L47] must never be carried into any judgement about anyone, in the queue or behind the pot. The series' reading of impulsion as the moment a person chooses is stated as the series' own framing."
+      "why": "The digest names the fourteen jobs and the rule that each mind-moment does exactly one of them in a fixed order [C034-P:L27–L29], places the doing of action and of merit or demerit in impulsion, the running moments after the object has been determined [C034-M:L41], and gives the quiet background current that is always present and never noticed [C034-P:L73]. That is the film’s whole shape: a very long nothing, a short arrival, a burst that carries the day. The digest’s limits are written in. This is not a mindfulness technique of watching each step, because the source says countless moments pass in a finger-snap [C034-P:L37] and the background moments are never felt, so the viewer is never invited to observe their own. The background current is not the subconscious and is not narrated as a hidden self. Rebirth-linking is meant literally in the source and is not borrowed as a metaphor for a fresh start. The slogan about freedom living in the gap between stimulus and response is not used, since the digest says the source describes no conscious pause for weighing options. And the Pradeepika’s link between weak rebirth-producing action and being born blind or deaf [C034-P:L47] is kept out of the film entirely, in a setting where hardship is on screen and that line could do real harm. The series’ own reading of impulsion as the place a person responds is stated as the series’ framing, not as the text’s."
     },
     {
       "concept_id": "C029",
       "role": "supporting",
-      "why": "The digest reads the rootless table as a sequence and draws the conclusion this film is built on: everything before the settling moment runs without wanting, without greed or kindness, without anything that could be called good or bad, and the rootless stage is not where a person is judged, it is what happens to everyone in the same way before they get a say [C029-P:L29-L55]. Its guards are carried: 'no wish-to-act in the early stages' is not 'we have no free will' or 'we are just machines', since the source places wanting and moral quality in the later stage rather than nowhere; and the factor counts are a student's analytical aid and not measurements of brain activity."
+      "why": "The digest reads the rootless table as a sequence and draws the conclusion this film is built on: the eighteen rootless minds carry only ethically variable factors and never a desire to act [C029-P:L29], and across the five groupings the machinery gains only a little at each step, with effort appearing for the first time at the determining moment [C029-P:L31–L55; C029-P:L67–L73; C029-M:L5–L9]. So everything before the response runs without wanting, without greed or kindness, and without anything that could be called good or bad — it is what happens to everyone in the same way before they get a say. Its guards are carried exactly. ‘No wish to act in the early stages’ is not ‘we have no free will’ and not ‘we are just machines’, because the source puts wanting and moral quality in the later stage rather than nowhere, and the voice says so. ‘Rootless minds are weak’ is a technical statement about how few factors they carry and is never allowed to describe any person at this road as weak or passive. The factor counts are a student’s analytical aid and never appear on screen as measurements. And the fully freed person’s smile-producing mind is not used at all, since the digest restricts it to the liberated and no one on camera may be framed as having it. This link replaces a citation carried by the previous version of this idea that does not resolve against the digest."
     },
     {
       "concept_id": "C025",
       "role": "supporting",
-      "why": "The digest says the six occasional factors, getting the mind onto something, staying with it, making up one's mind, effort, joy and wanting to act, are not good or bad in themselves and turn up in greedy, generous and meditative minds alike, so the real question is what they are working for [C025-P:L85-L87]. Volunteers strained and renewed through a long day are that claim in use. The digest's warning is the point of including it: a film must not present drive or enthusiasm as good in itself on the strength of this concept, so nothing here may read as praise of energy."
+      "why": "The digest’s usable point here is an absence. The ten sense-consciousnesses are too weak to carry any of the six occasional factors, so at the moment of bare sensing there is no effort, no decision and no wish to act at all [C025-P:L59], while the seven universals run under every mind without exception [C025-P:L47; C025-M:L5]. That is what lets the film hold a very long empty morning without the voice smuggling intention into it. The digest’s warnings do real work in a setting like this one. Energy, drive and decisiveness are not virtues in this framework and appear equally in harmful minds, so nothing at this road — neither the crew of the vehicle nor anyone in the line — is praised for effort. The absence of desire-to-act in rootless minds does not mean desire is bad, and the film never says so. And the memorisation numbers are a student’s aid and stay off the screen."
     },
     {
       "concept_id": "C041",
       "role": "supporting",
-      "why": "The digest says only one stage of the whole sequence, the seven-beat impulsion, carries any quality, generous or grasping, kind or hostile, or merely functional, while everything before it receives and sorts [C041-P:L46], and it states in as many words that the text does not use the word choice. That is the shape of an almost-instant judgement as each new person reaches the front. The digest's rejection of the stimulus-and-response slogan is carried here as well."
+      "why": "The digest gives the fixed order the whole film leans on — past life-continuum, wavering, arrest, adverting, the bare sense-consciousness, receiving, investigating, determining, seven beats of impulsion, two of registration [C041-P:L29–L48; C041-M:L5–L11] — and, more useful here, the shape of the burst: a gathering, a rush, and a trailing-off that cannot stop dead. Its warnings are honoured. The seventeen moments are not a neuroscience timing and no figure in milliseconds is offered. Receiving, investigating and determining are never played as slow deliberate steps, so nothing in the film suggests that anyone at the road was working through them. The self-help line about the pause between stimulus and response is not used; the digest notes the text says only that impulsion is wholesome, unwholesome or functional [C041-P:L46] and never uses the word choice. And the digest’s correction is kept in view: what the sources deny is a separate seer standing behind the seeing, not that anything is really seen."
     }
   ],
-  "what_the_viewer_could_understand": "Everything before a response, the seeing, the taking in and the sorting, runs the same way in everyone and carries no wish to act at all. The moment of response is where generosity, or its absence, takes shape, and this series reads that moment as a choice, which is the series' own reading and not the texts' word.",
-  "what_must_be_real": "The event, the shortage and every decision must be real and unstaged, and no scarcity may be created, worsened or waited for. Volunteers' accounts of what they were thinking come in their own words and never from the film. Filming may never slow or alter real service to real people, and no individual volunteer's response may be edited into a verdict on their character.",
-  "position_hint": "closing candidate: a small, real, repeated moment of generosity under pressure gives the group's abstract gap a human and communal form, and it hands directly to the next group's concern with what people do for one another. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That the part of an event which carries weight is much shorter than the event, that everything leading up to it is the same for everybody present, and that almost all of a day is the quiet stretch on either side. The sources place the weight in the short burst; they do not describe anyone standing behind it doing the weighing, and this film does not add one.",
+  "what_must_be_real": "The season, the round and the shortage are the real ones, and nothing is scheduled around a camera. No vehicle is asked to arrive, stop or wait for a shot, no container is placed or arranged, and nobody is asked to queue again. Everyone whose household is filmed agrees first, and a crew leaves before it slows anything down: the four minutes belong to the people using them. Hardship is not photographed as a composition — the emptiness and the heat carry the film, and a line of pots is filmed because it is a line of pots, not because it is poignant. No person on screen is presented as the one who sees, decides or judges; that is precisely what this group’s concepts deny, and no camera can show a mind-moment. Nothing about anyone’s circumstances is framed, in voice or image, as deserved.",
+  "position_hint": "closing: it is the group’s last and plainest statement of proportion, and it also states the group’s limit — that the sources put the weight in the response and describe nobody behind it. It should come after the films that take the early stages apart.",
   "risks": [
-    "Filming that encourages or engineers an actual shortage for dramatic purposes.",
-    "Framing an individual volunteer's response as a moral verdict on their character.",
-    "Presenting the sources' account of impulsion as though it used the word choice or described a self standing behind the response, which it does not.",
-    "Presenting energy and willingness as virtues on the strength of C025, which its digest rules out.",
-    "Filming people at the moment of being turned away, when refusing consent is hardest."
+    "Photographing hardship as beauty. The line of pots is the best image in the film and the reason it is there must never be that the shortage looks good from the air.",
+    "Framing anyone’s circumstances as the result of what they did before. The digests warn against this directly, and the sources’ treatment of pleasant and unpleasant result must not become anyone deserving a dry season.",
+    "Carrying the Pradeepika’s link between weak rebirth-producing action and being born blind or deaf [C034-P:L47] into this film in any form, which would be worse here than almost anywhere else on the slate.",
+    "Letting ‘no wish to act in the early stages’ be heard as ‘we have no free will’ or ‘we are just machines’, which the C029 digest rules out: the source places wanting and moral weight in the later stage, not nowhere.",
+    "Using the language of choice for the burst, when the digest says neither extract uses it and the text says only wholesome, unwholesome or functional [C041-P:L46].",
+    "Using the slogan about freedom living in the gap between stimulus and response, which borrows the shape of the sources and adds a claim they do not make.",
+    "Offering the sequence as something a viewer could slow down and watch in themselves, when the source says countless moments pass in a finger-snap [C034-P:L37].",
+    "Narrating the background current as a subconscious or a hidden true self, or borrowing rebirth-linking as a metaphor for a fresh start.",
+    "Praising anyone’s effort or decisiveness as a virtue, which the C025 digest says this framework does not support.",
+    "Putting any factor count or memorisation number on screen as though it were a measurement.",
+    "Presenting anybody at the road as the one who sees or decides, or reading a decision off a face.",
+    "Becoming an argument about water policy, about who runs the round and how well. That is a real argument and a legitimate film, and it is not this one; but the film must also not use its own silence to imply that everything here is fine.",
+    "Filming in a way that slows the distribution or takes anyone’s place in it."
   ],
   "drop_if": [
-    "No stall with a genuine, unengineered risk of running short is found.",
-    "Organisers or volunteers do not want the moment of shortage filmed.",
-    "The event cannot be filmed without slowing or altering real service.",
-    "People in the queue cannot be filmed with meaningful consent."
+    "The season is normal, so no round runs and there is nothing to film.",
+    "Households and the people running the round do not want a camera present, which is entirely reasonable.",
+    "It can only be made by asking a vehicle to arrive at a convenient hour, or by arranging the line.",
+    "Filming cannot be done without slowing the distribution or displacing anyone waiting."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0082",
-      "relation": "leads into",
-      "note": "The instant, unowned reactions of a driver lead into this closer, slower and more consequential test of the same gap."
-    },
-    {
-      "idea_id": "IDEA-0080",
-      "relation": "leads into",
-      "note": "A fast public decision made under doubt leads into a harder decision made under real scarcity, with the stake on somebody else."
-    },
-    {
-      "idea_id": "IDEA-0083",
+      "idea_id": "IDEA-0084",
       "relation": "pairs with",
-      "note": "Two repeated fast judgements with nothing to revisit, one that costs a player an innings and one that costs a stranger a meal."
+      "note": "Two films about the long quiet stretch rather than the event: one about the part after a sound, one about the part before an arrival."
+    },
+    {
+      "idea_id": "IDEA-0081",
+      "relation": "closes",
+      "note": "The group opens on a turning that precedes everything and closes on the short burst that carries all of the weight."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0047; it carries the group's closing claim, and the C029 digest's own reading of the rootless table is the ground it stands on."
+    "reason": "It gives the group its proportion — a very long nothing, a short burst — in a single landscape, and states the sources’ limit rather than papering over it."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. The roadside free-food stall is dropped entirely, because the slate already carries a free-food-giving film and because building the piece around volunteers deciding how to share made identifiable people’s decisions the subject, which this group’s concepts deny. The concept is kept exactly — a finite supply meeting an arriving demand — and moved to a dry-season drinking-water round, where the waiting is most of the film, the burst is genuinely short, and the frame can be carried by objects rather than by faces. The C029 citation carried by the previous version spanned a range that does not resolve against that digest's evidence; it has been replaced with C029-P:L31–L55 and C029-P:L29, both of which do. Concepts re-read from the digests and every citation re-verified.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The dry-season drinking-water round in the villages of the Welikanda division, on the eastern edge of the north-central plain",
+    "also_known_as": [
+      {
+        "name": "bowser",
+        "meaning": "the road tanker used to distribute drinking water to villages when wells and reservoirs fail",
+        "used_by": "Sri Lankan usage, in English, Sinhala and Tamil alike"
+      }
+    ],
+    "region": "Polonnaruwa district, North Central Province: the flat, hot south-eastern corner of the district where the plain runs out towards the eastern lowland",
+    "coordinates": {
+      "lat": 7.9472,
+      "lng": 81.2476
+    },
+    "why_here": "It is a real and recurring shortage in a landscape with nothing in it to distract from the shape of the day. In bad dry seasons tens of thousands of people across this division depend on tankered drinking water, stored in pots and made to last until the next round, which may be a day or two away. That gives the film exactly the proportion the concepts need: a very long wait, a supply that was fixed before it arrived, a demand that arrives on its own, and a burst of a few minutes in which everything happens. It also gives the strongest image without anyone performing anything — a line of coloured containers standing alone on a red road in heat haze, with an enormous empty plain around it — and it is visibly unlike the giving, gathering and trading places elsewhere on the slate.",
+    "what_to_film": [
+      "The plain from very high with nothing moving in it, held far past the point of comfort, twice: once at the start and once at the end.",
+      "The line of containers alone on the verge, with no person in frame, in low morning light and again in midday haze.",
+      "Details along the line, unhurried: lids, rope handles, painted numbers, a stone holding a lid down.",
+      "The dry reservoir bed cracked into plates, and the stubble country around it.",
+      "The arrival, from a distance and unbroken: the sound before the vehicle, the dust, the line becoming a crowd.",
+      "The four minutes in one wide shot, from far enough away that the film is not standing in anybody’s way.",
+      "The end: the hose lifted, spilt water drying on hot ground, containers leaving full and containers leaving as they came.",
+      "The road empty again in late light, with one container left on the verge."
+    ],
+    "access": "By road across the plain from the district town; the villages are strung along the roads and the stopping places are on public verges. Nothing here can be arranged: the round exists only when the season is bad, it reaches different places on different days, and its schedule belongs to the authority running it. Filming needs the agreement of that authority and, separately and more importantly, of the households whose containers and whose morning are in the frame. Drone flight over inhabited villages needs permission and local agreement.",
+    "best_time": "Deep in a failed dry season, which is the only time the subject exists at all. Within a day, early morning while the line is forming, and the middle of the day for the haze and the emptiness on either side of the arrival.",
+    "images": [
+      {
+        "caption": "Dry-zone landscape of the north-central interior, for the scrub, the flatness and the light. This is the region’s landform, not the location, and the source’s own description of it is inconsistent — see the research note.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Polonnaruwa Landscape.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Polonnaruwa Landscape.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://archive.roar.media/english/life/reports/drought-stricken-welikanda-water-luxury",
+      "https://www.newsfirst.lk/2016/10/02/polonnaruwa-batticaloa-trincomalee-residents-among-waiting-water-bowsers/",
+      "https://slguardian.org/sri-lankas-drought-turns-water-into-a-daily-struggle/"
+    ],
+    "research_note": "That this division has repeatedly been among the worst affected by drought in the district, that tens of thousands of people across roughly eight and a half thousand families there have been hit in bad years, that drinking water is distributed by road tanker, and that households store it in pots and make it last until the next round — sometimes two days — are from the sources above and are desk research only. The reports read are from earlier drought years; whether a round is running in any given season has not been checked and cannot be assumed. The coordinates are an open mapping database point for the division’s main settlement, not for any stopping place; no village, verge or household has been identified. No approach has been made to the authority that runs the distribution or to anyone living there. Only one image is offered, and it is not of this location: it is dry-zone landscape filed under the district name, and its uploader’s description names a site that in fact lies in a neighbouring district, so it is used here only as a picture of the region’s landform and the caption says so. No confirmed image of a water round was found, and none has been invented.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether a tanker round is running in any given season is entirely weather-dependent and unverified; in a normal year this film does not exist.",
+    "No village, stopping place or household has been identified, and nobody has been approached.",
+    "Whether containers are in practice left unattended in a line, which is the film’s central image, is an assumption from the reports read and has not been confirmed on the ground.",
+    "Whether filming can be done at all without slowing a distribution that people are depending on is the question that decides the film, and it has not been answered.",
+    "Drone flight over inhabited villages during a shortage may be both unpermitted and unwelcome, and it carries two of the planned shots."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

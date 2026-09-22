@@ -2,79 +2,196 @@
   "schema_version": 1,
   "id": "IDEA-0025",
   "record_type": "idea",
-  "title": "The Last Ticket",
+  "title": "All the Same From Above",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Last Ticket"
+  ],
   "group_id": "GRP-02",
-  "logline": "In a long queue for tickets, a traveller near the front watches the board change just before his turn, and the seat he wanted is gone.",
-  "human_question": "What does the last, ordinary minute of not getting what you wanted actually feel like?",
-  "situation": {
-    "what_happens": "A queue forms for a limited number of seats on a journey many people want to make on the same day. The wait develops its own small society: complaints, phone calls, people holding places for others. Somewhere in the middle of it the supply runs out, and the news travels backwards along the line. Those near the front who miss it by a few places take it hardest, and then have to decide what to do with the rest of the day.",
-    "who_is_involved": "Travellers whose reasons for the journey have nothing in common: a holiday, a funeral, a job, an obligation that cannot be moved; the staff who spend the day saying no; people queuing on someone else's behalf.",
-    "what_is_at_stake": "For each traveller, something different and mostly invisible to everyone else, from a day out to being present for something that will not wait. For the staff, delivering a refusal they did not cause. This is exactly why the film cannot treat the queue as one appetite with one face.",
-    "how_it_unfolds": "Queues like this build, peak and dissolve within a few hours, and the refusal arrives as an ordinary administrative fact rather than as a confrontation. What follows varies: waiting for the next one, paying more elsewhere, arguing, giving up, going home. Nothing about the refusal can be arranged, and it must never be provoked or announced in advance."
+  "logline": "One day a week a bare rectangle of ground between terraced vegetable hills grows several hundred stalls under identical tarpaulin roofs, sells a whole district its week in about eleven hours, and is bare again by dark; and from directly above, not one of the thousands of exchanges under those roofs can be told from any other.",
+  "human_question": "If two people can do exactly the same thing for entirely different reasons, how much of what I think I can read in a crowd am I actually reading?",
+  "place": {
+    "what_kind_of_place": "A rectangle of bare public ground on the edge of a highland market town at about a thousand metres, hemmed in by hillsides cut into vegetable terraces that climb almost to the ridge line. Six days a week it is nothing much: a place to park, a short cut, somewhere to play cricket. On the seventh it carries several hundred stalls in rough aisles, each one a frame of sawn poles and lashed bamboo with a sheet of tarpaulin stretched over it, and almost every sheet the same blue. Under them, between about five in the morning and dark, a whole district buys its week: vegetables lifted off the terraces the day before, dried fish, clay pots, plastic buckets, school shoes, cloth by the metre, sweets, betel, cheap scent, hardware, medicine, toys, and food cooked at the edge of the aisle and eaten standing up. Nothing about the ground is permanent except the ground.",
+    "why_it_is_worth_watching": "Three things carry the film with the sound off. The build, from about four in the morning: headlights on wet ground, poles going up in the dark, and roof after roof opening out until a field that was empty has a town on it. The view straight down at the middle of the day: several hundred near-identical blue rectangles in rough aisles, filling the frame, with dark moving gaps between them where the crowd is, and terraces and burning-off mist above. And the strike at dusk, when the sheets come off, the poles are bundled, the lorries load, and within an hour there is bare ground again with rope ends, trodden cabbage leaves, a man sweeping and two dogs.",
+    "what_moves_or_changes": "Every change is the crowd's or the weather's and none of it is under the crew's control. The ground fills from dark to about ten and thins through the afternoon. Prices come down twice over in the last two hours because nobody wants to carry stock back up the hill. Light crosses the aisles and then goes flat under cloud; rain comes over the ridge on its own schedule and empties the aisles in ninety seconds. The same gesture happens tens of thousands of times: a hand out, a note passed, a bag taken.",
+    "when_it_looks_best": "Fair day only, from before four in the morning until after dark. First light for mist in the valley and the last headlights; the middle of the day for the overhead grid, when the roofs are lit flat and hold their colour; late afternoon for the falling prices and the emptying aisles. The drier months on this slope, when the ground is not mud and the sheets are not sagging with water."
   },
+  "two_layers": {
+    "without_the_philosophy": "A day in the life of a market town: a thing built out of nothing before dawn, used hard by tens of thousands of people, and taken down again before dark. It resolves entirely on its own terms, bare ground to bare ground, headlights to headlights, and somebody who never hears a word of the narration gets a complete piece with a build, a peak and a clearance, in a landscape most viewers will never have seen.",
+    "with_the_philosophy": "The same footage becomes a demonstration rather than a verdict. The voice never names a person and never sorts anybody. It points at what is already visible, the identical roofs, the identical gesture of a note passed and a bag taken, and then says what the old books say: that the difference they care about is not in any of that, and cannot be got at from where the camera is standing. The film ends without having placed a single person in it, because the sources' own method does not allow it to."
+  },
+  "sequence": [
+    {
+      "on_screen": "Three in the morning. The drone comes in low over a bare rectangle of ground at the edge of a sleeping town. Two lorries at one corner with their lights on, four men unloading sawn poles, breath showing in the cold.",
+      "voice": "Six days a week this is a bare piece of ground. Tomorrow it will be bare again. For about eleven hours in between it becomes the largest thing for twenty miles in any direction, and every single item on it is here because somebody, somewhere, wants something.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "The build. Frames going up in headlights; tarpaulin unrolled and thrown over and pulled tight; a hundred roofs opening in the dark one after another. Then the first grey light, and the terraces showing on the hills above.",
+      "voice": "One of the old compendiums sets out the ordinary occasions on which wanting arises. It is not a list of crimes. It is a list of a normal week: a good meal, a length of cloth, scent, music, a child's toy, money earned and money kept, a day out somewhere. And then it says plainly that for most people, most minds from waking to sleeping run this way.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "The middle of the day, straight down from a height. Several hundred identical blue rectangles in rough aisles filling the whole ground, with dark gaps between them where the crowd moves.",
+      "voice": "From up here every roof is the same. The book says the sorting it cares about is not done by the act either. The same pot of rice, the same shirt, the same wage can come from quite different places. Cooked to quiet hunger, or cooked for the taste of it. And it goes further: what is done out of need, or out of plain practical sense, it does not count against anybody at all.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "Ground level at a cloth stall. A shirt held up against a shoulder; a hand-sized mirror propped on a crate; three different people, one after another, doing exactly the same thing with it.",
+      "voice": "It works the example right through. Dressing to be looked at is one thing. Dressing because the cold gets in is another. Then it allows a third case you might not expect: good clothes, worn so as not to be looked down on, and it does not count that against anyone either. Three people at this mirror. Nothing on the outside of them tells you which.",
+      "concept_id": "C005"
+    },
+    {
+      "on_screen": "A vendor cutting a slice of something and holding it out over the aisle. The crowd goes past. A woman walks by the stall, gets four or five paces on, stops, stands still for a moment, and comes back.",
+      "voice": "The companion book takes the same wanting and fits three dials to it. One of them is a push. Some wanting rises on its own, sharply, needing nothing. Some of it needs urging, and the urging can be somebody else's or it can be your own. The book says it in as many words: a person taking their own hanging-back mind and talking it forward.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Two faces in the same aisle, a metre apart. A child lit up in front of a rack of plastic toys. An old man buying the same three things he buys every week, without expression, counting coins into a hand.",
+      "voice": "The second dial is warmth. Wanting can arrive glowing, or it can arrive completely flat. And here the book says the thing nobody expects: of those two, it ranks the flat one as the stronger. Whatever you were about to conclude from these two faces, it is not that.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Mid-afternoon. Heat coming off the sheets. A vendor asleep across a sack; another calling the same price down twice in ten minutes; rain visible coming over the ridge, and the aisles emptying ahead of it.",
+      "voice": "The book gives the pushed kind of wanting a heaviness that the sharp kind does not carry. And when it lists what makes the sharp kind likelier, it does not talk about character at all. It talks about health, patience, practice, the weather, a decent meal and the company you happen to be in. Conditions, not verdicts.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Last light into dark. Sheets pulled off, poles bundled, a lorry reversing, the grid coming apart roof by roof. Then the drone straight down again on bare ground: rope ends, trodden leaves, two dogs, a man sweeping by torchlight.",
+      "voice": "Nothing here has been settled, and nothing was meant to be. The book does not tell one person on this ground to stop. Not the trip, not the sweets, not the good coat, not the toy. It only says that this, most of the time, is what a day is made of, and that the part it is actually interested in was never on the outside of anybody.",
+      "concept_id": "C005"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C005 contributes both halves of the source's own distinction: ordinary spending and pleasure trips are listed among the everyday occasions of greed-rooted minds, and the same act done out of need or practical wisdom is explicitly not counted as unwholesome. In one queue, both are standing in line and cannot be told apart. C006 contributes the fact that the queue is also made of two kinds of wanting, one that rose on its own and one that somebody else pressed on the person, and the refusal falls on both in exactly the same way.",
-    "what_it_reveals": "That the group's subject has been running quietly under something as unremarkable as waiting for a seat, and that the wall it meets is not dramatic at all: a board changes. It also shows why the sources' distinction by aim is not a way of sorting a crowd. Nobody in the line can be placed from outside, and the film must not try."
+    "why_together": "Read fresh, the two digests are two halves of one machine. C005 supplies the occasions and the rule. Its list is not a charge sheet: drink and games and music, perfume and fine clothes, tasty food, earning and guarding money, courtship, raising children and arranging their marriages, and trips away, with the flat statement that for an ordinary person living apart from the teaching most minds from waking to sleeping run this way [C005-M:L5] [C005-M:L7]. Then it draws its line, and it draws it by aim and not by act: the same cooking, dressing, earning or feeding is not counted as unwholesome when it is done from need, kindness or practical wisdom [C005-M:L9], and it extends that as far as good clothes worn so as not to be despised [C005-M:L15–L19]. The Pradeepika extract for the same concept carries no life situations at all; it is the bare formal list of the eight greed-rooted minds, and what it shows is the three conditions that tell them apart [C005-P:L12] [C005-P:L27–L42]. C006 is where those three conditions turn into something a camera can stand in front of: feeling, glowing or flat [C006-P:L25] [C006-P:L74]; a justifying story, present or absent [C006-P:L33]; and a push, which both sources define as including a person's own coaxing of their own hesitating mind [C006-M:L5] [C006-P:L44]. A weekly fair is where the rule and the dials are both running at full volume, in public, on their own, with nothing arranged by anybody.",
+    "what_it_reveals": "That the sorting these sources perform is simply not available to an observer, and that this is a fact about the method rather than a failure of the film. C005 on its own would tempt a film into a moral audit of shoppers. C006 on its own would make a film about persuasion and sales technique. Together they produce a piece that spends its whole length in front of wanting and never once places anybody. The roofs are identical, the gesture of paying is identical, and the two counterintuitive rankings the sources give, flat wanting stronger than glad wanting and wanting with a justification stronger than wanting without one [C006-M:L19], knock out the last route by which a viewer might try to read a crowd off its faces. The third dial, the justifying story, is the one the film deliberately keeps off the screen, because the only way to film it would be to put words in somebody's mouth."
   },
   "concept_links": [
     {
       "concept_id": "C005",
       "role": "primary",
-      "why": "Spending on what we like and going on pleasure trips are among the source's everyday occasions for greed-rooted minds [C005-M:L5] [C005-M:L7], and the same source is equally explicit that an act done out of need or practical wisdom is not counted as unwholesome [C005-M:L9]. A queue holds both, which is the point; the digest also notes that the source does not say what kind of mind those excluded cases are instead, so the film must not fill that gap."
+      "why": "The Margaya's occasions are this ground's entire stock list: drink, gambling, music, dance, perfume, fine clothes, tasty food, sport, earning and guarding wealth, courtship, children and their weddings, and pleasure trips [C005-M:L5], with the statement that for an ordinary person most minds from waking to sleeping are of this kind [C005-M:L7]. What makes that filmable rather than accusatory is the rule attached to it: the same act done from need, kindness or practical wisdom is explicitly not counted as unwholesome [C005-M:L9], and the source goes as far as allowing valuable clothes worn to escape contempt [C005-M:L15–L19]. Since the outward act is identical in both cases, the concept can only be demonstrated by a place where the same act is performed thousands of times by people with nothing in common, which is exactly what a weekly fair is. The digest's limits are load-bearing and are built into the beats rather than left to the risks. The source says nothing against family life and a film must never frame devoted parents as greedy, which matters on a ground where much of the buying is done for children. This is not minimalism and not a case for self-denial, since the source allows wealth earned and spent wisely. Music, dance and games are in the list because of the enjoying mind and not because the arts are condemned, which matters where a loudspeaker is playing over every aisle. And the digest notes that the source never says what kind of mind the excluded cases are instead [C005-M:L9], so the film leaves that hole open instead of filling it."
     },
     {
       "concept_id": "C006",
       "role": "supporting",
-      "why": "Some travellers queue unprompted, out of habit and expectation, while others are pushed to try by a friend or by a family's need; the sources count both as wanting and treat prompting as including one's own coaxing of a hesitating mind [C006-M:L5] [C006-P:L44]. The refusal makes no distinction between them."
+      "why": "C006 is what gives C005's rule moving parts. The sources set wanting by three dials: feeling, which can be glad or entirely flat [C006-P:L25] [C006-P:L74]; a view, meaning a story that denies consequences or excuses the act [C006-P:L33]; and prompting, which both sources define as including a person's own coaxing of a hesitating mind [C006-M:L5] [C006-P:L44]. The Pradeepika's conditions for the sharper, unprompted kind are ordinary and largely external, health, patience, habit, weather, food and company among them [C006-P:L29–L31], and sluggishness belongs only to the prompted side [C006-P:L62]. That is what lets the film show an afternoon slump without implying anything about anyone's character. The digest's guards shape what the voice may say. Prompting excuses nothing, so the film offers the woman who turns back no alibi. Calm is not a sign of goodness here, because the Margaya ranks the flat kind stronger [C006-M:L19]; the digest records that this ranking has no commentarial basis in the extract and needs an expert check, so the voice states it as the book's claim and not as a finding. The conditions describe tendencies and must not be turned into fate or into genetics. And the digest is explicit that wrong view must never be mapped onto any community's faith in a film, so the film keeps that dial off the screen entirely and the voice never mentions it."
     }
   ],
-  "what_the_viewer_could_understand": "Wanting can be as ordinary as hoping for a seat on a train, and whether it rose on its own or somebody pushed us to try, a changing board can end it in a second. Not everyone in the queue is wanting in the same way, and nobody watching can tell which is which.",
-  "what_must_be_real": "A real queue on a real day, and travellers' own unscripted reactions. No refusal staged, anticipated aloud, or provoked, and no one interviewed in the minute it lands on them.",
-  "position_hint": "closing candidate: the group's first refusal, deliberately small and administrative, so that the wall arrives without a villain behind it.",
+  "what_the_viewer_could_understand": "That the thing which decides what a want is, is not in the act, and that you therefore cannot read it off a stranger; and that this is not mysticism but the plain consequence of a rule the old books state in a single sentence. The demonstration needs no belief and no vocabulary: a field of identical roofs seen from above, a mirror propped on a crate, and the same note passed across the same counter by people who have nothing in common.",
+  "what_must_be_real": "A real fair on a real fair day, with real traders, real stock, real prices and real weather. Nothing is set up, moved, re-opened or re-lit for the camera; no stall is asked to stay late or open early; no transaction is repeated for a better angle. Nobody is asked what they came for or why they bought what they bought, on camera or off, because the film's whole claim is that the answer is not available from outside, and no shot is cut to imply an answer the crew does not have. Prices are whatever they were on the day. If a trader does not want their stall in frame it is not in frame, and the overhead work is flown so that the ground is read as a pattern and nobody in the crowd is singled out.",
+  "position_hint": "opening candidate for the group: the broadest possible first statement of the subject, a whole district's wanting seen at once and deliberately left unsorted, before any later film narrows to a single act. No location reasoning is involved.",
   "risks": [
-    "Exploiting or provoking travellers' frustration",
-    "Treating everyone in the queue as an instance of the same thing",
-    "The scene feeling arranged if the refusal is anticipated rather than found",
-    "Filming people at a moment they would not have chosen"
+    "Sorting the crowd. The camera cannot see an aim and the film must not pretend to; a single knowing cut between a face and a purchase would undo the whole piece.",
+    "Letting the word greed attach to anybody on the ground, in the narration, the captions or the edit. The sources do not licence it and the film never uses it of a person.",
+    "Framing parents buying for their children as an exhibit. The digest is explicit that the source says nothing against family life and that devoted parents must not be shown as greedy.",
+    "Drifting into austerity or a lesson about simple living. The source allows good clothes and wealth wisely earned and spent [C005-M:L15–L19], and the film must not moralise about anyone's spending.",
+    "Treating the music, the toys and the loudspeakers as evidence. They are in the source's list because of the enjoying mind, not because the arts or games are condemned.",
+    "Stating the source's ranking of flat wanting over glad wanting as established fact. The digest records that the extract gives no commentarial basis for it and that it needs an expert check [C006-M:L19], so the voice attributes it.",
+    "Letting the source's conditions for spontaneous wanting be heard as destiny or as genetics; the digest rules that reading out, and they sit beside weather, food and company.",
+    "Bringing wrong view anywhere near the screen. In these extracts it means denial of consequences and self-serving excuse, and the digest forbids mapping it onto any community's faith.",
+    "Consent and dignity in a dense public crowd, including children, at a place where people are handling money and being watched by their neighbours.",
+    "Becoming a food-and-colour market film in which the philosophy is decoration, or an economics film about hill-country vegetable prices.",
+    "Flying a drone low over a crowd of several thousand people. If it cannot be done safely and with permission, the overhead grid, which is the whole payoff, does not exist."
   ],
   "drop_if": [
-    "No genuine refusal can be part of the film without staging or provoking it",
-    "Travellers cannot consent freely at the moment it happens"
+    "The fair can only be filmed by arranging stalls, buyers or transactions, or by asking anyone to repeat anything.",
+    "Overhead filming over the crowd cannot be permitted or cannot be done safely, so the film's central image is unavailable.",
+    "The only access offered is a tourist-facing or specially staged market day rather than the ordinary working fair."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0013",
-      "relation": "mirrors",
-      "note": "Hope bought in small daily doses there, hope refused all at once here."
-    },
-    {
       "idea_id": "IDEA-0026",
       "relation": "pairs with",
-      "note": "Two refusals: one delivered by a system that meant nothing by it, one by another person wanting the same thing more."
+      "note": "Two machines organised by wanting: one where the reaching is spread across a whole field and cannot be seen at all, and one where it takes a visible shape for ninety seconds at a time."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "The group's turn into refusal, at the smallest possible scale and with the source's own exclusion for need kept intact."
+    "reason": "A place whose entire physical rhythm is wanting, with an overhead payoff shot that states the concept instead of illustrating it, and no individual in it to be judged."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape. Dropped the old situation block entirely, along with the traveller who misses the last ticket: there is now nobody in frame who is there in order to lose, and no refusal at all. The subject is the machine, a weekly highland fair that builds itself on bare ground before dawn and is gone by dark. New title; old title kept in aliases. Both concept links re-tested against their digests and rewritten: C005 is now grounded on its rule that the line is drawn by aim and not by act, which is why the film's central image is a field of identical roofs seen from above, and it carries the digest's guards about family, austerity and the arts; C006 is now grounded on the three dials, of which the film shows two and deliberately keeps the third, wrong view, off screen because the digest forbids mapping it onto anyone's faith. Added place, two_layers, an eight-beat sequence and a proposed location with verified images.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Welimada weekly fair",
+    "also_known_as": [
+      {
+        "name": "වැලිමඩ පොළ",
+        "meaning": "the Welimada fair, the weekly market",
+        "used_by": "everyday Sinhala usage in the district"
+      },
+      {
+        "name": "pola",
+        "meaning": "the general word for a weekly village or town fair",
+        "used_by": "nationwide usage; santhai in Tamil-speaking areas"
+      }
+    ],
+    "region": "Badulla District, Uva Province, in the upper Uma Oya basin on the highland road between Nuwara Eliya and Badulla",
+    "coordinates": {
+      "lat": 6.9011,
+      "lng": 80.9228
+    },
+    "elevation_m": 1017,
+    "why_here": "It is a place whose physical rhythm is wanting and nothing else, and it supplies the concept and the spectacle in the same frame. The town sits in the country that grows most of the island's cool-climate vegetables, on hillsides terraced almost to the ridge, and its weekly fair is where a whole district's buying happens at once: food, cloth, pots, shoes, scent, medicine, toys, hardware, cooked food. That gives the film the Margaya's list of occasions physically laid out in aisles, without a word being said. And because the stalls are built the same way out of the same materials with the same tarpaulin, the fair at full trade seen from directly overhead is a field of identical blue rectangles, which is the concept stated rather than illustrated: from outside, every one of them is the same, and the thing the sources are sorting by is under the roof and invisible. The one-day life of the fair, bare ground before four in the morning and bare ground again by nine at night, hands the film its arc without any need to follow a person. Highland light, mist in the valley at first light and terraces standing over the ground do the rest.",
+    "what_to_film": [
+      "The bare ground before anything happens, from the air and from the edge, so the last shot of the film can be the same frame.",
+      "The build from about four in the morning: headlights, poles, sheets thrown over frames, roof after roof opening in the dark.",
+      "The view straight down at the middle of the day, high enough to hold the whole ground, so the roofs read as a pattern and no individual is picked out. This is the payoff shot and everything else is built around getting it.",
+      "The terraces above the town in the same light as the fair, so the food on the stalls and the ground it came off are visibly the same place.",
+      "One cloth stall with a small mirror, held long enough for several different people to use it, with no commentary and no interviews.",
+      "One food or produce stall where a vendor offers a taste to the aisle, filmed wide enough to include people walking past, stopping and coming back.",
+      "The afternoon: heat, sleeping vendors, prices called down, and rain coming over the ridge and emptying the aisles.",
+      "The strike at dusk and the swept ground afterwards, in real time, down to rope ends and leaves."
+    ],
+    "access": "By road, on the main highland route between Nuwara Eliya and Badulla, roughly 25 km east of Nuwara Eliya over the Hakgala gap and about the same distance north-west of Bandarawela, with frequent buses from all three towns. The fair is a municipal event on public ground rather than a private site, so access is a matter of the local authority and of the traders themselves, stall by stall; the traders' association and the pradeshiya sabha would both need approaching. Drone work over a dense crowd is a separate permission and cannot be assumed.",
+    "best_time": "Fair day only, and the whole of it, from before four in the morning to after dark. First light for the mist and the last headlights, the middle of the day for the overhead work, late afternoon for the falling prices. The drier stretch on this side of the hills, broadly June to September, is the safer window; the north-east monsoon months from about November to January put heavy rain on this slope and turn the ground to mud.",
+    "images": [
+      {
+        "caption": "An ordinary rural weekly fair elsewhere in the country: the stall form, the awnings and the density the film is built around. Not this ground.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An%20ordianry%20fair%20in%20a%20rural%20village%20of%20sri%20lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:An_ordianry_fair_in_a_rural_village_of_sri_lanka.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A highland town market in the same vegetable country, for the produce, the crates and the light. A neighbouring town, not this ground.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuwaraeliya-mercat1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Nuwaraeliya-mercat1.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Terraced vegetable plots in the surrounding hill country, the ground the fair's produce is lifted off the day before.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cultures%20vivri%C3%A8res%20r%C3%A9gion%20de%20Nuwara%20Eliya.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Cultures_vivri%C3%A8res_r%C3%A9gion_de_Nuwara_Eliya.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Welimada",
+      "https://www.lakpura.com/pages/welimada",
+      "https://visituva.lk/zone/welimada",
+      "https://www.bluelankatours.com/blog/sunday-fair-culture-in-sri-lankan-villages-a-glimpse-into-the-islands-everyday-life"
+    ],
+    "research_note": "Coordinates, elevation, district and province, the town's standing as the hill country's vegetable centre, the terraced cultivation of carrot, leek, potato and beet on the surrounding slopes, and the existence of a weekly pola drawing farmers and traders from the villages around are from the sources above and are desk research only. The general description of a pola, its stalls under awnings on open ground beside a temple, a junction or a school ground, and its range of stock, is from the same desk sources and describes the form rather than this particular fair. The day of the week, the exact ground the fair occupies, whether it is a single open field or spills along streets, the number of stalls, the hours, drone rules over a crowd and whether traders will agree to be filmed are all unverified. If the fair turns out to run along streets rather than across an open ground, the overhead grid becomes a line rather than a field and the film's central image would need rethinking or the location changing.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No trader, authority or permission has been found or confirmed. Everything here is a research direction.",
+    "The fair's day, hours and exact ground are unverified, and the overhead payoff shot depends on the fair occupying open ground rather than streets.",
+    "Drone permission over a dense crowd, and the safety case for it, have not been assessed.",
+    "Whether the counterintuitive ranking of flat wanting over glad wanting holds outside this one extract is flagged in the digest as needing an expert check before the film leans on it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

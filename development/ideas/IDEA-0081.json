@@ -2,92 +2,192 @@
   "schema_version": 1,
   "id": "IDEA-0081",
   "record_type": "idea",
-  "title": "Turning Toward",
+  "title": "The Turning Comes First",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-22",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Turning Toward"
+  ],
   "group_id": "GRP-05",
-  "logline": "At a three-wheeler stand a driver's eyes move to every passer-by, and in a fraction of a second, before anyone speaks, he has already settled it: customer, or not.",
-  "human_question": "What is the very first thing a mind does when something catches it, before any decision is made?",
-  "situation": {
-    "what_happens": "A driver waits at a stand for most of a working day. Hundreds of people pass. His eyes go to each of them, and almost all of them are let go inside a second, without a word and without anything he would call a decision. A few times an hour he calls out, and a few times a day that becomes a fare. The great majority of the day is the part that produces nothing, and it is the part that never gets described.",
-    "who_is_involved": "The driver; the other drivers at the same stand, who are simultaneously his colleagues and his competition and whose turn-taking rules are unwritten; the passers-by, most of whom never notice being looked at; and whoever owns the vehicle, if he does not.",
-    "what_is_at_stake": "A day's earnings against fuel, hire and time; a place in the stand's order; and the ordinary cost of spending eight hours reading strangers for whether they want something.",
-    "how_it_unfolds": "A day begins when he takes his place and ends when it is no longer worth waiting. The pressures are weather, the hour, how many other drivers are waiting and whether an event or a market has brought people out. It ends with the day's earnings, whatever they are, and there is no way to arrange a good one."
+  "logline": "Thirty machines stand in a line along a flat island coast, and all day, before any of them produces anything at all, each one swings its whole head round to face a wind it cannot yet use.",
+  "human_question": "What is the very first thing that happens when something reaches us, before anything has been recognised?",
+  "place": {
+    "what_kind_of_place": "A low, salt-scoured sand island at the top of the country, where the land is flat enough that a person standing on it can see the curve of the shore in both directions. Along one coast of it stands a line of about thirty wind machines, each on a tower around ninety metres high carrying a rotor a hundred and twenty-odd metres across. Between them there is almost nothing: scrub, palmyrah, tidal flat, a gravel service track, cable trenches, a switching yard behind a fence, and a hut where the machines are watched on a screen. The island sits between two monsoons that come from opposite directions, so the wind here does not merely rise and fall; it changes which way it comes from.",
+    "why_it_is_worth_watching": "It is the rare place where a single mechanical movement is enormous, slow and perfectly legible. From high above, thirty heads are all facing exactly the same way across an empty coast, and when the wind shifts they all turn together, over a minute or two, while nothing else in the frame moves at all. At ground level the scale is unreadable until something ordinary crosses beneath — a cyclist, a goat, a pickup on the service track — and then the blade overhead becomes shocking. The turning happens before the machine is doing anything useful: the head comes round, and only afterwards does the rotor pick up and the thing begin to work.",
+    "what_moves_or_changes": "The wind, which is the whole subject and which nobody controls: it backs and veers through a day, it dies at some hours and returns at others, and twice a year it reverses altogether. Light on a flat coast with no relief in it. The tide across the flats. Birds, in season, in very large numbers. And the machines themselves, which yaw, start, stop, feather and stand still, all on the wind's timetable and not on a crew's.",
+    "when_it_looks_best": "The weeks when one monsoon gives way to the other, because that is when the wind is least settled and the heads move most. Within a day: the first hour after sunrise and the last before dark, when low sun throws the towers' shadows right across the flats and the rotors read as discs rather than blades."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about scale, wind and an almost empty coast. A line of white machines on a bare island, the sea on one side and scrub on the other, shadows a kilometre long at dawn, the strange silence of very large things moving slowly, and a wind that does the deciding. It has a complete shape with nothing said over it: the calm, the shift, the turning, the work, and the standing still again when the air goes out of the day.",
+    "with_the_philosophy": "The same coast becomes the sources' own first step, at a size the eye can follow. The texts describe a mind-moment whose only job is to turn the stream toward whatever has arrived, and which cannot itself recognise anything at all; it points, and hands on. That is exactly what is happening above this shore, at a hundredth of the speed, with nobody in it: something arrives, a small thing on the roof registers it, the whole head comes round to face it, and only later does anything actually happen. The voice never claims the machine is a mind. It claims only that here a movement we normally read as one act is visibly made of separable stages, in the fixed order the sources give."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, very high and wide. A flat sand island, sea on one side, scrub and tidal flat on the other, and a line of white towers running away to the horizon. Every head is facing the same way. Nothing moves.",
+      "voice": "There is a step before recognising. Before anything is known to be anything, the sources say, something turns toward it. That step is so brief and so ordinary that no language has a word for it, and it is the whole of what is happening on this coast at this hour.",
+      "concept_id": "C010"
+    },
+    {
+      "on_screen": "Close, from above, on the back of one nacelle ninety metres up: a small vane and a cup anemometer, turning. Nothing else on the machine is moving.",
+      "voice": "The texts are exact about this turning moment: it points the mind at a new sight, a new sound, a new touch, and it cannot itself know what the thing is [C010-P:L29–L37]. It is not perception. It is the hinge, not the person coming through the door.",
+      "concept_id": "C010"
+    },
+    {
+      "on_screen": "The yaw. The entire head, forty metres of machinery, rotating slowly on the tower while the blades hang still and swing across the sky. Held long enough that the movement stops being impressive and becomes procedural.",
+      "voice": "Nothing is being made here. The sources call this kind of moment functional: it is not the fruit of anything that went before, and it produces no fruit of its own [C010-P:L25; C010-M:L3]. That is not a claim that a mind is a machine. It is a claim about order.",
+      "concept_id": "C010"
+    },
+    {
+      "on_screen": "The rotor begins to turn, slowly and then not slowly. Blade pitch changing. The generator coming on load: a needle, a screen in the hut, a hum in a cabinet.",
+      "voice": "Each step here does one job and only one. The old analysis counts fourteen such jobs and gives them a fixed order: turning toward, then the bare sensing, then receiving, then examining, then settling what the thing is, and only then the burst where anything is actually done [C034-P:L27–L29]. No step does two of them at once.",
+      "concept_id": "C034"
+    },
+    {
+      "on_screen": "A long shot at head height along the service track. A rotor overhead. A cyclist passes underneath and the scale suddenly arrives. Then cable trench, switching yard, an insulator, a line running inland.",
+      "voice": "And the early steps want nothing. In the sources the bare moments of sensing are too weak to carry effort, or resolve, or any wish to act at all [C025-P:L59]. The wanting comes later, further down the line, and that is where the weight of it sits.",
+      "concept_id": "C025"
+    },
+    {
+      "on_screen": "Compressed time across a whole afternoon: all thirty heads swinging together, then hunting slightly out of step with one another, then settling together again, against a sky emptying of cloud.",
+      "voice": "Watch what is not here. Nobody chose this direction. Nothing on this coast decided to look that way. The head comes round because the air changed, and the air changed for its own reasons.",
+      "concept_id": "C010"
+    },
+    {
+      "on_screen": "Last light. The wind goes out of the day. Rotors slow, stop, and stand feathered. Thirty heads left facing the direction of a wind that is no longer there. The hut light comes on.",
+      "voice": "Between one of these and the next, the texts say, there is a quiet current that keeps going and is never noticed [C034-P:L73]. Most of a coast, and most of a life, is that. This is the part nobody films, and it is nearly all of it.",
+      "concept_id": "C034"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C010 contributes the two neutral moments this film is built on: a turning toward that happens before anything is known and cannot itself recognise anything, and the settling a moment later that fixes what the thing is, both of them neither good nor bad and both running in everyone unbidden. C034 contributes the relay those two sit inside, fourteen named jobs of which a mind-moment does exactly one at a time. C025 contributes the negative fact that makes the film honest: the bare sensing moments carry none of the six occasional factors at all, not effort, not decision, not the wish to act. A driver's day is thousands of repetitions of the first two, almost all of which stop before anything else can begin.",
-    "what_it_reveals": "Alone, adverting is an abstraction with no observable consequence. Placed in a working day where the same turning-toward is repeated thousands of times for money, it becomes visible in the one way it can be: by how much of a life is made of it and how little of that life produces anything. And C025's exclusions stop the film sentimentalising the empty stretches into patience or attentiveness. On the sources' account the emptiest moments contain no effort at all, which is a different and stranger claim."
+    "why_together": "C010 supplies the film's single movement. The sources give a mind whose whole job is to turn the stream toward a new sight, sound, smell, taste or touch, and which cannot know the object it turns to [C010-P:L29–L37]; they class it as functional, neither the result of anything earlier nor productive of anything later [C010-P:L25; C010-M:L3]; and they give the later, still neutral moment that settles what the thing actually is [C010-M:L11–L15]. C034 supplies the order those moments sit in, and its one strict rule: every moment does exactly one job, and the jobs come in a fixed sequence of turning, sensing, receiving, examining, settling, responding and trailing off [C034-P:L27–L29]. C025 supplies what is missing at the start rather than what is present: the bare sensing moments are too weak to carry effort, resolve or any wish to act [C025-P:L59], while the seven basic factors run through every mind without exception [C025-P:L47]. Put on a line of machines that must face a wind before they can use it, the three stop being a list and become a single legible movement: an arrival, a pointing, and only then the work.",
+    "what_it_reveals": "That the first movement toward anything is not attention in the modern sense, not care, not choice and not yet perception — it is a bare swing of orientation that carries no wanting in it, and that everything we normally credit to the act of noticing happens afterwards. C010 alone would be a definition. C034 alone would be a table. C025 alone would be a set of absences. Together on this coast they let a viewer watch a turning that precedes knowing, at a scale and a speed that no human face could ever show, and with nobody in the frame whose mind is being guessed at."
   },
   "concept_links": [
     {
       "concept_id": "C010",
       "role": "primary",
-      "why": "The digest describes the five-door adverting mind as pointing the mind-stream at something without being able to know it, the hinge on the door rather than the person walking through, and the mind-door adverting mind as also performing the determining job, which settles 'this is such' and is still neutral, the last neutral step before any response [C010-P:L29-L37]. The digest's own story seed for this concept is a three-wheeler driver reading every passer-by for a possible fare. Its limits are carried: adverting is not mindfulness or being present, it happens automatically in everyone with no quality of care attached; 'functional' does not mean mechanical or robotic; the arahant's smile, the third of these minds, may never be attributed to a real person; and the traditional placement of the mind door in the heart cavity is not something a modern audience is asked to accept literally."
+      "why": "The digest's core is the adverting mind: it turns the stream toward a newly arrived object at one of the five doors and cannot itself know that object [C010-P:L29–L37], and the same family of mind later performs the settling step that fixes what the thing is, just before any response [C010-M:L11–L15]. Both are classed as functional, producing no result and being no result [C010-P:L25; C010-M:L3]. That is the film. The digest's limits are load-bearing here and shape the voice. 'Functional' in the sources does not mean mechanical or robotic, so the film uses machinery to show the order of stages and says outright that it is not offering the mind as a machine. Adverting is not mindfulness or being present — it happens in everyone automatically with no quality of care attached — so nothing on screen is praised as attentive. The smile-producing mind is not used at all: it arises only in a fully liberated person [C010-P:L41], and no one on camera may be framed as having it. The six grades of laughter, which the Margaya ties to undeveloped character [C010-M:L25], are not used to rank anybody. And the traditional placement of the mind-door in the heart cavity is not narrated as fact."
     },
     {
       "concept_id": "C034",
       "role": "supporting",
-      "why": "The digest names fourteen jobs a mind-moment can do and states that each moment does exactly one, so what feels like one smooth act of looking and judging is a stitched-together result of many hand-offs. It also gives the group's quietest image, that life is long quiet stretches interrupted by brief bursts of engagement rather than a constant stream of attention, which is a driver's day. The digest's limits are carried: it is not a technique for watching each step, since the source says countless moments pass in a finger-snap; the slogan about the gap between stimulus and response adds a claim the source does not make; and the source's link between weak rebirth-producing action and being born blind or deaf must never be carried into a judgement about any real person [C034-P:L47]."
+      "why": "The digest gives the fourteen jobs and the rule that each mind-moment does exactly one of them, in a fixed order that the whole account of a cognitive process is then built from [C034-P:L27–L29]. That rule is what turns a wind machine's start-up from a nice parallel into a usable structure: the head must face the wind before the rotor can load, exactly as turning-toward must precede sensing, receiving, examining and settling. The digest's quiet background current [C034-P:L73] gives the film its last beat and its honest proportion — most of the time nothing is happening. Every warning that bears on the film is honoured. The functions are not a technique for watching one's own mind step by step; the source says countless moments pass in a finger-snap [C034-P:L37], and the voice never invites the viewer to observe their own. The background current is not the subconscious and is not narrated as a hidden self. The slogan about freedom living in the gap between stimulus and response is not used. And the Pradeepika's line connecting weak rebirth-producing action to being born blind or deaf [C034-P:L47] is not carried into this film in any form."
     },
     {
       "concept_id": "C025",
       "role": "supporting",
-      "why": "Re-grounded. The old reading had effort and decisiveness rising and falling across a driver's day with the likelihood of a fare, which maps a technical absence onto a mood. What the digest actually says is that the ten sense-consciousnesses are too weak to carry any of the six occasional factors at all, so the bare moments of seeing and hearing have no effort, no decision and no wish to act in them [C025-P:L75], which is the claim this episode's lesson cites. The digest's warning is carried with it: energy and decisiveness are not virtues in this framework and appear equally in harmful minds, so nothing about this driver's drive may be offered as a quality."
+      "why": "The digest's usable point for this film is an absence: the ten bare sense-consciousnesses are too weak to carry any of the six occasional factors, so at the moment of bare sensing there is no effort, no resolve and no wish to act at all [C025-P:L59], while the seven universals run through every mind without exception [C025-P:L47]. That is why the film can show a machine facing a wind it is not yet using without the voice smuggling in intention. The digest's warnings hold the voice back in two places: energy and decisiveness are not virtues in this framework and appear equally in harmful minds, so the machines' power is never praised as a quality; and the memorisation numbers are a student's aid and never appear on screen."
     }
   ],
-  "what_the_viewer_could_understand": "Before we know anything about what caught our eye, the mind has already turned toward it, and that turning cannot recognise anything; it only points. Settling what the thing is comes a moment later, and both happen before anything that could be called a response.",
-  "what_must_be_real": "The driver's real economics and real working conditions, and no miss or reaction exaggerated for the camera. His own account of how he reads a street carries the film, and no narration may claim to know what he was thinking at any particular glance.",
-  "position_hint": "middle: it is the group's hinge film about the last neutral steps, placed after the films about what a sense receives and before the films about memory and response. No location reasoning is involved.",
+  "what_the_viewer_could_understand": "That before anything is recognised, something has already turned toward it, and that this turning is not yet seeing, not yet wanting and not yet a decision. What we experience as one smooth act of noticing is a short run of separate steps in a fixed order, and the first of them knows nothing at all.",
+  "what_must_be_real": "The wind, the turning and the working day of the machines. Nothing is started, stopped, yawed or feathered for the camera, and no operator is asked to make anything happen at a convenient hour; if the air is still for three days, the film is of three still days. No person on screen is presented as the one who sees, notices or decides — that is the exact thing the concepts deny, and the film's whole method is that the turning here belongs to no one. The voice never claims that a mind is a machine or that a machine has a mind. Safety around rotating plant and any drone flight near live turbines is decided by the people who run the site, not by a crew, and nothing is filmed that interferes with operation.",
+  "position_hint": "opening: it is the group's first step and the simplest, a single movement that precedes everything else the group examines. It should come before the films about order, thresholds and the senses, because they all assume it.",
   "risks": [
-    "Reducing the driver to an illustration of a single mental moment rather than a full person.",
-    "Narration that claims to know what he is thinking at each glance.",
-    "Treating an ordinary livelihood as picturesque.",
-    "Sentimentalising the empty stretches into patience, when the sources say those moments contain no effort at all.",
-    "Filming passers-by who have no idea they are being looked at, let alone filmed."
+    "Letting the machinery become a claim that the mind is a machine. The digest is explicit that 'functional' does not mean mechanical or robotic, and the voice must say plainly that what is being borrowed is the order of stages, not a model of mind.",
+    "Presenting anyone on screen — a technician, a passer-by, a driver on the service track — as the one who sees or notices. The group's whole subject is that there is no separate seer, and a camera cannot show a mind-moment.",
+    "Reading the turning as attention, care or mindfulness. The digest says adverting happens automatically in everyone with no quality of awareness attached.",
+    "Using the smile-producing mind, or suggesting that any person in frame has the quiet smile of a liberated person [C010-P:L41], or grading anyone by how they laugh [C010-M:L25].",
+    "Offering the sequence as something a viewer could slow down and watch in themselves. The sources say countless mind-moments pass in a finger-snap [C034-P:L37] and that the process is known only by inference.",
+    "Narrating the background current as a subconscious or a hidden true self, or the mind-door's traditional placement in the heart cavity as anatomy.",
+    "Carrying the Pradeepika's link between weak rebirth-producing action and being born blind or deaf [C034-P:L47] into the film in any form.",
+    "Praising the machines' power and decisiveness as qualities. In the sources effort, resolve and drive are ethically neutral and appear in harmful minds too.",
+    "Becoming an energy-industry film, or taking a position on what a large installation does to a coast and its birds, which is a real argument and not this film's subject."
   ],
   "drop_if": [
-    "No driver will be filmed candidly across real working hours.",
-    "The stand is too quiet or too chaotic for anything to be observed clearly.",
-    "The film cannot avoid narrating his inner state instead of showing his actions.",
-    "Passers-by cannot be filmed with adequate consent or anonymity."
+    "Access to the site, or any flight in the airspace around live rotors, cannot be permitted safely.",
+    "The yaw cannot in practice be filmed as a legible movement, because it is too slow, too rare or too small at the distances that are safe.",
+    "It can only be made by asking the operator to move machines for the camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0073",
-      "relation": "mirrors",
-      "note": "Both are built from repeated small acts of noticing and response across an ordinary working day, one over a material and one over a street."
-    },
-    {
       "idea_id": "IDEA-0079",
       "relation": "pairs with",
-      "note": "The same turning-toward moment in two opposite lives, one where it happens thousands of times a day and one where it happens rarely."
+      "note": "The same first movement at two speeds: one where it happens constantly and invisibly, and one where it is ninety metres high and takes a minute."
     },
     {
       "idea_id": "IDEA-0087",
       "relation": "leads into",
-      "note": "Colour arrives before a name; a face arrives before a customer. The second film takes up what the first one leaves unnamed."
+      "note": "This film stops at the pointing. The next one takes up what arrives once something has been pointed at."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0040, and the C010 digest proposes a three-wheeler driver at a stand as the situation for exactly this concept."
+    "reason": "It carries turning-toward as a real, enormous, unhurried movement that belongs to nobody, which is the only honest way found to film a step that precedes recognition."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-22 into the footage-led shape. Dropped the old subject entirely — a three-wheeler driver at a stand whose eyes were to be read for the moment he settled 'customer or not' — because it made an identifiable person's glance the subject and amounted to reading his mind on camera, which is precisely what this group's concepts deny. The concept is kept and moved to a place where the turning-toward is mechanical, very large and owned by no one. Concepts re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Thambapavani wind power station, on the southern shore of Mannar Island",
+    "also_known_as": [
+      {
+        "name": "Thambapawani",
+        "meaning": "an alternative transliteration used by the operator",
+        "used_by": "Ceylon Electricity Board and Mahaweli complex usage"
+      }
+    ],
+    "region": "Mannar district, Northern Province: the long, low sand island at the top of the Gulf of Mannar, reached from the mainland by the causeway",
+    "coordinates": {
+      "lat": 9.0503,
+      "lng": 79.7869
+    },
+    "why_here": "It puts the concept and the best image in the same frame, and it does so at a scale nothing smaller reaches. About thirty machines stand in a line on an almost featureless island, with rotors over a hundred metres across on towers of about ninety metres, in a place that takes both monsoons from opposite directions — so the wind here does not just rise and fall, it changes side, and the machines answer by turning. The sources' first step, a turning toward something before anything is known about it, is therefore not an illustration on this coast; it is the standing mechanical fact of the place. And it produces the film's strongest shot by itself: thirty enormous heads all facing one way across an empty island, and then all of them coming round together while nothing else in the frame moves.",
+    "what_to_film": [
+      "The whole line from very high at dawn, wide enough that the island, the sea and thirty towers sit in one frame and the heads read as all facing one way.",
+      "A single yaw, held in full and uncut, from the first movement of the nacelle to the moment it settles.",
+      "The vane and anemometer on the back of a nacelle, small and turning, with nothing else on the machine moving.",
+      "A start-up in order: head round, rotor picking up, pitch changing, the generator coming on load, and the needle or the screen that shows it.",
+      "Something ordinary passing beneath a turning rotor, filmed at head height, because scale here is unreadable until it is given.",
+      "A whole afternoon compressed: the heads hunting, splitting slightly, and settling together again as the wind backs and veers.",
+      "The end of a windy day — rotors slowing, stopping and standing feathered — and the flat, empty coast at last light.",
+      "The unglamorous ground: cable trench, switching yard, service track, the hut and its screen, filmed as ordinary work."
+    ],
+    "access": "By road onto the island across the causeway, then along the coast road and a gravel service track. The station is an operating power plant owned and run by the national electricity utility, so ground access, any work close to plant and any flight in the airspace around live rotors depend entirely on their permission and on their safety rules. The island is exposed, the wind is the point, and the practical constraint is that nothing here can be scheduled.",
+    "best_time": "The changeover weeks between the two monsoons, when the wind is least settled and the heads move most. Within a day, the first hour after sunrise and the last hour before dark, for the long shadows and for rotors that read as discs.",
+    "images": [
+      {
+        "caption": "A wind turbine on Mannar. This is a turbine of the kind and in the district described, not a confirmed image of the station itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wind Turbine In Mannar.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wind Turbine In Mannar.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Mannar Island: the flat, scrubby, salt-scoured landform the machines stand on. This is the surrounding island, not the station.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MannarIsland-January2012-01.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:MannarIsland-January2012-01.JPG",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The same island from another year, for the light and the emptiness. Again the landform, not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mannar Island - June 2019.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mannar Island - June 2019.jpg",
+        "licence_note": "Wikimedia Commons; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thambapavani_Wind_Farm",
+      "https://www.mahawelicomplex.lk/power-stations/twpp/",
+      "https://www.thewindpower.net/windfarm_en_32714_thambapavani.php"
+    ],
+    "research_note": "That the station stands on Mannar Island, that it carries about thirty towers of roughly ninety metres with rotors of about 126 metres, that its nameplate capacity is around 103.5 MW, that it was opened in December 2020 and that it is owned and operated by the national electricity utility are from the sources above and are desk research only. The coordinates are the point given for the station by the encyclopaedia entry and should be treated as a direction, not a surveyed position on a particular machine. Nobody at the utility has been approached, no permission has been sought, and nothing about filming access, drone rules around live plant or the practical visibility of a yaw from a safe distance has been checked. Two of the three images are of the island rather than the station, and one is of a turbine in the district rather than a confirmed machine on this site; each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-22"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the operator, and an operating power station may simply refuse a crew.",
+    "Whether a yaw is frequent enough, and legible enough from a permitted distance, to carry a whole film has not been checked against the ground.",
+    "Drone flight in the airspace of live rotors may be refused outright, which would remove the film's strongest image.",
+    "How often the wind actually changes direction here, as against merely changing strength, is unverified, and the film depends on it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,81 +2,191 @@
   "schema_version": 1,
   "id": "IDEA-0013",
   "record_type": "idea",
-  "title": "The Number That Comes Up",
+  "title": "A Hundred Metres Past It",
   "status": "draft",
-  "version": 2,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Number That Comes Up",
+    "A Town That Lasts One Day"
+  ],
   "group_id": "GRP-02",
-  "logline": "A lottery-ticket seller calls to the passing crowd all day, while regulars buy the same numbers morning after morning, certain today might finally be the day.",
-  "human_question": "What does it mean to want the same thing every day, without ever quite expecting to get it?",
-  "situation": {
-    "what_happens": "A ticket seller works a fixed pitch from morning to night, calling out to everyone who passes. Some customers buy without breaking stride and without a word, the same numbers as always. Others are talked into a first ticket by the calling itself. In the evening the draw is read out and almost everybody loses, which everybody already knew. The next morning is the same morning again.",
-    "who_is_involved": "A seller whose whole income is a commission on small sales; regulars who buy daily out of habit; occasional buyers talked into one; the households behind both sides of the counter. The seller is the practised, unexcited half of every exchange and the buyer the hopeful half, which is the same pairing as a dealer appraising, flat-eyed, a stone a family has carried a long way in hope.",
-    "what_is_at_stake": "For the buyers, a small sum daily set against a change of life that will not come, and in some of them a habit that costs more than they say it does. For the seller, a living made out of other people's hope and their own knowledge of the odds. For the film, the ease of sneering at poor buyers, which would sink it.",
-    "how_it_unfolds": "The day has a fixed shape, a slow morning, a rush, an evening draw and a clean start tomorrow, while the season around it has none: a rare win somewhere nearby changes the trade for a week. Over months a regular may stop, or double down, or the seller may lose the pitch altogether. What happens at any evening's draw is decided by the draw."
+  "logline": "Along two kilometres of a main trunk road, several dozen households live entirely on stopping vehicles that had no intention of stopping, and the whole of that transaction happens in the six seconds between an arm going out at the verge and a window going down.",
+  "human_question": "How much of an ordinary day is me reaching for something, and would I recognise the reaching if it did not feel like excitement?",
+  "place": {
+    "what_kind_of_place": "A straight stretch of low-country trunk road about an hour and a half out of the capital, where one trade occupies both verges and nothing else does. The stalls stand shoulder to shoulder facing the traffic: some are still frames of poles under coconut-leaf thatch, some are now small fronts of block and tin. What is on the shelves is one crop in every state it can be put into, raw, roasted, salted, spiced, in sealed packets from the size of a matchbox upward, and every packet has to be sold to somebody who was not going to stop. The selling is done standing at the road edge, with an arm out. Nobody here is waiting for a market day. The market is whatever is coming round the bend, and it is coming at sixty kilometres an hour.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. From the air: a ribbon of road with a double row of coloured fronts along it, and the traffic doing something a road does not normally do, peeling off onto the shoulder in ones and twos and rejoining, so that the whole trade is legible as a pattern of braking. At the verge, at eye level: the arm going out, the packet held up at windscreen height, and the window either coming down or not, forty or fifty times an hour, with the refusals outnumbering the sales many times over and nobody treating that as a defeat. And the thing the film is built on, which happens several times a day and can never be arranged: a vehicle that goes past the whole strip, brakes a hundred metres on, and comes back along the shoulder.",
+    "what_moves_or_changes": "The traffic, and with it everything else. Before six the shutters go up and the shelves are laid out in the dark against a road that is still mostly lorries. Through the working morning the vehicles are commuters and hauliers and hardly anybody stops. In the afternoons, at weekends and through the holiday weeks the same road carries families going up-country, and then the stopping rate multiplies and the arms are out continuously. Light does the rest, flat glare at midday and low gold along the verge at the end of the day; and the last hour is the reverse of the first, stock carried in, shutters down, and a road that is only a road again.",
+    "when_it_looks_best": "Daylight, and the film wants two days rather than one: an ordinary working weekday, when almost nothing stops, and a holiday or weekend afternoon, when the same stretch is a different place. Dry weather, because the trade happens standing outdoors on a shoulder. First light for the laying-out, the last hour of light for the arms against low sun and for the shutters coming down."
   },
+  "two_layers": {
+    "without_the_philosophy": "A trade nobody has ever filmed properly, shown at the pace it actually works: a place where a livelihood consists of interrupting strangers who are on their way somewhere else, and where the ordinary result of a morning's work is a great many people not stopping. It has its own shape without any help, dark to light to dark, shelves laid out and shelves carried in, and it has a thing in it that is genuinely strange to watch, which is a vehicle changing its mind at speed. A viewer who never hears a word of the narration gets colour, weather, work, refusal, and a road.",
+    "with_the_philosophy": "The same footage becomes the sources' account of how wanting actually works, performed a few hundred times a day at a roadside. The voice never contradicts what is on screen and never says anyone is greedy; it points at what everybody can already see. Somebody slows without being hailed. Somebody is waved down and stops. Somebody goes past, gets a hundred metres on, brakes and comes back, which is the sources' third case, a person urging themselves. Two buyers at one stall, one lit up and one showing nothing at all, and the sources say both are the same reaching. The film also states plainly, on screen, the one setting it cannot film."
+  },
+  "sequence": [
+    {
+      "on_screen": "Before six. Shutters going up along a dark verge, shelves laid out packet by packet under a single bulb, headlights of lorries going past without slowing.",
+      "voice": "Nothing has been sold here yet. What is being set out, in the dark, is several dozen households' entire income, and every item of it is here because somebody who is not here yet is expected to want it. The old compendiums begin their count of the ordinary mind in exactly this world, the world of what is seen, heard, smelled, tasted and touched.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "First light from the air. The whole strip: two rows of small coloured fronts facing each other across a straight road, and the traffic beginning to thicken.",
+      "voice": "The count comes to fifty-four kinds of ordinary mind. Wanting is a large part of it. It is not the whole of it: twenty-four of the fifty-four are the ones the sources call beautiful. Nothing along this road is being set up as a trap.",
+      "concept_id": "C004"
+    },
+    {
+      "on_screen": "Mid-morning at the verge. A car that slows on its own and pulls in with nobody signalling to it. Then, twenty metres along, a woman steps forward with an arm out and a packet held up, and a van indicates and stops.",
+      "voice": "The sources set wanting on a few dials, and the plainest one is here in front of you. Some of it rises sharply, on its own, needing nobody. Some of it needs a push: another person urging it along. Neither is rarer than the other, and this is what both look like, six metres apart, on the same piece of road.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "A car goes past the whole strip at speed. A hundred metres on, the brake lights come on. It stops on the shoulder, sits there for a moment, then reverses back along the verge to a stall it has already passed.",
+      "voice": "And there is the third case, which is the one people recognise in themselves. Not urged by anyone. Urged by yourself, talking round a mind that was holding back. The texts say this kind comes with a heaviness in it, a sluggishness that the sharp kind does not have. You have just watched a hundred metres of it, and then the same hundred metres backwards.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Two customers at one stall in a single frame: a child's family, open-mouthed and delighted over the same packet that the man beside them is buying with no expression at all. Then a packet opened at a car window and something eaten.",
+      "voice": "Both of these are the same reaching. The sources are exact about it: this kind of wanting arrives either with gladness or with a flat, middling feeling, and never with displeasure. So a flat face is not evidence of not wanting. And the gladness is not sitting in the packet. Plain bodily pleasure, in this analysis, has one seat only, and it is not taste, it is touch. Almost everything else we call enjoying a thing is gladness the mind makes around it.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "Bargaining at a car window. A packet turned over, a price said, a head shaken, a second packet added, a folded note. Nobody's words are subtitled.",
+      "voice": "There is a third dial in the sources, and this film is going to tell you what it is and then refuse to use it. It is whether the wanting arrives carrying a story that excuses it. The sources rank that version as the heavier one, which is the opposite of what most people assume. But a story like that lives inside a person. It cannot be read off a face through a car window, and a camera that claims to has started lying.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "A regular. A vehicle that pulls in without being hailed, a packet handed over before anything is said, money already counted, gone in under fifteen seconds, and no expression on either side of the exchange.",
+      "voice": "The sources put flat, middling feeling in fifty-five kinds of mind, and those include the calmest and most refined of all. Flat is not the same as numb, and calm is not proof that someone is not involved. One of the two compendiums goes further and ranks the unexcited kind of wanting above the glad kind in sheer weight, and gives no reason for it anywhere we have read. We can show you the flatness. We are not going to tell you what it weighs.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "The last hour of light. Arms still going out against low sun. Then stock carried in, shutters down, the fronts shut one after another, and a road with nothing beside it but closed boxes and passing headlights.",
+      "voice": "None of this was a mistake and none of it was a verdict on anybody. It was a road, and a few dozen households whose living depends on the six seconds in which a stranger changes their mind, and the books that count these minds count the good-hearted ones in the very same list. Tomorrow the shutters go up again before six.",
+      "concept_id": "C004"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C006 contributes the three dials the sources set on wanting: joy or flat feeling, with or without a story that justifies it, and rising sharply on its own or needing a push from outside, a seller's calling being the plainest prompt there is. C004 contributes the frame in which these arise, the ordinary sense-sphere day of sight, sound and small transaction, and the definition of greed as an attaching that never comes with displeasure.",
-    "what_it_reveals": "Together they show a form of wanting with no excitement in it at all, which is the hardest kind to recognise as wanting. The sources go further and rank the flat, unexcited version as stronger than the joyful one; the digest records that ranking as unexplained and needing an expert check, so the film can let a viewer notice the flatness without asserting the ranking. The same flatness sits on the seller's side of the counter: wherever somebody hoping meets somebody practised, the practised one is not less involved, only quieter."
+    "why_together": "Read fresh, C006 is not a moral verdict on desire but a description of settings. The sources sort one force by three of them: gladness or flat feeling [C006-P:L25] [C006-P:L74]; with or without a story that excuses it [C006-P:L33]; and arising sharply of its own nature [C006-P:L44] or urged on, by others or by one's own coaxing of a mind that is holding back [C006-M:L5] [C006-P:L58–L62], which carries a sluggishness the sharp kind does not have [C006-P:L62]. Its own first story seed is a trading place with vendors calling out to passers-by. C004 supplies the frame those settings sit in: the everyday world of what is seen, heard, smelled, tasted and touched [C004-P:L25], greed defined as the attaching that takes things to be good, beautiful or sweet [C004-M:L13], present with delight in one person and flat routine in another [C004-M:L17] and never with displeasure [C004-M:L15], and the count itself, which keeps twenty-four of the fifty-four as beautiful minds [C004-P:L27]. C032 explains the dial the camera sees most of, feeling: it is the tasting of an object's flavour and is in every mind [C032-P:L41] [C032-P:L43], it comes in three ways only [C032-M:L5], and the count is startling, one seat for plain bodily pleasure and sixty-two kinds of mind carrying mental gladness [C032-P:L99–L101], with the four glad greed-rooted minds among them [C032-M:L9]. A roadside where the same goods are offered to several thousand passing people in a day, and refused by almost all of them, is where all three can be watched instead of asserted.",
+    "what_it_reveals": "That wanting is not one thing with one look. C006 on its own is a taxonomy. C004 on its own is a map of the day. C032 on its own is a theory of feeling. Together they turn one shot into the whole argument: two people at one stall, one delighted and one showing nothing, buying the same packet for the same price. If the gladness were in the packet, both faces would carry it. The pairing also closes off the two cheap endings. It refuses the idea that calm is detachment, because the sources put flat feeling in the most refined minds they know [C032-P:L75–L83]; and it refuses the idea that pleasure is the enemy, because they count pleasant feeling through generous and kind moments as well."
   },
   "concept_links": [
     {
       "concept_id": "C006",
       "role": "primary",
-      "why": "A seller's calling is prompting made audible, while regulars buy unprompted and out of habit; the sources separate wanting that arises sharply of its own accord from wanting urged on by others or by oneself, and sort it again by joyful or flat feeling [C006-M:L5] [C006-P:L44] [C006-P:L74]. The sources also rank flat wanting above joyful, which the digest flags as unexplained and needing an expert check [C006-M:L19], so the film may show the flatness but must not assert the ranking."
+      "why": "The three settings are all filmable along this one stretch of road, and the third of them is filmable from the air. The sources separate wanting that arises sharply of its own nature [C006-P:L44] from wanting urged on by others or by one's own pushing of a hesitant mind [C006-M:L5] [C006-P:L58–L62], and note that the pushed kind carries a sluggishness the spontaneous kind does not [C006-P:L62]; and they sort the same wanting again by gladness or flat feeling [C006-P:L25] [C006-P:L74]. The digest's limits are written into the sequence rather than left in the risks. The third dial, the justifying story, is chiefly about denying consequences [C006-P:L33] and must never be mapped onto anyone's faith or read off a stranger's face through a windscreen, so beat 6 names it and refuses it. The ranking of flat wanting above glad wanting [C006-M:L19] is recorded in the digest as unexplained and needing an expert check, so beat 7 shows the flatness and declines to state the weight. And 'I was pushed into it' is not an excuse in these sources: prompted wanting is ranked weaker and is still wanting."
     },
     {
       "concept_id": "C004",
       "role": "supporting",
-      "why": "The ticket seller is one of the digest's own story seeds, a reaching for a hoped-for good inside an ordinary sense-sphere day [C004-P:L25], with delight on one face and flat routine on another [C004-M:L17]. The digest is explicit that one source's remarks on gambling belong to that author's own contemporary moral commentary rather than to the teaching [C004-P:L57], and the film must not carry them."
+      "why": "This is the everyday sense-sphere world the count is a count of, sight and sound and smell and taste and touch offered at a car window [C004-P:L25], with the attaching defined as taking things to be good, beautiful or sweet [C004-M:L13], arriving with delight in one person and with flat routine in another [C004-M:L17], never with displeasure [C004-M:L15], and sometimes spontaneously and sometimes because someone urged it [C004-M:L21]. The digest's guard is the film's ending: twenty-four of the fifty-four are counted beautiful [C004-P:L27], so the sources do not treat sense life as simply bad, and the film must not leave a viewer thinking a roadside trade is a moral warning. The Pradeepika's own contemporary commentary on gambling, drink and the rest [C004-P:L55–L69] is the author's moral argument and is not carried here at all."
+    },
+    {
+      "concept_id": "C032",
+      "role": "supporting",
+      "why": "Added on this rewrite, because the dial the camera actually sees is feeling. Feeling is the tasting of an object's flavour, present in every mind because every mind takes an object [C032-P:L41] [C032-P:L43], experienced as pleasant, unpleasant or neither, with no fourth way [C032-M:L5]. The counts are what make the beat work: plain bodily pleasure has a single seat and the remaining sixty-two glad minds are mental gladness [C032-P:L99–L101], and the four glad greed-rooted minds sit among them [C032-M:L9], which is why two faces can differ over one packet. Its guards travel with it: neutral does not mean numb, since fifty-five minds carry neutral feeling including the most refined [C032-P:L75–L83]; and pleasant feeling is not the enemy, since it runs through generous and kind minds too. The digest's technical sense of all feeling as suffering [C032-P:L111] is not used in this film and must not be smuggled in as gloom."
     }
   ],
-  "what_the_viewer_could_understand": "Wanting does not always feel exciting. Buying the same numbers every morning can be a flat, habitual reach, and a newcomer may buy only because somebody kept calling, and both are the same wanting.",
-  "what_must_be_real": "The seller's real trade, the regulars' real habits, and their own words about why they play. No win or loss arranged, and no purchase prompted for the film.",
-  "position_hint": "middle, late: the group's clearest picture of wanting without joy, placed just before wanting starts meeting refusal.",
+  "what_the_viewer_could_understand": "That wanting has settings rather than a single look: it can rise on its own or be talked into you, by a seller or by yourself, and it can arrive glowing or completely flat. The flat kind is the one nobody recognises, and it is happening all day. And that the gladness is not sitting in the thing, which anybody can test by watching two people buy the same packet at the same stall for the same price.",
+  "what_must_be_real": "The real trade of the road, its real hours, and the real prices people pay, including the fact that most vehicles do not stop. Nobody is asked to hail a vehicle, to hesitate, to turn back, or to buy anything for the camera, and no exchange is replayed. No seller is filmed in a way that would damage their trade, and no buyer is followed or identified by their vehicle. The film is not built on anybody's bad day: nobody appears in it in order to lose. If a seller or a buyer does not want to be filmed, they are not in the film, and the crew never stands where it puts anyone on a live carriageway.",
+  "position_hint": "middle: the group's plainest demonstration that wanting has settings, and best placed once a film has already shown what these sources mean by reaching. No location reasoning is involved.",
   "risks": [
-    "Sneering at poor buyers or at the seller's trade",
-    "Turning gambling into a moral lesson, which the digest sets outside the teaching",
-    "Privacy of regulars who may not want a habit shown",
-    "Asserting the sources' ranking of flat wanting over joyful, which the digest flags for expert check"
+    "Mocking sellers or buyers, or letting the camera find roadside commerce and its customers funny. The digest names this as the one thing that would sink a film about a trading place.",
+    "Making the sellers' appearance the subject. This trade is almost always written about in terms of how the women at the verge look, and a film that repeats that has made a different film, one about being looked at rather than about wanting; the camera's own position, outside a windscreen looking at a woman who has to wave at strangers for a living, is part of what the film has to handle honestly.",
+    "Calling anyone greedy, or letting the narration land on a face so that a viewer reads it as an accusation. The sources describe kinds of moment, not kinds of person, and the film says so.",
+    "Asserting the Margaya's ranking of flat wanting above glad wanting [C006-M:L19], which the digest records as unexplained in the extracts and needing an expert check.",
+    "Reading the third dial, the justifying story, off a stranger at a car window. It is interior, the sources' examples are chiefly denials of consequence [C006-P:L33], and the digest forbids mapping it onto any community's faith.",
+    "Letting 'they were talked into it' work as an excuse. Prompted wanting is ranked weaker in the sources and is not absolved by them.",
+    "Carrying the Pradeepika's own moral commentary on gambling, drink and the rest into the film [C004-P:L55–L69]; it is that author's contemporary argument and not the taxonomy.",
+    "Ending on 'the sense world is a trap', which the count itself refuses: twenty-four of the fifty-four are the beautiful minds [C004-P:L27].",
+    "Turning flatness into a diagnosis. Neutral feeling is counted in fifty-five kinds of mind including the most refined ones [C032-P:L75–L83], so a flat face proves nothing on its own.",
+    "Consent obtained through a car window in a few seconds, at speed, in more than one language, from people who are about to drive away.",
+    "The plain physical danger of working at the edge of a trunk road, for the sellers and for a crew; and drone permission over a national highway and over houses set behind it."
   ],
   "drop_if": [
-    "No seller or regulars will speak honestly about the habit",
-    "The habit can only be shown by exposing someone who did not understand what they agreed to"
+    "The sellers will not have a camera at the verge, or the film can only be made by standing where it puts people on a live carriageway.",
+    "Access can only be had on terms that require sellers to hail vehicles or customers to repeat a purchase for the camera.",
+    "The trade can only be filmed as something arranged for visitors rather than as an ordinary day's selling.",
+    "The film cannot be made without turning the sellers' appearance into its subject."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0025",
-      "relation": "mirrors",
-      "note": "Hope bought in small daily doses here, hope refused all at once there."
+      "idea_id": "IDEA-0014",
+      "relation": "pairs with",
+      "note": "Things made because they will be wanted, and then the six seconds in which the wanting has to be produced in a stranger who was not going to stop."
     },
     {
       "idea_id": "IDEA-0015",
-      "relation": "absorbs",
-      "note": "Folded in: the practised, unexcited side of a hopeful exchange, and the sources' surprising ranking of flat wanting above joyful."
+      "relation": "mirrors",
+      "note": "Two kinds of buying, one where the seller calls to a stranger at speed and one where the buyers call a price at a seller who is not in the room."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0015"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "The group's picture of joyless, habitual wanting, now carrying the appraiser-and-hoper contrast folded in from IDEA-0015."
+    "reason": "A whole place whose physical rhythm is organised by wanting, with the sources' three settings visible along the same stretch of road on the same morning, and the third of them visible from the air."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Relocated. The previous draft put this film at a hill-country weekly fair, which collided with IDEA-0025, whose overhead shot of identical tarpaulin roofs is bound to its own concept and which keeps the fair; this idea has been moved off weekly fairs entirely. Everything else stands: the concepts, the concept links, the two-layer logic and the digests' guards are unchanged in substance. The new location is a roadside selling strip on a trunk road, chosen because C006 needs prompting and spontaneity happening visibly and repeatedly in public, and a verge where sellers hail moving vehicles gives both within a few metres of each other, several hundred times a day; it also gives the sources' third case, the person who urges their own hesitating mind, as a physical event a camera can hold, a vehicle that passes, brakes and reverses back. C004's sense-sphere frame is literal here, since the whole approach is made at a car window; C032's two faces over one object survive intact as two buyers at one stall. New title, because the old one described a fair that was built and struck in a day; the old title is kept in aliases. Sequence, place, two_layers, risks, drop_if, connections and suggested_location rewritten for the new site; images are empty, because Wikimedia Commons holds nothing of this place. review.status stays pending.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Cadjugama (Kajugama) cashew stalls, A1 Colombo–Kandy road between Nittambuwa and Pasyala",
+    "also_known_as": [
+      {
+        "name": "Kajugama",
+        "meaning": "'cashew village', the ordinary Sinhala name for the stretch",
+        "used_by": "local and national usage"
+      },
+      {
+        "name": "Cadjugama",
+        "meaning": "the older romanisation, used on signage and in the press",
+        "used_by": "press and signage"
+      }
+    ],
+    "region": "Gampaha District, Western Province; the A1 trunk road about forty kilometres inland from Colombo, between Nittambuwa and Pasyala",
+    "coordinates": {
+      "lat": 7.156,
+      "lng": 80.11
+    },
+    "elevation_m": 40,
+    "why_here": "It is a place whose entire economy is the production of wanting in strangers, at speed, in public, several hundred times a day. Everything the concept needs happens on the verge and can be filmed without going inside anybody's life: sellers step out and hail vehicles, which is prompted wanting; other vehicles pull in with nobody signalling to them, which is spontaneous wanting; and a few times an hour a vehicle passes the whole strip, brakes and reverses back, which is the sources' third case, a person urging round their own hesitating mind, rendered as a hundred metres of road. It is also the plainest place to make the film's central frame, two buyers at one stall with completely different faces over the same packet, because the goods are identical, sealed and priced, so nothing but the face is different. The stalls are a strip rather than an enclosure, which gives an aerial that is nothing like a market from above: a straight road and a pattern of braking. And the refusals are the honest majority of the day, which keeps the film from pretending that wanting always ends in a sale.",
+    "what_to_film": [
+      "The laying-out before six: shutters up, shelves set out packet by packet under a bulb, against a road that is still only lorries.",
+      "The aerial, wide enough to hold both rows of fronts and the road between them, with vehicles peeling off onto the shoulder and rejoining.",
+      "A long lens on one stretch of verge for a whole morning, held on the arm going out and the window not coming down, so that the refusals are in the film in their real proportion.",
+      "A vehicle that passes, brakes and reverses back. This is the beat the film is built around, it cannot be arranged, and it needs a fixed camera and patience.",
+      "Two buyers at one stall in a single frame, one delighted and one flat, over the same sealed packet.",
+      "A bargain at a car window in real time, from the arm to the note, with nothing subtitled.",
+      "A regular: the vehicle that pulls in unhailed and is gone in fifteen seconds with nothing said.",
+      "The difference between an ordinary working weekday, when almost nothing stops, and a holiday afternoon, when the arms are out continuously.",
+      "The last hour: stock carried in, shutters down one after another, and the road with nothing beside it."
+    ],
+    "access": "Directly off the A1 trunk road; the stalls are private businesses standing on the verge, so access is stall by stall and depends on the families who run them, with the road authority and the police worth approaching about anything filmed from the carriageway or the shoulder. Nothing should be filmed from a position that obliges a seller, a buyer or a crew member to stand in live traffic, and flying over a national highway would need its own permission.",
+    "best_time": "Daylight, in dry weather, across at least two contrasting days: a working weekday and a weekend or holiday afternoon, when the same stretch behaves completely differently. First light for the laying-out and the last hour of light for the arms and the shutters. Holiday seasons, when up-country traffic peaks, give the busiest version of the trade and also the least consent-friendly one.",
+    "images": [],
+    "sources": [
+      "https://www.ft.lk/ft-lite/Cashew-colony-of-Sri-Lanka/6-645812",
+      "https://www.thesrilankatravelblog.com/cashew-stop/",
+      "https://www.arabnews.com/node/294021",
+      "https://en.wikipedia.org/wiki/A1_highway_(Sri_Lanka)"
+    ],
+    "research_note": "That this stretch of the A1 is given over to roadside cashew selling, that sellers step out of coconut-leaf huts and from small block-and-tin fronts to hail passing vehicles, that the goods are sold in sealed packets in raw, roasted and spiced forms at prices quoted in the press, and that the trade has been there for a very long time, are from the sources above and are desk research only. The coordinates are an approximate point on the A1 between the two named towns, derived from an open gazetteer lookup of those towns rather than from a survey of the stall strip; the strip's exact extent has not been checked. Nothing about the trade's own rhythm here has been observed: the proportion of vehicles that stop, the hours the stalls keep, how the sellers divide the verge between them, whether samples are offered, and how the holiday weeks differ are all inferred and must be checked on the ground. On images: Wikimedia Commons was searched for this place and for the trade and returned nothing at all of either, so the images array is empty rather than filled with a photograph of somewhere else. One caution that belongs in the research and not only in the risks: almost all published writing about this stretch is about how the women who sell there look, which is a frame the film has to refuse, and which will also shape how sellers expect to be treated by a camera.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No seller, official or permission has been found or confirmed. Everything here is a research direction.",
+    "The trade's working hours, the proportion of vehicles that stop, and how the stalls are organised between households are unverified, and the film's rhythm is inferred rather than observed.",
+    "Whether the reversing vehicle, on which the film's central beat depends, happens often enough to be filmed in a reasonable number of days is unknown.",
+    "Whether a drone can be flown over a national highway and the houses behind it, and on what terms, is unknown.",
+    "Whether sellers will agree to be filmed at all, given how this place is usually photographed, is the first thing that would have to be found out."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }

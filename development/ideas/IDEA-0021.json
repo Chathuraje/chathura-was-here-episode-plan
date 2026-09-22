@@ -2,63 +2,117 @@
   "schema_version": 1,
   "id": "IDEA-0021",
   "record_type": "idea",
-  "title": "Second Helping",
+  "title": "Nobody Has to Ask",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-21",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Second Helping"
+  ],
   "group_id": "GRP-02",
-  "logline": "At a wedding feast, hosts keep piling food onto plates, guests protest and then accept, and one man goes back for a third helping without being asked.",
-  "human_question": "Where does hospitality end and appetite begin, and does it matter?",
-  "situation": {
-    "what_happens": "A family that has been cooking for days serves a feast to a room full of guests. The hosts move along the tables pressing more food on people, and guests refuse once or twice before giving way; others get up and return for more with nobody urging them at all. Some eat with obvious relish and some eat steadily, with no expression to speak of. In the kitchen, the people who cooked it and have tasted everything eat last, standing up, quickly and without ceremony.",
-    "who_is_involved": "The family hosting, whose standing rides on the table; guests, some close and some barely known; cooks and helpers who have tasted every dish and want none of it; one or two guests who need no encouragement whatsoever.",
-    "what_is_at_stake": "For the hosts, a generosity that would be shamed by a guest leaving hungry, and equally by food thrown away. For guests, the small social cost of refusing and the smaller one of accepting. For the cooks, days of work judged in an hour. Nobody's dignity should be the price of showing any of it.",
-    "how_it_unfolds": "Feasts of this kind build for days in a kitchen and empty out in an hour or two: a slow start, a crowded middle where the pressing is hardest, a long tail of leftovers and tired talk, and then the cooks' own plain meal at the end. Whether anyone is genuinely pressed past what they wanted, and whether the family's pride is met or disappointed, is settled by how the day actually goes and by nothing else."
+  "logline": "For eight weeks a river-valley road disappears under red fruit, and every vehicle that comes down it is either waved down, or slows on its own, and from ten metres away there is no telling which.",
+  "human_question": "When I reach for something, how much of the reaching was mine?",
+  "place": {
+    "what_kind_of_place": "A string of small villages along a slow brown river an hour inland from the coast, where an introduced fruit tree has been grown in back gardens and smallholdings for four hundred years and now more or less defines the district. The trees are not in plantations; they stand among houses, behind walls, over lanes, so that the crop is scattered through a lived-in place rather than gathered in a field. For eight or nine weeks a year the through road becomes a continuous line of temporary stalls built from poles, wire and tarpaulin, each one heaped with the same fruit, each one with somebody standing at the edge of the tarmac holding a bunch out. Out of season the road is a road with houses along it and nothing to stop for.",
+    "why_it_is_worth_watching": "Three things carry it with the sound off. From the air at first light, the canopy, in which the fruit is almost invisible from above, and then a drop of two hundred metres to a road that is one unbroken red line for kilometres. At tree height, the picking: men up in the branches with hooked poles, whole limbs coming down on ropes, sheets spread underneath, fruit sorted into crates at the foot of somebody's garden wall. And at the edge of the road, the transaction, repeated a thousand times a day within a metre and a half of moving traffic: an arm out with a bunch on it, one fruit peeled and put into a stranger's hand, a car that does not slow, a car that slows with nobody waving at it at all.",
+    "what_moves_or_changes": "A glut, which is a shape in itself. In the first week there is very little fruit and the price is absurd; by the peak there is more of it than the road can absorb and the price has fallen by two thirds; in the last week the stalls come down faster than they went up. The picking runs from before dawn; the wholesale loading is over by mid-morning; the roadside trade rises through the afternoon and peaks with the evening traffic. Rain empties the road in four minutes and fills it again in ten.",
+    "when_it_looks_best": "The weeks of the season, which run roughly from late May to the middle of August with the heaviest trade in June and July. First light for the orchards and the picking, and the last two hours of daylight for the road, when the traffic is thickest, the tarpaulins glow and every stall has its lamp on."
   },
+  "two_layers": {
+    "without_the_philosophy": "A complete piece about a glut: where the fruit comes from, how a road turns into a market and then stops being one, who makes money in which week, and what eight weeks of one crop does to a place that has to live along the same road for the other forty-four. It has its own arc, scarcity to surplus to nothing, and its own ending, poles stacked against a wall. Someone who never hears a word of narration gets a small, specific economy shown properly.",
+    "with_the_philosophy": "The same footage turns into the sources' anatomy of wanting without a single person in it being accused of anything. The voice points only at what is already visible: the same reaching arriving by two different routes, and arriving at two different temperatures, on the same road, over the same fruit, within the same minute. It says plainly what the books do claim and, twice, what they do not, and it keeps the seller's holding-out and the buyer's reaching apart, because from across a road they look identical and they are not the same act."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from the air, over river-valley canopy: houses, walls, lanes, and trees standing between all of them, the fruit invisible from above. Men going up into the branches with hooked poles.",
+      "voice": "For eight weeks a year this valley produces far more of one thing than the people living in it could possibly eat. Everything that happens on the road below for the next two months happens because of that. The old compendiums count wanting carefully, and they say it comes set by dials.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Before the season. A trader at a garden gate, looking up into a tree, counting. A number said once. A handshake. No expression on either face. Later, his pickers stripping the same tree in an hour.",
+      "voice": "The first dial is warmth. These books say wanting can come glowing, when what is in front of you pleases you, and it can come completely flat. And then one of them does something unexpected: it ranks the flat, unexcited kind as the stronger of the two. It gives no reason. The people who read these texts say that ranking needs checking before anybody leans on it. We are certainly not going to hang it on a man standing at a gate doing his arithmetic.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Mid-morning. The road being built into a market: poles going into the verge, wire, tarpaulin pulled over, crates tipped out, the heaps going up. A lorry pulling away.",
+      "voice": "Before the dials, something underneath all of them. These books teach that every mind tastes whatever it has taken hold of, and that the taste comes in three ways and there is no fourth: pleasant, unpleasant, or neither one. It arrives with the experience. It is not a verdict anybody reaches afterwards.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "Afternoon at the roadside. An arm out over the tarmac with a bunch on it. A fruit peeled with a thumbnail and put into a hand through a car window. A driver shaking his head and taking it anyway.",
+      "voice": "The second dial is the push. These books have a word for wanting that had to be urged, and it covers both the urging somebody else does and the one you do on yourself when part of you is holding back. One of their own worked examples for this whole family of wanting, incidentally, is eating something with relish. Not a crime. A plate of food.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "A car that slows with nobody waving at it. It pulls in on its own, twenty metres past the nearest stall, and reverses.",
+      "voice": "And then the other kind, which the books say rises sharply, of its own nature, with nobody's help. Here is where they are careful, and so is this film. They rank the pushed kind as the weaker of the two. They do not say it is somebody else's. Being talked into it makes it smaller in their reckoning. It does not make it not yours.",
+      "concept_id": "C006"
+    },
+    {
+      "on_screen": "Two faces within thirty seconds of each other: a child in the back of a car at the first fruit of the year, and a picker eating one standing up beside a crate, looking at the road, with no expression at all.",
+      "voice": "Back to the first dial, and to the count. Of the minds these books list, sixty-two carry gladness and fifty-five carry the feeling that is neither one thing nor the other. Both of those are on this road right now, over the same fruit, a few metres apart. One of these books, as we heard, ranks the flat one the heavier of the two. Neither of them anywhere says that pleasant feeling is where wanting starts. That sentence is ours and not theirs, and it is not going to be said here as though it were.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "Late season. Rain. A chalked price rubbed out and written lower. More fruit on the stall than there is traffic on the road. A crate of it going soft at the back.",
+      "voice": "There is a sober line in one of these books, and it is worth having exactly as it is. Even pleasant feeling costs something, because it leans on conditions, it rises and falls, and it hurts when it turns. That is a technical remark about how conditioned experience works. It is not a mood, and it is not a claim that nothing here is enjoyable.",
+      "concept_id": "C032"
+    },
+    {
+      "on_screen": "The last week. Tarpaulins folded, poles pulled out of the verge and stacked against a wall, wire coiled. The road, with houses along it, and nothing to stop for.",
+      "voice": "One last thing, because it would be easy to get backwards. What these books were sorting was never the arm held out over the road. Generosity and appetite look exactly alike from across a road, and only one of them is being classified. They were describing the moment of reaching, whoever did it, however it arrived. It will be back next June.",
+      "concept_id": "C006"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C006 contributes the distinction the room is already making without naming it: wanting that rises on its own and wanting that arrives through another's urging. The sources' own example for both is eating with relish, and they add that a person can prompt themselves, talking a hesitating mind round. C032 contributes the tone: every mind tastes its object as pleasant, painful or neutral, with no fourth way, and the joyful wanting minds sit squarely among the pleasant ones while others are flat. A feast is the rare occasion where urging, spontaneous appetite and plain, tired eating happen at one table within the same hour.",
-    "what_it_reveals": "That being pressed does not make the eating someone else's act, and that a guest's appetite and a host's generosity are not the same thing although they look identical from across the room. And that the clearest view of wanting in its flat, joyless form is not at the tables at all but in the kitchen afterwards, where the same food is eaten by people who are only hungry."
+    "why_together": "Read fresh, C006 is an anatomy and C032 is what every part of that anatomy is made of. C006 sets wanting by three dials: it arises with gladness when the object pleases [C006-P:L25] and with neutral feeling when the object is neutral [C006-P:L74]; it comes with or without a view that denies consequences or excuses the act [C006-P:L33]; and it either rises sharply of its own nature [C006-P:L44] or has to be urged, by other people or by the person coaxing their own hesitating mind [C006-M:L5], the Margaya's own examples for the family being eating with relish, both unprompted and under a host's urging [C006-M:L7] [C006-M:L9]. It then ranks them, unprompted over prompted and, against expectation, neutral over joyful [C006-M:L19]. C032 supplies the layer underneath: feeling is present in every mind because every mind tastes what it has taken [C032-P:L43]; it is threefold by the way it is experienced with no fourth [C032-M:L5]; the counts are sixty-two minds carrying gladness and fifty-five carrying the neutral feeling [C032-M:L9] [C032-M:L13]; and the joyful greed-rooted minds are counted squarely among the pleasant-feeling ones [C032-P:L58]. A road in a glut is the only kind of place where one object meets every setting of both, inside an hour, in public, with nothing arranged.",
+    "what_it_reveals": "That the sources are classifying the reaching and not the person, and not the seller. Once that is clear the film can show a thousand transactions without a word of judgement in it, which is the only way this group's subject can be filmed at all. C006 alone would drift towards a study of appetite and would end by pointing at somebody. C032 alone is a table of counts. Together they produce the film's real finding, which is that neither temperature is the moral one: the glad buyer and the flat one are doing the same thing, and the book that ranks them puts the flat one higher. The pairing also fixes the group's two standing errors. The line that pleasant feeling is where wanting begins is an editorial compression and is not in these extracts, so it is never spoken. And the seller's hospitality is not the buyer's wanting, which the digest warns against blurring and which beat 8 exists to keep apart."
   },
   "concept_links": [
     {
       "concept_id": "C006",
       "role": "primary",
-      "why": "The sources' own example of a greed-rooted mind is eating with relish, given both as arising spontaneously and as arising when urged on by a host, or by oneself coaxing a reluctant mind [C006-M:L5] [C006-M:L7] [C006-M:L9]. A feast shows both in one room at one meal. The sources rank prompted wanting as weaker without excusing it [C006-M:L19], and what they are classifying is the guest's reaching, not the host's hospitality, which the digest warns must not be blurred together."
+      "why": "The digest's three dials are the road's own behaviour. Warmth: wanting arises with gladness when a pleasing object is met [C006-P:L25] and with neutral feeling when the object is neutral [C006-P:L74]. Push: the prompted kind is urged by others or by oneself, talking a hesitating mind round [C006-M:L5], while the unprompted kind arises sharply, of its own nature [C006-P:L44], and one of the Margaya's own worked examples for the whole family is eating with relish, given both spontaneously and as arising when somebody urges it on [C006-M:L7] [C006-M:L9]. The rankings are the film's most interesting single fact and its most dangerous one: unprompted outweighs prompted, and neutral outweighs joyful [C006-M:L19]. Four guards travel with all of this and are written into the beats. The digest says outright that the neutral-over-joyful ranking has no commentarial basis in the extract and needs an expert check, so beat 2 says so on camera rather than presenting it as settled. 'I was pressured, so it is not on me' is refused in beat 5, because the sources rank prompted wanting weaker without absolving it. The conditions the Pradeepika lists as favouring the spontaneous kind, among them temperament, health, patience, habit, company, suitable weather and food [C006-P:L46–L52], describe tendencies and not fate and are not read onto anybody here. And the wrong-view dial is dropped from the film entirely: the digest forbids mapping wrong view onto any community's faith, and its own listed example is flagged as sensitive and needing editorial care [C006-P:L33]. The digest's warning that the host's generosity must not be confused with the guest's wanting is what the last beat is for; nothing in the film calls a seller greedy, and the earlier draft's identifiable man taking a third helping is gone."
     },
     {
       "concept_id": "C032",
       "role": "supporting",
-      "why": "The sources count the four joyful greed-rooted minds among the pleasant-feeling minds, and teach that feeling accompanies every mind in one of three ways with no fourth [C032-P:L58] [C032-M:L5]; so relish at one plate and flat, automatic eating at the next are two tones of the same reaching. The group's line that pleasant feeling is where wanting begins is editorial compression and is not stated in these extracts, so the film must not present it as source teaching. An earlier draft read the source's suffering of change [C032-P:L117] as pleasure turning uncomfortable once there is too much of it; that is a misreading of a passage about conditioned feeling changing, and it has been removed."
+      "why": "It gives the film the layer that makes C006's warmth dial mean something instead of being a label. Feeling accompanies every mind, since it is the tasting of the object's flavour and every mind takes an object [C032-P:L43]; by the way it is experienced it is threefold and there is no fourth [C032-M:L5]; and the sorting of the whole scheme puts sixty-two minds under gladness and fifty-five under the neutral feeling [C032-M:L9] [C032-M:L13], with the four joyful greed-rooted minds counted among the pleasant-feeling ones [C032-P:L58]. Beat 7 uses the Pradeepika's sober addition that even pleasant feeling is costly because it is conditioned, rises and falls, and hurts when it turns [C032-P:L111] [C032-P:L117], and says in the same breath that this is a technical analysis and not pessimism, because the digest rules out 'life is suffering' as a mood and notes that these three kinds rest on the Pradeepika alone. Three further limits hold. 'Chase good vibes' and 'pleasure is the enemy' are both refused: the digest points out that greed can arise with neutral feeling too and that pleasant feeling runs through generous, kind and deeply concentrated minds as well. 'Neutral means numb' is refused for the same reason it is refused in the group's other films. And the Pradeepika's own wording for the neutral object [C032-P:L75] is not used at all, because the digest flags it as possibly garbled and in need of an expert check."
     }
   ],
-  "what_the_viewer_could_understand": "A second helping can be reached for on our own or accepted because someone keeps pressing it on us, and either way it is the same wanting. It comes feeling pleasant or just ordinary, never unpleasant, which is why it does not always look like pleasure.",
-  "what_must_be_real": "A real family's hospitality, real guests and their own behaviour. Nobody urged to eat, or to refuse, for the film; no plate arranged; the cooks' own meal not delayed for anybody.",
-  "position_hint": "middle, early: the second beat, where the wanting the group opened with is shown arriving by two routes at once and carrying its feeling tone with it.",
+  "what_the_viewer_could_understand": "That the same reaching can arrive because somebody held something out, or because nobody did, and that from outside the two are indistinguishable. That it comes glowing or it comes flat, and neither of those is the better one. And that being talked into something makes it weaker in the books' reckoning without making it anybody else's.",
+  "what_must_be_real": "A real season, real sellers and real buyers behaving as they would anyway. Nobody is asked to call out, to hold fruit out, to stop, to taste or to refuse for the camera; no stall is dressed and no heap is rebuilt for a frame. Prices are whatever is chalked up that afternoon. No buyer is identifiable as the subject of a point about appetite, and no seller is identifiable as the subject of a point about persuasion. If a grower or a trader wants to talk about the economics of a glut, that is theirs and it is unprompted.",
+  "position_hint": "middle, early: the group's plainest anatomy of wanting, and the one that has to come before the films that complicate it, so that later the distinction between a wish to act and a wish to keep has something concrete to be a distinction from. No location reasoning is involved.",
   "risks": [
-    "Ridiculing guests' appetites",
-    "Confusing the host's generosity with the guest's wanting, which the digest explicitly warns against",
-    "Hospitality shown without the respect it is owed",
-    "A family's private celebration used for spectacle",
-    "Presenting the editorial line that pleasant feeling is where wanting begins as though the sources said it"
+    "Making anybody in frame look greedy. Nobody is filmed in order to be an example of appetite, and no single buyer carries a point about wanting.",
+    "Confusing the seller's holding-out with the buyer's reaching, which the digest warns against explicitly. Only one of the two is being classified, and beat 8 says so.",
+    "Presenting the compendium's ranking of flat wanting above joyful wanting as settled doctrine. The digest says the extract gives no commentarial basis for it and that it needs an expert check [C006-M:L19].",
+    "'I was pressured, so it is not on me.' The sources rank prompted wanting weaker and do not absolve it.",
+    "Reading the Pradeepika's conditions for spontaneous wanting as fate or as genetics [C006-P:L46–L52]; the digest rules both out.",
+    "Touching the wrong-view dial. The digest forbids mapping it onto any community's faith, and its own example is flagged as needing editorial care [C006-P:L33].",
+    "Presenting the group's line that pleasant feeling is where wanting begins as though these extracts said it. They do not, and the digest names the compression.",
+    "Turning the season's end into melancholy. The suffering of change is a technical point about conditioned feeling [C032-P:L117], not a mood piece.",
+    "Filming at the edge of live traffic, which is where the whole trade takes place, and endangering sellers, buyers or crew to get the shot.",
+    "Becoming an agriculture report. Yields, exports and the economics of a glut are the film's human weight, not its subject."
   ],
   "drop_if": [
-    "No family will let a private celebration be part of the film at this closeness",
-    "The kitchen side of it, which carries the contrast, cannot be included"
+    "The season fails, or the road trade has been moved off the verge, so that the pressing and the stopping no longer happen in public.",
+    "The transaction can only be filmed by arranging it, or by asking a seller to call out for the camera.",
+    "Filming at the roadside cannot be done without creating a hazard for the people working there."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0016",
       "relation": "absorbs",
-      "note": "Folded in: the same appetite in its plain everyday form, ordered without a word and eaten without ceremony, which now sits in the kitchen at the end of the feast."
+      "note": "Folded in: the same appetite in its plain everyday register, taken without a word said and eaten standing up, which now sits beside the crates at the foot of a tree."
     },
     {
       "idea_id": "IDEA-0022",
       "relation": "pairs with",
-      "note": "Two rooms where the same food meets several different feelings at once."
+      "note": "Two places where one object meets several different feelings at once, and the difference is not in the object."
     }
   ],
   "selection": {
@@ -67,17 +121,60 @@
       "IDEA-0016"
     ],
     "superseded_by": null,
-    "reason": "Holds the prompted-and-unprompted beat on the sources' own example, and now carries the everyday register folded in from IDEA-0016."
+    "reason": "A place whose standing pattern is abundance pressed on strangers, where both routes into wanting and both of its temperatures occur in public within the same minute."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten into the footage-led shape. The old situation block is gone entirely, including the named man taking a third helping at a wedding feast, which was exactly the identifiable person shown as greedy that the digests forbid. New location: a river-valley fruit district in the weeks of its glut, when the through road becomes a continuous line of stalls and the whole physical rhythm of the place is abundance pressed on passing strangers. The film classifies the reaching and never a person, and keeps the seller's holding-out and the buyer's reaching apart. New title; old title kept in aliases. Both concept links re-tested against their digests and rewritten. C006 re-grounded on the three dials and on the Margaya's own eating example, with the wrong-view dial dropped entirely, the neutral-over-joyful ranking spoken on camera as the unverified ordering the digest says it is, and the guard that prompting does not absolve. C032 widened from the joyful-greed count to the threefold scheme with no fourth, the sixty-two and fifty-five counts and the suffering of change taken as the technical point it is; the garbled neutral-object passage and the group's editorial line on pleasant feeling are both explicitly refused. Added place, two_layers, an eight-beat sequence and a suggested location.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Malwana and the rambutan villages of the lower Kelani valley",
+    "also_known_as": [
+      {
+        "name": "the rambutan belt",
+        "meaning": "the run of orchard villages from Malwana upriver towards Hanwella",
+        "used_by": "trade and everyday usage"
+      }
+    ],
+    "region": "Biyagama and Hanwella divisions, Gampaha and Colombo Districts, Western Province; along the Kelani river north-east of Colombo",
+    "coordinates": {
+      "lat": 6.9333,
+      "lng": 80.0
+    },
+    "elevation_m": 15,
+    "why_here": "It is a place whose entire physical rhythm, for eight or nine weeks a year, is organised around persuading strangers to take more of one thing than they came for. The trees grow in back gardens and smallholdings rather than in plantations, so the crop is scattered through an inhabited valley and the trade has nowhere to happen except the verge of the through road; that puts the whole of the group's subject in public, in daylight, within a metre of moving traffic, a thousand times a day. It also gives the film every setting of both concepts inside the same hour: the pre-season sale of a whole tree at a gate, which is flat and calculating; the roadside fruit peeled and put into a stranger's hand, which is prompting; the car that pulls in with nobody waving at it, which is not; the child's face and the picker's, which are the two temperatures of feeling a few metres apart. And it gives the film its shape for free, because a glut has a beginning, a peak and an end, and the last week takes the market down faster than it went up. The best shot the place produces is also the concept: a drop from canopy in which the fruit cannot be seen at all to a road that is one unbroken red line.",
+    "what_to_film": [
+      "First light from the air over the valley: houses, walls, lanes and trees among them, the fruit invisible from above, and then the drop to the road.",
+      "The picking, at tree height: hooked poles, limbs coming down, sheets spread, sorting into crates at the foot of a garden wall.",
+      "A whole-tree sale at a gate before the season, if a grower and a trader will allow it: the looking up, the counting, the single number, the handshake.",
+      "A stall being built in the morning from poles, wire and tarpaulin, and the heap going up on it.",
+      "The transaction at the verge, from a fixed position, for a long time and without cutting: the arm out, the fruit peeled and offered, the cars that do not slow.",
+      "One car that stops with nobody waving at it, which is the counterpart shot and is the harder of the two to catch.",
+      "Two faces within the same minute, one delighted and one entirely flat, over the same fruit.",
+      "The chalked price through the season, rewritten lower.",
+      "The last week: tarpaulins folded, poles pulled out of the verge and stacked, and the road afterwards."
+    ],
+    "access": "By road from the eastern suburbs of the capital along the river, about twenty kilometres; the belt runs along a single through road and the stalls stand on its verge, so the trade itself is public and needs no permission beyond the sellers' own. The orchards are private back gardens and smallholdings and are entered household by household. Aerial work over an inhabited valley with a busy road under it will need permission and careful planning, and nothing should be filmed from a position that puts anybody nearer the traffic than they already are.",
+    "best_time": "The season, roughly late May to the middle of August, with the heaviest trade through June and July; the first and last weeks are worth filming precisely because they are not the peak. First light for the orchards and the picking, and the last two hours of daylight for the road.",
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Malwana",
+      "http://www.serendib.btoptions.lk/article.php?issue=19&id=465",
+      "https://www.experiencetravelgroup.com/blog/fruit-seasons-sri-lanka",
+      "https://taprobanesl.lk/rambutan-jewel-of-the-jungle/"
+    ],
+    "research_note": "The district's standing as the centre of the crop, its position along the river north-east of the capital, the extent of the belt upriver, the season running from about May to the middle of August with the heaviest weeks in June and July, the growing of the trees in back gardens rather than plantations and the wayside stalls that appear for the season are all from the sources above and are desk research only. The coordinates are the main village's, not a surveyed point on the road. The pre-season sale of whole trees to traders, the shape of the price through a season, current stall numbers and drone rules over the valley are unverified. No Wikimedia Commons images of this district in season were found that could be verified, so the images array is deliberately empty rather than filled with pictures of the fruit taken somewhere else.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-21"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No grower, trader, seller or permission has been found or confirmed. Everything here is a research direction.",
+    "Whether whole trees are still sold standing to traders before the season, which beat 2 depends on, is unverified.",
+    "Whether the roadside trade can be filmed safely and unobtrusively at the edge of a busy road has not been assessed.",
+    "Whether the price actually falls across the season by anything like the amount assumed here has not been checked against real figures."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is Claude's suggestion and awaits Chathura's verdict; its supporting detail is desk research and is unverified. No scene or shot is decided here."
 }
