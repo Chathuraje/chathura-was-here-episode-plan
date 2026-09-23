@@ -85,6 +85,10 @@ export type IdeaBrief = {
   previous: { id: string; title: string } | null;
   next: { id: string; title: string } | null;
   related_ideas: { id: string; title: string; relation: string; note: string }[];
+  /** Full records of every idea this one points at, so an agent gets the whole neighbourhood. */
+  connected_ideas: Idea[];
+  /** Every other idea proposing the same place, if any. */
+  same_place_ideas: { id: string; title: string; location: string }[];
   concepts: {
     id: string;
     title_si: string;
@@ -160,10 +164,23 @@ async function buildBrief(ideaIds: string[]): Promise<IdeaBrief | null> {
   const related_ideas = source_ideas.flatMap((context) => context.related_ideas)
     .filter((related, index, all) => all.findIndex((candidate) => candidate.id === related.id
       && candidate.relation === related.relation && candidate.note === related.note) === index);
-  const manifest = [...ideas, group, object, ...concepts.map((concept) => concept.digest)]
+  // Whole records, not just labels: an agent handed this brief should not need a second fetch.
+  const connectedIds = new Set(ideas.flatMap((entry) => entry.connections.map((c) => c.idea_id)));
+  for (const entry of ideas) connectedIds.delete(entry.id);
+  const connected_ideas = [...connectedIds]
+    .map((id) => dev.ideas.find((entry) => entry.id === id))
+    .filter((entry): entry is Idea => Boolean(entry));
+  const ownPlace = idea.suggested_location?.name;
+  const same_place_ideas = ownPlace
+    ? dev.ideas.filter((entry) => entry.id !== idea.id && entry.suggested_location?.name === ownPlace)
+      .map((entry) => ({ id: entry.id, title: entry.title, location: entry.suggested_location!.name }))
+    : [];
+  const manifest = [...ideas, ...connected_ideas, group, object, ...concepts.map((concept) => concept.digest)]
     .filter((record): record is NonNullable<typeof record> => Boolean(record))
     .map((record) => ({ id: record.id, version: record.version, status: record.status }));
   return {
+    connected_ideas,
+    same_place_ideas,
     generated_at: new Date().toISOString(),
     idea,
     source_ideas,
@@ -281,6 +298,8 @@ Sources: ${lesson.sources.map((source) => `${source.concept_id} (${source.citati
   const ideaBlocks = brief.source_ideas.map((context, index) => {
     const sourceIdea = context.idea;
     return `### ${index + 1}. ${sourceIdea.id} ${sourceIdea.title} (${context.presentation_role})
+${sourceIdea.aliases.length ? `**Also filed as:** ${sourceIdea.aliases.join("; ")}\n` : ""}**Record:** version ${sourceIdea.version}, updated ${sourceIdea.updated_at} by ${sourceIdea.updated_by}. Group ${sourceIdea.group_id}. Status ${sourceIdea.status}.
+
 **In one line:** ${sourceIdea.logline}
 
 **Human question:** ${sourceIdea.human_question}
@@ -309,6 +328,8 @@ ${sourceIdea.sequence.map((beat, beatIndex) => `${beatIndex + 1}. *On screen:* $
 **What the viewer could come to understand:** ${sourceIdea.what_the_viewer_could_understand}
 
 **What must be real:** ${sourceIdea.what_must_be_real}
+
+**Where it sits in the group:** ${sourceIdea.position_hint}
 
 **Risks**
 ${list(sourceIdea.risks)}
@@ -349,7 +370,10 @@ ${spot.what_to_film.map((item) => `- ${item}`).join("\n")}
 **Also known as:** ${spot.also_known_as.map((entry) => `${entry.name} (${entry.meaning}; ${entry.used_by})`).join("; ")}` : ""}${spot.research_note ? `
 
 **Research note:** ${spot.research_note}` : ""}${spot.sources?.length ? `
-**Sources:** ${spot.sources.join(", ")}` : ""}` : ""}
+**Sources:** ${spot.sources.join(", ")}` : ""}${spot.images?.length ? `
+
+**Reference images** (external archive stills, not production assets)
+${spot.images.map((image) => `- ${image.caption}\n  - file: ${image.url}\n  - source page: ${image.source}${image.licence_note ? `\n  - licence: ${image.licence_note}` : ""}`).join("\n")}` : "\n\n**Reference images:** none found for this place."}` : ""}
 
 The place is proposed by Claude from desk research and is confirmed or rejected together with the idea. Access, participants, permissions and the documentary facts are all still unresearched.`);
   }
