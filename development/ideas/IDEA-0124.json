@@ -2,74 +2,121 @@
   "schema_version": 1,
   "id": "IDEA-0124",
   "record_type": "idea",
-  "title": "What the Eye Receives",
+  "title": "Twenty Minutes of Light",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Eye Receives"
+  ],
   "group_id": "GRP-07",
-  "logline": "At a free eye-surgery camp, dressings come off one at a time, and each patient's first sight in months arrives without warning.",
-  "human_question": "How much of seeing is a small patch of living matter working, and how much is everything a person has been waiting to see again?",
-  "situation": {
-    "what_happens": "A camp is organised so that people who cannot afford or reach eye surgery can have it in a day or two. A queue forms early. People are examined, sorted, operated on and bandaged, and the next morning the dressings come off one by one. Some see well, some see partly, and some do not get the result they hoped for. Families wait through all of it. Afterwards people go home to houses, work and faces they have not been able to see properly for months or years.",
-    "who_is_involved": "The patients, mostly older people; the families who brought them and will take them home; the surgeons, nurses and volunteers running the camp; the organisation paying for it and counting the operations.",
-    "what_is_at_stake": "For a patient, whether they can work, cook, walk to the shop, or see a grandchild clearly. For a family, how much daily care will still be needed. For the camp, a number of operations against a fixed budget and a fixed day, which decides who is selected and who is turned away.",
-    "how_it_unfolds": "Camps run to a tight schedule with a long wait inside it. The pressures are numbers, time and selection. They end with results that differ from person to person and are known only when a dressing comes off. Nothing there can be arranged, and no one's reaction should be waited for as a payoff."
+  "logline": "Several hundred structures lie under the trees on a forested ridge where, at midday, almost nothing can be seen of them, and for about twenty minutes at each end of the day a low sun turns the ground into a legible drawing of terraces, paths and platforms and then takes it away again.",
+  "human_question": "If a thing only appears when the light is right, what were you looking at the rest of the time?",
+  "place": {
+    "what_kind_of_place": "A long forested ridge standing out of dry-zone scrub, carrying the remains of a very large monastic settlement: hundreds of low structures spread across its slopes, mounds that were stupas, cut steps, terraces, retaining walls, ponds cut into rock, and natural rock shelters with a drip-ledge cut along the brow and lines of early letters incised under it. Almost none of it has been rebuilt. Trees have grown through and over most of it, and in flat light the hill reads as forest floor with stones in it. Nothing about the place announces itself; its scale is only apparent when the light makes edges.",
+    "why_it_is_worth_watching": "It is a place that appears and disappears daily without changing. When the sun is low, everything with an edge throws a shadow, and from the air the plan of the settlement comes up out of the ground: terrace lines, the run of a path, the circle of a mound, rectangles that were platforms, all of them invisible two hours later. The same thing happens at the scale of a hand: letters cut two thousand years ago into a drip-ledge are effectively unreadable flat-on at noon and legible in raking light, with nothing in the stone having altered. And the wider country gives the film its other image for nothing, because from far off the whole ridge is a flat blue shape that looks like one solid thing.",
+    "what_moves_or_changes": "The sun, and that is nearly all. Cloud shadow crossing the slope, mist in the valley at first light, the change from green to grey-blue as the day heats, the dry-season colour against the wet-season colour. There is no schedule here but the one the sky keeps, and the film's whole subject is a condition arriving and leaving twice a day.",
+    "when_it_looks_best": "The dry months, for clear low sun and for a forest floor that is not under leaf litter and rain. Within a day the film lives in the first and last forty minutes of light, with the middle of the day filmed deliberately as the hours in which the place is not visible."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a forgotten hill and a day of light crossing it. Mist in the valley, a forest floor that turns into architecture for twenty minutes, shadow lines running along terraces, carved letters arriving under a low sun and going again, the ridge seen from far away as a blue flat shape, and long stretches of ordinary midday forest in which nothing can be made out at all. Anyone who likes looking at light on land has a complete piece here with nothing said over it.",
+    "with_the_philosophy": "The same hill becomes the sources' account of what seeing actually is. Of the twenty-eight kinds of matter they count, exactly one can be seen. What reaches the eye is described as an image of a thing's colour rather than the colour itself, always a blend of countless small colours, and it differs with distance and with light, so that what they call the true colour is never received by anyone. And without light, they say, colour is not manifest and so is not seen. A place whose plan exists only while a condition holds is that claim standing in a landscape, and it can be filmed without any person's eyes being in it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Midday. Drone over the ridge: unbroken canopy, heat haze, a few pale stones showing through leaf litter. Then on the ground, walking level across a slope on which nothing is legible.",
+      "voice": "There are several hundred structures under this canopy. At this hour a camera can make out almost none of them, and neither can anyone standing on top of them. The old analysis of matter begins by refusing the idea that a thing simply is what it is; it calls a mountain, a river or a voice a changing pattern of conditioned forces rather than a substance [C063-P:L20], and it says a thing keeps its shape only while the condition producing it is unchanged [C063-P:L26].",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "First light. The drone lifts and the slope turns into a drawing: terrace lines, the curve of a path, the circle of a mound, rectangular platforms, all of it shadow. Held long.",
+      "voice": "The sources make a claim that sounds like a technicality and is not. Of the twenty-eight kinds of matter they count, exactly one can be seen with the eye: colour [C067-P:L222; C067-M:L23]. Everything else about a thing reaches us some other way, or not at all.",
+      "concept_id": "C067"
+    },
+    {
+      "on_screen": "One terrace, the same frame, at three times of one day and at two distances: close in raking light, close at noon, and from a kilometre away.",
+      "voice": "And even colour is not delivered plainly. What strikes the eye, the text says, is an image of the outside colour rather than the colour itself [C065-P:L36–L38], and what arrives is a blend of thousands of small colours rather than any one of them [C065-P:L28]. The same thing seen from far off, from close up, in strong light and in weak light appears in different ways, so that what the text calls the true colour is not seen by the eye at all [C065-P:L34].",
+      "concept_id": "C065"
+    },
+    {
+      "on_screen": "A rock shelter: the cut drip-ledge along the brow, and under it a line of early letters. Filmed flat-on in midday light, where the surface reads as blank stone, and then in low sun, where the letters stand up. Nothing is touched, wetted, chalked or lit.",
+      "voice": "The text is exact about what makes this possible. Without the help of light, colour is not manifest, and so it is not seen [C065-P:L40]. The letters are in the rock all day. The condition is not.",
+      "concept_id": "C065"
+    },
+    {
+      "on_screen": "Time-lapse: the sun climbing, shadows shortening, the plan dissolving back into forest floor across forty minutes until there is nothing to see.",
+      "voice": "The sources sort matter into what is easily known and what is not, and call the two near and far. They are careful to say the words have nothing to do with distance: far means hard to come by [C067-M:L19; C067-P:L195]. Most of what anything is sits permanently in that column.",
+      "concept_id": "C067"
+    },
+    {
+      "on_screen": "The ridge from a long way off across the plain in flat afternoon light: a single blue shape with no detail in it, looking like one solid object.",
+      "voice": "One source warns about exactly this by comparing the four elements to a conjurer: the same ordinary behaviours arrange themselves so that a surface looks like gold or like a beautiful body, and the senses take the arrangement for the thing [C064-P:L20–L36]. The same source says the four are called great only because they show up as vast things [C064-M:L3]. It is a comparison about arrangements, not a claim about anybody who looks at them.",
+      "concept_id": "C064"
+    },
+    {
+      "on_screen": "Last light. The shadows return and the plan comes back for the second time that day. It holds, weakens and goes. Full dark on the ridge.",
+      "voice": "None of this is the eye's fault, and the texts do not ask for it to be given up. What they say is to be let go is the wanting directed at what is seen, not the thing seen and not the seeing [C067-P:L92]. The hill will be here at noon tomorrow, entirely present and entirely unseen.",
+      "concept_id": "C067"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C063 contributes the inventory in which the eye's sensitivity is one named, conditional item among twenty-eight, with nothing anywhere in the list called 'owner'. C064 contributes the account of that sensitivity as a clarity of the four great elements themselves, sitting in a small area of the organ and working only while conditions allow. C067 contributes the pairs that sharpen it: of all twenty-eight kinds only colour is visible at all, and only the five sense organs count as 'internal', not by anatomy but because the grip of 'mine' is strongest there. C065, folded in from IDEA-0115, contributes what is actually received, never the object but an image carried by light, a blend of countless small colours that shifts with distance and lighting.",
-    "what_it_reveals": "Together they take seeing apart into facts that a camp puts in one room: that sight depends on a tiny, failable piece of a living body; that even working perfectly it delivers colour rather than the thing itself; and that we hold it as the most intimate thing we own because of the grip, not because of where it sits. What becomes visible is why losing and regaining sight is felt as something happening to a person rather than to an organ, and how thin the thing being repaired actually is."
+    "why_together": "C065 supplies the model of reception this film is built on: what meets the eye is an image of a thing's colour rather than the colour itself [C065-P:L36–L38], always a blend of thousands of cluster-colours [C065-P:L28], appearing differently at different distances and in different light so that the true colour is never received [C065-P:L34], and not manifest at all without the help of light [C065-P:L40]. C067 supplies the two brackets around it: that of all twenty-eight kinds of matter only colour is visible [C067-P:L222; C067-M:L23], and that the sources' near and far mean easy and hard to know rather than close and distant [C067-M:L19; C067-P:L195]. C063 supplies the ground both assume, that a thing holds its shape only while its condition is unchanged [C063-P:L26] and is a pattern of conditioned forces rather than a substance [C063-P:L20]. C064 supplies the caution, in the form of the sources' own comparison of the four elements to a conjurer whose arrangement is mistaken for the thing [C064-P:L20–L36]. On a hill whose plan exists only while a low sun holds, the four stop being an epistemology and become a description of the afternoon.",
+    "what_it_reveals": "That the difference between visible and invisible can sit entirely outside the thing being looked at, and outside anybody's eyes. C065 alone would be a theory of perception with nothing to stand on. C067 alone is a classification. Put on a place that appears twice a day and is otherwise unreadable, they show what the sources are actually claiming: that seeing is a condition arriving, that what arrives is an image and not the object, and that almost everything about anything is permanently in the column marked hard to know. The group's question about whose this body is gets its sharpest form here without a body in the frame at all."
   },
   "concept_links": [
     {
-      "concept_id": "C063",
+      "concept_id": "C065",
       "role": "primary",
-      "why": "The digest counts the sense organs among the twenty-eight kinds as items found only in living bodies, each conditioned and none of them guaranteed, and notes that nowhere in the count is there an item called 'owner'. A camp is the ordinary situation in which that conditionality is the whole subject."
-    },
-    {
-      "concept_id": "C064",
-      "role": "supporting",
-      "why": "The digest describes the five sensitive kinds as a clarity of the great elements themselves, each sitting in a small area of its organ where the matching consciousness arises. It also states that the traditional measurements for those areas are descriptions, not anatomy, and that the sources' claim that the senses were shaped by past wanting must never be used to say anyone's loss of sight is deserved."
+      "why": "The digest holds the whole spine of this film: that what reaches the eye is an image carried to it rather than the object [C065-P:L36–L38], that it is a blend of countless faint colours rather than any single colour-element [C065-P:L28], that some colour is simply too weak to register [C065-P:L30], that one thing looks different near, far, in strong light and in weak light and that the true colour is never seen [C065-P:L34], and that without light's help colour is not manifest and so is not seen [C065-P:L40]. The digest's limits are honoured. The film never says reality is an illusion or that it is all in the head; the sources treat colour as a real kind of matter and correct only how we join the channels up. It never claims the texts anticipated optics, and the explanatory model is named on screen as the author's account rather than as science. It never argues that the senses lie. And the digest's other passages in this concept, on sex-determining matter and on the heart-base, which it says must not be turned into statements about gender or about where thinking happens, are not touched at all."
     },
     {
       "concept_id": "C067",
       "role": "supporting",
-      "why": "The digest's pairs are directly at work here: of all twenty-eight kinds only colour is visible, and only the five sense organs count as internal, drawn that way because the sense of 'this is me, this is mine' is strongest there rather than because of where they sit under the skin."
+      "why": "The digest gives the two lines the film turns on: of the twenty-eight kinds of matter only colour is visible, the other twenty-seven being invisible [C067-P:L222; C067-M:L23], and the pair near and far marking ease and difficulty of being known rather than spatial distance [C067-M:L19; C067-P:L195], with growth, continuity, ageing and breaking-down among the ones permanently hard to know. It also gives the closing line, that what is to be abandoned is not matter but the wanting directed at it [C067-P:L92]. The digest's corrections are kept exactly. Near and far are never allowed to sound like emotional closeness or physical distance. The claim that only the five sense organs count as internal, and that the line is drawn by the grip of mine rather than by anatomy [C067-P:L108–L118; C067-P:L120; C067-M:L7], is not narrated in this film, because the film has removed all sense organs from the frame on purpose and the pair would be misheard without them. The classification is never set beside physics as a rival taxonomy."
     },
     {
-      "concept_id": "C065",
+      "concept_id": "C063",
       "role": "supporting",
-      "why": "Folded in from IDEA-0115. The digest says that what reaches the eye is described as an image carried by light, always a blend of countless tiny colours that shifts with distance and light, so that no one receives the true colour and two people looking at one thing do not receive quite the same thing. The digest is explicit that this is the author's explanatory model and not early optics."
+      "why": "The digest's definition of matter as a changing pattern of conditioned forces rather than a substance [C063-P:L20], and its point that a thing looks unchanged only while its sustaining condition holds and alters when that changes [C063-P:L26], are what make a hill that appears and disappears the right place for the rest. The digest's warnings are kept: the sources' forces are not presented as energy or vibration, the seventeen-mind-moment lifespan is not offered as measurement [C063-P:L20–L26], the scheme is not read as materialism, and the shared inventory of body and world is not softened into oneness with nature, since the digest says it is there to show that there is no owner in either."
+    },
+    {
+      "concept_id": "C064",
+      "role": "supporting",
+      "why": "The digest reports that the Pradeepika explains the word great partly through a comparison with a conjurer, the same four behaviours arranging themselves so that something looks like gold or like a beautiful body [C064-P:L20–L36], while the Margaya keeps only the plain sense, that they are called great because they appear as vast things [C064-M:L3]. That is the film's one caution about a landscape that looks, from a distance, like a single solid blue object. The digest's bars are decisive here and are the reason this concept appears only once. Its claim that the senses were shaped by a long history of wanting is not narrated in any form, because the digest says it must never be presented as biology and never used to say a person's blindness or deafness is deserved. The traditional measurements of where each sense sits are not mentioned, because the digest says they are descriptions and not anatomy. The mythic material in the etymologies, including the image of women as lures, is not used at all; only the conjurer comparison is kept, and it is named on screen as a comparison."
     }
   ],
-  "what_the_viewer_could_understand": "Seeing depends on a small, delicate part of a living body working at all, and even then what arrives is colour, shifting with the light, rather than the thing itself. Because we hold our senses as the most truly 'mine' of anything in us, losing one and getting it back is felt so deeply.",
-  "what_must_be_real": "Full informed consent from every patient and family, taken before the day and confirmed afterwards. No miracle framing and no one's reaction waited on as the film's payoff. Nothing on screen may suggest that anyone's blindness, its cause or its cure has a doctrinal explanation; the digests rule that out in the strongest terms. The sources' descriptions of where each sense sits are traditional, not anatomical, and may not be presented as medical fact.",
-  "position_hint": "middle: it comes after the films about sound and before the film that recites the body's parts, because it is the group's closest look at a single sense before the body is taken apart as a whole.",
+  "what_the_viewer_could_understand": "That seeing depends on a condition that comes and goes and belongs to the world rather than to the looker, that what arrives is an image and a blend rather than the thing or its true colour, and that almost everything about anything is in the column the texts call hard to know. A place can be completely present and completely unseen at the same moment.",
+  "what_must_be_real": "The site as it actually is, including its condition, its vegetation and whatever conservation work is or is not going on. Nothing is moved, cleaned, swept, cut back, chalked, wetted, powdered or artificially lit to make a carved surface legible: that practice damages inscriptions, and in this film it would also destroy the only point being made, which is that light does it or it does not happen. No reconstruction and no digital enhancement of a carving. No claim is made about what any inscription says beyond what is actually established. No person's eyes, face or sight appear anywhere in the film, and no person is filmed looking at anything as an illustration. Filming and flying over a protected archaeological reserve happen entirely on the terms of whoever is responsible for it.",
+  "position_hint": "middle: it is the group's one close look at what a sense actually delivers, and it needs the group's tone established before it, but it should come before anything that takes the body apart, because it sets up how little of a thing is available to be seen at all. No location reasoning is involved.",
   "risks": [
-    "Medical privacy and consent from older patients.",
-    "Miracle-cure framing.",
-    "Patients used as symbols rather than as people with their own reasons for coming.",
-    "Any implication, however indirect, that sight lost or restored is deserved or explained by past action; the digests forbid it.",
-    "Traditional descriptions of the eye's sensitive matter mistaken for anatomy.",
-    "Reading the sources' account of what the eye receives as early optics, or as 'the senses lie'."
+    "Any suggestion, however indirect, that the film is about eyes, sight or people who cannot see. The digests forbid applying this doctrine to real impairment, and the film removes the subject rather than handling it carefully.",
+    "Chalking, wetting, powdering or raking artificial light across an inscription to get a shot, which damages the stone and also destroys the film's argument.",
+    "Lost civilisation or forgotten mystery framing, which would swallow the concept and misrepresent a site that is well known to the people who work on it.",
+    "Presenting the sources' account of what the eye receives as early optics, or as proof that the senses lie, both of which the digest rules out.",
+    "Letting near and far be heard as distance or intimacy rather than as ease of knowing.",
+    "Narrating any part of the claim that the senses were shaped by past wanting, or any of the traditional measurements of where a sense sits.",
+    "Translating or interpreting inscriptions on screen without the scholarship to do it.",
+    "Flying over a protected reserve, or filming in it, without permission."
   ],
   "drop_if": [
-    "No institutional permission to film.",
-    "Patient consent cannot be fully and properly obtained."
+    "Permission to film at, or fly over, a protected archaeological site cannot be had.",
+    "The canopy is dense enough that low sun never produces a readable plan from the air, so the film has no central image.",
+    "The only way to make the carved letters legible on camera is to treat the surface.",
+    "Conservation or excavation work has changed the site into something being presented rather than something standing."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0115",
       "relation": "absorbs",
-      "note": "IDEA-0115's colour material, and its C065 link, are folded in here."
+      "note": "IDEA-0115's colour material, and its C065 link, remain folded in here; the human subject they were attached to is gone."
     },
     {
-      "idea_id": "IDEA-0118",
+      "idea_id": "IDEA-0123",
       "relation": "pairs with",
-      "note": "Two senses examined at the point where they nearly fail: one to wind, one to clouding."
+      "note": "One place is fully present and visible for twenty minutes a day; the other is fully visible all day and is no longer being kept up at all."
     }
   ],
   "selection": {
@@ -78,17 +125,81 @@
       "IDEA-0115"
     ],
     "superseded_by": null,
-    "reason": "Used by EPD-0062; the group's one close look at a single sense, now carrying the colour material folded in from IDEA-0115 and explicit boundaries against any kamma-and-disability reading."
+    "reason": "It carries visible form, the light that makes seeing possible and the never-received true colour on a place that appears and disappears daily, with no person's sight involved."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape, and the subject was dropped entirely. What was dropped, plainly: the free eye-surgery camp, the queue, the operations, the dressings coming off, each patient's first sight in months, and the families waiting. It could not be made. It filmed patients under medical care at their most exposed, it made blindness the subject inside a group whose digests forbid applying this doctrine to any real impairment, and no amount of consent would have removed the implication the doctrinal context supplies. What was kept is the concept material: visible form, light as the condition under which seeing happens, and the account of what the eye actually receives, moved onto a place where something becomes visible that was not. Nobody's eyes are in this film. All four concepts were re-read from the digests and every citation re-verified against digest evidence; C065's role was raised to primary because the film's spine is what light delivers rather than the inventory it belongs to.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The ruined monastic settlement on the Rajagala ridge, north of Uhana",
+    "also_known_as": [
+      {
+        "name": "Rassagala",
+        "meaning": "the local form of the hill's name",
+        "used_by": "local usage in the surrounding villages"
+      },
+      {
+        "name": "katarama",
+        "meaning": "the drip-ledge cut along the brow of a rock shelter so that rain falls clear of the space beneath, under which early donative inscriptions are usually found",
+        "used_by": "Sinhala archaeological and village usage"
+      }
+    ],
+    "region": "Ampara District, Eastern Province: a forested ridge standing out of the dry-zone plain north of Ampara town, reached through Uhana and the village of Bakkiella",
+    "coordinates": {
+      "lat": 7.47797,
+      "lng": 81.63289
+    },
+    "why_here": "It is one of the largest and least visited archaeological landscapes in the country, with several hundred structures spread across a forested ridge that has not been rebuilt, which is exactly the condition the film needs: a place whose plan is present all the time and legible only sometimes. The scale means the low-sun reading is a landscape-wide event rather than a detail, so the most beautiful shot the place produces, a whole settlement rising out of a forest floor in shadow and sinking back into it within the hour, is also the clearest possible statement of the concept. The rock shelters carry drip-ledges with early inscriptions cut beneath them, which gives the same phenomenon at the scale of a hand, on stone nobody has to touch. And because there are no crowds and no performance here, nothing in frame becomes an exhibit.",
+    "what_to_film": [
+      "The ridge from directly above at first light and last light, high enough to hold the whole plan, with the same frames repeated at midday when nothing is legible.",
+      "A single terrace or platform in one fixed frame across a full day, so that the appearing and the disappearing are the same shot.",
+      "A drip-ledge and the letters cut under it, in flat light and in raking light, with nothing done to the surface.",
+      "Time-lapse of shadows shortening across the slope through the first hour after sunrise.",
+      "The ridge from a long way out across the plain in flat light, as a single blue shape with no detail.",
+      "Mist in the valley at first light, and cloud shadow crossing the slope during the day.",
+      "The ordinary forest floor at noon, held long enough to be uncomfortable, because it is half of what the film is about."
+    ],
+    "access": "By road north from the district capital through Uhana and Bakkiella, then on foot up the ridge; the site is spread over a very large area of forest and the walking is the limiting factor for a crew carrying equipment. It is a protected archaeological site with excavation and training work going on, so filming, walking on structures and flying anything above it all depend on the Department of Archaeology's permission and rules. Forest, heat, snakes and wild animals are ordinary conditions here and change what can be done at dawn and dusk.",
+    "best_time": "The dry months, for clear low sun and an open forest floor. The film lives in the forty minutes after sunrise and the forty before sunset, with midday deliberately included.",
+    "images": [
+      {
+        "caption": "Ruins on the ridge, standing as they are among trees. An image of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajagala Archaeological Site 1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Rajagala Archaeological Site 1.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "One of the rock shelters on the ridge, the kind of overhang whose cut drip-ledge carries early inscriptions beneath it. An image of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajagala Archaeological Site 2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Rajagala Archaeological Site 2.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A stupa mound on the ridge, of the kind that reads as a circle from the air only when the sun is low. An image of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajagala Archaeological Site 5.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Rajagala Archaeological Site 5.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rajagala",
+      "https://amazinglanka.com/wp/rajagala/",
+      "https://www.lankapradeepa.com/2018/09/rajagala.html",
+      "https://medium.com/@bestoflanka/rjagala-temple-and-monastery-a-hidden-gem-in-ampara-bol-54cf7afc6a63"
+    ],
+    "research_note": "That the ridge stands in this district north of the town, that it rises a little over three hundred metres, that the site covers a very large area and holds several hundred recorded structures including many stupas, that it contains rock shelters with cut drip-ledges and inscriptions in early Brahmi, that a number of those inscriptions have been recorded and studied, and that the Department of Archaeology has excavated there and established a training centre on the site, are all from the sources above and are desk research only. Counts of ruins and of inscriptions differ between sources and are given here as orders of magnitude rather than figures. The coordinates are the point the encyclopaedia entry gives and should be treated as a direction, not a survey. Nobody has been approached, no permission has been sought, and nothing about filming access, walking routes or drone rules over a protected reserve has been checked. All three images are of the site itself.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the Department of Archaeology, and a protected site with active excavation may simply be closed to a crew or to a drone.",
+    "Whether low sun actually produces a readable plan from the air under this canopy is unverified, and it is the question that decides whether the film exists.",
+    "Which rock shelters carry legible inscriptions, and whether any of them can be filmed in raking light from a position that does not require standing on archaeology, is unknown.",
+    "Working at dawn and dusk in dry-zone forest has practical and safety limits that have not been assessed."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

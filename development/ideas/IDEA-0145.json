@@ -2,77 +2,198 @@
   "schema_version": 1,
   "id": "IDEA-0145",
   "record_type": "idea",
-  "title": "What Comes at Dusk",
+  "title": "A Place Is a Kind of Life",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What Comes at Dusk"
+  ],
   "group_id": "GRP-08",
-  "logline": "As the light goes at the edge of a village, a ritual specialist and a family build an offering stand for a sick relative, and the whole village stays up with them until dawn.",
-  "human_question": "What does a community do for someone in trouble that medicine alone cannot reach?",
-  "situation": {
-    "what_happens": "A family with a seriously ill member arranges a night-long healing ceremony. Structures are built and offerings prepared as the light goes; drummers and a ritual specialist work through the night addressing beings nobody in the household claims to see; relatives and neighbours stay awake around the sick person. At dawn it ends, and the household goes back to whatever the illness is actually doing.",
-    "who_is_involved": "The sick person, who is the reason for the night and not its spectacle; the immediate family, who decided on this and are paying for it; the ritual specialist and drummers, who are professionals with a craft and a reputation; and the neighbours who sit up.",
-    "what_is_at_stake": "For the sick person, comfort, dignity, and being at the centre of something rather than being managed. For the family, money, sleep, and the hope that they have not left anything undone. For the specialist, a working livelihood. Behind all of it, the fact that the illness will do what it does either way.",
-    "how_it_unfolds": "Preparation runs through the afternoon; the ceremony takes the whole night and has its own sections and pauses; the end comes with the light. Afterwards families say very different things: that it helped, that it was really for the relatives, that they would do it again. Reality decides whether the person recovers, and the film never joins the two."
+  "logline": "On a wooded island in a shallow estuary that no road reaches, a village spends a day building a pavilion out of split coconut leaf, with seven small stations inside it and one low stand of food set down outside at the treeline, and by the next morning every part of it has been taken apart again.",
+  "human_question": "People have always built things and addressed them outward. What is the shape of the world you have to be holding for that to make sense?",
+  "place": {
+    "what_kind_of_place": "A shallow brackish estuary a few kilometres inland from the open sea, filled with low wooded islands: mangrove at the waterline, coconut and jak and cinnamon above it, and channels between them narrow enough to touch both banks. The largest island carries a footpath, a scatter of houses, a Buddhist temple and a small shrine to a goddess, and is reached only by boat. Once a year, on a fixed date in the festival season, the island builds an offering hall in the open: a frame of poles and bamboo, a roof, white cloth, and an enormous quantity of tender coconut leaf split into pale ribbons and plaited. Inside it stand seven small stations, one for each of the deities named in the tradition. Outside it, at the edge of the trees, a separate low stand holds food that is set down and left. In the morning the whole thing comes apart and the yard is swept.",
+    "why_it_is_worth_watching": "It is a place where a cosmology is built by hand, from green material, in one day, and it only reads properly from two distances. From the air the island is a dark blot in a mosaic of water and trees with one pale lit square in the middle of it, and the film's argument is in that frame: an ordered structure with named positions inside it, set down in a landscape that has no interest in the order. On the ground it is craft: leaf measured against a forearm, a spine stripped with a thumbnail, ribbon plaited faster than the eye follows, bamboo sized against a standing man, everything lashed and nothing fixed. And the work has a deadline that is not the crew's: the light.",
+    "what_moves_or_changes": "Everything, on a single day's clock. The material arrives by boat through the morning and is cut and split through the afternoon; the frame goes up in the last usable hours; the lamps are lit; the structure holds for one night and is down by the following midday. Nothing about it is permanent, nothing is reused, and the same island makes the same thing again the next year out of entirely new leaf. Around it the estuary does its own slow work: tide, water hyacinth drifting through the channels, egrets, the light going flat and then gold and then out.",
+    "when_it_looks_best": "The festival season, which is when the event actually happens and is not moveable. Within the day: late afternoon for the plaiting, when low sun comes through the split leaf and makes it translucent; the half hour after the lamps are lit, for the one lit square from the air; and first light the next morning, for the taking-apart, which is the most beautiful and least photographed part of it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a day's craft on an island. Boats bringing poles across still water at dawn; leaf being split and plaited by people who have done it since childhood; a structure rising in an open yard with a deadline made of daylight; lamps; one night of drums and a crowd, held at a distance; and then, in the morning, the same structure coming apart into a heap of green material that goes back into the water and the compost. It has a complete shape with nothing said over it: arrival, making, standing, unmaking. Anyone who likes watching skilled hands and a made thing has a whole piece here.",
+    "with_the_philosophy": "The same day becomes the sources' own map, standing where people actually live inside it. The analysis divides every place a being can be born into four, and inside the sensuous ones counts eleven, with depths, distances and lifespans given literally. It also says something stranger: that for animals, unhappy spirits and the lesser titans there is no country at all, and the 'plane' is simply the kind of body they were born into, so they live wherever that happens to be. And it joins one life to the next with no gap and nothing travelling across. The voice does not claim that anything is present on this island, and does not claim that nothing is. It sets out what the map actually says, including the two places where the map's own editors put their hands up, and lets the viewer notice that the structure in the yard is the map, built for one night, out of leaf."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, very high and straight down. A shallow estuary threaded between dozens of low wooded islands, mangrove at the edges, a river arriving from inland and a sea bar somewhere off frame. One island larger than the rest, with a footpath, roofs and a walled compound in the middle of it. No road reaches it.",
+      "voice": "Nothing on this island came here except by boat. The timber, the tiles, the people, and once a year the whole of a building that will stand for one night. The texts this film uses also begin by drawing a map of where a thing can be.",
+      "concept_id": "C051"
+    },
+    {
+      "on_screen": "Midday on the island. Tender coconut leaf being cut down, spines stripped, blades split into pale ribbons with a thumbnail; bamboo sized against a standing man; banana stems cut, lashed, carried.",
+      "voice": "The analysis sorts every place a being can be born into four, and inside the first two it counts eleven, running from the worst of them, through animals and hungry spirits, through the human world, up through six heavens, with depths and lifespans given for each [C051-P:L35–L42]. The word for the lowest group means, literally, without happiness [C051-P:L46]. It is a map, and it is meant as one.",
+      "concept_id": "C051"
+    },
+    {
+      "on_screen": "The hall going up in an open yard: four posts, a roof frame, white cloth pulled tight, plaited ribbon hung in lengths. Inside it, seven small stations being built, each its own frame of split leaf.",
+      "voice": "Seven stations, made new every year, one for each of the deities the tradition names. On an island the nearest ones matter most, and the texts have a place for exactly those: deities who live by mountains, rivers and trees belong to the lowest of the heavens, and their lifespans, it says, are not fixed [C051-P:L148; C051-P:L244].",
+      "concept_id": "C051"
+    },
+    {
+      "on_screen": "Close, at ground level: rice measured onto plaited trays, betel, flowers, a lamp. Then a separate low stand outside the hall, at the edge of the trees, where food is set down and left.",
+      "voice": "That stand is not inside. What it is for is a question the sources answer narrowly, and the film will not widen it. One class of unhappy being, they say, can live only on what others give in its name, and waits for its relatives to do it [C051-M:L21]. The word behind that is held here to a particular kind of suffering being, and it can also mean, plainly, the departed [C051-M:L15]. It is not a teaching that the dead are watching over anybody. It is not a teaching that the dead need anything from us.",
+      "concept_id": "C051"
+    },
+    {
+      "on_screen": "Dusk, then height. Lamps lit inside the hall; the estuary going dark around the island; from above, one pale lit square in a black mosaic of water and trees.",
+      "voice": "Between one life and the next, the same tradition says, there is no gap at all. The last moment of one existence and the first of the next stand side by side, and nothing packs up and travels across [C053-P:L32]. Whatever anybody on this island holds about tonight, that is what the analysis itself says: what continues is a line of cause and effect, not a person.",
+      "concept_id": "C053"
+    },
+    {
+      "on_screen": "Night, filmed from outside the hall. The structure lit from within; the plaited ribbon shivering in the heat of the lamps; the crowd in the yard read as movement and sound rather than as faces.",
+      "voice": "There is one line in the commentary that identifies the downcast spirits of a particular rebirth-class with the beings that offerings like these are addressed to. The people who catalogued that line flagged it: a canonical category and a local practice laid over one another, and it needs an expert before anyone builds on it [C053-M:L15]. So the film reports it and stops there. It does not say what is out past the lamps. It does not say nothing is.",
+      "concept_id": "C053"
+    },
+    {
+      "on_screen": "Next morning. The hall coming apart: cloth folded, lashings cut, ribbon carried off in armfuls, posts stacked, the leaf going into the water and onto a heap behind the trees. The yard swept, empty, entirely ordinary.",
+      "voice": "Two things the map insists on, and both of them go against the grain of how it is usually repeated. No stay anywhere is permanent: a being leaves even the worst of those places when the force that put it there is used up [C051-P:L118]. And the human world is valued in it not for comfort, which it says the heavens have far more of, but because it is the one place where a life can still be turned [C051-P:L142]. The hall stood for one night. The map it was built inside is supposed to last, and every part of it ends too.",
+      "concept_id": "C051"
+    }
+  ],
   "concept_merge": {
-    "why_together": "The four kinds of rebirth-linking (C053) is the one place in this group where the source steps right up to a living practice, identifying one class of downcast being with the beings who accept exorcists' offerings. The four planes (C051) gives that identification its setting, placing lesser and downcast spirits inside the source's map of where beings are born. Together they let the film watch a household do something the texts describe from outside, and notice the distance between the description and the night.",
-    "what_it_reveals": "That a map drawn to explain how a life begins is also, for many families, a practical guide to what to do when someone is ill, and that the texts are less certain about that join than the practice is. The digest flags the identification as blending a canonical category with Sri Lankan folk practice and asks for expert comment before use, and that hesitation is part of what the film holds rather than something it resolves."
+    "why_together": "C051 supplies the map and, more importantly, its limits. The sources set out four classes of plane and eleven sensuous ones in an ordered picture that runs from woe through human life to the pleasure worlds, with figures given literally [C051-P:L35–L42; C051-P:L46]; they place deities who live by mountains, rivers and trees in the lowest heaven and decline to fix their lifespans [C051-P:L148; C051-P:L244]; they say that no stay anywhere is permanent, because a being leaves when the force that put it there is spent [C051-P:L118]; they value the human plane for the chance to practise rather than for its comforts [C051-P:L142]; and, decisively for this film, they hold the word for unhappy spirits to a narrow class and make only one subclass depend on what relatives give [C051-M:L15; C051-M:L21]. C053 supplies the join. Rebirth-linking is defined as the fastening of one existence's last consciousness to the next existence's first with no gap between them [C053-P:L32], which is a harder and less consoling idea than anything the practice on the island is usually taken to mean. It also supplies the film's one honest hesitation, in the commentarial line that identifies a rebirth-class of downcast spirits with the beings that offerings of this kind address [C053-M:L15], flagged by the digest as needing expert comment before use. Put on a day of leaf-work on an island, the map and the join stop being a diagram and become the thing being built.",
+    "what_it_reveals": "That a cosmology can be a made object with a deadline, and that watching it made is a more honest way to meet it than reading it. C051 on its own is a list with numbers in it. C053 on its own is a technical claim about two adjacent moments. Together, on an island where the whole structure has to be ferried in, plaited, stood up and taken down inside about eighteen hours, they let a viewer see the difference between what the sources say and what the practice is usually said to mean, without the film having to settle which of them is right. The old version of this idea filmed a night-long rite arranged for a seriously ill relative in their own house. That is a medical setting by another name, the sick person could not meaningfully refuse a camera, and the illness would inevitably have been read as caused. This version keeps both concepts and films the making of the structure at a fixed public event instead."
   },
   "concept_links": [
     {
-      "concept_id": "C053",
+      "concept_id": "C051",
       "role": "primary",
-      "why": "The source connects one class of downcast spirit with the beings who accept exorcists' offerings [C053-M:L15]. The digest flags this exact line as blending a canonical category with Sri Lankan folk practice and says it needs expert comment before use, so the link is kept as the reason the film exists and not as a claim: the film watches the practice and asserts nothing about the beings it addresses. The same digest forbids any use of the source's list of congenital conditions as results of weak good action, which rules out reading this person's illness as the result of anything."
+      "why": "The digest's map is the film. The sources set the four classes of plane out as an ordered picture with literal depths, distances and lifespans [C051-P:L35–L42], name the lowest group as the one without happiness [C051-P:L46], put the deities who live by mountains, rivers and trees in the lowest heaven with no fixed lifespan [C051-P:L148; C051-P:L244], deny that any stay is permanent because a being leaves once the force that put it there is spent [C051-P:L118], and value the human plane for its chances rather than its comforts [C051-P:L142]. Two of the digest's limits are load-bearing here and are spoken on screen rather than merely respected. The sources hold the word for unhappy spirits to a specific class of suffering being, and only one subclass of it depends on merit shared by relatives [C051-M:L15; C051-M:L21], so the film says out loud that 'the dead are watching over us' and 'the dead need our offerings' are not this teaching. And the Pradeepika's line tying particular livelihoods, including hunting and fishing, to a specific hell [C051-P:L63] is never narrated, never implied and never reachable by edit; the people on this island live partly by water, and nothing in the film may let that passage touch them. The digest's line on congenital blindness and similar conditions [C051-P:L168] is not used anywhere, and neither is the purely psychological reading of the heavens and hells, which the digest rules out."
     },
     {
-      "concept_id": "C051",
+      "concept_id": "C053",
       "role": "supporting",
-      "why": "The source places various lesser and downcast spirits inside its account of the planes [C051-P:L95-L101]; the digest notes that this passage is itself ambiguous about which asuras belong where. The link stands for the fact that the map is lived rather than studied. The film does not adjudicate the passage, and does not assert or deny that the beings addressed exist."
+      "why": "The digest defines rebirth-linking as the joining of one existence's death-consciousness to the next existence's first consciousness with no gap between them [C053-P:L32], and that single sentence is what the film puts against the popular reading of the night it is filming: a line of cause and effect continues, and nothing travels. The digest's flag is carried on screen instead of being hidden. Its identification of a class of downcast spirits with the beings who accept an exorcist's offerings blends a canonical category with local practice and is listed as needing expert comment before use [C053-M:L15], so the film states the identification as a reported line and asserts nothing about what any offering reaches. Every exclusion in the digest that bears on this film is kept: 'the soul moves on' is contradicted by the source and is not said; the belief that a newborn is a particular dead relative returned is not the sources' view and does not appear; and the sources' list of congenital conditions and gender and sex variations as results of weak good action [C053-P:L48] is not used, alluded to, or implied about anybody."
     }
   ],
-  "what_the_viewer_could_understand": "The texts picture many kinds of life we cannot see, and they teach that how a life begins and what it meets along the way can come from different causes. Where someone starts is never the whole story.",
-  "what_must_be_real": "A ceremony the family and the specialist chose for their own reasons and would hold anyway. The sick person's own consent, renewed as their condition allows, governs everything; where they cannot give it, they are not filmed. No part of the ceremony is arranged, moved or repeated for filming, and no cause is assigned to the illness.",
-  "position_hint": "middle: it follows what the living do for the dead and opens the group's map of where beings are said to be born, before the films about how results ripen.",
+  "what_the_viewer_could_understand": "That this tradition holds a literal, ordered picture of where beings can be born, that it is far more careful than the popular version of itself, and that it draws the join between two lives as two adjacent moments with nothing crossing between them. Also that a map of everything can be made by hand in an afternoon out of split leaf, and taken apart the next morning, and that this does not make it less serious.",
+  "what_must_be_real": "A fixed public event that the village holds anyway, on its own date, for its own reasons, and would hold with no camera present. Nothing is arranged, moved, repeated or enlarged for filming, and no part of the cost falls on the film. It is not a rite held for a sick, afflicted or unlucky person, and no such rite substitutes for it: if the only version available is one a household has commissioned for somebody's illness or trouble, the film does not happen, because a person in that position cannot refuse a camera. Nobody's illness, misfortune, poverty or loss is mentioned or implied, and nothing on screen is presented as caused by anyone's past action. The ritual specialists and craftspeople are professionals and consent as such; if any part of the night involves a person in a state they cannot consent to being filmed in, that part is not filmed at all. The film neither asserts nor denies the existence of the beings the offerings address, and it never suggests the island's people are quaint, credulous or picturesque. The estuary's fishery is not filmed and is not part of the film, for the reason named in the concept links.",
+  "position_hint": "early to middle: it is the group's map, so it works best before the films that depend on knowing what the map contains, and it sets the group's habit of stating a source's own limits out loud. No location reasoning is involved.",
   "risks": [
-    "Exoticising a living practice, or filming it as folklore rather than as something a family is doing for a reason",
-    "Implying the illness was caused by past action, by the sick person's own doing or by anyone's fault",
-    "The sick person becoming a spectacle instead of the centre of care",
-    "Asserting or denying the existence of the beings the ceremony addresses",
-    "The film's presence enlarging the ceremony or affecting who pays for it"
+    "Exoticising a living practice, or filming a village's craft and devotion as folklore rather than as skilled work done on a deadline.",
+    "Letting the film imply that the sources' livelihood-and-hell passage [C051-P:L63] bears on anybody on screen, by narration, placement, juxtaposition or edit.",
+    "Asserting or denying the existence of the beings addressed, either in the voice or through the grammar of the cutting.",
+    "Letting the reported identification of a rebirth-class with the beings who accept offerings [C053-M:L15] sound settled, when the digest lists it as needing expert comment.",
+    "Sliding into the popular reading the sources exclude: that the dead watch over the living, that they need offerings, or that a soul moves on.",
+    "Filming anybody in an altered or possessed state, or in distress, where consent is not possible.",
+    "The film's presence enlarging the event, changing who pays for it, or pulling the night towards the camera.",
+    "Beauty doing the arguing: a lit pavilion at dusk on an island is so photogenic that it can quietly become an endorsement of a cosmological claim the film is not making."
   ],
   "drop_if": [
-    "Consent cannot be secured from the sick person, or from the family where the person cannot give it",
-    "The ceremony cannot be filmed without exposing private medical matters",
-    "The specialist or the family would perform the night differently because of the camera"
+    "The only version available is a rite commissioned for a sick or afflicted person, or for a household in trouble.",
+    "The island, the shrine's custodians and the craftspeople do not all want the day filmed on their own terms.",
+    "Filming would change the scale, the timing or the financing of the event.",
+    "Access to the island for a crew and their equipment cannot be had without disrupting the day's work, which is the film."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0134",
+      "idea_id": "IDEA-0148",
       "relation": "pairs with",
-      "note": "Both follow care aimed at those ordinary comfort cannot reach, one for the newly dead and one for the endangered living."
+      "note": "Two films about a small piece of made ground at the edge of a village: one built for a night and addressed outward, one kept swept and used by everybody."
+    },
+    {
+      "idea_id": "IDEA-0147",
+      "relation": "mirrors",
+      "note": "One watches a structure put up and taken down inside a day; the other watches a structure the sea rebuilds every year with nobody deciding anything."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by the group's third episode; kept with its primary link rewritten to carry the digest's own uncertainty rather than hide it."
+    "reason": "It carries the group's map on a fixed public event that can be consented to, and the one shot the place produces, a single lit structure in a dark estuary, is also the concept."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. What was dropped: the entire old subject, a night-long healing ceremony arranged by a family for a seriously ill relative in their own house. It was a medical setting under another name, the sick person could not meaningfully refuse a camera, the household's private crisis was the film's spine, and the illness would inevitably have been read as caused. Both concepts were kept and re-tested against the digests: the roles are swapped, with C051 now primary, because the film's subject is the map of the planes and what offerings are addressed to, and because the C053 line the old primary link rested on is flagged in its own digest as needing expert comment. The film now watches the making of an offering structure at a fixed annual public event, and states the digests' two hardest limits on screen: that the sources' word for unhappy spirits is narrow, and that the dead watching over us or needing our offerings is not the teaching. Every citation was verified against digest evidence rather than carried over.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The island shrine and its annual offering hall, on the largest island of the Madu Ganga estuary at Balapitiya",
+    "also_known_as": [
+      {
+        "name": "maduwa",
+        "meaning": "the hall built in the village for the offering; the word names both the structure and the event",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "gok kola",
+        "meaning": "tender coconut leaf, split and plaited, which is the material the whole structure is decorated and enclosed with",
+        "used_by": "Sinhala craft usage"
+      }
+    ],
+    "region": "Galle District, Southern Province: the wooded islands of the Madu Ganga estuary inland of Balapitiya, between Ambalangoda and Bentota, reached only by boat",
+    "coordinates": {
+      "lat": 6.2736,
+      "lng": 80.0347
+    },
+    "why_here": "Because the location makes the concept physical and puts a deadline on it. The estuary is a Ramsar wetland full of low wooded islands; the largest of them, of about a hundred and thirty acres, carries a resident village, a Buddhist temple and a shrine to the goddess, and has no road to it, so every pole, every bundle of leaf and every person involved crosses water first. The tradition's offering hall is built from scratch for the annual festival, with seven stations inside it for seven named deities, and is taken apart afterwards: a cosmology with named positions, assembled in an afternoon out of green material that will not last a week. From the air, one lit structure in a dark mosaic of water and trees is both the most beautiful thing the place produces and the clearest available statement of a map of where beings are said to be. And it is a public calendar event rather than anybody's private crisis, which is what makes the film possible at all.",
+    "what_to_film": [
+      "The estuary from directly overhead at several heights, so the pattern resolves from water, to islands, to one island with a yard in the middle of it.",
+      "The material arriving: poles, bamboo and bundled leaf coming across the channels by boat in the early morning.",
+      "The leaf work in close detail and at length: cutting, stripping the spine, splitting, plaiting, and the speed of hands that have done it since childhood.",
+      "The frame going up against the light, with the afternoon running out.",
+      "The seven stations being built inside the hall, filmed as construction rather than as tableau.",
+      "The separate low stand outside the hall at the treeline, and the food set down on it and left.",
+      "The lamps being lit, and then one wide held shot from height of the lit structure in the dark estuary.",
+      "The night from outside the hall only, at a distance, with the structure rather than the crowd in frame.",
+      "The taking-apart the following morning: cloth folded, lashings cut, leaf returned to the water and the compost, the yard swept empty.",
+      "The estuary itself between events: tide, mangrove edge, drifting weed, birds, the channels at first light."
+    ],
+    "access": "By road to the estuary's edge and then by boat; there is no vehicle access to the island. Everything here depends on the island's residents, the shrine's custodians and the craftspeople agreeing, and on working to their day rather than a crew's. The estuary is a declared wetland of international importance, so drone flight over it is likely to need specific permission, and the water is also used by a local boat-tour trade whose operators would have to be dealt with honestly rather than hired to clear the frame.",
+    "best_time": "The festival season, which fixes the date and is not moveable; local accounts place the island shrine's annual festival in the Esala season, around July and August. Within the day, late afternoon for translucent leaf, the half hour after the lamps are lit for the aerial, and the following first light for the unmaking.",
+    "images": [
+      {
+        "caption": "Mangrove in the same estuary. A picture of the surrounding wetland rather than of the island or the offering hall.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madu Ganga.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Madu Ganga.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A different, smaller island in the same estuary, for the kind of wooded island and water the film works in. Not the island in question.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kothduwa Island in Madu Ganga.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kothduwa Island in Madu Ganga.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A channel between the mangroves of the same estuary, for the scale of the water the material has to cross. A picture of the surrounding waterway, not of the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Balapitiya mangroves (7567865130).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Balapitiya mangroves (7567865130).jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY 2.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/maduwa/",
+      "https://en.wikipedia.org/wiki/Madu_River",
+      "https://ari.nus.edu.sg/20331-91/",
+      "http://serendib.btoptions.lk/article.php?id=2074",
+      "https://lankalibrary.com/rit/gammaduwa.htm"
+    ],
+    "research_note": "That the estuary is a Ramsar wetland designated in 2003 and lies in the Galle District behind Balapitiya, and that its islands include one carrying a Buddhist temple and a shrine to the goddess with an annual festival in the Esala season, is from the first two sources above. That the offering hall is a structure built for the event, that the ground is enclosed with split tender coconut leaf, and that seven stations are made inside it for seven named deities, is from the remaining sources and is general to the tradition rather than verified for this island. All of it is desk research. The coordinates are the estuary's published position, not the island's, and no island, yard, shrine custodian or craftsperson has been identified or approached. The single largest unverified claim is that this particular island's annual event includes the building and unbuilding of such a hall; that is an inference from the tradition and from the shrine's dedication, and it decides whether the film exists. One of the sources could not be fetched directly and is listed because it was read only through search summaries. All three images are of the surrounding estuary and of a different island, not of the site.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction.",
-    "The C053 digest asks for expert comment on the identification the film is built around; that check should happen before any approach to a family."
+    "Whether this island's annual festival actually involves building an offering hall of this kind, which is the film's subject.",
+    "Whether the island's residents, the shrine's custodians and the craftspeople would want a day of their work filmed, and on what terms.",
+    "Whether a drone can be flown over a declared wetland of international importance at all.",
+    "How a crew and its equipment reach the island without becoming part of the day's logistics, given that everything crosses by boat.",
+    "Whether the local boat-tour trade makes the estuary unworkable at the hours the film needs.",
+    "Whether the flagged line identifying a rebirth-class with the beings who accept offerings has been given the expert comment its digest asks for; that check belongs before any approach to the island."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

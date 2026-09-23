@@ -2,74 +2,186 @@
   "schema_version": 1,
   "id": "IDEA-0114",
   "record_type": "idea",
-  "title": "Before First Light",
+  "title": "What Holds the Night Up",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Before First Light"
+  ],
   "group_id": "GRP-07",
-  "logline": "A lone night-shift worker fights sleep through the small hours, and when attention finally sinks the body sinks with it and has to be brought upright again.",
-  "human_question": "What holds a body upright, when the mind that is supposed to hold it up can barely stay awake?",
-  "situation": {
-    "what_happens": "One person keeps watch, or keeps a process running, through a whole night while everyone else sleeps. Very little happens, which is the difficulty: the work is to stay present and upright for eight or ten hours against the body's own schedule. Attention comes and goes in waves. A head drops and snaps back. Tea is made, a round is walked early, a light is switched on, all simply to stay upright. When the sky lightens the body changes noticeably, some time before the shift actually ends and the worker goes home to sleep through a day that everyone else is using.",
-    "who_is_involved": "The worker on the shift; whoever shares it or takes the handover; a supervisor or employer whose rules decide what counts as being awake; and a household at home whose hours are set by this one person's inverted day.",
-    "what_is_at_stake": "For the worker, the job itself, because dozing on duty is a disciplinary matter almost everywhere night work exists, and the slower cost of years of inverted sleep. For the employer, whatever the night is there to protect. For anyone filming, the real possibility that recording a person losing the fight is what causes the consequence.",
-    "how_it_unfolds": "Night shifts move the same way everywhere: an alert first stretch, a long middle in which the body argues, and a change at dawn that arrives before the shift is over. The pressures are the hour, the quiet, the temperature and whatever the worker last ate. It ends with a night got through unremarkably, a night barely remembered, or a lapse with consequences. Which of those happens is decided by the night."
+  "logline": "For a few weeks after the harvest, a paddy mill on a dark northern plain cannot be allowed to stop: the soaking tanks, the boiler and the fans are timed so that the grain can be out on the drying floor at sunrise, which means the whole building has to be kept awake by people who would otherwise be asleep.",
+  "human_question": "What is holding a body upright at three in the morning, when the thing that is supposed to be holding it up can barely stay awake?",
+  "place": {
+    "what_kind_of_place": "A paddy mill on the edge of a dry-zone town, in the irrigated rice country below a large tank. In the weeks after a harvest it takes in more grain than it can handle in daylight, so it runs through the night: paddy steeped in tanks of water, then steamed, then spread at first light on a concrete floor the size of several tennis courts, where it has to be turned by hand through the day before it can be milled. The night is not busy in the way a day is. It is a long, lit, loud, mostly stationary stretch of time in which a boiler must be fed, a level must be watched, a valve must be opened at a particular hour and a book must be signed, and in which almost nothing else happens. Around it in every direction is flat black country and standing water.",
+    "why_it_is_worth_watching": "It is a place that exists, for these weeks, only at night, and it reads best from the air: one lit compound with steam standing over it, and nothing else lit for kilometres. On the ground it is a film of small events inside a very large noise. A hatch opened, water running into a tank, a spanner set down, a chair moved to where the air is. At first light the whole thing inverts: the doors open, the grain goes out onto the floor, and the building that was the only lit thing in the district becomes an ordinary shed with a yard in front of it.",
+    "what_moves_or_changes": "The grain and the hour, neither of them negotiable. Paddy that is steeped too long or too short is worth less; grain that misses the morning loses a day of sun; a wet week backs the whole yard up. The season itself is short, so the mill is quiet for months and then works round the clock for weeks. Nothing in the film can be scheduled except the hour.",
+    "when_it_looks_best": "The weeks immediately after the main harvest, when the yard is full and the night shift is real rather than nominal. A clear night gives the plain some shape and the steam something to sit in; the half hour before sunrise and the first hour after it are the film's hinge."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night film about a working building. Steam, floodlight, water, machinery, the long flat stretches in which nothing happens, a plain with nothing else lit on it, and then the slow arrival of light and a floor covered in grain. It has a complete shape without a word over it: the doors close, the night is got through, the doors open. Anyone who likes watching a place work at an hour they are usually asleep has a piece here.",
+    "with_the_philosophy": "The same night becomes the sources' account of what makes a body, tested at the hour it is hardest to believe. The texts say a living body is produced by four things at once, and that one of them, the mind, makes the matter that moves a body and holds its posture, and makes it only at the instant a thought arises. Their own example for this is sleep: the mind that runs in deep sleep is too weak for the job, which is why someone who dozes off sitting or standing goes down. A building that must be kept awake all night is the one place where that claim stops being scholastic. The voice never films anybody failing, and never suggests that a tired body is a weak character."
+  },
+  "sequence": [
+    {
+      "on_screen": "Very high, late evening. A flat plain of paddy and standing water going black, a road with no lights on it, and one compound lit up with steam standing over it.",
+      "voice": "The old texts say that matter has exactly four makers: what was done before this life, the mind at this instant, temperature, and food [C068-P:L18–L25; C068-M:L3]. Almost everything in this frame is made by the third one. Temperature-born matter, they say, is what fills bones and flesh and blood, and also clothes and vehicles and food, and trees and stones and rivers and the sea and the sun and the moon and the stars [C068-P:L241–L243].",
+      "concept_id": "C068"
+    },
+    {
+      "on_screen": "Inside. The boiler fed and shut. Water running into a steeping tank. Steam finding the floodlights. A hand on a valve wheel, filmed from behind and wide.",
+      "voice": "What the sources call temperature is not the weather. It is the heat element itself, present as warmth and as cold, and they say it is in every group of matter whatever produced that group [C068-P:L225; C068-M:L23]. In this building it is also the whole technique. Water, heat, time, and a grain that will be a different thing in the morning.",
+      "concept_id": "C068"
+    },
+    {
+      "on_screen": "The long middle of the night. A corridor. A gauge. A logbook with times written in it. A chair that has been moved to where the air is. The machine noise continuous under everything.",
+      "voice": "The body does not move by itself, the Margaya says, and a mind with no body to it cannot push the body either. Going and coming, lifting a hand and lowering it, standing upright, sitting without falling over: all of it happens through matter the mind makes [C068-M:L13]. And the mind makes it only at the instant a thought arises, not a moment later; once that instant is gone, the mind cannot produce anything [C068-P:L74; C068-M:L7]. Sitting still is not the absence of an action. It is an action being renewed.",
+      "concept_id": "C068"
+    },
+    {
+      "on_screen": "The empty parts of the building at the worst hour: a doorway, a bench, a radio left on, a torch lying where it was put down. Nobody in frame.",
+      "voice": "Here is the sources' own example, and it is the reason this film is at a mill at three in the morning. In deep sleep, they say, the mind that is still running is too weak to make the matter that holds a posture, which is why a sleeping body cannot be kept straight, and why a person who nods off standing or sitting goes down [C068-P:L117; C068-M:L15]. This film does not photograph anyone losing that argument. It photographs the place built around the fact that it can be lost.",
+      "concept_id": "C068"
+    },
+    {
+      "on_screen": "Tea made and drunk. Something eaten standing up. The coldest hour, everyone in whatever they could find to put on. Hands slow on a fastening.",
+      "voice": "The texts also count three qualities that a body has only sometimes: lightness, softness, and being fit for work [C066-P:L82; C066-P:L88–L94; C066-P:L98–L100]. They are blunt about what produces them. Heaviness comes with lost sleep, with fatigue, with worry, with heat or cold, and with no food or the wrong food; and with suitable food and rest the material that carries lightness arises again [C066-P:L84]. When weather, mind, food or health go wrong, they say, you get heaviness, a stiffness that hurts to bend, and a body that will not do what is asked of it [C066-M:L19]. Not a failure of character. A withdrawal of conditions.",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "Sound as the subject: belts, a chute, water, a fan, corrugated sheet ticking as it cools, and then one short exchange between two people, unintelligible over the noise.",
+      "voice": "There is a distinction in the texts worth hearing in a building this loud. Every sound in here except that one is, in this account, made by groups of matter striking each other under temperature [C068-P:L270]. The voice raised to make a meaning known is the one sound the mind has anything to do with [C068-P:L165]. Two kinds of noise, and only one of them is anybody's.",
+      "concept_id": "C068"
+    },
+    {
+      "on_screen": "First grey light. Doors rolled back. Grain going out onto the drying floor and being spread. The building, ordinary now. Someone leaving on a motorcycle into full daylight.",
+      "voice": "The fourth maker is food, and the sources are strict about it: it produces matter only inside something already alive, and only when what is eaten meets what is already there — neither does anything without the other [C068-P:L291–L293]. What is not alive cannot be fed, and a plant given fertiliser grows by temperature, not by eating [C068-P:L297]. A whole night of work here exists so that a grain can meet the sun at this hour. Nobody in this film is an example of anything. The building is.",
+      "concept_id": "C068"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C068 contributes the claim that a living body is produced by four causes at once, past action, mind, temperature and nutriment, and most concretely that mind-born matter is what moves the body and holds a posture, arising only at the instant of a thought, so that a person who dozes off while seated or standing slumps. C066 contributes lightness, softness and workability, qualities the sources say appear when sleep, food, weather and mood are suitable and disappear when they are not. One is about what holds the body up; the other is about how easily it can be held.",
-    "what_it_reveals": "Separately, the four origins read as a list and the three qualities as an afterthought. Together, across one night, they describe exactly what it is like for a body to become heavy: not a failure of will, but the withdrawal of several conditions at once. What becomes visible is that staying upright is a posture being renewed moment by moment, and that when the renewing weakens there is nothing underneath holding the shape."
+    "why_together": "C068 supplies the frame and the case. Matter is produced by four origins, past action, mind, temperature and nutriment [C068-P:L18–L25; C068-M:L3]; the mind produces matter only at the arising instant of a thought and not after it [C068-P:L74; C068-M:L7]; and that mind-born matter is what moves a body at all, from walking to raising a hand to sitting upright without falling [C068-M:L13]. Then comes the line the film is built on: in deep sleep the mind still running is too weak to do it, which is why a sleeping body cannot be held straight and why a person who dozes off standing or sitting falls [C068-P:L117; C068-M:L15]. C066 supplies what that feels like from the inside without requiring anyone to say so on camera: lightness, softness and workability are not traits but conditions, appearing with rest and suitable food and going with lost sleep, fatigue, worry, heat, cold and bad food [C066-P:L84; C066-M:L19]. One concept says what holds a body up; the other says how much it costs to be held up at four in the morning.",
+    "what_it_reveals": "That staying upright is not a baseline that a body simply maintains, but something being renewed instant by instant, and that when the renewing weakens there is nothing underneath it holding the shape. Alone, the four origins are a list, and the three qualities are an afterthought at the end of a list. Together, across one night in a place that cannot be allowed to stop, they turn into an accurate description of an ordinary experience that almost everybody has had and nobody thinks of as doctrine: the hour when the body becomes heavy, and the fact that this has causes rather than a culprit."
   },
   "concept_links": [
     {
       "concept_id": "C068",
       "role": "primary",
-      "why": "The digest uses this situation directly: mind-born matter moves the body and holds its posture and arises only at the instant of a thought, and the faint mind running during deep sleep cannot do it, which is why a person who dozes off while sitting or standing falls. The rest of the four-origin scheme, heat and food keeping the body going through the same hours, is present in the same night."
+      "why": "The digest gives the four origins of matter and their different timings: past action produces matter at every sub-moment from conception until near death, the mind produces it only at the arising instant of a thought, and temperature and nutritive essence produce it only at their own standing moment [C068-P:L18–L25; C068-P:L74; C068-M:L3; C068-M:L7]. It carries the film's central passage, that the body does not move by itself and that posture, walking and gesture all happen through mind-born matter [C068-M:L13], with the sleep case stated outright: the weak mind running in deep sleep cannot hold a posture, so a sleeping body cannot be kept straight and a person who dozes off while standing or sitting falls [C068-P:L117; C068-M:L15]. It gives temperature as the heat element present as cold and warmth in every group whatever its origin [C068-P:L225; C068-M:L23], and the reach of temperature-born matter through the body and the entire inanimate world [C068-P:L241–L243]; the distinction between sound made by groups of matter colliding and the sound the mind makes with vocal intimation [C068-P:L270; C068-P:L165]; and food-born matter as something that arises only when external and internal nutritive essence meet, and only in a living body, so that fertiliser grows a plant by temperature rather than by feeding [C068-P:L291–L293; C068-P:L297]. Every limit in the digest that bears on this film is honoured. 'Mind over matter' is refused: the sources say mind-born matter moves the body and holds a posture, not that willpower reshapes or heals it. The claim that a pleasing body or voice comes from supporting past action, and the statement that kamma-born groups do not arise where a faculty is defective, are never used, never implied, and never brought anywhere near a person in frame; this film puts no person in frame as an example at all. 'Your body is your karma' is refused too, since past action here directly produces only nine specific kinds of matter [C068-P:L48] while most of a body and almost all of the world is temperature-made. The cluster counts and mind-moment numbers are a scholastic model and are never narrated as physiology, and 'temperature' is never allowed to slide into climate or environment."
     },
     {
       "concept_id": "C066",
       "role": "supporting",
-      "why": "The digest describes lightness, softness and workability as conditional rather than fixed traits: they appear when sleep, food, weather and mood are right and give way to heaviness with lost sleep, fatigue, worry, heat or cold. A long night shift is where their absence is lived hour by hour rather than argued about."
+      "why": "The digest describes lightness, softness and workability as qualities that come and go rather than traits a body has: lightness as non-heaviness [C066-P:L82], softness likened to a well-worked hide [C066-P:L88–L94], workability to well-prepared gold [C066-P:L98–L100]; all three arising together in one group, with one more prominent than the others according to circumstances, and never in kamma-born groups [C066-P:L102–L106]. It names the conditions exactly: heaviness follows bad conduct, fatigue, distress, lost sleep, poisoning, affliction by cold or heat, and unsuitable, excessive or absent food, while suitable food and remedy bring the lightness-bearing groups back [C066-P:L84]; and when weather, mind, food or health go bad the result is heaviness, a stiffness that hurts on bending, and an inability to act as required [C066-M:L19]. That is the whole physical argument of a night shift, available without anyone having to describe it. The digest's warnings are kept: this is not a 'positive thinking keeps you young' claim, since a good mind is only one condition among weather, food and rest; the account of decay, that every kind of matter decays from the moment it arises and that grey hair and the rest are only signs of it [C066-P:L137], is used only about matter in general and never about anybody visible; and intimation is not turned into body-language self-help."
     }
   ],
-  "what_the_viewer_could_understand": "Staying upright is not something a body simply does by itself. These texts describe a waking mind holding it up moment by moment, so that when attention sinks into sleep, the body sinks with it.",
-  "what_must_be_real": "The worker's actual shift, routines and reasons for doing the job. Nothing may be staged, no lapse may be provoked or waited for as a prize, and no filming may be done that could put the worker's employment at risk. Fatigue may never be framed as a personal failing rather than a condition of the work.",
-  "position_hint": "opening candidate: the group's plainest demonstration that a body is held up by something other than itself, and a natural place for the group's object to enter if a real moment allows it.",
+  "what_the_viewer_could_understand": "That being upright is not something a body does by itself and then stops thinking about. These texts describe it as matter made by a waking mind at the instant of each thought, so that when attention sinks into sleep, the body sinks with it — and that the heaviness of a bad night has conditions behind it rather than a fault in whoever is carrying it.",
+  "what_must_be_real": "The mill's own season, its own grain and its own hours. Nothing is staged, no shift is rearranged for the camera, no lapse is provoked or waited for, and nobody is filmed asleep, dozing or struggling to stay awake, because that footage could cost a person their job and because this group's own rules forbid making a person an exhibit. Faces are not the subject; the building is. Fatigue is never framed as a personal failing rather than a condition of the work, and the economics of a short season and long nights stay visible. If filming would change how the shift is worked, or slow any response, or put anyone's employment at risk, it does not happen.",
+  "position_hint": "middle: it needs the group's inventory of matter already in place, because it turns on which origin produces what. It should come before the films that deal with what a single sense receives, since it establishes that a body is being kept going by several things at once.",
   "risks": [
-    "Could expose a worker to discipline for having been filmed dozing on duty.",
-    "Framing exhaustion as a character flaw rather than a labour condition.",
-    "Drifting into 'mind over matter': the digest rules out reading mind-born matter as willpower reshaping the body.",
-    "The scholastic numbers, mind-moments and cluster counts, presented as physiology."
+    "Exposing a worker to discipline by filming anyone dozing on duty, or filming in a way that makes it possible to identify who was on which shift.",
+    "Framing exhaustion as a character flaw rather than a condition of the work and the hours.",
+    "Drifting into 'mind over matter', which the digest rules out: mind-born matter moves the body and holds a posture, it does not heal or reshape it.",
+    "Narrating the scholastic numbers — clusters per sub-moment, seventeen-moment lifespans — as though they were physiology.",
+    "Letting 'temperature' be heard as climate or environment, or as 'nature shapes us'.",
+    "Any suggestion, however oblique, that a person's body, voice or capacities are explained by past action. The digest forbids this outright and the group's floor forbids putting anyone on screen as an instance of it.",
+    "Turning a hard, poorly paid night into a beautiful sequence of steam and floodlight with the labour underneath it invisible.",
+    "Making the film about one person, which would break both the series' shape and this group's rule that nobody in frame is an exhibit."
   ],
   "drop_if": [
-    "No arrangement with worker and employer that protects the worker's job.",
-    "The filming would itself change how the shift is worked, or put the worker at risk."
+    "No mill in the window is actually working nights, so there is no real night to film.",
+    "No arrangement can be made with both the operators and the workers that protects everyone's employment.",
+    "The only way to make the film work is to follow one worker as a character, or to wait for someone to fail.",
+    "Filming at night would itself change how the shift is run or slow a response to a problem."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0122",
       "relation": "mirrors",
-      "note": "Both watch attention hold a tired body together through a long stretch of work, one through a night, one through a working day."
+      "note": "Both watch attention hold a working body together through a long stretch: one through a night when there is almost nothing to do, one through a day of counting out loud. They share a concept and must be checked against each other so the same passage is not narrated twice."
+    },
+    {
+      "idea_id": "IDEA-0113",
+      "relation": "pairs with",
+      "note": "One film is heat working on material that has no mind in it; this one is heat and food and mind working on the same night."
+    },
+    {
+      "idea_id": "IDEA-0083",
+      "relation": "pairs with",
+      "note": "Both films are set inside a paddy mill, in different districts and different groups. That one is a lit sorting chute in daylight hours and is about judgement in a fraction of a second; this one is water, steam and a drying floor across a night. The overlap is real and the two must be differentiated before either is scheduled, or one of them moved."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0058; the group's clearest and best-sourced case of mind-born matter holding a posture."
+    "reason": "It carries the group's clearest and best-sourced claim, that a posture is matter being renewed by a waking mind, on a place where the whole arrangement exists to keep a night from being slept through."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The old subject, a single night-shift worker followed as a character, was dropped: it made an identifiable person the exhibit of a doctrine about sleep and posture, which this group's prohibitions forbid, and it risked that person's job. The concept was kept and moved onto the place itself, a seasonal paddy mill that cannot be allowed to stop overnight. Concepts re-read from the digests as a new reader and every citation re-verified against digest evidence. A second paddy mill already exists in the slate, in another district and another group; the overlap is flagged in the connections rather than hidden, since the two films use opposite ends of the same building.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The paddy mills and drying yards on the edge of Kilinochchi town, in the irrigated rice country below Iranamadu tank",
+    "also_known_as": [
+      {
+        "name": "nel",
+        "meaning": "paddy: the grain as it comes in from the field, before milling",
+        "used_by": "Tamil usage"
+      },
+      {
+        "name": "puzhungal arisi",
+        "meaning": "parboiled rice: paddy steeped and steamed before it is dried and milled",
+        "used_by": "Tamil usage"
+      }
+    ],
+    "region": "Kilinochchi District, Northern Province: the irrigated paddy plain below the district's main tank, on and just off the main north road through the town",
+    "coordinates": {
+      "lat": 9.38333,
+      "lng": 80.40861
+    },
+    "why_here": "It is one of the island's oldest and largest grain districts, worked from three big irrigation sources, and in the weeks after a harvest the whole plain's crop has to pass through a small number of mills. That produces exactly the structure this film needs: a night that cannot be allowed to stop, arranged so the grain is on the floor at sunrise, in a district with almost no other light on it. It also gives the film its best image without any arranging — one lit compound with steam over it in the middle of a black flooded plain — and that image is also the clearest statement of the idea, since it is a picture of a place being kept awake. And it lets the group's hardest concept be filmed without a single person becoming an exhibit: the subject is a building, a boiler, a floor and an hour.",
+    "what_to_film": [
+      "The compound from height at last light, in full dark and at first light, wide enough that it is the only lit thing in the frame.",
+      "The night's actual events, which are few: a hatch, a valve, water into a tank, the boiler fed, times written in a book.",
+      "The long stretches between them, at their real length, so the shape of the night is not edited into busyness.",
+      "Steam in floodlight, and the building's noise recorded properly as the film's main sound.",
+      "The cold hour before dawn: what people put on, what is drunk, where chairs get moved to.",
+      "The doors opening and the grain going out onto the drying floor, in one continuous stretch if possible.",
+      "The floor in full daylight being turned, with the mill behind it looking like an ordinary shed.",
+      "The plain itself at both ends of the night, with standing water in it."
+    ],
+    "access": "By road, on and just off the main north road. Mills are private businesses and everything depends on the operators agreeing and on the workers themselves agreeing separately, since it is their employment that is exposed. Night filming inside a working mill has real safety constraints around steam, moving belts and wet floors, and flying anything over a compound at night needs both the operator's agreement and whatever permissions apply in the district.",
+    "best_time": "The weeks immediately after the main harvest, when the yard is full and the mills are actually running at night. A clear night, and the ninety minutes either side of sunrise.",
+    "images": [
+      {
+        "caption": "The irrigated paddy country of the district under water, below the tank that supplies it. A picture of the landscape the mills sit in, not of any mill.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Water Tank in Kilinochchi.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Water Tank in Kilinochchi.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kilinochchi",
+      "https://en.wikipedia.org/wiki/Kilinochchi_District",
+      "http://www.knowledgebank.irri.org/step-by-step-production/postharvest/milling/milling-and-quality/item/parboiling",
+      "https://www.dnb.com/business-directory/company-profiles/velalakan-rice-mill.59ee900a2d186ffab4b9bcdb867fdc21"
+    ],
+    "research_note": "That the town is the main centre of this district, that it sits on the main north road, that the district has been a major grain area for a very long time and is watered from three big tanks, and that its agriculture has been badly squeezed in recent years by fuel and fertiliser shortages, are from the encyclopaedia entries. That at least one rice mill is registered in the town is from a business directory listing and is nothing more than that. The sequence of steeping, steaming and sun drying, and the fact that paddy is spread thin and turned repeatedly through the day, are from the rice institute's own guidance and are general practice rather than anything verified here. Whether any mill in this district actually runs a night shift in the weeks after harvest, and whether that shift is arranged around getting grain onto the floor at sunrise, is desk inference and is the single thing that decides whether this film exists. No mill, operator or worker has been found or approached, and nothing about access, night filming, safety or drone permissions has been checked. The one image is of the district's flooded paddy country, not of a mill; no photograph of a mill or drying floor in this district was found on Wikimedia Commons.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No mill has been found or approached, and whether night running happens here at all is unverified. Everything here is a research direction.",
+    "Whether workers themselves, separately from the operators, would consent to a night being filmed, given what being filmed at night could cost them, is unknown and decides the film.",
+    "Whether a mill will allow sound and camera in a working plant at night, given the safety constraints, is unchecked.",
+    "Whether drone flight over a compound at night is permitted in this district has not been checked and may be refused."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,74 +2,179 @@
   "schema_version": 1,
   "id": "IDEA-0122",
   "record_type": "idea",
-  "title": "Counting to Ten",
+  "title": "Ten, and Start Again",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Counting to Ten"
+  ],
   "group_id": "GRP-07",
-  "logline": "During harvest, a grain measurer fills basket after basket by hand, calling each count aloud, never rushing and never losing the place.",
-  "human_question": "What does a count, kept steady for a whole day, do to the person keeping it?",
-  "situation": {
-    "what_happens": "At harvest a store takes in grain and somebody measures it by hand: fill, level, flick out the straw and stones, call the number. This goes on for hours. The tally is the farmer's income, so it is watched closely by people with something to lose. The measurer's job is to be neither fast nor slow, since a rushed count loses accuracy and a slow one loses the day, and to hold a running number in the middle of noise, heat and argument.",
-    "who_is_involved": "The measurer; the store's owner or agent; the farmers whose season's income is the number being called; the labourers filling, carrying and stacking.",
-    "what_is_at_stake": "A season's income counted in public by hand, with prices already set elsewhere and debts often already taken against the crop. For the measurer, being trusted, which is the whole of the job.",
-    "how_it_unfolds": "An intake runs from the first load to the last and the count either holds or it does not. The pressures are heat, volume, fatigue and anyone who thinks the tally is wrong. It ends in a total, in a dispute, or in a price that disappoints everybody. None of that can be arranged."
+  "logline": "For a few weeks after a dry-zone harvest, grain is lifted out of a heap into a wooden measure, struck level with the edge of a palm, the straw and stones flicked out, and the number said aloud, from first light until the last trailer, without the count once being lost.",
+  "human_question": "What holds a count steady through a long day, and what is doing the holding?",
+  "place": {
+    "what_kind_of_place": "An open-sided store at the edge of a flat paddy tract, with a swept earth floor in front of it where the crop is brought in. For a few weeks after the harvest the store takes grain all day: sacks off trailers, bicycles and hand-carts, tipped into one heap on the floor, and measured out of that heap by hand into a wooden measure of a fixed capacity. The measure is filled, struck level, the straw and the small stones flicked out with a finger, the grain tipped into a sack, and the number called. Somebody else keeps the running tally on a board or a sheet of paper. The tally is a household's income for the season, so it is watched by people who have something to lose by it. Around the building the tract is flat, banked into rectangles, and at this season it is stubble, water and burnt straw.",
+    "why_it_is_worth_watching": "It is a place built around one repeated act, and the act is beautiful before it means anything. Grain falls in a column into a wooden box; a palm goes across the top and the surplus rolls off; dust stands in the light of an open doorway; a heap on the floor goes down all day by exactly the same amount each time. From the air the floor is a pale disc set into the geometry of cut fields, with the roof beside it and one track running in. At ground level the film is grain, hands, dust and a voice saying numbers, and the numbers are the only thing in the building that does not stop.",
+    "what_moves_or_changes": "The heap, the light and the tally, and nothing else. The heap goes down through the day while the stack of filled sacks goes up. The light comes in low through the open side in the morning, stands on the floor at noon and goes low again. The people change over, rest, eat and come back. The one thing that must not change is the pace of the count, because a hurried measure is inaccurate and a slow one loses the day. Nothing here can be scheduled except the season.",
+    "when_it_looks_best": "The weeks of intake after the main harvest, which is when the floor is busy from first light to dusk and the heap is large enough to read from above. Within a day: the first hour, when light comes in almost horizontally through the open side and the dust is visible in it; the middle of the day for the vertical shot on the floor; and last light, when the building is a dark box with a lit doorway."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about grain, hands, dust and light. A heap being taken apart one measure at a time across a day, the rhythm of filling and levelling and tipping, sacks going up in a stack, a board filling with figures, and the long flat country outside with its cut fields and standing water. Anyone who likes watching skilled hands work material has a complete piece here with nothing said over it.",
+    "with_the_philosophy": "The same hours become a meditation manual's own worked image, standing in the place the image was taken from. When the old text has to explain how slowly a beginner should count the breath, it does not reach for anything lofty. It describes a grain measurer who fills the measure, throws out the rubbish and calls the number, neither hurrying nor dragging. The film watches the original of that comparison, and the voice keeps the direction of the borrowing straight: the text took its picture from this work, and this work is not the practice."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, very high and straight down: a flat tract banked into rectangles, stubble and standing water, a track, and at the edge of it one roof with a pale swept floor beside it and a heap already on the floor.",
+      "voice": "The oldest detailed manual of this practice has a small, awkward problem to solve: how slowly should a beginner count. Its answer is not an instruction. It is a description of somebody's job.",
+      "concept_id": "C094"
+    },
+    {
+      "on_screen": "Ground level, close and held: the measure pushed into the heap, lifted, struck level with the edge of a palm, a finger flicking out a straw and a stone, the grain poured into a sack. Repeated. The number said each time, off camera.",
+      "voice": "Fill the measure. Strike it level. Throw out the rubbish. Say the number. That is the image the text uses for the slow counting the practice begins with [C094-P4:L122; C094-P4:L122–L126]. It chose someone who is paid to be exact and also paid to be quick, and has to be both at once.",
+      "concept_id": "C094"
+    },
+    {
+      "on_screen": "The tally: a board or a sheet, figures going down it, a hand marking a stroke at intervals. Around it the ordinary noise of an intake, people arguing about a load, an engine outside.",
+      "voice": "The rule for the count itself is small and strict. Never fewer than five, never more than ten, and then begin again [C094-P4:L118–L122]. Below five there is no room in it. Above ten it has turned into arithmetic. Ten is not a target. It is a ceiling.",
+      "concept_id": "C094"
+    },
+    {
+      "on_screen": "Bodies at work, filmed without faces as often as with them: a sack shouldered and carried, a back under it, a squat held for an hour at the heap, a hand steadying the measure.",
+      "voice": "The old analysis of the body is blunt about what is holding these people upright. Every step, every lifted arm, every word said is fresh bodily matter produced at the instant a thought arises, and posture is held the same way [C094-P4:L184; C068-P:L74–L89; C068-P:L117]. When the mind drops into deep sleep that support goes, which is why someone dozing while sitting slumps [C068-P:L117–L119; C068-M:L13–L15].",
+      "concept_id": "C068"
+    },
+    {
+      "on_screen": "The middle of the day: heat off the floor, a water bottle, rice eaten in the shade of the roof, the heap untouched for half an hour, then work again.",
+      "voice": "Two of the other makers of a body are in this building all afternoon. Heat produces matter inside and outside a body alike, in the grain, the floor and the people [C068-P:L225–L241]. Food produces it only in a living body, and only when what is eaten meets the nourishment already there [C068-P:L282–L291]. None of this is willpower. Nobody here is held together by deciding to be.",
+      "concept_id": "C068"
+    },
+    {
+      "on_screen": "Late afternoon. Fatigue: slower walking, a shirt soaked through, someone breathing hard after a carry and then sitting, the breath settling over a minute. The count in the background, unchanged in pace.",
+      "voice": "What the practice actually asks at the start is nearer to this work than to anything restful. Notice the breath as it is, long when it is long and short when it is short [C094-P4:L106]. Do not push it; one source warns plainly that forcing it tires the chest and the stomach [C094-M:L7]. The instruction is closer to honest observation than to technique.",
+      "concept_id": "C094"
+    },
+    {
+      "on_screen": "Dusk. The last measure out of a nearly empty floor, a broom, the stack of sacks, the board with a total on it, the lit doorway from outside.",
+      "voice": "The same text is careful to say it is not offering a way to feel calmer; ease is a side effect on a road aimed somewhere else entirely [C094-P4:L36–L42], and it warns that a noisy place is the wrong place for it [C094-P4:L52]. Nobody in this building is meditating. They are being paid, and the number is somebody's year. A camera cannot see attention. It can only show a count that did not break.",
+      "concept_id": "C094"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C094 contributes the first stage of mindfulness of breathing, counting, not below five and not beyond ten, without forcing the breath, and the sources' own image for how that counting should be done: a measurer who fills each measure, removes the rubbish and calls the number, neither hurrying nor dawdling. C068 contributes what is actually keeping the measurer going through the same hours, mind-born matter moving the limbs and holding the posture, with food and heat doing the rest. The image and the body it was drawn from occur in one place.",
-    "what_it_reveals": "The texts reached for an ordinary worker to explain an inward practice. Turning that around and watching the worker rather than the practice shows what the image was pointing at: a pace held for hours that is neither effortful nor slack. It also shows the limit of the comparison. The measurer is not meditating; he is being paid, and the digest is explicit that this practice is not a calming technique. What the two reveal together is how much of an inward discipline was described by looking hard at work."
+    "why_together": "C094 supplies both the practice and the picture. The sources set the counting stage of mindfulness of breathing at not fewer than five and not more than ten before beginning again [C094-P4:L118–L122], they put the first steps at knowing the breath long or short as it occurs rather than shaping it [C094-P4:L106; C094-M:L7], and for the pace of that counting they reach for a grain measurer who fills each measure, throws out the rubbish and calls the number [C094-P4:L122; C094-P4:L122–L126]. C068 supplies what is actually running the person in the image. Mind-born matter is what moves a body and holds its posture, arising only at the instant of a thought [C068-P:L74–L89; C068-P:L117], heat makes matter inside and outside a body alike [C068-P:L225–L241], and food makes it only where nourishment taken in meets nourishment already present [C068-P:L282–L291]. Put on the floor of a working store, the simile and the body it was drawn from are in one frame.",
+    "what_it_reveals": "That an inward discipline was described by looking hard at paid work, and that turning the comparison around shows what it was pointing at: a pace that is neither effortful nor slack, held for hours, by a body that is being kept going by several things at once and by no one's decision. It also shows the comparison's limit, which the film says aloud rather than hiding. The measurer is not practising. The place is loud, the stakes are money, and the sources themselves say this object is too subtle for a noisy place [C094-P4:L52]. What survives the difference is the thing the text actually borrowed: the shape of a count."
   },
   "concept_links": [
     {
       "concept_id": "C094",
       "role": "primary",
-      "why": "The digest gives the paddy-measurer simile as the sources' own image for the slow counting that begins mindfulness of breathing, along with the counting rules and the instruction not to force the breath. It is equally explicit that the practice is not relaxation, not breath control and not something done anywhere in five minutes, so the film observes the original of the image and does not present the work as meditation."
+      "why": "The digest carries the counting rule (not below five, not beyond ten, then restart) [C094-P4:L118–L122], the sources' own paddy-measurer simile for how that counting should be paced [C094-P4:L122; C094-P4:L122–L126], the first steps as knowing long and short breaths as they occur [C094-P4:L106], and the Margaya's warning against forcing the breath [C094-M:L7]. Every limit the digest sets is load-bearing here and is honoured on screen. The film never offers the practice as relaxation or stress management, since the sources frame calm as a side effect of a path aimed at ending the defilements [C094-P4:L36–L42]. It never presents it as breath control. It never suggests anyone can do it anywhere in five minutes, and it lets the sources' own objection stand by naming the noise of the place against the text's call for seclusion [C094-P4:L52]. It does not reduce the practice to living in the moment, since its last steps are impermanence, fading, cessation and letting go [C094-P4:L403–L469]. And the account of knowing one's last breaths, which the sources tie to full liberation [C094-P4:L495], is not narrated at all, because using it near real dying or grieving people would distort it. One further digest warning shapes the casting: it notes that the swing simile's pusher is a lame man and that casting a disabled person to match a simile would be exactly the prop-use this project forbids. Nobody in this film is cast to match anything."
     },
     {
       "concept_id": "C068",
       "role": "supporting",
-      "why": "The digest's account of the four origins, with mind-born matter moving the limbs and holding posture while heat and food sustain the rest, is the plain description of what a body doing repetitive work through a long day is running on. The digest also rules out reading mind-born matter as willpower, so the steadiness stays a description, not an achievement of mind over body."
+      "why": "The digest's account of the four origins is the plain description of what a body doing repetitive work through a long hot day is running on: mind-born matter arising only at the instant of a thought and producing movement, posture and speech [C068-P:L74–L89; C068-P:L89], the observation that deep sleep withdraws that support and the body slumps [C068-P:L117–L119; C068-M:L13–L15], heat producing matter inside and outside living bodies [C068-P:L225–L241], and food producing it only where outside nourishment meets the nourishment already there [C068-P:L282–L291]. The digest's corrections are kept. The film never lets this become mind over matter or positive thinking, which the digest rules out; it never lets it become you are what you eat, since the sources insist food alone cannot build a body; and it does not present the sub-moment and cluster figures as physiology [C068-P:L62]. Above all, the digest's hardest bar is honoured by omission: the source's link between past action and a pleasing appearance or voice, and its statement that sense-clusters do not arise where a faculty is defective, are never narrated and are never allowed to touch any real person in frame."
     }
   ],
-  "what_the_viewer_could_understand": "A simple count, neither rushed nor dragged, can hold attention steady through a long day. The old meditation texts chose a grain measurer calling out each measure as their picture of what counting the breath should feel like.",
-  "what_must_be_real": "A real intake, real prices and real stakes for the farmers involved. The counting may not be slowed, restaged or repeated for the camera, and the work may not be presented as a spiritual practice by the people doing it.",
-  "position_hint": "early: it follows the night-shift film because both watch attention hold a working body together, and it introduces the counting that the later recitation film will echo.",
+  "what_the_viewer_could_understand": "That a count kept at one pace, neither hurried nor dragged, can hold a whole working day together, and that the old meditation texts described the beginning of an inward practice by watching someone measure grain. Also that the steadiness is not an achievement of mind over body; it is being produced, moment by moment, by things nobody in the building chose.",
+  "what_must_be_real": "A real intake, real prices and real stakes for the households whose crop is being measured. The measuring may not be slowed, restaged or repeated for the camera, the count may not be re-performed, and nobody may be asked to hold a pose. Nobody in the building is presented as practising anything, and no one is asked to say what the work feels like in order to make a point for the film. The noise, dust, heat and arguments stay in. If the store now weighs rather than measures by hand, the film is of weighing and counting as it actually happens, not of an antique brought out for a crew.",
+  "position_hint": "early: it is the group's gentlest entry, a working body and a steady count rather than an ending, and it introduces the counting that the group's later material on attention can lean on. No location reasoning is involved.",
   "risks": [
-    "Nostalgia for hand methods that ignores debt and price pressure on farmers.",
-    "A livelihood turned into a meditation metaphor.",
-    "Presenting mindfulness of breathing as stress relief or breathwork, both of which the digest rules out.",
-    "Implying the measurer is practising something he has not claimed to be practising."
+    "Nostalgia for hand methods that ignores the debt, the price and the pressure that make the tally matter to the households involved.",
+    "A livelihood used as a metaphor, with the people in it reduced to illustrations of a simile.",
+    "Presenting mindfulness of breathing as stress relief, breathwork or a five-minute technique, all of which the digest rules out.",
+    "Implying that anybody in the store is practising something they have not claimed to be practising.",
+    "Narrating the sources' account of knowing one's last breaths, which the digest says must not be used to comfort or judge.",
+    "Letting the digest's doctrinal material about defective faculties or a pleasing appearance and voice enter the film in any form.",
+    "Treating the scholastic cluster and sub-moment numbers as physiology."
   ],
   "drop_if": [
-    "No hand measuring at a real intake during the research window.",
-    "No store or farmers willing to be filmed."
+    "No hand measuring or called count happens at a real intake during the research window, so there is nothing to film but a weighbridge.",
+    "The store, the agent or the households whose crop it is do not want to be filmed.",
+    "It can only be made by asking someone to measure differently, or more slowly, than they actually do."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0114",
-      "relation": "mirrors",
-      "note": "Both watch attention hold a tired body together through a long stretch of work, one through a night, one through a working day."
+      "idea_id": "IDEA-0123",
+      "relation": "pairs with",
+      "note": "One film counts a crop into a store, measure by measure; the other stands on ground of the same kind where the counting, and everything else, stopped."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0059; the sources' own image for counting, observed in its original setting rather than restaged as practice."
+    "reason": "It films the sources' own image for counting in its original setting, as measuring and a called number rather than as a character."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The subject was kept but narrowed as instructed: the film is now the measuring and the count, not a measurer as a character, and the situation block has gone. Both concepts were re-read from the digests and every citation re-verified against digest evidence. The group's ethical floor is honoured by omission as well as by statement: C068's doctrinal material about defective faculties and about a pleasing body or voice is not narrated, and C094's account of knowing one's last breaths is kept off screen entirely.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Village paddy stores and threshing floors around Medirigiriya",
+    "also_known_as": [
+      {
+        "name": "kamatha",
+        "meaning": "the swept threshing floor beside a paddy tract, where the crop is brought in, trodden out and divided",
+        "used_by": "Sinhala farming usage"
+      },
+      {
+        "name": "naeliya / laha",
+        "meaning": "traditional hand measures of capacity for grain, still named in villages even where scales are used",
+        "used_by": "Sinhala usage, island-wide"
+      }
+    ],
+    "region": "Polonnaruwa District, North Central Province: the flat dry-zone paddy country north of the district capital, around the small town of Medirigiriya and the villages east and west of it",
+    "coordinates": {
+      "lat": 8.15053,
+      "lng": 80.97898
+    },
+    "why_here": "It puts the image and its original in the same district. This is one of the largest paddy-growing areas in the country, so for several weeks after each harvest there are working intakes at village scale in every direction, which is the only way to find hand measuring and a called count rather than a lorry on a weighbridge. The landscape gives the film its wide shot for nothing: a pale swept floor set into a grid of banked fields, readable from directly above. And the concept and the best image coincide, because the most beautiful thing the place produces is also the plainest statement of the idea, which is a column of grain falling into a wooden box at exactly the same rate all day.",
+    "what_to_film": [
+      "The measure being filled, struck level, cleared of straw and stone and tipped, filmed close and held long enough that the rhythm stops being a process and becomes a pace.",
+      "The called number and the tally being kept, as sound as much as picture.",
+      "The heap going down and the stack of sacks going up across a whole day on one fixed frame.",
+      "The floor and the store from directly above at first light and at last light, wide enough to hold the field grid.",
+      "Bodies carrying, squatting, resting and starting again, filmed as work rather than as portraiture.",
+      "The ordinary interruptions: a dispute about a load, an engine, a shower, a break for food.",
+      "The empty swept floor after the last trailer has gone."
+    ],
+    "access": "By road from the district capital. Everything here depends on a store owner or agent agreeing and on the farmers whose crop is being measured agreeing, and on working to the intake's hours rather than a crew's. Filming inside a private store and flying anything over a working yard both need the owner's permission.",
+    "best_time": "The intake weeks after the main harvest, when the floor runs from first light to dusk. Dry, still days. Within a day, the first and last hour for raking light through the open side, and the middle of the day for the vertical shot.",
+    "images": [
+      {
+        "caption": "Paddy country in this district under a breaking sky. An image of the surrounding landscape rather than of any store or threshing floor.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Golden paddy under dark clouds.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Golden paddy under dark clouds.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A banked paddy field in the same district, for the geometry the wide shots depend on. An image of the landscape type, not of the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy field organic polonnaruwa.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Paddy field organic polonnaruwa.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Medirigiriya",
+      "https://en.wikipedia.org/wiki/Sri_Lankan_units_of_measurement",
+      "https://sailanmuslim.com/culture-heritage/weights-and-measures-in-ancient-and-medieval-sri-lanka/",
+      "https://www.statistics.gov.lk/Agriculture/StaticalInformation/PaddyStatistics"
+    ],
+    "research_note": "That this is a major paddy district, that the traditional capacity measures for grain are named pata, hunduva, naeliya, seruva, laha, pala, amuna and kiriya, and that measures of this family are recorded in inscriptions from this part of the country, are from the sources above and are desk research only. The coordinates are the town's, not a chosen store; which store, which floor and whether any of them would agree to be filmed is entirely unverified. The single biggest unknown is whether hand measuring with a called count still happens at a working intake at all, or whether it has been wholly replaced by scales; the film cannot be made if it has not survived, and nothing may be reconstructed for the camera. Both images are of paddy country in this district and not of the proposed site.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No store, agent, floor or household has been found or approached. Everything here is a research direction.",
+    "Whether hand measuring with a called count survives at a working intake in this district is unverified, and it is the question that decides whether this film exists.",
+    "Whether a store will allow filming during an intake, when money is being counted in public and disputes happen, has not been tested.",
+    "Drone flight over a private yard and over occupied fields needs permissions that have not been checked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

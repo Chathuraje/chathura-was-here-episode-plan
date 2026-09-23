@@ -2,73 +2,191 @@
   "schema_version": 1,
   "id": "IDEA-0119",
   "record_type": "idea",
-  "title": "Flour and Water",
+  "title": "Where the Rice Flour Is",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Flour and Water"
+  ],
   "group_id": "GRP-07",
-  "logline": "Before dawn a roadside cook mixes several flours into one dough, and by the time the first customer arrives nobody could say where any single flour is.",
-  "human_question": "Once several things are worked into one, can you still say where any one of them is?",
-  "situation": {
-    "what_happens": "A small eating place opens before light. Flours are measured into one bowl, water is worked in, the mix is left to stand overnight or to rest while the pan heats, and the first food of the day is cooked to order as regulars arrive on their way to work. The recipe is not written down and the proportions are judged by feel.",
-    "who_is_involved": "The cook, whose recipe and hours these are; family members who help; the regular customers whose arrival sets the pace of the morning.",
-    "what_is_at_stake": "A day's takings on thin margins, and a reputation built on a mix that tastes the same every morning.",
-    "how_it_unfolds": "A morning like this begins in the dark and is decided by about nine o'clock. The pressures are the price of flour, the weather and whether the regulars come. It ends in a good morning or a slow one, and neither can be arranged."
+  "logline": "On a flat sand island joined to the mainland by a causeway, a row of small kitchens opens two hours before light, and four different flours are measured into one bowl, wetted, worked and left to stand, so that by the time the first customer is standing in the doorway nobody could say where any one of them is.",
+  "human_question": "Once several things have been worked into one thing, can you still point to where any one of them is?",
+  "place": {
+    "what_kind_of_place": "A long low island of sand, scrub and palmyrah, reached across a causeway, with the sea on one side and a shallow gulf on the other and nothing on it tall enough to cast a shadow. Strung along the coast road is a dense village of small houses, and in it a run of one-room kitchens that open in the dark: a shutter goes up, a light comes on, a griddle and a steamer go on the fire. Flour arrives by the sack and is kept in bins by the door. Rice flour, wheat flour, finger-millet flour and, in this part of the country, a flour ground from palmyrah tuber are used in different proportions for different things, and the proportions are judged by hand, adjusted for how damp the air is, and written down nowhere.",
+    "why_it_is_worth_watching": "The best image the place gives is also the exact statement of the concept, which almost never happens. It is a ball of dough on a board: four flours that were four separate things ten minutes ago, now a single smooth thing in which none of them can be located. Around that one object is a landscape built for dawn. The island is flat, so first light arrives everywhere at once and there is nothing to interrupt it; from height before sunrise the village is a dark mass with a handful of lit doorways in it, and the water on both sides goes from black to white in about twenty minutes. Inside, it is steam, low light, iron, and hands.",
+    "what_moves_or_changes": "The flours and the weather, neither of them under anyone's control. Prices and supply decide what is in the bins that week. Humidity decides how much water goes in, so the same recipe is a slightly different recipe every morning. The fire changes colour, smell, hardness and sound all at once and does not wait. And the customers arrive when they arrive, which is what ends the morning.",
+    "when_it_looks_best": "The dry months, when the air is still before sunrise and the island is not under cloud. Within a day: the ninety minutes before sunrise for the dark village and the lit doorways, the twenty minutes of sunrise for the flats and the water, and the first hour after for the kitchens actually serving."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about grain, water, fire and first light. Sacks opened, flour falling, a bowl, hands, a ball of dough turned and pressed and left alone under a cloth; a griddle heating, steam, the smell you cannot film but can see people react to; and outside, a flat island going from dark to white while this happens. There is a complete piece here with nothing said over it, for anyone who likes watching something be made out of almost nothing.",
+    "with_the_philosophy": "The same dough becomes the sources' own teaching image, standing on a real board. The texts hold that nothing physical ever turns up on its own: the smallest unit of matter is already a bound crowd that arrives together, ends together and leans on one support. To explain it they reach for a kitchen, mix four flours into one ball, ask where the rice flour is, and answer that it is inside the other three. Then, in the same breath, they say the picture is not good enough, because flour specks stay separate and a group of matter has no gap in it at all. This film shows the image and the correction in the same room."
+  },
+  "sequence": [
+    {
+      "on_screen": "Two hours before light, from high above. A flat island as a dark band between two darker waters, a causeway running out to it, and along one edge a scatter of small lit doorways where everything else is unlit.",
+      "voice": "These kitchens open before the first prayer and are finished by mid-morning. Nothing in them is rare. Flour, water, salt, heat, a flat piece of iron.",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "Inside. Four bins by the door. Each flour taken out separately and poured into one bowl: white, pale brown, grey-brown, dark. Held long enough that each is still visibly itself, sitting in layers.",
+      "voice": "The old analysis of matter begins with a flat refusal. Matter never arises singly. It has no power to arise or stand on its own without being bound to other matter, and every bundle of it has at least eight members in it [C070-P:L18; C070-M:L3].",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "Water going in. Hands working the bowl, then the board. The layers disappearing, the colour evening out, the ball turning smooth. Held for a long time, in one shot, with no cutaway.",
+      "voice": "One of the sources explains it with exactly this. Take a little rice flour, a little wheat flour, a little finger-millet flour, a little barley flour, mix them, wet them, work them into one ball. Now ask where the rice flour is. The only answer is that it is sunk in the other three, and the same answer is true of each of them [C070-M:L7].",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "The ball at rest under a cloth. Beside it, the griddle and the steamer coming up to heat, oil moving, the first hiss.",
+      "voice": "The rule the image is trying to carry is precise. Members of one group arise together, cease together, lean on the same support, and exist together, and in every group, whatever produced it, earth, water, fire and air arrive along with colour, smell, taste and nutritive essence, not one before another [C070-P:L18; C070-M:L9; C070-P:L22].",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "Cooking. Colour, edge, smell and sound changing together under heat. A piece lifted, tapped, turned. Steam through the shutter into the dark outside.",
+      "voice": "The wider account defines matter as whatever is altered by opposing conditions, cold and heat being the plain example, and says it never arises without a cause: there are four, past action, mind, temperature and food [C063-P:L20; C063-P:L26]. What the hand reads off the griddle is not a separate item on that list either. Hardness and heat and push are three of the four elements, not a fifth thing called touch [C063-P:L49; C063-M:L11].",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "The first customers. Food wrapped, handed across, eaten standing. The bins going down. Outside, full daylight on the flats and the water.",
+      "voice": "Of the twenty-one kinds of group the sources count, only two are produced by food: the plain octad, and the octad with lightness, softness and workability added to it [C070-P:L125–L128; C070-M:L43–L48]. Eating is not a thing entering a body. It is one more origin starting groups of its own, inside a body already being made by three others.",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "The board wiped. Flour dust in the light from the doorway. The bowl, the iron, the wall, the water outside, all filmed flatly, one after another.",
+      "voice": "The source is the first to say the kitchen is not enough. In the dough the specks of flour are still separate things lying next to each other; in a group of matter there is no gap anywhere, and a group is far smaller than anything an eye could be shown [C070-M:L5–L7]. It also says the flour and the bowl and the iron and the wall and the sea are the same plain octads throughout, differing only in which element is strong in them [C070-M:L52]. This is not physics, and it is not a kitchen. It is an account of why nothing here comes by itself.",
+      "concept_id": "C070"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C070 contributes the rule that matter never arises alone but always in bound groups whose members arise together, cease together and share one support, along with the sources' own mixing image and their own admission that the image falls short. C063 contributes the wider inventory in which hardness, moisture, warmth, colour, smell and taste are counted as the qualities that turn up together in any lump of matter.",
-    "what_it_reveals": "Put together, the two show why the sources reached for a kitchen for this teaching and then immediately warned against it: mixing is the nearest ordinary thing to inseparability, and it is still not close enough, because flour specks stay separate and a material group has no gap at all. The situation carries both the image and its limit."
+    "why_together": "C070 supplies the claim and its one worked picture. Matter never arises singly but in bound groups whose members arise together, cease together, rest on one support and exist together [C070-P:L18; C070-M:L9], with the four elements and the tetrad of colour, smell, taste and nutritive essence in every group without exception [C070-P:L22], and no matter having any power to stand alone [C070-M:L3]. Its teaching image is a ball made from four flours in which the rice flour can only be said to be inside the other three [C070-M:L7], followed immediately by the source's own admission that the image fails [C070-M:L5–L7]. C063 supplies what the heat does. It defines matter as what is altered by opposing conditions such as cold and heat, and states that matter never arises without a cause, with exactly four causes, past action, mind, temperature and food [C063-P:L20; C063-P:L26]. Put in one room, the two give the film its two halves: the mixing, where nothing can be found separately any more, and the fire, where everything changes register at once.",
+    "what_it_reveals": "That the sources reached for a kitchen and then told you not to trust it, and that both halves of that move are filmable in a single morning. C070 alone would be a doctrine of invisible bundles with an illustration attached. C063 alone would be a process film about heat. Together on a dough of four flours they show why food is counted as an origin of matter in its own right and not as fuel: it does not enter a body, it starts groups there, two kinds of them, alongside the three other origins already running. And the last beat keeps the source's honesty, which is the point of the film: the best picture anyone has for this is a ball of dough, and the source that offered it says it is not close enough."
   },
   "concept_links": [
     {
       "concept_id": "C070",
       "role": "primary",
-      "why": "The digest gives the sources' own image for material groups: a ball made from several flours, where asking where the rice flour is can only be answered that it is inside the others. It also records the sources' own correction, that the image fails because in dough the specks are still separate while in a group of matter there is no gap, and it warns that a kalapa is not an atom or a particle of physics."
+      "why": "The digest's core claim is that matter never arises alone but in bound groups marked by arising together, ceasing together, resting on one support and existing together [C070-P:L18; C070-M:L9], that no matter has the strength to arise or stand unbound and that every group holds at least eight members [C070-M:L3], and that the four elements and the tetrad of colour, smell, taste and nutritive essence appear in every group whichever of the four origins produced it [C070-P:L22]. It carries the sources' own kitchen image of four flours worked into one ball [C070-M:L7] and, crucially for this film, their own correction of it [C070-M:L5–L7], which is spoken on screen rather than quietly dropped. It also gives the two nutriment-born groups that make food an origin rather than a supply [C070-P:L125–L128; C070-M:L43–L48], and the observation that everything in the outside world is plain octads differing only in which element predominates [C070-M:L52]. Every limit in the digest that bears on this film is honoured. The film never maps a group onto an atom, a molecule or a particle, which the digest rules out explicitly. It never lets the material turn into a slogan about everything being connected, since the point is inseparability and ownerlessness, not cosmic kinship. It never presents the flour ball as the teaching. And it does not go near the digest's note that plants are pure octads, which the digest says needs expert framing before use."
     },
     {
       "concept_id": "C063",
       "role": "supporting",
-      "why": "The digest lists the qualities that arrive together in any lump of matter, hardness, cohesion, heat, motion, colour, smell, taste and nutritive essence, and treats a thing's apparent steadiness as its conditions continuing to produce it. A dough changing together in all those registers as it stands and cooks is that account in miniature."
+      "why": "The digest defines matter as that which is altered by opposing conditions such as cold and heat and describes everything sensed as a conditioned pattern rather than a substance [C063-P:L20], states that matter never arises without a cause and gives the four, past action, mind, temperature and nutriment [C063-P:L26], and removes the tangible from the list as a separate item because it is simply three of the great elements [C063-P:L49; C063-M:L11]. That is precisely what a griddle does and what a hand reads off it. The digest's limits are kept. The film never says or implies 'everything is energy' or 'everything is vibration', which the digest rules out; it never quotes the seventeen-mind-moment lifespan as a measurement, and in fact does not narrate it at all; it does not present the scheme as materialism, since the list it is reading from also contains a life-faculty and sense-matter; and it stays away from the two kinds of sex-matter altogether, which the digest says belong to a classical binary and must not be quoted into modern argument."
     }
   ],
-  "what_the_viewer_could_understand": "These texts say nothing physical ever turns up on its own; the smallest bit of matter is already a small crowd that arrives together and ends together. Their own kitchen image for this is a dough of several flours, and they are the first to say the image only goes part of the way.",
-  "what_must_be_real": "The cook's actual recipe, hours and customers. Nothing staged as an illustration of a simile, and the stall's real business leads.",
-  "position_hint": "middle if it ever stood alone; in practice its substance now sits inside the group's opening film about clay and a kiln.",
+  "what_the_viewer_could_understand": "That these texts say nothing physical ever turns up on its own, that the smallest piece of matter is already a small crowd arriving and ending together, and that food is counted as one of the four things that make matter rather than as something poured into a body. And that the clearest picture anyone has ever offered for this, a ball of mixed flour, was offered by a writer who then said it was not good enough.",
+  "what_must_be_real": "The kitchen's real hours, real recipe and real proportions, including the ones judged by feel and the ones that change with the weather. Nothing is mixed twice for the camera, no batch is made that would not have been made, and no food is wasted to get a shot. The material leads and the people do not: nobody who works there is built into a character, nobody in frame is presented as an example of anything, and no child is a subject. The film does not claim to know what anyone is thinking, and it does not use a livelihood as a stage for a simile; if the household would rather not be filmed at the hours that matter, the film does not happen.",
+  "position_hint": "early in the group: it is the plainest possible statement that matter never arrives alone, and the later films assume it. It should come after the group's film on the elements and heat, so that the two do not both open on fire.",
   "risks": [
-    "A livelihood used only to illustrate a simile.",
-    "Presenting the flour-ball image as the teaching itself, which the sources warn against.",
-    "Mapping material groups onto molecules or atoms."
+    "Mapping material groups onto atoms, molecules or particles of physics, which the digest rules out in so many words.",
+    "Presenting the flour ball as the teaching itself. The source's own correction is load-bearing and must stay in the film.",
+    "Letting the material slide into 'everything is connected' or 'everything is energy', both of which the digests reject.",
+    "Using a family's livelihood and unsocial hours only as a stage for a simile, so that the morning is decorative.",
+    "Turning the cook into a character, or any worker or customer into an illustration; the concept is in the material, not in anybody's face.",
+    "Narrating the seventeen-mind-moment lifespan of matter as though it were a measurement.",
+    "Reaching for the digest's note that plants are entirely pure octads, which it says needs expert framing before any use.",
+    "Filming inside a working kitchen in a way that slows service or contaminates food."
   ],
   "drop_if": [
-    "No maker willing to have the early hours filmed.",
-    "No real mixing practice to observe."
+    "No kitchen is willing to be filmed through the hours before light, which are the only hours that matter.",
+    "The flours are no longer mixed on the premises, so there is no real mixing to watch.",
+    "It can only be made by asking someone to mix a batch they were not going to mix."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0113",
-      "relation": "merged into",
-      "note": "Its kalapa material, the flour-ball image and the sources' own warning about it, now sit inside IDEA-0113."
+      "relation": "pairs with",
+      "note": "The two films divide the origins between them: that one takes temperature and the change heat makes, this one takes nutriment and the fact that nothing arrives alone."
+    },
+    {
+      "idea_id": "IDEA-0121",
+      "relation": "pairs with",
+      "note": "Two opposite operations on one whole: here several things are worked together until none can be found, there one thing is named apart until it stops being one thing."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0113",
-    "reason": "Folded into IDEA-0113, which holds the group's slot on the elements; the merge gives that film its C070 link, the sources' own mixing image, and the warning the sources attach to it."
+    "superseded_by": null,
+    "reason": "It is the only film that carries the sources' own teaching image and their own correction of it, and the only one that makes food an origin of matter rather than a supply."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The subject is kept and narrowed: the material, not the cook, now carries the film, and the earlier merge into IDEA-0113 is withdrawn because the two films divide the origins between them rather than duplicating a concept. Concepts re-read from the digests as a new reader and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The pre-dawn kitchens along the coast road at Erukkalampiddy, on Mannar Island",
+    "also_known_as": [
+      {
+        "name": "odiyal maavu",
+        "meaning": "flour ground from the boiled and dried tuber of the palmyrah palm, used in the north alongside rice and wheat flour",
+        "used_by": "Tamil usage in the northern districts"
+      },
+      {
+        "name": "pittu",
+        "meaning": "flour and grated coconut steamed in a cylinder, one of the things these kitchens make before light",
+        "used_by": "Sinhala and Tamil usage, island-wide"
+      }
+    ],
+    "region": "Mannar District, Northern Province: a small dense coastal town on the inner shore of Mannar Island, on the A14 road a few kilometres north-west of the district town, out along the sand spit that the causeway runs onto",
+    "coordinates": {
+      "lat": 9.0333,
+      "lng": 79.8667
+    },
+    "why_here": "It puts the one image the concept needs inside a landscape that gives the film its other half for nothing. The island is a flat sand bar with the sea on one side and a shallow gulf on the other and nothing on it high enough to block the light, so dawn arrives everywhere at once and, from the air an hour before it, the town is a dark mass with a few lit doorways in it. Inside one of those doorways is the exact object the sources describe: several flours, from several plants, measured into one bowl and worked into a single ball. The north is also the part of the country where the flour bin is most likely to hold four genuinely different flours at once, including one ground from palmyrah tuber, so the mixing is real practice rather than an arrangement made for a camera. And it is a small working place, not a monument, which is what this group's tone asks for.",
+    "what_to_film": [
+      "The island from high above before first light and again through sunrise, wide enough to hold both waters and the causeway, so that the lit doorways read as the only thing happening.",
+      "The four flours separately: the bins, the scoop, the colour and the fall of each one, before anything is mixed.",
+      "The mixing in one unbroken shot, from layered flours to a single smooth ball, with no cutaway, because the shot is the argument.",
+      "The dough resting under a cloth, and the same frame later when it has changed.",
+      "Heat: the griddle and the steamer coming up, the moment of contact, and colour, edge, smell-reaction and sound changing together.",
+      "The handover and the eating, filmed as traffic rather than as portraiture, wide and from behind.",
+      "The plain materials of the room shot flatly one after another: flour, water, iron, wood, wall, and the sea outside, for the last beat.",
+      "A fixed frame on the doorway from dark to full daylight, so the whole morning is one shot somewhere in the film."
+    ],
+    "access": "By the causeway and the A14 from the mainland, then a short run along the coast road. Everything here depends on one household agreeing to be filmed at hours when they are working flat out and cannot be delayed, and on working to their morning rather than a crew's. It is a small, densely built settlement, so a drone over houses needs the agreement of more than the one family, and flight rules in the northern districts should be checked in advance rather than assumed.",
+    "best_time": "The dry months, for still air before sunrise and a clear horizon on a flat island. Within a day, the ninety minutes before sunrise, the twenty minutes of sunrise, and the first hour of service after it.",
+    "images": [
+      {
+        "caption": "Mannar Island seen along its flat sand and scrub: the landform the film's dawn shots depend on. A picture of the island, not of the town itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mannar Island - June 2019.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mannar Island - June 2019.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A second view of the same island, for the scale and emptiness of the ground the town sits on. A picture of the island, not of the town itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MannarIsland-January2012-01.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:MannarIsland-January2012-01.JPG",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "String hoppers of the kind pressed from wetted flour before light. A picture of the food type, not of any kitchen at this location.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lanka-String hoppers.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lanka-String hoppers.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Erukkalampiddy",
+      "https://en.wikipedia.org/wiki/Mannar_Island",
+      "https://en.wikipedia.org/wiki/Mannar_District"
+    ],
+    "research_note": "That this is a small coastal town on the inner shore of Mannar Island in Mannar District, that it lies on the A14 road north-west of the district town, and that Mannar Island is a low sand island joined to the mainland by a causeway, are from the sources above and are desk research only. The coordinates are the ones the encyclopaedia entry gives for the town and should be treated as a direction, not a survey. No kitchen has been found, named or approached, and nothing about which flours any particular kitchen actually keeps has been verified on the ground; the flour combination described is general northern practice from desk reading. None of the three images is of the kitchens; two are of the island as a landform and one is of the food type, and each caption says so.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No kitchen, household or family has been found or approached. Everything here is a research direction.",
+    "Whether any kitchen at this location still mixes several flours by hand, rather than buying a ready mix, is entirely unverified and decides whether the film exists.",
+    "Whether a one-room working kitchen can be filmed at its busiest hour without slowing it down has not been tested.",
+    "Drone permissions in the northern districts, and the agreement of a densely built neighbourhood to being overflown before dawn, are unchecked."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

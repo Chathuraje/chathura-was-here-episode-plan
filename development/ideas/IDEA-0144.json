@@ -2,75 +2,190 @@
   "schema_version": 1,
   "id": "IDEA-0144",
   "record_type": "idea",
-  "title": "As Long As It Takes",
+  "title": "Nothing Is Added in the Cold",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "As Long As It Takes"
+  ],
   "group_id": "GRP-08",
-  "logline": "On a long, silent meditation retreat, a teacher meets each student for a few minutes every evening, trying to gauge, without ever quite asking, how deep they have gone.",
-  "human_question": "How do you measure something as private as another person's stillness?",
-  "situation": {
-    "what_happens": "A residential retreat runs for days or weeks in silence. The timetable is identical every day. Each evening every student has a short private interview in which they describe what happened in their practice, and the teacher decides what to say next. The teacher is working almost blind: the only evidence is the student's own account, which is unreliable in both directions, and whatever the teacher can read behind it.",
-    "who_is_involved": "The teacher, who is responsible for people they cannot see inside; the students, who range from first-timers to people who have been doing this for decades; and the staff who cook and keep the place running so that the silence can hold.",
-    "what_is_at_stake": "For students, sometimes a great deal, since people come to retreats after bereavements and breakdowns as well as out of discipline. For the teacher, the responsibility of guiding on thin evidence, and of knowing when to tell someone to stop. For the tradition, whether depth can be recognised and passed on at all.",
-    "how_it_unfolds": "Retreats begin with logistics and restlessness, settle around the middle, and often get hardest just before they ease. The interviews grow shorter and more specific as the teacher learns each person. Then it ends, people speak again, and most of what happened is invisible by the time they reach the gate. Reality decides what happens to any individual, and none of it can be verified from outside."
+  "logline": "In a cold room on a river terrace, seventeen thousand sealed packets sit in the dark with almost nothing happening inside them; every so many years one is brought out, a hundred of its seeds are laid on wet paper, and somebody counts, one at a time, how much of what went in is still there.",
+  "human_question": "If the only question ever asked of a thing is how much of it is still present, what is it that the answer is about?",
+  "place": {
+    "what_kind_of_place": "A national seed store and the fields that keep it alive, on terraces above a river in the mid-country hills. Inside: a processing hall where seed is cleaned and dried down, a laboratory of germination cabinets and counting benches, and two cold stores, one a working room at about five degrees and low humidity, one a long-term room at about one degree where the seed is hermetically sealed in airtight containers and effectively nothing is done to it for years at a time. Roughly seventeen thousand registered items are held, across rice and its wild relatives, other cereals, grain legumes, vegetables, root crops, oil and fibre crops, medicinal plants and fruit, most of them varieties that no farmer now grows. Outside: the regeneration ground, a field divided into hundreds of small square plots, one variety to a plot, each sown, isolated, watched, hand-harvested and returned to the store when its stored sample falls below a threshold.",
+    "why_it_is_worth_watching": "Because the place holds the two most opposite images in the whole group in two rooms twenty metres apart. One is a dark cold store where nothing at all is happening, stacked with sealed silver packets in ranks, and it is the nearest thing a camera in this country can get to existence with no experience in it. The other is a field of several hundred small plots seen from directly overhead: every plot a different old variety, every one a different height and a different colour, ripening on a different day, so the field reads as a quilt that no designer made. And between the two rooms is the film's one action, endlessly repeated: a packet opened, a hundred seeds laid out in rows on wet paper, the trays racked, and days later a person counting, one at a time, which of the hundred moved.",
+    "what_moves_or_changes": "Almost nothing indoors and everything outdoors. The cold store changes only in what has been taken out of it; the counting bench changes only in the number written down. The regeneration field runs on a season and turns over completely twice a year, and each plot in it ripens on its own schedule, so the aerial picture is different every week. The long span is the subject: the monitoring cycle for a stored sample is set in years and can be set in decades, so the same packet is opened by different people in different decades and asked exactly the same question.",
+    "when_it_looks_best": "The field wants the last four weeks before harvest, when the plots are at their most various and the differences between varieties are at their most visible from the air. The interiors have no season and want a week, not a day, because the counting and the cabinet work happen on their own timetable. Within a day, low sun across the plots, and for the cold store whatever light the room actually has, which is very little."
   },
+  "two_layers": {
+    "without_the_philosophy": "A quiet film about an extraordinary and almost unvisited kind of building, and about the field that keeps it going. Silver packets in ranks in the cold and the dark; a hundred seeds laid out in rows by hand; germination trays racked in a cabinet; somebody counting with a pencil; a drying room; then outside, from above, several hundred small plots of old grain, each a different green or gold, ripening at different speeds, being cut by hand one plot at a time. It has a complete shape with nothing said over it: the dark room, the count, the field, the dark room again. Anyone who likes careful work, or likes patterns made by accident, has a whole piece here.",
+    "with_the_philosophy": "The same week becomes the sources' account of how one existence links to the next, which is far narrower and far less consoling than most people assume. The texts say that what conditions a particular kind of rebirth is a depth of trained stillness that has not fallen away by the time of death, graded as limited, medium, or fully mastered; nothing is added at the end, and nothing is awarded. They also describe one kind of existence in which the link is made by matter alone, with no experience in it from beginning to end, and which still counts as a life and still ends. And their table of what minds are available in each world contains a reversal nobody expects: the freest person in it has the fewest kinds of mind of anyone in the table. A film in which the only question ever asked of anything is how much of it is still present, asked at a fixed interval across decades, puts all three of those in one place. The film says plainly that the correspondence is its own and that the texts mean real planes of birth, not storage conditions."
+  },
+  "sequence": [
+    {
+      "on_screen": "High and straight down at first light. A river bend, terraces, a plain low building, and beyond it a field cut into several hundred small squares, each a different colour and height, ripening at different rates.",
+      "voice": "There are about seventeen thousand kinds of seed in the building under this shot. Most of them are not grown by anybody any more. Every square in that field is one of them, put back in the ground because the sample in the store was running out of life.",
+      "concept_id": "C054"
+    },
+    {
+      "on_screen": "The long-term cold store. Very little light. Ranks of sealed silver packets. A door seal. A thermometer at one degree. Absolutely no movement in frame for a long time.",
+      "voice": "The old texts describe one kind of existence where the link to the next life is made by matter alone. There is only matter at the linking, only matter for the whole of the span, and when the being leaves, that succession of matter simply stops [C054-M:L11]. Nothing happens inside it from beginning to end, and it still counts as a life, and it still ends. This room is our picture of that, not the text's. The texts mean a real place where beings are born.",
+      "concept_id": "C054"
+    },
+    {
+      "on_screen": "A packet brought out and opened. A hundred seeds counted out onto wet paper in ten rows of ten, by hand, in silence. The tray slid into a cabinet.",
+      "voice": "In the sources, what decides the next linking is a depth of stillness the person trained and had not lost by the time they died. It is graded: reached in a general way, reached to a middling degree, or made completely fluent, and the highest grade is the one held with the five masteries [C054-P:L25]. What arrives at the end is not a verdict and not a reward. It is whatever has not gone.",
+      "concept_id": "C054"
+    },
+    {
+      "on_screen": "Days later. The same tray out of the cabinet. A hand and a pencil moving across it, counting the ones that moved, one at a time. A figure written into a ruled book beside earlier figures in other hands and other inks.",
+      "voice": "The threshold in this work is eighty-five out of a hundred. Above it, the packet goes back into the dark. Below it, the variety has to be taken out and grown. And the interval between one count and the next is set in years, sometimes in decades, so the same packet is opened and asked the same single question by people who never meet.",
+      "concept_id": "C054"
+    },
+    {
+      "on_screen": "The regeneration field at ground level and then from above: plots being sown, thinned, bagged against cross-pollination, and cut by hand one plot at a time. Bare squares beside ripe ones.",
+      "voice": "The texts count the cycle in four parts, and only one of them is the ending: a thing coming apart, then standing empty for exactly as long as the coming apart took, then forming again, then standing [C054-M:L39]. Here the empty part is a bare square with a label in it. On the doctrine's own scale these are ages nobody can picture, and it is not a measurement of anything. The comparison is ours.",
+      "concept_id": "C054"
+    },
+    {
+      "on_screen": "The drying room and the processing hall: seed cleaned, weighed, moisture checked, sealed into new packets, labelled, carried back into the cold.",
+      "voice": "The second concept in this film is a table, and the table has the surprise in it. What kinds of experience are even possible for a being is fixed by where it is, not chosen by it: where a world is entered by turning away from sense pleasure, smell, taste and touch are simply not there [C050-P:L39], and aversion is not there either, because it is one of the things that had to go for that stillness to happen at all [C050-M:L17]. In one kind of existence there is no consciousness whatever [C050-P:L53].",
+      "concept_id": "C050"
+    },
+    {
+      "on_screen": "The cold store again, the door closing, the light going. Then a single ruled page of counts spanning decades.",
+      "voice": "And at the far end of the same table, the reversal. The freest person anywhere in it has the fewest kinds of mind of anyone in it, not the most [C050-P:L80]. What falls away is greed, aversion and confusion and a great deal else. In this account, freedom is a narrowing, and nobody in the table chose their range.",
+      "concept_id": "C050"
+    },
+    {
+      "on_screen": "Last light. The field of plots from height, some cut, some standing, some bare. The plain building small at the edge of frame. No commentary over the final minute.",
+      "voice": "Nothing is added in that cold room, and nothing in it is deserved. The only thing ever measured here is how much of what went in is still there. Whatever carries on out of that field is not a packet that travelled with its belongings.",
+      "concept_id": "C054"
+    }
+  ],
   "concept_merge": {
-    "why_together": "Rebirth-linking into the fine-material and immaterial planes (C054) says that the level of absorption a person has trained and not lost at death conditions where the next life begins, graded for the first absorption as limited, medium or fully mastered. The minds available by plane (C050) says something counter-intuitive about those same higher states: fewer kinds of experience are available in them, not more. Together they make the evening interview strange and interesting, because a teacher is trying to gauge a depth the tradition takes seriously enough to link to the shape of an existence, while what that depth gains is subtraction rather than addition.",
-    "what_it_reveals": "That 'higher' here means narrower. The freest person in the source's own table has the fewest kinds of mind available, with no smell, taste or touch and no aversion. Placed beside a retreat, that turns the whole enterprise from acquiring experiences into giving them up, and it exposes the gap neither concept shows alone: none of this inner state is visible to a teacher, let alone to a camera."
+    "why_together": "C054 supplies the mechanism the film is built on. The sources hold that rebirth into the fine-material worlds follows from an absorption that has not fallen away by the time of death, graded as general, middling or excellent, with the highest grade tied to the five masteries [C054-P:L25], and they say only that the same method applies to the higher absorptions without spelling it out, which the digest records as an open gap [C054-P:L27]. They describe one plane linked by matter alone, in which there is only matter at the linking, only matter throughout, and at departure that succession of matter ceases [C054-M:L11], and count six fine-material linkings in all [C054-M:L13]. And they set out the four-part cycle of coming apart, standing empty for as long as that took, forming again and standing [C054-M:L39]. C050 supplies the frame that stops the film becoming a story about achievement. The range of minds available is fixed by the plane and not chosen: smell, taste and touch are absent where a world was entered by turning from sense pleasure [C050-P:L39], aversion is absent because it is a hindrance to the stillness that made the plane [C050-M:L17], there is no consciousness at all among the non-percipient [C050-P:L53], and the table's freest person has the fewest kinds of mind in it [C050-P:L80; C050-P:L61–L80]. A seed store and its regeneration field put all of that in one week: a thing kept in conditions where nothing happens, asked at a fixed interval how much of it is still present, and either returned to the dark or grown out.",
+    "what_it_reveals": "That the sources' account of what carries over is subtractive and entirely unsentimental. Nothing accrues, nothing is credited and nothing is added at the end; the only thing that decides the linking is what has not already gone. C054 alone would be a lecture about grades of attainment nobody can film. C050 alone would be a table. Together, in a building whose entire purpose is to ask one question at a fixed interval for decades, they show the shape of the doctrine without a single person's inner life being claimed or photographed. The old version of this idea got the same distinction by filming a meditation teacher interviewing students nightly on a silent retreat. This one gets it from a cold room and a counting bench, which can consent, are not in the middle of anything private, and make the interval visible."
   },
   "concept_links": [
     {
       "concept_id": "C054",
       "role": "primary",
-      "why": "The source grades the first absorption as limited, medium or fully mastered and links each grade to a different plane, saying the same method applies to the higher absorptions without spelling them out, which the digest records as an unresolved gap [C054-P:L25-L27]. The digest also warns that 'meditate and you will go to heaven' turns a precise teaching about an attainment unlost at death into a self-help promise, so the film shows people practising and never suggests that any of them is going anywhere. The source's traditional remarks about women who attain absorption are not used."
+      "why": "The digest's grading of attainment is the film's whole argument and is cited on screen: a first absorption developed in a general way, to a middling degree, or made fluent with the five masteries, and unfallen at the time of death, conditions which of three planes the linking goes to [C054-P:L25]; the source says the higher absorptions follow the same method and does not spell it out, which the digest records as an unresolved gap and which the film therefore does not fill [C054-P:L27]. The plane linked by matter alone, with only matter at the linking, only matter during the span and that succession ceasing at departure [C054-M:L11], is the film's second image and the reason the cold store is in it. The four-part cycle including the counted empty period [C054-M:L39] is spoken as the sources' cosmology and immediately flagged as our comparison rather than a measurement, exactly as the digest requires when it says the aeon figures are cosmology and not a parallel to geological or astronomical time. Every other limit is honoured by construction. There is no meditation, no practitioner and no teacher anywhere in the film, so the 'meditate and you will go to heaven' reading has nothing to attach to; the film never suggests that anything or anyone is going anywhere. The Margaya's cycle of moral decline, catastrophe and renewal is not used at all, so no real disaster is implied to be deserved. The Pradeepika's traditional remark about women who are non-returners is not used."
     },
     {
       "concept_id": "C050",
       "role": "supporting",
-      "why": "The digest's first correction is that 'higher beings feel more' reverses the source: the most freed person in its table has the fewest kinds of mind available [C050-P:L80]. A retreat's deliberate narrowing of what reaches the senses gives that an ordinary, practising form. The digest's warning that the count for people born without a sense faculty must never become a ranking of human worth is observed absolutely; nothing in this film ranks anybody."
+      "why": "The digest's point that the plane fixes the range is what keeps the film from reading as an achievement story, and its first correction is the film's last line. The sources give the reasons for the absences rather than merely listing them: smell, taste and touch are missing where the plane was reached through turning away from sense pleasure [C050-P:L39], and aversion is missing because it is a hindrance to the absorption that produced the plane [C050-M:L17]. There is no consciousness at all among the non-percipient beings [C050-P:L53], which is the exact companion to the matter-only linking in the primary concept. And the table's own reversal is spoken as the film's closing idea: the freest person in it has the fewest kinds of mind of anyone in it [C050-P:L80; C050-P:L61–L80], so a modern slogan about higher beings feeling more has the source backwards. The digest's absolute prohibition is observed absolutely: the source's technical remark about people born without a sense faculty is not used, not alluded to, and not present in any form, no human condition of any kind appears in the film, and nothing in it ranks any person or life against another. The digest's note that reading the planes as metaphor is an editorial choice is answered out loud in the second beat, where the voice says the texts mean real places of birth and that the room is the film's picture. The point that nobody chooses their range is spoken rather than implied."
     }
   ],
-  "what_the_viewer_could_understand": "The texts describe calm, focused attention as something a person can train a little, moderately or to full mastery, and they link its depth to birth in the higher worlds. Those worlds have fewer ways of experiencing, not more: no smell, taste or touch, and no anger.",
-  "what_must_be_real": "A retreat that runs exactly as it would without a camera. The silence is not broken for filming. Students consent individually, in advance and again afterwards, and an interview is filmed only if both people in the room want it. Nobody is presented as having attained anything, because nobody outside them can know.",
-  "position_hint": "late middle: the group's step up into the higher planes, after the films about death and before the two that close it.",
+  "what_the_viewer_could_understand": "That in these texts what carries across is not a possession, a credit or a reward, but whatever depth of trained attention has not already fallen away at the moment the break comes, graded a little, moderately or fully. That one kind of existence is described as matter alone, with no experience in it at all, and it still ends. And that the range of what is even possible for a being is fixed by where it is, with the freest of them having the fewest kinds of mind available, not the most.",
+  "what_must_be_real": "The store, the counts and the field as they actually are, including whatever is short of standard, behind schedule, duplicated abroad or lost. Nothing is re-staged: no test is run for the camera, no count is repeated for a second take, no packet is brought out that was not due, and no plot is sown, thinned or cut to a crew's timetable. No number is invented or improved, and a ruled page is filmed as it reads. The people who do this work are filmed as people doing work and are not offered as examples of anything; nobody's expertise, patience or devotion is the subject. The film makes no claim about the security, adequacy or funding of the collection and does not use the place to argue about seed policy, intellectual property or agricultural history. Cold-store and laboratory access happens on the institution's terms or not at all.",
+  "position_hint": "late: it is the coldest and most technical film in the group and it works best once the viewer has met the group's tone and already been told that results are not deserts, and it hands on the group's closing question about what continues. No location reasoning is involved.",
   "risks": [
-    "Presenting a student as advanced, which the camera cannot verify",
-    "Disturbing a retreat, or making the silence into a setting",
-    "A student in an intense state consenting to something they would not otherwise agree to",
-    "Implying that practice buys a destination"
+    "Letting a seed store stand in for a plane of existence, so that the sources' cosmology quietly becomes a metaphor about storage. The film states the difference out loud and the risk remains.",
+    "Turning the doctrine's aeon figures or its lifespans into a comparison with measured seed longevity, or letting the tradition appear to have anticipated a science.",
+    "Sentimentalising either the building or the work, so that the film becomes a tribute to careful people rather than a demonstration of a concept.",
+    "Making an argument about the security or funding of a national collection, or being used to make one.",
+    "Letting the matter-only plane be mapped onto any human condition. The digest forbids this for coma and brain injury and the film keeps every human condition out of the frame entirely.",
+    "Any implication that fewer kinds of experience make a lesser life, which the digest forbids absolutely and which the film's own closing line depends on refusing.",
+    "Filming laboratory or cold-store work in a way that could contaminate a sample or break a cold chain."
   ],
   "drop_if": [
-    "Filming would compromise the retreat",
-    "Students cannot consent freely within a silent retreat's constraints",
-    "The centre wants the film as promotion"
+    "The institution will not allow the cold store, the counting bench and the regeneration field to be filmed, since the film is those three things and nothing else.",
+    "Filming would risk a sample, a cold chain or an isolation requirement in the field.",
+    "The monitoring interval and the counting by hand turn out not to work the way the film assumes, which would remove its central action.",
+    "The only way to get the sequence is to have a test set up for the camera."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0148",
+      "idea_id": "IDEA-0143",
       "relation": "pairs with",
-      "note": "One watches people training attention together, the other a single practitioner doing something similar alone."
+      "note": "Two films on the same stack of worlds: one flies up it and shows that the top floor holds the least, the other sits in a cold room and asks only what is still present at the moment a thing is opened."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and the only carrier of both C054 and C050 in the group."
+    "reason": "It is the only carrier of C054 and C050 in the group, and the place gives the concept its exact action, one question asked of one thing at a time at a fixed interval across decades, with nobody's inner life claimed or filmed."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape, and the old subject was dropped entirely. What was dropped: a long silent meditation retreat, and specifically the teacher's nightly one-to-one interview with each student. Retreatants are people in the middle of a vulnerable inner process who are there precisely in order not to be observed, consent inside a silence and inside a teacher's authority is not free consent, and the film would have depended on filming the one room in the place that exists to be private. It also risked presenting individuals as having attained something no camera can verify. The concepts were kept unchanged, including the grading of an attainment unfallen at death and the table's reversal that the freest have the fewest kinds of mind, and the film now gets both from a place where something is checked one at a time at a fixed interval across decades and where there is no student, no teacher and no inner state in the frame at all. Both digests were re-read as a new reader and every citation re-verified against digest evidence; none was carried over from the old text. The old connection to IDEA-0148, which paired a group of practitioners with a single practitioner, was dropped because this film no longer has any practitioner in it.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The seed gene bank and regeneration fields of the Plant Genetic Resources Centre, Gannoruwa",
+    "also_known_as": [
+      {
+        "name": "PGRC",
+        "meaning": "the usual short name for the centre in departmental and research usage",
+        "used_by": "Sri Lankan agricultural and research usage"
+      },
+      {
+        "name": "the Gannoruwa agriculture complex",
+        "meaning": "the cluster of national agricultural research institutes on the same terraces, of which the centre is one",
+        "used_by": "local and departmental usage"
+      }
+    ],
+    "region": "Kandy District, Central Province: the agricultural research terraces on the north bank of the river a few kilometres west of the district town",
+    "coordinates": {
+      "lat": 7.2747,
+      "lng": 80.5972
+    },
+    "why_here": "Because the film's single action exists here as routine and nowhere else in the country at this scale. This is the national seed gene bank, established in 1988, holding roughly seventeen thousand registered items across twenty and more crop groups in two collections: a working collection at about five degrees and twenty-five to thirty per cent humidity, and a base collection hermetically sealed in airtight containers at about one degree, where effectively nothing is done to a sample for years at a time. Its whole business is to ask one question of one item at a fixed interval, for as long as the item lasts, and to grow the item out when the answer falls below a threshold. That gives the film a dark room where nothing happens, a bench where a hundred seeds are counted by hand, and a regeneration field of several hundred small single-variety plots which from directly overhead is the most beautiful accidental pattern the subject could produce. The setting helps too: terraces above a river bend, with the collection's oldest varieties growing a few hundred metres from the room in which their sealed originals are kept.",
+    "what_to_film": [
+      "The regeneration field from directly overhead at several heights and in several weeks, so the plots resolve from a texture to a grid of individual varieties ripening at different rates.",
+      "The long-term cold store, held very long, with almost no movement in frame: ranks of sealed packets, a door seal, a thermometer.",
+      "A hundred seeds counted out by hand onto wet paper in rows, in one unbroken take.",
+      "Germination trays going into and coming out of a cabinet, and the count being made days later with a pencil.",
+      "A ruled register page carrying counts from several decades in several hands.",
+      "The processing hall: cleaning, moisture testing, drying down, sealing, labelling.",
+      "The field work plot by plot: sowing, thinning, isolation bagging, hand harvest, threshing on a mat.",
+      "A bare labelled plot beside a ripe one, for the empty part of the cycle.",
+      "The complex and the river terraces from height, for the setting and its scale."
+    ],
+    "access": "By road from the district town. Everything here depends on the agriculture department's permission: the cold stores and the laboratory are controlled environments with contamination and cold-chain rules, and the regeneration field has isolation requirements that a crew could compromise. Drone flight over a government research complex is likely to need specific clearance. The counting and the cabinet work happen on the institution's timetable, which is the timetable the film has to accept.",
+    "best_time": "The last four weeks before harvest in either season for the regeneration field, when the varieties are at their most various from the air. The interiors have no season but need a week rather than a day, because the film's central action happens when it happens. Low sun across the plots; the cold store in whatever light it actually has.",
+    "images": [
+      {
+        "caption": "The river and terraces the research complex stands on. A picture of the surrounding valley rather than of the gene bank itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahaweli River at Gannoruwa Sri Lanka.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Mahaweli River at Gannoruwa Sri Lanka.JPG",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Grains of several traditional rice varieties. A picture of the kind of material the collection holds, not of the collection.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional rice in sri lanka know as Akshata,charu,amishaa.png",
+        "source": "https://commons.wikimedia.org/wiki/File:Traditional rice in sri lanka know as Akshata,charu,amishaa.png",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://doa.gov.lk/pgrc-gb/",
+      "https://doa.gov.lk/pgrc-home/",
+      "https://www.fao.org/4/i1500e/SriLanka.pdf",
+      "https://cropgenebank.sgrp.cgiar.org/index.php/procedures-mainmenu-242/germplasm-testing-mainmenu-197/monitoring-mainmenu-366",
+      "https://academic.oup.com/conphys/article/5/1/cox009/3061829"
+    ],
+    "research_note": "That the centre was established in 1988 with Japanese grant aid at this agriculture complex; that it holds about seventeen thousand registered items as of 2024 across rice and wild relatives, other cereals, grain legumes, vegetables, root crops, oil crops, fibre crops, medicinal plants and fruits; and that it keeps an active collection at about 5 degrees and 25 to 30 per cent relative humidity for regeneration, evaluation, research and distribution, alongside a base collection hermetically sealed in airtight containers at about 1 degree, are from the centre's own pages and the country report above. That the standard monitoring interval is set at one third of the time predicted for viability to fall to 85 per cent and in any case no longer than forty years, and that 85 per cent is the usual regeneration threshold, are from the genebank standards literature above and are the international practice, not a statement about this centre: this centre's own monitoring interval, threshold and counting method are unverified and are exactly what the film depends on. The regeneration field as described, several hundred single-variety plots visible from the air, is an inference from the fact that regeneration happens here and has not been confirmed by anyone. The coordinates are a direction towards the complex, not a survey. Nobody has been approached and no permission has been sought. Both images are captioned as what they are: one of the surrounding river valley, one of traditional rice grain, neither of the gene bank.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the cold stores, the laboratory and the regeneration field can be filmed at all, and on what conditions. The film is those three places and nothing else.",
+    "This centre's actual monitoring interval, viability threshold and counting method, which the film's central action and its most-quoted number depend on.",
+    "Whether the regeneration ground really presents as several hundred small single-variety plots in one field, which is the film's best aerial image and is currently only an inference.",
+    "Whether a drone can be flown over a government research complex at this location.",
+    "Whether a crew can be in a cold store and a germination laboratory without any risk to a sample or a cold chain.",
+    "Whether the institution would want the film as advocacy for the collection's funding, which would end it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

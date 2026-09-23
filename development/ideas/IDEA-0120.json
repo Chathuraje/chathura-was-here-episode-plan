@@ -2,80 +2,192 @@
   "schema_version": 1,
   "id": "IDEA-0120",
   "record_type": "idea",
-  "title": "Eleven Weeks",
+  "title": "Never the Same Water",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Eleven Weeks"
+  ],
   "group_id": "GRP-07",
-  "logline": "A public health midwife's rounds follow several pregnancies at once, each one a body being put together out of sight of everyone but its mother.",
-  "human_question": "Before a person has a name, a face or a breath of their own, what is already being assembled, and out of what?",
-  "situation": {
-    "what_happens": "A community midwife visits the same households week after week through their pregnancies. She weighs, checks, records, advises on food and rest, and answers whatever the family asks, including the things they would not ask at a clinic. Between visits, nothing she is responsible for can be seen: the work of the weeks happens inside someone else's body and is known only through weight, appetite, movement and what the mother reports. Some pregnancies run straightforwardly and some do not, and her judgement about when to send someone on is the sharpest part of the job.",
-    "who_is_involved": "The midwife; the expectant mothers; the households whose food, water, workload and money decide much of what she is measuring; the older women whose advice competes with hers; and the clinic or hospital she refers to.",
-    "what_is_at_stake": "For the mothers, health and a safe birth. For the midwife, a caseload she is answerable for and cannot see. For the households, the arrangements, costs and hopes that build up around a coming birth.",
-    "how_it_unfolds": "A pregnancy followed by a midwife moves through a known order of visits and checks toward a date that is always approximate. The pressures are distance, money, food and other people's advice. It ends in a birth, and sometimes it does not, and a film has no claim on either outcome, nor any right to be present at the end unless the family asks for it at the time."
+  "logline": "At the foot of a low headland on a limestone coast, fresh water pushes up out of the rock a few paces from the sea and fills a walled tank that has never once been empty and has never twice held the same water.",
+  "human_question": "If none of the material you are made of is the material you were made of, what exactly is it that has kept going?",
+  "place": {
+    "what_kind_of_place": "A shallow coastal shelf of limestone at the northern edge of a peninsula that is essentially one flat slab of the stuff, drilled through with fissures that carry rainwater underground for kilometres and let it out again at the shore. At one such outlet, fresh water rises continuously into a walled tank built hard against the beach, with a low wall the only thing between it and the sea. The tank overflows, always, in the same place; the level in it does not change. It is an old bathing site with a small temple above it, so it has steps, enclosures, drains, patched render and the accumulated repairs of a place that has been in use for a very long time and was damaged and rebuilt during the war.",
+    "why_it_is_worth_watching": "It is a landscape whose single best image is the whole idea. From directly above at first light, the tank is a rectangle of perfectly still fresh water lying a few metres from an ocean that is not still at all, and the only reason they are two different things is a wall. Hold that shot long enough and the stillness stops being stillness: the surface is not at rest, it is being replaced. At ground level the material is limestone, salt, light and moving water, all of it hard and plain and old, and there is a constant quiet sound of water leaving that never changes pitch and never stops.",
+    "what_moves_or_changes": "Everything except the level. The sea moves on its own schedule; the light crosses the stone; the overflow runs all day and all night; the rock gets wet and dries and gets wet again. Rainfall inland changes what arrives here weeks later, which nobody at the tank can see. The one thing that does not change is the thing the film is about: the tank is full now, it was full an hour ago, and it does not contain a single drop that was in it then.",
+    "when_it_looks_best": "Early morning, before the place fills up, when the light is low across the water and the sea is flattest. The weeks after the north-east monsoon, when the flow is strongest. A clear dawn for the vertical shot, and last light for the stone."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about water and rock at the edge of the sea. A square of motionless fresh water beside a moving ocean; light travelling over cut limestone; an overflow running steadily away; the surface of the tank held long enough that you begin to see it is not a surface but a process. Weather comes and goes and the level does not move. Anyone who likes watching water has a complete piece here with nothing said over it.",
+    "with_the_philosophy": "The same tank becomes the sources' two images for how a body continues, standing in a real place. The texts do not describe a living body as an object that persists. They describe it as streams: several kinds of matter, from four different origins, arising one after another without a gap, and they reach twice for the same kind of picture, a lamp flame and a river in spate, to say that the shape holds while the substance never does. This film takes that half of the teaching, which a camera can honestly look at, and leaves the other half alone."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, drone directly overhead and high. A flat pale coast, a low headland, the open sea, and set into the shore a small rectangle of water that is completely still while everything around it is not. Descend slowly onto it.",
+      "voice": "This tank is fed from underneath. It has been full for as long as anyone has been coming here, and it does not hold one drop of what was in it an hour ago.",
+      "concept_id": "C071"
+    },
+    {
+      "on_screen": "Down at the water. The surface from a low angle, so the slight continuous disturbance of the inflow is visible. Then the wall, and the sea on the other side of it.",
+      "voice": "The old account of matter sets it out in two ways: the order in which it occurs at the start of a life, and the order in which it occurs while a life runs [C071-P:L73–L77]. This film only takes the second, and for a reason the film will come back to.",
+      "concept_id": "C071"
+    },
+    {
+      "on_screen": "The overflow: a steady spill at one corner, running down stone and away toward the beach. Close, then wide. No cut for a long time.",
+      "voice": "What the sources describe running through a living body is not one thing but a set of series, each arising again and again without a break: matter from past action, matter from mind, matter from temperature, matter from food, each listed as its own unbroken stream [C071-P:L125–L155].",
+      "concept_id": "C071"
+    },
+    {
+      "on_screen": "The film's longest shot. The full tank, dead still, in the same frame as the moving ocean, from slightly above. Held until the stillness becomes uncomfortable.",
+      "voice": "For what that looks like from outside, the text reaches for two pictures and uses them in one line: a lamp flame, and a river in spate. The streams run on like that, it says, unbroken, for as long as there is life [C071-P:L157], and they keep going from that point until death [C071-P:L167; C071-M:L23]. Not the same substance twice. The same shape the whole way through.",
+      "concept_id": "C071"
+    },
+    {
+      "on_screen": "Stone. Cut limestone blocks, old render, patched joints, the fissured natural rock at the waterline, salt crust. Nothing alive in frame.",
+      "voice": "The sources are exact about the difference between this rock and a body. In earth, hills, rivers and seas there are only two of the twenty-one kinds of material group, both of them produced by temperature [C071-P:L83]. In a living body in this world, at any moment of its life, all twenty-eight kinds of matter and all twenty-one groups can occur as the case requires [C071-P:L81; C071-M:L5]. The water and the wall are running the short list. Anything standing here watching them is running the long one.",
+      "concept_id": "C071"
+    },
+    {
+      "on_screen": "A fixed frame on the tank's edge held from dawn to dusk and compressed: light crossing, weather passing, the waterline not moving by a finger's width.",
+      "voice": "The same analysis counts two different kinds of arising and calls them characteristics of matter rather than separate things: the building up that happens before something is complete, and the continuity that keeps replacing what breaks up afterwards [C066-P:L127; C066-P:L129; C066-M:L25]. Both are put under one heading, and the heading is birth [C066-P:L131]. The sources' own commentators are not fully agreed on how the two fit together, and this film does not tidy that up.",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "Last light. Wet rock drying, the salt line coming up white, the overflow still running in the dark at the edge of the frame. Then the sea.",
+      "voice": "And the same list has a fourth item that is easy to miss. Grey hair, lost teeth, a lined face are not ageing; they are only the sign that ageing has already been going on [C066-P:L137]. By this account decay is not something that starts later. It is written into what matter is, and in a young thing it is simply hidden behind the building up. The tank is full tonight. It will be full tomorrow. That is not the same as lasting.",
+      "concept_id": "C066"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C071 contributes the sources' account of how matter occurs through a life: a first speck that the Pradeepika insists rests on the parents' union without being made of their matter, mind-born, temperature-born and food-born matter joining in a fixed order, named weekly stages, and from then on streams that run unbroken like a lamp flame or a river. C066 contributes the two characteristics that register that assembling, initial growth before the body is complete and continuity, the repeated arising that replaces what breaks up afterwards. One is the account of the building; the other names what building and keeping going actually are.",
-    "what_it_reveals": "Put together they turn a pregnancy from an image of waiting into an image of constant production. The weeks are not a container filling up; something is being made, and once made it goes on being remade for the rest of a life. The midwife's rounds show this from outside: she attends something she can never see, entirely by its effects, which is also the position the texts put every one of us in with respect to our own bodies."
+    "why_together": "C071 supplies the account of continuation and the two images that carry it. It separates the order of matter at the start of a life from the order of matter through a life [C071-P:L73–L77]; it lists the streams from all four origins as series that arise again and again without a break [C071-P:L125–L155]; it says in one line that these run like a lamp flame and like a river in spate for as long as life lasts [C071-P:L157], and that they continue unbroken until death [C071-P:L167; C071-M:L23]. It also gives the hard line between a body and a landscape: earth, hills, rivers and seas carry only two of the twenty-one groups, both temperature-born [C071-P:L83], while a living body in this world can carry all twenty-eight kinds and all twenty-one groups [C071-P:L81; C071-M:L5]. C066 supplies the names for what is happening at the waterline. Growth is the arising before a thing is complete, continuity the repeated arising that replaces what breaks up afterwards [C066-P:L127; C066-P:L129; C066-M:L25], both gathered under birth [C066-P:L131], and decay is not the grey hair but what the grey hair reports [C066-P:L137].",
+    "what_it_reveals": "That continuity and permanence are not the same thing, and that the difference can be watched rather than argued. C071 on its own tempts a film toward the beginning of a life, which this group's own digests say must never be filmed as a doctrinal timeline. C066 on its own is a list of terms. Together on a tank that is always full and never the same, they show the sources' claim in the only form a camera can hold it: a shape that holds, a substance that does not, and a wall of stone beside it doing something much simpler than either."
   },
   "concept_links": [
     {
       "concept_id": "C071",
       "role": "primary",
-      "why": "The digest sets out how matter arises and continues through a life: the order in which mind-born, temperature-born and food-born matter join after conception, the child nourished by what the mother eats, the named weekly stages, and the lamp-flame and river images for streams that run unbroken until death. The digest is equally clear that this is not embryology and that the weekly timings must never be presented as a medical or scientific timeline, so the midwife's present-day care carries the film and the texts stay on their own side of that line."
+      "why": "The digest gives two modes for how matter occurs, at rebirth-linking and during life [C071-P:L73–L77], and this film takes only the second. From it comes the whole spine: the series of matter from each of the four origins arising one after another without a break [C071-P:L125–L155], the single line in which the text compares those series to a lamp flame and to a river in spate lasting as long as life does [C071-P:L157], the statement that they continue unbroken until death [C071-P:L167; C071-M:L23], and the contrast between a landscape carrying only two temperature-born groups [C071-P:L83] and a living body in the sense world carrying all twenty-eight kinds and all twenty-one groups as the case requires [C071-P:L81; C071-M:L5]. The digest's limits are not side conditions here; they decided what this film is. It is not embryology, and nothing from the weekly stages or the seventy-seventh night appears anywhere in it. The Margaya's attribution of missing faculties to weak rebirth-kamma or obstructing unwholesome action is never voiced and never implied, and no person with any impairment appears. The premodern sex and gender categories, and the moisture-born category, are left out entirely. The text's placing of a being's first matter at rebirth-linking is not brought anywhere near a modern argument about reproduction. And the lamp-and-river image is used for exactly what the digest says it says, that the streams run unbroken while life lasts, and not as 'nothing is real', 'nothing matters', or a self carried across."
     },
     {
       "concept_id": "C066",
       "role": "supporting",
-      "why": "The digest names growth as the arising before the body is complete and continuity as the repeated arising that replaces what breaks up afterwards, both counted as characteristics of matter rather than separate things. It also records that the exact relation between the two terms is left for an expert to settle, so the film can use the pair only in the plain sense the digest gives it."
+      "why": "The digest names initial growth as the arising before the body is complete and continuity as the repeated arising that replaces what breaks up afterwards [C066-P:L127; C066-P:L129; C066-M:L25], gathers both under one heading as forms of birth [C066-P:L131], and makes the point this film ends on, that grey hair, lost teeth and wrinkles are only the sign of a decay that has been running the whole time [C066-P:L137]. The digest's own uncertainty about how the two arising-terms fit together is recorded there in plain words, and the film says so on screen rather than resolving it. Two further limits are kept. The traditional seventy-seven-day figure for the completing of the sense organs [C066-P:L125] is not used, spoken or alluded to, because the digest rules it out as embryology and forbids its use in any reproductive-health argument. And the film does not turn lightness, softness and workability into a claim that a good attitude keeps a body young, which the digest rejects."
     }
   ],
-  "what_the_viewer_could_understand": "Long before anything can be seen, a new body is being built up bit by bit as several conditions join in, in order, including the mother's own food. After that, these texts say, it keeps being renewed, like a flame that is never the same substance twice.",
-  "what_must_be_real": "Full, ongoing and revocable consent from every mother and household at every visit. No examination staged, no medical advice invented or implied, and no birth filmed unless the family asks for it at the time. The texts' weekly stages, the seventy-seventh-night figure, and everything the sources say about sex or about bodies born without a faculty stay out of the film: the digests rule them out as embryology, as comment on any real person, and as material for any argument about reproductive rights.",
-  "position_hint": "middle to late: it is the group's account of where a body comes from, and it needs the earlier films' inventory of matter behind it, while leaving the closing films to deal with where a body goes.",
+  "what_the_viewer_could_understand": "That these texts describe a living body not as a thing that lasts but as a set of streams that keep arising, one after another without a gap, so that the shape holds while the material never does; that their own two pictures for this are a lamp flame and a river; and that on this account wearing out is not something that begins later in life but is part of what matter is, hidden for a while behind growth.",
+  "what_must_be_real": "The place as it actually is, including its repairs, its render, its drains, the damage it has taken and the fact that it is a working site people come to. It is a bathing place: nobody bathing, washing or praying is a subject of this film, nobody is filmed in a way that identifies them, and if the only way to get a shot is to ask people to move or to wait outside their own site, the shot is not taken. No claim is made on camera about the water's properties or its effects on anybody. Nothing is dammed, diverted, dyed or dropped into the water for a shot. The war damage to this coast is not used as atmosphere. And nothing in the film suggests that any of the group's doctrinal material about how bodies begin is being illustrated here, because it is not.",
+  "position_hint": "late-middle: it needs the group's inventory of matter and its four origins already established, since it is entirely about how those origins keep running, and it sets up rather than duplicates the films about wearing out.",
   "risks": [
-    "Pregnancy is private and medically sensitive; consent has to be renewable and refusable at every stage.",
-    "The doctrinal weekly stages read as embryology, or set beside the midwife's actual advice as if they competed.",
-    "The traditional count of weeks drawn, even by implication, into an argument about reproductive rights, which the digest explicitly rules out.",
-    "The sources' explanations of sex, or of a body born without a faculty, carried into the film: the digests forbid applying either to any real person.",
-    "The upacaya and santati terminology used more confidently than the digest's own uncertainty allows."
+    "Letting any part of the source's account of how a body begins back into the film. The digest states outright that the weekly stages and the seventy-seventh night are not embryology and must not be presented as a medical or scientific timeline.",
+    "Any use, even by implication, of the source's explanation of missing faculties by weak rebirth-kamma or obstructing unwholesome action. No person with any impairment appears in this film at all.",
+    "Carrying over the sources' premodern sex and gender categories, or the moisture-born category, as though they described anything real.",
+    "Allowing the text's placing of a being's first matter in the womb to be heard as a position in a modern argument about reproduction, which the digest rules out.",
+    "Reading the lamp-and-river image as 'nothing is real' or 'nothing matters', or the other way, as evidence of a self carried across.",
+    "Filming people who came here to bathe or to pray as illustrations, or identifying anyone.",
+    "Making claims on camera about the water's mineral or curative properties.",
+    "Presenting the doctrinal terms for growth and continuity more confidently than the digest's own recorded uncertainty allows.",
+    "Using a coast with a hard recent history as scenery."
   ],
   "drop_if": [
-    "No midwife or mothers willing, with the necessary clinic permission.",
-    "Consent cannot be kept genuinely ongoing and revocable across the weeks."
+    "The site's custodians do not want a crew or a drone there, or filming would interrupt people's use of it.",
+    "The flow is seasonal or has been altered so that the tank is not in fact continuously fed, which would remove the film's one claim.",
+    "Access or overflight in this part of the coast is restricted and cannot be cleared."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0121",
-      "relation": "leads into",
-      "note": "A body assembled out of sight in one film; the same body, years later, taught to take itself apart again, part by part, in the next."
-    },
-    {
       "idea_id": "IDEA-0125",
       "relation": "pairs with",
-      "note": "One film watches a body being built; the other watches the same warmth that built it begin to wear another one down."
+      "note": "One film watches the streams keeping a shape going; the other watches the same warmth that keeps it going begin to wear it down."
+    },
+    {
+      "idea_id": "IDEA-0121",
+      "relation": "leads into",
+      "note": "This one says a body is streams rather than a thing; that one watches people spend months learning to stop calling it a thing."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0064; the only film carrying C071, and the one that most needs its doctrinal boundaries written into the idea itself."
+    "reason": "It is the only film carrying C071, and the rewrite keeps the half of that concept a camera can honestly look at, continuity, while dropping the half the digest forbids filming."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape, and the subject was dropped entirely. The old film followed a public health midwife's home visits across several real pregnancies at once. That cannot be made: it would film pregnant women under medical care inside a group whose own digest says in plain words that the source's weekly stages and its seventy-seventh-night arrival of the senses are not embryology and must never be presented as a medical or scientific timeline, and setting those beside real antenatal care would do exactly that. The midwife, the mothers, the households, the weekly stages and the whole beginning-of-a-life half of C071 are gone. What was kept is C071's other and larger half, how matter continues through a life as unbroken streams and the lamp-and-river image of that continuity, moved onto a place where something is continuously renewed and never the same material twice. Concepts re-read from the digests as a new reader and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The Keerimalai freshwater spring and bathing tank, on the north coast of the Jaffna peninsula",
+    "also_known_as": [
+      {
+        "name": "Keerimalai",
+        "meaning": "the name of the low headland the spring rises beside",
+        "used_by": "Tamil usage in the northern peninsula"
+      },
+      {
+        "name": "karst aquifer",
+        "meaning": "the fissured limestone that carries the peninsula's rainwater underground and releases it at the shore",
+        "used_by": "hydrological usage for this coast"
+      }
+    ],
+    "region": "Jaffna District, Northern Province: on the north shore of the peninsula west of the old harbour town, about twenty kilometres from the district town by the northern road, on a coast that is one continuous limestone slab",
+    "coordinates": {
+      "lat": 9.8167,
+      "lng": 80.0
+    },
+    "why_here": "It is the rare case where the single most beautiful shot the place produces is also the plainest statement of the concept. From directly above at first light there is a rectangle of perfectly still fresh water a few metres from a moving sea, separated only by a wall, and the stillness is not rest but constant replacement: the tank is fed from below through limestone fissures and overflows continuously, so the level never changes and the contents never repeat. That is the sources' lamp and river in one frame, with no arrangement and no staging. The stone gives the film its second half for nothing, because the sources say a landscape of this kind carries only two of the twenty-one kinds of material group while a living body carries all of them, and here the two are lying side by side. It is also a place that has been used and repaired and damaged and repaired again, which keeps the film in the group's register of the physical, honest and humbling rather than the serene.",
+    "what_to_film": [
+      "The tank from directly overhead at several heights at first light, wide enough to hold the sea, so that the still rectangle and the moving water are one image.",
+      "The surface of the tank from a very low angle, long, so that the continuous disturbance of the inflow becomes visible.",
+      "The overflow where it leaves: close on the spill, then wide on where it goes, with the sound kept.",
+      "The wall between fresh and salt, filmed as a structure: its thickness, its repairs, its waterline.",
+      "The natural limestone at the shore, fissured, wet and drying, and the salt crust coming up on it.",
+      "A single fixed frame on the tank's edge from dawn to dark, so that the unchanging level is shown rather than asserted.",
+      "The weather arriving off the sea and passing, with the level unaffected.",
+      "The site's ordinary maintenance and its ordinary wear, filmed flatly, with nobody made into a subject."
+    ],
+    "access": "By the northern road out of the district town, about twenty kilometres. It is a working religious bathing site with a temple above it, so filming, and above all flying anything over it, depends on the custodians and on the people using it, and the quiet hours before the middle of the day are both the best light and the least intrusion. Parts of this coast have been under military control within living memory and access rules should be checked rather than assumed.",
+    "best_time": "The weeks after the north-east monsoon, when the flow through the limestone is strongest. Within a day, the hour after sunrise, before the site fills, for the vertical shot and the flattest sea; and last light for the stone.",
+    "images": [
+      {
+        "caption": "The walled spring tank at the sea edge. An image of the site itself. The file's title calls these hot springs, which they are not: the water is not heated.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keerimalai Hot springs jaffna.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Keerimalai Hot springs jaffna.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The shore immediately beside the tank: the limestone coast and the open sea the wall holds back. An image of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keerimalai beach-4-jaffna-Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Keerimalai beach-4-jaffna-Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Built structure at the site, for the render, the repairs and the accumulated upkeep the film treats as material. An image of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keerimalai mandapam-2-keerimalai-jaffna-Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Keerimalai mandapam-2-keerimalai-jaffna-Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Keerimalai",
+      "https://amazinglanka.com/wp/keerimalai-fresh-water-spring/",
+      "https://en.wikipedia.org/wiki/Naguleswaram_temple"
+    ],
+    "research_note": "That a natural freshwater spring rises here a few metres from the sea, that a bathing tank is built around the pool with only a wall between the fresh water and the salt, that the water is not heated despite the site being popularly called a hot spring, that its source is groundwater moving through the fissured limestone of the peninsula, that the site is about twenty kilometres from the district town on the north coast, and that a temple stands above it and the site is busiest from the middle of the day, are all from the sources above and are desk research only. The coordinates are the ones the encyclopaedia entry gives and should be treated as a direction, not a survey. Nobody has been approached, no permission has been sought, and nothing about filming access, drone rules over a religious site or restrictions on this stretch of coast has been checked. Whether the flow is genuinely continuous year round, which the film depends on, is unverified. All three images are of the site itself.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No custodian, temple authority or local authority has been approached, and a working religious bathing site may simply refuse a crew or a drone.",
+    "Whether the spring runs at a steady rate all year, or drops in the dry season, has not been checked, and the film's central claim depends on it.",
+    "Whether the tank can be filmed at an hour when nobody is using it, without asking anybody to leave, is unverified.",
+    "Access rules on this stretch of the north coast, and any residual restrictions, are unknown."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,84 +2,190 @@
   "schema_version": 1,
   "id": "IDEA-0123",
   "record_type": "idea",
-  "title": "What the Fire Doesn't Take",
+  "title": "The Shape Outlasts the Work",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Fire Doesn't Take"
+  ],
   "group_id": "GRP-07",
-  "logline": "After a death, neighbours from a funeral-aid society take over the practical running of the house so the family can sit with their loss.",
-  "human_question": "Once someone has died, whose work is what is left of their body?",
-  "situation": {
-    "what_happens": "A death is announced and a mutual-aid society that people have been paying into for years activates without being asked. Within hours neighbours are doing everything the household cannot: chairs and awnings borrowed, tea made in quantity, notice given, the body attended to, arrangements made, a collection book passed round and a record kept of who gave and who came. The family is deliberately kept out of the work. Over the following days the house fills and empties several times, and eventually the borrowed things go back.",
-    "who_is_involved": "The bereaved household; the neighbours and society members who do the work; the office-holders who keep the society's book; and the wider set of people for whom attending is itself an obligation.",
-    "what_is_at_stake": "For the family, being carried through days they could not organise. For the society, the reciprocity it runs on, since everyone there expects the same in their turn. For the neighbourhood, an obligation that is also a ledger, and which quietly records who can be relied on.",
-    "how_it_unfolds": "These days follow a known sequence, and the sequence is the point: it starts without being requested, peaks, and unwinds. The pressures are cost, distance and relatives travelling. It ends when the borrowed chairs go back and the family is left in a house that has gone quiet. None of it can be scheduled in advance, and nothing about it should be waited for."
+  "logline": "On a wet-zone valley floor, tracts that nobody has cultivated for years still carry the exact drawing of paddy — bunds, plot lines, the fall of one field into the next — under reed and rough grass, and the only thing still happening to them is rain, silt and heat.",
+  "human_question": "When something stops being kept up, what exactly is it that stops?",
+  "place": {
+    "what_kind_of_place": "The low land along a river in high-rainfall country, a floor of small banked fields running back from the water to the foot of the slope. Some of it is still worked. Some of it has gone out of cultivation, in places for a season and in places for many years, and in those tracts nothing is repaired: the bunds slump where cattle and water cross them, the field channels silt to nothing, the sluice boxes rot out, and reed, rough grass and scrub come up through a plot pattern that is still perfectly legible. The two kinds of ground lie against each other, sometimes with one bund between them. The river floods this floor most years and leaves silt on both.",
+    "why_it_is_worth_watching": "It is a landscape whose subject is a drawing that nobody is maintaining. From directly above, the abandoned tracts read as a grid under a fur of vegetation, every plot line and every bund still there, a thing made entirely by work and no longer touched by any; the worked fields beside them are the control, the same drawing in daily repair. At ground level it is quiet in a way farmed land never is: no water moving where water used to be moved, reed standing in old plots, a bund path going nowhere across it. When the river comes up, the whole floor turns into one sheet of brown water and the drawing disappears for a week and comes back.",
+    "what_moves_or_changes": "Water, silt, grass and light. The tracts flood and drain on the river's schedule, not anyone's. Vegetation thickens through the wet months and is beaten flat by each flood. Bunds lose a little more of themselves every year. Nothing in these fields is under anybody's control, and the film can schedule nothing except the season and the hour.",
+    "when_it_looks_best": "The first clear weeks after a monsoon flood, when the silt is fresh, the vegetation is knocked down and the plot pattern is at its most readable, and the worked fields next door are being prepared. Within a day, the first and last hour, when low sun puts a shadow on the side of every bund and the whole grid stands up out of the ground."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about a valley floor: water, silt, reed, geometry and weather. Flooding and draining, a grid of small fields seen from directly above at different heights, a flooded sheet with bund lines just showing through it, the difference between a field being worked and a field of the same shape that is not. Anyone who likes looking at country, and at the marks work leaves on it, has a complete piece here with nothing said over it.",
+    "with_the_philosophy": "The same floor becomes the sources' account of what ends when something ends. The texts describe an ending not as a switch but as a set of separate stoppings, each with its own timing, after which nothing is produced from inside any more and what continues is only what heat and cold do to matter. They draw no comfort from that at all: they do not say the thing has gone back to anything or become part of anything. They say the supply stopped and the weather goes on. A place where work stopped is the one honest way a camera can look at that, because it needs nobody's ending to do it."
+  },
+  "sequence": [
+    {
+      "on_screen": "Very high and straight down. Two tracts of the same size and the same pattern side by side: one flooded, puddled and green, the other grey-green, rough and slightly blurred, with every bund and plot line still visible under the growth.",
+      "voice": "These two pieces of ground were made by the same work and they have the same shape. One of them is still being kept up. The other stopped, and how long ago is a question you can answer by looking at it.",
+      "concept_id": "C072"
+    },
+    {
+      "on_screen": "Ground level, slow: a bund slumped into a stock crossing, a field channel filled level with silt, a rotted sluice box, a plot line still readable as a ridge under grass.",
+      "voice": "The old analysis of matter starts from a claim that sounds like a technicality until you stand on ground like this. Nothing keeps its shape because of what it is. It keeps it only while the condition producing it is unchanged, and it becomes something else the moment that condition changes [C063-P:L26]. The sources call a mountain, a river or a voice a pattern of conditioned forces rather than a substance holding on to itself [C063-P:L20].",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "The flood: brown water coming up across the whole floor, the grid going under, a week later the water gone and a film of new silt lying over everything, bunds included.",
+      "voice": "The texts describe an ending as several stoppings with different timings rather than one. One stream of production ends first; others go on a short while and then end too [C072-P:L16; C072-M:L3]. They are laid out in a table that counts down in steps [C072-P:L86–L88; C072-P:L90–L148], and the table is a scholastic model of a process, not a measurement of one.",
+      "concept_id": "C072"
+    },
+    {
+      "on_screen": "After the water: a long still shot of one abandoned plot. Reed, heat shimmer, a crust drying, rain starting later in the same frame. Nothing is done to any of it.",
+      "voice": "And they are exact about what is left. Only what heat and cold do to matter continues, and it continues for a long time [C072-P:L16; C072-M:L3]. The sources draw no comfort from this. They do not say the thing has returned to anything, or gone on living in anything. They say the supply stopped, and the weather is still working.",
+      "concept_id": "C072"
+    },
+    {
+      "on_screen": "Wide and low: the same grass and the same silt on both sides of a single bund, with worked land on one side and abandoned land on the other.",
+      "voice": "The arithmetic behind that is plain. Of the twenty-one kinds of material group the sources count, only two occur outside living bodies; the other nineteen exist only in something alive [C070-P:L130; C070-M:L50]. What is left over is made of the two ordinary kinds, the same ones the texts say soil, stone, water and wind are made of, differing only in which quality is strongest [C070-M:L52].",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "The worked tract, close: a bund being cut back and patted down, a channel cleared with a mammoty, water let in and watched, a gap stopped with mud.",
+      "voice": "The field on this side of the bund is not made of different stuff. It is the same ground under continuous repair, by somebody, this week. That is the whole of what the word kept up is doing here, and it is doing more work than it looks.",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "Last light, straight down again from height. The grid stands up out of the ground in low sun, complete and empty. Then the light goes and it is a dark floor.",
+      "voice": "A camera cannot film a stopping. It can film the shape that outlasted the work, and the rain and the heat that are the only things still happening to it. Nothing here is being renewed from inside.",
+      "concept_id": "C072"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C072 contributes the sources' account of death as a sequence of stoppings in a fixed order, after which nothing in the body is renewed from within and only temperature-born matter continues, so that the body is no longer being lived but only weathered. C070 contributes the reason that is so complete: of the twenty-one kinds of material group, nineteen occur only in living bodies, so what remains is made entirely of the two ordinary kinds also found in stones, water and wind. C063 contributes the inventory in which no item anywhere is called 'owner'. The three say the same thing from three directions, and the society's work is the human answer to it.",
-    "what_it_reveals": "Taken together they explain, without a word of doctrine, why care for the dead is other people's work: nothing is being renewed from inside any more, so everything that happens to the body from now on has to be done to it by somebody. The digest notes that the sources draw no consoling moral from this, and the film should not either. What the situation adds is that a neighbourhood has already organised itself, in advance and by subscription, for exactly that fact."
+    "why_together": "C072 supplies the structure and the refusal. The sources set out an ordered sequence of cessations with different timings, state that after the end only temperature-born matter continues in what remains, and give a table of the decline [C072-P:L16; C072-M:L3; C072-P:L86–L88; C072-P:L90–L148]. One source adds the causal direction that makes the account sober rather than dramatic: it is the running out of the deep supply that fixes the moment, not a decision taken at it [C072-M:L3]. C070 supplies the reason so little is left: of twenty-one kinds of material group only two occur outside living bodies, the other nineteen being the ones that carry sight, hearing, life and movement [C070-P:L130; C070-M:L50], and the outside world is made of those two ordinary kinds differing only by which quality predominates [C070-M:L52]. C063 supplies the starting point both of them assume, that a thing holds its shape only while its condition is unchanged [C063-P:L26] and that what is being counted here are conditioned patterns rather than substances [C063-P:L20]. Put on a valley floor where work stopped, the three stop being a doctrine about dying and become a plain description of ground.",
+    "what_it_reveals": "That the difference between something kept up and the same thing not kept up is not a difference of substance. C072 on its own would need a death to film, which this group has decided it will not do. C070 on its own is an inventory. C063 on its own is an abstraction. Together on land where the pattern of work survives the work, they make the sources' hardest point available without anybody's ending: the shape can last a long time after the thing that produced it has stopped, and nothing in the texts invites anyone to find that consoling."
   },
   "concept_links": [
     {
       "concept_id": "C072",
       "role": "primary",
-      "why": "The digest sets out the order of cessation, kamma-born matter no longer produced, mind-born and food-born matter fading shortly after, only temperature-born matter continuing, and states plainly that afterwards nothing in the body is renewed from within. Its own words are that the corpse is no longer being lived, only weathered, and that this is why caring for the dead becomes the work of other people."
+      "why": "The digest gives the order of cessation and the single fact this film is built on: that mind-born and nutriment-born production goes on to the end and fades shortly after, and that afterwards only temperature-born matter continues in what is left, for a long time [C072-P:L16; C072-M:L3]. It also gives the causal point that the end of the deep supply is what fixes the moment rather than anything deciding it [C072-M:L3]. The digest's bars are the reason this idea was rebuilt, and they are honoured. The film contains no death, no body, no mourner and no clinical framing, so the warning that this is not a definition of death and that mind-moments are not seconds cannot be breached; the table's figures are named on screen as a scholastic model, not a measurement [C072-P:L92–L99; C072-P:L148]; the film never says or implies that nothing really ends, because the sources say the life-sustaining streams genuinely stop; and the consolation the digest explicitly refuses, that we return to nature or live on in the earth, is refused out loud in the fourth beat rather than quietly avoided. The Margaya's claim that this repeats at the end of every life is a doctrinal claim about rebirth and is not narrated."
     },
     {
       "concept_id": "C070",
       "role": "supporting",
-      "why": "The digest reports that only two of the twenty-one kinds of material group occur outside living bodies, while the other nineteen, the ones carrying sight, hearing, life, speech and ease of movement, exist only in a living being, so that what remains at the end is made entirely of the two ordinary kinds."
+      "why": "The digest reports that only two of the twenty-one kinds of material group occur outside living bodies, the other nineteen being confined to living beings [C070-P:L130; C070-M:L50], and that everything in the outside world is of those ordinary kinds, differing only in which element predominates [C070-M:L52]. That is what keeps the film from implying that abandoned ground has become some other kind of thing. The digest's corrections are kept: a material group is not an atom, molecule or particle and is not set beside chemistry [C070-M:L7]; the flour-ball image is not used as though it were the teaching, since the source itself says the simile fails [C070-M:L5–L7]; the everything-is-connected reading is refused, because the point is inseparability and ownerlessness rather than cosmic care; and the statement that plants are pure octads, which the digest says needs expert framing, is not put on screen as a claim about living plants."
     },
     {
       "concept_id": "C063",
       "role": "supporting",
-      "why": "The digest points out that the inventory of twenty-eight kinds contains qualities and processes carefully counted but no item called 'owner', which is the plainest reason why a body, once its own life is not sustaining it, passes into other people's hands."
+      "why": "The digest's opening move is the film's second beat: matter is described as a changing pattern of conditioned forces rather than a substance [C063-P:L20], and a thing looks unchanged only because the condition producing it stays the same, changing when that condition changes [C063-P:L26]. The digest's own story seed for this line is a landscape that looks stable only while its conditions hold, which is exactly this floor. Its limits are kept: the sources' forces are not presented as energy or vibration, the seventeen-mind-moment lifespan is not offered as a measurement [C063-P:L20–L26], the scheme is not read as materialism, and the digest's warning against a mystical we-are-one-with-nature reading matters here more than anywhere, because the shared inventory of body and world is used to show that there is no owner in either, which is also why there is nobody in this film."
     }
   ],
-  "what_the_viewer_could_understand": "These texts describe a body's end as a series of stoppings rather than a single switch. Afterwards nothing in it is renewed from within and only heat and cold keep working on it, which is why everything still to be done for it is done by other people.",
-  "what_must_be_real": "Explicit, ongoing family consent, given at the time and revocable at any point, including afterwards. The deceased is never filmed without explicit permission. Mourning is never staged, prolonged or repeated, and the doctrine may never be offered to the bereaved as an explanation or a comfort.",
-  "position_hint": "closing candidate: it is the group's direct answer to what is left of a body once life has gone out of it, and it sets up the question the next stage has to take on.",
+  "what_the_viewer_could_understand": "That these texts describe an ending as a set of separate stoppings rather than a switch, and that afterwards nothing is produced from inside and only heat, cold and time keep working. And that the shape of a thing can outlast for years the work that made it, which is a fact about conditions rather than a comfort about continuity.",
+  "what_must_be_real": "The land is genuinely out of cultivation, and the reasons are the real local ones, whatever they turn out to be, rather than a single tidy cause the film has not checked. Nothing is cut, cleared, flattened or arranged for a shot, and no bund is walked on in a way that damages it. Permission comes from whoever owns or claims the abandoned tracts as well as from the households working the land next to them. No household's financial situation is put on screen as an illustration, and the film does not present anyone's decision to stop farming as a failure or as a symbol. If the only abandoned ground available is ground abandoned after a disaster in which people died, this film is not made there.",
+  "position_hint": "late: it is the group's plainest statement of what stops and what continues, and it works best once the viewer has met the group's tone and the idea that a body is being kept up rather than simply existing. No location reasoning is involved.",
   "risks": [
-    "Intruding on grief; the family decides everything, at the time.",
-    "Turning mourning into spectacle, or waiting on a death as an opportunity.",
-    "Letting the film settle into 'we return to nature', which the digest says the sources refuse.",
-    "The scholastic timing of cessation presented as a clinical account of dying."
+    "Letting the film settle into nature reclaiming it, or we return to the earth, which the digest says the sources explicitly refuse.",
+    "Presenting the scholastic timing and the table's numbers as a clinical or measured account of anything.",
+    "Aestheticising somebody's economic loss, or turning the reasons land goes out of cultivation into scenery.",
+    "Sliding back towards the human ending the concept came from, by implying that the abandoned tract is a corpse; the analogy has to stay where the digest puts it, as a description of conditions.",
+    "Reading the shared inventory of body and world as a mystical oneness, which the digest rules out.",
+    "Mapping material groups onto soil chemistry or particles, which the digest also rules out.",
+    "Making a film about agricultural policy without the evidence to support one, and using the doctrine as cover for it."
   ],
   "drop_if": [
-    "No family willing to be filmed at such a time.",
-    "No society willing to take part, or no access that is not an intrusion."
+    "The only abandoned tracts available are ones abandoned after a disaster in which people were killed or displaced.",
+    "Owners or claimants of the abandoned land cannot be identified or will not agree.",
+    "The pattern is no longer legible from the air, so the film has no image.",
+    "It can only be made by clearing or cutting vegetation to reveal the plot lines."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0125",
+      "idea_id": "IDEA-0122",
       "relation": "pairs with",
-      "note": "One family answers what remains in the days right after a death; the other watches two bodies answer the same question across a year."
+      "note": "One film counts a crop into a store on ground like this; the other stands where the counting, and the repairing, stopped."
     },
     {
-      "idea_id": "IDEA-0113",
-      "relation": "pairs with",
-      "note": "One film watches material being made workable; the other watches material that only the weather works on now."
+      "idea_id": "IDEA-0125",
+      "relation": "mirrors",
+      "note": "One watches matter that is no longer renewed at all; the other watches matter being renewed and worn down at different rates in the same frame."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0066; the group's closing statement, now also carrying the material-group reason why so little of a body is left once it stops living."
+    "reason": "It carries the group's hardest concept, the end of renewal and the refusal of consolation, on a place rather than on anyone's death."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape, and the subject was changed completely. What was dropped, plainly: the death, the bereaved household, the funeral-aid society, the collection book, the borrowed chairs and the days after a funeral. Two reasons. It filmed real bereavement, which this group's ethical floor forbids, and the slate already carries a funeral-aid society film in IDEA-0103, so it duplicated one. What was kept is C072's actual content, that the streams sustaining a thing genuinely stop and that what continues afterwards is only temperature-born matter with no comfort drawn from it, moved onto a place where something ceases to be maintained and is visibly taken over by ordinary physics. There is no person's death in this film, no mourner and nobody in frame. All three concepts were re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Paddy land out of cultivation on the Gin Ganga floodplain, between Baddegama and Thelikada",
+    "also_known_as": [
+      {
+        "name": "niyara",
+        "meaning": "the low earth bund between two paddy plots, which is also the path across them",
+        "used_by": "Sinhala farming usage"
+      },
+      {
+        "name": "aswedduma",
+        "meaning": "land levelled and banked into plots for paddy; the word is still used for a tract long after it has stopped being cropped",
+        "used_by": "Sinhala usage, island-wide"
+      }
+    ],
+    "region": "Galle District, Southern Province: the low floodplain of the Gin river inland from the coast, on the stretch running up past the small town of Baddegama towards the village of Thelikada",
+    "coordinates": {
+      "lat": 6.16667,
+      "lng": 80.18333
+    },
+    "why_here": "It gives the concept its picture and its control in one frame. This is high-rainfall country where the river floods its low land most years, so the paddy floor here is both intensively banked and, in places, no longer worth working, and tracts that have gone out of cultivation sit directly against tracts still being cropped. That adjacency is the film: the same drawing, one copy in daily repair and one copy not, with nothing separating them but a bund. It is also flat enough and open enough that the plot pattern reads from the air under vegetation, which is the one thing the film cannot do without, and it is ordinary working country rather than a monument, which suits a group that must not turn anything into an exhibit.",
+    "what_to_film": [
+      "The two kinds of tract from directly overhead at several heights, at low sun, so that the shared geometry and the difference in upkeep are both legible in one frame.",
+      "The close evidence of things not being repaired: a slumped bund, a silted field channel, a rotted sluice box, a plot line surviving as a ridge under grass.",
+      "A flood arriving and draining across the whole floor, and the silt film it leaves on both kinds of ground.",
+      "One long fixed frame on a single abandoned plot through a full day, including the hours in which nothing happens.",
+      "The worked tract next door being maintained: bunds cut back and patted down, a channel cleared, water let in and watched.",
+      "The floor at first light and last light, when every bund has a shadow on one side.",
+      "The river itself, as the thing that is still supplying the place with something."
+    ],
+    "access": "By road from the coast up the river valley; the tracts are reached on foot along bunds and are wet or under water for much of the year. Everything depends on identifying who owns or claims the abandoned land, which in paddy land can be complicated and contested, and on the agreement of the households working the fields next to it. Flying over occupied farmland and over houses needs the same agreement and whatever national drone permission applies.",
+    "best_time": "The first clear weeks after a monsoon flood, when silt is fresh, growth is beaten down and the pattern is at its most readable, with the neighbouring fields being prepared at the same time. First and last hour of the day for the raking light the wide shots depend on.",
+    "images": [
+      {
+        "caption": "Banked paddy land in this district, for the geometry the film is built on. An image of the landscape type, not of any abandoned tract.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Etkandura, paddy fields (rice) - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Etkandura, paddy fields (rice) - panoramio.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A village on this stretch of the river, for the kind of settlement the floodplain runs past. An image of the surrounding area rather than of the proposed tracts.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thelikada Village.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Thelikada Village.JPG",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gin_Ganga",
+      "https://en.wikipedia.org/wiki/Baddegama",
+      "https://en.wikipedia.org/wiki/Thelikada",
+      "https://www.researchgate.net/publication/346155210_Enhancing_Community_Resilience_via_Sustainable_Management_of_Abandoned_Paddy_Lands_in_Bentota_Sri_Lanka"
+    ],
+    "research_note": "That the Gin river runs for about 116 kilometres from the Gongala hills through this district to the sea, that Baddegama and Thelikada sit on its lower valley, and that abandoned paddy land is a recognised and studied phenomenon in the lowland south-west, with flooding, salinity, labour and returns among the reasons given, are from the sources above and are desk research only. The coordinates are the town's, not a chosen tract; no abandoned tract has been found, located or looked at, and the local reasons for any particular tract going out of cultivation are entirely unverified and must be established before a word is written about them. Whether the plot pattern is still legible from the air under vegetation, which is the film's one indispensable image, has not been checked. Both images are of the landscape type and the surrounding area, not of the proposed site.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No tract has been found or visited, and no owner or claimant has been identified. Everything here is a research direction.",
+    "Why any given tract stopped being worked is unknown, and the film has no right to a reason it has not checked.",
+    "Whether the field pattern remains readable from above after several years of growth is unverified, and it decides whether the film has its central image.",
+    "Ownership of long-abandoned paddy land can be unclear or disputed, which may make consent hard to obtain honestly."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

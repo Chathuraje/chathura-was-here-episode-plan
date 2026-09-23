@@ -2,75 +2,194 @@
   "schema_version": 1,
   "id": "IDEA-0121",
   "record_type": "idea",
-  "title": "Learning the Body",
+  "title": "Until the Path Is Worn",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Learning the Body"
+  ],
   "group_id": "GRP-07",
-  "logline": "Young novices learn to recite the body's thirty-two parts aloud, forwards and then backwards, stumbling over the reverse order until a teacher corrects them.",
-  "human_question": "What happens to a body once you have said all thirty-two of its ordinary parts out loud, in order, for weeks?",
-  "situation": {
-    "what_happens": "New novices are given the list of the body's thirty-two parts as one of their first lessons. They learn it in small groups of parts, reciting aloud, day after day, first forwards and then backwards, and the reverse order is where it reliably breaks down. A teacher corrects a skipped or misplaced part and the group begins again. Around the lesson runs everything else in the day: sweeping, meals, washing, study, sleep.",
-    "who_is_involved": "Novices at the very start of their training, some of them children; the teacher who sets and corrects the recitation; the senior monks of the house; the families who placed them there and visit.",
-    "what_is_at_stake": "For the novices, whether the words will ever become anything more than words, since the texts themselves say the practice only begins when each name calls up the thing. For the teacher, handing on a discipline that can only be handed on by repetition. For the children, a childhood spent learning something whose point is not yet available to them.",
-    "how_it_unfolds": "A recitation lesson runs for weeks or months before anything is expected of it. It begins as sound, is corrected constantly, and either settles into memory or does not. The sources are clear that whatever change they describe comes slowly, to some people and not others, and nothing about filming can produce it or show it happening."
+  "logline": "Six hundred acres of hill forest hold eighteen rock shelters and a small number of men who have given up everything else, and one of the first things any of them is set to do there is to say the thirty-two parts of a living body out loud, in order, and then in reverse, every day for months.",
+  "human_question": "What happens to the words 'my body' after you have said out loud, for months, exactly what it is made of?",
+  "place": {
+    "what_kind_of_place": "A forest reserve on a ridge, several hundred acres of it, with trees well over a hundred feet and rock breaking through the canopy in slabs. Under the slabs are shelters cut and drip-ledged a very long time ago and used again now: bare floors, a mat, a bowl, a robe line, a water pot. It is a strict place rather than a busy one. There is no shop and no ceremony to film. The gate is open to outsiders for a few hours in the morning and shut for the rest of the day, and after it shuts the forest belongs to the people living in it.",
+    "why_it_is_worth_watching": "It is a place that looks like nothing is happening and sounds like something is. From the air it is unbroken green with grey rock through it and no roofs, which is rare in a country this densely settled; on the ground it is scale, damp, roots, bark, water off rock, and long periods in which the only human sound is a voice a long way off going through a list. The film's best image is the emptiest one: a rock shelter with a bare floor, a bowl and nothing else in it, filmed in the light that reaches it for about an hour a day. That shot is also exactly what the sources are describing, which is a body with nothing in it that anyone owns.",
+    "what_moves_or_changes": "Light, water and the hours. The gate opens and shuts on a fixed rule and that rule, not a crew, sets what can be filmed. Rain arrives and the rock runs. The recitation itself changes very slowly and mostly invisibly: the same list, said the same way, for weeks, until at some point the words start bringing the things up, and nothing on the outside marks the day that happens.",
+    "when_it_looks_best": "The first weeks of a monsoon, for water on rock and mist standing in the canopy. Within a day: the morning hours when the place is open and the light is coming in under the trees, and the hour after the gate shuts, when the forest goes quiet and the shape of the ridge comes back."
   },
+  "two_layers": {
+    "without_the_philosophy": "A forest film. Canopy, rock, water, rain, the inside of a cave, a path, the light moving through a very large stand of trees across a morning, and the particular quality of a place where almost nobody is. It has its own shape without a word over it: the gate, the walk in, the shelters, the weather, the gate shutting, the forest afterwards. Anyone who likes standing in a wood has a complete piece here.",
+    "with_the_philosophy": "The same forest becomes the room this practice is actually done in. The sources set out a discipline in which a person recites the thirty-two ordinary contents of a living body out loud, in fixed groups, forwards and then backwards, for as long as it takes, and they are unusually specific about the conditions: the whole thing is taken from a teacher, it sits after moral discipline and after the person's obligations are cleared, and it is a matter of months rather than minutes. It is not about death, and it is not about disgust for its own sake. The voice makes that clear early, because everything in the film depends on it."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from high above: unbroken canopy across a ridge with grey rock pushing through it and no roofs anywhere in frame. Descend slowly toward one rock face.",
+      "voice": "Two things before anything else. What is practised here is about a living body, not a dead one; the contemplations of corpses are a different subject in the same books. And it is not a technique anyone picks up in an afternoon.",
+      "concept_id": "C093"
+    },
+    {
+      "on_screen": "Inside a rock shelter. The drip ledge cut along the overhang, a bare swept floor, a mat, a bowl, a water pot. Light reaching about a third of the way in. Held long, nobody in it.",
+      "voice": "The sources put conditions around this before it starts. It is taken from a teacher who is qualified to give it, and who has to hand over seven skills in learning it and ten in attending to it [C093-P4:L55; C093-P:L86]. Before that, virtue is cleared and the ten ordinary entanglements, a dwelling, a family, an income, are dealt with [C093-P:L72–L84]. Then a suitable place is found, and long hair and nails are cut, because small hindrances are also hindrances [C093-P4:L165; C093-P:L199].",
+      "concept_id": "C093"
+    },
+    {
+      "on_screen": "Forest, wide. A recitation audible from somewhere out of frame, unhurried, one voice. The camera stays on trees, rock and a path; the speaker is never sought out.",
+      "voice": "The list is thirty-two ordinary things, and it is learned in six blocks: the five from hair to skin, the five from flesh to kidneys, the five from heart to lungs, the five from gut to brain, the six from bile to fat, the six from tears to urine. Each block is said forwards, and then backwards with the earlier blocks added back on, all the way to the first word again [C093-P4:L71–L92; C093-P:L94–L98]. One source gives it as a plain drill: take one block, say it aloud both ways for some days, and move on only when saying the word brings the thing up [C093-M:L9–L27].",
+      "concept_id": "C093"
+    },
+    {
+      "on_screen": "The ordinary day around it. Sweeping a cave floor, water carried, a path walked, rain arriving and the rock running. All wide, all from behind or from a distance, nobody's face led.",
+      "voice": "Even someone who has the whole canon by heart is told to start by saying it out loud [C093-P4:L71]. Two elders are recorded as having gone on doing nothing but recite for four months, and reaching the first stage of the path while still reciting [C093-P:L90–L92]. A hundred thousand times if that is what it takes, the text says, until the parts are as plain to the mind as a row of fingers on two open palms [C093-P4:L94; C093-P:L98]. This is where the film has to be honest: none of that is visible. A camera can record months of a man saying a list and cannot show whether anything happened.",
+      "concept_id": "C093"
+    },
+    {
+      "on_screen": "The same discipline turned outward, with no body in frame: bark, a cut stump and its rings, roots gripping rock, a fallen trunk opened by weather, water in a hollow, a leaf held against the light. Each one held, one at a time.",
+      "voice": "The other list in these books is done the same way. The student is told to learn the twenty-eight kinds of matter by heart [C063-M:L9], and it is not information; it is a way of refusing to accept one name for a whole. On that list there is no item called touch. What a hand calls hard, or warm, or pushing back, is three of the four elements and not a fifth thing of its own [C063-P:L49; C063-M:L11]. And matter itself is defined by what happens to it: what is altered by opposing conditions, cold and heat being the plain case [C063-P:L20].",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "Hair. Cut hair on a swept floor, gathered and taken out. A few strands on an open palm in daylight. No face, no head, no razor.",
+      "voice": "The sources start with this one, and start physically. Pull out a hair or two, put them on your palm, and settle what colour they actually are; or look at hair where hair is cut, or floating in a bowl [C093-P4:L167]. Their argument is not that a body is disgusting. It is that a good deal of what makes it attractive is added from outside, and that the same hair is admired in one place and pushed away in another.",
+      "concept_id": "C093"
+    },
+    {
+      "on_screen": "A path through the forest with a strip of palm leaf tied to a branch beside it. Then the path itself, worn down to bare earth, and the marker left behind in the frame.",
+      "voice": "There is an image for what the words are for. People going to a well in a dry forest tie a leaf on a branch to find the way; once they have walked it often enough and the path is worn, they stop needing the marker. The names work the same way. At first you attend by saying 'hair', 'nails', and later you go past the name and stay with the thing [C093-P4:L145–L149; C093-P:L145].",
+      "concept_id": "C093"
+    },
+    {
+      "on_screen": "The gate shut at one o'clock. The forest afterwards, from inside and then from very high, going quiet in flat afternoon light. Rain coming across the ridge.",
+      "voice": "And the point of it, which is easy to get wrong in both directions. The sources say the result is the letting go of two things at once: wanting this body, and being at war with it [C093-P:L50–L52; C093-P:L241–L245]. They also say that the mind doing this work is accompanied by gladness, because the person can see what it frees them from [C093-P:L205–L209]. Nobody in this film has said whether that has happened to them, and nobody was asked.",
+      "concept_id": "C093"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C093 contributes the practice itself: thirty-two named parts recited aloud and then mentally, in fixed groups, forwards and backwards, given as the first meditation subject to the newly ordained, with the names treated as a marker to be dropped once the path is worn. C063 contributes the same discipline applied to the world: the sources tell the student to learn the twenty-eight kinds of matter by heart, and treat counting a whole into its parts as a way of attending rather than as information.",
-    "what_it_reveals": "Together they show that the two lists in this group, the body's parts and matter's kinds, are one exercise done twice. What is being taught is not an inventory but a way of looking that refuses to accept a single name for a whole. Watching children do it by rote also shows the honest distance between the exercise and its result: the words come first, by years."
+    "why_together": "C093 supplies the practice in full working detail: the thirty-two parts as the first meditation subject given to those who go forth [C093-M:L5], the six blocks and the forwards-and-backwards method with earlier blocks added back [C093-P4:L71–L92; C093-P:L94–L98], the plain daily drill [C093-M:L9–L27], the insistence on verbal recitation first even for someone who knows the canon [C093-P4:L71], the four months of two elders who did nothing else [C093-P:L90–L92], the hundred thousand repetitions until the parts are as clear as fingers on two palms [C093-P4:L94; C093-P:L98], the conditions of teacher, virtue and cleared obligations [C093-P4:L55; C093-P:L86; C093-P:L72–L84], the first physical exercise with a hair on the palm [C093-P4:L167], the palm-leaf marker dropped once the path is worn [C093-P4:L145–L149; C093-P:L145], and the stated aim, letting go of both craving for the body and aversion to it [C093-P:L50–L52; C093-P:L241–L245] with gladness present [C093-P:L205–L209]. C063 supplies the same discipline pointed at the world. The student is told to learn the twenty-eight kinds of matter by heart [C063-M:L9]; the tangible is struck off the list because it is only three of the great elements [C063-P:L49; C063-M:L11]; and matter is defined as what is altered by opposing conditions such as cold and heat [C063-P:L20].",
+    "what_it_reveals": "That the two long lists in this group are one exercise done twice, and that the exercise is about attention rather than information. C093 alone risks a film about a monastery. C063 alone is an inventory. Together they show what the counting is for: a refusal to let a single name stand in for a whole, applied first to the one whole a person is least able to look at calmly. And the forest does the rest of the work, because the sources' own setting for this is a strict dwelling with very little in it, and because a film that cannot show anybody's inner progress has to be built out of place, time and sound instead, which is exactly what this series is."
   },
   "concept_links": [
     {
       "concept_id": "C093",
       "role": "primary",
-      "why": "The digest describes the practice exactly: thirty-two parts recited aloud and then mentally, in fixed groups, forwards and backwards, named as the first meditation subject given to the newly ordained, with the names compared to a marker tied on the way to a well and dropped once the path is worn. The digest also states that the aim is to let go of both craving for the body and aversion to it, so the lesson may not be read on screen as self-hatred or as body-praise."
+      "why": "The digest describes the practice precisely enough to build a film out of: thirty-two named parts of a living body, recited aloud and then mentally in six fixed groups, forwards and then backwards with the earlier groups added back [C093-P4:L71–L92; C093-P:L94–L98; C093-M:L9–L27], given as the first meditation subject to those who go forth [C093-M:L5], taken from a qualified teacher who hands over seven learning skills and ten attention skills [C093-P4:L55; C093-P:L86] after virtue is purified and the ten impediments cleared [C093-P:L72–L84], begun in a suitable dwelling with long hair and nails cut [C093-P4:L165; C093-P:L199], starting with a hair or two on the palm [C093-P4:L167], with the names treated as a palm-leaf marker dropped once the path is worn [C093-P4:L145–L149; C093-P:L145]. Every limit the digest sets is load-bearing here and is written into the film. It is not 'love your body' and not 'hate your body': the stated aim is the abandoning of both craving for the body and aversion to it [C093-P:L50–L52; C093-P:L241–L245], and the digest's note that gladness accompanies the practice is spoken aloud [C093-P:L205–L209]. It is not a quick technique, so the conditions and the months are in the film rather than trimmed out of it. The emphasis is not on death, and the film says so in its first line, because the corpse contemplations are a separate subject. None of the traditional anatomy is used: no bone, muscle or sinew counts, no intestine lengths by sex, no stomach worms, no claims about bile, because the digest records all of it as traditional commentary and forbids its use as medical fact. And 'heaps of parts' is kept as what the digest says it is, a disciplined inner perception, never a way of filming people; nobody in this film is an exhibit, nobody is identified, and no child is a subject."
     },
     {
       "concept_id": "C063",
       "role": "supporting",
-      "why": "The digest reports the instruction to learn the twenty-eight kinds of matter by heart and treats naming parts one by one as a practice of attention, less a piece of information than a discipline for slowing down the eye. The recitation lesson is that discipline in its most literal form."
+      "why": "The digest records the instruction to learn the twenty-eight kinds of matter by heart [C063-M:L9] and reads naming parts one by one as a practice of attention rather than a piece of information, which is the same operation the recitation performs on a body. It also gives the film its one concrete demonstration that a familiar name can be wrong about what it names: the tangible is not a separate kind of matter, it is simply three of the great elements [C063-P:L49; C063-M:L11], and matter itself is defined as what is altered by opposing conditions such as cold and heat [C063-P:L20]. The digest's limits are kept. The film does not say 'everything is energy' or 'everything is vibration'; it does not present the scheme as materialism; it does not offer the shared inventory of body and world as a mystical oneness, since the digest says its use is to show that there is no owner in either; and it leaves the two kinds of sex-matter entirely alone, which the digest says belong to a classical binary and must not be recruited into modern argument."
     }
   ],
-  "what_the_viewer_could_understand": "Saying the body's ordinary parts aloud, one by one, forwards and backwards, slowly turns 'my body' from one smooth whole into a list of things. These texts give this as a first lesson to the newly ordained.",
-  "what_must_be_real": "The novices' actual training, with consent from guardians, the monastery and the novices themselves, renewable at any point. Nothing performed for the camera, and no implication that the children have grasped what they are reciting. Nothing from the sources' longer part-by-part description of the body, its bone, muscle and sinew counts, its intestine lengths, what it says bile does, may appear as anatomy or medicine: the digest records all of it as traditional commentary and rules out its use as fact.",
-  "position_hint": "middle: it follows the films that take a body apart from outside and turns the same operation inward, before the group moves to how a body begins and how it ends.",
+  "what_the_viewer_could_understand": "That there is an old, slow discipline in which a person says the thirty-two ordinary contents of a living body aloud, in order and in reverse, for months, until the words stop being words; that its stated purpose is to stop both wanting the body and fighting it; and that the same method, applied to the world, is why these books count matter into twenty-eight kinds and tell the student to learn them by heart.",
+  "what_must_be_real": "The hermitage's own rule sets the film's schedule, including the hours the gate is shut, and nothing is filmed after it shuts unless the community itself wants it. No recitation is performed for the camera and no session is arranged; if the practice is not being done while the crew is there, it is not in the film. Nobody is named, nobody's face carries a scene, and no individual's progress, difficulty or history is a subject. No child is a subject anywhere in this film. Nothing in a shelter is moved, tidied or placed for a shot, and no shelter that is someone's actual dwelling is entered without that person's own agreement. The film makes no claim about what anyone in it has understood or attained. If the only way to make it is to turn a small community's daily discipline into a performance, it is not made.",
+  "position_hint": "middle to late: it works best after the films that take matter apart from outside, because it is the same operation turned inward, and it should not open the group, since its first line has to correct a misreading the viewer will only have if the group's subject is already established.",
   "risks": [
-    "Filming minors: consent from guardians and monastery at every stage, and the novices' own willingness.",
-    "Cute-child framing that trivialises the practice.",
-    "Implying the children understand or have completed what they are still learning by rote.",
-    "Traditional anatomy in the sources mistaken for medical description.",
-    "Reading the practice as body-shaming or as body-positivity, both of which the digest rules out."
+    "Making children the subject. The original version followed young novices, some of them children; that is dropped, and in this version no child appears as a character, is identified, or has anything in the film turn on their progress or their stumbling.",
+    "Framing the practice as a quick mindfulness technique or a body scan, which the digest explicitly rejects: the sources set it inside moral discipline, cleared obligations, a qualified teacher and months of daily recitation.",
+    "Letting it be read as a contemplation of death. The digest says the emphasis is not on death and that the corpse contemplations are a separate section; this practice looks at the living body.",
+    "Reading it as body-shaming or as body-positivity. The digest rules out both: the aim is letting go of craving for the body and aversion to it alike.",
+    "Presenting the sources' traditional anatomy, the bone, muscle and sinew counts, the intestine lengths, the stomach worms, the claims about bile, as medical or anatomical fact.",
+    "Using 'heaps of parts' as a licence to film people as objects, which the digest says it is not, or letting any person in frame become an exhibit.",
+    "Claiming or implying that anyone filmed has understood, completed or benefited from the practice, which no camera can establish.",
+    "Turning a strict forest community's closed hours into something to be negotiated around, or filming inside people's dwellings.",
+    "Letting the film become a heritage piece about ancient cave shelters, which is a real and separate subject and would swallow this one."
   ],
   "drop_if": [
-    "No monastery, guardians or novices consent.",
-    "No genuine ongoing recitation practice to observe."
+    "The community does not want to be filmed, or does not want its recitation recorded, in which case there is no film.",
+    "The recitation is not actually being done at the time, and the only way to include it is to ask for it.",
+    "It can only be made by keeping a crew in the forest during the hours the place is closed."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0119",
+      "relation": "pairs with",
+      "note": "Two opposite operations on one whole: there several things are worked together until none can be found, here one thing is named apart until it stops being one thing."
+    },
+    {
       "idea_id": "IDEA-0120",
-      "relation": "leads into",
-      "note": "A body assembled out of sight in one film; the same body, years later, taught to take itself apart again, part by part, in the next."
+      "relation": "follows",
+      "note": "That one says a body is streams rather than a thing; this one watches people spend months learning to stop calling it a thing."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0063; the only film carrying C093, and a direct observation of the practice as the sources describe it being taught."
+    "reason": "It is the only film carrying C093, and moving the recitation from children to adults who have gone forth keeps the practice the sources actually describe while removing the one thing this group forbids."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The novices were dropped as subjects: the old version turned on children reciting and stumbling, which this group's floor forbids, so the recitation has been moved to a strict forest hermitage of adults who have gone forth, which is what the sources themselves describe when they call this the first subject given to those who ordain. No child appears as a character, is identified, or carries any moment in the film. The 'quick technique' framing is gone and the sources' own conditions, a teacher, cleared virtue, months of daily recitation, are now in the film; the first beat states outright that this practice looks at the living body and is not about death. None of the traditional anatomy is used. Concepts re-read from the digests as a new reader and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Salgala forest hermitage, in the forest reserve above Welhella near Galapitamada",
+    "also_known_as": [
+      {
+        "name": "aranya senasanaya",
+        "meaning": "a forest dwelling for monastics who live apart from village monasteries",
+        "used_by": "Sinhala usage, island-wide"
+      },
+      {
+        "name": "katarama",
+        "meaning": "the drip ledge cut along the lip of a rock overhang so that rain runs clear of the shelter beneath",
+        "used_by": "Sinhala usage for cave dwellings of this kind"
+      }
+    ],
+    "region": "Kegalle District, Sabaragamuwa Province: on a forested ridge in the Warakapola divisional area, reached from the Colombo–Kandy road by turning south and running in through Galapitamada, in the belt of low hills between the main road and the river valley to the south",
+    "coordinates": {
+      "lat": 7.1228,
+      "lng": 80.2496
+    },
+    "why_here": "It is a strict working forest hermitage, not a heritage site with monks in it, which is the difference this film lives or dies on. The reserve runs to several hundred acres of genuinely tall forest with eighteen rock shelters used as dwellings, and it is closed to outsiders for most of the day, so the place enforces the film's own restraint before anyone has to argue for it. That gives the two things the concept needs in one frame: unbroken canopy with rock through it, which from the air looks like nothing in a country this settled, and a swept rock floor with a bowl on it and nothing else, which is the clearest picture this series will get of a body with nothing in it that anyone owns. It is also adults only, living under a rule they chose, which removes at a stroke the reason the earlier version of this film could not be made. And it is little known, small and unspectacular, which is the register this group is in.",
+    "what_to_film": [
+      "The ridge from high above at first light: canopy, rock breaking through, no roofs, and the shape of the reserve against the settled country around it.",
+      "One rock shelter, empty, in the hour it gets light: the drip ledge, the swept floor, a mat, a bowl, and the line where the light stops.",
+      "Forest at the scale it actually is, from the ground looking up, so the hundred-foot trees register as height rather than texture.",
+      "Recitation as sound over the forest, with the speaker out of frame and never sought out.",
+      "Ordinary work filmed wide and from behind: sweeping, carrying water, walking a path.",
+      "Rain arriving, and the rock running afterwards.",
+      "Cut hair on a swept floor, and a few strands on an open palm in daylight, with no face, head or razor in frame.",
+      "A path worn to bare earth, and a strip of palm leaf tied to a branch beside it.",
+      "The gate at the hour it shuts, and the forest in the hours after."
+    ],
+    "access": "From the Colombo–Kandy road, turning south and running in by minor roads through Galapitamada, with the last stretch on foot. The place is open to outsiders in the morning and closed from the early afternoon, and that rule is not negotiable; the whole schedule of a shoot has to be built around it, and permission for anything at all, including a drone over the forest, rests with the community and whoever has charge of the reserve. It is also a forest reserve, so flying over it may need more than the hermitage's agreement.",
+    "best_time": "The first weeks of a monsoon, for water on rock and mist in the canopy. Within a day, the morning hours while the place is open, and the hour after it closes if the community ever allows it.",
+    "images": [
+      {
+        "caption": "A forested rock outcrop of the kind this reserve is built around, elsewhere in the same district. Not the site: no image of the hermitage itself was found.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Utuwankanda.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Utuwankanda.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The hill country of this district generally, for the kind of ridge and forest the reserve sits on. Not the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kegalle, Sri Lanka - panoramio (19).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Kegalle, Sri Lanka - panoramio (19).jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/salgala-monastery/",
+      "https://www.lanka-excursions-holidays.com/salgala.html",
+      "http://warakapolaps.lk/english/places_view.php?folder=Salgala+Forest+Hermitage",
+      "https://www.bps.lk/olib/mi/mi008.html"
+    ],
+    "research_note": "That this is a forest hermitage in the Warakapola divisional area of Kegalle District, that its forest reserve runs to roughly six hundred acres with trees well over a hundred feet, that it contains eighteen rock shelters, that it was revived in the twentieth century after long neglect, that it houses forest-dwelling monks and takes guest monks for meditation periods, and that it is open to outsiders in the morning and closed from the early afternoon, are all from the sources above and are desk research only. The coordinates are the ones a mapping service gives for the monastery and should be treated as a direction, not a survey. Nobody has been approached and no permission has been sought; whether this community would allow any filming at all, let alone the recording of a recitation, is completely unknown and is the question that decides whether the film exists. Neither image is of the site: no photograph of the hermitage was found on Wikimedia Commons, and both captions say what the pictures actually show.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No approach has been made to the hermitage, and a strict forest community may refuse a camera outright, which would end the film.",
+    "Whether the thirty-two parts recitation is actually practised aloud here now, rather than being assumed from the texts, is entirely unverified and is the film's central factual claim.",
+    "Whether anything can be filmed after the gate shuts, which is when the place is most itself, is unknown.",
+    "Drone rules over a forest reserve, and over a monastic dwelling, have not been checked.",
+    "How many monastics are in residence at any time, and whether any of them are recent arrivals at the stage the film describes, is unknown."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

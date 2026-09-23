@@ -2,85 +2,197 @@
   "schema_version": 1,
   "id": "IDEA-0133",
   "record_type": "idea",
-  "title": "What Was Left Behind",
+  "title": "It Only Does This Once",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What Was Left Behind"
+  ],
   "group_id": "GRP-08",
-  "logline": "Weeks after a grandfather's funeral, his family finally opens the room he never let anyone into, and has to decide what a half-finished life becomes now.",
-  "human_question": "When someone dies in the middle of things, who finishes what they started, and who decides what is let go?",
-  "situation": {
-    "what_happens": "Some weeks after an elder dies, a household comes back to everything the death interrupted: a room left as it was, letters unanswered, money owed in both directions, a repair begun and never completed, a building half raised. The family works through it item by item, saying out loud what will be finished, what will be kept unused, what will be given away and what will simply be let go. Some of it is settled in an afternoon. Some of it turns out to be unsettleable, because only the person who is gone knew what it was for. None of it is ceremonial: it is administration carried out inside grief.",
-    "who_is_involved": "The adult children and in-laws of an elder who has died; the grandchildren, who knew him mostly as a presence behind a door; and whoever outside the household holds a piece of the unfinished business, such as a neighbour owed money, a mason who never came back to the job, or a friend who still has one of his tools.",
-    "what_is_at_stake": "Whether the family can disagree about the things without the disagreement becoming permanent, and whether letting something go will feel like a betrayal. For each person, a private question about what they were owed or never said. For the household, the practical weight of debts, documents and a room that will eventually be needed by someone living.",
-    "how_it_unfolds": "This kind of clearing usually starts late, after the funeral rites are over and the visitors stop coming, and it starts with something easy and gets harder. A drawer of paper turns up an obligation nobody knew about. One relative wants everything kept; another wants the room usable. Sometimes it ends in a single day and a shared meal, sometimes it stalls for years with the door closed again. Reality decides whether this family finishes at all, what they find, and whether anything is genuinely resolved. The film cannot know in advance and must not need a resolution."
+  "logline": "In a narrow belt of villages there stands a palm that spends forty years or more doing nothing anyone can see, then throws up the largest flower of any plant on earth, sets several million seeds in one season and dies standing; and on the ground beneath it the seed lies in the parent's own shade, where most of it will never come up at all.",
+  "human_question": "If what you set going does not all come due at the same time, what is happening in the long years when nothing shows?",
+  "place": {
+    "what_kind_of_place": "Low, warm intermediate country at the western edge of a hill district: paddy valleys, village gardens, temple land, a trunk road and the lanes off it. The palm the film is about grows only in a narrow belt of this kind of country and almost never away from people, so it stands in garden corners, beside wells, in temple yards and along field edges rather than in forest. A mature one is twenty metres or more of grey column, ringed all the way up with the scars of leaves it has already dropped, carrying a crown of fan leaves each broad enough to roof a person. It does nothing visible for four decades or more. Then it lifts a flowering mast six to eight metres above the crown, carrying between one and several million flowers, holds fruit for about a year, and dies where it stands. Palms of the same age nearby often flower in the same season, because they came from one parent's seed crop.",
+    "why_it_is_worth_watching": "Because the place offers, in one frame and with no arrangement at all, the two ends of a very long process. A palm in full flower and a palm that has already finished and is standing dead can be a hundred metres apart, and the drone can rise past one and hold both. At ground level the trunk is a written record: every ring is one leaf, and the whole life is legible from below. Under a flowering tree the air is loud with insects for weeks and then, a year later, the ground is ankle-deep in fallen seed, all of it from one tree, nearly none of it going anywhere. Nothing in that has to be staged, and nothing in it can be hurried.",
+    "what_moves_or_changes": "Almost nothing, for decades, and then everything in a single year. The mast rises, opens, is worked over by insects, sets, hangs, ripens and comes down; the leaves go brown one after another and are not replaced; the trunk dries and stands. Around it the ordinary year of a village goes on at its own pace, and the seedlings that appear under the canopy do so only where something has opened a gap in it. Nothing in this film can be scheduled except the hour and the weather. Whether there is a palm in flower at all decides whether there is a film.",
+    "when_it_looks_best": "Two windows about a year apart, and the film probably wants both: the weeks when the mast is open and busy, and the weeks when the fruit is down and the crown has gone. Within a day, the first and last half hours, when low sun runs along the fan leaves and separates the flowering mast from the trees behind it. Clear air after rain gives the height shots their depth."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about one extraordinary tree and the settled country it stands in. Arrival at height over gardens and paddy; the column and its rings; the enormous flower and the insects on it; the year of fruit; the fall; the standing dead trunk; the seedlings in a gap; the village going on around all of it. It has a complete shape with nothing said over it, and anyone who likes looking at plants, or at the ordinary landscape people make around them, has a whole piece here.",
+    "with_the_philosophy": "The same year becomes the sources' sorting of intentional action by when its result arrives. In that analysis nothing about an action's size tells you when it will come due: some of it arrives in this life, some in the next, some waits across any number of lives for an opening, and some never arrives at all. The tree makes the waiting visible and the expiry visible in the same hour. The voice never says the palm is a person or that a tree has a mind, and near the end it says plainly what the location would otherwise be taken to mean."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, high and moving slowly over low country: paddy in the valley bottoms, garden trees in blocks, tile roofs, a road. Out of that even canopy, in ones and twos, a much taller grey column with a crown like a wheel.",
+      "voice": "This palm grows in a belt about this wide and almost nowhere else, and almost always next to people. It takes forty years or more to do anything. Then it does one thing, and that is the whole of it.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "Ground level, looking up the trunk: ring above ring above ring, all the way to the crown, each one the scar of a leaf that has already gone.",
+      "voice": "The sources sort what a person does with intention not by how big it was but by when its result arrives. Four kinds: in this same life, in the very next life, from the third life onward whenever an opening comes, and never [C057-M:L1–L8]. The size of the act is a separate question. The timing is this one.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "The flowering mast, from beside it and then from above: a branched tower standing clear of the crown, packed with small pale flowers, moving with insects.",
+      "voice": "The third kind is the strange one. Because it is strong, the texts say, it does not go off quickly; it waits and gives its result whenever an opening arises, and thousands of aeons do not lose it while the round is still turning [C057-M:L26]. Nothing has been dormant up there. It has been waiting for an occasion.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "A year on. The crown is brown and half gone. Fruit coming down and lying under the tree, a carpet of it, several inches deep, out to the edge of the shade.",
+      "voice": "And the fourth kind, which is the one people find hardest. Some of what we do never produces anything at all. The book's own picture for it is seed grain kept past its proper season, which simply will not sprout [C057-P:L87]. It is called lapsed, and lapsed means that it did not ripen and now will not [C057-P:L117]; the moments that got no opening are the ones that expire [C057-M:L30]. That is not forgiveness. It is expiry.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "Under closed canopy: seed lying whole and black in leaf litter, nothing happening. Then a gap where a garden tree has come out, and in the light of it a dozen strap-shaped seedlings standing up.",
+      "voice": "The same book says something practical about why the waiting kind so rarely goes off by itself: it mostly cannot ripen on its own strength and needs something happening now to carry it [C057-P:L101]. It gives four pictures for that, and they are all fire. Green wood burning because the embers around it are fierce. Dry wood thrown on a weak fire and making a great one. Rain falling on a small fire and putting it out. And a frightened person who cannot walk past a burial ground alone, and can if a friend goes too [C057-P:L103–L113]. The gap in the canopy is the friend.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "The dead palm: a bare grey column with the mast still on it, standing among the living trees of a garden, absolutely still. A ladder leaning on the house behind it. Ordinary afternoon.",
+      "voice": "One correction, because a tree that seeds and dies invites a reading the sources do not support. They are not talking about trees at all, and what they deny is precisely the comfort we would take from this. Nothing mental and nothing physical passes across from one existence to the next [C061-P:L85; C061-M:L15]. If the books still let you speak of one being, it is because the stream is unbroken, not because anything travelled along it [C061-M:L17]. They are not describing a life going on in what it left.",
+      "concept_id": "C061"
+    },
+    {
+      "on_screen": "Last light, back at height. The gardens, the paddy, the road, and the scattered grey columns, some crowned, one bare. No commentary over the last minute.",
+      "voice": "The other thing the books insist on is how quiet most of this is. Ordinary actions, they say, can give their result in this very life without the person who did them noticing anything [C057-M:L18]. And this fourfold sorting by time is only one of four ways they cut the same material, sixteen kinds in all [C057-M:L36]. It is a description of timing. It is not a verdict on anybody, and it is not fate.",
+      "concept_id": "C057"
+    }
+  ],
   "concept_merge": {
-    "why_together": "Time of ripening (C057) says that what a person set in motion does not all come due at once: some of it has already had its result, some is still waiting for an occasion, and some will never come due at all, like seed grain kept past its season. Rebirth as causal continuation (C061) says that when the life ended, nothing mental or physical crossed over. In a room full of one person's unfinished business, the first concept explains the debris and the second refuses the comfort the debris invites.",
-    "what_it_reveals": "That a life is not a ledger that balances on its last day, and that the instinct to keep an object because it was his is an act of the living rather than a way of keeping the person. The sources are explicit that continuity is not legacy, belongings or being remembered, so the film can let a family hold both things at once without deciding between them."
+    "why_together": "C057 carries the film, and this location is the one place where its whole fourfold shape is visible at once rather than argued. The sources sort intentional action by when its result arrives: in this life, in the next, from the third life onward whenever an opening comes, and never [C057-M:L1–L8]; they say the long-waiting kind is strong and therefore slow, keeping its charge across any number of lives until an occasion appears [C057-M:L26]; they say it mostly cannot fire alone and needs present support, and they give four fire-and-wood pictures for that dependence [C057-P:L101; C057-P:L103–L113]; and they say the rest lapses, with the image of seed grain kept past its season that will not sprout [C057-P:L87; C057-P:L117; C057-M:L30]. A palm that stores for forty years, spends everything in one season, and leaves a carpet of seed that mostly dies in its own shade puts the storing, the occasion and the expiry in one frame. C061 is here for one job only, and it is a corrective one. A tree that seeds and dies is exactly the object that makes an audience think of living on in what one leaves, and C061's sources rule that out in terms: nothing mental or physical crosses over [C061-P:L85; C061-M:L15], and the continuity they teach is an unbroken causal stream, not reputation, property or remembrance [C061-M:L17].",
+    "what_it_reveals": "That waiting is not the same as failing, and that expiry is not the same as forgiveness. C057 alone, on any other location, is a taxonomy delivered over stock footage of somebody working. Here the taxonomy has a body: the long storing is a trunk, the occasion is a hole in a canopy, and the lapse is several million seeds going soft in the shade of the thing that made them. C061 alone would be a lecture. Its one paragraph, spoken under a dead palm, stops the film turning into the consolation the picture is begging for, and it says out loud that the sources are describing a stream of mind and not a tree."
   },
   "concept_links": [
     {
       "concept_id": "C057",
       "role": "primary",
-      "why": "The digest sorts intentional action by when its result ripens, in this life, the next, later whenever an opening comes, or never, and gives the image of seed grain kept past its season that will not sprout [C057-P:L87]. A family working through what an ended life left unfinished is that idea in entirely ordinary form. The digest also rules out 'instant karma' and says lapsing is expiry rather than forgiveness, so the film reads nothing in this family's circumstances as a result of anything."
+      "why": "The whole film is the digest's fourfold division by time of ripening and the three things the sources say about the long-waiting kind. The four are named on screen as the sources name them [C057-M:L1–L8]. The waiting kind is said to be strong and therefore slow, ripening whenever an opening arises and not lost across any length of time in the round [C057-M:L26], and the film takes the sources' own word for that opening seriously by finding it in a gap in a canopy. The dependence on present conditions, and the four fire-and-wood pictures the Pradeepika gives for it, are narrated as the source's own images [C057-P:L101; C057-P:L103–L113]. Lapsing is spoken exactly as the digest defines it, as expiry rather than pardon, with the seed-grain picture that is the source's own [C057-P:L87; C057-P:L117; C057-M:L30]. Every limit in the digest that touches this film is kept. This is not 'what goes around comes around': the film says instead that ordinary actions may ripen in this life with the doer noticing nothing [C057-M:L18]. The shipwreck passage, in which each of a thousand drowned people is said to meet death through their own past action, is nowhere in the film and will never be used about any real person or place. The giving stories, in which a poor couple become wealthy within seven days, are not used, and nothing in the film promises a return for anything. The miraculous episodes are not narrated. The seven-moment strength curve is not turned into psychology, and the digest's open question about the first impulsion's result is not relied on. The hunter's-shot simile at C057-P:L41 is deliberately not used, because the group's other digests forbid letting the sources' examples of livelihoods frame real working people."
     },
     {
       "concept_id": "C061",
       "role": "supporting",
-      "why": "Both sources state that nothing mental or physical passes from one existence to the next [C061-P:L85; C061-M:L15]. The digest also excludes the reading that we live on through legacy, belongings or memory, so the link is held as an unresolved tension: the keeping is shown as the living taking care of themselves, and the film never suggests the person is present in what he left."
+      "why": "Linked for a single, corrective paragraph and for nothing else. Both sources state that nothing mental or physical passes from one existence to the next [C061-P:L85; C061-M:L15], and the Margaya's licence to speak of the one who died and the one who begins as one person is granted because the stream is continuous, not because a self travels [C061-M:L17]. The digest names as a distortion the reading that we live on through legacy and in people's memories, and that is precisely the reading a monocarpic palm invites, so the film states the denial out loud rather than leaving the picture to do the arguing. The rest of C061 is deliberately unused: the near-death objects, the deathbed list, the expert check the digest asks for, the newborn and old-age material and the stream-of-water image are all absent, and the film never suggests that a tree has a mind-continuum or that any being is reborn as anything. No person who has died appears in this film, is referred to, or is said to be anywhere."
     }
   ],
-  "what_the_viewer_could_understand": "When someone dies, much of what they set going is still unfinished, and some of it will never come due at all. What carries on is a chain of causes, not a traveller, and not the things left in a room.",
-  "what_must_be_real": "The loss, the family's own reasons and their own timing. Nothing is unpacked, found, discussed or decided for the film, no object is given a meaning the family does not give it, and no part of the sorting is repeated for a second take. Consent is continuing, and anything the family later wants withheld is withheld. Grief is filmed only where that consent is explicit, and is never framed as a failing in anyone.",
-  "position_hint": "opening candidate: the group's first film, where an ending is met through its ordinary aftermath rather than through a rite, and the one situation in which something belonging to a person who is gone could pass into the series, but only if a family freely offers it.",
+  "what_the_viewer_could_understand": "That in this analysis the timing of a result is a separate question from the size of the act; that something can hold its charge for an unimaginably long time and still need an ordinary present occasion before it does anything; and that some of what anyone sets going simply expires, which is neither a pardon nor a tragedy. And that none of this is a way of saying a life continues in what it leaves behind.",
+  "what_must_be_real": "A palm that is actually flowering, on land whose householders or trustees have agreed, filmed on the tree's own schedule. Nothing is cut, climbed, shaken, moved or lit to produce a shot; no seed is planted, cleared or arranged for the camera; no seedling is placed in a gap. If a palm dies before the year of fruit, that is what the film has. The people whose gardens, fields and temple land the palms stand in are shown as people going about an ordinary year, never as illustrations of anything, and their consent is continuing. No claim is made about any person living or dead, and the film contains no death, no funeral and no bereavement of any kind.",
+  "position_hint": "early in the group: it establishes that the sources are talking about timing rather than about fate or reward, which every later film in the group depends on, and it does so without a single human ending. No location reasoning is involved.",
   "risks": [
-    "Intruding on fresh grief, or arriving before a family is ready to be watched",
-    "Turning private disagreement about inheritance into drama, or casting one relative as the difficult one",
-    "Implying an object was meant to be found, or that the person continues in his belongings",
-    "Letting any part of the family's loss or the unfinished business be read as a result of the dead man's own actions"
+    "Letting the tree become an allegory of a human life, which would make the film exactly the kind of legacy story the C061 digest names as a distortion.",
+    "Reading the flowering as 'the tree's kamma ripening', or suggesting that a plant has intention, action or a mind-continuum.",
+    "Sliding into 'what goes around comes around', when both sources reserve visible this-life results mainly for exceptional acts and say ordinary ones may ripen unnoticed.",
+    "Presenting lapsed action as forgiveness, a clean slate or the effect of repentance, when the sources describe expiry.",
+    "Narrating the sources' miraculous episodes, or the shipwreck passage, as anything other than traditional stories, and above all never attaching them to a real death, disaster or community.",
+    "Turning the seven-moment strength curve into a modern claim about first impressions or peak effort.",
+    "Botanical overreach: stating flowering ages, seed counts or germination rates as established fact when they are desk research from general accounts of the species."
   ],
   "drop_if": [
-    "No family will allow a camera into a process this private with consent that lasts beyond the day",
-    "The sorting would have to be staged, re-enacted or scheduled around filming",
-    "The grief is too raw for agreement to be meaningful"
+    "No palm in this belt is in flower or in fruit within the production window, so the film's central year cannot be filmed at all.",
+    "The householders, trustees or temple whose land a suitable palm stands on do not want a crew there.",
+    "It could only be made by planting, clearing, cutting or arranging something to produce the sequence."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0147",
-      "relation": "mirrors",
-      "note": "Both watch what outlives a person, one in the weeks after a death and one once the work has been taken up by someone else."
-    },
-    {
-      "idea_id": "IDEA-0134",
-      "relation": "alternative to",
-      "note": "A second situation in which something belonging to the dead could enter the series, through a rite rather than through sorting."
-    },
-    {
       "idea_id": "IDEA-0140",
+      "relation": "mirrors",
+      "note": "Two films on the same fourfold timing: one where the waiting and the expiry are written in a book, and one where they are a tree and the ground under it."
+    },
+    {
+      "idea_id": "IDEA-0136",
       "relation": "pairs with",
-      "note": "Both ask what happens to what is still owed or unfinished when the person concerned is gone."
+      "note": "Both follow a cohort that was set going in one season long ago and comes due in one season now: one a single palm that does it by itself, one a whole planted stand that has the date decided for it."
+    },
+    {
+      "idea_id": "IDEA-0139",
+      "relation": "alternative to",
+      "note": "Another route to the same concept that does not need a family, a death or an inheritance to carry it."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's opening episode and stands up to both digests once the legacy reading is explicitly refused."
+    "reason": "It carries the group's timing concept on a place that states it without a human death, and the one shot the location produces is also the clearest statement of the concept."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. What was dropped: the entire old subject, in which a family opened a dead grandfather's room weeks after his funeral and worked through his unfinished business. It filmed real bereavement, it made a household's private grief and its arguments over inheritance into a doctrinal illustration, and it was built on the reading the C061 digest names outright as a distortion, that we live on through legacy, belongings and remembrance. The old position hint, which proposed this as the one film in the series into which an object belonging to a dead person could pass, was dropped with it. C057 was kept and rebuilt from the digest around the sources' own seed-grain and fire-and-wood images. C061 was kept but demoted to a single corrective paragraph, and now states the denial the old film quietly contradicted. Both digests were re-read from scratch and every citation checked against digest evidence rather than carried over from the old text.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The talipot palms of the low intermediate belt around Warakapola and Nelundeniya",
+    "also_known_as": [
+      {
+        "name": "tala",
+        "meaning": "the talipot palm, Corypha umbraculifera",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "the suicide palm",
+        "meaning": "an English nickname for the species, from its flowering once and then dying",
+        "used_by": "horticultural and popular English usage"
+      }
+    ],
+    "region": "Kegalle District, Sabaragamuwa Province: the low, warm intermediate country at the Colombo end of the district, on and around the trunk road at Warakapola and in the paddy valleys and village gardens toward Nelundeniya and Dedigama",
+    "coordinates": {
+      "lat": 7.2256,
+      "lng": 80.1953
+    },
+    "why_here": "Because the species has a narrow and well-described range in Sri Lanka, and this district sits inside it. The Flora of Ceylon's distribution for the talipot is a thin belt along the northern wet and intermediate lowlands, and the localities it names for that belt include Warakapola and the country immediately around it. The palm is also described as always growing near human habitation rather than in forest, which is why this is a film about gardens, temple land and field edges rather than about jungle, and why consent is a householder's to give. The species itself does the rest: it is monocarpic, flowering once after roughly thirty to eighty years and then dying, and its flowering mast is the largest inflorescence of any plant, six to eight metres of branched stalk carrying between one and several million flowers. Neighbouring palms of the same age are reported to flower in the same season because they came from one parent's seed crop, which means this belt can offer a flowering palm, a dead one and a carpet of seed within one landscape.",
+    "what_to_film": [
+      "The belt from height at first light, so that the scattered grey columns read against the even canopy of garden trees and the paddy behind them.",
+      "One trunk from the base upward in a single continuous move, so the ring-by-ring record of dropped leaves is legible as a record.",
+      "The flowering mast at several distances: from beside it, from above it, and far enough back that its size against the crown is obvious without a caption.",
+      "The insects working the open flowers, and the sound of them, recorded on its own.",
+      "The year of fruit and the fall: seed hanging, seed coming down, the carpet of it under the tree out to the edge of the shade.",
+      "The standing dead palm, in flat daylight, without dramatising it, and with the ordinary life of the garden going on around it.",
+      "Seed lying whole and doing nothing under closed canopy, and seedlings standing up in a gap where something else has come out.",
+      "The village year around the palms: the road, the wells, the paddy, the temple yard, all filmed as ordinary and not as setting."
+    ],
+    "access": "By road from the trunk highway and then along village lanes. Everything depends on householders, landowners and temple trustees, because these palms stand on private and temple ground rather than in reserved forest. A palm that is in flower is a local event and is likely to be known locally, so finding one is a matter of asking rather than searching. Drone flight over inhabited gardens needs the agreement of the households beneath it as well as whatever permission the civil aviation rules require.",
+    "best_time": "Whenever a palm in the belt is in flower, and again about a year later for the fruit; the species does not offer a season that can be planned for. Within a day, the first and last half hours. The months after the south-west rains give the clearest air for the height shots.",
+    "images": [
+      {
+        "caption": "A talipot palm of the species the film is about. A picture of the tree type, in a botanic garden outside Sri Lanka, not of any palm at this location.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Corypha umbraculifera kz01.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Corypha umbraculifera kz01.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Detail of a talipot inflorescence, the structure the middle of the film is built on. A picture of the flowering of the species, photographed in a cultivated collection outside Sri Lanka, not of any palm at this location.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Corypha floraison (JB Nong-Nooch) - inflorescence du Talipot.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Corypha floraison (JB Nong-Nooch) - inflorescence du Talipot.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The low intermediate country around Warakapola, for the landscape the palms stand in. A picture of the surrounding country rather than of any palm.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Warakapola, Sri Lanka - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Warakapola, Sri Lanka - panoramio.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Corypha_umbraculifera",
+      "https://biodiversityofsrilanka.blogspot.com/2011/10/talatalipot-palmcorypha-umbraculifera.html",
+      "https://www.britannica.com/plant/talipot-palm",
+      "https://www.ias.ac.in/public/Volumes/reso/001/11/0069-0075.pdf"
+    ],
+    "research_note": "That the talipot is monocarpic, flowering once at roughly thirty to eighty years old and dying after fruiting; that its inflorescence is the largest of any plant at six to eight metres, carrying one to several million flowers; that its Sri Lankan range, following the Flora of Ceylon, is a narrow belt along the northern wet and intermediate lowlands whose named localities include Warakapola; that it is always associated with human habitation; and that palms of an age in one neighbourhood tend to flower together because they came from a single parent's seed crop, are all from the sources above and are desk research only. The coordinates are the town at the centre of that belt, not a chosen tree. No palm has been located, no garden, field or temple has been approached, and nobody has been asked for anything. Whether a palm in this belt will be in flower during any given production window is completely unverified and is the question the film depends on. The seed-fall and germination behaviour described in the sequence is inferred from general accounts of the species and has not been checked against any Sri Lankan observation. All three images are of the species photographed elsewhere, or of the surrounding country, and none of them shows this location.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether any palm in this belt will be in flower or in fruit in a filmable window. Nothing has been located and this is the question that decides whether the film exists.",
+    "Whether the Flora of Ceylon belt still describes the species' distribution accurately after decades of land-use change in this district.",
+    "Who owns or holds the land any suitable palm stands on, and whether they would agree to a crew and a drone over their gardens.",
+    "How long the fruiting stage actually lasts in this climate, and whether the seed-fall and seedling behaviour the sequence assumes can be observed at all.",
+    "Whether a dead standing palm and a flowering one can in practice be found close enough together to appear in one landscape."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

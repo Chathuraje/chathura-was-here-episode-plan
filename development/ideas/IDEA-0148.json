@@ -2,75 +2,193 @@
   "schema_version": 1,
   "id": "IDEA-0148",
   "record_type": "idea",
-  "title": "Sitting With It",
+  "title": "No One Is an Exception",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Sitting With It"
+  ],
   "group_id": "GRP-08",
-  "logline": "Every morning before the village wakes, a forest monk walks to the cemetery at its edge and simply sits there, the way he has for years, doing nothing that looks like very much.",
-  "human_question": "What changes in a person who deliberately keeps death close, on purpose, every single day?",
-  "situation": {
-    "what_happens": "A monastic keeps a daily practice of going where the dead are and sitting there. It is unremarkable to look at and it has been going on for years. Around him the place does its ordinary work: a caretaker, a burial, families visiting graves, someone taking a shortcut. He sits. Then he walks back and the day begins.",
-    "who_is_involved": "The practitioner, whose training this is; the people who work at the place, for whom it is a job; the families who come there in grief, who are no part of anyone's practice and whose privacy governs the film entirely; and the lay community that supports the hermitage and has opinions about what he does.",
-    "what_is_at_stake": "For the practitioner, whether the practice is doing what it is meant to do, which is urgency and less clinging, or one of the things the texts warn it can do instead: grief, satisfaction at somebody else's death, numbness or fear. For the film, whether a practice that produces no visible event can be shown at all.",
-    "how_it_unfolds": "A routine unfolds as repetition with small variations: the weather, who else is there, whatever he is carrying that week. It has no arc. It is interrupted by illness, by duties, by a funeral. Reality decides whether he says anything about it at all, and the honest ending is that whatever it has done to him cannot be seen from outside."
+  "logline": "A village of a few dozen roofs sits at the end of a road under a wall of forested mountain, with cloud lying in the valley below it until the middle of the morning, and at the lower edge of the houses there is one small swept clearing with a roof on posts that every household in the frame will use.",
+  "human_question": "A practice exists for keeping one certainty in view on purpose, every day. What does it look like from outside, and what can a camera honestly claim about it?",
+  "place": {
+    "what_kind_of_place": "A remote hill village in the western shadow of a high range, reached by a single long road that ends there. Perhaps fifty or eighty houses on a slope, home gardens, a small shop, a temple, a stream, and paddy where the land is flat enough for it. Above the houses the slope goes into conservation forest and then into rock; below them the valley drops away and fills with cloud most nights. At the lower edge of the village, on ground nobody cultivates, is the place the village uses for its dead: a cleared and swept square with a roofed platform on posts, stacked firewood under the roof, a low wall or a hedge, some old markers too weathered to read, and grass kept short. It is not a monument and it is not maintained by an institution. It is a piece of village infrastructure, like the stream crossing.",
+    "why_it_is_worth_watching": "Because one drone frame holds the whole argument and is also the most beautiful thing here. From a little above the village at first light, cloud in the valley, forest wall behind, you can see every roof in the place and the clearing at the edge of them in the same shot; and the relationship between the two is the film, stated without a word. On the ground it has the other quality the subject needs, which is stillness that is not solemn: a swept earth floor, mist coming through, firewood, a hen, absolutely nothing happening, and the ordinary noise of a village waking two hundred metres uphill.",
+    "what_moves_or_changes": "Light, cloud and the village's routine, and nothing else. The cloud comes up the valley at night and burns off late; the forest edge above changes colour through the day; weather crosses the ridge in minutes. The village's day starts before it is properly light and is audible from the clearing long before anything is visible. Across a year the ground is used a handful of times, and the film is not there for those. Nothing here can be scheduled except the hour and the weather.",
+    "when_it_looks_best": "The months with most valley cloud, for the frame the film is built on. Within a day: the hour before and after sunrise, when the cloud is still in the valley and the clearing is lit before the village is; and the last half hour, when the forest above goes dark first and the village lights come on while the clearing does not."
   },
+  "two_layers": {
+    "without_the_philosophy": "A very quiet film about a remote village at the end of a road, at dawn and dusk, across a few days. Cloud in a valley; a forest wall; a road that stops; roofs, gardens, a stream, water being carried, a shop shutter; a path going up into trees; and, at the bottom edge of the houses, a small swept clearing with a roof on posts where nothing is happening. It has a complete shape with nothing said over it: dark, cloud, first light, the village waking, the day, the light going. Anyone who likes looking at hill country, or at a place where very little occurs, has a whole piece here.",
+    "with_the_philosophy": "The same few mornings become the sources' account of a specific practice: recollecting death deliberately, repeatedly and wisely. The texts separate four meanings of the word and take only one as the object; they direct the practitioner to charnel grounds and forests; and, in the same passage, they warn precisely what the practice becomes when it is done badly, which is grief, or satisfaction at an enemy's death, or feeling nothing, or fear. What it is aimed at has a name, and the name is not comfort: a sober urgency, a being shaken, and the texts say that very quality is why the practice never reaches full absorption. The voice makes no claim about anybody's inner state, because no observer could, and it does not use the texts' categories of death to explain or classify anybody. It sets out what the practice is for, in a place that answers the description the book gives, and lets one frame do the rest."
+  },
+  "sequence": [
+    {
+      "on_screen": "Before sunrise, from a little above the village. Cloud filling the valley below, a wall of forested mountain behind, and between them a village of a few dozen roofs with one road ending in it. At the lower edge of the houses, a small cleared square with a roof on posts.",
+      "voice": "About seventy houses, one road that stops here, and one clearing. Everything else in this frame is different from everything else in it. That clearing is where all of it goes.",
+      "concept_id": "C092"
+    },
+    {
+      "on_screen": "Ground level, first light. The clearing empty: swept earth, grass cut short, a roofed platform on posts, stacked firewood, a few old markers too weathered to read anything from. Mist moving through it.",
+      "voice": "The practice these texts describe is very plain and it is not a mood. You call to mind, repeatedly and with attention, that death is certain for you and for everybody, however strong or rich or learned, and that life is the uncertain thing [C092-M:L7; C092-M:L9].",
+      "concept_id": "C092"
+    },
+    {
+      "on_screen": "The path down out of the forest: leaf litter, a stream crossing, tree ferns, the village audible below. Someone coming down it unhurried, reaching the clearing, sitting at its edge. No close-up; the figure stays small in frame.",
+      "voice": "The book sends the practitioner to exactly this kind of ground: to charnel grounds and to forests, to see the dead, and to recollect wisely that death is certain for oneself and for all beings [C092-P4:L80–L84]. And in the same passage it says what the same thought produces when it is done unwisely: grief, or gladness at an enemy's dying, or nothing at all, or fear [C092-P4:L80].",
+      "concept_id": "C092"
+    },
+    {
+      "on_screen": "From the clearing's edge, at a distance: the village waking. Smoke, a shutter, water carried, a child on a path, a dog crossing, the first engine of the day somewhere below.",
+      "voice": "Because the failure is the easy outcome. The text notices that what we feel about a death is mostly decided by how close we stood to it, and its own example of feeling nothing at all is a man who burns bodies for a living [C092-P4:L80]. This film is not going to test anybody against that. Nobody here is being read, and nothing here turns on what is going on in anyone.",
+      "concept_id": "C092"
+    },
+    {
+      "on_screen": "The scale of the place: the forest wall above the village, rock above the forest, weather crossing the ridge, the cloud beginning to lift out of the valley.",
+      "voice": "What the text does instead is take away every exception. It works through kings, rich men, champions, teachers and the Buddha himself, all of whom died [C092-P4:L119–L151]. It says the body is shared with a great many dangers, that life is frail, and that of any death five things cannot be known in advance: how long, from what, at what hour, where the body will fall, and what follows [C092-P4:L155–L157; C092-P4:L163–L181].",
+      "concept_id": "C092"
+    },
+    {
+      "on_screen": "The clearing again, mid-morning, in flat sunlight. Nothing happening at all. A hen. The firewood. The swept floor with yesterday's broom marks still in it.",
+      "voice": "It also shrinks the frame right down. Someone counting on another day, or another meal, the text calls careless; someone hoping only to finish this mouthful, or this breath, it calls awake, and at its narrowest it says a life only ever touches down one moment at a time, the way a wheel touches a road at a single point [C092-P4:L187–L191; C092-P4:L198–L202].",
+      "concept_id": "C092"
+    },
+    {
+      "on_screen": "Late light. The walk back up into the trees. The clearing held empty in frame for a long time after the figure has gone.",
+      "voice": "What all of it aims at has a name, and the name is not comfort. It is being shaken: a sober urgency, and the text says that quality is the very reason the practice stops short of full absorption, because the disquiet is the point of it [C092-P4:L204]. What it is meant to change is ordinary. Holding less. Hoarding less. More care about doing harm. And meeting one's own end without terror or confusion [C092-P4:L206–L210].",
+      "concept_id": "C092"
+    },
+    {
+      "on_screen": "Dusk, from height again. The forest going black first, the village lights coming on one at a time, the clearing at the lower edge staying dark. No commentary over the final minute.",
+      "voice": "The same texts sort deaths into kinds, timely and untimely, and this film will not sort anybody's. It cannot see inside a dying mind and neither can anyone else, so it makes no claim about any death and none about the person who walked down here this morning. What it can show is a village, and the one small piece of ground that every house in this frame is going to use.",
+      "concept_id": "C092"
+    }
+  ],
   "concept_merge": {
-    "why_together": "Recollection of death (C092) is the single concept here, and unusually it is already a practice rather than an analysis. The source separates four meanings of death and takes only one as the object; it warns that done unwisely the same reflection produces grief, glee, indifference or fear; and it directs the practitioner to charnel grounds and forests to see the dead and recollect wisely that death is certain for everyone, including oneself.",
-    "what_it_reveals": "That keeping death in view is a skill with failure modes rather than a mood. The aim the source names is being shaken awake, and the benefits it lists are practical: less hoarding, less clinging, more care about doing harm, and meeting one's own end without terror. Watching someone do this daily shows the difference between that and both of its cheap alternatives, morbidity and 'you only live once'."
+    "why_together": "C092 is the single concept, and unusually it is already a practice rather than an analysis, which is why it can close the group. The Pradeepika separates four meanings of death and takes only the first as the object; it directs the practitioner to charnel grounds and forests to see the dead and recollect wisely that death is certain for oneself and all beings, and in the same place warns that unwise recollection produces grief, gladness at an enemy's death, indifference or fear, with the man who burns bodies as its example of the third [C092-P4:L80–L84; C092-P4:L80]. It removes every exception by working through kings, merchants, champions, teachers and the Buddha [C092-P4:L119–L151]; it names the body's many dangers, the frailty of life and the five things about a death that cannot be known in advance [C092-P4:L155–L157; C092-P4:L163–L181]; it contrasts the careless person counting on another day with the awake one hoping to finish a breath, and reduces a life to a single point of contact at a time [C092-P4:L187–L191; C092-P4:L198–L202]; it says the practice reaches only access concentration because the urgency it produces will not permit absorption [C092-P4:L204]; and it lists benefits that are entirely practical [C092-P4:L206–L210]. The Margaya's short recitation holds the same core: everyone dies, however strong, rich, learned or powerful, and life is uncertain while death is certain [C092-M:L7; C092-M:L9]. The place is chosen so that a single aerial frame states the concept's central move, the removal of exceptions, without the film having to assert anything about a person.",
+    "what_it_reveals": "That keeping death in view is a skill with named failure modes rather than a mood, and that both of its cheap alternatives are already refused inside the source: morbid fascination on one side and 'you only live once' on the other. It also reveals the limit of what film can do here. The practice produces no visible event and its results are invisible by definition, so the only honest subject is the place the book actually names and the plain relation between a village and the ground it ends up in. The old version of this idea placed a named practitioner at the centre and asked what the practice had done to him, which is a question no camera can answer and which would have turned a real monk into either a symbol or a case study, in a working cemetery where grieving families would have had to be either filmed or edited around."
   },
   "concept_links": [
     {
       "concept_id": "C092",
       "role": "primary",
-      "why": "The Pradeepika directs the practitioner to charnel grounds and forests to see the dead and wisely recollect that death is certain for oneself and for all beings, and in the same place warns that unwise recollection brings grief, glee at an enemy's death, indifference or fear [C092-P4:L80-L84]. Both halves belong in the film. The digest also forbids using the source's timely and untimely categories to explain or judge any real person's death, so nothing visible in or near the practice is interpreted, and the source's own remarks about the body and its humours are not presented as fact."
+      "why": "The digest supplies the film entire, including its guardrails. The direction to charnel grounds and forests and the warning about unwise recollection are the film's hinge and are cited together because the source puts them together [C092-P4:L80–L84; C092-P4:L80]. The removal of exceptions, the five unknowables and the body's dangers, the narrowing to a single breath and a single point of contact, the stopping short of absorption because the urgency will not allow it, and the practical benefits are all narrated from the digest's own account [C092-P4:L119–L151; C092-P4:L155–L157; C092-P4:L163–L181; C092-P4:L187–L191; C092-P4:L198–L202; C092-P4:L204; C092-P4:L206–L210], with the Margaya's recitation for the plain core [C092-M:L7; C092-M:L9]. Every limit in the digest is honoured. 'You only live once' reverses the source and is refused on screen. Modern death positivity aims at comfort where the source aims at saṃvega, and the film names that difference rather than blurring it. The digest's warning that brooding is not automatically healthy is spoken out loud, in the source's own four failure modes. The timely and untimely categories and the exhaustion-of-merit reading are explicitly not applied to any death, and the closing beat says so. The statement that beings are mostly conceived at night and the humoral causes of death are not narrated as facts about the body. The Margaya's mention of great scientists is the modern author's own touch and is not read back into the classical list, so it is not used. The digest's story seed about a cremation attendant is not filmed, precisely because the source's own example of indifference must never be pinned to a real working person. Nothing in the film claims anything about the inner state of the figure who walks down the path, and nothing turns on it."
     }
   ],
-  "what_the_viewer_could_understand": "The texts describe keeping death in mind on purpose, and wisely, as a practice meant to make a person more awake and less grasping, not gloomier. Done carelessly, the same thought only brings grief, glee, numbness or fear.",
-  "what_must_be_real": "An established practice that exists without the film. Grieving families at the place are not filmed, and where they are present the camera is not. No claim is made about what the practitioner has attained. If he does not want to explain the practice, the film does not press him and does not explain it on his behalf.",
-  "position_hint": "closing candidate: the group's calm, accepting note, and the one film in which its subject is faced deliberately rather than suffered.",
+  "what_the_viewer_could_understand": "That this tradition treats keeping death in view as a deliberate practice with a purpose and with named ways of going wrong, that its aim is a sober urgency rather than comfort or gloom, and that what it is meant to change is ordinary: holding less, harming less, and meeting one's own end without terror. And that whether it has worked in anybody is not visible from outside.",
+  "what_must_be_real": "The village, the clearing and the forest as they are, and a practice that exists whether or not a film is made. No body, no remains, no grave being dug or opened, no pyre being built or lit, no funeral in progress, no mourner and no bereaved family appears anywhere in the film, and the ground is filmed only when it is not in use. Nobody's name is on screen, and no marker or inscription is filmed in a way that could identify a person or a family; if the markers there carry legible names, they are not shown. If a monastic appears, he appears as part of the place: he is not named, not interviewed about his attainments, not asked to demonstrate anything, and nothing in the film depends on what is happening in him. His consent and the village's consent both govern, separately, and either can end it. If a death occurs in the village during production, filming stops and does not resume until the village says so, and nothing from those days is used. The film assigns no cause to any death and applies none of the sources' categories to anybody.",
+  "position_hint": "closing: it is the group's last film and its only one in which the subject is faced deliberately rather than suffered, and it is deliberately the quietest thing in the series. It needs everything before it, and it is built to end on an empty frame. No location reasoning is involved.",
   "risks": [
-    "Presenting the practitioner as having attained something no camera can verify",
-    "Treating a working cemetery, and the people grieving in it, as scenery",
-    "Romanticising austerity",
-    "Letting the film read as morbid, which the source itself names as the failure mode of the practice"
+    "Morbid fascination, which the source itself names as a failure of the practice, arriving through the camera rather than through the voice.",
+    "Presenting anybody as having attained anything, which no camera can verify and which the film is built to refuse.",
+    "Treating a piece of ground the village uses for its dead as scenery, or being present when it is in use.",
+    "Filming, implying or editing around a grieving family, who cannot meaningfully refuse a camera.",
+    "Showing a legible name, date or inscription, and so identifying a real person and their relatives.",
+    "Romanticising austerity, or making a remote village's hardship look like a spiritual amenity.",
+    "Applying the sources' timely and untimely categories, or the exhaustion-of-merit reading, to anything or anybody on screen.",
+    "Comfort: letting a beautiful dawn convert a doctrine of sober urgency into reassurance, which the digest lists as the modern distortion of exactly this material."
   ],
   "drop_if": [
-    "No practitioner with an established practice will be filmed",
-    "The place's use by grieving families cannot be respected while filming",
-    "Filming would turn the practice into a demonstration"
+    "The village does not want the ground it uses for its dead filmed at all, on any terms.",
+    "The ground cannot be filmed at a time when it is not in use, or its markers cannot be filmed without showing names.",
+    "No practice of this kind exists anywhere near the place, so the film would be arranging a demonstration.",
+    "A monastic would have to be made into a character, or asked about his inner state, for the film to work."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0136",
-      "relation": "leads into",
-      "note": "Someone whose working life is spent at other people's deathbeds gives a natural route into a private practice of recollecting death."
+      "idea_id": "IDEA-0145",
+      "relation": "pairs with",
+      "note": "Two small pieces of made ground at the edge of a village: one built for a single night and addressed outward, one kept swept and used by everybody."
     },
     {
-      "idea_id": "IDEA-0144",
-      "relation": "pairs with",
-      "note": "One watches a solitary practitioner keep death in view, the other watches many people training attention together."
+      "idea_id": "IDEA-0147",
+      "relation": "leads into",
+      "note": "One shows continuity with nobody attending to it; the other shows a person deliberately attending to the ending, and claims nothing about the result."
+    },
+    {
+      "idea_id": "IDEA-0146",
+      "relation": "mirrors",
+      "note": "Both stand in front of the same certainty, one by working against it hour by hour and one by sitting still in front of it."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and the group's only carrier of recollection of death."
+    "reason": "It is the group's closing film and its only carrier of the recollection of death, and it can be made without a body, a mourner or a claim about anyone's inner state."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The old subject was kept in substance, because it can be made, but its centre was moved. What was dropped from it: the practitioner as a character whose inner state the film investigated, the question of whether the practice was working in him, the working cemetery with its caretaker, its burials and its visiting families, and the funeral as an interruption in the story. A monastic may still appear, but as part of the place, unnamed and uninterpreted, and no body, grave, pyre, funeral, mourner or legible name appears anywhere. The film's subject is now the relation between a village and the one small piece of ground it uses, which one aerial frame states without assertion. C092 was re-read from its digest and every limit in it is honoured on screen, including the refusal to apply the timely and untimely categories to any death and the refusal to convert saṃvega into comfort. Every citation was verified against digest evidence rather than carried over.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "A village at the end of the road under the western wall of the Knuckles range, around Ranamure in Laggala",
+    "also_known_as": [
+      {
+        "name": "sohon bima",
+        "meaning": "the piece of ground a village keeps for its dead, usually at the lower or outer edge of the houses",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "Dumbara",
+        "meaning": "the older name for this range of mountains and the country under it",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Matale District, Central Province: the Laggala division, in the remote villages under the western wall of the Knuckles range, where the roads end against the conservation forest",
+    "coordinates": {
+      "lat": 7.5,
+      "lng": 80.833
+    },
+    "why_here": "Because one frame here can do the whole job. These are small villages at the ends of single roads, set on slopes between paddy and a wall of conservation forest, with a deep valley below that fills with cloud most nights. From a modest height at first light you can hold every roof in such a village and the ground at its lower edge in the same shot, and the relation between the two states the concept's central move, the removal of exceptions, without the voice having to assert anything about a person. The place also gives the subject the register it needs and rarely gets: remote, cold at dawn, entirely unceremonious, with the practice's book-specified setting of forest and charnel ground physically adjacent rather than arranged. And it produces no spectacle that could pull the film towards morbidity, because there is nothing there to look at except swept ground, firewood, mist and a mountain.",
+    "what_to_film": [
+      "The single frame the film is built on: the village and the ground at its lower edge together, from a modest height, at first light with cloud in the valley.",
+      "The clearing at ground level, empty, at length: swept earth, broom marks, cut grass, a roofed platform, stacked firewood, mist coming through.",
+      "The path from the forest down to the village, walked at its own pace, with the village becoming audible before it is visible.",
+      "The village waking, filmed from a distance, as sound and smoke and small movement rather than as portraits.",
+      "The forest wall above the houses and the rock above the forest, and weather crossing the ridge.",
+      "The road that ends, filmed from the direction it arrives from.",
+      "The cloud lifting out of the valley through the middle of the morning.",
+      "Dusk from height: the forest going dark first, the lights coming on, and the clearing staying dark."
+    ],
+    "access": "A long road from Matale through Laggala and Pallegama, ending in the villages themselves; the last sections are poor. Everything depends on the village agreeing, and on the separate agreement of whoever looks after the ground at its edge. The slopes above are conservation forest, so both entry and drone flight there are likely to need permission from the forest authority and may be refused. If a monastic is involved, his consent is separate again from the village's.",
+    "best_time": "The months with the most valley cloud, which the film's key frame depends on. Within a day: the hour either side of sunrise, and the last half hour before dark.",
+    "images": [
+      {
+        "caption": "The western wall of the range seen from Ranamure: the forest and rock above the villages the film works in. A picture of the surrounding landform rather than of any village or its ground.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heritaje knuckals range in sri lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Heritaje knuckals range in sri lanka.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Cloud lying in the hills of the same range and district, for the light and weather the film is built on. A picture of the surrounding country, not of the site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Misty hills - Riverston Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Misty hills - Riverston Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ranamure",
+      "https://en.wikipedia.org/wiki/Knuckles_Mountain_Range",
+      "https://en.wikipedia.org/wiki/Laggala_Polling_Division"
+    ],
+    "research_note": "That Ranamure is a village in the Laggala divisional secretariat of the Matale District at approximately 7.50 north and 80.83 east, that the range it sits under lies across the Matale and Kandy districts and is a conservation forest, and that the surrounding villages are remote and reached by long single roads, is from the sources above, seen through search summaries, and is desk research only. The coordinates are the village's published position and are offered as a direction into the area rather than as a chosen site: no particular village has been selected. The film's central assumption, that such a village has a single piece of ground at its lower edge that it uses for its dead and that this can be held in one frame with the houses, is an inference from the ordinary layout of Sri Lankan hill villages and has not been verified anywhere. Nothing is known about whether a monastic with an established practice of this kind is anywhere near, and nobody has been approached. The first image is described by its uploader as the range seen at Ranamure; the second is of the same range and district at a well-visited viewpoint some distance away. Neither shows a village or any ground used for the dead, and no such image was looked for, because photographing or reusing pictures of a particular community's burial ground is not something this film should be doing at the research stage either.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether any village here has the arrangement the film is built on, a single piece of ground at its lower edge that can be held in one frame with the houses. This decides whether the film exists.",
+    "Whether a village would want that ground filmed at all, which is a question that has to be asked before anything else and may simply end the idea.",
+    "Whether a monastic with an established practice of this kind is anywhere nearby, and whether he would want to be filmed on the terms this idea sets, which give him nothing to perform.",
+    "Whether the forest authority would permit entry and drone flight on the conservation slopes above the villages.",
+    "Which village, and whether the road is passable for a crew at the hours the film needs.",
+    "Whether the markers on such a ground carry legible names, in which case the film has to work without them."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

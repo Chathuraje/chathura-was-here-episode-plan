@@ -2,70 +2,195 @@
   "schema_version": 1,
   "id": "IDEA-0143",
   "record_type": "idea",
-  "title": "When the Rain Stops",
+  "title": "The Cloud Is the Condition",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "When the Rain Stops"
+  ],
   "group_id": "GRP-08",
-  "logline": "The paddy comes up green and full on land that depends on a seasonal tank, and then the rain that should keep coming simply stops.",
-  "human_question": "What does a community do while it waits to find out whether this season is the one that breaks it?",
-  "situation": {
-    "what_happens": "A farming community sows into a good start: water in the tank, rain on time, a crop that comes up strong. Then the rain stops. Over the following weeks the water level falls, what the crop needs and what the tank holds pull apart, and the community has to decide together who irrigates, what is saved and what is written off, while each household makes its own quieter decisions about debt, work elsewhere and what to sell.",
-    "who_is_involved": "The cultivating households, who carry the loss personally; the farmers' organisation or water committee that allocates what is left; the landless people who work the fields for wages and lose their income first; and the officials who arrive with figures and forms.",
-    "what_is_at_stake": "A season's income and the loans taken against it, the fairness of the sharing, and relations between neighbours at the top and the bottom of a channel. Underneath that, a household's confidence that this place can go on being farmed at all.",
-    "how_it_unfolds": "A failure like this is slow and legible: there is a date by which rain must come, a level below which the tank cannot serve everyone, and a week in which the decision gets made. Sometimes late rain rescues part of a crop; sometimes the season is written off and people go looking for work elsewhere. Reality decides which, and nobody, including the film, knows at the start."
+  "logline": "An isolated mountain forest drinks cloud rather than rain, and stands in distinct floors up the flank of a peak, each floor holding only what its own band of air will allow; the highest floor is the smallest, the coldest and the barest, and it is the one that goes first.",
+  "human_question": "If a whole world exists only because a narrow set of conditions happens to hold, what is it that ends when the conditions stop?",
+  "place": {
+    "what_kind_of_place": "An isolated block of upper montane rain forest on one mountain, about eleven square kilometres of it, running from roughly sixteen hundred and fifty metres up to a summit crag at a little over two thousand one hundred. It is a cloud forest: for much of the year the trees stand inside cloud and take their water directly out of it rather than out of falling rain. Because of that the vegetation is stacked in clearly separate floors up the slope. Lower down the trees are tall and straight with a closed canopy. Higher up they shorten, thicken, lean and become hung with moss, lichen and epiphytes to the point where the bark disappears. Above that there is a band of wind-cut shrub, and at the top grass, rock and nothing. It is a strict reserve, surrounded by worked land on every side, and it is not connected to any other forest of its kind.",
+    "why_it_is_worth_watching": "Because the concept is the shape of the mountain, and a drone can fly the whole argument in a single unbroken climb. Nothing has to be cut together: the tiers are actual visible bands, and the higher the frame goes the less there is in it, until at the top there is one kind of grass and a lot of weather. Inside the upper forest it is one of the strangest interiors in the country, a dim green room where every surface is a plant growing on another plant, where water runs off leaves on a day with no rain in it, and where the loudest sound is dripping. And the place has its own ending already written into it: at the top of the ridge there are stands of dead crowns, grey and intact, standing in the middle of living forest.",
+    "what_moves_or_changes": "The cloud, and almost nothing else. The cloud line rises and falls along the flank through a day and is the only fast-moving thing on the mountain; the floors themselves change over centuries. In the dry months the cloud can fail to arrive for weeks, and the upper forest, which has no other water, simply waits. Frost occurs at the top. Trees fall and gaps open and close. Nothing here can be scheduled except the hour and the weather, and the weather is the subject.",
+    "when_it_looks_best": "Two windows and the film wants both. The wet, cloud-bound months for the interior: saturated moss, water running without rain, the flank appearing and disappearing. The dry months for the aerial climb, when the air is clear enough to hold the whole flank in one frame and the floors read as floors, and for the frost and the dead crowns at the top. Within a day, the half hour after sunrise, when cloud is still lying in the valleys below the forest and the summit is out in clear sun above it."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about one mountain and the weather inside it. A long climb from tall forest into short twisted moss forest into wind-cut shrub into bare grass, flown in one movement; cloud pouring over a ridge and filling a valley; an interior where nothing has visible bark; water coming off leaves on a dry day; frost on grass at two thousand metres; grey dead crowns standing in living green; and the whole flank at first light with cloud lying below it. It has a complete shape with nothing said over it: up, in, weather, top, back. Anyone who likes mountains or likes watching cloud behave has a whole piece here.",
+    "with_the_philosophy": "The same climb becomes the sources' map of existence, which is a stack. The texts count sixteen worlds of subtle form and four above them with no form at all, arranged in floors, each floor the continuation of a particular depth of stillness reached and held in a life, each with a span that runs to numbers nobody can picture, and every single one of them finite. Then they describe how the whole arrangement ends, and the striking thing is where the account starts: with rain falling, people sowing happily, a crop coming up, and then thunder with no drop in it, and rain that has stopped for good. The film says plainly that these are meant as real places of birth and not as altitudes, and that the mountain is our picture and not the text's. What the mountain gives is the thing the doctrine is hardest to feel: that a world is a set of conditions, that the highest floor contains the least, and that nothing whatever is exempt."
+  },
+  "sequence": [
+    {
+      "on_screen": "One continuous drone climb at first light, from the valley floor up the flank: worked land, then tall closed forest, then shorter forest, then low twisted canopy furred with moss, then wind-cut shrub, then grass and rock. Cloud lying in the valleys below.",
+      "voice": "This mountain is in floors. Each band holds only what its own air will allow, and you cross the line between two of them in about thirty metres of height. The old texts count existence the same way: sixteen worlds of subtle form set in tiers, and four above them with no form at all [C052-P:L37–L45].",
+      "concept_id": "C052"
+    },
+    {
+      "on_screen": "Inside the upper forest. Dim green. Every trunk and branch carpeted in moss, lichen and epiphytes; no bark visible anywhere. Water running steadily off leaf points. No rain falling.",
+      "voice": "There is no rain in this shot. This forest drinks the cloud it stands in. Take the cloud away and nothing here has a second source of water. One thing should be said now rather than at the end: the texts mean those worlds as real places where beings are born, not as heights on a hill. The mountain is our picture, not theirs.",
+      "concept_id": "C052"
+    },
+    {
+      "on_screen": "Time-lapse and real time: the cloud line travelling up the flank, swallowing the ridge, and dropping again. Then the same ridge in clear dry air, hard and exposed.",
+      "voice": "In the sources each floor answers to a particular grade of stillness, held to a particular depth, and their lifespans run into ages measured by emptying a box of mustard seed one seed a century [C052-P:L55–L69]. And every one of those spans ends. Not one of those worlds is a place anybody stays [C052-P:L93–L134].",
+      "concept_id": "C052"
+    },
+    {
+      "on_screen": "The top of the ridge: stands of grey dead crowns, intact, standing among living trees. Wind. Then close on a dead branch furred with lichen.",
+      "voice": "When the texts describe the end of a whole world-system, they begin with something completely ordinary. A great rain falls. People sow, happily. The crop comes up as high as cattle graze. And then there is thunder with not one drop in it, and the rain that stopped has stopped for good [C052-P:L156–L160]. No announcement, no cause given on the ground. Only a thing that should happen, not happening.",
+      "concept_id": "C052"
+    },
+    {
+      "on_screen": "Still on the ridge, wide and flat light. The dead stands from above, grey islands in green, running along the top contour only.",
+      "voice": "The source does name a cause for the cycle, and it is worth hearing exactly what kind of cause it is: excess of craving, excess of hatred, excess of delusion, across an entire world-system, ending it by fire, by water or by wind [C052-P:L214]. That is a claim about a cosmic cycle. It is not an account of anything on this ridge, and this film offers none. Why these crowns died is argued over by people who study it, and nothing in these texts settles it or should be allowed to seem to.",
+      "concept_id": "C052"
+    },
+    {
+      "on_screen": "The summit. Grass, rock, frost melting off tussocks, cloud streaming past below the camera. Almost nothing living in frame.",
+      "voice": "Here is the part that reverses what people expect. The highest place on this mountain has the fewest kinds of living thing in it, not the most. Going up is a narrowing. In the sources' own stack it is the same: the further up you go the less there is, until there is no form at all, and above that nothing is described as being added.",
+      "concept_id": "C052"
+    },
+    {
+      "on_screen": "Back inside the forest, late. A fallen giant, and seedlings standing in the light gap it made. Then cloud coming back over the ridge and closing the mountain.",
+      "voice": "The cycle in these texts has four parts and only one of them is the ending: the world coming apart, then standing empty for exactly as long as the coming apart took, then forming again, then standing [C052-P:L148]. The empty part is counted. It is not waste.",
+      "concept_id": "C052"
+    },
+    {
+      "on_screen": "Last light, the whole flank from far off, floors stacked, cloud below. No commentary over the final minute.",
+      "voice": "One last thing, because it is the strangest sentence in the chapter. At the very edge of the end, the message the sources have carried to people is not cosmic at all. Develop kindness, compassion, gladness and an even mind. Look after your mother and father. Honour the elders of your family [C052-P:L160].",
+      "concept_id": "C052"
+    }
+  ],
   "concept_merge": {
-    "why_together": "In this group, the fine-material and immaterial planes (C052) carries the source's account of how an entire world-system ends, and that account opens with something completely ordinary: rain falls, people sow happily, the crop grows, and then the rain stops for good. Putting the largest ending the texts describe beside one failed season is the merge. The cosmology supplies the scale; the season supplies the fact that the scale is made of ordinary weeks.",
-    "what_it_reveals": "That impermanence in these texts is not only personal, that nothing is exempt from ending, including the most blissful worlds, and that the way the texts imagine the largest ending is exactly how an ordinary drought feels from inside: no announcement, just something that should happen and does not. It also shows what the cosmology leaves out, which is the committee meeting, the loan and the neighbour upstream."
+    "why_together": "One concept, and a location that happens to be built in the same shape. The sources set sixteen fine-material worlds in tiers with four immaterial worlds above them and give the distances between the tiers [C052-P:L37–L45]; they assign each tier to a particular absorption held to a particular grade of mastery [C052-P:L55–L69]; they give lifespans in world-ages and make every one of them finite [C052-P:L93–L134]; they describe the four-part cycle of coming apart, standing empty, forming again and standing [C052-P:L148]; they open the account of a world's destruction with rain, sowing, a grown crop and rain that stops for ever [C052-P:L156–L160]; they attribute the cycle to excess of craving, hatred and delusion and to nothing local [C052-P:L214]; and at the edge of the end they put a domestic instruction about kindness and about looking after one's parents and elders [C052-P:L160]. A cloud-fed montane forest stacked in visible floors on one isolated peak lets every one of those be shown rather than asserted, and the film says out loud that the correspondence is its own and not the text's.",
+    "what_it_reveals": "That impermanence in these sources is structural rather than personal: worlds, not only people, are arrangements held up by conditions, and the finest of them are the most finely conditioned and therefore the first to go. The concept read cold is a list of names, distances and numbers. Flown up the side of a mountain where each band holds only what its air permits, and where the top band is visibly the poorest, it becomes a single legible idea, including the part that reverses intuition: that higher means narrower. It also lets the film keep the whole cosmic frame while making no causal claim about anything real, which is the only way this concept can be filmed honestly."
   },
   "concept_links": [
     {
       "concept_id": "C052",
       "role": "primary",
-      "why": "The source's account of a world-system's destruction begins with rain, sowing, a growing crop, and then rain that stops [C052-P:L156-L160]. The digest forbids two uses of that passage: reading it as an ecological prophecy, and blaming a real drought on anyone's moral failure, since the source ties the cycle to greed, hatred and delusion in general and never to a named community. The film therefore borrows only the shape of the account and makes no causal claim whatever about this drought or these farmers."
+      "why": "Everything the film says comes from the digest and is cited on screen: the tiered sixteen fine-material and four immaterial worlds with their distances [C052-P:L37–L45]; the grading of each tier by the absorption and the degree of mastery whose result is born there [C052-P:L55–L69]; the finite lifespans, which is the line that stops the higher worlds being read as liberation [C052-P:L93–L134]; the four-part cycle including the counted empty period [C052-P:L148]; the destruction account's ordinary opening of rain, sowing, a grown crop and rain gone for good [C052-P:L156–L160]; the attribution of the cycle to excess of craving, hatred and delusion [C052-P:L214]; and the domestic instruction the deities carry at the edge of the end [C052-P:L160]. Every does-not-transfer line that bears on this film is honoured, and three of them are spoken aloud. The film never says meditation takes anyone to heaven and no practice appears in it at all. It never lets the higher worlds read as release, because their spans are cited as finite in the same breath as their height. The prophecy reading is refused explicitly: the voice states that the source's cause is a cosmic one attributed to general states of mind across a world-system, that it explains nothing on this mountain, and that the film makes no causal claim about the dead stands, whose cause is a live scientific argument. The origin story with its caste names is not used anywhere. The non-percipient realm is not mapped onto anything, and no medical or human condition appears in the film. The Medin full-moon claim about the sun and moon is not used. The digest's note that reading the planes as metaphor is an editorial choice is answered directly: the voice says in the second beat that the sources mean real places of birth, and that the mountain is the film's picture and not the text's."
     }
   ],
-  "what_the_viewer_could_understand": "The texts teach that nothing lasts forever, not even the most blissful worlds or the earth itself. Their story of a world's end begins with something ordinary: rain that falls, a crop that grows, and then rain that stops.",
-  "what_must_be_real": "A real water shortage with real consequences for the people filmed, and no foreknowledge of how it ends. Nothing is arranged: not the meetings, not the decisions, not the arrival of rain. No household's hardship is presented as deserved, explained or symbolic of anything.",
-  "position_hint": "middle: the widest frame in the group, placed where an ending stops being one person's and becomes everyone's.",
+  "what_the_viewer_could_understand": "That in these sources existence is arranged in floors, that each floor is the continuation of a particular depth of stillness and can hold only what its own conditions allow, that the spans involved are unimaginably long and every one of them ends, and that the account of the largest ending begins with something as ordinary as rain that does not come back. Also the part that surprises people: the highest floors contain less, not more.",
+  "what_must_be_real": "The mountain as it actually is, including the dead stands, the reserve boundary and the worked land pressed against it. Nothing is added, dressed or lit; no cloud, frost or water effect is created; no vegetation is cut or moved for a frame; and nothing about the dieback is exaggerated, staged or explained. The film makes no causal claim about the dieback, does not use the site to argue about climate, water or land policy, and does not present anyone's drought, loss or hardship as connected to any of it. If filming cannot be done inside a strict reserve without damage or without the authority's consent, it is done from outside it or not at all.",
+  "position_hint": "middle to late: it is the group's widest frame and it needs a viewer who has already refused the fatalistic reading, so it sits after the films about results arriving and before the ones that close the group. No location reasoning is involved.",
   "risks": [
-    "Implying a drought is caused by anyone's moral failure, or by kamma",
-    "Turning real hardship into an apocalyptic metaphor",
-    "Encouraging fatalism about climate, water policy or livelihood",
-    "Filming people at the most exposed moment of a financial loss"
+    "Letting the mountain stand in for the planes, so that the sources' cosmology is quietly converted into a nature metaphor. The film states the difference out loud and still carries the risk.",
+    "Letting the dead stands read as prophecy fulfilled, or as a climate argument, or as a consequence of anyone's conduct. The digest forbids all three and this is the film's largest single risk.",
+    "Presenting the higher worlds as liberation or as a reward for practice, when the sources give every one of them an end.",
+    "Turning the cosmology into a claim about geology, meteorology or ecology, or letting the aeon figures read as an anticipation of science.",
+    "Damage to an isolated and slow-growing forest by a crew walking in it, or disturbance from drone noise in a strict reserve.",
+    "Elegy: a beautiful dying forest is very easy to make mournful, and mourning is not what this concept says.",
+    "Using the site's surrounding land use, which is contested in places, as unstated background argument."
   ],
   "drop_if": [
-    "No water shortage is actually underway when filming could happen",
-    "The community will not consent to being filmed through a hard season",
-    "The film's presence could affect how aid or water is allocated"
+    "The reserve cannot be entered or overflown, and the interior floors that beats two, six and seven depend on cannot be filmed from anywhere.",
+    "Filming would damage the forest or disturb it in a way the managing authority cannot accept.",
+    "The tiers do not actually read from the air the way the film assumes, which would remove the location's only reason for being chosen.",
+    "The film could only be made by taking a position on why the crowns died."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0141",
       "relation": "mirrors",
-      "note": "Both are growing seasons whose outcome the film cannot know in advance; the single-family season has been merged into IDEA-0142, and this film keeps the community scale."
+      "note": "Both are about what a set of conditions will and will not support: one on a farmed plain across four months, one on a mountain across an age."
+    },
+    {
+      "idea_id": "IDEA-0144",
+      "relation": "pairs with",
+      "note": "Two films on the same stack of worlds: one flies up it and shows that the top holds the least, the other sits at the bottom of it and asks what is still present at the moment a thing is checked."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode; the link is supported and the digest's two prohibitions are now written into the idea."
+    "reason": "The single best shot the location gives, one unbroken climb through visible floors to a bare summit, is also the clearest statement of the concept, and the place carries the cosmology without any real hardship being used to illustrate it."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape, and deliberately moved off its old subject. The old film followed a farming community whose tank-fed crop failed when the rain stopped. Two things were wrong with that. The slate already holds a drought-and-reservoir film built on a drawdown exposing a drowned town, and the slate bans irrigation systems as an archetype, so the old idea was both a duplicate and an archetype breach. More importantly, it staked the concept on a real community's financial ruin, in a group whose own record insists that kamma is not fate and that nobody's bad harvest may be explained by past action; a film that watches households lose a season while a voice describes the end of a world cannot fully escape that reading. The concept has been kept whole and unchanged, including the destruction account's ordinary opening of rain that stops, and it is now carried by the shape of the concept's own subject, which is planes of existence held up by conditions and stacked in tiers. No tank, channel, crop, household or loss appears anywhere in the film. The digest was re-read as a new reader and every citation re-verified against digest evidence rather than carried over.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "Hakgala Strict Nature Reserve and the summit crag above it",
+    "also_known_as": [
+      {
+        "name": "Hakgala",
+        "meaning": "'jaw rock', from the crag's profile",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "upper montane rain forest",
+        "meaning": "the forest type of the reserve's higher floors, above about eighteen hundred metres",
+        "used_by": "Sri Lankan forestry and ecology usage"
+      }
+    ],
+    "region": "Nuwara Eliya District, Central Province, on the boundary with Uva Province: an isolated montane block a few kilometres south-east of the district town, above the pass road",
+    "coordinates": {
+      "lat": 6.9169,
+      "lng": 80.8139
+    },
+    "why_here": "Because the mountain is built in the shape of the concept. The reserve is a documented and isolated cloud forest of about eleven and a half square kilometres running from roughly sixteen hundred and fifty metres to a summit of a little over two thousand one hundred and seventy, so the whole altitudinal sequence from tall closed montane forest, through short moss-hung upper montane forest, to wind-cut shrub and summit grass lies inside a single short climb and reads as bands from the air. Being isolated, it has an edge on every side, which makes the stack legible instead of merging into a range. It is a cloud forest, so the film's central claim, that a world exists only while a narrow condition holds, is literally true of the water supply of the upper floors. And the ending is already present on the ground: upper montane forest dieback has been recorded in this country's montane forests since the nineteen-eighties and is a documented concern here, which gives the film grey standing crowns inside living green without anything being staged and without a single person's misfortune in the frame.",
+    "what_to_film": [
+      "One unbroken drone climb up the flank, from worked land through each forest band to the summit, flown identically in cloud and in clear air.",
+      "The whole flank from far off at first light, with cloud lying in the valleys below the forest and the summit in clear sun above it.",
+      "The interior of the upper montane forest: moss and epiphyte cover with no bark showing, and water running off leaf points on a day with no rain.",
+      "The cloud line travelling up and down the flank, in real time and in time-lapse from a fixed frame.",
+      "The band changes at ground level, walked slowly, so the thirty metres of height in which the forest changes character can be seen as a transition.",
+      "The dead stands on the upper ridge, in flat light, from the ground and from above, without dramatising them.",
+      "Frost on summit grass at dawn, and the summit crag itself.",
+      "A light gap made by a fallen tree, with seedlings standing in it.",
+      "The reserve boundary, where the forest stops and worked land begins."
+    ],
+    "access": "By road to the pass below the reserve. This is a strict nature reserve, the most restricted category in the country, so entry is normally for research only and needs the wildlife authority's permission; drone flight over it will need specific clearance and may simply be refused. Some of the film, including the whole-flank frames and the aerial climb, might be possible from outside the boundary. The summit crag and the routes to it are steep, and weather at that altitude changes in minutes.",
+    "best_time": "The cloud-bound months for the interior and the cloud line; the drier months for the aerial climb, the frost and the dead stands. Within a day, the half hour after sunrise for the flank, and overcast middle hours for the interior, which has no good light at any other time.",
+    "images": [
+      {
+        "caption": "Cloud forest canopy inside the reserve.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cloud forest canopy in hakgala 1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Cloud forest canopy in hakgala 1.jpg",
+        "licence_note": "Wikimedia Commons, marked CC0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A wider view of the cloud forest canopy inside the reserve.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cloud forest canopy in hakgala 2.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Cloud forest canopy in hakgala 2.jpg",
+        "licence_note": "Wikimedia Commons, marked CC0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The summit crag the reserve runs up to, seen from below.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakgala mountain.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Hakgala mountain.JPG",
+        "licence_note": "Wikimedia Commons, marked CC BY 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hakgala_Strict_Nature_Reserve",
+      "https://en.wikipedia.org/wiki/Sri_Lanka_montane_rain_forests",
+      "https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4049",
+      "https://www.ijesd.org/vol6/551-C1006.pdf",
+      "https://link.springer.com/article/10.1007/BF02432929"
+    ],
+    "research_note": "That the reserve covers about 11.42 square kilometres, that its altitude runs from roughly 1,650 metres to a summit of about 2,170 to 2,178 metres, that it is an important though isolated cloud forest occupying upper montane rain forest, and that canopy dieback has been recorded in this country's upper montane forests since the 1980s with this forest among those studied for it, are from the sources above and are desk research only. The coordinates are the reserve and peak, not a chosen route or viewpoint. Nobody has been approached and no permission has been sought. Two central assumptions are untested by anyone: that the altitudinal bands read as distinct floors from the air here rather than as a gradient, and that any of this can be filmed at all inside a strict nature reserve. The three images are of the reserve's cloud forest canopy and of the summit crag from below.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether a strict nature reserve can be entered or overflown by a film crew at all, and on whose authority. This is the question that decides whether the film exists.",
+    "Whether the forest bands actually read as separate floors from the air on this particular flank.",
+    "How much of the film could be made from outside the boundary if entry is refused.",
+    "The current extent and location of the dead stands, and whether they can be filmed without implying a cause.",
+    "Whether a crew can work in slow-growing montane forest without damaging it, and what the managing authority's conditions would be."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

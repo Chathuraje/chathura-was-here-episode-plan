@@ -2,68 +2,180 @@
   "schema_version": 1,
   "id": "IDEA-0138",
   "record_type": "idea",
-  "title": "Lost and Found",
+  "title": "Everything Here Was Handed In",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Lost and Found"
+  ],
   "group_id": "GRP-08",
-  "logline": "At a busy railway station, a counter piled with other people's things waits for owners who may never come, while a clerk decides, item by item, what honesty actually costs.",
-  "human_question": "What does it cost, in the moment, to hand back something you could easily have kept?",
-  "situation": {
-    "what_happens": "A lost-property office receives what strangers hand in, logs it, shelves it and waits. Some things are claimed within the hour, some after months, most never. Every item on the shelf represents a decision somebody already made, quietly and without witnesses, to hand it over rather than keep it, and the clerk makes the same decision daily on a larger scale.",
-    "who_is_involved": "The clerk who keeps the register; the strangers who hand things in; the owners who come looking, usually certain it is gone; and the institution that eventually disposes of what nobody claims.",
-    "what_is_at_stake": "For an owner, sometimes a phone and sometimes a livelihood. For the clerk, a job in which temptation is a daily and unremarkable fact. For everyone watching, the plain evidence that most people, most of the time, hand it in.",
-    "how_it_unfolds": "Items arrive, are logged and wait out a period, then are disposed of. Reunions happen without warning and the counter never knows which day brings one. Reality decides what comes in and who turns up for it."
+  "logline": "Behind a window at a busy inland bus terminal there is a room of other people's things, each one left on a seat by somebody who did not notice and carried to this counter by somebody who could simply have kept it, and most of them will never be collected.",
+  "human_question": "What does it cost, in the moment, to hand back something nobody would ever know you had taken?",
+  "place": {
+    "what_kind_of_place": "The lost-property store of a large inland bus terminal: a terminal where routes from three directions meet, with bays, a canopy, tea stalls and a constant turnover of long-distance coaches, and, off to one side, a small room with a window onto the concourse. Inside it the shelves go to the ceiling. Bags, cloth bundles, umbrellas, a walking stick, a bicycle pump, spectacle cases, schoolbooks, a box of single shoes, a sack of telephones. Each thing carries a tag with the date it arrived, the route it came off and nothing else. Things are kept for a fixed period and then disposed of. Almost everything on the shelves was carried here by a stranger.",
+    "why_it_is_worth_watching": "Because it is a room built entirely out of a decision that nobody witnessed. Every single object in it represents somebody bending down in a moving bus, picking up a thing that was not theirs, and walking it to a window instead of putting it in a pocket. Nothing in the room shows that happening; the room is only the total. Visually it works at two extremes: the terminal at four in the morning from overhead, a lit rectangle with coaches nosed in like teeth and one window lit at the side of it, and then the shelves at close range, in long slow passes, at the scale of a tag and a knot in a cloth bundle. The most beautiful shot the place produces is also the plainest statement of the concept: a full shelf, and every item on it an act.",
+    "what_moves_or_changes": "The traffic and the shelf. The terminal empties and fills four or five times a day and once again before dawn. Things come in unpredictably, a few a day, more at festival times. A few are claimed within the hour by somebody who came back on the next bus certain it was gone. Most sit until their period runs out and then leave in a different direction. Nothing here can be scheduled: the film cannot know which day brings a reunion and must not arrange one.",
+    "when_it_looks_best": "A stretch of days that includes both a heavy travelling weekend and a dead midweek, so the shelf can be seen filling and the room can be seen with nobody in it. Within a day: the hour before first light, when the night coaches come in and the terminal is lit and almost empty, and the last hour of the afternoon, when a low sun reaches down the shelves through the window."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a room full of other people's belongings. The terminal from the air, awake at an hour when nothing else is; the window; the register; the shelves in long, patient passes; a cloth bundle tied by somebody who tied it in a hurry; a sack of telephones nobody will ever unlock; a tag with a date eleven months old; the quiet of the room against the noise outside; and once, without warning, somebody arriving who describes a thing correctly and takes it away. It has a complete shape with nothing said over it, and anyone who likes looking at objects, or at inventories, has a whole piece here.",
+    "with_the_philosophy": "The same shelves become the sources' definition of taking what is not given, seen entirely from the other side. The texts define the act with unusual precision: knowing that a thing belongs to somebody else, and deciding to take it anyway, with every factor present. They treat wanting what is another's as a real act of mind in its own right, and then they are careful to separate a passing flash of wanting from a settled wish. A room like this is the exact photographic negative of all of that, made by thousands of strangers for no reward, and the voice never turns it into a verdict on anybody, in either direction."
+  },
+  "sequence": [
+    {
+      "on_screen": "An hour before light, high and straight down. The terminal is the only lit thing for a kilometre: a rectangle of concrete under sodium light, coaches nosed into bays, three or four people crossing it. At one edge, a small lit window.",
+      "voice": "Routes from three directions meet here. Somewhere between two and three hundred coaches a day come in and go out again, and a few times a day something gets off one of them that its owner did not.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "The window from inside. A conductor puts a cloth bag on the counter, says a route number, does not wait. A hand writes the date, the route and a number on a tag and ties it to the handle.",
+      "voice": "The old analysis defines this the other way round, and it is exact about it. Taking what is not given needs the thing to belong to somebody else, the person to know that it does, the intention to take it, an act carried out, and the thing actually taken. All five, or it is not the full course of action [C058-P:L78–L86].",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "The shelves, in one long slow pass from floor to ceiling. Bags, bundles, umbrellas in a bin, a walking stick, a box of single shoes, schoolbooks, a sack of telephones. Tags everywhere, most of the dates old.",
+      "voice": "It also insists on the difference between an act and a completed course of action. Where every factor is present, the sources say the act can carry its whole weight; where one is missing it is a lighter thing altogether [C058-P:L45–L47; C058-P:L49]. That distinction is the reason this room exists. In every case on these shelves, four of the five factors were there.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "Close, at the scale of a hand. A knot in a cloth bundle tied by somebody in a hurry. A tag reading a date eleven months gone. Dust in the fold of a bag that has not been touched since it arrived.",
+      "voice": "The texts count the mind's own share separately. Wanting what belongs to another to become one's own is listed as an act in itself, done at no door but the mind [C058-P:L224–L229]. And then, immediately, they draw the line the rest of the film depends on: a flash of wanting is not the same thing as a settled wish, and gives only minor results [C058-P:L239]. This is not a teaching about thought-crime, and this is not a room full of proof about anybody's character.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "Outside, mid-morning: the concourse at full noise, a queue at a window that is not this one, tea glasses, a hundred bags on a hundred shoulders. Then back to the quiet room.",
+      "voice": "The sources set out three doors through which anything at all is done: the body, speech, and the mind by itself [C058-M:L5]. On a full concourse all three are running at once in several thousand people, and none of it is visible. What is visible is a shelf.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "Without warning, a claim. Somebody at the window describing a thing they cannot see; the shelf searched; the thing produced; a signature; the tag cut off and kept. Then the gap on the shelf.",
+      "voice": "Nothing in the sources says anything about the person who hands a thing in. They are not a type. They were somebody who noticed, once, on a bus, and then got off.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "The end of a period. A shelf cleared into sacks and carried out through the back. The empty shelf. Then the same shelf a week later, filling again.",
+      "voice": "Everything here is waiting for an occasion that may not come, and when the period runs out it simply goes. That is not forgiveness and not a verdict; it is an expiry, written on a tag.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "Last light from the air. The terminal filling for the evening departures, the one small window lit again. Nothing said over the final minute.",
+      "voice": "A camera cannot see a decision, and this film does not claim to have filmed one. What it can show is the total. Every object in that room is one, made in a moving bus, by somebody nobody was watching.",
+      "concept_id": "C058"
+    }
+  ],
   "concept_merge": {
-    "why_together": "One concept. The ten unwholesome courses of action (C058) defines taking what is not given as knowing a thing belongs to another and deciding to take it anyway, and separately treats covetousness, wanting what is another's to be one's own, as an act of the mind, while distinguishing a passing wish from a settled one.",
-    "what_it_reveals": "That the course of action the texts describe is a decision, not a character type, and that a counter of unclaimed things is a record of thousands of people deciding the other way for no reward at all."
+    "why_together": "One concept carries the film. The Pradeepika defines taking what is not given by its constituent factors, so that the act is complete only when the thing belongs to another, the person knows it does, intends to take it, acts, and the thing is taken [C058-P:L78–L86], and it separates an act from a full course of action, holding that the full course carries a weight the incomplete one does not [C058-P:L45–L47; C058-P:L49]. It counts covetousness, the wish that what belongs to another become one's own, as an act in the mind alone [C058-P:L224–L229], and then limits that sharply: a mere flash gives only minor results and is not the settled wish [C058-P:L239]. The Margaya supplies the frame of the three doors, bodily intimation, verbal intimation and the mind itself [C058-M:L5]. A counter piled with things nobody has come for is where all of that is already lying on a shelf, sorted by date, having been done by strangers who will never be found.",
+    "what_it_reveals": "That the thing the sources are describing is a decision and not a kind of person, and that the decision is overwhelmingly made the other way, quietly, thousands of times, with no reward and no witness. The concept on its own reads as a list of conditions. Put on these shelves it becomes countable: an inventory of a course of action declined. It also carries, without a word of doctrine, the group's harder half: almost nothing in this room will ever be claimed, so the decision that put it there produced no result at all for the person who made it, and the sources have a category for exactly that."
   },
   "concept_links": [
     {
       "concept_id": "C058",
       "role": "primary",
-      "why": "The source defines taking what is not given by the plain fact of knowing something belongs to another and deciding to take it anyway [C058-P:L78-L86], and distinguishes a flash of wanting from a settled wish [C058-P:L239]. The counter shows the opposite decision, made quietly by strangers, over and over. The digest's warning against moralising applies: the film must not sort people into honest and dishonest, and must not present the source's claims about where an act leads as verdicts on anyone."
+      "why": "The digest's account of the second course of harm is the whole film, and the film narrates only the parts of it that the room can carry. Taking what is not given is defined by its factors, all of which must be present [C058-P:L78–L86], and the digest's distinction between an act and a completed course of action, where the incomplete one produces results during life but not rebirth, is what makes the definition filmable [C058-P:L45–L47; C058-P:L49]. Covetousness is cited as the mind's own act [C058-P:L224–L229] and immediately bounded by the digest's own guard, that a flash of wanting is not a settled wish and is explicitly not a thought-crime teaching [C058-P:L239]. The Margaya's three doors give the film its one wide statement [C058-M:L5]. Every limit in the digest that bears on this film is honoured. The digest warns against moralising, so the film sorts nobody into honest and dishonest, states out loud that a camera cannot see a decision, and never presents a person who hands something in as a type. The source's claims about what stealing leads to, including its statement that a human rebirth after it means helpless poverty [C058-P:L92], are not narrated at all, because the digest forbids attaching such claims to real people and because a bus terminal is full of people whose circumstances would be read into them. The sexual-misconduct material and the twenty categories of women, the alcohol classification, the sixty-two wrong views and the list of auspiciousness beliefs are nowhere in the film. Nothing in it comments on anybody's livelihood."
     }
   ],
-  "what_the_viewer_could_understand": "The texts treat taking what is not given, and wanting what is another's, as decisions rather than dispositions, and they draw the line at the point where a passing wish settles into an intention.",
-  "what_must_be_real": "A working office and its actual daily traffic; nothing is planted for the camera, and members of the public are filmed only with consent.",
-  "position_hint": "middle, if it were kept: an ensemble of strangers rather than a situation with people in it over time.",
+  "what_the_viewer_could_understand": "That the texts treat taking what is not given, and wanting what belongs to another, as decisions with named conditions rather than as dispositions, that they draw the line at the point where a passing wish settles into an intention, and that a room of unclaimed property is a record of that decision being declined by thousands of people for nothing. No claim is made about any person on screen.",
+  "what_must_be_real": "A working store in a working terminal, with its actual traffic and its actual shelves. Nothing is planted, moved for composition or brought in to be filmed. No reunion is arranged, prompted or re-staged, and if none happens during the shoot the film does without one. No member of the public appears identifiably without consent, and no tag, label, name, address, document, screen or contents that could identify an owner is legible on camera. Nobody is filmed being refused, and nobody is asked to say what they would have done. The staff are not made into characters and are not asked to confirm any doctrine.",
+  "position_hint": "middle: it is the group's plainest and least ceremonial film, an inventory rather than an event, so it works best between the films that watch a process end and the films that look at claims and boundaries. No location reasoning is involved.",
   "risks": [
-    "Filming identifiable members of the public without consent",
-    "Moralising about honest and dishonest people",
-    "Making light of a genuine loss"
+    "Moralising in either direction: sorting people into honest and dishonest, or implying that the shelf proves something flattering about a district or a country.",
+    "Filming identifiable members of the public, or letting a name, an address, a document or a phone screen be readable.",
+    "Making light of a real loss. Some of what is on these shelves was somebody's livelihood, medication or papers.",
+    "Arranging or prompting a reunion for the camera, which would make the one unrepeatable thing in the film a performance.",
+    "Narrating the source's claims about where stealing leads, which the digest forbids attaching to real people, in a place where poverty is visible.",
+    "Turning the staff into moral exemplars, or asking them to speak for the tradition.",
+    "Letting the terminal's noise and scale swallow the room, so that the film becomes about transport instead of about a shelf."
   ],
   "drop_if": [
-    "No station will permit filming at the counter",
-    "The office's daily traffic is too thin to sustain a film"
+    "No terminal will permit filming at the store, or privacy cannot be protected while the shelves are still legible on screen.",
+    "The store's actual traffic is too thin for the shelf to be seen changing over a shootable stretch of days.",
+    "The only way to make it work is to plant objects or to set up a claim."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0139",
-      "relation": "merged into",
-      "note": "Folded into the film about a family formalising inherited land, which now carries both the definition of taking what is not given and the counter-case of strangers deciding the other way."
+      "relation": "pairs with",
+      "note": "The same course of action from its two sides: strangers declining it over a thing that is not theirs, and neighbours meeting it on a line they have to draw themselves."
+    },
+    {
+      "idea_id": "IDEA-0140",
+      "relation": "mirrors",
+      "note": "Two rooms of stored things whose time is running: one whose owners may never come, one whose contents may no longer be able to act."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0139",
-    "reason": "Same concept as a kept idea with no slot of its own; its substance strengthens the kept idea and protects it from casting any relative as the greedy one."
+    "superseded_by": null,
+    "reason": "Unclaimed objects are the cleanest available image for the sources' definition of taking what is not given, seen from the side where the decision went the other way."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The subject is unchanged and needed no change: a counter and shelves of things handed in by strangers whose owners may never come. What was dropped is only the old shape: the clerk is no longer a character who 'decides what honesty costs', because the digest forbids moralising and because the concept is about a decision the camera cannot see, so the film now films the counter, the register and the shelves and states that limit out loud. The station setting was moved to a large inland bus terminal, since the slate bans railway-line films and the concept's own digest names a bus depot as readily as a station; the terminal's traffic, not a railway, is what the film needs. C058 was re-read from the digest as a new reader and every citation re-tested against digest evidence; the source's claims about the results of stealing, including its line about poverty in a human rebirth, were deliberately left out.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The lost-property store of the main bus terminal at Anuradhapura new town",
+    "also_known_as": [
+      {
+        "name": "the bus stand",
+        "meaning": "local shorthand for the whole terminal, its bays, canopy and surrounding stalls",
+        "used_by": "general Sri Lankan usage"
+      },
+      {
+        "name": "nathi vu badu / thaanaapathi kamaraya",
+        "meaning": "loosely, the lost-goods room: the store where items handed in off buses are logged and kept for a fixed period",
+        "used_by": "informal usage at terminals; the exact local name for the room is unverified"
+      }
+    ],
+    "region": "Anuradhapura District, North Central Province: the main terminal in the new town south of the ancient precinct, where the long-distance routes from the northern districts, the east and the south-west all break their journeys",
+    "coordinates": {
+      "lat": 8.334,
+      "lng": 80.406
+    },
+    "why_here": "Because the shelf needs volume and the volume needs a junction. This is one of the country's real route junctions rather than a terminus: services from the northern districts, the east and the south-west all pass through or change here, which means long overnight journeys, sleeping passengers, and a steady supply of things left on seats. It also runs at hours almost nothing else does, so the terminal gives the film the one wide image it needs, a lit concourse at four in the morning with a single side window lit in it. And because it is a bus terminal and not a railway station, the film can have the traffic without becoming a film about a railway, which the slate does not want. The store itself is the sort of small working room the series prefers: shelves, a register, a window, and a period after which things go.",
+    "what_to_film": [
+      "The terminal from directly overhead in the hour before first light, with the coaches in their bays and the one lit window at the edge of the concrete.",
+      "The window from inside, at counter height, as things arrive off buses and are tagged, filmed so that no face and no label is identifiable.",
+      "The shelves in long, unhurried passes, floor to ceiling, in daylight from the window and again under the room's own light.",
+      "Single objects at the scale of a hand: a knot in a cloth bundle, a tag with an old date, dust in a fold, a box of unmatched shoes, a sack of telephones with no screens shown.",
+      "The register at close range, with names and entries out of focus or masked, for the columns and the handwriting rather than the content.",
+      "The concourse outside at full noise, for one wide statement of how many bags are moving through in an hour.",
+      "The disposal at the end of a period: a shelf cleared into sacks, carried out, and the empty shelf held long.",
+      "The same shelf a week later, filling again, in the same frame as the first pass."
+    ],
+    "access": "By road; the terminal is in the middle of the new town. Everything depends on written permission from whoever operates the terminal and the store, and on an agreed protocol for privacy, since the room is full of other people's property and the concourse is full of other people. Anything flown here needs separate clearance: the terminal is close to a protected ancient precinct with its own restrictions, and a drone over a working bus concourse is a safety question before it is a permissions question.",
+    "best_time": "A stretch of days that spans a heavy travelling weekend and a quiet midweek, so the shelf can be filmed changing. Within a day: the hour before first light for the terminal, and the last hour of afternoon for the shelves, when a low sun comes in through the window.",
+    "images": [
+      {
+        "caption": "A bus stop in the town. A picture of the ordinary roadside traffic of the district rather than of the terminal or the store itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Woman at Bus Stop - Anuradhapura - Sri Lanka (14128129016).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Woman at Bus Stop - Anuradhapura - Sri Lanka (14128129016).jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 2.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.sltb.lk/",
+      "https://en.wikipedia.org/wiki/Sri_Lanka_Transport_Board",
+      "https://tagmefy.com/sri-lanka/",
+      "http://www.lostfoundsl.com/"
+    ],
+    "research_note": "That items lost on Sri Lankan public transport are normally handed to the operator and held in a checkroom, and that the usual maximum holding period before disposal is in the region of sixty days, is from the general lost-and-found sources above and is desk research only. Crucially, the existence of a formal, shelved lost-property store at this particular terminal has not been confirmed, and no operator has been contacted; the practice may be informal, may be run by individual depots rather than the terminal, and the room the film depends on may be a cupboard rather than a store. That is the question that decides whether the film exists in this form. The coordinates are the new town's terminal area and are approximate rather than surveyed. The second local name given above is an informal reconstruction and should be checked with staff, not used as given. The one image is of an ordinary bus stop in the town, not of the terminal or the store.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether this terminal keeps a formal lost-property store with shelves and a register at all, and if not, which terminal or depot in the country does. This decides whether the film can be made here.",
+    "The real holding period and the real disposal route for unclaimed items, which the film's last third depends on.",
+    "Whether an operator will permit filming in a room full of the public's property, and on what privacy conditions.",
+    "Whether anything can be flown over a working concourse this close to a protected ancient precinct.",
+    "How thin or heavy the daily traffic of handed-in items actually is, and therefore whether the shelf can be seen to change."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

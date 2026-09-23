@@ -2,78 +2,193 @@
   "schema_version": 1,
   "id": "IDEA-0115",
   "record_type": "idea",
-  "title": "What the Hand Knows",
+  "title": "Take It to the Door",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Hand Knows"
+  ],
   "group_id": "GRP-07",
-  "logline": "A dyer carries a length of cloth between shade, doorway and full sun before deciding a colour is right, while an apprentice waits for the verdict.",
-  "human_question": "If the same cloth is a different colour in every light, which colour is the one being sold?",
-  "situation": {
-    "what_happens": "A small workshop takes an order for cloth in a particular colour. The dye is mixed from samples and memory, the cloth is worked, and then the colour has to be judged, which means carrying it from shade to doorway to full sun and back, holding it against a sample, and deciding. Whoever is learning the trade often disagrees, and so sometimes does the customer. The question cannot be settled by measurement. It is settled by someone saying so, and by whether the customer accepts it.",
-    "who_is_involved": "The dyer whose name the work carries; an apprentice or family member learning to see; the customer who ordered a colour and remembers it their own way.",
-    "what_is_at_stake": "The order, the cost of dyeing again, and a reputation for being able to match a colour. For the apprentice, whether a judgement that lives entirely in someone else's eye can be handed on at all.",
-    "how_it_unfolds": "Work like this runs from an agreed sample to a finished length with a verdict in between. The pressures are daylight, time and the customer's memory. It ends in acceptance, a reworking, or a sale at a lower price. The customer decides which, not the film."
+  "logline": "In two narrow lanes of a port city's old bazaar, every shop is a deep dark room stacked to the ceiling with cloth, and no colour in any of them can be settled inside the shop: the bolt has to be carried to the doorway, and the doorway has light in it for about four hours a day.",
+  "human_question": "If the same cloth is a different colour in every light, which colour is the one being bought?",
+  "place": {
+    "what_kind_of_place": "Two lanes in the cloth quarter of an old bazaar: a grid of streets behind a port, each lane given over to one trade, these two to fabric. The shops are narrow and very deep, lit inside by whatever fluorescent tube is running, and stacked from floor to ceiling with bolts of poplin, muslin, cotton, silk and printed cloth. Nothing is displayed outside, because there is no outside; the lane is full. The only daylight in the whole arrangement arrives as a moving strip at the front of each shop, and everything that has to be judged by eye gets carried to it. In the morning the shutters go up and bolts are lifted down; through the day cloth travels back and forth between the dark interior and that strip of light; in the evening it goes back up, and the lanes empty into a completely different kind of quiet.",
+    "why_it_is_worth_watching": "It is a place where light behaves like a substance and where colour is visibly not a property of anything. The same bolt is three colours in the length of a shop. There is a canyon effect in the lanes, so through the middle of the day the light comes down in hard-edged slabs and moves along the walls, and a piece of cloth crossing one of those slabs changes twice on the way. From the air the quarter is a dense grid of low flat roofs with the lanes as black lines between them, and colour only appears at the edges. From the ground it is bolts, hands, string, brown paper, scissors and a doorway.",
+    "what_moves_or_changes": "The light, and nothing else that matters. The trade runs on a cloud passing, on the hour, on the season of the sun, on whether the lane opposite is high enough to shade this one. Colours agreed under one light are looked at again under another; a bolt that matched in the morning does not at four o'clock. The cloth stock changes by season, and the lanes are busier before a festival, but the film's subject is available on any working day.",
+    "when_it_looks_best": "A clear dry-season day, for hard light in a narrow lane. First light as the shutters go up and the lanes are briefly empty; the middle of the day when the slabs of light come down into the lanes; and last light, when the colour goes out of the cloth before the shutters do."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about cloth and light in a crowded place. Bolts carried and unrolled, paper and string, the weave close enough to count, light moving down a narrow lane through a day, and colour appearing and disappearing as cloth crosses it. It has its own shape without commentary: shutters up, cloth out, light across, cloth in, shutters down. Anyone who likes looking at colour, or at what a city does with a beam of sun, has a complete piece here.",
+    "with_the_philosophy": "The same lanes become the sources' account of what the eye actually receives. Of everything these texts count as matter, they say, only colour can be seen at all; and even colour is not received as itself but as an image carried by light, always a blend of the colours of countless tiny groups, changing with distance and with the light it is in, so that the true colour is never what reaches the eye. That is not scepticism and not a complaint. It is the working condition of an entire street, which is why the cloth has to go to the door."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, high above. A dense grid of flat roofs with black lines between them, the sea behind it. Then down into one lane as shutters go up and the first bolts are lifted down in almost no light.",
+      "voice": "Of the twenty-eight kinds of matter these texts count, exactly one can be seen. Not hardness, not weight, not warmth, not the way a thing falls. Only colour [C065-M:L7; C067-P:L222; C067-M:L23]. Everything else in this street has to reach you another way.",
+      "concept_id": "C065"
+    },
+    {
+      "on_screen": "Inside a shop: a bolt unrolled on a counter under a fluorescent tube, then the same bolt carried four metres forward and held in the strip of daylight at the door. Held there. The two frames cut together.",
+      "voice": "The Pradeepika is plain about why that walk is necessary. Without the help of light, it says, colour is not manifest, and so it is not seen [C065-P:L40]. The same thing looked at from far off, from close up, in strong light and in weak light appears in different ways, and then the line the whole trade runs on: the true colour is not seen by the eye of flesh [C065-P:L34].",
+      "concept_id": "C065"
+    },
+    {
+      "on_screen": "Very close on the weave: warp and weft, a printed pattern resolving into dots, two threads of slightly different dye. Pull back until it is one flat colour again.",
+      "voice": "In every group of matter, they say, a colour arises along with the rest; change the combination of the elements inside the group and the colour changes with it. What meets the eye is never one of those colours. It is the mixture of the colours of thousands of them at once [C065-P:L28]. Some are too faint to register at all — even the wind has a colour, the text says, but a very weak one [C065-P:L30].",
+      "concept_id": "C065"
+    },
+    {
+      "on_screen": "A hand doing what hands do here: cloth pinched, rubbed between finger and thumb, let fall to see how it hangs, a corner crushed and released. Filmed so the hand is the only body in frame.",
+      "voice": "The Margaya makes a distinction here that is easy to miss and hard to forget. In one object there is colour, and smell, and taste, and the hardness you can take hold of. What the hand grasps is the hardness. What the eye sees is the colour. The part that is seen is not the part that is held, and thinking they are one thing is simply not knowing the analysis [C065-M:L25].",
+      "concept_id": "C065"
+    },
+    {
+      "on_screen": "The middle of the day. A slab of hard light coming down into the lane and moving along a wall. Cloth carried through it. Cloth held up at the edge of it. The lane in shade twenty minutes later.",
+      "voice": "The texts sort matter into what is easily known and what is not, and they use the words near and far for it. Near and far here have nothing to do with distance: what is called near is whatever is easy to know, and what is called far is whatever is hard to know, even when it is inside you [C067-M:L19; C067-P:L195]. Colour is the nearest thing there is. It is also the thing this street is least able to agree on.",
+      "concept_id": "C067"
+    },
+    {
+      "on_screen": "Eight or ten people at a doorway around one unrolled bolt, all looking at the same thing, filmed wide and from behind, nobody's face the subject. Then only the cloth, still being looked at.",
+      "voice": "Only the eye, they say, takes an object that has not arrived: what strikes it is an image of the colour rather than the colour, which is why something resting against the eye cannot be seen while the moon can [C065-P:L36–L38; C067-P:L238; C067-M:L27]. And of all twenty-eight kinds, the five sensitivities are the only ones the texts call inner, not because of where they sit but because that is where the sense of mine is strongest [C067-P:L108–L118; C067-P:L120; C067-M:L7]. Two people at this door are not looking at the same thing, and neither of them is wrong.",
+      "concept_id": "C067"
+    },
+    {
+      "on_screen": "Cloth measured against a brass rule, cut, folded, wrapped in paper, tied, carried off into the lane. Last light going up the wall. Shutters coming down on rooms still full of colour.",
+      "voice": "It would be easy to hear all this as a complaint about the senses. It is not. The texts say matter is not the thing to be got rid of; what is to be let go is the wanting for it, the appetite, the delight [C067-P:L88; C067-P:L92]. Nobody here is being deceived. They are working, with great skill, on the only channel the eye has, and carrying the cloth to the door because that is where the light is.",
+      "concept_id": "C067"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C065 contributes what the eye actually receives: never the object, but an image carried by light, always a blend of countless tiny colours that shifts with distance and lighting. C067 contributes the pair that makes this sharp, that of all twenty-eight kinds of matter only colour is visible at all. Together they describe a trade conducted entirely through the one visible channel, on information that is never the same twice.",
-    "what_it_reveals": "A dyer's day shows that the sources' claim is not sceptical but practical. Nobody is deceived; everybody is simply working with a narrow and shifting channel, and the disagreement between two people looking at one cloth is not a failure of attention. It is what the sources say should be expected."
+    "why_together": "C065 supplies the mechanism. Colour arises inside every group of matter along with the elements, changes when their combination changes, and reaches the eye only as the mixture of the colours of thousands of groups [C065-P:L28]; some colours are simply too faint to register [C065-P:L30]; the same object looks different near, far, in strong light and in weak light, and the true colour is not seen by the eye of flesh [C065-P:L34]; without light, colour is not manifest and therefore is not seen [C065-P:L40]; what strikes the eye is an image rather than the thing, which is why the eye grasps what has not arrived [C065-P:L36–L38]; and the Margaya's own correction, that the part held by the hand and the part seen by the eye are not the same part and treating them as one thing is a mistake [C065-M:L25]. C067 supplies the frame that makes the claim exact rather than merely striking: of the twenty-eight, only colour is visible and the other twenty-seven are not [C067-P:L222; C067-M:L23]; gross and subtle are also called near and far, and near and far mean easy and hard to know rather than close and distant [C067-M:L19; C067-P:L195]; the eye and the ear take objects that have not arrived while nose, tongue and body need contact [C067-P:L238; C067-M:L27]; the five sensitivities are the only kinds called inner, because the grip of mine is strongest there [C067-P:L108–L118; C067-P:L120; C067-M:L7]; and matter itself is not to be abandoned, only the desire for it [C067-P:L88; C067-P:L92]. Put in a lane where a colour cannot be settled without walking it into the light, the two together stop being epistemology and become a description of a working day.",
+    "what_it_reveals": "That light is a condition of seeing rather than a property of the thing seen, and that the disagreement between two people looking at one cloth is not a failure of attention by either of them but exactly what this account predicts. C065 alone would be a striking claim with nowhere to stand, and would invite a film about illusion. C067 alone would be a taxonomy. Together on a street whose entire economy runs through the single visible kind of matter, they show something a viewer can test with their own eyes in the first two minutes, and they let the film end where the sources end: not with a warning about the senses, but with the remark that what has to be given up is the wanting, not the cloth."
   },
   "concept_links": [
     {
       "concept_id": "C065",
       "role": "primary",
-      "why": "The digest states that of all twenty-eight kinds of matter only colour can be seen, that what reaches the eye is described as an image carried by light, and that it is always a blend of countless tiny colours shifting with distance and light, so the 'true colour' is never received, and two people looking at the same cloth do not receive quite the same thing. The digest is explicit that this account is the author's own explanatory model and must not be presented as optics."
+      "why": "The digest holds that of all twenty-eight kinds of matter only colour is visible to the eye and that what the hand catches hold of is not seen [C065-M:L7]; that in every material group a colour arises with the elements and changes when their combination changes, so that what meets the eye is a mixture of the colours of thousands of groups rather than any single colour-element [C065-P:L28]; that some colour-elements are too weak to be seen at all, wind among them [C065-P:L30]; that one and the same substance appears differently from far and near and in strong and weak light, and that the true colour is not seen by the eye of flesh [C065-P:L34]; that only the image of the outer colour strikes the eye, which is why an object resting on the eye is not seen while the sun and moon are [C065-P:L36–L38]; and that without the help of light colour is not manifest and so is not seen [C065-P:L40]. The Margaya's observation that the part held and the part seen are different parts of one object, and that treating them as the same thing is a mistake born of not knowing the analysis, is spoken on screen [C065-M:L25]. Every limit in the digest that bears on this film is honoured. The film never says or implies that reality is an illusion or that the senses lie: the sources treat colour as a real kind of matter and correct only how the channels are joined up. The digest is explicit that the image-carried-by-light model, like the account of sound and smell, is the author's own explanatory model, so the film never claims the texts anticipated optics and never sets the account beside a scientific one. The extract's material on sex-determining matter, the heart-base and the brain, and the ranking of foods, is nowhere near this film and is not used."
     },
     {
       "concept_id": "C067",
       "role": "supporting",
-      "why": "The digest's visible and invisible pair singles out colour as the one visible kind among twenty-eight, which is precisely the narrow channel a dyer's whole livelihood runs through."
+      "why": "The digest's visible and invisible pair is the sharpest sentence available for this film: of the twenty-eight kinds of matter only colour is visible, and the remaining twenty-seven are not [C067-P:L222; C067-M:L23]. It also gives the gross and subtle pair, in which the twelve gross kinds are called near and the sixteen subtle ones far, with near and far meaning ease and difficulty of being known rather than distance [C067-M:L19; C067-P:L195]; the point that eye and ear take objects that have not arrived while nose, tongue and body require contact [C067-P:L238; C067-M:L27]; the definition of inner as the five sensitivities, because the sense of mine is strongest there rather than because of where they sit [C067-P:L108–L118; C067-P:L120; C067-M:L7]; the eight inseparables that never come apart, so that hardness cannot be kept while colour is removed [C067-P:L242–L249; C067-M:L29]; and the eighth common feature, that matter is not itself to be abandoned and what is abandoned is the desire, lust and delight directed at it [C067-P:L88; C067-P:L92]. The digest's warnings are kept. Inner and outer are not used loosely as inner life against outer world, which would reverse their meaning; near and far are explicitly glossed on screen so they cannot be heard as distance; clung-to is not turned into a claim about owning a body; the classification is never set beside chemistry or physiology as a rival; and the closing line is not allowed to become body positivity, since the sources ask for the wanting to be let go rather than for an attitude to be cultivated."
     }
   ],
-  "what_the_viewer_could_understand": "Of everything these texts count as matter, only colour can be seen at all, and even that arrives as a blend that shifts with the light, which is why two people looking at one cloth do not quite receive the same thing.",
-  "what_must_be_real": "The workshop's own commissions and real judgement calls. No moment of decision staged or relit, and no claim that the texts anticipated optics.",
-  "position_hint": "middle: it belongs beside the group's other films about what a single sense actually receives, but its substance is carried into the eye-camp film rather than holding a slot of its own.",
+  "what_the_viewer_could_understand": "That of everything these texts count as matter, only colour can be seen at all, and that even colour arrives as a blend carried by light rather than as the thing itself — so that light is a condition of the seeing and not a property of the cloth, and two people at the same doorway are not receiving quite the same thing.",
+  "what_must_be_real": "The street's own hours, its own light and its own transactions. Nothing is relit, no lamp is added to a shop interior and no reflector is used at a doorway, because the film's whole subject is the light that is actually there. No judgement or disagreement is staged, prompted or asked for a second time. Filming happens with the agreement of the shopkeepers whose doorways are used, and customers are not made into subjects: this is a film of cloth, hands and light, shot wide and from behind, with nobody in it presented as an example of anything. No claim is made that the texts anticipated optics, and the colours on screen are not graded into something the lane never produced.",
+  "position_hint": "middle: it belongs with the group's films about what a single sense actually receives, and it works best after the film that lays down the inventory of matter, because its central claim is a count — one visible kind out of twenty-eight.",
   "risks": [
-    "A pretty colour montage with no stake in it.",
-    "Relighting or repeating the judgement for the camera.",
-    "Reading the source's image-carried-by-light model as early science."
+    "A pretty colour montage with nothing at stake, in which the concept is decoration.",
+    "Relighting, or waiting to relight, the exact thing the film is about.",
+    "Reading the image-carried-by-light account as early optics, which the digest explicitly forbids.",
+    "Letting the film slide into 'reality is an illusion' or 'the senses lie', when the sources hold that colour is real matter and that each sense is reliable in its own lane.",
+    "Hearing near and far as distance, or inner and outer as inner life against outer world, both of which the digest says reverse the meaning.",
+    "Portraiture in a crowded working street: faces, customers and traders turned into types, or filmed without agreement.",
+    "Exoticising a bazaar, or letting the film become about the picturesque rather than about light.",
+    "Ending on 'love what you have', when the sources say what is to be given up is the wanting rather than the thing [C067-P:L92]."
   ],
   "drop_if": [
-    "No real commission to follow in the research window.",
-    "No workshop willing to be filmed disagreeing, rather than only working."
+    "Shopkeepers in the lanes will not agree to filming, or agreement cannot be had without paying for access in a way that shapes what is filmed.",
+    "The only way to get the judgement on camera is to ask somebody to perform it.",
+    "The lanes have been rebuilt or relocated so that the deep dark shop and the single strip of daylight no longer exist.",
+    "Filming in the quarter cannot be done without obstructing a working street."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0124",
-      "relation": "merged into",
-      "note": "Its concept work, colour as the only visible kind of matter and never received as itself, now sits inside IDEA-0124."
+      "relation": "pairs with",
+      "note": "Both films are about what the eye receives and both draw on the same two concepts. This one makes the claim with cloth, light and a doorway and needs no medical setting and no patient, which matters given this group's prohibitions; the overlap must be settled before either is scheduled."
     },
     {
       "idea_id": "IDEA-0118",
-      "relation": "pairs with",
-      "note": "Two senses under pressure: colour lost to shifting light, sound lost to wind."
+      "relation": "mirrors",
+      "note": "Two senses under pressure from their own conditions: colour that will not hold still between shade and sun, and sound that will not carry against wind."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0124",
-    "reason": "Folded into IDEA-0124, which holds the group's slot on what the eye receives and now carries C065 and the never-the-true-colour material."
+    "superseded_by": null,
+    "reason": "It is the group's clearest demonstration that colour is the only visible kind of matter and that light is a condition of seeing it, and it can be filmed without putting any person on screen as an exhibit."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The concept was kept exactly — cloth carried between shade, doorway and full sun before a colour is called right — but the subject moved off the dyer and onto the cloth and the light, in a cloth market whose architecture forces the walk to the door. The earlier decision to fold this into IDEA-0124 is reversed: that film sits in a medical setting with patients, which this group's own prohibitions rule out, and the concept survives better here. Concepts re-read from the digests as a new reader and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The cloth lanes of Pettah, chiefly Second Cross Street and Keyzer Street",
+    "also_known_as": [
+      {
+        "name": "Pita Kotuwa",
+        "meaning": "outside the fort: the bazaar quarter that grew up beyond the old fortifications",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "cheetha redi",
+        "meaning": "printed cotton cloth, one of the staples of these lanes",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Colombo District, Western Province: the old bazaar quarter immediately east of the fort and the port, a dense grid of cross streets each given over to one trade",
+    "coordinates": {
+      "lat": 6.9366,
+      "lng": 79.8556
+    },
+    "why_here": "The concept needs a place where colour physically cannot be judged where the cloth is kept, and this quarter is built that way. The cross streets are narrow and the shops are deep, dark and stacked to the ceiling, and one of these lanes is entirely rolls of cloth — poplin, muslin, cotton, silk, printed cotton — while the next carries the tailoring trade that buys it. The only daylight available is the strip at the shop front, so the walk to the door is not a flourish, it is the method. The lane's proportions also give the film its best image for nothing: through the middle of the day the sun comes into a narrow street as a hard-edged slab that moves along the wall, and a bolt of cloth crossing it changes twice. That shot is the concept. It is also the busiest possible place to work, which the film has to earn rather than assume.",
+    "what_to_film": [
+      "One shop front for a whole day on a fixed frame, so the strip of daylight arriving and leaving is visible as the day's only real event.",
+      "The same bolt under the shop's own tube light and then at the doorway, cut together without comment.",
+      "Cloth crossing a slab of hard light in the lane, at several times of day.",
+      "The weave close enough that a flat colour resolves into separate threads and dots, and then flattens again.",
+      "Hands on cloth: rubbed, let fall, crushed and released — the judgements the eye cannot make.",
+      "Measuring, cutting, folding, wrapping, tying, and the parcel leaving into the lane.",
+      "The quarter from above at first light and at dusk, when it is roofs and black lines and almost no colour.",
+      "The lanes shuttered and empty at either end of the day."
+    ],
+    "access": "On foot; the lanes are pedestrian in practice and full from mid-morning. Every doorway used belongs to a business, so this depends entirely on shopkeepers agreeing, and on filming in a way that does not block a working street. The quarter sits next to a port and a government district, so flying anything over it is likely to be restricted or refused, and the aerial material may have to be limited or dropped.",
+    "best_time": "A clear dry-season day, for hard light in a narrow lane. First light as the shutters go up, the middle of the day for the slabs of light in the lanes, and last light when the colour goes before the shutters do. Before a festival the lanes are fullest, which is truthful but harder to work in.",
+    "images": [
+      {
+        "caption": "One of the cross streets of the quarter, showing the lane's proportions and the shop fronts the cloth is carried to. A picture of a neighbouring lane in the same grid, not of the cloth lane itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keyzer Street Pettah Colombo 2012 - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Keyzer Street Pettah Colombo 2012 - panoramio.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Another cross street of the same grid, for the density and the depth of the shops. A picture of the quarter, not of the cloth lane itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/5th Cross Street Pettah Colombo 2012 - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:5th Cross Street Pettah Colombo 2012 - panoramio.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "A wider street in the quarter, showing how little daylight reaches the shop fronts. A picture of the quarter, not of the cloth lane itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prince Street Pettah Colombo - panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Prince Street Pettah Colombo - panoramio.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY 3.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pettah_Market",
+      "https://archive.roar.media/english/life/srilanka-life/the-streets-of-pettah-and-what-you-can-find-in-them",
+      "https://ceybook.com/blog?s=exploring-pettah-a-complete-guide-to-main-street-and-the-famous-shopping-streets-of-colombo",
+      "https://www.holidify.com/places/colombo/pettah-market--sightseeing-1256381.html"
+    ],
+    "research_note": "That the quarter is a dense grid of cross streets east of the fort, that it has worked as part wholesale district and part neighbourhood bazaar since the colonial period, that one cross street is given over to rolls of cloth including poplin, muslin, cotton, silk and printed cotton, that another cross street carries larger textile shops, and that the street named first in this entry is the tailoring-supply lane of ribbons, buttons and fabric accessories, are from the street guides above and are desk research only. The coordinates are a point in the middle of the cloth lanes and should be treated as a direction, not a survey. The claim this film rests on — that a colour cannot be settled inside these shops and that cloth is routinely carried to the doorway to be judged — is inference from the architecture of the lanes and from how cloth is bought, and has not been observed or confirmed by anyone. No shopkeeper has been approached, and nothing about filming permission, obstruction of the lanes or drone restrictions over this part of the city has been checked. All three images are of streets in the same grid and are captioned as such; none is of the cloth lane itself.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Nobody in the lanes has been approached, and whether shopkeepers would agree to a camera in their doorway for a day is unknown.",
+    "Whether the walk to the doorway to judge a colour is as routine here as the architecture suggests is unverified, and it is the whole film.",
+    "Drone flight over this part of the city is likely to be restricted given the port and government district next to it, and the aerial material may have to be dropped.",
+    "Whether the lanes can be filmed for a full day without obstructing a working street, and what that costs everyone around, has not been thought through with anyone who works there."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

@@ -2,73 +2,191 @@
   "schema_version": 1,
   "id": "IDEA-0135",
   "record_type": "idea",
-  "title": "The Old Cow at the Gate",
+  "title": "Not the Strongest in the Pen",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Old Cow at the Gate"
+  ],
   "group_id": "GRP-08",
-  "logline": "At dusk a herder drives the cattle into the pen; at dawn he opens the gate, and it is never the strongest animal that leaves first, it is whoever ended up nearest the door.",
-  "human_question": "Does what matters most always come first, or just what is closest to hand?",
-  "situation": {
-    "what_happens": "A herder brings his animals in at dusk, settles the disputes over space that happen every night, and opens the gate again at dawn. He knows each animal individually and can say which is strong, which is old and which is trouble. When the gate opens, the order they come out in is decided by where they happen to be standing.",
-    "who_is_involved": "A working herder whose income depends on the animals; the household that shares the labour; and neighbours who use the same pen or the same grazing.",
-    "what_is_at_stake": "A season's income and the condition of the animals, and for the film the honesty of not bending real animal behaviour to fit an old comparison.",
-    "how_it_unfolds": "The cycle is the same every day and the variation is all in weather, feed and which animals are calving or ailing. Reality decides what happens at the gate, and if the animals do not behave as the comparison suggests, that is what the film has."
+  "logline": "In the dry grazing country west of a northern town the herds are walked home at dusk and shut into thorn kraals for the night, and at first light the gate is pulled open; the order the animals come out in is the order they happened to end up standing in, which is the picture the old books themselves use for which of a life's actions decides what comes next.",
+  "human_question": "When several things are pressing at once, does the strongest go first, or whatever happens to be nearest the door?",
+  "place": {
+    "what_kind_of_place": "Flat, hot inland country of thorn scrub, tank-margin grassland, harvested paddy and low granite outcrops, with villages strung along the roads between them. Cattle here are largely free-ranging through the day, grazing stubble, bund grass and the open scrub in mixed herds, and are walked home in the late afternoon to a kraal at the edge of the settlement: a roughly circular enclosure of cut thorn and poles, with a single gap for a gate that is closed behind the last animal with more thorn. They are shut in for the night against loss, theft and what moves in the scrub, and they are let out again before the heat. The pens sit inside the village, not out in the bush, which is part of why the film can be made at all.",
+    "why_it_is_worth_watching": "Because the whole film happens twice a day, at exactly the two hours when this country is worth filming, and the thing the film is about is the one thing everybody there is watching anyway: the gate. At dusk the herds converge from three directions across open ground, in dust, with very long shadows, and funnel into a circle of thorn that looks from the air like a drawn ring in the scrub. Inside it there is half an hour of steady, unhurried negotiation over where to stand, which settles, and then a night of almost nothing. At dawn the thorn is pulled aside and the pen empties in a particular order that nobody chose and that changes every morning. From directly above, that emptying is a single unbroken shot with an argument in it.",
+    "what_moves_or_changes": "The light, the dust, the animals and the season, none of them scheduled. Herd sizes change with the year; after harvest the stubble pulls the animals one way, in the dry months the remaining water pulls them another; calving, sickness and strays change who is in the pen; the thorn of the fence is renewed as it dries. The order at the gate is different every morning and is nobody's decision.",
+    "when_it_looks_best": "The dry months, when the light is hard, the ground is pale, the dust is up at dusk and the herds are largest because the stubble is open to them. The half hour before dark and the half hour after first light, both from the air and from beside the gate. A little moon gives the night material some shape."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about two hours of a working day in dry country, twice. Herds coming across open ground in dust, a thorn ring filling, the long settling, the night, the thorn pulled aside, the pen emptying, the animals going back out to the scrub, and the people who do this every day of their lives doing it without hurry or ceremony. It has a complete shape with nothing said over it: the walk in, the fill, the dark, the walk out. Anyone who likes animals, dust or the way low light behaves in flat country has a whole piece here.",
+    "with_the_philosophy": "The same gate becomes the sources' own illustration, standing in the yard it was taken from. The books are sorting which of everything a person has done gives the next rebirth, and they answer with an order rather than a weight: gravest first, then whatever is done or remembered near the end, then whatever was done over and over, then anything at all. To show why an order is not the same as a weight, the Pradeepika describes exactly this pen: the decrepit old cow put in last, finding no room, lies down by the gate, and in the morning, weak as it is, goes out before all the others. The voice is honest that this is the sentence the digest flags for an expert, and lets the animals behave however they behave."
+  },
+  "sequence": [
+    {
+      "on_screen": "Late afternoon, high and wide: flat pale country, a granite dome, harvested paddy, and three separate herds in three lines of dust converging on one point at the edge of a village.",
+      "voice": "They are out on the stubble and the scrub all day and they come back to the same place every evening. What happens in the next half hour is the only part of this that anybody argues about, and nobody decides it.",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "The pen filling, from directly above and then from the gap: a ring of cut thorn, animals moving into it and sorting themselves, the thick of the herd toward the middle, a few late ones with nowhere to go settling against the gate. Thorn pulled across behind them.",
+      "voice": "Here is the book's own sentence, and it is describing this. The worn-out old cow, put into the pen last, gets no place, and lies down by the gate. In the morning, weak as it is, it leaves before all of them [C056-P:L119].",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "Full dark. Very little: the shapes of animals, breathing, a bell, someone's torch passing along the outside of the thorn once and going away.",
+      "voice": "What it is an illustration of is an order. Out of everything a person has done, the sources say, the gravest thing comes forward first; where there is none, whatever was done or recalled close to the end; after that whatever was done again and again; and last of all anything left over [C056-P:L117; C056-M:L3–L8]. The gravest kind cannot be blocked by anything except another of its own weight [C056-P:L25]. That is a queue, not a scale.",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "Still dark, closer: one animal against the thorn by the gap, awake, chewing, not doing anything.",
+      "voice": "And here the film has to say what the digest says. That sentence about the old cow is compressed in the original, a word may be missing, and it can be read two ways: the usual reading is that what is near the end goes before what is habitual, but coming where it does it could be about the left-over kind instead. It needs an expert. So it is offered as the picture the source draws, not as a settled doctrine, and the animals in this pen are not asked to prove anything.",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "First grey light. The thorn dragged aside. The pen empties. It is not the biggest animals first and it is not the smallest; it is whoever was standing nearest, and then the rest in a slow unbroken stream. Held in one shot from above.",
+      "voice": "The kind they call near-the-end is anything done, accumulated or simply remembered as the end comes near [C056-P:L83], and where there is nothing graver, that is the one that decides [C056-P:L89]. Which is also the sources' reason for caring who is in the room. The Margaya says it plainly: someone who has done a great deal of harm may still manage something good at the end, and someone who has done a great deal of good may be troubled at the end by what they remember, so a good friend who helps a dying person recall the good is worth a great deal [C056-M:L22].",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "Full daylight. The herd strung out across the stubble; the same road, the same turn, the same gap in a bund it uses every day; a herder walking the same line he walked yesterday.",
+      "voice": "Third in the queue is whatever was done over and over. Daily, weekly, monthly, even yearly, the Margaya says, if it is substantial enough to stay remembered, and the earlier ones make the later ones stronger; and after the gravest kind that is the most powerful thing there is, although in the actual giving of a result the near-the-end kind still goes ahead of it [C056-M:L26]. Last is the leftover, done once and forgotten, which has no power to give a rebirth at all unless it has been gone back over often enough to pick some up [C056-P:L113].",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "Empty pen in flat morning light: churned ground, thorn, dung, flies, the ring of it from above with nothing inside. Somebody starts cutting fresh thorn for the fence.",
+      "voice": "Two things this film will not do. It will not use the sources' examples of the kinds of work people do over and over, because those examples name livelihoods and send them somewhere, and no real household is going to be framed with them. And it will never read anybody's death. Nobody watching a person die can see what is arising in their mind, so a calm end proves nothing and a hard one proves nothing. This is one of four ways the books sort the same material, and a different one sorts it by time instead, where some of what a person does turns out never to ripen at all [C057-M:L36; C057-P:L117]. It is an account of order. It is not a fate.",
+      "concept_id": "C057"
+    }
+  ],
   "concept_merge": {
-    "why_together": "One concept only. The order of ripening (C056) says which action gives the next rebirth: weighty first, then what is done or recalled near the end, then what is habitual, then whatever is left over. The source illustrates this with an old, weak cow that leaves the pen first because it is nearest the gate.",
-    "what_it_reveals": "How ordering differs from weight, and also how little a single image can carry: the source's own sentence here is compressed enough that the digest asks for an expert reading of it before anyone relies on it."
+    "why_together": "C056 is the film, and the film exists because the source drew this place first. The Pradeepika illustrates the order in which kamma ripens with a decrepit cow that, put in last and finding no room, lies by the gate and leaves before all the others in the morning [C056-P:L119]; the order itself is weighty, then death-proximate, then habitual, then reserve [C056-P:L117; C056-M:L3–L8]; weighty kamma can be blocked only by another weighty kamma [C056-P:L25]; death-proximate kamma is what is done, accumulated or recalled near the end, and decides where there is nothing graver [C056-P:L83; C056-P:L89]; habitual kamma is what is repeated over a long life, strengthened by its own repetition [C056-M:L26]; and reserve kamma has no power to give rebirth unless repetition has given it some [C056-P:L113]. A working kraal gives all five of those in two hours of usable light without anything being arranged. C057 is linked for the film's last beat and for one reason: on its own, an order can sound like a machine for predicting outcomes, and the fourfold sorting by time is the source's own reminder that this is one of four ways of cutting the same material, sixteen kinds in all, and that in the other cut a great deal of what anyone does simply never ripens [C057-M:L36; C057-P:L117].",
+    "what_it_reveals": "That ordering is not weighing, which is very hard to believe until you watch a gate. Everybody expects the strongest animal to come out first and it does not, and nothing about that is a judgement on the animal. C056 on its own is a list that sounds like a ranking of people. C057's single closing paragraph stops the list hardening into a prediction, by pointing out that the same books sort the same actions three other ways and that one of those ways ends in the category of things that never happen at all. What is left is a description of order, filmed at the one gate the source itself reached for."
   },
   "concept_links": [
     {
       "concept_id": "C056",
       "role": "primary",
-      "why": "The source illustrates the ordering of results with an old, weak cow that leaves the pen first because it is nearest the gate [C056-P:L119]. The earlier version of this link said the image shows that what is nearest the end outweighs what is strongest in a life, which the sources do not say: weighty action takes priority over everything, and what is near death decides only where there is no weighty action [C056-P:L117]. The digest also flags this very line as syntactically compressed, with two possible readings, and asks for an expert check, so the image cannot carry a film by itself. The digest's warning that the source's examples of habitual occupations must never be used to frame working communities applies here too."
+      "why": "The film is the digest's account of the order of ripening, on the location the source's own simile names. The four and their sequence are spoken as the sources give them [C056-P:L117; C056-M:L3–L8], with weighty kamma's immunity to anything but another weighty kamma [C056-P:L25], death-proximate kamma as what is done, gathered or recalled near the end and what decides where there is nothing graver [C056-P:L83; C056-P:L89], habitual kamma as repetition over a long life with the earlier acts strengthening the later, and the Margaya's own note that habitual is nevertheless overtaken by death-proximate in the actual giving of a result [C056-M:L26], and reserve kamma as powerless without the condition of repetition [C056-P:L113]. The pen simile is cited exactly and spoken as the source's picture [C056-P:L119]. The digest's uncertainty about that very line, that the syntax is compressed, that a word may be missing, and that there are two possible readings, is not hidden in a field: it is a beat of the film, and the expert check the digest asks for is recorded as an unknown. The Margaya's practical conclusion about a good friend at the end is narrated in full, including its uncomfortable half, that someone who has done much good may still be troubled by memories at the end [C056-M:L22]. Every limit in the digest is kept. The film never says or implies that only the last thought matters. It never reads a calm or a difficult death as a verdict, and it states out loud that no observer can see what arises in a dying mind, which is why no death and no dying person appears anywhere in it. The Pradeepika's naming of hunting and fishing as examples of habitual occupations [C056-P:L109] is refused by name on screen and is nowhere narrated; no household at this location is framed by it. The traditional narratives of Duṭugämuṇu, Tambadāṭhika, Mahā Vācakāla and Ajātasattu, and the ranking of parents by virtue, are not used."
+    },
+    {
+      "concept_id": "C057",
+      "role": "supporting",
+      "why": "Linked for the closing beat only. The Margaya itself says that the sorting by time of ripening is one of four fourfolds, and that the four together give sixteen kinds of kamma in the Abhidhamma reckoning [C057-M:L36], and the Pradeepika's fourth kind is action that did not ripen and now will not [C057-P:L117]. Those two lines are what keep an order from being heard as a forecast, and they are the reason a film built on a queue can end by saying that a great deal never joins any queue at all. Nothing else from C057 is used here: the seven-moment strength curve, the giving stories, the shipwreck passage and the fire-and-wood similes belong to another film in this group and are not narrated in this one. The digest's warning against 'instant karma' is honoured by the same closing beat."
     }
   ],
-  "what_the_viewer_could_understand": "Which of a life's actions gives the next rebirth is settled by an order, weighty first, then what is near the end, then what is habitual, and not simply by which action was biggest.",
-  "what_must_be_real": "A working herder's real routine, never a routine arranged to match a comparison. If the animals do not do what the old image says, the film follows the animals.",
-  "position_hint": "middle, if it were kept: an image-led film with no human situation of its own, which is why its concept has been folded into a film that has one.",
+  "what_the_viewer_could_understand": "That the sources answer the question of which action decides the next existence with a sequence rather than with a size, and that being first in a sequence says nothing about being strongest. And that the order is an account of how results are given, not a way of telling from the outside what happened to anybody.",
+  "what_must_be_real": "A working herd's real evening and real morning, on the households' timetable and not the crew's. Nothing is driven, held back, separated, startled, baited or released for the camera; the gate is opened when it is normally opened; no animal is kept in longer or let out earlier to produce a shot, and the drone does not go low enough to move the herd. If the animals do not come out in an order that resembles the old simile, that is what the film has, and the voice already says so. The households are filmed as people doing their own work, never as an example of anything, and the sources' material on habitual occupations and their destinations is excluded from this film entirely. No death, no dying animal and no slaughter appears anywhere in it, and nothing in it comments on what anybody does with their animals.",
+  "position_hint": "middle: it is the group's plainest statement that the sources are describing an order rather than a verdict, so it works best once the viewer has met the group's tone, and it sets up the films that go closer to an ending. No location reasoning is involved.",
   "risks": [
-    "Staging animal behaviour to force the comparison",
-    "Presenting a line the digest flags for expert checking as settled doctrine",
-    "Romanticising a hard, low-income trade"
+    "Staging the gate to force the simile, or cutting it so that an ordinary morning appears to prove a doctrine.",
+    "Presenting the old-cow line as settled when the digest flags its syntax as compressed, possibly missing a word, and open to two readings.",
+    "Letting the sources' examples of habitual occupations touch any real household, which the digest forbids outright and this film refuses on screen.",
+    "Letting 'death-proximate kamma decides' be heard as 'only your last thought matters', which the sources contradict.",
+    "Any suggestion that a calm or a hard death shows something about a person, when no observer can see what arises in a dying mind.",
+    "Romanticising a hard, low-margin trade, or turning an animal into a character with a lesson attached.",
+    "Making the animals uncomfortable for a shot, or delaying a herd's water or grazing for the camera."
   ],
   "drop_if": [
-    "The animals' actual behaviour contradicts the image and the film cannot use it honestly",
-    "No working herder will allow overnight filming"
+    "No household in the area keeps a night kraal on a routine the film can simply follow.",
+    "The film could only be made by driving, holding or separating animals for the camera.",
+    "Filming at dusk and dawn would delay the herd's water or grazing, or would put animals or people at risk.",
+    "The households do not want a crew or a drone over their pen, on terms that last beyond the first day."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0136",
-      "relation": "merged into",
-      "note": "The ordering of results now sits in the film about being called to a bedside, where it has a human situation, and the correction to the old why travels with it."
+      "idea_id": "IDEA-0084",
+      "relation": "pairs with",
+      "note": "The same animals in the same province, asked a different question: one film is the night post out in the scrub and what a sound does in it, this one is the gate of a village kraal and the order things leave in. They must not be shot to look alike, and the herders' work should not be described twice."
     },
     {
-      "idea_id": "IDEA-0140",
+      "idea_id": "IDEA-0137",
       "relation": "mirrors",
-      "note": "A gate and a ledger are two everyday images for the same family of ideas about what comes due and when."
+      "note": "Two films on the order of ripening in the north: one where the thing that cannot wait is sap, one where it is a gate."
+    },
+    {
+      "idea_id": "IDEA-0136",
+      "relation": "pairs with",
+      "note": "The gate and the felling block are the same idea twice: what goes first is decided by what is reachable, not by what is best."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0136",
-    "reason": "Its concept is already carried by an episode, its why was inaccurate, and its one image rests on a line the digest flags for expert checking."
+    "superseded_by": null,
+    "reason": "The source draws this location itself, and the one shot the place produces, a pen emptying in an order nobody chose, is also the clearest statement of the concept."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The subject is unchanged and needed no change: it was already an ending in a thing rather than in a person, and it is the source's own image. What changed is everything around it. The old file had been marked for merger into the bedside film and carried a selection recommendation of 'merge' and a superseded_by pointing at it; that film has been dropped for filming dying people, so this one stands on its own and the recommendation is now keep. The old why has been rewritten from the digest: it previously implied the near-the-end image shows that what is nearest the end outweighs what is strongest, which the sources do not say, and it now carries the order as the sources give it along with the digest's flagged uncertainty about the simile's syntax, which is spoken in the film rather than buried. C057 was added for the closing beat, on the Margaya's own statement that this is one of four fourfolds. The location has been moved out of the district that already holds a night cattle-post film on this slate and sited in different country, and the two are cross-linked so that they are not shot to look alike. Both digests were re-read from scratch and every citation checked against digest evidence rather than carried over.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The village night kraals of the grazing country between the district town and Cheddikulam",
+    "also_known_as": [
+      {
+        "name": "mandai",
+        "meaning": "the cattle enclosure or pen at the edge of a settlement",
+        "used_by": "Tamil usage in the north"
+      },
+      {
+        "name": "goda / gala",
+        "meaning": "the pen or fold into which stock is shut for the night",
+        "used_by": "Sinhala usage in dry-zone farming country"
+      }
+    ],
+    "region": "Vavuniya District, Northern Province: the flat inland country west and south-west of the district town, between the Mannar road and the tank-and-paddy villages around Cheddikulam, in thorn scrub, tank-margin grassland and harvested paddy",
+    "coordinates": {
+      "lat": 8.68,
+      "lng": 80.36
+    },
+    "why_here": "Because it is cattle country of the kind the simile assumes, in a district with more open grazing than almost anywhere else on the slate, and because it looks nothing like the other cattle film already on the slate. That one is out in remote thorn scrub at night posts on the coast side of the next district; this is a pen inside a settled village, on pale open ground with granite outcrops and harvested paddy behind it, filmed at dusk and dawn rather than through the night. Practically, a pen at the edge of a village is a place where consent can actually be obtained from a household and where a crew's presence does not put anyone or any animal somewhere they would not otherwise be. Physically, the thorn ring in flat open ground is the shape the film needs from the air, and the single gap in it is the whole argument.",
+    "what_to_film": [
+      "The herds converging on the village in the late afternoon, from high enough that three separate lines of dust read as three separate lines.",
+      "The pen filling, in one continuous overhead take if possible: the ring, the gap, the thickening of the middle, and the late animals settling against the gate.",
+      "The gate being closed with cut thorn, and opened again, as ordinary work.",
+      "The long, mostly empty night, and the small sounds in it, recorded separately.",
+      "The pen emptying at first light, held in one unbroken shot from above, with no cut that could be read as arranging the order.",
+      "The daily groove at ground level: the same road, the same gap in a bund, the same turn, walked the same way on several different days.",
+      "The pen in flat daylight with nothing in it, and the cutting and renewing of the thorn fence.",
+      "The open country the animals go back out into, wide and without commentary."
+    ],
+    "access": "By road from the district town. Everything depends on a household agreeing, because the pen and the animals are private and the two hours the film wants are the two busiest of their day. The work must fit their timetable exactly: the gate opens when it opens. Drone flight over a village and over livestock needs the agreement of the households beneath it as well as whatever the aviation rules require, and needs to be high enough not to move the herd. Parts of this district still carry land-access and clearance considerations that should be checked with the relevant authorities before walking open ground.",
+    "best_time": "The dry months, when the herds are largest on the stubble, the light is hard and the dust is up at dusk. The half hour either side of dark and of first light. A little moon for the night material.",
+    "images": [
+      {
+        "caption": "Cattle of the kind kept in this country. A picture of the animal type rather than of this location or any pen.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Domestic cattle breed - Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Domestic cattle breed - Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Sri Lankan cattle in open country. Again a picture of the animals rather than of this location.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri Lankan Cattle.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sri Lankan Cattle.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Livestock_in_Sri_Lanka",
+      "https://www.fao.org/4/i0588e/i0588e08.htm",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8996848/"
+    ],
+    "research_note": "That more than three quarters of Sri Lanka's cattle are in the dry and dry intermediate zones, that dry-zone herds are considerably larger than elsewhere, and that the ordinary management is free or extensive daytime grazing on designated grazing land, stubble and crop residues with the animals kraaled at night, is from the sources above and is desk research only. The coordinates are a point in the grazing country between the district town and the villages to its south-west; no village, household or pen has been identified, approached or asked for anything. Whether the pens in this particular area are thorn kraals of the shape described, whether the herds are walked in and out at the hours assumed, and whether any household would allow a crew at those hours, are all unverified. Land access and clearance status in parts of this district have not been checked. Both images are of Sri Lankan cattle in general and neither shows this location or any pen.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, village or pen has been found or approached. Everything here is a research direction.",
+    "The C056 digest asks for an expert check on the compressed line that carries the pen simile, which can be read either as near-death kamma preceding habitual kamma or as reserve kamma preceding both. That check should happen before the film is cut, although the film is built so that it can be honest either way.",
+    "Whether the animals in a real pen come out in anything like the order the simile describes. If they do not, the film follows the animals and says so.",
+    "Whether a drone can be flown over a village and a herd here at all, at a height that does not move the animals.",
+    "Land access, clearance and security status in this part of the district."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

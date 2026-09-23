@@ -2,77 +2,181 @@
   "schema_version": 1,
   "id": "IDEA-0147",
   "record_type": "idea",
-  "title": "The Tools",
+  "title": "Nothing Here Was Handed Over",
   "status": "draft",
-  "version": 3,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Tools"
+  ],
   "group_id": "GRP-08",
-  "logline": "A fisherman's nets, mended and re-mended for thirty years, pass to his son, whose hands are shaped by the same work before he has fully learned it.",
-  "human_question": "What actually continues when someone's life's work passes to someone else?",
-  "situation": {
-    "what_happens": "A skilled trade passes to whoever takes it up after the death of the person who did it. The successor works with equipment worn into the shape of somebody else's habits, and finds the work teaching them things they were never told: which knot, which repair, which hour to go out. They are not preserving anything. They are trying to earn a living, and the trade changes in their hands while they are still learning it.",
-    "who_is_involved": "The successor, often a son, daughter or nephew who did not entirely choose this; the household that depends on the income; the others in the same trade, who correct and help and compete; and the person who died, present only as the condition of all of it and not as a presence.",
-    "what_is_at_stake": "An income and a household's stability. For the successor, whether they are any good at it, and whether taking it on was ever their decision. For the trade, whether it continues at all, since many do not.",
-    "how_it_unfolds": "Handovers like this are usually partial and unplanned. Some of the knowledge was passed on, some is reconstructed from the equipment and from other people, some is simply lost. The first season is the hard one. Some successors stay, some sell up and leave. Reality decides which, and the film has to be willing to end with the trade changed, or ending."
+  "logline": "Two rivers empty into a shallow coastal lagoon that the sea walls off every dry season with a bar of sand, and every year the flood cuts a channel through it again, in a different place, out of sand that was somewhere else twelve months ago.",
+  "human_question": "Something can carry on for a very long time with nothing in it staying and nobody passing anything to anybody. What is actually continuing?",
+  "place": {
+    "what_kind_of_place": "A long shallow lagoon lying behind a straight, exposed coast, seven kilometres or so end to end and nowhere more than a couple of metres deep, fed from inland by two rivers and connected to the open sea by a single narrow channel at its southern end. Mangrove along parts of the inner edge, evergreen scrub and dry forest behind, a wildlife sanctuary covering the western side. Between the lagoon and the sea runs a bar of pale sand that the surf builds up through the dry months and the rivers cut open when they come down in flood. The channel is never in the same place for long, and for part of the year there is no channel at all.",
+    "why_it_is_worth_watching": "It is a very large object with one moving part, and the moving part is the whole argument. From height the geometry is almost diagrammatic: a dark flat lagoon on one side, open sea with its swell lines on the other, a pale bar between them, and a single thread of water going through it, or not. On the ground it is more physical than that: sand travelling visibly in the current at the cut, the outer face of the bar being pushed up by every set of waves, the lagoon side glassy and dead still twenty metres away, and the whole structure changing shape at a rate you can watch. Nobody built it, nobody maintains it, nobody inherits it, and it has been doing this for as long as the coast has been there.",
+    "what_moves_or_changes": "The bar and the water in it, on an annual clock nobody sets. Through the dry months the surf pushes sand along and across until the mouth narrows and closes; the lagoon rises, goes brackish, then saline, then stagnant. When the rivers come down the bar is cut through, sometimes in an afternoon, and a season's accumulation goes out into the sea in a fan of silt. Some years the cut opens wide and migrates; some years the rains are late or weak and the bar simply sits there, grassed over at the top, and what was piled up all season does nothing at all.",
+    "when_it_looks_best": "The film wants both ends of the year. Late in the dry season for the closed bar, the stilled lagoon and hard flat light; the first weeks of the north-east monsoon for the flood, the breach and the silt fan. Within a day, the first and last hour, when low sun comes along the bar and its ridges read, and directly overhead at midday for the geometry."
   },
+  "two_layers": {
+    "without_the_philosophy": "A landscape film about a bar of sand and what the sea and two rivers do to it over a year. Swell arriving, sand travelling, a lagoon going still and then flushing, birds on a mud edge, a channel collapsing into itself as the water widens it, a season's worth of material leaving in an afternoon, and then the whole thing quietly starting again. It has a complete shape with nothing said over it: the closing, the stillness, the flood, the cut, the emptying, the beginning. Anyone who likes watching water move sand has a whole piece here.",
+    "with_the_philosophy": "The same year becomes the sources' account of what continues when something ends. The analysis is emphatic on two points that appear to contradict each other: nothing mental and nothing physical passes from one existence to the next, and there is no interval either, so the line is unbroken and the two may conventionally be called one person. Its own image for the unbroken inner flow of a life is a stream of water. A bar of sand that is entirely rebuilt every year and is nonetheless the same bar is the plainest available picture of continuity with no traveller in it, and it has the particular virtue of involving nobody's legacy, nobody's memory and no handover at all, which is what the sources say this is not about. Alongside it runs a second idea about timing: that something laid down mostly cannot act on its own, needs a present occasion to catch on, and can simply expire if its moment goes by."
+  },
+  "sequence": [
+    {
+      "on_screen": "Very high, straight down. A shallow lagoon behind a straight coast; two river channels arriving from inland; between lagoon and open sea a pale bar of sand, with one narrow cut in it where water is going through.",
+      "voice": "A shallow lagoon, two rivers feeding it, and one gap. Everything that leaves this lagoon leaves through that gap, and the gap is not where it was last year.",
+      "concept_id": "C061"
+    },
+    {
+      "on_screen": "Ground level on the bar. Surf pushing sand up the outer face, wind combing the crest, the lagoon side glassy twenty metres away. Bird tracks. No people.",
+      "voice": "The analysis this film uses spends most of its length on the moment a life ends, and then says something very hard about what comes next. Nothing mental and nothing physical passes across [C061-P:L85; C061-M:L15]. What begins is genuinely new.",
+      "concept_id": "C061"
+    },
+    {
+      "on_screen": "Low and close at the cut: water pouring out of the lagoon through a channel a few metres wide, the sand edges slumping into it, grains travelling in the current fast enough to see.",
+      "voice": "And in the same breath, the opposite-sounding half. There is no interval. The break is no longer than the break between one moment of mind and the next, and because the line is unbroken the one who ended and the one who begins may be spoken of, conventionally, as one person [C061-P:L75; C061-M:L17]. Not because anything travelled. Because nothing was interrupted.",
+      "concept_id": "C061"
+    },
+    {
+      "on_screen": "Late dry season. The cut narrower, then gone; a continuous bar from end to end; the lagoon flat, high and dead still; water seeping through sand instead of running.",
+      "voice": "The sources' own picture for that unbroken line is water: the inner flow of a life is compared to a stream [C061-P:L91]. Here is the part of the comparison worth saying out loud. Nobody handed this over. Nobody is keeping it going, and there is no successor. The sea rebuilt this bar out of sand that was somewhere else a year ago, and it is the same bar.",
+      "concept_id": "C061"
+    },
+    {
+      "on_screen": "Inland: the two rivers in wide beds, low and brown, sand banks exposed, the channels wandering. Then the same reach after rain, running hard and full.",
+      "voice": "The second idea in this film is about timing. What has been laid down keeps for a while and mostly cannot act by itself. It needs something happening now to catch on, the way dry wood needs a flame [C057-P:L101; C057-P:L103–L107].",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "The breach, from height. The bar cut through, a torrent going out, a brown fan spreading into the sea, the lagoon level visibly dropping.",
+      "voice": "That is the flood, and this is the occasion. A whole season's worth of sand is moved in an afternoon by something that arrived from somewhere else entirely. It is an analogy and nothing more: the texts are describing one person's own intentions coming due, not the behaviour of sand, and the comparison is the film's, not theirs.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "A year when it does not happen. The bar high, grassed over along the crest, no cut anywhere; the lagoon low, saline and still; heat shimmer; a dry wide sky.",
+      "voice": "There is a fourth kind in that same list and it is the strangest one. Some of what is laid down never comes to anything, because its moment went past or something else took its place. The image the text uses is seed grain kept past its season, which will not sprout [C057-P:L87]. Not forgiven. Not wiped out. Expired.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "Last light, back at height. The whole system in one frame: rivers, lagoon, bar, sea, and the cut wherever it happens to be this month. No commentary over the final minute.",
+      "voice": "One correction before we leave, because a film can get sentimental about a river. These sources do not teach that a life carries on in what it left behind. Legacy, reputation and being remembered are not in it. What they describe is an unbroken line of causes with no owner anywhere in it, and no gap [C061-P:L85; C061-P:L75].",
+      "concept_id": "C061"
+    }
+  ],
   "concept_merge": {
-    "why_together": "Rebirth as causal continuation (C061) says that when a life ends nothing mental or physical crosses over, and yet what follows arises only because of what came before, closely enough that the stream may conventionally be spoken of as one person. Time of ripening (C057) says that some of what the person set going was still unfinished when they died. Laid over a trade being taken up, the pair describes continuity precisely: no traveller, no transfer, and yet nothing here is a stranger.",
-    "what_it_reveals": "That 'nothing crosses over' does not mean 'nothing continues'. What the film can actually watch is a capability forming in a second person through practice and correction, which is nearer to the source's causal stream than the objects are. The sources explicitly rule out the sentimental reading, that we live on through legacy, belongings or memory, so the film's discipline is to keep its eye on the work rather than on relics, and to say plainly that the comparison is an editorial one."
+    "why_together": "C061 supplies the film's whole shape and both of its apparently contradictory halves. The sources state flatly that nothing mental or physical passes from one existence to the next [C061-P:L85; C061-M:L15]; that rebirth follows death with no interval at all, so the round continues while craving for existence is uncut [C061-P:L75]; that because the stream is continuous the one who died and the one who begins may conventionally be spoken of as one person [C061-M:L17]; and that the unbroken inner flow of a life is like a stream of water [C061-P:L91]. C057 supplies the timing. What has been laid down mostly cannot ripen by its own strength and needs present support to catch on, which the Pradeepika explains through four similes of fire and wood [C057-P:L101; C057-P:L103–L107], and some of it never ripens at all, for which the image is seed grain kept past its season [C057-P:L87]. Laid over a bar of sand that closes a lagoon every dry season and is cut open by every flood, the two give the group's hardest idea a physical form that involves no household, no death and no inheritance: a feature that persists while every particle in it is replaced, and an accumulation that can only act when something arriving from elsewhere gives it an occasion, or else expires where it lies.",
+    "what_it_reveals": "That 'nothing crosses over' and 'it is not a stranger' are not in tension once you stop looking for a traveller, and that the cheapest way to get this wrong is to reach for legacy. C061 alone risks becoming a lecture about two adjacent moments. C057 alone is a schedule. Together, on a bar nobody owns, they let a viewer watch continuity that has no custodian: not a trade being passed to a successor, not tools worn into somebody's hands, not a name kept alive, but a shape that keeps being made out of new material by conditions that will not be asked. The old version of this idea filmed a fisherman's nets passing to his son. That version could not be made: it was built on inheritance and legacy, which the C061 digest names outright as not the teaching, and it framed a real fishing household in a group whose sources name fishing as an example of a bad livelihood and of habitual action."
   },
   "concept_links": [
     {
       "concept_id": "C061",
       "role": "primary",
-      "why": "Both sources hold that nothing mental or physical passes from one existence to the next, while the continuity of the stream is close enough that the two may conventionally be spoken of as one person [C061-P:L85; C061-M:L15-L17]. The digest explicitly excludes 'we live on through our legacy and in people's memories' as a reading of this, so the link survives only in a disciplined form: inherited work is an editorial analogy for continuity without a traveller, offered as such, and the film never suggests the dead person is present in the equipment or in the successor. The digest's exclusion of an in-between state also means the film makes no claim about where he is."
+      "why": "The digest's second interpretation is the film. The sources insist that nothing mental or physical passes over [C061-P:L85; C061-M:L15], that there is no interval [C061-P:L75], and that continuity alone is why the dead and the newly begun may be spoken of as one person [C061-M:L17]; their own figure for that unbroken flow is a stream of water [C061-P:L91]. The digest's exclusions are not merely respected here, they are the reason the location changed. 'We live on through our legacy and in people's memories' is explicitly not this teaching, so the film has no inheritance, no successor, no relics and nobody's memory in it, and says so on screen. 'The soul moves into a new body' is refused by the sources themselves and is not implied. 'The dead wait in an in-between state' is ruled out, so the film makes no claim about where anybody is. The digest also warns that its own river-and-ferry image can become pure metaphor with no human stake; the answer here is not to add a person but to be explicit that the comparison is editorial, which the voice does twice. The deathbed material in the same digest, its account of the objects that present themselves to a dying mind [C061-P:L29], and the near-death process generally are not used at all: nobody is dying in this film and no deathbed appears in it. The old version of this idea also carried a broken reference, a single Margaya range spanning lines fifteen to seventeen, which does not resolve against the digest as a range because the two statements sit on separate lines with a different one between them. It has been removed and replaced throughout by the two lines it was standing in for [C061-M:L15; C061-M:L17]."
     },
     {
       "concept_id": "C057",
       "role": "supporting",
-      "why": "What a life leaves unfinished, including a trade handed on only in part, sits inside the source's account of results still waiting for an occasion [C057-P:L87]. Nothing about the household's fortunes, before or after the death, is presented as a result of anyone's actions. The digest's bar on the shipwreck passage applies directly here: the source's account of a thousand drowned people each meeting death through their own past action must never become a claim that anyone who drowned, or died in any accident, deserved it, and this is a film about a household whose work is done on water."
+      "why": "The digest holds that a long-term action mostly cannot ripen by its own strength and needs a present occasion to catch on, explained through the similes of fire and wood [C057-P:L101; C057-P:L103–L107], and that a fourth kind simply lapses because its moment passed, for which the source's image is seed grain kept past its season [C057-P:L87]. That is the second movement of this film, and the digest's own seeds treat exactly this kind of comparison as an analogy only, which the voice states aloud. Every limit that bears on the film is kept. It is not 'instant karma': the digest notes that ordinary acts may ripen without the doer noticing [C057-M:L18], and nothing on screen is presented as a result of anything anybody did. Lapsed action is not forgiveness or a clean slate, and the voice says so in those words. The giving stories are not used, so there is no prosperity reading available. The miraculous episodes are not narrated. The seven-moment strength curve is not turned into psychology. Most importantly, the digest's bar on the shipwreck passage governs this film absolutely: the source's account of a thousand drowned people each meeting death through their own past action must never become a suggestion that anyone who drowned, or died in any flood, storm or accident, deserved it. This is a film about a flood on a coast that has had catastrophic ones, so that passage is not narrated, not alluded to and not reachable by placement or edit, and no historical loss of life on this coast appears in the film."
     }
   ],
-  "what_the_viewer_could_understand": "The texts say that when a life ends nothing of it crosses into the next, yet what begins is not a stranger: it arises only because of what came before. Worn tools in new hands are an everyday picture of that kind of continuity, and only a picture.",
-  "what_must_be_real": "A real trade, a real loss and a real economic dependency. The film makes no claim about how the person died or about anything he experienced at the end, and never asks the successor to perform inheritance. If the successor does not want the work framed around the death, it is not framed that way. Three prohibitions from concepts this group carries elsewhere govern this film absolutely, because its household lives by fishing. The Pradeepika links hunters, fishermen and those who kill cattle, goats and chickens to a particular hell [C051-P:L63], and the C051 digest states that this must never be used on screen to judge real fishing, farming or butchering communities. The same source names hunting and fishing as its examples of habitual occupations [C056-P:L109], and the C056 digest repeats the bar in the same words. The C058 digest adds that the source's claim that killing is always done with aversion, 'even while smiling' [C058-P:L70], is a doctrinal claim about mind-moments and is never a psychological verdict on fishers, farmers or butchers. This film therefore makes, implies and invites no judgement of any kind about the trade it follows, and it may not be placed or cut against the group's films on the planes, the order of ripening or the courses of harm in any way that would let a viewer read the household through those passages.",
-  "position_hint": "closing candidate: the group's last film, where the whole question is carried by ordinary work and nothing is explained, and where the thread of what connects it all is handed on.",
+  "what_the_viewer_could_understand": "That in this account nothing at all is carried from one life into the next, and yet what follows is not a stranger, because it arises only out of what came before and there is no gap between them; and that this is a description of an unbroken line of causes with no owner in it, not a teaching about being remembered. Also that something laid down mostly waits for an occasion, and can quietly pass its moment and come to nothing.",
+  "what_must_be_real": "The bar, the lagoon and the rivers as they actually are, in the seasons they actually do this in. Nothing is dug, cut, dammed, moved or dressed: if the mouth does not close, or does not open, the film shows that instead. No wildlife is baited, flushed, lit or driven for a shot, and the sanctuary on the western side is worked to on its own terms. The people who live and work around the lagoon are not the film's material, and in particular the subsistence fishery there is not filmed and does not appear, because this group's sources name fishing among the livelihoods they tie to a bad destination and among their examples of habitual action, and both digests forbid using that to frame real fishing communities. No flood, storm or accident on this coast, historical or during production, is used as material or referred to, and nothing in the film suggests that anybody who has ever been harmed by water here was owed it. The film claims no inheritance, no succession and no legacy of any kind, and it never suggests that a landscape remembers anything.",
+  "position_hint": "late: it is the group's hardest single claim, that continuity needs no traveller and is not the same thing as being remembered, so it wants a viewer who has already met the map and the four endings, and it hands straight on to the group's closing film. No location reasoning is involved.",
   "risks": [
-    "Over-symbolising ordinary objects until the film says 'he lives on in his tools', which the sources rule out",
-    "Letting the sources' treatment of fishing as an occupation, in the hell passage [C051-P:L63] or as an example of habitual action [C056-P:L109], reach this household by placement, juxtaposition or edit",
-    "Reading the trade's killing through the source's 'even while smiling' claim [C058-P:L70], or letting narration anywhere in the group imply a verdict on how this family earns its living",
-    "Implying something about the cause or manner of the death, or letting a death on water be read through the source's shipwreck passage",
-    "Turning a livelihood into a metaphor rather than a way of feeding a household",
-    "Pressing a successor who took the work on out of necessity, or filming grief they did not offer"
+    "Letting the film become a visual poem with no argument in it, which the digest names as the failure mode of exactly this image.",
+    "Sliding back into legacy: any hint that something is being passed on, kept alive or remembered here contradicts the concept the film exists to carry.",
+    "Letting the sources' shipwreck passage, or any reading of drowning and flood as deserved, reach this coast by narration, juxtaposition or edit.",
+    "Filming the lagoon's fishery, or allowing any frame to place a fishing household inside this group's passages on livelihood and habitual action.",
+    "Presenting the sand as physics that the tradition anticipated, or the doctrine as a description of coastal geomorphology.",
+    "Disturbing a sanctuary, or a nesting or roosting area, to get an aerial.",
+    "Dramatising a flood that is a real hazard to people living upstream and behind the lagoon.",
+    "Treating 'nothing crosses over' as 'death is simply the end', which the digest also lists as a distortion."
   ],
   "drop_if": [
-    "No family in this situation will take part with full consent",
-    "The successor does not want the trade framed around the death",
-    "The trade is collapsing and filming would present a household's crisis as a theme"
+    "The mouth's behaviour turns out not to be seasonal here, so the film's central event does not exist.",
+    "The bar has been fixed, armoured or artificially cut, so what is filmed is a managed structure rather than the process.",
+    "Filming or flying cannot be done without disturbing the sanctuary or the communities around the lagoon.",
+    "The only way to get the breach is to wait through a year in which it does not happen and then arrange one."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0133",
+      "idea_id": "IDEA-0146",
+      "relation": "pairs with",
+      "note": "Two long-running processes, one held open by somebody answering it every hour, one continuing with nobody attending to it at all."
+    },
+    {
+      "idea_id": "IDEA-0145",
       "relation": "mirrors",
-      "note": "Both watch what outlives a person, one in the weeks after a death and one once the work has been taken up by someone else."
+      "note": "One watches a structure made and unmade by hand inside a day; the other watches a structure made and unmade by water across a year."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by the group's closing episode; kept with the legacy reading the C061 digest forbids, and the three digests' bars on judging fishing communities, now named and refused inside the idea."
+    "reason": "It is the only shape found for this concept that carries continuity without a traveller while containing no inheritance, no legacy and no bereaved household, which is what its own digest requires."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. What was dropped: the entire old subject, a fisherman's nets mended for thirty years passing to his son after his death. It was dropped for two independent reasons. First, the film was built on inheritance and legacy, and the C061 digest states outright that 'we live on through our legacy and in people's memories' is not this teaching. Second, the sources this group carries name fishing among the livelihoods they tie to a particular destination and among their examples of habitual occupation, and those digests forbid using that material to frame real fishing families, so the household at the centre of the old film could not be protected by disclaimers alone. Both concepts were kept and re-read from their digests, and the film now gets continuity without a traveller from a lagoon mouth that is rebuilt and cut open every year with no custodian and no handover. The slate's last unresolved citation error, the old link's single Margaya range spanning lines fifteen to seventeen, does not resolve against the digest as a range; it has been removed and replaced with the two separate lines it stood for. Every other citation was verified against digest evidence rather than carried over.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The bar and mouth of the Ullackalie lagoon, where the Verugal and Uppu rivers reach the sea",
+    "also_known_as": [
+      {
+        "name": "Ulakkali",
+        "meaning": "an alternative transliteration of the lagoon's name in local usage",
+        "used_by": "local usage"
+      },
+      {
+        "name": "Verugal",
+        "meaning": "from perukkal, that which overflows or floods; the name of the river that brings the flood down to the lagoon",
+        "used_by": "Tamil usage"
+      }
+    ],
+    "region": "Trincomalee District, Eastern Province: the southern edge of the district, where a lagoon behind the coast is fed by the Verugal Aru and the Uppu Aru and let out to the sea through a single channel",
+    "coordinates": {
+      "lat": 8.3667,
+      "lng": 81.3667
+    },
+    "why_here": "Because the location is the concept, at a scale that only reads from the air and with no owner anywhere in it. The lagoon is about seven kilometres long, two wide and nowhere more than two metres deep, fed by two rivers and joined to the sea by one narrow channel at its southern end, with a wildlife sanctuary over its western side and evergreen forest and scrub behind. That makes a diagram of a single moving part: a bar of sand between a still lagoon and an open ocean, with one thread of water through it. The bar is rebuilt each dry season out of material that was elsewhere the year before and cut open again by the flood, so the film can watch a feature persist while everything in it is replaced, which is the sources' continuity-without-a-traveller, and it can do so without a household, an inheritance or a death anywhere in the frame. The river's own name means the thing that overflows, which is also the occasion the second concept needs.",
+    "what_to_film": [
+      "The whole system from directly overhead at several heights, so the arrangement resolves from coast, to lagoon and bar, to the single cut.",
+      "The cut from low and close: water leaving, edges slumping, sand visibly travelling in the current.",
+      "The outer face of the bar being built by the surf, in long held shots, with the still lagoon side in the same frame.",
+      "The closed bar late in the dry season, end to end, with no channel anywhere and the lagoon gone flat and saline.",
+      "The two rivers inland, low and wandering in wide sandy beds, and the same reaches running full after rain.",
+      "The breach itself if it can be reached in time: the cut opening, the silt fan going out into the sea, the lagoon level dropping.",
+      "The grassed-over crest of a bar in a year when nothing opens it.",
+      "The forest and scrub behind the lagoon, and the mud edges with whatever birds are on them, filmed from a distance that disturbs nothing."
+    ],
+    "access": "By road down the coast from Trincomalee towards the district's southern boundary, and on foot along the bar. The western part of the lagoon has been a declared animal sanctuary since 1970, so filming and especially drone flight there is likely to need specific permission from the wildlife authority and may be refused. The coast is used by people who live around the lagoon, and their agreement matters even though they are not the film's subject.",
+    "best_time": "Late in the dry season for the closed bar and the stilled lagoon; the first weeks of the north-east monsoon, from about November, for the flood and the breach. Within a day, the first and last hour for low light along the bar, and midday overhead for the geometry.",
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ullackalie_Lagoon",
+      "https://en.wikipedia.org/wiki/Verugal_Aru",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0025322719301203",
+      "https://repo.dgfi.tum.de/en/2254/"
+    ],
+    "research_note": "That the lagoon lies in the Trincomalee District, is about seven kilometres long and two wide with a maximum depth of two metres and an area of some thirteen square kilometres, is fed by the Verugal Aru and the Uppu Aru, is linked to the sea by a narrow channel to the south, is brackish, carries extensive mangrove and is bordered by evergreen forest and scrub, and that its western part was declared an animal sanctuary in 1970 with subsistence fishing in and around it, is from the first source and was read directly. That the river separates the Trincomalee and Batticaloa districts and that its name derives from a Tamil word for flooding or overflowing is from the second, seen through a search summary. The third is a general paper on river-mouth lagoon dynamics and is listed because the film's central claim rests on general behaviour rather than on this site. The coordinates are the lagoon's published position, not the mouth's: the channel is at the southern end and no particular point on the bar has been chosen. The film's central claim, that the mouth closes seasonally and is cut open by the flood in a different place each year, is an inference from the way lagoon mouths behave on this coast and has not been verified for this lagoon by any source read here. Nobody has been approached and no permission sought. No image of this lagoon, its bar or its mouth was found on Wikimedia Commons; searches for the lagoon returned nothing at all and searches for the river returned a single photograph of flood damage with a person in it, which would have been wrong to use, so images is empty.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether this lagoon's mouth actually closes and reopens seasonally, and how mobile the channel is. This is the film's central event and it is unverified.",
+    "Whether the bar has been armoured, fixed or artificially cut at any point, which would change what is being filmed.",
+    "Whether the wildlife authority would permit filming, and especially drone flight, over a declared sanctuary.",
+    "How reachable the mouth is by road and on foot, and whether a crew can be there in the days a breach happens, which cannot be scheduled.",
+    "What the site looks like: no photograph of the bar or the mouth has been found, so the film's visual claims are inferences from the published dimensions and from the behaviour of comparable mouths.",
+    "Whether a film can be made here without the communities around the lagoon becoming its subject, which the concept's own limits require it not to be."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

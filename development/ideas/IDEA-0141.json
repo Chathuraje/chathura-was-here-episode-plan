@@ -2,73 +2,177 @@
   "schema_version": 1,
   "id": "IDEA-0141",
   "record_type": "idea",
-  "title": "What the Fire Leaves",
+  "title": "The Seed Is Not the Season",
   "status": "draft",
-  "version": 3,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What the Fire Leaves"
+  ],
   "group_id": "GRP-08",
-  "logline": "A family sows a paddy field, tends it through drought and pests, and waits to see whether the season ends in harvest or in ruin.",
-  "human_question": "How many different forces have to go right, one after another, for anything to come to fruit?",
-  "situation": {
-    "what_happens": "A farming family works one full season: preparing and sowing, keeping water to the field, feeding and watching the crop, guarding it at night, and meeting whatever comes, a dry spell, a pest, a price collapse. At the end there is a harvest, a partial harvest or a loss, and the family's year is decided by it.",
-    "who_is_involved": "The household who farm the land and carry the loan; the labourers who are paid by the day; the buyers who set the price; and the neighbours who share water and equipment.",
-    "what_is_at_stake": "A year's income, the loan taken against the crop, and whether the family keeps farming.",
-    "how_it_unfolds": "A season has a fixed calendar and an unfixed outcome. Setbacks are cumulative, and one of them can end the crop outright while others only reduce it. Reality decides the harvest; the film cannot know it in advance and must not need any particular ending."
+  "logline": "Across a whole district of rain-fed maize, a year's work goes into dry red ground in a single week, and then four separate forces that nobody in the district controls decide, one after another, what becomes of it.",
+  "human_question": "If the act is finished the moment the seed leaves your hand, what is it that goes on happening for the next four months?",
+  "place": {
+    "what_kind_of_place": "An inland belt of rain-fed upland fields in the island's driest province: small holdings of a few acres each, cut out of thorn scrub on red-brown earth, running for tens of kilometres between isolated rock mountains that stand straight out of the plain. Almost all of it is sown to maize in a single short window at the start of the north-east rains, with cowpea, finger millet and sesame mixed through it. There is no channel, no tank and no pump anywhere in the film: what the crop gets is what falls on it. Between the fields are watch huts, brushwood fences, drying floors, scattered houses and a great deal of thorn.",
+    "why_it_is_worth_watching": "It is one of the very few farmed landscapes that changes completely four times in four months and can be read whole from the air each time. In the week before sowing it is a bare red grid with rock hills standing over it. Six weeks later the same grid is solid green, close enough to hide a person. Six weeks after that it may be green still, or rolled and grey in patches, or shredded to ribs by an insect that arrived on the island less than ten years ago. At the end, some of it is heavy with cobs and some of it has been turned back into the ground by a tractor in an afternoon. The four states are the four things the sources say an action can do, standing side by side in the same frame, on the same day, for reasons nobody in the picture chose.",
+    "what_moves_or_changes": "Everything, and none of it on a schedule anyone sets. The rain arrives late or early or in the wrong shape and there is no second chance at the sowing window. The crop grows fast enough to see a difference between morning and evening. An insect moves through a district in days. Prices are fixed somewhere else. What the film can promise is the sowing week and the weeks of tending; it cannot promise a drought, an infestation, a harvest or a loss, and it must be built so that any of those endings, including a dull one, makes the film.",
+    "when_it_looks_best": "A full main season from the first rains to the harvest, roughly four months, with the drone work concentrated in four short visits: the bare ground and the sowing week; the crop at knee height when the grid is still legible through it; the tall crop in the weeks when damage shows; and the mixed end state, when some fields are cut and some are not. Low sun in either half hour of the day, when the rock hills throw across the fields and the rows read as rows."
   },
+  "two_layers": {
+    "without_the_philosophy": "A season film about a hard, beautiful, unsentimental farming country. Red earth and black rock, a whole district sowing in the same week, brushwood fences, night huts, the crop coming up and closing over, weather arriving across a plain you can see thirty kilometres of, insect damage in close detail, drying floors, and the last wide shot in which some fields are full and some are bare. It has a complete shape with nothing said over it: empty, sown, green, tested, ended. Anyone who likes watching weather cross farmland has a whole piece here.",
+    "with_the_philosophy": "The same season becomes the sources' own worked example, which happens to be a field. The texts separate four jobs an action can do afterwards: start a result, keep one going, wear one down, and cut one off. Their picture of the four is a crop from sowing to wildfire. Standing in the crop, the separation stops being a classification and becomes obvious, because the four forces in front of the camera are visibly four different things arriving at four different times from four different directions. And the film is built to make the opposite reading impossible: the voice says outright that none of this is desert, that the texts give nobody any way to read these forces in any particular person's situation, and that a failed field is a fact about conditions and not a verdict on anyone."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, very high. Bare red-brown ground running to the horizon, ruled into small holdings, with black rock hills standing out of it. Nothing planted. A tractor working alone, very small in the frame.",
+      "voice": "Nothing is growing here yet. In three weeks almost every one of these squares will be sown, in about the same week, with about the same thing, because the rain decides when and there is no second chance at it.",
+      "concept_id": "C055"
+    },
+    {
+      "on_screen": "Ground level, sowing. A line of people moving across a field, a dibber, seed out of a cloth bag, a heel closing the hole. Close on a hand opening over the drill.",
+      "voice": "In this analysis the action is this, and only this: the intention present in the moment of doing it [C055-P:L59]. Not the outcome, and not what anybody is owed afterwards. The act is over when the hand closes. Everything from here on is result.",
+      "concept_id": "C055"
+    },
+    {
+      "on_screen": "Two weeks on. Rain crossing the plain, seen coming for twenty minutes before it arrives. Then the first leaf, a whole field of it. Weeding, a brushwood fence being mended, ash spread by hand.",
+      "voice": "The sources divide what an action can do afterwards into four jobs. The first starts a result and goes on producing it while its force lasts. The second starts nothing of its own; it only strengthens what is already running, and keeps it alive [C055-M:L9]. Rain in the right week is not a reward. It is the second kind of thing.",
+      "concept_id": "C055"
+    },
+    {
+      "on_screen": "Six weeks on. The crop shoulder-high and solid. Then the damage, close: leaf whorls shredded and wet with frass, ragged windows chewed through a blade. Wide again, and the green now has grey patches in it where the ground has cracked.",
+      "voice": "The third job wears a result down without ending it. The old list of what that looks like in a life is strikingly ordinary and worth hearing in full: illness, enemies, damage to a crop, the loss of work, blame, and being accused of something [C055-M:L24]. Every one of those is a thing that happens to people, and the texts are blunt that naming a force behind them gives nobody a way to read it in anybody's actual life.",
+      "concept_id": "C055"
+    },
+    {
+      "on_screen": "A tractor going through a standing crop, turning it under, in one long unbroken shot from behind. Then the same field from the air an hour later: brown again, with the neighbouring field still green.",
+      "voice": "And the fourth cuts the whole thing off before it finishes. The source draws its own picture of the four, and its picture is a field: seed put in, the crop watered and watched, a dry spell that withers it, and a fire that ends it [C055-P:L127]. That is not a simile somebody has applied to farming later. It is where the teaching was explained from in the first place.",
+      "concept_id": "C055"
+    },
+    {
+      "on_screen": "Harvest on the next holding. Cobs stripped, a drying floor, grain moved with a shovel. The ploughed-in field visible over the fence in the same frame.",
+      "voice": "Two corrections, and they matter more than the four names. This is not a ledger in which good and bad are added up and cancel. What the texts describe is a stronger force overriding a weaker one for as long as it holds [C055-P:L125]. And these four are not four kinds of action; they are four roles that ordinary actions play for one another [C055-M:L28].",
+      "concept_id": "C055"
+    },
+    {
+      "on_screen": "Last light, back at height. The district mixed: some squares cut and pale, some still standing green, some bare. Rock hills going black. No commentary over the final minute.",
+      "voice": "This camera cannot tell you why any one of these fields did what it did, and neither can the texts. Nothing down there was owed to anybody, and nothing down there is anybody's answer.",
+      "concept_id": "C055"
+    }
+  ],
   "concept_merge": {
-    "why_together": "One concept. Kamma by function (C055) separates what starts a result, what keeps it going, what wears it down and what cuts it off, and the source's own picture of the four is a farming season: seed sown, the crop tended, a drought that weakens it, a fire that ends it.",
-    "what_it_reveals": "That an outcome is the product of several forces acting on each other over time, which is the opposite of a single cause and the opposite of fate. The source names the forces and gives nobody a way to read them in any particular person's situation."
+    "why_together": "One concept, carried whole. The sources group kamma four ways and treat the functional group in full: productive kamma generates the resultant mind and the matter born of kamma both at the linking and during a life; supportive kamma strengthens what is already produced and helps a being carry on; obstructive kamma harms and wears down what the productive kamma made; destructive kamma cuts off the productive kamma's force altogether and may bring a result of its own [C055-P:L63–L125; C055-M:L9–L30]. The Pradeepika then illustrates all four with a farmer's crop from sowing to wildfire [C055-P:L127], and the Margaya insists that these are roles rather than classes, that later actions can strengthen or weaken earlier ones, and that a stronger force overrides a weaker one rather than netting against it [C055-M:L28–L36; C055-P:L125]. A rain-fed season is therefore not an analogy chosen for this film. It is the source's own demonstration, and the only thing the film adds is a real district in which the four forces actually arrive.",
+    "what_it_reveals": "That an outcome is the work of several forces meeting at different times, which is the exact opposite of a single cause and the exact opposite of fate. Watching four different things happen to four neighbouring fields in one season makes the sources' separation feel obvious rather than scholastic, and it makes the fatalistic reading visibly stupid: the field that failed and the field that did not are ten metres apart and were sown in the same week by people doing the same work. The concept needs a place where the forces are separable and nobody can be blamed for any of them, and this is one."
   },
   "concept_links": [
     {
       "concept_id": "C055",
       "role": "primary",
-      "why": "The source's own image for the four functions is exactly this season: sowing, tending, drought, fire [C055-P:L127]. The digest is explicit that this must not become 'everything happens for a reason' or 'they deserved it', and that the source's examples of illness and poverty describe how forces interact rather than licensing any judgement of real people's suffering."
+      "why": "The digest's functional tetrad is the whole film and is used exactly as the sources set it out: an action's four possible later jobs, producing, supporting, obstructing and cutting off [C055-M:L9], with the Pradeepika's own picture of them as a crop from sowing to wildfire [C055-P:L127]. The definition of the act itself is spoken on screen, because it is what keeps the film honest: kamma here is the volition present in a wholesome or unwholesome moment of impulsion [C055-P:L59], not fortune, not attitude and not a standing account. The Margaya's two corrections are also spoken: these are roles that ordinary actions play for one another rather than four kinds of action [C055-M:L28], and what happens between them is a stronger force overriding a weaker one, not a sum [C055-P:L125]. Every limit in the digest that bears on this film is honoured and most of them are stated out loud. The film never says or implies 'everything happens for a reason' or 'they deserved it'; the digest is explicit that the source's examples of illness, madness and poverty describe how forces interact and are not a licence to judge anyone's suffering, and the Margaya's own list of what obstruction looks like, illness, enemies, crop damage, lost work, blame and accusation [C055-M:L24], is narrated precisely so that the voice can refuse that reading in the same breath. The ledger reading is refused explicitly. The 'good vibes' reading is refused by defining the act as volition. The digest's animal examples, the ox under heavy loads and the animals used as royal mounts, are not used anywhere, and no animal appears as an example of anything."
     }
   ],
-  "what_the_viewer_could_understand": "The texts describe results as produced by several forces at once, one starting something, another supporting it, another wearing it down and another ending it, and they give nobody a way to read those forces in a real person's life.",
-  "what_must_be_real": "A real family's real season with its real financial stakes, and no foreknowledge of the outcome. No hardship is presented as deserved.",
-  "position_hint": "middle, if it were kept: a season-long observational film whose concept is already carried by a kept idea.",
+  "what_the_viewer_could_understand": "That in this analysis an action is finished the moment it is intended and done, and that what happens afterwards is the work of several separate forces, one starting a result, one propping it up, one wearing it down and one ending it. Seeing four neighbouring fields end four different ways in one season is the point, and the point cuts against fate rather than for it: the texts name the forces and give nobody any way at all to read them in a particular person's life.",
+  "what_must_be_real": "A real season on real holdings, with the real money at stake, and no foreknowledge of the outcome. Nothing is arranged: no field is sown early or late for the camera, no damage is induced or staged, no crop is destroyed or burned for a shot, and no chemical is applied or withheld because a crew is present. No household's loss is presented as deserved, explained, predicted or symbolic, and no person in frame is an example of any force whatever. If a season goes badly, the film does not film a family at the worst hour of a financial loss for the sake of a sequence, and consent can be withdrawn at any point including after filming.",
+  "position_hint": "early to middle in the group: it is the plainest statement in the set of how results are actually produced, so it should come before the films that depend on the viewer already refusing the fatalistic reading. No location reasoning is involved.",
   "risks": [
-    "Turning a family's crop loss into a moral lesson",
-    "Implying that hardship reflects the family's own past actions",
-    "A season-long schedule that the production may not be able to hold"
+    "Letting a failed field read as desert. This is the single largest risk in the film and the reason the voice refuses the reading out loud rather than relying on tone.",
+    "Turning a household's loss into a moral illustration, or filming people at the most exposed moment of a financial failure.",
+    "Letting the four functions look like a structure imposed on a real season, so that reality is edited to fit a doctrinal diagram.",
+    "Reading kamma as fortune, attitude or a running account, when the sources define it as the volition in a moment of acting.",
+    "Letting the ledger reading in by implication, as though the good weeks and the bad weeks cancel out.",
+    "Filming an insect infestation in a way that makes a district look doomed, or that affects what anybody sprays or does not spray.",
+    "A four-month schedule the production cannot actually hold, which would push the crew towards restaging the beats it missed."
   ],
   "drop_if": [
-    "No family will commit to being filmed across a whole season",
-    "The season is too uneventful, or too catastrophic, to film honestly"
+    "The season's sowing window is missed, so the film would have to begin in the middle and reconstruct its first act.",
+    "No holdings will take part across a whole season on terms that let consent be withdrawn later.",
+    "The only way to get the fourth beat is to arrange for a crop to be destroyed.",
+    "Filming would affect how anyone manages a real infestation or a real loss."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0142",
-      "relation": "merged into",
-      "note": "Folded into the film about a volunteer doing the opposing good, which now carries the whole set of four functions, the source's own field image, and this idea's situation: a year on a fixed calendar with an unfixed outcome, carried by people whose living depends on it."
+      "relation": "pairs with",
+      "note": "Two films on the same four functions from opposite ends: one watches all four arrive across a season, the other watches only the fourth kind of work, done deliberately against something planted seventy years ago."
     },
     {
       "idea_id": "IDEA-0143",
       "relation": "mirrors",
-      "note": "Both are growing seasons whose outcome the film cannot know; the community-scale season is the one that keeps an episode."
+      "note": "Both are about what a set of conditions will and will not support, one on a farmed plain over four months, one on a mountain over an age."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0142",
-    "reason": "Its concept is carried by a kept idea and its situation overlaps the kept drought film; folding it in completes the four functions in the kept idea and gives them a season to be observed in."
+    "superseded_by": null,
+    "reason": "It is the source's own demonstration of the four functions standing in a real district, and the widest shot the place produces, four neighbouring fields in four different states, is also the clearest statement of the concept."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. The old idea's merge into IDEA-0142 is reversed: that idea's subject has been dropped for ethical reasons, so this film is standalone again and carries the whole functional tetrad itself. The concept was re-read from the digest as a new reader and every citation re-verified against digest evidence rather than carried over. The one change of substance is that the film is now built around a rain-fed crop with no tank, channel or pump anywhere in it, to keep it clear of the slate's irrigation ban and of the drought-and-reservoir film, and the refusal of the desert reading is now spoken in the film rather than only recorded in the notes.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The rain-fed maize and upland holdings around Badalkumbura",
+    "also_known_as": [
+      {
+        "name": "goda govithena",
+        "meaning": "upland, rain-fed cultivation, as against paddy grown with water brought to it",
+        "used_by": "Sinhala farming usage"
+      },
+      {
+        "name": "sena dalambuwa",
+        "meaning": "the fall armyworm, the caterpillar that reached the island in 2018 and now moves through the maize belt",
+        "used_by": "Sinhala farming and press usage"
+      }
+    ],
+    "region": "Monaragala District, Uva Province: the inland rain-fed upland belt below the Uva escarpment, east of the hill country, in the driest quarter of the island",
+    "coordinates": {
+      "lat": 6.8333,
+      "lng": 81.1833
+    },
+    "why_here": "Because the concept and the spectacle are the same thing here. This district sits inside the country's rain-fed maize belt, where the crop is grown as a monocrop and mixed with cowpea, finger millet and sesame, and where there is no irrigation in the picture at all: the result depends on rainfall timing and nothing else, which is the precise claim the film is making. It is also one of the highest-intensity zones on the island for the fall armyworm that arrived in 2018, so the wearing-down force is a real, present, dateable thing rather than a generality. And the landform does the rest: small holdings on open red ground with isolated rock mountains standing over them give a drone one legible grid that can be flown four times in a season and read instantly each time, so the four functions appear as four states of the same frame.",
+    "what_to_film": [
+      "The same wide aerial frame at four points in the season, flown from the same position and height each time, so the four states are one image changing.",
+      "The sowing week at ground level: the dibber, seed leaving the hand, the heel closing the hole, filmed as work rather than as ceremony.",
+      "Rain arriving across an open plain, seen coming for twenty minutes before it lands.",
+      "The tending that props the crop up: weeding, mending a brushwood fence, the night hut, ash or fertiliser spread by hand.",
+      "Insect damage in close detail, shredded whorls and frass, and the same damage read from the air as patches.",
+      "Drought signs at ground level: rolled leaves, cracked earth between the rows, a field going grey in strips.",
+      "A failed field being turned under, in one long take, and the same field from the air afterwards beside a neighbouring field still standing.",
+      "Harvest, drying floors and grain handling on a holding that came through, in the same light as one that did not.",
+      "The rock mountains and the thorn edge, for the country the fields were cut out of."
+    ],
+    "access": "By road from the provincial towns of the district; the holdings are private and everything depends on households agreeing to a crew returning four times across a season rather than visiting once. Drone flight over private holdings needs the owners' agreement as well as whatever permission the civil aviation rules require. Nothing here should be filmed on land whose tenure is contested or whose cultivation is not lawful, because a crew's presence could expose people to enforcement.",
+    "best_time": "One full main season on the north-east rains, roughly October to February, with four short visits inside it. Within a day, the first and last half hours, when low sun gives the rows and the rock hills relief.",
+    "images": [
+      {
+        "caption": "Dawn over the district's rock-and-plain country. A picture of the surrounding landform rather than of any holding in the film.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monaragala morning sky.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Monaragala morning sky.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://journals.sjp.ac.lk/index.php/fesympo/article/view/198",
+      "https://www.researchgate.net/publication/374350120_Remote_sensing_approaches_to_assess_the_Fall_Armyworm_Spodoptera_frugiperda_infestation_on_maize_crop_a_case_study_from_Sri_Lanka",
+      "https://reliefweb.int/report/sri-lanka/giews-country-brief-sri-lanka-27-may-2019",
+      "https://counterpoint.lk/rising-fall-aremyworm/"
+    ],
+    "research_note": "That this district lies inside the island's six-district maize belt, that maize here is grown almost entirely under rainfall rather than irrigation and often mixed with cowpea, green gram, groundnut, chilli and finger millet, that roughly sixty thousand hectares go in during the main season, that the fall armyworm reached the island in 2018 and that infestation in this province ran as high as seventy-three per cent in early seasons, and that drought cut the sown extent sharply in the 2015 to 2016 main season, are all from the sources above and are desk research only. The coordinates are a direction towards the district's rain-fed upland belt, not a survey: no holding, household or field has been identified, and which fields are sown to maize in any given year is unverified. Nobody has been approached and no permission has been sought. The single image is of the surrounding district landform at dawn and is not of any field in the film.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No holding, household or field has been found or approached. Everything here is a research direction.",
+    "Whether any household will agree to a crew returning four times across a season, and whether consent survives a bad outcome, which is the question that decides whether the film can be finished.",
+    "Whether drone flight over this belt is permitted and on what terms.",
+    "Which of the four forces will actually appear in a given season. The film has to be designed so that a dull season is still a film, and that design has not been tested.",
+    "Land tenure in the rain-fed uplands is mixed and some cultivation is not lawful; whether a crew can film here without exposing anyone to enforcement is unverified and is a condition of making the film at all."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

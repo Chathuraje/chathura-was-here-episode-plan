@@ -2,71 +2,167 @@
   "schema_version": 1,
   "id": "IDEA-0146",
   "record_type": "idea",
-  "title": "The Night Shift",
+  "title": "The Water Comes In All Night",
   "status": "draft",
-  "version": 3,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Night Shift"
+  ],
   "group_id": "GRP-08",
-  "logline": "An emergency crew works through the night between a hospital and the households that call it, where the same call can be twenty minutes away or two hours, and every one is a small argument with time.",
-  "human_question": "How much difference can skill and speed make against how fragile a life actually is?",
-  "situation": {
-    "what_happens": "An emergency crew works a shift: equipment checks, waiting, a call, a drive that is long or short depending on where the caller lives, whatever they find when they arrive, first aid, a decision about where to take the person, a handover, and then waiting again. Some nights bring nothing serious. Some bring a case in which the distance itself is the problem. Between calls the crew talk about the ones that could have gone the other way.",
-    "who_is_involved": "The crew, whose competence is the subject; the dispatcher who decides what they are sent to; the families who call, and who usually decide too late or just in time; and the hospital staff who take over at the door.",
-    "what_is_at_stake": "Lives, and more precisely the margin: the difference that equipment, road, timing and training make to an outcome nobody chooses. For the crew, the accumulation of calls that did not go well, carried into the next shift.",
-    "how_it_unfolds": "A shift has its own shape, with dead hours, clusters of calls and a handover at the end, and the crew's working knowledge is about which ordinary dangers turn deadly: an untreated illness, a bad road, a delay, a wrong decision taken at home in the dark. Reality decides what any night brings, including the real possibility that it brings nothing at all."
+  "logline": "A graphite mine that has been worked for nearly two centuries goes down about half a kilometre in veins the width of a hand, and it exists only because the water that comes into it is pumped out again every hour of every night by somebody who is awake.",
+  "human_question": "Some things stay in existence only for as long as they are continuously answered. What does that change about how fragile they are?",
+  "place": {
+    "what_kind_of_place": "A working underground mine in low wet hill country: a river valley of smallholdings, rubber and secondary forest, and in the middle of it a compact industrial yard of grey sheds, a headframe, a winder house, a lamp room, a fan house and a spoil tip. The commodity is graphite, in near-pure vein form, and the veins are narrow, roughly the width of a hand, so the workings follow them rather than cutting blocks: a branching three-dimensional pattern of drives and winzes going down past four hundred metres, wet the whole way. Groundwater enters continuously and is lifted in stages back to the surface. Above ground almost nothing suggests the volume of what is below; the yard would pass for a small factory.",
+    "why_it_is_worth_watching": "It has two registers that never meet. From the air it is a small grey smudge in a very green valley, with a thin white line of discharge water running away from it into a stream, and the whole thing reads as modest. Underground it is one of the strangest surfaces in the country: graphite is black and takes a metallic shine, so a wet vein under a cap lamp looks like polished metal set into rock, and the light behaves as if the walls were mirrors with the silvering half rubbed off. And it is ceaselessly noisy in one register and silent in another: the pumps and the fans never stop, while for long stretches of a night shift on the surface nothing happens at all except a man watching a gauge and writing the hour on a board.",
+    "what_moves_or_changes": "Water, air, light and people, all on rotas that do not pause. Shifts change; the cage goes down and comes up; the fans push air one way and the pumps push water the other. The mine does not have seasons but the rain does: in the monsoon the inflow rises, the pumps run harder and the discharge channel runs full. Nothing in the film can be scheduled except the shift clock and the weather. The one thing that never changes is the direction the water is going in, and the fact that somebody has to keep reversing it.",
+    "when_it_looks_best": "Two windows. The wetter months, when the inflow is highest, the discharge runs hard and the valley is under cloud, which is when the film's argument is loudest. The drier months for clear air over the valley and for passable ground. Within a day: the two shift changes, at either end of the night, and the small hours, when the only thing still working on the surface is the machinery and one person."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a very old working mine and the night it is kept open through. Cap lamps on charge in rows; the cage; a walk along a wet drive behind somebody else's light; a hand tool following a black vein through rock; the noise of a pump column and the standing water at a sump; the fan house; the discharge coming out into daylight and running away down a stream; a man awake at three in the morning with nothing to do but read a gauge; and, at first light, one shift washing and another walking in. It has a complete shape with nothing said over it: descent, work, water, the long empty hours, the change. Anyone who likes machinery, or the inside of the ground, has a whole piece here.",
+    "with_the_philosophy": "The same shift becomes the sources' account of how a life ends, in the one place where the whole argument is running as plumbing. The analysis sorts death into four: the lifespan runs out, the force that produced the birth runs out, both give out together, or something cuts it off while both still had further to go. Its own image is an oil lamp, which goes out when the oil is gone, when the wick is gone, when both give out, or when a wind takes it while there is oil and wick to spare. And then the part that people skip: the sources refuse fatalism outright. They say the fourth kind gets in through ordinary present things, that it can be turned aside where the help is skilled, that holding everything to be caused by past deeds is a wrong view, and that of any particular early death the cause cannot be known. The voice makes no claim about anybody in frame. It points at a hole in the ground that stays open because it is answered every hour, and lets that stand for how much the answering matters."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, high and wide. A green river valley of smallholdings, secondary forest and scattered roofs, and in the middle of it a compact yard of grey sheds, a headframe and a spoil tip. A thin pale line of water runs out of the yard into a stream. Nothing about it looks large.",
+      "voice": "All of that is the lid. The working part of this goes down about half a kilometre, following veins roughly the width of a hand, and men have been going down it since the eighteen-forties.",
+      "concept_id": "C060"
+    },
+    {
+      "on_screen": "The lamp room: rows of cap lamps on charge, one taken down and switched on. Then the cage, the descent, and the first drive: wet rock, a black vein with a metallic shine, someone following it with a hand tool.",
+      "voice": "The analysis this film uses opens with a definition that refuses to be picturesque. Death, it says, is the breaking up of the groups that make a being, and the cutting off of the life faculty [C060-P:L27]. Then it sorts the ways that happens into four.",
+      "concept_id": "C060"
+    },
+    {
+      "on_screen": "A sump: standing water in a drive, a pump running, a pipe column going up into the dark, the noise filling everything. A gauge read; the hour written on a board in chalk.",
+      "voice": "Three of the four are called timely. The lifespan runs out. The force that produced the birth runs out. Or both give out together, which the sources themselves call rare [C060-P:L29–L34; C060-M:L17]. The fourth is a cutting-off, while both would still have had further to run [C060-P:L60].",
+      "concept_id": "C060"
+    },
+    {
+      "on_screen": "Night on the surface. The winder house lit and running, the fan house, a telephone, a kettle. A man awake, walking a round, with nothing happening.",
+      "voice": "The texts are exact about how the fourth one gets its opening. It comes through ordinary present things: an assault, a poison, plain carelessness, food that does not suit, something catching, an illness left alone [C060-P:L60–L72]. And then a sentence that pulls the floor out from under fatalism: even a death that was coming can be turned aside where the people helping are skilled [C060-P:L62–L66].",
+      "concept_id": "C060"
+    },
+    {
+      "on_screen": "Water at scale: the sump again, the column, and then the discharge arriving at the surface in daylight and running away down a concrete channel into the stream. Rain on the yard.",
+      "voice": "Which is what this pump is. There is water in this ground and it does not stop coming. If the pumping stops for long enough, the workings fill and nobody gets them back. Nothing here is permanent and nothing here maintains itself. It is open tonight because somebody answered at three this morning, and will answer again tomorrow.",
+      "concept_id": "C060"
+    },
+    {
+      "on_screen": "Close on lamps: the charging rack, a lamp lifted off it, the beam crossing a wet wall and going out when it is switched off. Then the drive in total darkness for a beat.",
+      "voice": "The book's own picture for the four is an oil lamp. It goes out when the oil is gone, when the wick is gone, when both give out together, or when a wind takes it while there is oil and wick to spare [C060-P:L76–L82]. The image is deliberately careful. A lamp in a wind has not done anything wrong.",
+      "concept_id": "C060"
+    },
+    {
+      "on_screen": "Shift change in early light: one shift coming up and washing, tea, boots; the next walking in past them. The valley behind the yard, ordinary, green, waking.",
+      "voice": "The second source is blunter still. To hold that everything that happens comes from what somebody once did is called, there, a wrong view; and of any particular death that came early, it says the cause cannot be known [C060-M:L23; C060-M:L35]. So nobody in this film is an illustration of anything. They are the reason the pumps are running.",
+      "concept_id": "C060"
+    }
+  ],
   "concept_merge": {
-    "why_together": "The four causes of death (C060) carries this film alone, and its content is already double. The sources distinguish a timely death from a cutting-off, describe untimely death as getting its opening through ordinary dangers such as violence, poison, carelessness, unsuitable food, contagion and untreated illness, and then say plainly that such a death can sometimes be averted by skilled help. A working emergency crew is where the second half of that is tested every night.",
-    "what_it_reveals": "That the same texts which describe death as conditioned also refuse fatalism outright: the Margaya calls the belief that everything comes from kamma a wrong view, and says nobody can know what caused any particular untimely death. Watching a crew work turns that abstract refusal into something concrete, because the road, the hour and the training are doing visible work, and nothing in the texts licenses anyone to look at the outcome afterwards and call it deserved."
+    "why_together": "C060 carries this film alone, and the digest's content is already double. One half is the classification: death defined as the breaking up of the aggregates and the cutting off of the life faculty [C060-P:L27], sorted into exhaustion of the lifespan, exhaustion of the productive kamma's force, exhaustion of both, and a cutting-off [C060-P:L29–L34], with the first three called timely and the fourth untimely [C060-P:L60], the both-together case described as rare [C060-M:L17], and the whole set summarised in the oil-lamp image [C060-P:L76–L82]. The other half is a refusal. The sources say the untimely kind gets its opening through present and physical things, an assault, a poison, carelessness, unsuitable food, contagion, an illness left untreated [C060-P:L60–L72]; that such a death can be averted where the help is skilled [C060-P:L62–L66]; that holding everything to come from past deeds is a wrong view; and that of a given untimely death the cause cannot be known [C060-M:L23; C060-M:L35]. A place that stays in existence only because water is pumped out of it continuously is where the second half of that stops being a doctrinal nicety. The film needs no second concept, because the single one it has already contains its own argument against the way it is usually misused.",
+    "what_it_reveals": "That 'care still matters' is not a softening of this teaching but a load-bearing part of it, and that the easiest way to see the difference is to stand in something that is only open because it is answered hourly. The classification alone would make a film about a taxonomy nobody can verify. The refusal alone would be an essay. Together, in a wet mine with its pumps running, they show the shape the sources actually describe: a fragile arrangement, surrounded by ordinary dangers inside and out, held in being by skill and attention rather than by anybody's desert. The old version of this idea got the same material from an emergency crew, a hospital and the households that call one. That version could not be made: the patients could not consent, the families were at their worst moment, and a camera in that room competes with the care. This one keeps the concept and loses the casualty."
   },
   "concept_links": [
     {
       "concept_id": "C060",
       "role": "primary",
-      "why": "The source names carelessness, unsuitable food, contagion and illness left untreated among the ordinary openings for an untimely death, and says even a death that would follow from a person's own serious wrongdoing can be averted with strong good action and skilled help [C060-P:L60-L82]. The digest adds the decisive guard: the Margaya calls it a wrong view to take every death as caused by kamma, and says the cause of a given untimely death cannot be known [C060-M:L23-L35]. The film therefore shows skill meeting fragility and makes no causal claim about any patient. Where a death by a person's own act arises, it follows safe reporting practice, describes no method, and never frames such a death through kamma."
+      "why": "The digest is the film, both halves of it. The definition and the fourfold sort are cited on screen because they are the spine [C060-P:L27; C060-P:L29–L34; C060-P:L60; C060-M:L17], as is the oil-lamp image, which the digest itself notes carries no blame [C060-P:L76–L82]. So are the sources' openings for an untimely death and their explicit statement that such a death can be averted where the helpers are skilled [C060-P:L60–L72; C060-P:L62–L66]. Every limit in the digest that bears on this film is honoured and most of them are spoken. 'It was their karma' and 'everything happens for a reason' are named and refused out loud, because the Margaya calls that a wrong view and says the cause of an untimely death cannot be known [C060-M:L23; C060-M:L35]. Nobody on screen is offered as an instance of any category, and no worker's life is described as more or less fragile than anyone else's. The Margaya's list includes death by a person's own act [C060-M:L33]; nothing in this film goes near it, no method is described, no such death is framed through kamma, and if one touches the workforce during production it is not filmed and not referred to. The traditional humoral causes are not presented as diagnoses, the corpse-warmth material in the same digest [C060-P:L42] is not used, and no body appears in the film. The film also makes no claim that the doctrine anticipates hydrology, engineering or occupational safety; the mine is where the argument can be seen, not evidence for it."
     }
   ],
-  "what_the_viewer_could_understand": "The texts describe four ways a life can end, and they say an early death often gets its chance through ordinary dangers such as carelessness, bad food, infection or illness left untreated. So care and skill still matter.",
-  "what_must_be_real": "The crew's real shift, and the patients' dignity. No identifiable patient appears without explicit consent given when they are able to give it; nothing is filmed that delays, crowds or alters care; no death is filmed. Families in crisis are not asked for consent in the middle of it, and any material recorded before consent exists is destroyed if consent does not follow.",
-  "position_hint": "middle: the group's hinge from why lives end to how they end, placed before the film at the bedside.",
+  "what_the_viewer_could_understand": "That this tradition counts four ways a life can end, calls three of them timely and one a cutting-off, and then insists that the cutting-off usually comes through ordinary present dangers, that skilled help can turn it aside, and that nobody can know what caused any particular early death. So care is not futile against fate, and no outcome licenses a verdict on anybody.",
+  "what_must_be_real": "A working mine on its own shift pattern, filmed on the operator's and the workforce's terms, with the union or workers' representatives consulted as well as the company. Nothing is staged, no task is repeated for a shot, no light is rigged in a way that changes how anyone works, and nothing is filmed that slows, crowds or distracts a person doing something with a hazard in it. Underground filming happens only where the mine's own safety people put the crew, or not at all. No worker is presented as endangered for the film's benefit, and no incident, injury or death, past or present, is used as material. The film assigns no cause to anything that has ever happened at the site and makes no claim about anyone's fate, past actions or deserts. If the mine's labour relations, ownership or environmental record become the story, that is a different film and not this one, and the crew does not use this one as cover for it.",
+  "position_hint": "middle: it is the group's hinge from why lives end to how they end, and it is the film where the sources' own refusal of fatalism is shown rather than stated, so it works best before the quieter films and after the group's map. No location reasoning is involved.",
   "risks": [
-    "Patient privacy and dignity in an emergency, where nobody can consent properly at the time",
-    "Sensationalising a real medical crisis, or slowing care by being present",
-    "Implying that any death was deserved, fated or the result of the patient's own past actions",
-    "Suggesting that a family who called too late is to blame for what followed",
-    "Physical risk to crew and camera on night roads"
+    "Turning working people's hazard into spectacle, or letting a beautiful underground sequence imply that these particular lives are precarious.",
+    "Implying that any death or injury, anywhere, was deserved, fated or explained by past action, which is exactly what the digest calls a wrong view.",
+    "Heavy-handedness with the lamp image, so that the film becomes a visual pun on its own citation.",
+    "Slowing or distracting anyone at work underground, or being anywhere a mine's safety people would rather the crew was not.",
+    "Treating the doctrine as engineering or the engineering as doctrine: the mine is where the argument is visible, not proof of it.",
+    "Drifting into the site's labour, ownership or environmental politics, which are real and are not this film's subject, while using its access to do so.",
+    "Any approach to a death by a person's own act, which the sources' list mentions and this film must leave entirely alone."
   ],
   "drop_if": [
-    "No service grants access under safe privacy conditions",
-    "Consent cannot be obtained after the fact from the people filmed",
-    "The crew's presence of mind or the patient's care would be compromised"
+    "The operator and the workforce will not both agree, or underground access cannot be had safely.",
+    "The underground workings are no longer active, so the pumping the film is built on is not being done.",
+    "Filming would slow, crowd or alter the way any task with a hazard in it is carried out.",
+    "The only way to get the sequence is to stage work, rig the workings or restage a shift."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0136",
-      "relation": "mirrors",
-      "note": "Both follow someone called to where death may be near, one racing to prevent it and one accompanying it when it cannot be prevented."
+      "idea_id": "IDEA-0147",
+      "relation": "pairs with",
+      "note": "Two long-running processes, one of which continues only because somebody answers it every hour and one of which continues with nobody attending to it at all."
+    },
+    {
+      "idea_id": "IDEA-0148",
+      "relation": "leads into",
+      "note": "One is a place kept in existence by hourly attention; the other is a place where the same certainty is faced on purpose, by sitting still."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode, and the clearest place in the group where the sources' own refusal of fatalism can be shown rather than stated."
+    "reason": "It keeps the group's clearest statement that these sources refuse fatalism, on a place where the argument is running as machinery and there is no patient, no casualty and no household in crisis."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. What was dropped: the entire old subject, an emergency crew worked through the night between a hospital and the households that call it. It filmed patients in medical crisis who cannot consent, families at their worst moment, a dispatcher's decisions and a hospital handover, and a camera in that room competes with the care being given. C060 was kept unchanged and re-read from its digest: the fourfold sort, the oil-lamp image, the ordinary openings for an untimely death, the statement that skilled help can avert one, and the flat refusal of the view that everything comes from past deeds. The film now gets all of it from a place that only stays in existence because it is continuously pumped out, with no patient and no casualty anywhere in it. Every citation was verified against digest evidence rather than carried over from the old text.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The underground workings of the Bogala graphite mine at Aruggammana",
+    "also_known_as": [
+      {
+        "name": "Bogala Graphite Lanka",
+        "meaning": "the operating company, whose name is used locally and in the press for the mine itself",
+        "used_by": "local and national usage"
+      }
+    ],
+    "region": "Kegalle District, Sabaragamuwa Province: the low wet hill country south-west of Kegalle town, near Aruggammana on the Yatiyantota side",
+    "coordinates": {
+      "lat": 7.1158,
+      "lng": 80.31
+    },
+    "why_here": "Because the concept is the plumbing. Commercial working here began in 1847 and the mine reaches about five hundred and sixty metres, with the deepest working level around five hundred; the graphite occurs in veins averaging only twenty to forty centimetres thick, so the workings follow the veins and the shape underground is a branching pattern rather than a quarry. The ground is wet and the water is lifted continuously: a place of this depth in this rainfall exists only while it is being pumped, which is the sources' 'care keeps the lamp out of the wind' made literal and mechanical rather than symbolic. It also supplies the most beautiful material the film could hope for, which is the same thing as its argument: near-pure graphite under a cap lamp is black with a metallic shine, so a wet vein reads like polished metal set into rock, and the lamps themselves are the source's own image for the four deaths, sitting on a charging rack at the top of the shaft.",
+    "what_to_film": [
+      "The valley and the yard from height, so the smallness of the surface against the depth below is the first thing established.",
+      "The lamp room: rows of cap lamps on charge, one lifted off and switched on, and the same lamp switched off underground.",
+      "The cage and the descent, in one continuous take if the mine will allow it.",
+      "A drive followed at walking pace behind somebody else's light, with the vein visible in the wall.",
+      "A vein being worked by hand, close enough to see the shine and the thickness.",
+      "The pumping, in full: a sump with standing water, the column, the noise, a gauge being read and an hour written on a board.",
+      "The fan house and the winder house at night, running with nobody in frame.",
+      "The discharge arriving at the surface in daylight and running away into a stream, filmed in heavy rain if the season allows.",
+      "The long empty stretches of a night shift on the surface, which are most of it.",
+      "Both shift changes, in early light and at dusk, filmed as ordinary arrival and departure."
+    ],
+    "access": "By road from Kegalle or Yatiyantota. Everything depends on the operating company and on the workforce: this is a live industrial site, underground entry is the mine's own safety department's decision, and the crew would go only where and when they are put. Independent agreement from the workers whose shift is filmed is separate from the company's permission and is not implied by it. Drone flight over an operating mine and its yard is likely to need specific clearance.",
+    "best_time": "The wetter months for the highest inflow, the hardest-running discharge and cloud in the valley; the drier months for clear air at height and passable ground. Within a day, the two shift changes and the small hours.",
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bogala_Graphite_Mine",
+      "https://en.wikipedia.org/wiki/Graphite_mining_in_Sri_Lanka",
+      "https://www.mindat.org/loc-8778.html",
+      "https://www.academia.edu/9465493/Bogala_Graphite_Mines_Aruggammana_Sri_Lanka"
+    ],
+    "research_note": "That commercial mining at this site began in 1847, that the mine is at Aruggammana in the Kegalle District, that its greatest depth is about five hundred and sixty metres with the deepest working level around five hundred, that there are three main veins of which one is the most productive, that vein thickness averages twenty to forty centimetres, that both open-pit and underground operations exist, and that the mine was nationalised in 1971 and privatised in 1991 with a German majority holding since, is from the first source above and was read directly; the others are listed because they were seen only through search summaries. The coordinates are the mine's published position. Everything about the film's central subject is unverified: no source consulted here describes the mine's pumping, ventilation, shift pattern or lamp room, so the continuous dewatering the film is built on is an inference from the depth, the rainfall and the fact that the workings are still worked. Whether the underground operation is currently active at all has not been confirmed. Nobody at the company or in the workforce has been approached. No usable image of this mine, or of any Sri Lankan graphite working, was found on Wikimedia Commons; a search for the site returned only a corporate photograph of a contract signing, and searches for graphite mining in the country returned nineteenth-century trade journals, so images is empty rather than filled with something misleading.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the underground workings are currently active, and whether continuous dewatering is in fact how the mine is kept open. This is the film's central claim and it is entirely unverified.",
+    "Whether an operating mine of this kind can be filmed underground by an outside crew at all, and under whose authority.",
+    "Whether the workforce, separately from the company, would want their shift filmed.",
+    "Whether a drone can be flown over the yard and the valley.",
+    "What the interior actually looks like: no photograph of these workings has been found, so the film's visual claims about wet veins, drives and lamplight are inferences from the geology.",
+    "Whether the site's labour and ownership history can be kept out of a film that is about none of it, given that it runs through everything written about the place."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

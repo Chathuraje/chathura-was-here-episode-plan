@@ -2,84 +2,183 @@
   "schema_version": 1,
   "id": "IDEA-0118",
   "record_type": "idea",
-  "title": "Two Kinds of Sound",
+  "title": "Only One of Them Is Meant",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Two Kinds of Sound"
+  ],
   "group_id": "GRP-07",
-  "logline": "Where the day's catch is landed in the open wind, auctioneers' calls compete with gusts and surf, and buyers lean in and watch hands to be sure of a number.",
-  "human_question": "When a voice and the weather make the same kind of sound, what tells them apart?",
-  "situation": {
-    "what_happens": "A catch is landed and sold within an hour or two, in the open, by voice. An auctioneer calls, buyers bid, and numbers are confirmed as much by hand signs as by sound, because the wind takes whole words away. Prices are settled in that noise and money changes hands on what people believe they heard. A bid misheard is a real loss to somebody, and disputes are settled on the spot by people who have been trading with each other for years.",
-    "who_is_involved": "The crews who landed the catch; the auctioneer who calls; the buyers, many of them regulars who know each other's signs; the carriers, ice sellers and small traders whose day depends on the sale going quickly.",
-    "what_is_at_stake": "A day's earnings for a crew whose catch will not keep, and a margin for a buyer who has to resell it the same day. For the auctioneer, the standing that comes from being trusted to have heard correctly.",
-    "how_it_unfolds": "Trade like this begins when the boats come in and is over fast, because the goods spoil. The pressures are the weather, the size of the catch and how many buyers turned up. It ends with everything sold, with a lot left unsold, or with a dispute nobody planned. Neither the wind nor the prices can be arranged."
+  "logline": "On a limestone ridge above a valley of paddy, pepper and clove, a hill is taken apart by drill, charge and crusher, and every word anybody needs to say up there has to cross the same air as the machine.",
+  "human_question": "A shouted word and a machine's roar reach the ear as the same kind of thing. What is it that only one of them has?",
+  "place": {
+    "what_kind_of_place": "A worked limestone hill at about four hundred metres, cut back in benches, standing over a valley of paddy, vegetable plots and home gardens of pepper and clove. On the hill: a drilling rig, a compressor, a loader, a crusher plant and a conveyor, a weighbridge, lorries queuing on a steep haul road, and a blasting routine that stops everything two or three times a week. Below it, within easy earshot, an ordinary working village that has the hill in its air all day and did not ask for it. Around both, the wet slopes of a range where the monsoon arrives like a decision.",
+    "why_it_is_worth_watching": "It is a place with two soundtracks laid over one another and only one horizon. From the air the geometry is severe and beautiful: white benches stepped into green, the haul road switching back, dust standing in the valley in the hour after a blast, and then the green closing over again a few hundred metres out. On the ground it is a study in people making themselves understood in impossible conditions: a man a metre away shouting twice and then giving up and using his hand, a whistle, a raised arm, a counted warning, the flat crack of a charge, and afterwards the crusher going for nine hours without a pause. And then the weather arrives and takes both of them away, and for twenty minutes the loudest thing on the ridge is water.",
+    "what_moves_or_changes": "The hill, permanently and in one direction. A bench is drilled, charged, fired and loaded out, and the face moves back; the profile in the drone shot in March is not the profile in September. Nothing else follows a schedule the film can rely on: the blast happens when the shot is ready and the wind is right, the crusher runs while there are orders, the lorries come when they come, and the monsoon shuts the whole thing down for a day at a time.",
+    "when_it_looks_best": "The turn of the monsoon, when hard, dusty working days alternate with hours of rain and cloud sitting on the ridge, which is what gives the film its second kind of sound without arranging anything. Within a day: first light, when the valley is under mist and the plant has not started; and the last hour, when the crusher stops and the sound of the place comes back."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a hill being removed and a village living underneath the process. Benches, drills, dust, a shot fired, a loader working a muck pile, a crusher running, lorries on a switchback, rain arriving across the range and stopping everything, and the strange quiet at the end of a shift. It has its own complete shape with nothing said over it: a day from mist to mist. Anyone who likes watching big work in big country has a whole piece here.",
+    "with_the_philosophy": "The same day becomes the sources' own worked example, standing on a real ridge. These texts sort every kind of matter by what produces it, and they note that one kind is produced by exactly two makers: sound comes from mind, as speech, and from heat, as everything else that is loud. One of the source books offers the example directly, a voice and the wind in the trees, and says a place where both are heard at once needs no explanation. Here both are heard at once for nine hours. The film does not say that the machine is bad and the voice is good. It says that only one thread in all that noise is being meant by anybody, and that when that thread is drowned, the meaning does not die with it; it moves into a hand."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from above. Mist in the valley, home gardens and paddy under it, and above them a limestone hill cut into white benches with a haul road switching back up it. Nothing running yet.",
+      "voice": "Everything on this ridge this morning is quiet. In a few hours the hill will be the loudest thing in the valley, and everyone who works on it will have to get their words across the same air the machines are using.",
+      "concept_id": "C069"
+    },
+    {
+      "on_screen": "The village below, waking: a radio through an open door, two people talking across a garden fence, a bicycle, a bell, birds. Filmed wide, nobody singled out.",
+      "voice": "The old analysis counts sound as a kind of matter, not as a report about matter: something heard by the ear, standing on the four great behaviours of everything physical [C065-P:L46]. Then it does something more useful. It asks what makes each kind, and finds that sound has exactly two makers: a mind, and heat [C069-P:L76; C069-P:L86].",
+      "concept_id": "C069"
+    },
+    {
+      "on_screen": "On the bench. A drill rig working, the compressor beside it. Two men a metre apart. One says something, says it again louder, then stops and turns his hand over in the air. The other nods and moves.",
+      "voice": "One of the books puts the distinction as plainly as anyone could want: a voice speaking and the wind in the trees are both sound, but one comes from a mind that means something and the other only from weather [C069-M:L9]. And when the voice cannot get through, the sources have already described what happens next. A person makes their meaning known by moving a limb, or by sound from the mouth, and someone else knows what is meant [C066-P:L36].",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "Charging the shot: cartridges down the holes, stemming, the wire run out. The warning: a whistle, a shouted count passed along the bench, arms up, everybody in behind the bund. Then waiting.",
+      "voice": "They are careful about where the meaning actually sits. It is not the waving hand. It is a mode of the mind-made air that moves the hand at all, and only a mind can produce it [C066-P:L40–L44; C069-M:L7; C069-P:L46–L49]. So the whistle he just blew is not speech in this scheme, however much it means. The count he shouted is.",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "The blast. A ripple along the face, the lift, the flat crack arriving late, dust rolling out and down towards the valley. Then the muck pile, and the loader starting.",
+      "voice": "The same book is exact about how sound gets made. Some of it comes from things striking each other, a drum, a voice. And some of it comes from bound things coming apart: wood splitting, a charge going off, a vessel breaking [C065-P:L52]. That is the hill making its sound by ceasing to be one thing.",
+      "concept_id": "C065"
+    },
+    {
+      "on_screen": "The crusher running: feed, jaw, conveyor, screens, a lorry loading. Two men at the control platform, close together, using almost no words and a lot of hands. Below, the valley going about its day inside the same noise.",
+      "voice": "Nine hours of this, and almost none of it is made by a mind. In their sorting, speech is one of the fifteen kinds that come from mind, and sound turns up again among the thirteen that come from heat [C069-P:L76; C069-P:L86]. From the ear's side it is all one substance. Only one thread in it is being meant by anybody, and that thread understands nothing unless the hearer has heard it before [C066-P:L62].",
+      "concept_id": "C069"
+    },
+    {
+      "on_screen": "Weather arriving across the range. The plant shutting down, machines going quiet one by one, rain on tin, water running white off the benches, cloud on the ridge. Nobody speaking.",
+      "voice": "The author has a model for how any of this reaches an ear, and it is his model rather than a measurement, so it is worth saying so. A sound, he writes, dies where it is made and never travels; what arrives at you is a kind of image of it, passed along through space that is full of fine matter, which is why you see the lightning and hear the thunder afterwards [C065-P:L56; C065-P:L60]. The other book only says a sound arises from striking and bursting, and that its line does not run for long [C065-M:L11].",
+      "concept_id": "C065"
+    },
+    {
+      "on_screen": "Last light. The crusher stopped. The cut face raw and white, the haul road empty, the valley's own sound coming back: water, insects, a voice a long way off, a lorry changing down somewhere below.",
+      "voice": "One last piece of their sorting, because the hill is smaller tonight than it was this morning. Growth, continuity, decay and breaking up, they say, come from no maker at all; they are not things in their own right, only features of everything else [C069-P:L51–L56]. So the hill's going is not something extra being done to it. This film makes no claim about who should be on this ridge, or what should be taken from it. It only points at the air, which carries both kinds of sound and does not distinguish between them.",
+      "concept_id": "C069"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C069 contributes the sorting of the twenty-eight kinds of matter by origin, and with it the single case where one kind comes from exactly two: sound is produced by mind, as speech, and by temperature, as the noise of wind. C065 contributes sound as one of the five sense objects, derived matter that the sources say arises from striking and does not last long as a series. C066 contributes intimation, the mode by which a movement of the hand or a spoken word carries what someone means. An auction in the open air holds all three at once: a voice, a gale, and a hand sign that says a number when the voice cannot.",
-    "what_it_reveals": "On its own the mind-born and temperature-born split is a line in a table. Here it is the working problem of a trade: two sounds of the same kind, one of which means something and one of which does not, and people whose money depends on telling them apart in the moment. Adding intimation shows that the meaning was never in the sound itself. When the sound is taken by the wind, the meaning moves into a hand and arrives anyway."
+    "why_together": "C069 supplies the sorting and, with it, the film's premise. The sources classify every kind of matter by which of the four origins can produce it, and sound falls to exactly two of them: mind, as speech, and temperature, as everything else, so that it appears both in the fifteen mind-born kinds and in the thirteen heat-born [C069-P:L76; C069-P:L86]. The Margaya offers the example itself, a voice and the wind in the trees, one meant and one not [C069-M:L9], and holds that intimation comes from mind alone [C069-M:L7; C069-P:L46–L49]; it also holds that the characteristics of matter come from no origin at all, being only features of other matter [C069-P:L51–L56]. C065 supplies the physical account: sound is derived matter that the ear grazes on, dependent on the great elements [C065-P:L46]; speech-sound arises when mind-produced air strikes at the points of articulation, and heat-born sound exists alongside it [C065-P:L50]; some sound comes of things striking and some of bound groups coming apart, a charge going off among the examples given [C065-P:L52]; and a sound dies where it arises, reaching the ear only as a carried image, which is the author's explanation for seeing lightning before hearing thunder [C065-P:L56; C065-P:L60; C065-M:L11]. C066 supplies the hand. Meaning is made known by a moved limb or a sound from the mouth, the carrier is a mode of mind-made matter rather than the movement itself, and it is understood only by someone already familiar with it [C066-P:L36; C066-P:L40–L44; C066-P:L62]. On a working quarry bench the three of them stop being a table and become the conditions of employment.",
+    "what_it_reveals": "That the difference between a voice and a roar is not audible. Both arrive as the same kind of matter, from makers the ear cannot distinguish, and the thing that separates them was never in the sound. The proof is on the bench every hour: when the sound is lost, the meaning is not, because it can leave the air entirely and arrive in a raised hand. C069 alone is a line in a table of origins. C065 alone is a theory of hearing that must not be mistaken for acoustics. C066 alone is a term of art. Together, in one valley with two soundtracks in it, they let a viewer watch meaning survive the loss of its own carrier."
   },
   "concept_links": [
     {
       "concept_id": "C069",
       "role": "primary",
-      "why": "The digest gives this distinction directly, and even suggests the situation: a voice speaking and the wind in the trees are both sound, but one comes from a mind that means something and the other only from weather, and a place where both can be heard at once, a voice calling over a gale, holds the distinction without anyone having to explain it. In the origin tables, sound is the one kind produced by exactly two origins."
+      "why": "The digest sorts the twenty-eight kinds of matter by origin and gives this film its structure: sound is produced by mind as speech and by temperature as the noise of weather and everything else, so it appears in both the fifteen mind-born and the thirteen heat-born tallies [C069-P:L76; C069-P:L86]; intimation comes from mind alone [C069-M:L7; C069-P:L46–L49]; and the four characteristics come from no origin at all, being features of other matter rather than things [C069-P:L51–L56]. The digest also proposes the situation in its own words, a voice speaking against wind in the trees, and says a place where both are heard at once holds the distinction without explanation [C069-M:L9]; that sentence is the film, moved off a beach and onto a working ridge. Every limit in the digest is honoured. The film never says or implies that anybody's body, faculties or circumstances are the product of their past action, which is the digest's first and sharpest warning, and it keeps all four origins off every person in frame by making its only subject the air. It does not offer 'mind over matter', and it does not let 'temperature' slide into weather or climate: the narration uses the source's own examples and says plainly when it is quoting a scheme rather than describing the world."
     },
     {
       "concept_id": "C065",
       "role": "supporting",
-      "why": "The digest counts sound among the five sense objects, derived matter dependent on the great elements, and reports the source's account that what reaches the ear is an effect carried through space rather than the sound itself, which dies where it was made. The digest says plainly that this is the author's explanatory model and not acoustics, so the film may not present it as one."
+      "why": "The digest counts sound among the five sense objects as derived matter dependent on the four great elements and grazed on by the ear [C065-P:L46], and explains its production twice over: speech-sound arises when mind-produced air strikes at the places of articulation, with heat-born sound alongside it [C065-P:L50], and sound comes both from things striking, a drum, a voice, and from bound groups separating, wood splitting, a charge exploding, a vessel breaking [C065-P:L52]. That second line is why a blasting face is the right place for this film rather than a decorative one. The digest's account of how a sound reaches an ear, that it dies where it arises and travels only as an 'image' through space holding fine matter, with lightning and thunder as the illustration [C065-P:L56; C065-P:L60], is spoken on screen as the author's explanatory model and flagged as such in the same breath, exactly as the digest requires, and the Margaya's plainer statement is given beside it [C065-M:L11]. Nothing in the film claims the texts anticipated acoustics or that the senses lie. The digest's sex-determining, heart-base and nutriment passages, all of which it marks as needing expert framing, are not used at all."
     },
     {
       "concept_id": "C066",
       "role": "supporting",
-      "why": "The digest describes the two kinds of intimation as the modes of matter through which a bodily movement or a spoken sound conveys what someone means. An auction conducted in hand signs as much as in shouts is that pair working side by side. The digest also rules out reading intimation as a guide to body language, so it stays a question about how meaning is carried, not a study of gesture."
+      "why": "The digest describes the two intimations as the modes of matter by which a bodily movement or a spoken sound conveys what someone means [C066-P:L36], and is precise that the carrier is not the movement itself but a mode of the mind-born air element that causes it [C066-P:L40–L44], and that a hearer understands only sounds already familiar [C066-P:L62]. A bench where a shouted instruction fails and a hand finishes the sentence is those three lines happening on their own. The digest's prohibition is kept in the narration itself: intimation is never presented as body language, gesture-reading or communication technique, and the film says out loud that the meaning is not in the hand. The digest's embryological figures and its remarks about the brain are not used, and no person in frame is offered as an illustration of anything."
     }
   ],
-  "what_the_viewer_could_understand": "A shouted bid and a gust of wind are the same kind of thing to the ear. These texts say one is made by a mind that means something and the other only by the weather, and that when the sound itself is lost, the meaning can still be carried by a hand.",
-  "what_must_be_real": "Real catches, real prices and real trade. No sale re-run and no call repeated for sound. The sources' account of how a sound reaches an ear may not be offered as a description of acoustics.",
-  "position_hint": "middle: it sits after the films about the body's own upkeep and before the films about a single sense, because it is the one place in the group where the same sense object arrives from two different makers at once.",
+  "what_the_viewer_could_understand": "That a shouted word and a machine's noise are the same kind of thing to the ear, made by different makers, and that the difference between them was never a property of the sound. When the noise wins, meaning does not stop; it leaves the air and arrives in a hand. Nothing here is a claim about the people on the ridge or in the valley.",
+  "what_must_be_real": "The quarry's own working day and the village's own day, both as they actually are. No blast is fired, delayed or repeated for the camera, no warning is re-staged, and nobody is asked to say anything twice. Safety distances and the shot-firer's instructions govern everything, and the film stops rather than stands anywhere it should not. The dispute between a worked hill and the people who live under it is real, documented and not this film's subject, and it must be neither laundered by beautiful footage nor used as material: no resident's complaint becomes texture, and no worker is made to stand for a machine. If the only way to film here is to take a side in a live argument, it is not filmed.",
+  "position_hint": "middle: it is the one place in the group where a single kind of matter is seen arriving from two different makers at once, so it works after the films that establish the elements and the groups, and before any film about a single sense.",
   "risks": [
-    "A sound-design exercise with no human stake in it.",
-    "Traders' livelihoods used as a setting for an idea about hearing.",
-    "Reading 'sound dies where it arises' as physics.",
-    "Reading intimation as body-language technique, which the digest rules out."
+    "Letting the sources' account of how sound reaches the ear be heard as acoustics, or as evidence that the texts anticipated science.",
+    "Reading intimation as body language or as a technique for interpreting people, which the digest rules out.",
+    "Allowing 'temperature' to be heard as weather or climate, when the sources mean the heat element as a producing condition.",
+    "A sound-design exercise with no human stake in it, which is the risk the digest itself names for this material.",
+    "Aestheticising an operation that a village is in dispute with, or conversely turning the film into an argument about quarrying, which it is not equipped to make.",
+    "Using workers or residents as illustrations of a doctrine about minds, bodies or past action; nobody in frame is an exhibit.",
+    "Filming anywhere near a charged face, or in any way that puts a crew inside a shot-firer's problem."
   ],
   "drop_if": [
-    "No real open-air trade conducted by voice during the research window.",
-    "No consent from the traders and crews."
+    "No blasting or crushing takes place during the research window, so the film has only one order of sound in it.",
+    "The operators will not have a crew on site, or the village will not have one either; both consents are needed, not one.",
+    "The only way to make it is to arrange a blast, a warning or a conversation for the camera.",
+    "The dispute is at a stage where any filming would be used by one side against the other."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0115",
-      "relation": "pairs with",
-      "note": "Two senses under pressure: sound lost to wind, colour lost to shifting light."
-    },
-    {
       "idea_id": "IDEA-0116",
       "relation": "pairs with",
-      "note": "One asks what a voice loses when the wind takes it; the other what a voice loses when a machine keeps it."
+      "note": "Two films on the same account of sound: one where two orders of it fight for the same air, and one where a sound comes back off a wall with nobody behind it."
+    },
+    {
+      "idea_id": "IDEA-0115",
+      "relation": "pairs with",
+      "note": "Two senses under pressure: sound lost to a machine, colour lost to shifting light."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0061, and the digest for C069 all but proposes the situation itself; now strengthened with bodily intimation, which the hand signs genuinely carry."
+    "reason": "The C069 digest all but writes the film, and this location supplies the two orders of sound for nine hours a day without anything being arranged."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. What was dropped: the fish landing and the auctioneer calling over wind and surf, which is a banned archetype in this slate and which the C069 digest had itself proposed as a story seed. The concept was kept exactly, sound arriving from two makers into one air, with the hand finishing what the voice cannot, and the film moved to a working limestone quarry where the second order of sound is machinery rather than weather, and where the monsoon supplies the weather anyway. All three concepts were re-read from the digests; C069 stays primary, C065 and C066 stay supporting, and every citation was verified against digest evidence rather than carried over from the old text. The digest's limits on presenting the author's hearing model as acoustics, and on reading intimation as body language, are now carried in the narration itself rather than only in the risks.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The limestone quarries above Kawudupelella, in the hills north of Matale",
+    "also_known_as": [
+      {
+        "name": "hunu gal",
+        "meaning": "limestone: the rock burned for lime and crushed for cement and building stone",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "gal wala",
+        "meaning": "the quarry or pit itself, the everyday word for a worked rock face",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Matale District, Central Province: a village at about four hundred metres on the slopes below the Knuckles foothills, roughly eleven kilometres from Matale town, in paddy, vegetable, pepper and clove country",
+    "coordinates": {
+      "lat": 7.583,
+      "lng": 80.633
+    },
+    "why_here": "Because it gives the concept for nine hours a day without anybody arranging it. Two limestone quarries work directly above a small farming village, which means the two orders of sound the sources distinguish, the made-by-mind and the made-by-heat, are not a comparison the film has to construct: they occupy the same valley air from the first drill to the end of the shift, and the second one is loud enough to make the first fail regularly, which is when the hands come out. The country also supplies the weather half of the source's own example, since the monsoon comes over this range hard enough to stop the plant and leave the ridge with nothing on it but water noise. Visually it is severe and legible from the air, white benches stepped into green with a haul road switching back and dust standing in the valley after a shot, and the film's subject, a hill that is smaller at dusk than at dawn, is measurable between two drone passes.",
+    "what_to_film": [
+      "The ridge from height at first light, with mist in the valley and nothing running, and again at the end of a working day.",
+      "The village's ordinary morning air, filmed wide: a radio, voices across gardens, a bell, birds, with the hill visible above it.",
+      "Drilling on the bench with the compressor beside it, and the point at which two men a metre apart stop speaking and start using their hands.",
+      "The whole warning routine before a shot: whistle, called count, arms, the walk to cover, the wait.",
+      "The blast from a safe distance and from the air, with the delay between the lift and the sound arriving left intact.",
+      "The crusher plant running continuously: feed, jaw, screens, conveyor, and the control platform where the work is done by gesture.",
+      "The monsoon arriving across the range and shutting the plant down, filmed and recorded from the ridge and from the valley.",
+      "The last half hour after the plant stops, when the valley's own sound comes back."
+    ],
+    "access": "By road from Matale town up towards the hill villages. Two consents are needed and neither is a formality: the quarry operators, who control every metre of a blasting site and whose shot-firer's instructions are not negotiable, and the village below, which is in a documented dispute with the operation and has no reason to welcome a camera that arrives through the gate. Flying over a licensed blasting site needs the operators' agreement and probably more than that.",
+    "best_time": "The turn of the monsoon, for days that alternate between hard dusty working and hours of rain on the ridge, which is what gives the film both kinds of sound. Within a day, first light for the valley under mist and the last hour for the plant shutting down. The blasting calendar, which decides the film's fifth beat, belongs to the operators and cannot be planned around from outside.",
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kawudupelella",
+      "https://www.slideshare.net/slideshow/impact-of-limestone-quarries/74750460",
+      "https://www.agg-net.com/resources/articles/drilling-blasting/quarry-operations-in-tanzania-and-sri-lanka"
+    ],
+    "research_note": "That this is a village in Matale district about eleven kilometres from the town, at roughly four hundred metres, that two active limestone quarries work within it and have been expanding, that the surrounding cultivation is paddy, vegetables and home-garden pepper and clove, and that residents report blasting, dust and erosion as their main problems, are from the sources above and are desk research only. The published material on the place is a study of the quarries' impact on the village, so the film's own account of the operation, drill, charge, shot, crusher, haul road, is generic quarrying practice and is not verified at this site. The coordinates are the village's, not either quarry's. Nobody has been approached, no operator or resident has been asked anything, and the state of the dispute today is unknown. No image of this site, and no usable image of Sri Lankan quarrying, was found on Wikimedia Commons, so the images list is empty rather than filled with something from elsewhere.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether either operator would allow filming at all, and whether the village would agree to a crew that had also been through the quarry gate.",
+    "The blasting frequency and schedule, which the film's central beat depends on entirely.",
+    "The present state of the dispute, and whether a film that takes no side is possible there at all.",
+    "Whether a drone can be flown over a licensed blasting site, and under whose permission.",
+    "Whether the two quarries are both working, since the published material is several years old."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

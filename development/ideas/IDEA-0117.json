@@ -2,61 +2,184 @@
   "schema_version": 1,
   "id": "IDEA-0117",
   "record_type": "idea",
-  "title": "Borrowed Parts",
+  "title": "Nothing Arrives Alone",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Borrowed Parts"
+  ],
   "group_id": "GRP-07",
-  "logline": "Over several visits to a limb-fitting workshop, a newly made leg goes from a cast to a first careful walk, and the words its wearer uses for it change along the way.",
-  "human_question": "At what point does something made by other hands become 'my leg'?",
-  "situation": {
-    "what_happens": "A person is measured and cast for a prosthesis, a socket is shaped and ground, and over several visits it is fitted, walked on, found uncomfortable, adjusted and walked on again. Weeks later it is either in daily use or it is not.",
-    "who_is_involved": "The wearer; the technicians who make and adjust the limb; the household and workplace the wearer returns to.",
-    "what_is_at_stake": "Mobility, work, independence and cost, on the wearer's own terms and in the wearer's own words.",
-    "how_it_unfolds": "Fittings run over weeks and the outcome is not known in advance: some limbs are used daily, some are used rarely, and the reasons are practical rather than inspirational."
+  "logline": "In a shed among coconut trees a few kilometres inland, a fifteen-metre hull is grown inside a mould that already has its exact shape, and then measured, cut, lowered onto, ground into and filled against a second moulded shape until the two can no longer be told apart.",
+  "human_question": "When something is made to an exact shape, what is it that actually takes the shape?",
+  "place": {
+    "what_kind_of_place": "A boat shed on a small inland industrial estate in coconut country, a few kilometres from a river mouth. Inside are female moulds: hollow polished shells, the size of a house, that hold the exact reversed form of a hull and of a deck. Boats are not carved or planked here. They are laid up: wax and release agent, a sprayed skin of coloured gelcoat, then mat and cloth and resin rolled down layer on layer against the inside of the mould until a hull exists where before there was only a shape. Then the shell is released, the deck is made the same way in its own mould, and the two are measured, trimmed, lowered together, bonded, ground back and filled until the join is not visible. Around this a yard holds finished and half-finished hulls upside down in the open, lorries, staging, drums, and a great deal of white dust.",
+    "why_it_is_worth_watching": "Because the most beautiful object in the place is empty. A polished mould with nothing in it is a perfect form lying on its side, catching light like water; the hull that comes out of it is the same form turned inside out. Between the two, for a few days, the material is neither: a warm, translucent, stinking sheet of glass and resin that can be pushed into a corner with a thumb and then cannot be moved at all. From above, the yard reads as a line of white shells among palms, all the same shape, none of them yet anything. And the work itself is exactly what the concept needs: measuring, cutting, offering up, taking down, adjusting, offering up again, until a thing sits in a place it was made for.",
+    "what_moves_or_changes": "The state of the material, on a clock nobody controls. Resin has twenty minutes or so of working time and then heats itself and sets; a laminate is soft, then warm and rubbery, then rigid, and the window for pressing a wrinkle out closes while you are looking at it. Everything else is the yard's own order: hulls released, decks lowered, joins ground, a boat that is a month from a buyer. Weather matters because humidity and heat change how the resin goes off.",
+    "when_it_looks_best": "Whenever a big hull is in the mould, which is a matter of the yard's order book and not of the season. Within a day: early morning, when the light through the roof sheets is flat and the shed is still cool enough to lay up in, and late afternoon in the open yard, when raking light finds every fairing line on an upturned hull."
   },
+  "two_layers": {
+    "without_the_philosophy": "A process film about how a large boat is made out of liquid. Polished moulds, coloured gelcoat going on in a fine spray, rollers working air out of wet glass, a shell breaking free of its mould, a deck coming down onto a hull on slings, grinders and dust and masks, filler, sanding, the long flat curve of a finished hull in evening light. It has its own shape without a word over it: an empty mould at the start, a boat on a lorry at the end. Anyone who likes watching skilled work has a complete piece here.",
+    "with_the_philosophy": "The same week becomes the sources' claim that matter never turns up on its own. In this analysis nothing material arrives as a single quality: the smallest possible event is already a group whose members begin together, end together and rest on the same support, and every such group carries hardness, cohesion, heat, motion, colour, smell, taste and nourishing essence together whether it is steel, resin, sand or a hand. The mould can dictate a shape. It cannot supply a single quality on its own, and neither can anyone in the shed. The voice never says the boat is a body. It says that outside a living body the sources count only two kinds of group at all, and that everything in this building is one of them."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light from above: a long shed roof among coconut palms, a yard beside it with upturned white hulls in a row, all the same curve, and a river somewhere beyond the trees.",
+      "voice": "Every shape in this yard came out of another shape. Nothing here was carved. The boats are grown inside moulds that already hold their exact form, reversed.",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "Inside. A female mould, empty: a polished hollow the size of a house, waxed, wiped, catching the light along its whole length. Then gelcoat going on in a fine coloured spray.",
+      "voice": "The old analysis is strict about what can arrive by itself, and the answer is nothing. Matter comes in bound groups whose members arise together, cease together, rest on the same support and stand or fall as one [C070-P:L18]. A mould can insist on a shape. It cannot hand you one quality without the others.",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "Resin measured and catalyst stirred in; pigment folded through; the mix poured out over glass mat and rolled down. A gloved hand laid flat on the laminate, feeling for the heat coming up out of it.",
+      "voice": "The sources give four behaviours that everything physical has at once: it resists, it holds together, it warms and ripens, it pushes and moves [C064-P:L56; C064-P:L74; C064-P:L110]. What changes from one thing to the next is only which of them is winning [C064-P:L118]. Right now, in this sheet, it is heat.",
+      "concept_id": "C064"
+    },
+    {
+      "on_screen": "The laminate through its working window: soft and pushable, then rubbery and hot, then rigid. Somebody tries to press a wrinkle out and is a minute too late. A trimming knife along the flange.",
+      "voice": "They are exact about heat, and it is the least comfortable thing they say. One and the same warmth ripens a thing and then wears it out; what builds it is what finishes it [C064-P:L78; C064-M:L15]. The resin is setting because it is heating itself. From this afternoon on, that same heat is only ageing it.",
+      "concept_id": "C064"
+    },
+    {
+      "on_screen": "The release: wedges, air, a shell of hull breaking free of the mould and lifting on slings. The mould left behind, still perfect, still empty.",
+      "voice": "One of the texts tries a kitchen picture here. Four flours kneaded into one ball: ask where the rice flour is and you can only say it is inside the others [C070-M:L5–L7]. Then it does something unusual for a teaching book. It says the picture fails, because in dough the specks are still separate and in a group of matter there is no gap at all.",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "Measuring and fitting: tape and batten along a sheer line, a deck moulding lowered on slings, checked, lifted, packed, lowered again. Bonding paste. Two men sighting along the join from opposite ends.",
+      "voice": "Everything in this shed, the sources would say, is made by heat. In their scheme, warmth produces the whole inanimate world, and food produces nothing at all outside a living body [C068-P:L225–L241; C068-P:L282–L291]. Of the twenty-one kinds of group they count, only two occur outside living beings, and everything in here is one of them [C070-P:L130; C070-M:L50].",
+      "concept_id": "C068"
+    },
+    {
+      "on_screen": "Grinders, filler, long boards, white dust standing in the air of the shed and settling on everything and everybody. The join between hull and deck being worked until it cannot be found.",
+      "voice": "And they say the whole outside world is the same small set, differing only in which element is strongest in it [C070-M:L52]. The resin, the glass, the steel of the tools, the dust on the floor, the floor. Not one of those is more or less made than another. The join disappearing under that board is not two things becoming one. It is groups arriving, in the only way they ever arrive.",
+      "concept_id": "C070"
+    },
+    {
+      "on_screen": "Last light in the open yard: the finished hull, faired and polished, a hard clean curve with the sky in it. Then a plain shot of the mould it came out of, back in the shed, empty again.",
+      "voice": "The texts have one more thing to say about a gleaming surface, and they say it about the elements themselves, not about anyone looking. The four of them, they write, work like a conjurer: the same ordinary behaviours arrange themselves into what looks like gold, and the eye is taken in [C064-P:L20–L36]. They mean this about matter, and this film keeps it there. Nothing in the shed, and nobody in it, is the trick.",
+      "concept_id": "C064"
+    }
+  ],
   "concept_merge": {
-    "why_together": "None survives review. The proposed merge rested on treating a fitted limb as a test case for 'clung-to' matter, and the C067 digest does not support that reading: clung-to matter there names a psychological grip that the sources apply to the eighteen kamma-born kinds, and it is explicitly not a claim about bodily ownership or autonomy. No other link in the group's concept set carries this situation without importing what the digests forbid.",
-    "what_it_reveals": "Nothing that survives the philosophy check. The record is kept so that the reasoning is not lost, not as a proposal."
+    "why_together": "C070 supplies the claim that makes a fitting shop worth a film. Matter never arises singly; it arises in bound groups whose members arise together, cease together, take one support and exist together [C070-P:L18]; every group carries the same eight inseparables; the source's own flour-ball image is offered and then withdrawn as insufficient [C070-M:L5–L7]; only two of the twenty-one kinds of group occur outside living bodies, the other nineteen belonging to living beings alone [C070-P:L130; C070-M:L50]; and everything in the outside world is the same basic group with one element predominating [C070-M:L52]. C064 supplies the four behaviours themselves, as behaviours and not substances: hardness with its function of support, cohesion which cannot be touched, heat which both ripens and wears out, motion which props and moves, and the rule that things differ by which of them predominates [C064-P:L56; C064-P:L74; C064-P:L78; C064-P:L110; C064-P:L118; C064-M:L15]. C068 supplies the boundary that keeps this out of the body altogether: warmth produces the entire inanimate world, food produces nothing outside a living body, and the nine kinds reserved to past action are not present in anything made in a shed [C068-P:L225–L241; C068-P:L282–L291; C068-P:L48]. Put in a moulding shop, the three of them stop being a table of kinds and become a description of the week's work.",
+    "what_it_reveals": "That 'made to an exact shape' describes a form and says nothing at all about what took the form. A mould, a measurement and a fitted join are the clearest available demonstration that shape is lent while matter arrives on its own terms, always in company, never as a single quality, and never as anybody's. C070 alone would be a diagram. C064 alone would be four words on a wall. C068 alone would draw a line around living bodies without showing what falls outside it. Together in a shed where a thing is brought to a tolerance, they let the viewer watch a shape being imposed and a material refusing, politely and completely, to be one thing."
   },
-  "concept_links": [],
-  "what_the_viewer_could_understand": "Nothing is proposed. The idea is not carried forward in this group.",
-  "what_must_be_real": "Not applicable: the idea is dropped. Were any related situation ever revisited, the wearer's own story, pace and language would have to lead it entirely, and no doctrinal account of bodies or faculties could be offered to them or laid over them.",
-  "position_hint": "none: dropped at review, so no position is proposed.",
+  "concept_links": [
+    {
+      "concept_id": "C070",
+      "role": "primary",
+      "why": "The digest's core claim is the film: matter never arises alone but in groups whose members arise together, cease together, share one support and exist together [C070-P:L18], every group carrying the same eight inseparables. Its flour-ball simile, and the source's own admission that the simile fails because flour specks stay separate while members of a group do not [C070-M:L5–L7], is spoken on screen with the withdrawal included, exactly as the digest insists. The claim that only two of the twenty-one groups occur outside living bodies and that nineteen belong to living beings alone [C070-P:L130; C070-M:L50] is what keeps this film entirely outside the body, and the line that the whole outer world is the same group differing only in which element predominates [C070-M:L52] is spoken over the one shot where a dozen unlike materials are visibly the same dust. The digest's corrections are kept: a group is never called an atom, a molecule or a particle, and no chemistry is claimed; the inseparability is not softened into 'everything is connected'; and the statement that plants are pure octads, which the digest flags as needing expert framing, is not used at all."
+    },
+    {
+      "concept_id": "C064",
+      "role": "supporting",
+      "why": "The digest gives the four great elements as four behaviours rather than four materials: hardness whose function is support, cohesion which cannot itself be touched, heat which ripens and so causes both growth and decay, and distension and motion, with the variety of things produced by which of them predominates [C064-P:L56; C064-P:L74; C064-P:L78; C064-P:L110; C064-P:L118]. That is why a laminate curing by its own exotherm is a full statement of the concept and not an illustration of it, and the digest's hardest line, that the same warmth that builds a thing later wears it out [C064-P:L78; C064-M:L15], is spoken over the moment the resin goes off. The digest's limits are load-bearing here. The elements are never presented as alchemy, as a rival chemistry or as something to 'balance' for health. The claim that the sense-sensitivities are shaped by past wanting is not used anywhere, and nothing in the film touches any person's senses, since no body is a subject in it. The conjurer image for the word 'great' [C064-P:L20–L36] is used about a painted surface and explicitly not about any person, and the accompanying mythic material, including the yakkhinī comparison that the digest warns against using uncritically, is left out."
+    },
+    {
+      "concept_id": "C068",
+      "role": "supporting",
+      "why": "The digest sorts the four origins and, in doing so, draws the line this film needs. Temperature produces matter inside and outside living beings and accounts for the whole inanimate world [C068-P:L225–L241]; nutriment produces matter only in a living body, when outside nutritive essence meets the body's own [C068-P:L282–L291]; and nine kinds, the five sense-sensitivities, the two sex-kinds, the life faculty and the heart-base, come from past action alone [C068-P:L48]. A boat is therefore made entirely of what the sources treat as heat-made matter, and nothing in the shed is in the category the group's ethical floor is built around. The digest's warnings are honoured by subtraction: its own caution that a pleasing appearance or voice, and the absence of a faculty, must never be explained on film by past action is kept by giving the film no human body as a subject at all, and by letting the one 'ownership' question in the film be about a hull. The scholastic cluster counts are not narrated as physiology, and 'temperature' is never softened into weather or climate."
+    }
+  ],
+  "what_the_viewer_could_understand": "That a shape can be given to something exactly, and that this tells you nothing about what has taken the shape: in this analysis nothing material ever arrives as a single quality, every arrival is already a group of eight that stand or fall together, and outside a living body the whole world is two such kinds differing only in which quality is strongest. What a mould lends is a form. What turns up in it was never anybody's.",
+  "what_must_be_real": "The yard's own work and order book. Nothing is re-run for a camera: no laminate is laid up again for a better angle, no deck is lowered twice, and no one is asked to repeat a fitting. The conditions are filmed as they are, including resin fumes, dust, heat and whatever protective equipment is or is not in use, and the film does not make a hazard look handsome. Nobody in the shed is presented as an example of anything, and no worker's body, hands or face is used to illustrate a doctrine about bodies. If filming would slow a job that somebody is paid by, it stops.",
+  "position_hint": "early: it is the group's plainest statement that matter arrives in company and never alone, and the later films assume it. It should come before anything that counts kinds of matter in a living body, because it establishes the counting outside one.",
   "risks": [
-    "Using a disabled participant as the vehicle for a doctrine that the digests forbid applying to any real person's body.",
-    "Exploiting injury or conflict history.",
-    "A triumph-over-adversity arc imposed from outside."
+    "Letting a group of matter be heard as an atom, a molecule or a particle, which the digest rules out.",
+    "Presenting the flour-ball simile as the teaching, when the source itself says it fails.",
+    "Turning the four elements into alchemy, a periodic table or wellness language about balance.",
+    "Letting 'made to an exact shape' drift towards bodies, prostheses, fitting or repair of any person, which this group's digests forbid and which is exactly what the old version of this idea did.",
+    "A beautiful process film about craft in which the doctrine is a voice-over decoration and the workers are texture.",
+    "Ignoring the real conditions of the work: solvent fumes, glass dust, heat and the economics of a boat somebody has borrowed to buy.",
+    "Using the conjurer image about a person rather than about matter, or reproducing the digest's mythic material uncritically."
   ],
   "drop_if": [
-    "Already dropped at review."
+    "No hull is in a mould during the window available, so the film's middle has nothing in it.",
+    "The yard will not have a crew inside, or filming cannot be done safely around resin and grinding work.",
+    "The only way to get the sequence is to ask the yard to stage a layup or a fitting."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0124",
-      "relation": "replaced by",
-      "note": "The group's work on what is held as 'mine' is carried by IDEA-0124, where the sources' own examples, the sense organs, are the subject."
+      "idea_id": "IDEA-0116",
+      "relation": "mirrors",
+      "note": "Both watch a made thing from the inside: one being brought to an exact shape, one that has outlived everything it was shaped for."
     }
   ],
   "selection": {
-    "recommendation": "drop",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "The primary link misreads the source: the C067 digest defines clung-to matter as a psychological grip applying especially to the eighteen kamma-born kinds, and says explicitly that it is not a claim about owning a body, so a manufactured limb cannot be an instance of it. Beyond the misreading, the situation would place a disabled participant inside a doctrinal frame that the C064, C068, C069 and C071 digests all forbid applying to any real person's body or faculties. Nothing from it is folded into a kept idea."
+    "reason": "Rebuilt from nothing on a place where a shape is imposed and a material arrives in groups, which is the group's cleanest statement that matter never comes singly and never comes as anyone's."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape, and the subject dropped entirely. What was dropped: the limb-fitting workshop and the person receiving a new leg, together with the whole arc from cast to first steps. That film cannot be made in this group under any framing, because C071 attributes missing faculties to weak rebirth-kamma or obstructing unwholesome action and C064, C068 and C069 all repeat that this must never be used to explain any real person's body or disability; putting a disabled participant inside that doctrinal frame makes the implication whether or not the narration ever says it. The record's earlier note that no link survived review was also wrong on its own terms: the fault was the subject, not the group's concepts. The empty concept_links array has been filled from the digests with the three matter-concepts that genuinely fit a fitting shop, C070, C064 and C068, and the film moved to a mould shop where the thing measured, cast, fitted and adjusted is a boat hull and no body is involved.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The fibreglass boat sheds on the Fullerton industrial estate at Nagoda, inland from Kalutara",
+    "also_known_as": [
+      {
+        "name": "bahudina / multiday",
+        "meaning": "a boat built for voyages of several weeks rather than for a night, which is what most of these hulls become",
+        "used_by": "Sinhala and English usage on the west coast"
+      },
+      {
+        "name": "sancheeya / mould",
+        "meaning": "the female tool that holds the reversed form of a hull or deck, from which every boat is taken",
+        "used_by": "yard usage"
+      }
+    ],
+    "region": "Kalutara District, Western Province: a small industrial estate at Nagoda, a few kilometres inland from the mouth of the Kalu Ganga on the road towards Matugama, in coconut and paddy country",
+    "coordinates": {
+      "lat": 6.5688,
+      "lng": 79.989
+    },
+    "why_here": "Because the concept and the best image are the same object. A polished female mould with nothing in it is the most beautiful thing in the place and is also the exact statement the film wants to make: here is a shape, complete, insisted upon, and empty of everything the shape will be made of. Yards here build multiday fishing boats of roughly eleven to eighteen metres in fibreglass, which means every hull is grown inside such a tool and then measured, trimmed, bonded to a separately moulded deck and ground back until the join cannot be found. That gives the film the whole sequence of measuring, casting, fitting and adjusting with no person's body anywhere in it. It is also small and unglamorous, a working shed on an inland estate rather than a shipyard, and the material passes through its soft, hot and rigid states inside a single afternoon, so the group's subject, matter kept up by conditions and decaying from the start, is visible without any commentary.",
+    "what_to_film": [
+      "An empty polished mould in raking morning light, along its whole length, held long enough to stop being a tool and become a shape.",
+      "Gelcoat going on as a fine coloured spray, and the first mat and resin laid against it.",
+      "One full working window of a laminate: wet and pushable, warm and rubbery, then rigid, with a hand on it throughout.",
+      "The release of a hull from its mould, and the mould left behind still perfect and empty.",
+      "Measuring and offering-up: tape and batten on a sheer line, a deck lowered on slings, lifted, packed and lowered again.",
+      "Grinding, filling and long-boarding of the join, in the dust, until it cannot be found.",
+      "The yard from directly overhead, so the row of identical white shells among coconut palms reads as one repeated shape.",
+      "A finished hull in the open in late light, and a hull leaving on a lorry for the coast."
+    ],
+    "access": "By road from the coast road a few kilometres inland. This is private industry, so everything depends on a yard agreeing: entry, moving around a shed while work is going on, and filming a customer's boat before it is delivered. Resin and styrene fumes, glass dust and grinding mean a crew needs the yard's own safety conditions, and flying anything over an industrial estate needs the estate's agreement as well.",
+    "best_time": "Whenever a large hull is in a mould, which depends on the yard's order book rather than on the season; several yards operate within a few kilometres, so the window is a question of asking rather than of months. Within a day, early morning for flat light through the roof sheets and a cool enough shed to lay up in, and late afternoon in the open yard.",
+    "images": [
+      {
+        "caption": "The river-mouth town a few kilometres seaward of the estate, for the country the yard sits in. A picture of the surrounding district rather than of the boat sheds themselves.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial view of Kalutara City, Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Aerial view of Kalutara City, Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://sealaniegroup.lk/sealanie-boat-yard/",
+      "https://www.srilankabusiness.com/exporters-directory/company-profiles/sealanie-boat-yard-pvt-ltd/",
+      "https://www.industry.gov.lk/web/wp-content/uploads/2023/02/Sector-overview-boat-building-final.pdf",
+      "https://www.srilankabusiness.com/boat-and-ship-building/"
+    ],
+    "research_note": "That a boat yard founded in 1993 operates on the Fullerton industrial estate at Nagoda in Kalutara district, that it builds multiday fishing boats of about thirty-six to fifty-nine feet in fibreglass along with leisure craft, and that other fibreglass yards operate a few kilometres away at Beruwala, are from the sources above and are desk research only. The account of how such a hull is made, female moulds, wax and release agent, sprayed gelcoat, mat and resin laid up by hand, release, a separately moulded deck bonded on and the join ground and faired, is standard practice for boats of this type and is not verified at any particular yard here; it must be checked on site before a single shot is planned. The coordinates are those of Nagoda, not of the estate or of a chosen shed. No yard has been approached and no permission has been sought. The one image is of the district's river-mouth town a few kilometres away, not of the site.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether any yard will allow a crew inside while a customer's hull is being built, and on what terms.",
+    "Whether a large hull will be at the right stage during the available window, since the film's middle depends on one full layup and one fitting.",
+    "What the real working conditions are, and whether they can be filmed honestly without either prettifying or exposing the yard.",
+    "Whether the yard's own sequence matches the one assumed here, since the moulding practice described is generic and unverified at this location."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

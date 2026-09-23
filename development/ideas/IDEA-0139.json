@@ -2,82 +2,194 @@
   "schema_version": 1,
   "id": "IDEA-0139",
   "record_type": "idea",
-  "title": "The Boundary Walk",
+  "title": "The Line Comes Back",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Boundary Walk"
+  ],
   "group_id": "GRP-08",
-  "logline": "Months after their father's death, siblings and a surveyor walk the old family land together, and every fence post seems to remember something different.",
-  "human_question": "What does losing a parent make family members want that they did not want before?",
-  "situation": {
-    "what_happens": "After a parent's death, adult siblings set about formalising land that was always held by common understanding and never drawn on paper. A surveyor measures, deeds and old plans come out, and each sibling's memory of where a line ran turns out to be slightly different and slightly favourable to themselves. Most of it is agreed in an hour. One or two points are not, and the family has to decide, in front of each other, how hard to press.",
-    "who_is_involved": "Adult siblings and their spouses, who are also negotiating on behalf of their own children; the licensed surveyor, a professional with no stake in the outcome; neighbours whose own boundaries are touched by the same measurement; and the parent, present only as things said and never written down.",
-    "what_is_at_stake": "Land and money, and underneath them standing: who is thought to have done more, who left and who stayed, who was already helped once. What is risked is the relationship itself, which is easier to damage on a morning like this than at any funeral.",
-    "how_it_unfolds": "It usually begins amicably, with everyone calling the paperwork a formality, and the difficulty arrives at one specific point on the ground. Some families settle it there, some defer it, some end in a case that runs for years. Reality decides which. The film takes no side, and does not need a conflict in order to be worth making."
+  "logline": "Every year a great eastern paddy plain goes under brown water that erases every boundary on it, and every year, when the water drops, the same lines are cut back into the mud by hand, one spadeful at a time, by people nobody is watching.",
+  "human_question": "When the only thing holding a line is that everyone agrees where it was, what happens the year the ground is blank?",
+  "place": {
+    "what_kind_of_place": "A very large, very flat paddy plain a few kilometres inland from a lagoon, worked in small holdings whose boundaries are nothing but low mud ridges a hand's width high, thrown up by hand and walked on. In the north-east monsoon the whole plain goes under. Roads become embankments with water on both sides, tree lines become islands, and for weeks there is no line of any kind visible anywhere on it. Then the water drops, the plain reappears as grey mud, and the ridges that are left are half-dissolved: in places a clear line, in places a suggestion, in places nothing. Over the following weeks every one of them is cut again by the households who work on either side of it, using a corner stone, a palm stump, a well, a memory, and, where those disagree, an old survey plan or a licensed surveyor.",
+    "why_it_is_worth_watching": "It is the rarest kind of landscape: one that is legibly erased and legibly rewritten, on a scale only a drone can hold, on a schedule you can film. At the top of the flood it is an inland sea with a road drawn across it. Six weeks later the same frame is a mosaic of thousands of small irregular plots, and the film can cut between the two. At ground level it is the smallest imaginable work: one man walking backwards along a line of mud with a mamoty, lifting and slapping, deciding with each stroke exactly where a line is. The most beautiful shot the place produces, the whole plain from very high with the grid complete again, is also the plainest statement of what the film is about, because every single line in it is a decision somebody made alone.",
+    "what_moves_or_changes": "The water, and then the lines. The flood arrives and leaves on the monsoon's schedule and not anybody's. The ridges go from sharp to soft to gone to sharp again over about three months. The plots go from mud to standing water to a green so uniform that the boundaries disappear a second time, this time under the crop. Nothing here can be arranged, including whether there is a flood worth filming at all.",
+    "when_it_looks_best": "Three visits, not one. The peak of the north-east monsoon, for the sheet of water. Four to eight weeks later, for grey mud and the re-cutting, which is the film's middle and its whole argument. And again at the end of the season, when the crop has closed over and the lines have vanished under it. Within a day: the first and last hour, when a low sun puts a shadow on the side of a ridge a hand's width high and makes the whole grid readable from the air."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about water, mud and a hand tool. An inland sea from the air with a road across it; a tree line as an island; the water dropping; a grey plain with half-dissolved lines on it; a man walking backwards along one of them cutting it back into shape; a corner stone found under silt; two neighbours standing at a corner working something out; a plan unrolled on a motorbike seat; a wooden peg; transplanting; and finally the same frame from very high with the whole mosaic back, sharp and green. It has a complete shape with nothing said over it, and anyone who likes watching land being made has a whole piece here.",
+    "with_the_philosophy": "The same three months become the sources' account of a course of action and of when things fall due. The texts define taking what is not given not as a character but as a set of conditions, all of which must be present, and they count wanting what is another's as a real act done at no door but the mind, while carefully separating a flash of wanting from a settled wish. Alongside that, a second text says an old claim does not expire just because nothing has happened: it waits, sometimes a very long time, for an occasion, and usually needs something happening now to catch on. A plain where the boundaries are erased annually and remade by hand is both of those at once, and the voice never suggests that any person in frame is an instance of anything."
+  },
+  "sequence": [
+    {
+      "on_screen": "Peak flood, very high. Brown water to every horizon. A road runs across it as a thin embankment with water on both sides. Tree lines stand as islands. There is no straight line anywhere else in the frame.",
+      "voice": "This is a paddy plain. Under this water there are several thousand separate holdings, divided from each other by ridges of mud a hand's width high. Nothing about that is visible for about six weeks a year.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "The same frame six weeks later. Grey mud, drying pale. A grid is coming back into it: here a clean line, here a smear, here nothing at all. Cattle tracks crossing everything.",
+      "voice": "The water takes the lines and it does not take the claims. Every boundary on this plain still exists in a deed, in a survey plan and in what people remember. None of it is on the ground.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "Ground level, close. A man walking backwards along the trace of a ridge with a mamoty, cutting, lifting and slapping mud into shape. The line behind him is sharp; the line ahead of him is a guess.",
+      "voice": "The old analysis defines the second course of harm with unusual care. Taking what is not given requires that the thing belongs to another, that the person knows it does, that they intend to take it, that they act, and that it is taken. All five, or it is not the full course of action [C058-P:L78–L86]. Every stroke of this tool meets four of those five and stops.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "A corner. Two men and a boy scraping silt off a low stone with their hands. Sixty metres away, a palm stump and a well head. Somebody paces a distance out and back.",
+      "voice": "It also counts the mind's own part separately. Wanting what belongs to another to become one's own is listed as an act in itself, done at no door but the mind [C058-P:L224–L229]. Then it draws the line the rest of the film depends on: a flash of wanting is not the same thing as a settled wish, and produces only minor results [C058-P:L239]. Nobody on this plain is an example of either one, and a camera could not tell.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "A disagreement about one corner, conducted quietly and at length. Then, another day, a licensed surveyor: a tripod, a pole, an old plan unrolled and weighted with stones, a wooden peg driven in.",
+      "voice": "The sources also separate an act from a completed course, holding that where one factor is missing the thing is altogether lighter [C058-P:L45–L47; C058-P:L49]. What is happening at this corner is that four or five people are making certain, out loud and in front of each other, that the fifth factor never arrives.",
+      "concept_id": "C058"
+    },
+    {
+      "on_screen": "The plan itself at close range: a hand-drawn sheet, folded and refolded, with bearings and a surveyor's name and a year in the nineteen-hundreds. The peg beside it in wet mud.",
+      "voice": "A second text is about timing. It says something set down long ago does not simply lapse because nothing has come of it yet: it keeps, and it acts whenever an opening arrives, however far off that is [C057-M:L26]. This sheet is a hundred years old. It did nothing at all for most of that, and this week it decides where a man puts his feet.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "Water back in, deliberately this time, a few centimetres deep and held by the new ridges. Transplanting: a line of people working backwards across a plot. Reflections of the sky in a thousand small rectangles.",
+      "voice": "The same text says a stored claim usually cannot act on its own. It needs something present to catch on, the way dry wood needs a flame, and it can just as easily be smothered by what is happening now, the way rain kills a weak fire [C057-P:L101–L113]. The plan was not enough. The plan plus a dry week plus a man with a tool was enough.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "End of season, very high, the same frame as the first two shots. The crop has closed over and the whole plain is one green surface. The lines have gone again, this time under the rice. No commentary over the last minute.",
+      "voice": "One thing the film will not do. The flood is weather. Nothing in these texts explains why water came onto this plain or onto anybody's house, and they must never be used to say so. What they describe is the small thing: a line, a spadeful, a decision nobody saw, and the fact that it will all have to be done again.",
+      "concept_id": "C057"
+    }
+  ],
   "concept_merge": {
-    "why_together": "The ten unwholesome courses of action (C058) treats covetousness as an act of the mind, wanting what belongs to another to become one's own, while carefully separating a passing wish from a settled one. Time of ripening (C057) supplies what makes the wanting possible now: an inheritance is a life's unfinished business, still open precisely because the person who could have closed it is gone. Together they set an ordinary and understandable wish in the exact circumstances that produce it.",
-    "what_it_reveals": "That the line the texts draw is not between good people and greedy ones but inside a single mind, between a thought that passes and a wish that settles, and that this line gets drawn quietly and repeatedly by ordinary people in unremarkable moments. The same decision is made by strangers handing back a wallet or an unclaimed bag, where nothing but the decision itself is at stake, and it is made here with land, memory and grief loaded on top of it. Neither concept alone shows that grief and wanting can arrive together without either being a fault."
+    "why_together": "C058 supplies the mechanism and its precision. The Pradeepika defines taking what is not given by five factors that must all be present [C058-P:L78–L86], separates an act from a completed course of action and holds that a missing factor makes the thing lighter [C058-P:L45–L47; C058-P:L49], counts covetousness as an act done at the mind door alone [C058-P:L224–L229], and then limits that sharply: a flash of wanting is not the settled wish [C058-P:L239]. C057 supplies the clock. It holds that action which has not yet ripened is not thereby finished, but keeps and acts whenever an opening arrives [C057-M:L26], and that what has been stored usually cannot act on its own strength and needs something in the present to catch on, with the fire-and-wood similes for both catching and smothering [C057-P:L101–L113]. Put on a plain whose boundaries are physically erased once a year, the mechanism and the clock stop being abstract: the claim is a hundred years old and invisible, the decision is a stroke of a hand tool, and the occasion is a dry fortnight in February.",
+    "what_it_reveals": "That a boundary is not a thing but a decision repeated, and that the sources are describing exactly the moment of that repetition rather than any kind of person. C058 alone would be a definition. C057 alone would be a statement about time. Together, on mud, they show something neither says: that a claim can sit dormant and harmless for a century and still be the thing that decides where a man's foot goes on a Tuesday, and that the only place it can be settled is on the ground, by the people who will have to live next to the answer. The old version of this idea got the same two concepts by walking bereaved siblings and a surveyor over their dead father's land. This one gets them from weather, which is nobody's grief and cannot be made to consent."
   },
   "concept_links": [
     {
       "concept_id": "C058",
       "role": "primary",
-      "why": "The source defines covetousness as wanting what belongs to another to become one's own [C058-P:L224-L229], and the digest stresses that this is not a thought-crime teaching: a flash of wanting gives only minor results and is explicitly distinguished from a settled wish [C058-P:L239]. The same text defines taking what is not given by knowing a thing is another's and deciding to take it anyway [C058-P:L78-L86], which is the decision a formal measurement keeps putting in front of people and which most of them decline. The film neither names nor implies a course of action in any real person."
+      "why": "The digest's definition of the second course of harm is the film's spine, and only the parts a mud ridge can carry are used. Taking what is not given is defined by its five factors, all of which must be present [C058-P:L78–L86]; the digest's distinction between an act and a full course of action, where an incomplete one gives results during life but not rebirth, is what makes a line in the mud the right image [C058-P:L45–L47; C058-P:L49]; covetousness is the mind's own act [C058-P:L224–L229]; and the digest's own guard against reading this as a thought-crime teaching, that a flash of wanting gives only minor results and is distinguished from a settled wish, is spoken on screen [C058-P:L239]. Every limit in the digest that bears on this film is honoured. Nobody in frame is named or implied as an instance of a course of action, and the film says out loud that a camera cannot tell. The source's statements about where stealing leads, including its line that a human rebirth after it means helpless poverty [C058-P:L92], are not narrated at all, because the digest forbids attaching such claims to real people and this is a district where loss is visible. The sexual-misconduct material and the twenty categories of women, the alcohol classification, the sixty-two wrong views and the list of auspiciousness beliefs are nowhere in the film, and nothing in it comments on anybody's livelihood."
     },
     {
       "concept_id": "C057",
       "role": "supporting",
-      "why": "Time of ripening treats what a life leaves unresolved as still open, waiting for an occasion [C057-P:L87]. An undivided inheritance is one of the commonest forms of that, and it is what gives the wanting its opening. No one's share, or lack of one, is presented as a result of anything they did."
+      "why": "The digest holds that what has been set in motion falls due on several different clocks, and that the long-term kind waits for an opening however far off it is [C057-M:L26], while usually needing support from something in the present to ripen at all, which the Pradeepika argues through four similes of fire, wet wood, rain and a companion at night [C057-P:L101–L113]. That is what a century-old plan does on a re-cut boundary, and it is the only part of the concept the film narrates. The digest's refusals are kept, and one of them is load-bearing here. The shipwreck passage, in which each of a thousand drowned people meets death through their own past action, is not cited, not narrated and not alluded to, and the film's final beat states plainly that nothing in these texts explains a flood: the digest forbids turning that example into a claim that people caught in a disaster deserved it, and this film is set in a district that floods. 'Instant karma' is not implied, the giving stories are not used, the miraculous episodes are not narrated as fact, and the seven-moment strength curve is not turned into psychology. Nobody's poverty, loss or ruined season is offered as a result of anything they did."
     }
   ],
-  "what_the_viewer_could_understand": "The texts treat wanting what belongs to someone else as a real act of the mind, even before anyone moves. But they separate a passing wish from a settled wish to make it one's own.",
-  "what_must_be_real": "A family that wants this filmed, with every party consenting separately and able to stop at any point. No sibling is cast as the greedy one, no live legal dispute is broadcast, and no footage becomes evidence in anyone's case. Grief is never used to explain or excuse anyone's behaviour, and is filmed only with consent.",
-  "position_hint": "middle: the group's closest look at how harm begins in the mind, between the film about repair and the films about death itself.",
+  "what_the_viewer_could_understand": "That the texts define taking what is not given by conditions rather than by character, that they treat wanting what is another's as a real act of mind while separating a passing wish from a settled one, and that a claim can lie dormant for a very long time and still act the moment an occasion opens. Nothing is being asserted about any person on screen, and nothing about the flood is being explained.",
+  "what_must_be_real": "A real season on a real plain, with whatever flood it actually gets. No water is dammed, released or waited out for composition; if the monsoon is thin, the film is thin. No boundary is cut, moved or re-cut for the camera, and no disagreement is prompted, arranged or brought to a head; if a corner is settled in ninety seconds with a shrug, that is the shot. No live dispute is filmed, no footage is made available to any party in a matter that could go to court, and no deed, plan, name or extent that identifies a holding appears legibly. Nobody is cast as the one who tried it on. Nobody's losses in the flood are used to make the film feel more serious.",
+  "position_hint": "middle to late: it needs the viewer to have already accepted that the group is describing mechanisms rather than judging people, because it is the only film here in which two people are visibly in disagreement. It hands on the question of a claim that keeps. No location reasoning is involved.",
   "risks": [
-    "Turning a private family conflict into entertainment",
-    "Casting one relative as the villain, or implying that wanting is the same as taking",
-    "Legal exposure in a live property matter, or the footage being used by one party against another",
-    "Framing a bereaved person's behaviour as a failure of grief"
+    "Any suggestion, even by editing, that the flood is a consequence of anything anybody did. The digest forbids this outright and it is the single worst thing this film could do.",
+    "Casting a neighbour as the one who pushed a line, or letting an edit imply it. The sources describe conditions, not villains, and a camera cannot see an intention.",
+    "Filming a live legal dispute, or producing footage that one party could use against another.",
+    "Aestheticising a disaster. The water in the first shot destroyed a season's crop for real households and the film must not use it as an opening flourish.",
+    "Prompting or shaping a disagreement at a corner in order to have a scene.",
+    "Letting a holding, a name, an extent or a plan be identifiable on screen.",
+    "Narrating the source's claims about where stealing leads, in a district where poverty would be read into them.",
+    "Turning the film into an account of an irrigation or flood-control scheme, which is not its subject; the subject is a ridge a hand's width high."
   ],
   "drop_if": [
-    "Any party withholds consent, or consents only because the others have",
-    "The dispute is too raw, or is already before a court",
-    "The family expects the film to arbitrate"
+    "The season brings no real inundation, so there is no erasure to film and the middle of the film would have to be invented.",
+    "The households working the plain will not have a crew there, or consent could only be had from one side of a boundary.",
+    "The only corners available are inside a live dispute or a pending case."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0138",
-      "relation": "absorbs",
-      "note": "The lost-property idea is merged here, bringing the source's definition of taking what is not given and the counter-case of strangers who quietly decide the other way."
+      "relation": "pairs with",
+      "note": "The same course of action from its two sides: strangers declining it over a thing that is not theirs, and neighbours meeting it on a line they have to cut themselves."
     },
     {
-      "idea_id": "IDEA-0142",
-      "relation": "alternative to",
-      "note": "A different response to the same pressure: repair through service rather than a claim over property."
+      "idea_id": "IDEA-0137",
+      "relation": "mirrors",
+      "note": "Both watch work done in the exact window a condition opens, the one before a liquid turns and the other after a flood goes down."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0138"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode; now carries both sides of the same course of action after the lost-property idea was folded in."
+    "reason": "An annually erased and annually rewritten boundary is the group's clearest image of a claim that keeps, and it carries the course-of-action material with no death and no family attached."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. What was dropped: the entire old subject, adult siblings and a surveyor walking family land months after their father's death while their memories of the boundary turn out to favour themselves. It filmed a real bereavement and a live inheritance dispute; the grief could not meaningfully be refused to a camera and the footage could have become material in somebody's case; and it cast relatives, in effect, as instances of a course of harm, which the C058 digest forbids. Both concepts were kept and re-read from the digests as a new reader: C058's factor-by-factor definition of taking what is not given, with its guard about a flash of wanting, and C057's claim that a dormant cause waits for an occasion and needs a present condition to act. The film now gets the same boundary from weather instead of from a death: a paddy plain whose lines are erased every monsoon and cut back by hand. The C057 shipwreck passage is deliberately unused and the film states out loud that nothing in these texts explains a flood. Every citation was re-tested against digest evidence and none was carried over from the old text.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The inland paddy tract around Vavunathivu and Karadiyanaru",
+    "also_known_as": [
+      {
+        "name": "vayal",
+        "meaning": "the paddy field, and by extension the whole worked plain",
+        "used_by": "Tamil usage in the east"
+      },
+      {
+        "name": "varambu",
+        "meaning": "the low mud ridge that both divides two holdings and is walked on as a path between them",
+        "used_by": "Tamil usage in the east; the Sinhala equivalent is niyara"
+      }
+    ],
+    "region": "Batticaloa District, Eastern Province: the flat inland paddy country a few kilometres west of the lagoon, in the Manmunai West and Vavunathivu belt, reached from the district town on the road towards the interior",
+    "coordinates": {
+      "lat": 7.74,
+      "lng": 81.6
+    },
+    "why_here": "Because this is one of the few landscapes in the country where the film's whole argument happens on a calendar. The district's paddy plains are among the largest and flattest in Sri Lanka and among the most reliably inundated: in a normal north-east monsoon, tens of thousands of acres go under, and in bad years the figure has run into six figures. That gives the film something almost impossible to arrange, a wide frame in which every boundary is first visibly gone and then visibly back. The holdings are small, so the density of lines is very high and the mosaic reads beautifully from height; the ridges are only a hand's width, so a low sun is all it takes to make them readable; and the work of re-cutting them is done with one tool, by hand, by the people who live on either side, which is exactly where the sources put the decision. Choosing the inland belt rather than the lagoon shore keeps the film off water that other films on this slate already use, and keeps it on mud, which is its subject.",
+    "what_to_film": [
+      "The same very high frame three times: at the peak of the flood, on grey mud six weeks later, and with the crop closed over at the end of the season.",
+      "The road as an embankment with water on both sides, and a tree line standing as an island.",
+      "One ridge being re-cut in full, at ground level and close, with the sharp line behind the worker and the guessed line in front of him.",
+      "A corner being found: silt scraped off a low stone by hand, a palm stump, a well head, a distance paced out.",
+      "A surveyor's visit if one happens: tripod, pole, an old plan weighted with stones, a wooden peg driven in.",
+      "The plan itself at close range, for the folds, the hand and the year, with names and extents kept out of focus.",
+      "Water let back in a few centimetres deep and held by the new ridges, with the sky in a thousand small rectangles.",
+      "Transplanting, from height, as the lines begin to disappear a second time under the crop."
+    ],
+    "access": "By road west from the district town; the plain is crossed by minor roads and by the ridges themselves, which are the only dry footing when there is water in the plots. Everything depends on the households working the tract agreeing, and on both sides of any boundary agreeing separately, which is the real constraint. Filming at the height of a flood means going where emergency services are working and must not get in their way. Drone flight over open agricultural land is straightforward in principle but needs local clearance, and low passes over people working must be agreed with them first.",
+    "best_time": "Three windows across one season: the north-east monsoon at its peak, roughly December into January, for the sheet of water; four to eight weeks after that for grey mud and the re-cutting, which is the film's middle; and the end of the season for the closed crop. Within a day, the first and last hour, when a low sun throws a shadow off a ridge a hand's width high.",
+    "images": [
+      {
+        "caption": "Paddy country in the Eastern Province. A picture of the region's paddy landscape generally, not of this tract.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paddy field with roaring mountain scenery, Eastern Province,Sri Lanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Paddy field with roaring mountain scenery, Eastern Province,Sri Lanka.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Evening over open country in the district. A picture of the surrounding flat landscape rather than of the tract itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset - Kumburumoolai, Batticaloa.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunset - Kumburumoolai, Batticaloa.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://www.mdpi.com/2076-3263/15/6/218",
+      "https://reliefweb.int/report/sri-lanka/sri-lanka-batticaloa-district-heavily-affected-floods",
+      "https://www.sundaytimes.lk/241201/news/flood-damage-of-vast-tracts-of-paddy-land-likely-to-deepen-rice-shortage-579352.html",
+      "https://www.researchgate.net/publication/347885223_IMPACTS_OF_FLOODS_ON_THE_AGRICULTURE_SECTOR_A_CASE_STUDY_OF_PORATHIVU_PATTU_DIVISION_IN_THE_EAST_COASTAL_BATTICALOA_DISTRICT_OF_SRI_LANKA_M_P_Prakashnie_and_KWG_Rekha_Nianthi",
+      "http://www.fao.org/gender-landrights-database/country-profiles/countries-list/land-tenure-and-related-institutions/prevailing-systems-of-land-tenure/en/?country_iso3=LKA"
+    ],
+    "research_note": "That this district's paddy plains are extensively inundated in most north-east monsoons, that the maha season runs roughly October to March, that a single bad season has put well over a hundred thousand acres of its paddy under water, and that holdings here are small and worked by hand, are from the sources above and are desk research only. The film's central mechanism, that field ridges are largely destroyed by the flood and are re-cut by hand from stones, stumps, wells, memory and old plans over the following weeks, is an inference from ordinary paddy practice and has not been confirmed for this tract or any other; how much of a ridge actually survives a flood, and how often a surveyor is called, are the two facts the film most needs and does not have. The coordinates are a direction into the inland belt, not a chosen tract, and no holding, household or boundary has been identified. Nobody has been approached and no permission sought. Both images are of the region's landscape generally, not of this tract.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "How much of a field ridge actually survives an inundation here, and therefore whether the erasure the film is built on is real or overstated. This is the question that decides whether the film exists.",
+    "Whether re-cutting is genuinely a moment of decision between neighbours, or a routine so settled that nothing is ever in question.",
+    "Whether a licensed surveyor is ever involved at this scale, and whether one would allow a camera.",
+    "Whether consent can be obtained from both sides of any boundary filmed, which is the film's hardest requirement.",
+    "Whether the season will produce a flood worth filming, which cannot be known in advance and cannot be arranged.",
+    "Whether a crew can be present during and after a serious flood without being in the way of people who are dealing with one."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

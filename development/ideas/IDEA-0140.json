@@ -2,75 +2,195 @@
   "schema_version": 1,
   "id": "IDEA-0140",
   "record_type": "idea",
-  "title": "The Ledger",
+  "title": "Whenever Somebody Comes Back",
   "status": "draft",
-  "version": 2,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Kept Past Its Season",
+    "The Ledger"
+  ],
   "group_id": "GRP-08",
-  "logline": "A village shop's handwritten credit book holds decades of small debts, some paid next week, some after the harvest, some quietly struck through when the debtor dies.",
-  "human_question": "Does everything we owe, or are owed, eventually come due?",
-  "situation": {
-    "what_happens": "A small shop extends credit to the households around it and records it by hand. Over a season the book fills and empties unevenly: some accounts are cleared every week, some wait for a harvest or a pay day, some are carried for years out of relationship rather than expectation, and some are quietly ended, because a family has moved away or because the person has died and nobody will be asked. The shopkeeper does not think of this as philosophy. It is how the shop stays open.",
-    "who_is_involved": "The shopkeeper, who is lender, record keeper and the person who decides when to stop asking; the households who buy on credit, who are neighbours as well as debtors; and whoever in the family will inherit both the shop and the book.",
-    "what_is_at_stake": "The shop's survival, and the standing of families whose names are in the book. For the shopkeeper, the working question of how long to carry someone. For the customers, dignity: a credit book is a private record of a household's worst months, kept by someone they see every day.",
-    "how_it_unfolds": "Credit builds through a season and settles after it, unevenly, and the pressure arrives when the shop's own suppliers want paying. A line gets struck through when it is clear nothing more will come, and that moment is almost never announced. Reality decides which accounts close, which simply lapse, and whether the shop has a good year at all."
+  "logline": "A whitewashed masonry column has stood on a headland hill since 1875 as one of the fixed points the lines of the lowland below it were measured from, and in that lowland of small walled gardens a survey party spends its week clearing scrub and digging in corners for marks that were set down decades ago, to find out which of them can still say where a boundary is.",
+  "human_question": "If something you set aside long ago can still act, but only when an opening comes, how long is it really yours?",
+  "place": {
+    "what_kind_of_place": "A district survey office in a southern coastal town, and the lowland whose marks it keeps. Inside, a plan store: rolled and flat sheets going back more than a century, linen and film and paper, one parcel to a sheet, each with a number, a bearing, an area and a date; racks of field books in pencil; and a cabinet of station descriptions, each one a small card carrying a sketch, the measured distances from the mark to three nearby objects, and the year somebody set it. Some of those objects are trees that are no longer standing. Outside, the ground itself: a wet lowland cut into thousands of tiny parcels, coconut gardens, paddy strips and house plots, where a boundary is a hedge, a rubble wall, a drain or a single jackfruit tree, and almost nothing is straight. Above it, on a headland hill of eighty metres, a masonry column fifty feet high, built in 1875 as a trigonometrical station and used as well as a leading mark by vessels coming in from the sea, now standing in scrub and formally protected. Between the store and the ground there is a working party: two surveyors, a chainman, an instrument on a tripod, a bush knife, a mammoty, and a list of marks to recover.",
+    "why_it_is_worth_watching": "It is a place organised entirely around time, and it shows that at two scales that could not be further apart. Wide, from the hill or from height, the lowland is a mosaic of several thousand parcels in which every line is a consequence of a very small number of points fixed before anybody now alive was born, and the column on the hill is the only visible trace of the whole arrangement. The shot is beautiful before it means anything, and it means the whole film. Close, the place is the smallest units imaginable: the top of a concrete post under fifty years of leaf litter, a brass bolt in cement, a number cut with a chisel, a pencilled bearing in a field book, and a card written in 1907 that says the mark lies so many links from a culvert and so many from a tree. And then the one action the film has: a recovery. Somebody measures in from the references on that card to a point that is either still able to act or is not, and finds out which.",
+    "what_moves_or_changes": "Nothing at all at the mark, and everything around it. A mark is made so that it will not change, and the whole office exists because the ground around it changes anyway: a tree grows across a sight line the hill needs, a garden is divided again, a wall goes up, a lane is widened over the top of a post, a drain is concreted. The pillar has not moved since 1875 and does nothing at all until a party climbs to it. The only events in the film are the moment of finding and the moment of not finding, and neither can be scheduled: the film has to take the office's own work list in the order the work list comes.",
+    "when_it_looks_best": "The field work wants dry weeks, because recovery means clearing, measuring and digging in other people's gardens and because nothing can be sighted through rain. The lowland wants the first and last hour, when low sun picks out every hedge and wall and the parcels separate from one another. The middle of the day is worth filming for the opposite reason: the horizon dissolves in haze and no long sight can be taken at all. The hill and the column want either end of the day, and the plan store has no season and wants a week rather than a day, because a recovery happens when the list says so."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about marks and about the people who go and look for them. A plan store of a century and a half of sheets; a card with a sketch and three measured distances; a party walking into a coconut garden with a bush knife and a list; scrub cleared off a corner; a tape run out from a culvert; a mammoty in leaf litter; a concrete post with a chiselled number found, brushed off and used; another one looked for all morning and not there at all; an instrument set up on a fifty-foot column of 1875 with the sea behind it and a sight line blocked by a tree that has grown since the last time anybody came. It has a complete shape with nothing said over it, and anyone who likes careful work, or old records, or the idea that a whole landscape hangs off a few invisible points, has a whole piece here.",
+    "with_the_philosophy": "The same week becomes the sources' account of when things fall due, filmed in a trade whose whole business is that question. The texts sort what a person does by the time of its result: in this life, in the next, at any point thereafter whenever an opening arrives, or never. A mark is a thing put down once, on purpose, with consequences that are not felt at the time; it does nothing by itself; it waits, without weakening, for somebody to come back to it; it cannot act unless the present provides the occasion, the clear air and the open line; and it can quietly pass the point where it will ever act again. The voice never says the marks are people and never says a boundary is a debt. It says the sources are describing a thing that keeps, that needs an occasion, and that can stop being able to act, and that a survey office is a place where finding out which is somebody's job."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, high and looking down and inland. A lowland of thousands of small parcels: hedges, rubble walls, coconut, paddy strips, roofs. Nothing in the frame is straight. At one edge, on a headland hill, a white masonry column above the scrub.",
+      "voice": "Every line in this frame was measured from somewhere. Almost all of them were measured, in the end, from a handful of points fixed in the eighteen-fifties by people who are not here to be asked about them. The lines have outlasted the measuring by more than a century.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "The plan store. Rolled sheets in racks to the ceiling, flat sheets in drawers, linen and film and paper, dates in the corners running from the nineteenth century to last month. A drawer pulled out. Nothing else moving.",
+      "voice": "The old analysis sorts what a person does by when its result arrives, and it finds four kinds and no others: something that comes due in this life, something that comes due in the next, something that stays available from the third life onwards and acts whenever an opening arrives, and something that never comes due at all [C057-M:L1–L8].",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "A station description at close range: not a book of accounts, but a card with a small hand-drawn sketch, three measured distances to a culvert, a wall and a tree, a chiselled mark number and a year. Then the same number on a plan.",
+      "voice": "This is a record of obligations, though nobody in the building would call it that. Every card in the cabinet is a thing put into somebody's ground with an undertaking attached, on both sides: that it would be left where it is, and that when somebody came back it would still be able to say where the line runs.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "A garden corner. Scrub cut back, leaf litter scraped off with a mammoty, a tape run in from a culvert, and the flat top of a concrete post appearing with a number cut into it. A hand brushing the number clean. The instrument set over it within the hour.",
+      "voice": "The third kind is the one this work is built on. The sources say it is strong, that it does not act in a hurry, that it acts whenever an opening arrives, and that however long it has waited it is not lost while the stream it belongs to is still running [C057-M:L26]. The card for this one was written before anybody in this garden was born, and it was right.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "The hill. The instrument carried up, set on the 1875 column, levelled. Then what the lens sees along the line it needs: a grown tree, a roof, and beyond them the horizon shaking itself apart in midday haze. The party waiting, doing nothing.",
+      "voice": "And the sources say that what has been stored usually cannot act on its own strength. It needs something in the present for it to catch on, the way wet wood needs a hard fire under it; and something in the present can smother it just as easily, the way rain kills a weak one [C057-P:L101–L113]. This column has been exactly where it is for a hundred and fifty years and it has done nothing at all in that time without somebody climbing it, and a clear line, and an hour when the air holds still.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "Another corner, another morning. The references on the card measured, re-measured and argued over; the ground opened and found to hold nothing; a house wall standing across the place the distances point to. The card put back in the folder unmarked.",
+      "voice": "For the fourth kind, the one that never comes due, the sources give a picture of their own. They compare it to seed grain kept past its proper season, which will not sprout [C057-P:L87]. That is their image, not ours. What is under this wall is not destroyed and it is not forgiven. It is simply out of reach, and the line will have to be established some other way.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "The office at the end of a day. Two sets of numbers for the same corner on the same screen, one carried off the old network and one measured from satellites, and a conversion between them. Then an archive print of a brick tower, and the same place now with nothing on it.",
+      "voice": "The texts are careful here in a way that is easy to miss. What lapses is not cancelled by regret and is not wiped by anything anybody did afterwards. It lapses because its moment went past, or because something stronger took the opening instead [C057-M:L30]. At the end of the nineties a whole new network was measured from orbit, and the point the island used to be reckoned from was a brick tower that fell down in 2015. Both sets of numbers are still in use. Neither of them forgives the other.",
+      "concept_id": "C057"
+    },
+    {
+      "on_screen": "Last light. The party walking out of a garden with the tripod on a shoulder. The column on the hill against the sea. Then the lowland again from height, every hedge and wall picked out, and the light going.",
+      "voice": "One thing this film is not saying. The sources are talking about a person's own intentions and about nothing else, and they are explicit that ordinary acts often ripen without the doer ever noticing [C057-M:L18]. They are not a ledger in which good and bad cancel out, and they do not explain anybody's land, anybody's loss or anybody's bad year. What a week like this can show is only the shape: that things keep, that they need an opening, and that some of them quietly stop being able to act.",
+      "concept_id": "C057"
+    }
+  ],
   "concept_merge": {
-    "why_together": "One concept carries this film and needs no partner to be felt. Time of ripening (C057) sorts what a person does by when its result arrives: now, next, much later whenever an occasion opens, or never. A shop's credit book is that same sorting done by an ordinary person with a pen. The film's work is to let the two sit beside each other without either becoming an illustration of the other.",
-    "what_it_reveals": "That what comes due runs on several clocks and is not a balance. Some things arrive at once, some sit for years waiting for an opening that may never come, and some simply expire, which the source is careful to call expiry rather than forgiveness. Watching this happen with money makes the shape visible without asking anyone to believe anything."
+    "why_together": "One concept carries the film and needs no partner. C057 sorts intentional action into four kinds by the time of its result, in this life, in the next, from the third life onward whenever an opening arrives, and never [C057-M:L1–L8], and it holds that what does not get its opening inside its own window simply lapses [C057-M:L12]. For the third kind it holds that the stored action is strong, does not ripen in a hurry, and is not lost however long it waits [C057-M:L26], while the Pradeepika adds that it usually cannot ripen on its own strength and needs a present condition to catch on, or can be smothered by one, arguing it through four similes of fire, wet wood, rain and a companion at night [C057-P:L101–L113]. For the fourth it gives its own image, seed grain kept past its season which will not sprout [C057-P:L87], and the Margaya is exact that what lapses does so because its moment passed or something stronger took the opening [C057-M:L30]. A survey office and the marks it keeps put all four of those into one working week rather than into a doctrine: a thing set down once on purpose, doing nothing for a century, waiting without weakening, unable to act until somebody comes with an instrument and a clear line, and sometimes past the point of ever acting again. The film's work is to let the two sit beside each other without either becoming an illustration of the other.",
+    "what_it_reveals": "That what comes due runs on several clocks at once, that keeping something is not the same as keeping it able to act, and that expiry is a real category and not a soft word for forgiveness. The concept stated flat is a list of four names. Put into a plan store, a station description card and a garden corner it becomes a morning's work with an outcome: the mark is there and the line can be given, or it is not and it never will be. The film also gets the concept's hardest clause for nothing, because a mark cannot act on its own: it needs a present occasion, an open sight line and still air, which is the Pradeepika's fire argument in physical form. This idea has been round twice before. Its first version got the same concept from a village shop's handwritten credit book, which put a neighbourhood's worst months on screen and which the slate already carries in another form; its second got it from a national seed store, which collided with another film in the same group whose whole subject is the seed regeneration cycle. This one gets it from a record that is neither a book of debts nor a collection of stored things: a mark in the ground, out in the open, with a card that says how to find it."
   },
   "concept_links": [
     {
       "concept_id": "C057",
       "role": "primary",
-      "why": "The source's own image for action that never ripens is seed grain kept past its season, which will not sprout [C057-P:L87], and the digest insists that lapsing is expiry, not forgiveness or a clean slate. A credit book in which some debts are paid, some wait for an occasion and some are struck through gives that its plainest secular form. The digest also rules out 'instant karma' and any reading in which good and bad net out, so the accounting image must never become a moral balance sheet, and no customer's poverty is framed as anything but circumstance."
+      "why": "The whole film is the digest's four kinds by time of ripening and nothing else from the concept. The fourfold division is stated on screen [C057-M:L1–L8]; the long-term kind is given as strong, unhurried, acting whenever an opening comes and not lost however long it waits [C057-M:L26]; the Pradeepika's claim that the stored kind usually cannot act on its own and needs a present condition, with the fire, wet wood and rain similes, is narrated at the one moment the footage can carry it, on a column that has done nothing for a century and a half without a person, a line and still air [C057-P:L101–L113]; the lapsed kind is given through the source's own seed image, named out loud as the source's picture and not the film's [C057-P:L87], and through the Margaya's account of why it lapses [C057-M:L30]; and the digest's insistence that ordinary acts often ripen unnoticed is used to close [C057-M:L18]. Every limit in the digest that bears on this film is honoured and one of them is the closing beat. 'Instant karma' is not implied. The record is never allowed to become a moral balance sheet, and the film says out loud that good and bad do not cancel. Lapsing is stated as expiry and explicitly not as forgiveness, a clean slate or the effect of repentance, which is the digest's sharpest correction; the displaced-by-something-stronger clause is filmed as one network of numbers superseding another, which is the nearest honest analogy the subject offers. The shipwreck passage is not cited, not narrated and not alluded to, because the digest forbids turning it into a claim that people caught in a disaster deserved it, and no household's loss of land, loss of a boundary or bad year is anywhere framed as a result of anything they did. The prosperity stories about giving are unused, the miraculous episodes are not narrated as fact, and the seven-moment strength curve is not turned into a psychological claim. The film also states its own limit: the source is about one person's own intentions, not about surveying and not about things owed between people."
     }
   ],
-  "what_the_viewer_could_understand": "The texts teach that what we do does not all come due at the same time: some of it shows up in this life, some in the next, some waits a very long time for an opening, and some simply lapses and never comes due at all.",
-  "what_must_be_real": "The shop's actual trade, and its customers' privacy: no name, amount or household appears identifiably without that person's own consent, and nobody is filmed being refused credit. The shopkeeper decides what the book may show, and can withdraw a page at any point.",
-  "position_hint": "middle: the group's plainest and least ceremonial account of how results keep different clocks, placed where the films turn from rites to mechanisms.",
+  "what_the_viewer_could_understand": "That the texts teach that what we do does not all fall due at once, that some of it waits a very long time for an opening and is not weakened by waiting, that what is stored usually needs something present to act at all, and that some of it simply expires and never comes due, which is not the same as being forgiven. The survey mark is an analogy and the film says so; no claim is made about anybody's land, boundary or circumstances.",
+  "what_must_be_real": "The office's actual recovery work, on its own list and in its own order. No mark is planted, pre-cleared, pre-found or re-buried for the camera, and no recovery is repeated for a second take. No live boundary dispute is filmed, and no parcel is chosen because somebody is fighting over it; the film does not go into anybody's case. No plan, card or register is filmed in a way that leaves a living owner's name, address or extent legible. Nothing on the protected column is cleaned, cut back, re-pointed, re-lit or climbed except as the people who are allowed to climb it climb it, and no ground is opened anywhere except where the office was going to open it anyway. The surveyors are filmed as people doing work, are not made into characters, and are not asked to confirm any doctrine.",
+  "position_hint": "late in the group: it is the plainest and least ceremonial statement of how results keep different clocks, and it works best once the viewer has already watched an ending at working distance and a claim re-established on the ground. It closes on expiry, which is where the group's sober urgency belongs. No location reasoning is involved.",
   "risks": [
-    "Exposing named debtors or a family's money troubles to their own neighbours",
-    "Letting the ledger image suggest that good and bad net out, which the sources deny",
-    "Poverty or a run of bad years read as the result of someone's past actions",
-    "The metaphor overwhelming the shopkeeper's actual livelihood"
+    "Letting the record become a ledger in which good and bad net out, which the sources deny and which the digest corrects directly.",
+    "Turning a boundary into a debt, so that the film appears to be about who owes what to whom rather than about when a thing put down long ago can act.",
+    "Drifting into a real dispute, so that a household's claim, or its loss of a claim, becomes the film's drama and starts to look deserved.",
+    "Sentimentalising a mark that cannot be found into a death. It is a concrete post, and the group's ethical floor is that nothing here stands in for a person's end.",
+    "Admiring the imperial survey, or on the other side turning the film into an argument about colonial mapping and dispossession. Neither is the film, and the 1875 column invites both.",
+    "Letting the analogy run so far that the film appears to claim the tradition anticipated geodesy, or that a coordinate is what the texts meant.",
+    "Turning 'lapsed' into 'forgiven', which is the single correction the digest is most insistent about.",
+    "Making an institution's routine look like a vigil, or its surveyors look like keepers of a mystery.",
+    "Exposing a living owner's name, extent or address from a plan, a card or a register that is on screen for other reasons."
   ],
   "drop_if": [
-    "Customers' privacy cannot be protected while the book is still legible as a story",
-    "No shop with a long-running handwritten credit system will take part",
-    "The shopkeeper would have to perform the book for the camera"
+    "The department will not permit the plan store, the station descriptions and a field recovery to be filmed, since the film is those three things and the hill.",
+    "No recovery of an old mark falls inside the filming window, so the film's one action would have to be staged.",
+    "The only recoveries available are inside live disputes, so filming would put somebody's claim on screen.",
+    "Privacy on the plans and cards cannot be protected while the sheet is still legible as an image.",
+    "The protected column cannot be approached or filmed, and no other elevated station in the district can stand in for it."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0135",
+      "idea_id": "IDEA-0138",
       "relation": "mirrors",
-      "note": "A gate and a ledger are two everyday images for the same family of ideas about what comes due; the cattle-pen idea has been merged into IDEA-0136, where the ordering question belongs to a real deathbed."
+      "note": "Two records whose time is running: one holds things whose owners may never come, the other holds marks whose occasion may never come again."
     },
     {
-      "idea_id": "IDEA-0133",
+      "idea_id": "IDEA-0137",
       "relation": "pairs with",
-      "note": "Both ask what happens to what is still owed or unfinished when the person concerned is gone."
+      "note": "Two films about a thing with a clock on it: one that has to be dealt with before morning, and one that can wait a hundred and fifty years and then turn out to be out of time anyway."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by its episode and directly supported by the C057 digest's own central image."
+    "reason": "Its central action is the concept itself: going to look for something that was set down long ago, on purpose, to find out whether it can still act. The record is physical, out in the open and a century and a half old, and it belongs to an institution rather than to anybody's neighbours."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Relocated 2026-09-23, off the national seed genebank, because IDEA-0144 in this same group proposes the same institution about a kilometre away and keeps it: that film's concepts are the regeneration cycle itself, a thing checked one by one at a fixed interval across decades, so the genebank is properly its subject and a second film in the same cold store and the same plots would have duplicated it outright. This idea has now moved twice. Its first version was a village shop's handwritten credit book, decades of small debts, some paid the next week and some never; that was dropped because IDEA-0103 in Group 6 already films a handwritten ledger, a village funeral-aid society's book in another district, and because the shop version put named households' worst months on screen in front of the neighbours who lend to them. Its second version was the seed store, dropped here for the collision above. The concept is unchanged and the subject has moved to a third kind of standing record, chosen so that it is neither a book of debts nor a collection of stored things: a survey mark in the ground and the card that describes how to find it, filmed with a district plan store, a field recovery and an 1875 trigonometrical column, in a different district again. That also gives the concept's hardest clause for nothing, since a mark cannot act on its own and needs a person, an open sight line and still air. The seed simile is still spoken once, because it is the source's own image for the kind that never comes due, and the voice names it as the source's picture rather than the film's. C057 was re-read from the digest and every citation re-tested against digest evidence; the shipwreck passage is deliberately unused and the closing beat states the digest's corrections about netting out, about instant results and about expiry not being forgiveness.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The 1875 trigonometrical column on Rumassala hill above Unawatuna, and the plan store and field marks of the Galle district survey office",
+    "also_known_as": [
+      {
+        "name": "Rumassala Kanda",
+        "meaning": "the headland hill the column stands on, east of the harbour; recorded in colonial usage as Gibson's Hill after an early master attendant of the port",
+        "used_by": "local and historical usage"
+      },
+      {
+        "name": "Edward's Pillar",
+        "meaning": "one name for the 1875 masonry column, which is also recorded as Burton's Pillar after the surveyor who built it and referred to locally as the Galle tower",
+        "used_by": "heritage listing and local usage"
+      },
+      {
+        "name": "station description",
+        "meaning": "the card or sheet that records a survey mark by measured distances to nearby objects, so that somebody can find it again years later",
+        "used_by": "survey usage"
+      }
+    ],
+    "region": "Galle District, Southern Province: the headland immediately east of the harbour town, and the densely subdivided coconut, paddy and home-garden lowland inland of it",
+    "coordinates": {
+      "lat": 6.0164,
+      "lng": 80.2403
+    },
+    "why_here": "Because the concept is the trade's daily problem here, and because one district holds both ends of it. On the headland stands a masonry column fifty feet high, built in 1875 by a surveyor of the colonial survey department as a trigonometrical station and used as well as a leading mark for vessels coming in from the sea; it has been protected as a monument since 2007, it has not moved since it was built, and it does nothing at all unless somebody climbs it. Below and inland is one of the most finely subdivided lowlands in the country, where the boundary of a parcel is a hedge, a wall or a tree, where subdivision has run for generations, and where the lines that exist on paper all descend from a network first based in the eighteen-fifties. Between the two there is a district survey office with a plan store going back to the nineteenth century, a cabinet of station descriptions, and a standing job of going out to recover old marks and finding that some are still exactly where the card says and some are under a wall. That is the whole film: a thing set down once, waiting without weakening, needing an occasion, and sometimes out of time. It is a working institution that can consent, there is no private grief anywhere in it, and it asks nobody to be an example of anything.",
+    "what_to_film": [
+      "The lowland from height at the start and end of a day, so the mosaic of small parcels, hedges and walls separates into individual boundaries, with the white column on the headland at one edge of frame.",
+      "The plan store: rolled sheets in racks, drawers of flat sheets, the dates in the corners running from the nineteenth century to last month, and one sheet carried out to a table.",
+      "A station description card at close range: the sketch, the three measured distances, the mark number and the year, with any living owner's details kept illegible.",
+      "A recovery from beginning to end in one garden corner: the walk in with the card, the scrub cleared, the tape run from the references, the leaf litter scraped back, and the post found with its chiselled number.",
+      "A recovery that fails, filmed plainly and without emphasis: the references measured twice, the ground opened, nothing there, a wall across the place the distances point to, and the card going back in the folder.",
+      "The climb to the column and the instrument being set on it, then what the line of sight actually offers: a grown tree, a roof, and the horizon coming apart in midday haze.",
+      "The column itself held long and still, from below and at arm's length: masonry, whitewash, weathering, and whatever inscription it carries.",
+      "The office screen with two sets of coordinates for the same corner, one off the old network and one from satellites, and the conversion between them.",
+      "Field books at close range for the pencil, the columns and the range of hands and dates, without names legible."
+    ],
+    "access": "The headland is reached by road from the harbour town and then on foot; the column is an approach on scrub paths and it is a protected monument, so any filming at it, and certainly any climbing of it, needs the antiquities authority's permission as well as the survey department's. Everything indoors depends on written permission from the survey department, and the field work depends on the district office being willing to take a crew on its own work list, in its own order, into private gardens whose occupiers must themselves agree. Flying over the headland is not something to assume: it sits above a working harbour approach and inside a declared sanctuary, and clearance would have to be sought and may be refused, in which case the elevated views have to come from the hill itself and from the column's own platform. Recovery work happens in dry weather and stops in rain.",
+    "best_time": "A working week rather than a day, chosen against the district office's recovery list, in a dry spell. Within a day, the first and last hour for the lowland and for the column, and deliberately the middle of the day for the haze that makes a long sight impossible. A second short visit is worth planning for whichever week a failed recovery actually happens, since that cannot be arranged.",
+    "images": [
+      {
+        "caption": "The Rumassala headland and sanctuary from across the bay. A picture of the hill the 1875 column stands on, not of the column, the survey office or any mark.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rumassala in panorama.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Rumassala in panorama.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Edward%27s_Pillar",
+      "https://amazinglanka.com/wp/colonial-survey-towers-of-sri-lanka/",
+      "https://www.lankapradeepa.com/2023/06/awariwatta-survey-tower-katunayaka.html",
+      "https://survey.gov.lk/sdweb/pages_service_geodetic_survey.php?id=901c4d45a9024c95f2faa2b279458b3948d2c80f&l=s",
+      "https://survey.gov.lk/sdweb/pdf/surveydocuments/DSR_6th_EDITION/dsr_english.pdf",
+      "https://espace.curtin.edu.au/bitstream/handle/20.500.11937/3840/137779_137779.pdf?sequence=2",
+      "https://epsg.io/5235"
+    ],
+    "research_note": "Desk research only, and unverified on the ground. From the sources above: the masonry column on the headland east of the harbour town is recorded as Edward's Pillar or Burton's Pillar, about 15.3 metres or fifty feet high, originally whitewashed, built in 1875 by W. Burton of the colonial survey department as a trigonometrical station, described in the record specifically as an altitude station, also serving as a leading mark for vessels entering the western channel to the harbour, standing at about 80 metres above sea level on a hill formerly called Gibson's Hill, and declared an archaeological protected monument on 6 July 2007. On the network: the department dates from 1800; base measurement for the principal triangulation began in 1857 under Surveyor General Gosset; the triangulation was completed in 1885 and later connected to the Indian network; the old national datum took its name and its origin from a tower on the west coast, a Dutch structure of 1796 reused as a trigonometrical point, which collapsed in November 2015; and a new national network measured with satellite positioning between 1996 and 1998 has been in use since 1999 and 2000, with the two systems and a transformation between them in parallel use. The coordinates given here are the published position of the column, not a survey, and no building, mark, sheet, parcel or person has been identified. Three things the film depends on are inferences rather than confirmed facts about this district: that the district survey office holds a plan store and a cabinet of station descriptions in a form legible on camera, that recovery of old marks in gardens is current routine work here with a list a crew could follow, and that the column is still climbable and still usable as a station. Nobody has been approached, no permission has been sought from the survey department, the antiquities authority or any occupier, and no photograph of the column, the office or any mark was found on Wikimedia Commons; the one image is of the headland the column stands on.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the district survey office's plan store and station descriptions exist in a form that can be filmed, and whether the department will open them.",
+    "Whether recovery of old marks is current, regular work in this district, and whether a crew can be attached to a recovery list rather than to a set-up.",
+    "Whether a failed recovery, which the film's fourth-kind beat depends on, can be reached at all inside a filming window.",
+    "Whether the protected column can be approached, filmed and occupied with an instrument, and who has to agree to that.",
+    "Whether height over the headland and the lowland can be obtained at all, given the harbour approach and the sanctuary, or whether the film has to work from the hill and the column alone.",
+    "Whether recoveries can be filmed without entering a live boundary dispute or exposing an occupier's details."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

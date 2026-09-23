@@ -2,85 +2,192 @@
   "schema_version": 1,
   "id": "IDEA-0125",
   "record_type": "idea",
-  "title": "Two Bodies, One Warmth",
+  "title": "Nothing Here Is the Same Age",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Two Bodies, One Warmth"
+  ],
   "group_id": "GRP-07",
-  "logline": "Across one year in a shared household, a small child visibly grows and an elder visibly slows, fed and warmed by the same table, the same water and the same weather.",
-  "human_question": "Is the warmth that grows a child the same warmth that wears out an elder?",
-  "situation": {
-    "what_happens": "Several generations live in one house and share almost everything: meals, water, heat, work, illness and money. Over a year the youngest changes fast enough to be noticed month by month, and the oldest changes slowly enough that it only shows in comparison. The household absorbs both: clothes handed on, a room rearranged, a task quietly taken over by somebody else. There is usually a birthday and usually an illness, and neither is scheduled.",
-    "who_is_involved": "A young child; an elder at the other end of a life; the middle generation who carry both and whose year is the most crowded; and the relatives who visit, help, or do not.",
-    "what_is_at_stake": "For the middle generation, whether the arrangement holds, since caring at both ends at once is what is actually being tested. For the elder, independence and dignity in a house that is slowly reorganising around them. For the child, everything, unnoticed.",
-    "how_it_unfolds": "A year in a household like this has no plot and a great deal of change. Its pressures are money, health, school, work and distance. It can end with the arrangement intact, with someone moving, or with a loss. Which of those happens is entirely reality's to decide, and any film would have to be willing to end wherever the year leaves the family."
+  "logline": "In one clump of bamboo on a river bank, new culms come out of the ground fast enough to be measured against a mark from day to day, while in the same root mass, a few feet away, older culms grey, harden, split and die standing, so that no two things in the frame are the same age and all of them are one plant.",
+  "human_question": "Is what builds a thing and what wears it out the same thing?",
+  "place": {
+    "what_kind_of_place": "The flat river country where a large river comes out of the hills, with dense bamboo along the banks and in the sandy flats behind them. The bamboo grows in clumps rather than as separate stems: each clump is one plant, sending up new culms from its base in the wet weeks and holding, at any moment, culms of every age from a sheathed shoot to a dead grey pole still standing in the crown. Villages use what they can reach for fences, frames, ladders and scaffolding, and cut by age rather than by size, tapping and listening for whether a culm has hardened. Between the clumps the river moves sand and cuts banks.",
+    "why_it_is_worth_watching": "A clump is a chart of time with every value showing at once, and it is beautiful before it is anything else: a pale sheathed shoot the thickness of an arm, a green culm still soft enough to bend, a hard yellow one, a grey one furred with lichen, a dead one hanging in the top. From the air a bamboo bank is a line of pale-green explosions along dark water, and the eye reads the ages as colour without being told. It is also one of the very few places where growth is fast enough to film: a fixed frame over a week shows a new culm rise past its neighbours. And the whole stand is never still, because bamboo in wind knocks and grinds against itself, so the sound is as much the subject as the picture.",
+    "what_moves_or_changes": "The shoots, the wind, the river and the light. New culms come after the rains begin and put on most of their length in the dark hours; within a season they have their full height and will never grow again, only harden. Old culms grey, split and are cut out or fall. The river takes sand from one bank and lays it on another behind the same clumps. Nothing here can be scheduled except the season.",
+    "when_it_looks_best": "The weeks after the rains begin, when new culms are coming up and the difference between this year's stems and last year's is at its widest. Early morning for mist off the water and for raking light along the bank; late afternoon for wind, when the whole stand moves and knocks."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a plant and a river. Shoots breaking ground, a culm climbing past its neighbours in time-lapse, sheaths falling, light through a stand, lichen on an old pole, a cut face bleeding water, wind moving a whole bank at once and the noise it makes, and the river going past under all of it. Anyone who likes watching things grow, or likes the sound of a bamboo stand in wind, has a complete piece here with nothing said over it.",
+    "with_the_philosophy": "The same clump becomes the sources' hardest claim about time, standing in a plant. They say the heat element is not temperature but ripening, and that one and the same ripening builds a young thing up and, once building is finished, wears things down. They also say that decay is not a stage anything enters later: it belongs to matter from the moment it has arisen, and is simply hidden behind growth while growth lasts, so that grey hair is not decay but only its sign. A clump that holds every age at once can carry both of those without anybody being asked to stand for youth or for decline."
+  },
+  "sequence": [
+    {
+      "on_screen": "Drone along the river at first light: mist on the water, the bank a continuous line of clumps, each one a separate pale-green burst. Then down into one clump, looking up through it.",
+      "voice": "Every stem here is one plant. They are not a family and they are not a population. This is one thing at many ages at the same time, and it is the only kind of subject that can carry what comes next without anybody being made into an example.",
+      "concept_id": "C064"
+    },
+    {
+      "on_screen": "A new shoot: sheathed, blunt, the thickness of a forearm, pushing out of the ground at the base of the clump. A fixed frame held across several days, compressed: the culm rising past its neighbours, sheaths dropping off.",
+      "voice": "The sources do not treat the heat element as temperature. They treat it as ripening, and they say that in youth ripening makes matter mature and grow [C064-P:L78; C064-M:L15]. They also say the four behaviours never come apart: whatever predominates, all four are in everything material [C064-P:L112–L114; C064-M:L21].",
+      "concept_id": "C064"
+    },
+    {
+      "on_screen": "The same clump, a few feet across: culms that stopped growing one, three and six years ago. Hard, yellow, then grey, then lichened, then split. One dead pole held upright by the others.",
+      "voice": "And then comes the sentence this group is built on. Once maturing is complete, that same ripening makes bodies and outside things decay [C064-P:L78; C064-M:L15]. Not growth and then, later, an enemy. One process, going on doing what it does after there is nothing left to build.",
+      "concept_id": "C064"
+    },
+    {
+      "on_screen": "A cutter at the clump: knocking a culm with the back of a blade and listening, passing over the green ones, taking an old one out low down, the cut face wet. Filmed as work, wide, without commentary.",
+      "voice": "The other half of the claim is stricter and harder to like. Decay is not a stage a thing enters. It belongs to matter from the moment it has arisen, and in youth it is simply hidden behind growth. Grey hair, lost teeth and wrinkles are not decay; they are only the sign that it has been going on all along [C066-P:L137].",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "Bending tests: a green culm taken round in an arc and released, an old one splitting along its length under the same pressure. The same two stems on a wet morning and in dry heat.",
+      "voice": "The sources count ease itself among the things that come and go rather than among the things a thing has. Lightness, softness and workability appear when weather, food and rest are suitable and go when they are not [C066-P:L84–L100; C066-M:L19]. Somebody deciding which stem will bend and which will split is reading exactly that, and getting it wrong costs a day.",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "Wide and slow: the bank, the river working at the sand under the clumps, the stand standing in it.",
+      "voice": "Underneath both claims is a plainer one. Nothing here keeps its shape because of the kind of thing it is. It keeps it while the condition producing it is unchanged, and becomes something else when that changes [C063-P:L26]; what the sources are counting are patterns held up by conditions, not substances holding on to themselves [C063-P:L20].",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "Last light and wind. The whole stand moving and knocking, loud. In one frame: this season's shoots at the base, hard poles in the middle, a dead grey one in the crown. Then dark, and only the sound.",
+      "voice": "There is nobody's life in this film, and that is the point. The claim is about matter, not about anyone's years, and it does not need a child set against an old person to be true. A single clump of stems says it better, because everything in it is the same plant and none of it is the same age.",
+      "concept_id": "C064"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C064 contributes the fire element as ripening, and the sources' plain statement that one and the same warmth matures and strengthens a body in youth and, once maturing is complete, wears bodies down. C066 contributes the characteristics of matter: decay belongs to all matter from the moment it has arisen, and grey hair, lost teeth and wrinkles are not decay but only its signs. C072 contributes the sources' sober point that it is the body's own running-down, rather than a decision or a last thought, that fixes when a life ends. One household holds all three without anyone having to say anything.",
-    "what_it_reveals": "Separately these are three statements about time. Together in one house they make a single claim that is hard to take: growth and ageing are not two processes but one, at different points of the same arc, so the difference between the two people at the table is where they are on it rather than what is happening to them. It also removes the usual consolation that ageing starts somewhere. By this account it was running all along, and only its visibility changed."
+    "why_together": "C064 supplies the claim. Both sources say that one and the same ripening builds a young body up and, once maturing is complete, wears bodies and outside things down [C064-P:L78; C064-M:L15], and that the four behaviours are inseparable and present in everything material whatever predominates [C064-P:L112–L114; C064-M:L21], with the variety of things produced by which of them is strongest [C064-P:L118–L122; C064-M:L11]. C066 supplies the part that stops it being a comfortable idea: decay belongs to matter from the moment it has arisen, is hidden behind growth in youth, and shows only as signs afterwards [C066-P:L137]; and the ordinary qualities of ease, lightness, softness and workability, are conditional arrivals rather than properties [C066-P:L84–L100; C066-M:L19]. C063 supplies the floor under both, that a thing holds its shape only while its condition is unchanged [C063-P:L26] and that what is counted is a pattern of conditioned forces rather than a substance [C063-P:L20]. In one clump, which is one plant holding every age at once, the three are not three statements about time. They are a description of what is in the frame.",
+    "what_it_reveals": "That growth and wearing out are not two processes but one at different points, and that the difference between two stems is where they are on it rather than what is happening to them. It also removes the usual consolation that ageing starts somewhere. By this account it was running the whole time and only its visibility changed, which is very hard to believe about a person and very easy to see in a plant. That is the whole reason this film is made on a clump and not on anybody's household: the claim survives, and nobody has to be the exhibit for it."
   },
   "concept_links": [
     {
       "concept_id": "C064",
       "role": "primary",
-      "why": "The digest states it without hedging: in youth ripening makes matter mature and grow, and once maturing is complete the same ripening makes bodies and outside things decay, so one element brings both growth and decline. The digest calls this the most human line in the source for a group about vulnerability."
+      "why": "The digest states it without hedging and in both sources: in youth ripening makes matter mature and grow, and once maturing is complete the same ripening makes bodies and outside things decay, so one element brings both [C064-P:L78; C064-M:L15]. The digest calls this the most human line in the source for a group about vulnerability, and it is the film's spine. The digest also gives the inseparability of the four and their presence in everything material whatever predominates [C064-P:L112–L114; C064-M:L21; C064-P:L118–L122; C064-M:L11], which keeps the ripening element from being narrated as though it worked alone. The digest's limits are honoured. The four are never presented as the classical elements of alchemy or as a rival chemistry. The wellness reading, balance your elements for health, is refused; the sources explain variety by proportion and prescribe nothing. The claim that the senses were shaped by a long history of wanting is not narrated at all, and neither are the traditional measurements of where a sense sits, since the digest says the first must never be used to say anyone's blindness or deafness is deserved and the second is not anatomy. The mythic etymologies are not used."
     },
     {
       "concept_id": "C066",
       "role": "supporting",
-      "why": "The digest says decay belongs to all matter once it has arisen, that in childhood it is simply hidden behind growth, and that grey hair, lost teeth and wrinkles are not decay itself but only signs that it has already been happening."
+      "why": "The digest carries the line that makes the primary claim unsentimental: decay belongs to all matter once it has arisen, in childhood it is simply hidden behind growth, and grey hair, lost teeth and wrinkles are not decay itself but only signs that it has already been happening [C066-P:L137]. It also gives the three qualities of ease, lightness, softness and workability, as things that appear when weather, food, mind and rest are suitable and vanish when they are not [C066-P:L84–L100; C066-M:L19], which is what a bamboo cutter is judging. The digest's corrections are kept. The film never drifts into positive thinking keeps you young, which the digest rules out explicitly. It does not present the sources' sub-moment arithmetic, in which decay occupies forty-nine of the fifty-one sub-moments, as a measurement of anything [C066-P:L141–L149; C066-M:L29]. It does not touch the traditional seventy-seven-day figure for the completion of the sense organs in the womb, which the digest says is not embryology and must not be used in any argument about reproduction. And it does not use intimation as a theory of body language."
     },
     {
-      "concept_id": "C072",
+      "concept_id": "C063",
       "role": "supporting",
-      "why": "The digest reports the Margaya's point that the end of the body's own renewal is what fixes the moment of death, rather than a last moment of mind stopping the body: in the digest's words, we do not choose our time, the body's own running-down sets it. That is the fact an elder's year is lived inside, and it needs no death on screen to be true."
+      "why": "The digest's definition of matter as a changing pattern of conditioned forces rather than a substance [C063-P:L20], and its point that a thing looks unchanged only while the condition producing it stays the same and changes when that changes [C063-P:L26], are the floor the other two stand on and the reason the film can say that a standing dead culm and a week-old shoot are not two kinds of thing. The digest's limits are kept: the sources' forces are not presented as energy or vibration, the seventeen-mind-moment lifespan is not offered as measurement [C063-P:L20–L26], and the shared inventory of body and world is not softened into oneness with nature, since the digest says it is there to show that there is no owner in either."
     }
   ],
-  "what_the_viewer_could_understand": "These texts say the same warmth that helps a child grow is what slowly wears an older body down. Ageing was there all along; grey hair is only its sign.",
-  "what_must_be_real": "The family's own year, and consent renewed at every visit by every generation, including the elder's own and the parents' on the child's behalf. No schematic arrangement of the two people as growth and decay, no filming of an illness or a decline the family has not invited, and no suggestion that either body's condition is explained by anything the texts say.",
-  "position_hint": "closing candidate: the group's most human statement of what a body is doing all the time, leaving the group one step from its final question without having to stage an ending.",
+  "what_the_viewer_could_understand": "That these texts say the same ripening that builds a thing up is what afterwards wears it down, and that decay is not something that starts later but is in matter from the beginning, hidden behind growth while growth lasts. What changes is not when it begins but when it becomes visible.",
+  "what_must_be_real": "The clump as it actually stands, with its real ages, its real damage and whatever use is really made of it. No culm is cut, bent, split, stripped or moved for a shot, and no time-lapse is faked or accelerated beyond what actually happened between the frames. Nobody in the film stands for an age or a stage; if people cut bamboo here, they are filmed as people doing work, with their consent, and never as an illustration of growth or decline. No child and no elderly person appears in this film as a subject at all. If cutting would damage a stand that a household depends on, it does not happen for the camera.",
+  "position_hint": "late: it is the group's clearest statement that growth and decline are one process, and it lands hardest once the viewer has already met a body being kept up moment by moment. No location reasoning is involved.",
   "risks": [
-    "The elder's decline used for pathos.",
-    "The schematic reading, child as growth and elder as decay, which the real year must be allowed to contradict.",
-    "A year of filming needs genuinely renewable consent and an agreed way to stop.",
-    "Drifting into 'positive thinking keeps you young', which the digest rules out.",
-    "Reading the ripening element as a wellness claim about balancing elements, which the digest also rules out."
+    "The schematic reading, new stem as growth and old stem as decay, which the real clump will contradict and which the edit must let it contradict.",
+    "Drifting into positive thinking keeps you young, which the digest rules out.",
+    "Reading the ripening element as a wellness claim about balancing elements, which the digest also rules out.",
+    "Letting the film turn into a bamboo craft or forestry documentary, which is a real and separate subject and would swallow this one.",
+    "Treating the sources' sub-moment arithmetic as a measurement.",
+    "Any drift back towards the idea's old shape, in which a child and an elder in one household were the exhibit; nobody's ageing belongs in this film.",
+    "Romanticising the cutters' work or ignoring what bamboo is actually worth to the people who cut it.",
+    "Presenting the classification of plants in the sources as a biological claim about whether plants are alive, which the digests say needs expert framing."
   ],
   "drop_if": [
-    "No multi-generation household willing to be visited across a full year.",
-    "Health or circumstances make continuing inappropriate."
+    "No stand can be found where culms of clearly different ages stand in one clump and one frame.",
+    "The growth season is missed, so there is no shoot to film rising and the central time-lapse cannot exist.",
+    "The only way to show the age difference is to cut or damage a stand for the camera.",
+    "Access to the bank is unsafe, or the stand is on land whose owner does not want it filmed."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0123",
-      "relation": "pairs with",
-      "note": "One family answers what remains in the days right after a death; the other watches two bodies answer the same question across a year."
-    },
-    {
-      "idea_id": "IDEA-0120",
-      "relation": "pairs with",
-      "note": "One film watches a body being built; the other watches the same warmth that built it begin to wear another one down."
+      "relation": "mirrors",
+      "note": "One watches matter being renewed and worn down at different rates in the same frame; the other stands where renewal stopped altogether and only weather is left."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0065; the group's clearest case of one process producing both growth and decline, with its C072 link re-grounded in what the sources actually say."
+    "reason": "It puts growth and wearing-out in one frame as one process, on a plant that holds every age at once, with no family and nobody's ageing in it."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape, and the subject was dropped. What was dropped, plainly: the year in a shared household, the small child growing, the elder slowing, the shared meals and water, the birthday and the illness. It filmed a real family, it made a named elder's decline the exhibit, and it set a child against that elder as contrast, all of which this group's ethical floor forbids. What was kept is the concept: matter renewed at different rates and decay written into matter's own definition, moved onto a place where fast growth and slow wearing-out are visible in the same frame. No family, no child, no elder, nobody's ageing. C072 was dropped from the links, because without the household its only remaining content here was the end of renewal, which IDEA-0123 now carries properly; C063 was added in its place for the conditional standing that both surviving concepts assume. All three concepts were re-read from the digests and every citation re-verified against digest evidence.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The bamboo stands on the Mahaweli river flats at Mahiyangana",
+    "also_known_as": [
+      {
+        "name": "una",
+        "meaning": "bamboo",
+        "used_by": "Sinhala usage, island-wide"
+      },
+      {
+        "name": "katu una",
+        "meaning": "the thorny bamboo that forms dense clumps along dry and intermediate zone river banks",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "kaha una",
+        "meaning": "the yellow building bamboo, the species most often cut for poles",
+        "used_by": "Sinhala usage"
+      }
+    ],
+    "region": "Badulla District, Uva Province: the flat intermediate-zone river country where the island's longest river comes down out of the hills, around the small town of Mahiyangana and the river flats north and south of it",
+    "coordinates": {
+      "lat": 7.31667,
+      "lng": 80.98278
+    },
+    "why_here": "It gives the concept a subject that carries it without a person in it. Bamboo grows in clumps along rivers here, and a clump is one plant holding culms of every age at once, which is precisely the film's requirement that fast growth and slow wearing-out be visible in the same frame. The growth is fast enough to film, which is rare; the ageing is visible as colour and surface, which is rarer; and both are in one shot. The river flats also give the wide image for nothing, a line of pale-green clumps along dark water seen from the air, and they are ordinary working country rather than a monument, so nothing in frame is on display. Above all it is a location with no household in it, which is what this idea needed most.",
+    "what_to_film": [
+      "One clump in a single fixed frame across a full growing season, so that a shoot becomes a culm in the same shot as the culms that stopped growing years ago.",
+      "A new shoot close: sheaths, the blunt tip, the ground broken around it, and the same shoot at the same hour on consecutive days.",
+      "The ages side by side within one clump, filmed as colour and surface rather than as a diagram: green, yellow, grey, lichened, split, dead.",
+      "The bank from the air at first light, wide enough that the clumps read as separate plants along the water.",
+      "Cutting as it actually happens, if it happens: knocking and listening, choosing, the cut low down, the wet face.",
+      "Wind through the stand in late afternoon, recorded properly, because the knocking is half the film.",
+      "The river working at the sand under the clumps, and what it takes and leaves."
+    ],
+    "access": "By road from the hill country down the escarpment, or from the dry-zone side. The stands are on river flats and on land that is variously private, state forest and river reservation, so access depends on establishing who controls a given stand. Thorny bamboo is genuinely difficult and dangerous to work in, which limits what can be filmed from inside a clump. River banks here carry the usual hazards of a large river in a flood season, and wild elephants move through this country.",
+    "best_time": "The weeks after the rains begin, when new culms emerge and the age spread is widest. First light for mist and raking light along the bank, late afternoon for wind.",
+    "images": [
+      {
+        "caption": "A bamboo stand in Sri Lanka. An image of the plant and the kind of stand, not of the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo Sri Lanka.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Bamboo Sri Lanka.JPG",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 3.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "Thorny bamboo, the clump-forming species found along river banks in this zone. A photograph of the species made elsewhere, not of the proposed site.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bambusa bambos Bamboo.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bambusa bambos Bamboo.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bambusa_bambos",
+      "https://en.wikipedia.org/wiki/Mahiyangana",
+      "https://island.lk/bamboo-an-untapped-goldmine/",
+      "https://www.dilmahconservation.org/arboretum/plants-and-trees/kaha-una--14689e38b1ec4a1725e2f51af461d182.html",
+      "https://www.sundaytimes.lk/190421/business-times/bamboo-for-environmental-and-economic-benefits-constraints-in-sri-lanka-345879.html"
+    ],
+    "research_note": "That the town sits on the flats beside the island's longest river in this district, that thorny bamboo is a clump-forming species found in parts of the dry zone and along river banks, that it is among the fastest growing of all plants and can add a large part of a metre in a night, that a clump carries culms of several ages and that culms are generally taken only once they have hardened at about three years or more, and that the yellow building bamboo is the species most often cut for poles, are from the sources above and are desk research only. One source notes that thorny bamboo is often left uncut locally because of its thorns and in places spreads aggressively, which matters: this film does not depend on the stand being worked, and if no cutting happens there the fourth and fifth beats change rather than the film. The coordinates are the town's, not a chosen stand; no stand has been found, located or looked at, and nothing about land control, access or drone rules has been checked. Neither image is of the proposed site.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No stand has been found or visited, and who controls any given stretch of bank is unknown. Everything here is a research direction.",
+    "Whether a single clump reachable by a crew shows the full age spread clearly enough to read on camera is unverified.",
+    "Whether bamboo is actually cut in this area, and by whom, is unverified; the film is built so that it does not depend on it.",
+    "A season-long fixed frame on a river bank has practical problems, including flooding, animals and theft of equipment, none of which have been assessed."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

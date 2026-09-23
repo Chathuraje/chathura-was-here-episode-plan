@@ -2,74 +2,191 @@
   "schema_version": 1,
   "id": "IDEA-0116",
   "record_type": "idea",
-  "title": "The Weight of a Word",
+  "title": "Nobody Is Saying It Now",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Weight of a Word"
+  ],
   "group_id": "GRP-07",
-  "logline": "A family finds an old recording of a relative who has died, and decides in their own time whether to listen to a voice that sounds exactly as it always did.",
-  "human_question": "A recording keeps a voice. What does it not keep?",
-  "situation": {
-    "what_happens": "Clearing a shelf or a cupboard, a family comes across a recording of someone who has died. There is first the practical problem of finding anything that will still play it. Then there is the harder decision of whether to play it at all, and who should be in the room when it happens. The voice, when it comes, is unchanged, which is the whole difficulty: it sounds like someone speaking now. Afterwards the family has to decide what the recording is for and where it goes.",
-    "who_is_involved": "The family of the person who died: the ones who want to hear it, the ones who do not, and whoever has been keeping the recording.",
-    "what_is_at_stake": "Whether a grief that had settled is reopened, and whether the recording becomes something the family keeps, copies, shares or puts away for good.",
-    "how_it_unfolds": "Situations like this are not planned. They begin by accident, in the middle of some other task, and they move at whatever pace the family can bear. The pressures are who is present, how recent the death is, and what the family already disagrees about. They end with the recording played, or put back unplayed, or played once and never again. Only the family can decide, and only at the time."
+  "logline": "Ninety-nine steel tanks the size of small churches stand in scrub jungle above a great harbour, built to hold fuel for a fleet that never came back for it, and inside one of the empty ones a single spoken word goes on sounding long after the person who meant it has stopped.",
+  "human_question": "A sound can be made, carried, copied and handed back to you. Which part of it was ever anybody's?",
+  "place": {
+    "what_kind_of_place": "A ridge of scrub jungle between an airfield and the inner arm of a very large natural harbour, on which a foreign navy laid out an oil store in the nineteen-twenties and thirties: a hundred and one riveted steel cylinders, each about twelve thousand tonnes' capacity, set in their own earth bunds and joined by a web of pipe roads and valve pits across several hundred hectares. A dozen or so near the water are still in use and fenced. The rest have stood empty for most of a lifetime, their roofs under leaf litter, their shells rusting, scrub and then forest grown back between them, with wild animals moving through it. One of them was burned out in the war and still stands with its plates warped and part melted.",
+    "why_it_is_worth_watching": "It is a place built entirely out of containment and now containing nothing. From the air it barely reads as human at first: a canopy with circles in it, too regular to be anything but made, and then the pattern resolves into rank after rank of enormous grey drums going back into forest. On the ground it is a walk between curved walls of steel taller than the trees around them, in absolute quiet, until something makes a noise and the noise does not behave the way noises do outside. A tank is the most acoustically extravagant room most people will ever stand in: a word, a footstep, a drip goes on and on and comes back from every direction at once, and when it finally stops the silence is enormous. The place gives the film its best image and its argument in the same shot.",
+    "what_moves_or_changes": "Very little, and that is the point. Light moves across the plating through a day and finds every rivet line twice, at dawn and at dusk. Rust advances. Rain arrives and for twenty minutes a hundred steel roofs are the loudest objects for miles, then it passes and they are silent again. Inside, the only changes are sounds: a bird that has got in, water somewhere, a voice. Nothing in the film can be scheduled except the hour, the weather and whoever is willing to let a crew in.",
+    "when_it_looks_best": "Two different windows, and the film probably wants both. The dry months give hard light on steel, dust in the pipe roads and clean air for height. The first weeks of the north-east monsoon give the rain on the roofs, the water inside, and the low cloud that makes the ranks of tanks come and go. Within a day: the half hour after sunrise and the half hour before dark, when a low sun runs along the curve of the plating."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about an abandoned industrial landscape being taken back by forest, and about what noise does inside very large empty containers. Steel, rivets, rust, bunds, pipe roads, a burned tank, leopard and elephant sign in the grass between them, rain drumming on a hundred roofs, and long held shots inside a dark cylinder where light comes down through a vent and a small sound refuses to die. It has its own complete shape with nothing said over it: arrival, scale, interior, weather, departure. Anyone who likes ruins, or likes the way sound behaves in a big room, has a whole piece here.",
+    "with_the_philosophy": "The same hour becomes the sources' account of sound, standing in the one building that makes it obvious. In this analysis sound is a kind of matter, made by striking, kept up only while its conditions last, and owned by nobody. A spoken sound carries meaning only because of a mode of mind-made matter that lasts one moment of mind, while the sound itself runs on for seventeen. In a tank you can hear exactly that gap: the meaning is over almost at once and the sound is still travelling round the walls. The voice never says the tanks are a metaphor for the body. It says that what happens in here happens everywhere, and that this room is only slow enough to notice."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, very high and straight down. Forest canopy, a bay beyond it, and set into the green a grid of grey circles: rank after rank of tank roofs, each in its own square of earth bank, with pipe roads running between them into the trees.",
+      "voice": "A navy built these about ninety years ago to hold fuel for a war. A hundred and one of them, each big enough to take twelve thousand tonnes. A dozen still work. The rest have been empty for most of a lifetime, and the forest has come back between them.",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "Ground level. Walking the pipe road between two tank walls: curved plate, rivet lines, rust running in vertical streaks, grass to the knee. Somebody raps the shell once with a knuckle and the wall answers.",
+      "voice": "The old analysis starts by refusing to let anything be a substance. Mountains, oceans, the sound of a drum, the taste of a thing: all of it is described as a pattern of conditioned forces that arises, is altered by heat and cold, and is kept up only as long as whatever makes it stays the same [C063-P:L20; C063-P:L26]. Sound is not a report about matter in that list. Sound is matter.",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "Inside. Blackness, then a shaft of daylight from a roof vent and a column of dust in it. The curve of the wall disappearing on both sides. Someone says a few ordinary words, once. The sound comes back from everywhere and takes a long time to go.",
+      "voice": "When a person wants to be understood, the sources say, they move a limb or they make a sound with the mouth, and someone else knows what is meant [C066-P:L36]. What does the carrying is given a name. In speech it is the mode by which the mind's own force makes the sound at the points of articulation and shapes it into the words that were wanted [C066-P:L54; C066-M:L15].",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "The same interior, held much longer. The word is gone and the room is still busy with it. Slow pan across plating, a puddle, a bird somewhere above in the dark.",
+      "voice": "Now the arithmetic, which is the whole film. That mode of meaning lasts one moment of mind. The sound it produced lasts seventeen [C066-P:L56–L60; C066-P:L145; C066-P:L141]. So the meaning is always over first, and what goes on travelling is only matter. In an ordinary room that gap is too small to notice. In here it is long enough to walk away from.",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "A hand-held recorder set on the floor of the tank, playing back the same words into the same space. Then the sound of the tanks themselves: rain arriving across a hundred roofs at once, filmed from inside.",
+      "voice": "The modern commentator who wrote this up put it in terms of his own century, and it is his illustration rather than the old text's: a gramophone or a radio, he says, will give you sounds exactly like a person's, over and over, arising from heat as ordinary matter does, and there is no meaning-carrier in any of them [C066-P:L54]. Nobody is saying it. It is the same with what came back off these walls just now. The words are yours. The echo is the building's, and the building does not mean anything by it.",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "Outside in rain. The burned tank: plates warped, torn and part melted where an aircraft went into it in the war. Water running off it. Then a working tank in the distance behind a fence, painted, maintained, with a man on the stair.",
+      "voice": "The same passage says the sound a listener understands is only the sound they have heard before [C066-P:L62]. And it says why the steel stands here at all: matter has four makers and no others, and a thing holds its shape only while the conditions that keep making it hold theirs [C063-P:L26; C063-P:L30]. One of these was painted this year. One of them met a fire in 1942. Nothing else was different about them.",
+      "concept_id": "C063"
+    },
+    {
+      "on_screen": "Interior again, in the last of the light. The vent shaft has gone. Close on rivets and rust blooms, on a seam weeping, on the floor plate under standing water.",
+      "voice": "The texts are blunt about what has been happening to this steel the whole time. Nothing material fails to decay; of the fifty-one small moments a piece of matter gets, forty-nine of them are the decaying [C066-P:L137; C066-P:L149]. Grey hair, they say, is not the ageing. It is only the notice that ageing has been going on. So is rust.",
+      "concept_id": "C066"
+    },
+    {
+      "on_screen": "Last light, back at height. The circles again, filling with shadow. The bay silver beyond them. No commentary over the final minute.",
+      "voice": "One correction before we leave, because the film has been standing inside a hollow thing for an hour. The emptiness the sources count as a kind of matter is not this. It is the hairline between one group of matter and the next, the reason things do not merge, and they admit it is barely a thing at all [C066-P:L18–L22]. Even the sky, they say, is not empty; it is full of air [C066-P:L32]. There is no room anywhere in the list for the one who owns any of it.",
+      "concept_id": "C066"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C066 contributes vocal intimation, the mode by which a spoken sound carries what someone means, and the sources' observation that a machine reproduces the sound and not that. C063 contributes sound's place in the inventory of matter as conditioned and momentary, which is why a copy of a sound is only that. Together they name the gap between a voice and someone meaning it.",
-    "what_it_reveals": "Everyone who has heard a recording of someone who has died already knows the gap; almost nobody has a word for it. What the pairing reveals is that the absence is not sentimental but structural: the missing thing is not a quality of the sound, so no improvement in the recording could ever supply it."
+    "why_together": "C066 supplies the mechanism and the exact number the film is built on. The sources hold that beings make their meaning known by moving a limb or by making a sound with the mouth, and that what does the carrying is a distinct mode of mind-produced matter [C066-P:L36]; that in speech this mode arises with the sound at the points of articulation and shapes it into the words intended [C066-P:L54; C066-M:L15]; that it lasts a single moment of mind while the sound it produced runs on for seventeen [C066-P:L56–L60; C066-P:L145; C066-P:L141]; and, in the modern author's own illustration, that a gramophone or radio can put out sounds just like a person's as ordinary heat-made matter with no meaning-carrier in them at all [C066-P:L54]. C063 supplies the frame that keeps this from being a piece of acoustics. Matter is defined there as a pattern of conditioned forces that includes the sound of a drum alongside mountains and oceans, arising only from four causes and holding its shape only while its condition is unchanged [C063-P:L20; C063-P:L26; C063-P:L30]. Put inside a disused storage tank, the mechanism and the frame stop being scholastic and become audible: a word, its meaning finished almost at once, and the matter of it still going round the walls.",
+    "what_it_reveals": "That the thing missing from a copied or reflected sound is not a quality of the sound and could never be improved into existence, because it was never part of the sound in the first place. C066 alone would be a lecture about a term of art. C063 alone would be an inventory. Together, in a room that holds a noise for eleven seconds, they let a viewer hear the join come apart: the meaning ends, the sound does not, and neither of them belongs to anybody. The old version of this idea filmed a family listening to a dead relative. This one gets the same distinction from a building, which can consent, cannot be bereaved, and makes the gap long enough to see."
   },
   "concept_links": [
     {
       "concept_id": "C066",
       "role": "primary",
-      "why": "The digest reports the source's own observation that a machine can reproduce the sound of someone's voice exactly while what made the sound a message, a living person's intention shaping breath and throat at that moment, is absent, and that the sources give that absence a name. The digest also notes that the gramophone example is the modern author's illustration rather than a claim of the classical text."
+      "why": "The digest's account of the two intimations is the whole film. Beings convey what they mean by moving the body or by sound from the mouth, and others understand; the cause is a mode of matter, not the movement or the noise itself [C066-P:L36; C066-P:L40–L44]. In speech, the mind's force produces the sound together with the ordinary groups at the points of articulation and directs it into the letters and words required [C066-P:L54; C066-M:L15], and a hearer understands only sounds already familiar to them [C066-P:L62]. The lifespans are cited on screen because they are the film's argument: the meaning-carrier lasts one moment of mind, the sound it made lasts seventeen [C066-P:L56–L60; C066-P:L145; C066-P:L141], and decay takes forty-nine of the fifty-one small moments of anything material [C066-P:L137; C066-P:L149]. Every limit in the digest that bears on this film is honoured. The gramophone and radio remark is spoken as the modern author's own illustration and not as a claim of the classical text, exactly as the digest requires [C066-P:L54]. The space element is corrected out loud rather than borrowed: the film stands inside a hollow object all hour and says plainly that the sources' 'space' is the boundary between material groups and not an empty volume, and that even the sky is full of air [C066-P:L18–L22; C066-P:L32]. Intimation is never offered as a way of reading gestures or as communication advice. The embryological figures in the same digest, and the claim about beings born with complete faculties, are not used anywhere and no body appears in the film at all."
     },
     {
       "concept_id": "C063",
       "role": "supporting",
-      "why": "The digest counts sound among the twenty-eight kinds of matter as a conditioned, momentary thing that is kept up only while its conditions last, which is why a recording can copy a sound without renewing anything of the person who once produced it."
+      "why": "The digest defines matter as a group of conditioned forces rather than a substance, and puts the sound of a drum in the same list as mountains, oceans and flavours [C063-P:L20]; it holds that matter arises from four causes and no others, that a unit of it has arising, standing and breaking, and that a thing only looks steady because the condition producing it has not changed, so the same conditions that kept it also turn it to ash [C063-P:L26]; and it sets the four great elements with the derived kinds that depend on them [C063-P:L30]. That is what makes this a film about matter and not about echo. The digest's corrections are kept: the forces are not 'energy' or 'vibration' and nothing here is offered as physics or as an anticipation of acoustics; the seventeen-moment lifespan is spoken as a doctrinal measure and never as a measurement; and the scheme is not used to say 'we are only matter', since the film's closing line is about what the list does not contain rather than what it does. The digest's sex-determining and heart-base material is nowhere in the film."
     }
   ],
-  "what_the_viewer_could_understand": "These texts give a name to what is missing from a recording: the sound can be identical, and yet nothing in it is being meant by anyone now.",
-  "what_must_be_real": "The family's own grief, timing and choice. Nothing staged, repeated or scheduled to suit anyone else; the family decides whether this is filmed at all and can stop at any point, including afterwards.",
-  "position_hint": "held rather than placed: it would sit late in a group, because it asks what is left of a person once the body that meant something has stopped.",
+  "what_the_viewer_could_understand": "That in this analysis a sound is a piece of matter made by striking, kept up by conditions, decaying from the instant it starts and belonging to nobody, and that the thing which made it a message was a separate and far shorter event which has already finished while the sound is still in the air. Hearing that gap once, in a room slow enough to expose it, is the point; no claim about any person is being made.",
+  "what_must_be_real": "The tanks as they actually are, including whatever is stored, fenced, guarded, flooded, collapsed or in use. Nothing is dressed, lit to look older, or made to sound emptier than it is. Any sound recorded inside a tank is made by the crew and their own instruments, not by anyone brought in to perform it, and no voice belonging to a person who cannot consent is played anywhere in the film. Confined-space entry happens only on the operator's terms with their safety people present, or not at all. No animal in the scrub between the tanks is baited, lit or driven for a shot, and nothing is filmed that would compromise a working fuel installation.",
+  "position_hint": "middle to late: it needs the viewer to have already accepted that matter is being counted here as a list of qualities, so it sits after the group's plainer films about the elements and the groups, and it hands on the question of what is left when the meaning has finished. No location reasoning is involved.",
   "risks": [
-    "Grief staged, prolonged or repeated for a camera.",
-    "A private moment turned into spectacle.",
-    "The family's timing overridden by a schedule.",
-    "Reading intimation as 'body language' or communication advice, which the digest rules out."
+    "Letting the gramophone and radio remark be heard as the classical text's own view when the digest is explicit that it is the modern author's illustration.",
+    "Turning 'sound dies where it arises' or the seventeen-moment lifespan into physics, acoustics or a claim that the tradition anticipated science.",
+    "Reading intimation as body language or as a technique for interpreting other people, which the digest rules out.",
+    "Letting the emptiness inside a tank stand in for the sources' space element, which is the boundary between material groups and explicitly not a void.",
+    "Elegy: the site's war history and its politics are real and are not this film's subject, and a beautiful ruin can quietly become a lament for empire.",
+    "Aestheticising a working fuel installation whose ownership is a live public argument, or appearing to take a side in it.",
+    "Using any recording of a real person, living or dead, as the example of a sound with nobody meaning it."
   ],
   "drop_if": [
-    "No family willing to have this filmed entirely on their own terms.",
-    "The presence of a camera would itself change the moment."
+    "No tank can be entered safely, and the interior acoustic that the film's middle three beats depend on cannot be filmed from anywhere.",
+    "Permission from the operators and the relevant authorities cannot be had, or filming would interfere with a live fuel operation.",
+    "The only way to get the sound is to bring in a performer, a recording of a real person's voice, or a staged effect."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0118",
       "relation": "pairs with",
-      "note": "One asks what a voice loses when the wind takes it; the other what a voice loses when a machine keeps it."
+      "note": "Two films on the same account of sound: one where two orders of it fight for the same air, and one where a sound comes back off a wall with nobody behind it."
+    },
+    {
+      "idea_id": "IDEA-0117",
+      "relation": "mirrors",
+      "note": "Both watch a made thing from the inside: one an object being brought to an exact shape, the other an object that has outlived everything it was shaped for."
     }
   ],
   "selection": {
-    "recommendation": "hold",
+    "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Strong and doctrinally clean, but the group's nine slots are filled and its real subject, what is left of a person once the body that meant something has stopped, sits closer to the question this group hands on than to the body films themselves. Held for the group that takes up what continues after a body ends."
+    "reason": "It carries the group's sound material on a place that can be filmed and consented to, and the one room the location produces is also the clearest statement of the concept."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. What was dropped: the entire old subject, a family finding and deciding whether to play a recording of a dead relative. It filmed a real household's private grief, it made a moment of bereavement into a doctrinal illustration, and the person whose voice carried the whole idea could not consent to its use. The concept was kept unchanged: sound as a kind of matter, produced, carried and gone, with no owner, and a meaning-carrier that finishes long before the sound does. The film now gets that gap from a disused industrial acoustic instead of from a death. Both concepts were re-read from the digests and every citation verified against digest evidence rather than carried over from the old text.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The disused upper tank farm of the China Bay oil installation, Trincomalee",
+    "also_known_as": [
+      {
+        "name": "the Trinco tank farm",
+        "meaning": "local and press shorthand for the whole installation of about a hundred storage tanks laid out over several hundred hectares",
+        "used_by": "Trincomalee and national press usage"
+      },
+      {
+        "name": "Chinnavadi",
+        "meaning": "the inland area, behind China Bay proper, across which most of the upper tanks are spread",
+        "used_by": "local usage"
+      }
+    ],
+    "region": "Trincomalee District, Eastern Province: the scrub-jungle ground between the China Bay airfield and the inner arm of Trincomalee harbour, a few kilometres south-west of the town on the Kantale side",
+    "coordinates": {
+      "lat": 8.5479,
+      "lng": 81.1917
+    },
+    "why_here": "Because the most beautiful thing the place produces is the concept itself. Nowhere else in the country offers a room in which an ordinary spoken word may stay audible for many seconds after the speaker has stopped meaning it, which is the sources' distinction between the meaning-carrier and the sound made physical and slow. Around that one room the location supplies everything else the film needs without arrangement: about ninety-nine steel cylinders of twelve thousand tonnes each, in their own earth bunds, laid out in ranks that only read from the air; most of them empty for the best part of a century with forest grown back between them; one burned out in the war, its plates warped and part melted; and a dozen still painted, fenced and working a few hundred metres away, so that the same object appears in the same film as maintained and as abandoned. It is also a place of pure containment now containing nothing, which is the right room in which to say that the inventory of matter has no line in it for an owner.",
+    "what_to_film": [
+      "The ranks of tank roofs from directly overhead at several heights, so the pattern resolves from forest, to circles, to a grid of vessels with pipe roads between them.",
+      "A long walk at ground level along a pipe road between two tank walls, with the curve, the rivet lines and the rust streaks passing at arm's length.",
+      "The interior of one empty tank in one continuous take: the vent shaft of light, the dust in it, the far wall never quite resolving, and the acoustic tested with one ordinary sound and then left alone.",
+      "The decay of the shells in close detail: rivet heads, weeping seams, rust blooms, plate edges, water standing on a floor plate.",
+      "The tank burned out in the war, in flat light, without dramatising it.",
+      "Rain arriving across the installation, recorded from inside a tank and from outside on the bunds.",
+      "A working, painted, fenced tank in the same light as an abandoned one, for the comparison the second concept needs.",
+      "The forest between the tanks: scrub, leaf litter over the roofs, animal sign in the grass, the point where the installation stops being visible at all."
+    ],
+    "access": "By road from Trincomalee town towards the airfield and the Kantale road. Everything here depends on permission from the operators and the state: the lower tanks are leased and in active use, the whole installation is a fuel facility of national significance, and the upper tanks sit in scrub in which elephants and leopards are reported. Entering any tank is confined-space work and can only happen with the operator's own safety people. Drone flight near a fuel installation and an operating airfield is likely to need specific clearance and may simply be refused.",
+    "best_time": "The dry months for hard light on plating, clear air for height and passable ground under the scrub; the first weeks of the north-east monsoon for rain on the roofs and water inside. Within a day, the first and last half hours, when a low sun runs along the curve of the shells.",
+    "images": [
+      {
+        "caption": "China Bay, the arm of the harbour the installation was built to serve. A picture of the surrounding bay rather than of the tank farm itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/China Bay Trincomalee.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:China Bay Trincomalee.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      },
+      {
+        "caption": "The natural harbour the tanks stand above, for scale and setting. A picture of the surrounding harbour rather than of the site itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trincomalee natural harbour srilanka.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Trincomalee natural harbour srilanka.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://amazinglanka.com/wp/trincomalee-oil-tank-farm/",
+      "https://island.lk/trincomalee-oil-tank-farm-an-engineering-marvel/",
+      "https://www.newsfirst.lk/2022/01/05/trincomalee-oil-tank-farm-is-it-only-worth-usd-500-million/",
+      "https://en.wikipedia.org/wiki/China_Bay_Airport"
+    ],
+    "research_note": "That the installation was built by the British between the mid-1920s and the late 1930s, that it consists of a lower group of about fourteen tanks near the water and a much larger upper group inland, that around ninety-nine of the original hundred and one survive, that each holds roughly twelve thousand tonnes, that the shells are steel plate about an inch thick, that the lower group has been leased and worked since 2004 while most of the rest stand abandoned in scrub jungle with elephants and leopards reported in it, and that one tank was destroyed by a Japanese aircraft in April 1942, are all from the sources above and are desk research only. The coordinates are a direction towards the upper tanks, not a survey: the installation covers several hundred hectares and no particular tank has been chosen. Nobody has been approached and no permission has been sought. Crucially, the film's central claim, that a disused tank can be entered safely and that it holds a long reverberation, is an inference from the size and construction of the vessels and has not been tested by anyone. Both images are of the surrounding bay and harbour, not of the tank farm.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether any disused tank can be entered at all, and whether the interior sounds anything like the film assumes. This is the question that decides whether the film exists.",
+    "Who must give permission, and whether a fuel installation of this significance can be filmed by anyone at present.",
+    "Whether a drone can be flown at all so close to an operating airfield and a fuel facility.",
+    "The condition of the upper tanks: how many are open, flooded, collapsed or occupied by animals, and whether the ground between them is passable.",
+    "Whether the site's political and historical charge can be kept out of a film that is about none of it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

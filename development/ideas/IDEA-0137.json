@@ -2,73 +2,191 @@
   "schema_version": 1,
   "id": "IDEA-0137",
   "record_type": "idea",
-  "title": "The Night Ward",
+  "title": "Nothing Keeps Till Morning",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-23",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "The Night Ward"
+  ],
   "group_id": "GRP-08",
-  "logline": "A night-shift nurse moves from bed to bed in the dark, doing the small physical things, a sip of water, a hand held, for people whose families cannot be there.",
-  "human_question": "What is left to give someone when medicine has done what it can?",
-  "situation": {
-    "what_happens": "A nurse works an overnight shift on a ward where some patients will not recover. The work is rounds, observations and medication, and inside that, repeatedly, a few seconds of physical kindness for someone who is frightened or alone. She has done this for years and has her own unsentimental account of what people seem to return to at the end.",
-    "who_is_involved": "The nurse and the rest of the night staff; the patients, some of whom are dying and most of whom are simply ill; the families who are absent because of distance, money or work; and the day staff who take over.",
-    "what_is_at_stake": "For patients, whether the hardest hours are spent with someone attentive. For the nurse, the strain of doing emotional work inside a job that is paid and measured as physical work.",
-    "how_it_unfolds": "A shift has a known shape, quiet after the visitors leave, a long middle, a rush before dawn, handover. Reality decides what any night contains, and whether anyone dies in it."
+  "logline": "In palmyrah country a household lime-washes clay pots and ties them into the crowns of the palms at dusk, and all night the sap running into them is already turning into something else, so that by first light there is only one thing left to do with it and a fire is lit to do it.",
+  "human_question": "If what a thing finally becomes is settled in its last few hours, what is it that decides them?",
+  "place": {
+    "what_kind_of_place": "A flat belt of palmyrah between a shallow lagoon and dry scrub in the far north of the island: tens of thousands of fan-crowned palms standing in loose ranks over sand, with low houses, cattle tracks and thorn between them and the water a few kilometres off. Through the tapping season a household works a few dozen palms. A climber goes up at dusk on a loop of palm fibre, pares the cut flower stalk again, smears the inside of a clay pot with lime and ties it under the cut. The pot fills through the night and comes down at first light. Under a thatched shed at the edge of the stand there is a shallow pan over a pit of firewood, and what came down is boiled there the same morning, because within a few hours of leaving the tree the sap sours by itself into something else entirely.",
+    "why_it_is_worth_watching": "It is a landscape that only makes sense from two heights and at two hours. From the air, palmyrah is not a scatter of trees but a grid: rank after rank of identical crowns going to the horizon, with a pale lagoon along one edge and, at night, one small fire under one shed roof and nothing else lit for kilometres. At ground level it is a dark stand with sounds in it, a man's weight shifting against a trunk, a knife, the pot coming down on a rope, and then a long quiet until the fire is built. The single most beautiful shot the place produces, a boiling pan in a thatched shed inside a black palm forest, is also the whole argument: a thing being finished in the hours before it finishes itself.",
+    "what_moves_or_changes": "The sap's own clock, which nobody controls. The lime in the pot slows the change and does not stop it. The fire is built, fed, raked out and cold by mid-morning. The light goes from last colour to full dark to grey to hard sun in about eleven hours, and everything in the film is arranged around that. Nothing here can be scheduled except the hour and the season.",
+    "when_it_looks_best": "The tapping months, when pots go up nightly and there is enough sap to be worth boiling. Clear, still nights give the palms shape and keep the fire smoke going straight up. Within a night: the half hour after the climbers go up, the long dark in the middle, and the two hours from first grey to sun-up, when the pots come down and the pan is filled."
   },
+  "two_layers": {
+    "without_the_philosophy": "A night film about a palm, a pot and a fire. Dusk, a man going up a trunk on a loop of fibre; lime smeared inside a clay pot; the pot tied and left; hours of dark in a forest of palms with one shed lit; the climb again in the grey; sap poured through a cloth; a pan brought to a boil; foam skimmed; dark syrup poured into coconut-shell moulds and left to set; the fire raked out; the palms ordinary again in full sun. It has a complete shape with nothing said over it, and anyone who likes watching skilled work done in the dark has a whole piece here.",
+    "with_the_philosophy": "The same night becomes the sources' account of what happens at the end of something, standing in a place where an ending is a working shift rather than a grief. One text sorts a whole life by what comes forward first when it closes, and its own picture for it is a pen at dawn, not a person. The other refuses to make dying mysterious at all: it is the same kind of noticing that has run through the whole life, shorter and weaker, and then the last moment of one thing is followed immediately by the first of the next with nothing crossing between them. The voice never points at anybody. There is nobody dying in this film, and the texts themselves say no observer could see it if there were."
+  },
+  "sequence": [
+    {
+      "on_screen": "Last light, very high and straight out. Palmyrah to the horizon in loose ranks, a pale lagoon along one edge, three or four roofs. From this height the palms are a grid; at ground level they are nothing so tidy.",
+      "voice": "Every one of these palms is cut and tied twice a day through the season. A pot goes up at dusk. It fills in the dark. It comes down before the sun can do anything to it.",
+      "concept_id": "C062"
+    },
+    {
+      "on_screen": "Dusk on the ground. A climber goes up on a loop of palm fibre taken round both ankles. At the crown he pares the cut flower stalk again, rubs lime around the inside of a clay pot and ties it under the cut.",
+      "voice": "The lime is not preserving anything. It only slows what has already started. From the moment the sap leaves the tree it is turning into something else, and by the middle of tomorrow morning it will have finished turning whether anybody gets to it or not.",
+      "concept_id": "C062"
+    },
+    {
+      "on_screen": "Full dark, from the air. The stand is a black field with no edges. One small fire under a shed roof, and nothing else lit for kilometres in any direction.",
+      "voice": "The old analysis refuses to make dying into a mystery. It says the last stretch of a mind is the same kind of noticing that ran through the whole life, only shorter and weaker, five moments of impulsion where there are normally seven, because the physical base it leans on is failing [C062-P:L25]. Someone is seeing something, or hearing something, or being touched. That is all it is said to be.",
+      "concept_id": "C062"
+    },
+    {
+      "on_screen": "Inside the shed. Firelight on an empty pan. On the wall and the ground: the climbing loop, the paring knife, a coil of rope, a stack of coconut-shell moulds, a tin of lime.",
+      "voice": "What tends to come up in those moments, the texts say, is not whatever happens to be in the room. It is the thing done; or an object bound up with doing it, a weapon, a robe, a meal given away, a tool; or a glimpse of what is coming [C062-P:L40; C062-P:L44; C062-P:L46]. And they are blunt that nobody outside can see which of the three it is. This film makes no claim about anyone's mind, and there is nobody here for it to claim anything about.",
+      "concept_id": "C062"
+    },
+    {
+      "on_screen": "The middle of the night. Wood fed under the pan. A long held shot of the shed post, the fire, and the dark past both of them, with the sound of the palms.",
+      "voice": "A second text sorts everything a person has done by what comes forward first at the end. Anything grave goes ahead of everything else. If there is nothing grave, then whatever was done or called to mind nearest the end. After that, whatever was done again and again. Last of all, anything at all [C056-P:L117].",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "First grey. The climber up again; a pot untied and lowered on a rope; a second, a third. Sap poured through a cloth into the pan. Steam before there is any heat in the light.",
+      "voice": "The book gives its own picture for that order, and it is a picture of a pen at dawn rather than of a person. The old, weak animal driven in last is the one lying against the gate, so in the morning it is the first one out, ahead of everything stronger standing behind it [C056-P:L119]. Not the heaviest. The nearest.",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "Full boil. Foam lifting and being lifted off with the same flat stick, the same turn of the wrist, again and again. Hands that have done this at this hour for most of a working life.",
+      "voice": "The same text counts repetition as a kind of weight. Something done every day for forty years, or once a year for forty years and remembered each time, wears a groove that a single act almost never reaches [C056-M:L26]. Nobody in this shed is wearing a groove on purpose. It is only the work.",
+      "concept_id": "C056"
+    },
+    {
+      "on_screen": "Sun up. The fire raked out and going grey. Dark syrup poured into coconut-shell moulds and left to set on a board. The pan scraped. Aerial pulling back and up until the shed is a dot and the palms are a grid again.",
+      "voice": "One correction before the light, because this film has stood over a pan all night. Sugar does cross from the pot into the mould. In the analysis nothing crosses. The same mind that has run quietly underneath a whole life arrives as that life's last moment, and the first moment of whatever follows arises straight after it, caused by it, with no interval and nothing carried over [C062-M:L43; C062-M:L45–L47]. What the pan is good for is the other half of it: that the hours before an ending are ordinary working hours, and that they are not nothing.",
+      "concept_id": "C062"
+    }
+  ],
   "concept_merge": {
-    "why_together": "The order of ripening (C056) says that where there is no weighty action, what is done or recalled near the end gives the rebirth, and that a good companion at the deathbed matters for exactly that reason. The near-death process (C062) says dying is itself an ordinary run of mind-moments through the senses, so what reaches a person still reaches them. Together they explain why small physical attentions at the end are not nothing, in a setting with no religious frame at all.",
-    "what_it_reveals": "That the role the texts describe as a good friend at the deathbed is filled, in practice, largely by paid strangers, and that it is done without any of the claims the texts are careful to avoid making."
+    "why_together": "C056 supplies the order and its own image. The sources hold that where there is a grave act it ripens first, that failing one, what was done or recalled nearest the end comes forward, then what was habitual, then anything at all [C056-P:L117], and the Pradeepika's picture for it is a cattle pen at dawn in which the animal nearest the gate leaves first regardless of strength [C056-P:L119]. The Margaya adds that repetition itself is weight, so that a daily or even a yearly act, if it is substantial enough to be remembered, gathers force a single act does not [C056-M:L26]. C062 supplies the texture of the hours themselves. It refuses to treat dying as a special kind of event: the near-death process runs through the ordinary sense doors, with five impulsion moments instead of seven because the base is weak [C062-P:L25], with the deed, a thing bound up with the deed, or a sign of what is coming as its object [C062-P:L40; C062-P:L44; C062-P:L46], and it ends in a last moment followed immediately by a first moment with nothing crossing between them [C062-M:L43; C062-M:L45–L47]. Set in a palmyrah stand on a tapping night, the order and the texture stop being a classification and become a shift of work: a liquid with a few hours left, a pot limed to slow what cannot be stopped, and a fire lit in time.",
+    "what_it_reveals": "That an ending can be watched closely without anybody being watched. C056 on its own is a table of precedence. C062 on its own is a diagram of mind-moments. Together, in a shed with a pan in it, they show what neither says out loud: that the hours before something finishes are not a ceremony and not a verdict, but work, done in the dark, mostly by habit, on a thing whose clock is already running. The old version of this idea got the same two concepts by walking a camera between hospital beds at night. This one gets them from a pot of sap, which has a real deadline, needs no consent it cannot give, and cannot be read as anybody's death."
   },
   "concept_links": [
     {
       "concept_id": "C056",
       "role": "primary",
-      "why": "The source stresses what is done or recalled near the end of a life, and the value of someone present who helps a dying person toward something good to hold onto [C056-P:L83; C056-M:L22]. Ordinary nursing care sits inside that with no doctrine spoken. The digest's guards apply: a peaceful or difficult death is not a verdict, and nothing at the bedside guarantees a destination."
+      "why": "The digest's core claim is the order itself: grave action first, then what was done or recalled near the end, then the habitual, then whatever is left [C056-P:L117], with the Pradeepika's own simile of the pen at dawn as its picture [C056-P:L119], and the Margaya's rule that repetition over a long stretch of life is itself strength [C056-M:L26]. Those three lines are what the film narrates and nothing else from the concept is put on screen. Every limit in the digest that bears on this film is honoured and most of them by construction. There is no dying person, no bereaved family and no deathbed in the film, so the digest's warning that no observer can see what arises in a dying mind is not merely respected but unopposable here, and the film says so out loud. The Pradeepika's examples of habitual occupation at [C056-P:L109] name hunting and fishing; the digest forbids using them to frame working communities, so they are not cited, not narrated and not alluded to, and the household filmed is not offered as an instance of anything. The traditional narratives of kings, executioners and lay followers are not told, and the claim that a grave act cannot be blocked except by another grave act is not turned into a prediction about anybody. The film never suggests that what is done at the end can be arranged, which is the reading the digest explicitly rejects."
     },
     {
       "concept_id": "C062",
       "role": "supporting",
-      "why": "The earlier version of this idea attached this content to C061, but what it described, the dying mind still meeting the world through the senses, is the near-death process and belongs to C062 [C062-M:L25]. The link is corrected here. The digest adds the limit the film must keep: sense contact at the bedside can become the door of the last mental process, but the texts do not say such care secures anything."
+      "why": "The digest treats dying as an ordinary act of perception rather than an event of another order: the near-death process runs at the sense doors, with five impulsion moments rather than seven because the heart-base is weak [C062-P:L25], and the Margaya names the plain scenes at which it can happen, a teaching heard, incense smelled, something placed in the mouth, another person's hand [C062-M:L25]. Its object is the deed, a thing connected with the deed, or a sign of the destination [C062-P:L40; C062-P:L44; C062-P:L46]. The film's closing beat rests on the digest's account of succession: the mind that runs under a life arrives as its last moment and the first moment of what follows arises at once, caused by it, with nothing travelling across [C062-M:L43; C062-M:L45–L47]. The digest's refusals are kept. 'Your last thought decides your fate' is contradicted on screen rather than implied, since the film's other concept insists that a grave act outranks the last hour. Nobody's manner of dying is read as a verdict, because nobody is dying. No near-death testimony is used and none is implied by the sign of the destination. No realm or outcome is attached to any person. And the digest's line that sensory care at a bedside secures nothing is honoured by there being no bedside at all: the care in this film is being given to a pot of sap."
     }
   ],
-  "what_the_viewer_could_understand": "The texts treat dying as one more act of the senses, so what reaches a dying person still reaches them, and they count a companion at the bedside as a real help, without promising anything.",
-  "what_must_be_real": "The nurse's real work and years of experience. No patient appears identifiably without explicit, informed consent, no death is filmed, and nothing is repeated for the camera.",
-  "position_hint": "middle, if it were kept: the clinical counterpart to the film about being called to a house, which is why its substance has been folded there instead.",
+  "what_the_viewer_could_understand": "That in this analysis the end of something is not a different order of event from the rest of it, that what comes forward at an end is ordered by nearness and by habit rather than by size, and that the last moment of one thing can cause the first moment of the next without anything passing between them. None of that is being asserted about any person on screen, and the texts themselves say it could not be observed if it were.",
+  "what_must_be_real": "A real household working real palms in a real tapping season, on their own hours. No climb is repeated, moved or lit for the camera, and nothing is asked of a climber at height that he would not do anyway. No pot is planted, no fire is lit early and no batch is boiled at a convenient time rather than the necessary one. The film does not imply any judgement on households who take the same sap in the other direction, into toddy or arrack; it simply follows the pan it is standing beside. Nobody in frame is presented as ill, old, dying or bereaved, and no face is used to suggest a mind the film cannot see.",
+  "position_hint": "early to middle in the group: it establishes the group's register, an ending watched at working distance, and it introduces both the order of what comes forward and the idea of succession without a traveller, which the later films can then assume. No location reasoning is involved.",
   "risks": [
-    "Patient privacy and dignity",
-    "Sentimentalising a demanding, underpaid job",
-    "Implying that care at the bedside determines anything about what follows"
+    "Letting the pot of sap be heard as a person. The analogy is about timing and succession only, and the film must say where it breaks, which is that sugar crosses and nothing else does.",
+    "Implying that anybody in frame is an example of a state of mind, or that a camera could see one. The digest is explicit that no observer can see what arises in a dying mind.",
+    "Importing the sources' examples of habitual occupation, which name hunting and fishing, onto the household being filmed or onto any working community.",
+    "Turning the order of ripening into 'only the last moment counts', which both sources contradict.",
+    "Romanticising dangerous work. Climbing a palm at dusk and again before light is how people are actually injured, and the film must not make that look picturesque.",
+    "Moralising, in either direction, about what other households do with the same sap.",
+    "Narrating the traditional stories in the source, or any claim about where an act leads, as if it were observation."
   ],
   "drop_if": [
-    "No hospital grants access under safe privacy conditions",
-    "Patients cannot be adequately protected"
+    "No household will work with a crew on its own night hours, or filming would slow or endanger a climb.",
+    "The tapping season is over, or the stand is not being worked, so there is no real deadline in the film and the boiling would have to be arranged.",
+    "The only way to get the fire and the pan is to stage a boiling at a convenient hour."
   ],
   "connections": [
     {
-      "idea_id": "IDEA-0136",
-      "relation": "merged into",
-      "note": "Folded into the film about someone called repeatedly to the dying, which now carries this secular, clinical register of the same role."
+      "idea_id": "IDEA-0140",
+      "relation": "pairs with",
+      "note": "Two films about a stored thing with a clock running on it: one that must be dealt with tonight, and one that can wait thirty years and then be too late anyway."
+    },
+    {
+      "idea_id": "IDEA-0139",
+      "relation": "mirrors",
+      "note": "Both watch work done at the exact moment a condition opens, the one before a liquid turns and the other after a flood goes down."
     }
   ],
   "selection": {
-    "recommendation": "merge",
+    "recommendation": "keep",
     "merged_with": [],
-    "superseded_by": "IDEA-0136",
-    "reason": "Duplicates the situation of the kept idea, whose episode already holds both concepts; it contributes the register of paid, non-religious care."
+    "superseded_by": null,
+    "reason": "It carries the group's ordering and succession material on a place with a real deadline in it and no person for the doctrine to be read onto."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-23 into the footage-led shape. What was dropped: the entire old subject, a night-shift nurse followed from bed to bed on a ward where some patients will not recover. It filmed hospital patients at night, who cannot meaningfully refuse a camera; it put a crew inside other people's last hours; and it invited the viewer to read what was passing in a dying mind, which the C056 digest forbids outright on the ground that no observer can see it. Both concepts were kept unchanged and re-read from the digests as a new reader: C056's order of what comes forward at an end, and C062's account of the near-death process as ordinary sense-noticing ending in an immediate succession with nothing crossing. The film now takes those from a palmyrah tapping night, where the thing with hours left is sap in a clay pot. Every citation was re-tested against digest evidence and none was carried over from the old text; the Pradeepika's habitual-occupation examples, which name hunting and fishing, are deliberately not used.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The palmyrah stands and jaggery sheds of the Poonakary shore",
+    "also_known_as": [
+      {
+        "name": "panai",
+        "meaning": "the palmyrah palm, which gives the northern districts their skyline and most of their small industry",
+        "used_by": "Tamil usage throughout the north"
+      },
+      {
+        "name": "pathaneer",
+        "meaning": "the fresh unfermented sap drawn from the cut flower stalk, which sours by itself within hours of coming down",
+        "used_by": "Tamil usage in the north and east"
+      },
+      {
+        "name": "panam panakkam / karupatti",
+        "meaning": "the treacle and the dark jaggery boiled down from that sap and set in coconut-shell moulds",
+        "used_by": "Tamil usage in the north"
+      }
+    ],
+    "region": "Kilinochchi District, Northern Province: the Poonakary division on the southern shore of the Jaffna lagoon, a flat belt of palmyrah, sand and scrub west of the district town and well away from the main road",
+    "coordinates": {
+      "lat": 9.5,
+      "lng": 80.2
+    },
+    "why_here": "Because the concept and the spectacle arrive in the same frame, and because almost nowhere else in the country is the deadline this literal. Palmyrah is the defining crop of these districts and it stands in the kind of density that only reads from the air, rank after rank of identical crowns to the horizon with a shallow lagoon along one edge. Within that, a single household's night has a clock running through it that nobody set: the sap in the pot is already turning, lime only slows it, and by the middle of the next morning it will have become something else whether or not the fire was lit in time. That gives the film a real ending to follow, at working distance, with nobody in frame standing in for a person at the end of a life. It is also genuinely little known: a division of sand tracks, palms and thatched sheds rather than a place anyone visits.",
+    "what_to_film": [
+      "The stand from directly overhead at dusk and again at sunrise, high enough that the palms resolve into ranks and the lagoon edge and the few roofs come into the same frame.",
+      "One climb at dusk in full, from the loop of fibre going round the ankles to the pot tied under the pared flower stalk, filmed as work at height and not as a feat.",
+      "The lime going into the pot, in close-up, because it is the one thing in the film that is done in advance against a change that will come anyway.",
+      "The stand in full dark from the air, with the single lit shed in it, held long enough to feel how much unlit country is around it.",
+      "The shed interior by firelight before there is anything in the pan: the tools on the wall, the moulds, the wood.",
+      "The pots coming down at first grey and the sap going through a cloth into the pan.",
+      "The boil itself at length, with the skimming, and the pour into the coconut-shell moulds.",
+      "The fire raked out, the pan scraped, and the same ground in hard mid-morning sun with nothing happening in it."
+    ],
+    "access": "By road west from the district town towards the lagoon shore, then on sand tracks. Everything depends on a household agreeing and on the crew working to their night rather than the other way round; the sheds and palms are private or held under customary use. Night filming here means a lamp-free crew in a stand with cattle and thorn in it. The area was heavily fought over and cleared of mines in stages, so ground access off tracks and any drone flight need checking with the local authorities before anything is planned.",
+    "best_time": "Within the tapping season, when pots go up nightly and there is enough sap to be worth a fire. Still, clear nights so that the smoke goes straight up and the palms hold shape. Within a night: the half hour after the climbers go up, and the two hours from first grey to full sun.",
+    "images": [
+      {
+        "caption": "Palmyrah stands in the north of the island. A picture of the palm type and the country it makes, not of the tapping ground itself.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palmyrahs.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Palmyrahs.jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Poonakary",
+      "https://www.paticheri.com/2025/03/12/a-palm-sugar-for-every-region/",
+      "https://www.sciencedirect.com/science/article/pii/S2772502222002116",
+      "https://www.ft.lk/Agriculture/PM-gives-Rs-100-m-Budget-boost-to-palmyrah-based-jaggery-production/31-681465",
+      "http://kadayalurutti.blogspot.com/2009/03/use-of-palmyrah-palmpanai-maram.html"
+    ],
+    "research_note": "That the fresh sap of the palmyrah is called pathaneer and ferments spontaneously within hours of collection unless it is boiled; that lime is the traditional inhibitor used inside the collecting pot and holds the sap's pH high enough to suppress yeast; that the pot is changed twice a day while the flower stalk is pared; that the sap is concentrated in open pans into treacle and then jaggery, which is set in coconut-shell moulds; and that palmyrah-based jaggery is a cottage industry the state has been funding in the northern districts including this one, are all from the sources above and are desk research only. Poonakary's coordinates are the division's, not a chosen stand or shed: no household, no shed and no palm has been found, and nobody has been approached. The film's night premise, that a household's pots come down and are boiled in the hours around first light rather than later in the day, is an inference from the sap's known shelf life and has not been confirmed for any household in this division; if it turns out that boiling normally happens later, the film changes hour but not subject. The one image is of palmyrah in the north generally, not of this shore.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-23"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "No household, shed or stand has been found or approached. Everything here is a research direction.",
+    "Whether boiling in this division happens through the night and at first light, or later in the morning, which decides the film's hour.",
+    "Whether a crew can be on sand tracks in a palmyrah stand at night safely, and what the current position is on ground access and on drone flight in this part of the district.",
+    "Whether the tapping season, the household's own calendar and a crew's availability can be made to meet at all.",
+    "Whether the district's recent history can be kept out of a film that is about none of it."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }
