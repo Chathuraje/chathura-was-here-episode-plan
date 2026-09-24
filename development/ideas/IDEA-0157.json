@@ -2,78 +2,194 @@
   "schema_version": 1,
   "id": "IDEA-0157",
   "record_type": "idea",
-  "title": "Boat to Plate",
+  "title": "Nothing Goes Back In",
   "status": "draft",
-  "version": 2,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-24",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Boat to Plate",
+    "Before It Turns"
+  ],
   "group_id": "GRP-09",
-  "logline": "A net comes up at dawn, and what is in it is auctioned, carried inland, cooked and eaten before the day is out, each stage existing only because of the one before it and none of the hands at either end ever meeting.",
-  "human_question": "How many hands does one fish pass through before it is someone's dinner, and would any of those hands call themselves connected to the others?",
-  "situation": {
-    "what_happens": "A catch is hauled in at first light and sorted on the sand. Within the hour it is auctioned, in a fast exchange that decides where it goes and at what price, and a vendor carries a share of it inland on a bicycle or a three-wheeler, selling door to door. By the middle of the day some of it is in a kitchen being cleaned and cooked, and by evening it has been eaten by people who will never meet the crew that caught it. Each stage takes what the last one produced and hands it on, and no stage could have happened without the one before.",
-    "who_is_involved": "The crew who work the net and own or rent the boat; whoever calls the auction and the buyers who bid against each other; the vendor who takes a share inland and carries the risk of not selling it; the household that buys and cooks it; and the people at each step who are owed money from an earlier step.",
-    "what_is_at_stake": "A day's earnings for everyone along the line, divided by an auction none of them individually controls. If the catch is poor, or the price collapses, or the vendor's round is slow, the loss does not fall evenly, and the people who bear it most are usually the ones furthest from the auction's decisions.",
-    "how_it_unfolds": "A day like this begins before light with an unknown quantity, tightens at the auction where the whole day's value is set in minutes, and disperses into rounds and kitchens that the people at the start never see. Whether one catch can actually be followed to one table, or whether it scatters beyond following, is decided by how the auction goes."
+  "logline": "On low inland ridges in the far south a field of lemon-scented grass is cut with a sickle and left a day to wilt, and then in one closed run it is trodden into a still, sealed with a rope of clay, fired, carried off as steam, cooled back to water in a coil and separated into a few small bottles of oil, with most of what the run will ever give coming over in the first hour and none of it able to go back into the leaf.",
+  "human_question": "If every step of a day only happens because the step before it happened, how much of the day was anybody's decision?",
+  "place": {
+    "what_kind_of_place": "Inland upland country a long way behind the southern coast, in the belt where the wet zone gives out. Low laterite ridges with paddy in the hollows between them, coconut and banana on the lower slopes, scrub and thorn on the thin ground, small tanks, gravel roads, and holdings of an acre or two. On the ridge tops, planted in rows and cut back to a hand's height every few months, are clumps of a tall grass that smells of lemon when it is walked through, so that a worked slope reads as a pattern of identical tufts with bare red gravel showing between them. The working equipment is small, fixed and entirely local. A sickle, a fork, a tarpaulin, a bundling cord. On a slope below the field, close to water, stands the still: a firebox dug into the bank and fed with split wood and with the dried-out grass from the last run, a squat vessel set over it with water in the bottom and a perforated floor above the water, a lid bedded down with a rope of wet clay every time it is closed, a pipe running out of the lid and down into a coil sunk in a concrete trough with cold water moving through it, and at the far end of the coil two receivers in which oil stands above water and is drawn off the top. Nothing in the chain is automated. The instruments are a hand laid on the pipe, the sound of the boil, the look of what comes out of the coil, and a clock.",
+    "why_it_is_worth_watching": "Because the whole chain is short, visible and forced, and because it is one of the few processes anywhere that a crew can follow from a standing plant to a sealed bottle inside a day and a half without moving more than a few hundred metres. Wide and high, the country is graphic in a quiet way: ridge after ridge of red gravel and green hollow, and on the worked tops several thousand identical tufts in ruled rows, which at first and last light throw a stipple of shadow across the whole slope and at noon disappear into flat ground. Close, the film is small precise actions in a fixed order: a sickle taken through a clump at exactly a hand's height, dead sheath pulled out of an armful and dropped, cut grass spread in a loose layer to lose its water for a day, the same grass trodden down into a vessel by someone standing in it, a lid lowered and a rope of clay run round the joint with a thumb, wood pushed into a firebox, a pipe warming along its length, the first cloudy drops out of the coil, a thin standing layer above water in a receiver, and a ladle. And the run has proportions nobody chose: the great bulk of everything it will give comes over in the first hour, a fifth or so in the second, almost nothing in the third, and it still has to be run to the end and stopped on time, because going on too long spoils what is already in the jar.",
+    "what_moves_or_changes": "Everything, in one direction, with no way back. The first act of the film happened before the film started: the grass was cut yesterday and has been lying in the sun since, because it has to lose water before it can be packed, and because a day too long in that layer takes the oil out with the water. Once the lid is clayed down the run cannot be opened, corrected or paused; what was badly packed stays badly packed. Once the vessel is boiling the oil is leaving the leaf, and it will not be persuaded back into it by anything. The pipe crosses its own threshold about twenty minutes in, when the first cloudy water turns to a steady thread and a layer stands above the water in the receiver. At the end the lid comes off, the spent grass is forked out steaming and goes up the slope to be spread between the rows, and the whole thing starts again with a different cut. Across a longer clock the crop itself is on the way out: the clumps are pulled up and replanted after a few years, and the trade as a whole is a small remnant of something this island once supplied most of the world with, kept going by a few dozen holdings rather than by an industry.",
+    "when_it_looks_best": "The cutting cycle rather than any month of the calendar, because the grass is only taken every few months and the run follows the cut, and inside that a dry, still, cloudless stretch, since the wilting day is done in the open and rain on the layer puts the whole run back. Within the day and a half the film is almost forced: the ridge from height at first light and again in the last half hour, when the tufts separate from the ground; the cutting in the cool before noon, which is when it is normally done; the layer in the flat middle of the afternoon; and the run itself the next day, in a shed dark enough that steam reads and firelight is the only strong light in the frame. The ridge is worth filming at noon for the opposite reason: the shadows go and the ruled rows vanish."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about one charge of grass, followed from a standing clump to a few small bottles. A ridge of ruled tufts at first light; a sickle at a hand's height and an armful dropped on a tarpaulin; dead sheath pulled out and thrown away; a loose layer spread in the sun for a day; the layer gathered the next morning; a vessel filled and trodden down by someone standing in it; a lid lowered and clay run round the joint with a thumb; wood into a firebox; a pipe warming; water moving over a coil in a concrete trough; the first cloudy drops, then a thread, then a layer of oil standing above water; a ladle, a funnel, a bottle; the lid off and steaming grass forked onto a heap and carried back up the slope. It has a complete shape said out loud by nobody: a thing cut, a thing that has to wait exactly one day, and a closed run of three hours that either comes out well or does not. Anyone who likes open country, fire, steam, or a craft in which the order of the steps is not negotiable has a whole piece here.",
+    "with_the_philosophy": "The same run becomes the eleven-clause sentence the whole chapter is built on, filmed in a process that cannot rearrange its own order. The text is one pattern repeated: with this as condition, that; and each clause takes up exactly what the clause before it produced. A chain that must go cut, wilt, clean, pack, seal, fire, steam, condense, separate, and cannot go any other way, carries that grammar without anybody having to recite it. The film also carries the honest thing about the sentence: at every step the text names only the principal cause and the principal effect, out of many, and it says so. The voice never says the grass is a person or the bottle is a life. It says the sources give the same account of cause and effect at three lengths, that this is the middle one, that the middle one simplifies on purpose, and that a closed run with a fixed order in it is a place where a viewer can feel what one clause handing on to the next actually means."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, high and looking down a long inland ridge. Paddy in the hollows, red gravel on the tops, and on the worked slopes rows of identical grass clumps with bare ground showing between them, each one stippling its own shadow. One small tin roof low on the slope, beside water.",
+      "voice": "Almost everything this slope earns comes off one grass. It is cut a few times a year, and once it is cut it has about a day of usefulness before what the film is here for has gone out of it with the water. What happens between now and dark tomorrow is fixed in its order by the material and not by anybody's plan.",
+      "concept_id": "C079"
+    },
+    {
+      "on_screen": "A sickle taken through a clump at a hand's height above the ground, close, again and again. Dead sheath pulled out of an armful and dropped. Then the cut grass spread in a loose layer across the cleared ground and left there in the sun.",
+      "voice": "The chapter this film is built on begins with a text in eleven lines, and the lines are all the same line. With not-seeing as condition, intention. With intention as condition, awareness. With awareness as condition, mind and body [C079-P:L23–L33]. Eleven clauses, twelve things named, and each clause takes up exactly what the one before it produced. Nothing can be packed into that still tomorrow that was not cut and left lying today.",
+      "concept_id": "C079"
+    },
+    {
+      "on_screen": "The next morning. The still standing open. Wilted grass carried down in armfuls and trodden into the vessel by someone standing in it, layer on layer, until it is level with the rim. The lid lowered, and a rope of wet clay run round the joint with a thumb.",
+      "voice": "In the older book the clause is put in the plainest words available: when this is there, then because of this, that comes to be; and because that is there, the next thing comes to be, and so the round is not cut [C078-M:L11]. Here it is literal. The grass had to be dry enough to press down and wet enough to give anything up at all, and once the clay is on, nothing later in the run can correct how it was packed.",
+      "concept_id": "C078"
+    },
+    {
+      "on_screen": "The firebox under the vessel, split wood and last run's dried-out grass pushed in. Then the length of the pipe, the coil sunk in its trough with water moving over it, and the two receivers at the end, dry and empty.",
+      "voice": "The word the books use is not cause. It is condition, and they define it exactly: whatever helps a thing come about and helps it keep going [C078-P:L27]. On that definition the fire is a condition, and so is the water moving through this trough, and the clay put round that lid twenty minutes ago, and the depth of water standing under the grass, and the fact that nobody here has anything better to do this afternoon.",
+      "concept_id": "C078"
+    },
+    {
+      "on_screen": "The middle of the run, held long and in few cuts. The pipe warming along its length. The first cloudy drops out of the coil, then a steady thread, then a thin layer standing above the water in the receiver. A hand laid flat on the pipe. A clock on a nail.",
+      "voice": "Here is the thing the sentence admits about itself. In the middle-length teaching the Buddha took, out of many causes, one principal cause, and out of many results, one principal result, and set the whole thing out in twelve links [C078-P:L35]. So every clause in that text is a simplification made deliberately, and so is any account of this run. Most of what it will ever give is already over: about four fifths in the first hour, most of the remainder in the second, almost nothing in the third, and it still has to be run out and stopped on time. One cause gets named. There were always more.",
+      "concept_id": "C078"
+    },
+    {
+      "on_screen": "The oil drawn off the top of the receiver with a ladle and run through a funnel into bottles, a few of them, small. Then the lid off, and the spent grass forked out steaming onto a heap and carried back up the slope to be spread between the rows.",
+      "voice": "The eleven lines do not end on a single misfortune. The last line says: and in this way there comes to be the arising of this whole heap of suffering [C079-P:L34]. A heap, assembled, one clause at a time. What is in these bottles was assembled the same way, drop by drop across three hours, and none of it can be put back into the leaf it came out of. And the grass going up the slope again is not a circle. It is one thing being used twice, forwards.",
+      "concept_id": "C079"
+    },
+    {
+      "on_screen": "Last light from height. In one frame: the cut slope, the track down, the shed with steam still coming off the trough, the heap of spent grass and the bottles standing on a board. The chain in order, all at once, going dark.",
+      "voice": "Three corrections the books make themselves. The text is given to be learned by heart before any of it is explained [C078-M:L13]. It is not a story about a maker: the question it opens with is whether these things arise by themselves or are made by somebody powerful, and it answers neither [C078-M:L3, C078-M:L5]. And one clause per step is not the claim — there is a far longer teaching of twenty-four separate kinds of support, which exists precisely because because-of-this-that is not enough [C078-P:L37, C078-M:L13]. What a run like this can show is only the grammar: order, one direction, and no step able to skip the one before.",
+      "concept_id": "C078"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C079 is the formula itself: one sentence pattern, 'with this as condition, that', repeated until twelve links have been joined, each clause taking what the last produced and handing it on, and ending not in a single blow but in a heap. C078 supplies the reminder that this middle-length telling names only the principal cause at each step, so the relay is a simplification honestly made. A day's fish trade carries the grammar of the formula in a form anyone can follow — with the same honesty about what it leaves out, since no stage of the trade really has one cause either.",
-    "what_it_reveals": "Together they show what the formula is and what it is not: a sentence pattern that makes dependence legible, not a line of dominoes with one cause per step. The film can let a viewer feel the handing-on — no stage making itself, no stage able to skip the one before — while the second concept keeps it from hardening into a mechanical chain."
+    "why_together": "C079 is the text itself and nothing else: eleven clauses of one pattern joining twelve factors from not-seeing to ageing and death with sorrow, lamentation, pain, grief and despair, closing on the arising of this whole heap of suffering [C079-P:L23–L33; C079-P:L34], numbered one to eleven in the other book [C079-M:L3–L13], and neither extract translates or explains a single clause. Filmed on its own it would be a recitation. C078 is what makes it a film, because C078 is the frame the clauses sit in: it defines a condition as whatever helps a thing arise and helps it continue [C078-P:L27]; it opens by asking whether mind, mental factors and matter arise by themselves or are made by some powerful being, and answers that they arise from many causes [C078-M:L3; C078-M:L5]; it says the same account of cause and result is given at three lengths, brief, middle and detailed [C078-M:L7]; it states in as many words that the middle-length version takes one principal cause out of many and one principal result out of many [C078-P:L35]; it says the detailed version sets out twenty-four distinct kinds of support [C078-P:L37]; and it says the middle version teaches only that one thing arises because of another while the detailed one teaches by which specific powers, and that a complete understanding needs both, and that the student should first learn the text by heart [C078-M:L13]. A single run that must go cut, wilt, clean, pack, seal, fire, steam, condense, separate, and that cannot be reordered, paused or done again with the same material because the material is used up as it goes, puts the clause pattern on screen and puts C078's admission about it on screen at the same time.",
+    "what_it_reveals": "That the formula's force is order and one-way dependence, not connectedness, and that its honesty is in what it leaves out. Said flat, the eleven clauses are a list to memorise. Put on a process whose order is set by the material, they become a working constraint: nothing can be packed today that was not cut yesterday, the fire can only do anything because the lid was clayed down, and the oil cannot be put back into the leaf. The second concept keeps the film from hardening into a domino line, because the film can name, in the same breath as the principal cause, the wilting day, the packing, the depth of the water, the cold running over the coil and the hour, and can point at the twenty-four-fold teaching as the reason one cause per step was never the claim. This idea has been round twice before. Its first version followed a catch from a net through an auction to a table; that was dropped because landings and auctions are already carried several times over in this slate, and because an auction puts the whole day's value into a few minutes of other people's money, which pulled the film towards livelihood arithmetic and away from the grammar. Its second version followed palm sap from the tree to a block of boiled sugar; that was dropped because another film in the slate is built on exactly that material and on the one fact underneath it, that the sap sours within hours and has to be boiled fast, and two films cannot share a deadline that is one of them's whole concept. The chain here is not a food, does not spoil and has no sale in it. Its constraint is a fixed order plus a threshold that runs one way only: everything that comes out of the coil was in the leaf already, and once it is out, the leaf is spent."
   },
   "concept_links": [
     {
       "concept_id": "C079",
       "role": "primary",
-      "why": "The formula is one clause pattern repeated eleven times, each clause taking up what the last produced; the day's relay of hands carries that grammar without anyone naming a link, which is what the digest says the text does before it is explained."
+      "why": "The film is the text's shape and the text's shape only. The eleven clauses are spoken in their own order at the one moment the footage carries them, over a sickle in a grass clump and a day's wilting that has to happen before anything can be packed [C079-P:L23–L33], and the closing line is spoken over the bottles being filled because the source's own word there is a heap that comes to be, not a single blow [C079-P:L34]. The numbering into eleven is treated as eleven clauses joining twelve factors, which is what the digest's uncertainty about the compiler's note requires, and the film never says 'eleven factors' [C079-M:L3–L13]. Every limit in the digest that bears on this film is honoured. The formula is not reduced to a slogan about desire: craving is not named as the root anywhere, and the film's only structural claim is about order and one-way dependence. It is not filmed as a domino line, because the beat that states the clause pattern is followed directly by the beat that states the source's own admission of simplification. It is not offered as an account of how the world began. And the English glosses are kept to the minimum the footage can carry, because neither extract translates the clauses and the digest is explicit that the formula must not be paraphrased on screen as if it explained itself: three clauses are given plainly, the rest are left as a count, and no factor is glossed with a technical term the film cannot show."
     },
     {
       "concept_id": "C078",
       "role": "supporting",
-      "why": "The sources say the middle-length account names only the principal cause at each step and that the detailed account is also needed; the short sentence 'we caught fish' and the specific chain that puts it on a plate are the same day at two lengths."
+      "why": "This is the concept that keeps the film from being a recitation, and four of its statements are narrated. The definition of a condition as what helps arising and continuance is spoken over the firebox and the coil, and the film then lists conditions that are not the principal one [C078-P:L27]. The plain rendering of the clause, when this is there then because of this that comes to be, is spoken over the packing and the sealing of the still [C078-M:L11]. The admission that the middle-length teaching takes one principal cause out of many and one principal result out of many is spoken over the hours of the run, which is the point in the day when a single-cause account is most obviously thin [C078-P:L35]. And the closing beat carries the concept's own corrections: that the text is to be memorised before it is explained, that the detailed teaching of twenty-four supports exists because the twelve-link version does not say by which powers anything works, and that both are needed [C078-M:L13; C078-P:L37]. Every limit in the digest is honoured and two of them are on screen. 'Everything is connected' as a mystical slogan is refused by construction, since the film shows a fixed order running one way and says so; the group's own title is not allowed to become the film's claim. 'Everything happens for a reason' is refused out loud by narrating the source's opening question about a powerful maker and its answer [C078-M:L3; C078-M:L5], and the deadline in the material is never presented as a purpose. The film never suggests that conditioned things are unreal. And it does not treat the chapter as being about moral action: no result in it is anybody's desert, nobody's day is a verdict, and the unconditioned is left out of the film entirely rather than being illustrated by anything on screen. Margaya's placement of the teaching in a particular Abhidhamma book, which the digest flags as needing an expert check, is not quoted."
     }
   ],
-  "what_the_viewer_could_understand": "Each stage of the fish's day exists only because of the stage before it, and the Abhidhamma describes a whole life with the same kind of sentence repeated link by link: because of this, that. Naming one cause per step is a simplification the texts make on purpose.",
-  "what_must_be_real": "Real prices, real margins and the real relationships and debts along the chain. Nothing may be re-staged or re-sequenced so that the day looks like a neat set of steps.",
-  "position_hint": "middle: it states the group's central sentence in its simplest forward form, which the following films then complicate.",
+  "what_the_viewer_could_understand": "That the middle-length teaching in this tradition is one sentence pattern repeated eleven times, that each clause takes up what the clause before it produced so that nothing in the list makes itself and nothing can skip its predecessor, that the whole thing closes on an accumulation rather than a single wound, and that the text names only the principal cause at each step and is open about doing so, which is why a much longer analysis of twenty-four kinds of support exists beside it. The run is an analogy for the grammar and the film says so; no claim is made about anybody's life, and nothing here is offered as reward or as desert.",
+  "what_must_be_real": "The run's own order, at its own speed. The cutting is not done early for the camera, the wilted layer is not re-spread for a shot, nothing is carried twice, the vessel is not packed a second time, the lid is not opened once it is sealed, the fire is not lit before it would have been lit, and the run is neither shortened, restarted nor stretched for the light. If a run goes badly — packed wrong, held too long, a poor jar at the end — the film has that run and keeps it. Nobody is asked to stand near the firebox, the lid or the pipe for a shot they would not otherwise be standing in, and nothing about how any joint is handled is changed for the camera. Nobody's earnings, debts or buyers are put on screen; there is no sale in the film. The holding whose field and still these are decides what is filmed under the roof. Nobody in the film is named or followed as a character, and the work is not offered as picturesque or as better for anybody than the alternatives.",
+  "position_hint": "early in the group, and before any film that complicates the chain: it is the plainest possible statement of the group's central sentence in forward order, and everything later in the group either enters the same chain from somewhere else or replaces one-directional order with a different kind of support. It also sets the group's guard rail on its first outing, by saying out loud that one cause per step is a simplification the text admits to. No location reasoning is involved.",
   "risks": [
-    "Forcing a tidy step-by-step structure onto a day that is messier than the structure.",
-    "Reading the chain as a domino line with one cause per step, which the source explicitly denies.",
-    "Losing the livelihood story — who is paid what, and who carries the loss — to the shape of the chain."
+    "Letting the group's title become the film's claim, so that a fixed one-way order reads as a warm statement that everything is connected, which is the correction the source makes most insistently.",
+    "Letting the order look designed, so that a constraint in the material turns into a purpose and the film drifts towards 'everything happens for a reason'.",
+    "A domino reading: a neat row of steps on screen and one cause named per step, with the source's own admission of simplification dropped or buried.",
+    "Letting the spent grass going back up the slope read as a circle, a cycle or a closed loop, which is exactly the warm reading the sources refuse. It is one material used forwards twice, and the film has to say so in the same breath as it shows it.",
+    "Turning the grass into a life and the bottle into a death, which would make the film an allegory and would put a person's ending on screen by implication.",
+    "Forcing the run into eleven steps to match the text, or numbering the beats on screen.",
+    "Glossing the twelve factors as if the English words explained them, when neither source extract translates a single clause.",
+    "Letting the still look like a machine that makes something out of nothing. Everything that comes out of the coil was in the leaf already and could only be got at in this order.",
+    "Romanticising hot work. A clayed-down vessel, a firebox and a steam pipe in a small shed are how people are actually scalded, and nothing about how they are handled may be arranged for a shot.",
+    "Turning the trade's decline into a lament, or into a verdict on the people still doing it."
   ],
   "drop_if": [
-    "No single catch can realistically be followed from the net to a table.",
-    "Following it requires arranging the sale or the household in advance."
+    "The cutting cycle and the filming window do not meet, so there is no cut grass and the chain's first link cannot be filmed at all.",
+    "No holding or growers' group will let one charge be followed from the field to the bottles on their own terms.",
+    "The grass from these gardens is now carted to a central distillery serving many villages, so the chain can no longer be followed end to end in one place.",
+    "Filming the packing, the sealing or the firing cannot be done without changing how any of them is done."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0156",
       "relation": "pairs with",
-      "note": "Both set a one-line account of an ordinary livelihood against the long chain underneath it."
+      "note": "Two films on the same pair of concepts from opposite ends: one asks why a thing stopped and has to open it up, the other watches a thing that can only go forward and cannot be opened again."
     },
     {
-      "idea_id": "IDEA-0161",
+      "idea_id": "IDEA-0155",
       "relation": "leads into",
-      "note": "The held idea about a shared meal begins where this chain ends, at a table, and asks what the same food becomes in different people's memory."
+      "note": "This one follows a chain from its start because the material will not allow anything else; the next takes up the source's point that a chain can be entered at the root, the middle or the tip."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0081; carries the formula's grammar, with the source's own caution against a domino reading kept in the risks."
+    "reason": "It states the group's central sentence in its simplest forward form on a day whose order is set by the material rather than by a market, and its one unavoidable deadline is also the concept."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Relocated 2026-09-24 off palmyra and off jaggery entirely, to avoid duplicating IDEA-0137 'Nothing Keeps Till Morning'. That film and the previous version of this one were built on the same material, the same process, the same district and the same underlying fact — that palm sap sours within hours and has to be boiled fast — and that fact is IDEA-0137's whole concept, so it stays there. This idea keeps its concepts, its structure, its two-layer logic and both concept links, and takes them to a different chain: one charge of citronella grass, cut with a sickle, wilted for a day, cleaned of dead sheath, trodden into a field still, sealed with a rope of clay, fired, condensed in a coil and separated into oil. Nothing in it now depends on a palm, on sap, on boiling sugar or on a liquid that spoils. For the file, both earlier passes are recorded: the first version followed a catch from a net through a beach auction to a table, dropped because landings and auctions are carried several times over in this slate and because the auction beat pulled the film towards who is paid what; the second was the palmyra version, dropped here for duplication. The concept is unchanged: a chain of steps each conditioning the next, each step naming only its principal cause. Every citation is one the previous pass verified line by line against C079's and C078's digest evidence, and none has been added, altered or moved. The group's own title is still treated as the trap it is; the closing beat states the corrections about a maker, about purpose and about one cause per step; and one risk has been added, because the spent grass going back onto the field is the single thing in this chain that could be misread as a cycle.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The citronella gardens and field stills of the inland uplands of the Hambantota District, in and around the Walasmulla and Katuwana divisions",
+    "also_known_as": [
+      {
+        "name": "pangiri",
+        "meaning": "citronella, the grass the whole chain is built on; the two kinds grown are distinguished as heen pangiri, the narrow-leaved local one, and maha pangiri, the taller and wider-leaved one",
+        "used_by": "Sinhala usage in the southern districts"
+      },
+      {
+        "name": "pangiri thel",
+        "meaning": "the distilled oil itself, sold in small bottles and used in soap, cosmetics and mosquito repellents",
+        "used_by": "Sinhala usage and local trade"
+      },
+      {
+        "name": "wadiya",
+        "meaning": "generally a shed or working camp; one study of this trade uses it for a single charge or dose put through a still, which is the sense the film would need and which has not been checked with anyone in the trade",
+        "used_by": "reported local usage, unverified"
+      }
+    ],
+    "region": "Hambantota District, Southern Province: the inland intermediate-zone uplands in the north-west of the district, on the low laterite ridges well behind the coast road and the dry coastal plain",
+    "coordinates": {
+      "lat": 6.15,
+      "lng": 80.694
+    },
+    "why_here": "Because the chain is short, complete, domestic and forced, and because the crop is documented as being almost entirely confined to two districts of the island, of which this is one and the other is already carried elsewhere in this slate. Every link is within a few hundred metres of the one before: the standing clump, the sickle, the wilting layer, the carry down the slope, the packed vessel, the clay, the firebox, the coil, the receivers, the bottle, the spent grass going back between the rows. There is no auction, no landing, no market floor and no middle stage in another town. The constraint is a property of the material rather than of a market and it runs in one direction only: the grass has to lose water for a day and not much more, the run has to be closed before it starts and cannot be opened, and nothing that leaves the leaf can be put back into it. The district is thin on this slate, and the country is quietly graphic — ruled rows of identical tufts on red gravel ridges that read from height at either end of the day and disappear at noon. The trade is also a small, real, institutionally visible remnant: a state department for export agriculture runs extension work on this crop, and the growers are smallholders rather than an estate, so there are bodies to approach and the film does not depend on finding one photogenic family.",
+    "what_to_film": [
+      "The ridge from height in the half hour after first light and again in the last half hour, so the tufts separate from the ground and the rows rule the whole slope, and again at noon when the pattern disappears.",
+      "The cutting at arm's length from a fixed position: the sickle at a hand's height, the armful, the dead sheath pulled out and dropped, the cleared stools left behind.",
+      "The wilting layer, spread loose in the open, filmed twice in the same frame several hours apart, because it is the one link in the chain in which nothing appears to be happening.",
+      "The carry down to the still, and the grass going into the vessel and being trodden down by someone standing in it.",
+      "The lid and the rope of clay, close, because it is the condition the film names that nobody would call a cause.",
+      "The firebox being fed, with the last run's dried-out grass going in beside the split wood.",
+      "The run itself, held long and in few cuts: the pipe warming, the water moving over the coil, the first cloudy drops, the thread, and the layer of oil standing above water in the receiver.",
+      "The ladle, the funnel and the bottles, and the lid coming off and the spent grass forked out steaming.",
+      "One frame at last light that contains the cut slope, the track, the shed and the bottles at once, from height.",
+      "A field pulled up and replanted, or a still standing cold, in the same light as a working one, without commentary."
+    ],
+    "access": "By road inland from the coast and then on gravel and farm tracks; the gardens are smallholdings and the stills stand in private compounds and lean-tos, so everything depends on the holding or growers' group whose field and still these are agreeing, and on approaching them through the extension service or a group they already deal with rather than cold. There is no restricted-access or ordnance problem here of the kind the north has; the real hazards are domestic and thermal — a firebox, a sealed vessel, a hot pipe and a small roofed space full of steam and woodsmoke — and the crew has to be able to stay out of the way of all four for three hours without asking anyone to move. Drone flight over occupied smallholdings needs the holding's agreement whatever the general position is. The wilting day is done in the open, so a wet spell puts the whole run back and the schedule has to be able to absorb that.",
+    "best_time": "Inside the cutting cycle, which comes round every few months rather than on a calendar, and then a dry, still, cloudless stretch so the wilting layer is not rained on. A day and a half followed straight through rather than a week of pieces: the ridge and the cutting in the cool before noon of the first day, the layer through that afternoon, and the packing, firing and run on the second. A second cycle is worth planning for, because a run that comes out badly is part of the subject and cannot be arranged.",
+    "images": [
+      {
+        "caption": "Citronella grass, Cymbopogon nardus, of the kind the whole film depends on, photographed elsewhere. A picture of the plant type, not of this district, this field, any still or any of this work.",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Citronella (Cymbopogon nardus).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Citronella (Cymbopogon nardus).jpg",
+        "licence_note": "Wikimedia Commons, marked CC BY-SA 4.0; check the file page for licence and attribution before any use."
+      }
+    ],
+    "sources": [
+      "https://dea.gov.lk/citronella/",
+      "http://eagri.org/eagri50/HORT282/lec09.html",
+      "https://en.wikipedia.org/wiki/Katuwana_Divisional_Secretariat",
+      "https://en.wikipedia.org/wiki/Walasmulla_Divisional_Secretariat",
+      "https://www.researchgate.net/publication/332670892_The_Evolution_of_the_Local_Citronella_Oil_Industry_Present_Situation_and_Future_Potential"
+    ],
+    "research_note": "Desk research only, and unverified on the ground. From the island's own export-agriculture department: the crop covers roughly a thousand hectares in total and is largely confined to two districts, of which this is one; the two kinds grown are Cymbopogon nardus and C. winterianus, locally distinguished as heen pangiri and maha pangiri; cutting starts six to eight months after planting and is repeated about every three months, taking the aerial parts twelve to twenty centimetres above the ground; the cut herb is left to wither in the field for one to two days before processing; and water or steam distillation is the commercial method. The detail of the still and the run — a firebox-fired field unit rather than a boiler plant, dead sheath removed before packing, wilting of twelve to twenty-four hours and no longer because past that the oil goes with the water, a vessel, a condenser and two receivers or separators, and a run completed in about three hours from the first condensation with roughly four fifths of the oil recovered in the first hour, a fifth in the second and almost none in the third, and quality deteriorating if it is run on — comes from a general agronomy teaching source for this crop and is not specific to this island or this district. It is the largest single assumption in this record and the first thing to check on the ground. A study of the local industry's decline was available only in summary and was not read in full; its use of a local word for one charge put through a still is reported here as such and not confirmed. The coordinates are the published position of a divisional secretariat in the district's inland uplands and are a direction towards the country the film needs, not a survey: no field, holding, still, group or household has been identified or approached, and no permission has been sought from anyone. Three things the film depends on remain inferences about this district: that grass is still cut and distilled on the holding rather than carted to a central plant, that a whole charge can be followed in one place across a day and a half, and that the cutting cycle can be made to meet a filming window. No photograph of this district's gardens, of a field still, or of any part of this work was found on Wikimedia Commons; the one image is of the plant, photographed elsewhere.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-24"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether grass from these gardens is still distilled on the holding in field stills, or whether it is carted to a central plant, which would break the one-place chain.",
+    "Whether the details of the still and the run assumed here — a firebox-fired vessel, a day's wilting, a three-hour run with most of the oil in the first hour — actually describe how it is done in this district.",
+    "When the cutting cycle falls for any given holding, and whether it can be made to meet a filming window.",
+    "Whether a holding or growers' group will allow one charge to be followed from the field to the bottles without the order or the timing being adjusted.",
+    "Whether a crew can be in a small shed with a firebox, a sealed vessel and a steam pipe for three hours without being in anybody's way or at risk.",
+    "Whether height can be obtained over these ridges, and whether the row pattern reads from the air as strongly as it appears to from the ground."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

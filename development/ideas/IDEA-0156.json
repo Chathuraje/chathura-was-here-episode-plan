@@ -2,73 +2,185 @@
   "schema_version": 1,
   "id": "IDEA-0156",
   "record_type": "idea",
-  "title": "What Stopped the Pump",
+  "title": "It Just Stopped",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-24",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "What Stopped the Pump"
+  ],
   "group_id": "GRP-09",
-  "logline": "A customer brings in a water pump that 'just stopped', and the repairer opens the casing to find not one broken thing but several small ones that only amount to a failure together.",
-  "human_question": "Is there ever really just one reason something stops working?",
-  "situation": {
-    "what_happens": "Someone brings a failed machine to a repairer with a one-line account of what it did: it just stopped. The repairer opens the casing, lays the parts out and tests them one at a time, and the single fault becomes a set of smaller conditions — a worn part, a habit of use, a supply that was never quite right — none of which on its own would have stopped the machine. The repairer names them as they are found, traces the worn part back to what it depended on, and reaches a verdict: it runs again, or it cannot be made to.",
-    "who_is_involved": "A repairer who works mostly alone and diagnoses by hand; the customer who owns the machine and depends on it for water, work or income; whoever sold or last serviced the machine, present only in what the parts show; an apprentice or family member helping in the workshop, if there is one.",
-    "what_is_at_stake": "For the customer, the cost of a repair against the cost of replacement, and whatever the machine was doing for them in the meantime. For the repairer, a reputation that rests on being right, and the harder job of telling someone plainly that their machine is finished.",
-    "how_it_unfolds": "A job like this begins with a complaint that is short and confident, opens into a diagnosis that is long and provisional, and ends either in a running machine or in an honest refusal. Whether the repairer finds the cause, finds several, or cannot find any is decided by what is actually inside the casing."
+  "logline": "In a dense old quarter of the capital whose entire business is parts, a water pump is set on a bench with a one-line account of what it did, and over a day the casing comes off and the single fault becomes a set of small conditions, each of which was holding something up in its own particular way, none of which would have stopped the machine on its own.",
+  "human_question": "When something stops, is the short answer wrong, or is it only short?",
+  "place": {
+    "what_kind_of_place": "About twenty streets and lanes of two- and three-storey buildings at the inland edge of the old city, in which almost every ground floor is parts. Shelves to the ceiling on both sides of a room a metre and a half wide, boxes with numbers written on the ends in marker, bearings in greased paper, seals in tins, armatures hanging on wire, impellers in a crate, rubber, gaskets, brushes, a pile of scrap that is also stock. Hand-painted boards outside, three generations of typefaces on top of each other. Behind and above the shops, the work: benches with a vice and a rubber mallet, a lathe in a back room turning a worn shaft down and sleeving it, a winding shop where a burnt-out motor is stripped, re-wound by hand on a wooden former, dipped in varnish and baked, a test tank or a length of hose on a tap for a pump that has to be proved before it goes back. The quarter has been doing this since motor vehicles arrived in the country, and it has been getting quieter as new parts get cheap, so it is now full of men whose trade is making old things work and whose trade is worth less every year.",
+    "why_it_is_worth_watching": "Because the film's argument happens on a bench in real time and cannot be faked. A machine arrives with one sentence attached to it, and one sentence is all its owner has. Then the casing comes off, and what was one event becomes a bench covered in parts laid out in the order they came off, each of which is picked up, turned, measured, spun, smelled, listened to, and given a verdict of its own. Somebody names what each part was actually doing, which is never the same job as the part next to it, and traces the part that failed back to the thing it was depending on. And the answer, when it comes, is either that it runs or that it cannot be made to. Around that one bench the quarter supplies a beauty nobody planned: ceiling-high walls of numbered boxes, a lathe throwing a blue curl of steel, copper wire going onto a former by hand, and from height a plain of tin and tile roofs with shutters going up in the dark and the whole street's shelves lighting one by one.",
+    "what_moves_or_changes": "Jobs arrive and are finished or refused. Within a day: shutters up before six, the first customers, the bench filling, the lathe starting, a part sent out to somebody two lanes away who does that one thing, the machine running on the test hose in the afternoon, the shutters down. Within a job: a complaint, a dismantling, a set of small findings, a decision, an assembly, a proving. Over years the quarter is thinning. Nothing can be scheduled: the film has to take the bench's own work in whatever order the work comes, which includes the days when the diagnosis is wrong and the machine comes back.",
+    "when_it_looks_best": "The hour before and after the shutters go up, when the lanes are empty, the light is low along them and the shops are lit from inside; and the last hour, for the same reason in reverse. The bench itself wants overcast middays, when the doorway light is soft enough to hold both a dark interior and the street beyond it. A week rather than a day, because the film needs a diagnosis that goes wrong as much as one that goes right, and neither can be ordered."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about the people who make broken things work and about a trade that is quietly ending. Shutters going up in the dark; shelves of numbered boxes; a pump carried in and set down; a casing opened; parts laid out on newspaper in the order they came off; a shaft measured with a micrometer; a bearing spun against an ear; a burnt winding stripped and re-wound by hand; a lathe sleeving a worn shaft; a part fetched from a man two lanes away who only does that; a machine running on a hose into a bucket; and another machine that will not be made to run, and is told so. It has a complete shape with nothing said over it, and anyone who likes watching somebody who knows exactly what they are looking at has a whole piece here.",
+    "with_the_philosophy": "The same day becomes the sources' claim about the three lengths at which cause and effect can be told. The books say the same teaching was given very briefly, at middle length and in full detail, and that these are not three rival accounts. The middle one is explicitly a simplification: at each step it names only the principal cause among many and the principal result among many. The detailed one asks a different question, not what caused this but through which particular power did each thing help, and the books insist that a complete understanding needs both. A bench is where the short account is spoken out loud by the person who owns the machine, and then taken apart in front of them, without the short account ever turning out to have been a lie. The second concept supplies the vocabulary the bench already uses: things that hold something up, things that give it a place to stand, things that had to be there first, things that only keep going what is already there, things that feed it, and things that had to get out of the way. The voice's line is the digest's own: cause is a coarser word than what is actually found in here."
+  },
+  "sequence": [
+    {
+      "on_screen": "Before six, from height. A plain of tin and tile roofs, narrow lanes between them, an old theatre at one corner. Shutters going up one after another down a street, and shop interiors lighting: wall after wall of numbered boxes.",
+      "voice": "Almost every machine in this country that is too good to throw away and too old to be bought for comes here eventually. The trade is parts. Twenty streets of them, and behind the shelves, the people whose actual work is finding out what went wrong.",
+      "concept_id": "C078"
+    },
+    {
+      "on_screen": "A water pump carried in and set on a bench. Paint gone at the corners, wet dirt in the impeller housing. Its owner's hands on it for a moment, then gone. The bench, the vice, the mallet, a sheet of newspaper laid out.",
+      "voice": "The account that comes with it is one sentence long: it just stopped. Both books say the same cause and effect was taught at three lengths, the very brief, the middle and the full [C078-M:L7], and that the short one is not a worse version of the long one. It is a different distance.",
+      "concept_id": "C078"
+    },
+    {
+      "on_screen": "The casing off. Parts coming out and being laid on the newspaper in the order they came off: impeller, seal, shaft, two bearings, a burnt winding, a capacitor. A shaft in a micrometer. A bearing spun against an ear.",
+      "voice": "The middle-length telling, the twelve-step one, is honest about simplifying. At each step, the first book says, it takes only the one principal cause out of many, and only the one principal result out of many [C078-P:L35]. Everything on this newspaper is one of the many. The sentence that came through the door named one of them at most.",
+      "concept_id": "C078"
+    },
+    {
+      "on_screen": "The finding, in close detail. A seal that had hardened; a bearing dry and blue with heat; a shaft scored where the seal ran on it; a winding burnt on one side only. A hand turning the shaft to show where the wear is, and pointing back along the chain.",
+      "voice": "The second book draws the line the bench lives on. The chain, it says, teaches only that this arose because of that; it does not say through which powers, or in which way [C078-M:L13]. The detailed method teaches that, and the book is plain that a complete understanding of cause and effect needs both of them, not one [C078-M:L13]. Nothing here failed because of the thing next to it. Each of them was doing a different job.",
+      "concept_id": "C078"
+    },
+    {
+      "on_screen": "The parts named one at a time, each held up: the one the shaft turns in, the one that keeps water out, the one that was already turning before the water moved, the one that only stops the whole thing shaking, the one that had to be got out of the way to reach the rest.",
+      "voice": "The summary of the detailed method is a vocabulary rather than a single idea of cause. Some things support by arising together; some by having been there first, the way the eye and the visible thing have to exist before there is any seeing at all [C083-M:L21; C083-P:L393]; some from later on, as what the mind does now keeps up a body that was already there [C083-M:L17; C083-P:L389]; some by feeding; some by getting out of the way. All of that is set out as six relations and, within one of them, nine separate powers [C083-M:L5; C083-M:L29; C083-P:L399–L417].",
+      "concept_id": "C083"
+    },
+    {
+      "on_screen": "A number read off the end of a box, out loud, and the box pulled down. A nameplate on the pump body wiped clean and the model number read. A man going out with the number written on a torn strip of paper and coming back two lanes later with the part.",
+      "voice": "The same summary makes room for something that is not a thing at all. Among what can support a mind, the books include mere concepts, names and conventions, which cannot themselves be produced by conditions but can still be what a mind takes as its object and leans on [C083-M:L25; C083-P:L395–L397]. This entire quarter runs on numbers. Nothing on that strip of paper is a part. It is still what moved somebody two lanes.",
+      "concept_id": "C083"
+    },
+    {
+      "on_screen": "Assembly. The re-wound motor dipped and baked; a sleeved shaft; a new seal pressed in; the machine bolted up and run on a hose into a bucket, water arriving in a fat rope. Then another bench, another machine, and a verdict that it is finished.",
+      "voice": "The books' own joints are not all equally tight, and the summary says so with numbers. Not-knowing is bound up with harmful action in seventeen different ways, and holds up good action in only two [C083-P:L27–L31; C083-P:L33–L67]. Feeling supports wanting by one power only [C083-P:L307]. So this is not a picture of everything holding up everything. It is a map with specific joints, some welded and some only leaning.",
+      "concept_id": "C083"
+    },
+    {
+      "on_screen": "End of the day. The parts of the machine that could not be saved, back in their box. Shutters coming down along the lane. Then from height again, the lit shelves going out one street at a time.",
+      "voice": "Two things this bench is not saying. The section opens by asking whether things arise by themselves or are made by somebody powerful, and answers neither: from many causes [C078-M:L3; C078-M:L5]. A condition is not a purpose and there is nobody behind it, so nothing that happened in here happened for a reason. And on the wearing out itself, the summary is exact: what ages and comes apart does so because it was brought into being at all, by that support and no other [C083-P:L363–L367]. It is not a verdict on the machine, and it is certainly not one on whoever brought it in.",
+      "concept_id": "C083"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C078 is the claim that the same cause and effect can be told briefly, at middle length or in full detail, and that the short account is not a lesser version of the long one — the middle-length telling names only the principal cause at each step, and the full account says through which specific powers a thing helps. C083 is the summary of what those powers actually are: a vocabulary of distinct kinds of holding-up, ending on the sweeping line that there is no phenomenon that is not a support for something. A diagnosis is where a short account is spoken aloud and then taken apart in front of the person who gave it, which is exactly the difference C078 describes, and the repairer's naming of each part's job is a plain version of C083's point that 'cause' is too coarse a word.",
-    "what_it_reveals": "Together they show that the short answer and the long answer are not rivals and that neither is complete on its own. What becomes visible is the sharper question the sources prefer: not what caused this, but in what particular way did each thing help — and the honest discovery that a fault the customer experienced as one event was never one thing."
+    "why_together": "C078 is the film's spine and is the plainest thing in this group's sources. Both books hold that the same cause and effect was taught at three scales, briefly as the four truths, at middle length as the twelve-factor chain and in full detail as the twenty-four conditions [C078-M:L7; C078-P:L33; C078-P:L35; C078-P:L37]; that the middle-length telling names only the principal cause and the principal result at each step [C078-P:L35]; and that the chain says only that one thing arises because of another while the detailed method says through which specific powers and in which ways, both being needed for a complete account [C078-M:L13]. The section also opens by refusing both self-arising and a maker, answering that things come about from many causes [C078-M:L3; C078-M:L5]. C083 supplies what the bench actually does once the casing is off. Its whole content is that support is not one kind of push: it sums the twenty-four into six relations, including the single way matter supports mind, through bases and objects that had to arise first [C083-M:L21; C083-P:L393], the single way mind supports matter, from later on [C083-M:L17; C083-P:L389], and nine powers by which mind-and-matter support mind-and-matter [C083-M:L29; C083-P:L399–L417]; it includes mere concepts among what can support a mind [C083-M:L25; C083-P:L395–L397]; and, going link by link, it shows how unequal the joints are, with not-knowing bound to harmful action in seventeen ways and to good action in two [C083-P:L27–L31; C083-P:L33–L67], and feeling holding up wanting by a single power [C083-P:L307]. A diagnosis is the one ordinary event in which a short account is spoken aloud and then taken apart without being contradicted, and in which somebody's job is to say, part by part, not what caused this but in what way this was holding that up.",
+    "what_it_reveals": "That the short answer and the long answer are not rivals, and that 'cause' is a coarser word than what is actually found once a thing is opened. What the footage adds to the concept is the asymmetry: the parts on the newspaper are doing different jobs, in an order, mostly in one direction, and the fault that the owner experienced as a single event was never single. The old version of this idea had the right concept and the wrong subject in two ways: it made the repairer a character with a reputation to defend and the customer a person with a frustration and a bill, so the film's drama would have been a small business under pressure rather than a machine being understood. The concept is unchanged. The film now stays on the machine, the bench and the quarter, and the people in it are filmed as people doing work."
   },
   "concept_links": [
     {
       "concept_id": "C078",
       "role": "primary",
-      "why": "Both sources hold that cause and effect are taught at three lengths and that the brief and the detailed accounts are both needed for complete understanding; the counter story and the bench diagnosis are the same failure told at two of those lengths."
+      "why": "The three lengths are the film, and each claim is spoken where the footage can carry it. The three scales are stated over the one-sentence complaint [C078-M:L7]; the middle-length telling's own admission that it names only the principal cause and the principal result at each step is spoken over the parts being laid out [C078-P:L35]; and the difference the second book draws, that the chain says only that this arose because of that while the detailed method says through which power, with both needed for completeness, is spoken over the actual finding [C078-M:L13]. The section's opening question and answer, neither self-arising nor made by a powerful being but from many causes, closes the film [C078-M:L3; C078-M:L5]. All four of this digest's 'does not transfer' lines are honoured and two are spoken aloud. 'Everything is connected' is refused: the film says the relations are specific and that some joints only lean. 'Everything happens for a reason' is refused in as many words, with the digest's point that a condition is not a purpose and that the source rules out a maker. The film never suggests that conditioned things are unreal, since its whole subject is a physical object that either works or does not. And nothing here is presented as being about moral action and its results, which belongs to another group; no person's circumstances are explained by anything in the text."
     },
     {
       "concept_id": "C083",
       "role": "supporting",
-      "why": "The summary of the conditions gives a vocabulary of distinct kinds of support rather than a single notion of cause, and Margaya closes it by saying there is no phenomenon that is not a support for something; the repairer's part-by-part naming of what each thing was doing is an everyday version of that."
+      "why": "This digest gives the bench its vocabulary and the film its two corrections. The six relations and the nine powers within one of them are named once, at the point where the parts are being named one at a time [C083-M:L5; C083-M:L29; C083-P:L399–L417], with the two single-mode relations used precisely as the digest states them: matter supports mind in one way only, through bases and objects that arose earlier [C083-M:L21; C083-P:L393], and mind supports matter in one way only, from later on [C083-M:L17; C083-P:L389]. The concepts-as-conditions clause is used for the part numbers, which is the one place in this film where something that is not a thing is plainly doing work [C083-M:L25; C083-P:L395–L397]. The digest's unequal joints are spoken, with the seventeen-to-two asymmetry and the single-power joint between feeling and wanting [C083-P:L27–L31; C083-P:L33–L67; C083-P:L307], because they are the strongest available refusal of a mutual web. Every 'does not transfer' line is honoured. 'Mind over matter' and its reverse are excluded by giving each direction exactly one mode. The later-mind-supporting-the-earlier-body relation is spoken as a technical relation and is never turned into a claim about willpower, health or repair as healing. 'Everything is mutually interdependent' is refused directly, since the film says many of these relations run one way only. The editorial reading in this digest that the feeling-to-craving step 'leans rather than locks' is flagged there as going beyond the text and needing review, so the film uses only what the text states, that the joint holds by one power; and the closing beat uses the digest's statement that birth supports ageing and death by that single power [C083-P:L363–L367] for the one purpose the slate allows, to say out loud that wearing out is not a verdict on anybody."
     }
   ],
-  "what_the_viewer_could_understand": "When something breaks, the one-line reason is true, and so is the long list of small things that together made it stop. Both answers are needed, and 'cause' turns out to be a coarser word than what the repairer actually finds.",
-  "what_must_be_real": "Real customers, real jobs and real verdicts, including the machines the repairer genuinely cannot fix and the repairs that turn out to have been misdiagnosed.",
-  "position_hint": "middle: it follows the opening's forward chain by turning the same question round onto a failure, and it teaches the audience the difference between a short account and a long one before the group asks for harder ones.",
+  "what_the_viewer_could_understand": "That a one-line account of why something failed can be true and still be the shortest of several true accounts, and that the longer one does not replace it but asks a different question: not what caused this, but in what particular way was each thing holding the next one up. And that support of that kind is specific and mostly one-directional, with some joints bound many ways and some leaning by one only. Nothing in the film explains anybody's circumstances, and the wearing out of a made thing is presented as a consequence of its having been made, not as a fault.",
+  "what_must_be_real": "Real jobs, in the order they arrive, with real verdicts, including the machines that cannot be fixed and the diagnoses that turn out to be wrong. No fault is introduced, no machine is pre-dismantled for a better start, and no repair is repeated for a second take. Every customer whose machine appears gives permission, and no customer's bill, argument, income or frustration is filmed; if a machine's owner is the story, the shot goes. The repairers are filmed as people doing work, are not turned into characters with an arc, and are never asked to confirm a doctrine or to say anything about Abhidhamma. No shop's stock, prices, suppliers or import arrangements are exposed, and nothing is filmed in a way that could put a small business in difficulty. The trade's decline is real and is shown as the quarter is, not through interviews about hardship.",
+  "position_hint": "middle: it teaches the difference between the brief account and the detailed one, which every later film in the group relies on, and it does it on a failure rather than on a growing thing, so it should follow the group's plainer film about supports and precede anything that asks for the twenty-four by name. No location reasoning is involved.",
   "risks": [
-    "Turning the repair into a visual metaphor and losing interest in the repairer and the customer.",
-    "A diagram of cause and effect upstaging the people in the room.",
-    "Sliding into 'everything happens for a reason', which the source rules out: a condition is not a purpose and there is no maker behind it."
+    "Turning the repair into a visual metaphor, so the film stops caring what is actually wrong with the machine.",
+    "A graphic or diagram of cause and effect laid over the bench, which would make the film a lecture and lose the room.",
+    "Sliding into 'everything happens for a reason', which the digest rules out: a condition is not a purpose and there is no maker behind it.",
+    "Letting 'many small conditions' soften into 'everything is connected', when both digests say the relations are specific, directional and bounded.",
+    "Making the repairer a hero of a dying craft, or the quarter an elegy, which replaces the concept with nostalgia.",
+    "Filming a customer's frustration, bill or dependence on the machine, which puts somebody's difficulty on screen as an illustration.",
+    "Letting the later-mind-supports-the-earlier-body relation sound like a claim that mind heals matter, which the digest explicitly forbids.",
+    "Using the birth-to-ageing clause as a lesson about people's own decline, rather than strictly as the film's statement that wearing out is nobody's verdict.",
+    "Exposing a shop's trade information, or filming in a way that reads as an audit of anyone's business."
   ],
   "drop_if": [
-    "No repairer is willing to let the camera into real jobs and honest failures.",
-    "Only successful, tidy repairs can be filmed."
+    "No workshop will let a camera into real jobs including the refusals and the mistakes, since the film is those two things as much as the successes.",
+    "Only tidy, successful repairs can be filmed, which would make the concept false on screen.",
+    "Customers' permission cannot be obtained as machines arrive, so every job would have to be arranged.",
+    "Height over the quarter cannot be flown at all, so the opening and closing images are unavailable and the place cannot be established."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0153",
+      "relation": "pairs with",
+      "note": "One counts the supports of something that is working; the other opens something that has stopped and finds that the single fault was never single."
+    },
+    {
       "idea_id": "IDEA-0157",
       "relation": "pairs with",
-      "note": "Both take an ordinary working livelihood and set a one-line account of it against the long, specific chain underneath."
+      "note": "Both set a one-line account of an ordinary working thing against the long, specific chain underneath it."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0080; the brief-versus-detailed link is the plainest thing C078 actually says."
+    "reason": "A diagnosis is the only ordinary event in which the brief account and the detailed account are both spoken about the same thing within an hour, and the quarter supplies the beauty and the scale around one bench."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-24 into the footage-led shape. The concept and the machine were kept, because the brief-versus-detailed distinction is the plainest thing these sources say and a bench diagnosis is its exact everyday form. What was dropped: the two people the old version was actually about. The repairer was written as a character with a reputation resting on being right and the harder job of telling somebody their machine is finished, and the customer as a person with a frustration, a bill and a livelihood waiting on the machine, which would have made a small business under pressure the film's drama and would have put somebody's difficulty on screen as an illustration. The film is now the machine, the bench and the quarter. Two things were added from the digests that the old text did not use. C083's inclusion of mere concepts among the things that can support a mind is now filmed on the part numbers that this whole quarter runs on, which is the one place in the film where something that is not a thing is doing visible work. And C083's link-by-link asymmetry, seventeen ways on one side of a joint and two on the other, is spoken as the group's sharpest refusal of a mutual web, since C080's digest says twice that 'everything is connected' distorts the source and C083's own limits say that mutuality is only one of the twenty-four. Both digests were re-read from scratch and every citation re-tested against digest evidence rather than carried over from the old text; the digest's own flagged editorial reading of the feeling-to-craving joint is deliberately not used.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The motor-parts and repair quarter of Panchikawatte, Colombo 10",
+    "also_known_as": [
+      {
+        "name": "Panchikawatta",
+        "meaning": "the usual alternative spelling, both forms appearing on shop boards and in directories",
+        "used_by": "trade and general usage"
+      },
+      {
+        "name": "the spare parts market",
+        "meaning": "shorthand for the whole quarter of streets and lanes whose business is parts and reconditioning rather than any one market building",
+        "used_by": "Colombo usage"
+      }
+    ],
+    "region": "Colombo District, Western Province: the dense inland quarter of the old city numbered Colombo 10, on the bus route inward from the fort, with an old theatre at one corner of it",
+    "coordinates": {
+      "lat": 6.9258,
+      "lng": 79.8753
+    },
+    "why_here": "Because this is where the country takes machines that have stopped, and because the quarter's whole existence is the concept: it is not a place that sells new things, it is a place that finds out in which way a thing was being held up and then puts that one relation back. Twenty-odd streets of ground-floor shops whose stock is parts, with reconditioners, winders and lathe men behind and above them, each doing one operation that the shop in front cannot do, so that a single diagnosis physically travels two or three lanes and comes back. It has been doing this since motor vehicles arrived in the country and it has been thinning as cheap new parts arrive, which gives the film its quiet without requiring any elegy. It also gives the two scales the film needs in one location: from height, a plain of old roofs with lit shelves coming on street by street before six, and at arm's length, a bench with a machine's parts laid out on newspaper in the order they came off. Nothing has to be arranged, nobody's private life is in it, and the one action the film needs, an opening and a verdict, is the ordinary business of the day.",
+    "what_to_film": [
+      "The quarter from height before six and at last light, so the roofs, the lanes and the shop interiors lighting and going out read as one system.",
+      "A street at ground level with the shutters going up, and the walls of numbered boxes appearing behind them.",
+      "A machine arriving and being set down, with the one-line complaint spoken and nothing else.",
+      "The dismantling in one continuous run: casing off, parts laid out on newspaper in the order they came off, nothing tidied.",
+      "Each part tested at close range: a shaft in a micrometer, a bearing spun against an ear, a seal flexed, a winding examined where it burnt.",
+      "The trace back: a hand turning a scored shaft and pointing along the chain to what the wear depended on.",
+      "A number read off a box or a nameplate, written on a torn strip of paper, and carried out of frame to another lane and back.",
+      "The specialist operations in the back rooms: a lathe sleeving a shaft, a motor being re-wound by hand on a former, dipping and baking.",
+      "The proving: the machine bolted up and run on a hose into a bucket, water arriving.",
+      "The refusal: a machine that cannot be saved, its parts back in the box, filmed as plainly as the success.",
+      "The empty half of the quarter at the same hour: shutters that do not go up, a shop with more scrap than stock."
+    ],
+    "access": "By road or on foot from the fort side of the city; the quarter is public street and the lanes are walkable, but every interior is somebody's business and needs that business's agreement, shop by shop and bench by bench. Filming a job needs the machine owner's permission as well, at the moment the machine arrives, which means a crew has to be present on the bench's own terms and ready to lose a job. Height over a dense central quarter of the capital is the real question: drone flight here needs civil-aviation clearance and police notification, the airspace is constrained, and it may simply be refused, in which case the establishing images have to come from upper floors and rooftops with the building owners' permission. The work runs from before six until evening, six days a week.",
+    "best_time": "A working week rather than a day, because the film needs a diagnosis that fails as well as one that succeeds. Within a day, the half hour either side of the shutters going up and coming down for the lanes and the height, and overcast middays for the bench, when a doorway will hold both a dark interior and the street. Avoid the days around the April new year, when much of the quarter closes.",
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Panchikawatte",
+      "https://www.pressreader.com/sri-lanka/sunday-times-sri-lanka/20180916/281848644506999",
+      "https://rainbowpages.lk/repair/motor-spare-parts-repairs/",
+      "https://www.scribd.com/doc/52403835/shoplist"
+    ],
+    "research_note": "Desk research only and unverified on the ground. From the sources above: the quarter is a part of the capital numbered Colombo 10, its published coordinates are the ones given here, it is known for spares and motor parts, an old theatre stands in it, buses inward from the fort run through it, and a Sunday newspaper feature on the quarter describes rows of motor spare parts shops that have existed since cars appeared in the country and reports that business in most of them has dropped because cheap new parts are available. Directory listings confirm a concentration of motor spare parts and repair businesses on the main road and around it. Everything else in this proposal is inference from the character of such a quarter rather than confirmed fact about it: that water pumps and electric motors as well as vehicle parts are diagnosed and rebuilt here, that winding, lathe work and reconditioning are done in back rooms and upper floors, that a job physically travels between specialists in nearby lanes, and that a pump is proved on a hose before it goes back. No individual shop, bench, repairer or job has been identified, nobody has been approached, and no permission has been sought from any business, from any machine owner, or from the authorities whose clearance any aerial work would need. No photograph of this quarter, its streets or any of its workshops was found on Wikimedia Commons, so no image is carried here; the search returned only unrelated files.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-24"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether any workshop here will let a camera sit on its bench for a week, through refusals and misdiagnoses as well as successes.",
+    "Whether water pumps and electric motors are in fact a normal part of the work here, or whether the quarter is now almost entirely vehicle parts, in which case the machine on the bench would have to be something else.",
+    "Whether machine owners' permission can be obtained as jobs arrive, without the crew's presence changing what comes through the door.",
+    "Whether drone flight is permitted at all over a dense central quarter of the capital, and if not whether rooftop access can be had instead.",
+    "Whether the specialist operations the film wants, winding by hand, a lathe sleeving a shaft, dipping and baking, are still done in this quarter or have moved elsewhere.",
+    "Whether a single job can be followed from complaint to verdict inside one day, or whether the film has to follow several jobs at different stages."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }
