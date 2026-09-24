@@ -215,6 +215,31 @@ if (fs.existsSync(development)) {
     || (idea.review?.decided_at && idea.review?.decided_by)),
   ideas.filter((idea) => idea.review?.status !== "pending" && !(idea.review?.decided_at && idea.review?.decided_by)).map((idea) => idea.id).join(", "));
 
+  // Confirming is subtractive: a group picks its films from more candidates than it can use, so a
+  // full group whose confirmed set misses one of its concepts has lost that concept for good —
+  // each concept sits in exactly one group, so no later film picks it up. Only checked once a
+  // group is full, because a partly-confirmed group is expected to have gaps.
+  const coverageFailures = groups.flatMap((group) => {
+    const own = ideas.filter((idea) => idea.group_id === group.id);
+    const confirmed = own.filter((idea) => idea.review?.status === "confirmed");
+    if (confirmed.length < group.draft_film_count) return [];
+    const carried = new Set(confirmed.flatMap((idea) => idea.concept_links.map((link) => link.concept_id)));
+    return group.concepts.map((concept) => concept.id).filter((id) => !carried.has(id))
+      .map((id) => `${group.id}:${id}`);
+  });
+  check("A full group's confirmed films carry every one of its concepts", coverageFailures.length === 0,
+    coverageFailures.join(", "));
+  // Standing warning list: a concept held by one unrejected candidate is one rejection from being lost.
+  const soleCarriers = groups.flatMap((group) => {
+    const live = ideas.filter((idea) => idea.group_id === group.id && idea.review?.status !== "rejected");
+    return group.concepts.map((concept) => concept.id).map((id) => {
+      const carriers = live.filter((idea) => idea.concept_links.some((link) => link.concept_id === id));
+      return carriers.length === 1 ? `${id}=${carriers[0].id}` : null;
+    }).filter(Boolean);
+  });
+  check("Concepts resting on a single remaining candidate", true,
+    soleCarriers.length ? `${soleCarriers.length}: ${soleCarriers.slice(0, 8).join(", ")}${soleCarriers.length > 8 ? " …" : ""}` : "none");
+
   const places = readJson("locations");
   const placeIds = new Set(places.map((place) => place.id));
   check("Location IDs match file names", places.every((place) => /^LOC-\d{4}$/.test(place.id) && place.name === `${place.id}.json`),

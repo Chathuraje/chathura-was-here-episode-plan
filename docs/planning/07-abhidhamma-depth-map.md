@@ -1,5 +1,13 @@
 # Abhidhamma Depth Map
 
+> **Stale as of 2026-09-24.** This audit and `development/analysis/abhidhamma-depth-map.json` were built
+> from the 98 episode records in `development/episodes/`, which has since been emptied. The map still cites
+> 98 episode ids that no longer exist, so it measures a slate that is not there, and the episode tier of
+> `check-data.mjs` is dormant rather than satisfied. Regenerate it with
+> `node development/analysis/generate-depth-map.mjs` once the chronology layer has been rebuilt from the
+> confirmed ideas. For concept coverage across the *current* candidate slate, use
+> [09-concept-coverage.md](09-concept-coverage.md) instead.
+
 Status: draft analysis for Chathura's Chronology v1 review  
 Date: 2026-09-19  
 Structured record: `development/analysis/abhidhamma-depth-map.json`  

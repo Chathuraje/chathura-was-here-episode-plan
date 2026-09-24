@@ -2,7 +2,7 @@
 
 ## Current implemented state — 2026-09-19
 
-The repository now contains the complete source library, 102 concepts, 102 concept digests, ten draft chronological groups, a candidate idea pool, the full 98-film draft Chronology v1 slate, ten planned object-acquisition points, the viewer-learning layer, location-selection records/UI, a proposal-only release planner, and gated screenplay-pipeline infrastructure. Chronology v1 is complete as a draft but is **not creatively approved**; Chathura's GRP-01 → GRP-10 review is the next primary creative phase. No locations, object identities, real participants/access, release order for public numbers 2–98, or screenplay stages are approved by this status summary.
+The repository contains the complete source library, 102 concepts and their digests, ten chronological groups with their story objects, and **137 candidate ideas on the footage-led shape, each proposing its own location for Chathura to confirm or reject**. The earlier episode layer has been removed: `development/episodes/` is empty, so Chronology v1, the object-acquisition points, the continuity threads, the episode lessons and the public numbering 2–99 all await rebuilding from the confirmed ideas. The Abhidhamma depth map still measures that removed slate and is stale until then. Chronology v1 is complete as a draft but is **not creatively approved**; Chathura's GRP-01 → GRP-10 review is the next primary creative phase. No locations, object identities, real participants/access, release order for public numbers 2–98, or screenplay stages are approved by this status summary.
 
 The dated audit and proposal documents below preserve the reasoning and repository state that existed when they were written. Their historical statements do not override this current status.
 
@@ -15,7 +15,10 @@ The dated audit and proposal documents below preserve the reasoning and reposito
 5. [Episode 001/100 continuity](05-episode-001-100-continuity.md) — framing structure with repository evidence separated from brief-supplied requirements.
 6. [Master roadmap](06-master-roadmap.md) — the step-by-step plan from the concept library to 98 production screenplays, with the draft 10-category map and dashboard build slices.
 7. [Abhidhamma Depth Map](07-abhidhamma-depth-map.md) — concept, mechanism, and group-level viewer-understanding audit for Chronology v1, with a separate non-destructive recommendation layer.
-8. [Idea finalisation reviews](idea-review/) — one report per chronological group, recording the philosophy check of every idea's concept links against its digest, the final kept slate in episode order, and the merges, holds and drops: [GRP-01](idea-review/GRP-01.md), [GRP-02](idea-review/GRP-02.md), [GRP-03](idea-review/GRP-03.md), [GRP-04](idea-review/GRP-04.md), [GRP-05](idea-review/GRP-05.md), [GRP-06](idea-review/GRP-06.md), [GRP-07](idea-review/GRP-07.md), [GRP-08](idea-review/GRP-08.md), [GRP-09](idea-review/GRP-09.md), [GRP-10](idea-review/GRP-10.md). The brief they follow is [prompts/idea-finalisation-brief.md](prompts/idea-finalisation-brief.md).
+8. [The footage-led slate](08-the-footage-led-slate.md) — the current record of the 137 candidate ideas: what an idea is now, where the slate stands, the standing constraints that come from the concept digests, the full group-by-group table of titles, locations and districts, and what is still not done. The brief that produced it is [prompts/footage-led-idea-brief.md](prompts/footage-led-idea-brief.md).
+9. [Concept coverage](09-concept-coverage.md) — which candidates carry which concepts, and which concepts rest on a single idea so that one rejection would remove them from the series. Regenerate with `node development/analysis/concept-coverage.mjs` after any confirmation or rejection.
+
+The ten per-group idea reviews written under the retired human-situation model are kept as provenance in [idea-review/retired-2026-09-21/](idea-review/retired-2026-09-21/), with a README explaining what in them still holds. Their recommendations no longer apply.
 
 Retrieved external-reference planning summaries:
 
