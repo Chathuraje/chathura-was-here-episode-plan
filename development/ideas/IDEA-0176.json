@@ -2,92 +2,210 @@
   "schema_version": 1,
   "id": "IDEA-0176",
   "record_type": "idea",
-  "title": "Forty Doors",
+  "title": "Fitted, Not Chosen",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-24",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Forty Doors"
+  ],
   "group_id": "GRP-10",
-  "logline": "At a weekly lay meditation class, a teacher asks each newcomer about their life and then gives them a different, deliberately plain thing to attend to.",
-  "human_question": "If there is one path, why does it start in so many different places?",
-  "situation": {
-    "what_happens": "A teacher who runs a regular class for lay people takes each person aside, asks what their life is like and what pulls at them, and gives them a practice on that basis rather than a standard one: a breath, a phrase of goodwill, a recollection of their own giving, a plain made object to look at. Some of those objects are made by hand for the purpose, a clay disc kneaded free of grit and levelled flat again every time it dries and cracks, kept dull on purpose. Week after week the same room holds people sitting in silence doing entirely different things.",
-    "who_is_involved": "The teacher who does the matching; the lay people who come, of different ages and occupations and for reasons that are theirs to state or withhold; whoever makes or supplies the plain objects the class uses; the families who notice someone leaving the house every week.",
-    "what_is_at_stake": "For the participants: privacy about why they came, and the possibility that nothing changes. For the teacher: responsibility for a judgement about another person's life. For the maker: an ordinary order. For the film: whether it can show variety without cataloguing people.",
-    "how_it_unfolds": "Classes like this run in cycles, with a stable core and a drift of newcomers. The first weeks are awkward and practical; the pressure is ordinary life, which takes people away again. Some return for years, some come twice. Reality decides who stays, what they are willing to say, and whether anyone reports any change at all; the film does not need a change to have happened."
+  "logline": "On the flat limestone of a northern peninsula stands a walled teaching garden of labelled medicinal plants in ruled beds, and beside it a store of dried material in jars and sacks and a room where it is turned into a fixed number of named forms, powders, oils, pastes and decoctions, so that a whole range of prepared options stands ready in one place while nobody at all is examined on camera.",
+  "human_question": "If there is one road, why does it have to start in so many different places?",
+  "place": {
+    "what_kind_of_place": "A teaching institution on the flat, hot, shallow-soiled limestone of a peninsula where every garden has a well and the water is always a little brackish. Low buildings under flat roofs, sand paths, a boundary wall, and inside it the working object: a garden laid out as a grid of rectangular beds, each bed holding one species and carrying a painted label with a name on it, with a shade house of black netting at one side, a nursery of poly-bagged seedlings in ranks, a water line, and an open drying floor. Across the path from the garden is the other half of the subject: a store of raw material, dried leaf, bark, root, seed and mineral in labelled jars, tins and sacks on wooden shelves, and a preparation room with a grinding stone, a pan, a sieve, muslin, funnels, bottles and a bench, in which the raw material becomes a set of named forms. Nothing in either half is improvised. Both are catalogues made physical: a garden that is a list of species with a bed each, and a store that is a list of preparations with a jar each.",
+    "why_it_is_worth_watching": "Because it is a place whose whole visible logic is variety held in reserve, and because that reads from the air better than from the ground. From height in low sun, the garden is a ruled grid of different greens, every rectangle a slightly different texture and height, with the labels catching the light in rows and the shade house a block of flat black at one edge; and around it the peninsula is flat, pale and almost featureless, so that the grid is the only organised thing for a kilometre. That shot is beautiful before it means anything and it is the concept entire: dozens of prepared options, laid out side by side, none of them for everybody. Close, the film is small precise repetitions: a label being repainted, two beds side by side whose plants are nearly identical and are not the same thing, a bed watered and the one next to it deliberately not, dried leaf poured from a tin onto a scale, a grinding stone going round, a decoction going through muslin, small bottles filled and labelled by hand, and a shelf of bases, honey, oil, palm sugar, water, that never act alone and exist only to carry something else.",
+    "what_moves_or_changes": "Two clocks, neither of them dramatic. The garden's clock is growth and season: seedlings are potted and ranked, beds are cut back, one species fails in this soil every year and is replanted anyway, the shade cloth goes on and off, and the drying floor fills and empties. The store's clock is the one the film follows: raw material comes in from the garden and from outside, is cleaned, dried, weighed, ground, boiled, strained, cooled, bottled and labelled, and the same bench turns out a completely different form at the far end of the week. What does not change, and is the point, is the range: the shelves stay full of things nobody in the room needs today, and the beds stay planted with species nobody has asked for this month. The film ends where it began, with everything still standing ready and nothing having been matched to anybody on screen.",
+    "when_it_looks_best": "The dry months, when the garden is worked early and the drying floor is in use, and within a day the first and last hour, when the low sun separates the beds from one another and the labels read. The middle of the day is worth filming for the opposite reason: the grid flattens into one green and the distinctions the whole place exists to maintain become invisible. The preparation room wants an ordinary working week rather than a set day, because the point is that a different form comes off the same bench on a different afternoon."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about a garden that is a list and a store that is another list. A ruled grid of beds from height at first light; painted labels in rows; two nearly identical plants that are not the same thing; a shade house of black netting; ranks of poly-bagged seedlings; a bed watered and the next one left; leaf and bark and root drying on a floor; jars, tins and sacks on wooden shelves with names on them; a scale; a grinding stone going round and round; a pan, muslin, a funnel, small bottles filled and labelled by hand; a shelf of honey, oil, palm sugar and water that are there only to carry something else. Nobody is examined, nobody is treated, and nothing is diagnosed. It has a complete shape said out loud by nobody, and anyone who likes order, catalogues, or the particular beauty of things kept ready has a whole piece here.",
+    "with_the_philosophy": "The same week becomes the sources' insistence that the training has many starting points and that the starting point is supposed to be fitted to the person rather than picked by preference. The compendium lists forty things attention can be brought back to, arranged in groups; the lay handbook gives practical instructions for making ten of them, each a different object made a different way; the texts say the object is matched to a temperament and taken from somebody who knows; and they say the objects have different reaches, so that ten of them bring the mind only as far as a doorway and never through it. The voice never says these plants are meditation subjects, never claims or denies that anything in the store does what it is kept for, and never sorts, types or assesses a single person. It says a range like this is what fitting requires, that the old text is as practical about its supports as a dispensary is about its forms, and that the resemblance stops there."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, high and looking down. A walled garden laid out as a grid of rectangular beds, each a slightly different green and height, painted labels catching the light in rows, a block of black shade netting at one edge, ranks of poly-bagged seedlings. Beyond the wall, flat pale country in every direction.",
+      "voice": "Nothing in this garden is for everybody. Every bed is here because somewhere there is a use for that one and not for the one beside it, and the place exists in order to have all of them at once, standing ready, most of them unwanted today.",
+      "concept_id": "C085"
+    },
+    {
+      "on_screen": "Ground level in the rows. Label after label, painted by hand, name after name. Two beds side by side holding plants that look nearly identical. A bed being watered and the next one deliberately left alone.",
+      "voice": "The compendium this film is built on is a list of forty things a person can keep bringing their attention back to, arranged in groups: a plain disc of earth, clean water, a circle of lamplight, the breath, a body after death, one's own honest conduct, one's own giving, the food on the plate. It is strict about one thing. The object is supposed to be fitted to the temperament of the person using it and taken from somebody who knows, not chosen by liking [C085-P:L47].",
+      "concept_id": "C085"
+    },
+    {
+      "on_screen": "The store across the path. Wooden shelves of labelled jars, tins and sacks: dried leaf, bark, root, seed, mineral. Then the preparation room: a scale, a grinding stone going round, a pan, a decoction going through muslin, small bottles filled and labelled by hand.",
+      "voice": "The lay handbook is as practical about its own supports as this room is about its forms. Take slightly reddish earth and level a disc in it without a flaw. Clean water in a bowl. A fire seen through a hole cut in a plate. Coloured paper, cloth or dye. A lamp inside a tin with a hole in it, or an electric light [C085-M:L21–L33]. Ten devices, each made differently, for different people. The resemblance to a room full of powders and oils is a resemblance and nothing more, and nothing in this film says that either list works.",
+      "concept_id": "C085"
+    },
+    {
+      "on_screen": "A shelf apart from the others: honey, oil, palm sugar, water. Things that are never used alone. Then a bed in the garden of something kept only for its leaf, cut back hard and never allowed to flower.",
+      "voice": "The list also has ceilings written into it, and they belong to the objects rather than to the people. Of the forty, ten are said to bring the mind only as far as the doorway of deep stillness and never through it [C085-P4:L61], among them the recollections of good qualities and the reflection on food, because what is being remembered is too rich and various to rest on as one simple point [C085-P4:L307].",
+      "concept_id": "C085"
+    },
+    {
+      "on_screen": "The garden's own dependencies: the shade cloth going on, the water line running, a bed of something that has failed in this soil and is being replanted anyway, salt haze off the flat country beyond the wall, a well.",
+      "voice": "Most of the old manual is not about sitting at all. It is about clearing the ground first, and it names seven everyday conditions that either help the work or undo it: where you live, where your food comes from, what you talk about, who you spend your time with, what you eat, the weather, and how you sit. Each one is tested by a single question, which is whether it leaves the mind steadier [C087-P4:L24–L40]. And it separates a subject that everyone is given from one given to a particular person [C087-P4:L95].",
+      "concept_id": "C087"
+    },
+    {
+      "on_screen": "The far side of the compound, filmed from outside and at a distance: a gate, a wall, a path, planting along it. Nobody in frame. Then hands in the garden, tending.",
+      "voice": "The same text that tells a person to cut their entanglements also says this. If a parent or a teacher falls ill, you go and look after them until they recover, and then you come back [C087-P4:L81]. Care for somebody else is not on its list of distractions.",
+      "concept_id": "C087"
+    },
+    {
+      "on_screen": "The preparation room again, later in the week, making something entirely different on the same bench. Then a long still frame of the full shelves, with nobody in the room.",
+      "voice": "The reason for a range like this, in the sources, is not choice. It is that people are confused in different places, so the teaching is shaped to the listener, brief for one and detailed for another [C096-P4:L192–L222], and for one subject the text gives four different routes through the same material and then further angles again, because a quick mind is bored by a long inventory and a slower one gets lost in abstractions [C085-P4:L926–L927]. Learning it from somebody else is the normal route and not a second-best one; working it out alone is described as the rare case [C096-P4:L62; C096-P4:L146–L176].",
+      "concept_id": "C096"
+    },
+    {
+      "on_screen": "Last light from height, wider than the opening: the grid of beds, the shade house, the drying floor, the flat country and the sea haze beyond it, all going dark at once.",
+      "voice": "Four things this film is not doing. It does not examine, match, type or sort anybody, and no person in it is assessed or presented as needing anything. It neither claims nor denies that anything on those shelves does what it is kept for. It does not offer any of this as calm for its own sake, because the order in the sources is fixed and relaxation is not its point: decent conduct first, then a settled mind, then understanding [C096-P4:L26], and what they mean by understanding is an undistorted seeing of how everything mental and physical arises and passes, not a clever realisation [C096-P4:L30–L34]. And the powers the old text lists further on as fruits of these practices are its own claims and are not a promise made to anybody watching [C087-P4:L464–L484]. Many doors is not any door.",
+      "concept_id": "C096"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C085 (the compendium of meditation subjects) contributes the forty objects and the rule that the choice must fit the person and come from a teacher, each object having its own ceiling [C085-P:L47; C085-P4:L61]. C087 (kasina meditation) contributes one of those objects in full, physical detail, the made and re-levelled disc attended to by name rather than by its colour [C087-P4:L209–L213], together with the sources' own insistence that the full method is hard and suits very few [C087-M:L9]. C096 (insight meditation) contributes the limit: settling the mind is groundwork, and the texts say it is seeing clearly that frees [C096-P4:L26].",
-    "what_it_reveals": "Held together, the variety stops looking like a menu of preferences and starts looking like fitting: a door chosen for a person, not by them. And the plainness of the objects becomes the point rather than an oddity. C085 alone would be a list; C087 alone would be one curious craft; C096 alone would be a warning with nothing to warn about."
+    "why_together": "C085 is the film and supplies its shape. It is a compendium rather than a technique: forty subjects in groups, with the object matched to the person's temperament and taken from a teacher rather than picked by preference [C085-P:L47]; with fixed ceilings, so that ten of the forty reach only access concentration and never absorption [C085-P4:L61], the recollections and the food reflection among them because what is recalled is too rich and various to rest on as one point [C085-P4:L307]; with startlingly practical instructions for making ten of the devices, reddish earth levelled without a flaw, clean water in a bowl, fire through a hole in a plate, coloured paper or cloth or dye, a lamp in a tin or an electric light [C085-M:L21–L33]; with four different routes through one subject and further angles after that, because a quick mind is bored by an inventory and a slower one is lost in abstractions [C085-P4:L926–L927]; and with the plain statement that settling is support and seeing is what frees [C085-M:L3; C085-M:L11]. C087 supplies the thing a garden can carry that a list cannot, which is that this work depends on a whole arrangement of life rather than on a technique: most of that source is preliminaries, and it names seven everyday conditions, dwelling, food, talk, company, diet, weather and posture, each tested only by whether it leaves the mind steadier [C087-P4:L24–L40]; it separates a subject given to everyone from one given to a particular person [C087-P4:L95]; and it insists that nursing a sick parent or teacher comes first and is not a distraction [C087-P4:L81]. C096 supplies the limit and the reason the range exists at all: the order is conduct, then concentration, then wisdom, and relaxation is not the point [C096-P4:L26]; insight is an undistorted seeing rather than a clever realisation [C096-P4:L30–L34]; teaching is adapted because people are confused in different places [C096-P4:L192–L222]; and learning from others is the normal route, with self-discovered wisdom described as the rare case [C096-P4:L62; C096-P4:L146–L176]. A teaching garden that is a list of species with a bed each, and a store that is a list of prepared forms with a jar each, hold all three at once and hold them without a single person being assessed.",
+    "what_it_reveals": "That variety in this tradition is not a menu and not a matter of taste, and that a range of prepared options is what fitting actually costs somebody to maintain. Said flat, 'there are forty meditation subjects' is a fact to be memorised. Put on a walled grid of beds where two nearly identical plants are not the same thing, where one bed is watered and the next is not, where a shelf of honey and oil and water exists only to carry something else, and where the store stays full of what nobody needs today, it becomes an institution's standing effort: keeping everything ready so that the right thing can be given rather than the available thing. The film also gets the doctrine's own honesty for nothing, because the ceilings are visible in the material rather than asserted about people, and because the garden's dependence on soil, water, shade and weather says what the source says about dwelling, food, company and climate without anybody having to be described. This idea has been round once before and was dropped outright rather than relocated. Its previous version filmed a teacher asking each newcomer at a lay meditation class about their life and then assigning them a subject on that basis: that is profiling real people on camera, at a moment when they are least able to refuse, and this project has already refused the same thing twice. The concepts are unchanged. What has changed is that the film now shows only the range, and the matching, which is the part that cannot be filmed without taking somebody apart, is left entirely to the voice and to the sources."
   },
   "concept_links": [
     {
       "concept_id": "C085",
       "role": "primary",
-      "why": "The sources list forty subjects in seven groups and insist that the object is matched to the person's temperament and taken from a teacher, each with a fixed reach [C085-P:L47; C085-P4:L61]. The digest also warns against reading this as 'focus on whatever you like'."
+      "why": "The film is this concept's own structure and nothing else from it. The list of forty in groups and the fitting clause are narrated in the rows, over labels and over two beds whose plants are nearly identical, so that the strictness lands on the objects rather than on any person [C085-P:L47]. The ceilings are narrated over a shelf of bases that never act alone, and they are stated as the digest states them, as properties of the object: ten of the forty reach only the doorway [C085-P4:L61], the recollections and the food reflection among them, because what is recalled is too rich and various to rest on as one simple point [C085-P4:L307]. The lay text's practical instructions for making ten devices are narrated in the preparation room, because they are the one passage in either digest that has the same register as a dispensary bench, and the voice says in the same breath that the resemblance stops there [C085-M:L21–L33]. The four routes through one subject, and the reason for them, that a quick mind is bored by a long inventory while a slower one gets lost in abstractions, are narrated over a bench making a different form later in the week [C085-P4:L926–L927]. The digest's plainest correction closes the film in combination with C096, that settling is support and seeing is what frees [C085-M:L3; C085-M:L11]. Every limit in the digest that bears on this film is honoured. 'Focus on whatever you like' is refused out loud, since the fitting clause is spoken. The film is not mindfulness for stress relief and says so. The corpse contemplations, the food parable, the butcher simile, the elements analysis, the particle measures and the cosmology are all unused, and the recollections are named only inside the ceiling clause, never as positive thinking and never with the claim about noble disciples attached. No rebirth benefit is offered to anybody, and the film never itemises the forty on screen, which is also what keeps it from becoming a lecture."
     },
     {
       "concept_id": "C087",
       "role": "supporting",
-      "why": "The disc is the classical instance of one of the forty, and the digest describes it being made: pebbles picked out, clay kneaded and levelled, re-levelled when it cracks, until it is as smooth as a drum skin [C087-P4:L209–L213]. The digest warns that the powers listed as fruits of kasina practice must never appear as verified fact or as a promise [C087-P4:L464–L484]."
+      "why": "This concept gives the film the half of the subject a garden can carry, which is that steady attention is not a technique but an arrangement. The digest's own second reading is that most of the source is preliminaries, and its list of seven everyday conditions, where you live, where your food comes from, what you talk about, who you spend time with, what you eat, the weather and how you sit, each tested only by whether it leaves the mind steadier, is narrated over the garden's own dependencies: shade cloth, a water line, brackish ground, salt haze and a species that fails here every year and is replanted anyway [C087-P4:L24–L40]. The source's distinction between a subject given to everyone and a subject given to one person is narrated with it, because it is the cleanest statement in either digest of why a range has to exist [C087-P4:L95]. The digest's most humane clause is given a beat of its own: the same text that tells a person to cut their entanglements says that if a parent or a teacher falls ill you go and nurse them until they recover and then come back, so care is not on the list of distractions [C087-P4:L81]. The digest's limits are honoured and two are on screen. The powers listed as fruits are named in the closing beat only to be refused as a promise, and nobody in the film is suggested to have any [C087-P4:L464–L484]. 'Withdraw from the world' is refused by the nursing clause itself. The kasina disc is not built, brought or shown in this film, and no plant, jar or preparation is ever described as a meditation object, so the concept is used for its conditions and its fitting and not for its device. The traditional list of people said to be incapable of the practice is neither quoted nor implied, which matters more here than anywhere in the group, because this film's earlier version sorted real people and this one must not."
     },
     {
       "concept_id": "C096",
       "role": "supporting",
-      "why": "The sources place wisdom on the ground of conduct and concentration and say plainly that calm is not what frees [C096-P4:L26]. The class is the settling work, and the film should not let it stand for the whole road."
+      "why": "This concept supplies both the reason the range exists and the film's closing limit. The digest's social reading, that clarity is built with other people and in order, gives the film its two narrated claims about variety: that teaching is adapted because people get confused in different places, brief for some and detailed for others [C096-P4:L192–L222], and that learning from somebody who knows is the normal route rather than a second-best one, with wisdom worked out alone described as the rare case [C096-P4:L62; C096-P4:L146–L176]. The closing beat carries the digest's two hardest corrections. The order is fixed, conduct then a settled mind then understanding, and relaxation is not the point [C096-P4:L26]; and insight means an undistorted seeing of how everything mental and physical arises and passes, aimed at release, not a clever realisation or a business insight [C096-P4:L30–L34]. That is also the group's own floor stated inside this film: what the sources describe is not an epiphany, and nothing in a garden or on a shelf stands in for it. The digest's remaining limits are honoured. Wisdom is not equated with intelligence or education, and the film never implies that the institution's learning is the thing itself [C096-P4:L28]. 'Everyone has their own truth' is refused, since the film says the adaptation is to the confusion and not to the truth. The claim about a natural language of meanings is not used. And the seven purifications, the ten insight knowledges and the three liberations are not narrated at all, because footage cannot carry them and because a list recited over a garden would be exactly the lecture this film was rewritten to avoid."
     }
   ],
-  "what_the_viewer_could_understand": "There is no single right way to settle the mind: a good teacher looks at who you are and gives you something that fits. And settling the mind is only a start; the texts say that seeing clearly is what frees.",
-  "what_must_be_real": "A real, continuing class with a real teacher and real participants, filmed with consent that each person controls and can withdraw. No conversation, assignment or sitting is staged. No participant is presented as having attained anything. If an object-maker appears, their real order and livelihood, and they are not shown as practising.",
-  "position_hint": "opening candidate, placed early: it lays out the many starting points before the later films follow single ones, and it introduces the plain object that the rest of the group's practice films assume.",
+  "what_the_viewer_could_understand": "That this tradition does not hand out one method: it keeps a list of forty starting points, arranged in groups, and insists that the starting point is fitted to the person by somebody who knows rather than chosen by preference; that the options are not equivalent, because some of them reach only as far as the doorway of deep stillness and the limit belongs to the object rather than to the person; that a range like this exists because people are confused in different places, which is also why the same material is taught by several different routes; that the work depends on the whole arrangement of a life, on dwelling, food, company, talk, diet, weather and posture, and that looking after a sick parent or teacher comes before any of it; and that settling the mind is groundwork, with the sources saying plainly that what frees is a different piece of work. The garden and the store are an analogy for a range held ready and the film says so. Nobody in the film is examined, matched or typed, and the film makes no claim either way about what anything in the store does.",
+  "what_must_be_real": "The institution's own garden, store and week, in their own order. No bed is planted, labelled, watered, cut or cleared for the camera, no shelf is arranged or restocked for a shot, no preparation is begun, repeated or finished out of sequence, and nothing is brought in from outside the place. No patient, no consultation, no examination, no diagnosis and no treatment is filmed, sought or referred to, and no clinical space is entered; where the film needs to show that a hospital is part of the place, it shows a wall, a gate and a path from outside. Nobody is asked about their health, their history or their temperament, nobody is described as suited to anything, and no person on screen is presented as a type, a case or an example. The voice makes no claim that any preparation is effective and no claim that it is not, and the film neither endorses nor debunks the system it is filming. Nobody is presented as practising meditation, and no calm, patience or care shown by anybody is described as an inner state or an attainment. Students, staff and gardeners are filmed as people at work, are not named or followed as characters, and are not asked to confirm any doctrine. The institution decides what may be filmed, and any label, register or record that carries a person's name stays off screen.",
+  "position_hint": "early in the group, straight after the film that makes one plain object: it opens out the single support into the whole range, states the fitting clause and the ceilings before any later film follows one road, and sets the group's limit that settling is only groundwork. It is also the right place for the group's clearest statement that nobody is sorted, because everything after it depends on that being established. No location reasoning is involved.",
   "risks": [
-    "Becoming a lecture on the forty subjects",
-    "Exposing private reasons people are grieving, ill or struggling, or letting the film imply grief is a fault to be treated",
-    "Sorting real participants into temperament types; the sources match a practice to a person and do not rank people",
-    "Implying anyone in the room has attained anything",
-    "Letting the traditional fruits of kasina practice be heard as a promise"
+    "Sorting people. The film's earlier version did exactly that, and the whole design of this version is that the range is filmed and the matching is not.",
+    "Letting the film assert, or debunk, that anything in the store works. Neither is the film's business and either would make it a different film.",
+    "Filming a patient, a consultation or a queue, even in the far background, or letting a clinical space appear at all.",
+    "Letting the analogy harden, so that the plants start to read as meditation subjects and the film appears to claim that two traditions map onto each other.",
+    "Becoming a lecture on the forty, or reciting any list on screen.",
+    "Reading the variety as a menu of preferences, which is the digest's sharpest correction and the easiest mistake a well-stocked shelf invites.",
+    "Presenting the institution's calm, order or care as spiritual attainment, or letting a viewer read a state of mind off a face.",
+    "Letting the traditional fruits of these practices, the powers, be heard as a promise.",
+    "Aestheticising an institution into a sanctuary, so that a working teaching garden becomes a retreat.",
+    "Exposing a name from a register, a label or a record that was on screen for other reasons."
   ],
   "drop_if": [
-    "No teacher and class will allow filming without disrupting the class or exposing participants",
-    "Consent cannot be kept genuinely revocable for every person in the room"
+    "The institution will not allow the garden, the store and the preparation room to be filmed over an ordinary week, since the film is those three things.",
+    "Filming cannot be arranged in a way that keeps every clinical space, every consultation and every patient entirely out of the picture.",
+    "The garden turns out to be a display rather than a working collection, so the range is decorative and the beds are not maintained for use.",
+    "The only way to show the matching would be to film somebody being assessed, which this film exists in order not to do.",
+    "Height cannot be obtained over the compound, so the frame that states the concept, a ruled grid of different greens in a flat pale country, is unavailable.",
+    "The place can only be filmed in a way that would read as an endorsement or a debunking of the medicine it practises."
   ],
   "connections": [
     {
       "idea_id": "IDEA-0173",
-      "relation": "merged in",
-      "note": "Brought the made object itself: clay picked clean, levelled and re-levelled, kept deliberately dull, which gives the C087 link a physical body."
+      "relation": "pairs with",
+      "note": "One film makes a single object dull on purpose; this one holds the whole range the object came out of, and says why a range has to exist at all."
     },
     {
       "idea_id": "IDEA-0178",
       "relation": "leads into",
-      "note": "From settling the mind to the further work of seeing clearly, followed there into ordinary working knowledge."
+      "note": "From the many starting points to the work the sources say actually frees, which this film names in its last beat and refuses to illustrate."
     },
     {
       "idea_id": "IDEA-0188",
       "relation": "mirrors",
-      "note": "One day's class matching many people to many objects, against one retreat's shared ending."
+      "note": "A range of prepared beginnings standing ready against a single shared ending, which is the group's widest and narrowest frames."
     }
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0173"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0088, and now carries the made object as well as the list."
+    "reason": "It films the range instead of the matching, which is the only way this concept can be shown without taking a real person apart, and the range happens to be the most beautiful thing at the location."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-24. The previous version was dropped entirely, not relocated: it filmed a teacher at a weekly lay meditation class asking each newcomer about their life and then assigning them a meditation subject on that basis. That is profiling real people on camera, at a moment when they are least able to refuse, and it also put private reasons for coming, grief, illness, trouble at home, in front of a lens. This project has refused the same thing twice already. What was dropped, explicitly: the class, the teacher, the newcomers, every conversation about anybody's life, the assignment of a subject to a person, and the whole idea of a room of real participants being watched while they sit. What was kept: all three concepts, and the requirement that the film show a range of prepared options visibly existing for different users with nobody assessed. The new subject is a teaching herbal garden laid out as a grid of labelled single-species beds and, across the path from it, a store of raw material and a room where a fixed set of named preparations is made. The matching, which is the part that cannot be filmed honestly, stays in the voice and in the sources. C085, C087 and C096 were all re-read from the digests as a new reader and every citation was re-tested against digest evidence; none was copied from the old record. Two links changed character as a result. C087 is no longer used for the kasina disc, which belongs to the sibling film in this group and would have been a prop here; it is used instead for the passages the digest itself foregrounds, the preliminaries and the seven everyday conditions, the distinction between a general subject and a personal one, and the clause about nursing a sick parent or teacher, which earns a beat of its own. C096 is no longer a single warning but supplies the film's reason for variety as well as its limit. Nibbana does not appear in this film and is not illustrated by anything in it; no noble person, path moment or attainment is claimed; and the closing beat states that what the sources mean by understanding is an undistorted seeing and not an epiphany. Two further guards are written into what_must_be_real and drop_if: no clinical space, consultation or patient appears anywhere, and the film neither asserts nor denies that any preparation in the store does what it is kept for.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "The herbal garden, raw-drug store and preparation room of the Siddha medicine faculty at Kaithady, Jaffna District",
+    "also_known_as": [
+      {
+        "name": "Gunapadam",
+        "meaning": "the materia medica of this system, and the name of the faculty department that teaches it: the catalogue that records each substance's taste, potency and action",
+        "used_by": "Tamil and Siddha usage"
+      },
+      {
+        "name": "churanam, thailam, lehyam, kudineer",
+        "meaning": "four of the named prepared forms: a ground powder, an oil, a semi-solid paste boiled with sugars, and a decoction; the system classifies its preparations into a fixed number of internal and external forms",
+        "used_by": "Siddha usage"
+      },
+      {
+        "name": "anupanam",
+        "meaning": "the carrier a preparation is taken with, such as honey, oil, palm sugar or water; a thing that never acts alone and exists to carry something else",
+        "used_by": "Siddha usage"
+      },
+      {
+        "name": "Thenmarachchi",
+        "meaning": "the divisional secretariat area the place sits in, south-east of the district town",
+        "used_by": "administrative usage"
+      }
+    ],
+    "region": "Jaffna District, Northern Province: the flat limestone interior of the peninsula south-east of the district town, on the main road out, in a belt of well-irrigated garden plots and low institutional compounds",
+    "coordinates": {
+      "lat": 9.6667,
+      "lng": 80.1
+    },
+    "why_here": "Because the concept needs a place where a whole range of prepared options is visibly maintained for different users and nobody is assessed, and a teaching materia medica is exactly that: a garden that is a list of species with a bed and a painted label each, and a store that is a list of prepared forms with a jar each, kept full of things nobody needs today. The institution here is a real, consentable, teaching one, with a department of materia medica, a faculty herbal garden that students and visiting farmers are taken round by demonstrators, and a preparation laboratory; it also runs outreach in which seed and nursery plants of a dozen or more species are handed out to growers, which is the range being used by different people without anybody being examined. The setting gives the film its necessary shot, because the peninsula is flat, pale and almost featureless, so a ruled grid of different greens inside a wall is the only organised thing for a kilometre and reads from the air at either end of the day. The soil and water do the film's other job for it without anybody explaining anything: shallow limestone, brackish wells, salt in the wind, shade cloth, and species that fail here and are replanted anyway, which is a garden's version of the source's own list of conditions. This district is thin on this slate, and the film can be made here entirely outside any clinical space.",
+    "what_to_film": [
+      "The compound from height in the first and last half hour, so the grid of beds, the shade house, the drying floor and the ranks of poly-bagged seedlings separate into different greens against the flat pale country; and the same frame at noon, when the grid flattens into one colour.",
+      "The rows at walking pace: painted label after painted label, and two beds side by side whose plants are nearly identical and are not the same thing.",
+      "A bed being watered and the bed beside it deliberately left alone.",
+      "The shade house from inside, with the netting's pattern on the leaves, and the nursery ranks in rows.",
+      "The drying floor filling and emptying, filmed as two frames from the same position on different days.",
+      "The store: wooden shelves of labelled jars, tins and sacks of dried leaf, bark, root, seed and mineral, held long, with no person in the frame.",
+      "The preparation room's small precise sequence: material weighed on a scale, a grinding stone going round, a pan, a decoction through muslin, a funnel, small bottles filled and labelled by hand.",
+      "The shelf of carriers, honey, oil, palm sugar and water, which never act alone.",
+      "The same bench a few days later making a completely different form.",
+      "The hospital side of the compound only from outside: a wall, a gate, a path, planting along it, and nobody in frame."
+    ],
+    "access": "By road out of the district town on the main highway. Everything depends on written permission from the university and the faculty, arranged in advance, and on a working agreement about the one thing the film must guarantee, which is that no clinical area, consultation, patient or queue appears anywhere in the footage and that the crew does not enter a treatment space at all. The garden, the store and the preparation room are teaching facilities, so filming has to fit around classes and around the demonstrators' own work, and nothing on a bench, a bed or a shelf may be moved for a shot. Drone flight over a university compound needs the institution's agreement as well as the usual clearances, and the peninsula's airspace and the presence of other institutions nearby mean it may be refused, in which case the elevated frames have to come from a roof inside the compound. Labels, registers and records that carry a person's name stay off camera. The dry months are easier for the garden and for the drying floor.",
+    "best_time": "An ordinary working week in the dry months rather than a set day, because the point is that a different form comes off the same bench on a different afternoon and that the shelves stay full in between. Within a day, the first and last hour for the garden from height and for the labels, and the middle of the day for the frame in which the distinctions disappear. A second visit in a different season is worth planning, so that the garden is shown to be maintained rather than displayed.",
+    "images": [],
+    "sources": [
+      "https://siddha.jfn.ac.lk/",
+      "https://siddha.jfn.ac.lk/awareness-programme-for-farmers-on-export-oriented-medicinal-plant-cultivation/",
+      "https://siddha.jfn.ac.lk/field-visit-kallaaham-kaithady/",
+      "https://en.wikipedia.org/wiki/Kaithady",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6192459/",
+      "https://ncismindia.org/NCISM_II%20BSMS__SIDUG__GMM.pdf"
+    ],
+    "research_note": "Desk research only, and unverified on the ground. From the faculty's own site: it stands on the main road at this suburb, dates its establishment to 1984 with a longer institutional history behind it, lists departments including the one that teaches materia medica, refers to a preparation laboratory, and describes a faculty herbal garden that participants are taken round by departmental demonstrators. One documented outreach event in mid-2026 handed out eleven kinds of seed and twelve nursery plants to sixteen growers from three divisions, which is the clearest evidence found that the range here is maintained for use rather than for display. From the general literature on this system of medicine, not from this institution: its materia medica records each substance's taste, potency and action; its preparations are classified into a fixed number of internal and external forms, commonly given as thirty-two of each; and named forms include ground powders, oils, semi-solid pastes boiled with sugars, and decoctions, with carriers such as honey, oil, palm sugar or water taken alongside them. None of that general material has been checked against this faculty's own practice, and the numbers in particular must not be put on screen as facts about this place. Three things the film depends on remain inferences: that the garden is laid out as single-species labelled beds in a grid legible from the air, that the preparation room is a working one rather than a demonstration space, and that a week's ordinary work can be followed there. It is also unconfirmed how the faculty's teaching hospital sits in relation to the garden and the store, which matters because the film's whole design requires clinical space to stay out of the picture; the local description of the institution refers to it simply as a place of treatment used by older people nearby. The coordinates are the published position of the suburb, not a survey of the compound, and no garden, bed, shelf, room, officer, student or grower has been identified or approached. No photograph of this faculty, its garden, its store or this work was found on Wikimedia Commons; searches for the suburb returned nothing at all and searches for medicinal plants returned a botanical garden in another province, so this record carries no image rather than an image of somewhere else.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-24"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether the herbal garden is laid out as labelled single-species beds in a grid, and whether that grid reads from height.",
+    "Whether the preparation room is in ordinary working use rather than a teaching demonstration space, and how many different forms are actually made in a week.",
+    "Where the teaching hospital and any consultation space sit in relation to the garden and the store, and whether a route through the compound exists that never passes them.",
+    "Whether the university and the faculty will permit filming at all, and on what terms regarding students, staff and records.",
+    "Whether the general account of the system's fixed set of internal and external preparation forms describes this faculty's own practice closely enough to be alluded to at all.",
+    "Whether height can be obtained over the compound, or whether the elevated frames have to be built from a roof.",
+    "Whether the outreach in which seed and nursery plants go out to growers happens inside a plausible filming window, and whether it can be filmed without anybody being identified."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }

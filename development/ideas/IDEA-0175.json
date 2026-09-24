@@ -2,78 +2,198 @@
   "schema_version": 1,
   "id": "IDEA-0175",
   "record_type": "idea",
-  "title": "Held, Not Touched",
+  "title": "Before The Wedges Go In",
   "status": "draft",
-  "version": 2,
+  "version": 3,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-24",
   "created_by": "claude",
   "updated_by": "claude",
-  "aliases": [],
+  "aliases": [
+    "Held, Not Touched"
+  ],
   "group_id": "GRP-10",
-  "logline": "A gem-cutter brings a rough stone close under a single lamp and looks at it for far longer than seems reasonable, until both its flaws and its worth become visible.",
-  "human_question": "What changes when attention stops scattering and stays on one thing for a long time?",
-  "situation": {
-    "what_happens": "A cutter takes in a rough stone and decides what it will become. Most of the work is looking: the stone turned under light, set down, picked up again, while the room is ignored. A wrong angle destroys value that cannot be recovered, so the decision is deferred until the looking has produced it. Then the cutting is quick, and the stone leaves.",
-    "who_is_involved": "The cutter, working on commission or on their own stock; the owner of the stone, who is carrying the risk; the buyer or broker at the other end; apprentices or family who work in the same room.",
-    "what_is_at_stake": "Real money, other people's money, and a reputation that rests on judgement. For the film: the temptation to claim that skilled concentration is the same thing as the meditative absorption the texts describe, which the sources explicitly deny.",
-    "how_it_unfolds": "A stone arrives with a history and an expectation attached. The pressure builds as the decision is delayed and the owner waits. It ends in a cut that is either right or wrong, and the market says which. Reality decides the value, and whether the cutter is willing to say anything about how the looking feels."
+  "logline": "On a low sheet of grey rock in dry-zone scrub, a man spends most of a morning doing nothing but looking at one face of stone he cannot lift, turn, or try, throwing water across it and waiting for the light to move until the grain shows him where it will part, and only then chisels a line of holes and sets the wedges that commit him.",
+  "human_question": "What becomes possible when attention stops scattering and stays on one thing for a long time, and what does that not amount to?",
+  "place": {
+    "what_kind_of_place": "Dry-zone country of low rounded outcrops, where the bedrock comes up through thin red soil in grey sheets and domes with scrub and palu and weera round their edges. Small tanks in the hollows, gravel roads, hamlets, and on the outcrops a working stone site: not a crushing plant and not a pit, but a bench a few metres high cut back into a sheet, with squared blocks standing about on the flat rock like furniture in an empty room, rubble swept into heaps, and the previous years' splits visible everywhere as rows of half-holes in old faces, each row a decision somebody made. The equipment is astonishingly small for the size of the material: a steel chisel and a heavy hammer, a set of wedges with their side plates, a crowbar, a wire brush, a bucket of water, a length of string, a piece of chalk, a plumb-bob, a plank and rollers, and a tarpaulin for shade. Everything about the place is scale mismatched to tools. The object under consideration weighs several tonnes and the whole procedure for dealing with it is a man with a hammer and an opinion about where the stone wants to go.",
+    "why_it_is_worth_watching": "Because the thing being examined cannot be handled, so all the work has to happen through looking, and because the decision that follows cannot be taken back. Wide and high, the site is graphic without any styling: a pale grey sheet of rock in a sea of green-grey scrub, with squared blocks casting long shadows across it at either end of the day and the old split-lines running over the whole surface like ruled paper. At close range, the film is the opposite of a craft montage, because for the first hour almost nothing happens: water thrown across a face and drying back unevenly, the same man crouching at four different points along it, standing up, walking round the block, crouching again, doing nothing anybody could photograph as skill. And then, in perhaps two minutes, an irreversible sequence: a string line, a row of chalk marks, holes cut to the same depth one after another, wedges dropped in with their plates, and a round of taps along the row, then another round, then another, until a hairline opens the whole length of the line and the block is a separate object.",
+    "what_moves_or_changes": "Almost nothing, and then everything, in that order. The rock has been where it is for an unimaginable time and the film's subject is one morning of somebody deciding what to do with a piece of it. The light moves, which is the only reason the looking is possible at all: a seam that is invisible at eight o'clock is obvious at half past six, and wetting the surface brings the grain up for a few minutes before it dries back. The block's value moves too, downward only: a line taken across the grain rather than along it wastes the block, and the waste is not recoverable by any later work. Once the wedges are seated the outcome is decided; once the crack runs, the face that has just been made is the first time anybody has ever seen it. Afterwards the block is levered, rolled and squared, and what is left of the morning's looking is a flat grey surface that shows nothing of what it cost.",
+    "when_it_looks_best": "A dry stretch in the cooler months, and within a day the first two hours above everything else, because raking low light across a rock face is the only thing that makes a seam readable, and because the work is done early and stops in heat. The middle of the day is worth filming for what it destroys: at noon the face goes flat and unreadable and the whole procedure would be impossible, which states the concept better than any narration. The site also wants a second morning, because a block that does not part on the first round is a real outcome and the film should have one if it happens."
   },
+  "two_layers": {
+    "without_the_philosophy": "A film about one block of stone and the morning before it was split. A grey sheet of rock in scrub at first light, from height, with squared blocks standing on it; water thrown across a face and drying back in patches; a man crouching, sighting, walking round, crouching again; the light moving; a string stretched, chalk marks, a chisel and a heavy hammer, holes cut one after another to the same depth, dust blown out of each; wedges dropped in with their plates; a round of taps along the row, a hand laid flat on the stone between rounds, another round; a hairline opening along the whole line; a crowbar; a new flat face nobody has ever seen. It has a complete shape with nothing said over it, and anyone who likes open dry country, exact irreversible work, or the strange comedy of a hammer against several tonnes of rock has a whole piece here.",
+    "with_the_philosophy": "The same morning becomes the sources' own account of what long, undistracted attention is and, just as importantly, what it is not. The texts explain deep concentration by an ordinary act: somebody who wants to really know a thing brings it close, stops looking anywhere else, and looks for a long time at its colours and its marks until all of it is plain. They describe the approach to a settled state as a fixed short order of moments rather than a switch. They treat real skill as control rather than intensity, being able to turn to the thing, enter, stay, leave on time and look back over it. And they describe going deeper as subtraction, each stage reached by letting go of something that helped at the stage before. The voice never says the man is meditating, never says his concentration is absorption, and never claims any state for him. It says the sources reach for exactly this kind of looking when they want to explain themselves, and that they are explicit that a craftsman's absorption is an echo of what they mean and never an instance of it."
+  },
+  "sequence": [
+    {
+      "on_screen": "First light, high and coming down. A pale grey rock sheet in scrub, squared blocks standing on it throwing long shadows, old rows of half-holes ruling the surface. One man on the unworked part, standing still, doing nothing.",
+      "voice": "For the first hour of this morning the only tool anybody uses is looking. The thing being looked at weighs several tonnes. It cannot be picked up, turned over, carried to the light or tried out, so everything that is going to be known about it has to arrive through the eye, and the eye has to wait for the sun to move.",
+      "concept_id": "C013"
+    },
+    {
+      "on_screen": "Close. A bucket of water thrown across the face; the grain darkening and coming up; the wet drying back unevenly into patches. The man crouching at four points along the same face, standing, walking round, crouching again. No dialogue and no tools in his hands.",
+      "voice": "The sources explain deep concentration by an ordinary act. Someone who wants to really know a thing brings it close, stops looking anywhere else, and looks for a long time at its colours and its marks until all of it is plain [C013-P:L48–L52]. They contrast that with ordinary attention, which barely touches a thing before moving on. Here the object cannot be brought close, so the looking has to do all of it.",
+      "concept_id": "C013"
+    },
+    {
+      "on_screen": "The decision, at last. A string stretched and held; chalk marks along it at even spacing; the chisel set and struck; a hole cut, dust blown out, the next one started. The row lengthening across the face.",
+      "voice": "The texts say a settled state is not switched on. They give the approach to it a fixed order and name each step: getting ready, coming close, falling into line, crossing over [C099-P4:L26–L30; C099-M:L25–L29]. One warning goes with that. Those are named single moments inside one process of mind, not a four-step programme and not a timetable of anybody's morning. What a row of holes shares with them is only this: an order that cannot be rearranged, and a last step that commits you.",
+      "concept_id": "C099"
+    },
+    {
+      "on_screen": "Wedges dropped into the holes with their side plates. A round of taps along the whole row, light and even. A pause. A hand laid flat on the stone. Another round. Another. Then a hairline opening along the line, the full length of it, with a sound.",
+      "voice": "The sources are frank about how this goes wrong, and neither way is the way anybody expects. Grab at the result the moment it looks close and you become restless and lose it. See that grabbing is a mistake, ease off too far, and you go slack and lose it just as surely. What works is steady, even effort, repeated without panic and without giving up.",
+      "concept_id": "C099"
+    },
+    {
+      "on_screen": "The block free. A crowbar, rollers, the block turned down onto a plank. Then the new face, held long: flat, grey, plain, the first time it has been seen. The man standing over it, looking back along it.",
+      "voice": "What the texts count as real skill is not intensity. It is control: being able to turn towards the thing, enter it, stay in it, come out of it on time, and look back over it afterwards, whenever and wherever one chooses [C099-P:L69–L79]. And after each entry, a quiet review of what was actually present, piece by piece.",
+      "concept_id": "C099"
+    },
+    {
+      "on_screen": "The yard in full light. Squared blocks standing about on the sheet, each one smaller than the rock it came out of. Rubble heaps. Old split lines everywhere, ruled across faces cut in other years.",
+      "voice": "The analysis behind all of this describes going deeper as subtraction. First the effort of putting attention onto the thing drops away, then the effort of holding it there, then the excited uplift, then even the pleasant feeling, until what is left is an even steadiness [C031-P:L63–L69]. Nothing is added to go further in. And it refuses the obvious slogan, because the moment it counts as having the most in it is one of the most refined, not the emptiest [C031-M:L17].",
+      "concept_id": "C031"
+    },
+    {
+      "on_screen": "Last light. The sheet from height again, the shadows long, the new block among the others and no longer distinguishable. Then one still frame of the split face with the half-holes along its edge.",
+      "voice": "And here is what this morning is not. The sources describe a trained state with conditions attached, a teacher, a place and a set object, and they say plainly that a craftsman's absorption can only ever be an echo of it and never a case of it. Nobody here is meditating and no state of anybody's is visible in this film. Even of the real thing they refuse the easy reading: they call that bliss the most refined worldly pleasure and then say it holds unwholesome states down only while it lasts, and they train the person to see even joy and pleasure as coarse [C099-P4:L70; C099-P4:L124]. Their image for it is a pot dipped into a pond: the moss parts, and when the pot comes out the moss drifts back over the same water [C013-P:L62; C013-P:L66].",
+      "concept_id": "C013"
+    }
+  ],
   "concept_merge": {
-    "why_together": "C013 (the fine-material minds) contributes the sources' own image for deep concentration: someone who wants to really know an object brings it close, stops looking elsewhere, and looks long at its colours and marks until it is completely clear [C013-P:L48–L52]. C099 (the absorption process) contributes what the texts count as skill, which is not intensity but control: being able to turn to it, enter, stay, leave on time and look back over it at will [C099-P:L69–L79]. C031 (the factors in absorbed minds) contributes the texts' analysis of what such a state actually consists of, which is a precise set of factors, some dropping away in a fixed order as it deepens.",
-    "what_it_reveals": "Together they make visible both the attraction and the limit of the comparison. Long, controlled, undistracted looking is filmable and real, and it is what the sources reach for when they want to explain themselves; but the sources also say a craftsman's absorption can only ever be an echo of what they mean, because their subject is defined by which factors are present, not by how well the work goes. The film can hold the echo without claiming the thing."
+    "why_together": "C013 supplies the film's image and its brake. Its account of deep concentration is an ordinary act of attention, bringing a thing close, stopping looking elsewhere, and looking long at its colours and marks until it is completely clear [C013-P:L48–L52], which is exactly the labour of a morning spent reading one rock face; and its limit is the pot and the moss, that calm holds the hindrances down only while it lasts [C013-P:L62; C013-P:L66]. On its own that pairing would be an image with nothing happening in it. C099 makes it a morning with a shape, because it describes the approach as a fixed short order with names for each step and a crossing at the end of it [C099-P4:L26–L30; C099-M:L25–L29], is frank that the two ways of failing are grabbing and slackening, defines real skill as turning to, entering, staying, leaving on time and reviewing [C099-P:L69–L79], and states flatly that absorption bliss is the most refined worldly pleasure and still only holds things down while it lasts [C099-P4:L70; C099-P4:L124]. C031 supplies the shape of depth itself, which is subtraction in a fixed order, each stage reached by releasing what was needed at the one before [C031-P:L63–L69], together with the correction that the richest moment is also one of the most refined rather than the emptiest [C031-M:L17] and that moral restraint is not present in these minds because it belongs to occasions of actual conduct [C031-P:L75; C031-M:L15]. A block of stone that cannot be handled, examined for an hour and then committed to in two minutes, carries all three without anybody having to recite them, and the digests' shared refusal, that skilled work is an echo and not an instance, is the film's closing sentence.",
+    "what_it_reveals": "That attention which stays on one thing long enough begins to see it, that this is not the same as being good at your job, and that the sources themselves are the ones who insist on the difference. Said flat, 'sustained concentration' is a phrase people apply to anything. Put on a face of rock that cannot be lifted, turned to the light or tried, it becomes a real constraint with a cost attached: the looking has to produce the decision because nothing else can, the light gives a short window in which the grain is readable at all, and a line taken wrong destroys value that no later work recovers. The film also gets the sources' own account of depth for nothing, because a quarry is a place where the only way forward is removal and where nothing is ever added. This idea has been round once before. Its previous version had a cutter bringing a rough stone close under a single lamp and turning it for hours; that was dropped because gem sites are a banned archetype on this slate, which already carries three, and because a stone in the hand can be tried from every angle, which quietly undoes the concept. Here the object cannot be handled at all, which is what the concept actually asks for."
   },
   "concept_links": [
     {
       "concept_id": "C013",
       "role": "primary",
-      "why": "The Pradeepika explains deep concentration by exactly this behaviour: bringing an object close, shutting out the room and looking for a long time until everything about it is plain [C013-P:L48–L52]. The digest is explicit that absorption is not 'flow' or being in the zone at work, so the film keeps this as the source's working image and makes no claim about the cutter's mind."
+      "why": "The film is the digest's own image for deep concentration and the digest's own warning about it, and nothing else from the concept. The image is narrated at the one moment the footage can carry it, over a wet rock face and a man who has not picked up a tool in an hour: bring the thing close, stop looking elsewhere, look long at its colours and its marks until all of it is plain [C013-P:L48–L52]. The film then turns the image's one assumption inside out, since the object here cannot be brought close, which makes the looking the whole of the work rather than a stage of it. The limit is spoken in the source's own words in the closing beat, with the pot dipped into the pond and the moss drifting back, so the film cannot be heard to claim that a settled mind removes anything for good [C013-P:L62; C013-P:L66]. Every limit in the digest that bears on this film is honoured and the sharpest is the film's last sentence. 'Absorption is the same as flow or being in the zone at work' is refused out loud rather than merely avoided: the voice says the sources describe a trained state with a teacher, a place and a set object, that a craftsman's absorption is an echo and never an instance, and that nobody here is meditating and no state of anybody's is visible. 'Meditation is relaxation' is refused by the same beat. 'Bliss is the goal' is refused by narrating that the stages move past rapture and happiness. The five higher knowledges are not narrated. And the digest's sensitive passages, which say that people of certain rebirth types, the wealthy bound by greed and those guilty of grave deeds cannot attain absorption, are not quoted, paraphrased or alluded to anywhere, because the digest is explicit that they must never be used to judge anyone on screen and this film has a working man in every frame."
     },
     {
       "concept_id": "C099",
       "role": "supporting",
-      "why": "The digest treats real skill as being able to turn toward the object, enter, stay, leave on time and review [C099-P:L69–L79], and states that a craftsman's absorption can only be an echo or analogy, never an instance. That is precisely the register the film works in."
+      "why": "This concept gives the morning its shape and gives the film two of its three refusals. The fixed run-up, getting ready, coming close, falling into line, crossing over, is narrated over the chiselling of the line of holes [C099-P4:L26–L30; C099-M:L25–L29], and the digest's own correction is narrated in the same breath, that these are named single moments inside one cognitive process and not a four-step self-improvement programme or a timetable of weeks, so the analogy is explicitly limited to order and commitment. The two ways of failing, grabbing at a result that looks close and easing off too far, are narrated over the rounds of tapping, which is the part of the work where both mistakes are physically obvious. The definition of real skill as being able to turn to the object, enter, stay, leave on time and review is narrated over the man looking back along the face he has just made [C099-P:L69–L79], which is also where the digest's quiet review belongs. The closing beat carries the digest's hardest correction, that absorption bliss is called the most refined worldly pleasure and still only holds unwholesome states down while it lasts, and that the practitioner is trained to see joy and pleasure themselves as coarse [C099-P4:L70; C099-P4:L124]. The digest's remaining limits are honoured by construction. The claim that attainment depends on a birth endowed with wisdom and that people of weak understanding cannot attain is not used, because it would sort a real person on screen. The slow and quick person types are not used, because the digest says they are a technical count of preliminary moments and not a ranking of human worth. And nothing in the film is presented as a happiness hack."
     },
     {
       "concept_id": "C031",
       "role": "supporting",
-      "why": "The texts describe a settled mind by counting what accompanies it, and say the drop-outs follow a set order tied to absorption factors, with one of the most refined moments also one of the richest. The digest warns that this is an analytic count, not something a person could feel or a camera could see, and that work focus is not these states. The link is background for the film's restraint rather than something the images can carry; it is the weakest link in this idea and could move to the film about deepening by subtraction."
+      "why": "This concept supplies the one thing about depth that footage can honestly carry, which is that it is reached by subtraction. The order is narrated over a yard of squared blocks, each smaller than the rock it came out of: first the effort of placing attention goes, then the effort of holding it there, then the uplift, then even the pleasant feeling, leaving an even steadiness [C031-P:L63–L69]. The digest's correction of the obvious slogan is narrated with it, because the moment counted as having the most in it is also one of the most refined rather than the emptiest [C031-M:L17], which stops the film from selling emptiness as the point. Two of the digest's limits shape what the film does not do. It does not claim that any of this makes a person better, since the source places the abstinences, restraint in speech, action and livelihood, outside these minds and in occasions of actual conduct [C031-P:L75; C031-M:L15]; the film therefore never suggests that the man's care with the stone is a moral state. And the numbers are treated as what the digest says they are, an analytic count used in study rather than anything a person could feel or report or a camera could see, so no count is spoken on screen, no factor is named as present in anybody, and the concept's role in the film is a single narrated shape plus a good deal of restraint. The absence of compassion in some of these minds is not narrated at all, because the digest is careful that it means only that those minds are not directed at beings, and a film cannot carry that qualification in a sentence."
     }
   ],
-  "what_the_viewer_could_understand": "Ordinary attention only brushes past things, but attention that stays on one thing for a long time begins to see it clearly. The texts picture someone bringing an object close and looking at it until everything about it is plain.",
-  "what_must_be_real": "The cutter's actual trade, actual commission and actual risk. The film never says the cutter is meditating, is absorbed in the sense the texts mean, or has attained anything.",
-  "position_hint": "middle: it follows the film about choosing a practice by showing what long attention on one object looks like from outside, before the group moves on to depth and to insight.",
+  "what_the_viewer_could_understand": "That ordinary attention brushes past things while attention that stays on one thing for a long time begins to see it, and that the sources reach for exactly that kind of looking when they try to explain what they mean; that the approach to a settled state is described as a fixed order with a crossing at the end rather than a switch, and that skill in it means control rather than intensity; that depth is described as subtraction, each stage reached by letting go of what helped at the one before; and that the sources themselves insist that a skilled worker's absorption is an echo of this and never a case of it, and that calm holds things down only while it lasts. The morning is an analogy and the film says so. Nobody on screen is meditating, nobody's mind is visible, and nothing anybody here does is an attainment.",
+  "what_must_be_real": "The site's own work, on its own order for its own customer. No block is chosen, wetted, marked, chiselled, wedged or split for the camera, no line is re-cut, no round of tapping is repeated, and nothing is re-staged after the fact. The hour of looking is filmed as the hour it is, without being compressed into a performance of concentration and without anybody being asked to hold a pose, to look thoughtful or to stay still. If a block does not part, or parts wrong and is wasted, the film has that and keeps it. Nobody is asked what the looking feels like or invited to describe a state of mind, and nobody's stillness, patience or care is described anywhere as calm, focus or an attainment. Nothing about how wedges, chisels, bars or loads are handled may be altered, and the crew stands where the workers say and nowhere else, because this is a place where a chip or a slipped bar is how people are actually hurt. No earnings, quotas, buyers or licences are put on screen, and the site's own permissions are its business, not the film's subject. The site decides what may be filmed and may stop at any point.",
+  "position_hint": "middle of the group, after the film that makes the plain object and before anything about seeing clearly: it shows from outside what sustained attention on one thing actually looks like and costs, and it is the right place to spend the group's clearest refusal, that skilled work is an echo of absorption and not an instance of it, because every later film in the group would otherwise invite the same mistake. No location reasoning is involved.",
   "risks": [
-    "Overclaiming a meditative state for ordinary skilled work, which both digests rule out",
-    "Trade secrecy about value, sourcing and labour conditions in the gem trade",
-    "Becoming a craft showcase with nothing at stake"
+    "Overclaiming a meditative state for skilled work, which all three digests rule out, and which a long silent shot of a man looking at a rock invites more strongly than anything else in the group.",
+    "Letting the viewer read an inner state off a face, so that patience or stillness becomes evidence of something.",
+    "Turning the split into a climax, so that the film becomes about a dramatic release rather than about the hour that preceded it.",
+    "Reciting the counts and stages, or letting an analytic list be heard as a description of what someone in the frame is experiencing.",
+    "Romanticising heavy, hazardous work, or arranging any part of how tools and loads are handled for a shot.",
+    "Drifting into the trade: licences, buyers, royalties, quarrying regulation and what stone costs are a different film and would pull this one towards money.",
+    "Letting the outcrop's archaeology take over, since this country is full of ancient quarries and worked rock, and the film is about a working morning and not about the past.",
+    "Making the wedged line look like a technique demonstration, which would turn the film into a craft explainer and lose the concept.",
+    "Aestheticising emptiness, when the source's own correction is that the most refined moment is the richest rather than the emptiest."
   ],
   "drop_if": [
-    "No cutter will let a real commission be followed from rough stone to sale",
-    "The film could only work by asking the cutter to perform stillness"
+    "Blocks in this country are no longer taken off by hand with chiselled holes and wedges, so the hour of looking and the committed line do not exist as work.",
+    "No site will allow a block to be followed from the first look to the split on its own terms and its own timing.",
+    "The only way to film the looking would be to ask somebody to perform it, or to compress it into something it is not.",
+    "The crew cannot be present safely for the wedging and the split without changing where anybody stands or how anything is handled.",
+    "The site's work turns out to be blasting and machine cutting throughout, so the decision the film depends on is made by a plan rather than by looking.",
+    "Height cannot be obtained over the outcrop, so the frame that holds the whole site, the blocks and the old split lines at once is unavailable."
   ],
   "connections": [
     {
+      "idea_id": "IDEA-0173",
+      "relation": "pairs with",
+      "note": "One film makes a plain surface for attention to rest on; this one is a morning of attention resting on a surface nobody made, and what that does and does not amount to."
+    },
+    {
       "idea_id": "IDEA-0177",
       "relation": "pairs with",
-      "note": "Two close studies of attention refining: one on a single object, one across a graduated sequence."
+      "note": "Two close studies of attention refining: one on a single object that cannot be handled, one across a graduated sequence."
+    },
+    {
+      "idea_id": "IDEA-0174",
+      "relation": "leads into",
+      "note": "This one ends on the source's own admission that calm holds things down only while it lasts; the later film is about a thing that does not come back."
     }
   ],
   "selection": {
     "recommendation": "keep",
     "merged_with": [],
     "superseded_by": null,
-    "reason": "Used by EPD-0089; the C013 image is the source's own, with the flow-state misreading explicitly blocked."
+    "reason": "The object genuinely cannot be handled, so the concept's central condition is a fact of the material rather than a directorial choice, and the film's most beautiful shot is an hour in which nothing happens."
+  },
+  "review": {
+    "status": "pending",
+    "note": "Rewritten 2026-09-24 into the footage-led shape, and relocated off the gem trade. The previous version had a cutter bringing a rough stone close under a single lamp and turning it for hours; gem sites are a banned archetype on this slate, which already carries three of them, and the version also had a quiet flaw, since a stone in the hand can be turned, tried and re-lit at will, which is precisely not the condition the concept describes. The concepts are unchanged and the brief's requirement is met literally: the object is examined without being handled, because it weighs several tonnes, and the only variables available to the looking are water on the surface and the sun moving. C013, C099 and C031 were all re-read from the digests as a new reader, and every citation was re-tested against digest evidence rather than copied from the old record. Two changes came out of that re-reading. The C031 link, which the old record itself called the weakest in the idea, now has one narrated shape that footage can carry, the drop-out order and the correction that the richest moment is not the emptiest, plus an explicit statement that the counts are analytic and not anything a camera sees; it is kept rather than moved. And the C099 link now narrates the digest's own correction about the four named moments in the same breath as the moments themselves, because the digest is explicit that they are single mind-moments and not a four-step programme. The closing beat carries the refusal all three digests share, that a craftsman's absorption is an echo and never an instance, and it is spoken out loud rather than left to the edit. The sensitive passages in C013 and C099 about who cannot attain absorption are deliberately unused, since the film has a working man in every frame. Nibbana does not appear anywhere in this film, and no noble person, path moment or attainment is claimed for anybody.",
+    "decided_at": null,
+    "decided_by": null
+  },
+  "suggested_location": {
+    "name": "A working hand-split building-stone site on the gneiss outcrops of the Kekirawa and Galnewa country, Anuradhapura District",
+    "also_known_as": [
+      {
+        "name": "gal wadu weda",
+        "meaning": "stone work as a trade, covering both taking blocks off an outcrop and squaring and dressing them",
+        "used_by": "Sinhala usage"
+      },
+      {
+        "name": "plug and feather",
+        "meaning": "the splitting set used the world over: a tapered steel wedge dropped between two side plates in a chiselled hole, with a row of them tapped in sequence so that the stone parts along the line rather than at any one point",
+        "used_by": "stone trade usage in English"
+      },
+      {
+        "name": "the grain",
+        "meaning": "the direction along which a given rock parts most cleanly, read from foliation, old joints and weathering on the surface; reported in the archaeological literature on this country's rock as something the old quarriers clearly understood and used",
+        "used_by": "stone trade and archaeological usage"
+      }
+    ],
+    "region": "Anuradhapura District, North Central Province: the dry-zone outcrop country in the south-east of the district, where the bedrock surfaces in low grey sheets and domes among scrub, tanks and paddy, well away from the protected monuments further north",
+    "coordinates": {
+      "lat": 8.0333,
+      "lng": 80.6
+    },
+    "why_here": "Because this is the part of the island where the material, the trade and the landform meet. The bedrock here comes to the surface in broad low sheets, which is the one setting in which a block can be taken off by reading a face rather than by drilling a plan, and the same country has supplied dressed stone for so long that the technique is documented rather than guessed at: the archaeological literature on this district describes quarrying by splitting, using natural foliations, joints and weathering as starting points and a row of chiselled holes along the intended line, and one study of it was built on observing a craftsman who still works that way. The setting also gives the film every frame it needs without any styling. A pale rock sheet in scrub reads from height at either end of the day; squared blocks standing about on it throw the only long shadows for a kilometre; old rows of half-holes rule the surface like a page; and at noon the same face goes flat and unreadable, which is the concept stated by the light. The subject is a working site rather than a monument, so nothing in the film depends on archaeology or on access to a protected place. The district is well represented on this slate by its ancient city and hardly at all by its working country, and this is the working country.",
+    "what_to_film": [
+      "The outcrop from height in the first and last half hour, so the sheet, the standing blocks, the rubble and the old split lines read at once; and the same frame at noon, when the surface flattens and nothing can be read on it.",
+      "The hour of looking, filmed as an hour and from a fixed position: water thrown across the face and drying back unevenly, the man crouching at successive points, standing, circling, crouching again, with no tool in his hands.",
+      "The face itself at close range, wet and then dry, so the grain, the old joints and the weathering come up and go again.",
+      "The line being set: a string stretched, chalk marks at even spacing, and the first chisel stroke.",
+      "The holes, cut one after another to the same depth, with dust blown out of each, held long enough that the repetition registers.",
+      "The wedges going in with their side plates, and the rounds of tapping along the row, with the pauses and the hand laid flat on the stone between them.",
+      "The hairline opening along the whole length of the line, filmed wide rather than close, with the sound.",
+      "The new face after the block is turned down: flat, grey and plain, held in one long still shot.",
+      "The man looking back along the face he has made, without commentary and without a question being asked.",
+      "A block that did not part cleanly, or a line abandoned, filmed in the same light as a successful one."
+    ],
+    "access": "By road from the main highway and then on gravel and site tracks. Everything depends on the site's own people agreeing, approached through whoever holds the licence or through the trade rather than cold, and the site's rules about where anybody may stand are absolute: this is heavy, sharp, hazardous work, chips travel, bars slip, and a crew that has to be watched is a crew that will be asked to leave. Nothing may be handled, moved, wetted or swept for the camera. Quarrying is licensed and regulated, so the site's permissions are its own business and the film neither investigates them nor puts them on screen; a site that would rather not be identified should not be filmed at all. Drone flight over a working site needs the site's agreement whatever the general position is, and no aircraft goes up while anybody is under the face. Work here is done early and stops in the heat, so the filming day is short.",
+    "best_time": "A dry stretch in the cooler months, and within the day the first two hours, which are both the working hours and the only light in which a face can be read. Two mornings rather than one, because the film needs a complete sequence from the first look to the split and because a block that resists is part of the subject and cannot be arranged. A separate visit at noon is worth the trip for the single frame in which the rock face has nothing on it.",
+    "images": [],
+    "sources": [
+      "https://www.researchgate.net/publication/308127906_An_Ethnoarchaeological_Study_of_Stone_Quarrying_Techniques_in_Historical_Anuradhapura",
+      "https://www.researchgate.net/publication/286922920_Ancient_rock_quarries_in_Anuradhapura_Sri_Lanka",
+      "https://en.wikipedia.org/wiki/Kekirawa_Divisional_Secretariat",
+      "https://en.wikipedia.org/wiki/Plug_and_feather",
+      "https://encyclocraftsapr.com/stone-sculpture/"
+    ],
+    "research_note": "Desk research only, and unverified on the ground. From the archaeological literature on this district: rock outcrops around the ancient city were quarried by splitting, with natural foliations, weathering fractures and joints used as starting points, and fractures induced along a line of chiselled holes into which wedges were driven; at least one of these studies was built on observing a stone craftsman who still applies the traditional technique, and the literature states that the old quarriers clearly understood rock structure, weak zones, foliation and joints. The general description of the splitting set, a tapered wedge between two side plates dropped into each hole and tapped along the row in sequence rather than driven home one at a time, is taken from the general stone trade rather than from any Sri Lankan source. Two things the film depends on are inferences and not confirmed facts about this district today: that blocks are still taken off by hand this way here rather than by jackhammer, wire or blasting, and that the decision about where a line goes is still made by reading a face rather than by following a plan. Both are the first things to check on the ground, and both are in drop_if. The coordinates are the published position of a divisional town in the outcrop country of this district and are a direction towards the landform the film needs, not a survey: no outcrop, site, licence-holder, worker or block has been identified or approached, and no permission has been sought from anyone. No photograph of a working hand-split stone site in this district, or of this work anywhere on the island, was found on Wikimedia Commons; searches returned scanned colonial-era books, unrelated rock-cutting on a railway line elsewhere, and a monument gate, none of which shows what this film is about, so this record carries no image rather than an image of something else.",
+    "proposed_by": "claude",
+    "proposed_at": "2026-09-24"
   },
   "source_doc": null,
   "unknowns": [
-    "No participant or event has been found or confirmed. Everything here is a research direction."
+    "Whether blocks are still taken off by hand with chiselled holes and wedges in this district, and at what scale.",
+    "Whether the line is genuinely decided by reading the face, or whether it follows an existing joint pattern, a customer's dimensions or a plan.",
+    "How long the reading of a face actually takes on a working morning, and whether an hour of it is an honest description or a romantic one.",
+    "Whether a site will allow one block to be followed from the first look to the split without the order or the timing being adjusted.",
+    "Whether a crew can be present for the wedging and the split without anybody having to stand somewhere they would not otherwise stand.",
+    "Whether wetting the face to bring the grain up is a real part of the work here or an assumption carried in from other stone trades.",
+    "Whether height can be obtained over a working site, and whether the old split lines read from the air as strongly as they appear to from the ground."
   ],
-  "evidence_class_note": "Editorial proposal. No location, scene or shot decisions are made at the idea stage.",
-  "review": {
-    "status": "pending",
-    "note": "",
-    "decided_at": null,
-    "decided_by": null
-  }
+  "evidence_class_note": "Editorial proposal. The location is proposed by Claude from desk research and is unverified. No scene or shot is decided here."
 }
