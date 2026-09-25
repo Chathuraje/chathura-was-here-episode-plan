@@ -4,9 +4,9 @@
   "record_type": "idea",
   "title": "The Last Thing to Go Out",
   "status": "draft",
-  "version": 3,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-22",
+  "updated_at": "2026-09-25",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [
@@ -119,11 +119,9 @@
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0062"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "The group's only handling of the order in which states fall away, rebuilt so that the order belongs to a fire and not to any person."
+    "reason": "The group's only handling of the order in which states fall away, rebuilt so that the order belongs to a fire and not to any person. Legacy merge recommendations (IDEA-0062) were cleared on 2026-09-25: they came from the retired pre-rewrite review reports, which argued merges while ideas competed for episode slots. Those reports are retired, every idea is now 'keep', and selection happens through Chathura's verdict against a per-group quota. The named ideas still exist as separate candidates with their own locations, so the merge was never executed. This field now records executed merges only."
   },
   "review": {
     "status": "pending",

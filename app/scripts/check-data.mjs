@@ -190,6 +190,17 @@ if (fs.existsSync(development)) {
   check("A proposed location carries coordinates, framing notes and images", ideas.every((idea) => !idea.suggested_location || suggestedShape(idea.suggested_location)),
     ideas.filter((idea) => idea.suggested_location && !suggestedShape(idea.suggested_location)).map((idea) => idea.id).join(", "));
   // One verdict covers the idea and the place it proposes: idea.review.
+  // selection.merged_with once held the retired review reports' *recommendations* to merge. It now
+  // records merges that were actually carried out, and an executed merge has to be visible from the
+  // absorbed record too, or the absorbed idea reads as a live independent film that nothing explains.
+  const oneWayMerges = ideas.flatMap((idea) => (idea.selection?.merged_with ?? []).map((absorbed) => {
+    const target = ideas.find((other) => other.id === absorbed);
+    if (!target) return `${idea.id}->${absorbed} (missing)`;
+    return (target.connections ?? []).some((link) => link.idea_id === idea.id)
+      ? null : `${idea.id}->${absorbed}`;
+  })).filter(Boolean);
+  check("An executed merge is recorded at both ends", oneWayMerges.length === 0, oneWayMerges.join(", "));
+
   check("A proposed location carries no verdict of its own", ideas.every((idea) => !idea.suggested_location?.confirmation),
     ideas.filter((idea) => idea.suggested_location?.confirmation).map((idea) => idea.id).join(", "));
   check("Location proposals are Claude's, never recorded as Chathura's own entry", ideas.every((idea) => !idea.suggested_location

@@ -4,9 +4,9 @@
   "record_type": "idea",
   "title": "Twenty Minutes of Light",
   "status": "draft",
-  "version": 3,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-23",
+  "updated_at": "2026-09-25",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [
@@ -121,11 +121,9 @@
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0115"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "It carries visible form, the light that makes seeing possible and the never-received true colour on a place that appears and disappears daily, with no person's sight involved."
+    "reason": "It carries visible form, the light that makes seeing possible and the never-received true colour on a place that appears and disappears daily, with no person's sight involved. Legacy merge recommendations (IDEA-0115) were cleared on 2026-09-25: they came from the retired pre-rewrite review reports, which argued merges while ideas competed for episode slots. Those reports are retired, every idea is now 'keep', and selection happens through Chathura's verdict against a per-group quota. The named ideas still exist as separate candidates with their own locations, so the merge was never executed. This field now records executed merges only."
   },
   "review": {
     "status": "pending",

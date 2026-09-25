@@ -4,9 +4,9 @@
   "record_type": "idea",
   "title": "Until It Holds Itself",
   "status": "draft",
-  "version": 3,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-21",
+  "updated_at": "2026-09-25",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [
@@ -111,11 +111,9 @@
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0023"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "The group's clearest physical demonstration that desire-to-act is not greed, on a location whose best shot is also its plainest statement of the concept."
+    "reason": "The group's clearest physical demonstration that desire-to-act is not greed, on a location whose best shot is also its plainest statement of the concept. Legacy merge recommendations (IDEA-0023) were cleared on 2026-09-25: they came from the retired pre-rewrite review reports, which argued merges while ideas competed for episode slots. Those reports are retired, every idea is now 'keep', and selection happens through Chathura's verdict against a per-group quota. The named ideas still exist as separate candidates with their own locations, so the merge was never executed. This field now records executed merges only."
   },
   "review": {
     "status": "pending",

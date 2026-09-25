@@ -18,6 +18,11 @@ when it looks best), `two_layers`, and a `sequence` of 7–9 beats each pairing 
 selection: a place is now proposed inside the idea as `suggested_location`, and Chathura's single
 `review` verdict accepts or refuses the idea and its place together.
 
+Where a film rests on a documented story, `suggested_location` also carries a `historical_thread`
+block — `story`, `how_it_binds`, `what_is_certain`, `what_is_disputed`, `sources` — with the certain
+and the disputed deliberately held apart. On several sites the dispute is the most valuable thing
+there and is never smoothed into fact.
+
 ## Where it stands
 
 | | |
@@ -25,11 +30,11 @@ selection: a place is now proposed inside the idea as `suggested_location`, and 
 | Candidate ideas | 137, all on the footage-led shape |
 | Films to be made | 98 (2–99), quota enforced per group |
 | Confirmed | 2 |
-| Districts covered | 25 of 25, between 3 and 7 films each |
-| Reference images | 271 references across 119 ideas, resolving to 260 distinct Wikimedia Commons files, every one verified to exist |
-| Ideas with no image | 18, because Commons holds nothing for that place |
-| Duplicate locations | none |
-| Citations | every one resolves against its concept's digest evidence |
+| Rejected | 0 |
+| Districts covered | 25 of 25, between 3 and 9 films each |
+| Reference images | 327 references across 122 ideas, resolving to 317 distinct Wikimedia Commons files, every one verified to exist |
+| Ideas with no image | 15, because Commons holds nothing for that place |
+| Films resting on a historical thread | 18 |
 
 ## The standing constraints
 
@@ -83,17 +88,17 @@ and four water-diversion films — one agent having written the same film twice 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
 | IDEA-0001 | A Shape Made of Nothing | Sri Pada / Adam's Peak | Ratnapura | confirmed |
-| IDEA-0002 | Nothing But Thread | Ratgama Lake | Galle | confirmed |
-| IDEA-0003 | Which Way Is Out | Kalametiya lagoon and its outlet | Hambantota | pending |
-| IDEA-0004 | A Hole Full of Sky | Nilavarai well and the well gardens around it | Jaffna | pending |
-| IDEA-0005 | What Will Not Wash Away | Meetiyagoda moonstone pits | Galle | pending |
-| IDEA-0006 | The Hollow That Answers | Hummanaya blowhole | Matara | pending |
-| IDEA-0007 | The Whole Thing at Once | Mahakanumulla village tank cascade | Anuradhapura | pending |
-| IDEA-0008 | What the Tide Brings and the Sun Takes | Puttalam salterns (Palaviya salt pans) | Puttalam | pending |
-| IDEA-0009 | Everything Here Was Something Else | Pilimathalawa brass workshops | Kandy | pending |
-| IDEA-0010 | Everything in the Basket | Elahera gem field | Polonnaruwa | pending |
-| IDEA-0011 | A Mountain You Can Lift | Bundala Lewaya | Hambantota | pending |
-| IDEA-0012 | A Circle Made of Speed | Devinuwara | Matara | pending |
+| IDEA-0002 | What the Name Outlived | Lovamahapaya (the Brazen Palace / Lohaprasadaya), Mahavihara precinct, and Jetavanaramaya (the Jetavana stupa), Jetavana monastery — both in the sacred city of Anuradhapura | Anuradhapura | pending |
+| IDEA-0003 | The Mouth of a Lion That Was Never There | Sigiriya (Sīhagiri, the Lion Rock), with Pidurangala opposite | Matale | confirmed |
+| IDEA-0004 | The Metal Never Changed | Koneswaram temple on Swami Rock, Trincomalee | Trincomalee | pending |
+| IDEA-0005 | What Will Not Wash Away | Mulkirigala Rock Temple (Mulkirigala Raja Maha Vihara) | Hambantota | pending |
+| IDEA-0006 | Nobody's Name | Pahiyangala (Fa-Hien Cave / Fa-Hien Lena) | Kalutara | pending |
+| IDEA-0007 | The Whole Thing at Once | Parakrama Samudra (Parakrama Samudraya), the Sea of Parakrama | Polonnaruwa | pending |
+| IDEA-0008 | Besides These, Is There Another? | Mihintale: the Ambasthala terrace, the railed rock slab, the Aradhana Gala and the great stairway | Anuradhapura | pending |
+| IDEA-0009 | Everything Here Was Something Else | Jaffna Fort | Jaffna | pending |
+| IDEA-0010 | Seven, and Nobody Agrees | Buduruwagala rock-cut figures (Buduruwagala Raja Maha Viharaya) | Monaragala | pending |
+| IDEA-0011 | The Colour of the Sand | Kudiramalai Point | Puttalam | pending |
+| IDEA-0012 | The Story the Stones Refuse | The Avukana (Aukana) Buddha statue and the Sasseruwa (Ras Vehera / Reswehera) Buddha statue, a pair about 10 km apart | Anuradhapura | pending |
 
 ### GRP-02 Wanting — 10 films from 14 candidates
 
@@ -101,19 +106,19 @@ and four water-diversion films — one agent having written the same film twice 
 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
-| IDEA-0013 | A Hundred Metres Past It | The Cadjugama (Kajugama) cashew stalls | Gampaha | pending |
-| IDEA-0014 | What the Pot Is For | The potters' households of Porativu Pattu | Batticaloa | pending |
-| IDEA-0015 | Nothing in the Room | The Colombo Fresh Coconut Auction | Colombo | pending |
+| IDEA-0013 | Prompted, or Not | The Cadjugama (Kajugama) cashew stalls on the A1 Colombo–Kandy road between Nittambuwa and Pasyala, and the rambutan roadside of the lower Kelani valley around Malwana | Gampaha | pending |
+| IDEA-0014 | What the Pot Is For | The potters' households of Porativu Pattu, around Kaluwanchikudy | Batticaloa | pending |
+| IDEA-0015 | Sold Before Anyone Looked | The Doric at Arippu (the Doric Bungalow) and the Gulf of Mannar pearl banks | Mannar | pending |
 | IDEA-0016 | Forty Feet Above a Taste | Meemure | Kandy | pending |
-| IDEA-0017 | The Night Nothing Is Sold | Kurunegala | Kurunegala | pending |
-| IDEA-0018 | Picked Before It Opens | Padaviya tank | Anuradhapura | pending |
+| IDEA-0017 | The Height of a Bowed Head | Maduwanwela Walauwa (Maduwanwela Walawwa) | Ratnapura | pending |
+| IDEA-0018 | A Town Built for a Feeling | Nuwara Eliya town | Nuwara Eliya | pending |
 | IDEA-0019 | Until It Holds Itself | Valvettithurai kite festival beach (Uthayasooriyan beach) | Jaffna | pending |
-| IDEA-0020 | The Stone Inside | The traditional gem-cutting workshops of Demuwawatha (Counsel Avenue) | Ratnapura | pending |
-| IDEA-0021 | Nobody Has to Ask | Malwana and the rambutan villages of the lower Kelani valley | Gampaha | pending |
-| IDEA-0022 | A Flavour Made of Weather | Passara–Lunugala tea country | Badulla | pending |
-| IDEA-0023 | Identical From Outside | Amunugama | Kandy | pending |
+| IDEA-0020 | The Stone Inside | The traditional gem-cutting workshops of Demuwawatha (Counsel Avenue), Ratnapura | Ratnapura | pending |
+| IDEA-0021 | Upstream of the Rice | Ranmasu Uyana (the royal park and pleasure garden), below the Tissa Wewa bund, Anuradhapura | Anuradhapura | pending |
+| IDEA-0022 | A Flavour Made of Weather | Passara–Lunugala tea country, eastern slopes of the Namunukula range | Badulla | pending |
+| IDEA-0023 | Identical From Outside | Amunugama, on the Lewella–Amunugama–Madawala road | Kandy | pending |
 | IDEA-0024 | Ten Months on Borrowed Sand | Baththalangunduwa island | Puttalam | pending |
-| IDEA-0025 | All the Same From Above | Welimada weekly fair | Badulla | pending |
+| IDEA-0025 | The Cargo Is Still Out There | Godavaya (Godawaya) ancient port and the Gotha Pabbata temple rock | Hambantota | pending |
 | IDEA-0026 | The Shape Wanting Makes | Point Pedro beach landings and fishery harbour | Jaffna | pending |
 
 ### GRP-03 Anger and Fear — 9 films from 14 candidates
@@ -128,14 +133,14 @@ and four water-diversion films — one agent having written the same film twice 
 | IDEA-0036 | Nothing Arrives Here Whole | The state bus rebuilding works in the industrial zone at Ekala | Gampaha | pending |
 | IDEA-0037 | The Same Machinery | The west-facing iron-smelting ridges above the Walawe valley at Samanalawewa | Ratnapura | pending |
 | IDEA-0038 | One Track, Both Ways | Punanai railway station on the single-track Batticaloa line | Polonnaruwa | pending |
-| IDEA-0039 | Nothing Comes Down Yet | The kitul slopes of the western Sinharaja buffer zone | Ratnapura | pending |
-| IDEA-0040 | Nobody Can See Inside | The hand-brick clay flats and clamp kilns of the lower Deduru Oya basin | ? | pending |
-| IDEA-0041 | The Water Is Already Spoken For | The Kirindi Oya system | Hambantota | pending |
-| IDEA-0042 | One Heap Becomes Many | The village threshing floors of the Wellassa paddy country around Bibile | ? | pending |
-| IDEA-0043 | Everything Goes Up by Hand | Sankapala Rajamaha Viharaya | Ratnapura | pending |
+| IDEA-0039 | Nothing Comes Down Yet | The kitul slopes of the western Sinharaja buffer zone, around Kalawana | Ratnapura | pending |
+| IDEA-0040 | Nobody Can See Inside | The hand-brick clay flats and clamp kilns of the lower Deduru Oya basin, between Kuliyapitiya and Bingiriya | — | pending |
+| IDEA-0041 | The Water Is Already Spoken For | The Kirindi Oya system: the Lunugamvehera reservoir sluices, the Ellagala anicut and the right-bank main canal down to the old tanks | Hambantota | pending |
+| IDEA-0042 | One Heap Becomes Many | The village threshing floors of the Wellassa paddy country around Bibile | Monaragala | pending |
+| IDEA-0043 | Everything Goes Up by Hand | Sankapala Rajamaha Viharaya, on the rock south of Pallebedda | Ratnapura | pending |
 | IDEA-0044 | Everything Waits for the Boat | The Divisional Secretariat on Delft island | Jaffna | pending |
-| IDEA-0045 | The Line Stops at the Water | The derelict pier and rebuilt terminus at the end of the northern railway line at Talaimannar | Mannar | pending |
-| IDEA-0221 | The Reef Is in the Walls | The coral-mined coast between Akurala and Kahawa | Galle | pending |
+| IDEA-0045 | The Line Stops at the Water | The derelict pier and rebuilt terminus at the end of the northern railway line at Talaimannar, with the chain of shoals beyond it | Mannar | pending |
+| IDEA-0221 | The Reef Is in the Walls | The coral-mined coast between Akurala and Kahawa, with the lime kiln shore and the inland pits behind it | Galle | pending |
 
 ### GRP-04 Lost — 8 films from 11 candidates
 
@@ -144,15 +149,15 @@ and four water-diversion films — one agent having written the same film twice 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
 | IDEA-0053 | What the Water Was Holding | Kadadora Viharaya and the drawdown zone of the Kotmale Reservoir | Nuwara Eliya | pending |
-| IDEA-0054 | Nobody Here Is Wrong | Muthurajawela marsh | Gampaha | pending |
+| IDEA-0054 | Nobody Here Is Wrong | Muthurajawela marsh, the Hamilton Canal and the elevated crossing of the Colombo-Katunayake Expressway | Gampaha | pending |
 | IDEA-0055 | Everything Arrives at Once | The Dambulla Dedicated Economic Centre | Matale | pending |
-| IDEA-0056 | Two Honest Readings | The open beach and roadstead at Panama | Ampara | pending |
+| IDEA-0056 | Two Honest Readings | The open beach and roadstead at Panama, at the southern end of the east coast | Ampara | pending |
 | IDEA-0057 | The Length of the Rope | The harvested paddy and tank-bund grazing of the village tanks around Siyambalanduwa | Monaragala | pending |
 | IDEA-0058 | What Keeps It Standing | The mangrove channels of the Chilaw lagoon complex at Pambala | Puttalam | pending |
 | IDEA-0059 | You Cannot Tell From Here | The Poson dansala road between Anuradhapura and Mihintale | Anuradhapura | pending |
 | IDEA-0060 | The Last Thing to Go Out | Coconut-shell charcoal pits in the smallholding country around Madampe | Puttalam | pending |
 | IDEA-0061 | Only When It Is Full | Buffalo curd setting houses in the dry-zone villages around Angunakolapelessa | Hambantota | pending |
-| IDEA-0062 | Everything Here Got the Same Rain | The montane restoration plots and forest-station seedling nursery on the Dothalugala slopes | Kandy | pending |
+| IDEA-0062 | Everything Here Got the Same Rain | The montane restoration plots and forest-station seedling nursery on the Dothalugala slopes, Knuckles conservation forest | Kandy | pending |
 | IDEA-0063 | As Far as the Next Post | Idalgashinna station and the ridge section of the upcountry main line between Haputale and Ohiya | Badulla | pending |
 
 ### GRP-05 Slowing Down — 12 films from 16 candidates
@@ -161,22 +166,22 @@ and four water-diversion films — one agent having written the same film twice 
 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
-| IDEA-0073 | The Stone Keeps Every Mark | A small building-stone quarry on the low gneiss outcrops inland of Kinniya | Trincomalee | pending |
-| IDEA-0074 | Only What the Lamp Reaches | The shallow upper reaches of the Batticaloa lagoon | Batticaloa | pending |
-| IDEA-0075 | Hold It Against the Lamp | A forest-edge honey buying room in the villages along the Lahugala and Pottuvil road | Ampara | pending |
+| IDEA-0073 | The Stone Keeps Every Mark | A small building-stone quarry on the low gneiss outcrops inland of Kinniya, in the dry-zone interior of Trincomalee district | Trincomalee | pending |
+| IDEA-0074 | Only What the Lamp Reaches | The shallow upper reaches of the Batticaloa lagoon, on the Eravur and Kiran side | Batticaloa | pending |
+| IDEA-0075 | Hold It Against the Lamp | A forest-edge honey buying room in the villages along the Lahugala and Pottuvil road, between the lowland forest and the coast plain | Ampara | pending |
 | IDEA-0076 | The Smell Gets There First | A palm-sugar boiling shed in the fan-palm belt behind the coast at Thirukkovil and Akkaraipattu | Ampara | pending |
-| IDEA-0077 | Green All the Way Across | The South Bolgoda basin and the Bolgoda Ganga channels | Kalutara | pending |
+| IDEA-0077 | Green All the Way Across | The South Bolgoda basin and the Bolgoda Ganga channels, on the Kalutara side of the Bolgoda lake system | Kalutara | pending |
 | IDEA-0078 | The Water Arrives Later | St Clair's Falls and the Upper Kotmale headworks on the Kotmale Oya at Talawakele | Nuwara Eliya | pending |
-| IDEA-0079 | Struck Once, Heard All Morning | Aluvihare Rock Temple and the valley below it | Matale | pending |
-| IDEA-0080 | Past the Last Place You Can Stop | The Kelani River rapids at Kitulgala | Kegalle | pending |
-| IDEA-0081 | The Turning Comes First | The Thambapavani wind power station | Mannar | pending |
+| IDEA-0079 | Struck Once, Heard All Morning | Aluvihare Rock Temple and the valley below it, north of Matale | Matale | pending |
+| IDEA-0080 | Past the Last Place You Can Stop | The Kelani River rapids at Kitulgala, between the road bridge and the pool below the run | Kegalle | pending |
+| IDEA-0081 | The Turning Comes First | The Thambapavani wind power station, on the southern shore of Mannar Island | Mannar | pending |
 | IDEA-0082 | The Order Is Not Anyone's | Kilinochchi station and the single-track Northern Line across the Kilinochchi plain | Kilinochchi | pending |
 | IDEA-0083 | Nothing Left Over | A commercial paddy mill's optical sorting floor on the edge of Thambuttegama | Anuradhapura | pending |
 | IDEA-0084 | The Long Part After the Sound | The open grazing scrub and night cattle posts of the Oddusuddan country | Mullaitivu | pending |
-| IDEA-0085 | Said Before It Is Struck | The Kandasamy Kovil in the middle of Vavuniya town | Vavuniya | pending |
+| IDEA-0085 | Said Before It Is Struck | The Kandasamy Kovil in the middle of Vavuniya town, and the streets immediately around it | Vavuniya | pending |
 | IDEA-0086 | Always the Same Heap | The Pelwatte sugar mill at Buttala and the cane country around it | Monaragala | pending |
-| IDEA-0087 | Before It Has a Name | The floriculture smallholdings around Divulapitiya | Gampaha | pending |
-| IDEA-0088 | Nearly All of It Is Waiting | The dry-season drinking-water round in the villages of the Welikanda division | Polonnaruwa | pending |
+| IDEA-0087 | Before It Has a Name | The floriculture smallholdings around Divulapitiya, in the coconut country of the northern Gampaha district | Gampaha | pending |
+| IDEA-0088 | Nearly All of It Is Waiting | The dry-season drinking-water round in the villages of the Welikanda division, on the eastern edge of the north-central plain | Polonnaruwa | pending |
 
 ### GRP-06 Kindness — 10 films from 14 candidates
 
@@ -184,20 +189,20 @@ and four water-diversion films — one agent having written the same film twice 
 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
-| IDEA-0093 | Nobody's Roof | Panavitiya Ambalama | Kurunegala | pending |
+| IDEA-0093 | Nobody's Roof | Panavitiya Ambalama, at the edge of Panavitiya village near Narammala | Kurunegala | pending |
 | IDEA-0094 | Filled Again By Morning | The roadside water pots on the interior road running north from Monaragala town toward Medagama | Monaragala | pending |
-| IDEA-0095 | Where The Weight Stops | A licensed river-sand landing on the south bank of the Kelani Ganga | Colombo | pending |
+| IDEA-0095 | Where The Weight Stops | A licensed river-sand landing on the south bank of the Kelani Ganga, on the lowland reach around Hanwella | Colombo | pending |
 | IDEA-0096 | Until It Gives | A smallholder cinnamon peeling shed in the Nilwala valley country inland of Kamburupitiya | Matara | pending |
-| IDEA-0097 | Thirty Trees Before Noon | The palmyrah stands around Mallavi and Thunukkai | Mullaitivu | pending |
+| IDEA-0097 | Thirty Trees Before Noon | The palmyrah stands around Mallavi and Thunukkai, inland in the west of the district | Mullaitivu | pending |
 | IDEA-0098 | Four Ages of One Shore | The mangrove shore of the inner harbour arm between Kappalthurai and Thampalakamam | Trincomalee | pending |
-| IDEA-0099 | The Same Rain | The rain-fed paddy tract around Nedunkerny | Vavuniya | pending |
-| IDEA-0100 | The Eyes Come Last | The image house | Matara | pending |
-| IDEA-0101 | Everything Stays Where It Was Put | The roadside collecting points of the upcountry vegetable villages around Nildandahinna | Nuwara Eliya | pending |
+| IDEA-0099 | The Same Rain | The rain-fed paddy tract around Nedunkerny, in the north of the district | Vavuniya | pending |
+| IDEA-0100 | The Eyes Come Last | The image house, workshops and colossal seated image of the old temple at Dikwella | Matara | pending |
+| IDEA-0101 | Everything Stays Where It Was Put | The roadside collecting points of the upcountry vegetable villages around Nildandahinna, in the Walapane hills | Nuwara Eliya | pending |
 | IDEA-0102 | A Line Around Every Tree | The rubber smallholdings and village latex collecting shed of the Bulathkohupitiya valley | Kegalle | pending |
 | IDEA-0103 | A Book Older Than Anyone In It | A village funeral-aid society in the Kuda Ganga valley around Baduraliya and Athweltota | Kalutara | pending |
 | IDEA-0104 | The Same Instant | The Thaanthonreeswarar temple at Kokkaddicholai and the village street its chariot is drawn along | Batticaloa | pending |
-| IDEA-0105 | For Whoever Is Out There | The Great Basses Reef lighthouse | Hambantota | pending |
-| IDEA-0106 | Leave That One Alone | The nesting beach of the bay at Talalla | Matara | pending |
+| IDEA-0105 | For Whoever Is Out There | The Great Basses Reef lighthouse, standing on the reef in open sea off the south-east corner of the island | Hambantota | pending |
+| IDEA-0106 | Leave That One Alone | The nesting beach of the bay at Talalla, on the coast road east of Matara | Matara | pending |
 
 ### GRP-07 The Body — 9 films from 13 candidates
 
@@ -206,17 +211,17 @@ and four water-diversion films — one agent having written the same film twice 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
 | IDEA-0113 | The Same Heat | The copra kilns of the coconut smallholdings around Pannala | Kurunegala | pending |
-| IDEA-0114 | What Holds the Night Up | The paddy mills and drying yards on the edge of Kilinochchi town | Kilinochchi | pending |
-| IDEA-0115 | Take It to the Door | The cloth lanes of Pettah | Colombo | pending |
-| IDEA-0116 | Nobody Is Saying It Now | The disused upper tank farm of the China Bay oil installation | Trincomalee | pending |
-| IDEA-0117 | Nothing Arrives Alone | The fibreglass boat sheds on the Fullerton industrial estate at Nagoda | Kalutara | pending |
-| IDEA-0118 | Only One of Them Is Meant | The limestone quarries above Kawudupelella | Matale | pending |
-| IDEA-0119 | Where the Rice Flour Is | The pre-dawn kitchens along the coast road at Erukkalampiddy | Mannar | pending |
-| IDEA-0120 | Never the Same Water | The Keerimalai freshwater spring and bathing tank | Jaffna | pending |
-| IDEA-0121 | Until the Path Is Worn | Salgala forest hermitage | Kegalle | pending |
+| IDEA-0114 | What Holds the Night Up | The paddy mills and drying yards on the edge of Kilinochchi town, in the irrigated rice country below Iranamadu tank | Kilinochchi | pending |
+| IDEA-0115 | Take It to the Door | The cloth lanes of Pettah, chiefly Second Cross Street and Keyzer Street | Colombo | pending |
+| IDEA-0116 | Nobody Is Saying It Now | The disused upper tank farm of the China Bay oil installation, Trincomalee | Trincomalee | pending |
+| IDEA-0117 | Nothing Arrives Alone | The fibreglass boat sheds on the Fullerton industrial estate at Nagoda, inland from Kalutara | Kalutara | pending |
+| IDEA-0118 | Only One of Them Is Meant | The limestone quarries above Kawudupelella, in the hills north of Matale | Matale | pending |
+| IDEA-0119 | Where the Rice Flour Is | The pre-dawn kitchens along the coast road at Erukkalampiddy, on Mannar Island | Mannar | pending |
+| IDEA-0120 | Never the Same Water | The Keerimalai freshwater spring and bathing tank, on the north coast of the Jaffna peninsula | Jaffna | pending |
+| IDEA-0121 | Until the Path Is Worn | Salgala forest hermitage, in the forest reserve above Welhella near Galapitamada | Kegalle | pending |
 | IDEA-0122 | Ten, and Start Again | Village paddy stores and threshing floors around Medirigiriya | Polonnaruwa | pending |
-| IDEA-0123 | The Shape Outlasts the Work | Paddy land out of cultivation on the Gin Ganga floodplain | Galle | pending |
-| IDEA-0124 | Twenty Minutes of Light | The ruined monastic settlement on the Rajagala ridge | Ampara | pending |
+| IDEA-0123 | The Shape Outlasts the Work | Paddy land out of cultivation on the Gin Ganga floodplain, between Baddegama and Thelikada | Galle | pending |
+| IDEA-0124 | Twenty Minutes of Light | The ruined monastic settlement on the Rajagala ridge, north of Uhana | Ampara | pending |
 | IDEA-0125 | Nothing Here Is the Same Age | The bamboo stands on the Mahaweli river flats at Mahiyangana | Badulla | pending |
 
 ### GRP-08 Endings — 12 films from 16 candidates
@@ -226,21 +231,21 @@ and four water-diversion films — one agent having written the same film twice 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
 | IDEA-0133 | It Only Does This Once | The talipot palms of the low intermediate belt around Warakapola and Nelundeniya | Kegalle | pending |
-| IDEA-0134 | Whatever the Body Can Reach | Nayaru Lagoon and its sand bar | Mullaitivu | pending |
+| IDEA-0134 | Whatever the Body Can Reach | Nayaru Lagoon and its sand bar, on the coast between Alampil and Kumulamunai | Mullaitivu | pending |
 | IDEA-0135 | Not the Strongest in the Pen | The village night kraals of the grazing country between the district town and Cheddikulam | Vavuniya | pending |
-| IDEA-0136 | Nothing Crosses the Gap | A mature dry-zone hardwood plantation block in the forest country north-east of Kahatagasdigiliya | Anuradhapura | pending |
+| IDEA-0136 | Nothing Crosses the Gap | A mature dry-zone hardwood plantation block in the forest country north-east of Kahatagasdigiliya, toward Horowpothana | Anuradhapura | pending |
 | IDEA-0137 | Nothing Keeps Till Morning | The palmyrah stands and jaggery sheds of the Poonakary shore | Kilinochchi | pending |
 | IDEA-0138 | Everything Here Was Handed In | The lost-property store of the main bus terminal at Anuradhapura new town | Anuradhapura | pending |
 | IDEA-0139 | The Line Comes Back | The inland paddy tract around Vavunathivu and Karadiyanaru | Batticaloa | pending |
-| IDEA-0140 | Whenever Somebody Comes Back | The 1875 trigonometrical column on Rumassala hill above Unawatuna | Galle | pending |
+| IDEA-0140 | Whenever Somebody Comes Back | The 1875 trigonometrical column on Rumassala hill above Unawatuna, and the plan store and field marks of the Galle district survey office | Galle | pending |
 | IDEA-0141 | The Seed Is Not the Season | The rain-fed maize and upland holdings around Badalkumbura | Monaragala | pending |
 | IDEA-0142 | Planted for a Good Reason | The Prosopis juliflora stands and cleared flats of Vankalai Sanctuary | Mannar | pending |
 | IDEA-0143 | The Cloud Is the Condition | Hakgala Strict Nature Reserve and the summit crag above it | Nuwara Eliya | pending |
-| IDEA-0144 | Nothing Is Added in the Cold | The seed gene bank and regeneration fields of the Plant Genetic Resources Centre | Kandy | pending |
-| IDEA-0145 | A Place Is a Kind of Life | The island shrine and its annual offering hall | Galle | pending |
+| IDEA-0144 | Nothing Is Added in the Cold | The seed gene bank and regeneration fields of the Plant Genetic Resources Centre, Gannoruwa | Kandy | pending |
+| IDEA-0145 | A Place Is a Kind of Life | The island shrine and its annual offering hall, on the largest island of the Madu Ganga estuary at Balapitiya | Galle | pending |
 | IDEA-0146 | The Water Comes In All Night | The underground workings of the Bogala graphite mine at Aruggammana | Kegalle | pending |
-| IDEA-0147 | Nothing Here Was Handed Over | The bar and mouth of the Ullackalie lagoon | Trincomalee | pending |
-| IDEA-0148 | No One Is an Exception | A village at the end of the road under the western wall of the Knuckles range | Matale | pending |
+| IDEA-0147 | Nothing Here Was Handed Over | The bar and mouth of the Ullackalie lagoon, where the Verugal and Uppu rivers reach the sea | Trincomalee | pending |
+| IDEA-0148 | No One Is an Exception | A village at the end of the road under the western wall of the Knuckles range, around Ranamure in Laggala | Matale | pending |
 
 ### GRP-09 Nothing Stands Alone — 8 films from 11 candidates
 
@@ -248,17 +253,17 @@ and four water-diversion films — one agent having written the same film twice 
 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
-| IDEA-0153 | The Stake Was There First | The Intercropping and Betel Research Station at Dampalassa | Kurunegala | pending |
+| IDEA-0153 | The Stake Was There First | The Intercropping and Betel Research Station at Dampalassa, Narammala | Kurunegala | pending |
 | IDEA-0154 | Everything Else Was Already There | The Old Laxapana power station and its penstocks below Norton Bridge | Nuwara Eliya | pending |
-| IDEA-0155 | Wherever the Hook Finds It | The cane-cutting and weaving village of Manampitiya | Polonnaruwa | pending |
-| IDEA-0156 | It Just Stopped | The motor-parts and repair quarter of Panchikawatte | Colombo | pending |
-| IDEA-0157 | Nothing Goes Back In | The citronella gardens and field stills of the inland uplands of the Hambantota District | Hambantota | pending |
-| IDEA-0158 | Somebody Else's Rope | The hand-hauled crossing of the Kalu Ganga at Palam Paruwa | Kalutara | pending |
-| IDEA-0159 | Down to the Rafters | The leaf-thatched outbuildings of the settlement villages around Uhana | Ampara | pending |
-| IDEA-0160 | Until It Stands By Itself | The festival pandal ground of a village kovil at Mulliyawalai | Mullaitivu | pending |
-| IDEA-0161 | It Has to Keep Coming | The Per Aru drinking-water reservoir and the Vavuniya water treatment works | Vavuniya | pending |
-| IDEA-0162 | The Air Gets Nothing Back | The ornamental-fish breeding plots of the Ja-Ela | Gampaha | pending |
-| IDEA-0163 | It Has Not Gone Out Since | The lime kilns and limestone quarries of the Rattota country | Matale | pending |
+| IDEA-0155 | Wherever the Hook Finds It | The cane-cutting and weaving village of Manampitiya, on the north bank of the Mahaweli | Polonnaruwa | pending |
+| IDEA-0156 | It Just Stopped | The motor-parts and repair quarter of Panchikawatte, Colombo 10 | Colombo | pending |
+| IDEA-0157 | Nothing Goes Back In | The citronella gardens and field stills of the inland uplands of the Hambantota District, in and around the Walasmulla and Katuwana divisions | Hambantota | pending |
+| IDEA-0158 | Somebody Else's Rope | The hand-hauled crossing of the Kalu Ganga at Palam Paruwa, below Ingiriya, Kalutara District | Kalutara | pending |
+| IDEA-0159 | Down to the Rafters | The leaf-thatched outbuildings of the settlement villages around Uhana, Ampara District | Ampara | pending |
+| IDEA-0160 | Until It Stands By Itself | The festival pandal ground of a village kovil at Mulliyawalai, Mullaitivu District | Mullaitivu | pending |
+| IDEA-0161 | It Has to Keep Coming | The Per Aru drinking-water reservoir and the Vavuniya water treatment works, with the town's overhead reservoirs | Vavuniya | pending |
+| IDEA-0162 | The Air Gets Nothing Back | The ornamental-fish breeding plots of the Ja-Ela, Kandana and Pamunugama belt, between the Colombo–Negombo road and the coast | Gampaha | pending |
+| IDEA-0163 | It Has Not Gone Out Since | The lime kilns and limestone quarries of the Rattota country, north-east of Matale below the western scarp of the Knuckles | Matale | pending |
 
 ### GRP-10 The Way Through — 12 films from 16 candidates
 
@@ -266,22 +271,22 @@ and four water-diversion films — one agent having written the same film twice 
 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
-| IDEA-0173 | Flat On Purpose | The hand-made threshing and drying floors of the tank villages of the Anamaduwa country | Puttalam | pending |
-| IDEA-0174 | Nothing Is Added | A hazardous area under clearance and release in the scrub and rain-fed paddy interior of the Musali division | Mannar | pending |
-| IDEA-0175 | Before The Wedges Go In | A working hand-split building-stone site on the gneiss outcrops of the Kekirawa and Galnewa country | Anuradhapura | pending |
-| IDEA-0176 | Fitted, Not Chosen | The herbal garden | Jaffna | pending |
-| IDEA-0177 | Every One From The One Before | The forest-reed splitting and sieve-weaving households of the Kuruwita foothills | Ratnapura | pending |
-| IDEA-0178 | What Has To Come First | The rain-fed paddy hollows of the Madulla division | Monaragala | pending |
-| IDEA-0179 | Nobody Sees It Happen | The mid-country mixed gardens and smallholder fermenting sheds of the Galigamuwa division | Kegalle | pending |
-| IDEA-0180 | Taking The Ground Away | The upland rain-fed plots and open grass slopes of the Kandaketiya division | Badulla | pending |
-| IDEA-0181 | What a Fire Needs | The grassland ridge and the restoration blocks of the Hanthana range | Kandy | pending |
+| IDEA-0173 | Flat On Purpose | The hand-made threshing and drying floors of the tank villages of the Anamaduwa country, inland Puttalam District | Puttalam | pending |
+| IDEA-0174 | Nothing Is Added | A hazardous area under clearance and release in the scrub and rain-fed paddy interior of the Musali division, Mannar District | Mannar | pending |
+| IDEA-0175 | Before The Wedges Go In | A working hand-split building-stone site on the gneiss outcrops of the Kekirawa and Galnewa country, Anuradhapura District | Anuradhapura | pending |
+| IDEA-0176 | Fitted, Not Chosen | The herbal garden, raw-drug store and preparation room of the Siddha medicine faculty at Kaithady, Jaffna District | Jaffna | pending |
+| IDEA-0177 | Every One From The One Before | The forest-reed splitting and sieve-weaving households of the Kuruwita foothills, below the western escarpment in the Ratnapura District | Ratnapura | pending |
+| IDEA-0178 | What Has To Come First | The rain-fed paddy hollows of the Madulla division, in the inland dry-zone uplands of the Monaragala District | Monaragala | pending |
+| IDEA-0179 | Nobody Sees It Happen | The mid-country mixed gardens and smallholder fermenting sheds of the Galigamuwa division, in the Kegalle District | Kegalle | pending |
+| IDEA-0180 | Taking The Ground Away | The upland rain-fed plots and open grass slopes of the Kandaketiya division, in the interior of the Badulla District | Badulla | pending |
+| IDEA-0181 | What a Fire Needs | The grassland ridge and the restoration blocks of the Hanthana range, above and south-west of Kandy | Kandy | pending |
 | IDEA-0182 | The Same Reading | The meteorological observing station on the rise behind the old town at Hambantota | Hambantota | pending |
-| IDEA-0183 | Nothing Here Is Nailed | The small-craft yards on the beach and lagoon shore between Ahangama and Habaraduwa | Galle | pending |
-| IDEA-0184 | It Will Not Be Hurried | A small parboiling rice mill in the inland paddy country of the Matara District | Matara | pending |
-| IDEA-0185 | Wanting Does Nothing | The home-garden timber belt of the Mirigama division | Gampaha | pending |
-| IDEA-0186 | Left to Look After Itself | Pigeon Island National Park off Nilaveli | Trincomalee | pending |
-| IDEA-0187 | From the Roof Down | The old tiled and timber-framed building stock of the Matale valley | Matale | pending |
-| IDEA-0188 | Then It Just Runs | The home handloom sheds of the coast-road weaving villages south of the district town | Batticaloa | pending |
+| IDEA-0183 | Nothing Here Is Nailed | The small-craft yards on the beach and lagoon shore between Ahangama and Habaraduwa, east of Galle | Galle | pending |
+| IDEA-0184 | It Will Not Be Hurried | A small parboiling rice mill in the inland paddy country of the Matara District, in and around the Hakmana and Athuraliya divisions | Matara | pending |
+| IDEA-0185 | Wanting Does Nothing | The home-garden timber belt of the Mirigama division, inland Gampaha, and the small sawmills on its lanes | Gampaha | pending |
+| IDEA-0186 | Left to Look After Itself | Pigeon Island National Park off Nilaveli, and its shore office on the mainland beach | Trincomalee | pending |
+| IDEA-0187 | From the Roof Down | The old tiled and timber-framed building stock of the Matale valley, and the reclaimed-materials yards on its roads | Matale | pending |
+| IDEA-0188 | Then It Just Runs | The home handloom sheds of the coast-road weaving villages south of the district town, around Kattankudy and the Manmunai divisions | Batticaloa | pending |
 
 ## What is not done
 
@@ -299,6 +304,9 @@ and four water-diversion films — one agent having written the same film twice 
   confirmed films once the chronology layer is rebuilt.
 - **Location records.** `LOC-0001` and decision `REV-0006` are orphaned by the move to
   `suggested_location`. They are Chathura's own entries and were left in place rather than deleted.
+- **District concentration in GRP-01.** Four of that group's twelve candidates are in one district
+  and two are rock monasteries with cave shrines in another. Both are defensible and both are
+  flagged in the records; neither is resolved.
 - **Research.** Every proposed place is desk research. No access, permission, participant or drone
   clearance has been verified anywhere, and each record says so in its `research_note` and `unknowns`.
 

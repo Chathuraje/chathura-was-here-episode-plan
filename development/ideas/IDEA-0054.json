@@ -4,9 +4,9 @@
   "record_type": "idea",
   "title": "Nobody Here Is Wrong",
   "status": "draft",
-  "version": 3,
+  "version": 4,
   "created_at": "2026-09-18",
-  "updated_at": "2026-09-22",
+  "updated_at": "2026-09-25",
   "created_by": "claude",
   "updated_by": "claude",
   "aliases": [
@@ -121,11 +121,9 @@
   ],
   "selection": {
     "recommendation": "keep",
-    "merged_with": [
-      "IDEA-0056"
-    ],
+    "merged_with": [],
     "superseded_by": null,
-    "reason": "Carries the group's opening by putting the not-knowing in the ground rather than in a person, and holds three honest answers to one question in a single frame."
+    "reason": "Carries the group's opening by putting the not-knowing in the ground rather than in a person, and holds three honest answers to one question in a single frame. Legacy merge recommendations (IDEA-0056) were cleared on 2026-09-25: they came from the retired pre-rewrite review reports, which argued merges while ideas competed for episode slots. Those reports are retired, every idea is now 'keep', and selection happens through Chathura's verdict against a per-group quota. The named ideas still exist as separate candidates with their own locations, so the merge was never executed. This field now records executed merges only."
   },
   "review": {
     "status": "pending",

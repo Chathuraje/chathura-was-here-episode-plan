@@ -52,3 +52,5 @@ At the time it was created, the package stopped at idea review and did not assig
 The ordinary public structure is Episodes 1–99 across ten seasons; Season 1 has exactly eight episodes. Episode 100 retains its identity but is hidden/discoverable outside that ordinary structure. The external channel and framing references remain planning evidence rather than verified footage records.
 
 Location selection remains exclusively Chathura’s at every stage.
+
+- [10-standing-creative-decisions.md](10-standing-creative-decisions.md) — Chathura's standing creative decisions, with the reasoning. Read before starting any group.
