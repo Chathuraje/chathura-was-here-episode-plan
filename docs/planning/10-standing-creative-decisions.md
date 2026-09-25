@@ -186,6 +186,79 @@ never smoothed into fact. Several of the strongest films in the first group rest
   was dropped outright because it duplicated IDEA-0059's almsgiving night. **Eight keepers still carry no
   historical thread**; they are good films but only half-meet the standard.
 
+- **GRP-03 (2026-09-25).** Eleven of fourteen were working places with no historical story. Four
+  rewritten: two Dutch forts of one 1761 war, a hill shrine whose name means the place of the oath, the
+  ground of the last elephant kraal, and the katikāvata inscription. **No merge** — the only near-duplicate
+  pair was two water-allocation films, and replacing one bought more differentiation than combining them
+  would have, so the merge tool was left alone. One film also went for a second reason worth remembering:
+  its engine was an unattributable injury to identifiable people in a former conflict zone, in a group
+  whose concepts are the hate-rooted minds. **In a group about a defilement, a film whose subject is a
+  real person's grievance breaks the floor no matter how it is narrated.** Ten keepers, four of which
+  carry historical threads.
+
+- **GRP-04 (2026-09-25).** The group was already in better shape — two films carried real history, and its
+  handling of the two most dangerous concepts in the series is the best work on the slate: C049 and C086
+  sort *persons* by type, and these films put the sorting onto forty tree species under one rain, onto
+  hundreds of roadside stalls doing the same thing differently, and onto the way a charcoal burn ends, so
+  nobody is typed. Two replacements only (a ruined citadel and a timber bridge), plus historical threads
+  for the two strong films that lacked them. One replacement also removed a duplicate: two films were both
+  about channels branching through a coastal wetland. No merge.
+
+- **GRP-05 (2026-09-26).** The lightest pass of the five, and deliberately so. All sixteen candidates are
+  working places — but here that register is *correct*: the group's subject is the mechanics of a single
+  moment of perception, and its doctrinal fits are the best on the slate (a bagasse heap holding one height
+  for five months while every part of it burns and is replaced within hours, against matter's
+  seventeen-moment lifespan; drum patterns that exist first as spoken syllables, against the process
+  charts). Replacing those would have damaged the group. **Three historical threads** (a rock temple where
+  a recited canon was written down, a waterfall that runs on a gazetted schedule, a river where a bridge
+  was built in 1957 in order to be destroyed) and **one replacement**, of the film that put a camera on
+  villagers queuing for drinking water in a drought — its structure moved intact to a lighthouse and the
+  exposure did not come with it.
+
+**The lesson to carry:** *diagnose every group the same way, but do not assume every group needs the same
+prescription.* Four groups needed locations replaced. This one needed research. Manufacturing changes to
+match a previous group's shape would have made it worse.
+
+### Two mistakes made in this session, recorded so they are not repeated
+
+- **A duplicate archetype chosen with the evidence in hand.** GRP-05's replacement is a lighthouse, and
+  GRP-06 already has one — the Great Basses tower. The Great Basses was in the taken-locations list that
+  was consulted, and was even used as a reason to rule that reef out for another film, and a second
+  lighthouse was chosen anyway. **Check the archetype, not just the place name, and check it against the
+  whole slate rather than the group in hand.**
+- **District concentration went unnoticed until a writer flagged it.** Matara District now carries six
+  films. The slate table reports a district range but nothing warns when one district fills up. Worth a
+  check in `slate-table.mjs` or a habit of reading the district column before choosing.
+
+### A pattern in the concepts, worth carrying forward
+
+Twice now — GRP-03's oath place and GRP-04's citadel and drawdown — a writer has found that the digests
+**exempt** the very state a film looked like it was about. C008's harmful doubt is restricted to eight
+named matters, and ordinary not-knowing about something one cannot yet investigate is explicitly not it;
+C074 names that look-alike doubt and says it may not be unwholesome at all. So a film about a monument
+nobody can explain, or about not knowing when a reservoir will fall, is filming the *exempt* case. That
+is a better film than the accusing one and it is what the sources actually say. Expect it, and check for
+an exemption before building a film on a defilement.
+
+### What the research keeps catching
+
+Three of the four GRP-03 rewrites corrected facts this project had accepted, and the pattern is worth
+naming because it will recur:
+
+- **Borrowed facts.** A swearing stone, a royal court tradition and a folk tale about a cobra all belong
+  to a *different* temple in another district; search engines transfer them onto the site with the
+  similar name. The same thing happened with a coastal-contact distance that belongs to a different
+  prehistoric cave.
+- **Press versions outliving scholarship.** The animal shot at the last kraal was not a tusker and not
+  the herd's leader, the herd was sixteen rather than seventeen, and shooting elephants was lawful at the
+  time — all three established in a 2008 scholarly paper and all three contradicted by the newspaper
+  account that popular memory kept.
+- **Unsourced formulas repeated verbatim.** The claim that a court still accepts an oath sworn at a
+  particular hill appears on dozens of pages and in no statute, case or official document.
+
+The discipline that catches all three is the same: read the primary source, name what could not be
+sourced, and keep `what_is_certain` and `what_is_disputed` apart.
+
 ## Two things to settle
 
 - **A group record's own gloss can be editorial compression.** GRP-02's `depth` asserts "pleasant feeling

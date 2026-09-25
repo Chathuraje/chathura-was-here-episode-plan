@@ -65,8 +65,10 @@ const report = groups.map((group) => {
   };
 });
 
+// No generated_at: a timestamp is the only thing that would change on a re-run with unchanged
+// data, which leaves the committed artefact permanently dirty and buries real diffs. Git history
+// records when it was regenerated.
 const summary = {
-  generated_at: new Date().toISOString(),
   ideas: ideas.length,
   groups: groups.length,
   concepts_with_one_live_carrier: report.reduce((n, g) => n + g.sole_carrier.length, 0),

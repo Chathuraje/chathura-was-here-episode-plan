@@ -32,9 +32,9 @@ there and is never smoothed into fact.
 | Confirmed | 2 |
 | Rejected | 0 |
 | Districts covered | 25 of 25, between 3 and 9 films each |
-| Reference images | 327 references across 122 ideas, resolving to 317 distinct Wikimedia Commons files, every one verified to exist |
+| Reference images | 362 references across 122 ideas, resolving to 352 distinct Wikimedia Commons files, every one verified to exist |
 | Ideas with no image | 15, because Commons holds nothing for that place |
-| Films resting on a historical thread | 18 |
+| Films resting on a historical thread | 30 |
 
 ## The standing constraints
 
@@ -127,14 +127,14 @@ and four water-diversion films — one agent having written the same film twice 
 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
-| IDEA-0033 | Nothing to Strike Against | Kokkilai Lagoon | Mullaitivu | pending |
-| IDEA-0034 | Where the Water Stops | Giant's Tank | Mannar | pending |
+| IDEA-0033 | The Shape Fear Makes | The Star Fort at Matara (originally Redoute Van Eck) and the Dutch fort at Katuwana | Matara | pending |
+| IDEA-0034 | Sworn Instead | Divurumpola (Divurumwela Purana Viharaya), Nugatalawa, near Welimada | Badulla | pending |
 | IDEA-0035 | Both Sides Are Hungry | The watch platforms and boundary fence of Wasgamuwa National Park | Matale | pending |
-| IDEA-0036 | Nothing Arrives Here Whole | The state bus rebuilding works in the industrial zone at Ekala | Gampaha | pending |
+| IDEA-0036 | The Last Time It Was Done | The Panamure kraal ground (Panamure Eth Gala) and the Diya Bubula spring, Panamure | Ratnapura | pending |
 | IDEA-0037 | The Same Machinery | The west-facing iron-smelting ridges above the Walawe valley at Samanalawewa | Ratnapura | pending |
 | IDEA-0038 | One Track, Both Ways | Punanai railway station on the single-track Batticaloa line | Polonnaruwa | pending |
-| IDEA-0039 | Nothing Comes Down Yet | The kitul slopes of the western Sinharaja buffer zone, around Kalawana | Ratnapura | pending |
-| IDEA-0040 | Nobody Can See Inside | The hand-brick clay flats and clamp kilns of the lower Deduru Oya basin, between Kuliyapitiya and Bingiriya | — | pending |
+| IDEA-0039 | Written On the Same Rock | The katikāvata rock inscription at Gal Vihara (the Uttarārāma), with the colossal images on the same face, Polonnaruwa | Polonnaruwa | pending |
+| IDEA-0040 | Nobody Can See Inside | The hand-brick clay flats and clamp kilns of the lower Deduru Oya basin, between Kuliyapitiya and Bingiriya | Kurunegala | pending |
 | IDEA-0041 | The Water Is Already Spoken For | The Kirindi Oya system: the Lunugamvehera reservoir sluices, the Ellagala anicut and the right-bank main canal down to the old tanks | Hambantota | pending |
 | IDEA-0042 | One Heap Becomes Many | The village threshing floors of the Wellassa paddy country around Bibile | Monaragala | pending |
 | IDEA-0043 | Everything Goes Up by Hand | Sankapala Rajamaha Viharaya, on the rock south of Pallebedda | Ratnapura | pending |
@@ -150,10 +150,10 @@ and four water-diversion films — one agent having written the same film twice 
 | --- | --- | --- | --- | --- |
 | IDEA-0053 | What the Water Was Holding | Kadadora Viharaya and the drawdown zone of the Kotmale Reservoir | Nuwara Eliya | pending |
 | IDEA-0054 | Nobody Here Is Wrong | Muthurajawela marsh, the Hamilton Canal and the elevated crossing of the Colombo-Katunayake Expressway | Gampaha | pending |
-| IDEA-0055 | Everything Arrives at Once | The Dambulla Dedicated Economic Centre | Matale | pending |
+| IDEA-0055 | Everything Done to Prevent It | Panduwasnuwara: the citadel, its moat and rampart, and the Ektam Ge (Chakrawala Kotuwa) | Kurunegala | pending |
 | IDEA-0056 | Two Honest Readings | The open beach and roadstead at Panama, at the southern end of the east coast | Ampara | pending |
 | IDEA-0057 | The Length of the Rope | The harvested paddy and tank-bund grazing of the village tanks around Siyambalanduwa | Monaragala | pending |
-| IDEA-0058 | What Keeps It Standing | The mangrove channels of the Chilaw lagoon complex at Pambala | Puttalam | pending |
+| IDEA-0058 | What Keeps It Standing | The Bogoda wooden bridge and Bogoda Raja Maha Viharaya, over the Gallanda Oya | Badulla | pending |
 | IDEA-0059 | You Cannot Tell From Here | The Poson dansala road between Anuradhapura and Mihintale | Anuradhapura | pending |
 | IDEA-0060 | The Last Thing to Go Out | Coconut-shell charcoal pits in the smallholding country around Madampe | Puttalam | pending |
 | IDEA-0061 | Only When It Is Full | Buffalo curd setting houses in the dry-zone villages around Angunakolapelessa | Hambantota | pending |
@@ -181,7 +181,7 @@ and four water-diversion films — one agent having written the same film twice 
 | IDEA-0085 | Said Before It Is Struck | The Kandasamy Kovil in the middle of Vavuniya town, and the streets immediately around it | Vavuniya | pending |
 | IDEA-0086 | Always the Same Heap | The Pelwatte sugar mill at Buttala and the cane country around it | Monaragala | pending |
 | IDEA-0087 | Before It Has a Name | The floriculture smallholdings around Divulapitiya, in the coconut country of the northern Gampaha district | Gampaha | pending |
-| IDEA-0088 | Nearly All of It Is Waiting | The dry-season drinking-water round in the villages of the Welikanda division, on the eastern edge of the north-central plain | Polonnaruwa | pending |
+| IDEA-0088 | Nearly All of It Is Waiting | Dondra Head Lighthouse and the point it stands on, at Dondra (Devinuwara) | Matara | pending |
 
 ### GRP-06 Kindness — 10 films from 14 candidates
 
