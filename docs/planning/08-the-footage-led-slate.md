@@ -29,12 +29,46 @@ there and is never smoothed into fact.
 | --- | --- |
 | Candidate ideas | 137, all on the footage-led shape |
 | Films to be made | 98 (2–99), quota enforced per group |
-| Confirmed | 2 |
+| Confirmed | 8 |
 | Rejected | 0 |
 | Districts covered | 25 of 25, between 3 and 9 films each |
-| Reference images | 362 references across 122 ideas, resolving to 352 distinct Wikimedia Commons files, every one verified to exist |
-| Ideas with no image | 15, because Commons holds nothing for that place |
-| Films resting on a historical thread | 30 |
+| Reference images | 404 references across 126 ideas, resolving to 394 distinct Wikimedia Commons files, every one verified to exist |
+| Ideas with no image | 11, because Commons holds nothing for that place |
+| Films resting on a historical thread | 39 |
+
+### Films per district
+
+Choose new locations against this, not after it. Treat 7 or more as closed and 4 or fewer as preferred;
+where a concept genuinely has no good answer in an under-used district, say so and state the cost rather
+than forcing a weak location to fix a count.
+
+| District | Films | |
+| --- | --- | --- |
+| Anuradhapura | 9 | closed |
+| Matale | 8 | closed |
+| Monaragala | 8 | closed |
+| Hambantota | 7 | closed |
+| Kurunegala | 7 | closed |
+| Nuwara Eliya | 7 | closed |
+| Badulla | 6 |  |
+| Galle | 6 |  |
+| Kegalle | 6 |  |
+| Mannar | 6 |  |
+| Matara | 6 |  |
+| Ratnapura | 6 |  |
+| Trincomalee | 6 |  |
+| Ampara | 5 |  |
+| Jaffna | 5 |  |
+| Kalutara | 5 |  |
+| Polonnaruwa | 5 |  |
+| Batticaloa | 4 | prefer |
+| Gampaha | 4 | prefer |
+| Kandy | 4 | prefer |
+| Mullaitivu | 4 | prefer |
+| Vavuniya | 4 | prefer |
+| Colombo | 3 | prefer |
+| Kilinochchi | 3 | prefer |
+| Puttalam | 3 | prefer |
 
 ## The standing constraints
 
@@ -88,14 +122,14 @@ and four water-diversion films — one agent having written the same film twice 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
 | IDEA-0001 | A Shape Made of Nothing | Sri Pada / Adam's Peak | Ratnapura | confirmed |
-| IDEA-0002 | What the Name Outlived | Lovamahapaya (the Brazen Palace / Lohaprasadaya), Mahavihara precinct, and Jetavanaramaya (the Jetavana stupa), Jetavana monastery — both in the sacred city of Anuradhapura | Anuradhapura | pending |
+| IDEA-0002 | What the Name Outlived | Lovamahapaya (the Brazen Palace / Lohaprasadaya), Mahavihara precinct, and Jetavanaramaya (the Jetavana stupa), Jetavana monastery — both in the sacred city of Anuradhapura | Anuradhapura | confirmed |
 | IDEA-0003 | The Mouth of a Lion That Was Never There | Sigiriya (Sīhagiri, the Lion Rock), with Pidurangala opposite | Matale | confirmed |
-| IDEA-0004 | The Metal Never Changed | Koneswaram temple on Swami Rock, Trincomalee | Trincomalee | pending |
+| IDEA-0004 | The Metal Never Changed | Koneswaram temple on Swami Rock, Trincomalee | Trincomalee | confirmed |
 | IDEA-0005 | What Will Not Wash Away | Mulkirigala Rock Temple (Mulkirigala Raja Maha Vihara) | Hambantota | pending |
 | IDEA-0006 | Nobody's Name | Pahiyangala (Fa-Hien Cave / Fa-Hien Lena) | Kalutara | pending |
-| IDEA-0007 | The Whole Thing at Once | Parakrama Samudra (Parakrama Samudraya), the Sea of Parakrama | Polonnaruwa | pending |
-| IDEA-0008 | Besides These, Is There Another? | Mihintale: the Ambasthala terrace, the railed rock slab, the Aradhana Gala and the great stairway | Anuradhapura | pending |
-| IDEA-0009 | Everything Here Was Something Else | Jaffna Fort | Jaffna | pending |
+| IDEA-0007 | The Whole Thing at Once | Parakrama Samudra (Parakrama Samudraya), the Sea of Parakrama | Polonnaruwa | confirmed |
+| IDEA-0008 | Besides These, Is There Another? | Mihintale: the Ambasthala terrace, the railed rock slab, the Aradhana Gala and the great stairway | Anuradhapura | confirmed |
+| IDEA-0009 | Everything Here Was Something Else | Jaffna Fort | Jaffna | confirmed |
 | IDEA-0010 | Seven, and Nobody Agrees | Buduruwagala rock-cut figures (Buduruwagala Raja Maha Viharaya) | Monaragala | pending |
 | IDEA-0011 | The Colour of the Sand | Kudiramalai Point | Puttalam | pending |
 | IDEA-0012 | The Story the Stones Refuse | The Avukana (Aukana) Buddha statue and the Sasseruwa (Ras Vehera / Reswehera) Buddha statue, a pair about 10 km apart | Anuradhapura | pending |
@@ -106,20 +140,20 @@ and four water-diversion films — one agent having written the same film twice 
 
 | Idea | Title | Location | District | Verdict |
 | --- | --- | --- | --- | --- |
-| IDEA-0013 | Prompted, or Not | The Cadjugama (Kajugama) cashew stalls on the A1 Colombo–Kandy road between Nittambuwa and Pasyala, and the rambutan roadside of the lower Kelani valley around Malwana | Gampaha | pending |
-| IDEA-0014 | What the Pot Is For | The potters' households of Porativu Pattu, around Kaluwanchikudy | Batticaloa | pending |
+| IDEA-0013 | Built For a Smell | Galle Fort (the Old Town of Galle and its Fortifications) | Galle | pending |
+| IDEA-0014 | Nothing In Here Is Plain | Rangiri Dambulla Cave Temple (Dambulu Raja Maha Viharaya), Dambulla | Matale | pending |
 | IDEA-0015 | Sold Before Anyone Looked | The Doric at Arippu (the Doric Bungalow) and the Gulf of Mannar pearl banks | Mannar | pending |
-| IDEA-0016 | Forty Feet Above a Taste | Meemure | Kandy | pending |
+| IDEA-0016 | Everyone Here Came to Ask | Kataragama sacred precinct — the Ruhunu Maha Kataragama Devalaya, the offering-stall avenue, the Menik Ganga crossing and the Kiri Vehera | Monaragala | pending |
 | IDEA-0017 | The Height of a Bowed Head | Maduwanwela Walauwa (Maduwanwela Walawwa) | Ratnapura | pending |
-| IDEA-0018 | A Town Built for a Feeling | Nuwara Eliya town | Nuwara Eliya | pending |
-| IDEA-0019 | Until It Holds Itself | Valvettithurai kite festival beach (Uthayasooriyan beach) | Jaffna | pending |
-| IDEA-0020 | The Stone Inside | The traditional gem-cutting workshops of Demuwawatha (Counsel Avenue), Ratnapura | Ratnapura | pending |
+| IDEA-0018 | A Town Built for a Feeling | Nuwara Eliya town | Nuwara Eliya | confirmed |
+| IDEA-0019 | Eleven Years of It | Yapahuwa rock citadel and its ornamental stairway | Kurunegala | pending |
+| IDEA-0020 | Found While Looking For Something Else | Ridi Viharaya (Ridee Viharaya), Ridigama | Kurunegala | pending |
 | IDEA-0021 | Upstream of the Rice | Ranmasu Uyana (the royal park and pleasure garden), below the Tissa Wewa bund, Anuradhapura | Anuradhapura | pending |
 | IDEA-0022 | A Flavour Made of Weather | Passara–Lunugala tea country, eastern slopes of the Namunukula range | Badulla | pending |
-| IDEA-0023 | Identical From Outside | Amunugama, on the Lewella–Amunugama–Madawala road | Kandy | pending |
-| IDEA-0024 | Ten Months on Borrowed Sand | Baththalangunduwa island | Puttalam | pending |
+| IDEA-0023 | Made To Be Looked At | Kandy Lake (Kiri Muhuda) | Kandy | pending |
+| IDEA-0024 | Nothing To See For Most of It | Horton Plains National Park — the plateau, World's End, Baker's Falls and the Farr Inn visitor centre | Nuwara Eliya | pending |
 | IDEA-0025 | The Cargo Is Still Out There | Godavaya (Godawaya) ancient port and the Gotha Pabbata temple rock | Hambantota | pending |
-| IDEA-0026 | The Shape Wanting Makes | Point Pedro beach landings and fishery harbour | Jaffna | pending |
+| IDEA-0026 | Still Here Without Us | Delft island (Neduntheevu): the southern dry pastures, the old stables at Sarappiddy, the coral field walls and the baobab | Jaffna | pending |
 
 ### GRP-03 Anger and Fear — 9 films from 14 candidates
 

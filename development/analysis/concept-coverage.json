@@ -11,7 +11,7 @@
       "title": "The Names of Things",
       "film_count": 8,
       "candidates": 12,
-      "confirmed": 2,
+      "confirmed": 7,
       "rejected": 0,
       "sole_carrier": [
         {
@@ -23,70 +23,13 @@
           "still_available": [
             "IDEA-0007"
           ],
-          "confirmed_carriers": []
+          "confirmed_carriers": [
+            "IDEA-0007"
+          ]
         }
       ],
       "lost": [],
-      "not_yet_confirmed": [
-        {
-          "concept_id": "C002",
-          "role_gloss": "The four ultimate realities: mind, mental factors, matter, Nibbāna. Three are met across the series; the fourth is reached only in Group 10.",
-          "candidates": [
-            "IDEA-0004",
-            "IDEA-0007",
-            "IDEA-0012"
-          ],
-          "still_available": [
-            "IDEA-0004",
-            "IDEA-0007",
-            "IDEA-0012"
-          ],
-          "confirmed_carriers": []
-        },
-        {
-          "concept_id": "C003",
-          "role_gloss": "How mind is classified by plane and kind: the first sight of the map.",
-          "candidates": [
-            "IDEA-0007",
-            "IDEA-0012"
-          ],
-          "still_available": [
-            "IDEA-0007",
-            "IDEA-0012"
-          ],
-          "confirmed_carriers": []
-        },
-        {
-          "concept_id": "C018",
-          "role_gloss": "The full 121 types of consciousness: the whole map in one view, unfolded group by group.",
-          "candidates": [
-            "IDEA-0007"
-          ],
-          "still_available": [
-            "IDEA-0007"
-          ],
-          "confirmed_carriers": []
-        },
-        {
-          "concept_id": "C077",
-          "role_gloss": "The compendium of all things (aggregates, sense bases, elements, noble truths): what a 'person' is made of when the name is removed.",
-          "candidates": [
-            "IDEA-0002",
-            "IDEA-0005",
-            "IDEA-0006",
-            "IDEA-0010",
-            "IDEA-0011"
-          ],
-          "still_available": [
-            "IDEA-0002",
-            "IDEA-0005",
-            "IDEA-0006",
-            "IDEA-0010",
-            "IDEA-0011"
-          ],
-          "confirmed_carriers": []
-        }
-      ],
+      "not_yet_confirmed": [],
       "concepts": [
         {
           "concept_id": "C001",
@@ -106,7 +49,9 @@
             "IDEA-0012"
           ],
           "confirmed_carriers": [
-            "IDEA-0001"
+            "IDEA-0001",
+            "IDEA-0008",
+            "IDEA-0009"
           ]
         },
         {
@@ -122,7 +67,10 @@
             "IDEA-0007",
             "IDEA-0012"
           ],
-          "confirmed_carriers": []
+          "confirmed_carriers": [
+            "IDEA-0004",
+            "IDEA-0007"
+          ]
         },
         {
           "concept_id": "C003",
@@ -135,7 +83,9 @@
             "IDEA-0007",
             "IDEA-0012"
           ],
-          "confirmed_carriers": []
+          "confirmed_carriers": [
+            "IDEA-0007"
+          ]
         },
         {
           "concept_id": "C018",
@@ -146,7 +96,9 @@
           "still_available": [
             "IDEA-0007"
           ],
-          "confirmed_carriers": []
+          "confirmed_carriers": [
+            "IDEA-0007"
+          ]
         },
         {
           "concept_id": "C077",
@@ -165,7 +117,9 @@
             "IDEA-0010",
             "IDEA-0011"
           ],
-          "confirmed_carriers": []
+          "confirmed_carriers": [
+            "IDEA-0002"
+          ]
         },
         {
           "concept_id": "C084",
@@ -196,7 +150,11 @@
           ],
           "confirmed_carriers": [
             "IDEA-0001",
-            "IDEA-0003"
+            "IDEA-0002",
+            "IDEA-0003",
+            "IDEA-0004",
+            "IDEA-0008",
+            "IDEA-0009"
           ]
         }
       ]
@@ -206,55 +164,11 @@
       "title": "Wanting",
       "film_count": 10,
       "candidates": 14,
-      "confirmed": 0,
+      "confirmed": 1,
       "rejected": 0,
       "sole_carrier": [],
       "lost": [],
       "not_yet_confirmed": [
-        {
-          "concept_id": "C004",
-          "role_gloss": "The 54 sense-sphere minds: the everyday mind that lives among sights, sounds, tastes and touches.",
-          "candidates": [
-            "IDEA-0013",
-            "IDEA-0014",
-            "IDEA-0016",
-            "IDEA-0018",
-            "IDEA-0022",
-            "IDEA-0024"
-          ],
-          "still_available": [
-            "IDEA-0013",
-            "IDEA-0014",
-            "IDEA-0016",
-            "IDEA-0018",
-            "IDEA-0022",
-            "IDEA-0024"
-          ],
-          "confirmed_carriers": []
-        },
-        {
-          "concept_id": "C005",
-          "role_gloss": "The occasions on which greed-rooted minds arise.",
-          "candidates": [
-            "IDEA-0014",
-            "IDEA-0016",
-            "IDEA-0017",
-            "IDEA-0018",
-            "IDEA-0023",
-            "IDEA-0025",
-            "IDEA-0026"
-          ],
-          "still_available": [
-            "IDEA-0014",
-            "IDEA-0016",
-            "IDEA-0017",
-            "IDEA-0018",
-            "IDEA-0023",
-            "IDEA-0025",
-            "IDEA-0026"
-          ],
-          "confirmed_carriers": []
-        },
         {
           "concept_id": "C006",
           "role_gloss": "How the eight greed-rooted minds arise: with or without wrong view, with joy or indifference, spontaneous or prompted.",
@@ -337,7 +251,9 @@
             "IDEA-0022",
             "IDEA-0024"
           ],
-          "confirmed_carriers": []
+          "confirmed_carriers": [
+            "IDEA-0018"
+          ]
         },
         {
           "concept_id": "C005",
@@ -360,7 +276,9 @@
             "IDEA-0025",
             "IDEA-0026"
           ],
-          "confirmed_carriers": []
+          "confirmed_carriers": [
+            "IDEA-0018"
+          ]
         },
         {
           "concept_id": "C006",

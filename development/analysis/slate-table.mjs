@@ -66,6 +66,25 @@ for (const idea of ideas) byDistrict.set(districtOf(idea), (byDistrict.get(distr
 const counts = [...byDistrict.entries()].filter(([name]) => name !== "—").map(([, n]) => n);
 const status = (name) => ideas.filter((idea) => idea.review?.status === name).length;
 
+// A per-district table, printed into the document because location choice has to be made against
+// this budget rather than audited after the fact. Two mistakes forced it: a second lighthouse chosen
+// with the first one in the notes, and two films put in one district in a single pass.
+const districtRows = [...byDistrict.entries()]
+  .filter(([name]) => name !== "—")
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+const districtTable = [
+  "### Films per district",
+  "",
+  "Choose new locations against this, not after it. Treat 7 or more as closed and 4 or fewer as preferred;",
+  "where a concept genuinely has no good answer in an under-used district, say so and state the cost rather",
+  "than forcing a weak location to fix a count.",
+  "",
+  "| District | Films | |", "| --- | --- | --- |",
+  ...districtRows.map(([name, n]) =>
+    `| ${name} | ${n} | ${n >= 7 ? "closed" : n <= 4 ? "prefer" : ""} |`),
+  "",
+];
+
 const figures = [
   "| | |", "| --- | --- |",
   `| Candidate ideas | ${ideas.length}, all on the footage-led shape |`,
@@ -81,6 +100,9 @@ const figures = [
 let document = fs.readFileSync(slatePath, "utf8");
 document = document.replace(/## The slate\n[\s\S]*?(?=\n## What is not done)/, `${slate.join("\n")}`);
 document = document.replace(/\| \| \|\n\| --- \| --- \|\n(?:\|.*\n)+/, `${figures.join("\n")}\n`);
+// Replace or insert the district table just above "## The standing constraints".
+document = document.replace(/(\n### Films per district\n[\s\S]*?\n)(?=## The standing constraints)/, "\n");
+document = document.replace(/(?=## The standing constraints)/, `${districtTable.join("\n")}\n`);
 fs.writeFileSync(slatePath, document);
 
 console.log(`Regenerated the slate for ${ideas.length} ideas in ${groups.length} groups.`);

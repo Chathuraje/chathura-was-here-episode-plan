@@ -173,6 +173,77 @@ never smoothed into fact. Several of the strongest films in the first group rest
 
 ---
 
+## The drift, and the rework (2026-09-26)
+
+Chathura's verdict after five groups: **every group except GRP-01 lacked variety and lacked locations worth
+filming.** He was right, and the pattern is measurable. Locations replaced per group: **10, 6, 4, 2, 1, 0.**
+
+Two causes, both mine:
+
+1. **I started from the existing film and asked what could be saved.** GRP-01's originals had been rejected,
+   so I replaced freely; the later groups' had not, so I preserved them. That is status-quo bias, not
+   judgement. The correct move is decision 4's: ignore the existing location entirely and ask what the
+   concept needs in order to be *seen*.
+2. **I began accepting a superb doctrinal fit in an ordinary location** — a bagasse heap, a honey bottle
+   under a bulb, a drum syllable. Elegant on paper, unwatchable on screen. Adam's Peak never made that
+   trade: the most beautiful shot *was* the argument. **A perfect concept fit in a place nobody would travel
+   to photograph is a failure, not a compromise.**
+
+A third error compounded both: **I treated "add a historical thread" as equivalent to fixing the location.**
+It is not. A thread improves the record and does nothing for the footage.
+
+**GRP-02 was redone to the GRP-01 standard on 2026-09-26** — thirteen of fourteen locations replaced, one
+merge retired, one working place kept (hill tea country, which is genuinely worth filming and only lacked
+history). The assignments live in `prompts/grp-02-reassignment.md`, written once as a file rather than in
+chat so a rework survives a session ending.
+
+## Three method changes that came out of it
+
+**1. Selection is chosen against the district budget as an input, not audited afterwards.**
+Two failures forced this. A lighthouse was chosen for GRP-05 with the slate's other lighthouse in the
+consulted notes. And GRP-02 put two films in one district (Yapahuwa and Ridi Viharaya, Kurunegala) in a
+single pass. Before choosing, read the per-district totals — `slate-table.mjs` prints the range, and a
+leftmost-match count over `suggested_location.region` gives the table. Treat six-plus as closed and
+three-or-four as preferred. **Do not force a weak location to fix a count**; state the cost instead.
+
+**2. Location selection for a whole group is worth delegating on its own**, before any writing, with the
+constraints as hard inputs: the district budget, the archetypes already used in that group, the whole slate
+to avoid, the floor with the group's specific hazard, and an instruction to name the two proposals it is
+least confident in. Choosing ten locations from memory and verifying afterwards is how both failures above
+happened.
+
+**3. Pass each writer's digest findings forward as questions, never as conclusions.**
+This produced the best work of the rework. One writer established, by reading the Sinhala line by line,
+that C005 **exempts** an act when faith, loving-kindness, compassion or practical usefulness is placed
+foremost — faith named first. Handed on as a question, that finding then produced four different and
+correct answers:
+
+- a temple endowment: **exempt**, because faith is in front of it;
+- a king's ornamental lake: **not exempt**, because the same source puts beauty as an aim explicitly on the
+  other side;
+- a place of petition: **undecidable**, because the petitioner is there on faith *and* to obtain a named
+  thing, and the text never rules which is foremost — the writer made that indeterminacy the film;
+- an island of feral horses: the ruling lands on **neither the empire nor anyone living**, but on the one
+  documented present-day aim, which is a proposal to develop the viewing of them for tourists.
+
+**And four films independently turned a doctrinal charge onto the camera rather than onto anyone in frame.**
+Three found that *looking at beautiful things for the relish of looking* survives every exemption; the
+fourth got there from C032's concealed-suffering division, which says such states can only be known **by
+asking** — and the film says "the thing looking at them has never asked anybody anything." Nobody was told
+to do this. They arrived at it because the floor forbids reading a state off a face, and the sources keep
+putting the observer inside the frame. **It is the best available answer to any group whose concepts are a
+defilement.**
+
+## What the corrections tally says
+
+Across the rework, writers corrected the briefing notes I gave them in almost every film: nine in one
+record, five in two others, and at least two in most of the rest. The recurring kinds are worth knowing
+because they will recur: a chronicle that does not contain the story attributed to it; a founding legend
+carried only by texts centuries later, sometimes written by the site's own monks; a figure repeated verbatim
+across dozens of pages with no source; a claim that belongs to a **different site** with a similar name; a
+date that cannot be right on its own terms. **Brief the location, never the facts — and tell the writer the
+notes are a starting point it is expected to correct.**
+
 ## Applied so far
 
 - **GRP-01 (2026-09-25).** Ten of twelve rewritten onto story-bound locations, then a second pass for
