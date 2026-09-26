@@ -12,7 +12,7 @@ As of this run: 137 candidates, 25 concepts held by a single live carrier, 0 alr
 
 | Group | Films | Candidates | Confirmed | Concepts | Held by one idea only |
 | --- | --- | --- | --- | --- | --- |
-| GRP-01 The Names of Things | 8 | 12 | 7 | 6 | C018 (IDEA-0007) |
+| GRP-01 The Names of Things | 8 | 12 | 0 | 6 | C018 (IDEA-0007) |
 | GRP-02 Wanting | 10 | 14 | 1 | 5 | — |
 | GRP-03 Anger and Fear | 9 | 14 | 0 | 4 | — |
 | GRP-04 Lost | 8 | 11 | 0 | 5 | C049 (IDEA-0060) |
@@ -25,16 +25,16 @@ As of this run: 137 candidates, 25 concepts held by a single live carrier, 0 alr
 
 ## GRP-01 The Names of Things
 
-8 films from 12 candidates; 7 confirmed, 0 rejected.
+8 films from 12 candidates; 0 confirmed, 0 rejected.
 
 | Concept | Carried by | Still available | Confirmed |
 | --- | --- | --- | --- |
-| C001 | 5 | IDEA-0001, IDEA-0005, IDEA-0008, IDEA-0009, IDEA-0012 | IDEA-0001, IDEA-0008, IDEA-0009 |
-| C002 | 3 | IDEA-0004, IDEA-0007, IDEA-0012 | IDEA-0004, IDEA-0007 |
-| C003 | 2 | IDEA-0007, IDEA-0012 | IDEA-0007 |
-| C018 ⚠ | 1 | IDEA-0007 | IDEA-0007 |
-| C077 | 5 | IDEA-0002, IDEA-0005, IDEA-0006, IDEA-0010, IDEA-0011 | IDEA-0002 |
-| C084 | 10 | IDEA-0001, IDEA-0002, IDEA-0003, IDEA-0004, IDEA-0005, IDEA-0006, IDEA-0008, IDEA-0009, IDEA-0010, IDEA-0011 | IDEA-0001, IDEA-0002, IDEA-0003, IDEA-0004, IDEA-0008, IDEA-0009 |
+| C001 | 5 | IDEA-0001, IDEA-0005, IDEA-0008, IDEA-0009, IDEA-0012 | — |
+| C002 | 3 | IDEA-0004, IDEA-0007, IDEA-0012 | — |
+| C003 | 2 | IDEA-0007, IDEA-0012 | — |
+| C018 ⚠ | 1 | IDEA-0007 | — |
+| C077 | 5 | IDEA-0002, IDEA-0005, IDEA-0006, IDEA-0010, IDEA-0011 | — |
+| C084 | 10 | IDEA-0001, IDEA-0002, IDEA-0003, IDEA-0004, IDEA-0005, IDEA-0006, IDEA-0008, IDEA-0009, IDEA-0010, IDEA-0011 | — |
 
 ## GRP-02 Wanting
 

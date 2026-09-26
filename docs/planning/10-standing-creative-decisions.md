@@ -244,6 +244,20 @@ across dozens of pages with no source; a claim that belongs to a **different sit
 date that cannot be right on its own terms. **Brief the location, never the facts — and tell the writer the
 notes are a starting point it is expected to correct.**
 
+**Three more kinds, added 2026-09-26 from GRP-03's first record.** *An argument from silence reported as
+testimony* — I wrote that four sources "doubt" a killing when one denied it, one did not mention it and two
+were simply silent; silence is not a denial and must never be counted as one. *An attribution whose
+"scholars attribute" names no scholar* — and which, when traced, contradicted the same literature's own
+description of the object. *A chronicle account told halfway* — the source gave a wound, and then an
+astrologer, a prince and witchcraft, and the modern retelling keeps only the wound because only the wound
+sounds like history. Take the whole passage or none of it.
+
+And a structural one, not a factual one: **the earliest reachable attestation is a required field of
+thinking, not a nicety.** Twice now a story has turned out to enter the record centuries after the event,
+once through a newspaper travel article that miscredited a chronicle and was then copied everywhere. Ask of
+every story: *who first wrote this down, and when, and what did they stand to gain?* In the best case that
+question is not an obstacle to the film — it **is** the film.
+
 ## Applied so far
 
 - **GRP-01 (2026-09-25).** Ten of twelve rewritten onto story-bound locations, then a second pass for

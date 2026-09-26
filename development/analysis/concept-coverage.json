@@ -11,7 +11,7 @@
       "title": "The Names of Things",
       "film_count": 8,
       "candidates": 12,
-      "confirmed": 7,
+      "confirmed": 0,
       "rejected": 0,
       "sole_carrier": [
         {
@@ -23,14 +23,11 @@
           "still_available": [
             "IDEA-0007"
           ],
-          "confirmed_carriers": [
-            "IDEA-0007"
-          ]
+          "confirmed_carriers": []
         }
       ],
       "lost": [],
-      "not_yet_confirmed": [],
-      "concepts": [
+      "not_yet_confirmed": [
         {
           "concept_id": "C001",
           "role_gloss": "Abhidhamma itself and the split between conventional truth (names) and ultimate truth (what is actually there), the lens for the whole series.",
@@ -48,11 +45,7 @@
             "IDEA-0009",
             "IDEA-0012"
           ],
-          "confirmed_carriers": [
-            "IDEA-0001",
-            "IDEA-0008",
-            "IDEA-0009"
-          ]
+          "confirmed_carriers": []
         },
         {
           "concept_id": "C002",
@@ -67,10 +60,7 @@
             "IDEA-0007",
             "IDEA-0012"
           ],
-          "confirmed_carriers": [
-            "IDEA-0004",
-            "IDEA-0007"
-          ]
+          "confirmed_carriers": []
         },
         {
           "concept_id": "C003",
@@ -83,9 +73,7 @@
             "IDEA-0007",
             "IDEA-0012"
           ],
-          "confirmed_carriers": [
-            "IDEA-0007"
-          ]
+          "confirmed_carriers": []
         },
         {
           "concept_id": "C018",
@@ -96,9 +84,7 @@
           "still_available": [
             "IDEA-0007"
           ],
-          "confirmed_carriers": [
-            "IDEA-0007"
-          ]
+          "confirmed_carriers": []
         },
         {
           "concept_id": "C077",
@@ -117,9 +103,7 @@
             "IDEA-0010",
             "IDEA-0011"
           ],
-          "confirmed_carriers": [
-            "IDEA-0002"
-          ]
+          "confirmed_carriers": []
         },
         {
           "concept_id": "C084",
@@ -148,14 +132,115 @@
             "IDEA-0010",
             "IDEA-0011"
           ],
-          "confirmed_carriers": [
+          "confirmed_carriers": []
+        }
+      ],
+      "concepts": [
+        {
+          "concept_id": "C001",
+          "role_gloss": "Abhidhamma itself and the split between conventional truth (names) and ultimate truth (what is actually there), the lens for the whole series.",
+          "candidates": [
+            "IDEA-0001",
+            "IDEA-0005",
+            "IDEA-0008",
+            "IDEA-0009",
+            "IDEA-0012"
+          ],
+          "still_available": [
+            "IDEA-0001",
+            "IDEA-0005",
+            "IDEA-0008",
+            "IDEA-0009",
+            "IDEA-0012"
+          ],
+          "confirmed_carriers": []
+        },
+        {
+          "concept_id": "C002",
+          "role_gloss": "The four ultimate realities: mind, mental factors, matter, Nibbāna. Three are met across the series; the fourth is reached only in Group 10.",
+          "candidates": [
+            "IDEA-0004",
+            "IDEA-0007",
+            "IDEA-0012"
+          ],
+          "still_available": [
+            "IDEA-0004",
+            "IDEA-0007",
+            "IDEA-0012"
+          ],
+          "confirmed_carriers": []
+        },
+        {
+          "concept_id": "C003",
+          "role_gloss": "How mind is classified by plane and kind: the first sight of the map.",
+          "candidates": [
+            "IDEA-0007",
+            "IDEA-0012"
+          ],
+          "still_available": [
+            "IDEA-0007",
+            "IDEA-0012"
+          ],
+          "confirmed_carriers": []
+        },
+        {
+          "concept_id": "C018",
+          "role_gloss": "The full 121 types of consciousness: the whole map in one view, unfolded group by group.",
+          "candidates": [
+            "IDEA-0007"
+          ],
+          "still_available": [
+            "IDEA-0007"
+          ],
+          "confirmed_carriers": []
+        },
+        {
+          "concept_id": "C077",
+          "role_gloss": "The compendium of all things (aggregates, sense bases, elements, noble truths): what a 'person' is made of when the name is removed.",
+          "candidates": [
+            "IDEA-0002",
+            "IDEA-0005",
+            "IDEA-0006",
+            "IDEA-0010",
+            "IDEA-0011"
+          ],
+          "still_available": [
+            "IDEA-0002",
+            "IDEA-0005",
+            "IDEA-0006",
+            "IDEA-0010",
+            "IDEA-0011"
+          ],
+          "confirmed_carriers": []
+        },
+        {
+          "concept_id": "C084",
+          "role_gloss": "Concepts and names (paññatti): how names point to things, and names for things that do not ultimately exist.",
+          "candidates": [
             "IDEA-0001",
             "IDEA-0002",
             "IDEA-0003",
             "IDEA-0004",
+            "IDEA-0005",
+            "IDEA-0006",
             "IDEA-0008",
-            "IDEA-0009"
-          ]
+            "IDEA-0009",
+            "IDEA-0010",
+            "IDEA-0011"
+          ],
+          "still_available": [
+            "IDEA-0001",
+            "IDEA-0002",
+            "IDEA-0003",
+            "IDEA-0004",
+            "IDEA-0005",
+            "IDEA-0006",
+            "IDEA-0008",
+            "IDEA-0009",
+            "IDEA-0010",
+            "IDEA-0011"
+          ],
+          "confirmed_carriers": []
         }
       ]
     },
